@@ -1,0 +1,35 @@
+# --- Class 10 CBSE study-material repo -------------------------------------
+# This repo is a FOLDER SCAFFOLD: the tree, the READMEs and the scripts are
+# tracked in Git. Your study material (PDFs, videos, answer scans) is usually
+# large and copyrighted, so it is ignored by default. Delete a line below if
+# you really want to commit that kind of file.
+
+# Large / binary study material
+*.pdf
+*.PDF
+*.epub
+*.zip
+*.rar
+*.7z
+*.gz
+*.tar
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.mp3
+*.m4a
+
+# Working copies of documents you edit locally
+~$*
+*.tmp
+*.bak
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
