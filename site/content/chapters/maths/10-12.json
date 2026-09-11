@@ -1,0 +1,195 @@
+[
+  {
+    "id": "ch10-circles",
+    "num": 10,
+    "title": "Circles",
+    "unit": "u4",
+    "unit_name": "IV \u00b7 Geometry",
+    "weight": "5\u20136 marks",
+    "short": "Tangents to a circle and the number of tangents from a point.",
+    "lede": "Two theorems and a handful of standard figures cover this chapter.",
+    "lens": [
+      "The rest of the **15-mark Geometry unit**, roughly **5\u20136 marks**.",
+      "Expect a tangent-length proof (3 marks) and objective questions on the number of tangents from a point."
+    ],
+    "concepts": [
+      "**1. Tangent.** A line that touches the circle at exactly one point. That point is the **point of contact**.",
+      "**2. Theorem 10.1.** The tangent at any point of a circle is **perpendicular** to the radius through the point of contact.",
+      "**3. Theorem 10.2.** The lengths of tangents drawn from an **external point** to a circle are **equal**.",
+      {"table": {"head": ["Position of the point", "Number of tangents"], "rows": [["Inside the circle", "None"], ["On the circle", "Exactly one"], ["Outside the circle", "Exactly two"]]}},
+      "**4. Standard consequences.** A tangent is parallel to the tangent at the opposite end of a diameter; a parallelogram circumscribing a circle is a rhombus; and the angle between two tangents from an external point is supplementary to the angle subtended by the chord of contact at the centre."
+    ],
+    "formulas": [
+      "Tangent \u22a5 radius at the point of contact",
+      "PA = PB for tangents from an external point P",
+      "Tangent length = \u221a(d\u00b2 \u2212 r\u00b2), where d is the distance from the centre"
+    ],
+    "tricks": [
+      "- **Always join the centre to the point of contact.** That creates the right angle you need, and it is the first line of almost every proof here.",
+      "- For a triangle circumscribing a circle, let the tangent segments from each vertex be x, y, z. The three side lengths give three equations, and the perimeter is 2(x + y + z).",
+      "- \u201cProve the tangents are equal\u201d is done by joining the centre to both points of contact and to the external point, then using RHS congruence.",
+      "- The angle between two tangents and the angle at the centre **add to 180\u00b0**."
+    ],
+    "mistakes": [
+      "- Forgetting to state that the radius is perpendicular to the tangent \u2014 that is a marked step.",
+      "- Assuming the two tangent lengths are equal when the point is inside or on the circle.",
+      "- In the circumscribed-triangle problem, mixing up which segment belongs to which vertex.",
+      "- Writing \u201cthe angle is 90\u00b0\u201d without naming the theorem that gives it."
+    ],
+    "qa": [
+      {"m": "1", "q": "How many tangents can be drawn from a point inside a circle?", "a": "None. A line through an interior point must cut the circle at two points."},
+      {"m": "2", "q": "From a point 13 cm from the centre of a circle of radius 5 cm, a tangent is drawn. Find its length.", "a": ["The tangent is perpendicular to the radius at the point of contact, so the three lengths form a right triangle.", "Length = \u221a(13\u00b2 \u2212 5\u00b2) = \u221a144 = 12 cm."]},
+      {"m": "3", "q": "Prove that the lengths of tangents drawn from an external point to a circle are equal.", "a": ["Let P be the external point and PA, PB the tangents with points of contact A and B.", "Join OA, OB and OP.", "In \u0394OAP and \u0394OBP: OA = OB (radii), OP is common, and \u2220OAP = \u2220OBP = 90\u00b0 (tangent \u22a5 radius).", "By RHS congruence, \u0394OAP \u2245 \u0394OBP, so PA = PB."]},
+      {"m": "4", "q": "A quadrilateral ABCD circumscribes a circle. Prove that AB + CD = AD + BC.", "a": ["Let the tangent segments from A, B, C, D be p, q, r, s respectively.", "Then AB = p + q, BC = q + r, CD = r + s and AD = p + s.", "AB + CD = p + q + r + s and AD + BC = p + s + q + r.", "The two sums are identical, so AB + CD = AD + BC."]}
+    ],
+    "mcq": [
+      {"q": "The number of tangents from a point on the circle is: (a) 0  (b) 1  (c) 2  (d) infinite", "a": "**(b) 1.**"},
+      {"q": "The angle between a tangent and the radius at the point of contact is: (a) 45\u00b0  (b) 60\u00b0  (c) 90\u00b0  (d) 180\u00b0", "a": "**(c) 90\u00b0.**"},
+      {"q": "Two tangents from an external point to a circle are: (a) unequal  (b) equal  (c) always perpendicular  (d) parallel", "a": "**(b) Equal.**"}
+    ],
+    "trend": "One tangent-length proof or numerical (3 marks) and objective questions on the number of tangents.",
+    "onepager": [
+      "- Tangent \u22a5 radius at the point of contact.",
+      "- Tangents from one external point are equal.",
+      "- 0 tangents inside, 1 on, 2 outside."
+    ],
+    "task": [
+      "Draw a circle, take an external point, and construct both tangents with compass and ruler. Measure them \u2014 they should match, which is Theorem 10.2 in your hand."
+    ]
+  },
+  {
+    "id": "ch11-areas-related-to-circles",
+    "num": 11,
+    "title": "Areas Related to Circles",
+    "unit": "u6",
+    "unit_name": "VI \u00b7 Mensuration",
+    "weight": "4\u20135 marks",
+    "short": "Sectors, segments and combined figures.",
+    "lede": "Perimeter of a sector and area of a segment \u2014 two formulas and a lot of care with the radius.",
+    "lens": [
+      "Part of the **10-mark Mensuration unit**, roughly **4\u20135 marks**.",
+      "Typically one question on the perimeter or area of a sector, and one on a segment or a combined figure.",
+      "Only sectors and segments of a circle remain in the rationalised syllabus."
+    ],
+    "concepts": [
+      "**1. Sector.** The region between two radii and the arc joining their endpoints. The angle at the centre is \u03b8.",
+      "**2. Segment.** The region between a chord and the arc it cuts off. The minor segment uses the minor arc.",
+      {"table": {"head": ["Quantity", "Formula (\u03b8 in degrees)"], "rows": [["Length of arc", "(\u03b8/360) \u00d7 2\u03c0r"], ["Area of sector", "(\u03b8/360) \u00d7 \u03c0r\u00b2"], ["Area of the triangle formed by the two radii and the chord", "\u00bd r\u00b2 sin \u03b8"], ["Area of the segment", "Area of sector \u2212 area of that triangle"]]}},
+      "**3. Combined figures.** Most questions are a square or rectangle with quadrant-shaped corners removed, or a circle inscribed in a square. Subtract the parts you do not want.",
+      "**4. Circle inscribed in a square:** the diameter equals the side. **Circle circumscribing a square:** the diameter equals the diagonal, `a\u221a2`."
+    ],
+    "formulas": [
+      "Arc length = (\u03b8/360) \u00d7 2\u03c0r",
+      "Sector area = (\u03b8/360) \u00d7 \u03c0r\u00b2",
+      "Segment area = sector area \u2212 \u00bd r\u00b2 sin \u03b8",
+      "Perimeter of a sector = 2r + arc length",
+      "Quadrant = sector with \u03b8 = 90\u00b0"
+    ],
+    "tricks": [
+      "- **Perimeter of a sector is 2r + arc**, not just the arc. Missing the two radii is the most common error here.",
+      "- For \u03b8 = 90\u00b0 the sector area is exactly one quarter of \u03c0r\u00b2; for \u03b8 = 60\u00b0, one sixth.",
+      "- Circle inscribed in a square of side a: wasted area = a\u00b2 \u2212 \u03c0a\u00b2/4. Circle circumscribing it: wasted area = \u03c0a\u00b2/2 \u2212 a\u00b2.",
+      "- Take \u03c0 as 22/7 when the radius is a multiple of 7 \u2014 the arithmetic collapses. Otherwise use 3.14."
+    ],
+    "mistakes": [
+      "- Forgetting to add the two radii to the perimeter of a sector.",
+      "- Using the diameter where the formula needs the radius.",
+      "- Computing the segment as sector minus chord *length* instead of sector minus **triangle area**.",
+      "- Mixing degrees and radians. The CBSE formulas use degrees only."
+    ],
+    "qa": [
+      {"m": "2", "q": "Find the length of an arc of a sector with radius 21 cm and central angle 120\u00b0.", "a": ["Arc = (120/360) \u00d7 2 \u00d7 (22/7) \u00d7 21 = (1/3) \u00d7 132 = 44 cm."]},
+      {"m": "3", "q": "Find the area of a sector of radius 6 cm with a central angle of 60\u00b0 (take \u03c0 = 3.14).", "a": ["Area = (60/360) \u00d7 3.14 \u00d7 36 = (1/6) \u00d7 113.04 = 18.84 cm\u00b2."]},
+      {"m": "3", "q": "Find the perimeter of a sector with radius 14 cm and central angle 90\u00b0.", "a": ["Arc = (90/360) \u00d7 2 \u00d7 (22/7) \u00d7 14 = (1/4) \u00d7 88 = 22 cm.", "Perimeter = 2(14) + 22 = 50 cm."]},
+      {"m": "4", "q": "A square of side 14 cm has a circle inscribed in it. Find the area between the square and the circle.", "a": ["The inscribed circle has diameter 14 cm, so radius 7 cm.", "Area of square = 196 cm\u00b2. Area of circle = (22/7) \u00d7 49 = 154 cm\u00b2.", "Required area = 196 \u2212 154 = 42 cm\u00b2."]}
+    ],
+    "mcq": [
+      {"q": "The area of a quadrant of a circle of radius r is: (a) \u03c0r\u00b2/2  (b) \u03c0r\u00b2/4  (c) 2\u03c0r  (d) \u03c0r\u00b2", "a": "**(b) \u03c0r\u00b2/4.**"},
+      {"q": "The perimeter of a sector includes: (a) only the arc  (b) the arc and one radius  (c) the arc and two radii  (d) the chord and the arc", "a": "**(c) The arc and two radii.**"},
+      {"q": "The area of a segment is found by: (a) sector \u2212 triangle  (b) sector + triangle  (c) circle \u2212 sector  (d) triangle \u2212 sector", "a": "**(a) Sector \u2212 triangle.**"}
+    ],
+    "trend": "One sector perimeter/area question and one combined-figure question. Quadrant corners cut from a square is the classic combined figure.",
+    "onepager": [
+      "- Sector perimeter = 2r + arc.",
+      "- Segment = sector \u2212 triangle.",
+      "- Inscribed circle: diameter = side of square."
+    ],
+    "task": [
+      "Cut four identical quadrants from the corners of a square card and lay them together \u2014 they form exactly one full circle when the radius is half the side."
+    ]
+  },
+  {
+    "id": "ch12-surface-areas-and-volumes",
+    "num": 12,
+    "title": "Surface Areas and Volumes",
+    "unit": "u6",
+    "unit_name": "VI \u00b7 Mensuration",
+    "weight": "5\u20136 marks",
+    "short": "Combinations of solids, conversion of solids, and the frustum.",
+    "lede": "A table of formulas plus three standard question types. The frustum is worth learning separately.",
+    "lens": [
+      "The rest of the **10-mark Mensuration unit**, roughly **5\u20136 marks**.",
+      "Expect one question on a combination of solids (3\u20134 marks) and one on conversion of solids or a frustum (3\u20134 marks).",
+      "Surface area questions almost always involve **removing** a surface where two solids join \u2014 that is where the marks are."
+    ],
+    "concepts": [
+      "**1. Combinations of solids.** A solid made of two or more basic solids. Total surface area = sum of the *curved/lateral* surface areas actually exposed. Where two solids join, the joining face is **not** part of the outer surface.",
+      "**2. Volume is additive.** Unlike surface area, the volume of a combination is simply the sum of the volumes of its parts.",
+      "**3. Conversion of solids.** When one solid is melted and recast into another, or many small solids are combined into one, **the volume stays the same**. Set volume before = volume after and solve.",
+      "**4. Frustum of a cone.** The part of a cone left after a smaller cone is cut off the top by a plane parallel to the base. Its slant height is `l = \u221a[h\u00b2 + (R \u2212 r)\u00b2]`.",
+      {"table": {"head": ["Solid", "Curved surface area", "Volume"], "rows": [["Cuboid", "\u2014 (total = 2(lb + bh + hl))", "l \u00d7 b \u00d7 h"], ["Cylinder", "2\u03c0rh", "\u03c0r\u00b2h"], ["Cone", "\u03c0rl", "\u03c0r\u00b2h/3"], ["Sphere", "4\u03c0r\u00b2", "4\u03c0r\u00b3/3"], ["Hemisphere", "2\u03c0r\u00b2 (curved), 3\u03c0r\u00b2 (total)", "2\u03c0r\u00b3/3"], ["Frustum", "\u03c0(R + r)l", "\u03c0h(R\u00b2 + r\u00b2 + Rr)/3"]]}},
+      "**5. Cylindrical hole drilled through a solid.** Subtract the cylinder\u2019s volume, but its curved surface is now **exposed**, so add it to the surface area. Then remove the two circular faces where it was drilled."
+    ],
+    "formulas": [
+      "Cylinder: CSA = 2\u03c0rh,  V = \u03c0r\u00b2h",
+      "Cone: CSA = \u03c0rl,  V = \u03c0r\u00b2h/3,  l = \u221a(r\u00b2 + h\u00b2)",
+      "Sphere: SA = 4\u03c0r\u00b2,  V = 4\u03c0r\u00b3/3",
+      "Hemisphere: CSA = 2\u03c0r\u00b2,  TSA = 3\u03c0r\u00b2,  V = 2\u03c0r\u00b3/3",
+      "Frustum: l = \u221a[h\u00b2 + (R \u2212 r)\u00b2],  CSA = \u03c0(R + r)l",
+      "Frustum volume = \u03c0h(R\u00b2 + r\u00b2 + Rr)/3",
+      "Total surface area of a frustum = \u03c0(R + r)l + \u03c0R\u00b2 + \u03c0r\u00b2"
+    ],
+    "steps": [
+      "1. Sketch the solid and label every dimension, including any that must be inferred (for example the height of a cone placed on a cylinder).",
+      "2. Decide what is **exposed**. Cross out joining faces on the sketch.",
+      "3. Write the formula for each part separately before substituting anything.",
+      "4. For conversion problems, write *volume before = volume after* first, then substitute.",
+      "5. Give the final answer with units, and to the number of decimal places asked (usually two, with \u03c0 = 22/7 or 3.14 as specified)."
+    ],
+    "tricks": [
+      "- **Hemisphere on top of a cuboid or cylinder:** the flat circular base of the hemisphere is *not* part of the outer surface. Use only its curved area, 2\u03c0r\u00b2.",
+      "- **Cone on top of a cylinder with the same radius:** the joining circular face disappears from the surface area, but both heights add in the volume.",
+      "- **Conversion problems are one equation.** Number of small spheres \u00d7 volume of one = volume of the big one. Do not compute individual volumes first.",
+      "- **Frustum slant height uses (R \u2212 r), not (R + r).** That single sign decides the whole answer.",
+      "- When a question says \u201cslant height\u201d is given, do not recompute it from r and h."
+    ],
+    "mistakes": [
+      "- Including the joining face in the total surface area.",
+      "- Using \u03c0r\u00b2h for a cone instead of \u03c0r\u00b2h/3.",
+      "- Forgetting to divide by 3 for cones and pyramids.",
+      "- In conversion problems, equating *surface areas* instead of volumes. Melting preserves volume, never surface area.",
+      "- Writing the answer without units, or with the wrong unit (cm\u00b2 for area, cm\u00b3 for volume)."
+    ],
+    "qa": [
+      {"m": "3", "q": "A solid consists of a cylinder with a hemisphere on one end and a cone on the other, all of radius 7 cm. The cylinder is 20 cm high, the cone 12 cm high. Find the total surface area (take \u03c0 = 22/7).", "a": ["Cylinder CSA = 2 \u00d7 (22/7) \u00d7 7 \u00d7 20 = 880 cm\u00b2.", "Hemisphere CSA = 2 \u00d7 (22/7) \u00d7 49 = 308 cm\u00b2.", "Cone slant height l = \u221a(7\u00b2 + 12\u00b2) = \u221a193 \u2248 13.89 cm, so cone CSA = (22/7) \u00d7 7 \u00d7 13.89 \u2248 305.6 cm\u00b2.", "Total \u2248 880 + 308 + 305.6 = 1493.6 cm\u00b2. The two circular joining faces are not counted."]},
+      {"m": "3", "q": "A solid metallic sphere of radius 4.2 cm is melted and recast into a cylinder of radius 6 cm. Find the height of the cylinder.", "a": ["Volume of sphere = volume of cylinder.", "(4/3)\u03c0(4.2)\u00b3 = \u03c0(6)\u00b2h.", "h = (4 \u00d7 74.088)/(3 \u00d7 36) = 296.352/108 \u2248 2.74 cm."]},
+      {"m": "4", "q": "100 solid iron spheres, each of radius 1 cm, are melted to form one solid sphere. Find its radius.", "a": ["Total volume is conserved: 100 \u00d7 (4/3)\u03c0(1)\u00b3 = (4/3)\u03c0R\u00b3.", "Cancelling (4/3)\u03c0: R\u00b3 = 100, so R = \u221b100 \u2248 4.64 cm."]},
+      {"m": "4", "q": "A frustum of a cone has radii 14 cm and 7 cm and height 24 cm. Find its slant height and curved surface area (take \u03c0 = 22/7).", "a": ["l = \u221a[24\u00b2 + (14 \u2212 7)\u00b2] = \u221a(576 + 49) = \u221a625 = 25 cm.", "CSA = \u03c0(R + r)l = (22/7) \u00d7 (14 + 7) \u00d7 25 = (22/7) \u00d7 21 \u00d7 25 = 1650 cm\u00b2."]}
+    ],
+    "mcq": [
+      {"q": "The volume of a cone of radius r and height h is: (a) \u03c0r\u00b2h  (b) \u03c0r\u00b2h/3  (c) 2\u03c0r\u00b2h  (d) \u03c0rh", "a": "**(b) \u03c0r\u00b2h/3.**"},
+      {"q": "When a solid is melted and recast into another shape, which quantity is conserved? (a) surface area  (b) volume  (c) both  (d) neither", "a": "**(b) Volume.** Surface area almost always changes."},
+      {"q": "The slant height of a frustum with radii R and r and height h is: (a) \u221a[h\u00b2 + (R + r)\u00b2]  (b) \u221a[h\u00b2 + (R \u2212 r)\u00b2]  (c) h + R + r  (d) \u221a(R\u00b2 \u2212 r\u00b2)", "a": "**(b) \u221a[h\u00b2 + (R \u2212 r)\u00b2].**"}
+    ],
+    "trend": "One combination-of-solids surface area question and one conversion or frustum question appear most years. The frustum has been asked repeatedly since it was retained in the syllabus.",
+    "onepager": [
+      "- Surface area: count only what is exposed. Volume: always additive.",
+      "- Melting conserves volume, never surface area.",
+      "- Cone volume has the 1/3. Hemisphere CSA is 2\u03c0r\u00b2, TSA is 3\u03c0r\u00b2.",
+      "- Frustum slant height uses (R \u2212 r)."
+    ],
+    "task": [
+      "Take a cylindrical container and a cone of the same radius and height. Fill the cone with water and pour it into the cylinder three times \u2014 it should exactly fill it. That is the 1/3 in the cone formula."
+    ]
+  }
+]

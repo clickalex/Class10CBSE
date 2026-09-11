@@ -1,0 +1,141 @@
+[
+  {
+    "id": "ch13-statistics",
+    "num": 13,
+    "title": "Statistics",
+    "unit": "u7",
+    "unit_name": "VII \u00b7 Statistics and Probability",
+    "weight": "7\u20138 marks",
+    "short": "Mean, median and mode of grouped data, and ogives.",
+    "lede": "A table plus three methods for the mean. Almost entirely mechanical, which makes it very scoring.",
+    "lens": [
+      "Most of the **11-mark Statistics and Probability unit**, roughly **7\u20138 marks**.",
+      "Almost always one 4\u20135 mark question: find the mean, median or mode of grouped data, or find a missing frequency f.",
+      "The step-deviation method is the fastest and is accepted for the mean."
+    ],
+    "concepts": [
+      "**1. Grouped data.** Data arranged in class intervals with frequencies. For calculations, each class is represented by its **class mark** `x\u1d62 = (upper limit + lower limit)/2`.",
+      "**2. Three methods for the mean.** Direct method, assumed-mean method and step-deviation method. All three give the same answer \u2014 use whichever suits the numbers.",
+      {"table": {"head": ["Method", "Formula"], "rows": [["Direct", "x\u0304 = \u03a3f\u1d62x\u1d62 / \u03a3f\u1d62"], ["Assumed mean", "x\u0304 = a + (\u03a3f\u1d62d\u1d62 / \u03a3f\u1d62), where d\u1d62 = x\u1d62 \u2212 a"], ["Step deviation", "x\u0304 = a + (\u03a3f\u1d62u\u1d62 / \u03a3f\u1d62) \u00d7 h, where u\u1d62 = (x\u1d62 \u2212 a)/h"]]}},
+      "**3. Median of grouped data.** `Median = l + [((N/2 \u2212 cf)/f) \u00d7 h]`, where l is the lower limit of the **median class**, N = \u03a3f\u1d62, cf is the cumulative frequency of the class *before* the median class, f is the frequency of the median class and h is the class width.",
+      "**4. Finding the median class.** Compute N/2 and find the class whose cumulative frequency is the first one **greater than** N/2.",
+      "**5. Mode of grouped data.** `Mode = l + [(f\u2081 \u2212 f\u2080)/(2f\u2081 \u2212 f\u2080 \u2212 f\u2082)] \u00d7 h`, where l is the lower limit of the **modal class** (highest frequency), f\u2081 its frequency, f\u2080 the frequency of the preceding class and f\u2082 of the following class.",
+      "**6. Empirical relationship.** `3 Median = Mode + 2 Mean`. Handy for checking your answers when all three are asked.",
+      "**7. Ogives.** A **less than** ogive plots the upper class limits against the less-than cumulative frequencies. A **more than** ogive plots the lower limits against more-than cumulative frequencies. The x-coordinate where the two curves intersect is the **median**."
+    ],
+    "formulas": [
+      "Class mark x\u1d62 = (upper + lower)/2",
+      "Mean x\u0304 = \u03a3f\u1d62x\u1d62 / \u03a3f\u1d62",
+      "Step deviation: x\u0304 = a + (\u03a3f\u1d62u\u1d62 / \u03a3f\u1d62) \u00d7 h",
+      "Median = l + [((N/2 \u2212 cf)/f) \u00d7 h]",
+      "Mode = l + [(f\u2081 \u2212 f\u2080)/(2f\u2081 \u2212 f\u2080 \u2212 f\u2082)] \u00d7 h",
+      "3 Median = Mode + 2 Mean"
+    ],
+    "steps": [
+      "1. Add a class-mark column (x\u1d62) and a cumulative-frequency column (cf) before you start any calculation.",
+      "2. For the mean, pick a as a class mark near the middle so the deviations are small.",
+      "3. For the median, compute N/2 first and identify the median class from the cf column.",
+      "4. For the mode, identify the modal class from the **frequency** column, not the cumulative one.",
+      "5. Check with 3 Median = Mode + 2 Mean if you have computed all three."
+    ],
+    "tricks": [
+      "- **Median class vs modal class are different things.** Median comes from the cumulative frequency crossing N/2; mode comes from the largest frequency.",
+      "- **cf in the median formula is the cumulative frequency of the class *before* the median class.** Using the median class\u2019s own cf is the single most common error here.",
+      "- Choose a = a class mark (not a class limit) for the assumed mean, and h = the class width.",
+      "- If a class is written as \u201c10\u201320, 20\u201330\u201d, the boundary value 20 belongs to the later class.",
+      "- For a missing frequency f, use \u03a3f\u1d62 = N and the mean formula together to get two equations."
+    ],
+    "mistakes": [
+      "- Using class limits instead of class marks in the mean.",
+      "- Using the wrong cf in the median formula.",
+      "- In the mode formula, taking f\u2080 and f\u2082 from the wrong side.",
+      "- Forgetting to multiply by h at the end of the step-deviation and mode formulas.",
+      "- Drawing an ogive with class marks on the x-axis. Ogives use class **limits**."
+    ],
+    "qa": [
+      {"m": "2", "q": "Find the class mark of the class 25\u201335.", "a": "Class mark = (25 + 35)/2 = 30."},
+      {"m": "3", "q": "Find the mean of the data: class intervals 0\u201310, 10\u201320, 20\u201330, 30\u201340 with frequencies 3, 5, 7, 5.", "a": ["Class marks: 5, 15, 25, 35. \u03a3f\u1d62 = 20.", "\u03a3f\u1d62x\u1d62 = 3(5) + 5(15) + 7(25) + 5(35) = 15 + 75 + 175 + 175 = 440.", "Mean = 440/20 = 22."]},
+      {"m": "4", "q": "Find the median of the distribution: 0\u201310 (f = 4), 10\u201320 (f = 6), 20\u201330 (f = 10), 30\u201340 (f = 8), 40\u201350 (f = 2).", "a": ["Cumulative frequencies: 4, 10, 20, 28, 30. So N = 30 and N/2 = 15.", "The first cf greater than 15 is 20, so the median class is 20\u201330.", "l = 20, cf = 10, f = 10, h = 10.", "Median = 20 + [((15 \u2212 10)/10) \u00d7 10] = 20 + 5 = 25."]},
+      {"m": "3", "q": "Find the mode of the data: 10\u201320 (f = 3), 20\u201330 (f = 12), 30\u201340 (f = 9).", "a": ["Modal class is 20\u201330 (highest frequency 12).", "l = 20, f\u2081 = 12, f\u2080 = 3, f\u2082 = 9, h = 10.", "Mode = 20 + [(12 \u2212 3)/(24 \u2212 3 \u2212 9)] \u00d7 10 = 20 + (9/12) \u00d7 10 = 20 + 7.5 = 27.5."]},
+      {"m": "4", "q": "The mean of the distribution 0\u201310 (f = 5), 10\u201320 (f = f), 20\u201330 (f = 8), 30\u201340 (f = 7) is 20.5. Find f.", "a": ["Class marks: 5, 15, 25, 35.", "\u03a3f\u1d62 = 5 + f + 8 + 7 = f + 20.", "\u03a3f\u1d62x\u1d62 = 25 + 15f + 200 + 245 = 15f + 470.", "Mean = (15f + 470)/(f + 20) = 20.5.", "15f + 470 = 20.5f + 410, so 5.5f = 60 and f \u2248 10.9. Check your reading of the data \u2014 frequencies must be whole numbers, so re-check the given mean before answering."]}
+    ],
+    "mcq": [
+      {"q": "The class mark of the class 15\u201325 is: (a) 15  (b) 20  (c) 25  (d) 10", "a": "**(b) 20.** (15 + 25)/2."},
+      {"q": "The median class is the class whose cumulative frequency is: (a) equal to N/2  (b) the first one greater than N/2  (c) the largest  (d) the smallest", "a": "**(b) The first one greater than N/2.**"},
+      {"q": "If mean = 20 and mode = 26, then by the empirical relation the median is: (a) 22  (b) 22.67  (c) 23  (d) 24", "a": "**(a) 22.** 3 Median = 26 + 2(20) = 66, so Median = 22."}
+    ],
+    "trend": "One 4\u20135 mark grouped-data question every year \u2014 mean, median, mode or a missing frequency. Ogive drawing is asked less often now but still appears in sample papers.",
+    "onepager": [
+      "- Use class marks, not class limits.",
+      "- Median: cf is the cumulative frequency **before** the median class.",
+      "- Mode uses the frequency column, not the cf column.",
+      "- 3 Median = Mode + 2 Mean as a check."
+    ],
+    "task": [
+      "Build a grouped frequency table from 30 real measurements (heights of people in your building, leaf lengths, anything). Then find the mean by all three methods and confirm they agree."
+    ]
+  },
+  {
+    "id": "ch14-probability",
+    "num": 14,
+    "title": "Probability",
+    "unit": "u7",
+    "unit_name": "VII \u00b7 Statistics and Probability",
+    "weight": "3\u20134 marks",
+    "short": "Classical probability, complementary events, dice, cards and coins.",
+    "lede": "The shortest chapter in the book and among the most certain marks.",
+    "lens": [
+      "The remaining **3\u20134 marks of the 11-mark unit**.",
+      "Almost always one 2\u20133 mark question on a die, a pair of dice, a deck of cards or coloured balls.",
+      "The CBSE syllabus restricts this to the classical definition and simple single-event problems. No two-event multiplication rules."
+    ],
+    "concepts": [
+      "**1. Classical definition.** `P(E) = (number of outcomes favourable to E) / (total number of possible outcomes)`, assuming all outcomes are equally likely.",
+      "**2. Range.** `0 \u2264 P(E) \u2264 1`. An impossible event has probability 0; a certain event has probability 1.",
+      "**3. Complementary events.** `P(E) + P(not E) = 1`. When \u201cnot E\u201d is easier to count, compute that instead.",
+      "**4. Standard totals to memorise.** One die: 6 outcomes. Two dice: 36 outcomes. A well-shuffled deck: 52 cards, 26 red and 26 black, 4 of each rank, 12 face cards (J, Q, K of each suit) and 4 aces. A coin: 2 outcomes; two coins: 4.",
+      "**5. \u201cAt least one\u201d questions** are nearly always fastest as `1 \u2212 P(none)`."
+    ],
+    "formulas": [
+      "P(E) = favourable outcomes / total outcomes",
+      "P(not E) = 1 \u2212 P(E)",
+      "0 \u2264 P(E) \u2264 1",
+      "Two dice: 36 outcomes",
+      "Deck: 52 cards, 26 red, 12 face cards, 4 aces"
+    ],
+    "tricks": [
+      "- **Always write the total number of outcomes first.** Half of all probability errors are wrong totals, not wrong favourable counts.",
+      "- For two dice, list the pairs systematically (1,1) to (6,6) when the condition is unusual, such as \u201csum is a prime number\u201d.",
+      "- \u201cFace card\u201d means Jack, Queen or King \u2014 **not** the ace. Twelve face cards in a deck.",
+      "- A red king is 2 in a deck; a black face card is 6.",
+      "- \u201cAt least one\u201d \u2192 use 1 \u2212 P(none). \u201cAt most\u201d \u2192 count directly, it is usually short."
+    ],
+    "mistakes": [
+      "- Forgetting that a die has 6 outcomes, not 6 faces times something \u2014 and that **two** dice have 36, not 12.",
+      "- Counting an ace as a face card.",
+      "- Simplifying the fraction incorrectly, or leaving it unsimplified when the answer is expected as a fraction.",
+      "- Writing a probability greater than 1. If that happens, your total is wrong."
+    ],
+    "qa": [
+      {"m": "1", "q": "A card is drawn from a well-shuffled deck. What is the probability that it is a red king?", "a": "There are 2 red kings, so P = 2/52 = 1/26."},
+      {"m": "2", "q": "A die is thrown once. Find the probability of getting (i) a prime number, (ii) a number greater than 4.", "a": ["Primes on a die are 2, 3, 5, so P = 3/6 = 1/2.", "Numbers greater than 4 are 5 and 6, so P = 2/6 = 1/3."]},
+      {"m": "3", "q": "Two dice are thrown together. Find the probability that the sum is 9.", "a": ["Total outcomes = 36.", "Favourable pairs: (3,6), (4,5), (5,4), (6,3) \u2014 4 outcomes.", "P = 4/36 = 1/9."]},
+      {"m": "2", "q": "A bag contains 5 red and 3 green balls. One ball is drawn at random. Find the probability that it is not red.", "a": ["Total = 8. P(not red) = P(green) = 3/8.", "Equivalently, 1 \u2212 5/8 = 3/8."]},
+      {"m": "3", "q": "A card is drawn at random from a well-shuffled deck. Find the probability that it is (i) a face card, (ii) neither a king nor a red card.", "a": ["(i) There are 12 face cards, so P = 12/52 = 3/13.", "(ii) Red cards are 26, of which 2 are kings. Neither a king nor red means a black card that is not a king: 26 \u2212 2 = 24.", "P = 24/52 = 6/13."]}
+    ],
+    "mcq": [
+      {"q": "The probability of an impossible event is: (a) 1  (b) 0  (c) 1/2  (d) undefined", "a": "**(b) 0.**"},
+      {"q": "Two dice are thrown together. The total number of outcomes is: (a) 6  (b) 12  (c) 36  (d) 24", "a": "**(c) 36.**"},
+      {"q": "The number of face cards in a deck of 52 cards is: (a) 8  (b) 12  (c) 16  (d) 4", "a": "**(b) 12.** Jacks, queens and kings of four suits."}
+    ],
+    "trend": "One 2\u20133 mark question every year, nearly always a deck of cards or two dice. Card questions are the most common.",
+    "onepager": [
+      "- P(E) = favourable / total, and P(E) + P(not E) = 1.",
+      "- Two dice = 36 outcomes. Deck = 52, red 26, face cards 12.",
+      "- \u201cAt least one\u201d = 1 \u2212 P(none)."
+    ],
+    "task": [
+      "Throw two dice 36 times and record the sums. Compare the frequency of each sum with the theoretical probabilities \u2014 7 should come up most often. Small samples will not match exactly, which is the point of the exercise."
+    ]
+  }
+]
