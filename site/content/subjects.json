@@ -1,0 +1,269 @@
+[
+  {
+    "slug": "maths",
+    "title": "Mathematics",
+    "code": "041 / 241",
+    "kicker": "CBSE \u2022 CLASS 10 \u2022 MATHEMATICS",
+    "short": "14 NCERT chapters. Standard and Basic share the syllabus.",
+    "marks": "80 + 20 IA",
+    "blurb": "Fourteen chapters, seven units. **Algebra alone is 20 of the 80 marks** and Statistics + Probability adds 11 \u2014 half the paper sits in six chapters. Every chapter page carries the formula set, the standard method, the mistakes that cost marks and exam Q&A.",
+    "areas_heading": "Seven units",
+    "syllabus_note": "Standard (041) and Basic (241) share this syllabus; Basic tests the same topics at a lower difficulty. Unit marks are from the official CBSE Class X curriculum.",
+    "books": [
+      "- **Mathematics \u2014 Textbook for Class X**, NCERT (primary; every board question traces back here)",
+      "- Mathematics Exemplar Problems for Class X, NCERT (for the harder 4- and 5-mark questions)",
+      "- Laboratory Manual \u2014 Mathematics, secondary stage, NCERT (for the 5-mark lab activity in IA)"
+    ],
+    "removed": [
+      "- **Constructions** (old Chapter 11) \u2014 removed from the Class X book entirely.",
+      "- **Areas Related to Circles**: only sectors and segments of a circle remain; the rest of the old chapter was trimmed."
+    ],
+    "units": [
+      {"id": "u1", "slug": "number-systems", "title": "Unit I \u00b7 Number Systems", "marks": "6 marks", "desc": "Euclid\u2019s division lemma, HCF/LCM, irrationality proofs and terminating decimals.", "tips": ["- Every one of these 6 marks is procedural. Do not lose them to careless long division."]},
+      {"id": "u2", "slug": "algebra", "title": "Unit II \u00b7 Algebra", "marks": "20 marks", "priority": true, "desc": "Polynomials, linear pairs, quadratics and AP \u2014 the single biggest unit in the paper.", "tips": ["- Word problems on AP and on pairs of linear equations are the reliable 4-5 markers."]},
+      {"id": "u3", "slug": "coordinate-geometry", "title": "Unit III \u00b7 Coordinate Geometry", "marks": "6 marks", "desc": "Distance formula, section formula, area of a triangle.", "tips": ["- Shortest unit to finish. Bank these 6 marks early."]},
+      {"id": "u4", "slug": "geometry", "title": "Unit IV \u00b7 Geometry", "marks": "15 marks", "desc": "Similarity in triangles, Pythagoras, and tangents to a circle.", "tips": ["- Learn the theorem statements word-perfect; the 1-mark \u201cstate the theorem\u201d questions are free."]},
+      {"id": "u5", "slug": "trigonometry", "title": "Unit V \u00b7 Trigonometry", "marks": "12 marks", "desc": "Ratios, the standard table, identities, heights and distances.", "tips": ["- Identities are proof-based: write the LHS-to-RHS chain, never both sides at once."]},
+      {"id": "u6", "slug": "mensuration", "title": "Unit VI \u00b7 Mensuration", "marks": "10 marks", "desc": "Sectors and segments, and combinations of solids including the frustum.", "tips": ["- Units. Almost every loss of a mark here is a missing or wrong unit at the end."]},
+      {"id": "u7", "slug": "statistics-probability", "title": "Unit VII \u00b7 Statistics & Probability", "marks": "11 marks", "priority": true, "desc": "Mean, median and mode of grouped data, ogives, and classical probability.", "tips": ["- The most scoring unit per hour of study. Do it before you polish Geometry."]}
+    ],
+    "assessment": [
+      ["Theory paper \u2014 Section A (objective), B, C, D and case-based Section E", "**80**", "Accuracy and steps. Show the formula before substituting."],
+      ["Internal assessment \u2014 pen-paper test + multiple assessment, portfolio, lab activity", "**20**", "Keep the lab manual and portfolio current through the year."],
+      ["Total", "100", "Three hours for the theory paper."]
+    ],
+    "study_order": [
+      "**Algebra first** (20 marks, Chapters 2\u20135) \u2014 the biggest single block of marks.",
+      "**Statistics and Probability** (11 marks) \u2014 short chapters, high yield.",
+      "**Trigonometry** (12 marks) \u2014 the ratio table unlocks both chapters.",
+      "**Geometry** (15 marks) \u2014 theorem statements first, then the proof practice.",
+      "**Mensuration** (10) and **Coordinate Geometry** (6) \u2014 formula-driven.",
+      "**Number Systems** (6) last \u2014 the quickest unit to revise the night before.",
+      "Then two timed full papers with the official marking scheme."
+    ],
+    "countdown": "Target: February\u2013March 2027 boards. Confirm the official date sheet when CBSE publishes it.",
+    "cards": {"practical": "Lab activity + IA"},
+    "practical_note": "The 20 internal marks include a pen-paper test, multiple assessment, a portfolio and a **lab activity from the NCERT Laboratory Manual**.",
+    "practical": [
+      "- **Lab activity (5 marks)**: usually a hands-on verification \u2014 for example verifying the basic proportionality theorem with a cut-out triangle, or the relationship between the surface area of a sphere and a circumscribing cylinder.",
+      "- **Portfolio (5 marks)**: your assignment sheets, the two chapter tests and one model/working file.",
+      "- **What to keep ready**: a clean geometry box, squared paper for graphs and ogives, and every assignment submitted on time \u2014 multiple assessment is largely built from those.",
+      "- Graphs: use a sharp pencil, label both axes, mark the scale, and give the graph a title. Unlabelled axes lose a step mark."
+    ]
+  },
+  {
+    "slug": "science",
+    "title": "Science",
+    "code": "086",
+    "kicker": "CBSE \u2022 CLASS 10 \u2022 SCIENCE",
+    "short": "13 NCERT chapters across Chemistry, Biology and Physics.",
+    "marks": "80 + 20 practical",
+    "blurb": "Thirteen chapters, five units. **Chemistry and Biology are 25 marks each** \u2014 half the paper is Chapters 1 to 8. Each chapter page has the concept, the diagram or numerical method, the memory trick and exam Q&A.",
+    "areas_heading": "Five units",
+    "syllabus_note": "The rationalised NCERT Class X Science book has 13 chapters. Chapter 8 is now titled **Heredity** (older books say \u201cHeredity and Evolution\u201d).",
+    "books": [
+      "- **Science \u2014 Textbook for Class X**, NCERT (the board paper is set from this book, including the activities)",
+      "- NCERT Exemplar Problems for Class X Science (for case-based and higher-order questions)",
+      "- CBSE Laboratory Manual for Class X (the practical exam is drawn from these activities)"
+    ],
+    "removed": [
+      "- **Periodic Classification of Elements** \u2014 removed.",
+      "- **Sources of Energy** \u2014 removed.",
+      "- **Management of Natural Resources** \u2014 removed.",
+      "- Chapter 8 no longer covers the full evolution section; it is now **Heredity**."
+    ],
+    "units": [
+      {"id": "u1", "slug": "chemical-substances", "title": "Unit I \u00b7 Chemical Substances", "marks": "25 marks", "priority": true, "desc": "Reactions and equations, acids bases salts, metals and non-metals, carbon compounds.", "tips": ["- Balancing equations and the reaction types are asked every single year."]},
+      {"id": "u2", "slug": "world-of-living", "title": "Unit II \u00b7 World of Living", "marks": "25 marks", "priority": true, "desc": "Life processes, control and coordination, reproduction, heredity.", "tips": ["- Diagrams carry marks. Draw them large, label with a ruler, and never shade."]},
+      {"id": "u3", "slug": "natural-phenomena", "title": "Unit III \u00b7 Natural Phenomena", "marks": "12 marks", "desc": "Light \u2014 reflection and refraction, the human eye and the colourful world.", "tips": ["- Ray diagrams follow rules; learn the six standard cases and every numerical becomes mechanical."]},
+      {"id": "u4", "slug": "effects-of-current", "title": "Unit IV \u00b7 Effects of Current", "marks": "13 marks", "desc": "Electricity and magnetic effects of current.", "tips": ["- Series vs parallel numericals are the most repeated Physics questions."]},
+      {"id": "u5", "slug": "natural-resources", "title": "Unit V \u00b7 Natural Resources", "marks": "5 marks", "desc": "Our Environment \u2014 food chains, trophic levels, ozone and waste.", "tips": ["- Small chapter, guaranteed marks. The 10% energy-transfer numerical appears often."]}
+    ],
+    "assessment": [
+      ["Theory paper \u2014 objective, short answer, long answer and case-based/source-based", "**80**", "Diagrams labelled; equations balanced; units written."],
+      ["Practical / internal assessment \u2014 lab exam, practical file, two periodic tests, subject enrichment", "**20**", "The practical file must match the activity list exactly."],
+      ["Total", "100", "Three hours for the theory paper."]
+    ],
+    "study_order": [
+      "**Chemistry (Chapters 1\u20134)** first \u2014 25 marks and largely self-contained.",
+      "**Biology (Chapters 5\u20138)** next \u2014 another 25 marks, diagram-heavy.",
+      "**Electricity and Magnetism (11\u201312)** \u2014 13 marks of mostly numericals.",
+      "**Optics (9\u201310)** \u2014 12 marks; do ray diagrams before the numericals.",
+      "**Our Environment (13)** \u2014 quick 5 marks.",
+      "Then one timed paper, with the marking scheme open while you check it."
+    ],
+    "countdown": "The practical exam is usually held in January\u2013February, before the theory paper. Confirm with your school.",
+    "cards": {"practical": "Lab + practical file"},
+    "practical_note": "The 20 internal marks include a **practical examination** on the NCERT activities plus a practical file.",
+    "practical": [
+      "- **Typical practical list**: properties of acids/bases with indicators; the reaction of metals with acid and with salt solutions; the reactivity series; properties of acetic acid; binary fission in amoeba and budding in yeast; CO\u2082 release in respiration; dependence of current on potential difference; series and parallel resistance; properties of a convex lens; and the parts of a dicot seed embryo.",
+      "- **Practical file format per activity**: aim, apparatus/materials, theory (one or two lines), procedure, observation table with units, result, precautions.",
+      "- **Diagram rules**: pencil only, no shading, labels on one side with horizontal guide lines, magnification not required.",
+      "- **Viva**: expect \u201cwhy this precaution?\u201d and \u201cwhat does this observation prove?\u201d \u2014 the reason matters more than the reading."
+    ]
+  },
+  {
+    "slug": "social-science",
+    "title": "Social Science",
+    "code": "087",
+    "kicker": "CBSE \u2022 CLASS 10 \u2022 SOCIAL SCIENCE",
+    "short": "One paper, four disciplines, 20 marks each.",
+    "marks": "80 + 20 IA",
+    "blurb": "History, Geography, Political Science and Economics in **one three-hour paper, 20 marks each**. Plus map pointing, which is the cheapest marks in the whole board. Each chapter page gives the answer frame CBSE actually rewards.",
+    "areas_heading": "Four disciplines",
+    "syllabus_note": "Four separate NCERT books. Several chapters still printed in older copies are **not** assessed \u2014 see below.",
+    "books": [
+      "- **India and the Contemporary World \u2014 II** (History)",
+      "- **Contemporary India \u2014 II** (Geography)",
+      "- **Democratic Politics \u2014 II** (Political Science)",
+      "- **Understanding Economic Development** (Economics)"
+    ],
+    "removed": [
+      "- **Democracy and Diversity** \u2014 full chapter removed.",
+      "- **Popular Struggles and Movements** \u2014 full chapter removed.",
+      "- **Challenges to Democracy** \u2014 full chapter removed.",
+      "- **The Age of Industrialisation** is still printed in the History book but is **not** assessed in the board paper.",
+      "- **The Making of a Global World**: only subtopics 1 to 1.3 are examined.",
+      "- **Manufacturing Industries**: much of the old industry-by-industry detail was trimmed.",
+      "- **Lifelines of National Economy**: map pointing only."
+    ],
+    "units": [
+      {"id": "history", "slug": "history", "title": "History", "marks": "20 marks", "desc": "India and the Contemporary World II \u2014 nationalism, the global world and print culture.", "tips": ["- Write dates and names. Answers without dates score badly in History."]},
+      {"id": "geography", "slug": "geography", "title": "Geography", "marks": "20 marks", "desc": "Contemporary India II \u2014 resources, water, agriculture, minerals, industry.", "tips": ["- Always give an Indian example with a name and a state."]},
+      {"id": "polity", "slug": "political-science", "title": "Political Science", "marks": "20 marks", "priority": true, "desc": "Democratic Politics II \u2014 power sharing, federalism, parties, outcomes.", "tips": ["- Five short chapters, the highest marks-per-hour in the subject."]},
+      {"id": "economics", "slug": "economics", "title": "Economics", "marks": "20 marks", "desc": "Understanding Economic Development \u2014 development, sectors, credit, globalisation.", "tips": ["- Definitions plus one example each. That is the whole answer format."]}
+    ],
+    "assessment": [
+      ["Theory \u2014 History 20, Geography 20, Political Science 20, Economics 20", "**80**", "Points, not paragraphs. Five distinct points for a 5-mark answer."],
+      ["Map work \u2014 printed inside the History and Geography sections", "included", "Pure recall from the official list of map items. Do not skip it."],
+      ["Internal assessment \u2014 periodic tests, the Economics project, portfolio", "**20**", "The Consumer Rights project is the usual internal project."],
+      ["Total", "100", "Three hours for the whole paper."]
+    ],
+    "study_order": [
+      "**Political Science first** \u2014 five short chapters, 20 marks, fastest to finish.",
+      "**Economics** \u2014 five chapters, definition-plus-example answers.",
+      "**Geography**, and do the map items as you go rather than leaving them to the end.",
+      "**History** last \u2014 the longest reading, so start it early in the year and revise late.",
+      "Then one full three-hour paper: the real difficulty here is finishing in time, not the content."
+    ],
+    "countdown": "Download the current session\u2019s **list of map items** from CBSE Academic \u2014 it changes between sessions.",
+    "cards": {"practical": "Map work + project", "questions": "Answer frames"},
+    "practical_note": "Social Science has no lab exam, but it has **map work inside the paper** and a project in the internal assessment.",
+    "practical": [
+      "- **Map items (History)**: centres of the 1857 revolt, Congress sessions, sites of the Non-Cooperation and Civil Disobedience movements, major plantations and industrial regions.",
+      "- **Map items (Geography)**: dams, soil types, major crops, mineral belts, oil fields, steel plants, cotton and woollen textile centres, software parks, sea ports and airports.",
+      "- **How to practise**: take a blank political outline map of India and point every item from the official list without looking. Repeat until you can do the whole list in ten minutes.",
+      "- **Project**: the Consumer Rights chapter is assessed as project work \u2014 a survey of a local shop, an ISI/BIS label study, or a consumer-court case write-up all work well."
+    ]
+  },
+  {
+    "slug": "english",
+    "title": "English Language & Literature",
+    "code": "184",
+    "kicker": "CBSE \u2022 CLASS 10 \u2022 ENGLISH",
+    "short": "First Flight, Footprints Without Feet, grammar and writing.",
+    "marks": "80 + 20 IA",
+    "blurb": "Nine prose chapters, ten poems and nine supplementary chapters \u2014 but **roughly a third of the paper is Reading and Writing**, not literature at all. Each page carries the summary, the themes, the extract answers and the word meanings.",
+    "areas_heading": "Three books + skills",
+    "syllabus_note": "First Flight (main reader), Footprints Without Feet (supplementary reader) and Words and Expressions II (workbook).",
+    "books": [
+      "- **First Flight** \u2014 main reader (prose and poetry)",
+      "- **Footprints Without Feet** \u2014 supplementary reader",
+      "- **Words and Expressions II** \u2014 workbook for grammar and writing"
+    ],
+    "removed": [
+      "- **The Hundred Dresses I** and **The Hundred Dresses II** \u2014 both prose chapters removed.",
+      "- The poem **Animals** \u2014 removed.",
+      "- **The Hack Driver** \u2014 removed from Footprints Without Feet.",
+      "- Older question banks still print all of these. Ignore them."
+    ],
+    "units": [
+      {"id": "ff-prose", "slug": "first-flight-prose", "title": "First Flight \u00b7 Prose", "marks": "9 chapters", "desc": "The main reader. Reference-to-context extracts and long answers come mostly from here.", "tips": ["- Know the narrator of every chapter \u2014 that is the most common extract question."]},
+      {"id": "ff-poems", "slug": "first-flight-poems", "title": "First Flight \u00b7 Poems", "marks": "10 poems", "desc": "Ten short poems. Theme, central idea and poetic devices.", "tips": ["- Learn the central idea of each in one sentence; the extract question is worth 3\u20134 marks."]},
+      {"id": "fwf", "slug": "footprints-without-feet", "title": "Footprints Without Feet", "marks": "9 chapters", "desc": "The supplementary reader. Read fast; answers are short.", "tips": ["- Shortest chapters first: The Thief\u2019s Story, The Midnight Visitor, A Question of Trust."]},
+      {"id": "skills", "slug": "grammar-writing", "title": "Reading, Grammar & Writing", "marks": "\u2248 30 marks", "priority": true, "desc": "Unseen passages, note-making, grammar in context, letter, article and analytical paragraph.", "tips": ["- These marks are earned by format. Practise the exact word limits."]}
+    ],
+    "assessment": [
+      ["Section A \u2014 Reading skills: unseen passage plus note-making and summarising", "**20**", "Format marks are awarded separately. Follow the note-making format exactly."],
+      ["Section B \u2014 Writing and grammar: letter, article or analytical paragraph, grammar in context", "**20**", "Stick to the word limit; exceed it and you run out of time."],
+      ["Section C \u2014 Literature: First Flight and Footprints Without Feet", "**40**", "Answers in your own words. Copying lines from the book scores badly."],
+      ["Total theory", "**80**", "Three hours."],
+      ["Internal assessment \u2014 listening and speaking, plus a reading/reading-aloud project", "**20**", "The ASL speaking test is scheduled by your school."]
+    ],
+    "study_order": [
+      "**Writing formats first** \u2014 letter, article, analytical paragraph. 20 marks that depend only on format.",
+      "**Poems** \u2014 ten short texts, quick to finish, reliably asked.",
+      "**Footprints Without Feet** \u2014 nine short chapters.",
+      "**First Flight prose** \u2014 the longest reading; do the two-part chapters early.",
+      "**Grammar in context** \u2014 tense, modals, subject-verb agreement, reported speech, determiners.",
+      "Then one unseen passage a day for a fortnight; this is a speed skill, not a knowledge skill."
+    ],
+    "countdown": "The listening and speaking assessment is usually held in December\u2013January.",
+    "cards": {"practical": "Speaking + listening", "questions": "Extracts + Q&A"},
+    "practical_note": "English internal assessment is **listening and speaking**, not a lab exam.",
+    "practical": [
+      "- **Speaking (10 marks)**: usually a short picture description or topic-based speech, followed by a brief interaction. Marks go to fluency, accuracy and pronunciation \u2014 not to how fancy your vocabulary is.",
+      "- **Listening (10 marks)**: a recorded passage with comprehension questions. Practise note-taking while listening; you cannot rewind.",
+      "- **Reading project**: an assessment of reading and reading aloud, set by your school.",
+      "- **Preparation that works**: record yourself speaking for two minutes on a random topic, then listen back. Two weeks of this moves the speaking score more than any textbook."
+    ]
+  },
+  {
+    "slug": "hindi",
+    "title": "Hindi",
+    "code": "002 (A) / 085 (B)",
+    "kicker": "CBSE \u2022 CLASS 10 \u2022 HINDI",
+    "short": "Course A: क्षितिज + कृतिका. Course B: स्पर्श + संचयन.",
+    "marks": "80 + 20 IA",
+    "blurb": "Two courses, same 80 + 20 split. **Course A** covers क्षितिज भाग-2 and कृतिका भाग-2; **Course B** covers स्पर्श भाग-2 and संचयन भाग-2. Grammar and writing together are worth more than the literature section \u2014 do not study them last.",
+    "areas_heading": "Course A and Course B",
+    "syllabus_note": "Study only the course your school offers. Both are here so you can ignore one.",
+    "books": [
+      "- **Course A (002)**: क्षितिज भाग-2 (main), कृतिका भाग-2 (supplementary)",
+      "- **Course B (085)**: स्पर्श भाग-2 (main), संचयन भाग-2 (supplementary)"
+    ],
+    "removed": [
+      "- From क्षितिज भाग-2: **सवैया और कवित्त** (देव), **छाया मत छूना** (गिरिजा कुमार माथुर), **कन्यादान** (ऋतुराज), **मानवीय करुणा की दिव्य चमक** (जैनेन्द्र कुमार) and **स्त्री शिक्षा के विरोधी कुतर्कों का खंडन** (शेखर जोशी).",
+      "- From स्पर्श भाग-2: **दोहे**, **मधुर-मधुर मेरे दीपक जल** and **गिरगिट**."
+    ],
+    "units": [
+      {"id": "kshitij", "slug": "kshitij", "title": "Course A \u00b7 क्षितिज भाग-2", "marks": "12 पाठ", "priority": true, "desc": "The main reader \u2014 prose and poetry carrying the largest share of the literature marks.", "tips": ["- पद्य पाठों के लिए कवि-परिचय और काव्य-सौंदर्य याद रखें।"]},
+      {"id": "kritika", "slug": "kritika", "title": "Course A \u00b7 कृतिका भाग-2", "marks": "3 पाठ", "desc": "Three long prose chapters, asked as 50\u201360 word answers.", "tips": ["- केवल तीन पाठ \u2014 पूरे अंक आसानी से मिल सकते हैं।"]},
+      {"id": "sparsh", "slug": "sparsh", "title": "Course B \u00b7 स्पर्श भाग-2", "marks": "14 पाठ", "priority": true, "desc": "काव्य खंड और गद्य खंड \u2014 the Course B main reader.", "tips": ["- काव्य खंड पहले पढ़ें \u2014 पद्य छोटे होते हैं।"]},
+      {"id": "sanchayan", "slug": "sanchayan", "title": "Course B \u00b7 संचयन भाग-2", "marks": "3 पाठ", "desc": "Three supplementary stories.", "tips": ["- तीनों कहानियों के मुख्य पात्र और कथानक याद रखें।"]},
+      {"id": "vyakaran", "slug": "vyakaran-lekhan", "title": "व्याकरण और लेखन", "marks": "\u2248 36 marks", "priority": true, "desc": "Grammar in context, plus पत्र, अनुच्छेद, संदेश and विज्ञापन लेखन.", "tips": ["- शब्द-सीमा का पालन करें \u2014 यही अंक काटने का सबसे बड़ा कारण है।"]}
+    ],
+    "assessment": [
+      ["अपठित गद्यांश \u2014 unseen comprehension", "**14**", "गति और शब्द-चयन। हर दूसरे दिन एक गद्यांश।"],
+      ["व्याकरण \u2014 grammar in context", "**16**", "रटने से नहीं, अभ्यास से।"],
+      ["पाठ्यपुस्तक और पूरक पाठ्यपुस्तक", "**30**", "उत्तर अपने शब्दों में, पाठ की पंक्तियाँ न लिखें।"],
+      ["रचनात्मक लेखन \u2014 letter, article, message, advertisement", "**20**", "प्रारूप के अंक अलग मिलते हैं।"],
+      ["Total theory", "**80**", "तीन घंटे।"],
+      ["Internal assessment \u2014 listening, speaking and reading project", "**20**", "ASL विद्यालय द्वारा निर्धारित।"]
+    ],
+    "study_order": [
+      "**व्याकरण और लेखन पहले** \u2014 लगभग 36 अंक, केवल अभ्यास पर निर्भर।",
+      "**कृतिका / संचयन** \u2014 तीन-तीन पाठ, तेज़ी से पूरे होते हैं।",
+      "**क्षितिज / स्पर्श का काव्य खंड** \u2014 पद्य छोटे, अंक अधिक।",
+      "**गद्य खंड** \u2014 सबसे लंबा पठन, वर्ष की शुरुआत में शुरू करें।",
+      "फिर हर दूसरे दिन एक अपठित गद्यांश \u2014 यह गति का अभ्यास है, ज्ञान का नहीं।"
+    ],
+    "countdown": "श्रवण और वाचन मूल्यांकन आमतौर पर दिसंबर\u2013जनवरी में होता है।",
+    "cards": {"practical": "ASL मूल्यांकन", "questions": "पाठवार प्रश्न"},
+    "practical_note": "हिंदी का आंतरिक मूल्यांकन **श्रवण एवं वाचन (ASL)** है।",
+    "practical": [
+      "- **वाचन (10 अंक)**: चित्र वर्णन या विषय पर संक्षिप्त भाषण, फिर कुछ प्रश्न। प्रवाह, शुद्धता और उच्चारण पर अंक मिलते हैं।",
+      "- **श्रवण (10 अंक)**: रिकॉर्ड किया गया गद्यांश और उस पर प्रश्न। सुनते समय संक्षिप्त टिप्पणी लिखने का अभ्यास करें।",
+      "- **अभ्यास**: मोबाइल पर किसी भी विषय पर दो मिनट बोलकर रिकॉर्ड करें और सुनें। दो सप्ताह में सबसे अधिक सुधार इसी से होता है।"
+    ]
+  },
+  {
+    "slug": "it-402",
+    "title": "Information Technology",
+    "code": "402",
+    "external": "https://clickalex.github.io/IT-402-/index.html",
+    "short": "20 chapters, practical-first. Already published as its own hub.",
+    "kicker": "CBSE \u2022 CLASS 10 \u2022 IT 402",
+    "marks": "50 + 50"
+  }
+]

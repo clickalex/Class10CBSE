@@ -1,0 +1,195 @@
+[
+  {
+    "id": "ch04-quadratic-equations",
+    "num": 4,
+    "title": "Quadratic Equations",
+    "unit": "u2",
+    "unit_name": "II \u00b7 Algebra",
+    "weight": "5\u20137 marks",
+    "short": "Factorisation, the quadratic formula, discriminant and nature of roots.",
+    "lede": "The discriminant decides the nature of the roots, and that single idea answers most of this chapter\u2019s questions.",
+    "lens": [
+      "**5\u20137 marks.** A nature-of-roots question (2\u20133 marks) and a word problem (4\u20135 marks).",
+      "Word problems are usually on consecutive integers, speed\u2013time\u2013distance, or the perimeter and area of a rectangle."
+    ],
+    "concepts": [
+      "**1. Standard form.** `ax\u00b2 + bx + c = 0`, with a \u2260 0.",
+      "**2. Factorisation.** Split the middle term: find two numbers whose product is `a \u00d7 c` and whose sum is b.",
+      "**3. Completing the square.** Divide by a, move c/a across, add `(b/2a)\u00b2` to both sides, then take the square root.",
+      "**4. Quadratic formula.** `x = (\u2212b \u00b1 \u221a(b\u00b2 \u2212 4ac)) / 2a`.",
+      {"table": {"head": ["Discriminant D = b\u00b2 \u2212 4ac", "Nature of roots"], "rows": [["D > 0", "Two distinct real roots"], ["D = 0", "Two equal real roots"], ["D < 0", "No real roots"], ["D > 0 and a perfect square", "Two distinct rational roots"]]}},
+      "**5. Finding k for equal roots.** Set D = 0 and solve for k. This is the single most repeated question type here."
+    ],
+    "formulas": [
+      "x = (\u2212b \u00b1 \u221a(b\u00b2 \u2212 4ac)) / 2a",
+      "D = b\u00b2 \u2212 4ac",
+      "Equal roots  \u21d4  D = 0",
+      "Sum of roots = \u2212b/a,  Product of roots = c/a"
+    ],
+    "steps": [
+      "1. Bring everything to one side so the equation equals 0, and write it in standard form.",
+      "2. Identify a, b, c \u2014 **with their signs**.",
+      "3. Compute D. If D is negative, stop: there are no real roots.",
+      "4. Factorise if D is a perfect square; otherwise use the formula.",
+      "5. For word problems, reject any root that is physically impossible (negative age, negative length)."
+    ],
+    "tricks": [
+      "- **Splitting the middle term:** you need two numbers with product `a \u00d7 c` (not just c) and sum b. Forgetting the a is the most common error when a \u2260 1.",
+      "- **Nature questions are discriminant questions.** Never solve the equation to test the nature \u2014 just compute D.",
+      "- Consecutive integers: x, x+1, x+2. Consecutive **even** integers: x, x+2, x+4.",
+      "- \u201cRoots are reciprocal\u201d \u21d2 c = a. \u201cOne root is double the other\u201d \u21d2 2b\u00b2 = 9ac."
+    ],
+    "mistakes": [
+      "- Dropping the sign of b when writing \u2212b in the formula.",
+      "- Taking the square root of D and then forgetting the \u00b1.",
+      "- Accepting a negative or fractional answer in a word problem about people, lengths or counts.",
+      "- For \u201cequal roots\u201d questions, setting D > 0 instead of D = 0."
+    ],
+    "qa": [
+      {"m": "2", "q": "Find the nature of the roots of 2x\u00b2 \u2212 6x + 3 = 0.", "a": ["D = (\u22126)\u00b2 \u2212 4(2)(3) = 36 \u2212 24 = 12.", "D > 0 but 12 is not a perfect square, so the roots are real, distinct and irrational."]},
+      {"m": "3", "q": "Find the value of k for which 2x\u00b2 + kx + 3 = 0 has two equal roots.", "a": ["For equal roots, D = 0, so k\u00b2 \u2212 4(2)(3) = 0.", "k\u00b2 = 24, so k = \u00b12\u221a6."]},
+      {"m": "3", "q": "Solve 6x\u00b2 \u2212 x \u2212 2 = 0 by factorisation.", "a": ["Split \u2212x using numbers with product 6 \u00d7 (\u22122) = \u221212 and sum \u22121: these are \u22124 and 3.", "6x\u00b2 \u2212 4x + 3x \u2212 2 = 2x(3x \u2212 2) + 1(3x \u2212 2) = (3x \u2212 2)(2x + 1).", "So x = 2/3 or x = \u22121/2."]},
+      {"m": "5", "q": "The sum of the areas of two squares is 468 m\u00b2. If the difference of their perimeters is 24 m, find the sides of the two squares.", "a": ["Let the sides be x and y with x > y. Then x\u00b2 + y\u00b2 = 468 and 4x \u2212 4y = 24, so x \u2212 y = 6.", "Substituting y = x \u2212 6: x\u00b2 + (x \u2212 6)\u00b2 = 468 \u21d2 2x\u00b2 \u2212 12x + 36 = 468.", "2x\u00b2 \u2212 12x \u2212 432 = 0, so x\u00b2 \u2212 6x \u2212 216 = 0.", "(x \u2212 18)(x + 12) = 0, so x = 18 (rejecting \u221212) and y = 12.", "The sides are 18 m and 12 m."]}
+    ],
+    "mcq": [
+      {"q": "The roots of x\u00b2 \u2212 5x + 6 = 0 are: (a) 2, 3  (b) \u22122, \u22123  (c) 1, 6  (d) \u22121, \u22126", "a": "**(a) 2, 3.** Product 6 and sum 5, both positive."},
+      {"q": "If the discriminant of a quadratic is zero, the roots are: (a) real and distinct  (b) real and equal  (c) not real  (d) always integers", "a": "**(b) Real and equal.**"},
+      {"q": "For x\u00b2 + 4x + k = 0 to have real roots, k must satisfy: (a) k \u2264 4  (b) k \u2265 4  (c) k \u2264 \u22124  (d) k = 4", "a": "**(a) k \u2264 4.** D = 16 \u2212 4k \u2265 0 gives k \u2264 4."}
+    ],
+    "trend": "\u201cFind k for equal roots\u201d is asked almost every year, plus one 4\u20135 mark word problem on areas or consecutive integers.",
+    "onepager": [
+      "- D = b\u00b2 \u2212 4ac decides everything: > 0 distinct, = 0 equal, < 0 none.",
+      "- Split the middle term using product a \u00d7 c and sum b.",
+      "- Reject impossible roots in word problems."
+    ],
+    "task": [
+      "Take three quadratics with a \u2260 1 and solve each by both factorisation and the formula. Where the answers disagree, the error is nearly always in the sign of b."
+    ]
+  },
+  {
+    "id": "ch05-arithmetic-progressions",
+    "num": 5,
+    "title": "Arithmetic Progressions",
+    "unit": "u2",
+    "unit_name": "II \u00b7 Algebra",
+    "weight": "5\u20136 marks",
+    "short": "nth term, sum of n terms, and word problems.",
+    "lede": "Two formulas and a great many word problems. One of the most reliably scoring chapters.",
+    "lens": [
+      "**5\u20136 marks.** Typically one 3-mark question on finding a term or the number of terms, and one 4\u20135 mark word problem.",
+      "Common framings: which term of the AP is a given number, the sum of the first n terms, instalment tables and seating arrangements."
+    ],
+    "concepts": [
+      "**1. Definition.** An AP has a constant common difference `d = a\u2099\u208a\u2081 \u2212 a\u2099` between consecutive terms.",
+      "**2. General term.** `a\u2099 = a + (n \u2212 1)d`.",
+      "**3. Sum of n terms.** `S\u2099 = (n/2)[2a + (n \u2212 1)d]`, or equivalently `S\u2099 = (n/2)(a + l)` where l is the last term.",
+      "**4. Recovering the nth term from the sum.** `a\u2099 = S\u2099 \u2212 S\u2099\u208b\u2081`. This is asked more often than students expect.",
+      "**5. Useful facts.** If three terms are consecutive then the middle one is the average of the other two: `2b = a + c`. Taking three terms as `a \u2212 d, a, a + d` makes sum problems collapse quickly."
+    ],
+    "formulas": [
+      "a\u2099 = a + (n \u2212 1)d",
+      "S\u2099 = (n/2)[2a + (n \u2212 1)d]",
+      "S\u2099 = (n/2)(first term + last term)",
+      "a\u2099 = S\u2099 \u2212 S\u2099\u208b\u2081",
+      "Sum of first n natural numbers = n(n + 1)/2"
+    ],
+    "steps": [
+      "1. Write down a and d explicitly \u2014 including the sign of d.",
+      "2. Decide which formula the question needs: a term, a sum, or the number of terms.",
+      "3. If solving for n you get a quadratic. Reject the non-positive or non-integer root \u2014 n must be a positive whole number.",
+      "4. For word problems, identify what the terms represent (instalments, seats, savings) before substituting."
+    ],
+    "tricks": [
+      "- **d can be negative.** A decreasing AP has a negative d; students lose marks by writing it positive.",
+      "- **Three unknown terms whose sum is known:** take them as a \u2212 d, a, a + d. The sum gives 3a immediately.",
+      "- **\u201cWhich term is 78?\u201d:** substitute into a\u2099 = a + (n\u22121)d and solve for n. If n is not a whole number, that number is not in the AP.",
+      "- If S\u2099 is given as a formula in n (like 3n\u00b2 + 5n), use a\u2099 = S\u2099 \u2212 S\u2099\u208b\u2081 rather than trying to read a and d off it."
+    ],
+    "mistakes": [
+      "- Using `a + nd` instead of `a + (n \u2212 1)d`.",
+      "- Taking d as positive in a decreasing AP.",
+      "- Accepting a fractional or negative value of n.",
+      "- In S\u2099 = (n/2)(a + l), using the wrong l \u2014 it is the last term actually present."
+    ],
+    "qa": [
+      {"m": "2", "q": "Find the 20th term from the last term of the AP 3, 8, 13, \u2026, 253.", "a": ["Counting from the end, the AP is 253, 248, 243, \u2026 with a = 253 and d = \u22125.", "20th term = 253 + 19(\u22125) = 158."]},
+      {"m": "3", "q": "Which term of the AP 3, 15, 27, 39, \u2026 will be 132 more than its 54th term?", "a": ["54th term = 3 + 53(12) = 639.", "Required term = 639 + 132 = 771.", "3 + (n \u2212 1)12 = 771 gives (n \u2212 1)12 = 768, so n = 65."]},
+      {"m": "3", "q": "If the sum of the first n terms of an AP is 3n\u00b2 + 5n, find its 10th term.", "a": ["a\u2099 = S\u2099 \u2212 S\u2099\u208b\u2081.", "S\u2081\u2080 = 300 + 50 = 350 and S\u2089 = 243 + 45 = 288.", "a\u2081\u2080 = 350 \u2212 288 = 62."]},
+      {"m": "5", "q": "A sum of Rs 700 is to be used to give seven cash prizes, each prize being Rs 20 less than its preceding prize. Find the value of each prize.", "a": ["Seven prizes in AP with d = \u221220 and S\u2087 = 700.", "700 = (7/2)[2a + 6(\u221220)] = (7/2)(2a \u2212 120).", "200 = 2a \u2212 120, so a = 160.", "The prizes are Rs 160, 140, 120, 100, 80, 60 and 40."]}
+    ],
+    "mcq": [
+      {"q": "The 10th term of the AP 2, 7, 12, \u2026 is: (a) 45  (b) 47  (c) 50  (d) 52", "a": "**(b) 47.** a\u2081\u2080 = 2 + 9(5)."},
+      {"q": "The sum of the first 10 natural numbers is: (a) 45  (b) 50  (c) 55  (d) 100", "a": "**(c) 55.** n(n+1)/2 = 10 \u00d7 11/2."},
+      {"q": "S\u2085 \u2212 S\u2084 equals: (a) the 5th term  (b) the 4th term  (c) the 9th term  (d) zero", "a": "**(a) The 5th term.** That is what a\u2099 = S\u2099 \u2212 S\u2099\u208b\u2081 means."}
+    ],
+    "trend": "One 4\u20135 mark word problem (prize distribution, seating, savings) appears in most papers, plus a 2\u20133 mark term question.",
+    "onepager": [
+      "- a\u2099 = a + (n\u22121)d and S\u2099 = (n/2)[2a + (n\u22121)d].",
+      "- a\u2099 = S\u2099 \u2212 S\u2099\u208b\u2081 when S\u2099 is given as a formula.",
+      "- Three terms with a known sum: take a \u2212 d, a, a + d."
+    ],
+    "task": [
+      "Write the first 12 terms of an AP with a negative common difference. Then verify S\u2086 twice \u2014 once by adding the terms by hand, once with the formula."
+    ]
+  },
+  {
+    "id": "ch06-triangles",
+    "num": 6,
+    "title": "Triangles",
+    "unit": "u4",
+    "unit_name": "IV \u00b7 Geometry",
+    "weight": "9\u201310 marks",
+    "short": "Similarity criteria, Basic Proportionality Theorem, Pythagoras.",
+    "lede": "The theory statements are free marks; the numericals and proofs are where the unit is won.",
+    "lens": [
+      "Triangles carries most of the **15-mark Geometry unit** (Circles is the rest).",
+      "Expect a Basic Proportionality Theorem proof (3 marks), a similarity numerical (3 marks) and objective questions on the criteria.",
+      "**Learn the theorem statements verbatim** \u2014 the statement itself is often worth a mark."
+    ],
+    "concepts": [
+      "**1. Similar polygons.** Corresponding angles are equal and corresponding sides are in the same ratio.",
+      "**2. Basic Proportionality Theorem (Thales).** If a line is drawn parallel to one side of a triangle, intersecting the other two sides at distinct points, it divides those two sides in the same ratio.",
+      "**3. Converse of BPT.** If a line divides two sides of a triangle in the same ratio, it is parallel to the third side.",
+      {"table": {"head": ["Criterion", "Condition"], "rows": [["AAA (or AA)", "Corresponding angles are equal"], ["SSS", "Corresponding sides are in the same ratio"], ["SAS", "One pair of angles equal and the including sides proportional"]]}},
+      "**4. Area theorem.** The ratio of the areas of two similar triangles equals the ratio of the **squares** of their corresponding sides.",
+      "**5. Pythagoras theorem.** In a right triangle, the square on the hypotenuse equals the sum of the squares on the other two sides. Converse: if this holds, the angle opposite the longest side is a right angle."
+    ],
+    "formulas": [
+      "ar(\u0394ABC)/ar(\u0394DEF) = (AB/DE)\u00b2 = (BC/EF)\u00b2 = (CA/FD)\u00b2",
+      "Right triangle: hypotenuse\u00b2 = base\u00b2 + perpendicular\u00b2",
+      "BPT: AD/DB = AE/EC"
+    ],
+    "tricks": [
+      "- **Area ratio is the square of the side ratio.** Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.",
+      "- When two triangles share an angle and have a pair of parallel sides, look for AA similarity \u2014 the parallel lines supply the equal angles.",
+      "- For \u201cprove that \u2026\u00b2 = \u2026 \u00d7 \u2026\u201d questions you almost always need to **prove two triangles similar first** and then write the proportion.",
+      "- In a right triangle, an altitude drawn to the hypotenuse creates three mutually similar triangles. That single fact solves most standard proofs."
+    ],
+    "mistakes": [
+      "- Writing the area ratio equal to the side ratio, without squaring.",
+      "- Corresponding the wrong vertices. Match the **equal angles** first, then name the triangles in that order.",
+      "- In BPT proofs, omitting the construction lines and the auxiliary join.",
+      "- Using the converse of Pythagoras without stating it."
+    ],
+    "qa": [
+      {"m": "1", "q": "State the Basic Proportionality Theorem.", "a": "If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio."},
+      {"m": "2", "q": "In \u0394ABC, DE \u2225 BC with AD = 1.5 cm, DB = 3 cm, AE = 1 cm. Find EC.", "a": ["By BPT, AD/DB = AE/EC.", "1.5/3 = 1/EC, so EC = 2 cm."]},
+      {"m": "3", "q": "The areas of two similar triangles are in the ratio 9:16. If one side of the smaller triangle is 4.5 cm, find the corresponding side of the larger.", "a": ["Area ratio = square of side ratio, so 9/16 = (4.5/x)\u00b2.", "Taking square roots: 3/4 = 4.5/x, so x = 6 cm."]},
+      {"m": "3", "q": "Prove that in a right triangle, the square on the hypotenuse equals the sum of the squares on the other two sides.", "a": ["In right \u0394ABC, right-angled at B, draw BD \u22a5 AC.", "\u0394ADB \u223c \u0394ABC (AA), so AD/AB = AB/AC, giving AB\u00b2 = AD \u00d7 AC.", "\u0394BDC \u223c \u0394ABC (AA), so DC/BC = BC/AC, giving BC\u00b2 = DC \u00d7 AC.", "Adding: AB\u00b2 + BC\u00b2 = (AD + DC) \u00d7 AC = AC\u00b2."]}
+    ],
+    "mcq": [
+      {"q": "Two triangles are similar if their corresponding sides are: (a) equal  (b) proportional  (c) perpendicular  (d) parallel", "a": "**(b) Proportional.** That is the SSS similarity criterion."},
+      {"q": "The ratio of the areas of two similar triangles is 25:49. The ratio of their corresponding sides is: (a) 25:49  (b) 5:7  (c) 7:5  (d) 49:25", "a": "**(b) 5:7.** Square root of the area ratio."},
+      {"q": "In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 10 cm  (b) 12 cm  (c) 14 cm  (d) 9 cm", "a": "**(a) 10 cm.** \u221a(36 + 64) = 10."}
+    ],
+    "trend": "One BPT or Pythagoras proof almost every year, plus one similarity numerical. Objective questions on the criteria are constant.",
+    "onepager": [
+      "- AAA, SSS, SAS are the three similarity criteria.",
+      "- Area ratio = square of side ratio.",
+      "- BPT: a parallel line cuts the other two sides proportionally."
+    ],
+    "task": [
+      "Write out the Pythagoras theorem proof from memory, including the construction. Then do the same for BPT. These two are the ones most often asked verbatim."
+    ]
+  }
+]

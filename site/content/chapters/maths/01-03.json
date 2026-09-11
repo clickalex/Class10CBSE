@@ -1,0 +1,183 @@
+[
+  {
+    "id": "ch01-real-numbers",
+    "num": 1,
+    "title": "Real Numbers",
+    "unit": "u1",
+    "unit_name": "I \u00b7 Number Systems",
+    "weight": "6 marks",
+    "short": "HCF/LCM, irrationality proofs, terminating decimals.",
+    "lede": "The smallest unit but the most predictable one. Three question types cover all 6 marks.",
+    "lens": [
+      "**6 marks, always procedural.** Expect one HCF/LCM word problem (2\u20133 marks), one irrationality proof (3 marks), and one terminating-decimal question (1 mark).",
+      "Euclid\u2019s division *lemma* itself is asked as a 1-mark statement question."
+    ],
+    "concepts": [
+      "**1. Euclid\u2019s Division Lemma.** Given positive integers a and b, there exist unique integers q and r satisfying `a = bq + r`, where `0 \u2264 r < b`. It is the basis of the HCF algorithm: divide, then repeat with (b, r) until the remainder is 0. The last non-zero divisor is the HCF.",
+      "**2. HCF and LCM by prime factorisation.** Write each number as a product of primes. HCF = product of the *lowest* powers of the *common* primes. LCM = product of the *highest* powers of *all* primes present.",
+      {"table": {"head": ["Relation", "Use"], "rows": [["HCF \u00d7 LCM = product of the two numbers", "Valid for **two** numbers only \u2014 never for three"], ["HCF always divides both numbers", "Quick check on your answer"], ["LCM is always a multiple of both", "Quick check on your answer"]]}},
+      "**3. Irrationality proofs.** The standard method is proof by contradiction: assume the number is rational `p/q` in lowest terms (q \u2260 0, p and q coprime), square both sides, then show a prime divides both p and q \u2014 contradicting coprimality.",
+      "**4. Terminating decimal expansion.** A rational number `p/q` in lowest terms has a terminating decimal **if and only if** q is of the form `2^m \u00d7 5^n`, where m and n are non-negative integers. Otherwise it is non-terminating repeating."
+    ],
+    "formulas": [
+      "a = bq + r,  0 \u2264 r < b",
+      "HCF(a, b) \u00d7 LCM(a, b) = a \u00d7 b",
+      "p/q terminates  \u21d4  q = 2\u1d50 \u00d7 5\u207f"
+    ],
+    "tricks": [
+      "- **Terminating test:** look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.",
+      "- **Irrationality answer shape:** assumption \u2192 square \u2192 prime divides p \u2192 prime divides q \u2192 contradiction. Five lines, every time."
+    ],
+    "mistakes": [
+      "- Using `HCF \u00d7 LCM = product` for **three** numbers. It fails. Factorise instead.",
+      "- In the irrationality proof, writing \u201cp/q\u201d without stating **coprime** and **q \u2260 0**. That is a marked step.",
+      "- Forgetting to reduce the fraction before applying the terminating-decimal test. `12/60` looks non-terminating; it is `1/5`.",
+      "- Stopping the Euclid algorithm one step early. Stop when the remainder is **0**, then take the previous divisor."
+    ],
+    "qa": [
+      {"m": "1", "q": "State Euclid\u2019s division lemma.", "a": "Given positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 \u2264 r < b."},
+      {"m": "2", "q": "Without performing long division, state whether 13/3125 will have a terminating decimal expansion.", "a": "3125 = 5\u2075, which is of the form 2\u1d50 \u00d7 5\u207f with m = 0, n = 5. The fraction is already in lowest terms, so yes \u2014 it terminates."},
+      {"m": "3", "q": "Prove that \u221a3 is irrational.", "a": ["Assume \u221a3 is rational. Then \u221a3 = p/q where p, q are coprime integers and q \u2260 0.", "Squaring: 3 = p\u00b2/q\u00b2, so p\u00b2 = 3q\u00b2. Hence 3 divides p\u00b2, and since 3 is prime, 3 divides p.", "Write p = 3k. Then 9k\u00b2 = 3q\u00b2, so q\u00b2 = 3k\u00b2. Hence 3 divides q\u00b2, so 3 divides q.", "So 3 divides both p and q, contradicting that they are coprime.", "Therefore \u221a3 is irrational."]},
+      {"m": "3", "q": "The HCF of 96 and 404 is 4. Find their LCM.", "a": "HCF \u00d7 LCM = product, so LCM = (96 \u00d7 404)/4 = 38784/4 = 9696."},
+      {"m": "4", "q": "An army contingent of 616 members marches behind an army band of 32 members. Both groups must march in the same number of columns. What is the maximum number of columns?", "a": ["Maximum columns = HCF(616, 32).", "616 = 2\u00b3 \u00d7 7 \u00d7 11 and 32 = 2\u2075.", "HCF = 2\u00b3 = 8, so the maximum is 8 columns."]}
+    ],
+    "mcq": [
+      {"q": "The HCF of 8 and 12 is: (a) 2  (b) 4  (c) 8  (d) 24", "a": "**(b) 4.** 8 = 2\u00b3, 12 = 2\u00b2 \u00d7 3; the lowest power of the common prime 2 is 2\u00b2 = 4."},
+      {"q": "Which has a terminating decimal expansion? (a) 7/24  (b) 5/13  (c) 9/40  (d) 11/21", "a": "**(c) 9/40.** 40 = 2\u00b3 \u00d7 5, of the form 2\u1d50 \u00d7 5\u207f. The others have denominators with other primes."},
+      {"q": "If the HCF of two numbers is 6 and their LCM is 60, one number being 12, the other is: (a) 20  (b) 30  (c) 40  (d) 60", "a": "**(b) 30.** Other number = (6 \u00d7 60)/12 = 30."}
+    ],
+    "trend": "One irrationality proof almost every year (\u221a2, \u221a3, \u221a5 or 3\u221a2). One HCF/LCM word problem. One terminating-decimal 1-marker.",
+    "onepager": [
+      "- HCF \u00d7 LCM = product (**two numbers only**).",
+      "- Terminating \u21d4 denominator is 2\u1d50 \u00d7 5\u207f after reducing.",
+      "- Irrationality proof: assume p/q coprime, square, show a prime divides both, contradiction."
+    ],
+    "task": [
+      "Take any two numbers above 200. Find their HCF by **both** Euclid\u2019s algorithm and prime factorisation, then verify HCF \u00d7 LCM = product. If the two HCFs disagree, your algorithm stopped a step early."
+    ]
+  },
+  {
+    "id": "ch02-polynomials",
+    "num": 2,
+    "title": "Polynomials",
+    "unit": "u2",
+    "unit_name": "II \u00b7 Algebra",
+    "weight": "4\u20135 marks",
+    "short": "Zeroes of a quadratic and their relation to coefficients.",
+    "lede": "A short chapter. The whole of it reduces to one relationship and one division.",
+    "lens": [
+      "Usually **one 2-mark question** plus part of an objective question.",
+      "Asked as: count zeroes from a graph, find k given a relationship between zeroes, or a division-algorithm problem with a remainder condition."
+    ],
+    "concepts": [
+      "**1. Zeroes of a polynomial.** A zero of p(x) is a value of x for which p(x) = 0. Geometrically it is where the graph **cuts or touches the x-axis**.",
+      {"table": {"head": ["Graph behaviour", "Number of zeroes"], "rows": [["Cuts the x-axis at two points", "2 distinct real zeroes"], ["Touches the x-axis at one point", "2 equal real zeroes (the vertex lies on the axis)"], ["Does not meet the x-axis", "No real zeroes"]]}},
+      "**2. Relationship between zeroes and coefficients.** For `ax\u00b2 + bx + c` with zeroes \u03b1 and \u03b2: sum `\u03b1 + \u03b2 = \u2212b/a` and product `\u03b1\u03b2 = c/a`.",
+      "**3. Forming a polynomial from its zeroes.** `x\u00b2 \u2212 (sum)x + (product)`. Multiply through to clear fractions.",
+      "**4. Division algorithm.** `Dividend = Divisor \u00d7 Quotient + Remainder`, with degree(remainder) < degree(divisor)."
+    ],
+    "formulas": [
+      "\u03b1 + \u03b2 = \u2212b/a",
+      "\u03b1\u03b2 = c/a",
+      "p(x) = x\u00b2 \u2212 (\u03b1 + \u03b2)x + \u03b1\u03b2",
+      "p(x) = g(x) \u00d7 q(x) + r(x),  deg r < deg g"
+    ],
+    "tricks": [
+      "- **Sign trap:** the sum is **minus** b/a. Almost every wrong answer here has the wrong sign.",
+      "- Given the graph, count **crossings of the x-axis** \u2014 touching counts as two equal zeroes, not one.",
+      "- \u201cZeroes are reciprocal\u201d \u21d2 product = 1, i.e. c = a. \u201cEqual in magnitude but opposite in sign\u201d \u21d2 sum = 0, i.e. b = 0."
+    ],
+    "mistakes": [
+      "- Writing the sum as +b/a. It is **\u2212b/a**.",
+      "- When asked to *form* the quadratic, leaving it as `x\u00b2 \u2212 (5/2)x + 3`. Clear the fraction: `2x\u00b2 \u2212 5x + 6`.",
+      "- Confusing \u201cnumber of zeroes\u201d with \u201cnumber of times the graph touches\u201d when the vertex sits on the axis.",
+      "- In division problems, forgetting that the remainder\u2019s degree must be less than the divisor\u2019s."
+    ],
+    "qa": [
+      {"m": "2", "q": "Find the zeroes of x\u00b2 \u2212 2x \u2212 8 and verify the relationship with the coefficients.", "a": ["x\u00b2 \u2212 2x \u2212 8 = (x \u2212 4)(x + 2), so the zeroes are 4 and \u22122.", "Sum = 4 + (\u22122) = 2 = \u2212(\u22122)/1 = \u2212b/a \u2713", "Product = 4 \u00d7 (\u22122) = \u22128 = c/a \u2713"]},
+      {"m": "2", "q": "If \u03b1 and \u03b2 are the zeroes of 6x\u00b2 \u2212 3x \u2212 7, find 1/\u03b1 + 1/\u03b2.", "a": ["\u03b1 + \u03b2 = 3/6 = 1/2 and \u03b1\u03b2 = \u22127/6.", "1/\u03b1 + 1/\u03b2 = (\u03b1 + \u03b2)/(\u03b1\u03b2) = (1/2)/(\u22127/6) = \u22123/7."]},
+      {"m": "3", "q": "Find a quadratic polynomial whose zeroes have sum 1/4 and product \u22121.", "a": ["p(x) = x\u00b2 \u2212 (1/4)x \u2212 1.", "Clearing the fraction: 4x\u00b2 \u2212 x \u2212 4."]},
+      {"m": "3", "q": "If one zero of (k\u00b2 \u2212 1)x\u00b2 \u2212 3x + 2 is the reciprocal of the other, find k.", "a": ["Product of zeroes = c/a = 2/(k\u00b2 \u2212 1).", "Reciprocal zeroes \u21d2 product = 1, so 2/(k\u00b2 \u2212 1) = 1.", "k\u00b2 \u2212 1 = 2, k\u00b2 = 3, so k = \u00b1\u221a3."]}
+    ],
+    "mcq": [
+      {"q": "The zeroes of x\u00b2 + 7x + 10 are: (a) 2, 5  (b) \u22122, \u22125  (c) 2, \u22125  (d) \u22122, 5", "a": "**(b) \u22122, \u22125.** Sum = \u22127, product = 10, so both zeroes are negative."},
+      {"q": "If \u03b1, \u03b2 are zeroes of x\u00b2 \u2212 5x + 6, then \u03b1 + \u03b2 = ? (a) 6  (b) 5  (c) \u22125  (d) 1", "a": "**(b) 5.** Sum = \u2212b/a = 5."},
+      {"q": "A quadratic polynomial whose zeroes are 3 and \u22123 is: (a) x\u00b2 \u2212 9  (b) x\u00b2 + 9  (c) x\u00b2 \u2212 6x + 9  (d) x\u00b2 \u2212 3", "a": "**(a) x\u00b2 \u2212 9.** Sum = 0 and product = \u22129."}
+    ],
+    "trend": "One 2-mark question on the zeroes\u2013coefficient relationship, usually asking for k or for an expression like 1/\u03b1 + 1/\u03b2. Graph-counting appears in the objective section.",
+    "onepager": [
+      "- Sum = \u2212b/a, product = c/a. The sign is the trap.",
+      "- Form it as x\u00b2 \u2212 (sum)x + product, then clear fractions.",
+      "- x-axis crossings = number of zeroes."
+    ],
+    "task": [
+      "Pick any quadratic with integer zeroes. Compute sum and product from the zeroes, then check them against \u2212b/a and c/a. Do one where a \u2260 1 \u2014 that is the case students get wrong."
+    ]
+  },
+  {
+    "id": "ch03-pair-of-linear-equations",
+    "num": 3,
+    "title": "Pair of Linear Equations in Two Variables",
+    "unit": "u2",
+    "unit_name": "II \u00b7 Algebra",
+    "weight": "5\u20136 marks",
+    "short": "Consistency conditions, three solving methods, word problems.",
+    "lede": "Two halves: a one-line consistency test, and word problems that are worth more marks.",
+    "lens": [
+      "**5\u20136 marks.** One consistency/nature question (2 marks) and one word problem (4\u20135 marks).",
+      "Word problems on upstream/downstream speed, ages, fractions and fixed-charge-plus-rate are the recurring ones."
+    ],
+    "concepts": [
+      "**1. Nature of the pair.** Compare `a\u2081/a\u2082`, `b\u2081/b\u2082` and `c\u2081/c\u2082` for the pair `a\u2081x + b\u2081y + c\u2081 = 0` and `a\u2082x + b\u2082y + c\u2082 = 0`.",
+      {"table": {"head": ["Condition", "Nature", "Lines"], "rows": [["a\u2081/a\u2082 \u2260 b\u2081/b\u2082", "Unique solution \u2014 consistent", "Intersect at one point"], ["a\u2081/a\u2082 = b\u2081/b\u2082 = c\u2081/c\u2082", "Infinitely many solutions \u2014 dependent", "Coincident"], ["a\u2081/a\u2082 = b\u2081/b\u2082 \u2260 c\u2081/c\u2082", "No solution \u2014 inconsistent", "Parallel"]]}},
+      "**2. Substitution.** Express one variable from the simpler equation and substitute into the other.",
+      "**3. Elimination.** Multiply each equation so one variable\u2019s coefficients match, then add or subtract.",
+      "**4. Cross-multiplication.** For a unique solution: `x/(b\u2081c\u2082 \u2212 b\u2082c\u2081) = y/(c\u2081a\u2082 \u2212 c\u2082a\u2081) = 1/(a\u2081b\u2082 \u2212 a\u2082b\u2081)`.",
+      "**5. Equations reducible to linear pairs.** Terms like 1/x and 1/y are handled by substituting u = 1/x, v = 1/y, solving, then substituting back."
+    ],
+    "formulas": [
+      "x/(b\u2081c\u2082 \u2212 b\u2082c\u2081) = y/(c\u2081a\u2082 \u2212 c\u2082a\u2081) = 1/(a\u2081b\u2082 \u2212 a\u2082b\u2081)",
+      "Upstream speed = still-water speed \u2212 stream speed",
+      "Downstream speed = still-water speed + stream speed"
+    ],
+    "steps": [
+      "1. Read the problem and **name the two unknowns explicitly** \u2014 \u201clet the speed of the boat in still water be x km/h\u201d.",
+      "2. Translate each sentence into one equation. Two independent facts \u2192 two equations.",
+      "3. Solve by elimination (usually fastest) and write both values.",
+      "4. **Check** both values in the original word statements, not just in the equations. Then answer in a full sentence with units."
+    ],
+    "tricks": [
+      "- **Ratio order matters.** Compare a with a, b with b, c with c \u2014 never a with b.",
+      "- Downstream is always the faster one. If your downstream speed comes out smaller, you swapped the signs.",
+      "- Age problems: \u201cafter n years\u201d means **add n to both ages**; \u201cn years ago\u201d means subtract from both.",
+      "- A fixed charge plus a per-unit charge means the fixed charge is the constant term and the rate is the coefficient."
+    ],
+    "mistakes": [
+      "- Declaring a pair inconsistent when only two of the three ratios are equal. You must check c\u2081/c\u2082 as well.",
+      "- Losing a negative sign while multiplying an equation before elimination.",
+      "- Solving correctly but answering \u201cx = 5, y = 3\u201d instead of the actual quantities asked for.",
+      "- In substitution problems with 1/x, forgetting to convert back from u and v at the end."
+    ],
+    "qa": [
+      {"m": "2", "q": "Without solving, tell whether 2x \u2212 3y = 7 and 4x \u2212 6y = 14 have a unique solution.", "a": ["a\u2081/a\u2082 = 2/4 = 1/2, b\u2081/b\u2082 = \u22123/\u22126 = 1/2, c\u2081/c\u2082 = (\u22127)/(\u221214) = 1/2.", "All three ratios are equal, so the lines are coincident \u2014 infinitely many solutions, not a unique one."]},
+      {"m": "3", "q": "Solve by elimination: 3x + 4y = 10 and 2x \u2212 3y = 1.", "a": ["Multiply the first by 3 and the second by 4: 9x + 12y = 30 and 8x \u2212 12y = 4.", "Adding: 17x = 34, so x = 2.", "Substituting in the first: 6 + 4y = 10, so y = 1."]},
+      {"m": "5", "q": "A boat goes 30 km upstream and 44 km downstream in 10 hours. In 13 hours it can go 40 km upstream and 55 km downstream. Find the speed of the stream and of the boat in still water.", "a": ["Let the still-water speed be x km/h and the stream\u2019s speed be y km/h.", "Put u = 1/(x \u2212 y) and v = 1/(x + y).", "30u + 44v = 10 and 40u + 55v = 13.", "Solving gives u = 1/8 and v = 1/11, so x \u2212 y = 8 and x + y = 11.", "Therefore x = 9.5 km/h and y = 1.5 km/h."]},
+      {"m": "4", "q": "Five years ago, Nuri was thrice as old as Sonu. Ten years later, Nuri will be twice as old as Sonu. How old are they?", "a": ["Let Nuri be x and Sonu be y now.", "x \u2212 5 = 3(y \u2212 5) \u21d2 x \u2212 3y = \u221210.", "x + 10 = 2(y + 10) \u21d2 x \u2212 2y = 10.", "Subtracting: \u2212y = \u221220, so y = 20 and x = 50.", "Nuri is 50 and Sonu is 20."]}
+    ],
+    "mcq": [
+      {"q": "The pair x + y = 5 and 2x + 2y = 10 represents: (a) intersecting lines  (b) parallel lines  (c) coincident lines  (d) none", "a": "**(c) Coincident lines.** All three ratios equal 1/2."},
+      {"q": "For what value of k does kx + 3y = 7 and 2x + 6y = 14 have infinitely many solutions? (a) 1  (b) \u22121  (c) 2  (d) 1/2", "a": "**(a) 1.** We need k/2 = 3/6 = 7/14, and 3/6 = 1/2, so k = 1."},
+      {"q": "If a boat\u2019s downstream speed is 12 km/h and upstream speed is 8 km/h, its still-water speed is: (a) 10  (b) 4  (c) 2  (d) 20 km/h", "a": "**(a) 10 km/h.** Still-water speed = (downstream + upstream)/2."}
+    ],
+    "trend": "One 4\u20135 mark word problem nearly every year. Upstream/downstream and age problems are the most repeated.",
+    "onepager": [
+      "- Equal a and b ratios but a different c ratio \u2192 no solution.",
+      "- All three ratios equal \u2192 infinitely many solutions.",
+      "- Word problems: name the unknowns in words first, then translate.",
+      "- Downstream = still + stream; upstream = still \u2212 stream."
+    ],
+    "task": [
+      "Write one word problem of your own that needs two equations \u2014 for example a fixed charge plus a daily rate \u2014 solve it, then hand it to someone else. Writing the problem is what teaches the translation step."
+    ]
+  }
+]

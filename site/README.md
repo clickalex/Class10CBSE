@@ -1,0 +1,79 @@
+# Study-hub site
+
+A static study hub in the same shape as the
+[IT 402 hub](https://clickalex.github.io/IT-402-/index.html): a portal, one hub
+per subject, unit overviews, and one deep page per chapter with a marks lens,
+concepts, formulas, memory tricks, mistakes to avoid and exam Q&A.
+
+## Build
+
+```bash
+python3 site/build.py          # writes site/dist/
+python3 site/build.py --check  # same, and exits non-zero if anything is broken
+```
+
+No dependencies beyond the Python 3 standard library.
+
+## Preview locally
+
+```bash
+python3 -m http.server 8000 --bind 0.0.0.0 --directory site/dist
+# then open http://localhost:8000
+```
+
+## Layout
+
+```
+site/
+├── build.py                  generator
+├── theme/                    style.css + app.js, copied into dist/assets
+├── content/
+│   ├── subjects.json         one entry per subject: units, marks, study order
+│   └── chapters/<slug>/      chapter content, split into small JSON files
+└── dist/                     generated site (committed so Pages can serve it)
+```
+
+## Adding a chapter
+
+Create `site/content/chapters/<slug>/<anything>.json` containing either one
+chapter object or a list of them, then rebuild. A chapter object looks like:
+
+```json
+{
+  "id": "ch01-real-numbers",
+  "num": 1,
+  "title": "Real Numbers",
+  "unit": "u1",
+  "unit_name": "I · Number Systems",
+  "weight": "6 marks",
+  "short": "One-line summary for the unit card.",
+  "lede": "Sentence shown under the chapter title.",
+  "lens": ["What this chapter is worth and how it is asked."],
+  "concepts": ["Numbered concept paragraphs.", {"table": {"head": ["A", "B"], "rows": [["1", "2"]]}}],
+  "formulas": ["Optional: rendered as a formula list."],
+  "steps": ["Optional: a worked method."],
+  "tricks": ["Optional: memory tricks."],
+  "mistakes": ["Optional: what costs marks."],
+  "qa": [{"m": "3", "q": "Question", "a": "Answer, or a list of lines."}],
+  "mcq": [{"q": "Question with (a) (b) (c) (d)", "a": "Answer with reasoning."}],
+  "trend": "What past papers keep asking from this chapter.",
+  "onepager": ["Bullet points for the Quick revision page."],
+  "task": ["A hands-on task."]
+}
+```
+
+Inline markup in any string: `**bold**`, `*italic*`, `` `code` ``. Start a string
+with `- ` for a bullet or `1. ` for a numbered item.
+
+## Checks the build runs
+
+`build.py` fails loudly rather than publishing something broken:
+
+- chapter numbering must run 1..N with no gaps;
+- every chapter's `unit` must exist in `subjects.json`;
+- every chapter must have `lens` and `concepts`;
+- duplicate chapter ids are rejected;
+- after writing, every internal link is checked against the files on disk.
+
+Subjects with no chapter content yet are skipped and shown on the portal as
+*in progress* — the build reports them instead of failing.
