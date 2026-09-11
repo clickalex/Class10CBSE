@@ -1,0 +1,143 @@
+[
+{
+"id": "ch29-reading-unseen-passages", "num": 29, "title": "Reading: Unseen and Case-based Passages",
+"unit": "skills", "unit_name": "Reading, Grammar & Writing", "weight": "≈ 15 marks",
+"short": "Discursive and factual passages, MCQ-based, with a speed strategy.",
+"lede": "The first section of the paper. It is a speed skill, not a knowledge skill — so practise it daily, not before the exam.",
+"lens": ["**About 15 marks.** Two passages: a **discursive passage of 400–450 words** and a **case-based factual passage of 200–250 words** with visual input such as statistical data or a chart.", "All questions are **objective type**, testing inference, analysis, interpretation, evaluation and vocabulary."],
+"concepts": [
+"**1. What is tested.** The questions test **inference** (what is implied but not stated), **analysis** (how an argument is built), **interpretation** (what a word or phrase means in context), **evaluation** (whether a claim is supported), and **vocabulary**. Because the questions are multiple choice, the answer is always in the passage — never bring in outside knowledge.",
+"**2. The method.** (1) Read the **questions first**, quickly, so you know what to look for. (2) Read the passage once at speed for the main idea. (3) Go question by question and locate the line; underline it. (4) Eliminate two options that are clearly wrong, then choose between the remaining two by going back to the text. (5) Do not spend more than ninety seconds on any one question — mark it and return.",
+"**3. Case-based passages.** These come with a chart, graph, table or advertisement. Read the **title, the axes, the units and the scale** before you read the questions. Almost every factual question can be answered from the visual itself, and one question usually asks you to compare two data points.",
+"**4. Vocabulary in context.** When asked what a word means, do not choose the meaning you know from elsewhere. Find the sentence, cover the word, and ask what word would fit. Then check the options against that."
+],
+"tricks": ["- **Questions first, then passage.** It saves two or three minutes on a fifteen-mark section.", "- In an MCQ, if two options say opposite things, **the answer is usually one of them**.", "- For a chart question, always check the **units and the scale** before choosing a number."],
+"mistakes": ["- Answering from your own knowledge instead of from the passage.", "- Choosing a true statement that does not answer the question asked.", "- Spending four minutes on one MCQ and running out of time for the writing section.", "- Ignoring the chart and reading only the paragraph."],
+"qa": [
+{"m": "3", "q": "What is the difference between a discursive and a case-based passage?", "a": "A discursive passage is 400–450 words and argues or discusses an idea, so the questions test inference, interpretation and evaluation. A case-based factual passage is 200–250 words and is supported by visual input such as statistical data or a chart, so the questions test your ability to read the data and connect it to the text."},
+{"m": "3", "q": "Describe a method for attempting the reading section in the time available.", "a": "Read the questions first, so that you know what to look for. Then read the passage once quickly for the main idea. Go question by question, locate the relevant line and underline it. Eliminate the two options that are clearly wrong, then choose between the remaining two by returning to the text. Keep to about ninety seconds per question and mark any you cannot decide, returning to them at the end."},
+{"m": "3", "q": "How should you answer a vocabulary-in-context question?", "a": "Find the sentence containing the word, cover the word, and decide for yourself what word would fit in its place. Then look at the options and choose the one closest to your own word. Do not choose a meaning you have met elsewhere, because the meaning must fit the sentence in front of you."}
+],
+"mcq": [
+{"q": "The length of the discursive passage in the reading section is: (a) 200–250 words (b) 300–350 words (c) 400–450 words (d) 500–550 words", "a": "**(c) 400–450 words.** The case-based factual passage is 200–250 words."},
+{"q": "Objective type questions in the reading section assess: (a) memorisation (b) inference, analysis, interpretation, evaluation and vocabulary (c) handwriting (d) grammar rules", "a": "**(b)** — they test higher-order reading skills, not recall."},
+{"q": "The best first step in attempting an unseen passage is to: (a) read the passage three times (b) read the questions first (c) answer from general knowledge (d) begin with the hardest question", "a": "**(b) read the questions first**, so that you know what information to look for."}
+],
+"trend": "The pattern is stable: one discursive passage and one case-based passage with visual input, all objective. The skill is speed and elimination, not knowledge.",
+"onepager": ["- Two passages: discursive 400–450 words; case-based 200–250 words with a chart.", "- All questions objective: inference, analysis, interpretation, evaluation, vocabulary.", "- Method: questions first, one fast read, locate the line, eliminate two options.", "- Ninety seconds maximum per question."],
+"task": ["Set a timer for eighteen minutes and do one unseen passage with eight MCQs. Then repeat the same passage the next day and compare your time. Two weeks of this raises the score more than any amount of reading about technique."]
+},
+{
+"id": "ch30-note-making-and-summarising", "num": 30, "title": "Note Making and Summarising",
+"unit": "skills", "unit_name": "Reading, Grammar & Writing", "weight": "≈ 5 marks",
+"short": "The exact format that earns the format marks.",
+"lede": "Format marks are awarded separately, so a correct answer in the wrong format still loses marks.",
+"lens": ["**About 5 marks**, usually as a note-making task based on a passage, followed by a short summary.", "Marks are split between **content, format and the summary** — learn the format exactly."],
+"concepts": [
+"**1. The format.** Write a **title** in the centre at the top. Use a **numbering system**: main headings 1, 1.1, 1.1.1, 1.2 and so on, indented to show the level. Main headings carry the key idea; sub-headings carry the details. Every heading is a **phrase, not a sentence**. End with a **conclusion** line if the passage has one. **Do not write in sentences, do not add your own ideas, and do not exceed the recommended number of headings.**",
+"**2. Rules.** Use only what is in the passage. Keep headings short — usually four to six words. Use standard **abbreviations**, and give a **key to abbreviations** at the end. Do not copy whole sentences. Indentation must be consistent, because the examiner reads the structure, not the prose.",
+"**3. The summary.** The summary is usually limited to about **80 words** and must be written in **your own words**, in complete sentences, covering the main idea and the two or three supporting points. Do not add anything new, do not give your opinion, and do not exceed the word limit — the limit is checked."
+],
+"tricks": ["- **Headings are phrases, not sentences.** That is the single most common loss of format marks.", "- **1, 1.1, 1.1.1** — the decimal numbering shows the examiner your structure at a glance.", "- **Always write the key to abbreviations** — it is a separate mark."],
+"mistakes": ["- Writing notes in full sentences.", "- Exceeding the number of headings asked for.", "- Forgetting the key to abbreviations.", "- Exceeding the 80-word limit in the summary, or copying sentences from the passage."],
+"qa": [
+{"m": "3", "q": "Describe the format required for note making.", "a": "Write a title in the centre at the top. Use decimal numbering for the headings — 1, 1.1, 1.1.1, 1.2 — with consistent indentation to show the levels. Each heading must be a short phrase, not a sentence, and must contain only what is in the passage. Standard abbreviations may be used, and a key to abbreviations must be given at the end."},
+{"m": "3", "q": "What are the rules for writing the summary that follows the notes?", "a": "The summary must be written in your own words, in complete sentences, and within the word limit, usually about 80 words. It must cover the main idea of the passage and its two or three main supporting points, and it must not include anything new or any personal opinion. Exceeding the word limit or copying sentences from the passage results in a deduction."},
+{"m": "3", "q": "Why is the key to abbreviations important?", "a": "Because it is assessed as part of the format, and because abbreviations are meaningless without it. The examiner needs to be able to see that the abbreviations used in the headings are standard and have been explained. Omitting the key costs a mark even if the notes themselves are correct."}
+],
+"mcq": [
+{"q": "Headings in note making should be: (a) full sentences (b) short phrases (c) questions (d) quotations", "a": "**(b) short phrases** — usually four to six words, containing only what is in the passage."},
+{"q": "The summary that follows the notes is usually limited to about: (a) 40 words (b) 60 words (c) 80 words (d) 120 words", "a": "**(c) about 80 words**, written in your own words in complete sentences."},
+{"q": "Which numbering system is used in note making? (a) a, b, c (b) 1, 1.1, 1.1.1 (c) i, ii, iii only (d) bullet points only", "a": "**(b) 1, 1.1, 1.1.1** — decimal numbering with consistent indentation."}
+],
+"trend": "The task is stable: a passage, a set of notes and an 80-word summary. The marks lost are almost always format marks, not content marks.",
+"onepager": ["- Title centred at the top; decimal numbering 1, 1.1, 1.1.1 with consistent indentation.", "- Headings are short phrases, not sentences; nothing from outside the passage.", "- Key to abbreviations at the end — a separate mark.", "- Summary: about 80 words, your own words, complete sentences, no opinion."],
+"task": ["Take any newspaper article of about 400 words and make notes on it in eight minutes, then write the 80-word summary. Check your headings: if any of them is a full sentence, rewrite it as a phrase. Do this five times and the format becomes automatic."]
+},
+{
+"id": "ch31-grammar-in-context", "num": 31, "title": "Grammar in Context",
+"unit": "skills", "unit_name": "Reading, Grammar & Writing", "weight": "≈ 10 marks",
+"short": "Tenses, modals, subject-verb agreement, reported speech, determiners.",
+"lede": "Grammar is tested inside passages and dialogues, not as isolated rules — so practise in sentences, not in tables.",
+"lens": ["**About 10 marks**, usually as a gap-filling or editing task set within a short passage or dialogue.", "The syllabus topics are **tenses, modals, subject-verb agreement, reported speech and determiners**. Clauses, passive voice and prepositions have been removed."],
+"concepts": [
+"**1. Tenses.** The tense must agree with the time marker in the sentence. **Since and for** take the perfect tenses; **yesterday, last year** take the simple past; **now, at present** take the present continuous; **tomorrow, next week** take the future. In a narrative passage, the tense often shifts only when the time shifts — so keep the tense until a new time marker appears.",
+"**2. Modals.** **Can** = ability, **could** = past ability or polite request, **may** = permission or possibility, **might** = weaker possibility, **must** = necessity or strong probability, **should** = advice, **would** = a polite offer or a past habit. In reported speech, *will* becomes *would*, *can* becomes *could*, and *may* becomes *might*.",
+"**3. Subject-verb agreement.** The verb agrees with the **subject, not with the nearest noun**. 'The list of items **is** on the table.' Collective nouns take a singular verb when the group acts as one: 'The team **has** won.' With **either…or / neither…nor**, the verb agrees with the nearer subject. **Each, every, everyone, nobody** take a singular verb.",
+"**4. Reported speech.** Change the tense back one step: present → past, past → past perfect, will → would, can → could. Change the pronouns and the time and place words: *today* → *that day*, *tomorrow* → *the next day*, *here* → *there*, *this* → *that*. For questions, use **asked** and change the word order back to statement form: 'Where are you?' becomes *He asked where I was*. For commands, use **ordered, requested or advised** followed by the infinitive.",
+"**5. Determiners.** **A/an** for a singular countable noun mentioned for the first time; **the** for something already mentioned or unique. **Some** in affirmative sentences, **any** in questions and negatives. **Few/a few** with countable nouns, **little/a little** with uncountable. **Much** with uncountable, **many** with countable. **Each/every** with singular nouns, **all/both** with plural."
+],
+"tricks": ["- In a gap-filling passage, **look at the other verbs first** — the tense of the passage is usually consistent.", "- For subject-verb agreement, **cross out everything between the subject and the verb** and then decide.", "- In reported speech, count **three changes**: tense, pronoun, time/place word. If you have only made one, look again."],
+"mistakes": ["- Using the simple past with 'since'. *Since* requires a perfect tense.", "- Making the verb agree with the nearest noun in 'the list of items are…'.", "- Forgetting to change the word order in reported questions.", "- Using 'a' before a word beginning with a vowel *letter* rather than a vowel *sound* — it is 'a university', 'an hour'."],
+"qa": [
+{"m": "1", "q": "Fill in the blank: Neither of the two candidates ____ (has/have) replied yet.", "a": "**has.** 'Neither of' takes a singular verb, because the subject is 'neither', not 'candidates'."},
+{"m": "2", "q": "Change into reported speech: 'Where have you kept my files?' she asked the clerk.", "a": "She asked the clerk where he had kept her files. Note the three changes: the present perfect becomes the past perfect, the question word order becomes statement order, and 'my' becomes 'her'."},
+{"m": "1", "q": "Fill in the blank with a suitable modal: You ____ consult a doctor if the cough persists. (can / should / may)", "a": "**should** — the sentence gives advice, which is the use of 'should'. 'Can' expresses ability and 'may' expresses permission or possibility, neither of which fits."},
+{"m": "1", "q": "Choose the correct determiner: There isn't ____ milk left in the jug. (some / any / much)", "a": "**any** — 'any' is used with uncountable nouns in negative sentences; 'some' is used in affirmative sentences."}
+],
+"mcq": [
+{"q": "Choose the correct sentence: (a) The committee have taken their seats. (b) The committee has taken its seat. (c) The committee have taken its seat. (d) The committee has taken their seats.", "a": "**(b)** — when the collective noun acts as a single unit, the verb and the pronoun are both singular."},
+{"q": "Report the sentence: He said, 'I am leaving tomorrow.' (a) He said that he was leaving the next day. (b) He said that he is leaving tomorrow. (c) He said that he left tomorrow. (d) He said that he will leave the next day.", "a": "**(a)** — the tense moves back one step, and 'tomorrow' becomes 'the next day'."},
+{"q": "Fill in the blank: She has been waiting ____ two hours. (a) for (b) since (c) from (d) during", "a": "**(a) for** — 'for' is used with a period of time; 'since' is used with a point in time."}
+],
+"trend": "The topics are fixed — tenses, modals, subject-verb agreement, reported speech and determiners — and are tested inside a passage or dialogue, so the skill is recognising the pattern in context.",
+"onepager": ["- Tenses follow the time marker; since and for take perfect tenses.", "- Modals: can ability, may permission, must necessity, should advice.", "- The verb agrees with the subject, not the nearest noun; neither/either take the nearer subject.", "- Reported speech: shift tense, change pronoun, change time and place words, and restore statement word order in questions.", "- Determiners: some in affirmatives, any in negatives and questions; few with countable, little with uncountable."],
+"task": ["Take any page of a story book, remove ten function words and verbs at random, and fill them back in from memory. Then check. This is exactly the gap-filling exercise the paper sets, and it trains the pattern recognition the questions need."]
+},
+{
+"id": "ch32-formal-letter-writing", "num": 32, "title": "Formal Letter Writing",
+"unit": "skills", "unit_name": "Reading, Grammar & Writing", "weight": "10 marks",
+"short": "Letters to the editor and letters of order, enquiry, complaint.",
+"lede": "Ten marks that depend almost entirely on format and word limit.",
+"lens": ["**10 marks, 100–120 words.** Two kinds are set: a **letter to the editor** and a **letter of order, enquiry or complaint** to a firm or an official.", "**Format marks are awarded separately.** Stick to the word limit."],
+"concepts": [
+"**1. The format.** (1) **Sender's address** at the top left, in two or three lines, without the name. (2) **Date**, written in full — 15 March 2027, not 15/3/27. (3) **Receiver's designation and address** — The Editor / The Manager, the name of the newspaper or firm, and the city. (4) **Subject**, in one line, short and specific. (5) **Salutation** — Sir / Madam. (6) **Body** in three short paragraphs. (7) **Complimentary close** — Yours faithfully / Yours sincerely. (8) **Signature, name and designation**, if given.",
+"**2. The three paragraphs.** **First:** state the purpose in one sentence — 'Through the columns of your esteemed daily, I wish to draw the attention of the authorities to…' for a letter to the editor, or 'I wish to place an order for…' for a letter of order. **Second:** give the details — the problem, the specification, the number and model, the complaint, or the data and examples. **Third:** state what you want done, politely and specifically, and end with the expectation of a reply or of action.",
+"**3. Letter to the editor.** The tone is formal and public-spirited; the letter raises a social or civic issue, supports it with two or three concrete details, and ends with a request that the authorities be urged to act. It never names individuals or makes accusations.",
+"**4. Letter of order, enquiry or complaint.** **Order:** give the item, model, quantity, the price quoted, the mode of payment, the delivery date and the address. **Enquiry:** ask specific questions and request a quotation and the terms. **Complaint:** give the invoice number, the date, exactly what is wrong, and the remedy you expect — replacement, refund or repair — with a reasonable deadline."
+],
+"tricks": ["- **The subject line is one line only.** If it runs to two, shorten it.", "- **'Yours faithfully'** with Sir/Madam; **'Yours sincerely'** only when you use the person's name.", "- Keep the body to **three paragraphs of three to four sentences**. The word limit is checked."],
+"mistakes": ["- Putting your name in the sender's address at the top. It goes at the **bottom**, under the signature.", "- Writing the date as 15/3/27. Write it in full.", "- Exceeding 120 words — this costs marks even if the content is good.", "- Using informal language or contractions such as 'don't' or 'I'm'."],
+"qa": [
+{"m": "3", "q": "Give the format of a formal letter.", "a": "Sender's address at the top left, without the name; the date in full; the receiver's designation and address; a one-line subject; the salutation Sir or Madam; the body in three short paragraphs; the complimentary close Yours faithfully or Yours sincerely; and the signature, name and designation at the bottom left."},
+{"m": "5", "q": "Write a letter to the editor about the irregular water supply in your locality.", "a": ["**Examination Hall** *(or the sender's address)* / **12, Civil Lines** / **Jaipur**", "**15 March 2027**", "**The Editor** / **The Rajasthan Patrika** / **Jaipur**", "**Subject: Irregular water supply in Civil Lines**", "**Sir,**", "**Para 1:** Through the columns of your esteemed daily, I wish to draw the attention of the concerned authorities to the irregular water supply in our locality, which has caused great hardship to the residents for the past three weeks.", "**Para 2:** Water is supplied for barely half an hour, and that too at odd hours. On many days there is no supply at all. The overhead tanks run dry, and the residents, including schoolchildren and the elderly, are forced to depend on private tankers at high rates. Two written complaints to the Jal Board have received no reply.", "**Para 3:** I hope this letter will prompt the authorities to restore a regular supply and to inform residents of the timings in advance.", "**Yours faithfully,** / **Amit Sharma** / **Resident, Civil Lines**"]},
+{"m": "3", "q": "What should a letter of complaint contain?", "a": "It should give the invoice or bill number and the date of purchase, describe precisely what is wrong with the goods or the service, state the remedy required — replacement, repair or refund — and give a reasonable deadline. The tone must be firm but polite, and the letter must end with a request for an early reply."}
+],
+"mcq": [
+{"q": "In a formal letter, the sender's name is written: (a) at the top with the address (b) at the bottom, under the signature (c) in the subject line (d) after the salutation", "a": "**(b) at the bottom, under the signature** — the address at the top does not include the name."},
+{"q": "The word limit for a formal letter in the board examination is: (a) 50–60 words (b) 100–120 words (c) 150–200 words (d) no limit", "a": "**(b) 100–120 words.**"},
+{"q": "'Yours faithfully' is used when the letter begins with: (a) Dear Mr Sharma (b) Sir or Madam (c) Respected Principal (d) My dear friend", "a": "**(b) Sir or Madam** — 'Yours sincerely' is used when the recipient is addressed by name."}
+],
+"trend": "One formal letter is set every year, alternating between a letter to the editor on a civic issue and a letter of order, enquiry or complaint. The marks lost are format marks and word-limit marks.",
+"onepager": ["- Sender's address (no name) → date in full → receiver's designation and address → one-line subject → Sir/Madam → three-paragraph body → Yours faithfully → signature, name, designation.", "- Paragraph 1: purpose. Paragraph 2: details. Paragraph 3: what you want done.", "- 100–120 words, no contractions, no informal language.", "- Format marks are separate — do not lose them."],
+"task": ["Write one letter to the editor and one letter of complaint, both in twelve minutes. Then count the words and check all eight format points. Repeat once a week for a month and the format will not cost you a single mark."]
+},
+{
+"id": "ch33-analytical-paragraph", "num": 33, "title": "Analytical Paragraph",
+"unit": "skills", "unit_name": "Reading, Grammar & Writing", "weight": "10 marks",
+"short": "A data-based paragraph from a chart, graph, table or set of clues.",
+"lede": "Ten marks for describing data you are given. Nothing has to be invented — the answer is in front of you.",
+"lens": ["**10 marks, 100–120 words.** Based on a **chart, graph, table, data set, outline or set of clues**.", "The marks go to **accurate description, comparison and a concluding inference** — not to opinions."],
+"concepts": [
+"**1. The structure.** **First sentence:** introduce the data — what the chart shows, what period it covers and what units are used. **Middle sentences:** describe the main features, comparing and contrasting the significant figures. **Last sentence:** give a conclusion or a trend inferred from the data. Do not list every number — select the two or three that matter.",
+"**2. The language of description.** **Comparison:** higher than, lower than, twice as much as, three times the figure for. **Trend:** rose steadily, fell sharply, remained constant, fluctuated, peaked in, reached a low of. **Proportion:** accounted for, made up, constituted, represented. Use these phrases rather than repeating 'it increased'.",
+"**3. What not to do.** Do not give your opinion or a recommendation unless the question asks for one. Do not invent data that is not in the chart. Do not exceed the word limit. Do not write a story — this is a description, not a narrative.",
+"**4. Worked example.** Given a table showing the percentage of households with internet access in 2010, 2015, 2020 and 2025, a good paragraph would open: *'The table shows the percentage of households with internet access over a fifteen-year period from 2010 to 2025.'* It would then compare the figures, noting the sharpest rise and any period of stagnation, and close with the overall trend and its implication."
+],
+"tricks": ["- **Open with what the chart shows, then compare, then conclude.** Three moves, one paragraph.", "- **Pick three figures, not ten.** Examiners reward selection, not transcription.", "- Learn six comparison phrases and use them. Repeating 'it increased' loses language marks."],
+"mistakes": ["- Copying every number from the table.", "- Adding an opinion or a recommendation that was not asked for.", "- Exceeding 120 words.", "- Writing 'the chart is very interesting' — description, not comment, is what is rewarded."],
+"qa": [
+{"m": "3", "q": "Describe the structure of an analytical paragraph.", "a": "The paragraph opens with a sentence introducing the data — what it shows, the period it covers and the units used. The middle sentences describe the main features, selecting the significant figures and comparing them. The final sentence gives a conclusion or a trend inferred from the data. The whole paragraph is within the word limit and contains no opinion."},
+{"m": "5", "q": "Write an analytical paragraph on a bar chart showing the mode of transport used by students: bus 45%, cycle 25%, walk 20%, private car 10%.", "a": ["The bar chart shows how students travel to school, expressed as a percentage of the total number of students.", "The most common mode of transport is the bus, used by 45 per cent of students — almost half. Cycling is the second most popular, at 25 per cent, while 20 per cent of students walk to school. Only 10 per cent travel by private car, the least common mode.", "Taken together, the figures show that the great majority of students — 90 per cent — use public or non-motorised transport, and that reliance on private cars is minimal. This suggests that improving bus services and cycle lanes would benefit far more students than any measure aimed at car users."]},
+{"m": "3", "q": "What should an analytical paragraph avoid?", "a": "It should avoid giving personal opinions or recommendations unless the question asks for them, inventing data that is not in the chart, listing every figure instead of selecting the significant ones, and exceeding the word limit. It should describe and compare the data, not comment on it."}
+],
+"mcq": [
+{"q": "An analytical paragraph is based on: (a) a story (b) a chart, graph, table or set of clues (c) a poem (d) a personal experience", "a": "**(b) a chart, graph, table, data set, outline or set of clues** provided in the question."},
+{"q": "The word limit for an analytical paragraph is: (a) 50–60 words (b) 100–120 words (c) 150–200 words (d) no limit", "a": "**(b) 100–120 words.**"},
+{"q": "The concluding sentence of an analytical paragraph should: (a) give a personal opinion (b) state a trend or inference from the data (c) list more figures (d) repeat the introduction", "a": "**(b) state a trend or inference from the data** — not a personal opinion, unless the question asks for one."}
+],
+"trend": "The task is stable: a chart, graph, table or set of clues, and a 100–120 word paragraph. Marks go to selection, comparison and a concluding inference.",
+"onepager": ["- Open: what the data shows, the period and the units.", "- Middle: compare the two or three significant figures, using phrases of comparison and trend.", "- Close: state the trend or an inference.", "- 100–120 words, no opinion, no invented data.", "- Phrases: rose steadily, fell sharply, peaked in, accounted for, twice as much as."],
+"task": ["Find any graph in a newspaper or a textbook and write a 100-word analytical paragraph on it in ten minutes. Then underline your comparison phrases — if you cannot find four, rewrite using more of them."]
+}
+]

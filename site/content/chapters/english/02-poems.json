@@ -1,0 +1,272 @@
+[
+{
+"id": "ch10-dust-of-snow", "num": 10, "title": "Dust of Snow",
+"unit": "ff-poems", "unit_name": "First Flight · Poems", "weight": "reference to context",
+"short": "Robert Frost: a crow, a hemlock tree and a change of mood.",
+"lede": "Eight lines, one idea: the smallest things can change a whole day.",
+"lens": ["Reference-to-context extracts and a 3-mark central idea. **Eight lines**, so every word is examinable.", "Know the poet (**Robert Frost**), the bird (**crow**) and the tree (**hemlock**)."],
+"concepts": [
+"**1. The poem.** A crow shakes down the dust of snow on the poet from a hemlock tree, and this gives him a change of mood — it saves some part of the day he had rued. The poem is in two four-line stanzas with an alternating rhyme.",
+"**2. Central idea.** A small, apparently unpleasant event can change the course of a day. The crow and the hemlock tree are both associated with sorrow and death in popular belief, yet it is precisely this that lifts the poet's spirits — so the poem is also about how we should not judge things by the associations attached to them.",
+"**3. Poetic devices.** **Alliteration** — 'has given me', 'dust of snow', 'saved some part'. **Rhyme scheme** — abab cdcd. **Symbolism** — the crow usually stands for sorrow, and the hemlock is a poisonous plant, yet both become the source of joy. **Enjambment** — the sentences run across lines without a pause."
+],
+"tricks": ["- The two 'unlucky' symbols — **crow and hemlock** — bringing happiness is the point. Say it explicitly.", "- **'Rued'** means regretted; the poet had rued the day until the snow fell.", "- Eight lines, two stanzas, abab cdcd — quoting the rhyme scheme earns a mark."],
+"mistakes": ["- Calling the bird a sparrow or the tree a pine. It is a **crow** and a **hemlock**.", "- Missing the meaning of 'rued'.", "- Describing the poem as sad. The mood **changes from sad to cheerful**."],
+"qa": [
+{"m": "3", "q": "What change of mood does the poet describe and what caused it?", "a": "The poet was in a depressed or sorrowful mood and had regretted the day. The change came when a crow shook down a dust of snow on him from a hemlock tree. This small, unexpected event lifted his spirits and saved some part of the day that he had rued."},
+{"m": "3", "q": "Why is it significant that the bird is a crow and the tree a hemlock?", "a": "Because both are traditionally associated with sorrow and death — the crow is considered an ill omen, and the hemlock is a poisonous plant. The poet deliberately chooses them to show that joy can come from the most unlikely and unfavourable sources, and that our associations should not blind us to the good in things."},
+{"m": "3", "q": "Explain the central idea of the poem.", "a": "The central idea is that a small, natural event can transform a person's outlook. The poet is gloomy and regretting his day, but the dust of snow shaken down by a crow gives him a sudden change of mood and saves part of the day. Frost suggests that we should stay open to such small joys, because they have the power to alter our whole perspective."}
+],
+"mcq": [
+{"q": "'Dust of Snow' is written by: (a) W. W. E. Ross (b) Robert Frost (c) Leslie Norris (d) Carolyn Wells", "a": "**(b) Robert Frost.**"},
+{"q": "The bird in the poem is a: (a) sparrow (b) crow (c) robin (d) cuckoo", "a": "**(b) crow**, perched on a hemlock tree."},
+{"q": "The word 'rued' in the poem means: (a) enjoyed (b) regretted (c) remembered (d) forgot", "a": "**(b) regretted** — the poet had rued the day before the snow fell."}
+],
+"trend": "The central idea and the significance of the crow and hemlock tree are asked almost every year; the poem is short, so the extract is usually two to four lines.",
+"onepager": ["- Robert Frost, eight lines, rhyme abab cdcd.", "- A crow shakes dust of snow from a hemlock tree onto the poet.", "- It changes his mood and saves part of the day he had rued.", "- Crow and hemlock are symbols of sorrow, yet they bring joy."],
+"task": ["Memorise the eight lines, then write the central idea in three sentences. Practise it twice; this poem is small enough to be a guaranteed two marks."]
+},
+{
+"id": "ch11-fire-and-ice", "num": 11, "title": "Fire and Ice",
+"unit": "ff-poems", "unit_name": "First Flight · Poems", "weight": "reference to context",
+"short": "Robert Frost on desire and hatred, and how the world could end.",
+"lede": "Nine lines about two ways to destroy the world. Learn the two symbols exactly.",
+"lens": ["Reference-to-context extracts and the rhyme scheme; a 3-mark answer on what fire and ice stand for.", "**Fire = desire (or passion); Ice = hatred.** That pairing is the whole poem."],
+"concepts": [
+"**1. The poem.** The poet says that some say the world will end in fire and some say in ice. From what he has tasted of **desire**, he holds with those who favour fire. But if it had to perish twice, he thinks he knows enough of **hate** to say that for destruction ice is also great, and would suffice.",
+"**2. Central idea.** Two human emotions are powerful enough to destroy the world: **desire or passion**, which is like fire, and **hatred**, which is like ice. The poet does not choose between them; he says both would suffice. Desire burns quickly and consumes, while hatred is cold, slow and equally deadly.",
+"**3. Poetic devices.** **Rhyme scheme** — aba abc bcb, an unusual interlocking pattern. **Symbolism** — fire for desire and ice for hate. **Alliteration** — 'Some say', 'and would suffice'. **Imagery** — the two contrasting elements.", "**Enjambment** — the thought continues from one line to the next without a full stop."
+],
+"tricks": ["- **Fire = desire, Ice = hatred.** If the question asks what the symbols stand for, this is the whole answer.", "- Rhyme scheme **aba abc bcb** — worth quoting, it is unusual and examiners reward it.", "- 'Would suffice' means **would be enough** — the poet says hate alone could end the world."],
+"mistakes": ["- Saying the poet prefers fire. He holds with those who favour fire, but adds that **ice would also suffice**.", "- Interpreting fire and ice literally as physical destruction rather than as human emotions.", "- Giving the rhyme scheme as abab cdcd."],
+"qa": [
+{"m": "3", "q": "What do 'fire' and 'ice' stand for in the poem?", "a": "Fire stands for desire or passion, and ice stands for hatred. The poet says that from what he has tasted of desire he agrees with those who say the world will end in fire, but he knows enough of hate to say that for destruction ice is also great and would suffice. Both emotions are destructive enough to end the world."},
+{"m": "3", "q": "What is the central idea of the poem?", "a": "The central idea is that the world may be destroyed by two opposite but equally powerful human emotions — desire, which is like fire, and hatred, which is like ice. The poet does not say which is worse; he says that both would suffice. Desire consumes quickly and passionately, while hatred works slowly and coldly, but the result is the same destruction."},
+{"m": "3", "q": "Comment on the rhyme scheme of the poem.", "a": "The rhyme scheme is aba abc bcb, an interlocking pattern rather than a simple alternating one. It links the two ideas of fire and ice across the stanzas, and it allows the poet to repeat the sound of 'fire' and 'desire' and of 'ice', 'suffice' and 'twice', so the two symbols keep echoing each other."}
+],
+"mcq": [
+{"q": "In the poem, 'ice' symbolises: (a) death (b) hatred (c) sorrow (d) winter", "a": "**(b) hatred** — fire symbolises desire."},
+{"q": "The rhyme scheme of 'Fire and Ice' is: (a) abab cdcd (b) aba abc bcb (c) aabb ccdd (d) abcb abcb", "a": "**(b) aba abc bcb**, an unusual interlocking scheme."},
+{"q": "The poet says that for destruction ice is: (a) not sufficient (b) also great and would suffice (c) less dangerous than fire (d) impossible", "a": "**(b) also great and would suffice** — hatred alone could destroy the world."}
+],
+"trend": "The symbolism of fire and ice is asked in nearly every paper; the rhyme scheme is the usual 1-mark item.",
+"onepager": ["- Robert Frost, nine lines, rhyme aba abc bcb.", "- Fire = desire; ice = hatred.", "- The poet leans toward fire but says ice would also suffice.", "- Central idea: both desire and hate can destroy the world."],
+"task": ["Write the poem from memory, then beside each line note whether it is about fire or ice. The alternation you see is the structure of the argument."]
+},
+{
+"id": "ch12-a-tiger-in-the-zoo", "num": 12, "title": "A Tiger in the Zoo",
+"unit": "ff-poems", "unit_name": "First Flight · Poems", "weight": "reference to context",
+"short": "Leslie Norris: captivity in the zoo, freedom in the forest.",
+"lede": "Two settings, one contrast: the cage and the wild. The pairs of images are what is examined.",
+"lens": ["Reference-to-context extracts, usually the first stanza (the cage) or the last (the stars).", "Know the poet (**Leslie Norris**), the **watering hole**, the **plump deer**, and the contrast between the tiger's **rage** and his **quiet** steps."],
+"concepts": [
+"**1. The poem.** The tiger in the zoo stalks the few steps of his cage in **quiet rage**; his strength is locked in a cage, so he ignores visitors. The poet then imagines where the tiger should be — **lurking in the shadow, sliding through long grass near the watering hole where plump deer pass**. He should be **lurking in shadow, sliding through long grass near the water hole, where plump deer pass**. In the last stanza the tiger is locked in a **concrete cell**, his strength behind bars, and he **stares with his brilliant eyes at the brilliant stars**.",
+"**2. Central idea.** The poem is a protest against keeping wild animals in captivity. In the zoo the tiger is confined to a few steps, his strength useless, his rage quiet because there is nothing he can do. In the wild he would be a hunter, terrifying the village at the jungle's edge. The last image — the tiger staring at the stars from a concrete cell — sums up the tragedy: he is alive but not free.",
+"**3. Poetic devices.** **Contrast** — the cage and the forest. **Alliteration** — 'plump deer', 'brilliant eyes', 'brilliant stars', 'quiet rage'. **Repetition** — 'brilliant' is repeated to link the tiger's eyes and the stars. **Personification** — the tiger's rage is described as if it were a companion. **Imagery** — vivid visual images of both settings."
+],
+"tricks": ["- **Two settings, two lists.** Cage: few steps, concrete cell, bars, visitors, stare at the stars. Forest: shadow, long grass, watering hole, plump deer, terrorise the village.", "- **'Quiet rage'** is an oxymoron — the rage is there but cannot be expressed. Examiners look for that term.", "- The repeated word **'brilliant'** links the tiger to the freedom of the sky."],
+"mistakes": ["- Saying the tiger attacks the visitors. He **ignores** them.", "- Describing the deer as a herd. The poem says **plump deer**.", "- Missing the last line entirely — the tiger **stares at the brilliant stars**, which is the poem's central image."],
+"qa": [
+{"m": "3", "q": "How does the poet contrast the tiger in the cage with the tiger in the wild?", "a": "In the cage the tiger stalks only the few steps of his enclosure, in quiet rage, with his strength locked behind bars and his attention turned away from the visitors. In the wild he would lurk in shadow, slide through the long grass near the watering hole where plump deer pass, and snarl around houses at the jungle's edge, baring his white fangs and claws and terrorising the village. The contrast is between useless confinement and natural power."},
+{"m": "3", "q": "Explain the meaning of 'quiet rage'.", "a": "It is an oxymoron. The tiger's rage is intense but silent, because in the cage there is nothing he can do about it. He cannot hunt, cannot roam and cannot express his anger, so the rage stays inside him and becomes quiet. The phrase captures the whole tragedy of captivity in two words."},
+{"m": "3", "q": "What is the significance of the last stanza?", "a": "The tiger is locked in a concrete cell, his strength behind bars, and he stalks the length of his cage ignoring visitors. At night he stares with his brilliant eyes at the brilliant stars. The repetition of 'brilliant' links the tiger to the vast, free sky that he can only look at. The stanza shows that captivity has taken away everything except the longing for freedom."}
+],
+"mcq": [
+{"q": "'A Tiger in the Zoo' is written by: (a) Leslie Norris (b) Robert Frost (c) Vicky Tree (d) Carolyn Wells", "a": "**(a) Leslie Norris.**"},
+{"q": "In the wild, the tiger would be found near the: (a) village well (b) watering hole (c) river bank (d) forest edge only", "a": "**(b) the watering hole**, where plump deer pass."},
+{"q": "'Quiet rage' is an example of: (a) simile (b) oxymoron (c) metaphor (d) alliteration", "a": "**(b) oxymoron** — two contradictory words placed together."}
+],
+"trend": "The contrast between the cage and the forest, and the significance of the last stanza, alternate as the set questions; 'quiet rage' recurs as a 1-mark explanation.",
+"onepager": ["- Leslie Norris; two settings, cage and wild.", "- Cage: few steps, concrete cell, bars, ignores visitors, stares at the brilliant stars.", "- Wild: shadow, long grass, watering hole, plump deer, snarling around houses.", "- 'Quiet rage' = oxymoron; 'brilliant' repeated to link the tiger and the stars."],
+"task": ["Make a two-column table with five rows: setting, movement, what he eats, his mood, what he looks at. Fill the left column from the cage and the right from the forest. The table is the answer to the comparison question."]
+},
+{
+"id": "ch13-how-to-tell-wild-animals", "num": 13, "title": "How to Tell Wild Animals",
+"unit": "ff-poems", "unit_name": "First Flight · Poems", "weight": "reference to context",
+"short": "Carolyn Wells: a humorous way to identify six animals.",
+"lede": "A comic poem with a grim joke in every stanza. Learn the six animals and how each 'identifies' you.",
+"lens": ["Reference-to-context extracts from any one stanza; a 3-mark answer on the humour or on the poet's purpose.", "The six animals: **Asian lion, Bengal tiger, leopard, bear, crocodile, hyena** — and the **chameleon** at the end."],
+"concepts": [
+"**1. The poem.** The poet gives an amusing method of telling one wild animal from another — by letting each of them attack you. If a large tawny beast in the east roars at you so that you feel you will die, it is an **Asian lion**. If the beast has a hide with **black stripes on a yellow ground** and it only needs to roar to know it is a **Bengal tiger**, and if it eats you, you can be quite sure it is a tiger. If a creature walks towards your home, and it has a **hide with spots that pepper it**, and it leaps on you, it is a **leopard** — and it will do no good to roar with pain; it will only leap again. If a creature in your yard **hugs you very, very hard**, be sure it is a **bear**; if you have any doubts, it gives you just one more caress. If a creature **has no ears but has eyes**, and it is **a crocodile** — you will know it by its eyes and by its tears, for a crocodile weeps before it eats its prey. A **hyena** comes with merry smiles, but if they weep, it is the crocodile. The last stanza describes the **chameleon**, a small lizard-like creature with no wings and no ears, which, if there is nothing on the tree, is the chameleon you see.",
+"**2. Central idea.** The poem is a piece of light verse that makes fun of field guides which claim to make identification easy. The humour lies in the grim practicality of the advice: the only sure way to identify a wild animal is to be attacked by it, and by then it is too late. It is also a gentle satire on human confidence in knowing and naming the natural world.",
+"**3. Poetic devices.** **Humour and irony** — the 'identification' is fatal. **Rhyme scheme** — ababcc, a light and bouncy pattern. **Alliteration** — 'Bengal tiger', 'a novice might nonplus'. **Repetition** — the repeated pattern of each stanza. **Enjambment** — lines run on without a pause, giving the poem its speed."
+],
+"tricks": ["- **Six animals in order:** Asian lion, Bengal tiger, leopard, bear, crocodile, hyena — then the chameleon.", "- **Bear = hug; crocodile = tears; hyena = smile.** Three pairings that answer most extract questions.", "- The joke is that **the reader is the bait** — say so in any question about the humour."],
+"mistakes": ["- Confusing the hyena's smile with the crocodile's tears. The **hyena comes with merry smiles; the crocodile weeps**.", "- Naming the leopard's markings as stripes. It has **spots that pepper** its hide; stripes belong to the Bengal tiger.", "- Treating the poem as serious natural history."],
+"qa": [
+{"m": "3", "q": "How does the poet suggest you can tell a leopard from a tiger?", "a": "The Bengal tiger has a hide with black stripes on a yellow ground and announces itself with a roar. The leopard has a hide with spots that pepper it, and it does not roar — it simply leaps at you, and it will do no good to roar with pain, because it will only leap again."},
+{"m": "3", "q": "What is the humour in the poem?", "a": "The humour comes from the poet's pretended practical advice: the only reliable way to identify a wild animal is to be attacked by it, and by the time you are certain, you are being eaten. The advice is useless to the reader, who is meant to be the bait. The poet also plays with the animals' characteristics — the bear's hug, the crocodile's tears, the hyena's smile — turning well-known sayings into a comic method of identification."},
+{"m": "3", "q": "Explain the lines about the crocodile and the hyena.", "a": "The poet plays on two popular beliefs. A crocodile is said to weep before it eats its prey, hence 'crocodile tears'; so if a creature weeps, it is a crocodile. A hyena is supposed to laugh, so the hyena 'comes with merry smiles'. By contrasting weeping with smiling, the poet gives the reader an amusing rule for telling the two apart — a rule that would only be tested at the cost of one's life."}
+],
+"mcq": [
+{"q": "'How to Tell Wild Animals' is written by: (a) Carolyn Wells (b) Leslie Norris (c) Vicky Tree (d) Walt Whitman", "a": "**(a) Carolyn Wells.**"},
+{"q": "The animal that 'hugs you very, very hard' is the: (a) bear (b) hyena (c) leopard (d) chameleon", "a": "**(a) the bear** — a bear hug is the popular image the poet plays on."},
+{"q": "The leopard's hide has: (a) black stripes on a yellow ground (b) spots that pepper it (c) no markings (d) brown patches", "a": "**(b) spots that pepper it**; black stripes belong to the Bengal tiger."}
+],
+"trend": "One stanza is chosen as an extract each year — most often the Bengal tiger or the bear — and the humour of the poem is the standard 3-mark question.",
+"onepager": ["- Carolyn Wells, rhyme ababcc, light verse.", "- Asian lion roars; Bengal tiger has black stripes; leopard has spots and leaps.", "- The bear hugs; the crocodile weeps; the hyena smiles; the chameleon has no wings or ears.", "- The humour: identification is only certain when the animal attacks you."],
+"task": ["List the six animals with one identifying feature each, then write two sentences on why the poet's method is useless. Both together form a complete 3-mark answer."]
+},
+{
+"id": "ch14-the-ball-poem", "num": 14, "title": "The Ball Poem",
+"unit": "ff-poems", "unit_name": "First Flight · Poems", "weight": "reference to context",
+"short": "John Berryman: a lost ball and the first lesson in loss.",
+"lede": "A child loses a ball, and the poet refuses to comfort him — because loss is the lesson.",
+"lens": ["Reference-to-context extracts; a 5-mark answer on the boy's lesson and on the meaning of 'the epistemology of loss'.", "Know that the ball cost **a dime**, that the poet **does not offer a new ball**, and the phrase **'epistemology of loss'**."],
+"concepts": [
+"**1. The poem.** The boy stands rigid, trembling, staring down at the **harbour** where his ball went. The poet does not intrude on him; he says he would not intrude on the boy, and that a dime, another ball, is worthless. The boy is learning the **epistemology of loss** — the knowledge of what it is to lose something. The poet says that money is external, and that the boy will learn to stand up, knowing that people will take balls and balls will always be lost. He stands there, **rigid, trembling, staring down** at where his ball went, and finally shakes himself and stands. The poem ends with the boy learning that he is now a part of the world of possessions that people keep losing.",
+"**2. Central idea.** Loss is a universal human experience, and the first loss teaches us how to live in a world where things can be taken away. The poet refuses to buy another ball, because a new ball would only postpone the lesson. The boy must learn to stand up and accept loss — that is the first step in growing up.",
+"**3. Poetic devices.** **Free verse** — no fixed rhyme or metre, which suits the reflective tone. **Alliteration** — 'bouncing ball', 'balls will be lost always'. **Repetition** — 'balls' is repeated to show that the loss is not unique. **Symbolism** — the ball stands for childhood, and its loss for the first experience of growing up. **Enjambment** — the sentences run on, mirroring the boy's thoughts."
+],
+"tricks": ["- **'Epistemology of loss' = the knowledge of how to lose things.** Explain it in simple words and you get the mark.", "- **'Money is external'** — a new ball can be bought, but the feeling of loss cannot.", "- The boy stands **'rigid, trembling, staring down'** — three adjectives that describe his shock."],
+"mistakes": ["- Saying the poet buys the boy a new ball. He **does not**, and explains why.", "- Saying the ball was expensive. It cost only **a dime** — which is the point.", "- Treating the poem as being about the ball. It is about **loss and growing up**."],
+"qa": [
+{"m": "3", "q": "Why does the poet say he would not intrude on the boy?", "a": "Because the boy is learning something important for the first time — the epistemology of loss, or the knowledge of what it is to lose something. Intruding on him, or offering a new ball, would spoil the lesson. The poet wants the boy to feel the loss fully and to learn to stand up on his own."},
+{"m": "3", "q": "What does the poet mean by 'money is external'?", "a": "He means that money can buy another ball, but it cannot buy back what has been lost or take away the feeling of loss. The material value of the ball is small — a dime — so what matters is not the object but the experience of losing it, which is something outside the reach of money."},
+{"m": "5", "q": "What is the boy learning, according to the poet? Explain the significance of the first loss.", "a": ["The boy is learning the **epistemology of loss** — the knowledge of what loss means and how to live with it. He stands rigid and trembling, staring down at the harbour where his ball went, and in that moment he understands that some things, once gone, cannot be brought back.", "The poet says a dime, another ball, is worthless, because a new ball would not restore the one that is lost. Money is external, so it cannot help him here.", "The boy learns that **balls will be lost always** — loss is a permanent feature of life, and everyone must learn to accept it. He learns to stand up, which means to accept the loss and go on.", "The significance of the first loss is that it is the beginning of maturity. Until this moment the boy lived in a world where everything could be replaced; now he is part of a world of possessions in which things can be taken away. That realisation is painful, but it is also the first step towards becoming an adult who can bear responsibility and disappointment."]}
+],
+"mcq": [
+{"q": "'The Ball Poem' is written by: (a) John Berryman (b) Robert Frost (c) Leslie Norris (d) Carolyn Wells", "a": "**(a) John Berryman.**"},
+{"q": "The ball cost: (a) a penny (b) a dime (c) a dollar (d) five cents", "a": "**(b) a dime** — a small sum, which is why a replacement is not the point."},
+{"q": "'The epistemology of loss' means: (a) the fear of loss (b) the knowledge of what it is to lose something (c) the science of possession (d) the memory of childhood", "a": "**(b) the knowledge of what it is to lose something** — the boy's first lesson in loss."}
+],
+"trend": "The meaning of 'the epistemology of loss' and why the poet does not offer a new ball alternate as the set questions.",
+"onepager": ["- John Berryman, free verse.", "- The boy loses his ball in the harbour; a dime could buy another.", "- The poet does not intrude, because the boy must learn loss himself.", "- 'Money is external'; 'balls will be lost always'.", "- The first loss is the beginning of growing up."],
+"task": ["Write the phrase 'epistemology of loss' and explain it in your own words in two sentences. Then write two more sentences on why a new ball would not help. Four sentences is a complete answer."]
+},
+{
+"id": "ch15-amanda", "num": 15, "title": "Amanda!",
+"unit": "ff-poems", "unit_name": "First Flight · Poems", "weight": "reference to context",
+"short": "Robin Klein: a girl's daydreams against her mother's nagging.",
+"lede": "Two voices — the parent's instructions and the child's escape into fantasy.",
+"lens": ["Reference-to-context extracts; a 3-mark answer on whether Amanda is an orphan or a mermaid, and on the theme of control.", "**Three fantasies: an orphan roaming the street, Rapunzel in a tower, and a mermaid in the sea.**"],
+"concepts": [
+"**1. The poem.** The poem alternates between the instructions of an adult — presumably Amanda's mother — and Amanda's daydreams. The adult tells her not to bite her nails, not to hunch her shoulders, not to slouch, to sit up straight, to do her homework, to clean her room, to shine her shoes, not to eat chocolate because of her acne, and not to look so moody. Amanda answers each instruction with a fantasy: she is an **orphan roaming the street**, patterning the dust with her bare feet, silent as the sea; she is **Rapunzel in a tower**, whose life in a tranquil tower is rare, and who would never let down her bright hair; she is a **mermaid, drifting blissfully in the languid emerald sea**. The adult then asks if she is sulking, and Amanda's silence is read as resentment.",
+"**2. Central idea.** The poem is about the pressure of constant adult control on a growing child. Amanda is not a disobedient girl; she is a girl who needs space to dream. The fantasy world she retreats into — silence, drifting, freedom from instruction — is her only escape. The poem criticises parents who nag so much that the child learns to shut them out.",
+"**3. Poetic devices.** **Alternating voices** — the instructions in the outer stanzas and the daydreams in the bracketed stanzas. **Simile** — 'silent as the sea'. **Metaphor and allusion** — Rapunzel and the mermaid. **Alliteration** — 'bare feet', 'drifting blissfully'. **Repetition** — the repeated 'Amanda!'."
+],
+"tricks": ["- **Three fantasies in order: orphan, Rapunzel, mermaid.** Each is her escape from one kind of instruction.", "- Amanda is **not** an orphan or a mermaid — the question asks why she imagines these, and the answer is **freedom and silence**.", "- The final line — the adult accusing her of sulking — shows the parent has learned nothing."],
+"mistakes": ["- Answering that Amanda *is* an orphan. She only **imagines** herself to be one.", "- Saying she lets down her hair like Rapunzel. She says she would **never let down** her bright hair, because she does not want to be found.", "- Missing the two voices. The bracketed stanzas are Amanda's **imagination**, not her replies."],
+"qa": [
+{"m": "3", "q": "Is Amanda an orphan? Why does she say she is one?", "a": "No, she is not an orphan. She imagines herself to be one because she is tired of the constant instructions and scolding. As an orphan roaming the street, patterning the dust with her bare feet, she would be free, silent and alone — free from anyone telling her what to do. The fantasy is an escape, not a statement of fact."},
+{"m": "3", "q": "Why does Amanda want to be Rapunzel?", "a": "Because Rapunzel lives in a tranquil tower, far away from the world, and her life there is rare and peaceful. Amanda longs for that peace and solitude, away from the nagging. But she adds that she would never let down her bright hair, because she does not want anyone to find her — she wants the tower for its silence, not for rescue."},
+{"m": "3", "q": "What does the poem tell us about the relationship between Amanda and the adult?", "a": "It shows a relationship of constant control and silent resistance. The adult gives instruction after instruction — about nails, posture, homework, shoes, chocolate and mood — and Amanda withdraws into her imagination each time. The adult interprets this silence as sulking and asks if she is moody, which shows that the adult has not understood that the child needs space to dream. The poem criticises a way of bringing up children that leaves no room for them."}
+],
+"mcq": [
+{"q": "'Amanda!' is written by: (a) Robin Klein (b) Robert Frost (c) Leslie Norris (d) John Berryman", "a": "**(a) Robin Klein.**"},
+{"q": "Amanda imagines herself as all of the following except: (a) an orphan (b) Rapunzel (c) a mermaid (d) a queen", "a": "**(d) a queen** — her three fantasies are the orphan, Rapunzel in her tower, and a mermaid in the languid emerald sea."},
+{"q": "As Rapunzel, Amanda would: (a) let down her bright hair (b) never let down her bright hair (c) climb down the tower (d) call for help", "a": "**(b) never let down her bright hair** — she wants the tower for its silence, not for rescue."}
+],
+"trend": "Whether Amanda is an orphan, why she wants to be Rapunzel, and the theme of parental control alternate as the set questions.",
+"onepager": ["- Robin Klein; two voices — instructions outside, daydreams in brackets.", "- Three fantasies: orphan roaming the street, Rapunzel in her tower, mermaid in the languid emerald sea.", "- Each fantasy is an escape from control and a wish for silence and freedom.", "- The final accusation of sulking shows the adult has not understood."],
+"task": ["List the eight instructions the adult gives, and match each to the fantasy Amanda retreats into. Then write two sentences on what Amanda actually needs — that is the value-based question."]
+},
+{
+"id": "ch16-the-trees", "num": 16, "title": "The Trees",
+"unit": "ff-poems", "unit_name": "First Flight · Poems", "weight": "reference to context",
+"short": "Adrienne Rich: trees leaving a house to return to the forest.",
+"lede": "An extended metaphor. The trees are prisoners moving out at night, and the moon breaks.",
+"lens": ["Reference-to-context extracts, usually the first or the third stanza; a 5-mark answer on the message about nature.", "Know the poet (**Adrienne Rich**), the **boughs like newly discharged patients**, and the **moon breaking like a mirror**."],
+"concepts": [
+"**1. The poem.** The trees are inside the house, and the forest outside is empty — no birds sit, no insects hide, no sun bury its feet in shadow, and there is nothing there all day. The trees that had been inside are moving out: their roots work all night to disengage themselves from the cracks in the veranda floor, their leaves strain towards the glass, and their small twigs stiff with exertion. The long-cramped boughs shuffling under the roof are like **newly discharged patients, half dazed, moving to the clinic doors**. The poet sits inside with the doors open, writing long letters, and hardly mentions the departure of the forest. At night the trees stumble forward, the **moon is broken like a mirror**, and its pieces flash now in the crown of the tallest oak.",
+"**2. Central idea.** The poem is a protest against the way human beings have cut down forests and confined nature to pots, gardens and drawing rooms. The trees struggle to break free and return to the forest. The poet also suggests that nature will not stay imprisoned — it moves out, slowly and surely, and human beings are left watching, unable to stop it.",
+"**3. Poetic devices.** **Personification** — the trees work, strain, shuffle and stumble, as if they were human. **Simile** — the boughs are like newly discharged patients, half dazed. **Metaphor** — the moon broken like a mirror. **Imagery** — the roots in the cracks, the leaves straining at the glass, the pieces of moon in the oak. **Free verse** — no rhyme, giving the poem a quiet, observant tone."
+],
+"tricks": ["- **The trees are prisoners; the forest is empty.** That reversal is the whole poem.", "- **Boughs = newly discharged patients** and **moon = a broken mirror** are the two figures of speech to name.", "- The poet **writes long letters** and hardly mentions the departure — say why: the event is too large for words."],
+"mistakes": ["- Saying the forest is full and the trees are outside. It is the **opposite**: the forest is empty and the trees are inside.", "- Missing the simile of the patients — it is the most frequently asked figure of speech.", "- Treating the poem literally as being about houseplants rather than as a comment on deforestation."],
+"qa": [
+{"m": "3", "q": "Why does the poet say the forest outside is empty?", "a": "Because all the trees have been brought inside — into houses, verandas and pots — so there are none left in the forest. With no trees there are no birds to sit, no insects to hide and no sun to bury its feet in the shadow of leaves. The forest is empty all day, which shows how completely human beings have taken nature away from it."},
+{"m": "3", "q": "Explain the comparison of the boughs to newly discharged patients.", "a": "The boughs have been cramped under the roof of the house for a long time, and as they move out they shuffle like patients who have just been discharged from a clinic — half dazed, unsteady and unused to the open air. The simile shows how long the trees have been imprisoned and how difficult it is for them to become free again."},
+{"m": "5", "q": "What message does the poem convey about human beings and nature?", "a": ["The poem shows that human beings have removed nature from its natural home and confined it to houses, verandas and gardens, so that the forest outside is left empty and lifeless. Without trees there are no birds, no insects and no shade.", "But the trees do not accept this imprisonment. All night their roots work to disengage themselves from the cracks in the veranda floor, their leaves strain towards the glass, and their twigs stiffen with exertion. Slowly, painfully, they move out and stumble forward into the forest.", "The poet watches them from inside, writing long letters and hardly mentioning their departure — which suggests that human beings know what they have done and prefer not to speak of it.", "The breaking of the moon like a mirror, its pieces flashing in the crown of the tallest oak, marks the moment the trees return to the wild. The message is that nature cannot be permanently confined, and that human beings who destroy forests are left with an empty world — but nature itself will find its way back."]}
+],
+"mcq": [
+{"q": "'The Trees' is written by: (a) Adrienne Rich (b) Robin Klein (c) Leslie Norris (d) Carolyn Wells", "a": "**(a) Adrienne Rich.**"},
+{"q": "The long-cramped boughs are compared to: (a) newly discharged patients (b) prisoners escaping (c) birds returning (d) children running", "a": "**(a) newly discharged patients, half dazed, moving to the clinic doors.**"},
+{"q": "In the last stanza, the moon is described as: (a) full and bright (b) broken like a mirror (c) hidden behind clouds (d) setting", "a": "**(b) broken like a mirror**, its pieces flashing in the crown of the tallest oak."}
+],
+"trend": "The message about deforestation and the comparison of the boughs to discharged patients alternate as the set questions; the empty forest recurs as a short extract.",
+"onepager": ["- Adrienne Rich, free verse.", "- The trees are inside the house; the forest outside is empty — no birds, no insects, no shade.", "- Roots disengage from the veranda floor; leaves strain towards the glass; boughs shuffle like discharged patients.", "- The moon breaks like a mirror; its pieces flash in the tallest oak.", "- Message: nature has been imprisoned by human beings, but it is moving back to the forest."],
+"task": ["List four images from the poem and the figure of speech in each. Then write the message in three sentences. Both together are a complete 5-mark answer."]
+},
+{
+"id": "ch17-fog", "num": 17, "title": "Fog",
+"unit": "ff-poems", "unit_name": "First Flight · Poems", "weight": "reference to context",
+"short": "Carl Sandburg: six lines comparing fog to a cat.",
+"lede": "The shortest poem in the syllabus and the most frequently asked. Six lines, one metaphor.",
+"lens": ["Reference-to-context extracts; a 3-mark answer on the central metaphor and on whether the poet actually says the fog is a cat.", "**The fog comes on little cat feet**, sits looking over harbour and city, then moves on."],
+"concepts": [
+"**1. The poem.** *The fog comes / on little cat feet. / It sits looking / over harbour and city / on silent haunches / and then moves on.* Six lines, no rhyme.",
+"**2. Central idea.** The poet compares the arrival and movement of fog to the quiet, soft, unannounced coming and going of a cat. The fog covers the city and the harbour silently, looks down on them, and then drifts away without warning. The comparison captures the mysterious and gentle quality of fog.",
+"**3. Poetic devices.** **Metaphor** — the fog is compared to a cat throughout, but the word 'like' is never used, so it is a metaphor and not a simile. **Personification** — the fog sits on silent haunches and looks. **Imagery** — the silent, soft movement of the fog over the harbour and city. **Free verse** — no rhyme scheme or metre."
+],
+"tricks": ["- **It is a metaphor, not a simile.** The poet never uses 'like' or 'as' — that distinction is a marked point.", "- **'Little cat feet' = silent, soft, unhurried.** Three adjectives answer most questions.", "- The fog 'moves on' without warning, as a cat does."],
+"mistakes": ["- Saying the poet *says* the fog is a cat. He **compares** it to a cat; the fog is not literally a cat.", "- Calling it a simile. There is no 'like' or 'as'.", "- Adding lines. The poem is **six lines** and nothing more."],
+"qa": [
+{"m": "3", "q": "What does the poet compare the fog to? Does he actually say that the fog is a cat?", "a": "The poet compares the fog to a cat. He says it comes on little cat feet, sits on silent haunches looking over the harbour and city, and then moves on — all the quiet, soft, unhurried movements of a cat. He never says directly that the fog is a cat, and he never uses the word 'like' or 'as', so the comparison is a metaphor rather than a simile."},
+{"m": "3", "q": "What is the central idea of the poem?", "a": "The central idea is that fog, like a cat, arrives silently and without warning, covers the city and the harbour, looks down on them, and then moves away. The comparison brings out the mysterious, gentle and unobtrusive nature of fog, and shows how a simple natural event can be described vividly in a few lines."},
+{"m": "3", "q": "Identify the figure of speech used in 'The fog comes on little cat feet'.", "a": "It is a metaphor, since the fog is directly compared to a cat without the use of 'like' or 'as'. There is also personification, because the fog is given the cat's action of walking on little feet and sitting on silent haunches."}
+],
+"mcq": [
+{"q": "'Fog' is written by: (a) Carl Sandburg (b) Robert Frost (c) Adrienne Rich (d) John Berryman", "a": "**(a) Carl Sandburg.**"},
+{"q": "The fog comes: (a) with thunder (b) on little cat feet (c) over the mountains (d) after the rain", "a": "**(b) on little cat feet** — silently and softly."},
+{"q": "The comparison of fog to a cat is an example of: (a) simile (b) metaphor (c) hyperbole (d) onomatopoeia", "a": "**(b) metaphor** — the word 'like' or 'as' is not used."}
+],
+"trend": "The poem is short, so the question is almost always on the central metaphor and the figure of speech; it is a reliable two to three marks.",
+"onepager": ["- Carl Sandburg, six lines, free verse.", "- Fog comes on little cat feet, sits on silent haunches, then moves on.", "- Metaphor, not simile — no 'like' or 'as'.", "- Central idea: the quiet, mysterious, unhurried movement of fog."],
+"task": ["Learn all six lines exactly, then write two sentences: one naming the figure of speech with a reason, one stating the central idea. That is the whole question."]
+},
+{
+"id": "ch18-the-tale-of-custard-the-dragon", "num": 18, "title": "The Tale of Custard the Dragon",
+"unit": "ff-poems", "unit_name": "First Flight · Poems", "weight": "reference to context",
+"short": "Ogden Nash's ballad: a cowardly dragon and a real pirate.",
+"lede": "A comic ballad with a clear moral. Know the four characters, their names, and who actually fought.",
+"lens": ["Reference-to-context extracts; a 5-mark answer on the moral and on why Custard cried for a nice safe cage.", "**Belinda** and her pets: **Ink** (a little black kitten), **Blink** (a little grey mouse), **Mustard** (a little yellow dog), and **Custard** the dragon."],
+"concepts": [
+"**1. The poem.** Belinda lived in a little white house with a little black kitten, a little grey mouse, a little yellow dog, and a little pet dragon named Custard. Belinda was as brave as a barrel full of bears; Ink and Blink could chase lions down the stairs; Mustard was as brave as a tiger in a rage. But **Custard cried for a nice safe cage**. Then a **pirate** climbed in through the window, with a pistol in his hand and two cutlasses, and a black beard and one wooden leg. Mustard fled with a terrified cry; Ink trickled down to the bottom of the house; Blink disappeared into his mouse hole. Only **Custard jumped up, snorting like an engine, clashing his tail like iron in a dungeon, and went at the pirate like a robin at a worm** — and he ate the pirate, every bit. Belinda embraced him, Mustard licked him, and nobody wept for the pirate. Afterwards they all went back to boasting: Mustard said he would have been twice as brave without being flustered, Ink and Blink said they would have been three times as brave, and Belinda said she would have been as brave as the whole of them combined. Custard agreed that everyone was braver than he, and said he would still prefer a nice safe cage — and they all laughed, and the poem ends with the boast repeated.",
+"**2. Central idea.** The poem is a humorous look at bravery and cowardice. Those who boast are the first to run away, and the one who admits his fear is the one who acts when it matters. But the poem is not a simple moral lesson — Custard himself goes back to wanting a safe cage, so the poet is also saying that being a coward is not a fault to be corrected.",
+"**3. Poetic devices.** **Ballad form** — a story told in verse, with a regular rhythm and rhyme (aabb). **Simile** — 'brave as a barrel full of bears', 'as brave as a tiger in a rage', 'like a robin at a worm', 'snorting like an engine'. **Repetition** — the repeated boast at the end. **Humour and irony** — the boastful animals run away; the coward saves them.", "**Onomatopoeia** — the sounds of the pirate and the dragon."
+],
+"tricks": ["- **Four pets, four names: Ink, Blink, Mustard, Custard.** Learn which animal is which colour.", "- The **irony** is the whole poem: the boasters flee, the coward fights.", "- Custard still wants a safe cage at the end — that is not a failure of the moral, it is the joke."],
+"mistakes": ["- Making Mustard the grey mouse. **Ink is the black kitten, Blink is the grey mouse, Mustard is the yellow dog**.", "- Saying Custard killed the pirate with fire. He **ate** him, every bit.", "- Saying the other pets were grateful afterwards. They went straight back to **boasting**."],
+"qa": [
+{"m": "3", "q": "Why did Custard cry for a nice safe cage?", "a": "Because he was a coward, or at least thought of himself as one. While Belinda and the other pets boasted of their bravery, Custard admitted his fear and asked for a nice safe cage. His cry is honest, and it is what makes his later action so surprising — he is the only one who did not pretend to be brave."},
+{"m": "3", "q": "Describe the pirate and how Custard dealt with him.", "a": "The pirate climbed in through the window with a pistol in his hand and two cutlasses shining, a black beard and one wooden leg, and he was clearly bad. Mustard fled with a terrified cry, Ink trickled down to the bottom of the house, and Blink disappeared into his mouse hole. Custard jumped up, snorting like an engine, clashing his tail like iron in a dungeon, and went at the pirate like a robin at a worm — and he ate him, every bit."},
+{"m": "5", "q": "What is the central idea of the poem? Is Custard a coward?", "a": ["The poem is a humorous story about bravery and boasting. Belinda, Ink, Blink and Mustard all boast about how brave they are, while Custard openly admits his fear and asks for a nice safe cage.", "When the pirate actually appears, the boasters run away: Mustard flees with a terrified cry, Ink trickles to the bottom of the house, and Blink disappears into his mouse hole. Only Custard faces the pirate and eats him up, every bit.", "**The moral** is that those who boast are not necessarily brave, and the one who admits his fear may be the bravest of all when action is needed. Bravery is shown in deeds, not in words.", "**Is Custard a coward?** The poet leaves this open. Custard himself says he is a coward and would still prefer a nice safe cage, and the others all agree they are braver than he is. The humour lies in the fact that nobody changes their opinion, even after Custard has saved them. So the poem suggests that a person can be genuinely brave in action and still be timid by nature — the two are not contradictory."]}
+],
+"mcq": [
+{"q": "'The Tale of Custard the Dragon' is written by: (a) Ogden Nash (b) Carl Sandburg (c) Robin Klein (d) Adrienne Rich", "a": "**(a) Ogden Nash.**"},
+{"q": "Blink in the poem is: (a) a little black kitten (b) a little grey mouse (c) a little yellow dog (d) a little pet dragon", "a": "**(b) a little grey mouse.** Ink is the black kitten and Mustard is the yellow dog."},
+{"q": "When the pirate appeared, Mustard: (a) attacked him (b) fled with a terrified cry (c) hid behind Belinda (d) barked at him", "a": "**(b) fled with a terrified cry** — despite having boasted that he was as brave as a tiger in a rage."}
+],
+"trend": "The central idea and whether Custard is a coward alternate as the set 5-mark answers; the pirate's description and the animals' boasting recur as extracts.",
+"onepager": ["- Ogden Nash, ballad form, rhyme aabb.", "- Belinda, Ink (black kitten), Blink (grey mouse), Mustard (yellow dog), Custard (dragon).", "- All boast; Custard alone asks for a nice safe cage.", "- The pirate arrives: Mustard flees, Ink trickles, Blink hides; Custard eats the pirate.", "- Moral: bravery is shown in deeds, not in words — and a coward can still act bravely."],
+"task": ["Make a table: character, what they boasted, what they did when the pirate came. Four rows. Then write two sentences on the moral. That is a full 5-mark answer in table form."]
+},
+{
+"id": "ch19-for-anne-gregory", "num": 19, "title": "For Anne Gregory",
+"unit": "ff-poems", "unit_name": "First Flight · Poems", "weight": "reference to context",
+"short": "W. B. Yeats: is a man loved for himself or for his yellow hair?",
+"lede": "A conversation in verse. Three speakers, one question: can anyone love you for yourself alone?",
+"lens": ["Reference-to-context extracts; a 3-mark answer on the central question and on the religious man's answer.", "Know the poet (**W. B. Yeats**), the **yellow hair**, the **rampart** and the **honey-coloured ramparts at your ear**."],
+"concepts": [
+"**1. The poem.** The poet asks Anne Gregory: never shall a young man, thrown into despair by those great honey-coloured ramparts at your ear, love you for yourself alone, and not your yellow hair. Anne replies that she can dye her hair brown, or black, or carrot, and that young men could then love her for herself alone and not her yellow hair. The poet answers that an old religious man told him last night that he had found a text to prove that **only God, my dear, could love you for yourself alone, and not your yellow hair**.",
+"**2. Central idea.** Physical beauty attracts people, and it is hard for a young man to love a girl for her inner self alone when her outer beauty is so striking. Anne believes she can prove him wrong by changing her hair colour, but the poet's answer — quoting a religious text — is that only God can love someone for themselves alone. The poem is a meditation on the difference between physical attraction and true love.",
+"**3. Poetic devices.** **Dialogue** — the poem is a conversation between the poet, Anne and (quoted) the religious man. **Metaphor** — 'great honey-coloured ramparts at your ear', where her hair is compared to the ramparts of a fort. **Enjambment** — the lines run on. **Rhyme** — a regular scheme with alternating rhymes. **Irony** — Anne's confident answer is answered by a text she cannot argue with."
+],
+"tricks": ["- **'Ramparts' = the walls of a fort.** Her hair is compared to a fort's wall — a metaphor, and a marked figure of speech.", "- **Only God** can love a person for themselves alone — that is the poem's conclusion.", "- Anne's answer is practical (dye the hair); the poet's is philosophical (a religious text). Contrast them."],
+"mistakes": ["- Saying the poet answers Anne directly. He quotes **an old religious man and a text**.", "- Calling the ramparts a simile. There is no 'like' or 'as' — it is a **metaphor**.", "- Missing the conclusion: only God can love for oneself alone."],
+"qa": [
+{"m": "3", "q": "What does the poet mean by 'honey-coloured ramparts at your ear'?", "a": "He is comparing Anne's yellow hair to the ramparts, or high walls, of a fort. The hair hangs around her ears like a wall that young men cannot cross, and it throws them into despair because they cannot help being attracted to her beauty. It is a metaphor, since no 'like' or 'as' is used."},
+{"m": "3", "q": "What is Anne Gregory's reply, and does it answer the poet's point?", "a": "Anne replies that she can dye her hair another colour — brown, or black, or carrot — so that young men could love her for herself alone and not for her yellow hair. She believes that by removing the attraction of her hair she would prove the poet wrong. But the poet answers that according to a religious text only God can love a person for themselves alone, so her plan would not change the fact that human love is always mixed with physical attraction."},
+{"m": "3", "q": "What is the central idea of the poem?", "a": "The central idea is that physical beauty draws people, and that it is almost impossible for a human being to love another for their inner self alone. Anne thinks that by dyeing her hair she could prove otherwise, but the poet quotes a religious text to show that only God is capable of such selfless love. The poem sets outer beauty against inner worth and suggests that true, disinterested love is divine rather than human."}
+],
+"mcq": [
+{"q": "'For Anne Gregory' is written by: (a) W. B. Yeats (b) Ogden Nash (c) Carl Sandburg (d) Robert Frost", "a": "**(a) W. B. Yeats.**"},
+{"q": "'Honey-coloured ramparts' refers to: (a) the walls of a castle (b) Anne's yellow hair (c) the setting sun (d) a religious text", "a": "**(b) Anne's yellow hair**, compared by metaphor to the ramparts of a fort."},
+{"q": "According to the old religious man, who can love a person for themselves alone? (a) a true friend (b) a mother (c) only God (d) a husband", "a": "**(c) only God** — the poet quotes a text to prove it."}
+],
+"trend": "The metaphor of the ramparts and the central question about loving a person for themselves alone alternate as the set questions.",
+"onepager": ["- W. B. Yeats; a dialogue between the poet and Anne Gregory.", "- 'Honey-coloured ramparts at your ear' = a metaphor for her yellow hair.", "- Anne offers to dye her hair brown, black or carrot to prove her point.", "- The poet quotes a religious text: only God can love you for yourself alone.", "- Theme: outer beauty against inner worth; true love is divine."],
+"task": ["Write the three speakers' positions as three sentences: the poet, Anne, and the religious man. Then state the central idea in one sentence. That is a complete answer."]
+}
+]

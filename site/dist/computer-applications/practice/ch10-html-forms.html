@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ch 10 practice · Class 10 CBSE</title>
+<meta name="description" content="CBSE Class 10 Ch 10 practice — chapter notes, formulas, exam Q&amp;A and revision.">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
+    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../computer-applications/index.html">Hub</a><a href="../../computer-applications/syllabus.html">Syllabus</a><a href="../../computer-applications/revision.html">Revision</a><a href="../../computer-applications/question-bank.html">Questions</a><a href="../../computer-applications/pyq.html">PYQ</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Computer Applications</a> <span class="sep">/</span> <a href="../chapters/ch10-html-forms.html">Ch 10 · HTML Forms</a> <span class="sep">/</span> Practice</nav>
+
+<p class="kicker">CBSE • CLASS 10 • COMPUTER APPLICATIONS</p>
+<h1>Ch 10 · HTML Forms — Practice</h1>
+<p class="lede">Attempt first, then open the answer. Everything here is original
+practice material mapped to the current syllabus.</p>
+<h2>MCQs</h2>
+<details class="qa"><summary>Which input type hides the characters typed? (a) text (b) hidden (c) password (d) secure</summary><div class="ans"><p><strong>(c) password.</strong></p></div></details><details class="qa"><summary>Radio buttons in one group must share the same — (a) value (b) name (c) id (d) size</summary><div class="ans"><p><strong>(b) name.</strong></p></div></details><details class="qa"><summary>Which method sends data in the request body? (a) GET (b) POST (c) SEND (d) PUT</summary><div class="ans"><p><strong>(b) POST.</strong></p></div></details><details class="qa"><summary>Which of these is a paired tag? (a) <code>&lt;input&gt;</code> (b) <code>&lt;textarea&gt;</code> (c) <code>&lt;img&gt;</code> (d) <code>&lt;br&gt;</code></summary><div class="ans"><p><strong>(b) <code>&lt;textarea&gt;</code>.</strong></p></div></details><details class="qa"><summary>To pre-select a radio button you use the attribute — (a) selected (b) checked (c) default (d) value</summary><div class="ans"><p><strong>(b) checked.</strong> <code>selected</code> is used on <code>&lt;option&gt;</code>.</p></div></details>
+<h2>Written questions</h2>
+<details class="qa"><summary><span class="marks">4 marks</span> Write an HTML form with a name field, a password field, two radio buttons for gender, a hobbies checkbox group, and submit and reset buttons.</summary><div class="ans"><p><code>&lt;form action='/submit' method='post'&gt;</code><br><code>  Name: &lt;input type='text' name='uname'&gt;&lt;br&gt;</code><br><code>  Password: &lt;input type='password' name='upass'&gt;&lt;br&gt;</code><br><code>  Gender:</code><br><code>  &lt;input type='radio' name='gender' value='male'&gt; Male</code><br><code>  &lt;input type='radio' name='gender' value='female'&gt; Female&lt;br&gt;</code><br><code>  Hobbies:</code><br><code>  &lt;input type='checkbox' name='hobby' value='reading'&gt; Reading</code><br><code>  &lt;input type='checkbox' name='hobby' value='music'&gt; Music&lt;br&gt;</code><br><code>  &lt;input type='submit' value='Send'&gt;</code><br><code>  &lt;input type='reset' value='Clear'&gt;</code><br><code>&lt;/form&gt;</code><br>Both radio buttons share the name <code>gender</code>, so only one can be chosen; the two checkboxes are independent, so both can be ticked.</p></div></details><details class="qa"><summary><span class="marks">3 marks</span> What is the difference between the GET and POST methods?</summary><div class="ans"><p><strong>GET</strong> appends the form data to the URL as a query string, such as <code>search.html?q=physics</code>. The data is visible in the address bar, is limited in length, and can be bookmarked or shared — which makes GET suitable for searches. <strong>POST</strong> places the data in the body of the HTTP request, so it does not appear in the URL, has no practical size limit, and can carry files. POST is therefore used for logins, registrations and any form carrying sensitive or large data.</p></div></details><details class="qa"><summary><span class="marks">2 marks</span> What is the difference between radio buttons and checkboxes?</summary><div class="ans"><p><strong>Radio buttons</strong> allow the user to choose <strong>only one</strong> option from a group, and all buttons in that group must share the same <code>name</code> attribute. <strong>Checkboxes</strong> allow <strong>any number</strong> of options to be selected at once, including none or all. Visually, radios are round and checkboxes are square.</p></div></details><details class="qa"><summary><span class="marks">2 marks</span> Why is the <code>name</code> attribute important in a form?</summary><div class="ans"><p>The <code>name</code> attribute is the identifier used for a field when the form data is sent to the server — the server reads <code>name=value</code> pairs. If a control has no <code>name</code>, it is <strong>not submitted at all</strong>, even if the user filled it in. Radio buttons additionally rely on a shared name to behave as a single group.</p></div></details><details class="qa"><summary><span class="marks">2 marks</span> Write the HTML for a drop-down list of three subjects with Science pre-selected.</summary><div class="ans"><p><code>&lt;select name='subject'&gt;</code><br><code>  &lt;option&gt;Mathematics&lt;/option&gt;</code><br><code>  &lt;option selected&gt;Science&lt;/option&gt;</code><br><code>  &lt;option&gt;Social Science&lt;/option&gt;</code><br><code>&lt;/select&gt;</code><br><code>&lt;select&gt;</code> is a paired tag containing <code>&lt;option&gt;</code> children. The <code>selected</code> attribute on the Science option makes it the default choice shown when the page loads.</p></div></details>
+<p><a class="btn" href="../chapters/ch10-html-forms.html">← Back to the chapter</a></p>
+
+</main>
+<footer class="wrap foot">
+  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  not official CBSE papers. Always confirm the syllabus against
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
+</footer>
+<script src="../../assets/app.js"></script>
+</body>
+</html>

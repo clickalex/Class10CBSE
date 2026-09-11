@@ -77,3 +77,32 @@ with `- ` for a bullet or `1. ` for a numbered item.
 
 Subjects with no chapter content yet are skipped and shown on the portal as
 *in progress* — the build reports them instead of failing.
+
+## Coverage
+
+Every Class 10 subject has a hub. Chapter content is authored for all seven
+in-repo subjects — **152 chapters** in total:
+
+| Subject | Chapters |
+|---|---|
+| Maths | 14 |
+| Science | 13 |
+| Social Science | 19 |
+| English | 33 |
+| Hindi | 40 |
+| Computer Applications | 14 |
+| Sanskrit | 19 |
+
+IT 402 is not rebuilt here — `subjects.json` lists it as an `external` card
+linking to the already-published 402 hub, so the portal links out to it.
+
+A useful sanity check before committing, because `build.py` does not name the
+file when a JSON file fails to parse:
+
+```bash
+for f in site/content/chapters/*/*.json; do python3 -c "
+import json
+try: json.load(open('$f', encoding='utf-8'))
+except Exception as e: print('FAIL', '$f', e)
+"; done
+```
