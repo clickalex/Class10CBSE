@@ -1,5 +1,6 @@
 # 01 · English Language and Literature (Code 184)
 
+- **Session:** 2026–27 · folder tree and chapter list checked 12 Sep 2026
 - **Theory:** 80 marks · **Internal assessment:** 20 marks · **Time:** 3 hours
 - **Prescribed books:** *First Flight* (main reader), *Footprints Without Feet*
   (supplementary reader), *Words and Expressions II* (workbook)

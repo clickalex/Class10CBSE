@@ -2,6 +2,7 @@
 
 **Only if Computer Applications is your elective.** If not, delete this folder.
 
+- **Session:** 2026–27 · folder tree and chapter list checked 12 Sep 2026
 - **Total:** 100 marks, split 50 theory + 50 practical, usually as two 2-hour papers
 
 ## Unit and chapter folders
@@ -20,7 +21,10 @@ chapters. Practical is the other 50: lab test 20, file work 10, viva 5, website
 project 15.
 
 Deep chapter pages for all 14 chapters are built in the site — see
-[`site/dist/computer-applications/`](../site/dist/computer-applications/index.html).
+[the Computer Applications hub](../docs/computer-applications/index.html)
+(live: <https://clickalex.github.io/Class10CBSE/computer-applications/index.html>).
+The 2026–27 curriculum PDF for this code is on the CBSE Class X page:
+<https://cbseacademic.nic.in/curriculum_2027.html>.
 
 Re-confirm the unit list against the current session's curriculum PDF from CBSE
 Academic → <https://cbseacademic.nic.in/> (Curriculum → Secondary) before

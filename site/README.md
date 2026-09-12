@@ -8,8 +8,9 @@ concepts, formulas, memory tricks, mistakes to avoid and exam Q&A.
 ## Build
 
 ```bash
-python3 site/build.py          # writes site/dist/
-python3 site/build.py --check  # same, and exits non-zero if anything is broken
+python3 site/build.py           # writes ../docs/  (the published folder)
+python3 site/build.py --check   # same, and exits non-zero if anything is broken
+python3 site/build.py --out /tmp/preview
 ```
 
 No dependencies beyond the Python 3 standard library.
@@ -17,7 +18,7 @@ No dependencies beyond the Python 3 standard library.
 ## Preview locally
 
 ```bash
-python3 -m http.server 8000 --bind 0.0.0.0 --directory site/dist
+python3 -m http.server 8000 --bind 0.0.0.0 --directory docs
 # then open http://localhost:8000
 ```
 
@@ -26,12 +27,19 @@ python3 -m http.server 8000 --bind 0.0.0.0 --directory site/dist
 ```
 site/
 ├── build.py                  generator
-├── theme/                    style.css + app.js, copied into dist/assets
+├── theme/                    style.css + app.js, copied into docs/assets
 ├── content/
 │   ├── subjects.json         one entry per subject: units, marks, study order
 │   └── chapters/<slug>/      chapter content, split into small JSON files
-└── dist/                     generated site (committed so Pages can serve it)
+docs/                         generated site — GitHub Pages serves this folder
 ```
+
+`docs/` is committed on purpose: the repository's Pages setting is
+*Deploy from a branch → main → /docs*, so the built site has to be in the tree.
+Rebuild and commit `docs/` whenever `site/content/` changes — `scripts/check_all.sh`
+runs the build into a scratch directory first, so the published folder is only
+ever written on purpose. `.github/workflows/` has two workflows that automate
+that and the checks; see the root README for how to add them.
 
 ## Adding a chapter
 
@@ -81,13 +89,13 @@ Subjects with no chapter content yet are skipped and shown on the portal as
 ## Coverage
 
 Every Class 10 subject has a hub. Chapter content is authored for all seven
-in-repo subjects — **152 chapters** in total:
+in-repo subjects — **154 chapters** in total:
 
 | Subject | Chapters |
 |---|---|
 | Maths | 14 |
 | Science | 13 |
-| Social Science | 19 |
+| Social Science | 21 |
 | English | 33 |
 | Hindi | 40 |
 | Computer Applications | 14 |

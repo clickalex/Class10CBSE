@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """Build the Class 10 CBSE study-hub site.
 
-Reads JSON content from site/content/ and writes a complete static site to
-site/dist/, mirroring the architecture of the IT-402 hub: a portal page, one
-hub per subject, unit overviews, deep chapter pages, syllabus, revision,
-question bank and PYQ pages.
+Reads JSON content from site/content/ and writes a complete static site into
+docs/, mirroring the architecture of the IT-402 hub: a portal page, one hub per
+subject, unit overviews, deep chapter pages, syllabus, revision, question bank
+and PYQ pages.
 
-    python3 site/build.py            # build into site/dist
-    python3 site/build.py --check    # build, then validate links + content
+docs/ is the GitHub Pages publishing folder (Settings -> Pages -> main /docs),
+so the build writes straight into the directory the live site is served from.
+
+    python3 site/build.py                 # build into docs/
+    python3 site/build.py --check         # build, then validate links + content
+    python3 site/build.py --out /tmp/x    # build somewhere else (CI)
 """
 from __future__ import annotations
 
@@ -20,9 +24,18 @@ import sys
 from pathlib import Path
 
 SITE = Path(__file__).resolve().parent
+REPO = SITE.parent
 CONTENT = SITE / "content"
 THEME = SITE / "theme"
-DIST = SITE / "dist"
+
+# GitHub Pages for this repository publishes github.com/clickalex/Class10CBSE
+# from the /docs folder of the default branch, so that is where the build goes.
+DIST = REPO / "docs"
+
+# Absolute path the site is served under, used only by the 404 page (GitHub
+# Pages serves that one file for every unknown URL, so its links cannot be
+# relative to the requested path).
+BASE = "/Class10CBSE"
 
 SESSION = "2026\u201327"
 
@@ -596,7 +609,43 @@ and exam Q&amp;A.</p>
 # --------------------------------------------------------------------------
 # build
 # --------------------------------------------------------------------------
+def not_found(base=BASE):
+    """A self-contained 404 page.
+
+    GitHub Pages answers every unknown path with this file, so the stylesheet
+    and the links have to be absolute under the published base path.
+    """
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found \u00b7 Class 10 CBSE</title>
+<style>
+  body {{ margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+         background: #0f172a; color: #e2e8f0; display: grid; place-items: center;
+         min-height: 100vh; padding: 2rem; }}
+  .box {{ max-width: 34rem; }}
+  h1 {{ font-size: 2.6rem; margin: 0 0 .5rem; }}
+  p {{ color: #94a3b8; }}
+  a {{ color: #7dd3fc; }}
+</style>
+</head>
+<body>
+  <div class="box">
+    <h1>404</h1>
+    <p>That page is not part of the Class 10 CBSE study hub. The chapter lists,
+    revision sheets and question banks all start from the portal.</p>
+    <p><a href="{base}/index.html">\u2190 Back to all subjects</a></p>
+  </div>
+</body>
+</html>
+"""
+
+
 def build(check_only=False):
+    if DIST.resolve() == REPO.resolve():
+        raise SystemExit("refusing to build: output directory is the repo root")
     subjects = load("subjects.json")
     if DIST.exists():
         shutil.rmtree(DIST)
@@ -604,6 +653,11 @@ def build(check_only=False):
     (DIST / "assets").mkdir()
     shutil.copy(THEME / "style.css", DIST / "assets" / "style.css")
     shutil.copy(THEME / "app.js", DIST / "assets" / "app.js")
+
+    # GitHub Pages runs Jekyll on a branch-served folder unless this marker is
+    # present; the site is plain static HTML, so skip it.
+    (DIST / ".nojekyll").write_text("", encoding="utf-8")
+    write(DIST / "404.html", not_found())
 
     counts, written, pending = {}, [], []
 
@@ -686,7 +740,7 @@ def validate():
     for f in files:
         text = f.read_text(encoding="utf-8")
         for href in re.findall(r'href="([^"#]+?)(?:#[^"]*)?"', text):
-            if href.startswith(("http", "mailto:")):
+            if href.startswith(("http", "mailto:", "/")):
                 continue
             target = (f.parent / href).resolve()
             if not target.exists():
@@ -696,12 +750,27 @@ def validate():
 
 
 def main():
+    global DIST
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true", help="build then validate links")
+    ap.add_argument(
+        "--out",
+        metavar="DIR",
+        help=f"write the site here instead of {DIST.relative_to(REPO)} "
+        "(relative paths are taken from the repository root)",
+    )
     args = ap.parse_args()
 
+    if args.out:
+        out = Path(args.out)
+        DIST = out if out.is_absolute() else (REPO / out)
+
     written, pending = build()
-    print(f"built {len(written)} pages into {DIST.relative_to(SITE.parent)}")
+    try:
+        shown = DIST.relative_to(REPO)
+    except ValueError:
+        shown = DIST
+    print(f"built {len(written)} pages into {shown}")
     if pending:
         print(f"subjects awaiting chapter content: {', '.join(pending)}")
     broken, n = validate()

@@ -3,10 +3,11 @@
 Standard and Basic share the **same syllabus**; Basic tests the same topics at a
 lower difficulty. Keep both in this one folder and label files `-std` / `-basic`.
 
+- **Session:** 2026–27 · folder tree and chapter list checked 12 Sep 2026
 - **Theory:** 80 marks · **Internal assessment:** 20 marks · **Time:** 3 hours
 - **Textbook:** *Mathematics — Textbook for Class X*, NCERT
 
-## Unit-wise marks (verified from the official CBSE Class X curriculum)
+## Unit-wise marks (verified from the official CBSE Class X curriculum, 2026–27)
 
 | Unit | Unit name | Chapters | Marks |
 |---|---|---|---|
@@ -19,7 +20,8 @@ lower difficulty. Keep both in this one folder and label files `-std` / `-basic`
 | VII | Statistics and Probability | 13, 14 | 11 |
 | | **Theory total** | | **80** |
 
-Source: <https://cbseacademic.nic.in/web_material/CurriculumMain26/Sec/Maths_Sec_2025-26.pdf>
+Source (2026–27): <https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Maths_SecP1X_2026-27.pdf>
+— the same seven units and marks as the 2025–26 curriculum.
 
 ## Chapters — NCERT Class X textbook order
 

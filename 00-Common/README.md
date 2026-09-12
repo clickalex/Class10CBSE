@@ -24,10 +24,31 @@ studying the wrong thing.
 
 ## Where to download from
 
+- **Curriculum 2026–27 for Class X — the source for every subject PDF below:**
+  <https://cbseacademic.nic.in/curriculum_2027.html>
+  (Curriculum → Secondary Curriculum → Class X, then the subject)
 - CBSE Academic — curriculum, sample papers, marking schemes, date sheet:
   <https://cbseacademic.nic.in/>
 - NCERT textbooks: <https://ncert.nic.in/textbook.php>
 
+The Class X curriculum PDFs for this session, straight from that page:
+
+| Subject | Code | PDF |
+|---|---|---|
+| English Language & Literature | 184 | `CurriculumMain27/SecPart1/English_LL_SecP1_2026-27.pdf` |
+| Hindi Course A / Course B | 002 / 085 | `.../Hindi_A_SecP1_2026-27.pdf` · `.../Hindi_B_SecP1_2026-27.pdf` |
+| Mathematics | 041 / 241 | `.../Maths_SecP1X_2026-27.pdf` |
+| Science | 086 | `.../Science_SecP1_2026-27.pdf` |
+| Social Science | 087 | `.../SocialScience_SecP1X_2026-27.pdf` |
+| Computer Applications | 165 | `.../Computer_Applications_SecP1X_2026-27.pdf` |
+| Sanskrit | 122 | `.../Sanskrit_SecP1_2026-27.pdf` |
+| Information Technology | 402 | `Curriculum27/sec/402-IT-X.pdf` |
+
+Every path is `https://cbseacademic.nic.in/web_material/` + the file name above.
+The page also lists skill subjects (`Curriculum27/sec/…`) — those file names
+differ per subject and per class, so take them from the page itself.
+
 CBSE normally publishes the session's curriculum mid-year and the date sheet
 early in the exam season. Re-check both — chapter lists do change between
-sessions.
+sessions. The folder tree in this repository was checked against the 2026–27
+curriculum on 12 Sep 2026.

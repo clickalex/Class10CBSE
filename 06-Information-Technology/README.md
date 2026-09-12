@@ -2,11 +2,12 @@
 
 **Only if IT is your sixth subject.** If not, delete this folder.
 
+- **Session:** 2026–27 · folder tree and chapter list checked 12 Sep 2026
 - **Total:** 100 marks = Theory 50 + Practical 50
 - **Job role:** Domestic Data Entry Operator
 - **Software:** LibreOffice Writer, Calc and Base (not MS Office — the practical
   is set on LibreOffice)
-- **Curriculum PDF:** <https://cbseacademic.nic.in/web_material/Curriculum26/sec/402-IT-X.pdf>
+- **Curriculum PDF (2026–27):** <https://cbseacademic.nic.in/web_material/Curriculum27/sec/402-IT-X.pdf>
 
 ## Part A — Employability Skills (10 marks)
 

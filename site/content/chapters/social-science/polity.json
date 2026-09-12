@@ -1,6 +1,6 @@
 [
 {
-"id": "ch11-power-sharing", "num": 11, "title": "Power Sharing",
+"id": "ch12-power-sharing", "num": 12, "title": "Power Sharing",
 "unit": "polity", "unit_name": "Political Science · Democratic Politics II", "weight": "part of 20 marks",
 "short": "Belgium and Sri Lanka, and the four forms of power sharing.",
 "lede": "Two case studies and one list of four forms. The shortest route to 20 marks in Social Science starts here.",
@@ -48,7 +48,7 @@
 "task": ["Write the Belgium and Sri Lanka cases as two columns of five points each, with the same five headings for both (composition, language policy, government structure, accommodation, outcome). Doing them in parallel is how the comparison question is answered in the exam."]
 },
 {
-"id": "ch12-federalism", "num": 12, "title": "Federalism",
+"id": "ch13-federalism", "num": 13, "title": "Federalism",
 "unit": "polity", "unit_name": "Political Science · Democratic Politics II", "weight": "part of 20 marks",
 "short": "Coming together and holding together, the three lists, and decentralisation.",
 "lede": "Learn the three lists, the two routes to federalism, and the 73rd and 74th Amendments. Those three things are the chapter.",
@@ -99,7 +99,62 @@
 "task": ["List fifteen subjects — from defence to trade unions — and assign each to the Union, State or Concurrent list without looking. Then check against the NCERT table. Anything you put in the wrong list twice is the one you must revise."]
 },
 {
-"id": "ch13-political-parties", "num": 13, "title": "Political Parties",
+"id": "ch14-gender-religion-and-caste", "num": 14, "title": "Gender, Religion and Caste",
+"unit": "polity", "unit_name": "Political Science · Democratic Politics II", "weight": "part of 20 marks",
+"short": "Gender inequality in politics, communalism, and the caste–politics relationship.",
+"lede": "Three sections in one chapter: women in politics, religion and communalism, and caste. Each one carries a set 3- or 5-mark answer.",
+"lens": [
+"**Among the surest marks in Political Science.** The definition of communalism and the two faces of the caste–politics relationship are asked almost every year.",
+"Learn the **three sections as three separate answers**, each with its own list of points — the paper usually asks only one of them."
+],
+"concepts": [
+"**1. Gender and the sexual division of labour.** Girls and boys are brought up differently: women do the housework and look after children, men work outside the home for wages. This division of work is based on social expectation, not on biology, and it is where **gender inequality** begins. Because work outside the home is paid and visible while work at home is unpaid and unseen, women's contribution is undervalued.",
+"**2. The public and the private.** Politics is organised in the **public sphere** — parties, elected bodies, government, law — while the **private sphere** of home and family was thought to be outside politics altogether. Women's role was confined to the private sphere, so politics came to be seen as a man's world. The divide is **patriarchal**: a system that values men more and gives them power over women.",
+"**3. What women face.** **Literacy:** about 65 per cent of women are literate against about 82 per cent of men (Census 2011). **Wages:** women are paid less than men for the same work, which is why the **Equal Remuneration Act, 1976** requires equal wages for equal work. **Preference for sons:** sex-selective abortion has lowered the child sex ratio in many states. **Violence and burden:** harassment, domestic violence and the unequal load of housework. In almost every field, far fewer women reach the top than their share in the population would suggest.",
+"**4. Women in political office.** In the **Lok Sabha**, women have never been more than about **14 per cent** of the members, and state assemblies are similar — well below the world average. **Local bodies show that reservation works:** one-third of the seats in panchayats and municipalities are reserved for women (several states have raised this to half), and today more than a million women hold elected positions in rural and urban local bodies. In **2023** Parliament passed the **106th Constitutional Amendment**, reserving one-third of the seats in the Lok Sabha and the state assemblies for women; it takes effect after the next census and delimitation. Studies of panchayats find that women raise issues of drinking water, fuel, fodder and health, and that their presence changes decisions rather than merely adding numbers.",
+"**5. Religion, politics and communalism.** Religion enters politics when the beliefs of one religion dominate political life, when one community seeks to dominate another, and when parties are formed on religious lines. **Communalism** is the belief that people who follow the same religion have common secular interests, and that people of different religions have separate and opposed interests. It has **four faces**: everyday religious prejudice and stereotypes; the desire to dominate other religious communities; the political dominance of the majority religion; and the demand for separate political units or parties for each religion. Communal politics turns dangerous when religion is treated as the only identity, when elections are fought on religious appeals, and when it spills over into violence.",
+"**6. India is a secular state.** The Constitution gives no special status to any religion, allows every person the freedom to profess, practise and propagate a religion of their choice, prohibits discrimination on the ground of religion, and permits the state to intervene in religious matters **to ensure equality** — abolishing untouchability, for instance, and making laws for social reform. The Indian state is therefore neither hostile to religion nor walled off from it: it keeps a **principled distance**, and that is what makes equality possible in a multi-religious society.",
+"**7. Caste and politics.** Caste is a hereditary system of graded inequality fixed by birth, and for centuries it decided access to education, work and power. **Caste in politics:** parties choose candidates with an eye to the dominant caste of a constituency, voters' choices are shaped by caste, and governments are formed keeping caste arithmetic in mind. **Politics in caste:** politics has also sharpened caste identity — castes have organised into associations and asserted themselves to claim a share of power, which is how OBCs and Dalits entered politics in large numbers.",
+"**8. But caste does not decide everything.** No parliamentary constituency has a majority of a single caste, so every party has to win votes across castes; no party wins the votes of every voter of a caste; no caste votes as one block; and voters weigh the performance of the government and the appeal of the leader along with caste. Caste inequality has not ended, but caste alone cannot win an election."
+],
+"formulas": [],
+"tricks": [
+"- **Three sections, three lists:** gender (work, wages, seats), religion (communalism and secularism), caste (caste in politics, politics in caste).",
+"- **Communalism in one line:** the same religion means common secular interests; different religions means opposed interests.",
+"- **Numbers to quote:** Equal Remuneration Act 1976, one-third of local body seats for women, one-third for the Lok Sabha and assemblies under the 106th Amendment (2023).",
+"- **'Caste in politics' — caste shapes elections. 'Politics in caste' — politics sharpens caste identity.** The first word tells you what is doing the shaping."
+],
+"mistakes": [
+"- Calling the Indian state **anti-religious**. Secularism here is a **principled distance**: the state can and does intervene in religion to end inequality.",
+"- Treating **communalism** as simply being religious. Communalism begins only when religion becomes the basis of a nation and of rival political interests.",
+"- Writing that caste is finished because caste discrimination is banned. Discrimination is banned and declining, but caste **identity** is still politically active.",
+"- Reading the chapter as **women's issues only**. The marks are for the sexual division of labour, patriarchy and representation."
+],
+"qa": [
+{"m": "3", "q": "What is the sexual division of labour and how does it lead to gender inequality?", "a": "The sexual division of labour is the arrangement in which women do the housework, cook and look after children while men work outside the home for wages. It rests on social expectation, not on biology. Because paid work outside is treated as real work while the unpaid work at home is not counted at all, women's contribution is undervalued. That is where gender inequality begins: it keeps women out of the public sphere and out of better-paid, higher-status work."},
+{"m": "5", "q": "What is communalism? Explain any three forms in which it appears in politics.", "a": ["**Communalism** is the belief that people who follow the same religion have common secular interests, and that people of different religions have separate and opposed interests. It is the most common form in which religion is used in politics.", "**Everyday prejudice:** religious prejudices, stereotypes about other communities and the belief that one's own religion is superior.", "**Domination:** the desire to establish the dominance of one's own religious community over others and to use state power for it.", "**Majoritarian dominance:** the belief that the majority community should rule, which turns religion into the basis of political power.", "**Separate political units or parties:** demanding a separate state, or forming parties on religious lines.", "Communal politics turns violent when religion is treated as the only identity and elections are fought on religious appeals."]},
+{"m": "3", "q": "What does it mean to say that India is a secular state?", "a": ["The Constitution gives no special status to any religion — there is no official religion.", "Every person has the freedom to profess, practise and propagate any religion of their choice.", "Discrimination on the ground of religion is prohibited, so no community can be treated as inferior.", "The state may intervene in religious matters to ensure equality — for example, by abolishing untouchability and making laws for social reform. India is therefore not anti-religious: the state keeps a principled distance from religion."]},
+{"m": "5", "q": "Explain the relationship between caste and politics in India.", "a": ["**Caste in politics:** parties take caste into account while choosing candidates, since the dominant caste of a constituency influences the result; voters' preferences are shaped by caste; and governments are formed keeping caste arithmetic in mind.", "**Politics in caste:** politics has sharpened caste identities — castes have formed associations and asserted themselves to claim a share of political power, which is how OBCs and Dalits entered politics in large numbers.", "**But caste is not everything:** no parliamentary constituency has a majority of one caste, so every party must appeal across castes; no caste votes as a single block; and voters also judge the government's performance and the leader. Caste inequality persists, but caste alone does not win an election."]},
+{"m": "3", "q": "Name any three steps taken to increase women's representation in India.", "a": "One-third of the seats in panchayats and municipalities are reserved for women, and several states have raised this to half, so more than a million women now hold elected positions in local bodies. In 2023 Parliament passed the 106th Constitutional Amendment reserving one-third of the seats in the Lok Sabha and the state assemblies for women, to take effect after the next census and delimitation. The Equal Remuneration Act, 1976 — equal wages for equal work — supports women's participation outside the home as well."}
+],
+"mcq": [
+{"q": "The Equal Remuneration Act, which provides for equal wages for equal work, was passed in: (a) 1972 (b) 1976 (c) 1988 (d) 1993", "a": "**(b) 1976.**"},
+{"q": "Seats reserved for women in panchayats and municipalities are: (a) one-half (b) one-third (c) one-fourth (d) one-fifth", "a": "**(b) one-third**, which several states have since raised to one-half."},
+{"q": "Communalism means: (a) being a religious person (b) treating one's religion as the basis of political community and of rival interests (c) keeping religion out of public life (d) the state supporting one religion", "a": "**(b)** — the belief that the followers of one religion share common secular interests while different religions have opposed interests."}
+],
+"trend": "One 3-mark or 5-mark question from one of the three sections — the definition of communalism, the two faces of the caste–politics relationship, or the reasons for women's low representation. Answers lifted almost word for word from the book score full marks here, so keep the wording of communalism and of 'caste in politics' and 'politics in caste' exact.",
+"onepager": [
+"- The sexual division of labour is social, not biological, and it keeps women in the private sphere.",
+"- Equal Remuneration Act 1976; women's literacy about 65% against men's about 82% (Census 2011).",
+"- One-third of local body seats reserved for women; the 106th Amendment (2023) reserves one-third in the Lok Sabha and assemblies.",
+"- Communalism: the same religion means common interests, different religions means opposed interests — from everyday prejudice to separate political units.",
+"- Secular state: no official religion, freedom of religion, no discrimination, and the right to intervene for equality.",
+"- Caste in politics (caste shapes elections) and politics in caste (politics sharpens caste identity). No constituency and no caste votes as one block."
+],
+"task": ["Write the three sections on three separate cards — gender, religion, caste — with the lists from this page on the back. Then answer one 5-mark question from each section as a heading plus one sentence per point, and time yourself: eighteen minutes for the three is the pace the board paper expects."]
+},
+{
+"id": "ch15-political-parties", "num": 15, "title": "Political Parties",
 "unit": "polity", "unit_name": "Political Science · Democratic Politics II", "weight": "part of 20 marks",
 "short": "Functions of parties, national parties, and reforms.",
 "lede": "One list of functions, one list of national parties with symbols, and one list of challenges with matching reforms.",
@@ -159,7 +214,7 @@
 "task": ["Make a table of the recognised national parties: name, founder, year, symbol, and one state where each is strongest. Then write the seven functions of a party as seven one-line headings — in the exam, headings plus a sentence each is a full 5-mark answer."]
 },
 {
-"id": "ch14-outcomes-of-democracy", "num": 14, "title": "Outcomes of Democracy",
+"id": "ch16-outcomes-of-democracy", "num": 16, "title": "Outcomes of Democracy",
 "unit": "polity", "unit_name": "Political Science · Democratic Politics II", "weight": "part of 20 marks",
 "short": "Accountability, economic growth, dignity and the case against dictatorship.",
 "lede": "The most conceptual chapter in Polity. Every answer is a claim plus a reason — practise writing claim-reason pairs.",

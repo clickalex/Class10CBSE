@@ -2,6 +2,7 @@
 
 **Only if Sanskrit is your Language II.** If not, delete this folder.
 
+- **Session:** 2026–27 · folder tree and chapter list checked 12 Sep 2026
 - **Theory:** 80 marks · **Internal assessment:** 20 marks · **Time:** 3 hours
 - **Prescribed books:** शेमुषी भाग-2 (main reader) and अभ्यासवान् भव / व्याकरण
   (workbook–grammar)
@@ -41,8 +42,9 @@ have no folders.
 The remaining 10 marks are अपठितावबोधनम् (one unseen passage of 80–100 words).
 
 Deep pages for all 19 chapters are built in the site — see
-[`site/dist/sanskrit/`](../site/dist/sanskrit/index.html). Chapter numbering
-there is continuous 1–19 across the three sections.
+[the Sanskrit hub](../docs/sanskrit/index.html)
+(live: <https://clickalex.github.io/Class10CBSE/sanskrit/index.html>). Chapter
+numbering there is continuous 1–19 across the three sections.
 
 Re-confirm the lesson list against your edition of शेमुषी भाग-2 (संशोधित) and
 the current session's curriculum PDF from <https://cbseacademic.nic.in/>, then
