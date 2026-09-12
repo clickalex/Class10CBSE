@@ -56,7 +56,59 @@
 "task": ["On a blank outline map of India, shade the black soil, laterite and arid soil regions and write one crop and one state against each. Ten minutes with a map fixes this chapter better than an hour of reading."]
 },
 {
-"id": "ch06-water-resources", "num": 6, "title": "Water Resources",
+"id": "ch06-forest-and-wildlife-resources", "num": 6, "title": "Forest and Wildlife Resources",
+"unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "part of 20 marks",
+"short": "Biodiversity, why species disappear, and the laws and movements that protect them.",
+"lede": "Three lists carry almost every question from this chapter: the categories of species, the causes of depletion, and the conservation steps.",
+"lens": [
+"**Part of the 20 geography marks.** Usually one 3-mark or 5-mark question, plus map pointing from the national parks and sanctuaries named here.",
+"The **causes of depletion** and the **categories of species** are the two lists to learn word-perfect; both are asked almost every year."
+],
+"concepts": [
+"**1. Biodiversity.** The variety of plants, animals and micro-organisms, and the ecosystems they live in. India is one of the world's **mega-diverse** countries: about **8 per cent of all recorded species** are found here — roughly **47,000 species of plants** and **81,000 species of animals**, of which about **15,000 are flowering plants** (6 per cent of the world's total). Three levels are protected together: **genetic diversity**, **species diversity** and **ecosystem diversity**.",
+"**2. How species are classified.** The IUCN Red List groups species by how close they are to extinction, and a species found only in one area is **endemic** to that area.",
+{"table": {"head": ["Category", "Meaning", "Examples"], "rows": [["Normal species", "Population levels are normal", "Cattle, rodents, some fisheries"], ["Endangered species", "In danger of extinction; survival is difficult if the negative factors continue", "Black buck, crocodile, Indian wild ass, Indian rhino, lion-tailed macaque, sangai deer"], ["Vulnerable species", "Population is declining and the species is likely to become endangered", "Blue sheep, Asiatic elephant, gangetic dolphin"], ["Rare species", "Small population in a limited area; may become endangered", "Himalayan brown bear, wild Asiatic buffalo, desert fox, hornbill"], ["Extinct species", "No longer found in the areas they once lived in", "Asiatic cheetah, pink-headed duck, Himalayan mountain quail"], ["Endemic species", "Found only in one particular area", "Andaman teal, Nicobar pigeon, Andaman wild pig, mithun"]]}},
+"**3. Causes of depletion.** Agricultural expansion and shifting cultivation; large development projects — dams, roads, railways and mines; **mining and quarrying**; grazing and the collection of fuel wood; forest fires; poaching and the illegal trade in skins, tusks and horns; pollution; and habitat destruction, which splits a population into small groups that a single fire or disease can wipe out. Over-population and unequal consumption in the richer countries put further pressure on the forest.",
+"**4. What the government did.** The **Indian Wildlife (Protection) Act, 1972** gave legal protection to listed species and their habitats and banned hunting. **Project Tiger (1973)** and Project Elephant followed, along with crocodile breeding and special protection for the rhino, the Kashmir stag and the great Indian bustard. National parks, wildlife sanctuaries and biosphere reserves were set up. In the 1980s and 1990s the **Supreme Court** ordered a ban on hunting protected species and on trade in their products, and stopped mining in several reserves.",
+"**5. Who owns the forest.** The Forest Department classifies forest land three ways:",
+{"table": {"head": ["Type", "What it is", "Share"], "rows": [["Reserved forests", "The most valuable forests for conservation; entry and grazing are banned", "More than half of the total forest land"], ["Protected forests", "Protected from further depletion; limited grazing and collection allowed", "About one-third of the total forest land"], ["Unclassed forests", "Forests and wastelands held by the government, by communities or by private owners", "The remaining land"]]}},
+"**6. Conservation by communities.** Much of the best protection has come from the people who live in the forest. Villagers near the **Sariska Tiger Reserve** (Alwar, Rajasthan) fought against mining inside the reserve, and villages around the **Bhairodev Dakav 'Sonchuri'** in the same district framed their own rules banning hunting and protecting wildlife. The **Chipko movement** in the Himalayas stopped felling when women hugged the trees, and the **Beej Bachao Andolan** at Tehri saved indigenous seeds and crops. **Joint Forest Management (JFM)**, introduced in **1988** and first adopted by **Odisha**, has communities protecting and regenerating forests along with the Forest Department in return for a share of the produce. **Sacred groves** — the **Sarna** and **devrai** patches left untouched because a deity is believed to live there, protected by custom rather than by law — have preserved some of the oldest forest left in the country."
+],
+"formulas": [],
+"tricks": [
+"- **Order of seriousness: normal → rare → vulnerable → endangered → extinct.** *Rare is few and local, vulnerable is falling, endangered is nearly gone.*",
+"- **One example each:** black buck (endangered), Asiatic elephant (vulnerable), Himalayan brown bear (rare), Asiatic cheetah (extinct), mithun (endemic).",
+"- **Movements:** Chipko hugs trees, Beej Bachao saves seeds, JFM shares the forest, sacred groves are protected by custom."
+],
+"mistakes": [
+"- Mixing up **rare** and **endangered**. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues.",
+"- Writing that the Wildlife (Protection) Act is of 1973. The **Act is 1972** and **Project Tiger is 1973**.",
+"- Forgetting that **JFM was first adopted in Odisha in 1988**, and that **reserved forests** have the largest share of forest land."
+],
+"qa": [
+{"m": "3", "q": "What are the categories of species recognised for conservation? Give one example of each.", "a": ["**Normal species** — population levels are normal, e.g. cattle and rodents.", "**Endangered species** — in danger of extinction, e.g. the black buck and the Indian rhino.", "**Vulnerable species** — declining and likely to become endangered, e.g. the Asiatic elephant.", "**Rare species** — a small population in a limited area, e.g. the Himalayan brown bear.", "**Extinct species** — no longer found, e.g. the Asiatic cheetah.", "**Endemic species** — found only in one area, e.g. the Andaman teal."]},
+{"m": "5", "q": "Explain any five causes of the depletion of forests and wildlife in India.", "a": ["**Agricultural expansion and shifting cultivation** have cleared large forest tracts.", "**Large development projects** — dams, roads, railways and mines — submerge or cut through forests.", "**Mining and quarrying** destroy habitats and pollute streams.", "**Grazing and the collection of fuel wood** prevent regeneration.", "**Poaching and illegal trade** in skins, tusks and horns target the most threatened species.", "**Habitat destruction and fragmentation** leave small populations that a single fire or disease can wipe out."]},
+{"m": "3", "q": "How have local communities conserved forests and wildlife? Give two examples.", "a": "Villagers around the Sariska Tiger Reserve in Alwar (Rajasthan) fought against mining in the reserve, and villages of the Bhairodev Dakav 'Sonchuri' in the same district framed their own rules banning hunting and protecting wildlife. The Chipko movement stopped felling in the Himalayas when women hugged the trees, the Beej Bachao Andolan saved indigenous seeds, and in sacred groves such as the Sarna and devrai, forests are protected by religious custom rather than by law."},
+{"m": "3", "q": "What is Joint Forest Management and why does it matter?", "a": "Joint Forest Management, introduced in 1988 and first adopted in Odisha, is a programme in which local communities protect and regenerate forests together with the Forest Department, in return for a share of the produce of the forest. It matters because protection works only when the people who live next to the forest have an interest in it."}
+],
+"mcq": [
+{"q": "Which of these is an endangered species in India? (a) cattle (b) Asiatic elephant (c) black buck (d) blue sheep", "a": "**(c) Black buck.** The Asiatic elephant and the blue sheep are vulnerable; cattle are a normal species."},
+{"q": "Project Tiger was launched in: (a) 1972 (b) 1973 (c) 1980 (d) 1988", "a": "**(b) 1973.** The Wildlife (Protection) Act came a year earlier, in 1972."},
+{"q": "Forests of the highest conservation value, where entry is banned, are: (a) unclassed forests (b) protected forests (c) reserved forests (d) sacred groves", "a": "**(c) Reserved forests**, which cover more than half the total forest land of the country."}
+],
+"trend": "One 3-mark question on the causes of depletion, or a 5-mark question combining the categories of species with conservation steps. National parks and wildlife sanctuaries from this chapter are regular map-pointing items, and community conservation — Chipko, JFM, sacred groves — turns up in case-based questions.",
+"onepager": [
+"- India holds about 8% of all recorded species: 47,000 plants, 81,000 animals, 15,000 flowering plants.",
+"- Categories: normal, endangered, vulnerable, rare, extinct, endemic — one example each.",
+"- Causes: agriculture, development projects, mining, grazing, fires, poaching, habitat destruction.",
+"- Protection: Wildlife (Protection) Act 1972, Project Tiger 1973, national parks and sanctuaries.",
+"- Forest types: reserved (more than half), protected (about a third), unclassed.",
+"- Communities: Chipko, Beej Bachao Andolan, JFM 1988 (first in Odisha), sacred groves."
+],
+"task": ["Take an outline map of India and mark five national parks or sanctuaries from the CBSE map list — for example Corbett, Ranthambore, Kanha, Periyar, Sunderbans, Kaziranga — writing the state against each. Then answer in five points: why does the protection of a forest succeed only when the people living next to it are involved?"]
+},
+{
+"id": "ch07-water-resources", "num": 7, "title": "Water Resources",
 "unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "part of 20 marks",
 "short": "Scarcity, multi-purpose projects, and rainwater harvesting.",
 "lede": "Two sides of one argument: dams are development, and dams displace people. Learn both and you can answer any question set on this chapter.",
@@ -104,7 +156,7 @@
 "task": ["List the three nearest sources of water to your home and find out where the water in your tap comes from. Then sketch a rooftop harvesting design for your own house with the pipe, first-flush separator and storage tank labelled — this is a common activity-based question."]
 },
 {
-"id": "ch07-agriculture", "num": 7, "title": "Agriculture",
+"id": "ch08-agriculture", "num": 8, "title": "Agriculture",
 "unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "part of 20 marks",
 "short": "Cropping patterns, crop requirements and food security.",
 "lede": "A crop-requirements table worth memorising cold. Temperature, rainfall and soil for rice, wheat, millets, cotton, jute, tea and coffee answers most questions.",
@@ -161,7 +213,7 @@
 "task": ["Make a crop table from memory: crop, season, temperature, rainfall, soil, two producing states. Cover rice, wheat, jowar, bajra, ragi, cotton, jute, sugarcane, tea and coffee. Then check it against the NCERT table and mark every cell you got wrong."]
 },
 {
-"id": "ch08-minerals-and-energy-resources", "num": 8, "title": "Minerals and Energy Resources",
+"id": "ch09-minerals-and-energy-resources", "num": 9, "title": "Minerals and Energy Resources",
 "unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "part of 20 marks",
 "short": "Mineral belts, conventional and non-conventional energy.",
 "lede": "Two lists to learn: where the minerals are, and which energy sources are renewable. Both are heavily tested on maps.",
@@ -210,7 +262,7 @@
 "task": ["On a blank outline map of India, mark the Damodar valley coal fields, Bombay High, Digboi, Kudremukh, Bailadila, Koderma and the Tamil Nadu wind corridor. Then say aloud which of these are also map pointing items in the CBSE list — map work here is free marks."]
 },
 {
-"id": "ch09-manufacturing-industries", "num": 9, "title": "Manufacturing Industries",
+"id": "ch10-manufacturing-industries", "num": 10, "title": "Manufacturing Industries",
 "unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "part of 20 marks",
 "short": "Classification, agro-based and mineral-based industries, pollution.",
 "lede": "Two industry families — agro-based and mineral-based — each with a location factor list. Learn cotton textiles and iron and steel properly.",
@@ -260,7 +312,7 @@
 "task": ["List five products you use daily and identify the industry that makes each. For any two of them, write the four location factors that decide where that industry is set up, with an Indian example of a city where it is concentrated."]
 },
 {
-"id": "ch10-lifelines-of-national-economy", "num": 10, "title": "Lifelines of National Economy",
+"id": "ch11-lifelines-of-national-economy", "num": 11, "title": "Lifelines of National Economy",
 "unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "map work mainly",
 "short": "Roadways, railways, pipelines, waterways, airways and trade.",
 "lede": "Assessed mainly through map pointing, but the roadways-versus-railways comparison is still asked as a short answer.",

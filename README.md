@@ -15,8 +15,14 @@ Class10CBSE/
 ├── 06-Information-Technology/  skill subject, code 402   ┐
 ├── 07-Computer-Applications/   elective, code 165        ├ keep only the ones you study
 ├── 08-Sanskrit/                language II, code 122     ┘
-└── scripts/                  build_structure.sh · verify_structure.sh · structure.conf
+├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · structure.conf
+├── site/                     content/ + build.py that generate the study hub
+└── docs/                     the generated study hub — this is what GitHub Pages serves
 ```
+
+**Live site: <https://clickalex.github.io/Class10CBSE/>** — built from
+`site/content/`, one hub per subject, 154 chapter pages. See
+[Deploying the site](#deploying-the-site) below.
 
 ## Inside every subject
 
@@ -73,11 +79,42 @@ line, `#` for comments).
 scripts/build_structure.sh              # create everything in the manifest
 scripts/build_structure.sh --dry-run    # show what would be created
 scripts/verify_structure.sh             # check the tree is complete (exit 1 if not)
+scripts/check_all.sh                    # tree + content + site, all checks at once
 ```
 
 `build_structure.sh` is safe to re-run — it never deletes or overwrites, and it
 drops a `.gitkeep` into empty folders so Git keeps them. To add a chapter or a
 subject, add its line to `scripts/structure.conf` and re-run the build.
+
+## Deploying the site
+
+`site/` turns `site/content/` into a static study hub; `docs/` is the built
+output and the folder GitHub Pages publishes. Nothing else is needed — no
+dependencies, no build service, no branch switching.
+
+```bash
+python3 site/build.py           # rebuild docs/ from site/content/ and check the links
+python3 site/build.py --check   # same thing (the flag is kept for compatibility)
+python3 site/build.py --out /tmp/preview
+scripts/check_all.sh            # every check in the repo, site built to a scratch dir
+```
+
+- **Published at** <https://clickalex.github.io/Class10CBSE/> from
+  `main` → `/docs` (**Settings → Pages → Deploy from a branch**).
+- `docs/` is committed, not generated at deploy time, so a push that changes
+  only `docs/` publishes exactly what was reviewed.
+- `.github/workflows/deploy-pages.yml` rebuilds `docs/` on every push to `main`
+  and commits it when `site/content/` changed, then asks Pages for a build.
+  Pushes made with the default `GITHUB_TOKEN` do not trigger other workflows,
+  which is why that last step exists.
+- `.github/workflows/checks.yml` runs on every push and pull request: the folder
+  tree, every content JSON file, the site build and its link check. It builds to
+  a scratch directory, so it never touches `docs/`.
+- `docs/.nojekyll` tells Pages to serve the folder as-is instead of running
+  Jekyll over it; `docs/404.html` is the not-found page for the live site.
+
+If you ever switch Pages to **Settings → Pages → Source: GitHub Actions**, the
+same `docs/` folder keeps working from the branch, so the switch is optional.
 
 ## Note on Git
 
@@ -86,14 +123,21 @@ intention is that **the structure** is version-controlled while your study
 material stays on your machine. If you do want to commit PDFs, delete the
 `*.pdf` lines from `.gitignore`.
 
+The one exception is `docs/`, the generated site: it is tracked on purpose,
+because that folder is what the live site is served from. It is build output,
+so edit `site/content/` and rebuild rather than editing it by hand.
+
 ## Sources
 
 - CBSE Academic — curriculum, sample papers, marking schemes: <https://cbseacademic.nic.in/>
-- CBSE Class X Mathematics curriculum (codes 041 & 241): <https://cbseacademic.nic.in/web_material/CurriculumMain26/Sec/Maths_Sec_2025-26.pdf>
-- CBSE Class X Information Technology (code 402): <https://cbseacademic.nic.in/web_material/Curriculum26/sec/402-IT-X.pdf>
+- **Curriculum 2026–27, Secondary (Class X)** — every subject's syllabus PDF for
+  this session: <https://cbseacademic.nic.in/curriculum_2027.html>
+  - Mathematics, codes 041 & 241: <https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Maths_SecP1X_2026-27.pdf>
+  - Information Technology, code 402: <https://cbseacademic.nic.in/web_material/Curriculum27/sec/402-IT-X.pdf>
 - NCERT textbooks: <https://ncert.nic.in/textbook.php>
 
-CBSE revises the curriculum every session and the revised list is usually
-published mid-year, so confirm each subject against the current session's
-syllabus PDF before you rely on a chapter list — the per-subject READMEs note
-where lists were last verified.
+Session **2026–27**, chapter lists and marks tables checked against those PDFs on
+**12 Sep 2026**: the seven-unit Mathematics split (6 + 20 + 6 + 15 + 12 + 10 + 11)
+and the IT 402 unit and practical split (10 + 40 + 50) are unchanged from
+2025–26. CBSE still publishes mid-session changes and the date sheet separately,
+so re-open the curriculum page before you rely on any list.

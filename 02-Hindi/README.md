@@ -1,5 +1,7 @@
 # 02 · Hindi — Course A (002) and Course B (085)
 
+- **Session:** 2026–27 · folder tree and chapter list checked 12 Sep 2026
+
 Both courses are worth **80 theory + 20 internal** over 3 hours. You study only
 one of them — the folders for both are here so you can delete whichever you
 don't need.

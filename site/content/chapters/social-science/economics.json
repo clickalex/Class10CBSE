@@ -1,6 +1,6 @@
 [
 {
-"id": "ch15-development", "num": 15, "title": "Development",
+"id": "ch17-development", "num": 17, "title": "Development",
 "unit": "economics", "unit_name": "Economics · Understanding Economic Development", "weight": "part of 20 marks",
 "short": "Different goals, income and averages, BMI, infant mortality and HDI.",
 "lede": "Definitions plus one Indian example each — that is the answer format for the whole Economics section.",
@@ -64,7 +64,7 @@
 "task": ["Calculate your own BMI and interpret it using the 18.5–25 range. Then find the per capita income, IMR and literacy rate of your state and of Kerala from the latest Human Development Report, and write three sentences explaining any difference — that is exactly a 3-mark board answer."]
 },
 {
-"id": "ch16-sectors-of-the-indian-economy", "num": 16, "title": "Sectors of the Indian Economy",
+"id": "ch18-sectors-of-the-indian-economy", "num": 18, "title": "Sectors of the Indian Economy",
 "unit": "economics", "unit_name": "Economics · Understanding Economic Development", "weight": "part of 20 marks",
 "short": "Primary, secondary, tertiary; organised and unorganised; GDP.",
 "lede": "Six classifications of economic activity. Learn one example for each and every question on this chapter is answerable.",
@@ -121,7 +121,7 @@
 "task": ["Take five people you know who work — a farmer, a shopkeeper, a driver, a teacher, a factory worker — and classify each by sector, and as organised or unorganised. Then note which of the five has job security and a provident fund. That single list covers both the sector and the security question."]
 },
 {
-"id": "ch17-money-and-credit", "num": 17, "title": "Money and Credit",
+"id": "ch19-money-and-credit", "num": 19, "title": "Money and Credit",
 "unit": "economics", "unit_name": "Economics · Understanding Economic Development", "weight": "part of 20 marks",
 "short": "Modern money, banks, credit terms, SHGs and debt traps.",
 "lede": "Credit is a double-edged sword — that sentence is the whole chapter, and most of the marks.",
@@ -179,7 +179,7 @@
 "task": ["Ask three adults how they would raise ₹ 20,000 in an emergency and record the source, whether collateral is needed and roughly what interest would be charged. Sort the answers into formal and informal — this is the data the exam expects you to reason with."]
 },
 {
-"id": "ch18-globalisation-and-the-indian-economy", "num": 18, "title": "Globalisation and the Indian Economy",
+"id": "ch20-globalisation-and-the-indian-economy", "num": 20, "title": "Globalisation and the Indian Economy",
 "unit": "economics", "unit_name": "Economics · Understanding Economic Development", "weight": "part of 20 marks",
 "short": "MNCs, foreign trade, liberalisation, WTO and fair globalisation.",
 "lede": "One story: how production, trade and investment crossed borders, and what India did about it in 1991.",
@@ -231,7 +231,7 @@
 "task": ["Look at five products in your home and find where each was made and which company owns the brand. Mark the ones made by an MNC and note the country of origin. Then write three sentences on how that brand reached your town — through a factory, an acquisition, or an order placed with a local producer."]
 },
 {
-"id": "ch19-consumer-rights", "num": 19, "title": "Consumer Rights",
+"id": "ch21-consumer-rights", "num": 21, "title": "Consumer Rights",
 "unit": "economics", "unit_name": "Economics · Understanding Economic Development", "weight": "project work",
 "short": "Exploitation in the marketplace, COPRA, consumer groups and duties.",
 "lede": "Assessed mainly as project work, but the rights, COPRA and the redressal machinery still appear as short questions.",

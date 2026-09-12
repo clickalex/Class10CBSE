@@ -1,5 +1,6 @@
 # 04 · Science (Code 086)
 
+- **Session:** 2026–27 · folder tree and chapter list checked 12 Sep 2026
 - **Theory:** 80 marks · **Internal assessment / practical:** 20 marks · **Time:** 3 hours
 - **Textbook:** *Science — Textbook for Class X*, NCERT (13 chapters)
 
