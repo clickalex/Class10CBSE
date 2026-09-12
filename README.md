@@ -103,15 +103,18 @@ scripts/check_all.sh            # every check in the repo, site built to a scrat
   `main` → `/docs` (**Settings → Pages → Deploy from a branch**).
 - `docs/` is committed, not generated at deploy time, so a push that changes
   only `docs/` publishes exactly what was reviewed.
-- `.github/workflows/deploy-pages.yml` rebuilds `docs/` on every push to `main`
-  and commits it when `site/content/` changed, then asks Pages for a build.
-  Pushes made with the default `GITHUB_TOKEN` do not trigger other workflows,
-  which is why that last step exists.
-- `.github/workflows/checks.yml` runs on every push and pull request: the folder
-  tree, every content JSON file, the site build and its link check. It builds to
-  a scratch directory, so it never touches `docs/`.
+- To publish a change: edit `site/content/`, run `python3 site/build.py`, commit
+  `site/content/` and `docs/` together, and push to `main`. Pages then rebuilds
+  from `docs/` on its own.
 - `docs/.nojekyll` tells Pages to serve the folder as-is instead of running
   Jekyll over it; `docs/404.html` is the not-found page for the live site.
+- `.github/workflows/` carries two optional automations that keep the above from
+  depending on anyone's memory — `checks.yml` (folder tree, content JSON, build
+  and link check on every push and pull request) and `deploy-pages.yml` (rebuild
+  and commit `docs/` on `main`, then ask Pages for a build, because a push made
+  with the default `GITHUB_TOKEN` does not start other workflows). Add them from
+  an account or token allowed to manage workflow files; until they are in, run
+  `scripts/check_all.sh` and rebuild `docs/` yourself.
 
 If you ever switch Pages to **Settings → Pages → Source: GitHub Actions**, the
 same `docs/` folder keeps working from the branch, so the switch is optional.

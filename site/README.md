@@ -36,9 +36,10 @@ docs/                         generated site — GitHub Pages serves this folder
 
 `docs/` is committed on purpose: the repository's Pages setting is
 *Deploy from a branch → main → /docs*, so the built site has to be in the tree.
-`.github/workflows/deploy-pages.yml` rebuilds and commits it on every push to
-`main`; `.github/workflows/checks.yml` builds to a scratch directory instead and
-warns when `docs/` is out of date.
+Rebuild and commit `docs/` whenever `site/content/` changes — `scripts/check_all.sh`
+runs the build into a scratch directory first, so the published folder is only
+ever written on purpose. `.github/workflows/` has two workflows that automate
+that and the checks; see the root README for how to add them.
 
 ## Adding a chapter
 
