@@ -25,19 +25,28 @@
 └── 09-Revision-Sheets/
 ```
 
-## Why lesson folders are not pre-created
+## Lesson, grammar and writing folders
 
-The lesson list for शेमुषी भाग-2 varies between editions, and I did not verify
-it against an official source, so I left the lesson folders out rather than
-guess. When you have the book in hand, add the lessons to
-`scripts/structure.conf`:
+`03-Notes/` is scaffolded from the confirmed 122 syllabus. The prescribed
+lessons for शेमुषी भाग-2 (संशोधित) are the nine below — note that **पाठ 3
+व्यायामः सदा पथ्यः** and **पाठ 10 भूकम्पविभीषिका** are *not* assessed, so they
+have no folders.
 
-```
-08-Sanskrit/03-Notes/Shemushi-Bhag-2/patha01-Name-Of-Lesson
-08-Sanskrit/03-Notes/Shemushi-Bhag-2/patha02-Name-Of-Lesson
-```
+| Section | Marks | Folders |
+|---|---|---|
+| `Shemushi-Bhag-2/` | 30 (पठितावबोधनम्) | ch01 शुचिपर्यावरणम् · ch02 बुद्धिर्बलवती सदा · ch03 शिशुलालनम् · ch04 जननी तुल्यवत्सला · ch05 सुभाषितानि · ch06 सौहार्दं प्रकृतेः शोभा · ch07 विचित्रः साक्षी · ch08 सूक्तयः · ch09 अन्योक्तयः |
+| `Vyakaran/` | 25 (अनुप्रयुक्तव्याकरणम्) | ch10 सन्धिः · ch11 समासः · ch12 प्रत्ययाः · ch13 वाच्यपरिवर्तनम् · ch14 समयः · ch15 अव्ययपदानि · ch16 अशुद्धिसंशोधनम् |
+| `Lekhan/` | 15 (रचनात्मककार्यम्) | ch17 पत्रलेखनम् · ch18 चित्रवर्णनम्/अनुच्छेद · ch19 अनुवादः |
 
-then run `scripts/build_structure.sh`.
+The remaining 10 marks are अपठितावबोधनम् (one unseen passage of 80–100 words).
+
+Deep pages for all 19 chapters are built in the site — see
+[`site/dist/sanskrit/`](../site/dist/sanskrit/index.html). Chapter numbering
+there is continuous 1–19 across the three sections.
+
+Re-confirm the lesson list against your edition of शेमुषी भाग-2 (संशोधित) and
+the current session's curriculum PDF from <https://cbseacademic.nic.in/>, then
+update `scripts/structure.conf` if anything moved.
 
 ## Where the marks are
 

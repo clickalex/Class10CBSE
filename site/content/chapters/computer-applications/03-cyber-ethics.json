@@ -1,0 +1,134 @@
+[
+{
+"id": "ch12-cyber-safety", "num": 12, "title": "Cyber Safety & Security", "unit": "cyber-ethics", "unit_name": "Unit III · Cyber Ethics", "weight": "10 marks unit",
+"short": "Cyber ethics, cyber security, threats and how to stay safe online.",
+"lede": "Ten marks of definitions. Learn them precisely and this unit is finished in a week.",
+"lens": ["Define terms, list threats, give safety measures.", "**Shortest unit, highest marks per hour studied.**"],
+"concepts": [
+"**1. The core definitions.** **Cyber ethics** are the moral rules that guide behaviour on the internet — what is right to do online. **Cyber safety** is the practice of protecting yourself and your devices from online harm. **Cyber security** is the wider technical protection of systems, networks and data from attack. Ethics is about behaviour, safety is about personal protection, security is about defending systems.",
+"**2. Common threats.** **Malware** is any malicious software. A **virus** attaches itself to a file and spreads when that file is shared. A **worm** spreads on its own across a network without needing a host file. A **trojan horse** pretends to be a useful program but carries a hidden payload. **Spyware** quietly collects information about you. **Ransomware** encrypts your files and demands payment for the key. A **logic bomb** waits for a trigger — a date or an event — before firing. **Adware** pushes unwanted advertising.",
+"**3. Attacks on people.** **Phishing** is a fake email or website that tricks you into handing over passwords or card details. **Smishing** does the same by SMS, and **vishing** by voice call. **Cyberstalking** is repeated online harassment. **Identity theft** is using someone's personal data to impersonate them. **Cyberbullying** is the use of digital tools to intimidate or humiliate, mostly affecting students.",
+"**4. Staying safe.** Use a **strong, unique password** for every account and a password manager. Turn on **two-factor authentication**. Keep the operating system, browser and **antivirus** updated. Never open attachments or links from unknown senders. Use **HTTPS** sites for any payment. Do not share personal details, photographs or your location publicly. Back up important files regularly, and report abuse rather than replying to it."
+],
+"tricks": [
+"- **Virus needs a host file, worm travels alone.**",
+"- **Trojan looks useful, spyware watches you, ransomware locks you out.**",
+"- **Phishing = email, smishing = SMS, vishing = voice call.**",
+"- **Ethics = behaviour, safety = you, security = systems.**"
+],
+"mistakes": [
+"- Confusing **virus and worm** — a worm does not need a host file.",
+"- Confusing **cyber safety with cyber security** — one protects the person, the other the system.",
+"- Listing safety measures without naming **strong passwords** and **two-factor authentication**.",
+"- Treating **trojan** as a self-spreading threat — it must be installed by the user, tricked into it."
+],
+"qa": [
+{"m": "2", "q": "What is the difference between cyber safety and cyber security?", "a": "**Cyber safety** is about protecting an individual user online — using strong passwords, avoiding suspicious links, not oversharing personal information. **Cyber security** is the broader technical discipline of protecting computers, networks, systems and data from unauthorised access and attack, using firewalls, encryption, access control and monitoring. Safety is personal practice; security is systematic defence."},
+{"m": "3", "q": "Differentiate between a virus, a worm and a trojan horse.", "a": "A **virus** is malicious code that attaches itself to a legitimate file and spreads only when that infected file is opened or shared, so it needs a human action to move. A **worm** is a standalone program that copies itself across a network automatically, needing no host file and no user action, which is why worms spread so fast. A **trojan horse** does not spread at all — it disguises itself as a useful or attractive program so the user installs it willingly, and only then does its hidden payload run."},
+{"m": "2", "q": "What is phishing? How can it be avoided?", "a": "**Phishing** is an attack in which a fake email or website imitates a trusted organisation — a bank, a school or a popular service — and tricks the user into entering passwords, card numbers or other sensitive data. It can be avoided by checking the sender's actual address rather than the display name, never clicking links in unsolicited messages, typing the website address yourself instead, looking for **HTTPS** before entering credentials, and enabling **two-factor authentication** so a stolen password alone is not enough."},
+{"m": "3", "q": "List five safety measures for using the internet safely.", "a": ["- Use a **strong, unique password** for each account and never reuse one; a password manager helps.", "- Enable **two-factor authentication** so a stolen password is not enough on its own.", "- Keep the operating system, browser and **antivirus software** updated, since updates close known security holes.", "- Never open attachments or follow links from unknown senders, and verify the address of any site asking for payment.", "- **Back up** important files regularly, and avoid sharing personal details, photographs or location publicly."]},
+{"m": "1", "q": "What is ransomware?", "a": "**Ransomware** is a type of malware that **encrypts the victim's files** so they cannot be opened, and then demands payment — usually in cryptocurrency — in exchange for the decryption key. Regular offline backups are the main defence, because they let the victim restore the data without paying."}
+],
+"mcq": [
+{"q": "Which malware spreads across a network without a host file? (a) virus (b) worm (c) trojan (d) adware", "a": "**(b) worm.**"},
+{"q": "A program that pretends to be useful but hides a payload is a — (a) worm (b) logic bomb (c) trojan horse (d) virus", "a": "**(c) trojan horse.**"},
+{"q": "Phishing by SMS is called — (a) vishing (b) smishing (c) spamming (d) spoofing", "a": "**(b) smishing.**"},
+{"q": "Which malware encrypts files and demands payment? (a) spyware (b) ransomware (c) adware (d) worm", "a": "**(b) ransomware.**"},
+{"q": "Cyber ethics deals with — (a) encryption algorithms (b) moral behaviour online (c) network hardware (d) programming", "a": "**(b) moral behaviour online.**"}
+],
+"trend": "Definitions of threats and a safety-measures list appear in every paper. Ten marks, very predictable.",
+"onepager": ["- Ethics = behaviour; safety = you; security = systems.", "- Virus needs a host file; worm travels alone; trojan must be installed.", "- Spyware watches, ransomware locks, logic bomb waits, adware advertises.", "- Phishing email, smishing SMS, vishing voice.", "- Strong unique passwords, 2FA, updates, HTTPS, backups."],
+"task": ["Make a two-column table: threat on the left, one-line description on the right. Fifteen rows covers the entire chapter."]
+},
+{
+"id": "ch13-cybercrime-ipr", "num": 13, "title": "Cybercrime, IPR & Open Source", "unit": "cyber-ethics", "unit_name": "Unit III · Cyber Ethics", "weight": "10 marks unit",
+"short": "Cybercrime, intellectual property rights, plagiarism, and free versus open source software.",
+"lede": "Definitions plus one table. IPR is where students lose marks through vagueness.",
+"lens": ["Define IPR and its types, explain plagiarism and software piracy, distinguish FOSS from proprietary software.", "**Be precise about the four IPR types.**"],
+"concepts": [
+"**1. Cybercrime.** A **cybercrime** is any illegal act in which a computer or network is used as a tool, a target, or a place to store evidence. Examples are hacking, spreading malware, online fraud, identity theft, publishing obscene material, and attacking a website so that it stops working.",
+"**2. Intellectual property rights.** **IPR** is the legal right given to the creator of an original work, so that others cannot copy or profit from it without permission. The four main types are: **copyright**, which protects original literary, artistic, musical and software works; **patent**, which protects an invention or process for a fixed period; **trademark**, which protects a brand name, logo or slogan; and **trade secret**, which protects confidential business information such as a recipe or a formula.",
+"**3. Violations.** **Software piracy** is copying, distributing or using software without a licence. **Plagiarism** is presenting someone else's words, ideas or code as your own, even with no money involved — which is what makes it an ethical offence as well as a legal one. Both are avoided by citing sources properly and using only licensed or freely licensed material.",
+"**4. FOSS versus proprietary.** **Free and Open Source Software (FOSS)** can be used, studied, modified and redistributed by anyone because its **source code is available**; examples are **Linux**, **Firefox** and **LibreOffice**. **Free software** here means freedom, not necessarily zero price. **Proprietary software** keeps its source code secret and restricts copying and modification under a licence; examples are **Microsoft Windows** and **Adobe Photoshop**. **Freeware** is free to use but closed, and **shareware** is free to try for a limited period before payment."
+],
+"formulas": [
+"**IPR at a glance**",
+{"table": {"head": ["Type", "Protects", "Example"], "rows": [
+["Copyright", "Original literary, artistic, musical and software works", "A novel, a song, a program"],
+["Patent", "An invention or process", "A new engine design"],
+["Trademark", "A brand name, logo or slogan", "A company's logo"],
+["Trade secret", "Confidential business information", "A soft drink's recipe"]]}}
+],
+"tricks": [
+"- **Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.**",
+"- **Piracy involves money or licences; plagiarism involves credit.**",
+"- **FOSS = source code is open.** Free as in freedom, not free as in price.",
+"- **Freeware is closed but free; shareware is a paid trial.**"
+],
+"mistakes": [
+"- Confusing **copyright and patent** — copyright covers creative works, patent covers inventions.",
+"- Confusing **plagiarism with piracy** — plagiarism is taking credit, piracy is unlicensed copying.",
+"- Saying FOSS is free **because it costs nothing** — it is free because the source is open.",
+"- Listing **freeware as open source** — freeware is usually closed source."
+],
+"qa": [
+{"m": "3", "q": "What is IPR? Name and explain its four main types.", "a": "**IPR (Intellectual Property Rights)** are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are **copyright**, which protects original literary, artistic, musical and software works; **patent**, which protects an invention or process for a fixed period; **trademark**, which protects a brand name, logo or slogan; and **trade secret**, which protects confidential business information such as a formula or a method."},
+{"m": "2", "q": "What is plagiarism and how can it be avoided?", "a": "**Plagiarism** is presenting someone else's words, ideas, data or code as if they were your own, without giving credit. It is an ethical offence even when no money changes hands. It is avoided by always **citing the source**, using quotation marks around copied text, paraphrasing genuinely rather than swapping a few words, and keeping a record of every source consulted while working."},
+{"m": "3", "q": "Differentiate between free and open source software and proprietary software, with examples.", "a": "**FOSS** makes the **source code available**, so anyone may use, study, modify and redistribute the program; examples are Linux, Firefox and LibreOffice. Here 'free' refers to freedom rather than price. **Proprietary software** keeps its source code secret and grants only a licence to use it, forbidding copying, modification or redistribution; examples are Microsoft Windows and Adobe Photoshop. The practical difference is that with FOSS you can fix or extend the software yourself, while with proprietary software you depend entirely on the vendor."},
+{"m": "2", "q": "What is software piracy?", "a": "**Software piracy** is the unauthorised copying, distribution or use of software without a valid licence. It includes installing one licensed copy on many machines, downloading cracked versions, and selling counterfeit discs. It deprives developers of income and often exposes the user to malware, since pirated copies are frequently bundled with it."},
+{"m": "2", "q": "Distinguish between freeware and shareware.", "a": "**Freeware** can be used free of charge indefinitely, but its source code is usually closed and it cannot be modified or sold — an example is Skype. **Shareware** is distributed free only as a trial, either for a limited period or with reduced features, and the user must pay to continue using it after the trial ends."}
+],
+"mcq": [
+{"q": "Which IPR protects a brand logo? (a) copyright (b) patent (c) trademark (d) trade secret", "a": "**(c) trademark.**"},
+{"q": "Which IPR protects an invention? (a) copyright (b) patent (c) trademark (d) licence", "a": "**(b) patent.**"},
+{"q": "Which of these is open source? (a) MS Windows (b) Adobe Photoshop (c) Linux (d) Skype", "a": "**(c) Linux.**"},
+{"q": "Presenting someone else's work as your own is — (a) piracy (b) plagiarism (c) phishing (d) hacking", "a": "**(b) plagiarism.**"},
+{"q": "Software free to use but closed in source is called — (a) shareware (b) freeware (c) FOSS (d) malware", "a": "**(b) freeware.**"}
+],
+"trend": "One IPR question and one FOSS-versus-proprietary question appear in most papers.",
+"onepager": ["- IPR: copyright (works), patent (inventions), trademark (brands), trade secret (secrets).", "- Piracy = unlicensed copying; plagiarism = taking credit.", "- FOSS = open source code: Linux, Firefox, LibreOffice.", "- Proprietary = closed: Windows, Photoshop.", "- Freeware free but closed; shareware = paid trial."],
+"task": ["Fill in the IPR table from memory, then list three FOSS and three proprietary programs you have used. This chapter is now fully revised."]
+},
+{
+"id": "ch14-it-act-ewaste", "num": 14, "title": "The IT Act, Digital Footprint & e-Waste", "unit": "cyber-ethics", "unit_name": "Unit III · Cyber Ethics", "weight": "10 marks unit",
+"short": "India's IT Act 2000, digital citizenship, footprints and responsible disposal.",
+"lede": "The closing chapter. Sections, footprints and e-waste — three short topics.",
+"lens": ["Name IT Act sections and their offences, explain a digital footprint, describe e-waste handling.", "**Section numbers are recall marks.**"],
+"concepts": [
+"**1. The IT Act, 2000.** The **Information Technology Act, 2000** is India's principal law for electronic commerce and cybercrime; it was amended in **2008**. It gives **legal recognition to electronic documents and digital signatures**, making an online contract as valid as a paper one, and it defines punishments for cyber offences. Key sections: **Section 65** — tampering with computer source documents; **Section 66** — computer-related offences including hacking; **Section 66C** — identity theft; **Section 66D** — cheating by personation using a computer resource; **Section 67** — publishing obscene material in electronic form; **Section 72** — breach of confidentiality and privacy.",
+"**2. Digital citizenship.** A **digital citizen** uses technology responsibly, respectfully and safely. That means respecting other people's privacy and intellectual property, communicating without abusing or bullying, verifying information before sharing it, and reporting abuse instead of spreading it.",
+"**3. Digital footprint.** A **digital footprint** is the trail of data you leave behind online — accounts, posts, search history, photographs, comments and the metadata attached to them. Footprints are of two kinds: **active**, which you create deliberately by posting or filling a form, and **passive**, which is collected without your direct action, such as your IP address, location and browsing history. Anything posted can be copied, screenshotted and remain searchable for years, and it is routinely checked by colleges and employers.",
+"**4. e-Waste.** **e-Waste** is discarded electronic equipment — old phones, batteries, chargers, monitors, circuit boards. It is dangerous because it contains **lead, mercury, cadmium and brominated flame retardants**, which poison soil and groundwater when dumped, and because burning it releases toxic fumes. It is also valuable, since circuit boards contain recoverable gold, silver and copper. The correct handling is the **3R approach — reduce, reuse, recycle** — by handing devices to authorised recyclers or e-waste collection centres rather than to ordinary waste collection."
+],
+"tricks": [
+"- **65 tampering, 66 hacking, 66C identity theft, 67 obscenity.**",
+"- **IT Act 2000, amended 2008.**",
+"- **Active footprint = you posted it; passive footprint = it was collected.**",
+"- **e-Waste = 3R: reduce, reuse, recycle.**",
+"- The Act made **electronic documents legally valid** — that is its most-asked point."
+],
+"mistakes": [
+"- Forgetting the **2008 amendment** when asked about the IT Act.",
+"- Confusing **active and passive** digital footprints.",
+"- Describing e-waste only as 'old electronics' without naming the **toxic substances**.",
+"- Recommending throwing old devices in normal household waste."
+],
+"qa": [
+{"m": "3", "q": "What is the IT Act, 2000? State any three of its key provisions.", "a": "The **Information Technology Act, 2000** is India's principal legislation governing electronic commerce and cybercrime, amended in **2008**. Three key provisions are: it gives **legal recognition to electronic records and digital signatures**, so an online document or contract is as valid as a paper one; it **defines cyber offences and their punishments**, such as tampering with source documents under Section 65 and hacking under Section 66; and it provides a **legal framework for electronic governance and secure electronic transactions**, including penalties for identity theft under Section 66C and for publishing obscene material under Section 67."},
+{"m": "3", "q": "What is a digital footprint? Explain its two types.", "a": "A **digital footprint** is the trail of data a person leaves behind while using the internet — accounts, posts, comments, photographs, search history and the metadata attached to them. It has two types. An **active footprint** is created deliberately, when you post on social media, fill in a form or upload a photograph. A **passive footprint** is collected without your direct action, such as your IP address, approximate location, browsing history and cookies. Both matter because the internet rarely forgets — content can be copied and screenshotted, and colleges and employers increasingly check what is publicly visible."},
+{"m": "3", "q": "Why is e-waste hazardous and how should it be managed?", "a": "e-Waste is hazardous because discarded electronics contain toxic substances such as **lead, mercury, cadmium and brominated flame retardants**. When dumped in ordinary landfills these chemicals leach into soil and groundwater, and burning the waste releases poisonous fumes that harm both workers and the surrounding population. At the same time e-waste contains recoverable **gold, silver and copper**, so throwing it away wastes valuable material. It should be managed through the **3R approach — reduce, reuse and recycle** — by repairing and passing on working devices where possible and handing the rest to authorised e-waste recyclers or collection centres rather than to regular waste collection."},
+{"m": "2", "q": "What is meant by digital citizenship?", "a": "**Digital citizenship** is the responsible, respectful and safe use of technology. A good digital citizen protects their own and other people's privacy, respects intellectual property by not copying or pirating, communicates politely without abusing or bullying others, checks facts before sharing information, and reports harmful content instead of spreading it."},
+{"m": "1", "q": "Which section of the IT Act deals with publishing obscene material electronically?", "a": "**Section 67** of the IT Act deals with publishing or transmitting obscene material in electronic form."}
+],
+"mcq": [
+{"q": "The IT Act was passed in — (a) 1998 (b) 2000 (c) 2005 (d) 2013", "a": "**(b) 2000**, and amended in 2008."},
+{"q": "Which section deals with hacking? (a) 65 (b) 66 (c) 67 (d) 72", "a": "**(b) Section 66.**"},
+{"q": "A footprint collected without your action is called — (a) active (b) passive (c) public (d) hidden", "a": "**(b) passive.**"},
+{"q": "Which is NOT a toxic substance found in e-waste? (a) lead (b) mercury (c) cadmium (d) calcium", "a": "**(d) calcium.** Lead, mercury and cadmium are all present."},
+{"q": "The 3R approach means — (a) read, run, rest (b) reduce, reuse, recycle (c) repair, replace, remove (d) return, refund, recover", "a": "**(b) reduce, reuse, recycle.**"}
+],
+"trend": "One IT Act question and one e-waste or footprint question close the paper every year.",
+"onepager": ["- IT Act 2000 (amended 2008): legal validity to e-documents and digital signatures.", "- Sections: 65 tampering, 66 hacking, 66C identity theft, 67 obscenity, 72 confidentiality.", "- Active footprint = you posted it; passive = collected automatically.", "- e-Waste contains lead, mercury, cadmium; manage by 3R.", "- Digital citizenship = responsible, respectful, safe use."],
+"task": ["Search your own name online and write down what appears — that is your passive footprint. Then list five items of e-waste in your home and find the nearest authorised collection point."]
+}
+]

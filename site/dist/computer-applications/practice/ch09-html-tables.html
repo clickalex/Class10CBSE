@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ch 9 practice · Class 10 CBSE</title>
+<meta name="description" content="CBSE Class 10 Ch 9 practice — chapter notes, formulas, exam Q&amp;A and revision.">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
+    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../computer-applications/index.html">Hub</a><a href="../../computer-applications/syllabus.html">Syllabus</a><a href="../../computer-applications/revision.html">Revision</a><a href="../../computer-applications/question-bank.html">Questions</a><a href="../../computer-applications/pyq.html">PYQ</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Computer Applications</a> <span class="sep">/</span> <a href="../chapters/ch09-html-tables.html">Ch 9 · HTML Tables</a> <span class="sep">/</span> Practice</nav>
+
+<p class="kicker">CBSE • CLASS 10 • COMPUTER APPLICATIONS</p>
+<h1>Ch 9 · HTML Tables — Practice</h1>
+<p class="lede">Attempt first, then open the answer. Everything here is original
+practice material mapped to the current syllabus.</p>
+<h2>MCQs</h2>
+<details class="qa"><summary>Which tag defines a table row? (a) <code>&lt;td&gt;</code> (b) <code>&lt;tr&gt;</code> (c) <code>&lt;th&gt;</code> (d) <code>&lt;table&gt;</code></summary><div class="ans"><p><strong>(b) <code>&lt;tr&gt;</code>.</strong></p></div></details><details class="qa"><summary>To merge a cell across three columns you use — (a) <code>rowspan='3'</code> (b) <code>colspan='3'</code> (c) <code>span='3'</code> (d) <code>merge='3'</code></summary><div class="ans"><p><strong>(b) <code>colspan='3'</code>.</strong></p></div></details><details class="qa"><summary><code>cellspacing</code> controls — (a) space inside a cell (b) space between cells (c) the border thickness (d) the table width</summary><div class="ans"><p><strong>(b) the space between cells.</strong></p></div></details><details class="qa"><summary>A header cell is written with — (a) <code>&lt;td&gt;</code> (b) <code>&lt;th&gt;</code> (c) <code>&lt;head&gt;</code> (d) <code>&lt;caption&gt;</code></summary><div class="ans"><p><strong>(b) <code>&lt;th&gt;</code>.</strong></p></div></details><details class="qa"><summary>How many <code>&lt;tr&gt;</code> tags does a 4-row table need? (a) 1 (b) 2 (c) 4 (d) 8</summary><div class="ans"><p><strong>(c) 4</strong> — one per row.</p></div></details>
+<h2>Written questions</h2>
+<details class="qa"><summary><span class="marks">4 marks</span> Write HTML for a table with a merged title cell across two columns, a header row and one data row.</summary><div class="ans"><p><code>&lt;table border='1' width='300'&gt;</code><br><code>  &lt;tr&gt;&lt;th colspan='2'&gt;Student Report&lt;/th&gt;&lt;/tr&gt;</code><br><code>  &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Marks&lt;/th&gt;&lt;/tr&gt;</code><br><code>  &lt;tr&gt;&lt;td&gt;Asha&lt;/td&gt;&lt;td&gt;88&lt;/td&gt;&lt;/tr&gt;</code><br><code>&lt;/table&gt;</code><br>The first row uses <code>colspan='2'</code> so the title stretches across both columns; that row therefore contains only one cell instead of two.</p></div></details><details class="qa"><summary><span class="marks">3 marks</span> Explain colspan and rowspan with an example.</summary><div class="ans"><p><strong><code>colspan='n'</code></strong> makes a single cell stretch across <strong>n columns</strong>. For example <code>&lt;td colspan='3'&gt;Heading&lt;/td&gt;</code> occupies the width of three columns, so that row needs three fewer <code>&lt;td&gt;</code> tags than a normal row. <strong><code>rowspan='n'</code></strong> makes a cell stretch down <strong>n rows</strong>. For example, a <code>&lt;td rowspan='2'&gt;Science&lt;/td&gt;</code> in the first of two rows covers both rows, so the second row must not include a cell in that position. Using them incorrectly is what makes a table look misaligned.</p></div></details><details class="qa"><summary><span class="marks">2 marks</span> What is the difference between <code>&lt;td&gt;</code> and <code>&lt;th&gt;</code>?</summary><div class="ans"><p><code>&lt;td&gt;</code> is an ordinary <strong>data cell</strong> and displays its content left-aligned in normal weight. <code>&lt;th&gt;</code> is a <strong>header cell</strong>: the browser automatically shows its text <strong>bold and centred</strong>, and it tells assistive technology that the cell labels a column or row. <code>&lt;th&gt;</code> is normally used in the first row of a table.</p></div></details><details class="qa"><summary><span class="marks">2 marks</span> Differentiate between cellpadding and cellspacing.</summary><div class="ans"><p><strong><code>cellpadding</code></strong> is the space between the content of a cell and that cell's own border — it makes the text sit further inside the box. <strong><code>cellspacing</code></strong> is the gap between one cell's border and the next cell's border — it widens the grid lines themselves. Both are set on the <code>&lt;table&gt;</code> tag.</p></div></details><details class="qa"><summary><span class="marks">1 marks</span> What does <code>&lt;caption&gt;</code> do in a table?</summary><div class="ans"><p><code>&lt;caption&gt;</code> gives the table a title. It is placed immediately after the opening <code>&lt;table&gt;</code> tag and is displayed above the table by default.</p></div></details>
+<p><a class="btn" href="../chapters/ch09-html-tables.html">← Back to the chapter</a></p>
+
+</main>
+<footer class="wrap foot">
+  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  not official CBSE papers. Always confirm the syllabus against
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
+</footer>
+<script src="../../assets/app.js"></script>
+</body>
+</html>

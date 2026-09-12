@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ch 8 practice · Class 10 CBSE</title>
+<meta name="description" content="CBSE Class 10 Ch 8 practice — chapter notes, formulas, exam Q&amp;A and revision.">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
+    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../computer-applications/index.html">Hub</a><a href="../../computer-applications/syllabus.html">Syllabus</a><a href="../../computer-applications/revision.html">Revision</a><a href="../../computer-applications/question-bank.html">Questions</a><a href="../../computer-applications/pyq.html">PYQ</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Computer Applications</a> <span class="sep">/</span> <a href="../chapters/ch08-html-links-images.html">Ch 8 · HTML III — Links &amp; Images</a> <span class="sep">/</span> Practice</nav>
+
+<p class="kicker">CBSE • CLASS 10 • COMPUTER APPLICATIONS</p>
+<h1>Ch 8 · HTML III — Links &amp; Images — Practice</h1>
+<p class="lede">Attempt first, then open the answer. Everything here is original
+practice material mapped to the current syllabus.</p>
+<h2>MCQs</h2>
+<details class="qa"><summary>Which attribute of <code>&lt;a&gt;</code> gives the destination address? (a) src (b) href (c) link (d) target</summary><div class="ans"><p><strong>(b) href.</strong></p></div></details><details class="qa"><summary>Which opens a link in a new tab? (a) <code>target='_new'</code> (b) <code>target='_blank'</code> (c) <code>new='true'</code> (d) <code>href='_blank'</code></summary><div class="ans"><p><strong>(b) <code>target='_blank'</code>.</strong></p></div></details><details class="qa"><summary><code>&lt;img&gt;</code> is — (a) a paired tag (b) an empty tag (c) a heading tag (d) not a valid tag</summary><div class="ans"><p><strong>(b) an empty tag</strong> — it has no closing partner.</p></div></details><details class="qa"><summary>To link to a file in the parent folder you write — (a) <code>/index.html</code> (b) <code>./index.html</code> (c) <code>../index.html</code> (d) <code>index.html</code></summary><div class="ans"><p><strong>(c) <code>../index.html</code>.</strong></p></div></details><details class="qa"><summary><code>mailto:</code> is used to — (a) download mail (b) open the email program (c) create a table (d) send an image</summary><div class="ans"><p><strong>(b) open the email program</strong> with the address filled in.</p></div></details>
+<h2>Written questions</h2>
+<details class="qa"><summary><span class="marks">3 marks</span> Write HTML to create a link to the CBSE website that opens in a new tab, and a link that emails the principal.</summary><div class="ans"><p><code>&lt;a href='https://www.cbse.gov.in' target='_blank'&gt;Visit CBSE&lt;/a&gt;</code><br><code>&lt;br&gt;</code><br><code>&lt;a href='mailto:principal@school.edu'&gt;Email the Principal&lt;/a&gt;</code><br>The first uses an absolute URL and <code>target='_blank'</code> so it opens in a new tab. The second uses the <code>mailto:</code> prefix, which makes the browser open the user's email program with the address already filled in.</p></div></details><details class="qa"><summary><span class="marks">3 marks</span> Explain the <code>&lt;img&gt;</code> tag with any four of its attributes.</summary><div class="ans"><p>The <code>&lt;img&gt;</code> tag inserts an image into a page and is an <strong>empty tag</strong>, so it has no closing partner. <strong><code>src</code></strong> gives the location of the image file and is compulsory — without it nothing displays. <strong><code>alt</code></strong> provides alternative text shown when the image fails to load and read by screen readers. <strong><code>width</code></strong> and <strong><code>height</code></strong> set the displayed size in pixels or as a percentage of the container. <strong><code>align</code></strong> controls how the image sits beside surrounding text, and <strong><code>border</code></strong> draws a frame around it. An example is <code>&lt;img src='logo.png' alt='School logo' width='200' height='100'&gt;</code>.</p></div></details><details class="qa"><summary><span class="marks">2 marks</span> What is the difference between an absolute and a relative path?</summary><div class="ans"><p>An <strong>absolute path</strong> gives the complete address of a resource starting from the protocol, such as <code>https://example.com/images/logo.png</code>. It works from anywhere on the internet. A <strong>relative path</strong> is written relative to the location of the current file, such as <code>images/logo.png</code> for a subfolder or <code>../index.html</code> to go up one level first. Relative paths are shorter and keep working if the whole site is moved, but they only work within the same site.</p></div></details><details class="qa"><summary><span class="marks">2 marks</span> How do you create a link that jumps to the top of the same page?</summary><div class="ans"><p>First give the target element an id — for example <code>&lt;h1 id='top'&gt;Title&lt;/h1&gt;</code>. Then link to it using a hash followed by that id: <code>&lt;a href='#top'&gt;Back to top&lt;/a&gt;</code>. Clicking the link scrolls the page to the element carrying that id, without loading anything new.</p></div></details><details class="qa"><summary><span class="marks">1 marks</span> What does the <code>alt</code> attribute do?</summary><div class="ans"><p>The <strong><code>alt</code></strong> attribute supplies alternative text for an image. It is displayed when the image cannot be loaded and is read aloud by screen readers for visually impaired users, which is why it should always be included.</p></div></details>
+<p><a class="btn" href="../chapters/ch08-html-links-images.html">← Back to the chapter</a></p>
+
+</main>
+<footer class="wrap foot">
+  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  not official CBSE papers. Always confirm the syllabus against
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
+</footer>
+<script src="../../assets/app.js"></script>
+</body>
+</html>

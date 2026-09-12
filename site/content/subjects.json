@@ -258,6 +258,103 @@
     ]
   },
   {
+    "slug": "computer-applications",
+    "title": "Computer Applications",
+    "code": "165",
+    "kicker": "CBSE \u2022 CLASS 10 \u2022 COMPUTER APPLICATIONS",
+    "short": "14 chapters: networking, HTML and cyber ethics.",
+    "marks": "50 + 50",
+    "blurb": "Two 2-hour theory papers worth **50 marks**, plus **50 marks of practical** \u2014 lab test, file work, viva and a website project. **HTML alone is 25 theory marks**, so Unit II is where the paper is won. Every chapter page carries the tag reference, the exact steps, the mistakes that break a page and exam Q&A.",
+    "areas_heading": "Three units",
+    "syllabus_note": "Unit I Networking (15), Unit II HTML (25), Unit III Cyber Ethics (10). Practical is assessed separately at 50 marks.",
+    "books": [
+      "- **Sumita Arora** \u2014 *Computer Applications with Python & HTML*, Class 10 (Dhanpat Rai)",
+      "- **CBSE curriculum document** \u2014 Computer Applications, code 165, session 2026\u201327"
+    ],
+    "removed": [
+      "- **Scratch II, Python Revision and Python Conditionals & Loops** appear in several publisher books but are **not** part of the current 165 theory units.",
+      "- Only **HTML** is assessed in Unit II \u2014 CSS is used to style the practical project, it is not asked as separate theory."
+    ],
+    "units": [
+      {"id": "networking", "slug": "networking", "title": "Unit I \u00b7 Networking", "marks": "15 marks", "priority": true, "desc": "Internet basics, internet services, mobile technology and the vocabulary of how networks are built.", "tips": ["- टोपोलॉजी, प्रोटोकॉल और नेटवर्किंग उपकरण \u2014 तीनों की परिभाषाएँ शब्दशः याद रखें।"]},
+      {"id": "html", "slug": "html", "title": "Unit II \u00b7 HTML", "marks": "25 marks", "priority": true, "desc": "The biggest single unit in the paper. Tags, attributes, tables, forms, lists and frames \u2014 all written by hand in the exam.", "tips": ["- हर टैग का उदाहरण स्वयं लिखकर अभ्यास करें \u2014 परीक्षा में कोड लिखना होता है, चलाना नहीं।"]},
+      {"id": "cyber-ethics", "slug": "cyber-ethics", "title": "Unit III \u00b7 Cyber Ethics", "marks": "10 marks", "priority": true, "desc": "Cyber safety, cybercrime, IPR, the IT Act and e-waste. Short, scoring and almost entirely definition-driven.", "tips": ["- केवल 10 अंक \u2014 इसे अंत में छोड़ें नहीं, सबसे पहले खत्म करें।"]}
+    ],
+    "assessment": [
+      ["**Paper I** \u2014 Unit I Networking + Unit III Cyber Ethics", "**25**", "दो घंटे। परिभाषा-आधारित, कम समय में पूरा होता है।"],
+      ["**Paper II** \u2014 Unit II HTML", "**25**", "दो घंटे। टैग और कोड लिखने का अभ्यास अनिवार्य।"],
+      ["Total theory", "**50**", "दोनों पेपर अलग-अलग, दो-दो घंटे के।"],
+      ["**Lab test** \u2014 HTML/website task", "**20**", "समय-सीमा में पूरा पेज बनाना।"],
+      ["**File work**", "**10**", "पूरे वर्ष के अभ्यास का क्रमबद्ध संग्रह।"],
+      ["**Viva voce**", "**5**", "टैग, प्रोटोकॉल और सुरक्षा के छोटे प्रश्न।"],
+      ["**Website project**", "**15**", "निर्धारित विषय पर बहु-पेज साइट।"],
+      ["Total practical", "**50**", "सिद्धांत जितना ही महत्वपूर्ण।"]
+    ],
+    "study_order": [
+      "**HTML (25 अंक)** सबसे पहले \u2014 सबसे बड़ा खंड और सबसे अधिक अभ्यास माँगता है।",
+      "**Networking (15 अंक)** \u2014 परिभाषाएँ और चित्र; टोपोलॉजी का चित्र बनाना अभ्यास करें।",
+      "**Cyber Ethics (10 अंक)** सबसे अंत में \u2014 छोटा, परिभाषा-आधारित, तेज़ी से पूरा होता है।",
+      "हर सप्ताह एक **HTML पेज बनाइए** \u2014 यही लैब टेस्ट और प्रोजेक्ट दोनों की तैयारी है।"
+    ],
+    "countdown": "प्रैक्टिकल परीक्षा आमतौर पर फरवरी\u2013मार्च में, थ्योरी से पहले होती है।",
+    "cards": {"practical": "Lab, file, viva & project", "questions": "Tag-wise questions"},
+    "practical_note": "Computer Applications का 50 अंक का प्रैक्टिकल \u2014 **लैब टेस्ट (20) + फ़ाइल वर्क (10) + वाइवा (5) + वेबसाइट प्रोजेक्ट (15)**।",
+    "practical": [
+      "- **Lab test (20)**: निर्धारित समय में एक HTML पेज या छोटी वेबसाइट \u2014 टेबल, फ़ॉर्म, लिंक और छवि सहित।",
+      "- **File work (10)**: पूरे वर्ष के अभ्यास का क्रमबद्ध संग्रह; हर प्रयोग का उद्देश्य, कोड और आउटपुट लिखें।",
+      "- **Viva (5)**: टैग की परिभाषा, प्रोटोकॉल के पूरे नाम, साइबर-सुरक्षा के उपाय \u2014 छोटे और सीधे प्रश्न।",
+      "- **Website project (15)**: बहु-पेज साइट \u2014 होम पेज, कम-से-कम तीन अन्य पेज, नेविगेशन लिंक, टेबल, फ़ॉर्म और छवियाँ।",
+      "- **अभ्यास**: किसी भी टेक्स्ट एडिटर में पेज लिखें और ब्राउज़र में खोलें। रोज़ एक पेज = प्रोजेक्ट आधा पूरा।"
+    ]
+  },
+  {
+    "slug": "sanskrit",
+    "title": "Sanskrit",
+    "code": "122",
+    "kicker": "CBSE \u2022 CLASS 10 \u2022 SANSKRIT",
+    "short": "शेमुषी भाग-2, व्याकरणवीथिः और अभ्यासवान् भव।",
+    "marks": "80 + 20 IA",
+    "blurb": "चार खंड \u2014 **अपठितावबोधनम् (10), रचनात्मककार्यम् (15), अनुप्रयुक्तव्याकरणम् (25) और पठितावबोधनम् (30)**। पठितावबोधनम् सबसे बड़ा खंड है और उसी में **गद्य, पद्य और नाट्य** तीनों आते हैं। प्रत्येक पाठ-पृष्ठ पर अन्वय, भावार्थ और प्रश्नोत्तर तीनों दिए गए हैं।",
+    "areas_heading": "Three sections",
+    "syllabus_note": "परीक्षायै निर्धारिताः पाठाः \u2014 शुचिपर्यावरणम्, बुद्धिर्बलवती सदा, शिशुलालनम्, जननी तुल्यवत्सला, सुभाषितानि, सौहार्दं प्रकृतेः शोभा, विचित्रः साक्षी, सूक्तयः, अन्योक्तयः।",
+    "books": [
+      "- **शेमुषी भाग-2 (संशोधित)** \u2014 मुख्य पाठ्यपुस्तक",
+      "- **अभ्यासवान् भव द्वितीयः भागः** \u2014 पूरक एवं अभ्यास",
+      "- **व्याकरणवीथिः** \u2014 व्याकरण"
+    ],
+    "removed": [
+      "- **व्यायामः सदा पथ्यः (पाठ 3)** और **भूकम्पविभीषिका (पाठ 10)** परीक्षा के लिए निर्धारित नहीं हैं।"
+    ],
+    "units": [
+      {"id": "shemushi", "slug": "shemushi", "title": "पाठ्यपुस्तक \u00b7 शेमुषी भाग-2", "marks": "30 marks", "priority": true, "desc": "नौ निर्धारित पाठ \u2014 गद्य, पद्य और नाट्य। पठितावबोधनम् का पूरा आधार।", "tips": ["- प्रत्येक पाठ का अन्वय और भावार्थ लिखकर अभ्यास करें।"]},
+      {"id": "vyakaran", "slug": "vyakaran", "title": "अनुप्रयुक्तव्याकरणम्", "marks": "25 marks", "priority": true, "desc": "सन्धि, समास, प्रत्यय, वाच्य, समय, अव्यय और अशुद्धि-संशोधनम्।", "tips": ["- सूत्र रटें नहीं \u2014 हर सूत्र पर दस उदाहरण बनाइए।"]},
+      {"id": "lekhan", "slug": "lekhan", "title": "रचनात्मकलेखनम्", "marks": "15 marks", "priority": true, "desc": "पत्रलेखनम्, चित्रवर्णनम्, अनुच्छेदलेखनम् और अनुवादः।", "tips": ["- प्रारूप के अंक अलग मिलते हैं \u2014 ढाँचा पहले पक्का करें।"]}
+    ],
+    "assessment": [
+      ["**क** \u2014 अपठितावबोधनम् (unseen passage)", "**10**", "80\u2013100 शब्दों का गद्यांश; शीर्षक और भाषिककार्य MCQ सहित।"],
+      ["**ख** \u2014 रचनात्मककार्यम् (writing)", "**15**", "पत्र 5, चित्रवर्णन/अनुच्छेद 5, अनुवाद 5।"],
+      ["**ग** \u2014 अनुप्रयुक्तव्याकरणम् (grammar in use)", "**25**", "सन्धि 4, समास 4, प्रत्यय 4, वाच्य 3, समय 4, अव्यय 3, अशुद्धि 3।"],
+      ["**घ** \u2014 पठितावबोधनम् (textbook)", "**30**", "गद्य 5, पद्य 5, नाट्य 5, प्रश्ननिर्माण 4, अन्वय-भावार्थ 4, घटनाक्रम 4, अर्थलेखन 3।"],
+      ["Total theory", "**80**", "तीन घंटे।"],
+      ["Internal assessment", "**20**", "श्रवण, वाचन और परियोजना \u2014 विद्यालय द्वारा निर्धारित।"]
+    ],
+    "study_order": [
+      "**शेमुषी के नौ पाठ** सबसे पहले \u2014 30 अंक और सबसे लंबा पठन।",
+      "**अनुप्रयुक्तव्याकरणम् (25 अंक)** \u2014 प्रतिदिन थोड़ा, सूत्र नहीं उदाहरण।",
+      "**रचनात्मकलेखनम् (15 अंक)** \u2014 प्रारूप कंठस्थ, फिर अभ्यास।",
+      "**अपठितावबोधनम् (10 अंक)** \u2014 हर दूसरे दिन एक गद्यांश; यह गति का अभ्यास है।"
+    ],
+    "countdown": "आंतरिक मूल्यांकन (श्रवण-वाचन) आमतौर पर दिसंबर\u2013जनवरी में होता है।",
+    "cards": {"practical": "श्रवण एवं वाचन", "questions": "पाठवार प्रश्न"},
+    "practical_note": "संस्कृत का आंतरिक मूल्यांकन **श्रवण एवं वाचन मूल्यांकन (ASL)** और परियोजना पर आधारित है।",
+    "practical": [
+      "- **वाचन**: निर्धारित गद्य या पद्यांश का शुद्ध उच्चारण के साथ पठन, फिर मौखिक प्रश्न।",
+      "- **श्रवण**: सुनाए गए संस्कृत गद्यांश पर प्रश्न \u2014 सुनते समय मुख्य शब्द लिखने का अभ्यास करें।",
+      "- **परियोजना**: किसी एक विषय (संस्कृत-साहित्य, विज्ञान-शब्दावली या सुभाषित-संग्रह) पर निर्धारित प्रारूप में कार्य।",
+      "- **अभ्यास**: प्रतिदिन एक श्लोक या गद्यांश बोलकर पढ़ें और अपनी ध्वनि रिकॉर्ड कर सुनें \u2014 उच्चारण इसी से सुधरता है।"
+    ]
+  },
+  {
     "slug": "it-402",
     "title": "Information Technology",
     "code": "402",

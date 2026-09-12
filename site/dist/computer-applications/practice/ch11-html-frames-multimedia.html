@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ch 11 practice · Class 10 CBSE</title>
+<meta name="description" content="CBSE Class 10 Ch 11 practice — chapter notes, formulas, exam Q&amp;A and revision.">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
+    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../computer-applications/index.html">Hub</a><a href="../../computer-applications/syllabus.html">Syllabus</a><a href="../../computer-applications/revision.html">Revision</a><a href="../../computer-applications/question-bank.html">Questions</a><a href="../../computer-applications/pyq.html">PYQ</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Computer Applications</a> <span class="sep">/</span> <a href="../chapters/ch11-html-frames-multimedia.html">Ch 11 · Frames, Multimedia &amp; Special Tags</a> <span class="sep">/</span> Practice</nav>
+
+<p class="kicker">CBSE • CLASS 10 • COMPUTER APPLICATIONS</p>
+<h1>Ch 11 · Frames, Multimedia &amp; Special Tags — Practice</h1>
+<p class="lede">Attempt first, then open the answer. Everything here is original
+practice material mapped to the current syllabus.</p>
+<h2>MCQs</h2>
+<details class="qa"><summary>In a frameset, which attribute splits the window vertically into columns? (a) rows (b) cols (c) split (d) frames</summary><div class="ans"><p><strong>(b) cols.</strong> <code>rows</code> splits horizontally.</p></div></details><details class="qa"><summary>Which attribute makes audio controls visible? (a) play (b) controls (c) visible (d) show</summary><div class="ans"><p><strong>(b) controls.</strong></p></div></details><details class="qa"><summary>A frameset document does not contain — (a) <code>&lt;html&gt;</code> (b) <code>&lt;head&gt;</code> (c) <code>&lt;body&gt;</code> (d) <code>&lt;frame&gt;</code></summary><div class="ans"><p><strong>(c) <code>&lt;body&gt;</code></strong> — <code>&lt;frameset&gt;</code> replaces it.</p></div></details><details class="qa"><summary>Which tag preserves spaces and line breaks? (a) <code>&lt;p&gt;</code> (b) <code>&lt;pre&gt;</code> (c) <code>&lt;div&gt;</code> (d) <code>&lt;span&gt;</code></summary><div class="ans"><p><strong>(b) <code>&lt;pre&gt;</code>.</strong></p></div></details><details class="qa"><summary><code>&lt;iframe&gt;</code> is used to — (a) split the whole window (b) embed another page inside the current one (c) create a table (d) play audio</summary><div class="ans"><p><strong>(b) embed another page inside the current one.</strong></p></div></details>
+<h2>Written questions</h2>
+<details class="qa"><summary><span class="marks">3 marks</span> Write HTML to divide the browser window into two rows, the top 25% showing a header and the bottom 75% showing content.</summary><div class="ans"><p><code>&lt;html&gt;</code><br><code>  &lt;head&gt;&lt;title&gt;Frames&lt;/title&gt;&lt;/head&gt;</code><br><code>  &lt;frameset rows='25%,75%'&gt;</code><br><code>    &lt;frame src='header.html'&gt;</code><br><code>    &lt;frame src='content.html'&gt;</code><br><code>  &lt;/frameset&gt;</code><br><code>&lt;/html&gt;</code><br>Note that there is no <code>&lt;body&gt;</code> — a <code>&lt;frameset&gt;</code> document replaces it. <code>rows</code> splits the window into horizontal bands, and each <code>&lt;frame&gt;</code> loads one document into its band.</p></div></details><details class="qa"><summary><span class="marks">3 marks</span> Explain the <code>&lt;audio&gt;</code> tag with its attributes.</summary><div class="ans"><p>The <code>&lt;audio&gt;</code> tag embeds a sound file in a page. <strong><code>src</code></strong> gives the location of the audio file. <strong><code>controls</code></strong> displays the play, pause and volume buttons — without it the player is invisible and the user cannot control playback. <strong><code>autoplay</code></strong> starts the sound as soon as the page loads, <strong><code>loop</code></strong> repeats it endlessly, and <strong><code>muted</code></strong> starts it silently. An example is <code>&lt;audio src='song.mp3' controls loop&gt;</code>.</p></div></details><details class="qa"><summary><span class="marks">2 marks</span> What is the difference between <code>&lt;frame&gt;</code> and <code>&lt;iframe&gt;</code>?</summary><div class="ans"><p>A <strong><code>&lt;frame&gt;</code></strong> can only be used inside a <code>&lt;frameset&gt;</code>, which replaces the document's <code>&lt;body&gt;</code> and splits the entire browser window into separate regions. An <strong><code>&lt;iframe&gt;</code></strong> (inline frame) is placed inside an ordinary page and embeds another document in a rectangular area within it, leaving the rest of the page untouched. In practice iframes are still common for maps and embedded videos, while framesets are considered outdated.</p></div></details><details class="qa"><summary><span class="marks">2 marks</span> What does the <code>&lt;marquee&gt;</code> tag do? Name two of its attributes.</summary><div class="ans"><p>The <code>&lt;marquee&gt;</code> tag makes its content scroll across the page. Two of its attributes are <strong><code>direction</code></strong>, which sets the direction of movement — <code>left</code>, <code>right</code>, <code>up</code> or <code>down</code> — and <strong><code>scrollamount</code></strong>, which sets how fast it moves. A third, <strong><code>behavior</code></strong>, chooses between <code>scroll</code> (continuous), <code>slide</code> (moves once and stops) and <code>alternate</code> (bounces back and forth).</p></div></details><details class="qa"><summary><span class="marks">2 marks</span> Why is the <code>&lt;pre&gt;</code> tag used?</summary><div class="ans"><p>The <code>&lt;pre&gt;</code> tag displays text <strong>exactly as it is typed</strong>, preserving all spaces, tabs and line breaks. Ordinary HTML collapses multiple spaces into one and ignores line breaks, so <code>&lt;pre&gt;</code> is used whenever the formatting itself matters — for code samples, ASCII diagrams or poetry.</p></div></details>
+<p><a class="btn" href="../chapters/ch11-html-frames-multimedia.html">← Back to the chapter</a></p>
+
+</main>
+<footer class="wrap foot">
+  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  not official CBSE papers. Always confirm the syllabus against
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
+</footer>
+<script src="../../assets/app.js"></script>
+</body>
+</html>

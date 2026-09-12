@@ -1,0 +1,377 @@
+[
+{
+"id": "ch01-a-letter-to-god", "num": 1, "title": "A Letter to God",
+"unit": "ff-prose", "unit_name": "First Flight · Prose", "weight": "reference to context",
+"short": "Lencho's unshakable faith and the irony that follows it.",
+"lede": "G. L. Fuentes. A farmer, a hailstorm, a letter — and one of the sharpest ironies in the syllabus.",
+"lens": ["Reference-to-context extracts and one 5-mark value-based long answer. The **irony** is always the question.", "Know the numbers cold: Lencho asked for **one hundred pesos**, received **seventy**, and accused the post office employees of being *'a bunch of crooks'*."],
+"concepts": [
+"**1. Summary.** Lencho, a simple hardworking farmer, lives on the crest of a low hill in a Latin American valley, with his cornfield ripening and dotted with flowers. Rain comes — but it turns into a **hailstorm** that destroys the crop completely. Lencho's only hope is God, so he writes a letter asking for one hundred pesos to sow his field again and to live until the next harvest. The postmaster, a fat, amiable fellow, is moved by the farmer's faith, collects **seventy pesos** from his employees and friends, and sends the money in a letter signed *'God'*. Lencho, on receiving the letter, is not surprised, but is angry at the shortfall: he writes a second letter asking God to send the rest directly, because the post office employees are a bunch of crooks.",
+"**2. Characters.** **Lencho** — a simple, hardworking, unquestioning man of faith; his faith is absolute but so is his innocence. **The postmaster** — kind, generous and witty; he does not want to shake the farmer's faith in God. **The employees and friends of the post office** — they contribute out of charity, and are unjustly called crooks.",
+"**3. Themes.** **Unshakable faith** — Lencho never doubts that God will answer. **Irony** — the very people who helped him are the ones he calls crooks. **Human kindness and generosity** — the postmaster's act is not duty but compassion. **The gap between faith and reality.**"
+],
+"tricks": [
+"- The word **'crooks'** in the last line is the exam favourite. It means dishonest people — and the irony is that Lencho says it about the men who gave him money.",
+ "- **Two ironies, not one:** the hailstorm destroys the crop that the rain was supposed to save; and the helpers are accused of theft.",
+ "- Lencho is *not* grateful in the second letter — that surprise is worth a mark."
+],
+"mistakes": [
+ "- Saying Lencho received one hundred pesos. He received **seventy**.",
+ "- Describing the postmaster as Lencho's relative or a government official on duty. He acted **out of personal kindness**.",
+ "- Missing the word **'amiable'** when describing the postmaster — examiners look for textual detail."
+],
+"qa": [
+{"m": "3", "q": "Why did Lencho say the post office employees were a bunch of crooks?", "a": "Because he had asked God for one hundred pesos and received only seventy. His faith was so absolute that he could not believe God had made a mistake or had sent less, so he concluded that the post office employees must have taken the remaining thirty pesos. The irony is that these were the very men who had collected the money for him out of charity."},
+{"m": "3", "q": "What made the postmaster decide to help Lencho?", "a": "He was moved by the farmer's unshakable faith in God. He did not want to shake that faith, so he collected money from his employees and friends, gave part of his own salary, and sent it to Lencho in a letter signed 'God'."},
+{"m": "5", "q": "'The story is built around two ironies.' Explain with reference to the text.", "a": ["The first irony is in the weather: Lencho's field needed rain, and rain did come — but it turned into a hailstorm that destroyed the entire crop. The very thing that promised a good harvest took it away.", "The second irony is in the ending: the post office employees, moved by Lencho's faith, collected seventy pesos and sent them to him. Lencho, finding the amount short, wrote back accusing those same men of stealing the money and calling them 'a bunch of crooks'. The helpers become the accused thieves, and the man who never doubted God doubts the honesty of human beings."]},
+{"m": "3", "q": "Was Lencho surprised to find a letter with money in it? What made him angry?", "a": "No, he was not surprised at all — he had expected an answer from God, and his confidence in God was so complete that receiving a reply seemed natural. What made him angry was that the envelope contained only seventy pesos instead of the hundred he had asked for. He was certain that God could not have made a mistake, so he concluded that the post office employees had taken the rest."}
+],
+"mcq": [
+{"q": "Lencho asked God for: (a) fifty pesos (b) seventy pesos (c) one hundred pesos (d) one hundred and fifty pesos", "a": "**(c) one hundred pesos**, to sow his field again and to live until the coming harvest."},
+{"q": "The letter Lencho received was signed: (a) the postmaster (b) God (c) the employees of the post office (d) the President", "a": "**(b) God** — the postmaster signed it that way so that Lencho's faith would not be shaken."},
+{"q": "The writer of the story 'A Letter to God' is: (a) G. L. Fuentes (b) Nelson Mandela (c) Liam O'Flaherty (d) Betty Renshaw", "a": "**(a) G. L. Fuentes.**"}
+],
+"trend": "The two ironies and the 'bunch of crooks' line are asked in almost every paper; the postmaster's character is the recurring short answer.",
+"onepager": [
+"- Lencho: simple farmer, hailstorm destroys the corn, writes to God for 100 pesos.",
+ "- Postmaster collects 70 pesos, signs the letter 'God'.",
+ "- Lencho is not surprised by the letter, only angry at the shortfall.",
+ "- Two ironies: the rain that destroyed, and the helpers called crooks."
+],
+"task": ["Write the story in five sentences, then rewrite it from the postmaster's point of view in five sentences. The shift in perspective shows you who the real subject of the story is — and it is not Lencho."]
+},
+{
+"id": "ch02-nelson-mandela-long-walk-to-freedom", "num": 2, "title": "Nelson Mandela: Long Walk to Freedom",
+"unit": "ff-prose", "unit_name": "First Flight · Prose", "weight": "reference to context",
+"short": "Apartheid, the inauguration of 1994 and what freedom came to mean.",
+"lede": "An extract from Mandela's autobiography *Long Walk to Freedom*. Dates and definitions carry the marks.",
+"lens": ["Reference-to-context extracts and one 5-mark long answer on the meaning of freedom or on courage.", "**10 May 1994** — the inauguration at the Union Buildings amphitheatre in Pretoria — is the anchor date.", "Know the three national anthems, the meaning of **apartheid**, and the two obligations."],
+"concepts": [
+"**1. Summary.** On **10 May 1994**, Nelson Mandela was sworn in as South Africa's first black President at the **Union Buildings amphitheatre in Pretoria**, before an international gathering of leaders. The day marked the end of **apartheid** — a political system that separated people according to race — and the birth of a new, democratic, non-racial nation. **Three national anthems** were sung: *'Nkosi Sikelel' iAfrika'* and *'Morena'* by the blacks, *'Die Stem'* the old anthem of the Republic, and the new combined anthem. Mandela reflects on the day: a beautiful autumn day, but for the whites a symbol of victory and for the blacks a symbol of a new beginning. He recalls his own journey from a frightened young man to a bold one, and thanks the **international presence**, which he sees as a common victory for justice, peace and human dignity.",
+"**2. Courage and oppression.** Mandela says that he learned that **courage was not the absence of fear but the triumph over it** — the brave man is not he who does not feel afraid, but he who conquers that fear. Decades of oppression made him hunger for freedom, not just for himself but for all his people. He says that **the oppressed and the oppressor alike are robbed of their humanity**: the oppressor is a prisoner of hatred, locked behind the bars of prejudice and narrow-mindedness, and is not truly free; the oppressed, robbed of his dignity, is also not free.",
+"**3. The twin obligations.** Every man has **two obligations**: the first to his **family** — his parents, his wife and children; the second to his **people**, his community and his country. In a civil and humane society each man is able to fulfil both. In South Africa under apartheid, a man like Mandela who tried to live as a human being was **punished and isolated**, and could not fulfil either obligation.",
+"**4. The meaning of freedom.** As a boy, freedom meant running in the fields, swimming in the stream and roasting mealies under the stars. As a student, it meant staying out at night, reading what he pleased and going where he liked — **transitory freedoms**. As a young man he yearned for the honourable freedoms of achieving his potential, of earning his keep, of marrying and having a family. Only later did he understand that **freedom is indivisible** — the chains on any one of his people were chains on all of them. He says that freedom was not just to throw off one's chains, but **to live in a way that respects and enhances the freedom of others**. His long walk is not yet ended."
+],
+"tricks": [
+"- **Courage = triumph over fear, not absence of fear.** That sentence is asked repeatedly and must be quoted nearly word-for-word.",
+ "- **Two obligations: family and people.** In apartheid South Africa, a man could not discharge both.",
+ "- **Freedom changed meaning with age:** boyhood = physical freedom, youth = honourable freedoms, later = freedom of the whole people."
+],
+"mistakes": [
+ "- Giving the inauguration date as 10 May 1995. It is **1994**.",
+ "- Saying South Africa has two national anthems. **Three** were sung that day.",
+ "- Defining apartheid as segregation only. The textbook calls it a **political system that separates people according to race**."
+],
+"qa": [
+{"m": "3", "q": "What does courage mean to Mandela?", "a": "For Mandela, courage is not the absence of fear but the triumph over it. The brave man is not the one who does not feel afraid, but the one who conquers that fear. He says he felt fear more times than he can remember, and it was this repeated conquest of fear that made him bold."},
+{"m": "3", "q": "What 'twin obligations' does Mandela mention?", "a": "The first obligation is to his family — his parents, his wife and children. The second is to his people, his community and his country. In a civil and humane society each person can fulfil both, but in South Africa under apartheid, a man like Mandela who tried to live as a human being was punished and isolated, and could not discharge either obligation."},
+{"m": "5", "q": "How did Mandela's understanding of freedom change with age and experience?", "a": ["**As a boy** in the villages of Umtata, freedom meant being able to run in the fields near his mother's hut, to swim in the stream, to roast mealies under the stars and to ride the broad backs of slow-moving bulls. It was the freedom of a child, and it seemed boundless.", "**As a student** he wanted the transitory freedoms of staying out at night, reading what he pleased and going where he liked.", "**As a young man** he yearned for the honourable freedoms — of achieving his potential, of earning his keep, of marrying and having a family, of living lawfully in a law-abiding society.", "**Later** he realised that these were only illusory, because he was not free and neither were his people. He came to understand that **freedom is indivisible**: the chains on any one of his people were chains on all of them. He saw that the oppressed and the oppressor alike are robbed of their humanity, and that freedom is not merely to throw off one's chains but to live in a way that respects and enhances the freedom of others."]},
+{"m": "3", "q": "Why did such a large number of international leaders attend the inauguration? What did it signify?", "a": "It signified the recognition by the international community of the birth of a free, democratic, non-racial South Africa, and a common victory for justice, for peace and for human dignity. The presence of leaders of many nations showed that the end of apartheid was not only a South African event but a triumph of values shared by the whole world."},
+{"m": "3", "q": "Why does Mandela say that the oppressor is also not free?", "a": "Because the oppressor is a prisoner of hatred, locked behind the bars of prejudice and narrow-mindedness. A man who takes away another man's freedom is himself deprived of his own humanity, so the oppressor and the oppressed are both robbed of what makes them human."}
+],
+"mcq": [
+{"q": "Mandela was sworn in as South Africa's first black President on: (a) 10 May 1994 (b) 10 May 1995 (c) 26 April 1994 (d) 27 April 1993", "a": "**(a) 10 May 1994**, at the Union Buildings amphitheatre in Pretoria."},
+{"q": "How many national anthems were sung at the inauguration? (a) one (b) two (c) three (d) four", "a": "**(c) three** — 'Nkosi Sikelel' iAfrika' and 'Morena' by the blacks, 'Die Stem' the old anthem, and the new combined anthem."},
+{"q": "According to Mandela, courage is: (a) the absence of fear (b) the triumph over fear (c) the denial of pain (d) the love of danger", "a": "**(b) the triumph over fear** — the brave man conquers fear rather than not feeling it."}
+],
+"trend": "The meaning of freedom and how it changed with age is the set 5-mark answer; the twin obligations and the definition of courage recur as short answers.",
+"onepager": [
+"- 10 May 1994, Union Buildings, Pretoria; three anthems; end of apartheid.",
+ "- Courage = triumph over fear.",
+ "- Twin obligations: family and people; apartheid made both impossible.",
+ "- Freedom is indivisible; freedom means living in a way that respects and enhances the freedom of others."
+],
+"task": ["Write the four stages of Mandela's idea of freedom as four headed sentences (boyhood, student, young man, mature). Practise it once from memory — this is a guaranteed long answer and the headings alone carry two marks."]
+},
+{
+"id": "ch03-two-stories-about-flying", "num": 3, "title": "Two Stories about Flying",
+"unit": "ff-prose", "unit_name": "First Flight · Prose", "weight": "reference to context",
+"short": "His First Flight by O'Flaherty and The Black Aeroplane by Forsyth.",
+"lede": "Two stories, one theme: fear overcome. The seagull is the more frequently examined of the two.",
+"lens": ["Extracts come from either story; know both well enough to identify which one is quoted.", "**His First Flight** — Liam O'Flaherty, a young seagull afraid to fly. **The Black Aeroplane** — Frederick Forsyth, a pilot in a storm helped by a mysterious black aeroplane."],
+"concepts": [
+"**1. His First Flight — summary.** A young seagull is alone on his ledge, afraid to fly, while his two brothers and sister have already flown away the day before. His parents have scolded him and threatened to let him starve on the ledge unless he flies. His siblings taunt him by calling him 'Ga-ga'. After **twenty-four hours** of hunger and fear, his mother tears a piece of fish and stands on the ledge, and the sight of the food maddens him. He dives at her, his hunger overcomes his fear, and he falls outward into space. The air rushes against his feathers, he flaps his wings and finds himself soaring. His family screams around him, praising him and offering scraps of fish. He then flies with them, sinks tired onto the water, and though afraid at first, learns to float — his **first flight is complete**.",
+"**2. The Black Aeroplane — summary.** The narrator, flying an old Dakota aeroplane from France to England to spend a breakfast of bacon and eggs with his family, flies into a storm. The clouds are black, his compass and radio fail, and he has only enough fuel for five or ten minutes. He sees a **black aeroplane** with no lights on its wings, and the pilot waves for him to follow. He follows it through the storm until he runs out of fuel, and then the black plane disappears. He lands safely and asks the woman in the control centre where the other pilot is. She says the sky was empty — **there was no other aeroplane** that night, and no other plane on the radar. The narrator looks up and wonders who helped him.",
+"**3. Common theme.** Both stories are about **facing fear and finding the strength to overcome it**. The seagull is helped by hunger and by his mother's example; the pilot is helped — or so he believes — by another pilot. Both suggest that the help we need is sometimes already within us."
+],
+"tricks": [
+"- **Twenty-four hours** on the ledge is the key number in *His First Flight*.",
+ "- The seagull's fear breaks when he sees the **fish**, not when his parents scold him.",
+ "- In *The Black Aeroplane*, the control-centre woman says there was **no other plane** — that ambiguity is the point of the ending."
+],
+"mistakes": [
+ "- Confusing the two authors: **O'Flaherty** wrote *His First Flight*, **Forsyth** wrote *The Black Aeroplane*.",
+ "- Saying the seagull flew because his father threatened him. It was **hunger and the sight of food**.",
+ "- Naming the Dakota a fighter plane. It is an **old Dakota** carrying the narrator home."
+],
+"qa": [
+{"m": "3", "q": "Why was the young seagull afraid to fly? What compelled him to finally make the flight?", "a": "He was afraid because he felt certain that his wings would never support him, and because his siblings had already flown while he was left behind on the ledge. What compelled him to fly was hunger: when his mother tore a piece of fish and stood on the ledge, the sight of the food maddened him, and he dived at it. In that dive he fell outward into space and, flapping his wings, found that he could fly."},
+{"m": "3", "q": "Describe the help the pilot received during the storm in 'The Black Aeroplane'.", "a": "When his instruments failed and he ran low on fuel, he saw a black aeroplane with no lights on its wings. Its pilot waved to him and led him through the storm until the narrator came out of the clouds and could see the runway. When he landed and asked the woman in the control centre about the other pilot, she told him there had been no other aeroplane in the sky that night, and no other plane on her radar."},
+{"m": "5", "q": "'Both the stories are about overcoming fear.' Justify with reference to the two stories.", "a": ["In **His First Flight**, the young seagull is paralysed by fear while his brothers and sister fly. His parents scold him and his siblings taunt him, but fear keeps him on the ledge for twenty-four hours. Only extreme hunger, and the sight of his mother with a piece of fish, drive him to dive — and in that desperate moment he discovers that his wings do support him. His fear is overcome by necessity and by the example of his family.", "In **The Black Aeroplane**, the narrator is an experienced pilot, but the storm terrifies him: the compass and radio fail, he cannot see anything, and he has only a few minutes of fuel left. His fear is overcome by following the mysterious black aeroplane, whose pilot leads him out of the storm and vanishes. He never finds out who helped him, which suggests that the courage came from within.", "In both stories, fear is conquered only by taking the leap — the seagull by diving, the pilot by following into the dark — and in both the reward is a safe arrival."]},
+{"m": "3", "q": "How did the seagull's family react when he flew for the first time?", "a": "They screamed around him, praising him and offering him scraps of fish. They landed ahead of him on the water, beckoning him to join them, and when he finally sank tired onto the sea and floated, they praised him again — his first flight was complete."}
+],
+"mcq": [
+{"q": "'His First Flight' is written by: (a) Frederick Forsyth (b) Liam O'Flaherty (c) G. L. Fuentes (d) Gavin Maxwell", "a": "**(b) Liam O'Flaherty.**"},
+{"q": "How long was the young seagull left alone on his ledge before he flew? (a) twelve hours (b) twenty-four hours (c) two days (d) three days", "a": "**(b) twenty-four hours**, during which he was hungry and afraid while his siblings flew."},
+{"q": "In 'The Black Aeroplane', the woman in the control centre told the narrator that: (a) the other pilot had landed elsewhere (b) there was no other aeroplane in the sky that night (c) the black plane was a military aircraft (d) the radar had failed", "a": "**(b) there was no other aeroplane in the sky that night**, and no other plane on the radar."}
+],
+"trend": "Extracts from *His First Flight* are more frequent; the comparison of the two stories as studies in overcoming fear is the standard 5-mark answer.",
+"onepager": [
+"- His First Flight: O'Flaherty; 24 hours on the ledge; hunger and the sight of fish break the fear.",
+ "- The Black Aeroplane: Forsyth; storm over France; instruments fail; a black plane with no lights leads him out.",
+ "- The control centre says no other plane was in the sky.",
+ "- Common theme: fear is conquered only by taking the leap."
+],
+"task": ["Retell each story in five sentences, then write one sentence stating the common theme. In the exam you may be asked for either story at short notice, and this drill makes both available in under two minutes."]
+},
+{
+"id": "ch04-from-the-diary-of-anne-frank", "num": 4, "title": "From the Diary of Anne Frank",
+"unit": "ff-prose", "unit_name": "First Flight · Prose", "weight": "reference to context",
+"short": "A thirteen-year-old's first diary entries and her punishment essay.",
+"lede": "Anne Frank's own words. Two essays and one teacher are the whole plot — but the voice is what is examined.",
+"lens": ["Reference-to-context extracts, usually from the opening passage about why she keeps a diary, or from the essay 'Quack, Quack, Quack, Said Mistress Chatterbox'.", "Know why she began the diary, why she needed a friend, and what Mr Keesing asked her to write about."],
+"concepts": [
+"**1. Summary.** Thirteen-year-old Anne Frank begins her diary, which she names **Kitty**, on her thirteenth birthday. She explains that **'paper has more patience than people'**: she has a loving family, an adoring father and mother, a sixteen-year-old sister Margot, about thirty friends and many admirers, but no **true friend** to whom she can confide her innermost thoughts. Her grandmother, whom she loved very much, died in January 1942; Anne's entry of June 1942 is followed by her family going into hiding in July. She is a student in a Jewish secondary school in Amsterdam.",
+"**2. The essays.** Her mathematics teacher, **Mr Keesing**, is annoyed by her talking in class and assigns her an essay titled **'A Chatterbox'**. Anne writes three pages and argues that talking is a student's trait and that she would try to keep it under control, but that she would never be able to cure herself of the habit since her mother talks as much as she does — and there is little one can do about inherited traits. Mr Keesing takes the joke in the right spirit. The next time she talks he assigns **'An Incorrigible Chatterbox'**. The third time he sets **'Quack, Quack, Quack, Said Mistress Chatterbox'** as punishment, this time to be written in verse. Anne's friend **Sanne** helps, and Anne writes the poem about a mother duck and a father swan whose three ducklings are bitten to death because they quacked too much. Mr Keesing reads it to his own class and to another class, adds his own comments, and from then on allows Anne to talk in class and never gives her any extra homework. To Anne he is **'the nicest teacher'** she has ever met.",
+"**3. Themes.** The **need for a friend and for a private voice**; **the gap between the self one shows and the self one feels**; **humour as a defence**; and the shadow of the **Jewish experience under Nazi rule**, which the diary entries only hint at."
+],
+"tricks": [
+"- **'Paper has more patience than people'** — the single most quoted line from this chapter; learn it exactly.",
+ "- **Three essays in order:** A Chatterbox → An Incorrigible Chatterbox → Quack, Quack, Quack, Said Mistress Chatterbox.",
+ "- Anne argues her talking is an **inherited trait** from her mother — that argument is what wins Mr Keesing over."
+],
+"mistakes": [
+ "- Saying Anne had no friends at all. She had about thirty friends and admirers, but **no true friend** to confide in.",
+ "- Naming the diary 'Anne'. She named it **Kitty**.",
+ "- Describing Mr Keesing as strict and unkind throughout. He turns out to be, in Anne's words, **the nicest teacher**."
+],
+"qa": [
+{"m": "3", "q": "Why did Anne Frank feel the need for a diary?", "a": "Because although she had a loving family, friends and admirers, she had no true friend — nobody to whom she could confide her innermost thoughts. She wrote that paper has more patience than people, so she began the diary as a substitute for a real friend, and named it Kitty."},
+{"m": "3", "q": "What argument did Anne make in her first essay, 'A Chatterbox'?", "a": "She argued that talking is a student's trait and that she would try to keep it under control, but that she would never be able to cure herself completely of the habit, because her mother talks as much as she does. She added that there is little one can do about inherited traits — an argument which Mr Keesing took in the right spirit."},
+{"m": "5", "q": "Describe Mr Keesing and how his attitude towards Anne changed.", "a": ["**Mr Keesing** was Anne's mathematics teacher, an old-fashioned teacher who was annoyed by her constant talking in class. He punished her by assigning an essay titled 'A Chatterbox'.", "**Anne's response:** she wrote three pages, admitting the habit but arguing that talking is a student's trait and that her mother talks as much as she does, so it is an inherited trait and there is little one can do about it. Mr Keesing took the joke in the right spirit.", "**The second and third essays:** when she talked again he assigned 'An Incorrigible Chatterbox', and the third time he set 'Quack, Quack, Quack, Said Mistress Chatterbox' — this time in verse. With the help of her friend Sanne, Anne wrote a comic poem about a mother duck and a father swan whose three ducklings are bitten to death by the swan for quacking too much.", "**The change:** Mr Keesing read the poem to his own class and then to another class, adding his own comments, and laughed at it. From then on he allowed Anne to talk in class and never gave her extra homework again. Anne calls him the nicest teacher she ever met."]},
+{"m": "3", "q": "What does Anne write about her grandmother?", "a": "Anne writes that nobody knows how often she thinks of her grandmother and still loves her. Her grandmother was born in 1888 and died in January 1942, and Anne says that she wrote the diary partly so that this love would not be lost. She adds that this whole diary was written in the thought of her grandmother."}
+],
+"mcq": [
+{"q": "Anne named her diary: (a) Margot (b) Kitty (c) Sanne (d) Anne", "a": "**(b) Kitty** — she treated the diary as the true friend she did not have."},
+{"q": "The third essay Mr Keesing assigned was: (a) A Chatterbox (b) An Incorrigible Chatterbox (c) Quack, Quack, Quack, Said Mistress Chatterbox (d) A Talkative Girl", "a": "**(c) Quack, Quack, Quack, Said Mistress Chatterbox**, and this time it had to be written in verse."},
+{"q": "The line 'paper has more patience than people' means that: (a) paper lasts longer than people (b) a diary will listen without judging or tiring (c) people are impatient with writing (d) diaries are more valuable than friends", "a": "**(b)** — Anne could write things to paper that she could never say aloud to a person."}
+],
+"trend": "The reason Anne began the diary and Mr Keesing's three essays alternate as the set questions; the 'paper has more patience than people' line recurs as a short extract.",
+"onepager": [
+"- Anne, 13, Amsterdam; family goes into hiding in July 1942; grandmother died January 1942.",
+ "- No true friend, so the diary 'Kitty' replaces one; 'paper has more patience than people'.",
+ "- Three essays: A Chatterbox → An Incorrigible Chatterbox → Quack, Quack, Quack, Said Mistress Chatterbox.",
+ "- Mr Keesing becomes 'the nicest teacher' after reading the poem."
+],
+"task": ["Write a one-page diary entry of your own in Anne's voice — starting with why you are writing it, as she does. The exercise forces you to notice that her opening is an argument, not an introduction, which is exactly what the extract question tests."]
+},
+{
+"id": "ch05-glimpses-of-india", "num": 5, "title": "Glimpses of India",
+"unit": "ff-prose", "unit_name": "First Flight · Prose", "weight": "reference to context",
+"short": "Goa's bakers, Assam's tea country and Coorg's people.",
+"lede": "Three short travel pieces in one chapter. Each is examined separately, so treat them as three mini-chapters.",
+"lens": ["Extracts and short answers are set from any one of the three parts; the question usually names the part.", "**A Baker from Goa** — Lucio Rodrigues. **Coorg** — Lokesh Abrol. **Tea from Assam** — Arup Kumar Datta."],
+"concepts": [
+"**1. A Baker from Goa (Lucio Rodrigues).** In the old days of Portuguese rule, bakers — known as **pader** — were an important part of Goan life. Their arrival was announced by the **'jang, jhang, jhang'** of the bamboo staff they carried, one hand on the basket of loaves and the other banging the staff on the ground. Children ran to meet them, not for the bread (which the maid-servant bought) but to choose the **bread bangles**, or sometimes the sweet specially-made loaves. The baker always came twice a day — once early in the morning and again when he returned after emptying his basket. Baking was a **profitable profession**; the baker and his family never starved, and they always looked **fat and jolly** — even today, anyone with a jackfruit-like physique is compared to a baker. Bread is essential: **bol** (sweet bread) for marriage gifts, **bolinhas** and coconut cookies for Christmas, sandwiches for a daughter's engagement, and **pao** for the feast. The baker wore a peculiar dress, the **kabai**, a single-piece long frock reaching down to the knees; in the writer's childhood the bakers wore a shirt and trousers shorter than full-length ones. Monthly accounts were recorded on the wall in pencil, and the furnaces still exist.",
+"**2. Coorg (Lokesh Abrol).** Coorg, or **Kodagu**, is the smallest district of Karnataka, midway between Mysore and the coastal town of Mangalore — a piece of heaven that must have drifted from the kingdom of god. It is a rolling hillside with a permanent fragrance of coffee, coffee estates and spice plantations, colonial bungalows under treetops, and forests. The season of joy is from **September to March**. The people of Coorg are a **proud race of martial men, beautiful women and wild creatures**; a popular theory traces their descent to **Alexander's army**, which moved south along the coast and settled there, marrying among the locals. Another theory claims **Arab origin**, since the **Kuppia**, the long black coat with an embroidered waist-belt worn by the Kodavus, resembles the **kuffia** worn by the Arabs and the Kurds. Coorgis are the **most hospitable people in India**, and are the only people in India permitted to carry firearms without a licence. The **Kaveri river** originates from the hills and forests of Coorg; **Mahaseer**, a large freshwater fish, is found there, and kingfishers, squirrels, langurs and wild elephants can be seen. The climb to the **Brahmagiri hills** gives a view of the whole misty landscape of Coorg, and a walk to the sixty-acre **Buddhist monastery** at **Bylakuppe** is a surprise.",
+"**3. Tea from Assam (Arup Kumar Datta).** Rajvir, a boy from Assam, travels to Delhi with Pranjol, whose father manages the **Dhekiajuli Tea Estate**. On the way they stop at a tea stall, where Rajvir hears that **eighty crore cups of tea are drunk every day throughout the world**. Pranjol's father meets them at Mariani junction and drives them through the **Dhekiajuli** estate, where acres of neatly pruned bushes stretch to the horizon with shade trees. Pranjol's mother welcomes them with tea and snacks. In the garden, the workers with bamboo baskets on their backs pluck the newly sprouted leaves. Pranjol's mother says that the Chinese legend says tea was first drunk in China around **2700 BC**, when some leaves from a burning twig fell into boiling water and gave a delicious drink; **Marco Polo** and **Bodhidharma** are also linked to tea legends. The second-sprouting period, from **May to July**, yields the finest tea. Tea was first brought to India from China by the British, and India now produces some of the finest tea in the world."
+],
+"tricks": [
+"- **Pader, kabai, bol, bolinhas, pao** — five Goan words that anchor the Goa extract.",
+ "- **Coorg = coffee fragrance + martial men + firearms without licence + Kuppia coat.** Four markers, one paragraph.",
+ "- **Eighty crore cups a day** is the number asked most often in the Assam extract."
+],
+"mistakes": [
+ "- Saying Coorg is in Kerala. It is **Kodavu, in Karnataka**, the smallest district, between Mysore and Mangalore.",
+ "- Confusing **bol** (sweet bread for marriage gifts) with **bolinhas** (coconut cookies for Christmas).",
+ "- Giving the tea date as 2700 AD. The Chinese legend places it around **2700 BC**."
+],
+"qa": [
+{"m": "3", "q": "Why is the baker called a friend, companion and guide in Goa?", "a": "Because he was woven into the daily life of the village. His arrival, announced by the jangling of his bamboo staff, was a fixed event twice a day, and children ran to meet him to choose their bread bangles. He was present at every celebration — bol for marriages, bolinhas and coconut cookies for Christmas, sandwiches for engagements — so his presence marked the family's important occasions."},
+{"m": "3", "q": "What do you know about the people of Coorg?", "a": "They are a proud race of martial men, beautiful women and wild creatures. They are perhaps the most hospitable people in India and are the only people in India permitted to carry firearms without a licence. One theory says they are descended from a part of Alexander's army that settled there and married among the locals; another says they are of Arab origin, because the Kuppia, the long black coat with an embroidered waist-belt worn by the Kodavus, resembles the kuffia worn by Arabs and Kurds."},
+{"m": "5", "q": "Describe the Coorg landscape and its attractions.", "a": ["Coorg, or Kodagu, is the smallest district of Karnataka, lying midway between Mysore and the coastal town of Mangalore. It is a rolling hillside with a permanent fragrance of fresh coffee, coffee estates and spice plantations, colonial bungalows tucked under treetops, and dense forests.", "**The best season** is from September to March, when the weather is perfect, the air breathes of invigorating coffee, and the rain showers keep the hills fresh.", "**Wildlife:** the Kaveri river, which takes its birth from the hills and forests of Coorg, is home to Mahaseer, a large freshwater fish; kingfishers, squirrels and langurs can be seen, and wild elephants bathe in the river.", "**Attractions:** the climb to the Brahmagiri hills gives a panoramic view of the entire misty landscape of Coorg; a walk into the sixty-acre Buddhist monastery at Bylakutte, hidden among the coffee plantations, is a surprise; and there are rappelling, river rafting, canoeing and rock climbing for the adventurous."]},
+{"m": "3", "q": "How does the legend of tea connect China and India?", "a": "According to a Chinese legend, tea was first drunk in China around 2700 BC, when a few leaves from a twig burning under a vessel of boiling water fell into it and gave a delicious drink. An Indian legend says that Bodhidharma, an ancient Buddhist ascetic, cut off his eyelids because he felt sleepy during meditation, and ten tea plants grew out of the eyelids; the leaves of these plants, when put in hot water and drunk, banished sleep. Tea came to Europe only in the sixteenth century, and was drunk more as medicine than as a beverage."}
+],
+"mcq": [
+{"q": "The people of Coorg wear a long black coat with an embroidered waist-belt called: (a) kabai (b) Kuppia (c) kuffia (d) bol", "a": "**(b) Kuppia** — its resemblance to the kuffia of the Arabs and Kurds supports the Arab-origin theory."},
+{"q": "According to the chapter, how many cups of tea are drunk every day throughout the world? (a) eight crore (b) eighty crore (c) eight hundred crore (d) eight lakh", "a": "**(b) eighty crore** cups a day."},
+{"q": "In Goa, the sweet bread given as a marriage gift is called: (a) pao (b) bol (c) bolinhas (d) kabai", "a": "**(b) bol** — bolinhas are the coconut cookies served at Christmas."}
+],
+"trend": "One of the three parts is examined each year; the Coorg extract is the most frequent, with the Goan baker's role in family celebrations close behind.",
+"onepager": [
+"- Goa: pader, kabai, jang-jhang-jhang staff, bol for marriage, bolinhas for Christmas; bakers look fat and jolly.",
+ "- Coorg: smallest district of Karnataka, coffee fragrance, martial men, firearms without licence, Kuppia coat, Kaveri origin, Brahmagiri hills, Bylakutte monastery.",
+ "- Assam: eighty crore cups daily, Chinese legend 2700 BC, Bodhidharma, finest tea from the second flush (May–July)."
+],
+"task": ["Make a three-column table — Goa, Coorg, Assam — with five rows: distinctive word, product, festival or occasion, natural feature, and one line of local custom. Ten minutes with the table and all three extracts are ready."]
+},
+{
+"id": "ch06-mijbil-the-otter", "num": 6, "title": "Mijbil the Otter",
+"unit": "ff-prose", "unit_name": "First Flight · Prose", "weight": "reference to context",
+"short": "Gavin Maxwell, an otter named Mijbil, and a journey to London.",
+"lede": "A true account of keeping an otter as a pet. The details — the water, the suitcase, the plane — are what is asked.",
+"lens": ["Reference-to-context extracts and a long answer on Maxwell's feelings towards Mijbil or on the otter's habits.", "Know where Maxwell was (Basra, Iraq), why he wanted an otter, what Mijbil did on the aeroplane, and what the Londoners thought he was."],
+"concepts": [
+"**1. Summary.** In **1956** the author, **Gavin Maxwell**, travelled to **Basra in Iraq** to the Consulate-General to collect and answer his mail from Europe. His pet otter had died, and his friend suggested he get an **otter from the Tigris marshes**. Two Arabs brought him a small otter in a sack — a creature he had never seen before, resembling most of all a small, medievally-conceived dragon. He named it **Mijbil**, and scientists later classified it as a previously unrecognised species, *Lutrogale perspicillata maxwelli*, or **Maxwell's otter**. Mijbil spent most of his time playing in the bathroom water, plunging and rolling in it, and shuffling on the tiled floor. When they went to **London**, Mijbil escaped from the box on the aeroplane, ran along the aircraft, and tore the lining to shreds, so Maxwell had to catch him — Mijbil came and sat on his knee and nuzzled his face. In London, Mijbil invented games with **marbles, ping-pong balls and rubber fruit**, and would play with them for hours. He learned to walk on a lead and developed compulsive habits, such as jumping over a low wall and running along the boundary wall of a school, where the children made noise. Londoners, who had never seen an otter, guessed that it was **'a baby seal', 'a squirrel', 'a walrus', 'a hippo', 'a beaver', 'a bear cub', 'a leopard'** or even **'a brontosaurus'**. Maxwell reflects that Mijbil seemed to have certain characteristics: he was, like a child, both **restless and full of joy**, and he had a strong need for the company and affection of human beings."
+],
+"tricks": [
+"- **Water is everything:** Mijbil's joy was plunging and rolling in water — 'he would screw the tap up and then play in the trickle'.",
+ "- The London guesses list is a favourite 1-mark MCQ: seal, squirrel, walrus, hippo, beaver, bear cub, leopard, brontosaurus.",
+ "- Maxwell's own conclusion: Mijbil was **like a child** — restless, joyful and needing company."
+],
+"mistakes": [
+ "- Saying Maxwell found Mijbil in the wild himself. Two **Arabs** brought him the otter in a sack.",
+ "- Placing the story in Kerala, because of the Tigris marshes confusion. It begins in **Basra, Iraq**.",
+ "- Forgetting that the species was named after Maxwell — *Lutrogale perspicillata maxwelli*."
+],
+"qa": [
+{"m": "3", "q": "What things does Mijbil do which tell you that he is an intelligent, friendly and fun-loving animal who needs love?", "a": "He invented games with marbles, ping-pong balls and rubber fruit, and could keep himself amused for hours. He learned to walk on a lead and to respond to his name. He escaped from his box on the aeroplane, but instead of running away he came back and sat on Maxwell's knee and nuzzled his face — showing affection rather than fear. He developed compulsive rituals of his own, like the wall-jumping routine he repeated every day on the way to school, which shows both intelligence and a need for company."},
+{"m": "3", "q": "Why did Maxwell think the air-hostess was 'the very queen of her kind'?", "a": "Because when he told her about Mijbil and the trouble he expected on the flight, she was extremely friendly and helpful. She suggested that he keep the box on his knee, and her kindness made a difficult journey possible — so he called her the very queen of her kind."},
+{"m": "5", "q": "Describe the journey from Basra to London and the trouble Mijbil caused on the aeroplane.", "a": ["Maxwell had to travel to London with Mijbil, and the airline insisted that the otter be packed in a box not more than eighteen inches square, to be carried on the floor near his feet.", "Thirty minutes before the flight, the box was lined with metal and Mijbil was put inside. When the plane took off, Mijbil tore the lining to shreds and escaped. He ran at high speed down the aircraft, and passengers cried out; a girl screamed 'A rat! A rat!'", "Maxwell dived across the legs of other passengers to catch him, but Mijbil disappeared. When he returned to his seat he found the air-hostess with the otter on her knee. She had caught him and held him.", "Mijbil then came back to Maxwell, sat on his knee and began to nuzzle his face and his neck, so the journey ended with the otter calm again, though the box was in tatters."]},
+{"m": "3", "q": "What guesses did the Londoners make about what Mijbil was?", "a": "A Londoner who had never seen an otter made wild guesses: that it was a baby seal, a squirrel, a walrus, a hippo, a beaver, a bear cub, a leopard — one even said it was a brontosaurus. None of them recognised the animal, because otters were unknown in London."}
+],
+"mcq": [
+{"q": "Mijbil was scientifically classified as: (a) Lutrogale perspicillata maxwelli (b) Lutra lutra (c) Aonyx cinereus (d) Enhydra lutris", "a": "**(a) Lutrogale perspicillata maxwelli** — a previously unrecognised species, named Maxwell's otter after Gavin Maxwell."},
+{"q": "Where did the author collect Mijbil from? (a) Kerala (b) the Tigris marshes near Basra (c) the Nile delta (d) Assam", "a": "**(b) the Tigris marshes near Basra in Iraq**, where two Arabs brought him the otter in a sack."},
+{"q": "On the aeroplane Mijbil: (a) slept throughout (b) escaped from his box and tore the lining to shreds (c) bit the air-hostess (d) refused to eat", "a": "**(b)** — he escaped, ran down the aircraft and tore the box lining; later he returned to sit on Maxwell's knee."}
+],
+"trend": "The aeroplane episode and the Londoners' guesses alternate as the set extract; Mijbil's play with water and marbles is the recurring 3-mark answer.",
+"onepager": [
+"- 1956, Basra; two Arabs bring the otter; named Mijbil; species named after Maxwell.",
+ "- Loves water, marbles, ping-pong balls and rubber fruit; develops compulsive daily rituals.",
+ "- Escapes on the plane, tears the lining, returns to nuzzle Maxwell.",
+ "- Londoners guess seal, squirrel, walrus, hippo, beaver, bear cub, leopard, brontosaurus."
+],
+"task": ["List six things Mijbil does that show intelligence and six that show affection, in two columns. Then write one sentence linking both to Maxwell's conclusion that he was like a child — that single sentence is worth two marks in the exam."]
+},
+{
+"id": "ch07-madam-rides-the-bus", "num": 7, "title": "Madam Rides the Bus",
+"unit": "ff-prose", "unit_name": "First Flight · Prose", "weight": "reference to context",
+"short": "Valliammai's eight-year-old journey, and what she learns on the way back.",
+"lede": "A child's independence and her first meeting with death — in one bus ride.",
+"lens": ["Extracts from the planning of the journey, or from the return trip when Valli sees the dead cow.", "Know her age (**eight years and some months**), the fare (**thirty paise each way**), the journey time (**forty-five minutes**), and what she refused on the bus."],
+"concepts": [
+"**1. Summary.** **Valliammai**, called **Valli** for short, was an eight-year-old girl — eight years and some months — who lived in a village. Her favourite pastime was standing in the **front doorway of her house** and watching what was happening in the street outside, because there were no other children of her own age. The sight that filled her with **unbelievable desire** was the bus that travelled between her village and the nearest town. It was a new bus, painted a gleaming white, with silver overhead bars; when it started, it seemed to be coming towards them, then turned and went back to the town. Day after day she watched it, and she gathered details by listening to conversations: the town was **six miles** away, the fare was **thirty paise one way**, and the trip took **forty-five minutes**. She saved the money by resisting every temptation to buy peppermints, toys and balloons, and by staying away from the merry-go-round at the village fair.",
+"**2. The journey.** Valli stood up on her seat so that she could see everything: the bus ran along the bank of a canal, past palm trees, grassland, distant mountains and a blue sky. She saw a **young cow** running in front of the bus; the driver sounded the horn again and again, and the cow turned and looked at them and then ran faster, which made Valli laugh until tears filled her eyes. At the town, the conductor offered her a cold drink, but she refused and asked only to be taken back on the same bus. He called her **'madam'** throughout, and she insisted on being treated as an adult.",
+"**3. The return.** On the way back, Valli saw the **same young cow lying dead by the roadside**, with her legs spread out, eyes lifeless and a fixed stare, and blood all over. She was horrified and had no desire to laugh any more. She did not want to look out of the window and sat glued to her seat. She reached her village at about **1:45 p.m.**, and found her mother awake and talking to an aunt. When her aunt asked where she had been, Valli's mother said she had been sleeping and had gone nowhere; Valli smiled to herself, because she had been so many places — and all without anyone knowing.",
+"**4. Themes.** **Growing up and independence** — a child who plans and executes a journey alone. **Curiosity** — learning by listening and observing. **The first encounter with death** — the dead cow changes her, and the loss of innocence is the point of the ending."
+],
+"tricks": [
+"- **Thirty paise each way, six miles, forty-five minutes.** Those three numbers are the most common 1-mark items.",
+ "- The **cow appears twice** — alive on the way out, dead on the way back. That contrast is the whole point of the story.",
+ "- The conductor calls her **'madam'** — hence the title."
+],
+"mistakes": [
+ "- Saying Valli took the bus with her mother. She went **alone**; that is the point.",
+ "- Giving her age as eight years. It is **eight years and some months**, which she is proud of.",
+ "- Missing the ending: Valli does not tell anyone, and her mother still thinks she was asleep."
+],
+"qa": [
+{"m": "3", "q": "Why was the bus journey such a fascination for Valli?", "a": "Because she had never been to the town and had no companions of her own age, so the bus became her window on the world. Every day it passed her house twice, carrying new people each time, and she longed to travel on it. The sight of the gleaming white bus, with its silver overhead bars and the people inside, filled her with an unbelievable desire, and the thought of travelling to the town and back grew stronger and stronger until she saved enough money to do it."},
+{"m": "3", "q": "What did Valli see on her way that made her laugh until tears filled her eyes?", "a": "She saw a young cow whose tail was high in the air, running very fast right in the middle of the road in front of the bus. The driver sounded his horn again and again, but the more he honked the more frightened the cow became and the faster it ran. Valli found it so funny that she laughed and laughed until tears filled her eyes. On the return journey the same cow lay dead by the roadside, which filled her with horror and took away her joy."},
+{"m": "5", "q": "How did Valli plan her bus journey? What does this tell you about her?", "a": ["**Planning:** she listened carefully to the conversations of her neighbours and of people who regularly used the bus, and she asked a few discreet questions here and there. From this she learnt that the town was six miles from her village, that the fare was thirty paise one way, and that the trip took forty-five minutes.", "**Saving:** she resisted every temptation to buy peppermints, toys and balloons, and finally she even overcame her urge to ride the merry-go-round at the village annual fair, so that she could save sixty paise in all.", "**Timing:** she chose to travel on the one o'clock afternoon bus, when her mother took her daily nap, so that she could be back before her mother woke.", "**What it shows:** Valli was observant, determined and capable of self-control far beyond her years. She was also proud of being grown up — she resented being treated as a child, and insisted that the conductor call her madam."]},
+{"m": "3", "q": "Why did Valli refuse the cold drink offered by the conductor?", "a": "Because she had only sixty paise with her and wanted to keep enough for the return journey. Even though she was thirsty, she refused the drink and asked only to be taken back on the same bus. It shows her discipline and her determination to complete the plan she had made."}
+],
+"mcq": [
+{"q": "Valli's age at the time of the story was: (a) six years (b) eight years and some months (c) ten years (d) twelve years", "a": "**(b) eight years and some months** — a detail she is very conscious of."},
+{"q": "The fare from Valli's village to the town was: (a) twenty paise (b) thirty paise (c) fifty paise (d) one rupee", "a": "**(b) thirty paise one way**, and the journey took forty-five minutes over six miles."},
+{"q": "The conductor called Valli: (a) child (b) madam (c) sister (d) little girl", "a": "**(b) madam** — hence the title of the story."}
+],
+"trend": "The planning of the journey and the return trip with the dead cow alternate as the set questions; Valli's self-control in saving the fare recurs as a value-based question.",
+"onepager": [
+"- Valli, eight years and some months; watches the bus from her front doorway.",
+ "- Six miles, thirty paise each way, forty-five minutes; she saves by refusing all treats.",
+ "- Travels alone on the one o'clock bus; the conductor calls her 'madam'.",
+ "- The cow alive on the way out, dead on the way back — her first meeting with death.",
+ "- She tells no one; her mother thinks she was asleep."
+],
+"task": ["Write the story as a list of six events with the time of day against each. Then underline the two that involve the cow and write one sentence on why the second one changes Valli — the contrast is the answer to the value-based question."]
+},
+{
+"id": "ch08-the-sermon-at-benares", "num": 8, "title": "The Sermon at Benares",
+"unit": "ff-prose", "unit_name": "First Flight · Prose", "weight": "reference to context",
+"short": "The Buddha, Kisa Gotami and the lesson of impermanence.",
+"lede": "A story about grief. The mustard-seed test is the heart of the answer.",
+"lens": ["Extracts from Kisa Gotami's search and from the Buddha's sermon; a 5-mark answer on the Buddha's teaching about death.", "Know the mustard-seed condition, why Kisa Gotami failed, and the words about the world being afflicted with decay and death."],
+"concepts": [
+"**1. The Buddha's early life.** Born a prince named **Siddhartha Gautama**, he was married young and had a son. At about the age of twenty-five, while out hunting, he came upon a **sick man, then an aged man, then a funeral procession, and finally a monk begging for alms**. These four sights so moved him that he left the palace at once and went out in search of enlightenment. He wandered for seven years and finally sat under a **fig (Bo) tree**, where he was enlightened. He then began to teach, and the tree was renamed the **Bo tree**. His first sermon was given at **Sarnath, near Benares**, on the banks of the Ganges, and has been preserved and is the subject of this chapter.",
+"**2. Kisa Gotami's story.** **Kisa Gotami** had an only son, who died. Carrying the dead child, she went from house to house asking for medicine to cure him, and people thought she had lost her senses. At last a man directed her to the Buddha. The Buddha asked her to bring a **handful of mustard seed**, and when she promised to do so, he added the condition: the mustard seed must be taken from a house **where no one has died** — where no son, husband, parent or servant has been lost. Kisa Gotami went from door to door, and in every house someone had died: a father, a daughter, a servant, a slave. By evening she was weary and hopeless, and she sat down and watched the **lights of the city flicker and go out**; the darkness fell and spread. She understood at last the **selfishness of her grief**: she had been thinking only of her own loss, while death is common to all. She took the body of her child to the forest, laid it down, and returned to the Buddha.",
+"**3. The sermon.** The Buddha said: **'Not from weeping nor from grief will anyone obtain peace of mind; on the contrary, his pain will be the greater and his body will suffer. He will make himself sick and pale, and yet the dead are not saved by his lamentation.'** Those who seek peace of mind should **draw out the arrow of lamentation, complaint and grief**; he who has drawn out the arrow and composed himself will obtain peace. The world is **afflicted with death and decay**, therefore the wise do not grieve, having realised the truth of the world. As a **ripe fruit is always in danger of falling**, so mortals, once born, are always in danger of dying. As **vessels made by the potter end by being broken**, so is the life of mortals. The wise, understanding the world, do not grieve. Grieving will not bring peace; it will only increase suffering.",
+"**4. Themes.** **The universality of death** — every family has lost someone. **The futility of excessive grief** — it harms the living and cannot save the dead. **Enlightenment through experience** — the Buddha does not lecture Kisa Gotami; he makes her discover the truth herself. **Detachment and peace of mind.**"
+],
+"tricks": [
+"- The Buddha's method is a **test, not a lecture**: the mustard-seed condition makes Kisa Gotami find the answer herself.",
+ "- **'Draw out the arrow of lamentation'** is the key image — quote it in any answer about the sermon.",
+ "- **Potter's vessels break; ripe fruit falls.** Two similes that carry a full mark each."
+],
+"mistakes": [
+ "- Saying the Buddha refused to help Kisa Gotami. He gave her a **condition**, not a refusal.",
+ "- Forgetting that the mustard seed had to come from a house **where no one had died** — the condition is the whole point.",
+ "- Writing that the sermon was delivered at Bodh Gaya. It was at **Sarnath, near Benares**."
+],
+"qa": [
+{"m": "3", "q": "Why did Kisa Gotami go from house to house, and what did she discover?", "a": "Her only son had died, and she went from house to house asking for medicine to cure him. The Buddha told her to bring a handful of mustard seed, but on the condition that it be taken from a house where no one had died. In every house she entered, someone had died — a father, a daughter, a servant — so she could not find a single such house. She discovered that death is common to all, and that her grief had made her blind to the suffering of others."},
+{"m": "3", "q": "What did the Buddha say about grieving?", "a": "He said that no one obtains peace of mind from weeping or from grief; on the contrary, the pain will be the greater and the body will suffer, and the person will make himself sick and pale, yet the dead are not saved by his lamentation. Those who seek peace of mind should draw out the arrow of lamentation, complaint and grief, and having drawn it out, they will obtain peace."},
+{"m": "5", "q": "How did the Buddha make Kisa Gotami understand the nature of death without preaching to her?", "a": ["He did not tell her the truth directly. He asked her to bring him a handful of mustard seed — a simple request that gave her hope.", "He then added one condition: the mustard seed must be taken from a house where no one had died, where no son, husband, parent or servant had been lost.", "Kisa Gotami went from door to door with confidence, but in the first house she was told the father had died; in the next, a daughter; then a servant, then a slave. There was no house untouched by death.", "By evening she was tired and hopeless. She sat and watched the lights of the city being lit and then going out until darkness covered everything, and she realised the selfishness of her grief — she had been absorbed in her own loss while death is common to all.", "So the Buddha's method was to let her **experience** the truth rather than hear it, which is why it changed her completely. She took her child's body to the forest and returned to him ready to listen."]},
+{"m": "3", "q": "Explain the meaning of 'the world is afflicted with death and decay, therefore the wise do not grieve'.", "a": "It means that death and change are built into the world, so no amount of sorrow can prevent them. The wise understand this truth and accept it, so they do not grieve; they realise that lamentation cannot bring back the dead and only harms the living. Accepting the nature of the world is what brings peace of mind."},
+{"m": "3", "q": "What were the four sights that led the Buddha to leave the palace?", "a": "While out hunting at the age of about twenty-five, the prince came upon a sick man, then an aged man, then a funeral procession, and finally a monk begging for alms. These four sights showed him sickness, old age, death and renunciation, and moved him so deeply that he left the palace at once in search of enlightenment."}
+],
+"mcq": [
+{"q": "The Buddha asked Kisa Gotami to bring mustard seed from a house where: (a) there was no poverty (b) no one had died (c) everyone was happy (d) there were no children", "a": "**(b) no one had died** — a condition no house could meet."},
+{"q": "The Buddha gave his first sermon at: (a) Bodh Gaya (b) Kushinagar (c) Sarnath, near Benares (d) Kapilavastu", "a": "**(c) Sarnath, near Benares**, on the banks of the Ganges."},
+{"q": "The prince Siddhartha Gautama was enlightened under a: (a) sal tree (b) fig (Bo) tree (c) banyan tree (d) mango tree", "a": "**(b) fig (Bo) tree**, which was afterwards renamed the Bo tree."}
+],
+"trend": "Kisa Gotami's search for the mustard seed and the Buddha's teaching on grief alternate as the set 5-mark answer; the four sights and the two similes recur as short answers.",
+"onepager": [
+"- Siddhartha Gautama; four sights at 25; enlightenment under the Bo tree; first sermon at Sarnath near Benares.",
+ "- Kisa Gotami: mustard seed from a house where no one had died — impossible, so she learns death is universal.",
+ "- 'Draw out the arrow of lamentation, complaint and grief.'",
+ "- Similes: the ripe fruit that may fall; the potter's vessels that end broken."
+],
+"task": ["Write the Buddha's teaching as five short points, each beginning with a verb (accept, do not grieve, draw out, understand, be at peace). Then write the four sights as four one-line entries. Both lists together are the complete chapter."]
+},
+{
+"id": "ch09-the-proposal", "num": 9, "title": "The Proposal",
+"unit": "ff-prose", "unit_name": "First Flight · Prose", "weight": "reference to context",
+"short": "Chekhov's one-act farce about oxen meadows and hunting dogs.",
+"lede": "A play, not a story. Learn who says what, and never lose sight of the fact that the marriage proposal is never actually discussed.",
+"lens": ["Extracts with a question on character or on the comedy; the two quarrels are the set 5-mark answer.", "Know the three characters, the two disputes (**the Oxen Meadows**, then **Squeezer and Guess**), and the ages (**Lomov is 35, Natalya is 25**)."],
+"concepts": [
+"**1. Summary.** **Stepan Stepanovich Chubukov**, a wealthy landowner, is sitting in his drawing room in his house clothes. **Ivan Vassilevitch Lomov**, his neighbour, arrives dressed in evening clothes with gloves. Chubukov assumes he has come to borrow money, and complains that Lomov always comes to him for a loan. Lomov, nervous and stammering, asks permission to speak. Chubukov embraces him, thinking he has come to borrow money. Lomov then says that he has come to trouble him with a request — and Chubukov again thinks of money. Finally Lomov says that he has come to ask for the hand of **Natalya Stepanovna**, Chubukov's daughter. Chubukov is overjoyed, embraces and kisses him, and calls Natalya in. Before he can propose, Lomov and Natalya fall into a quarrel about the **Oxen Meadows**: Natalya claims the meadows belong to her, and Lomov insists they are his, saying his aunt's grandmother gave the free use of the meadows in perpetuity to the peasants of Chubukov's grandfather in return for making bricks. The argument grows, Chubukov joins in and insults Lomov, and Lomov leaves in a rage. Chubukov then reveals that Lomov had actually come to propose, and Natalya, realising this, begs her father to bring him back. Lomov returns, half-fainting, and Chubukov hurries the two into marriage. But before the proposal is settled, a second quarrel breaks out about hunting dogs — whether **Squeezer** (Lomov's dog) or **Guess** (Chubukov's) is the better dog — and the two men abuse each other again. Lomov collapses, and Chubukov blesses the couple: **'She's willing! Well, I'm sure enough!'** The play ends with the proposal achieved and the argument still going on.",
+"**2. Characters.** **Lomov** — 35, a hypochondriac who suffers from palpitations, a twitching eyebrow and sleeplessness; timid, easily flustered and argumentative. **Chubukov** — loud, short-tempered and money-minded, but ready to push his daughter into a marriage. **Natalya Stepanovna** — 25, spoiled, quarrelsome and more interested in winning an argument than in marriage.",
+"**3. The comedy.** The humour comes from the **contrast between the occasion and the behaviour**: a marriage proposal becomes a shouting match about a piece of land and then about a dog. Nobody ever speaks about love. Chekhov is satirising the **landowning class**, for whom property and possessions matter more than human feeling.",
+"**4. Themes.** The **absurdity of the marriage market**; **greed and property**; **petty pride**; and the fact that people in a hurry to marry are not necessarily in love."
+],
+"tricks": [
+"- **Two quarrels, one proposal that is never discussed.** That is the whole play in one line.",
+ "- **Lomov's ailments:** palpitations, twitching eyebrow, sleeplessness, numbness in the leg — a hypochondriac.",
+ "- The **Oxen Meadows** argument is about free use in perpetuity granted by an aunt's grandmother — the absurd chain of ownership is part of the joke."
+],
+"mistakes": [
+ "- Calling *The Proposal* a story by G. L. Fuentes. It is a **one-act play by Anton Chekhov**.",
+ "- Reversing the order of the quarrels: **Oxen Meadows first, then the dogs**.",
+ "- Saying Chubukov refuses the match. He is **delighted** and pushes it through, blessing the pair at the end."
+],
+"qa": [
+{"m": "3", "q": "Why does Chubukov think Lomov has come to him?", "a": "Because Lomov had come to him the previous year to borrow money, and Chubukov expects the same again. He even complains that Lomov is always coming to him for a loan, and when he hears that Lomov has a request, he assumes it is for money. Only when Lomov asks for Natalya's hand does Chubukov understand."},
+{"m": "3", "q": "What is the Oxen Meadows quarrel about?", "a": "It is about who owns the Oxen Meadows, which lie between Lomov's Burnt Marsh and Chubukov's birchwood. Natalya insists the meadows are hers; Lomov says they are his, arguing that his aunt's grandmother gave the peasants of Chubukov's grandfather the free use of the meadows in perpetuity in return for their making bricks for her. The peasants had used them for forty years and regarded them as their own, but neither side will give way, and the argument turns into an exchange of insults."},
+{"m": "5", "q": "How does Chekhov use the two quarrels to create comedy and to criticise the characters?", "a": ["**The first quarrel, about the Oxen Meadows,** begins before Lomov has even made his proposal. Natalya claims the meadows are hers, Lomov insists they are his, and both become abusive, calling each other a land grabber and an intriguess. Chubukov joins in, calls Lomov an old rat and a Jesuit, and orders him out of the house. The absurdity is that a marriage proposal has become a land dispute, and that Chubukov does not know what the proposal was until after the quarrel.", "**The second quarrel, about the dogs,** follows immediately. Lomov praises his dog Squeezer; Chubukov insists his own Guess is better, and they argue over whether Squeezer's muzzle is short, whether Guess is purebred, and whether Squeezer's legs are crooked. The two men become hysterical and Lomov collapses.", "**The criticism:** Chekhov shows that for these landowners, property and possessions matter far more than human relationships. Neither Lomov nor Natalya says a word about love or about each other's feelings, and the marriage is arranged in the middle of an argument. The comedy exposes a class that treats marriage as a transaction."]},
+{"m": "3", "q": "Describe Lomov's character.", "a": "Lomov is a thirty-five-year-old landowner who is timid, nervous and easily flustered. He is a hypochondriac: he complains of palpitations, a twitching right eyebrow, sleeplessness and numbness in his leg. He is also stubborn and quick to quarrel, which is why a marriage proposal turns into two arguments. Yet he is sincere in his wish to settle down, and he finally gets what he came for."},
+{"m": "3", "q": "How does the play end? Comment on the ending.", "a": "Lomov collapses after the argument about the dogs, and Chubukov, without waiting for anything to be settled, blesses the couple and cries that Natalya is willing, calling for champagne. Natalya does not object, and the proposal is agreed. The ending is comic because the marriage is decided in the middle of a quarrel that neither side has stopped fighting — nobody has spoken a word about love, and the audience is left to see how absurd the whole arrangement is."}
+],
+"mcq": [
+{"q": "'The Proposal' is a one-act play written by: (a) Anton Chekhov (b) Betty Renshaw (c) Gavin Maxwell (d) Liam O'Flaherty", "a": "**(a) Anton Chekhov**, the Russian dramatist."},
+{"q": "The second quarrel in the play is about: (a) the Oxen Meadows (b) two hunting dogs (c) money (d) Natalya's age", "a": "**(b) two hunting dogs** — Lomov's Squeezer and Chubukov's Guess."},
+{"q": "Lomov suffers from: (a) asthma (b) palpitations and a twitching eyebrow (c) a limp (d) poor eyesight", "a": "**(b)** — he is a hypochondriac who complains of palpitations, a twitching eyebrow, sleeplessness and numbness in his leg."}
+],
+"trend": "The two quarrels and their comic effect is the set 5-mark answer; Chubukov's character and the absurdity of the ending recur as short questions.",
+"onepager": [
+"- A one-act play by Anton Chekhov; three characters: Chubukov, Lomov (35) and Natalya (25).",
+ "- Quarrel 1: the Oxen Meadows. Quarrel 2: Squeezer versus Guess.",
+ "- The proposal is agreed in the middle of an argument; love is never mentioned.",
+ "- Lomov is a hypochondriac; Chubukov is short-tempered and money-minded; Natalya is quarrelsome.",
+ "- Satire on the landowning class, for whom property matters more than feeling."
+],
+"task": ["List the exact order of events in the play as ten numbered lines. Then mark the two quarrels and write one sentence about what the characters argue about instead of love — that sentence is the whole theme."]
+}
+]
