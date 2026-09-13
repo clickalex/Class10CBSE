@@ -21,7 +21,9 @@ Class10CBSE/
 ```
 
 **Live site: <https://clickalex.github.io/Class10CBSE/>** — built from
-`site/content/`, one hub per subject, 154 chapter pages. See
+`site/content/`, one hub per subject (including IT 402, in-built), 174
+chapter pages. Every subject uses the same design and the same Q&A tone:
+Short, Long, Application and Competency, with click-to-reveal answers. See
 [Deploying the site](#deploying-the-site) below.
 
 ## Inside every subject

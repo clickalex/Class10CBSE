@@ -78,4 +78,70 @@
     });
     el.textContent = done + "/" + total + " chapters";
   });
+
+  /* --- IT-style Q&A bar: filter by type, show/hide answers, revealed count --- */
+  Array.prototype.forEach.call(document.querySelectorAll("[data-qbar]"), function (bar) {
+    var scope = bar.parentElement || document;
+    var cards = function () {
+      return Array.prototype.slice.call(scope.querySelectorAll(".qcard"));
+    };
+    var revealedEl = bar.querySelector("[data-revealed]");
+    var shownEl = bar.querySelector("[data-shown]");
+
+    function visibleCards() {
+      return cards().filter(function (c) {
+        return c.className.indexOf("is-hidden") === -1;
+      });
+    }
+
+    function recount() {
+      var vis = visibleCards();
+      var open = vis.filter(function (c) {
+        var d = c.querySelector("details.qans");
+        return d && d.open;
+      }).length;
+      if (revealedEl) revealedEl.textContent = String(open);
+      if (shownEl) shownEl.textContent = String(vis.length);
+    }
+
+    Array.prototype.forEach.call(bar.querySelectorAll(".qfilter"), function (btn) {
+      btn.addEventListener("click", function () {
+        var key = btn.getAttribute("data-filter");
+        Array.prototype.forEach.call(bar.querySelectorAll(".qfilter"), function (b) {
+          b.className = b.className.replace(/\bis-on\b/g, "").replace(/\s+/g, " ").trim();
+        });
+        btn.className += " is-on";
+        cards().forEach(function (c) {
+          var t = c.getAttribute("data-type");
+          if (key === "all" || t === key) c.classList.remove("is-hidden");
+          else c.classList.add("is-hidden");
+        });
+        recount();
+      });
+    });
+
+    var showAll = bar.querySelector("[data-show-all]");
+    var hideAll = bar.querySelector("[data-hide-all]");
+    if (showAll) {
+      showAll.addEventListener("click", function () {
+        visibleCards().forEach(function (c) {
+          var d = c.querySelector("details.qans");
+          if (d) d.open = true;
+        });
+        recount();
+      });
+    }
+    if (hideAll) {
+      hideAll.addEventListener("click", function () {
+        cards().forEach(function (c) {
+          var d = c.querySelector("details.qans");
+          if (d) d.open = false;
+        });
+        recount();
+      });
+    }
+
+    scope.addEventListener("toggle", recount, true);
+    recount();
+  });
 })();

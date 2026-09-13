@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ch 16 · Queries in Base · Class 10 CBSE</title>
+<meta name="description" content="CBSE Class 10 Ch 16 · Queries in Base — chapter notes, formulas, exam Q&amp;A and revision.">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
+    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../information-technology/index.html">Hub</a><a href="../../information-technology/syllabus.html">Syllabus</a><a href="../../information-technology/revision.html">Revise</a><a href="../../information-technology/question-bank.html">Bank</a><a href="../../information-technology/drill.html">Drill</a><a href="../../information-technology/pyq.html">PYQ</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Information Technology</a> <span class="sep">/</span> <a href="../units/dbms.html">Unit 3 · Database Management System (Base)</a> <span class="sep">/</span> Ch 16 · Queries in Base</nav>
+<p class="kicker">CBSE • CLASS 10 • IT 402</p><h1>Chapter 16 · Queries in Base</h1><p class="lede"><strong>Chapter 16 of 20.</strong> A query asks a question of the tables. Criteria in the grid are the whole skill.</p><p><a class="btn" href="../practice/ch16-base-queries.html">Open this chapter’s questions + MCQs →</a></p><p class="chips"><a class="chip" href="#marks-lens">🎯 Marks lens</a> <a class="chip" href="#deep-concepts">📖 Deep concepts</a> <a class="chip" href="#formulas">🧮 Formulas</a> <a class="chip" href="#steps">🛠️ Steps</a> <a class="chip" href="#tricks">🧠 Tricks</a> <a class="chip" href="#mistakes">⚠️ Mistakes</a> <a class="chip" href="#exam-qa">❓ Exam Q&A</a> <a class="chip" href="#task">✍️ Task</a></p>
+<h2 id="marks-lens">🎯 Marks lens</h2><div class="callout"><p>Practical: query with <strong>two criteria and a sort</strong>.<br>Theory: what a query is, and examples of criteria (<code>&gt;500</code>, <code>Like 'A*'</code>).</p></div>
+<h2 id="deep-concepts">📖 Deep concepts</h2>
+<p><strong>1. Query</strong> = a saved question: which fields, from which tables, matching which criteria, in which order.<br><strong>2. Create in Design View:</strong> Queries → Create Query in Design View → add table(s) → double-click fields → set Sort and Criterion.<br><strong>3. Criteria examples:</strong> <code>Delhi</code> (exact text), <code>&gt;75</code> (numbers), <code>&lt;#01/01/2012#</code> or a date form, <code>Like 'A*'</code> (names starting with A), <code>IS EMPTY</code> / <code>IS NOT EMPTY</code>.<br><strong>4. AND vs OR:</strong> criteria on the <strong>same row</strong> = AND; on <strong>different rows</strong> = OR (in the design grid).<br><strong>5. Alias:</strong> field caption in the query (Marks → <code>IT Marks</code>) without renaming the table field.<br><strong>6. Related tables:</strong> add both tables (relationship line visible), pull Name from Student and Date from Issue.<br><strong>7. Run:</strong> click Run. Save the query as <code>QryToppers</code>. A query does not store a second copy of the data — it reads the tables live.</p>
+<h2 id="formulas">🧮 Formulas to memorise</h2>
+<ul class="formula"><li>Marks &gt;= 80</li><li>City = 'Delhi'</li><li>Name Like 'S*'</li><li>Fees BETWEEN 1000 AND 2000</li></ul>
+<h2 id="steps">🛠️ Method, step by step</h2>
+<ol><li>Queries → Create Query in Design View.</li><li>Add Student, close the wizard.</li><li>Add Name, Marks, Class.</li><li>Criterion under Marks: <code>&gt;=80</code>. Sort Marks Descending.</li><li>Run, then Save.</li></ol>
+<h2 id="tricks">🧠 Memory tricks</h2>
+<ul><li>Text criteria need <strong>quotes</strong> in some modes; in the grid <code>Delhi</code> is often enough — follow what the lab build accepts.</li><li><code>*</code> is the wildcard in Base Like patterns (not <code>%</code> as in some SQL).</li></ul>
+<h2 id="mistakes">⚠️ Mistakes that cost marks</h2>
+<ul><li>Editing query results and expecting the table design to change.</li><li>Forgetting to add the table so the field list is empty.</li></ul>
+<h2 id="exam-qa">❓ Exam Q&A</h2>
+<p class="hint">Short · Long · Application · Competency — write first, then Show Answer.</p>
+<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 8 revealed<span class="qshown"> · <span data-shown>8</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (8)</button><button type="button" class="qfilter" data-filter="S">Short (2)</button><button type="button" class="qfilter" data-filter="L">Long (2)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
+<div class="qstack"><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S1</span><span class="marks">2 marks</span></div><p class="qtext"><strong>1.</strong> What is a query in Base?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>A saved question that selects fields from one or more tables according to criteria and sort order, without storing a second copy of the data.</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S2</span><span class="marks">2 marks</span></div><p class="qtext"><strong>2.</strong> Write criteria to list students whose names start with A and marks above 70.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Name: <code>Like 'A*'</code> AND Marks: <code>&gt;70</code> (same criteria row).</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L3</span><span class="marks">4 marks</span></div><p class="qtext"><strong>3.</strong> How do you create a query that shows student name and book title for issues after 1 Apr 2026?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Design View → add Student, Issue, Book (related) → fields Name, Title, IssueDate → criterion on IssueDate <code>&gt; {d '2026-04-01'}</code> or the date the lab uses → Run → Save.</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A4</span><span class="marks">3 marks</span></div><p class="qtext"><strong>4.</strong> The librarian wants unpaid fees greater than 500, sorted by fees high to low. Which grid settings?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Field Fees, criterion <code>&gt;500</code>, Sort Descending; include Name/AdmNo so the rows are identifiable.</p></div></details></article><article class="qcard" data-type="C"><div class="qmeta"><span class="qbadge qbadge-c">COMPETENCY</span><span class="qcode">C5</span><span class="marks">4 marks</span></div><p class="qtext"><strong>5.</strong> Read and answer:
+
+A query saved last month still shows old marks after the teacher updates the table.
+
+(a) Is that expected?
+(b) Why?
+(c) When would you use a Wizard instead of Design View?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(a) No — a select query should show current table data when run again.<br>(b) Queries read tables live; if it does not update, they opened an old copy or a static export.<br>(c) Wizard for a simple one-table list; Design View when you need criteria, sorts and two tables.</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L6</span><span class="marks">5 marks</span></div><p class="qtext"><strong>6.</strong> Discuss “Queries in Base” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Query = a saved question: which fields, from which tables, matching which criteria, in which order.<br>Marks lens: Practical: query with two criteria and a sort.<br>Method / memory trick: Text criteria need quotes in some modes; in the grid Delhi is often enough — follow what the lab build accepts.<br>Do not: Editing query results and expecting the table design to change.</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A7</span><span class="marks">3 marks</span></div><p class="qtext"><strong>7.</strong> Riya is revising “Queries in Base” (Design View queries, criteria, sorting, aliases and related-table queries.). A classmate lost marks by doing this: Editing query results and expecting the table design to change. Apply the correct method and rewrite the scoring answer.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Correct method: Text criteria need quotes in some modes; in the grid Delhi is often enough — follow what the lab build accepts.<br>Why the mistake costs marks: Editing query results and expecting the table design to change.<br>Write the definition or formula first, then the working or example.</p></div></details></article><article class="qcard" data-type="C"><div class="qmeta"><span class="qbadge qbadge-c">COMPETENCY</span><span class="qcode">C8</span><span class="marks">4 marks</span></div><p class="qtext"><strong>8.</strong> Read and answer:
+
+A Class 10 student is preparing “Queries in Base”. Their note says: Query = a saved question: which fields, from which tables, matching which criteria, in which order.
+
+The chapter is described as: Design View queries, criteria, sorting, aliases and related-table queries..
+
+(a) Name the key idea.
+(b) How is this usually asked in the paper?
+(c) State one mistake that would cost a mark.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(a) Design View queries, criteria, sorting, aliases and related-table queries.<br>(b) Practical: query with two criteria and a sort.<br>(c) Editing query results and expecting the table design to change.</p></div></details></article></div>
+<h2 id="task">✍️ Hands-on task</h2>
+<div class="callout alt"><p>On Student, create <code>QryHonours</code>: Name, Marks where Marks&gt;=80, sort Marks desc. Run it after changing one mark to see it update.</p></div>
+<div class="done"><label><input type="checkbox" class="mark-complete" data-key="information-technology::dbms##ch16-base-queries" data-subject="information-technology"> Mark “Ch 16 · Queries in Base” complete</label><p><a href="../practice/ch16-base-queries.html">Practise this chapter’s MCQs and written questions →</a></p></div>
+</main>
+<footer class="wrap foot">
+  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  not official CBSE papers. Always confirm the syllabus against
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
+</footer>
+<script src="../../assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,715 @@
+[
+  {
+    "id": "ch13-dbms-intro",
+    "num": 13,
+    "title": "Introduction to DBMS",
+    "unit": "dbms",
+    "unit_name": "Part B · Database Management System",
+    "weight": "part of 12 marks",
+    "short": "Data vs information, database, DBMS advantages, keys and types of database.",
+    "lede": "Unit 3 is 12 marks — start here. Definitions are free marks if the wording is tight.",
+    "lens": [
+      "**Data vs information**, **advantages of DBMS**, **primary key** — the opening trio.",
+      "Know: field, record, table, database; flat vs relational."
+    ],
+    "concepts": [
+      "**1. Data** are raw facts (`Ravi`, `78`). **Information** is processed, useful data (“Ravi scored 78 in IT”).",
+      "**2. A database** is an organised collection of related data. A **DBMS** (LibreOffice Base, MySQL) is software to create and manage databases.",
+      "**3. Advantages of DBMS:** less redundancy, consistency, sharing, security, backup/recovery, data independence, concurrent use, integrity.",
+      "**4. Disadvantages:** cost, training, a single failure can block many users if not backed up.",
+      "**5. Building blocks:** **Field** (column, one attribute), **Record** (row), **Table** (entity), **Database** (set of tables).",
+      "**6. Keys:** **Primary key** uniquely identifies a record (AdmissionNo). **Composite key** uses two+ fields. **Foreign key** in another table points to a primary key (referential integrity).",
+      "**7. Flat file** = one table (Calc). **Relational database** = several related tables (Base) — this is what Unit 3 uses.",
+      "**8. Data types (preview):** Text (VARCHAR), Integer, Decimal, Date, Yes/No (Boolean), Memo."
+    ],
+    "tricks": [
+      "- Primary key = **unique + not empty**. Roll number works; student name does not.",
+      "- DBMS advantage answers: write **four**, each with a three-word explanation."
+    ],
+    "mistakes": [
+      "- Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course.",
+      "- Using Name as primary key."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Differentiate data and information with an example.",
+        "a": "Data are raw facts (42, “Neha”). Information is processed and meaningful (“Neha’s attendance is 42 days”)."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "What is a primary key? Give one example.",
+        "a": "A field (or set of fields) that uniquely identifies each record and cannot be empty. Example: `AdmissionNo` in a Student table."
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "List four advantages of a DBMS over a paper register or a single Calc sheet.",
+        "a": "Less duplication; one correction updates all uses; password/security; backup and recovery; many users; validation (integrity). A Calc sheet is easy to duplicate and hard to relate as tables grow."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "A school stores students in one sheet with teacher phone numbers typed against every student. Two problems, and the DBMS idea that fixes them.",
+        "a": "Redundancy (phone typed 40 times) and inconsistency (one row has the old number). Split into Student and Teacher tables with a foreign key."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA clinic keeps patient names in a diary. Two staff write different spellings; a page is lost.\n\n(a) Two problems of this system.\n(b) Two DBMS advantages that help.\n(c) Suggest a primary key.",
+        "a": [
+          "(a) Inconsistency, no backup, slow search, redundancy.",
+          "(b) Central consistent data, backup/recovery, validation, sharing.",
+          "(c) PatientID or a unique registration number — not the name."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Introduction to DBMS” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Data are raw facts (Ravi, 78). Information is processed, useful data (“Ravi scored 78 in IT”).",
+          "Marks lens: Data vs information, advantages of DBMS, primary key — the opening trio.",
+          "Method / memory trick: Primary key = unique + not empty. Roll number works; student name does not.",
+          "Do not: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Introduction to DBMS” (Data vs information, database, DBMS advantages, keys and types of database.). A classmate lost marks by doing this: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Primary key = unique + not empty. Roll number works; student name does not.",
+          "Why the mistake costs marks: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Introduction to DBMS”. Their note says: Data are raw facts (Ravi, 78). Information is processed, useful data (“Ravi scored 78 in IT”).\n\nThe chapter is described as: Data vs information, database, DBMS advantages, keys and types of database..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Data vs information, database, DBMS advantages, keys and types of database.",
+          "(b) Data vs information, advantages of DBMS, primary key — the opening trio.",
+          "(c) Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Which is information, not raw data? (a) 36 (b) “Amit” (c) “Amit’s temperature is 36 °C” (d) a blank cell",
+        "a": "**(c).**"
+      },
+      {
+        "q": "LibreOffice Base is: (a) a DBMS (b) an OS (c) a browser (d) a style",
+        "a": "**(a) a DBMS.**"
+      },
+      {
+        "q": "A good primary key for books is: (a) Title (b) Author (c) ISBN (d) Colour",
+        "a": "**(c) ISBN.**"
+      },
+      {
+        "q": "A foreign key: (a) deletes the database (b) refers to a primary key in another table (c) is always a picture (d) is a macro",
+        "a": "**(b).**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Introduction to DBMS” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Data vs information, database, DBMS advantages, keys and types of database.."
+      },
+      {
+        "q": "A 3-mark answer on “Introduction to DBMS” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Data vs information, advantages of DBMS, definition of primary key.",
+    "onepager": [
+      "- Data raw; information processed.",
+      "- Database + DBMS (Base).",
+      "- Field, record, table.",
+      "- Primary key unique; foreign key links tables.",
+      "- DBMS: less redundancy, security, backup, sharing."
+    ],
+    "task": [
+      "On paper, design two tables Student(AdmNo PK, Name, Class) and Issue(IssueID PK, AdmNo FK, BookISBN, Date). Mark the keys."
+    ],
+    "visual": [],
+    "formulas": [],
+    "steps": []
+  },
+  {
+    "id": "ch14-base-tables",
+    "num": 14,
+    "title": "Tables in LibreOffice Base",
+    "unit": "dbms",
+    "unit_name": "Part B · Database Management System",
+    "weight": "part of 12 marks",
+    "short": "Create tables in Design View, data types, primary key, field properties.",
+    "lede": "The practical starts here. Design View + data types + PK is the 10-mark Base task.",
+    "lens": [
+      "Create a table with **four fields, correct types, PK set**.",
+      "Field properties: Required, Length, Default, Format."
+    ],
+    "concepts": [
+      "**1. Ways to create a table:** Design View (exam method), Wizard, View/SQL. Use **Design View**.",
+      "**2. Data types:** Text [VARCHAR], Integer, Numeric/Decimal, Date, Time, DateTime, Yes/No, Memo (long text), Image (rarely).",
+      "**3. Set primary key:** right-click the field → Primary Key (key icon). Save the table (`Student`).",
+      "**4. Field properties:** Entry required (Yes), Length (25), Default value, Format example, AutoValue for integer PKs.",
+      "**5. Datasheet view** is for typing records; Design View is for structure. Do not confuse them.",
+      "**6. Save before closing.** Base will not keep an unsaved table design.",
+      "**7. Good design:** one fact per field (separate FirstName, not a whole address in Name)."
+    ],
+    "steps": [
+      "1. Base → Create Table in Design View.",
+      "2. Type field names and data types down the rows.",
+      "3. Right-click AdmNo → Primary Key.",
+      "4. Set Length / Required as asked.",
+      "5. Save as `Student`, then open Datasheet to enter two sample rows."
+    ],
+    "tricks": [
+      "- Phone numbers are **Text**, not Integer — or you lose leading 0.",
+      "- Fees can be Decimal; age is Integer; DOB is Date."
+    ],
+    "mistakes": [
+      "- Forgetting to set the primary key — Base warns, some students click No.",
+      "- Using spaces in field names when the question gave `RollNo`."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Name four data types in Base and one use each.",
+        "a": "VARCHAR for names, Integer for roll number, Date for DOB, Decimal for fees, Yes/No for paid flag."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "How do you set a primary key in Design View?",
+        "a": "Right-click the field row → Primary Key so the key icon appears, then save the table."
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Write field names, types and keys for a table Book.",
+        "a": "ISBN VARCHAR PK; Title VARCHAR; Author VARCHAR; Price DECIMAL; Available YES/NO. ISBN uniquely identifies a book; Available is Boolean."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "A student stores mobile numbers as Integer and 098… becomes 98. Why, and what type should be used?",
+        "a": "Integer drops leading zeros and is not a “number you calculate with”. Use **Text/VARCHAR**."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTable Marks has fields Name, Marks, Marks, Date.\n\n(a) Three design faults.\n(b) Redesign with types and a PK.\n(c) Which view to use in the practical.",
+        "a": [
+          "(a) Duplicate field name; no PK; Name is a weak key; Date of what?",
+          "(b) StudentID INTEGER PK; Name VARCHAR; Marks INTEGER; ExamDate DATE.",
+          "(c) Design View to build, Datasheet to enter records."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Tables in LibreOffice Base” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Ways to create a table: Design View (exam method), Wizard, View/SQL. Use Design View.",
+          "Marks lens: Create a table with four fields, correct types, PK set.",
+          "Method / memory trick: Phone numbers are Text, not Integer — or you lose leading 0.",
+          "Do not: Forgetting to set the primary key — Base warns, some students click No."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Tables in LibreOffice Base” (Create tables in Design View, data types, primary key, field properties.). A classmate lost marks by doing this: Forgetting to set the primary key — Base warns, some students click No. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Phone numbers are Text, not Integer — or you lose leading 0.",
+          "Why the mistake costs marks: Forgetting to set the primary key — Base warns, some students click No.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Tables in LibreOffice Base”. Their note says: Ways to create a table: Design View (exam method), Wizard, View/SQL. Use Design View.\n\nThe chapter is described as: Create tables in Design View, data types, primary key, field properties..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Create tables in Design View, data types, primary key, field properties.",
+          "(b) Create a table with four fields, correct types, PK set.",
+          "(c) Forgetting to set the primary key — Base warns, some students click No."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "The exam-preferred way to create a table is: (a) Wizard only (b) Design View (c) Mail Merge (d) Goal Seek",
+        "a": "**(b) Design View.**"
+      },
+      {
+        "q": "DOB should be stored as: (a) Integer (b) Date (c) Yes/No (d) Image",
+        "a": "**(b) Date.**"
+      },
+      {
+        "q": "A primary key field should be: (a) empty often (b) unique and not null (c) a photo (d) duplicated",
+        "a": "**(b).**"
+      },
+      {
+        "q": "Datasheet view is for: (a) setting data types (b) entering records (c) recording macros (d) wrapping images",
+        "a": "**(b) entering records.**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Tables in LibreOffice Base” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Create tables in Design View, data types, primary key, field properties.."
+      },
+      {
+        "q": "A 3-mark answer on “Tables in LibreOffice Base” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Create-table steps, choice of data type, how to set PK.",
+    "onepager": [
+      "- Design View: fields + types + PK.",
+      "- Text for codes/phones; Date for dates; Decimal for money.",
+      "- Required / Length / Default.",
+      "- Datasheet = records; Design = structure."
+    ],
+    "task": [
+      "Create `Student(AdmNo INTEGER PK, Name VARCHAR(30), Class VARCHAR(5), Fees DECIMAL)` and enter three records."
+    ],
+    "visual": [],
+    "formulas": []
+  },
+  {
+    "id": "ch15-base-relationships",
+    "num": 15,
+    "title": "Relationships and Multiple Tables",
+    "unit": "dbms",
+    "unit_name": "Part B · Database Management System",
+    "weight": "part of 12 marks",
+    "short": "One-to-one, one-to-many, many-to-many; referential integrity.",
+    "lede": "Two tables and a line between them. This is what separates Base from Calc.",
+    "lens": [
+      "Draw **one-to-many** (Student–Issue) with referential integrity.",
+      "Know why we split tables (normalisation in simple words)."
+    ],
+    "concepts": [
+      "**1. Why multiple tables:** store each fact once. Student details in Student; issues in Issue; link by AdmNo.",
+      "**2. One-to-one:** one passport per citizen. Rare in Class 10 practicals.",
+      "**3. One-to-many:** one student, many issue records. The **many** side holds the **foreign key**.",
+      "**4. Many-to-many:** students and activities — needs a third (junction) table.",
+      "**5. Creating a relationship:** Tools → Relationships → add tables → drag PK to FK → tick **Referential integrity** → optionally Cascade Update/Delete.",
+      "**6. Referential integrity:** you cannot type an Issue.AdmNo that does not exist in Student. You cannot delete a student who still has issue rows (unless cascade).",
+      "**7. Cascade update/delete:** changing/deleting the parent PK updates/deletes child rows. Use delete cascade only when the question asks."
+    ],
+    "steps": [
+      "1. Create both tables; set PKs.",
+      "2. On the many side, add the FK field with the **same type** as the PK.",
+      "3. Tools → Relationships.",
+      "4. Drag Student.AdmNo to Issue.AdmNo.",
+      "5. Tick Referential integrity → OK."
+    ],
+    "tricks": [
+      "- FK type must **match** PK type (both Integer, or both VARCHAR).",
+      "- The crow’s-foot / many side is the table that **repeats** the key."
+    ],
+    "mistakes": [
+      "- Drawing the relationship backwards (PK on the many side).",
+      "- Different data types on PK and FK — Base refuses the link."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "2",
+        "q": "What is a one-to-many relationship? Give an example.",
+        "a": "One record in table A matches many in table B. One student, many library issues. The Issue table stores AdmNo as FK."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "What is referential integrity?",
+        "a": "A rule that every foreign-key value must match an existing primary key, so you cannot create orphan records."
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain how to relate Student and Issue in Base.",
+        "a": "AdmNo PK in Student; AdmNo FK in Issue (same type). Tools → Relationships, drag PK to FK, enable referential integrity. Then an issue cannot use a missing admission number."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "A shop has Customer and Order tables. Where does CustomerID go, and what relationship is this?",
+        "a": "CustomerID is PK in Customer and FK in Order. One-to-many (one customer, many orders)."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nDeleting student 12 failed because “existing related records”.\n\n(a) What rule is firing?\n(b) Two safe ways to proceed.\n(c) When would cascade delete be wrong?",
+        "a": [
+          "(a) Referential integrity — Issue rows still point to 12.",
+          "(b) Delete or reassign the issue rows first; or (if asked) enable cascade delete.",
+          "(c) When those issues are history you must keep — never cascade-delete library history by accident."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Relationships and Multiple Tables” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Why multiple tables: store each fact once. Student details in Student; issues in Issue; link by AdmNo.",
+          "Marks lens: Draw one-to-many (Student–Issue) with referential integrity.",
+          "Method / memory trick: FK type must match PK type (both Integer, or both VARCHAR).",
+          "Do not: Drawing the relationship backwards (PK on the many side)."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Relationships and Multiple Tables” (One-to-one, one-to-many, many-to-many; referential integrity.). A classmate lost marks by doing this: Drawing the relationship backwards (PK on the many side). Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: FK type must match PK type (both Integer, or both VARCHAR).",
+          "Why the mistake costs marks: Drawing the relationship backwards (PK on the many side).",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Relationships and Multiple Tables”. Their note says: Why multiple tables: store each fact once. Student details in Student; issues in Issue; link by AdmNo.\n\nThe chapter is described as: One-to-one, one-to-many, many-to-many; referential integrity..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) One-to-one, one-to-many, many-to-many; referential integrity.",
+          "(b) Draw one-to-many (Student–Issue) with referential integrity.",
+          "(c) Drawing the relationship backwards (PK on the many side)."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "The foreign key is stored on the: (a) one side always (b) many side (c) report (d) form title",
+        "a": "**(b) many side.**"
+      },
+      {
+        "q": "Referential integrity prevents: (a) styles (b) orphan FK values (c) Goal Seek (d) macros",
+        "a": "**(b).**"
+      },
+      {
+        "q": "Student–Issue is typically: (a) one-to-one (b) one-to-many (c) many-to-many without a junction (d) no relation",
+        "a": "**(b) one-to-many.**"
+      },
+      {
+        "q": "Relationships window is opened from: (a) Tools → Relationships (b) Insert → Image (c) Format → Page (d) Data → Sort",
+        "a": "**(a).**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Relationships and Multiple Tables” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is One-to-one, one-to-many, many-to-many; referential integrity.."
+      },
+      {
+        "q": "A 3-mark answer on “Relationships and Multiple Tables” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Define one-to-many + referential integrity; practical is drag-PK-to-FK.",
+    "onepager": [
+      "- Split data: one fact, one table.",
+      "- 1:1, 1:n, n:n (junction).",
+      "- FK on the many side, same type as PK.",
+      "- Referential integrity = no orphans."
+    ],
+    "task": [
+      "Build Customer(CustomerID PK) and Order(OrderID PK, CustomerID FK). Relate them with referential integrity and try to enter an order for a missing customer — it should fail."
+    ],
+    "visual": [],
+    "formulas": []
+  },
+  {
+    "id": "ch16-base-queries",
+    "num": 16,
+    "title": "Queries in Base",
+    "unit": "dbms",
+    "unit_name": "Part B · Database Management System",
+    "weight": "part of 12 marks",
+    "short": "Design View queries, criteria, sorting, aliases and related-table queries.",
+    "lede": "A query asks a question of the tables. Criteria in the grid are the whole skill.",
+    "lens": [
+      "Practical: query with **two criteria and a sort**.",
+      "Theory: what a query is, and examples of criteria (`>500`, `Like 'A*'`)."
+    ],
+    "concepts": [
+      "**1. Query** = a saved question: which fields, from which tables, matching which criteria, in which order.",
+      "**2. Create in Design View:** Queries → Create Query in Design View → add table(s) → double-click fields → set Sort and Criterion.",
+      "**3. Criteria examples:** `Delhi` (exact text), `>75` (numbers), `<#01/01/2012#` or a date form, `Like 'A*'` (names starting with A), `IS EMPTY` / `IS NOT EMPTY`.",
+      "**4. AND vs OR:** criteria on the **same row** = AND; on **different rows** = OR (in the design grid).",
+      "**5. Alias:** field caption in the query (Marks → `IT Marks`) without renaming the table field.",
+      "**6. Related tables:** add both tables (relationship line visible), pull Name from Student and Date from Issue.",
+      "**7. Run:** click Run. Save the query as `QryToppers`. A query does not store a second copy of the data — it reads the tables live."
+    ],
+    "steps": [
+      "1. Queries → Create Query in Design View.",
+      "2. Add Student, close the wizard.",
+      "3. Add Name, Marks, Class.",
+      "4. Criterion under Marks: `>=80`. Sort Marks Descending.",
+      "5. Run, then Save."
+    ],
+    "formulas": [
+      "Marks >= 80",
+      "City = 'Delhi'",
+      "Name Like 'S*'",
+      "Fees BETWEEN 1000 AND 2000"
+    ],
+    "tricks": [
+      "- Text criteria need **quotes** in some modes; in the grid `Delhi` is often enough — follow what the lab build accepts.",
+      "- `*` is the wildcard in Base Like patterns (not `%` as in some SQL)."
+    ],
+    "mistakes": [
+      "- Editing query results and expecting the table design to change.",
+      "- Forgetting to add the table so the field list is empty."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "2",
+        "q": "What is a query in Base?",
+        "a": "A saved question that selects fields from one or more tables according to criteria and sort order, without storing a second copy of the data."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Write criteria to list students whose names start with A and marks above 70.",
+        "a": "Name: `Like 'A*'` AND Marks: `>70` (same criteria row)."
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "How do you create a query that shows student name and book title for issues after 1 Apr 2026?",
+        "a": "Design View → add Student, Issue, Book (related) → fields Name, Title, IssueDate → criterion on IssueDate `> {d '2026-04-01'}` or the date the lab uses → Run → Save."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "The librarian wants unpaid fees greater than 500, sorted by fees high to low. Which grid settings?",
+        "a": "Field Fees, criterion `>500`, Sort Descending; include Name/AdmNo so the rows are identifiable."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA query saved last month still shows old marks after the teacher updates the table.\n\n(a) Is that expected?\n(b) Why?\n(c) When would you use a Wizard instead of Design View?",
+        "a": [
+          "(a) No — a select query should show current table data when run again.",
+          "(b) Queries read tables live; if it does not update, they opened an old copy or a static export.",
+          "(c) Wizard for a simple one-table list; Design View when you need criteria, sorts and two tables."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Queries in Base” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Query = a saved question: which fields, from which tables, matching which criteria, in which order.",
+          "Marks lens: Practical: query with two criteria and a sort.",
+          "Method / memory trick: Text criteria need quotes in some modes; in the grid Delhi is often enough — follow what the lab build accepts.",
+          "Do not: Editing query results and expecting the table design to change."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Queries in Base” (Design View queries, criteria, sorting, aliases and related-table queries.). A classmate lost marks by doing this: Editing query results and expecting the table design to change. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Text criteria need quotes in some modes; in the grid Delhi is often enough — follow what the lab build accepts.",
+          "Why the mistake costs marks: Editing query results and expecting the table design to change.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Queries in Base”. Their note says: Query = a saved question: which fields, from which tables, matching which criteria, in which order.\n\nThe chapter is described as: Design View queries, criteria, sorting, aliases and related-table queries..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Design View queries, criteria, sorting, aliases and related-table queries.",
+          "(b) Practical: query with two criteria and a sort.",
+          "(c) Editing query results and expecting the table design to change."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "A query stores: (a) a second full copy of all data always (b) the question (fields, criteria) (c) a Writer template (d) an OS",
+        "a": "**(b).**"
+      },
+      {
+        "q": "Names starting with R use: (a) Like 'R*' (b) = R (c) Group (d) F11",
+        "a": "**(a) Like 'R*'.**"
+      },
+      {
+        "q": "Two criteria on the same row mean: (a) OR (b) AND (c) XOR (d) NOT a query",
+        "a": "**(b) AND.**"
+      },
+      {
+        "q": "To sort marks highest first: (a) Sort Ascending (b) Sort Descending on Marks (c) Primary key (d) Wrap Optimal",
+        "a": "**(b).**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Queries in Base” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Design View queries, criteria, sorting, aliases and related-table queries.."
+      },
+      {
+        "q": "A 3-mark answer on “Queries in Base” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Write a criterion, or steps of Design View query.",
+    "onepager": [
+      "- Query = live question, not a second database.",
+      "- Design View: tables → fields → criterion → sort → Run.",
+      "- Same row AND; extra row OR.",
+      "- Like 'A*', >75, dates, BETWEEN."
+    ],
+    "task": [
+      "On Student, create `QryHonours`: Name, Marks where Marks>=80, sort Marks desc. Run it after changing one mark to see it update."
+    ],
+    "visual": []
+  },
+  {
+    "id": "ch17-base-forms-reports",
+    "num": 17,
+    "title": "Forms and Reports",
+    "unit": "dbms",
+    "unit_name": "Part B · Database Management System",
+    "weight": "part of 12 marks",
+    "short": "Data-entry forms and printable reports from tables or queries.",
+    "lede": "Form = type data; Report = print data. Wizards are allowed; know what each control is.",
+    "lens": [
+      "Practical often: **form on Student** + **report from a query**.",
+      "Theory: difference between form and report; one advantage each."
+    ],
+    "concepts": [
+      "**1. Form:** on-screen layout for entering and editing records, one at a time, with labels and controls. Safer than raw datasheet (validation, no extra columns).",
+      "**2. Create:** Forms → Use Wizard to Create Form → pick fields → arrange (columnar) → set subform if needed → name `frmStudent`.",
+      "**3. Controls:** text box, list box, check box, label, button. Label is the caption; the text box is bound to a field.",
+      "**4. Report:** formatted output for printing / PDF — headers, grouping, totals. Built from a table or (better) a query.",
+      "**5. Create:** Reports → Wizard → fields → grouping (e.g. by Class) → sort → layout → name `rptFees`.",
+      "**6. Why a query under a report:** filter first (only unpaid fees), then print. Changing the query criteria changes the report next time you open it.",
+      "**7. Form vs report:** form is **interactive input**; report is **read-only output**."
+    ],
+    "steps": [
+      "Form wizard: select table → fields → display (columnar) → data-entry only if asked → finish.",
+      "Report wizard: select query → fields → group by Class → sort Name → add sum of Fees if asked → finish."
+    ],
+    "tricks": [
+      "- If the report is empty, the **query returned zero rows** — fix criteria first.",
+      "- Name forms `frm…` and reports `rpt…` so the examiner finds them."
+    ],
+    "mistakes": [
+      "- Building a report on the whole table when the question said “students with marks > 80”.",
+      "- Using a form to print 200 rows — that is a report’s job."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Differentiate a form and a report.",
+        "a": "A **form** is for entering/editing records on screen. A **report** is a formatted, usually read-only printout or PDF of selected data."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Why create a report from a query rather than from a whole table?",
+        "a": "The query filters and sorts first (e.g. only unpaid fees), so the report prints exactly the needed rows."
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Write steps to create a data-entry form for the Student table in Base.",
+        "a": "Forms → Use Wizard → table Student → select fields → choose layout (columnar) → set to display all data / data entry → style → name `frmStudent` → finish. Test by adding one record."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "The office wants a printed list of Class 10 students owing more than ₹500, grouped by section. Form or report? What sits underneath?",
+        "a": "A **report**. Underneath: a query with Class=10, Fees>500, then group by section in the report wizard."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nData-entry staff keep typing in Datasheet and accidentally delete a column.\n\n(a) Which object reduces that risk?\n(b) Two reasons.\n(c) How should monthly printouts be produced?",
+        "a": [
+          "(a) A form with only the needed controls.",
+          "(b) No access to Design View; labels guide the operator; validation.",
+          "(c) A report (from a query), not a screenshot of the datasheet."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Forms and Reports” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Form: on-screen layout for entering and editing records, one at a time, with labels and controls. Safer than raw datasheet (validation, no extra columns).",
+          "Marks lens: Practical often: form on Student + report from a query.",
+          "Method / memory trick: If the report is empty, the query returned zero rows — fix criteria first.",
+          "Do not: Building a report on the whole table when the question said “students with marks > 80”."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Forms and Reports” (Data-entry forms and printable reports from tables or queries.). A classmate lost marks by doing this: Building a report on the whole table when the question said “students with marks > 80”. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: If the report is empty, the query returned zero rows — fix criteria first.",
+          "Why the mistake costs marks: Building a report on the whole table when the question said “students with marks > 80”.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Forms and Reports”. Their note says: Form: on-screen layout for entering and editing records, one at a time, with labels and controls. Safer than raw datasheet (validation, no extra columns).\n\nThe chapter is described as: Data-entry forms and printable reports from tables or queries..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Data-entry forms and printable reports from tables or queries.",
+          "(b) Practical often: form on Student + report from a query.",
+          "(c) Building a report on the whole table when the question said “students with marks > 80”."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "A form is mainly for: (a) printing totals (b) entering and editing records (c) recording macros (d) 7 Cs",
+        "a": "**(b).**"
+      },
+      {
+        "q": "A report is mainly for: (a) typing new rows (b) formatted output/print (c) setting OS password (d) wrapping images",
+        "a": "**(b).**"
+      },
+      {
+        "q": "The best source for a filtered report is: (a) a query (b) a random image (c) Track Changes (d) a template .ott",
+        "a": "**(a) a query.**"
+      },
+      {
+        "q": "A check box on a form suits a: (a) Yes/No field (b) photo of the school (c) Goal Seek cell (d) Heading 1 style",
+        "a": "**(a) Yes/No field.**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Forms and Reports” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Data-entry forms and printable reports from tables or queries.."
+      },
+      {
+        "q": "A 3-mark answer on “Forms and Reports” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Form vs report, or wizard steps; practical is one of each.",
+    "onepager": [
+      "- Form = input UI; Report = printout.",
+      "- Wizards are allowed; name frm / rpt.",
+      "- Report from a query for filters and sorts.",
+      "- Grouping and totals belong on reports."
+    ],
+    "task": [
+      "Create `frmStudent` (columnar) and `rptHonours` based on `QryHonours`. Print-preview the report."
+    ],
+    "visual": [],
+    "formulas": []
+  }
+]

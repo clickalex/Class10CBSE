@@ -1,0 +1,743 @@
+[
+  {
+    "id": "ch01-communication-skills",
+    "num": 1,
+    "title": "Communication Skills–II",
+    "unit": "pa",
+    "unit_name": "Part A · Employability Skills",
+    "weight": "2 marks",
+    "short": "Methods, feedback, barriers, 7 Cs and basic writing skills.",
+    "lede": "The complete study cycle for Unit 1: methods of communication, the cycle with feedback, barriers, the 7 Cs and basic writing skills — book-style Q&A with hidden answers.",
+    "lens": [
+      "**2 marks inside the 10-mark Part A.** Mostly MCQ plus one short written answer.",
+      "Learn the **7-step cycle**, the **7 Cs** and one example each of verbal / non-verbal / visual."
+    ],
+    "visual": [
+      {
+        "t": "Sender",
+        "s": "encodes the idea"
+      },
+      {
+        "t": "Message",
+        "s": "via a channel"
+      },
+      {
+        "t": "Receiver",
+        "s": "decodes meaning"
+      },
+      {
+        "t": "Feedback",
+        "s": "closes the loop"
+      }
+    ],
+    "concepts": [
+      "**1. Communication** is the transfer of information, ideas or feelings between a sender and a receiver through a medium, with **feedback** completing the loop.",
+      "**2. Communication cycle (draw this in a 2-marker):** Sender → Encoding → Message → Channel → Decoding → Receiver → Feedback.",
+      {
+        "table": {
+          "head": [
+            "Method",
+            "Means",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Verbal – Oral",
+              "Spoken words",
+              "Phone call, meeting, speech"
+            ],
+            [
+              "Verbal – Written",
+              "Written words",
+              "Email, letter, report, notice"
+            ],
+            [
+              "Non-verbal",
+              "Body, voice, space",
+              "Smile, posture, eye contact, tone"
+            ],
+            [
+              "Visual",
+              "Pictures and signs",
+              "Charts, maps, traffic signals, logos"
+            ]
+          ]
+        }
+      },
+      "**3. Feedback** is the receiver's response. Good feedback is **descriptive, specific, timely and constructive**. It is called the lifeline because it confirms understanding and corrects errors early.",
+      "**4. Barriers:** physical (noise, distance), linguistic (jargon, another language), cultural (gesture meanings), emotional (anger), perceptual, organisational, interpersonal.",
+      "**5. 7 Cs of effective communication:** Clear, Concise, Concrete, Correct, Coherent, Complete, Courteous.",
+      "**6. Basic writing skills.** A **sentence** has a subject and a predicate. A **phrase** is a group of words without a finite verb. Kinds of sentences: declarative, interrogative, imperative, exclamatory. Parts of speech: noun, pronoun, verb, adjective, adverb, preposition, conjunction, interjection, article. **Articles:** a / an / the. A paragraph starts with a **topic sentence**, then supporting details, then a close.",
+      "**7. Paralanguage** is *how* the voice sounds — tone, pitch, speed, pauses. Book fact often quoted: words 7%, voice 38%, body 55%."
+    ],
+    "formulas": [
+      "7 Cs: Clear · Concise · Concrete · Correct · Coherent · Complete · Courteous"
+    ],
+    "tricks": [
+      "- 7 Cs mnemonic: **Can Cows Chew Cold Corn Cob Candy?**",
+      "- Cycle order: **SEMC DRF** — Sender, Encoding, Message, Channel, Decoding, Receiver, Feedback.",
+      "- Non-verbal is the **easiest** method — it needs no language or literacy."
+    ],
+    "mistakes": [
+      "- Writing only verbal/non-verbal and skipping the **oral vs written** split.",
+      "- Mixing up **encoding** (sender) and **decoding** (receiver).",
+      "- Forgetting an **example** in a 2-marker — the example carries half the marks."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Enlist the different methods of communication.",
+        "a": "** (1) Verbal** — oral (speech, phone, meeting) + written (letter, email, report). **(2) Non-verbal** — expressions, gestures, posture, eye contact, tone. **(3) Visual** — charts, maps, signals, posters, videos."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Which is the easiest method of communication and why?",
+        "a": "**Non-verbal** is the easiest — it needs no language or literacy. Gestures, expressions and tone are understood naturally and work across languages."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "What is feedback? Why is it called the lifeline of communication?",
+        "a": "Feedback is the receiver's response flowing back to the sender. It is the lifeline because it (1) confirms the message was understood and (2) corrects errors early — completing the two-way loop."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Explain any two Cs of effective communication with examples.",
+        "a": "(1) **Clear** — simple, exact message (“Submit the file by Friday 5 pm”). (2) **Courteous** — polite words (“please”, “thank you”, “sorry for the delay”)."
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Discuss in detail the verbal method of communication.",
+        "a": [
+          "Verbal = communication using **words**, in two forms.",
+          "**Oral** (speech, phone, meeting): fast, instant feedback; no permanent record.",
+          "**Written** (letter, email, report): permanent proof, re-readable, formal; slower, needs literacy.",
+          "Use oral for urgent/personal matters, written when a record is needed."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain any four barriers to communication with one example and one measure each.",
+        "a": [
+          "(1) **Physical** — class noise → quiet room, working mic.",
+          "(2) **Linguistic** — French manual → simple words + visuals.",
+          "(3) **Cultural** — a thumbs-up is rude in some places → learn customs.",
+          "(4) **Emotional** — anger blocks listening → stay calm, choose the right time."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya messages her team “do it soon”. Identify the violated C and rewrite the message correctly.",
+        "a": "Violates **Clear** (vague, no deadline) and **Complete** (no what/when). Rewrite: “Please submit the sales sheet by Friday 5 pm on email.” — now clear, complete and courteous."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "A team leader’s juniors look confused by his technical jargon. What two steps should he take?",
+        "a": "(1) Replace jargon with simple words and show a chart (linguistic barrier). (2) Pause, ask “any doubts?”, and paraphrase replies (feedback + active listening)."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nAmit presents with zero eye contact, 40 text-packed slides in 10 minutes, and says “no questions, I am getting late”. The manager understands nothing.\n\n(a) Identify four communication mistakes.\n(b) Suggest four fixes.",
+        "a": [
+          "(a) No eye contact (poor non-verbal) • overloaded slides (not concise) • too fast (not clear) • no questions (blocks feedback).",
+          "(b) Eye contact + open posture • max 10 slides, one idea each • slow, clear speech • invite questions and summarise."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nFor the school fest, Class X puts up posters at shops, announces on a loudspeaker, and the principal sends a written notice to parents.\n\n(a) Name the three methods used.\n(b) Why is combining them better than one?",
+        "a": [
+          "(a) Posters = **visual**; loudspeaker = **oral/verbal**; notice = **written**.",
+          "(b) Visual attracts, oral spreads fast, written is proof — together they cover more audiences with both speed and a record."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Which part of communication converts an idea into words or signs? (a) Receiving (b) Encoding (c) Decoding (d) Feedback",
+        "a": "**(b) Encoding.** Encoding prepares the sender's idea as a message; decoding interprets it."
+      },
+      {
+        "q": "A loud generator prevents a worker from hearing instructions. The barrier is: (a) linguistic (b) cultural (c) physical (d) emotional",
+        "a": "**(c) Physical** — environmental noise blocks the message."
+      },
+      {
+        "q": "Which of the 7 Cs means “to the point, no extra words”? (a) Clear (b) Concise (c) Concrete (d) Courteous",
+        "a": "**(b) Concise.**"
+      },
+      {
+        "q": "“An honest boy” takes which article? (a) a (b) an (c) the (d) no article",
+        "a": "**(b) an** — use *an* before a vowel **sound**; h is silent in honest."
+      },
+      {
+        "q": "A student's puzzled expression after an explanation is: (a) written encoding (b) non-verbal feedback (c) a channel (d) a language rule",
+        "a": "**(b) Non-verbal feedback.**"
+      },
+      {
+        "q": "Which sentence is complete? (a) Do that work. (b) The form is important. (c) Submit the signed form to Room 4 by Friday noon. (d) Submit it soon.",
+        "a": "**(c)** — task, place and deadline are all present."
+      },
+      {
+        "q": "Paralanguage refers to: (a) body posture only (b) charts and maps (c) tone, pitch and speed of voice (d) grammar rules",
+        "a": "**(c) Tone, pitch and speed of voice.**"
+      },
+      {
+        "q": "The easiest method of communication is: (a) written (b) oral (c) non-verbal (d) email",
+        "a": "**(c) Non-verbal** — needs no literacy."
+      }
+    ],
+    "trend": "One 2-mark on methods, 7 Cs or feedback, plus 1-mark MCQs on barriers and articles.",
+    "onepager": [
+      "- Methods: verbal (oral + written), non-verbal, visual.",
+      "- Cycle: Sender → Encoding → Message → Channel → Decoding → Receiver → Feedback.",
+      "- 7 Cs: Clear Concise Concrete Correct Coherent Complete Courteous.",
+      "- Good feedback: descriptive, specific, timely, constructive."
+    ],
+    "task": [
+      "Write a formal email to the principal requesting one day's leave. Subject, greeting, 3-line body, sign-off — that is written communication plus courtesy."
+    ],
+    "steps": []
+  },
+  {
+    "id": "ch02-self-management-skills",
+    "num": 2,
+    "title": "Self-Management Skills–II",
+    "unit": "pa",
+    "unit_name": "Part A · Employability Skills",
+    "weight": "3 marks",
+    "short": "Stress, self-awareness, self-motivation, self-regulation, time and SMART goals.",
+    "lede": "The highest-scoring employability unit. Lists plus one workplace example cover almost every question.",
+    "lens": [
+      "**3 marks.** Stress symptoms, SMART goals and time-management steps are the usual asks.",
+      "Always add a **workplace example** — a data-entry operator under a deadline is enough."
+    ],
+    "concepts": [
+      "**1. Self-management** is the ability to control one's emotions, thoughts and behaviour and to work towards goals without constant supervision.",
+      "**2. Stress** is the body's response to pressure. **Eustress** is positive (a deadline that focuses you); **distress** is harmful. Symptoms: headache, fast heartbeat, irritability, poor sleep, missed errors.",
+      "**3. Stress management:** deep breathing, short breaks, exercise, talking to someone, breaking work into chunks, saying no to extra load, sleep and a hobby.",
+      "**4. Self-awareness** is knowing your strengths, weaknesses, values and emotions. Tools: SWOT, feedback from others, a journal.",
+      "**5. Self-motivation** is working without being pushed. Intrinsic (interest, pride) lasts longer than extrinsic (marks, money).",
+      "**6. Self-regulation** is managing impulses — staying calm, delaying gratification, following rules.",
+      "**7. Time management:** list tasks, set priorities (urgent/important), use a timetable, avoid multitasking, finish one chunk, review at the end of the day.",
+      "**8. SMART goals:** Specific, Measurable, Achievable, Realistic/Relevant, Time-bound. “Type 30 invoices without error by 5 pm Friday” is SMART; “do better” is not."
+    ],
+    "tricks": [
+      "- SMART → **S**pecific **M**easurable **A**chievable **R**ealistic **T**ime-bound.",
+      "- Urgent vs important: exam tomorrow is both; scrolling is neither."
+    ],
+    "mistakes": [
+      "- Writing SMART expansions in the wrong order.",
+      "- Treating all stress as bad — eustress is useful.",
+      "- Giving no example in a 3-marker."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "2",
+        "q": "What is self-management? Give two of its benefits.",
+        "a": "Controlling one's emotions, thoughts and behaviour to reach goals. Benefits: better work quality, less stress, meeting deadlines, less need for supervision."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Differentiate eustress and distress with one example each.",
+        "a": "**Eustress** is helpful pressure — a timed practical that makes you focus. **Distress** is harmful — so much overtime that errors increase and sleep is lost."
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain SMART goals with a data-entry example.",
+        "a": "Specific (which file), Measurable (how many records), Achievable (within skill), Realistic (hours available), Time-bound (by 5 pm). Example: “Enter 80 customer rows in Calc with zero blanks by 4 pm today.”"
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Meera has three tasks: a 5 pm file, a messy desk, and a social-media reel. Using urgent/important, what should she do first and why?",
+        "a": "The 5 pm file is urgent and important — do it first. The desk is important but not urgent — schedule it. The reel is neither — drop it until the file is in."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nRavi’s hands shake before every practical, he skips breakfast and then makes typing errors.\n\n(a) Name the type of stress.\n(b) List four management steps.\n(c) Write one SMART goal for his next practical.",
+        "a": [
+          "(a) Distress — it is harming performance.",
+          "(b) Breakfast, 4–7 breathing, a 5-minute practice file, a checklist, sleep 7 hours.",
+          "(c) “Complete the Base table of 10 records with primary key set, in 25 minutes, with zero errors, on Friday.”"
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Self-Management Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Self-management is the ability to control one's emotions, thoughts and behaviour and to work towards goals without constant supervision.",
+          "Marks lens: marks. Stress symptoms, SMART goals and time-management steps are the usual asks.",
+          "Method / memory trick: SMART → Specific Measurable Achievable Realistic Time-bound.",
+          "Do not: Writing SMART expansions in the wrong order."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Self-Management Skills–II” (Stress, self-awareness, self-motivation, self-regulation, time and SMART goals.). A classmate lost marks by doing this: Writing SMART expansions in the wrong order. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: SMART → Specific Measurable Achievable Realistic Time-bound.",
+          "Why the mistake costs marks: Writing SMART expansions in the wrong order.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Self-Management Skills–II”. Their note says: Self-management is the ability to control one's emotions, thoughts and behaviour and to work towards goals without constant supervision.\n\nThe chapter is described as: Stress, self-awareness, self-motivation, self-regulation, time and SMART goals..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Stress, self-awareness, self-motivation, self-regulation, time and SMART goals.",
+          "(b) marks. Stress symptoms, SMART goals and time-management steps are the usual asks.",
+          "(c) Writing SMART expansions in the wrong order."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "SMART: the M stands for: (a) Magical (b) Measurable (c) Maximum (d) Monthly",
+        "a": "**(b) Measurable.**"
+      },
+      {
+        "q": "A hobby after study is mainly: (a) a waste (b) a stress-management method (c) self-employment (d) a barrier",
+        "a": "**(b) a stress-management method.**"
+      },
+      {
+        "q": "Knowing your own strengths is: (a) self-awareness (b) encoding (c) a physical barrier (d) green skill",
+        "a": "**(a) self-awareness.**"
+      },
+      {
+        "q": "Which goal is SMART? (a) I will study more (b) I will type 40 correct rows in Calc by 3 pm (c) I will become famous (d) I will try",
+        "a": "**(b).**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Self-Management Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Stress, self-awareness, self-motivation, self-regulation, time and SMART goals.."
+      },
+      {
+        "q": "A 3-mark answer on “Self-Management Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "SMART expansion and two stress-management methods appear almost every sample paper.",
+    "onepager": [
+      "- Self-management = control of emotion + behaviour toward a goal.",
+      "- Eustress helps; distress harms.",
+      "- SMART: Specific Measurable Achievable Realistic Time-bound.",
+      "- Time: list → prioritise → one chunk → review."
+    ],
+    "task": [
+      "Write three SMART goals for this week: one for theory, one for a LibreOffice file, one for sleep."
+    ],
+    "visual": [],
+    "formulas": [],
+    "steps": []
+  },
+  {
+    "id": "ch03-ict-skills",
+    "num": 3,
+    "title": "ICT Skills–II",
+    "unit": "pa",
+    "unit_name": "Part A · Employability Skills",
+    "weight": "1 mark",
+    "short": "Operating system, files and folders, and basic care of a computer.",
+    "lede": "One mark, almost all MCQ. File, folder, recycle bin and care-of-computer lists are enough.",
+    "lens": [
+      "**1 mark.** Definitions and “which of the following” items.",
+      "Know **OS functions**, **file vs folder**, and **three care tips**."
+    ],
+    "concepts": [
+      "**1. ICT** is Information and Communication Technology — hardware, software and networks used to create, store and share information.",
+      "**2. Operating system (OS)** is system software that manages hardware and lets you run programs. Examples: Windows, Linux, macOS, Android. Functions: start the computer, manage files, memory, devices and security, provide a user interface.",
+      "**3. File** = a named collection of data (report.odt). **Folder** = a container for files and other folders. Use short, meaningful names and extensions (.odt, .ods, .odb, .jpg).",
+      "**4. Care of computer:** keep it dust-free, don't eat or drink near it, use a surge protector, shut down properly, update antivirus, don't install unknown software, backup important files.",
+      "**5. Maintenance:** disk cleanup, defragment (HDD), update OS, scan for malware, keep vents clear so the machine does not overheat."
+    ],
+    "tricks": [
+      "- File has an **extension**; a folder does not need one.",
+      "- OS = the **manager** of the machine, not an application like Writer."
+    ],
+    "mistakes": [
+      "- Calling Writer an operating system.",
+      "- Saving everything on the Desktop with names like `final2(1).odt`."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "1",
+        "q": "What is an operating system? Give two examples.",
+        "a": "System software that manages hardware and runs programs. Examples: Windows, Linux, Android."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Differentiate a file and a folder with one example each.",
+        "a": "A **file** stores data (`marks.ods`). A **folder** stores files and other folders (`Class10/IT/`)."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit eats chips over the keyboard and never shuts the PC down. List three risks and three care steps.",
+        "a": "Risks: crumbs jam keys, oil damage, overheating, data loss. Care: no food/drink, proper shutdown, dust-free vents, surge protector, backups."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nMeera’s project file vanished after a power cut. She had saved only on the Desktop as `aaa.odt`.\n\n(a) Two file-management mistakes.\n(b) Two care/maintenance steps that would have helped.",
+        "a": [
+          "(a) No backup; a meaningless file name; Desktop-only copy.",
+          "(b) Surge protector / UPS; Save As into a named folder; weekly backup on a pen drive or cloud."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “ICT Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "ICT is Information and Communication Technology — hardware, software and networks used to create, store and share information.",
+          "Marks lens: mark. Definitions and “which of the following” items.",
+          "Method / memory trick: File has an extension; a folder does not need one.",
+          "Do not: Calling Writer an operating system."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “ICT Skills–II” (Operating system, files and folders, and basic care of a computer.). A classmate lost marks by doing this: Calling Writer an operating system. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: File has an extension; a folder does not need one.",
+          "Why the mistake costs marks: Calling Writer an operating system.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “ICT Skills–II”. Their note says: ICT is Information and Communication Technology — hardware, software and networks used to create, store and share information.\n\nThe chapter is described as: Operating system, files and folders, and basic care of a computer..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Operating system, files and folders, and basic care of a computer.",
+          "(b) mark. Definitions and “which of the following” items.",
+          "(c) Calling Writer an operating system."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Which is an OS? (a) LibreOffice Writer (b) Chrome (c) Linux (d) Calc",
+        "a": "**(c) Linux.**"
+      },
+      {
+        "q": "`.ods` is usually: (a) a Writer file (b) a Calc spreadsheet (c) a Base database (d) an image",
+        "a": "**(b) a Calc spreadsheet.**"
+      },
+      {
+        "q": "The Recycle Bin is used to: (a) speed up RAM (b) store deleted files until emptied (c) install an OS (d) scan viruses",
+        "a": "**(b).**"
+      },
+      {
+        "q": "A computer should be shut down: (a) by pulling the plug (b) using the OS shutdown command (c) by holding the monitor button (d) never",
+        "a": "**(b).**"
+      },
+      {
+        "q": "The most exam-ready way to revise “ICT Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Operating system, files and folders, and basic care of a computer.."
+      },
+      {
+        "q": "A 3-mark answer on “ICT Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "One MCQ on OS vs application, or on file/folder/care of computer.",
+    "onepager": [
+      "- OS manages hardware and programs.",
+      "- File = data; folder = container.",
+      "- Care: dust, no food, surge protector, shutdown, antivirus, backup."
+    ],
+    "task": [
+      "Create a folder `IT402/PartB` with three empty files `writer.odt`, `calc.ods`, `base.odb` and a one-line README."
+    ],
+    "visual": [],
+    "formulas": [],
+    "steps": []
+  },
+  {
+    "id": "ch04-entrepreneurial-skills",
+    "num": 4,
+    "title": "Entrepreneurial Skills–II",
+    "unit": "pa",
+    "unit_name": "Part A · Employability Skills",
+    "weight": "3 marks",
+    "short": "Who an entrepreneur is, qualities, functions, myths and role in society.",
+    "lede": "Definition plus four qualities plus one myth — that is the whole 3-mark answer.",
+    "lens": [
+      "**3 marks.** Qualities of an entrepreneur and “role in society” rotate.",
+      "Always add a **small Indian example** (a local bakery, a tutoring app)."
+    ],
+    "concepts": [
+      "**1. Entrepreneur** — a person who spots a need, takes a risk, organises resources and starts a business to earn profit and create value.",
+      "**2. Entrepreneurship** is the process of creating and running that venture.",
+      "**3. Qualities:** initiative, risk-taking, creativity, perseverance, self-confidence, leadership, problem-solving, honesty, hard work.",
+      "**4. Functions:** identify opportunity, arrange land/labour/capital, hire and lead, take decisions, bear risk, innovate, market the product.",
+      "**5. Myths:** “entrepreneurs are born, not made”; “you need a huge amount of money”; “it is only for the highly educated”; “failure means the person is useless”. All false — skills can be learned, many start small, failure is data.",
+      "**6. Role in society:** jobs, new products, use of local resources, wealth, solving local problems (waste, transport, tuition).",
+      "**7. Types (brief):** small business, scalable start-up, social entrepreneur (profit is not the only aim)."
+    ],
+    "tricks": [
+      "- Quality vs function: quality is a **trait** (perseverance); function is a **job** (arrange capital).",
+      "- Myth answers always start with **False**, then the correction."
+    ],
+    "mistakes": [
+      "- Calling every shopkeeper an entrepreneur without the risk/innovation idea.",
+      "- Listing qualities with no example."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Who is an entrepreneur? Give two qualities.",
+        "a": "A person who spots a need, takes a risk and organises resources to start a venture. Qualities: initiative and perseverance (or creativity, self-confidence)."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "State two myths about entrepreneurship and correct them.",
+        "a": "(1) “Born, not made” — skills can be learned. (2) “Needs huge capital” — many start with a small idea and grow."
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain four functions of an entrepreneur with a bakery example.",
+        "a": "Identify demand for fresh bread; arrange shop, oven and staff; take the risk of unsold stock; market via samples and a board; keep accounts. Each function maps to one quality: opportunity-spotting, organising, risk-taking, selling."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Neha notices students waiting 40 minutes for a shared printer. She starts a paid print-and-bind desk. Which entrepreneurial qualities is she using?",
+        "a": "Opportunity-spotting, initiative, risk-taking (she invests in a printer), problem-solving and customer focus."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA poster says “Only rich, highly educated people can start a business.”\n\n(a) Name the myth.\n(b) Give two counter-examples from daily life.\n(c) State two roles of entrepreneurship in society.",
+        "a": [
+          "(a) Myth of huge capital / only the highly educated.",
+          "(b) A tiffin service from a home kitchen; a tuition class in a garage.",
+          "(c) Jobs, new products, local resources used, local problems solved."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Entrepreneurial Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Entrepreneur — a person who spots a need, takes a risk, organises resources and starts a business to earn profit and create value.",
+          "Marks lens: marks. Qualities of an entrepreneur and “role in society” rotate.",
+          "Method / memory trick: Quality vs function: quality is a trait (perseverance); function is a job (arrange capital).",
+          "Do not: Calling every shopkeeper an entrepreneur without the risk/innovation idea."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Entrepreneurial Skills–II” (Who an entrepreneur is, qualities, functions, myths and role in society.). A classmate lost marks by doing this: Calling every shopkeeper an entrepreneur without the risk/innovation idea. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Quality vs function: quality is a trait (perseverance); function is a job (arrange capital).",
+          "Why the mistake costs marks: Calling every shopkeeper an entrepreneur without the risk/innovation idea.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Entrepreneurial Skills–II”. Their note says: Entrepreneur — a person who spots a need, takes a risk, organises resources and starts a business to earn profit and create value.\n\nThe chapter is described as: Who an entrepreneur is, qualities, functions, myths and role in society..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Who an entrepreneur is, qualities, functions, myths and role in society.",
+          "(b) marks. Qualities of an entrepreneur and “role in society” rotate.",
+          "(c) Calling every shopkeeper an entrepreneur without the risk/innovation idea."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "An entrepreneur primarily: (a) avoids all risk (b) takes calculated risk to create value (c) only works for a salary (d) copies without a customer",
+        "a": "**(b).**"
+      },
+      {
+        "q": "Which is a quality, not a function? (a) arranging capital (b) perseverance (c) hiring staff (d) marketing",
+        "a": "**(b) perseverance.**"
+      },
+      {
+        "q": "A social entrepreneur mainly aims to: (a) ignore people (b) solve a social problem, not only maximise profit (c) avoid accounts (d) work without a product",
+        "a": "**(b).**"
+      },
+      {
+        "q": "“Entrepreneurs are born, not made” is: (a) a fact (b) a myth (c) a 7 C (d) an OS function",
+        "a": "**(b) a myth.**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Entrepreneurial Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Who an entrepreneur is, qualities, functions, myths and role in society.."
+      },
+      {
+        "q": "A 3-mark answer on “Entrepreneurial Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Qualities + one myth, or role of entrepreneurship in society.",
+    "onepager": [
+      "- Entrepreneur = opportunity + risk + resources + value.",
+      "- Qualities: initiative, risk-taking, creativity, perseverance, confidence.",
+      "- Myths: born-not-made, needs huge money, only for the highly educated.",
+      "- Society: jobs, products, local resources, problem-solving."
+    ],
+    "task": [
+      "Pick one problem in your school. Write a 6-line business idea: customer, product, cost, risk, one quality you would need."
+    ],
+    "visual": [],
+    "formulas": [],
+    "steps": []
+  },
+  {
+    "id": "ch05-green-skills",
+    "num": 5,
+    "title": "Green Skills–II",
+    "unit": "pa",
+    "unit_name": "Part A · Employability Skills",
+    "weight": "1 mark",
+    "short": "Sustainable development, green economy and green jobs.",
+    "lede": "One-mark unit. Definition of sustainable development plus two green practices.",
+    "lens": [
+      "**1 mark.** Sustainable development definition is the banker.",
+      "Add **reduce, reuse, recycle** and one green job."
+    ],
+    "concepts": [
+      "**1. Environment** = the surroundings in which we live — air, water, land, plants, animals and humans.",
+      "**2. Sustainable development** meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+      "**3. Green economy** is low-carbon, resource-efficient and socially inclusive. Growth does not destroy the environment.",
+      "**4. Green skills** are the knowledge and attitudes needed for a sustainable society — saving energy, waste segregation, water conservation, green design.",
+      "**5. Green jobs:** solar technician, waste-segregation worker, organic farmer, green-building auditor, bicycle mechanic.",
+      "**6. Everyday practices:** switch off unused devices, use both sides of paper, carry a bottle, segregate dry/wet waste, plant trees, use public transport."
+    ],
+    "tricks": [
+      "- Sustainable development = **present + future**, not only “planting trees”.",
+      "- 3 Rs: Reduce first (best), then Reuse, then Recycle."
+    ],
+    "mistakes": [
+      "- Defining sustainable development as “using no resources”. It is **wise use**, not zero use.",
+      "- Mixing green skills with ICT skills."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "1",
+        "q": "Define sustainable development.",
+        "a": "Development that meets present needs without compromising the ability of future generations to meet their own needs."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "What are green skills? Give two examples.",
+        "a": "Skills that help a person live and work in an environmentally friendly way. Examples: waste segregation, saving electricity, water conservation."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "A computer lab leaves 20 PCs on overnight. Suggest three green practices and one green skill the lab assistant needs.",
+        "a": "Shut down PCs, use sleep mode, switch off AC/lights, enable duplex printing. Skill: energy-conservation habit / e-waste handling."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA factory dumps dye in a river but pays workers well.\n\n(a) Is this sustainable development? Why?\n(b) Name two green-economy changes.\n(c) One green job this town could create.",
+        "a": [
+          "(a) No — present wages at the cost of future water and health.",
+          "(b) Treat effluent, switch to safer dye, reuse water.",
+          "(c) Water-treatment operator or waste-segregation worker."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Green Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Environment = the surroundings in which we live — air, water, land, plants, animals and humans.",
+          "Marks lens: mark. Sustainable development definition is the banker.",
+          "Method / memory trick: Sustainable development = present + future, not only “planting trees”.",
+          "Do not: Defining sustainable development as “using no resources”. It is wise use, not zero use."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Green Skills–II” (Sustainable development, green economy and green jobs.). A classmate lost marks by doing this: Defining sustainable development as “using no resources”. It is wise use, not zero use. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Sustainable development = present + future, not only “planting trees”.",
+          "Why the mistake costs marks: Defining sustainable development as “using no resources”. It is wise use, not zero use.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Green Skills–II”. Their note says: Environment = the surroundings in which we live — air, water, land, plants, animals and humans.\n\nThe chapter is described as: Sustainable development, green economy and green jobs..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Sustainable development, green economy and green jobs.",
+          "(b) mark. Sustainable development definition is the banker.",
+          "(c) Defining sustainable development as “using no resources”. It is wise use, not zero use."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Sustainable development looks after: (a) only the present (b) only the future (c) present without harming the future (d) only factories",
+        "a": "**(c).**"
+      },
+      {
+        "q": "The best of the 3 Rs is: (a) Recycle (b) Reuse (c) Reduce (d) Refuse nothing",
+        "a": "**(c) Reduce** — don't create the waste."
+      },
+      {
+        "q": "A solar-panel technician is: (a) a linguistic barrier (b) a green job (c) an OS (d) a myth",
+        "a": "**(b) a green job.**"
+      },
+      {
+        "q": "Leaving a PC on overnight mainly wastes: (a) paper (b) electricity (c) toner only (d) nothing",
+        "a": "**(b) electricity.**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Green Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Sustainable development, green economy and green jobs.."
+      },
+      {
+        "q": "A 3-mark answer on “Green Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Definition of sustainable development, or one green practice / green job.",
+    "onepager": [
+      "- Sustainable development = present + future.",
+      "- Green economy: low carbon, resource-efficient, inclusive.",
+      "- 3 Rs: Reduce, Reuse, Recycle.",
+      "- Green jobs: solar, waste, organic farming, green buildings."
+    ],
+    "task": [
+      "For one school day, list five green actions you actually did (lights, paper, water, waste, travel)."
+    ],
+    "visual": [],
+    "formulas": [],
+    "steps": []
+  }
+]

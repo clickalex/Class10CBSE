@@ -1,9 +1,10 @@
 # Study-hub site
 
-A static study hub in the same shape as the
-[IT 402 hub](https://clickalex.github.io/IT-402-/index.html): a portal, one hub
-per subject, unit overviews, and one deep page per chapter with a marks lens,
-concepts, formulas, memory tricks, mistakes to avoid and exam Q&A.
+A static study hub: a portal, one hub per subject (including Information
+Technology 402, built in), unit overviews, and one deep page per chapter with a
+marks lens, concepts, formulas, memory tricks, mistakes to avoid and exam Q&A
+in four tones — Short, Long, Application and Competency — with click-to-reveal
+answers.
 
 ## Build
 
@@ -88,8 +89,8 @@ Subjects with no chapter content yet are skipped and shown on the portal as
 
 ## Coverage
 
-Every Class 10 subject has a hub. Chapter content is authored for all seven
-in-repo subjects — **154 chapters** in total:
+Every Class 10 subject has a hub. Chapter content is authored for all eight
+subjects — **174 chapters** in total:
 
 | Subject | Chapters |
 |---|---|
@@ -100,9 +101,11 @@ in-repo subjects — **154 chapters** in total:
 | Hindi | 40 |
 | Computer Applications | 14 |
 | Sanskrit | 19 |
+| Information Technology (402) | 20 |
 
-IT 402 is not rebuilt here — `subjects.json` lists it as an `external` card
-linking to the already-published 402 hub, so the portal links out to it.
+IT 402 is built in this site (same design as the others). It is not an
+external redirect. Question banks on every subject use Short / Long /
+Application / Competency cards with hidden answers.
 
 A useful sanity check before committing, because `build.py` does not name the
 file when a JSON file fails to parse:

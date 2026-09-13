@@ -1,363 +1,1205 @@
 [
-{
-"id": "ch05-resources-and-development", "num": 5, "title": "Resources and Development",
-"unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "part of 20 marks",
-"short": "Types of resources, land use, soil types and conservation.",
-"lede": "One classification table, one soil table, and a handful of Indian examples with state names. That is the whole chapter.",
-"lens": [
-"**3–4 marks.** Soil types with crops and states is the most repeated question; sustainable development and Agenda 21 recur as short answers.",
-"Always give an **Indian example with a state** — an answer with only textbook definitions scores at most half."
-],
-"concepts": [
-"**1. What is a resource?** Anything available in our environment that can be used to satisfy our needs, provided it is **technologically accessible, economically feasible and culturally acceptable**. Human beings are themselves resources — hence *human resource*. Development of resources happens through **interaction between nature, technology and institutions**.",
-"**2. Classification of resources.** By **origin**: biotic (forest, animals) and abiotic (rocks, metals). By **exhaustibility**: renewable (solar, wind, water) and non-renewable (coal, petroleum). By **ownership**: individual, community, national and international (resources beyond 200 nautical miles of the Exclusive Economic Zone are open *resources* for all). By **status of development**: potential, developed, stock and reserves.",
-"**3. Sustainable development.** Resource depletion is a global concern; the answer is development that does not harm the environment and does not compromise the needs of future generations. The **Club of Rome's *Limits to Growth* (1972)** first argued this systematically, and **Brundtland Commission Report, *Our Common Future* (1987)** made the term standard. **Agenda 21**, adopted at the **first Earth Summit at Rio de Janeiro in 1992**, is a global plan of action for sustainable development; India's **National Environment Policy** and the **Rio Convention** follow it.",
-"**4. Land use in India.** India's total geographical area is 3.28 million sq km, of which land-use data is available for only about 93%. **Net sown area** is about 43%; forest is about 22.8% against the 33% recommended by the National Forest Policy of 1952. **Land degradation** — about 130 million hectares — comes from mining (Jharkhand, Chhattisgarh, MP, Odisha), overgrazing (Gujarat, Rajasthan, MP, Maharashtra), over-irrigation causing waterlogging and salinity (Punjab, Haryana, western UP), and industrial effluents. Remedies: afforestation, proper grazing management, shelter belts, control on mining, treatment of industrial effluent.",
-"**5. Soil as a resource.** Soil formation depends on **relief, parent rock, climate, vegetation, other life forms and time**. The main types:",
-{"table": {"head": ["Soil", "Where found", "Crops"], "rows": [
-["Alluvial", "Northern plains, eastern coastal plains (deltas)", "rice, wheat, sugarcane — the most fertile"],
-["Black (regur)", "Deccan trap — Maharashtra, Saurashtra, Malwa, MP", "cotton; made of clay, holds moisture, develops cracks in summer"],
-["Red and yellow", "Odisha, eastern Andhra, parts of Karnataka, TN", "millets, pulses; red due to iron oxide"],
-["Laterite", "Karnataka, Kerala, TN, MP, hilly Odisha and Assam", "tea, coffee, cashew; formed by leaching"],
-["Arid", "Rajasthan, parts of Gujarat", "bajra, jowar; low humus, high salt"],
-["Forest", "Hilly and mountainous areas", "varies; rich in humus where dense"]]}},
-"**6. Soil erosion and conservation.** **Erosion** is the washing away of the top soil by water, wind or glacial action; a **badland** or **ravine** is land made unfit for cultivation (the Chambal basin). **Gully erosion** (running water cuts channels), **sheet erosion** (water flows as a sheet over a slope) and **wind erosion** in arid areas. Conservation: **contour ploughing**, **terrace cultivation** on slopes (Western and Central Himalayas), **strip cropping**, **shelter belts** of trees, and **mulching**."
-],
-"formulas": [],
-"tricks": [
-"- **Four ways to classify:** origin, exhaustibility, ownership, status of development — *'O-E-O-S'.*",
-"- **Black soil = cotton = Deccan trap = Maharashtra.** One chain of four words that answers most black-soil questions.",
-"- **Laterite is formed by *leaching*** in high-rainfall hilly areas — that is why it is poor for cereals but good for tea and coffee."
-],
-"mistakes": [
-"- Giving forest cover as 33%. Actual forest area is about 22.8%; **33% is the target** of the National Forest Policy of 1952.",
-"- Describing a resource as anything useful. It must also be **technologically accessible and economically feasible** — uranium in Ladakh is a *potential* resource.",
- "- Attributing waterlogging and salinity to mining. They come from **over-irrigation** in Punjab, Haryana and western UP."
-],
-"qa": [
-{"m": "3", "q": "Distinguish between renewable and non-renewable resources with examples.", "a": "Renewable resources can be renewed or reproduced by physical, chemical or mechanical processes and are inexhaustible in the long run — solar and wind energy, water, forests and wildlife. Non-renewable resources occur over very long geological periods and cannot be replenished once used up — coal, petroleum and natural gas, and metallic minerals such as iron ore."},
-{"m": "3", "q": "Explain the main features of black soil.", "a": "It is also called regur soil and is ideal for growing cotton. It is made of extremely fine clayey material, is well known for its capacity to hold moisture, and is rich in soil nutrients such as calcium carbonate, magnesium, potash and lime, though poor in phosphoric content. It develops deep cracks during hot weather, which helps aeration, and becomes sticky when wet. It is found in the Deccan trap region — Maharashtra, Saurashtra, Malwa and parts of Madhya Pradesh and Chhattisgarh."},
-{"m": "5", "q": "What is sustainable development and why is it important? Refer to Agenda 21.", "a": ["Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs. It requires that economic growth go hand in hand with environmental protection and social equity.", "**Why it matters:** indiscriminate use of resources has led to depletion, concentration of resources in a few hands, land degradation and global ecological crises such as global warming and ozone depletion.", "**Agenda 21** was adopted by the first Earth Summit held at Rio de Janeiro in 1992. It is a declaration of global agreement and international cooperation to combat environmental damage, poverty and disease through sustainable development, and it also provides that every local government should draw its own local Agenda 21."]},
-{"m": "3", "q": "What are the causes of land degradation in India and how can it be controlled?", "a": ["**Causes:** mining in Jharkhand, Chhattisgarh, MP and Odisha has left deep scars; overgrazing in Gujarat, Rajasthan, MP and Maharashtra; over-irrigation in Punjab, Haryana and western UP causing waterlogging and increased salinity and alkalinity; and industrial effluents polluting land and water.", "**Control:** large-scale afforestation, proper management of grazing, shelter belts of plants, stabilisation of sand dunes by growing thorny bushes, proper discharge and treatment of industrial effluents, and control on mining."]}
-],
-"mcq": [
-{"q": "Resources that are surveyed and their quality and quantity determined for utilisation are called: (a) potential (b) developed (c) stock (d) reserves", "a": "**(b) developed resources** — potential resources are those expected to be available in the future; stock are those not yet technologically accessible; reserves are the subset that can be put into use with existing technology."},
-{"q": "Black soil is mainly found in: (a) the Gangetic plain (b) the Deccan trap region (c) the Thar desert (d) the eastern coast", "a": "**(b) the Deccan trap region** — Maharashtra, Saurashtra, Malwa and parts of MP; it is ideal for cotton."},
-{"q": "Agenda 21 was adopted at the Earth Summit held at: (a) Johannesburg in 2002 (b) Rio de Janeiro in 1992 (c) Stockholm in 1972 (d) Kyoto in 1997", "a": "**(b) Rio de Janeiro in 1992** — the first Earth Summit on environment and development."}
-],
-"trend": "Soil types with their distribution and crops is asked almost every year; sustainable development with Agenda 21 and land degradation with remedies are the recurring short answers.",
-"onepager": [
-"- A resource must be technologically accessible, economically feasible and culturally acceptable.",
-"- Classification: origin, exhaustibility, ownership, status of development.",
-"- Black soil → cotton → Deccan trap; laterite → tea and coffee → leaching in hilly areas.",
-"- Land degradation: mining (Jharkhand, MP), overgrazing (Rajasthan, Gujarat), over-irrigation (Punjab, Haryana).",
-"- Agenda 21, Rio 1992; Brundtland Report, Our Common Future, 1987."
-],
-"task": ["On a blank outline map of India, shade the black soil, laterite and arid soil regions and write one crop and one state against each. Ten minutes with a map fixes this chapter better than an hour of reading."]
-},
-{
-"id": "ch06-forest-and-wildlife-resources", "num": 6, "title": "Forest and Wildlife Resources",
-"unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "part of 20 marks",
-"short": "Biodiversity, why species disappear, and the laws and movements that protect them.",
-"lede": "Three lists carry almost every question from this chapter: the categories of species, the causes of depletion, and the conservation steps.",
-"lens": [
-"**Part of the 20 geography marks.** Usually one 3-mark or 5-mark question, plus map pointing from the national parks and sanctuaries named here.",
-"The **causes of depletion** and the **categories of species** are the two lists to learn word-perfect; both are asked almost every year."
-],
-"concepts": [
-"**1. Biodiversity.** The variety of plants, animals and micro-organisms, and the ecosystems they live in. India is one of the world's **mega-diverse** countries: about **8 per cent of all recorded species** are found here — roughly **47,000 species of plants** and **81,000 species of animals**, of which about **15,000 are flowering plants** (6 per cent of the world's total). Three levels are protected together: **genetic diversity**, **species diversity** and **ecosystem diversity**.",
-"**2. How species are classified.** The IUCN Red List groups species by how close they are to extinction, and a species found only in one area is **endemic** to that area.",
-{"table": {"head": ["Category", "Meaning", "Examples"], "rows": [["Normal species", "Population levels are normal", "Cattle, rodents, some fisheries"], ["Endangered species", "In danger of extinction; survival is difficult if the negative factors continue", "Black buck, crocodile, Indian wild ass, Indian rhino, lion-tailed macaque, sangai deer"], ["Vulnerable species", "Population is declining and the species is likely to become endangered", "Blue sheep, Asiatic elephant, gangetic dolphin"], ["Rare species", "Small population in a limited area; may become endangered", "Himalayan brown bear, wild Asiatic buffalo, desert fox, hornbill"], ["Extinct species", "No longer found in the areas they once lived in", "Asiatic cheetah, pink-headed duck, Himalayan mountain quail"], ["Endemic species", "Found only in one particular area", "Andaman teal, Nicobar pigeon, Andaman wild pig, mithun"]]}},
-"**3. Causes of depletion.** Agricultural expansion and shifting cultivation; large development projects — dams, roads, railways and mines; **mining and quarrying**; grazing and the collection of fuel wood; forest fires; poaching and the illegal trade in skins, tusks and horns; pollution; and habitat destruction, which splits a population into small groups that a single fire or disease can wipe out. Over-population and unequal consumption in the richer countries put further pressure on the forest.",
-"**4. What the government did.** The **Indian Wildlife (Protection) Act, 1972** gave legal protection to listed species and their habitats and banned hunting. **Project Tiger (1973)** and Project Elephant followed, along with crocodile breeding and special protection for the rhino, the Kashmir stag and the great Indian bustard. National parks, wildlife sanctuaries and biosphere reserves were set up. In the 1980s and 1990s the **Supreme Court** ordered a ban on hunting protected species and on trade in their products, and stopped mining in several reserves.",
-"**5. Who owns the forest.** The Forest Department classifies forest land three ways:",
-{"table": {"head": ["Type", "What it is", "Share"], "rows": [["Reserved forests", "The most valuable forests for conservation; entry and grazing are banned", "More than half of the total forest land"], ["Protected forests", "Protected from further depletion; limited grazing and collection allowed", "About one-third of the total forest land"], ["Unclassed forests", "Forests and wastelands held by the government, by communities or by private owners", "The remaining land"]]}},
-"**6. Conservation by communities.** Much of the best protection has come from the people who live in the forest. Villagers near the **Sariska Tiger Reserve** (Alwar, Rajasthan) fought against mining inside the reserve, and villages around the **Bhairodev Dakav 'Sonchuri'** in the same district framed their own rules banning hunting and protecting wildlife. The **Chipko movement** in the Himalayas stopped felling when women hugged the trees, and the **Beej Bachao Andolan** at Tehri saved indigenous seeds and crops. **Joint Forest Management (JFM)**, introduced in **1988** and first adopted by **Odisha**, has communities protecting and regenerating forests along with the Forest Department in return for a share of the produce. **Sacred groves** — the **Sarna** and **devrai** patches left untouched because a deity is believed to live there, protected by custom rather than by law — have preserved some of the oldest forest left in the country."
-],
-"formulas": [],
-"tricks": [
-"- **Order of seriousness: normal → rare → vulnerable → endangered → extinct.** *Rare is few and local, vulnerable is falling, endangered is nearly gone.*",
-"- **One example each:** black buck (endangered), Asiatic elephant (vulnerable), Himalayan brown bear (rare), Asiatic cheetah (extinct), mithun (endemic).",
-"- **Movements:** Chipko hugs trees, Beej Bachao saves seeds, JFM shares the forest, sacred groves are protected by custom."
-],
-"mistakes": [
-"- Mixing up **rare** and **endangered**. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues.",
-"- Writing that the Wildlife (Protection) Act is of 1973. The **Act is 1972** and **Project Tiger is 1973**.",
-"- Forgetting that **JFM was first adopted in Odisha in 1988**, and that **reserved forests** have the largest share of forest land."
-],
-"qa": [
-{"m": "3", "q": "What are the categories of species recognised for conservation? Give one example of each.", "a": ["**Normal species** — population levels are normal, e.g. cattle and rodents.", "**Endangered species** — in danger of extinction, e.g. the black buck and the Indian rhino.", "**Vulnerable species** — declining and likely to become endangered, e.g. the Asiatic elephant.", "**Rare species** — a small population in a limited area, e.g. the Himalayan brown bear.", "**Extinct species** — no longer found, e.g. the Asiatic cheetah.", "**Endemic species** — found only in one area, e.g. the Andaman teal."]},
-{"m": "5", "q": "Explain any five causes of the depletion of forests and wildlife in India.", "a": ["**Agricultural expansion and shifting cultivation** have cleared large forest tracts.", "**Large development projects** — dams, roads, railways and mines — submerge or cut through forests.", "**Mining and quarrying** destroy habitats and pollute streams.", "**Grazing and the collection of fuel wood** prevent regeneration.", "**Poaching and illegal trade** in skins, tusks and horns target the most threatened species.", "**Habitat destruction and fragmentation** leave small populations that a single fire or disease can wipe out."]},
-{"m": "3", "q": "How have local communities conserved forests and wildlife? Give two examples.", "a": "Villagers around the Sariska Tiger Reserve in Alwar (Rajasthan) fought against mining in the reserve, and villages of the Bhairodev Dakav 'Sonchuri' in the same district framed their own rules banning hunting and protecting wildlife. The Chipko movement stopped felling in the Himalayas when women hugged the trees, the Beej Bachao Andolan saved indigenous seeds, and in sacred groves such as the Sarna and devrai, forests are protected by religious custom rather than by law."},
-{"m": "3", "q": "What is Joint Forest Management and why does it matter?", "a": "Joint Forest Management, introduced in 1988 and first adopted in Odisha, is a programme in which local communities protect and regenerate forests together with the Forest Department, in return for a share of the produce of the forest. It matters because protection works only when the people who live next to the forest have an interest in it."}
-],
-"mcq": [
-{"q": "Which of these is an endangered species in India? (a) cattle (b) Asiatic elephant (c) black buck (d) blue sheep", "a": "**(c) Black buck.** The Asiatic elephant and the blue sheep are vulnerable; cattle are a normal species."},
-{"q": "Project Tiger was launched in: (a) 1972 (b) 1973 (c) 1980 (d) 1988", "a": "**(b) 1973.** The Wildlife (Protection) Act came a year earlier, in 1972."},
-{"q": "Forests of the highest conservation value, where entry is banned, are: (a) unclassed forests (b) protected forests (c) reserved forests (d) sacred groves", "a": "**(c) Reserved forests**, which cover more than half the total forest land of the country."}
-],
-"trend": "One 3-mark question on the causes of depletion, or a 5-mark question combining the categories of species with conservation steps. National parks and wildlife sanctuaries from this chapter are regular map-pointing items, and community conservation — Chipko, JFM, sacred groves — turns up in case-based questions.",
-"onepager": [
-"- India holds about 8% of all recorded species: 47,000 plants, 81,000 animals, 15,000 flowering plants.",
-"- Categories: normal, endangered, vulnerable, rare, extinct, endemic — one example each.",
-"- Causes: agriculture, development projects, mining, grazing, fires, poaching, habitat destruction.",
-"- Protection: Wildlife (Protection) Act 1972, Project Tiger 1973, national parks and sanctuaries.",
-"- Forest types: reserved (more than half), protected (about a third), unclassed.",
-"- Communities: Chipko, Beej Bachao Andolan, JFM 1988 (first in Odisha), sacred groves."
-],
-"task": ["Take an outline map of India and mark five national parks or sanctuaries from the CBSE map list — for example Corbett, Ranthambore, Kanha, Periyar, Sunderbans, Kaziranga — writing the state against each. Then answer in five points: why does the protection of a forest succeed only when the people living next to it are involved?"]
-},
-{
-"id": "ch07-water-resources", "num": 7, "title": "Water Resources",
-"unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "part of 20 marks",
-"short": "Scarcity, multi-purpose projects, and rainwater harvesting.",
-"lede": "Two sides of one argument: dams are development, and dams displace people. Learn both and you can answer any question set on this chapter.",
-"lens": [
-"**3 marks.** Multi-purpose river projects with their benefits and drawbacks is the set question; rainwater harvesting methods come second.",
-"Name Indian projects and places — Bhakra Nangal, Hirakud, Sardar Sarovar, Narmada Bachao Andolan, Rajasthan's *johads* and *khadins*."
-],
-"concepts": [
-"**1. Water resources.** About three-fourths of the earth's surface is covered with water, but only about **2.5% is fresh water**, and nearly 70% of that is frozen in ice sheets; almost all the rest is groundwater. India ranks **133rd in the world in terms of water availability per person per annum** (2010 data). Renewable water resources amount to about 1,869 cubic km. About 22% of the total water used is in the industrial sector; over 80% is used in agriculture.",
-"**2. Water scarcity.** It means insufficient availability of water in terms of **quantity** (low rainfall, drought) and **quality** (polluted water). Causes: growing population, greater demand for food and cash crops, urbanisation with lifestyles that use more water, over-exploitation and unequal access between social groups. Even areas with abundant water suffer scarcity because of **pollution** from domestic and industrial waste, pesticides and fertilisers.",
-"**3. Multi-purpose river projects.** After independence, dams were seen as the vehicles of development — Nehru called them the **temples of modern India**. A multi-purpose project has several integrated uses: **irrigation, electricity generation, flood control, inland navigation, fish breeding, recreation and water supply**. Examples: **Bhakra Nangal** (Satluj), **Hirakud** (Mahanadi), **Damodar Valley Corporation**, **Kopili**, and the **Narmada** and **Sardar Sarovar** projects on the Narmada.",
-"**4. Opposition to dams.** Large dams submerge vast areas of forest and farmland and displace local communities — the **Narmada Bachao Andolan** and the **Tehri Dam Andolan** are the best-known movements. **Jawaharlal Nehru's** dams also created conflicts between industrialists and urban centres on one side and the agricultural population on the other; in Gujarat, the **Sabarmati-basin farmers** were almost rioting in 1999 when the Sardar Sarovar project gave priority to water supply for urban areas. Inter-state disputes also arise over sharing costs and benefits, as in the **Krishna-Godavari** dispute when Karnataka and Andhra Pradesh objected to Maharashtra's plan to divert more water at Koyna. Earthquake-induced damage, sedimentation and waterlogging are further drawbacks.",
-"**5. Rainwater harvesting — the alternative.** In semi-arid Rajasthan, houses traditionally had **tanks** attached to the roof (*tanka*, sometimes as big as a room) for storing drinking water; the first spell of rain was not collected as it cleans the roof. Modern methods: **rooftop rainwater harvesting** (widely used in Meghalaya, and made **compulsory in Tamil Nadu** for all houses, with legal provisions for defaulters), **gully plugs**, **contour bunds**, **check dams**, **percolation tanks**, **recharge pits** and **khadins and johads** in agricultural fields, where rainwater is allowed to stand and moisten the soil. In the flood plains of West Bengal, **inundation canals** irrigate fields; in the western Himalayas, **diversion channels called guls or kuls** carry water to villages.",
-"**6. Bamboo drip irrigation** is a two-hundred-year-old system of Meghalaya in which bamboo pipes are used to divert perennial springs on hilltops to the lower reaches by gravity — about 18–20 litres of water enters the bamboo system and reaches the plant site as 20–80 drops per minute."
-],
-"formulas": [],
-"tricks": [
-"- **Dams: give three benefits and three drawbacks** in every answer — irrigation, power, flood control against displacement, sedimentation and conflict. Full marks need both sides.",
-"- **Rainwater harvesting = 'catch it where it falls'.** Rooftop in Meghalaya and Tamil Nadu; khadins and johads in Rajasthan; guls and kuls in the Himalayas; inundation canals in West Bengal.",
-"- **Only 2.5% of the earth's water is fresh.** That single statistic anchors most scarcity answers."
-],
-"mistakes": [
-"- Writing only the benefits of dams. The question almost always asks for drawbacks too.",
- "- Attributing the Tehri Dam movement to the Narmada valley. They are separate movements — Tehri is on the Bhagirathi in Uttarakhand.",
- "- Saying rooftop harvesting is compulsory across India. It is compulsory in **Tamil Nadu**, with legal provisions for defaulters."
-],
-"qa": [
-{"m": "3", "q": "Why is water scarcity increasing in India?", "a": "Because of a growing population, which raises the demand for water for drinking and for growing more food and cash crops; rapid urbanisation and changing lifestyles that consume more water; over-exploitation of groundwater by commercial farming; and unequal access between social groups. In many regions water is abundant but polluted by domestic and industrial waste and by pesticides and fertilisers, so it cannot be used without treatment."},
-{"m": "5", "q": "Multi-purpose river projects have several advantages but also several drawbacks. Explain.", "a": ["**Advantages:** they provide water for irrigation, generate hydroelectricity, control floods, help inland navigation, supply water to industries and cities, and provide fish breeding, recreation and landscape value. Nehru proudly called dams the temples of modern India.", "**Drawbacks:** (i) large dams submerge forests and agricultural land and displace local communities, who are often not properly rehabilitated — the Narmada Bachao Andolan and the Tehri Dam Andolan grew out of this; (ii) they disturb the natural flow of rivers, causing poor sediment flow and excessive sedimentation at the bottom of the reservoir, which destroys habitats; (iii) they cause waterlogging and soil salinity in the command area; (iv) they trigger inter-state disputes over the sharing of costs and benefits, as between Karnataka, Maharashtra and Andhra Pradesh over the Krishna-Godavari waters; (v) they have induced earthquakes and, in the case of the Sardar Sarovar project, sparked protests when urban water supply was given priority over irrigation for farmers."]},
-{"m": "3", "q": "Describe the traditional rainwater harvesting system of Rajasthan.", "a": "In the semi-arid regions of Rajasthan, particularly in Bikaner, Phalodi and Barmer, most houses traditionally had underground tanks or *tankas* for storing drinking water. The tanks were built inside the house or the courtyard and were connected to the sloping roofs. The first spell of rain was not collected, as it cleans the roof and the pipes; from the second shower onward the water was stored. The stored water lasted through the dry season and was treated as pure enough for religious use."},
-{"m": "3", "q": "What is rooftop rainwater harvesting and where has it been made compulsory?", "a": "It is a method in which rainwater falling on rooftops is collected through pipes and stored in underground tanks or used to recharge groundwater. It is common in Meghalaya, where bamboo pipes are used, and in Tamil Nadu it has been made compulsory for all houses, with legal provisions to punish defaulters."}
-],
-"mcq": [
-{"q": "Jawaharlal Nehru proudly proclaimed dams as: (a) the lifelines of India (b) the temples of modern India (c) the pride of the nation (d) the wealth of India", "a": "**(b) the temples of modern India** — they were seen as the means of developing irrigation, hydroelectricity and flood control together."},
-{"q": "In which state has rooftop rainwater harvesting been made compulsory for all houses? (a) Rajasthan (b) Meghalaya (c) Tamil Nadu (d) West Bengal", "a": "**(c) Tamil Nadu**, with legal provisions to punish defaulters."},
-{"q": "'Johads' and 'khadins' are traditional methods of: (a) irrigation canals (b) rainwater harvesting in agricultural fields (c) flood control (d) groundwater pumping", "a": "**(b) rainwater harvesting in agricultural fields**, mainly in arid Rajasthan, where rainwater is allowed to stand and moisten the soil."}
-],
-"trend": "The advantages and drawbacks of multi-purpose river projects is the set 5-mark answer; rainwater harvesting methods with regional names appear frequently as 3-mark questions.",
-"onepager": [
-"- Only 2.5% of the earth's water is fresh; India ranks 133rd per person per annum (2010).",
-"- Multi-purpose projects: irrigation, power, flood control, navigation, fish breeding, recreation.",
-"- Drawbacks: displacement, sedimentation, waterlogging, inter-state disputes, earthquakes.",
- "- Rainwater harvesting: tankas (Rajasthan), guls and kuls (Himalayas), inundation canals (WB), bamboo drip (Meghalaya), compulsory rooftop (Tamil Nadu)."
-],
-"task": ["List the three nearest sources of water to your home and find out where the water in your tap comes from. Then sketch a rooftop harvesting design for your own house with the pipe, first-flush separator and storage tank labelled — this is a common activity-based question."]
-},
-{
-"id": "ch08-agriculture", "num": 8, "title": "Agriculture",
-"unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "part of 20 marks",
-"short": "Cropping patterns, crop requirements and food security.",
-"lede": "A crop-requirements table worth memorising cold. Temperature, rainfall and soil for rice, wheat, millets, cotton, jute, tea and coffee answers most questions.",
-"lens": [
-"**3–4 marks.** The geographical conditions of rice/wheat/tea/coffee and the three cropping seasons are asked almost every year.",
-"Crops are also a **map pointing** item — learn the producing states with their positions."
-],
-"concepts": [
-"**1. Agriculture in India.** About two-thirds of India's population is engaged in agriculture, which provides most of the food consumed, produces raw material for industries, and earns foreign exchange through exports of tea, coffee and spices. It is the backbone of the economy.",
-"**2. Cropping seasons.** **Rabi** — sown in winter from October to December, harvested in summer from April to June (wheat, barley, peas, gram, mustard). **Kharif** — sown with the onset of the monsoon in different parts of the country from June to July, harvested in September–October (paddy, maize, jowar, bajra, tur, moong, urad, cotton, jute, groundnut, soybean). **Zaid** — a short season in the summer between rabi and kharif (watermelon, muskmelon, cucumber, vegetables, fodder).",
-"**3. Types of farming.** **Primitive subsistence** — slash-and-burn agriculture, known as *jhumming* in the north-eastern states, *pamlou* in Manipur, *dipia* in Bastar and *milpa* in Central America; low productivity, no fertilisers. **Intensive subsistence** — labour-intensive, high doses of biochemical inputs and irrigation, practised where population pressure on land is high. **Commercial** — single crop over a large area (**plantation**: tea in Assam, coffee in Karnataka, rubber in Kerala, banana in the south), using capital-intensive inputs and migrant labour.",
-{"table": {"head": ["Crop", "Temperature", "Rainfall", "Soil and main areas"], "rows": [
-["Rice", "above 25 °C, high humidity", "above 100 cm", "alluvial; Punjab, Haryana, WB, UP, coastal Andhra, Tamil Nadu"],
-["Wheat", "cool growing season, bright sunshine at ripening", "50–75 cm", "well-drained loam; Ganga-Satluj plains, Deccan black soil"],
-["Millets (jowar, bajra, ragi)", "grow on less fertile soil", "low rainfall", "jowar — Maharashtra, Karnataka, AP; bajra — Rajasthan, UP; ragi — Karnataka, TN"],
-["Cotton", "high temperature, 210 frost-free days", "50–100 cm", "black soil; Maharashtra, Gujarat, MP, Punjab, Haryana"],
-["Jute", "warm and moist, 24–35 °C", "150–250 cm", "well-drained alluvial in flood plains; WB, Bihar, Assam"],
-["Tea", "warm and moist frost-free, 20–30 °C", "150–300 cm", "deep, fertile, well-drained; Assam, Darjeeling, Nilgiris, Kerala"],
-["Coffee", "warm and humid", "high", "well-drained loam; Karnataka, Kerala, TN (Arabica)"]]}},
-"**4. Technological and institutional reforms.** After independence India tried land reforms (consolidation of holdings, abolition of the zamindari system), then **Bhoodan and Gramdan** movements — the *Bloodless Revolution* — followed by the **Green Revolution** (HYV seeds, irrigation, fertilisers, especially in Punjab, Haryana and western UP) and the **White Revolution** (Operation Flood, milk). Later measures: **Kissan Credit Card**, **Personal Accident Insurance Scheme**, minimum support price and remunerative procurement prices, subsidies on power and fertilisers, and **Grameen banks** and cooperative societies to reduce dependence on moneylenders.",
-"**5. Food security and globalisation.** **Buffer stock** is created by the government by procuring wheat and rice through the **Food Corporation of India** and distributing them through **ration shops** at prices lower than the market price. India's farmers face competition from **subsidised agriculture in developed countries**, so many farmers, especially smallholders, have withdrawn from farming. **Organic farming** — farming without factory-made chemicals such as fertilisers and pesticides — is increasingly popular because it does not damage the environment."
-],
-"formulas": [],
-"tricks": [
-"- **Kharif = monsoon (June–July to Sept–Oct); Rabi = winter (Oct–Dec to April–June); Zaid = summer.** *'Kharif rain, Rabi grain, Zaid melon.'*",
-"- **Rice needs 100 cm, wheat needs 50–75 cm, jute needs the most (150–250 cm).**",
-"- **Tea = Assam/Darjeeling/Nilgiris; coffee = Karnataka/Kerala/TN.** Tea needs more water than coffee."
-],
-"mistakes": [
-"- Mixing up kharif and rabi crops. Wheat, gram, mustard and barley are **rabi**; rice, cotton, jute and maize are **kharif**.",
- "- Forgetting that **plantation** agriculture is commercial, not subsistence.",
- "- Writing that tea needs a waterlogged plain. Tea needs **well-drained** soil on slopes — waterlogging damages the roots."
-],
-"qa": [
-{"m": "3", "q": "Describe the geographical conditions required for the growth of rice.", "a": "Rice is a kharif crop that requires a temperature above 25 °C and high humidity, with annual rainfall above 100 cm. It grows best in the plains of north and north-eastern India, the coastal areas and the deltaic regions. In areas of less rainfall, such as Punjab, Haryana and western Uttar Pradesh, it is grown with the help of irrigation and canal networks."},
-{"m": "3", "q": "Distinguish between kharif and rabi crops with two examples of each.", "a": "Kharif crops are sown with the onset of the monsoon in June–July and harvested in September–October — for example paddy, maize, cotton and jute. Rabi crops are sown in winter from October to December and harvested in summer from April to June — for example wheat, barley, peas, gram and mustard."},
-{"m": "5", "q": "Describe the impact of globalisation on Indian agriculture.", "a": ["Indian agriculture has faced the impact of globalisation since colonial times — indigo was grown for export and forced upon farmers, leading to the Champaran revolt.", "Today, Indian farmers face competition from highly subsidised agriculture in developed countries, so the prices of agricultural produce are unstable and many small farmers find cultivation unviable.", "Liberalisation has removed restrictions on imports, so cheaper imports of edible oils and grains have reduced demand for Indian produce.", "**Positive side:** improved technology, HYV and genetically modified seeds, better irrigation and access to information have raised productivity in some regions, and organic farming is opening new markets.", "**Result:** a large number of small and marginal farmers have withdrawn from farming, and agriculture is no longer a rewarding occupation for them."]},
-{"m": "3", "q": "What is plantation agriculture? Give one example.", "a": "It is a type of commercial farming in which a single crop is grown on a large area, using capital-intensive inputs and migrant labour, and the produce is used as raw material in industries. Tea in Assam and North Bengal, coffee in Karnataka, rubber in Kerala and banana in southern India are examples; the production of tea in Assam was developed by the British with capital, technology and indentured labour."},
-{"m": "3", "q": "What is buffer stock and why is it created?", "a": "Buffer stock is a stock of foodgrains, mainly wheat and rice, procured by the government through the Food Corporation of India. It is created to distribute foodgrains in deficit areas and among the poorer strata of society at a price lower than the market price, and to meet the shortage during a bad harvest or a calamity."}
-],
-"mcq": [
-{"q": "'Milpa' is a term used for slash-and-burn agriculture in: (a) north-east India (b) Central America and Mexico (c) Indonesia (d) the Amazon basin", "a": "**(b) Central America and Mexico.** In north-east India the same practice is called jhumming."},
-{"q": "Which crop requires about 210 frost-free days and 50–100 cm of rainfall? (a) rice (b) wheat (c) cotton (d) jute", "a": "**(c) cotton** — a kharif crop grown in black soil in Maharashtra, Gujarat, MP, Punjab and Haryana."},
-{"q": "Operation Flood is associated with: (a) the Green Revolution (b) milk production (c) irrigation projects (d) soil conservation", "a": "**(b) milk production** — the White Revolution, which made India the largest milk producer in the world."}
-],
-"trend": "The geographical conditions of rice, wheat, cotton, tea or coffee is asked in nearly every paper; kharif vs rabi and the impact of globalisation on Indian agriculture are the recurring 3–5 mark answers.",
-"onepager": [
-"- Kharif: rice, maize, cotton, jute. Rabi: wheat, gram, barley, mustard. Zaid: watermelon, fodder.",
-"- Rice 100 cm rain; wheat 50–75 cm; jute 150–250 cm; cotton 50–100 cm and 210 frost-free days.",
-"- Plantation: tea (Assam), coffee (Karnataka), rubber (Kerala).",
-"- Green Revolution — HYV seeds in Punjab, Haryana, western UP; White Revolution — Operation Flood.",
-"- Buffer stock via the Food Corporation of India; Kissan Credit Card; minimum support price."
-],
-"task": ["Make a crop table from memory: crop, season, temperature, rainfall, soil, two producing states. Cover rice, wheat, jowar, bajra, ragi, cotton, jute, sugarcane, tea and coffee. Then check it against the NCERT table and mark every cell you got wrong."]
-},
-{
-"id": "ch09-minerals-and-energy-resources", "num": 9, "title": "Minerals and Energy Resources",
-"unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "part of 20 marks",
-"short": "Mineral belts, conventional and non-conventional energy.",
-"lede": "Two lists to learn: where the minerals are, and which energy sources are renewable. Both are heavily tested on maps.",
-"lens": [
-"**3 marks.** The difference between conventional and non-conventional sources, and one mineral with its belt, is the usual question.",
-"Oil fields, coal fields, iron-ore belts and power plants are regular **map pointing** items."
-],
-"concepts": [
-"**1. Minerals.** A mineral is a homogeneous, naturally occurring substance with a definite internal structure, found in various forms from the hardest diamond to the softest talc. They are classified as **metallic** (iron, manganese, copper, bauxite) and **non-metallic** (limestone, mica, gypsum), and as **ferrous** and **non-ferrous**. Minerals occur in **veins and lodes** in igneous and metamorphic rocks, as **beds or layers** in sedimentary rocks, as **residual masses** from the decomposition of surface rocks (bauxite), as **placer deposits** in alluvial sands (gold, silver, tin, platinum), and in **ocean waters** (common salt, magnesium, bromine).",
-"**2. India's mineral belts.** **Iron ore** — the basic mineral and backbone of industrial development: **hematite** (the finest, with up to 70% iron) and **magnetite** (60–70% iron, excellent magnetic properties for the electrical industry). Belts: **Odisha-Jharkhand** (Badampahar, Mayurbhanj), **Durg-Bastar-Chandrapur** (Bailadila in Chhattisgarh, exported to Japan and South Korea), **Bellary-Chitradurga-Chikkamagaluru-Tumakuru** in Karnataka (Kudremukh), and **Maharashtra-Goa** (Ratnagiri). **Manganese** — used in steel, ferro-manganese alloy, bleaching powder, insecticides and paints; mainly in Odisha, Jharkhand, MP, Maharashtra, Goa and Karnataka.",
-"**3. Copper, bauxite and mica.** **Copper** is malleable, ductile and a good conductor; used in electrical cables, electronics and chemical industries; **Balaghat** in MP, **Singhbhum** in Jharkhand and **Jhunjhunu-Alwar** in Rajasthan. **Bauxite**, from which **aluminium** is obtained, is used where aluminium replaces steel and copper because it is light, resistant, malleable and a good conductor; found in the **Amarkantak plateau, Maikal hills and the Bilaspur-Katni plateau** in MP — **Odisha is the largest producer** (Panchpatmali). **Mica** — a mineral made of plates or leaves, used in the electrical and electronic industries because of its excellent dielectric strength and resistance to high voltage; **Koderma-Gaya-Hazaribagh** belt in Jharkhand is the largest producer, followed by Ajmer in Rajasthan and Nellore in Andhra Pradesh.",
-"**4. Conventional sources of energy.** **Coal** — the most abundantly available fossil fuel and the major source of energy in India; four types: **anthracite** (best, hard, high carbon), **bituminous** (most popular commercially), **lignite** (brown, soft, high moisture — Neyveli in Tamil Nadu), and peat. Major fields: **Damodar valley** (Jharia, Raniganj, Bokaro), Godavari, Mahanadi, Son and Wardha valleys. **Petroleum** — the next major energy source, and a raw material for the chemical industry; about 63% of India's production comes from the **Bombay High**, 18% from **Gujarat** (Ankleshwar) and 16% from **Assam** (Digboi, Naharkatiya, Moran-Hugrijan). **Natural gas** — an environmentally friendly fuel because of low CO2 emissions; the **KG basin** has large reserves. **Electricity** is generated mainly by **hydroelectric** plants (Bhakra Nangal, Damodar Valley Corporation, Kopili) and **thermal** plants burning coal, petroleum and natural gas.",
-"**5. Non-conventional (renewable) sources.** **Solar energy** — becoming rapidly popular in rural India through **photovoltaic** technology; the **Bhuj** solar plant and the large **Bhadla** plant in Rajasthan; solar plants at **Neyveli**; **solar cooker**s and **solar water heaters**. **Wind power** — India is a **superpower** in wind energy; the largest wind farm cluster is in **Tamil Nadu** (from Nagercoil to Madurai), with important plants in Andhra Pradesh, Karnataka, Gujarat, Kerala, Maharashtra and Lakshadweep. **Biogas** — produced from shrubs, farm waste, animal and human waste; a higher thermal efficiency than charcoal and better than kerosene; **gobar gas** plants in rural areas. **Tidal, geothermal and atomic energy** — the **Gulf of Khambhat and Gulf of Kuchchh** in Gujarat and the **Sundarbans** in West Bengal have tidal potential; **Manikaran** in Himachal Pradesh and **Puga Valley** in Ladakh have geothermal potential; **atomic energy** from uranium and thorium — uranium in Jharkhand and the Aravalli ranges of Rajasthan, and **monazite** sands in Kerala containing thorium.",
-"**6. Conservation.** Minerals are **exhaustible and non-renewable**, take millions of years to form, and the rate of replenishment is infinitely small compared with the rate of consumption. We must use them in a **planned and sustainable** manner, improve technology to use low-grade ores at low cost, and recycle metals and scrap."
-],
-"formulas": [],
-"tricks": [
-"- **Coal ranks: Anthracite > Bituminous > Lignite > Peat.** *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses.",
-"- **Non-conventional = solar, wind, biogas, tidal, geothermal, atomic.** Anything that does not come from burning a fossil fuel.",
-"- **Largest producer list:** bauxite — Odisha; mica — Koderma (Jharkhand); wind — Tamil Nadu; petroleum — Bombay High."
-],
-"mistakes": [
-"- Calling **lignite** the best quality coal. It is low-grade, brown and has high moisture — **anthracite** is the best.",
- "- Saying petroleum is a renewable resource because it keeps being formed. It is **non-renewable** on a human time scale.",
- "- Placing the largest wind farm cluster in Gujarat. It is in **Tamil Nadu**, from Nagercoil to Madurai."
-],
-"qa": [
-{"m": "3", "q": "Distinguish between conventional and non-conventional sources of energy with two examples each.", "a": "Conventional sources have been in use for a long time, are largely exhaustible, cause pollution and are costly to obtain — for example coal and petroleum. Non-conventional sources are recently developed, are renewable and eco-friendly, and have lower running costs — for example solar and wind energy."},
-{"m": "3", "q": "Why is there a pressing need to use non-conventional sources of energy in India?", "a": "Because the growing consumption of energy has resulted in a rising dependence on coal and petroleum, whose prices are rising and whose reserves are limited; importing petroleum puts a heavy burden on foreign exchange. Conventional sources also cause environmental degradation and global warming. India has abundant potential for solar, wind, tidal, geothermal and biogas energy, which is renewable, eco-friendly and can be generated locally, so developing it improves energy security and reduces pollution."},
-{"m": "3", "q": "Describe the distribution of iron ore in India.", "a": "Iron ore is the basic mineral and the backbone of industrial development. Hematite, the finest quality with up to 70% iron, and magnetite, with 60–70% iron and excellent magnetic properties, are found in four belts: the Odisha-Jharkhand belt (Badampahar and Mayurbhanj in Odisha, Kiriburu in Jharkhand); the Durg-Bastar-Chandrapur belt in Chhattisgarh and Maharashtra, including the famous Bailadila mines whose ore is exported to Japan and South Korea; the Bellary-Chitradurga-Chikkamagaluru-Tumakuru belt in Karnataka with the large Kudremukh mines; and the Maharashtra-Goa belt, whose ore is exported through the Marmagao port."},
-{"m": "5", "q": "Explain any five non-conventional sources of energy available in India.", "a": ["**Solar energy:** converted using photovoltaic technology; rapidly becoming popular in rural India, used for lighting, cooking and water heating — the largest solar plants are in Rajasthan (Bhadla) and Tamil Nadu (Neyveli).", "**Wind energy:** India is a superpower in wind power, with the largest cluster of wind farms in Tamil Nadu from Nagercoil to Madurai.", "**Biogas:** produced from farm waste, animal and human waste in gobar gas plants; it has higher thermal efficiency than charcoal and is used for lighting and cooking in villages.", "**Tidal energy:** generated by using floodgate dams across inlets — potential in the Gulf of Khambhat, the Gulf of Kuchchh and the Sundarbans.", "**Geothermal energy:** heat from the earth's interior used to generate power — the Manikaran hot springs in Himachal Pradesh and the Puga Valley in Ladakh are promising; six plants have been set up there.", "**Atomic energy:** produced from uranium and thorium; uranium is found in Jharkhand and the Aravalli range, and thorium in the monazite sands of Kerala."]}
-],
-"mcq": [
-{"q": "The finest quality of iron ore with about 70% iron content is: (a) magnetite (b) hematite (c) limonite (d) siderite", "a": "**(b) hematite** — the most important industrial iron ore in terms of quantity used; magnetite has 60–70% iron and valued magnetic properties."},
-{"q": "The largest producer of mica in India is the: (a) Koderma-Gaya-Hazaribagh belt (b) Ajmer region (c) Nellore belt (d) Balaghat belt", "a": "**(a) Koderma-Gaya-Hazaribagh belt in Jharkhand**, which is the largest producer of mica in India and the world."},
-{"q": "About 63% of India's petroleum production comes from: (a) Assam (b) Gujarat (c) Bombay High (d) the KG basin", "a": "**(c) Bombay High.** Gujarat contributes about 18% and Assam about 16%."}
-],
-"trend": "The difference between conventional and non-conventional sources and the distribution of one major mineral (iron ore, coal or petroleum) alternate as the set question; oil fields, coal fields and power plants recur as map items.",
-"onepager": [
-"- Hematite (70% iron) is the finest; magnetite (60–70%) has magnetic properties.",
-"- Coal ranks: anthracite, bituminous, lignite, peat. Damodar valley = Jharia, Raniganj, Bokaro.",
-"- Petroleum: Bombay High 63%, Gujarat 18%, Assam 16%.",
-"- Largest wind cluster: Tamil Nadu (Nagercoil–Madurai). Bauxite: Odisha. Mica: Koderma.",
-"- Minerals are exhaustible and non-renewable — use them in a planned, sustainable way and recycle."
-],
-"task": ["On a blank outline map of India, mark the Damodar valley coal fields, Bombay High, Digboi, Kudremukh, Bailadila, Koderma and the Tamil Nadu wind corridor. Then say aloud which of these are also map pointing items in the CBSE list — map work here is free marks."]
-},
-{
-"id": "ch10-manufacturing-industries", "num": 10, "title": "Manufacturing Industries",
-"unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "part of 20 marks",
-"short": "Classification, agro-based and mineral-based industries, pollution.",
-"lede": "Two industry families — agro-based and mineral-based — each with a location factor list. Learn cotton textiles and iron and steel properly.",
-"lens": [
-"**3 marks.** The cotton textile industry and the iron and steel industry are the recurring long answers; industrial pollution with control measures is the other favourite.",
-"Steel plants, software parks and textile centres appear as **map pointing** items."
-],
-"concepts": [
-"**1. Manufacturing and its importance.** Manufacturing is the production of goods in large quantities after processing raw materials into more valuable products — for example, paper from wood, sugar from sugarcane, aluminium from bauxite. It contributes about **17% of GDP** (of which 10% comes from mining, electricity, gas, water supply and other utilities; manufacturing alone is about 27%, and 12% comes from construction). Manufacturing is important because it **modernises agriculture**, reduces dependence on agricultural income by providing jobs in the secondary and tertiary sectors, **eradicates unemployment and poverty**, reduces regional disparities, expands trade and earns foreign exchange through exports, and brings prosperity by adding value to raw materials. **Industrial pollution** and the location of industries are decided by **availability of raw material, cheap and skilled labour, power, market and transport**.",
-"**2. Classification of industries.** By **source of raw material**: agro-based (cotton, wool, jute, silk, sugar) and mineral-based (iron and steel, cement, aluminium). By **main role**: basic or key industries (which supply their products to other industries, e.g. iron and steel), and consumer industries. By **capital investment**: small, medium and large. By **ownership**: **public sector** (SAIL, BHEL, ONGC — owned by the government), **private sector** (TISCO, Bajaj Auto), **joint sector** (Oil India Ltd, jointly owned by the state and individuals) and **cooperative sector** (Amul, sugar cooperatives of Maharashtra). By **weight of raw material**: heavy (using bulky raw materials, e.g. iron and steel) and light. By **bulk and weight of raw material and finished goods** also.",
-"**3. Agro-based industries.** **Cotton textiles** — in the early years the industry was concentrated in the **cotton-growing belt of Maharashtra and Gujarat** because of raw cotton, market, transport including ports, labour and moist climate. Today India exports yarn to Japan, but the **weaving, knitting and processing units** cannot fully use the high-quality yarn produced, and most spinning is in Maharashtra, Gujarat and Tamil Nadu while weaving is decentralised. India's production of **Gandhiji's khadi**, handspun and handwoven cloth, remains important; a challenge to the industry is competition from synthetic fibre. **Sugar industry** — India is the second largest producer of sugar and the largest producer of **gur and khandsari**; mills are shifting to **southern and western states, especially Maharashtra**, because the cane there has a higher sucrose content, a longer crushing season and the cooperatives are more successful. **Jute textiles** — India is the largest producer of raw jute and jute goods; most mills are in **West Bengal along the banks of the Hooghly**, because of proximity to jute-producing areas, inexpensive water transport, abundant water, cheap labour and the port of Kolkata. National Jute Policy 2005 aims at increasing productivity, improving quality and increasing yield per hectare.",
-"**4. Mineral-based industries.** **Iron and steel** — a **basic** industry because all other industries depend on it for machinery, and a **heavy** industry because all its raw materials and finished products are heavy and bulky. India is the largest producer of **sponge iron** and ranks among the leading producers of crude steel. Chotanagpur plateau has the maximum concentration of iron and steel industries because of low cost of iron ore, high-grade raw material, cheap labour, vast growth potential in the home market and good transport. **TISCO, Jamshedpur** (1907, the oldest) is close to the Kolkata market; **Bokaro** and **Bhilai** (with Soviet collaboration), **Durgapur** and **Rourkela** (with German collaboration) were set up in the public sector. Problems: high cost and limited supply of **coking coal**, low labour productivity, irregular energy supply and poor infrastructure. **Aluminium smelting** — the second most important metallurgical industry; aluminium is light, resistant to corrosion and a good conductor, used in aircraft, utensils and wires; it is a **smelting** industry needing a regular supply of electricity and bauxite. **Chemical industries** contribute about 3% of GDP and are placed third in Asia; include organic (petrochemicals) and inorganic (sulphuric acid, nitric acid, caustic soda) chemicals. **Fertiliser industry** expanded after the Green Revolution, concentrated in Gujarat, Punjab, Haryana, UP and Tamil Nadu near natural gas reserves. **Cement** needs bulky raw materials — limestone, silica, alumina and gypsum — and coal, electricity and diesel; the industry has grown in Gujarat because of access to the Gulf market.",
-"**5. Information technology and electronics.** The electronics industry covers a wide range from transistors to television, telephones and computers; **Bengaluru has emerged as the electronic capital of India**, with other important centres at Delhi, Hyderabad, Pune, Chennai, Mumbai, Mohali, Kolkata and Lucknow. **Software technology parks** provide a single-window service and high data communication facility to software experts. India's **BPO** and IT services sector has grown rapidly, and women are a large share of its workforce.",
-"**6. Industrial pollution and its control.** Four types: **air pollution** (from chemical and paper factories, brick kilns, refineries and smelting plants burning fossil fuels), **water pollution** (organic and inorganic industrial wastes and effluents discharged into rivers — paper, pulp, chemical, textile and dyeing, petroleum refineries, tanneries), **thermal pollution** (hot water from factories drained into rivers before cooling) and **noise pollution** (industrial and construction activities, machinery, generators), which causes hearing impairment, psychological effects and increased heart rate. Control: **treatment of industrial effluent** in three stages (primary — mechanical screening and grinding; secondary — biological; tertiary — chemical and physical, before reuse), **over-drawing of groundwater regulation**, **particulate control** using electrostatic precipitators, fabric filters and inertial separators, use of **oil as fuel instead of coal**, fitting **silencers** on generators and machinery, and adopting cleaner technologies such as those promoted by **NTPC**, which has ISO 14001 certification."
-],
-"formulas": [],
-"tricks": [
-"- **Iron and steel = basic + heavy + in the Chotanagpur region.** Three keywords that open any 3-mark answer on steel.",
-"- **Cotton textiles moved from the cotton belt (Maharashtra, Gujarat) to Tamil Nadu for spinning**, but weaving stayed decentralised — that contrast is itself an exam answer.",
-"- **Effluent treatment = three stages: mechanical, biological, chemical.** Always give all three."
-],
-"mistakes": [
- "- Calling iron and steel a consumer industry. It is a **basic and key** industry.",
- "- Saying Bengaluru is the cotton textile capital. It is the **electronic** capital of India.",
- "- Forgetting **thermal pollution** when asked to list the types of industrial pollution."
-],
-"qa": [
-{"m": "3", "q": "Why is the iron and steel industry called a basic industry? Give three reasons.", "a": "It is called a basic industry because all other industries — heavy, medium and light — depend on it for their machinery, and because production and consumption of steel are regarded as the index of a country's level of development. It is also a heavy industry, since both its raw materials and its finished products are heavy and bulky, so transport costs are a major part of its total cost."},
-{"m": "5", "q": "Describe the factors responsible for the location of the jute textile industry along the banks of the Hooghly.", "a": ["**Proximity of the jute-producing areas** — the jute belt of West Bengal, Bihar, Odisha and Assam lies close by.", "**Inexpensive water transport**, supported by a good network of railways, roadways and waterways for the movement of jute to the mills.", "**Abundant water** for processing raw jute, which the Hooghly supplies.", "**Cheap labour** from West Bengal and the adjoining states of Bihar, Odisha and Uttar Pradesh.", "**Kolkata as a large urban centre** provides banking, insurance, port facilities for export and other commercial services.", "As a result India is the largest producer of raw jute and jute goods in the world, though it faces competition from synthetic substitutes and from other producers such as Bangladesh."]},
-{"m": "5", "q": "What are the different types of industrial pollution? How can it be controlled?", "a": ["**Types:** (1) **Air pollution** — caused by chemical and paper factories, brick kilns, refineries and smelting plants burning fossil fuels, and by toxic gas leaks such as the Bhopal tragedy; (2) **Water pollution** — caused by organic and inorganic industrial wastes and effluents discharged into rivers by paper, pulp, chemical, textile and dyeing, petroleum refineries and tanneries; (3) **Thermal pollution** — hot water from factories and power plants drained into rivers and ponds before cooling; (4) **Noise pollution** — from industrial and construction activity, machinery and generators, causing hearing impairment and stress.", "**Control:** particulate matter can be controlled by fitting electrostatic precipitators, fabric filters, scrubbers and inertial separators to smokestacks; smoke can be reduced by using oil instead of coal; water pollution can be minimised by reusing and recycling water in two or more successive stages, harvesting rainwater, and treating hot water and effluents before releasing them, in three stages — primary (mechanical), secondary (biological) and tertiary (chemical and physical); noise can be reduced by fitting silencers on generators and machinery, redesigning machines and providing workers with earplugs."]},
-{"m": "3", "q": "Why has the sugar industry shifted to southern and western states, especially Maharashtra?", "a": "Because the sugarcane grown there has a higher sucrose content, the cooler climate ensures a longer crushing season, and the cooperatives in these states are more successful, so the mills get a better and more regular supply of cane than in the older north Indian centres."},
-{"m": "3", "q": "How has the information technology industry contributed to India's economy?", "a": "It has generated large employment, especially for women, and has been a major earner of foreign exchange through the rapidly growing business process outsourcing (BPO) sector. Software technology parks provide single-window services and high data communication facilities, and Bengaluru has become the electronic capital of India. Continued growth in hardware and software depends on a skilled workforce and good connectivity."}
-],
-"mcq": [
-{"q": "Which industry is called a basic and key industry? (a) cotton textile (b) iron and steel (c) sugar (d) cement", "a": "**(b) iron and steel** — all other industries depend on it for their machinery."},
-{"q": "Which city has emerged as the electronic capital of India? (a) Mumbai (b) Hyderabad (c) Bengaluru (d) Chennai", "a": "**(c) Bengaluru** — it is also called the Silicon Valley of India."},
-{"q": "Hot water from factories drained into rivers before cooling causes: (a) air pollution (b) water pollution (c) thermal pollution (d) noise pollution", "a": "**(c) thermal pollution**, which affects aquatic life."}
-],
-"trend": "The cotton textile or iron and steel industry with location factors is asked almost every year; industrial pollution with control measures is the other recurring 5-mark answer.",
-"onepager": [
-"- Manufacturing adds value; industry location depends on raw material, labour, power, market and transport.",
-"- Classification: source, role, capital, ownership (public, private, joint, cooperative), bulk.",
-"- Cotton textiles: Maharashtra, Gujarat (spinning in Tamil Nadu). Jute: West Bengal on the Hooghly. Sugar: shifting to Maharashtra.",
-"- Iron and steel: basic, heavy, Chotanagpur; TISCO 1907 Jamshedpur; largest producer of sponge iron.",
- "- Bengaluru = electronic capital; four types of industrial pollution; effluent treated in three stages."
-],
-"task": ["List five products you use daily and identify the industry that makes each. For any two of them, write the four location factors that decide where that industry is set up, with an Indian example of a city where it is concentrated."]
-},
-{
-"id": "ch11-lifelines-of-national-economy", "num": 11, "title": "Lifelines of National Economy",
-"unit": "geography", "unit_name": "Geography · Contemporary India II", "weight": "map work mainly",
-"short": "Roadways, railways, pipelines, waterways, airways and trade.",
-"lede": "Assessed mainly through map pointing, but the roadways-versus-railways comparison is still asked as a short answer.",
-"lens": [
-"**Map work is the main return here** — sea ports, airports, national highways and pipelines.",
-"A 3-mark question on why roadways are preferred over railways, or on the importance of trade, is the usual theory question."
-],
-"concepts": [
-"**1. Why transport and communication are called lifelines.** The movement of goods and services from their supply locations to demand locations is called **trade**. No country can prosper without efficient means of transport; trade between countries is called **international trade**, and trade within a country is **internal or domestic trade**. A dense and efficient network of transport and communication is a prerequisite for local, national and global trade, and the ease with which information moves has made the world a **global village**.",
-"**2. Roadways.** India has one of the largest road networks in the world, about **54 lakh km**. Roads are classified as **National Highways** (linking extreme parts of the country, maintained by CPWD; the **Golden Quadrilateral** superhighways link Delhi-Kolkata-Chennai-Mumbai, the North-South corridor Srinagar–Kanyakumari and the East-West corridor Silchar–Porbandar), **State Highways**, **District Roads** (managed by Zila Parishad), **Rural roads** (the **Pradhan Mantri Grameen Sadak Yojana** aims to connect every village to a major town by an all-season motorable road) and **Border Roads** (built by the **Border Roads Organisation** in the northern and north-eastern border areas). Roads are also classified by material — **metalled** (cement, concrete, bitumen) and **unmetalled**. **Why roadways are preferred:** roads have lower construction cost; they can traverse more dissected and undulating topography and the lower slopes of the Himalayas; they can negotiate higher gradients (such as the passes of the Himalayas); they provide **door-to-door service**, reducing loading and unloading costs; and they connect railway stations, air and sea ports.",
-"**3. Railways.** Indian Railways is the principal mode of transportation for freight and passengers, making it possible to conduct multifarious activities such as business, sightseeing and pilgrimage along with the transportation of goods over long distances. The network has about 7,000 stations and over 68,000 km of route. Its distribution is strongly influenced by **physiographic, economic and administrative factors** — the northern plains provided the most favourable conditions for growth, while it was difficult to lay tracks on the peninsular region, the sandy plains of western Rajasthan, the forests of central India and the Himalayan region. The **Konkan Railway** along the west coast was a landmark achievement. Problems include theft and damage to property, unnecessary chain pulling, ticketless travel and the sheer size of the network.",
-"**4. Pipelines.** Used for transporting crude oil, petroleum products and natural gas from oil and gas fields to refineries, fertiliser factories and thermal power plants. Solids can also be transported in a pipeline when converted into slurry. Major networks: from **Upper Assam to Kanpur** (via Guwahati, Barauni and Allahabad); from **Salaya in Gujarat to Jalandhar in Punjab** (via Viramgam, Mathura, Delhi and Sonipat); and the **HVJ gas pipeline** from Hazira in Gujarat to Jagdishpur in Uttar Pradesh through Vijaypur in Madhya Pradesh. Pipelines have high initial cost but **minimal running cost** and eliminate transhipment losses.",
-"**5. Waterways.** The **cheapest** means of transport and best suited for carrying heavy and bulky goods; they are a **fuel-efficient and environment-friendly** mode. India has about **14,500 km** of navigable waterways, of which **5,200 km** of rivers and 4,000 km of canals can be used by mechanised boats. Six **National Waterways** are declared: NW-1 the **Ganga** between Allahabad and Haldia (1,620 km), NW-2 the **Brahmaputra** between Sadiya and Dhubri (891 km), NW-3 the **West Coast Canal** in Kerala between Kottappuram and Kollam (205 km, the first with 24-hour navigation), NW-4, NW-5 and NW-6. **Kochi, Kolkata, Mumbai and Chennai** are major sea ports; **Kandla in Kachchh** was the first port developed soon after Independence to ease the volume of trade on Mumbai port; **Marmagao** is the premier iron ore exporting port; **Tuticorin** handles trade with Sri Lanka.",
-"**6. Airways and communication.** Air travel is the fastest, most comfortable and prestigious mode; it can cover difficult terrain like mountains and deserts with great ease, and air transport was **nationalised in 1953**. **Pawan Hans** provides helicopter services to ONGC in offshore operations and to inaccessible areas. **Airports Authority of India** and private operators run airports; **Chennai, Kolkata and Mumbai** are major international airports. **Communication** — the Indian **postal network** is the largest in the world; **telecommunications** includes telephone, telegraph, fax, radio and television; India has the largest telecom network in Asia and one of the largest in the world, with the **STD** and now mobile networks reaching even rural areas through **BSNL, MTNL and private operators**. Tourism is an important trade: it earns foreign exchange, supports local handicrafts, and promotes national integration and international understanding."
-],
-"formulas": [],
-"tricks": [
-"- **Roadways beat railways on four counts:** lower cost, difficult terrain, higher gradients, and door-to-door service.",
-"- **Waterways = cheapest + fuel-efficient + environment-friendly.** Three phrases, one full answer.",
-"- **Golden Quadrilateral:** Delhi-Kolkata-Chennai-Mumbai. North-South: Srinagar–Kanyakumari. East-West: Silchar–Porbandar."
-],
-"mistakes": [
- "- Saying pipelines have low initial cost. They have a **high initial cost but minimal running cost**.",
- "- Attributing the Konkan Railway to the northern plains. It runs along the **west coast** and was an engineering challenge.",
- "- Naming Mumbai as the first port developed after Independence. It was **Kandla in Kachchh**."
-],
-"qa": [
-{"m": "3", "q": "Why are roadways considered more efficient than railways in India?", "a": "Because the cost of constructing roads is much lower than that of railway lines; roads can traverse more dissected and undulating topography and negotiate higher gradients, such as in the Himalayas; they provide door-to-door service, which reduces the loading and unloading cost; and they act as feeders to other modes of transport, connecting railway stations, airports and sea ports."},
-{"m": "3", "q": "Why are means of transport and communication called the lifelines of a nation and its economy?", "a": "Because goods and services cannot move from supply locations to demand locations without them. A dense and efficient transport and communication network is a prerequisite for local, national and international trade, it enables industries to reach their markets and raw materials, it creates employment, and it has made the world a global village by allowing information to move instantly."},
-{"m": "3", "q": "What are the advantages of pipeline transport?", "a": "Pipelines can transport crude oil, petroleum products and natural gas from the fields to refineries, fertiliser plants and thermal power stations, and solids can be moved as slurry. Once laid, they have minimal running cost, they eliminate transhipment losses and delays, and they can pass through difficult terrain including rivers and hills, so they provide a continuous and reliable supply. Their only major drawback is the high initial cost of laying the line."},
-{"m": "3", "q": "Describe the importance of waterways in India.", "a": "Waterways are the cheapest means of transport and are best suited for carrying heavy and bulky goods. They are a fuel-efficient and environment-friendly mode of transport. India has about 14,500 km of inland waterways, of which six stretches have been declared National Waterways, including the Ganga between Allahabad and Haldia and the Brahmaputra between Sadiya and Dhubri. These waterways also support tourism and connect remote regions to the national market."}
-],
-"mcq": [
-{"q": "The Golden Quadrilateral superhighway connects: (a) Srinagar and Kanyakumari (b) Delhi, Kolkata, Chennai and Mumbai (c) Silchar and Porbandar (d) Kandla and Haldia", "a": "**(b) Delhi, Kolkata, Chennai and Mumbai** — it is a six-lane highway linking the four major metropolitan cities."},
-{"q": "The first port developed soon after Independence to ease the volume of trade on Mumbai port was: (a) Kandla (b) Marmagao (c) Tuticorin (d) Kochi", "a": "**(a) Kandla in Kachchh**, developed to serve the rich agricultural and industrial hinterland of the north-west."},
-{"q": "Air transport in India was nationalised in: (a) 1947 (b) 1953 (c) 1965 (d) 1972", "a": "**(b) 1953.**"}
-],
-"trend": "This chapter is assessed mainly through map pointing — ports, airports, national highways and pipelines — with an occasional 3-mark question on roadways versus railways or on the importance of trade.",
-"onepager": [
-"- Road network about 54 lakh km; Golden Quadrilateral; PMGSY for rural roads; BRO for border roads.",
-"- Railways: about 7,000 stations; distribution depends on physiography, economy and administration; Konkan Railway along the west coast.",
-"- Pipelines: high initial cost, minimal running cost; HVJ Hazira–Vijaypur–Jagdishpur.",
-"- Waterways: cheapest, 14,500 km, NW-1 Ganga (Allahabad–Haldia), NW-2 Brahmaputra.",
-"- Airways nationalised 1953; postal network the largest in the world."
-],
-"task": ["On a blank political outline map of India, mark Kandla, Marmagao, Tuticorin, Kochi, Kolkata, Haldia, the Chennai and Mumbai airports, the Hazira–Jagdishpur pipeline and the Konkan Railway. Practise it three times; map work is the cheapest 5 marks in Geography."]
-}
+  {
+    "id": "ch05-resources-and-development",
+    "num": 5,
+    "title": "Resources and Development",
+    "unit": "geography",
+    "unit_name": "Geography · Contemporary India II",
+    "weight": "part of 20 marks",
+    "short": "Types of resources, land use, soil types and conservation.",
+    "lede": "One classification table, one soil table, and a handful of Indian examples with state names. That is the whole chapter.",
+    "lens": [
+      "**3–4 marks.** Soil types with crops and states is the most repeated question; sustainable development and Agenda 21 recur as short answers.",
+      "Always give an **Indian example with a state** — an answer with only textbook definitions scores at most half."
+    ],
+    "concepts": [
+      "**1. What is a resource?** Anything available in our environment that can be used to satisfy our needs, provided it is **technologically accessible, economically feasible and culturally acceptable**. Human beings are themselves resources — hence *human resource*. Development of resources happens through **interaction between nature, technology and institutions**.",
+      "**2. Classification of resources.** By **origin**: biotic (forest, animals) and abiotic (rocks, metals). By **exhaustibility**: renewable (solar, wind, water) and non-renewable (coal, petroleum). By **ownership**: individual, community, national and international (resources beyond 200 nautical miles of the Exclusive Economic Zone are open *resources* for all). By **status of development**: potential, developed, stock and reserves.",
+      "**3. Sustainable development.** Resource depletion is a global concern; the answer is development that does not harm the environment and does not compromise the needs of future generations. The **Club of Rome's *Limits to Growth* (1972)** first argued this systematically, and **Brundtland Commission Report, *Our Common Future* (1987)** made the term standard. **Agenda 21**, adopted at the **first Earth Summit at Rio de Janeiro in 1992**, is a global plan of action for sustainable development; India's **National Environment Policy** and the **Rio Convention** follow it.",
+      "**4. Land use in India.** India's total geographical area is 3.28 million sq km, of which land-use data is available for only about 93%. **Net sown area** is about 43%; forest is about 22.8% against the 33% recommended by the National Forest Policy of 1952. **Land degradation** — about 130 million hectares — comes from mining (Jharkhand, Chhattisgarh, MP, Odisha), overgrazing (Gujarat, Rajasthan, MP, Maharashtra), over-irrigation causing waterlogging and salinity (Punjab, Haryana, western UP), and industrial effluents. Remedies: afforestation, proper grazing management, shelter belts, control on mining, treatment of industrial effluent.",
+      "**5. Soil as a resource.** Soil formation depends on **relief, parent rock, climate, vegetation, other life forms and time**. The main types:",
+      {
+        "table": {
+          "head": [
+            "Soil",
+            "Where found",
+            "Crops"
+          ],
+          "rows": [
+            [
+              "Alluvial",
+              "Northern plains, eastern coastal plains (deltas)",
+              "rice, wheat, sugarcane — the most fertile"
+            ],
+            [
+              "Black (regur)",
+              "Deccan trap — Maharashtra, Saurashtra, Malwa, MP",
+              "cotton; made of clay, holds moisture, develops cracks in summer"
+            ],
+            [
+              "Red and yellow",
+              "Odisha, eastern Andhra, parts of Karnataka, TN",
+              "millets, pulses; red due to iron oxide"
+            ],
+            [
+              "Laterite",
+              "Karnataka, Kerala, TN, MP, hilly Odisha and Assam",
+              "tea, coffee, cashew; formed by leaching"
+            ],
+            [
+              "Arid",
+              "Rajasthan, parts of Gujarat",
+              "bajra, jowar; low humus, high salt"
+            ],
+            [
+              "Forest",
+              "Hilly and mountainous areas",
+              "varies; rich in humus where dense"
+            ]
+          ]
+        }
+      },
+      "**6. Soil erosion and conservation.** **Erosion** is the washing away of the top soil by water, wind or glacial action; a **badland** or **ravine** is land made unfit for cultivation (the Chambal basin). **Gully erosion** (running water cuts channels), **sheet erosion** (water flows as a sheet over a slope) and **wind erosion** in arid areas. Conservation: **contour ploughing**, **terrace cultivation** on slopes (Western and Central Himalayas), **strip cropping**, **shelter belts** of trees, and **mulching**."
+    ],
+    "formulas": [],
+    "tricks": [
+      "- **Four ways to classify:** origin, exhaustibility, ownership, status of development — *'O-E-O-S'.*",
+      "- **Black soil = cotton = Deccan trap = Maharashtra.** One chain of four words that answers most black-soil questions.",
+      "- **Laterite is formed by *leaching*** in high-rainfall hilly areas — that is why it is poor for cereals but good for tea and coffee."
+    ],
+    "mistakes": [
+      "- Giving forest cover as 33%. Actual forest area is about 22.8%; **33% is the target** of the National Forest Policy of 1952.",
+      "- Describing a resource as anything useful. It must also be **technologically accessible and economically feasible** — uranium in Ladakh is a *potential* resource.",
+      "- Attributing waterlogging and salinity to mining. They come from **over-irrigation** in Punjab, Haryana and western UP."
+    ],
+    "qa": [
+      {
+        "m": "3",
+        "q": "Distinguish between renewable and non-renewable resources with examples.",
+        "a": "Renewable resources can be renewed or reproduced by physical, chemical or mechanical processes and are inexhaustible in the long run — solar and wind energy, water, forests and wildlife. Non-renewable resources occur over very long geological periods and cannot be replenished once used up — coal, petroleum and natural gas, and metallic minerals such as iron ore.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain the main features of black soil.",
+        "a": "It is also called regur soil and is ideal for growing cotton. It is made of extremely fine clayey material, is well known for its capacity to hold moisture, and is rich in soil nutrients such as calcium carbonate, magnesium, potash and lime, though poor in phosphoric content. It develops deep cracks during hot weather, which helps aeration, and becomes sticky when wet. It is found in the Deccan trap region — Maharashtra, Saurashtra, Malwa and parts of Madhya Pradesh and Chhattisgarh.",
+        "t": "S"
+      },
+      {
+        "m": "5",
+        "q": "What is sustainable development and why is it important? Refer to Agenda 21.",
+        "a": [
+          "Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs. It requires that economic growth go hand in hand with environmental protection and social equity.",
+          "**Why it matters:** indiscriminate use of resources has led to depletion, concentration of resources in a few hands, land degradation and global ecological crises such as global warming and ozone depletion.",
+          "**Agenda 21** was adopted by the first Earth Summit held at Rio de Janeiro in 1992. It is a declaration of global agreement and international cooperation to combat environmental damage, poverty and disease through sustainable development, and it also provides that every local government should draw its own local Agenda 21."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "3",
+        "q": "What are the causes of land degradation in India and how can it be controlled?",
+        "a": [
+          "**Causes:** mining in Jharkhand, Chhattisgarh, MP and Odisha has left deep scars; overgrazing in Gujarat, Rajasthan, MP and Maharashtra; over-irrigation in Punjab, Haryana and western UP causing waterlogging and increased salinity and alkalinity; and industrial effluents polluting land and water.",
+          "**Control:** large-scale afforestation, proper management of grazing, shelter belts of plants, stabilisation of sand dunes by growing thorny bushes, proper discharge and treatment of industrial effluents, and control on mining."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Resources and Development” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "What is a resource? Anything available in our environment that can be used to satisfy our needs, provided it is technologically accessible, economically feasible and culturally acceptable. Human beings are themselves resources — hence *human resource*. Development of resources happens through interaction between nature, technology and institutions.",
+          "Marks lens: –4 marks. Soil types with crops and states is the most repeated question; sustainable development and Agenda 21 recur as short answers.",
+          "Method / memory trick: Four ways to classify: origin, exhaustibility, ownership, status of development — *'O-E-O-S'.*",
+          "Do not: Giving forest cover as 33%. Actual forest area is about 22.8%; 33% is the target of the National Forest Policy of 1952."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Resources and Development” (Types of resources, land use, soil types and conservation.). A classmate lost marks by doing this: Giving forest cover as 33%. Actual forest area is about 22.8%; 33% is the target of the National Forest Policy of 1952. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Four ways to classify: origin, exhaustibility, ownership, status of development — *'O-E-O-S'.*",
+          "Why the mistake costs marks: Giving forest cover as 33%. Actual forest area is about 22.8%; 33% is the target of the National Forest Policy of 1952.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Resources and Development”: “Distinguish between renewable and non-renewable resources with examples.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Types of resources, land use, soil types and conservation..",
+          "Renewable resources can be renewed or reproduced by physical, chemical or mechanical processes and are inexhaustible in the long run — solar and wind energy, water, forests and wildlife. Non-renewable resources occur over very long geological periods and cannot be replenished once used up — coal, petroleum and natural gas, and metallic minerals such as iron ore."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Resources and Development”. Their note says: What is a resource? Anything available in our environment that can be used to satisfy our needs, provided it is technologically accessible, economically feasible and culturally acceptable. Human beings are themselves resources — hence *human resource*. Development of resources happens through intera\n\nThe chapter is described as: Types of resources, land use, soil types and conservation..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Types of resources, land use, soil types and conservation.",
+          "(b) –4 marks. Soil types with crops and states is the most repeated question; sustainable development and Agenda 21 recur as short answers.",
+          "(c) Giving forest cover as 33%. Actual forest area is about 22.8%; 33% is the target of the National Forest Policy of 1952."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Distinguish between renewable and non-renewable resources with examples.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) Renewable resources can be renewed or reproduced by physical, chemical or mechanical processes and are inexhaustible in the long run — solar and wind energy, water, forests and wildlife. Non-renewable resources occur over very long geological periods and cannot be replenished once used up — coal, petroleum and natural gas, and metallic minerals such as iron ore.",
+          "(c) Four ways to classify: origin, exhaustibility, ownership, status of development — *'O-E-O-S'.*"
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Resources that are surveyed and their quality and quantity determined for utilisation are called: (a) potential (b) developed (c) stock (d) reserves",
+        "a": "**(b) developed resources** — potential resources are those expected to be available in the future; stock are those not yet technologically accessible; reserves are the subset that can be put into use with existing technology."
+      },
+      {
+        "q": "Black soil is mainly found in: (a) the Gangetic plain (b) the Deccan trap region (c) the Thar desert (d) the eastern coast",
+        "a": "**(b) the Deccan trap region** — Maharashtra, Saurashtra, Malwa and parts of MP; it is ideal for cotton."
+      },
+      {
+        "q": "Agenda 21 was adopted at the Earth Summit held at: (a) Johannesburg in 2002 (b) Rio de Janeiro in 1992 (c) Stockholm in 1972 (d) Kyoto in 1997",
+        "a": "**(b) Rio de Janeiro in 1992** — the first Earth Summit on environment and development."
+      },
+      {
+        "q": "The most exam-ready way to revise “Resources and Development” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Types of resources, land use, soil types and conservation.."
+      },
+      {
+        "q": "A 3-mark answer on “Resources and Development” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Soil types with their distribution and crops is asked almost every year; sustainable development with Agenda 21 and land degradation with remedies are the recurring short answers.",
+    "onepager": [
+      "- A resource must be technologically accessible, economically feasible and culturally acceptable.",
+      "- Classification: origin, exhaustibility, ownership, status of development.",
+      "- Black soil → cotton → Deccan trap; laterite → tea and coffee → leaching in hilly areas.",
+      "- Land degradation: mining (Jharkhand, MP), overgrazing (Rajasthan, Gujarat), over-irrigation (Punjab, Haryana).",
+      "- Agenda 21, Rio 1992; Brundtland Report, Our Common Future, 1987."
+    ],
+    "task": [
+      "On a blank outline map of India, shade the black soil, laterite and arid soil regions and write one crop and one state against each. Ten minutes with a map fixes this chapter better than an hour of reading."
+    ]
+  },
+  {
+    "id": "ch06-forest-and-wildlife-resources",
+    "num": 6,
+    "title": "Forest and Wildlife Resources",
+    "unit": "geography",
+    "unit_name": "Geography · Contemporary India II",
+    "weight": "part of 20 marks",
+    "short": "Biodiversity, why species disappear, and the laws and movements that protect them.",
+    "lede": "Three lists carry almost every question from this chapter: the categories of species, the causes of depletion, and the conservation steps.",
+    "lens": [
+      "**Part of the 20 geography marks.** Usually one 3-mark or 5-mark question, plus map pointing from the national parks and sanctuaries named here.",
+      "The **causes of depletion** and the **categories of species** are the two lists to learn word-perfect; both are asked almost every year."
+    ],
+    "concepts": [
+      "**1. Biodiversity.** The variety of plants, animals and micro-organisms, and the ecosystems they live in. India is one of the world's **mega-diverse** countries: about **8 per cent of all recorded species** are found here — roughly **47,000 species of plants** and **81,000 species of animals**, of which about **15,000 are flowering plants** (6 per cent of the world's total). Three levels are protected together: **genetic diversity**, **species diversity** and **ecosystem diversity**.",
+      "**2. How species are classified.** The IUCN Red List groups species by how close they are to extinction, and a species found only in one area is **endemic** to that area.",
+      {
+        "table": {
+          "head": [
+            "Category",
+            "Meaning",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "Normal species",
+              "Population levels are normal",
+              "Cattle, rodents, some fisheries"
+            ],
+            [
+              "Endangered species",
+              "In danger of extinction; survival is difficult if the negative factors continue",
+              "Black buck, crocodile, Indian wild ass, Indian rhino, lion-tailed macaque, sangai deer"
+            ],
+            [
+              "Vulnerable species",
+              "Population is declining and the species is likely to become endangered",
+              "Blue sheep, Asiatic elephant, gangetic dolphin"
+            ],
+            [
+              "Rare species",
+              "Small population in a limited area; may become endangered",
+              "Himalayan brown bear, wild Asiatic buffalo, desert fox, hornbill"
+            ],
+            [
+              "Extinct species",
+              "No longer found in the areas they once lived in",
+              "Asiatic cheetah, pink-headed duck, Himalayan mountain quail"
+            ],
+            [
+              "Endemic species",
+              "Found only in one particular area",
+              "Andaman teal, Nicobar pigeon, Andaman wild pig, mithun"
+            ]
+          ]
+        }
+      },
+      "**3. Causes of depletion.** Agricultural expansion and shifting cultivation; large development projects — dams, roads, railways and mines; **mining and quarrying**; grazing and the collection of fuel wood; forest fires; poaching and the illegal trade in skins, tusks and horns; pollution; and habitat destruction, which splits a population into small groups that a single fire or disease can wipe out. Over-population and unequal consumption in the richer countries put further pressure on the forest.",
+      "**4. What the government did.** The **Indian Wildlife (Protection) Act, 1972** gave legal protection to listed species and their habitats and banned hunting. **Project Tiger (1973)** and Project Elephant followed, along with crocodile breeding and special protection for the rhino, the Kashmir stag and the great Indian bustard. National parks, wildlife sanctuaries and biosphere reserves were set up. In the 1980s and 1990s the **Supreme Court** ordered a ban on hunting protected species and on trade in their products, and stopped mining in several reserves.",
+      "**5. Who owns the forest.** The Forest Department classifies forest land three ways:",
+      {
+        "table": {
+          "head": [
+            "Type",
+            "What it is",
+            "Share"
+          ],
+          "rows": [
+            [
+              "Reserved forests",
+              "The most valuable forests for conservation; entry and grazing are banned",
+              "More than half of the total forest land"
+            ],
+            [
+              "Protected forests",
+              "Protected from further depletion; limited grazing and collection allowed",
+              "About one-third of the total forest land"
+            ],
+            [
+              "Unclassed forests",
+              "Forests and wastelands held by the government, by communities or by private owners",
+              "The remaining land"
+            ]
+          ]
+        }
+      },
+      "**6. Conservation by communities.** Much of the best protection has come from the people who live in the forest. Villagers near the **Sariska Tiger Reserve** (Alwar, Rajasthan) fought against mining inside the reserve, and villages around the **Bhairodev Dakav 'Sonchuri'** in the same district framed their own rules banning hunting and protecting wildlife. The **Chipko movement** in the Himalayas stopped felling when women hugged the trees, and the **Beej Bachao Andolan** at Tehri saved indigenous seeds and crops. **Joint Forest Management (JFM)**, introduced in **1988** and first adopted by **Odisha**, has communities protecting and regenerating forests along with the Forest Department in return for a share of the produce. **Sacred groves** — the **Sarna** and **devrai** patches left untouched because a deity is believed to live there, protected by custom rather than by law — have preserved some of the oldest forest left in the country."
+    ],
+    "formulas": [],
+    "tricks": [
+      "- **Order of seriousness: normal → rare → vulnerable → endangered → extinct.** *Rare is few and local, vulnerable is falling, endangered is nearly gone.*",
+      "- **One example each:** black buck (endangered), Asiatic elephant (vulnerable), Himalayan brown bear (rare), Asiatic cheetah (extinct), mithun (endemic).",
+      "- **Movements:** Chipko hugs trees, Beej Bachao saves seeds, JFM shares the forest, sacred groves are protected by custom."
+    ],
+    "mistakes": [
+      "- Mixing up **rare** and **endangered**. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues.",
+      "- Writing that the Wildlife (Protection) Act is of 1973. The **Act is 1972** and **Project Tiger is 1973**.",
+      "- Forgetting that **JFM was first adopted in Odisha in 1988**, and that **reserved forests** have the largest share of forest land."
+    ],
+    "qa": [
+      {
+        "m": "3",
+        "q": "What are the categories of species recognised for conservation? Give one example of each.",
+        "a": [
+          "**Normal species** — population levels are normal, e.g. cattle and rodents.",
+          "**Endangered species** — in danger of extinction, e.g. the black buck and the Indian rhino.",
+          "**Vulnerable species** — declining and likely to become endangered, e.g. the Asiatic elephant.",
+          "**Rare species** — a small population in a limited area, e.g. the Himalayan brown bear.",
+          "**Extinct species** — no longer found, e.g. the Asiatic cheetah.",
+          "**Endemic species** — found only in one area, e.g. the Andaman teal."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "5",
+        "q": "Explain any five causes of the depletion of forests and wildlife in India.",
+        "a": [
+          "**Agricultural expansion and shifting cultivation** have cleared large forest tracts.",
+          "**Large development projects** — dams, roads, railways and mines — submerge or cut through forests.",
+          "**Mining and quarrying** destroy habitats and pollute streams.",
+          "**Grazing and the collection of fuel wood** prevent regeneration.",
+          "**Poaching and illegal trade** in skins, tusks and horns target the most threatened species.",
+          "**Habitat destruction and fragmentation** leave small populations that a single fire or disease can wipe out."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "3",
+        "q": "How have local communities conserved forests and wildlife? Give two examples.",
+        "a": "Villagers around the Sariska Tiger Reserve in Alwar (Rajasthan) fought against mining in the reserve, and villages of the Bhairodev Dakav 'Sonchuri' in the same district framed their own rules banning hunting and protecting wildlife. The Chipko movement stopped felling in the Himalayas when women hugged the trees, the Beej Bachao Andolan saved indigenous seeds, and in sacred groves such as the Sarna and devrai, forests are protected by religious custom rather than by law.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What is Joint Forest Management and why does it matter?",
+        "a": "Joint Forest Management, introduced in 1988 and first adopted in Odisha, is a programme in which local communities protect and regenerate forests together with the Forest Department, in return for a share of the produce of the forest. It matters because protection works only when the people who live next to the forest have an interest in it.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Forest and Wildlife Resources” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Biodiversity. The variety of plants, animals and micro-organisms, and the ecosystems they live in. India is one of the world's mega-diverse countries: about 8 per cent of all recorded species are found here — roughly 47,000 species of plants and 81,000 species of animals, of which about 15,000 are flowering plants (6 per cent of the world's total). Three levels are protected together: genetic diversity, species diver.",
+          "Marks lens: Part of the 20 geography marks. Usually one 3-mark or 5-mark question, plus map pointing from the national parks and sanctuaries named here.",
+          "Method / memory trick: Order of seriousness: normal → rare → vulnerable → endangered → extinct. *Rare is few and local, vulnerable is falling, endangered is nearly gone.*",
+          "Do not: Mixing up rare and endangered. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Forest and Wildlife Resources” (Biodiversity, why species disappear, and the laws and movements that protect them.). A classmate lost marks by doing this: Mixing up rare and endangered. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Order of seriousness: normal → rare → vulnerable → endangered → extinct. *Rare is few and local, vulnerable is falling, endangered is nearly gone.*",
+          "Why the mistake costs marks: Mixing up rare and endangered. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Forest and Wildlife Resources”: “What are the categories of species recognised for conservation? Give one example of each.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Biodiversity, why species disappear, and the laws and movements that protect them..",
+          "Normal species — population levels are normal, e.g. cattle and rodents. Endangered species — in danger of extinction, e.g. the black buck and the Indian rhino. Vulnerable species — declining and likely to become endangered, e.g. the Asiatic elephant. Rare species — a small population in a limited area, e.g. the Himalayan brown bear. Extinct species — no longer found, e.g. the Asiatic cheetah. Endemic species — found only in one area, e.g. the Andaman teal."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Forest and Wildlife Resources”. Their note says: Biodiversity. The variety of plants, animals and micro-organisms, and the ecosystems they live in. India is one of the world's mega-diverse countries: about 8 per cent of all recorded species are found here — roughly 47,000 species of plants and 81,000 species of animals, of which about 15,000 are f\n\nThe chapter is described as: Biodiversity, why species disappear, and the laws and movements that protect them..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Biodiversity, why species disappear, and the laws and movements that protect them.",
+          "(b) Part of the 20 geography marks. Usually one 3-mark or 5-mark question, plus map pointing from the national parks and sanctuaries named here.",
+          "(c) Mixing up rare and endangered. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “What are the categories of species recognised for conservation? Give one example of each.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) Normal species — population levels are normal, e.g. cattle and rodents. Endangered species — in danger of extinction, e.g. the black buck and the Indian rhino. Vulnerable species — declining and likely to become endangered, e.g. the Asiatic elephant. Rare species — a small population in a limited area, e.g. the Himalayan brown bear. Extinct species — no longer found, e.g. the Asiatic cheetah. Endemic species — found only in one area, e.g. the Andaman teal.",
+          "(c) Order of seriousness: normal → rare → vulnerable → endangered → extinct. *Rare is few and local, vulnerable is falling, endangered is nearly gone.*"
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Which of these is an endangered species in India? (a) cattle (b) Asiatic elephant (c) black buck (d) blue sheep",
+        "a": "**(c) Black buck.** The Asiatic elephant and the blue sheep are vulnerable; cattle are a normal species."
+      },
+      {
+        "q": "Project Tiger was launched in: (a) 1972 (b) 1973 (c) 1980 (d) 1988",
+        "a": "**(b) 1973.** The Wildlife (Protection) Act came a year earlier, in 1972."
+      },
+      {
+        "q": "Forests of the highest conservation value, where entry is banned, are: (a) unclassed forests (b) protected forests (c) reserved forests (d) sacred groves",
+        "a": "**(c) Reserved forests**, which cover more than half the total forest land of the country."
+      },
+      {
+        "q": "The most exam-ready way to revise “Forest and Wildlife Resources” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Biodiversity, why species disappear, and the laws and movements that protect them.."
+      },
+      {
+        "q": "A 3-mark answer on “Forest and Wildlife Resources” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "One 3-mark question on the causes of depletion, or a 5-mark question combining the categories of species with conservation steps. National parks and wildlife sanctuaries from this chapter are regular map-pointing items, and community conservation — Chipko, JFM, sacred groves — turns up in case-based questions.",
+    "onepager": [
+      "- India holds about 8% of all recorded species: 47,000 plants, 81,000 animals, 15,000 flowering plants.",
+      "- Categories: normal, endangered, vulnerable, rare, extinct, endemic — one example each.",
+      "- Causes: agriculture, development projects, mining, grazing, fires, poaching, habitat destruction.",
+      "- Protection: Wildlife (Protection) Act 1972, Project Tiger 1973, national parks and sanctuaries.",
+      "- Forest types: reserved (more than half), protected (about a third), unclassed.",
+      "- Communities: Chipko, Beej Bachao Andolan, JFM 1988 (first in Odisha), sacred groves."
+    ],
+    "task": [
+      "Take an outline map of India and mark five national parks or sanctuaries from the CBSE map list — for example Corbett, Ranthambore, Kanha, Periyar, Sunderbans, Kaziranga — writing the state against each. Then answer in five points: why does the protection of a forest succeed only when the people living next to it are involved?"
+    ]
+  },
+  {
+    "id": "ch07-water-resources",
+    "num": 7,
+    "title": "Water Resources",
+    "unit": "geography",
+    "unit_name": "Geography · Contemporary India II",
+    "weight": "part of 20 marks",
+    "short": "Scarcity, multi-purpose projects, and rainwater harvesting.",
+    "lede": "Two sides of one argument: dams are development, and dams displace people. Learn both and you can answer any question set on this chapter.",
+    "lens": [
+      "**3 marks.** Multi-purpose river projects with their benefits and drawbacks is the set question; rainwater harvesting methods come second.",
+      "Name Indian projects and places — Bhakra Nangal, Hirakud, Sardar Sarovar, Narmada Bachao Andolan, Rajasthan's *johads* and *khadins*."
+    ],
+    "concepts": [
+      "**1. Water resources.** About three-fourths of the earth's surface is covered with water, but only about **2.5% is fresh water**, and nearly 70% of that is frozen in ice sheets; almost all the rest is groundwater. India ranks **133rd in the world in terms of water availability per person per annum** (2010 data). Renewable water resources amount to about 1,869 cubic km. About 22% of the total water used is in the industrial sector; over 80% is used in agriculture.",
+      "**2. Water scarcity.** It means insufficient availability of water in terms of **quantity** (low rainfall, drought) and **quality** (polluted water). Causes: growing population, greater demand for food and cash crops, urbanisation with lifestyles that use more water, over-exploitation and unequal access between social groups. Even areas with abundant water suffer scarcity because of **pollution** from domestic and industrial waste, pesticides and fertilisers.",
+      "**3. Multi-purpose river projects.** After independence, dams were seen as the vehicles of development — Nehru called them the **temples of modern India**. A multi-purpose project has several integrated uses: **irrigation, electricity generation, flood control, inland navigation, fish breeding, recreation and water supply**. Examples: **Bhakra Nangal** (Satluj), **Hirakud** (Mahanadi), **Damodar Valley Corporation**, **Kopili**, and the **Narmada** and **Sardar Sarovar** projects on the Narmada.",
+      "**4. Opposition to dams.** Large dams submerge vast areas of forest and farmland and displace local communities — the **Narmada Bachao Andolan** and the **Tehri Dam Andolan** are the best-known movements. **Jawaharlal Nehru's** dams also created conflicts between industrialists and urban centres on one side and the agricultural population on the other; in Gujarat, the **Sabarmati-basin farmers** were almost rioting in 1999 when the Sardar Sarovar project gave priority to water supply for urban areas. Inter-state disputes also arise over sharing costs and benefits, as in the **Krishna-Godavari** dispute when Karnataka and Andhra Pradesh objected to Maharashtra's plan to divert more water at Koyna. Earthquake-induced damage, sedimentation and waterlogging are further drawbacks.",
+      "**5. Rainwater harvesting — the alternative.** In semi-arid Rajasthan, houses traditionally had **tanks** attached to the roof (*tanka*, sometimes as big as a room) for storing drinking water; the first spell of rain was not collected as it cleans the roof. Modern methods: **rooftop rainwater harvesting** (widely used in Meghalaya, and made **compulsory in Tamil Nadu** for all houses, with legal provisions for defaulters), **gully plugs**, **contour bunds**, **check dams**, **percolation tanks**, **recharge pits** and **khadins and johads** in agricultural fields, where rainwater is allowed to stand and moisten the soil. In the flood plains of West Bengal, **inundation canals** irrigate fields; in the western Himalayas, **diversion channels called guls or kuls** carry water to villages.",
+      "**6. Bamboo drip irrigation** is a two-hundred-year-old system of Meghalaya in which bamboo pipes are used to divert perennial springs on hilltops to the lower reaches by gravity — about 18–20 litres of water enters the bamboo system and reaches the plant site as 20–80 drops per minute."
+    ],
+    "formulas": [],
+    "tricks": [
+      "- **Dams: give three benefits and three drawbacks** in every answer — irrigation, power, flood control against displacement, sedimentation and conflict. Full marks need both sides.",
+      "- **Rainwater harvesting = 'catch it where it falls'.** Rooftop in Meghalaya and Tamil Nadu; khadins and johads in Rajasthan; guls and kuls in the Himalayas; inundation canals in West Bengal.",
+      "- **Only 2.5% of the earth's water is fresh.** That single statistic anchors most scarcity answers."
+    ],
+    "mistakes": [
+      "- Writing only the benefits of dams. The question almost always asks for drawbacks too.",
+      "- Attributing the Tehri Dam movement to the Narmada valley. They are separate movements — Tehri is on the Bhagirathi in Uttarakhand.",
+      "- Saying rooftop harvesting is compulsory across India. It is compulsory in **Tamil Nadu**, with legal provisions for defaulters."
+    ],
+    "qa": [
+      {
+        "m": "3",
+        "q": "Why is water scarcity increasing in India?",
+        "a": "Because of a growing population, which raises the demand for water for drinking and for growing more food and cash crops; rapid urbanisation and changing lifestyles that consume more water; over-exploitation of groundwater by commercial farming; and unequal access between social groups. In many regions water is abundant but polluted by domestic and industrial waste and by pesticides and fertilisers, so it cannot be used without treatment.",
+        "t": "S"
+      },
+      {
+        "m": "5",
+        "q": "Multi-purpose river projects have several advantages but also several drawbacks. Explain.",
+        "a": [
+          "**Advantages:** they provide water for irrigation, generate hydroelectricity, control floods, help inland navigation, supply water to industries and cities, and provide fish breeding, recreation and landscape value. Nehru proudly called dams the temples of modern India.",
+          "**Drawbacks:** (i) large dams submerge forests and agricultural land and displace local communities, who are often not properly rehabilitated — the Narmada Bachao Andolan and the Tehri Dam Andolan grew out of this; (ii) they disturb the natural flow of rivers, causing poor sediment flow and excessive sedimentation at the bottom of the reservoir, which destroys habitats; (iii) they cause waterlogging and soil salinity in the command area; (iv) they trigger inter-state disputes over the sharing of costs and benefits, as between Karnataka, Maharashtra and Andhra Pradesh over the Krishna-Godavari waters; (v) they have induced earthquakes and, in the case of the Sardar Sarovar project, sparked protests when urban water supply was given priority over irrigation for farmers."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "3",
+        "q": "Describe the traditional rainwater harvesting system of Rajasthan.",
+        "a": "In the semi-arid regions of Rajasthan, particularly in Bikaner, Phalodi and Barmer, most houses traditionally had underground tanks or *tankas* for storing drinking water. The tanks were built inside the house or the courtyard and were connected to the sloping roofs. The first spell of rain was not collected, as it cleans the roof and the pipes; from the second shower onward the water was stored. The stored water lasted through the dry season and was treated as pure enough for religious use.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What is rooftop rainwater harvesting and where has it been made compulsory?",
+        "a": "It is a method in which rainwater falling on rooftops is collected through pipes and stored in underground tanks or used to recharge groundwater. It is common in Meghalaya, where bamboo pipes are used, and in Tamil Nadu it has been made compulsory for all houses, with legal provisions to punish defaulters.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Water Resources” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Water resources. About three-fourths of the earth's surface is covered with water, but only about 2.5% is fresh water, and nearly 70% of that is frozen in ice sheets; almost all the rest is groundwater. India ranks 133rd in the world in terms of water availability per person per annum (2010 data). Renewable water resources amount to about 1,869 cubic km. About 22% of the total water used is in the industrial sector;.",
+          "Marks lens: marks. Multi-purpose river projects with their benefits and drawbacks is the set question; rainwater harvesting methods come second.",
+          "Method / memory trick: Dams: give three benefits and three drawbacks in every answer — irrigation, power, flood control against displacement, sedimentation and conflict. Full marks need both sides.",
+          "Do not: Writing only the benefits of dams. The question almost always asks for drawbacks too."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Water Resources” (Scarcity, multi-purpose projects, and rainwater harvesting.). A classmate lost marks by doing this: Writing only the benefits of dams. The question almost always asks for drawbacks too. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Dams: give three benefits and three drawbacks in every answer — irrigation, power, flood control against displacement, sedimentation and conflict. Full marks need both sides.",
+          "Why the mistake costs marks: Writing only the benefits of dams. The question almost always asks for drawbacks too.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Water Resources”: “Why is water scarcity increasing in India?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Scarcity, multi-purpose projects, and rainwater harvesting..",
+          "Because of a growing population, which raises the demand for water for drinking and for growing more food and cash crops; rapid urbanisation and changing lifestyles that consume more water; over-exploitation of groundwater by commercial farming; and unequal access between social groups. In many regions water is abundant but polluted by domestic and industrial waste and by pesticides and fertilisers, so it cannot be used without treatment."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Water Resources”. Their note says: Water resources. About three-fourths of the earth's surface is covered with water, but only about 2.5% is fresh water, and nearly 70% of that is frozen in ice sheets; almost all the rest is groundwater. India ranks 133rd in the world in terms of water availability per person per annum (2010 data). R\n\nThe chapter is described as: Scarcity, multi-purpose projects, and rainwater harvesting..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Scarcity, multi-purpose projects, and rainwater harvesting.",
+          "(b) marks. Multi-purpose river projects with their benefits and drawbacks is the set question; rainwater harvesting methods come second.",
+          "(c) Writing only the benefits of dams. The question almost always asks for drawbacks too."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Why is water scarcity increasing in India?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) Because of a growing population, which raises the demand for water for drinking and for growing more food and cash crops; rapid urbanisation and changing lifestyles that consume more water; over-exploitation of groundwater by commercial farming; and unequal access between social groups. In many regions water is abundant but polluted by domestic and industrial waste and by pesticides and fertilisers, so it cannot be used without treatment.",
+          "(c) Dams: give three benefits and three drawbacks in every answer — irrigation, power, flood control against displacement, sedimentation and conflict. Full marks need both sides."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Jawaharlal Nehru proudly proclaimed dams as: (a) the lifelines of India (b) the temples of modern India (c) the pride of the nation (d) the wealth of India",
+        "a": "**(b) the temples of modern India** — they were seen as the means of developing irrigation, hydroelectricity and flood control together."
+      },
+      {
+        "q": "In which state has rooftop rainwater harvesting been made compulsory for all houses? (a) Rajasthan (b) Meghalaya (c) Tamil Nadu (d) West Bengal",
+        "a": "**(c) Tamil Nadu**, with legal provisions to punish defaulters."
+      },
+      {
+        "q": "'Johads' and 'khadins' are traditional methods of: (a) irrigation canals (b) rainwater harvesting in agricultural fields (c) flood control (d) groundwater pumping",
+        "a": "**(b) rainwater harvesting in agricultural fields**, mainly in arid Rajasthan, where rainwater is allowed to stand and moisten the soil."
+      },
+      {
+        "q": "The most exam-ready way to revise “Water Resources” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Scarcity, multi-purpose projects, and rainwater harvesting.."
+      },
+      {
+        "q": "A 3-mark answer on “Water Resources” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "The advantages and drawbacks of multi-purpose river projects is the set 5-mark answer; rainwater harvesting methods with regional names appear frequently as 3-mark questions.",
+    "onepager": [
+      "- Only 2.5% of the earth's water is fresh; India ranks 133rd per person per annum (2010).",
+      "- Multi-purpose projects: irrigation, power, flood control, navigation, fish breeding, recreation.",
+      "- Drawbacks: displacement, sedimentation, waterlogging, inter-state disputes, earthquakes.",
+      "- Rainwater harvesting: tankas (Rajasthan), guls and kuls (Himalayas), inundation canals (WB), bamboo drip (Meghalaya), compulsory rooftop (Tamil Nadu)."
+    ],
+    "task": [
+      "List the three nearest sources of water to your home and find out where the water in your tap comes from. Then sketch a rooftop harvesting design for your own house with the pipe, first-flush separator and storage tank labelled — this is a common activity-based question."
+    ]
+  },
+  {
+    "id": "ch08-agriculture",
+    "num": 8,
+    "title": "Agriculture",
+    "unit": "geography",
+    "unit_name": "Geography · Contemporary India II",
+    "weight": "part of 20 marks",
+    "short": "Cropping patterns, crop requirements and food security.",
+    "lede": "A crop-requirements table worth memorising cold. Temperature, rainfall and soil for rice, wheat, millets, cotton, jute, tea and coffee answers most questions.",
+    "lens": [
+      "**3–4 marks.** The geographical conditions of rice/wheat/tea/coffee and the three cropping seasons are asked almost every year.",
+      "Crops are also a **map pointing** item — learn the producing states with their positions."
+    ],
+    "concepts": [
+      "**1. Agriculture in India.** About two-thirds of India's population is engaged in agriculture, which provides most of the food consumed, produces raw material for industries, and earns foreign exchange through exports of tea, coffee and spices. It is the backbone of the economy.",
+      "**2. Cropping seasons.** **Rabi** — sown in winter from October to December, harvested in summer from April to June (wheat, barley, peas, gram, mustard). **Kharif** — sown with the onset of the monsoon in different parts of the country from June to July, harvested in September–October (paddy, maize, jowar, bajra, tur, moong, urad, cotton, jute, groundnut, soybean). **Zaid** — a short season in the summer between rabi and kharif (watermelon, muskmelon, cucumber, vegetables, fodder).",
+      "**3. Types of farming.** **Primitive subsistence** — slash-and-burn agriculture, known as *jhumming* in the north-eastern states, *pamlou* in Manipur, *dipia* in Bastar and *milpa* in Central America; low productivity, no fertilisers. **Intensive subsistence** — labour-intensive, high doses of biochemical inputs and irrigation, practised where population pressure on land is high. **Commercial** — single crop over a large area (**plantation**: tea in Assam, coffee in Karnataka, rubber in Kerala, banana in the south), using capital-intensive inputs and migrant labour.",
+      {
+        "table": {
+          "head": [
+            "Crop",
+            "Temperature",
+            "Rainfall",
+            "Soil and main areas"
+          ],
+          "rows": [
+            [
+              "Rice",
+              "above 25 °C, high humidity",
+              "above 100 cm",
+              "alluvial; Punjab, Haryana, WB, UP, coastal Andhra, Tamil Nadu"
+            ],
+            [
+              "Wheat",
+              "cool growing season, bright sunshine at ripening",
+              "50–75 cm",
+              "well-drained loam; Ganga-Satluj plains, Deccan black soil"
+            ],
+            [
+              "Millets (jowar, bajra, ragi)",
+              "grow on less fertile soil",
+              "low rainfall",
+              "jowar — Maharashtra, Karnataka, AP; bajra — Rajasthan, UP; ragi — Karnataka, TN"
+            ],
+            [
+              "Cotton",
+              "high temperature, 210 frost-free days",
+              "50–100 cm",
+              "black soil; Maharashtra, Gujarat, MP, Punjab, Haryana"
+            ],
+            [
+              "Jute",
+              "warm and moist, 24–35 °C",
+              "150–250 cm",
+              "well-drained alluvial in flood plains; WB, Bihar, Assam"
+            ],
+            [
+              "Tea",
+              "warm and moist frost-free, 20–30 °C",
+              "150–300 cm",
+              "deep, fertile, well-drained; Assam, Darjeeling, Nilgiris, Kerala"
+            ],
+            [
+              "Coffee",
+              "warm and humid",
+              "high",
+              "well-drained loam; Karnataka, Kerala, TN (Arabica)"
+            ]
+          ]
+        }
+      },
+      "**4. Technological and institutional reforms.** After independence India tried land reforms (consolidation of holdings, abolition of the zamindari system), then **Bhoodan and Gramdan** movements — the *Bloodless Revolution* — followed by the **Green Revolution** (HYV seeds, irrigation, fertilisers, especially in Punjab, Haryana and western UP) and the **White Revolution** (Operation Flood, milk). Later measures: **Kissan Credit Card**, **Personal Accident Insurance Scheme**, minimum support price and remunerative procurement prices, subsidies on power and fertilisers, and **Grameen banks** and cooperative societies to reduce dependence on moneylenders.",
+      "**5. Food security and globalisation.** **Buffer stock** is created by the government by procuring wheat and rice through the **Food Corporation of India** and distributing them through **ration shops** at prices lower than the market price. India's farmers face competition from **subsidised agriculture in developed countries**, so many farmers, especially smallholders, have withdrawn from farming. **Organic farming** — farming without factory-made chemicals such as fertilisers and pesticides — is increasingly popular because it does not damage the environment."
+    ],
+    "formulas": [],
+    "tricks": [
+      "- **Kharif = monsoon (June–July to Sept–Oct); Rabi = winter (Oct–Dec to April–June); Zaid = summer.** *'Kharif rain, Rabi grain, Zaid melon.'*",
+      "- **Rice needs 100 cm, wheat needs 50–75 cm, jute needs the most (150–250 cm).**",
+      "- **Tea = Assam/Darjeeling/Nilgiris; coffee = Karnataka/Kerala/TN.** Tea needs more water than coffee."
+    ],
+    "mistakes": [
+      "- Mixing up kharif and rabi crops. Wheat, gram, mustard and barley are **rabi**; rice, cotton, jute and maize are **kharif**.",
+      "- Forgetting that **plantation** agriculture is commercial, not subsistence.",
+      "- Writing that tea needs a waterlogged plain. Tea needs **well-drained** soil on slopes — waterlogging damages the roots."
+    ],
+    "qa": [
+      {
+        "m": "3",
+        "q": "Describe the geographical conditions required for the growth of rice.",
+        "a": "Rice is a kharif crop that requires a temperature above 25 °C and high humidity, with annual rainfall above 100 cm. It grows best in the plains of north and north-eastern India, the coastal areas and the deltaic regions. In areas of less rainfall, such as Punjab, Haryana and western Uttar Pradesh, it is grown with the help of irrigation and canal networks.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Distinguish between kharif and rabi crops with two examples of each.",
+        "a": "Kharif crops are sown with the onset of the monsoon in June–July and harvested in September–October — for example paddy, maize, cotton and jute. Rabi crops are sown in winter from October to December and harvested in summer from April to June — for example wheat, barley, peas, gram and mustard.",
+        "t": "S"
+      },
+      {
+        "m": "5",
+        "q": "Describe the impact of globalisation on Indian agriculture.",
+        "a": [
+          "Indian agriculture has faced the impact of globalisation since colonial times — indigo was grown for export and forced upon farmers, leading to the Champaran revolt.",
+          "Today, Indian farmers face competition from highly subsidised agriculture in developed countries, so the prices of agricultural produce are unstable and many small farmers find cultivation unviable.",
+          "Liberalisation has removed restrictions on imports, so cheaper imports of edible oils and grains have reduced demand for Indian produce.",
+          "**Positive side:** improved technology, HYV and genetically modified seeds, better irrigation and access to information have raised productivity in some regions, and organic farming is opening new markets.",
+          "**Result:** a large number of small and marginal farmers have withdrawn from farming, and agriculture is no longer a rewarding occupation for them."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "3",
+        "q": "What is plantation agriculture? Give one example.",
+        "a": "It is a type of commercial farming in which a single crop is grown on a large area, using capital-intensive inputs and migrant labour, and the produce is used as raw material in industries. Tea in Assam and North Bengal, coffee in Karnataka, rubber in Kerala and banana in southern India are examples; the production of tea in Assam was developed by the British with capital, technology and indentured labour.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What is buffer stock and why is it created?",
+        "a": "Buffer stock is a stock of foodgrains, mainly wheat and rice, procured by the government through the Food Corporation of India. It is created to distribute foodgrains in deficit areas and among the poorer strata of society at a price lower than the market price, and to meet the shortage during a bad harvest or a calamity.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Agriculture” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Agriculture in India. About two-thirds of India's population is engaged in agriculture, which provides most of the food consumed, produces raw material for industries, and earns foreign exchange through exports of tea, coffee and spices. It is the backbone of the economy.",
+          "Marks lens: –4 marks. The geographical conditions of rice/wheat/tea/coffee and the three cropping seasons are asked almost every year.",
+          "Method / memory trick: Kharif = monsoon (June–July to Sept–Oct); Rabi = winter (Oct–Dec to April–June); Zaid = summer. *'Kharif rain, Rabi grain, Zaid melon.'*",
+          "Do not: Mixing up kharif and rabi crops. Wheat, gram, mustard and barley are rabi; rice, cotton, jute and maize are kharif."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Agriculture” (Cropping patterns, crop requirements and food security.). A classmate lost marks by doing this: Mixing up kharif and rabi crops. Wheat, gram, mustard and barley are rabi; rice, cotton, jute and maize are kharif. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Kharif = monsoon (June–July to Sept–Oct); Rabi = winter (Oct–Dec to April–June); Zaid = summer. *'Kharif rain, Rabi grain, Zaid melon.'*",
+          "Why the mistake costs marks: Mixing up kharif and rabi crops. Wheat, gram, mustard and barley are rabi; rice, cotton, jute and maize are kharif.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Agriculture”: “Describe the geographical conditions required for the growth of rice.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Cropping patterns, crop requirements and food security..",
+          "Rice is a kharif crop that requires a temperature above 25 °C and high humidity, with annual rainfall above 100 cm. It grows best in the plains of north and north-eastern India, the coastal areas and the deltaic regions. In areas of less rainfall, such as Punjab, Haryana and western Uttar Pradesh, it is grown with the help of irrigation and canal networks."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Agriculture”. Their note says: Agriculture in India. About two-thirds of India's population is engaged in agriculture, which provides most of the food consumed, produces raw material for industries, and earns foreign exchange through exports of tea, coffee and spices. It is the backbone of the economy.\n\nThe chapter is described as: Cropping patterns, crop requirements and food security..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Cropping patterns, crop requirements and food security.",
+          "(b) –4 marks. The geographical conditions of rice/wheat/tea/coffee and the three cropping seasons are asked almost every year.",
+          "(c) Mixing up kharif and rabi crops. Wheat, gram, mustard and barley are rabi; rice, cotton, jute and maize are kharif."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Describe the geographical conditions required for the growth of rice.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) Rice is a kharif crop that requires a temperature above 25 °C and high humidity, with annual rainfall above 100 cm. It grows best in the plains of north and north-eastern India, the coastal areas and the deltaic regions. In areas of less rainfall, such as Punjab, Haryana and western Uttar Pradesh, it is grown with the help of irrigation and canal networks.",
+          "(c) Kharif = monsoon (June–July to Sept–Oct); Rabi = winter (Oct–Dec to April–June); Zaid = summer. *'Kharif rain, Rabi grain, Zaid melon.'*"
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "'Milpa' is a term used for slash-and-burn agriculture in: (a) north-east India (b) Central America and Mexico (c) Indonesia (d) the Amazon basin",
+        "a": "**(b) Central America and Mexico.** In north-east India the same practice is called jhumming."
+      },
+      {
+        "q": "Which crop requires about 210 frost-free days and 50–100 cm of rainfall? (a) rice (b) wheat (c) cotton (d) jute",
+        "a": "**(c) cotton** — a kharif crop grown in black soil in Maharashtra, Gujarat, MP, Punjab and Haryana."
+      },
+      {
+        "q": "Operation Flood is associated with: (a) the Green Revolution (b) milk production (c) irrigation projects (d) soil conservation",
+        "a": "**(b) milk production** — the White Revolution, which made India the largest milk producer in the world."
+      },
+      {
+        "q": "The most exam-ready way to revise “Agriculture” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Cropping patterns, crop requirements and food security.."
+      },
+      {
+        "q": "A 3-mark answer on “Agriculture” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "The geographical conditions of rice, wheat, cotton, tea or coffee is asked in nearly every paper; kharif vs rabi and the impact of globalisation on Indian agriculture are the recurring 3–5 mark answers.",
+    "onepager": [
+      "- Kharif: rice, maize, cotton, jute. Rabi: wheat, gram, barley, mustard. Zaid: watermelon, fodder.",
+      "- Rice 100 cm rain; wheat 50–75 cm; jute 150–250 cm; cotton 50–100 cm and 210 frost-free days.",
+      "- Plantation: tea (Assam), coffee (Karnataka), rubber (Kerala).",
+      "- Green Revolution — HYV seeds in Punjab, Haryana, western UP; White Revolution — Operation Flood.",
+      "- Buffer stock via the Food Corporation of India; Kissan Credit Card; minimum support price."
+    ],
+    "task": [
+      "Make a crop table from memory: crop, season, temperature, rainfall, soil, two producing states. Cover rice, wheat, jowar, bajra, ragi, cotton, jute, sugarcane, tea and coffee. Then check it against the NCERT table and mark every cell you got wrong."
+    ]
+  },
+  {
+    "id": "ch09-minerals-and-energy-resources",
+    "num": 9,
+    "title": "Minerals and Energy Resources",
+    "unit": "geography",
+    "unit_name": "Geography · Contemporary India II",
+    "weight": "part of 20 marks",
+    "short": "Mineral belts, conventional and non-conventional energy.",
+    "lede": "Two lists to learn: where the minerals are, and which energy sources are renewable. Both are heavily tested on maps.",
+    "lens": [
+      "**3 marks.** The difference between conventional and non-conventional sources, and one mineral with its belt, is the usual question.",
+      "Oil fields, coal fields, iron-ore belts and power plants are regular **map pointing** items."
+    ],
+    "concepts": [
+      "**1. Minerals.** A mineral is a homogeneous, naturally occurring substance with a definite internal structure, found in various forms from the hardest diamond to the softest talc. They are classified as **metallic** (iron, manganese, copper, bauxite) and **non-metallic** (limestone, mica, gypsum), and as **ferrous** and **non-ferrous**. Minerals occur in **veins and lodes** in igneous and metamorphic rocks, as **beds or layers** in sedimentary rocks, as **residual masses** from the decomposition of surface rocks (bauxite), as **placer deposits** in alluvial sands (gold, silver, tin, platinum), and in **ocean waters** (common salt, magnesium, bromine).",
+      "**2. India's mineral belts.** **Iron ore** — the basic mineral and backbone of industrial development: **hematite** (the finest, with up to 70% iron) and **magnetite** (60–70% iron, excellent magnetic properties for the electrical industry). Belts: **Odisha-Jharkhand** (Badampahar, Mayurbhanj), **Durg-Bastar-Chandrapur** (Bailadila in Chhattisgarh, exported to Japan and South Korea), **Bellary-Chitradurga-Chikkamagaluru-Tumakuru** in Karnataka (Kudremukh), and **Maharashtra-Goa** (Ratnagiri). **Manganese** — used in steel, ferro-manganese alloy, bleaching powder, insecticides and paints; mainly in Odisha, Jharkhand, MP, Maharashtra, Goa and Karnataka.",
+      "**3. Copper, bauxite and mica.** **Copper** is malleable, ductile and a good conductor; used in electrical cables, electronics and chemical industries; **Balaghat** in MP, **Singhbhum** in Jharkhand and **Jhunjhunu-Alwar** in Rajasthan. **Bauxite**, from which **aluminium** is obtained, is used where aluminium replaces steel and copper because it is light, resistant, malleable and a good conductor; found in the **Amarkantak plateau, Maikal hills and the Bilaspur-Katni plateau** in MP — **Odisha is the largest producer** (Panchpatmali). **Mica** — a mineral made of plates or leaves, used in the electrical and electronic industries because of its excellent dielectric strength and resistance to high voltage; **Koderma-Gaya-Hazaribagh** belt in Jharkhand is the largest producer, followed by Ajmer in Rajasthan and Nellore in Andhra Pradesh.",
+      "**4. Conventional sources of energy.** **Coal** — the most abundantly available fossil fuel and the major source of energy in India; four types: **anthracite** (best, hard, high carbon), **bituminous** (most popular commercially), **lignite** (brown, soft, high moisture — Neyveli in Tamil Nadu), and peat. Major fields: **Damodar valley** (Jharia, Raniganj, Bokaro), Godavari, Mahanadi, Son and Wardha valleys. **Petroleum** — the next major energy source, and a raw material for the chemical industry; about 63% of India's production comes from the **Bombay High**, 18% from **Gujarat** (Ankleshwar) and 16% from **Assam** (Digboi, Naharkatiya, Moran-Hugrijan). **Natural gas** — an environmentally friendly fuel because of low CO2 emissions; the **KG basin** has large reserves. **Electricity** is generated mainly by **hydroelectric** plants (Bhakra Nangal, Damodar Valley Corporation, Kopili) and **thermal** plants burning coal, petroleum and natural gas.",
+      "**5. Non-conventional (renewable) sources.** **Solar energy** — becoming rapidly popular in rural India through **photovoltaic** technology; the **Bhuj** solar plant and the large **Bhadla** plant in Rajasthan; solar plants at **Neyveli**; **solar cooker**s and **solar water heaters**. **Wind power** — India is a **superpower** in wind energy; the largest wind farm cluster is in **Tamil Nadu** (from Nagercoil to Madurai), with important plants in Andhra Pradesh, Karnataka, Gujarat, Kerala, Maharashtra and Lakshadweep. **Biogas** — produced from shrubs, farm waste, animal and human waste; a higher thermal efficiency than charcoal and better than kerosene; **gobar gas** plants in rural areas. **Tidal, geothermal and atomic energy** — the **Gulf of Khambhat and Gulf of Kuchchh** in Gujarat and the **Sundarbans** in West Bengal have tidal potential; **Manikaran** in Himachal Pradesh and **Puga Valley** in Ladakh have geothermal potential; **atomic energy** from uranium and thorium — uranium in Jharkhand and the Aravalli ranges of Rajasthan, and **monazite** sands in Kerala containing thorium.",
+      "**6. Conservation.** Minerals are **exhaustible and non-renewable**, take millions of years to form, and the rate of replenishment is infinitely small compared with the rate of consumption. We must use them in a **planned and sustainable** manner, improve technology to use low-grade ores at low cost, and recycle metals and scrap."
+    ],
+    "formulas": [],
+    "tricks": [
+      "- **Coal ranks: Anthracite > Bituminous > Lignite > Peat.** *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses.",
+      "- **Non-conventional = solar, wind, biogas, tidal, geothermal, atomic.** Anything that does not come from burning a fossil fuel.",
+      "- **Largest producer list:** bauxite — Odisha; mica — Koderma (Jharkhand); wind — Tamil Nadu; petroleum — Bombay High."
+    ],
+    "mistakes": [
+      "- Calling **lignite** the best quality coal. It is low-grade, brown and has high moisture — **anthracite** is the best.",
+      "- Saying petroleum is a renewable resource because it keeps being formed. It is **non-renewable** on a human time scale.",
+      "- Placing the largest wind farm cluster in Gujarat. It is in **Tamil Nadu**, from Nagercoil to Madurai."
+    ],
+    "qa": [
+      {
+        "m": "3",
+        "q": "Distinguish between conventional and non-conventional sources of energy with two examples each.",
+        "a": "Conventional sources have been in use for a long time, are largely exhaustible, cause pollution and are costly to obtain — for example coal and petroleum. Non-conventional sources are recently developed, are renewable and eco-friendly, and have lower running costs — for example solar and wind energy.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Why is there a pressing need to use non-conventional sources of energy in India?",
+        "a": "Because the growing consumption of energy has resulted in a rising dependence on coal and petroleum, whose prices are rising and whose reserves are limited; importing petroleum puts a heavy burden on foreign exchange. Conventional sources also cause environmental degradation and global warming. India has abundant potential for solar, wind, tidal, geothermal and biogas energy, which is renewable, eco-friendly and can be generated locally, so developing it improves energy security and reduces pollution.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe the distribution of iron ore in India.",
+        "a": "Iron ore is the basic mineral and the backbone of industrial development. Hematite, the finest quality with up to 70% iron, and magnetite, with 60–70% iron and excellent magnetic properties, are found in four belts: the Odisha-Jharkhand belt (Badampahar and Mayurbhanj in Odisha, Kiriburu in Jharkhand); the Durg-Bastar-Chandrapur belt in Chhattisgarh and Maharashtra, including the famous Bailadila mines whose ore is exported to Japan and South Korea; the Bellary-Chitradurga-Chikkamagaluru-Tumakuru belt in Karnataka with the large Kudremukh mines; and the Maharashtra-Goa belt, whose ore is exported through the Marmagao port.",
+        "t": "S"
+      },
+      {
+        "m": "5",
+        "q": "Explain any five non-conventional sources of energy available in India.",
+        "a": [
+          "**Solar energy:** converted using photovoltaic technology; rapidly becoming popular in rural India, used for lighting, cooking and water heating — the largest solar plants are in Rajasthan (Bhadla) and Tamil Nadu (Neyveli).",
+          "**Wind energy:** India is a superpower in wind power, with the largest cluster of wind farms in Tamil Nadu from Nagercoil to Madurai.",
+          "**Biogas:** produced from farm waste, animal and human waste in gobar gas plants; it has higher thermal efficiency than charcoal and is used for lighting and cooking in villages.",
+          "**Tidal energy:** generated by using floodgate dams across inlets — potential in the Gulf of Khambhat, the Gulf of Kuchchh and the Sundarbans.",
+          "**Geothermal energy:** heat from the earth's interior used to generate power — the Manikaran hot springs in Himachal Pradesh and the Puga Valley in Ladakh are promising; six plants have been set up there.",
+          "**Atomic energy:** produced from uranium and thorium; uranium is found in Jharkhand and the Aravalli range, and thorium in the monazite sands of Kerala."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Minerals and Energy Resources” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Minerals. A mineral is a homogeneous, naturally occurring substance with a definite internal structure, found in various forms from the hardest diamond to the softest talc. They are classified as metallic (iron, manganese, copper, bauxite) and non-metallic (limestone, mica, gypsum), and as ferrous and non-ferrous. Minerals occur in veins and lodes in igneous and metamorphic rocks, as beds or layers in sedimentary roc.",
+          "Marks lens: marks. The difference between conventional and non-conventional sources, and one mineral with its belt, is the usual question.",
+          "Method / memory trick: Coal ranks: Anthracite > Bituminous > Lignite > Peat. *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses.",
+          "Do not: Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Minerals and Energy Resources” (Mineral belts, conventional and non-conventional energy.). A classmate lost marks by doing this: Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Coal ranks: Anthracite > Bituminous > Lignite > Peat. *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses.",
+          "Why the mistake costs marks: Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Minerals and Energy Resources”: “Distinguish between conventional and non-conventional sources of energy with two examples each.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Mineral belts, conventional and non-conventional energy..",
+          "Conventional sources have been in use for a long time, are largely exhaustible, cause pollution and are costly to obtain — for example coal and petroleum. Non-conventional sources are recently developed, are renewable and eco-friendly, and have lower running costs — for example solar and wind energy."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Minerals and Energy Resources”. Their note says: Minerals. A mineral is a homogeneous, naturally occurring substance with a definite internal structure, found in various forms from the hardest diamond to the softest talc. They are classified as metallic (iron, manganese, copper, bauxite) and non-metallic (limestone, mica, gypsum), and as ferrous a\n\nThe chapter is described as: Mineral belts, conventional and non-conventional energy..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Mineral belts, conventional and non-conventional energy.",
+          "(b) marks. The difference between conventional and non-conventional sources, and one mineral with its belt, is the usual question.",
+          "(c) Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Distinguish between conventional and non-conventional sources of energy with two examples each.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) Conventional sources have been in use for a long time, are largely exhaustible, cause pollution and are costly to obtain — for example coal and petroleum. Non-conventional sources are recently developed, are renewable and eco-friendly, and have lower running costs — for example solar and wind energy.",
+          "(c) Coal ranks: Anthracite > Bituminous > Lignite > Peat. *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "The finest quality of iron ore with about 70% iron content is: (a) magnetite (b) hematite (c) limonite (d) siderite",
+        "a": "**(b) hematite** — the most important industrial iron ore in terms of quantity used; magnetite has 60–70% iron and valued magnetic properties."
+      },
+      {
+        "q": "The largest producer of mica in India is the: (a) Koderma-Gaya-Hazaribagh belt (b) Ajmer region (c) Nellore belt (d) Balaghat belt",
+        "a": "**(a) Koderma-Gaya-Hazaribagh belt in Jharkhand**, which is the largest producer of mica in India and the world."
+      },
+      {
+        "q": "About 63% of India's petroleum production comes from: (a) Assam (b) Gujarat (c) Bombay High (d) the KG basin",
+        "a": "**(c) Bombay High.** Gujarat contributes about 18% and Assam about 16%."
+      },
+      {
+        "q": "The most exam-ready way to revise “Minerals and Energy Resources” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Mineral belts, conventional and non-conventional energy.."
+      },
+      {
+        "q": "A 3-mark answer on “Minerals and Energy Resources” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "The difference between conventional and non-conventional sources and the distribution of one major mineral (iron ore, coal or petroleum) alternate as the set question; oil fields, coal fields and power plants recur as map items.",
+    "onepager": [
+      "- Hematite (70% iron) is the finest; magnetite (60–70%) has magnetic properties.",
+      "- Coal ranks: anthracite, bituminous, lignite, peat. Damodar valley = Jharia, Raniganj, Bokaro.",
+      "- Petroleum: Bombay High 63%, Gujarat 18%, Assam 16%.",
+      "- Largest wind cluster: Tamil Nadu (Nagercoil–Madurai). Bauxite: Odisha. Mica: Koderma.",
+      "- Minerals are exhaustible and non-renewable — use them in a planned, sustainable way and recycle."
+    ],
+    "task": [
+      "On a blank outline map of India, mark the Damodar valley coal fields, Bombay High, Digboi, Kudremukh, Bailadila, Koderma and the Tamil Nadu wind corridor. Then say aloud which of these are also map pointing items in the CBSE list — map work here is free marks."
+    ]
+  },
+  {
+    "id": "ch10-manufacturing-industries",
+    "num": 10,
+    "title": "Manufacturing Industries",
+    "unit": "geography",
+    "unit_name": "Geography · Contemporary India II",
+    "weight": "part of 20 marks",
+    "short": "Classification, agro-based and mineral-based industries, pollution.",
+    "lede": "Two industry families — agro-based and mineral-based — each with a location factor list. Learn cotton textiles and iron and steel properly.",
+    "lens": [
+      "**3 marks.** The cotton textile industry and the iron and steel industry are the recurring long answers; industrial pollution with control measures is the other favourite.",
+      "Steel plants, software parks and textile centres appear as **map pointing** items."
+    ],
+    "concepts": [
+      "**1. Manufacturing and its importance.** Manufacturing is the production of goods in large quantities after processing raw materials into more valuable products — for example, paper from wood, sugar from sugarcane, aluminium from bauxite. It contributes about **17% of GDP** (of which 10% comes from mining, electricity, gas, water supply and other utilities; manufacturing alone is about 27%, and 12% comes from construction). Manufacturing is important because it **modernises agriculture**, reduces dependence on agricultural income by providing jobs in the secondary and tertiary sectors, **eradicates unemployment and poverty**, reduces regional disparities, expands trade and earns foreign exchange through exports, and brings prosperity by adding value to raw materials. **Industrial pollution** and the location of industries are decided by **availability of raw material, cheap and skilled labour, power, market and transport**.",
+      "**2. Classification of industries.** By **source of raw material**: agro-based (cotton, wool, jute, silk, sugar) and mineral-based (iron and steel, cement, aluminium). By **main role**: basic or key industries (which supply their products to other industries, e.g. iron and steel), and consumer industries. By **capital investment**: small, medium and large. By **ownership**: **public sector** (SAIL, BHEL, ONGC — owned by the government), **private sector** (TISCO, Bajaj Auto), **joint sector** (Oil India Ltd, jointly owned by the state and individuals) and **cooperative sector** (Amul, sugar cooperatives of Maharashtra). By **weight of raw material**: heavy (using bulky raw materials, e.g. iron and steel) and light. By **bulk and weight of raw material and finished goods** also.",
+      "**3. Agro-based industries.** **Cotton textiles** — in the early years the industry was concentrated in the **cotton-growing belt of Maharashtra and Gujarat** because of raw cotton, market, transport including ports, labour and moist climate. Today India exports yarn to Japan, but the **weaving, knitting and processing units** cannot fully use the high-quality yarn produced, and most spinning is in Maharashtra, Gujarat and Tamil Nadu while weaving is decentralised. India's production of **Gandhiji's khadi**, handspun and handwoven cloth, remains important; a challenge to the industry is competition from synthetic fibre. **Sugar industry** — India is the second largest producer of sugar and the largest producer of **gur and khandsari**; mills are shifting to **southern and western states, especially Maharashtra**, because the cane there has a higher sucrose content, a longer crushing season and the cooperatives are more successful. **Jute textiles** — India is the largest producer of raw jute and jute goods; most mills are in **West Bengal along the banks of the Hooghly**, because of proximity to jute-producing areas, inexpensive water transport, abundant water, cheap labour and the port of Kolkata. National Jute Policy 2005 aims at increasing productivity, improving quality and increasing yield per hectare.",
+      "**4. Mineral-based industries.** **Iron and steel** — a **basic** industry because all other industries depend on it for machinery, and a **heavy** industry because all its raw materials and finished products are heavy and bulky. India is the largest producer of **sponge iron** and ranks among the leading producers of crude steel. Chotanagpur plateau has the maximum concentration of iron and steel industries because of low cost of iron ore, high-grade raw material, cheap labour, vast growth potential in the home market and good transport. **TISCO, Jamshedpur** (1907, the oldest) is close to the Kolkata market; **Bokaro** and **Bhilai** (with Soviet collaboration), **Durgapur** and **Rourkela** (with German collaboration) were set up in the public sector. Problems: high cost and limited supply of **coking coal**, low labour productivity, irregular energy supply and poor infrastructure. **Aluminium smelting** — the second most important metallurgical industry; aluminium is light, resistant to corrosion and a good conductor, used in aircraft, utensils and wires; it is a **smelting** industry needing a regular supply of electricity and bauxite. **Chemical industries** contribute about 3% of GDP and are placed third in Asia; include organic (petrochemicals) and inorganic (sulphuric acid, nitric acid, caustic soda) chemicals. **Fertiliser industry** expanded after the Green Revolution, concentrated in Gujarat, Punjab, Haryana, UP and Tamil Nadu near natural gas reserves. **Cement** needs bulky raw materials — limestone, silica, alumina and gypsum — and coal, electricity and diesel; the industry has grown in Gujarat because of access to the Gulf market.",
+      "**5. Information technology and electronics.** The electronics industry covers a wide range from transistors to television, telephones and computers; **Bengaluru has emerged as the electronic capital of India**, with other important centres at Delhi, Hyderabad, Pune, Chennai, Mumbai, Mohali, Kolkata and Lucknow. **Software technology parks** provide a single-window service and high data communication facility to software experts. India's **BPO** and IT services sector has grown rapidly, and women are a large share of its workforce.",
+      "**6. Industrial pollution and its control.** Four types: **air pollution** (from chemical and paper factories, brick kilns, refineries and smelting plants burning fossil fuels), **water pollution** (organic and inorganic industrial wastes and effluents discharged into rivers — paper, pulp, chemical, textile and dyeing, petroleum refineries, tanneries), **thermal pollution** (hot water from factories drained into rivers before cooling) and **noise pollution** (industrial and construction activities, machinery, generators), which causes hearing impairment, psychological effects and increased heart rate. Control: **treatment of industrial effluent** in three stages (primary — mechanical screening and grinding; secondary — biological; tertiary — chemical and physical, before reuse), **over-drawing of groundwater regulation**, **particulate control** using electrostatic precipitators, fabric filters and inertial separators, use of **oil as fuel instead of coal**, fitting **silencers** on generators and machinery, and adopting cleaner technologies such as those promoted by **NTPC**, which has ISO 14001 certification."
+    ],
+    "formulas": [],
+    "tricks": [
+      "- **Iron and steel = basic + heavy + in the Chotanagpur region.** Three keywords that open any 3-mark answer on steel.",
+      "- **Cotton textiles moved from the cotton belt (Maharashtra, Gujarat) to Tamil Nadu for spinning**, but weaving stayed decentralised — that contrast is itself an exam answer.",
+      "- **Effluent treatment = three stages: mechanical, biological, chemical.** Always give all three."
+    ],
+    "mistakes": [
+      "- Calling iron and steel a consumer industry. It is a **basic and key** industry.",
+      "- Saying Bengaluru is the cotton textile capital. It is the **electronic** capital of India.",
+      "- Forgetting **thermal pollution** when asked to list the types of industrial pollution."
+    ],
+    "qa": [
+      {
+        "m": "3",
+        "q": "Why is the iron and steel industry called a basic industry? Give three reasons.",
+        "a": "It is called a basic industry because all other industries — heavy, medium and light — depend on it for their machinery, and because production and consumption of steel are regarded as the index of a country's level of development. It is also a heavy industry, since both its raw materials and its finished products are heavy and bulky, so transport costs are a major part of its total cost.",
+        "t": "S"
+      },
+      {
+        "m": "5",
+        "q": "Describe the factors responsible for the location of the jute textile industry along the banks of the Hooghly.",
+        "a": [
+          "**Proximity of the jute-producing areas** — the jute belt of West Bengal, Bihar, Odisha and Assam lies close by.",
+          "**Inexpensive water transport**, supported by a good network of railways, roadways and waterways for the movement of jute to the mills.",
+          "**Abundant water** for processing raw jute, which the Hooghly supplies.",
+          "**Cheap labour** from West Bengal and the adjoining states of Bihar, Odisha and Uttar Pradesh.",
+          "**Kolkata as a large urban centre** provides banking, insurance, port facilities for export and other commercial services.",
+          "As a result India is the largest producer of raw jute and jute goods in the world, though it faces competition from synthetic substitutes and from other producers such as Bangladesh."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "What are the different types of industrial pollution? How can it be controlled?",
+        "a": [
+          "**Types:** (1) **Air pollution** — caused by chemical and paper factories, brick kilns, refineries and smelting plants burning fossil fuels, and by toxic gas leaks such as the Bhopal tragedy; (2) **Water pollution** — caused by organic and inorganic industrial wastes and effluents discharged into rivers by paper, pulp, chemical, textile and dyeing, petroleum refineries and tanneries; (3) **Thermal pollution** — hot water from factories and power plants drained into rivers and ponds before cooling; (4) **Noise pollution** — from industrial and construction activity, machinery and generators, causing hearing impairment and stress.",
+          "**Control:** particulate matter can be controlled by fitting electrostatic precipitators, fabric filters, scrubbers and inertial separators to smokestacks; smoke can be reduced by using oil instead of coal; water pollution can be minimised by reusing and recycling water in two or more successive stages, harvesting rainwater, and treating hot water and effluents before releasing them, in three stages — primary (mechanical), secondary (biological) and tertiary (chemical and physical); noise can be reduced by fitting silencers on generators and machinery, redesigning machines and providing workers with earplugs."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "3",
+        "q": "Why has the sugar industry shifted to southern and western states, especially Maharashtra?",
+        "a": "Because the sugarcane grown there has a higher sucrose content, the cooler climate ensures a longer crushing season, and the cooperatives in these states are more successful, so the mills get a better and more regular supply of cane than in the older north Indian centres.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "How has the information technology industry contributed to India's economy?",
+        "a": "It has generated large employment, especially for women, and has been a major earner of foreign exchange through the rapidly growing business process outsourcing (BPO) sector. Software technology parks provide single-window services and high data communication facilities, and Bengaluru has become the electronic capital of India. Continued growth in hardware and software depends on a skilled workforce and good connectivity.",
+        "t": "S"
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Manufacturing Industries” (Classification, agro-based and mineral-based industries, pollution.). A classmate lost marks by doing this: Calling iron and steel a consumer industry. It is a basic and key industry. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Iron and steel = basic + heavy + in the Chotanagpur region. Three keywords that open any 3-mark answer on steel.",
+          "Why the mistake costs marks: Calling iron and steel a consumer industry. It is a basic and key industry.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Manufacturing Industries”: “Why is the iron and steel industry called a basic industry? Give three reasons.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Classification, agro-based and mineral-based industries, pollution..",
+          "It is called a basic industry because all other industries — heavy, medium and light — depend on it for their machinery, and because production and consumption of steel are regarded as the index of a country's level of development. It is also a heavy industry, since both its raw materials and its finished products are heavy and bulky, so transport costs are a major part of its total cost."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Manufacturing Industries”. Their note says: Manufacturing and its importance. Manufacturing is the production of goods in large quantities after processing raw materials into more valuable products — for example, paper from wood, sugar from sugarcane, aluminium from bauxite. It contributes about 17% of GDP (of which 10% comes from mining, ele\n\nThe chapter is described as: Classification, agro-based and mineral-based industries, pollution..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Classification, agro-based and mineral-based industries, pollution.",
+          "(b) marks. The cotton textile industry and the iron and steel industry are the recurring long answers; industrial pollution with control measures is the other favourite.",
+          "(c) Calling iron and steel a consumer industry. It is a basic and key industry."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Why is the iron and steel industry called a basic industry? Give three reasons.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) It is called a basic industry because all other industries — heavy, medium and light — depend on it for their machinery, and because production and consumption of steel are regarded as the index of a country's level of development. It is also a heavy industry, since both its raw materials and its finished products are heavy and bulky, so transport costs are a major part of its total cost.",
+          "(c) Iron and steel = basic + heavy + in the Chotanagpur region. Three keywords that open any 3-mark answer on steel."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Which industry is called a basic and key industry? (a) cotton textile (b) iron and steel (c) sugar (d) cement",
+        "a": "**(b) iron and steel** — all other industries depend on it for their machinery."
+      },
+      {
+        "q": "Which city has emerged as the electronic capital of India? (a) Mumbai (b) Hyderabad (c) Bengaluru (d) Chennai",
+        "a": "**(c) Bengaluru** — it is also called the Silicon Valley of India."
+      },
+      {
+        "q": "Hot water from factories drained into rivers before cooling causes: (a) air pollution (b) water pollution (c) thermal pollution (d) noise pollution",
+        "a": "**(c) thermal pollution**, which affects aquatic life."
+      },
+      {
+        "q": "The most exam-ready way to revise “Manufacturing Industries” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Classification, agro-based and mineral-based industries, pollution.."
+      },
+      {
+        "q": "A 3-mark answer on “Manufacturing Industries” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "The cotton textile or iron and steel industry with location factors is asked almost every year; industrial pollution with control measures is the other recurring 5-mark answer.",
+    "onepager": [
+      "- Manufacturing adds value; industry location depends on raw material, labour, power, market and transport.",
+      "- Classification: source, role, capital, ownership (public, private, joint, cooperative), bulk.",
+      "- Cotton textiles: Maharashtra, Gujarat (spinning in Tamil Nadu). Jute: West Bengal on the Hooghly. Sugar: shifting to Maharashtra.",
+      "- Iron and steel: basic, heavy, Chotanagpur; TISCO 1907 Jamshedpur; largest producer of sponge iron.",
+      "- Bengaluru = electronic capital; four types of industrial pollution; effluent treated in three stages."
+    ],
+    "task": [
+      "List five products you use daily and identify the industry that makes each. For any two of them, write the four location factors that decide where that industry is set up, with an Indian example of a city where it is concentrated."
+    ]
+  },
+  {
+    "id": "ch11-lifelines-of-national-economy",
+    "num": 11,
+    "title": "Lifelines of National Economy",
+    "unit": "geography",
+    "unit_name": "Geography · Contemporary India II",
+    "weight": "map work mainly",
+    "short": "Roadways, railways, pipelines, waterways, airways and trade.",
+    "lede": "Assessed mainly through map pointing, but the roadways-versus-railways comparison is still asked as a short answer.",
+    "lens": [
+      "**Map work is the main return here** — sea ports, airports, national highways and pipelines.",
+      "A 3-mark question on why roadways are preferred over railways, or on the importance of trade, is the usual theory question."
+    ],
+    "concepts": [
+      "**1. Why transport and communication are called lifelines.** The movement of goods and services from their supply locations to demand locations is called **trade**. No country can prosper without efficient means of transport; trade between countries is called **international trade**, and trade within a country is **internal or domestic trade**. A dense and efficient network of transport and communication is a prerequisite for local, national and global trade, and the ease with which information moves has made the world a **global village**.",
+      "**2. Roadways.** India has one of the largest road networks in the world, about **54 lakh km**. Roads are classified as **National Highways** (linking extreme parts of the country, maintained by CPWD; the **Golden Quadrilateral** superhighways link Delhi-Kolkata-Chennai-Mumbai, the North-South corridor Srinagar–Kanyakumari and the East-West corridor Silchar–Porbandar), **State Highways**, **District Roads** (managed by Zila Parishad), **Rural roads** (the **Pradhan Mantri Grameen Sadak Yojana** aims to connect every village to a major town by an all-season motorable road) and **Border Roads** (built by the **Border Roads Organisation** in the northern and north-eastern border areas). Roads are also classified by material — **metalled** (cement, concrete, bitumen) and **unmetalled**. **Why roadways are preferred:** roads have lower construction cost; they can traverse more dissected and undulating topography and the lower slopes of the Himalayas; they can negotiate higher gradients (such as the passes of the Himalayas); they provide **door-to-door service**, reducing loading and unloading costs; and they connect railway stations, air and sea ports.",
+      "**3. Railways.** Indian Railways is the principal mode of transportation for freight and passengers, making it possible to conduct multifarious activities such as business, sightseeing and pilgrimage along with the transportation of goods over long distances. The network has about 7,000 stations and over 68,000 km of route. Its distribution is strongly influenced by **physiographic, economic and administrative factors** — the northern plains provided the most favourable conditions for growth, while it was difficult to lay tracks on the peninsular region, the sandy plains of western Rajasthan, the forests of central India and the Himalayan region. The **Konkan Railway** along the west coast was a landmark achievement. Problems include theft and damage to property, unnecessary chain pulling, ticketless travel and the sheer size of the network.",
+      "**4. Pipelines.** Used for transporting crude oil, petroleum products and natural gas from oil and gas fields to refineries, fertiliser factories and thermal power plants. Solids can also be transported in a pipeline when converted into slurry. Major networks: from **Upper Assam to Kanpur** (via Guwahati, Barauni and Allahabad); from **Salaya in Gujarat to Jalandhar in Punjab** (via Viramgam, Mathura, Delhi and Sonipat); and the **HVJ gas pipeline** from Hazira in Gujarat to Jagdishpur in Uttar Pradesh through Vijaypur in Madhya Pradesh. Pipelines have high initial cost but **minimal running cost** and eliminate transhipment losses.",
+      "**5. Waterways.** The **cheapest** means of transport and best suited for carrying heavy and bulky goods; they are a **fuel-efficient and environment-friendly** mode. India has about **14,500 km** of navigable waterways, of which **5,200 km** of rivers and 4,000 km of canals can be used by mechanised boats. Six **National Waterways** are declared: NW-1 the **Ganga** between Allahabad and Haldia (1,620 km), NW-2 the **Brahmaputra** between Sadiya and Dhubri (891 km), NW-3 the **West Coast Canal** in Kerala between Kottappuram and Kollam (205 km, the first with 24-hour navigation), NW-4, NW-5 and NW-6. **Kochi, Kolkata, Mumbai and Chennai** are major sea ports; **Kandla in Kachchh** was the first port developed soon after Independence to ease the volume of trade on Mumbai port; **Marmagao** is the premier iron ore exporting port; **Tuticorin** handles trade with Sri Lanka.",
+      "**6. Airways and communication.** Air travel is the fastest, most comfortable and prestigious mode; it can cover difficult terrain like mountains and deserts with great ease, and air transport was **nationalised in 1953**. **Pawan Hans** provides helicopter services to ONGC in offshore operations and to inaccessible areas. **Airports Authority of India** and private operators run airports; **Chennai, Kolkata and Mumbai** are major international airports. **Communication** — the Indian **postal network** is the largest in the world; **telecommunications** includes telephone, telegraph, fax, radio and television; India has the largest telecom network in Asia and one of the largest in the world, with the **STD** and now mobile networks reaching even rural areas through **BSNL, MTNL and private operators**. Tourism is an important trade: it earns foreign exchange, supports local handicrafts, and promotes national integration and international understanding."
+    ],
+    "formulas": [],
+    "tricks": [
+      "- **Roadways beat railways on four counts:** lower cost, difficult terrain, higher gradients, and door-to-door service.",
+      "- **Waterways = cheapest + fuel-efficient + environment-friendly.** Three phrases, one full answer.",
+      "- **Golden Quadrilateral:** Delhi-Kolkata-Chennai-Mumbai. North-South: Srinagar–Kanyakumari. East-West: Silchar–Porbandar."
+    ],
+    "mistakes": [
+      "- Saying pipelines have low initial cost. They have a **high initial cost but minimal running cost**.",
+      "- Attributing the Konkan Railway to the northern plains. It runs along the **west coast** and was an engineering challenge.",
+      "- Naming Mumbai as the first port developed after Independence. It was **Kandla in Kachchh**."
+    ],
+    "qa": [
+      {
+        "m": "3",
+        "q": "Why are roadways considered more efficient than railways in India?",
+        "a": "Because the cost of constructing roads is much lower than that of railway lines; roads can traverse more dissected and undulating topography and negotiate higher gradients, such as in the Himalayas; they provide door-to-door service, which reduces the loading and unloading cost; and they act as feeders to other modes of transport, connecting railway stations, airports and sea ports.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Why are means of transport and communication called the lifelines of a nation and its economy?",
+        "a": "Because goods and services cannot move from supply locations to demand locations without them. A dense and efficient transport and communication network is a prerequisite for local, national and international trade, it enables industries to reach their markets and raw materials, it creates employment, and it has made the world a global village by allowing information to move instantly.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What are the advantages of pipeline transport?",
+        "a": "Pipelines can transport crude oil, petroleum products and natural gas from the fields to refineries, fertiliser plants and thermal power stations, and solids can be moved as slurry. Once laid, they have minimal running cost, they eliminate transhipment losses and delays, and they can pass through difficult terrain including rivers and hills, so they provide a continuous and reliable supply. Their only major drawback is the high initial cost of laying the line.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe the importance of waterways in India.",
+        "a": "Waterways are the cheapest means of transport and are best suited for carrying heavy and bulky goods. They are a fuel-efficient and environment-friendly mode of transport. India has about 14,500 km of inland waterways, of which six stretches have been declared National Waterways, including the Ganga between Allahabad and Haldia and the Brahmaputra between Sadiya and Dhubri. These waterways also support tourism and connect remote regions to the national market.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Lifelines of National Economy” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Why transport and communication are called lifelines. The movement of goods and services from their supply locations to demand locations is called trade. No country can prosper without efficient means of transport; trade between countries is called international trade, and trade within a country is internal or domestic trade. A dense and efficient network of transport and communication is a prerequisite for local, na.",
+          "Marks lens: Map work is the main return here — sea ports, airports, national highways and pipelines.",
+          "Method / memory trick: Roadways beat railways on four counts: lower cost, difficult terrain, higher gradients, and door-to-door service.",
+          "Do not: Saying pipelines have low initial cost. They have a high initial cost but minimal running cost."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Lifelines of National Economy” (Roadways, railways, pipelines, waterways, airways and trade.). A classmate lost marks by doing this: Saying pipelines have low initial cost. They have a high initial cost but minimal running cost. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Roadways beat railways on four counts: lower cost, difficult terrain, higher gradients, and door-to-door service.",
+          "Why the mistake costs marks: Saying pipelines have low initial cost. They have a high initial cost but minimal running cost.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Lifelines of National Economy”: “Why are roadways considered more efficient than railways in India?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Roadways, railways, pipelines, waterways, airways and trade..",
+          "Because the cost of constructing roads is much lower than that of railway lines; roads can traverse more dissected and undulating topography and negotiate higher gradients, such as in the Himalayas; they provide door-to-door service, which reduces the loading and unloading cost; and they act as feeders to other modes of transport, connecting railway stations, airports and sea ports."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Lifelines of National Economy”. Their note says: Why transport and communication are called lifelines. The movement of goods and services from their supply locations to demand locations is called trade. No country can prosper without efficient means of transport; trade between countries is called international trade, and trade within a country is \n\nThe chapter is described as: Roadways, railways, pipelines, waterways, airways and trade..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Roadways, railways, pipelines, waterways, airways and trade.",
+          "(b) Map work is the main return here — sea ports, airports, national highways and pipelines.",
+          "(c) Saying pipelines have low initial cost. They have a high initial cost but minimal running cost."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Why are roadways considered more efficient than railways in India?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) Because the cost of constructing roads is much lower than that of railway lines; roads can traverse more dissected and undulating topography and negotiate higher gradients, such as in the Himalayas; they provide door-to-door service, which reduces the loading and unloading cost; and they act as feeders to other modes of transport, connecting railway stations, airports and sea ports.",
+          "(c) Roadways beat railways on four counts: lower cost, difficult terrain, higher gradients, and door-to-door service."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "The Golden Quadrilateral superhighway connects: (a) Srinagar and Kanyakumari (b) Delhi, Kolkata, Chennai and Mumbai (c) Silchar and Porbandar (d) Kandla and Haldia",
+        "a": "**(b) Delhi, Kolkata, Chennai and Mumbai** — it is a six-lane highway linking the four major metropolitan cities."
+      },
+      {
+        "q": "The first port developed soon after Independence to ease the volume of trade on Mumbai port was: (a) Kandla (b) Marmagao (c) Tuticorin (d) Kochi",
+        "a": "**(a) Kandla in Kachchh**, developed to serve the rich agricultural and industrial hinterland of the north-west."
+      },
+      {
+        "q": "Air transport in India was nationalised in: (a) 1947 (b) 1953 (c) 1965 (d) 1972",
+        "a": "**(b) 1953.**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Lifelines of National Economy” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Roadways, railways, pipelines, waterways, airways and trade.."
+      },
+      {
+        "q": "A 3-mark answer on “Lifelines of National Economy” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "This chapter is assessed mainly through map pointing — ports, airports, national highways and pipelines — with an occasional 3-mark question on roadways versus railways or on the importance of trade.",
+    "onepager": [
+      "- Road network about 54 lakh km; Golden Quadrilateral; PMGSY for rural roads; BRO for border roads.",
+      "- Railways: about 7,000 stations; distribution depends on physiography, economy and administration; Konkan Railway along the west coast.",
+      "- Pipelines: high initial cost, minimal running cost; HVJ Hazira–Vijaypur–Jagdishpur.",
+      "- Waterways: cheapest, 14,500 km, NW-1 Ganga (Allahabad–Haldia), NW-2 Brahmaputra.",
+      "- Airways nationalised 1953; postal network the largest in the world."
+    ],
+    "task": [
+      "On a blank political outline map of India, mark Kandla, Marmagao, Tuticorin, Kochi, Kolkata, Haldia, the Chennai and Mumbai airports, the Hazira–Jagdishpur pipeline and the Konkan Railway. Practise it three times; map work is the cheapest 5 marks in Geography."
+    ]
+  }
 ]
