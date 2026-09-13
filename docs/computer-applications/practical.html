@@ -3,31 +3,70 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Practical · Class 10 CBSE</title>
-<meta name="description" content="CBSE Class 10 Practical — chapter notes, formulas, exam Q&amp;A and revision.">
+<title>Practical &amp;amp; internal assessment · Class 10 CBSE</title>
+<meta name="description" content="CBSE Class 10 Practical &amp;amp; internal assessment — chapter notes, formulas, exam Q&amp;A and revision.">
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="topbar">
-  <div class="wrap topbar-in">
-    <a class="brand" href="../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
-    <nav class="topnav"><a href="../index.html">All subjects</a><a href="../computer-applications/index.html">Hub</a><a href="../computer-applications/syllabus.html">Syllabus</a><a href="../computer-applications/revision.html">Revise</a><a href="../computer-applications/question-bank.html">Bank</a><a href="../computer-applications/drill.html">Drill</a><a href="../computer-applications/pyq.html">PYQ</a></nav>
-  </div>
-</header>
-<main id="main" class="wrap">
-  <nav class="crumbs"><a href="../index.html">Home</a> <span class="sep">/</span> <a href="index.html">Computer Applications</a> <span class="sep">/</span> Practical</nav>
+<button class="menu-btn" onclick="openMenu()" aria-label="Open navigation">&#9776;</button>
+<div class="backdrop" id="backdrop" onclick="closeMenu()"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+<div class="side-head"><a class="brand" href="../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a><p class="side-sub">Session 2026–27</p><button class="side-close" onclick="closeMenu()" aria-label="Close navigation">&times;</button></div>
+<div class="progress-wrap"><div class="progress-label"><span>Chapters done</span><span data-subject-text="computer-applications" data-total="14">0 of 14</span></div><div class="bar"><span class="fill" data-subject="computer-applications" data-total="14"></span></div></div>
+<div class="toc-group">All subjects</div>
+<a class="toc-item" href="../maths/index.html"><span class="toc-num">041</span>Mathematics</a>
+<a class="toc-item" href="../science/index.html"><span class="toc-num">086</span>Science</a>
+<a class="toc-item" href="../social-science/index.html"><span class="toc-num">087</span>Social Science</a>
+<a class="toc-item" href="../english/index.html"><span class="toc-num">184</span>English Language &amp; Literature</a>
+<a class="toc-item" href="../hindi/index.html"><span class="toc-num">002 (A)</span>Hindi</a>
+<a class="toc-item" href="../information-technology/index.html"><span class="toc-num">402</span>Information Technology</a>
+<a class="toc-item is-on" href="../computer-applications/index.html"><span class="toc-num">165</span>Computer Applications</a>
+<a class="toc-item" href="../sanskrit/index.html"><span class="toc-num">122</span>Sanskrit</a>
+<div class="toc-group">Computer Applications</div>
+<a class="toc-item" href="../computer-applications/index.html"><span class="toc-num">&bull;</span>Hub</a>
+<a class="toc-item" href="../computer-applications/chapters.html"><span class="toc-num">&bull;</span>Chapters</a>
+<a class="toc-item" href="../computer-applications/syllabus.html"><span class="toc-num">&bull;</span>Syllabus</a>
+<a class="toc-item" href="../computer-applications/question-bank.html"><span class="toc-num">&bull;</span>Q&amp;A bank</a>
+<a class="toc-item" href="../computer-applications/drill.html"><span class="toc-num">&bull;</span>MCQ drill</a>
+<a class="toc-item" href="../computer-applications/revision.html"><span class="toc-num">&bull;</span>Revision</a>
+<a class="toc-item" href="../computer-applications/pyq.html"><span class="toc-num">&bull;</span>PYQ</a>
+<a class="toc-item is-on" href="../computer-applications/practical.html" aria-current="page"><span class="toc-num">&bull;</span>Practical</a>
+<div class="toc-group">Chapters</div>
+<div class="toc-sub">Unit I · Networking</div>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch01-internet-basics.html"><span class="toc-num">1</span>Internet Basics</a>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch02-internet-services.html"><span class="toc-num">2</span>Internet Services &amp; Protocols</a>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch03-network-concepts.html"><span class="toc-num">3</span>Network Types, Topologies &amp; Devices</a>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch04-mobile-technology.html"><span class="toc-num">4</span>Mobile &amp; Wireless Technology</a>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch05-web-browsing.html"><span class="toc-num">5</span>Web Browsers, Search &amp; Web Concepts</a>
+<div class="toc-sub">Unit II · HTML</div>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch06-html-introduction.html"><span class="toc-num">6</span>HTML I — Introduction &amp; Basic Tags</a>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch07-html-text-formatting.html"><span class="toc-num">7</span>HTML II — Text Formatting &amp; Lists</a>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch08-html-links-images.html"><span class="toc-num">8</span>HTML III — Links &amp; Images</a>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch09-html-tables.html"><span class="toc-num">9</span>HTML Tables</a>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch10-html-forms.html"><span class="toc-num">10</span>HTML Forms</a>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch11-html-frames-multimedia.html"><span class="toc-num">11</span>Frames, Multimedia &amp; Special Tags</a>
+<div class="toc-sub">Unit III · Cyber Ethics</div>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch12-cyber-safety.html"><span class="toc-num">12</span>Cyber Safety &amp; Security</a>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch13-cybercrime-ipr.html"><span class="toc-num">13</span>Cybercrime, IPR &amp; Open Source</a>
+<a class="toc-item toc-ch" href="../computer-applications/chapters/ch14-it-act-ewaste.html"><span class="toc-num">14</span>The IT Act, Digital Footprint &amp; e-Waste</a>
+<div class="sidebar-foot">Progress is saved in this browser.<br>Created by <strong>Mohammad Umair</strong></div>
+  </aside>
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> <span class="sep">/</span> <a href="index.html">Computer Applications</a> <span class="sep">/</span> Practical</nav>
 
 <p class="kicker">CBSE • CLASS 10 • COMPUTER APPLICATIONS</p>
 <h1>Computer Applications — Practical &amp; internal assessment</h1>
 <p class="lede">Computer Applications का 50 अंक का प्रैक्टिकल — <strong>लैब टेस्ट (20) + फ़ाइल वर्क (10) + वाइवा (5) + वेबसाइट प्रोजेक्ट (15)</strong>।</p>
 <ul><li><strong>Lab test (20)</strong>: निर्धारित समय में एक HTML पेज या छोटी वेबसाइट — टेबल, फ़ॉर्म, लिंक और छवि सहित।</li><li><strong>File work (10)</strong>: पूरे वर्ष के अभ्यास का क्रमबद्ध संग्रह; हर प्रयोग का उद्देश्य, कोड और आउटपुट लिखें।</li><li><strong>Viva (5)</strong>: टैग की परिभाषा, प्रोटोकॉल के पूरे नाम, साइबर-सुरक्षा के उपाय — छोटे और सीधे प्रश्न।</li><li><strong>Website project (15)</strong>: बहु-पेज साइट — होम पेज, कम-से-कम तीन अन्य पेज, नेविगेशन लिंक, टेबल, फ़ॉर्म और छवियाँ।</li><li><strong>अभ्यास</strong>: किसी भी टेक्स्ट एडिटर में पेज लिखें और ब्राउज़र में खोलें। रोज़ एक पेज = प्रोजेक्ट आधा पूरा।</li></ul>
 
-</main>
+  </main>
+</div>
 <footer class="wrap foot">
-  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  <div class="foot-main"><p>Built for CBSE Class 10 &middot; session 2026–27 &middot; content is original study material,
   not official CBSE papers. Always confirm the syllabus against
-  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p><nav class="foot-subj" aria-label="All subjects"><a href="../maths/index.html">Mathematics</a> <a href="../science/index.html">Science</a> <a href="../social-science/index.html">Social Science</a> <a href="../english/index.html">English Language &amp; Literature</a> <a href="../hindi/index.html">Hindi</a> <a href="../information-technology/index.html">Information Technology</a> <a href="../computer-applications/index.html">Computer Applications</a> <a href="../sanskrit/index.html">Sanskrit</a></nav><p class="credit">Created by <strong>Mohammad Umair</strong></p></div>
   <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
 </footer>
 <script src="../assets/app.js"></script>

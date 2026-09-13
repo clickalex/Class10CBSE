@@ -9,14 +9,80 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="topbar">
-  <div class="wrap topbar-in">
-    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
-    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../hindi/index.html">Hub</a><a href="../../hindi/syllabus.html">Syllabus</a><a href="../../hindi/revision.html">Revise</a><a href="../../hindi/question-bank.html">Bank</a><a href="../../hindi/drill.html">Drill</a><a href="../../hindi/pyq.html">PYQ</a></nav>
-  </div>
-</header>
-<main id="main" class="wrap">
-  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Hindi</a> <span class="sep">/</span> <a href="../units/kshitij.html">Course A · क्षितिज भाग-2</a> <span class="sep">/</span> Ch 5 · यह दंतुर हास मुस्कान / फसल</nav>
+<button class="menu-btn" onclick="openMenu()" aria-label="Open navigation">&#9776;</button>
+<div class="backdrop" id="backdrop" onclick="closeMenu()"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+<div class="side-head"><a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a><p class="side-sub">Session 2026–27</p><button class="side-close" onclick="closeMenu()" aria-label="Close navigation">&times;</button></div>
+<div class="progress-wrap"><div class="progress-label"><span>Chapters done</span><span data-subject-text="hindi" data-total="40">0 of 40</span></div><div class="bar"><span class="fill" data-subject="hindi" data-total="40"></span></div></div>
+<div class="toc-group">All subjects</div>
+<a class="toc-item" href="../../maths/index.html"><span class="toc-num">041</span>Mathematics</a>
+<a class="toc-item" href="../../science/index.html"><span class="toc-num">086</span>Science</a>
+<a class="toc-item" href="../../social-science/index.html"><span class="toc-num">087</span>Social Science</a>
+<a class="toc-item" href="../../english/index.html"><span class="toc-num">184</span>English Language &amp; Literature</a>
+<a class="toc-item is-on" href="../../hindi/index.html"><span class="toc-num">002 (A)</span>Hindi</a>
+<a class="toc-item" href="../../information-technology/index.html"><span class="toc-num">402</span>Information Technology</a>
+<a class="toc-item" href="../../computer-applications/index.html"><span class="toc-num">165</span>Computer Applications</a>
+<a class="toc-item" href="../../sanskrit/index.html"><span class="toc-num">122</span>Sanskrit</a>
+<div class="toc-group">Hindi</div>
+<a class="toc-item" href="../../hindi/index.html"><span class="toc-num">&bull;</span>Hub</a>
+<a class="toc-item is-on" href="../../hindi/chapters.html" aria-current="page"><span class="toc-num">&bull;</span>Chapters</a>
+<a class="toc-item" href="../../hindi/syllabus.html"><span class="toc-num">&bull;</span>Syllabus</a>
+<a class="toc-item" href="../../hindi/question-bank.html"><span class="toc-num">&bull;</span>Q&amp;A bank</a>
+<a class="toc-item" href="../../hindi/drill.html"><span class="toc-num">&bull;</span>MCQ drill</a>
+<a class="toc-item" href="../../hindi/revision.html"><span class="toc-num">&bull;</span>Revision</a>
+<a class="toc-item" href="../../hindi/pyq.html"><span class="toc-num">&bull;</span>PYQ</a>
+<a class="toc-item" href="../../hindi/practical.html"><span class="toc-num">&bull;</span>Practical</a>
+<div class="toc-group">Chapters</div>
+<div class="toc-sub">Course A · क्षितिज भाग-2</div>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch01-sur-ke-pad.html"><span class="toc-num">1</span>सूर के पद</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch02-ram-lakshman-parshuram-samvad.html"><span class="toc-num">2</span>राम-लक्ष्मण-परशुराम संवाद</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch03-aatmakathya.html"><span class="toc-num">3</span>आत्मकथ्य</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch04-utsah-at-nahi-rahi.html"><span class="toc-num">4</span>उत्साह / अट नहीं रही</a>
+<a class="toc-item toc-ch is-on" href="../../hindi/chapters/ch05-yah-dantur-has-muskan-fasal.html" aria-current="page"><span class="toc-num">5</span>यह दंतुर हास मुस्कान / फसल</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch06-sangatkar.html"><span class="toc-num">6</span>संगतकार</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch07-netaji-ka-chashma.html"><span class="toc-num">7</span>नेताजी का चश्मा</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch08-balgobin-bhagat.html"><span class="toc-num">8</span>बालगोबिन भगत</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch09-lakhnavi-andaz.html"><span class="toc-num">9</span>लखनवी अंदाज़</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch10-ek-kahani-yah-bhi.html"><span class="toc-num">10</span>एक कहानी यह भी</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch11-naubatkhane-mein-ibadat.html"><span class="toc-num">11</span>नौबतखाने में इबादत</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch12-sanskriti.html"><span class="toc-num">12</span>संस्कृति</a>
+<div class="toc-sub">Course A · कृतिका भाग-2</div>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch13-mata-ka-aanchal.html"><span class="toc-num">13</span>माता का अंचल</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch14-sana-sana-hath-jodi.html"><span class="toc-num">14</span>साना-साना हाथ जोड़ि</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch15-ehi-thaiyan-jhulani-herani-ho.html"><span class="toc-num">15</span>एही ठैयाँ झुलनी हेरानी हो</a>
+<div class="toc-sub">Course B · स्पर्श भाग-2</div>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch16-sakhi.html"><span class="toc-num">16</span>साखी — कबीर</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch17-pad.html"><span class="toc-num">17</span>पद — मीरा</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch18-manushyata.html"><span class="toc-num">18</span>मनुष्यता</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch19-parvat-pradesh-mein-pavas.html"><span class="toc-num">19</span>पर्वत प्रदेश में पावस</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch20-top.html"><span class="toc-num">20</span>तोप</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch21-kar-chale-ham-fida.html"><span class="toc-num">21</span>कर चले हम फ़िदा</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch22-aatmatran.html"><span class="toc-num">22</span>आत्मत्राण</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch23-bade-bhai-sahab.html"><span class="toc-num">23</span>बड़े भाई साहब</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch24-diary-ka-ek-panna.html"><span class="toc-num">24</span>डायरी का एक पन्ना</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch25-tatara-vamiro-katha.html"><span class="toc-num">25</span>तताँरा-वामीरो कथा</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch26-tisri-kasam-ke-shilpkar-shailendra.html"><span class="toc-num">26</span>तीसरी कसम के शिल्पकार शैलेंद्र</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch27-ab-kahan-doosre-ke-dukh-se-dukhi-hone-wale.html"><span class="toc-num">27</span>अब कहाँ दूसरे के दुख से दुखी होने वाले</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch28-patjhar-mein-tuti-pattiyan.html"><span class="toc-num">28</span>पतझर में टूटी पत्तियाँ</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch29-kartoos.html"><span class="toc-num">29</span>कारतूस</a>
+<div class="toc-sub">Course B · संचयन भाग-2</div>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch30-harihar-kaka.html"><span class="toc-num">30</span>हरिहर काका</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch31-sapnon-ke-se-din.html"><span class="toc-num">31</span>सपनों के से दिन</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch32-topi-shukla.html"><span class="toc-num">32</span>टोपी शुक्ला</a>
+<div class="toc-sub">व्याकरण और लेखन</div>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch33-vartni-shabd-bhandar.html"><span class="toc-num">33</span>वर्तनी और शब्द-भंडार</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch34-upsarg-pratyay-sandhi.html"><span class="toc-num">34</span>उपसर्ग, प्रत्यय और संधि</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch35-samas-vakya-shuddhi.html"><span class="toc-num">35</span>समास और वाक्य-शुद्धि</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch36-muhavare-lokokti-ras-alankar.html"><span class="toc-num">36</span>मुहावरे-लोकोक्तियाँ, रस और अलंकार</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch37-apathit-gadyansh.html"><span class="toc-num">37</span>अपठित गद्यांश</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch38-patra-lekhan.html"><span class="toc-num">38</span>पत्र लेखन</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch39-anuchchhed-lekhan.html"><span class="toc-num">39</span>अनुच्छेद लेखन</a>
+<a class="toc-item toc-ch" href="../../hindi/chapters/ch40-sandesh-vigyapan.html"><span class="toc-num">40</span>संदेश और विज्ञापन लेखन</a>
+<div class="sidebar-foot">Progress is saved in this browser.<br>Created by <strong>Mohammad Umair</strong></div>
+  </aside>
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Hindi</a> <span class="sep">/</span> <a href="../units/kshitij.html">Course A · क्षितिज भाग-2</a> <span class="sep">/</span> Ch 5 · यह दंतुर हास मुस्कान / फसल</nav>
 <p class="kicker">CBSE • CLASS 10 • HINDI</p><h1>Chapter 5 · यह दंतुर हास मुस्कान / फसल</h1><p class="lede"><strong>Chapter 5 of 40.</strong> दो कविताएँ — एक में पहाड़ी लड़की की मुस्कान, दूसरी में फसल का जीवन-संगीत।</p><p><a class="btn" href="../practice/ch05-yah-dantur-has-muskan-fasal.html">Open this chapter’s questions + MCQs →</a></p><p class="chips"><a class="chip" href="#marks-lens">🎯 Marks lens</a> <a class="chip" href="#deep-concepts">📖 Deep concepts</a> <a class="chip" href="#tricks">🧠 Tricks</a> <a class="chip" href="#mistakes">⚠️ Mistakes</a> <a class="chip" href="#exam-qa">❓ Exam Q&A</a> <a class="chip" href="#task">✍️ Task</a></p>
 <h2 id="marks-lens">🎯 Marks lens</h2><div class="callout"><p>पाठ्यांश और कवि-परिचय के प्रश्न।<br><strong>नागार्जुन</strong> — <strong>प्रगतिवादी</strong> धारा के कवि, 'बाबा नागार्जुन' और 'यात्री' नामों से भी जाने जाते हैं; ग्रंथ — <em>पत्रहीन नग्न गाथा</em>, <em>सतरंगे पंखों की कुछ</em>। भाषा <strong>खड़ी बोली और मैथिली</strong>।</p></div>
 <h2 id="deep-concepts">📖 Deep concepts</h2>
@@ -27,7 +93,7 @@
 <ul><li>नागार्जुन को <strong>छायावादी</strong> बताना — वे <strong>प्रगतिवादी</strong> धारा के कवि हैं।</li><li>'दंतुर' का अर्थ 'सुंदर दाँत' लिखना।</li></ul>
 <h2 id="exam-qa">❓ Exam Q&A</h2>
 <p class="hint">Short · Long · Application · Competency — write first, then Show Answer.</p>
-<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 8 revealed<span class="qshown"> · <span data-shown>8</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (8)</button><button type="button" class="qfilter" data-filter="S">Short (3)</button><button type="button" class="qfilter" data-filter="L">Long (1)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
+<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 10 revealed<span class="qshown"> · <span data-shown>10</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (10)</button><button type="button" class="qfilter" data-filter="S">Short (4)</button><button type="button" class="qfilter" data-filter="L">Long (2)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
 <div class="qstack"><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S1</span><span class="marks">1 mark</span></div><p class="qtext"><strong>1.</strong> 'दंतुर' शब्द का अर्थ लिखिए।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>'दंतुर' का अर्थ है टेढ़ा-मेढ़ा या असमान। यहाँ इसका प्रयोग पहाड़ी लड़की की सहज, बनावटीपन से रहित मुस्कान के लिए हुआ है।</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S2</span><span class="marks">2 marks</span></div><p class="qtext"><strong>2.</strong> कवि पहाड़ी लड़की की मुस्कान को क्यों महत्व देते हैं?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>क्योंकि वह मुस्कान सहज और सच्ची है। उसमें नगर की कृत्रिमता नहीं, बल्कि गाँव के जीवन, श्रम और सरलता की झलक है। कवि को वही सौंदर्य प्रिय है जो जीवन से जुड़ा हो।</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S3</span><span class="marks">2 marks</span></div><p class="qtext"><strong>3.</strong> 'फसल' कविता का केंद्रीय भाव क्या है?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>केंद्रीय भाव यह है कि फसल केवल अनाज नहीं, बल्कि जीवन की धारा है। लहलहाती फसल मनुष्य को मेहनत और आशा का संदेश देती है, और प्रकृति तथा मनुष्य के सहजीवन का स्वरूप प्रस्तुत करती है।</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L4</span><span class="marks">5 marks</span></div><p class="qtext"><strong>4.</strong> “यह दंतुर हास मुस्कान / फसल” को विस्तार से समझाइए और एक परीक्षा-उदाहरण दीजिए।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>यह दंतुर हास मुस्कान। कवि पहाड़ी लड़की की दंतुर (टेढ़ी-मेढ़ी, सहज) मुस्कान का वर्णन करते हैं। यह मुस्कान नगर की कृत्रिम मुस्कान से भिन्न है — इसमें गाँव की सहजता, श्रम की थकान और जीवन की सच्चाई है।.<br>अंक-दृष्टि: पाठ्यांश और कवि-परिचय के प्रश्न।<br>याद रखने की युक्ति: 'दंतुर' का अर्थ = टेढ़ा-मेढ़ा, सहज। यह शब्दार्थ अक्सर पूछा जाता है।</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A5</span><span class="marks">3 marks</span></div><p class="qtext"><strong>5.</strong> रीना कक्षा 10 की परीक्षा की तैयारी कर रही है। पाठ “यह दंतुर हास मुस्कान / फसल” (नागार्जुन: पहाड़ी सौंदर्य और फसल की लहलहाती पुकार।) पर आधारित एक स्थिति यह है: एक विद्यार्थी ने यह गलती की — नागार्जुन को छायावादी बताना — वे प्रगतिवादी धारा के कवि हैं। सही विधि लिखिए और बताइए कि अंक क्यों कटते हैं।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>सही विधि: 'दंतुर' का अर्थ = टेढ़ा-मेढ़ा, सहज। यह शब्दार्थ अक्सर पूछा जाता है।<br>अंक कटने का कारण: नागार्जुन को छायावादी बताना — वे प्रगतिवादी धारा के कवि हैं।<br>उत्तर में परिभाषा + उदाहरण दोनों लिखें।</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A6</span><span class="marks">3 marks</span></div><p class="qtext"><strong>6.</strong> अमित को यह प्रश्न मिला: “'दंतुर' शब्द का अर्थ लिखिए।” इसे अनुप्रयोग प्रश्न की तरह 3 अंकों में बिंदुवार हल कीजिए।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>'दंतुर' का अर्थ है टेढ़ा-मेढ़ा या असमान। यहाँ इसका प्रयोग पहाड़ी लड़की की सहज, बनावटीपन से रहित मुस्कान के लिए हुआ है।</p></div></details></article><article class="qcard" data-type="C"><div class="qmeta"><span class="qbadge qbadge-c">COMPETENCY</span><span class="qcode">C7</span><span class="marks">4 marks</span></div><p class="qtext"><strong>7.</strong> निम्नलिखित स्थिति पढ़कर उत्तर दीजिए।
 
 कक्षा 10 की एक छात्रा “यह दंतुर हास मुस्कान / फसल” का पुनरावलोकन कर रही है। उसने नोट किया: यह दंतुर हास मुस्कान। कवि पहाड़ी लड़की की दंतुर (टेढ़ी-मेढ़ी, सहज) मुस्कान का वर्णन करते हैं। यह मुस्कान नगर की कृत्रिम मुस्कान से भिन्न है — इसमें गाँव की सहजता, श्रम की थकान और जीवन की सच्चाई है।
@@ -39,15 +105,17 @@
 दो मित्र एक ही प्रश्न हल कर रहे हैं: “'दंतुर' शब्द का अर्थ लिखिए।” एक मित्र केवल एक पंक्ति लिखता है, दूसरा बिंदु और उदाहरण देता है।
 
 (क) पूर्ण अंक के लिए उत्तर-ढाँचा क्या होना चाहिए?
-(ख) आदर्श उत्तर के मुख्य बिंदु लिखिए।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(क) परिभाषा / कथन → तर्क या विधि → उदाहरण या निष्कर्ष।<br>(ख) 'दंतुर' का अर्थ है टेढ़ा-मेढ़ा या असमान। यहाँ इसका प्रयोग पहाड़ी लड़की की सहज, बनावटीपन से रहित मुस्कान के लिए हुआ है।</p></div></details></article></div>
+(ख) आदर्श उत्तर के मुख्य बिंदु लिखिए।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(क) परिभाषा / कथन → तर्क या विधि → उदाहरण या निष्कर्ष।<br>(ख) 'दंतुर' का अर्थ है टेढ़ा-मेढ़ा या असमान। यहाँ इसका प्रयोग पहाड़ी लड़की की सहज, बनावटीपन से रहित मुस्कान के लिए हुआ है।</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S9</span><span class="marks">2 marks</span></div><p class="qtext"><strong>9.</strong> "यह दंतुर हास मुस्कान" कविता में कवि ने किस सौंदर्य का चित्रण किया है?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>कवि ने पहाड़ी प्रदेश के प्राकृतिक सौंदर्य का चित्रण किया है — चट्टानों की चमक ऐसी लगती है मानो पृथ्वी अपने दाँत दिखाकर मुस्करा रही हो। धूप, छाया, ढलान और पथरीली भूमि मिलकर एक सजीव, हँसता हुआ दृश्य रचते हैं।</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L10</span><span class="marks">3 marks</span></div><p class="qtext"><strong>10.</strong> "फसल" कविता में किसान के परिश्रम और फसल के महत्व को कैसे चित्रित किया गया है?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>कवि फसल को धरती की देन के साथ किसान की मेहनत का फल बताते हैं — खेत में लहलहाती फसल साल भर की तपस्या का मुँह-बोला उत्तर है। यह दिखाया गया है कि अन्न ही जीवन है, इसलिए किसान और उसकी फसल दोनों समाज की जड़ हैं। कविता का स्वर उत्साह और आभार का है।</p></div></details></article></div>
 <h2 id="task">✍️ Hands-on task</h2>
 <div class="callout alt"><p>दोनों कविताओं के एक-एक बिंब लिखिए और बताइए कि दोनों में जन-जीवन कैसे झलकता है। दो वाक्य में उत्तर पूरा।</p></div>
 <div class="done"><label><input type="checkbox" class="mark-complete" data-key="hindi::kshitij##ch05-yah-dantur-has-muskan-fasal" data-subject="hindi"> Mark “Ch 5 · यह दंतुर हास मुस्कान / फसल” complete</label><p><a href="../practice/ch05-yah-dantur-has-muskan-fasal.html">Practise this chapter’s MCQs and written questions →</a></p></div>
-</main>
+<nav class="chapnav" aria-label="Chapter navigation"><a class="chapnav-prev" href="ch04-utsah-at-nahi-rahi.html"><span>← Previous</span>Ch 4 · उत्साह / अट नहीं रही</a><a class="chapnav-index" href="../chapters.html">All Hindi chapters</a><a class="chapnav-next" href="ch06-sangatkar.html"><span>Next →</span>Ch 6 · संगतकार</a></nav>
+  </main>
+</div>
 <footer class="wrap foot">
-  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  <div class="foot-main"><p>Built for CBSE Class 10 &middot; session 2026–27 &middot; content is original study material,
   not official CBSE papers. Always confirm the syllabus against
-  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p><nav class="foot-subj" aria-label="All subjects"><a href="../../maths/index.html">Mathematics</a> <a href="../../science/index.html">Science</a> <a href="../../social-science/index.html">Social Science</a> <a href="../../english/index.html">English Language &amp; Literature</a> <a href="../../hindi/index.html">Hindi</a> <a href="../../information-technology/index.html">Information Technology</a> <a href="../../computer-applications/index.html">Computer Applications</a> <a href="../../sanskrit/index.html">Sanskrit</a></nav><p class="credit">Created by <strong>Mohammad Umair</strong></p></div>
   <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
 </footer>
 <script src="../../assets/app.js"></script>

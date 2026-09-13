@@ -127,6 +127,37 @@
           "(b) d = √[(4 − (−2))² + (−5 − 3)²] = √[36 + 64] = √100 = 10 units.",
           "(c) Section formula cross pattern: m goes with the *second* point’s coordinates and n with the first. Write it out once correctly and reuse it."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Find the ratio in which the point (−1, 6) divides the line segment joining (−3, 10) and (6, −8).",
+        "a": [
+          "Let the ratio be k : 1. Using the section formula on x: −1 = (6k − 3)/(k + 1).",
+          "⇒ −k − 1 = 6k − 3 ⇒ 7k = 2 ⇒ k = 2/7, so the ratio is 2 : 7.",
+          "Verify with y: (−8(2/7) + 10)/(9/7) = (54/7) × (7/9) = 6, which matches."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Find the area of the quadrilateral with vertices (−4, −2), (−3, −5), (3, −2) and (2, 3), taken in order.",
+        "a": [
+          "Split it along the diagonal AC into ΔABC and ΔACD.",
+          "ar(ABC) = ½|(−4)(−5 + 2) + (−3)(−2 + 2) + 3(−2 + 5)| = ½|12 + 0 + 9| = 10.5 sq units.",
+          "ar(ACD) = ½|(−4)(−2 − 3) + 3(3 + 2) + 2(−2 + 2)| = ½|20 + 15 + 0| = 17.5 sq units.",
+          "Total area = 10.5 + 17.5 = 28 sq units."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "4",
+        "q": "Show that the points (1, 7), (4, 2), (−1, −1) and (−4, 4) are the vertices of a square.",
+        "a": [
+          "Each side: AB = √(9 + 25) = √34, BC = √(25 + 9) = √34, CD = √(9 + 25) = √34, DA = √(25 + 9) = √34 — all equal.",
+          "Diagonals: AC = √(4 + 64) = √68 and BD = √(64 + 4) = √68 — equal.",
+          "A quadrilateral with all four sides equal and equal diagonals is a square."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -149,6 +180,18 @@
       {
         "q": "A 3-mark answer on “Coordinate Geometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The point (−3, 0) lies on: (a) the x-axis  (b) the y-axis  (c) the line y = x  (d) the origin",
+        "a": "**(a) the x-axis.** Every point whose y-coordinate is 0 lies on the x-axis."
+      },
+      {
+        "q": "The distance of (a cos θ, a sin θ) from the origin is: (a) a  (b) a²  (c) 1  (d) 2a",
+        "a": "**(a) a.** Distance = √(a²cos²θ + a²sin²θ) = √(a²) = a."
+      },
+      {
+        "q": "The centroid of the triangle with vertices (2, 3), (−4, 7) and (2, −4) is: (a) (0, 2)  (b) (0, 0)  (c) (2, 2)  (d) (0, 3)",
+        "a": "**(a) (0, 2).** x = (2 − 4 + 2)/3 = 0 and y = (3 + 7 − 4)/3 = 2."
       }
     ],
     "trend": "One 3-mark question on the section formula or an equidistant relation, plus objective questions on distance and midpoint.",
@@ -322,6 +365,32 @@
           "(b) (√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4 = 1.",
           "(c) Building the sin table: write 0, 1, 2, 3, 4 under 0°, 30°, 45°, 60°, 90°, divide each by 4, then take the square root. The cos row is the sin row read backwards."
         ]
+      },
+      {
+        "m": "2",
+        "q": "If tan θ = 5/12, find sin θ and cos θ.",
+        "a": "Take the perpendicular as 5k and the base as 12k, so the hypotenuse is √(25 + 144)k = 13k. Hence sin θ = 5/13 and cos θ = 12/13.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Prove that (cosec A − sin A)(sec A − cos A) = 1/(tan A + cot A).",
+        "a": [
+          "LHS = (1/sin A − sin A)(1/cos A − cos A) = [(1 − sin²A)/sin A] × [(1 − cos²A)/cos A]",
+          "= (cos²A/sin A) × (sin²A/cos A) = sin A cos A.",
+          "RHS = 1/[(sin A/cos A) + (cos A/sin A)] = 1/[(sin²A + cos²A)/(sin A cos A)] = sin A cos A.",
+          "LHS = RHS, so the identity is proved."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Prove that √[(1 + sin A)/(1 − sin A)] = sec A + tan A.",
+        "a": [
+          "Multiply inside the root by (1 + sin A)/(1 + sin A): √[(1 + sin A)²/(1 − sin²A)] = √[(1 + sin A)²/cos²A].",
+          "= (1 + sin A)/cos A = 1/cos A + sin A/cos A = sec A + tan A."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -344,6 +413,18 @@
       {
         "q": "A 3-mark answer on “Introduction to Trigonometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The value of sin²60° + 2 tan²45° − cos²30° is: (a) 1  (b) 2  (c) 5/4  (d) 9/4",
+        "a": "**(b) 2.** 3/4 + 2(1) − 3/4 = 2."
+      },
+      {
+        "q": "If sin θ = cos θ, then θ = : (a) 0°  (b) 30°  (c) 45°  (d) 90°",
+        "a": "**(c) 45°.** sin 45° = cos 45° = 1/√2."
+      },
+      {
+        "q": "sec²A − tan²A equals: (a) 0  (b) 1  (c) −1  (d) sin²A",
+        "a": "**(b) 1.** It follows directly from 1 + tan²A = sec²A."
       }
     ],
     "trend": "One identity proof (3 marks) most years, plus objective questions on standard values and complementary angles.",
@@ -480,6 +561,35 @@
           "(b) tan 60° = h/30, so √3 = h/30. h = 30√3 m ≈ 51.96 m.",
           "(c) Angle of depression equals the angle of elevation from the other end (alternate angles). So a depression problem becomes an elevation problem on a mirrored triangle."
         ]
+      },
+      {
+        "m": "3",
+        "q": "The shadow of a tower is 20 m longer when the sun’s elevation is 30° than when it is 60°. Find the height of the tower.",
+        "a": [
+          "Let the height be h. Shadow at 60° = h/tan 60° = h/√3; shadow at 30° = h/tan 30° = h√3.",
+          "h√3 − h/√3 = 20 ⇒ h(3 − 1)/√3 = 20 ⇒ 2h = 20√3.",
+          "So h = 10√3 m ≈ 17.3 m."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "From a point 40 m from the foot of a tower the angle of elevation of its top is 30°. After hoisting a flag on top, the angle of elevation of the top of the flag is 45°. Find the height of the flag.",
+        "a": [
+          "Height of the tower = 40 tan 30° = 40/√3 ≈ 23.1 m.",
+          "Height of tower + flag = 40 tan 45° = 40 m.",
+          "Height of the flag = 40 − 40/√3 = 40(1 − 1/√3) ≈ 16.9 m."
+        ],
+        "t": "A"
+      },
+      {
+        "m": "3",
+        "q": "Two poles of heights 6 m and 11 m stand upright on level ground with their feet 12 m apart. Find the distance between their tops.",
+        "a": [
+          "The difference in height is 11 − 6 = 5 m and the horizontal gap is 12 m.",
+          "Distance between the tops = √(5² + 12²) = √169 = 13 m."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -502,6 +612,18 @@
       {
         "q": "A 3-mark answer on “Some Applications of Trigonometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "When the shadow of a pole equals its height, the sun’s angle of elevation is: (a) 30°  (b) 45°  (c) 60°  (d) 90°",
+        "a": "**(b) 45°.** tan θ = height/shadow = 1, so θ = 45°."
+      },
+      {
+        "q": "The angle made by the line of sight with the horizontal when the object is below the observer is the angle of: (a) elevation  (b) depression  (c) reflection  (d) inclination",
+        "a": "**(b) depression.** Elevation looks up; depression looks down."
+      },
+      {
+        "q": "A 10 m ladder reaches a window 8 m above the ground. Its foot is from the wall at a distance of: (a) 4 m  (b) 6 m  (c) 7 m  (d) 9 m",
+        "a": "**(b) 6 m.** By Pythagoras, √(100 − 64) = √36 = 6 m."
       }
     ],
     "trend": "One 3–4 mark heights-and-distances problem each year. Two-position problems (walking away) are the common harder variant.",

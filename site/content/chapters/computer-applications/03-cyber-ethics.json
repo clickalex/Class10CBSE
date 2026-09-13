@@ -116,6 +116,24 @@
           "(b) Cyber safety is about protecting an individual user online — using strong passwords, avoiding suspicious links, not oversharing personal information. Cyber security is the broader technical discipline of protecting computers, networks, systems and data from unauthorised access and attack, using firewalls, encryption, access control and monitoring. Safety is personal practice; security is systematic defence.",
           "(c) Virus needs a host file, worm travels alone."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is phishing and how do you recognise it?",
+        "a": "Phishing is a message, email or website made to look as though it comes from a bank, a delivery company or a government office, asking you to click a link and enter your password, card number or OTP. You can recognise it by a sender's address that does not match the real company, urgent or threatening language, a link whose real address differs from the text, and the request itself, because no bank ever asks for a password or an OTP.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "List five rules for staying safe online.",
+        "a": [
+          "Use long, unique passwords for each account, and a password manager to remember them; turn on two-factor authentication wherever it is offered.",
+          "Keep the operating system, browser and antivirus updated, because updates close the holes attackers use.",
+          "Never share an OTP, a card number, a password or private photographs with anyone who asks online.",
+          "Think before you click: check the address in the link, and do not open attachments you were not expecting.",
+          "Back up your files, log out of shared computers, and check the privacy settings of every account you create."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -138,6 +156,14 @@
       {
         "q": "Cyber ethics deals with — (a) encryption algorithms (b) moral behaviour online (c) network hardware (d) programming",
         "a": "**(b) moral behaviour online.**"
+      },
+      {
+        "q": "A strong password should: (a) be long and mix letters, numbers and symbols  (b) be your own name and birth year  (c) be the same on every site  (d) be written on your desk",
+        "a": "**(a) be long and mix letters, numbers and symbols.** Length matters more than cleverness."
+      },
+      {
+        "q": "Software that secretly records every key you press is called: (a) a keylogger  (b) a firewall  (c) an antivirus  (d) a browser",
+        "a": "**(a) a keylogger.** A firewall blocks unwanted connections; an antivirus removes known malware."
       }
     ],
     "trend": "Definitions of threats and a safety-measures list appear in every paper. Ten marks, very predictable.",
@@ -297,6 +323,23 @@
           "(b) IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business informati",
           "(c) Copyright = works, patent = inventions, trademark = brands, trade secret = secrets."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is plagiarism and how is it different from quoting?",
+        "a": "Plagiarism is using someone else's words, ideas, images or code and presenting them as your own, even if you change a few words or do not name the source. Quoting keeps the original wording inside quotation marks and names the author and the work, so the reader knows whose words they are; that is allowed and expected in school work.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain the four main kinds of intellectual property.",
+        "a": [
+          "Copyright protects original literary, musical, artistic and software works, and lasts for the life of the author plus sixty years in India.",
+          "A patent protects a new invention for twenty years, and lets the owner stop others from making or selling it.",
+          "A trademark protects a name, logo or symbol that identifies a business or product, such as a brand name or a jingle.",
+          "A design right protects the shape, pattern or look of a manufactured article, and trade secrets protect information kept confidential by a business."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -319,6 +362,14 @@
       {
         "q": "Software free to use but closed in source is called — (a) shareware (b) freeware (c) FOSS (d) malware",
         "a": "**(b) freeware.**"
+      },
+      {
+        "q": "Copying a paid program and selling it without the owner's permission is: (a) software piracy  (b) fair use  (c) open source  (d) shareware",
+        "a": "**(a) software piracy.** It is a criminal offence under the Copyright Act and the IT Act."
+      },
+      {
+        "q": "Open source software is software that: (a) lets users study, change and share the source code  (b) is always free of cost  (c) cannot be copied  (d) runs only on mobile phones",
+        "a": "**(a) lets users study, change and share the source code.** Free refers to freedom, not necessarily to price."
       }
     ],
     "trend": "One IPR question and one FOSS-versus-proprietary question appear in most papers.",
@@ -445,6 +496,23 @@
           "(b) The Information Technology Act, 2000 is India's principal legislation governing electronic commerce and cybercrime, amended in 2008. Three key provisions are: it gives legal recognition to electronic records and digital signatures, so an online document or contract is as valid as a paper one; it defines cyber offences and their punishments, such as tampering with source documents under Section 65 and hacking under Section 66; and it provides a legal framework for electronic governance and secure",
           "(c) 65 tampering, 66 hacking, 66C identity theft, 67 obscenity."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is a digital footprint and why should you manage it?",
+        "a": "A digital footprint is the trail of information you leave whenever you browse, search, post, comment, like a picture or fill in a form online. It is public and long-lasting: colleges and employers look at it, and once something is posted it is very hard to remove completely, so it is worth checking what your own footprint says about you.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What does the Information Technology Act 2000 cover, and how should e-waste be handled?",
+        "a": [
+          "The Act gives legal recognition to electronic records and digital signatures, so that online documents and contracts are valid.",
+          "It defines cyber offences such as hacking, theft of data, identity theft, sending obscene material and spreading viruses, and sets fines and imprisonment for them.",
+          "It also created the framework for adjudicating officers and the Cyber Appellate Tribunal.",
+          "e-Waste must never be burnt or thrown into household garbage: under the E-Waste (Management) Rules it should be handed to an authorised recycler or returned to the manufacturer, because phones and computers contain lead, mercury and cadmium."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -467,6 +535,14 @@
       {
         "q": "The 3R approach means — (a) read, run, rest (b) reduce, reuse, recycle (c) repair, replace, remove (d) return, refund, recover",
         "a": "**(b) reduce, reuse, recycle.**"
+      },
+      {
+        "q": "The Information Technology Act was passed in India in: (a) 2000  (b) 1995  (c) 2005  (d) 2010",
+        "a": "**(a) 2000.** It was amended in 2008 to strengthen the provisions on cybercrime."
+      },
+      {
+        "q": "The correct way to dispose of an old mobile phone is to: (a) hand it to an authorised e-waste recycler  (b) throw it into the dustbin  (c) burn it with the rubbish  (d) bury it in the garden",
+        "a": "**(a) hand it to an authorised e-waste recycler.** Burning or burying releases toxic metals into air and soil."
       }
     ],
     "trend": "One IT Act question and one e-waste or footprint question close the paper every year.",

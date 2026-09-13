@@ -159,6 +159,23 @@
           "(a) Posters = **visual**; loudspeaker = **oral/verbal**; notice = **written**.",
           "(b) Visual attracts, oral spreads fast, written is proof — together they cover more audiences with both speed and a record."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Name any four barriers to effective communication.",
+        "a": "Physical barriers such as noise or distance; language barriers such as jargon or an unfamiliar accent; psychological barriers such as anger, fear or prejudice; and cultural barriers, where the same word or gesture means different things. Poor listening and the absence of feedback make all of them worse.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What are the 7 Cs of effective communication? Explain any three.",
+        "a": [
+          "The seven Cs are clear, concise, concrete, correct, coherent, complete and courteous.",
+          "Clear: say what you mean in words the listener understands, and avoid jargon.",
+          "Concise: use only as many words as the message needs, so the point is not lost.",
+          "Complete: give all the facts the receiver needs, including who, what, when and where, so that no further questions are needed."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -193,6 +210,14 @@
       {
         "q": "The easiest method of communication is: (a) written (b) oral (c) non-verbal (d) email",
         "a": "**(c) Non-verbal** — needs no literacy."
+      },
+      {
+        "q": "The communication process is complete only when: (a) the receiver gives feedback  (b) the message is written  (c) the sender speaks  (d) the channel is chosen",
+        "a": "**(a) the receiver gives feedback.** Feedback tells the sender whether the message was understood."
+      },
+      {
+        "q": "Which method of communication carries no body language or tone of voice? (a) written communication  (b) face-to-face talk  (c) video call  (d) group discussion",
+        "a": "**(a) written communication.** That is why written messages must be especially clear."
       }
     ],
     "trend": "One 2-mark on methods, 7 Cs or feedback, plus 1-mark MCQs on barriers and articles.",
@@ -304,6 +329,22 @@
           "(b) marks. Stress symptoms, SMART goals and time-management steps are the usual asks.",
           "(c) Writing SMART expansions in the wrong order."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Distinguish between stress and a stressor.",
+        "a": "Stress is the way the body and mind react to pressure, while a stressor is the event or situation that triggers it. An examination, a deadline, a family problem or a noisy workplace can each be a stressor; the resulting worry, headache or loss of sleep is the stress.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Suggest three ways of managing stress and building self-motivation.",
+        "a": [
+          "Plan the day, break big tasks into small ones and do the hardest first, so that the work never feels endless.",
+          "Look after the body: sleep enough, exercise, breathe deeply and eat regularly, because a tired body exaggerates every problem.",
+          "Set specific goals, track them, reward yourself when a goal is met, and talk to someone you trust instead of keeping worries inside."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -330,6 +371,14 @@
       {
         "q": "A 3-mark answer on “Self-Management Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Self-awareness means: (a) knowing your own strengths, weaknesses and feelings  (b) only knowing other people  (c) working without help  (d) following orders",
+        "a": "**(a) knowing your own strengths, weaknesses and feelings.** It is the first step of self-management."
+      },
+      {
+        "q": "The useful stress that pushes you to perform better is called: (a) eustress  (b) distress  (c) burnout  (d) depression",
+        "a": "**(a) eustress.** Distress is the harmful kind that lowers performance and health."
       }
     ],
     "trend": "SMART expansion and two stress-management methods appear almost every sample paper.",
@@ -432,6 +481,23 @@
           "(b) mark. Definitions and “which of the following” items.",
           "(c) Calling Writer an operating system."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is an operating system? Name two examples.",
+        "a": "An operating system is the system software that manages the computer's memory, processor, disks and devices and lets the user run application programs. Examples are Windows, Linux, macOS and Android.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "How would you organise files and folders so that your work is always easy to find?",
+        "a": [
+          "Make one folder for each subject or project, and inside it one folder per term or per type of work.",
+          "Give every file a short, descriptive name with the date, such as maths_notes_2026-08-12.",
+          "Keep the folder tree shallow — no more than two or three levels — and delete or archive old versions.",
+          "Keep a backup copy on an external drive or in the cloud, and run an antivirus scan on anything you download."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -458,6 +524,14 @@
       {
         "q": "A 3-mark answer on “ICT Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Which of these is an operating system? (a) Linux  (b) MS Word  (c) Chrome  (d) HDMI",
+        "a": "**(a) Linux.** Word and Chrome are application programs and HDMI is a port."
+      },
+      {
+        "q": "The keyboard shortcut used to copy a selected file is: (a) Ctrl + C  (b) Ctrl + V  (c) Ctrl + X  (d) Ctrl + P",
+        "a": "**(a) Ctrl + C.** Ctrl + V pastes, Ctrl + X cuts and Ctrl + P prints."
       }
     ],
     "trend": "One MCQ on OS vs application, or on file/folder/care of computer.",
@@ -568,6 +642,23 @@
           "(b) marks. Qualities of an entrepreneur and “role in society” rotate.",
           "(c) Calling every shopkeeper an entrepreneur without the risk/innovation idea."
         ]
+      },
+      {
+        "m": "2",
+        "q": "List any four qualities an entrepreneur needs.",
+        "a": "Self-confidence, the willingness to take calculated risks, initiative and perseverance, the ability to plan and organise, and the readiness to learn from failure and try again.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What functions does an entrepreneur perform in running an enterprise?",
+        "a": [
+          "Spotting an opportunity and turning it into a product or service people will pay for.",
+          "Arranging the money, buying raw materials, machines and premises, and hiring and training workers.",
+          "Organising production, keeping accounts and marketing the product.",
+          "Bearing the risk of loss, and taking the decisions that keep the enterprise alive."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -594,6 +685,14 @@
       {
         "q": "A 3-mark answer on “Entrepreneurial Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "A person who starts a business, organises it and bears its risks is a/an: (a) entrepreneur  (b) manager  (c) employee  (d) customer",
+        "a": "**(a) entrepreneur.** A manager runs someone else's business for a salary."
+      },
+      {
+        "q": "Which of these is a myth about entrepreneurs? (a) they are born, not made  (b) they take risks  (c) they work hard  (d) they need capital",
+        "a": "**(a) they are born, not made.** Entrepreneurial skills such as planning, selling and record-keeping can be learned."
       }
     ],
     "trend": "Qualities + one myth, or role of entrepreneurship in society.",
@@ -698,6 +797,22 @@
           "(b) mark. Sustainable development definition is the banker.",
           "(c) Defining sustainable development as “using no resources”. It is wise use, not zero use."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is sustainable development?",
+        "a": "It is development that meets the needs of the present without reducing the ability of future generations to meet their own needs — using resources carefully, keeping pollution low and protecting ecosystems while the economy grows.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Give three examples of green jobs and explain what makes a job green.",
+        "a": [
+          "Installing and maintaining solar panels, managing recycling and composting, organic farming, water harvesting and energy auditing are all green jobs.",
+          "A job is green when it reduces the use of energy or raw materials, cuts greenhouse-gas emissions and waste, and protects or restores ecosystems.",
+          "It should also provide decent work and income, because a green economy is meant to improve human well-being as well as the environment."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -724,6 +839,14 @@
       {
         "q": "A 3-mark answer on “Green Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "A green economy is one that: (a) improves human well-being while reducing environmental risks  (b) produces the most goods  (c) bans all industry  (d) depends only on coal",
+        "a": "**(a) improves human well-being while reducing environmental risks.** It is low-carbon and resource-efficient."
+      },
+      {
+        "q": "Which of these is a green skill? (a) segregating waste at source  (b) leaving taps running  (c) burning dry leaves  (d) using a plastic bag every day",
+        "a": "**(a) segregating waste at source.** It makes recycling possible and cuts the load on landfills."
       }
     ],
     "trend": "Definition of sustainable development, or one green practice / green job.",

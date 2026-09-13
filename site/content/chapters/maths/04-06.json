@@ -160,6 +160,34 @@
           "(b) D = (−6)² − 4(2)(3) = 36 − 24 = 12. D > 0 but 12 is not a perfect square, so the roots are real, distinct and irrational.",
           "(c) Splitting the middle term: you need two numbers with product a × c (not just c) and sum b. Forgetting the a is the most common error when a ≠ 1."
         ]
+      },
+      {
+        "m": "2",
+        "q": "For what values of k does x² + kx + 16 = 0 have equal roots?",
+        "a": "Equal roots means the discriminant is zero: k² − 4(1)(16) = 0, so k² = 64 and k = ±8. For k = 8 the root is −4; for k = −8 the root is 4.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Solve x² + 5x + 6 = 0 by completing the square.",
+        "a": [
+          "x² + 5x = −6.",
+          "Add (5/2)² to both sides: x² + 5x + 25/4 = −6 + 25/4 = 1/4.",
+          "(x + 5/2)² = 1/4, so x + 5/2 = ±1/2.",
+          "Hence x = −2 or x = −3."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "A train travels 360 km at a uniform speed. If the speed were 5 km/h more, it would take 1 hour less. Find the speed of the train.",
+        "a": [
+          "Let the speed be v km/h. Time difference: 360/v − 360/(v + 5) = 1.",
+          "⇒ 360[5/(v(v + 5))] = 1 ⇒ v² + 5v − 1800 = 0.",
+          "⇒ (v + 45)(v − 40) = 0, so v = 40 (speed cannot be negative).",
+          "The train travels at 40 km/h; check: 360/40 = 9 h and 360/45 = 8 h."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -182,6 +210,18 @@
       {
         "q": "A 3-mark answer on “Quadratic Equations” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3/2  (b) 7/2 and 3  (c) −7/2 and 3/2  (d) 7/2 and −3/2",
+        "a": "**(a) 7/2 and 3/2.** Sum = −b/a = 7/2 and product = c/a = 3/2."
+      },
+      {
+        "q": "Which one is NOT a quadratic equation? (a) x² + 3x + 2 = 0  (b) (x + 1)² = 2(x − 3)  (c) x³ − x² + 1 = 0  (d) 2x² = 8",
+        "a": "**(c) x³ − x² + 1 = 0.** Its degree is 3, so it is a cubic; the others reduce to degree 2."
+      },
+      {
+        "q": "If the roots of x² − 8x + k = 0 are equal, then k = : (a) 8  (b) 16  (c) −16  (d) 64",
+        "a": "**(b) 16.** D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16."
       }
     ],
     "trend": "“Find k for equal roots” is asked almost every year, plus one 4–5 mark word problem on areas or consecutive integers.",
@@ -329,6 +369,32 @@
           "(b) Counting from the end, the AP is 253, 248, 243, … with a = 253 and d = −5. th term = 253 + 19(−5) = 158.",
           "(c) d can be negative. A decreasing AP has a negative d; students lose marks by writing it positive."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Find the sum of the first 20 terms of the AP 7, 10, 13, …",
+        "a": "Here a = 7, d = 3 and n = 20. S₂₀ = (20/2)[2(7) + 19(3)] = 10(14 + 57) = 10 × 71 = 710.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "How many terms of the AP 24, 21, 18, … must be taken to give a sum of 78? Explain the two answers.",
+        "a": [
+          "Sₙ = (n/2)[2(24) + (n − 1)(−3)] = n(51 − 3n)/2 = 78.",
+          "⇒ 3n² − 51n + 156 = 0 ⇒ n² − 17n + 52 = 0 ⇒ (n − 4)(n − 13) = 0.",
+          "So n = 4 or n = 13. Both are valid: the terms from the 5th to the 13th are negative and cancel out the extra positive terms."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "The first term of an AP is 5, the last term is 45 and the sum of all terms is 400. Find the number of terms and the common difference.",
+        "a": [
+          "Sₙ = (n/2)(a + l) ⇒ 400 = (n/2)(5 + 45) = 25n ⇒ n = 16.",
+          "l = a + (n − 1)d ⇒ 45 = 5 + 15d ⇒ d = 40/15 = 8/3.",
+          "So there are 16 terms with common difference 8/3."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -351,6 +417,18 @@
       {
         "q": "A 3-mark answer on “Arithmetic Progressions” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The common difference of the AP whose nth term is 3n + 5 is: (a) 3  (b) 5  (c) 8  (d) 2",
+        "a": "**(a) 3.** a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n."
+      },
+      {
+        "q": "If the 3rd term of an AP is 4 and the 9th term is −8, its first term is: (a) 8  (b) 6  (c) 4  (d) 2",
+        "a": "**(a) 8.** a + 2d = 4 and a + 8d = −8 give 6d = −12, so d = −2 and a = 8."
+      },
+      {
+        "q": "The sum of the first 100 natural numbers is: (a) 5000  (b) 5050  (c) 4950  (d) 5100",
+        "a": "**(b) 5050.** S = 100 × 101/2 = 5050."
       }
     ],
     "trend": "One 4–5 mark word problem (prize distribution, seating, savings) appears in most papers, plus a 2–3 mark term question.",
@@ -508,6 +586,33 @@
           "(b) If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio.",
           "(c) Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error."
         ]
+      },
+      {
+        "m": "2",
+        "q": "State the converse of the Basic Proportionality Theorem.",
+        "a": "If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side. In ΔABC, if a line through D on AB and E on AC satisfies AD/DB = AE/EC, then DE ∥ BC.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "In ΔABC, D and E lie on AB and AC with AD = 5.7 cm, DB = 9.5 cm, AE = 4.8 cm and EC = 8 cm. Is DE parallel to BC?",
+        "a": [
+          "AD/DB = 5.7/9.5 = 0.6 and AE/EC = 4.8/8 = 0.6.",
+          "The two ratios are equal, so by the converse of the Basic Proportionality Theorem DE ∥ BC."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Prove that the ratio of the areas of two similar triangles equals the square of the ratio of their corresponding medians.",
+        "a": [
+          "Let ΔABC ~ ΔPQR with medians AD and PS to the sides BC and QR.",
+          "Since the triangles are similar, AB/PQ = BC/QR and ∠B = ∠Q.",
+          "D and S are midpoints, so BD = BC/2 and QS = QR/2, giving BD/QS = BC/QR = AB/PQ.",
+          "With the included angles equal, ΔABD ~ ΔPQS (SAS), so AD/PS = AB/PQ.",
+          "Therefore ar(ABC)/ar(PQR) = (AB/PQ)² = (AD/PS)²."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -530,6 +635,18 @@
       {
         "q": "A 3-mark answer on “Triangles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Two triangles are similar if their corresponding angles are: (a) equal  (b) supplementary  (c) complementary  (d) proportional",
+        "a": "**(a) equal.** Equiangular triangles are similar — the AAA similarity criterion."
+      },
+      {
+        "q": "In ΔABC, DE ∥ BC with AD = 4 cm, DB = 6 cm and AE = 5 cm. Then EC = : (a) 6.5 cm  (b) 7.5 cm  (c) 8 cm  (d) 9 cm",
+        "a": "**(b) 7.5 cm.** AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm."
+      },
+      {
+        "q": "If the corresponding sides of two similar triangles are in the ratio 4 : 9, their areas are in the ratio: (a) 4 : 9  (b) 2 : 3  (c) 16 : 81  (d) 8 : 27",
+        "a": "**(c) 16 : 81.** The area ratio of similar triangles is the square of the side ratio."
       }
     ],
     "trend": "One BPT or Pythagoras proof almost every year, plus one similarity numerical. Objective questions on the criteria are constant.",

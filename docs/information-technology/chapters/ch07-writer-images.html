@@ -9,14 +9,60 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="topbar">
-  <div class="wrap topbar-in">
-    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
-    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../information-technology/index.html">Hub</a><a href="../../information-technology/syllabus.html">Syllabus</a><a href="../../information-technology/revision.html">Revise</a><a href="../../information-technology/question-bank.html">Bank</a><a href="../../information-technology/drill.html">Drill</a><a href="../../information-technology/pyq.html">PYQ</a></nav>
-  </div>
-</header>
-<main id="main" class="wrap">
-  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Information Technology</a> <span class="sep">/</span> <a href="../units/writer.html">Unit 1 · Digital Documentation (Writer)</a> <span class="sep">/</span> Ch 7 · Working with Images (Writer)</nav>
+<button class="menu-btn" onclick="openMenu()" aria-label="Open navigation">&#9776;</button>
+<div class="backdrop" id="backdrop" onclick="closeMenu()"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+<div class="side-head"><a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a><p class="side-sub">Session 2026–27</p><button class="side-close" onclick="closeMenu()" aria-label="Close navigation">&times;</button></div>
+<div class="progress-wrap"><div class="progress-label"><span>Chapters done</span><span data-subject-text="information-technology" data-total="20">0 of 20</span></div><div class="bar"><span class="fill" data-subject="information-technology" data-total="20"></span></div></div>
+<div class="toc-group">All subjects</div>
+<a class="toc-item" href="../../maths/index.html"><span class="toc-num">041</span>Mathematics</a>
+<a class="toc-item" href="../../science/index.html"><span class="toc-num">086</span>Science</a>
+<a class="toc-item" href="../../social-science/index.html"><span class="toc-num">087</span>Social Science</a>
+<a class="toc-item" href="../../english/index.html"><span class="toc-num">184</span>English Language &amp; Literature</a>
+<a class="toc-item" href="../../hindi/index.html"><span class="toc-num">002 (A)</span>Hindi</a>
+<a class="toc-item is-on" href="../../information-technology/index.html"><span class="toc-num">402</span>Information Technology</a>
+<a class="toc-item" href="../../computer-applications/index.html"><span class="toc-num">165</span>Computer Applications</a>
+<a class="toc-item" href="../../sanskrit/index.html"><span class="toc-num">122</span>Sanskrit</a>
+<div class="toc-group">Information Technology</div>
+<a class="toc-item" href="../../information-technology/index.html"><span class="toc-num">&bull;</span>Hub</a>
+<a class="toc-item is-on" href="../../information-technology/chapters.html" aria-current="page"><span class="toc-num">&bull;</span>Chapters</a>
+<a class="toc-item" href="../../information-technology/syllabus.html"><span class="toc-num">&bull;</span>Syllabus</a>
+<a class="toc-item" href="../../information-technology/question-bank.html"><span class="toc-num">&bull;</span>Q&amp;A bank</a>
+<a class="toc-item" href="../../information-technology/drill.html"><span class="toc-num">&bull;</span>MCQ drill</a>
+<a class="toc-item" href="../../information-technology/revision.html"><span class="toc-num">&bull;</span>Revision</a>
+<a class="toc-item" href="../../information-technology/pyq.html"><span class="toc-num">&bull;</span>PYQ</a>
+<a class="toc-item" href="../../information-technology/practical.html"><span class="toc-num">&bull;</span>Practical</a>
+<div class="toc-group">Chapters</div>
+<div class="toc-sub">Part A · Employability Skills</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch01-communication-skills.html"><span class="toc-num">1</span>Communication Skills–II</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch02-self-management-skills.html"><span class="toc-num">2</span>Self-Management Skills–II</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch03-ict-skills.html"><span class="toc-num">3</span>ICT Skills–II</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch04-entrepreneurial-skills.html"><span class="toc-num">4</span>Entrepreneurial Skills–II</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch05-green-skills.html"><span class="toc-num">5</span>Green Skills–II</a>
+<div class="toc-sub">Unit 1 · Digital Documentation (Writer)</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch06-writer-styles.html"><span class="toc-num">6</span>Introduction to Styles (Writer)</a>
+<a class="toc-item toc-ch is-on" href="../../information-technology/chapters/ch07-writer-images.html" aria-current="page"><span class="toc-num">7</span>Working with Images (Writer)</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch08-writer-toc-templates.html"><span class="toc-num">8</span>ToC, Templates and Track Changes</a>
+<div class="toc-sub">Unit 2 · Electronic Spreadsheet (Calc)</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch09-calc-scenarios-goal-seek.html"><span class="toc-num">9</span>Scenarios and Goal Seek (Calc)</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch10-calc-macros.html"><span class="toc-num">10</span>Macros in Spreadsheet</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch11-calc-linking.html"><span class="toc-num">11</span>Linking Spreadsheet Data</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch12-calc-share-review.html"><span class="toc-num">12</span>Share and Review a Spreadsheet</a>
+<div class="toc-sub">Unit 3 · Database Management System (Base)</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch13-dbms-intro.html"><span class="toc-num">13</span>Introduction to DBMS</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch14-base-tables.html"><span class="toc-num">14</span>Tables in LibreOffice Base</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch15-base-relationships.html"><span class="toc-num">15</span>Relationships and Multiple Tables</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch16-base-queries.html"><span class="toc-num">16</span>Queries in Base</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch17-base-forms-reports.html"><span class="toc-num">17</span>Forms and Reports</a>
+<div class="toc-sub">Unit 4 · Healthy, Safe and Secure Workplace</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch18-workplace-safety.html"><span class="toc-num">18</span>Health, Safety and Security at the Workplace</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch19-quality-ergonomics.html"><span class="toc-num">19</span>Workplace Quality and Ergonomics</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch20-accidents-emergencies.html"><span class="toc-num">20</span>Prevent Accidents and Emergencies</a>
+<div class="sidebar-foot">Progress is saved in this browser.<br>Created by <strong>Mohammad Umair</strong></div>
+  </aside>
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Information Technology</a> <span class="sep">/</span> <a href="../units/writer.html">Unit 1 · Digital Documentation (Writer)</a> <span class="sep">/</span> Ch 7 · Working with Images (Writer)</nav>
 <p class="kicker">CBSE • CLASS 10 • IT 402</p><h1>Chapter 7 · Working with Images (Writer)</h1><p class="lede"><strong>Chapter 7 of 20.</strong> Practical-heavy. Wrap settings and grouping are the viva favourites.</p><p><a class="btn" href="../practice/ch07-writer-images.html">Open this chapter’s questions + MCQs →</a></p><p class="chips"><a class="chip" href="#marks-lens">🎯 Marks lens</a> <a class="chip" href="#deep-concepts">📖 Deep concepts</a> <a class="chip" href="#steps">🛠️ Steps</a> <a class="chip" href="#tricks">🧠 Tricks</a> <a class="chip" href="#mistakes">⚠️ Mistakes</a> <a class="chip" href="#exam-qa">❓ Exam Q&A</a> <a class="chip" href="#task">✍️ Task</a></p>
 <h2 id="marks-lens">🎯 Marks lens</h2><div class="callout"><p>Expect “how to wrap an image” and “difference between anchor types”.<br>File work: insert a picture, wrap Optimal, add a caption, group a callout.</p></div>
 <h2 id="deep-concepts">📖 Deep concepts</h2>
@@ -29,7 +75,7 @@
 <ul><li>Stretching a photo so faces look wide — hold Shift or lock ratio.</li><li>Saving a document without the image folder when images were linked, not embedded.</li></ul>
 <h2 id="exam-qa">❓ Exam Q&A</h2>
 <p class="hint">Short · Long · Application · Competency — write first, then Show Answer.</p>
-<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 8 revealed<span class="qshown"> · <span data-shown>8</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (8)</button><button type="button" class="qfilter" data-filter="S">Short (2)</button><button type="button" class="qfilter" data-filter="L">Long (2)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
+<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 10 revealed<span class="qshown"> · <span data-shown>10</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (10)</button><button type="button" class="qfilter" data-filter="S">Short (4)</button><button type="button" class="qfilter" data-filter="L">Long (2)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
 <div class="qstack"><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S1</span><span class="marks">2 marks</span></div><p class="qtext"><strong>1.</strong> Name any four text-wrapping options in Writer.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>None, Before, After, Parallel, Optimal, Through, In Background (any four).</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S2</span><span class="marks">2 marks</span></div><p class="qtext"><strong>2.</strong> What does grouping do?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>It joins selected drawing objects so they move, resize and copy as a single object.</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L3</span><span class="marks">4 marks</span></div><p class="qtext"><strong>3.</strong> Explain anchoring of images in Writer.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Anchor decides what the image sticks to: <strong>To Paragraph</strong> (moves with the para), <strong>To Character</strong>, <strong>As Character</strong> (in the text line), <strong>To Page</strong> (fixed on that page). Choose To Paragraph + Optimal wrap for reports.</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A4</span><span class="marks">3 marks</span></div><p class="qtext"><strong>4.</strong> An image covers the heading of a report. Which two settings would you change first?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Wrap (Optimal or After) and arrangement (Send to Back) or move the anchor to the correct paragraph.</p></div></details></article><article class="qcard" data-type="C"><div class="qmeta"><span class="qbadge qbadge-c">COMPETENCY</span><span class="qcode">C5</span><span class="marks">4 marks</span></div><p class="qtext"><strong>5.</strong> Read and answer:
 
 A student’s picture sits in a huge white box and the caption is not numbered.
@@ -44,15 +90,17 @@ The chapter is described as: Insert, wrap, arrange, drawing objects, grouping an
 
 (a) Name the key idea.
 (b) How is this usually asked in the paper?
-(c) State one mistake that would cost a mark.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(a) Insert, wrap, arrange, drawing objects, grouping and captions.<br>(b) Expect “how to wrap an image” and “difference between anchor types”.<br>(c) Stretching a photo so faces look wide — hold Shift or lock ratio.</p></div></details></article></div>
+(c) State one mistake that would cost a mark.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(a) Insert, wrap, arrange, drawing objects, grouping and captions.<br>(b) Expect “how to wrap an image” and “difference between anchor types”.<br>(c) Stretching a photo so faces look wide — hold Shift or lock ratio.</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S9</span><span class="marks">2 marks</span></div><p class="qtext"><strong>9.</strong> What is text wrapping and when is it useful?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Wrapping decides how text flows around a picture. It is useful when a small picture has to sit inside a paragraph: the text runs beside or around the image instead of leaving a large empty space above and below it, so the page looks filled and balanced.</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S10</span><span class="marks">3 marks</span></div><p class="qtext"><strong>10.</strong> List the steps to insert an image and set its position in a Writer document.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Click where the picture should go and choose Insert → Image, then select the file and click Open.<br>Right-click the picture, choose Wrap and pick the style you need — Optimal, Before, After or Through.<br>Use Format → Image → Properties to set the size, the position, the cropping and whether the image is anchored to the page, the paragraph or the character.<br>Drag the picture to its place and, if you have several drawing objects, select them and choose Format → Group so that they move together.</p></div></details></article></div>
 <h2 id="task">✍️ Hands-on task</h2>
 <div class="callout alt"><p>Insert a school-building photo, wrap Optimal, caption it Figure 1, and draw a labelled arrow to the main gate; group the arrow and label.</p></div>
 <div class="done"><label><input type="checkbox" class="mark-complete" data-key="information-technology::writer##ch07-writer-images" data-subject="information-technology"> Mark “Ch 7 · Working with Images (Writer)” complete</label><p><a href="../practice/ch07-writer-images.html">Practise this chapter’s MCQs and written questions →</a></p></div>
-</main>
+<nav class="chapnav" aria-label="Chapter navigation"><a class="chapnav-prev" href="ch06-writer-styles.html"><span>← Previous</span>Ch 6 · Introduction to Styles (Writer)</a><a class="chapnav-index" href="../chapters.html">All Information Technology chapters</a><a class="chapnav-next" href="ch08-writer-toc-templates.html"><span>Next →</span>Ch 8 · ToC, Templates and Track Changes</a></nav>
+  </main>
+</div>
 <footer class="wrap foot">
-  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  <div class="foot-main"><p>Built for CBSE Class 10 &middot; session 2026–27 &middot; content is original study material,
   not official CBSE papers. Always confirm the syllabus against
-  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p><nav class="foot-subj" aria-label="All subjects"><a href="../../maths/index.html">Mathematics</a> <a href="../../science/index.html">Science</a> <a href="../../social-science/index.html">Social Science</a> <a href="../../english/index.html">English Language &amp; Literature</a> <a href="../../hindi/index.html">Hindi</a> <a href="../../information-technology/index.html">Information Technology</a> <a href="../../computer-applications/index.html">Computer Applications</a> <a href="../../sanskrit/index.html">Sanskrit</a></nav><p class="credit">Created by <strong>Mohammad Umair</strong></p></div>
   <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
 </footer>
 <script src="../../assets/app.js"></script>

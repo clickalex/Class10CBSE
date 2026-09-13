@@ -9,14 +9,57 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="topbar">
-  <div class="wrap topbar-in">
-    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
-    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../sanskrit/index.html">Hub</a><a href="../../sanskrit/syllabus.html">Syllabus</a><a href="../../sanskrit/revision.html">Revise</a><a href="../../sanskrit/question-bank.html">Bank</a><a href="../../sanskrit/drill.html">Drill</a><a href="../../sanskrit/pyq.html">PYQ</a></nav>
-  </div>
-</header>
-<main id="main" class="wrap">
-  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Sanskrit</a> <span class="sep">/</span> <a href="../units/shemushi.html">पाठ्यपुस्तक · शेमुषी भाग-2</a> <span class="sep">/</span> Ch 8 · सूक्तयः</nav>
+<button class="menu-btn" onclick="openMenu()" aria-label="Open navigation">&#9776;</button>
+<div class="backdrop" id="backdrop" onclick="closeMenu()"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+<div class="side-head"><a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a><p class="side-sub">Session 2026–27</p><button class="side-close" onclick="closeMenu()" aria-label="Close navigation">&times;</button></div>
+<div class="progress-wrap"><div class="progress-label"><span>Chapters done</span><span data-subject-text="sanskrit" data-total="19">0 of 19</span></div><div class="bar"><span class="fill" data-subject="sanskrit" data-total="19"></span></div></div>
+<div class="toc-group">All subjects</div>
+<a class="toc-item" href="../../maths/index.html"><span class="toc-num">041</span>Mathematics</a>
+<a class="toc-item" href="../../science/index.html"><span class="toc-num">086</span>Science</a>
+<a class="toc-item" href="../../social-science/index.html"><span class="toc-num">087</span>Social Science</a>
+<a class="toc-item" href="../../english/index.html"><span class="toc-num">184</span>English Language &amp; Literature</a>
+<a class="toc-item" href="../../hindi/index.html"><span class="toc-num">002 (A)</span>Hindi</a>
+<a class="toc-item" href="../../information-technology/index.html"><span class="toc-num">402</span>Information Technology</a>
+<a class="toc-item" href="../../computer-applications/index.html"><span class="toc-num">165</span>Computer Applications</a>
+<a class="toc-item is-on" href="../../sanskrit/index.html"><span class="toc-num">122</span>Sanskrit</a>
+<div class="toc-group">Sanskrit</div>
+<a class="toc-item" href="../../sanskrit/index.html"><span class="toc-num">&bull;</span>Hub</a>
+<a class="toc-item is-on" href="../../sanskrit/chapters.html" aria-current="page"><span class="toc-num">&bull;</span>Chapters</a>
+<a class="toc-item" href="../../sanskrit/syllabus.html"><span class="toc-num">&bull;</span>Syllabus</a>
+<a class="toc-item" href="../../sanskrit/question-bank.html"><span class="toc-num">&bull;</span>Q&amp;A bank</a>
+<a class="toc-item" href="../../sanskrit/drill.html"><span class="toc-num">&bull;</span>MCQ drill</a>
+<a class="toc-item" href="../../sanskrit/revision.html"><span class="toc-num">&bull;</span>Revision</a>
+<a class="toc-item" href="../../sanskrit/pyq.html"><span class="toc-num">&bull;</span>PYQ</a>
+<a class="toc-item" href="../../sanskrit/practical.html"><span class="toc-num">&bull;</span>Practical</a>
+<div class="toc-group">Chapters</div>
+<div class="toc-sub">पाठ्यपुस्तक · शेमुषी भाग-2</div>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch01-shuchi-paryavaranam.html"><span class="toc-num">1</span>शुचिपर्यावरणम्</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch02-buddhir-balavati.html"><span class="toc-num">2</span>बुद्धिर्बलवती सदा</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch03-shishu-lalanam.html"><span class="toc-num">3</span>शिशुलालनम्</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch04-janani-tulya-vatsala.html"><span class="toc-num">4</span>जननी तुल्यवत्सला</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch05-subhashitani.html"><span class="toc-num">5</span>सुभाषितानि</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch06-sauhridam-prakriteh.html"><span class="toc-num">6</span>सौहार्दं प्रकृतेः शोभा</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch07-vichitrah-sakshi.html"><span class="toc-num">7</span>विचित्रः साक्षी</a>
+<a class="toc-item toc-ch is-on" href="../../sanskrit/chapters/ch08-suktayah.html" aria-current="page"><span class="toc-num">8</span>सूक्तयः</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch09-anyoktayah.html"><span class="toc-num">9</span>अन्योक्तयः</a>
+<div class="toc-sub">अनुप्रयुक्तव्याकरणम्</div>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch10-sandhi.html"><span class="toc-num">10</span>सन्धिः</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch11-samas.html"><span class="toc-num">11</span>समासः</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch12-pratyayah.html"><span class="toc-num">12</span>प्रत्ययाः</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch13-vachya.html"><span class="toc-num">13</span>वाच्यपरिवर्तनम् (केवलं लट्लकारे)</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch14-samayah.html"><span class="toc-num">14</span>समयः (सपाद, सार्ध, पादोन)</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch15-avyayani.html"><span class="toc-num">15</span>अव्ययपदानि</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch16-ashuddhi-sanshodhanam.html"><span class="toc-num">16</span>अशुद्धिसंशोधनम्</a>
+<div class="toc-sub">रचनात्मकलेखनम्</div>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch17-patra-lekhanam.html"><span class="toc-num">17</span>पत्रलेखनम्</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch18-chitra-varnanam.html"><span class="toc-num">18</span>चित्रवर्णनम् / अनुच्छेदलेखनम्</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch19-anuvadah.html"><span class="toc-num">19</span>अनुवादः</a>
+<div class="sidebar-foot">Progress is saved in this browser.<br>Created by <strong>Mohammad Umair</strong></div>
+  </aside>
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Sanskrit</a> <span class="sep">/</span> <a href="../units/shemushi.html">पाठ्यपुस्तक · शेमुषी भाग-2</a> <span class="sep">/</span> Ch 8 · सूक्तयः</nav>
 <p class="kicker">CBSE • CLASS 10 • SANSKRIT</p><h1>Chapter 8 · सूक्तयः</h1><p class="lede"><strong>Chapter 8 of 19.</strong> वैदिक संस्कृत। कठिन लगती है, परंतु भाव सरल हैं।</p><p><a class="btn" href="../practice/ch08-suktayah.html">Open this chapter’s questions + MCQs →</a></p><p class="chips"><a class="chip" href="#marks-lens">🎯 Marks lens</a> <a class="chip" href="#deep-concepts">📖 Deep concepts</a> <a class="chip" href="#tricks">🧠 Tricks</a> <a class="chip" href="#mistakes">⚠️ Mistakes</a> <a class="chip" href="#exam-qa">❓ Exam Q&A</a> <a class="chip" href="#task">✍️ Task</a></p>
 <h2 id="marks-lens">🎯 Marks lens</h2><div class="callout"><p>पठितावबोधनम् — सूक्त का भावार्थ, प्रसङ्गानुकूलम् अर्थलेखनम्।<br><strong>केवल भाव समझना पर्याप्त है, कठिन पदों में मत उलझिए।</strong></p></div>
 <h2 id="deep-concepts">📖 Deep concepts</h2>
@@ -27,7 +70,7 @@
 <ul><li>वैदिक पदों के अर्थ में उलझकर समय बिताना।</li><li>केवल अनुवाद लिखकर भाव छोड़ देना।</li><li>'सूक्ति' का अर्थ 'कहावत' लिख देना — यहाँ अर्थ <strong>अच्छी कही गई बात</strong> है।</li></ul>
 <h2 id="exam-qa">❓ Exam Q&A</h2>
 <p class="hint">Short · Long · Application · Competency — write first, then Show Answer.</p>
-<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 8 revealed<span class="qshown"> · <span data-shown>8</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (8)</button><button type="button" class="qfilter" data-filter="S">Short (3)</button><button type="button" class="qfilter" data-filter="L">Long (1)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
+<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 10 revealed<span class="qshown"> · <span data-shown>10</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (10)</button><button type="button" class="qfilter" data-filter="S">Short (4)</button><button type="button" class="qfilter" data-filter="L">Long (2)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
 <div class="qstack"><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S1</span><span class="marks">3 marks</span></div><p class="qtext"><strong>1.</strong> 'असतो मा सद्गमय, तमसो मा ज्योतिर्गमय' का भावार्थ लिखिए।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>इस मंत्र का भाव है — हे परमात्मा, हमें असत्य से सत्य की ओर ले चलो और अंधकार से प्रकाश की ओर ले चलो। यहाँ 'असत्' का अर्थ है मिथ्या या भ्रम, 'सत्' का अर्थ है सत्य, 'तमस्' का अर्थ है अज्ञान का अंधकार और 'ज्योति' का अर्थ है ज्ञान का प्रकाश। मनुष्य की सबसे बड़ी प्रार्थना यही होनी चाहिए कि उसका जीवन भ्रम और अज्ञान से निकलकर सत्य और ज्ञान की ओर बढ़े।</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S2</span><span class="marks">2 marks</span></div><p class="qtext"><strong>2.</strong> 'सूक्ति' शब्द का अर्थ क्या है?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>'सूक्ति' शब्द 'सु' (अच्छी) और 'उक्ति' (कही गई बात) से बना है। अतः 'सूक्ति' का अर्थ है — <strong>अच्छी कही गई बात</strong>। ये श्लोक प्रायः वेदों से लिए गए हैं और इनमें ज्ञान, यज्ञ और विश्व-कल्याण की भावना प्रधान है।</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S3</span><span class="marks">3 marks</span></div><p class="qtext"><strong>3.</strong> सूक्तियों में विश्व-मंगल की भावना कैसे प्रकट होती है?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>सूक्तियों में प्रार्थना केवल अपने लिए नहीं, बल्कि समस्त प्राणियों के लिए की गई है। इनमें कहा गया है कि सभी प्राणी सुखी हों, सभी रोगमुक्त हों, कोई भी दुःखी न हो। साथ ही परस्पर सहयोग का आह्वान है — मिलकर चलो, मिलकर बोलो, मिलकर कार्य करो। यही विश्व-मंगल की भावना है, जो व्यक्तिगत कल्याण से ऊपर उठकर संपूर्ण सृष्टि को अपना लेती है।</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L4</span><span class="marks">5 marks</span></div><p class="qtext"><strong>4.</strong> “सूक्तयः” को विस्तार से समझाइए और एक परीक्षा-उदाहरण दीजिए।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>सूक्ति क्या है। सूक्ति का अर्थ है 'अच्छी कही गई बात'। ये श्लोक प्रायः वेदों से लिए गए हैं और इनमें ज्ञान, यज्ञ, प्रार्थना और विश्व-कल्याण की भावना है। भाषा वैदिक संस्कृत है, जो लौकिक संस्कृत से कुछ भिन्न है।.<br>अंक-दृष्टि: पठितावबोधनम् — सूक्त का भावार्थ, प्रसङ्गानुकूलम् अर्थलेखनम्।<br>याद रखने की युक्ति: सूक्ति = अच्छी कही गई बात। शब्दार्थ निश्चित प्रश्न है।</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A5</span><span class="marks">3 marks</span></div><p class="qtext"><strong>5.</strong> रीना कक्षा 10 की परीक्षा की तैयारी कर रही है। पाठ “सूक्तयः” (वेदों से लिए गए सूक्त — ज्ञान, यज्ञ और विश्व-मंगल।) पर आधारित एक स्थिति यह है: एक विद्यार्थी ने यह गलती की — वैदिक पदों के अर्थ में उलझकर समय बिताना। सही विधि लिखिए और बताइए कि अंक क्यों कटते हैं।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>सही विधि: सूक्ति = अच्छी कही गई बात। शब्दार्थ निश्चित प्रश्न है।<br>अंक कटने का कारण: वैदिक पदों के अर्थ में उलझकर समय बिताना।<br>उत्तर में परिभाषा + उदाहरण दोनों लिखें।</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A6</span><span class="marks">3 marks</span></div><p class="qtext"><strong>6.</strong> अमित को यह प्रश्न मिला: “'असतो मा सद्गमय, तमसो मा ज्योतिर्गमय' का भावार्थ लिखिए।” इसे अनुप्रयोग प्रश्न की तरह 3 अंकों में बिंदुवार हल कीजिए।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>इस मंत्र का भाव है — हे परमात्मा, हमें असत्य से सत्य की ओर ले चलो और अंधकार से प्रकाश की ओर ले चलो। यहाँ 'असत्' का अर्थ है मिथ्या या भ्रम, 'सत्' का अर्थ है सत्य, 'तमस्' का अर्थ है अज्ञान का अंधकार और 'ज्योति' का अर्थ है ज्ञान का प्रकाश। मनुष्य की सबसे बड़ी प्रार्थना यही होनी चाहिए कि उसका जीवन भ्रम और अज्ञान से निकलकर सत्य और ज्ञान की ओर बढ़े।</p></div></details></article><article class="qcard" data-type="C"><div class="qmeta"><span class="qbadge qbadge-c">COMPETENCY</span><span class="qcode">C7</span><span class="marks">4 marks</span></div><p class="qtext"><strong>7.</strong> निम्नलिखित स्थिति पढ़कर उत्तर दीजिए।
 
 कक्षा 10 की एक छात्रा “सूक्तयः” का पुनरावलोकन कर रही है। उसने नोट किया: सूक्ति क्या है। सूक्ति का अर्थ है 'अच्छी कही गई बात'। ये श्लोक प्रायः वेदों से लिए गए हैं और इनमें ज्ञान, यज्ञ, प्रार्थना और विश्व-कल्याण की भावना है। भाषा वैदिक संस्कृत है, जो लौकिक संस्कृत से कुछ भिन्न है।
@@ -39,15 +82,17 @@
 दो मित्र एक ही प्रश्न हल कर रहे हैं: “'असतो मा सद्गमय, तमसो मा ज्योतिर्गमय' का भावार्थ लिखिए।” एक मित्र केवल एक पंक्ति लिखता है, दूसरा बिंदु और उदाहरण देता है।
 
 (क) पूर्ण अंक के लिए उत्तर-ढाँचा क्या होना चाहिए?
-(ख) आदर्श उत्तर के मुख्य बिंदु लिखिए।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(क) परिभाषा / कथन → तर्क या विधि → उदाहरण या निष्कर्ष।<br>(ख) इस मंत्र का भाव है — हे परमात्मा, हमें असत्य से सत्य की ओर ले चलो और अंधकार से प्रकाश की ओर ले चलो। यहाँ 'असत्' का अर्थ है मिथ्या या भ्रम, 'सत्' का अर्थ है सत्य, 'तमस्' का अर्थ है अज्ञान का अंधकार और 'ज्योति' का अर्थ है ज्ञान का प्रकाश। मनुष्य की सबसे बड़ी प्रार्थना यही होनी चाहिए कि उसका जीवन भ्रम और अज्ञान से निकलकर सत्य और ज्ञान की ओर बढ़े।</p></div></details></article></div>
+(ख) आदर्श उत्तर के मुख्य बिंदु लिखिए।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(क) परिभाषा / कथन → तर्क या विधि → उदाहरण या निष्कर्ष।<br>(ख) इस मंत्र का भाव है — हे परमात्मा, हमें असत्य से सत्य की ओर ले चलो और अंधकार से प्रकाश की ओर ले चलो। यहाँ 'असत्' का अर्थ है मिथ्या या भ्रम, 'सत्' का अर्थ है सत्य, 'तमस्' का अर्थ है अज्ञान का अंधकार और 'ज्योति' का अर्थ है ज्ञान का प्रकाश। मनुष्य की सबसे बड़ी प्रार्थना यही होनी चाहिए कि उसका जीवन भ्रम और अज्ञान से निकलकर सत्य और ज्ञान की ओर बढ़े।</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S9</span><span class="marks">2 marks</span></div><p class="qtext"><strong>9.</strong> सूक्तयः कस्मात् गृहीताः? तासां विषयः कः?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>सूक्तयः वेदेभ्यः (विशेषतः ऋग्वेदात्) गृहीताः सन्ति। तासां विषयः ज्ञानम्, यज्ञः, सत्यम्, विश्वमङ्गलं च अस्ति — 'सर्वे भवन्तु सुखिनः' इत्यादयः भावनाः अत्र पठ्यन्ते।</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L10</span><span class="marks">3 marks</span></div><p class="qtext"><strong>10.</strong> एका प्रसिद्धा सूक्तिः लिखत, तस्याः अर्थं च स्पष्टयत।</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>यथा — 'सर्वे भवन्तु सुखिनः, सर्वे सन्तु निरामयाः।' अर्थात् सर्वे मनुष्याः सुखिनः सन्तु, सर्वे रोगरहिताः सन्तु। एषा सूक्तिः आत्मकेन्द्रितां प्रार्थनां त्यक्त्वा विश्वकल्याणस्य भावनां शिक्षयति; अतः एषा भारतीय-चिन्तनस्य सारः इति मन्यते।</p></div></details></article></div>
 <h2 id="task">✍️ Hands-on task</h2>
 <div class="callout alt"><p>तीन प्रमुख सूक्तियों का भाव तीन-तीन वाक्यों में लिखिए। वैदिक संस्कृत का भय यहीं समाप्त हो जाएगा।</p></div>
 <div class="done"><label><input type="checkbox" class="mark-complete" data-key="sanskrit::shemushi##ch08-suktayah" data-subject="sanskrit"> Mark “Ch 8 · सूक्तयः” complete</label><p><a href="../practice/ch08-suktayah.html">Practise this chapter’s MCQs and written questions →</a></p></div>
-</main>
+<nav class="chapnav" aria-label="Chapter navigation"><a class="chapnav-prev" href="ch07-vichitrah-sakshi.html"><span>← Previous</span>Ch 7 · विचित्रः साक्षी</a><a class="chapnav-index" href="../chapters.html">All Sanskrit chapters</a><a class="chapnav-next" href="ch09-anyoktayah.html"><span>Next →</span>Ch 9 · अन्योक्तयः</a></nav>
+  </main>
+</div>
 <footer class="wrap foot">
-  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  <div class="foot-main"><p>Built for CBSE Class 10 &middot; session 2026–27 &middot; content is original study material,
   not official CBSE papers. Always confirm the syllabus against
-  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p><nav class="foot-subj" aria-label="All subjects"><a href="../../maths/index.html">Mathematics</a> <a href="../../science/index.html">Science</a> <a href="../../social-science/index.html">Social Science</a> <a href="../../english/index.html">English Language &amp; Literature</a> <a href="../../hindi/index.html">Hindi</a> <a href="../../information-technology/index.html">Information Technology</a> <a href="../../computer-applications/index.html">Computer Applications</a> <a href="../../sanskrit/index.html">Sanskrit</a></nav><p class="credit">Created by <strong>Mohammad Umair</strong></p></div>
   <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
 </footer>
 <script src="../../assets/app.js"></script>

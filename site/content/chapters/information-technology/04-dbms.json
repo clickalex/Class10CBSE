@@ -95,6 +95,23 @@
           "(b) Data vs information, advantages of DBMS, primary key — the opening trio.",
           "(c) Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Distinguish between data and information with an example.",
+        "a": "Data are raw, unprocessed facts, such as the marks obtained by each student in each subject. Information is data that has been processed and given meaning, such as the class average, the highest mark or a list of students who passed. A database stores data; queries and reports turn it into information.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "List any four advantages of a DBMS over a simple file system.",
+        "a": [
+          "It removes duplication, so the same fact is stored once and every user sees the same value.",
+          "It keeps the data consistent and lets the designer set rules, so that wrong data cannot easily be entered.",
+          "It allows many users to work at the same time without overwriting each other's work.",
+          "It gives security through passwords and permissions, and fast searching, sorting and reporting through queries."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -121,6 +138,14 @@
       {
         "q": "A 3-mark answer on “Introduction to DBMS” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The field that uniquely identifies each record in a table is the: (a) primary key  (b) foreign key  (c) index  (d) alias",
+        "a": "**(a) primary key.** It must be unique and cannot be empty."
+      },
+      {
+        "q": "Which of these is DBMS software? (a) LibreOffice Base  (b) MS Word  (c) Google Chrome  (d) VLC player",
+        "a": "**(a) LibreOffice Base.** MySQL, PostgreSQL and Oracle are other examples."
       }
     ],
     "trend": "Data vs information, advantages of DBMS, definition of primary key.",
@@ -240,6 +265,23 @@
           "(b) Create a table with four fields, correct types, PK set.",
           "(c) Forgetting to set the primary key — Base warns, some students click No."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Describe how to create a table in LibreOffice Base.",
+        "a": "Open the database, choose Tables, then Create Table in Design View. For each field type the field name and choose a data type such as Text, Integer, Decimal or Date. Right-click the field you want as the primary key and choose Primary Key, then save the table with a clear name and close the design window.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Choose the data type for a name, a roll number, a date of birth and a fee amount, giving a reason for each.",
+        "a": [
+          "Name — Text (VARCHAR), because it contains letters and its length varies.",
+          "Roll number — Integer, so that records sort correctly and no space is wasted.",
+          "Date of birth — Date, so that the database can sort dates properly and calculate ages.",
+          "Fee amount — Decimal with two decimal places, so that money can be added up exactly."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -266,6 +308,14 @@
       {
         "q": "A 3-mark answer on “Tables in LibreOffice Base” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "In Design View, the property that limits how many characters a text field can hold is: (a) Field Length  (b) Format  (c) Default Value  (d) Caption",
+        "a": "**(a) Field Length.** Default Value fills in a value automatically when nothing is typed."
+      },
+      {
+        "q": "A primary key must: (a) be unique and never empty  (b) contain only numbers  (c) be the first field of the table  (d) change every day",
+        "a": "**(a) be unique and never empty.** A table can have only one primary key."
       }
     ],
     "trend": "Create-table steps, choice of data type, how to set PK.",
@@ -383,6 +433,22 @@
           "(b) Draw one-to-many (Student–Issue) with referential integrity.",
           "(c) Drawing the relationship backwards (PK on the many side)."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is referential integrity and why is it useful?",
+        "a": "Referential integrity is the rule that every value of a foreign key must match a value of the primary key in the related table, or be empty. It prevents ‘orphan' records — for example, a fee record belonging to a student who is not in the student table — and keeps the database reliable.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain the three types of relationship with an example of each.",
+        "a": [
+          "One-to-one: one record in the first table matches one in the second, for example one student and one library card.",
+          "One-to-many: one record in the first table matches many in the second, for example one class has many students.",
+          "Many-to-many: records on both sides match many on the other, for example students and subjects; this is usually split into two one-to-many relationships through a third table."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -409,6 +475,14 @@
       {
         "q": "A 3-mark answer on “Relationships and Multiple Tables” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The relationship between one customer and the many orders placed by that customer is: (a) one-to-many  (b) one-to-one  (c) many-to-many  (d) not possible",
+        "a": "**(a) one-to-many.** The customer is the parent record and the orders are the child records."
+      },
+      {
+        "q": "In a relationship, the field in the child table that matches the primary key of the parent table is the: (a) foreign key  (b) primary key  (c) index  (d) alias",
+        "a": "**(a) foreign key.** It is what holds the relationship together."
       }
     ],
     "trend": "Define one-to-many + referential integrity; practical is drag-PK-to-FK.",
@@ -532,6 +606,23 @@
           "(b) Practical: query with two criteria and a sort.",
           "(c) Editing query results and expecting the table design to change."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is a query and why is it used?",
+        "a": "A query is a question put to the database. It selects the fields and records you need, filters them by conditions, sorts them and can calculate totals, so you can answer questions such as ‘which students scored above 90 in Science' without reading the whole table.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe how to create a query with a condition in LibreOffice Base.",
+        "a": [
+          "Choose Queries, then Create Query in Design View, and add the table or tables you need.",
+          "Double-click each field you want to see, so that it appears in the grid below.",
+          "Type the condition in the Criterion row of the field you want to filter, for example >90, and set Ascending or Descending in the Sort row.",
+          "Run the query to check the result, then save it with a clear name; it can be re-run any time the data changes."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -558,6 +649,14 @@
       {
         "q": "A 3-mark answer on “Queries in Base” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "To show only the students of Class 10 in a query you would: (a) type a criterion in the Class field  (b) sort the Class field  (c) rename the field  (d) delete the other rows",
+        "a": "**(a) type a criterion in the Class field.** Criteria filter the records; sorting only reorders them."
+      },
+      {
+        "q": "Sorting a query result in descending order arranges the values: (a) from largest to smallest  (b) from A to Z  (c) oldest first  (d) in the order they were entered",
+        "a": "**(a) from largest to smallest.** For text, Z to A."
       }
     ],
     "trend": "Write a criterion, or steps of Design View query.",
@@ -671,6 +770,23 @@
           "(b) Practical often: form on Student + report from a query.",
           "(c) Building a report on the whole table when the question said “students with marks > 80”."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Why is a form better than the table grid for entering data?",
+        "a": "A form shows one record at a time in a clean layout, can carry instructions, drop-down lists, buttons and field labels, and prevents the common mistakes of typing into the wrong column or the wrong row. It is designed for the person who uses the database, while the table grid is designed for the person who built it.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe how to create a report in LibreOffice Base.",
+        "a": [
+          "Choose Reports, then Use Wizard to Create Report, and select the table or query that holds the data.",
+          "Pick the fields to show, choose a grouping level if you want subtotals, set the sort order and the layout.",
+          "Give the report a title, choose whether it is a columnar or a tabular report, and finish; the wizard opens it for preview.",
+          "The report can then be edited in Design View, and printed or exported as a PDF for distribution."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -697,6 +813,14 @@
       {
         "q": "A 3-mark answer on “Forms and Reports” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "A report is mainly used to: (a) print or present data in a formatted way  (b) enter new records  (c) store the data  (d) delete old records",
+        "a": "**(a) print or present data in a formatted way.** Data entry is done through a form."
+      },
+      {
+        "q": "The Report Wizard in Base is started from: (a) Reports → Use Wizard to Create Report  (b) Tables → Create Table in Design View  (c) Queries → Design View  (d) Tools → Options",
+        "a": "**(a) Reports → Use Wizard to Create Report.** It steps you through fields, grouping and layout."
       }
     ],
     "trend": "Form vs report, or wizard steps; practical is one of each.",

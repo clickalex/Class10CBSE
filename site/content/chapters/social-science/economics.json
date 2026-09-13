@@ -167,6 +167,34 @@
           "(b) Because countries have different population sizes, so total income does not tell us what an average person earns. Dividing national income by the population gives per capita income, which shows the average income of a person and allows a fair comparison of the standard of living between countries.",
           "(c) Averages are useful but hide disparities. Every 'limitation of per capita income' answer starts with this sentence."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Why is per capita income not an adequate indicator of development?",
+        "a": "Average income hides inequality: two countries with the same average can differ greatly in how income is distributed. It also counts only goods and services bought for money and ignores health, education, freedom, dignity, security and equality. This is why the Human Development Report uses several indicators together.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What does the Human Development Index measure?",
+        "a": [
+          "The HDI is a composite index published annually by the UNDP in the Human Development Report.",
+          "It combines three dimensions: a long and healthy life, measured by life expectancy at birth.",
+          "Knowledge, measured by mean years of schooling and expected years of schooling.",
+          "A decent standard of living, measured by gross national income per capita. Countries are ranked on a scale between 0 and 1, so development is compared by human outcomes and not by income alone."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Explain the importance of public facilities and the idea of sustainable development with examples.",
+        "a": [
+          "Public facilities such as schools, health centres, safe drinking water, sanitation, public transport and cheap food through the public distribution system benefit the whole community rather than one buyer, and only the government can provide them to people who cannot pay.",
+          "Without them, even a person with money cannot be healthy or educated, since they need schools, hospitals and clean water shared by all.",
+          "Sustainable development means using resources so that they remain available for future generations.",
+          "Example: the Green Revolution made India self-sufficient in food, but in Punjab the water table is falling because of over-irrigation, so the present generation is borrowing from the future."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -189,6 +217,18 @@
       {
         "q": "A 3-mark answer on “Development” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Which of these is included in the Human Development Index? (a) life expectancy at birth  (b) the number of cars  (c) military spending  (d) the area of the country",
+        "a": "**(a) life expectancy at birth.** Along with education levels and per capita income."
+      },
+      {
+        "q": "A country with a high per capita income but poor health and education would be regarded as: (a) fully developed  (b) not necessarily developed  (c) socialist  (d) underdeveloped by definition",
+        "a": "**(b) not necessarily developed.** Development covers health, education and equality along with income."
+      },
+      {
+        "q": "The literacy rate is measured for the population aged: (a) 7 years and above  (b) 18 years and above  (c) 60 years and above  (d) 5 years and above",
+        "a": "**(a) 7 years and above.** It is the percentage of people in that age group who can read and write with understanding."
       }
     ],
     "trend": "Per capita income and the limitations of averages, the Kerala-versus-Haryana comparison, and the HDI components recur every year; sustainability with groundwater or crude oil is the common 3-mark question.",
@@ -349,6 +389,34 @@
           "(b) The primary sector includes activities that use natural resources directly, such as agriculture, dairy, fishing and mining. The secondary sector includes activities in which natural products are changed into other forms through manufacturing, such as turning sugarcane into sugar or cotton into cloth. The tertiary sector includes activities that support the primary and secondary sectors without producing goods, such as transport, banking, trade, education and health.",
           "(c) Primary = extract, Secondary = make, Tertiary = support. One word each."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Distinguish between the organised and the unorganised sectors.",
+        "a": "In the organised sector the work is registered, employees have regular hours, paid holidays, provident fund, gratuity, medical benefits and job security, and labour laws apply. In the unorganised sector the work is small-scale and unregistered, wages are low and irregular, working conditions are poor, and there is no job security, no social security and no protection of labour laws.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain underemployment with an example and suggest two measures to reduce it.",
+        "a": [
+          "Underemployment is the condition in which people work less than they could, or more people are engaged in a job than are needed.",
+          "Example: if five members of a family cultivate a plot that needs only two, the other three add nothing to output; they are disguisedly unemployed, especially during the lean season.",
+          "Measures: providing non-farm employment in villages through MGNREGA and rural industries, and improving irrigation so that two or three crops can be grown in a year.",
+          "Other measures: skill training so that workers can move to manufacturing and services, better roads and markets, and cheap institutional credit."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Explain why the tertiary sector has become the most important sector in India, and why this is not entirely a good sign.",
+        "a": [
+          "As incomes rise, people spend a larger share of them on services such as education, health, transport, banking, insurance, tourism and entertainment, so the tertiary sector has become the largest contributor to GDP.",
+          "Services are also needed to support agriculture and industry — transport, storage, banking, communication and trade.",
+          "However, much of the employment in this sector is in low-productivity, unorganised activities such as domestic work, retail and repairs, and the manufacturing sector has not grown fast enough to absorb the workers leaving agriculture.",
+          "So a healthy economy needs balanced growth of all three sectors, especially manufacturing, rather than a jump from farms to low-paid services."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -371,6 +439,18 @@
       {
         "q": "A 3-mark answer on “Sectors of the Indian Economy” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Disguised unemployment is most commonly found in: (a) the IT sector  (b) Indian agriculture  (c) banking  (d) the railways",
+        "a": "**(b) Indian agriculture.** More people work on the land than are actually needed for the output."
+      },
+      {
+        "q": "Activities that produce goods using natural resources belong to the: (a) primary sector  (b) secondary sector  (c) tertiary sector  (d) quaternary sector",
+        "a": "**(a) primary sector.** Agriculture, fishing, forestry, mining and quarrying are primary activities."
+      },
+      {
+        "q": "The public sector in India is owned and managed by: (a) private companies  (b) the government  (c) foreign investors  (d) cooperative societies",
+        "a": "**(b) the government.** Its purpose is public welfare as well as profit, as with the Indian Railways or BHEL."
       }
     ],
     "trend": "Organised versus unorganised sector, disguised unemployment with remedies, and why the tertiary sector has become the most important are the three set 5-mark answers.",
@@ -535,6 +615,34 @@
           "(b) Because it acts as an intermediate step in the exchange of goods and services. In a barter system, exchange requires a double coincidence of wants — each person must want what the other has. Money removes this difficulty: a person can sell his goods for money and use that money to buy whatever he wants, so it mediates between the two parties.",
           "(c) Credit helps Salim and traps Swapna. Name both in any credit question and you have the whole argument."
         ]
+      },
+      {
+        "m": "2",
+        "q": "List the main functions of money.",
+        "a": "Money works as a medium of exchange, a unit of account (a common measure of value) and a store of value; it also allows deferred payments. Because it removes the need for a double coincidence of wants, it makes trade, specialisation and economic growth possible.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain how the Reserve Bank of India supervises banks and why this supervision is needed.",
+        "a": [
+          "The RBI is the apex bank: it issues currency and keeps the cash reserves of the commercial banks.",
+          "It decides how much of their deposits banks must keep as reserves and how much they may lend, and it sets the rules for interest rates and priority-sector lending.",
+          "It inspects banks, licenses them and can penalise them if they break the rules.",
+          "This supervision is needed because banks hold other people's savings; without it they could lend recklessly and collapse, wiping out depositors' money and unsettling the whole economy."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Explain the terms of credit and how they decide whether a loan helps or harms the borrower.",
+        "a": [
+          "The terms of credit are the interest rate, the collateral or security, the documents required and the mode and time of repayment.",
+          "A loan helps when the borrower can repay it out of the extra income it creates — a farmer irrigating land to grow a second crop, or a weaver buying yarn.",
+          "It harms when the activity does not earn enough to repay, when the interest rate is high, or when the borrower loses the collateral and has to borrow again to repay the first loan — a debt trap.",
+          "This is why formal credit from banks and cooperatives at lower rates, with supervision and advice, is better than borrowing from an informal moneylender."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -557,6 +665,18 @@
       {
         "q": "A 3-mark answer on “Money and Credit” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Which of these is a function of the Reserve Bank of India? (a) accepting deposits from the public  (b) issuing currency notes  (c) lending directly to farmers  (d) selling insurance policies",
+        "a": "**(b) issuing currency notes.** It also supervises the commercial banks and acts as the government's banker."
+      },
+      {
+        "q": "A self-help group generally consists of about: (a) 5 members  (b) 15 to 20 members  (c) 100 members  (d) 500 members",
+        "a": "**(b) 15 to 20 members.** Members save regularly, lend to each other at low rates and then qualify for bank loans."
+      },
+      {
+        "q": "Cheap and affordable credit matters because it: (a) increases dependence on moneylenders  (b) lets borrowers invest and raise their income  (c) raises taxes  (d) reduces savings",
+        "a": "**(b) lets borrowers invest and raise their income.** Formal credit at low interest helps poor households escape the debt trap."
       }
     ],
     "trend": "The Salim–Swapna contrast, formal versus informal credit with reasons, and self-help groups rotate through the 3–5 mark slot every year.",
@@ -688,6 +808,35 @@
           "(b) A multinational corporation is a corporation that owns or controls production of goods or services in two or more countries other than its home country. MNCs set up factories in regions where they can get cheap labour, resources and other factors of production, and they keep the large profits with themselves. They spread production by setting up new factories, by buying or acquiring a local company and expanding it, or by placing orders with small producers which are then sold under the MNC's br",
           "(c) MNC = production in two or more countries besides the home country. That exact wording is a marked step."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Distinguish between foreign trade and foreign investment.",
+        "a": "Foreign trade is the buying and selling of goods and services across national borders. Foreign investment is the money spent by a company of one country to buy land, buildings, machines or companies in another country; it brings capital, technology and management along with ownership and control.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "How does a multinational corporation decide where to set up production? Give examples.",
+        "a": [
+          "MNCs look for cheap and skilled labour, cheap raw materials, low production costs, good infrastructure and a large, growing market.",
+          "They are also attracted by favourable government policies such as tax concessions, cheap land and relaxed labour and environmental rules.",
+          "For example, garment makers set up units in Bangladesh and Vietnam where labour is cheap, and sell in the markets of the US and Europe.",
+          "Ford and Maruti set up plants in India to serve the Indian market, and Tata Motors bought Jaguar Land Rover in 2008 to gain technology and markets abroad."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "What is meant by fair globalisation? Suggest measures to achieve it.",
+        "a": [
+          "Fair globalisation means that the benefits of globalisation — investment, technology, jobs, cheaper and better goods — are shared more equally, and that workers, small producers and consumers are protected.",
+          "Measures: labour laws that protect workers' rights, safety and wages, especially for women in the export sector.",
+          "Support for small producers through cheap credit, technology, cooperatives and marketing help.",
+          "A stronger voice for developing countries in the WTO, IMF and World Bank, and fairer rules on agricultural subsidies in rich countries.",
+          "Pressure on MNCs to pay fair wages and to follow environmental and safety standards, and the right of citizens and governments to regulate them."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -710,6 +859,18 @@
       {
         "q": "A 3-mark answer on “Globalisation and the Indian Economy” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The World Trade Organization was established in: (a) 1947  (b) 1995  (c) 2000  (d) 1991",
+        "a": "**(b) 1995.** It replaced GATT and now has more than 160 member countries."
+      },
+      {
+        "q": "Which of these is a barrier to foreign trade? (a) free exchange of goods  (b) import duties and quotas  (c) lower transport costs  (d) transfer of technology",
+        "a": "**(b) import duties and quotas.** They are imposed to protect domestic producers from foreign competition."
+      },
+      {
+        "q": "Which Indian company bought the Anglo-Dutch steel maker Corus in 2007? (a) Tata Steel  (b) Reliance Industries  (c) Infosys  (d) Mahindra and Mahindra",
+        "a": "**(a) Tata Steel.** It was one of the largest overseas acquisitions by an Indian company."
       }
     ],
     "trend": "MNCs and how they control production, liberalisation of 1991, the WTO and its criticism, and the impact of globalisation on small producers and workers rotate through the 3–5 mark slot.",
@@ -840,6 +1001,33 @@
           "(b) Right to be informed: the right to know about the quality, quantity, purity, standard and price of goods so as to be protected against unfair trade practices; this is why the MRP, expiry date and ingredients must be printed on packets. Right to choose: the right to be assured of access to a variety of goods and services at competitive prices. Right to seek redressal: the right to seek remedy against unfair trade practices or exploitation, and to be compensated for loss or injury.",
           "(c) COPRA 1986, enacted on 24 December = National Consumers' Day. The date and the Act go together."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What does the right to be informed mean and how is it protected in India?",
+        "a": "It means a consumer must be given all the information needed to make a sensible choice: the ingredients, quantity, date of manufacture, expiry date, batch number and maximum retail price of a product. It is protected by rules requiring this information on labels and packaging, by standardisation marks such as ISI, Agmark and Hallmark, and indirectly by the Right to Information Act, 2005.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain three ways in which consumers are exploited in the market.",
+        "a": [
+          "Weighing and measuring less, or charging more than the marked price and refusing to issue a bill.",
+          "Selling adulterated, expired or sub-standard goods, or goods that do not meet safety standards.",
+          "Misleading advertisements, false claims about quality and price, and the sale of defective goods without a guarantee or after-sales service."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Describe the three-tier redressal machinery under the Consumer Protection Act and how a consumer uses it.",
+        "a": [
+          "The district commission (district forum) hears complaints where the value of the goods or services and compensation claimed is up to ₹20 lakh.",
+          "The state commission hears claims between ₹20 lakh and ₹1 crore, and appeals against the district commission.",
+          "The National Commission in New Delhi hears claims above ₹1 crore and appeals against the state commissions.",
+          "A consumer files a written complaint with the cash memo, guarantee card or any other proof of purchase, and consumer organisations and voluntary agencies help fight the case; the forum can order a refund, replacement, removal of the defect, compensation and payment of costs."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -862,6 +1050,18 @@
       {
         "q": "A 3-mark answer on “Consumer Rights” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Which of these is a duty of a consumer? (a) insist on a cash memo or bill for every purchase  (b) accept defective goods quietly  (c) never check the weight  (d) ignore expiry dates",
+        "a": "**(a) insist on a cash memo or bill.** The bill is the proof of purchase needed to make a complaint."
+      },
+      {
+        "q": "The ‘right to choose' means that a consumer should: (a) be forced to buy one brand  (b) be able to choose from a variety of goods at competitive prices  (c) buy only imported goods  (d) accept the seller's word",
+        "a": "**(b) be able to choose from a variety of goods at competitive prices.** Real choice exists only when several sellers compete."
+      },
+      {
+        "q": "The certification mark used for the purity of gold jewellery is: (a) ISI  (b) Agmark  (c) Hallmark  (d) FPO",
+        "a": "**(c) Hallmark.** ISI is for industrial products, Agmark for agricultural produce and FPO for processed foods."
       }
     ],
     "trend": "Assessed mainly as project work, but the consumer's rights, the three-tier machinery under COPRA and the duties of a consumer recur as 3-mark questions.",

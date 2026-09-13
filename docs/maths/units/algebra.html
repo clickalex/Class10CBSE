@@ -9,14 +9,56 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="topbar">
-  <div class="wrap topbar-in">
-    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
-    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../maths/index.html">Hub</a><a href="../../maths/syllabus.html">Syllabus</a><a href="../../maths/revision.html">Revise</a><a href="../../maths/question-bank.html">Bank</a><a href="../../maths/drill.html">Drill</a><a href="../../maths/pyq.html">PYQ</a></nav>
-  </div>
-</header>
-<main id="main" class="wrap">
-  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Mathematics</a> <span class="sep">/</span> Unit II · Algebra</nav>
+<button class="menu-btn" onclick="openMenu()" aria-label="Open navigation">&#9776;</button>
+<div class="backdrop" id="backdrop" onclick="closeMenu()"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+<div class="side-head"><a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a><p class="side-sub">Session 2026–27</p><button class="side-close" onclick="closeMenu()" aria-label="Close navigation">&times;</button></div>
+<div class="progress-wrap"><div class="progress-label"><span>Chapters done</span><span data-subject-text="maths" data-total="14">0 of 14</span></div><div class="bar"><span class="fill" data-subject="maths" data-total="14"></span></div></div>
+<div class="toc-group">All subjects</div>
+<a class="toc-item is-on" href="../../maths/index.html"><span class="toc-num">041</span>Mathematics</a>
+<a class="toc-item" href="../../science/index.html"><span class="toc-num">086</span>Science</a>
+<a class="toc-item" href="../../social-science/index.html"><span class="toc-num">087</span>Social Science</a>
+<a class="toc-item" href="../../english/index.html"><span class="toc-num">184</span>English Language &amp; Literature</a>
+<a class="toc-item" href="../../hindi/index.html"><span class="toc-num">002 (A)</span>Hindi</a>
+<a class="toc-item" href="../../information-technology/index.html"><span class="toc-num">402</span>Information Technology</a>
+<a class="toc-item" href="../../computer-applications/index.html"><span class="toc-num">165</span>Computer Applications</a>
+<a class="toc-item" href="../../sanskrit/index.html"><span class="toc-num">122</span>Sanskrit</a>
+<div class="toc-group">Mathematics</div>
+<a class="toc-item" href="../../maths/index.html"><span class="toc-num">&bull;</span>Hub</a>
+<a class="toc-item is-on" href="../../maths/chapters.html" aria-current="page"><span class="toc-num">&bull;</span>Chapters</a>
+<a class="toc-item" href="../../maths/syllabus.html"><span class="toc-num">&bull;</span>Syllabus</a>
+<a class="toc-item" href="../../maths/question-bank.html"><span class="toc-num">&bull;</span>Q&amp;A bank</a>
+<a class="toc-item" href="../../maths/drill.html"><span class="toc-num">&bull;</span>MCQ drill</a>
+<a class="toc-item" href="../../maths/revision.html"><span class="toc-num">&bull;</span>Revision</a>
+<a class="toc-item" href="../../maths/pyq.html"><span class="toc-num">&bull;</span>PYQ</a>
+<a class="toc-item" href="../../maths/practical.html"><span class="toc-num">&bull;</span>Practical</a>
+<div class="toc-group">Chapters</div>
+<div class="toc-sub">Unit I · Number Systems</div>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch01-real-numbers.html"><span class="toc-num">1</span>Real Numbers</a>
+<div class="toc-sub">Unit II · Algebra</div>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch02-polynomials.html"><span class="toc-num">2</span>Polynomials</a>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch03-pair-of-linear-equations.html"><span class="toc-num">3</span>Pair of Linear Equations in Two Variables</a>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch04-quadratic-equations.html"><span class="toc-num">4</span>Quadratic Equations</a>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch05-arithmetic-progressions.html"><span class="toc-num">5</span>Arithmetic Progressions</a>
+<div class="toc-sub">Unit III · Coordinate Geometry</div>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch07-coordinate-geometry.html"><span class="toc-num">7</span>Coordinate Geometry</a>
+<div class="toc-sub">Unit IV · Geometry</div>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch06-triangles.html"><span class="toc-num">6</span>Triangles</a>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch10-circles.html"><span class="toc-num">10</span>Circles</a>
+<div class="toc-sub">Unit V · Trigonometry</div>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch08-introduction-to-trigonometry.html"><span class="toc-num">8</span>Introduction to Trigonometry</a>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch09-applications-of-trigonometry.html"><span class="toc-num">9</span>Some Applications of Trigonometry</a>
+<div class="toc-sub">Unit VI · Mensuration</div>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch11-areas-related-to-circles.html"><span class="toc-num">11</span>Areas Related to Circles</a>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch12-surface-areas-and-volumes.html"><span class="toc-num">12</span>Surface Areas and Volumes</a>
+<div class="toc-sub">Unit VII · Statistics &amp; Probability</div>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch13-statistics.html"><span class="toc-num">13</span>Statistics</a>
+<a class="toc-item toc-ch" href="../../maths/chapters/ch14-probability.html"><span class="toc-num">14</span>Probability</a>
+<div class="sidebar-foot">Progress is saved in this browser.<br>Created by <strong>Mohammad Umair</strong></div>
+  </aside>
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Mathematics</a> <span class="sep">/</span> Unit II · Algebra</nav>
 
 <p class="kicker">CBSE • CLASS 10 • MATHEMATICS</p>
 <h1>Unit II · Algebra</h1>
@@ -25,11 +67,12 @@
 <ul class="biglinks"><li><a href="../chapters/ch02-polynomials.html"><strong>Ch 2 · Polynomials</strong><span>Zeroes of a quadratic and their relation to coefficients.</span></a></li><li><a href="../chapters/ch03-pair-of-linear-equations.html"><strong>Ch 3 · Pair of Linear Equations in Two Variables</strong><span>Consistency conditions, three solving methods, word problems.</span></a></li><li><a href="../chapters/ch04-quadratic-equations.html"><strong>Ch 4 · Quadratic Equations</strong><span>Factorisation, the quadratic formula, discriminant and nature of roots.</span></a></li><li><a href="../chapters/ch05-arithmetic-progressions.html"><strong>Ch 5 · Arithmetic Progressions</strong><span>nth term, sum of n terms, and word problems.</span></a></li></ul>
 <ul><li>Word problems on AP and on pairs of linear equations are the reliable 4-5 markers.</li></ul>
 
-</main>
+  </main>
+</div>
 <footer class="wrap foot">
-  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  <div class="foot-main"><p>Built for CBSE Class 10 &middot; session 2026–27 &middot; content is original study material,
   not official CBSE papers. Always confirm the syllabus against
-  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p><nav class="foot-subj" aria-label="All subjects"><a href="../../maths/index.html">Mathematics</a> <a href="../../science/index.html">Science</a> <a href="../../social-science/index.html">Social Science</a> <a href="../../english/index.html">English Language &amp; Literature</a> <a href="../../hindi/index.html">Hindi</a> <a href="../../information-technology/index.html">Information Technology</a> <a href="../../computer-applications/index.html">Computer Applications</a> <a href="../../sanskrit/index.html">Sanskrit</a></nav><p class="credit">Created by <strong>Mohammad Umair</strong></p></div>
   <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
 </footer>
 <script src="../../assets/app.js"></script>

@@ -97,6 +97,28 @@
           "(b) A discursive passage is 400–450 words and argues or discusses an idea, so the questions test inference, interpretation and evaluation. A case-based factual passage is 200–250 words and is supported by visual input such as statistical data or a chart, so the questions test your ability to read the data and connect it to the text.",
           "(c) Questions first, then passage. It saves two or three minutes on a fifteen-mark section."
         ]
+      },
+      {
+        "m": "3",
+        "q": "What is the right way to attempt an unseen passage in the board paper?",
+        "a": [
+          "Read the questions first, so that you know what to look for while reading.",
+          "Then read the passage once quickly for the sense and a second time to locate the answers, underlining key words.",
+          "Answer in complete sentences and, wherever asked, in your own words; do not copy long phrases from the passage.",
+          "Stick to the word limit — usually 30 to 40 words for a two-mark question — and number the answers exactly as the questions are numbered."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "How should you answer a case-based factual passage with MCQ and short items?",
+        "a": [
+          "Read the whole case once, including any table, chart or data given with it, before looking at the questions.",
+          "For the MCQ, choose the option that is supported by the passage and cannot be contradicted by any line in it; do not bring in outside knowledge.",
+          "For short items, write one clear sentence with the fact taken from the passage and the number or unit it gives.",
+          "Keep every answer brief and grammatical, and do not repeat the question in the answer."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -119,6 +141,14 @@
       {
         "q": "A 3-mark answer on “Reading: Unseen and Case-based Passages” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Before writing the answers to an unseen passage you should: (a) read the questions, then read the passage  (b) start writing immediately  (c) copy lines from the passage  (d) skip the passage",
+        "a": "**(a) read the questions, then read the passage.** It saves time and keeps your reading focused."
+      },
+      {
+        "q": "Answers to an unseen passage should be: (a) in your own words and within the word limit  (b) as long as possible  (c) copied from the passage  (d) written as bullet points only",
+        "a": "**(a) in your own words and within the word limit.** Copying whole sentences loses marks."
       }
     ],
     "trend": "The pattern is stable: one discursive passage and one case-based passage with visual input, all objective. The skill is speed and elimination, not knowledge.",
@@ -229,6 +259,28 @@
           "(b) Write a title in the centre at the top. Use decimal numbering for the headings — 1, 1.1, 1.1.1, 1.2 — with consistent indentation to show the levels. Each heading must be a short phrase, not a sentence, and must contain only what is in the passage. Standard abbreviations may be used, and a key to abbreviations must be given at the end.",
           "(c) Headings are phrases, not sentences. That is the single most common loss of format marks."
         ]
+      },
+      {
+        "m": "3",
+        "q": "What is the accepted format for note-making?",
+        "a": [
+          "Write the title at the top, then group the ideas into main points and sub-points.",
+          "Number them as 1, 2, 3 with sub-points as 1.1, 1.2 and so on, and indent each sub-point.",
+          "Use abbreviations wherever possible and write a key to the abbreviations at the end, leaving out articles and linkers.",
+          "Do not write full sentences: use phrases, and keep the points logically grouped under the title."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "How do you write a summary from notes?",
+        "a": [
+          "A summary keeps only the essential points of the passage and drops all examples, figures of speech and repetition.",
+          "It should be about one third of the length of the original and must be written in connected prose in one paragraph.",
+          "Use your own words as far as possible and keep the order of the original, so that the reader can follow the argument.",
+          "Give the summary a title, do not add your own comments, and write it in the past or present tense as the passage requires."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -251,6 +303,14 @@
       {
         "q": "A 3-mark answer on “Note Making and Summarising” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "In note-making, the format marks are awarded for: (a) the title, numbering and use of abbreviations  (b) neat handwriting  (c) the length of the notes  (d) coloured pens",
+        "a": "**(a) the title, numbering and use of abbreviations.** These show that you know the format."
+      },
+      {
+        "q": "A good summary should be: (a) about one third of the original, in your own words  (b) as long as the passage  (c) a copy of the first and last sentences  (d) full of examples",
+        "a": "**(a) about one third of the original, in your own words.** Examples and details are left out."
       }
     ],
     "trend": "The task is stable: a passage, a set of notes and an 80-word summary. The marks lost are almost always format marks, not content marks.",
@@ -369,6 +429,28 @@
           "(b) has. 'Neither of' takes a singular verb, because the subject is 'neither', not 'candidates'.",
           "(c) In a gap-filling passage, look at the other verbs first — the tense of the passage is usually consistent."
         ]
+      },
+      {
+        "m": "3",
+        "q": "How do you change a sentence from direct into indirect speech?",
+        "a": [
+          "Change the reporting verb into the past tense; since the reporting verb is already in the past, the verb in the reported clause moves one step back — present to past, past to past perfect.",
+          "Change the pronouns according to sense, and change words of nearness into words of distance: now becomes then, today that day, tomorrow the next day, here there.",
+          "Remove the inverted commas and the comma after the reporting verb, and use ‘if' or ‘whether' for yes–no questions.",
+          "Do not change a universal truth: ‘The teacher said that the earth moves round the sun' keeps the present tense."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Correct these sentences and give a reason for each: (i) She don't like mangoes. (ii) He is working since morning. (iii) The teacher said that the earth moved round the sun. (iv) Neither of the boys were present.",
+        "a": [
+          "(i) She doesn't like mangoes — a third-person singular subject takes does not, not do not.",
+          "(ii) He has been working since morning — an action continuing up to the present uses the present perfect continuous, not the present continuous.",
+          "(iii) The teacher said that the earth moves round the sun — a universal truth keeps the present tense even in indirect speech.",
+          "(iv) Neither of the boys was present — ‘neither' is singular, so the verb is was, not were."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -391,6 +473,14 @@
       {
         "q": "A 3-mark answer on “Grammar in Context” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Choose the correct form: Neither of the boys ___ present. (a) were  (b) was  (c) are  (d) have been",
+        "a": "**(b) was.** ‘Neither' and ‘either' are treated as singular in formal English."
+      },
+      {
+        "q": "The correct reported form of ‘He said, “I am busy”' is: (a) He said that he was busy  (b) He said that he is busy  (c) He said that I was busy  (d) He says he was busy",
+        "a": "**(a) He said that he was busy.** The pronoun changes to he and the tense moves one step back."
       }
     ],
     "trend": "The topics are fixed — tenses, modals, subject-verb agreement, reported speech and determiners — and are tested inside a passage or dialogue, so the skill is recognising the pattern in context.",
@@ -513,6 +603,28 @@
           "(b) Sender's address at the top left, without the name; the date in full; the receiver's designation and address; a one-line subject; the salutation Sir or Madam; the body in three short paragraphs; the complimentary close Yours faithfully or Yours sincerely; and the signature, name and designation at the bottom left.",
           "(c) The subject line is one line only. If it runs to two, shorten it."
         ]
+      },
+      {
+        "m": "3",
+        "q": "What is the format of a letter to the editor?",
+        "a": [
+          "Sender's address on the left, then the date, then ‘The Editor' with the name of the newspaper and its city.",
+          "Then the subject line in brief, then the salutation ‘Sir' or ‘Madam'.",
+          "The body: introduce the issue in one sentence, explain the problem and its effect, suggest two or three solutions and end with a hope that the authorities will act.",
+          "End with ‘Thanking you' or ‘Yours truly', and then the sender's name and designation or address."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Write a letter to the editor of a national daily on the nuisance of loudspeakers in your locality.",
+        "a": [
+          "Start with the address, date and ‘The Editor, The Times of India, New Delhi', and give the subject: ‘Nuisance of loudspeakers in residential areas'.",
+          "Body: say that loudspeakers are played at high volume from early morning till late at night, disturbing students, the elderly and night-shift workers.",
+          "Point out that this flouts the Noise Pollution Rules and the Supreme Court's directions, and that repeated complaints to the local police have had no effect.",
+          "Suggest strict enforcement of the 10 pm limit, seizure of equipment on repetition, and a helpline for complaints; end with ‘Yours truly' and your name and address."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -535,6 +647,14 @@
       {
         "q": "A 3-mark answer on “Formal Letter Writing” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "A letter to the editor begins with: (a) the sender's address, date, and then ‘The Editor'  (b) the subject line  (c) ‘Dear Sir' alone  (d) a question",
+        "a": "**(a) the sender's address, date, and then ‘The Editor'.** The format marks depend on this order."
+      },
+      {
+        "q": "In a letter of complaint or order, the subject line should be: (a) short and specific  (b) long and detailed  (c) left out  (d) written as a question",
+        "a": "**(a) short and specific.** It tells the reader at once what the letter is about."
       }
     ],
     "trend": "One formal letter is set every year, alternating between a letter to the editor on a civic issue and a letter of order, enquiry or complaint. The marks lost are format marks and word-limit marks.",
@@ -650,6 +770,28 @@
           "(b) The paragraph opens with a sentence introducing the data — what it shows, the period it covers and the units used. The middle sentences describe the main features, selecting the significant figures and comparing them. The final sentence gives a conclusion or a trend inferred from the data. The whole paragraph is within the word limit and contains no opinion.",
           "(c) Open with what the chart shows, then compare, then conclude. Three moves, one paragraph."
         ]
+      },
+      {
+        "m": "3",
+        "q": "What is the structure of an analytical paragraph?",
+        "a": [
+          "Begin by naming the data: what the chart or table shows, over what period and for whom.",
+          "Then give the main trend or the largest and smallest categories, using the figures in the data.",
+          "Next explain the reasons or the pattern behind the figures, comparing categories where useful.",
+          "End with a conclusion or a suggestion, and keep the whole paragraph to about 100 to 120 words."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "A survey of 200 students of a school showed these preferences for co-curricular activities: Sports 80, Music 50, Art 40, Debate 30. Write an analytical paragraph.",
+        "a": [
+          "A survey of 200 students shows clear preferences among the four co-curricular activities offered by the school.",
+          "Sports is the most popular choice, preferred by 80 students, or 40 per cent of those surveyed, while music is second with 50 students, or 25 per cent.",
+          "Art is chosen by 40 students (20 per cent) and debate by only 30 (15 per cent), which together account for just over a third of the students.",
+          "The pattern suggests that physical activity attracts the largest number of students, while activities that require performance in front of an audience, such as debate, attract the fewest; the school could encourage the less popular activities by giving them more time, trained coaches and recognition."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -672,6 +814,14 @@
       {
         "q": "A 3-mark answer on “Analytical Paragraph” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "An analytical paragraph must be based on: (a) the data given in the chart or table  (b) personal opinion only  (c) imaginary facts  (d) a news report",
+        "a": "**(a) the data given in the chart or table.** Your own views are added only as a conclusion."
+      },
+      {
+        "q": "The usual length of an analytical paragraph in the board paper is: (a) 100 to 120 words  (b) 300 words  (c) 20 words  (d) 500 words",
+        "a": "**(a) 100 to 120 words.** It should cover the trend, the data and one conclusion."
       }
     ],
     "trend": "The task is stable: a chart, graph, table or set of clues, and a 100–120 word paragraph. Marks go to selection, comparison and a concluding inference.",

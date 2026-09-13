@@ -110,6 +110,33 @@
           "(b) Prudential reasons stress the good consequences of power sharing — it reduces conflict between social groups, ensures the stability of political order and prevents violence and political instability. Moral reasons stress the intrinsic worth of power sharing — that people have a right to be consulted on how they are to be governed, and that a legitimate government is one in which citizens acquire a stake in the system through participation. Prudential reasons are about outcomes; moral reasons are",
           "(c) Belgium accommodated, Sri Lanka imposed. Those two words are the entire comparison — then add three details for each."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Why is power sharing desirable in a democracy?",
+        "a": "It ensures that no single community or group can dominate the others, reduces the fear of oppression and the chances of conflict, respects the claims of minorities and regions, and makes the government more stable, accountable and legitimate in the eyes of the people.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe the ethnic composition of Belgium and Sri Lanka and how it shaped their politics.",
+        "a": [
+          "In Belgium about 59% of the people speak Dutch (Flemish), 40% speak French (Walloon) and about 1% speak German; the French-speakers were historically richer and more powerful although fewer in number, which caused tension.",
+          "In Brussels the situation is reversed, with a French-speaking majority among a Dutch-speaking region.",
+          "In Sri Lanka the Sinhala-speakers are about 74% and the Tamil-speakers about 18%; the Sinhala-majority government imposed majoritarian measures such as making Sinhala the only official language (1956), which alienated the Tamils and led to a long civil war."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Describe the different forms of power sharing in modern democracies, with an example of each.",
+        "a": [
+          "Horizontal distribution among the legislature, executive and judiciary, so that each organ checks the others — for example, the Indian Parliament makes laws while the courts can declare them unconstitutional.",
+          "Vertical division between the Union, States and local governments — federalism, as in India, Belgium and the USA.",
+          "Sharing among different social groups, such as the community government in Belgium, where Dutch-, French- and German-speaking communities have equal representation on some matters.",
+          "Sharing among political parties, pressure groups and movements through coalitions and competitive politics, so that power is not concentrated in one party."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -132,6 +159,18 @@
       {
         "q": "A 3-mark answer on “Power Sharing” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Which of these was a majoritarian measure in Sri Lanka? (a) making Sinhala the only official language in 1956  (b) power sharing  (c) federalism  (d) proportional representation",
+        "a": "**(a) making Sinhala the only official language in 1956.** It disregarded the Tamil-speaking minority and deepened the conflict."
+      },
+      {
+        "q": "In Belgium's central government, the number of Dutch-speaking and French-speaking ministers must be: (a) unequal  (b) equal  (c) decided by the King  (d) decided by the majority",
+        "a": "**(b) equal.** This special arrangement balances the two main linguistic communities."
+      },
+      {
+        "q": "Horizontal distribution of power means sharing power among: (a) different levels of government  (b) the legislature, executive and judiciary  (c) social groups  (d) political parties only",
+        "a": "**(b) the legislature, executive and judiciary.** It creates a system of checks and balances between the organs of government."
       }
     ],
     "trend": "The Belgium–Sri Lanka comparison and the four forms of power sharing alternate as the set long answer; prudential versus moral reasons is a frequent 3-mark question.",
@@ -259,6 +298,34 @@
           "(b) In a coming-together federation, independent states come together on their own to form a bigger unit, pooling sovereignty while retaining their identity — the USA, Switzerland and Australia. In a holding-together federation, a large country divides power between the constituent states and the national government, and the centre tends to be more powerful — India, Spain and Belgium.",
           "(c) Union List = national, State List = local, Concurrent = both. If a subject matters to the whole country (defence, currency) it is Union; if it is local (police, agriculture) it is State."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Distinguish between the Union List and the Concurrent List with two examples each.",
+        "a": "The Union List contains subjects of national importance on which only Parliament can make laws, such as defence, foreign affairs, currency, railways and banking. The Concurrent List contains subjects on which both Parliament and the state legislatures can legislate, such as education, forests, trade unions, marriage and adoption; if the two laws conflict, the Union law prevails.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe the structure of rural local government in India after 1992.",
+        "a": [
+          "A three-tier Panchayati Raj system: the gram panchayat at the village level, the panchayat samiti or block samiti at the block level, and the zila parishad at the district level.",
+          "All members are elected directly or indirectly for a term of five years, and elections are conducted by the state election commission.",
+          "One-third of all seats and of the chairperson's posts are reserved for women, and seats are reserved for SCs, STs and OBCs in proportion to their population.",
+          "The state finance commission reviews the finances of the panchayats and the state government shares taxes with them."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "How has the nature of Indian federalism changed since 1990?",
+        "a": [
+          "Before 1990, one party usually ruled at the Centre and the Union dismissed state governments frequently, so the states were weak.",
+          "The era of coalitions from 1989 onwards gave regional parties a share of power at the Centre; no party could govern alone, so states became stronger partners.",
+          "The 73rd and 74th Amendments (1992) made local government a third tier of government, and the S.R. Bommai judgement (1994) restricted the misuse of Article 356.",
+          "More recently, institutions such as the GST Council, the Inter-State Council and centrally-sponsored schemes have made Indian federalism more cooperative, though disputes over resources and language remain."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -281,6 +348,18 @@
       {
         "q": "A 3-mark answer on “Federalism” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Which of these subjects is in the State List? (a) defence  (b) police  (c) banking  (d) foreign affairs",
+        "a": "**(b) police.** Defence, banking and foreign affairs are Union List subjects."
+      },
+      {
+        "q": "The 73rd Constitutional Amendment Act is concerned with: (a) Panchayati Raj  (b) municipalities  (c) GST  (d) the right to education",
+        "a": "**(a) Panchayati Raj.** The 74th Amendment deals with municipalities, that is, urban local bodies."
+      },
+      {
+        "q": "Which of these is not a language listed in the Eighth Schedule of the Indian Constitution? (a) Sindhi  (b) Nepali  (c) Maithili  (d) English",
+        "a": "**(d) English.** The Eighth Schedule lists 22 languages, including Sindhi, Nepali and Maithili, but not English."
       }
     ],
     "trend": "The three lists with subjects and the 1992 decentralisation amendment are the two set 5-mark answers; coming together versus holding together is a frequent 3-mark question.",
@@ -416,6 +495,34 @@
           "(b) The sexual division of labour is the arrangement in which women do the housework, cook and look after children while men work outside the home for wages. It rests on social expectation, not on biology. Because paid work outside is treated as real work while the unpaid work at home is not counted at all, women's contribution is undervalued. That is where gender inequality begins: it keeps women out of the public sphere and out of better-paid, higher-status work.",
           "(c) Three sections, three lists: gender (work, wages, seats), religion (communalism and secularism), caste (caste in politics, politics in caste)."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is the feminist movement and what did it demand?",
+        "a": "Feminism is a movement and a way of thinking that questions the unequal and oppressive treatment of women simply because they are women. It demanded equal rights in the family, at work and in politics, an end to violence and discrimination, and a change in the way society defines the roles of men and women.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Distinguish between communalism and secularism, with examples from India.",
+        "a": [
+          "Communalism is the belief that people of one religion share common political and economic interests that are opposed to those of other religions; it turns religious identity into political rivalry.",
+          "Examples: the partition riots of 1947 and the 2002 Gujarat riots, in which members of one community were targeted by another.",
+          "Secularism means that the state has no official religion, treats all religions equally and does not discriminate on grounds of religion.",
+          "In India this is expressed in the ban on religious instruction in government-funded schools, the right of every person to profess and practise any religion, and the state's duty to protect all communities."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Explain how caste continues to influence Indian politics, and whether this is desirable.",
+        "a": [
+          "Caste shapes political behaviour: parties choose candidates with an eye on caste arithmetic, voters often prefer candidates of their own caste, and caste associations influence policy and mobilise support.",
+          "Caste can also be a means of asserting the dignity of disadvantaged groups — for example, the Dalit Panthers and the Bahujan Samaj Party brought Dalit concerns into the political mainstream.",
+          "Used positively, caste-based mobilisation gives a voice to the excluded and increases their share in power, which is not undemocratic.",
+          "It becomes a problem when it turns into casteism — the oppression or exclusion of other castes and violence against them — and when it replaces all discussion of development and governance."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -438,6 +545,18 @@
       {
         "q": "A 3-mark answer on “Gender, Religion and Caste” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Compared with men, women in India have: (a) a higher literacy rate  (b) the same literacy rate  (c) a lower literacy rate  (d) over 95% literacy",
+        "a": "**(c) a lower literacy rate.** The gap is also visible in wage rates, the child sex ratio and workforce participation."
+      },
+      {
+        "q": "Which of these is an expression of communalism? (a) respect for all religions  (b) a religious procession accompanied by violence against another community  (c) celebrating festivals together  (d) inter-faith marriage",
+        "a": "**(b) a religious procession accompanied by violence against another community.** Communalism turns religious difference into political confrontation and fear."
+      },
+      {
+        "q": "The Women's Reservation Act, 2023 reserves what share of seats in the Lok Sabha for women? (a) 10%  (b) 33%  (c) 50%  (d) 25%",
+        "a": "**(b) 33%.** The 106th Amendment provides for one-third of the seats in the Lok Sabha and in the state assemblies."
       }
     ],
     "trend": "One 3-mark or 5-mark question from one of the three sections — the definition of communalism, the two faces of the caste–politics relationship, or the reasons for women's low representation. Answers lifted almost word for word from the book score full marks here, so keep the wording of communalism and of 'caste in politics' and 'politics in caste' exact.",
@@ -617,6 +736,33 @@
           "(b) A party is recognised as a national party by the Election Commission if it secures at least six per cent of the total votes in Lok Sabha elections or Assembly elections in four states, and wins at least four seats in the Lok Sabha. State parties need at least six per cent of the votes in the state Assembly elections and at least two seats.",
           "(c) National party test: 6% of votes in four states + 4 Lok Sabha seats. State party: 6% + 2 Assembly seats. *'Four for national, two for state.'*"
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is a political party and why are parties necessary in a democracy?",
+        "a": "A political party is a group of people who come together to contest elections and hold power in government. Parties are necessary because representatives must be elected, because they offer voters different policies to choose from, because they form and run governments, shape public opinion and give people access to government schemes and welfare measures.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Distinguish between a two-party system and a multi-party system.",
+        "a": [
+          "In a two-party system, such as in the USA or the UK, only two parties are strong enough to win power, and one of them usually wins a majority on its own.",
+          "In a multi-party system, such as in India, several parties compete and none usually gets a majority, so they must form coalitions to govern.",
+          "A multi-party system represents the diversity of a large and varied society better; a two-party system gives more stable but less representative government."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Suggest any four reforms that would strengthen political parties in India.",
+        "a": [
+          "A law to regulate the internal affairs of parties: they should maintain a register of members, hold regular organisational elections and follow their own constitutions.",
+          "State funding of elections to reduce the dependence of parties on big donors and on black money, along with the filing of audited accounts and income-tax returns.",
+          "Disclosure of the assets and criminal records of candidates, as required by the Supreme Court and the Election Commission, so that voters can make an informed choice.",
+          "Reservation for women in the party organisation as well as in the allotment of tickets, and an end to dynastic succession through inner-party democracy."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -639,6 +785,18 @@
       {
         "q": "A 3-mark answer on “Political Parties” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "A party is recognised as a national party if it secures at least what percentage of the votes polled in four or more states? (a) 4%  (b) 6%  (c) 8%  (d) 10%",
+        "a": "**(b) 6%.** It must also win at least four seats in the Lok Sabha from those states."
+      },
+      {
+        "q": "The number of political parties registered with the Election Commission in India is: (a) fewer than 10  (b) about 50  (c) more than 2,000, counting registered unrecognised parties  (d) exactly six",
+        "a": "**(c) more than 2,000, counting registered unrecognised parties.** India has six to eight national parties and several dozen state parties among them."
+      },
+      {
+        "q": "The Election Commission of India was set up in: (a) 1947  (b) 1950  (c) 1952  (d) 1949",
+        "a": "**(b) 1950.** It conducts elections to the Lok Sabha, Rajya Sabha, state legislatures and the offices of the President and Vice-President."
       }
     ],
     "trend": "The functions of political parties and the challenges with reforms alternate as the set 5-mark answer; recognised national parties with symbols and the anti-defection/affidavit reforms recur as short questions.",
@@ -766,6 +924,33 @@
           "(b) Because it is the people's own government, chosen by them through regular, free and fair elections. Even where democracy performs poorly or is slow, it cannot be dismissed as illegitimate, because the authority to govern comes from the consent of the governed. A dictatorship may be more efficient, but it is never the people's own government.",
           "(c) Three words for assessment: accountable, responsive, legitimate. Any 5-mark answer can be organised around them."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is meant by a legitimate government?",
+        "a": "A legitimate government is one whose right to rule is accepted by the people. In a democracy this legitimacy comes from free and fair elections, an open and consultative process of decision-making, and the consent of the governed, so people are willing to accept even decisions they disagree with.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain the argument that democracy improves the quality of decision-making.",
+        "a": [
+          "Democracy is based on consultation and discussion, so a decision passes through several stages of debate in the legislature, the media and public opinion.",
+          "Because the opposition and the people can criticise, mistakes become visible and can be corrected.",
+          "This makes the process slower than in a dictatorship, but it reduces the chances of rash and arbitrary decisions and produces outcomes that people are more willing to accept."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Democracy has not removed economic inequality in India. Does that mean democracy has failed? Give reasons.",
+        "a": [
+          "No. Democracy's main promise is political equality and the right to change the government, not an instant economic transformation; economic outcomes depend on policies and on how actively citizens use democratic institutions.",
+          "Economic inequality persists because the poor are not organised enough to press their demands, wealthier groups resist redistribution, and governments have often shaped economic policy in favour of powerful interests.",
+          "Democracy has, however, given the poor the vote, the right to information, the right to employment under MGNREGA and a voice in public debate, which no dictatorship guarantees.",
+          "The remedy for unmet expectations is deeper democracy — better organised and informed citizens, greater transparency and accountability — not less of it."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -788,6 +973,18 @@
       {
         "q": "A 3-mark answer on “Outcomes of Democracy” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Which of these supports the dignity of citizens in a democracy? (a) universal adult franchise  (b) censorship of the press  (c) hereditary rule  (d) one-party rule",
+        "a": "**(a) universal adult franchise.** It makes every adult an equal citizen, regardless of caste, class, religion or gender."
+      },
+      {
+        "q": "Democracy is described as ‘rule by discussion and persuasion' because: (a) it relies on consultation  (b) it relies on force  (c) it bans debate  (d) the army decides",
+        "a": "**(a) it relies on consultation.** Decisions are publicly debated and have to be justified to the people."
+      },
+      {
+        "q": "Transparency in a democracy means: (a) the government may withhold all information  (b) citizens have the right to know and to examine the process of decision-making  (c) only leaders know the rules  (d) elections are unnecessary",
+        "a": "**(b) citizens have the right to know and to examine the process of decision-making.** The Right to Information Act, 2005 is the clearest example."
       }
     ],
     "trend": "One 5-mark question on the outcomes of democracy is virtually certain, and this chapter is the usual source of case-based or source-based questions with three short parts.",

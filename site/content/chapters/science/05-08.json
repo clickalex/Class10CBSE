@@ -137,6 +137,33 @@
           "(b) Nephron; chlorophyll.",
           "(c) Four systems, four words: Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion)."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Name the raw materials and the products of photosynthesis, and write the overall equation.",
+        "a": "Raw materials: carbon dioxide from the air and water absorbed from the soil, using chlorophyll and sunlight. Products: glucose (stored as starch) and oxygen. Overall: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ in the presence of sunlight and chlorophyll.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe how water and minerals are transported in plants.",
+        "a": [
+          "Root hair cells absorb water and dissolved minerals from the soil by osmosis and active transport.",
+          "They pass into the xylem vessels, which form a continuous tube from the roots to the leaves.",
+          "Loss of water vapour through the stomata (transpiration) creates a suction pull that lifts the water column upward; no energy is spent by the plant."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Explain double circulation in human beings and state why it is advantageous.",
+        "a": [
+          "Blood passes through the heart twice during one complete round of the body.",
+          "Pulmonary circuit: right side of the heart → lungs (oxygenation) → left side of the heart.",
+          "Systemic circuit: left side → body organs → right side of the heart.",
+          "Because oxygenated and deoxygenated blood stay separate, tissues receive blood with the maximum possible oxygen, which supports the high energy needs of a warm-blooded body."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -159,6 +186,18 @@
       {
         "q": "A 3-mark answer on “Life Processes” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Photosynthesis in a leaf takes place inside the: (a) mitochondria  (b) chloroplast  (c) ribosome  (d) vacuole",
+        "a": "**(b) chloroplast.** Chloroplasts contain the green pigment chlorophyll that traps light energy."
+      },
+      {
+        "q": "Which of these is an autotroph? (a) mushroom  (b) Cuscuta  (c) green plant  (d) human being",
+        "a": "**(c) green plant.** It prepares its own food by photosynthesis; Cuscuta is a parasite and fungi are saprotrophs."
+      },
+      {
+        "q": "The main nitrogenous waste filtered out by the kidneys is: (a) carbon dioxide  (b) urea  (c) glucose  (d) glycogen",
+        "a": "**(b) urea.** It is filtered out of blood in the nephrons along with water and salts to form urine."
       }
     ],
     "trend": "A labelled diagram question from this chapter is close to certain (nephron, respiratory system, or the heart); double circulation and aerobic vs anaerobic respiration are the most repeated 3-mark answers.",
@@ -304,6 +343,32 @@
           "(b) Cerebrum; insulin.",
           "(c) Reflex arc order: Receptor → Sensory → (Spine) → Motor → Effector. *'Red Sun Shines More Energetically'.*"
         ]
+      },
+      {
+        "m": "2",
+        "q": "Name the plant hormone responsible for cell elongation and the one that ripens fruit.",
+        "a": "Auxin causes cell elongation and is responsible for the bending of a shoot towards light. Ethylene is a gaseous hormone that promotes the ripening of fruits.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain how the nervous and endocrine systems work together, using adrenaline as the example.",
+        "a": [
+          "The nervous system gives a fast, point-to-point electrical message; hormones give a slower, longer-lasting chemical message.",
+          "In a frightening situation the brain signals the adrenal medulla, which releases adrenaline into the blood.",
+          "Adrenaline increases heart rate and breathing, and diverts blood to the skeletal muscles — the ‘fight or flight’ response — so the whole body reacts, not just one muscle."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Describe the feedback mechanism that keeps blood sugar level steady.",
+        "a": [
+          "When the glucose level in blood rises, the pancreas releases insulin, which makes body cells take up glucose and the liver convert the excess into glycogen.",
+          "As the level falls, the pancreas reduces insulin and secretes glucagon, which converts the stored glycogen back into glucose.",
+          "This is a negative feedback loop. If insulin secretion fails, the blood sugar stays high — the condition called diabetes."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -326,6 +391,18 @@
       {
         "q": "A 3-mark answer on “Control and Coordination” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The hormone that regulates the body's metabolic rate is: (a) insulin  (b) thyroxine  (c) growth hormone  (d) adrenaline",
+        "a": "**(b) thyroxine.** Secreted by the thyroid gland; iodine is needed to make it, and its deficiency causes goitre."
+      },
+      {
+        "q": "The part of a neuron that receives the impulse is the: (a) axon  (b) dendrite  (c) cell body  (d) myelin sheath",
+        "a": "**(b) dendrite.** Dendrites receive signals; the axon carries the impulse away towards the next neuron."
+      },
+      {
+        "q": "In a reflex action the impulse is processed in the: (a) cerebrum  (b) spinal cord  (c) cerebellum  (d) medulla only",
+        "a": "**(b) spinal cord.** Because the brain is not involved in the decision, the response is quick and automatic."
       }
     ],
     "trend": "The reflex arc and the hormone tables (plant hormones and human endocrine glands) alternate as the 3-mark question; iodine–goitre and insulin–diabetes are the most repeated short answers.",
@@ -471,6 +548,32 @@
           "(b) Fertilisation occurs in the fallopian tube (oviduct); testosterone is secreted by the testes.",
           "(c) Fission vs fragmentation vs regeneration: one cell splits = fission; body breaks into pieces = fragmentation; a *cut part* grows into a whole = regeneration."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Why is variation useful to a species, and how does sexual reproduction produce it?",
+        "a": "Sexual reproduction combines DNA from two different individuals, so offspring differ from both parents. Variation means that when the environment changes or a disease strikes, some individuals are likely to survive, the population is not wiped out, and natural selection has raw material to work on.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe what happens in a flower after fertilisation.",
+        "a": [
+          "The male gamete fuses with the egg to form a zygote, which develops into an embryo.",
+          "The ovule becomes the seed and its wall becomes the seed coat.",
+          "The ovary grows into the fruit, while the petals, sepals and stamens wither and fall off."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Describe the menstrual cycle and state what happens when the egg is not fertilised.",
+        "a": [
+          "Roughly once every 28 days one egg matures in an ovary and is released around day 14 (ovulation).",
+          "Meanwhile the lining of the uterus thickens and develops blood vessels to receive a fertilised egg.",
+          "If the egg is not fertilised, the thickened lining is no longer needed, breaks down, and is shed along with blood through the vagina for about three to five days — menstruation."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -493,6 +596,18 @@
       {
         "q": "A 3-mark answer on “How do Organisms Reproduce?” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Which of these is an asexual mode of reproduction? (a) budding in yeast  (b) pollination  (c) fertilisation  (d) seed germination",
+        "a": "**(a) budding in yeast.** Asexual modes include budding, binary fission, fragmentation, spore formation and vegetative propagation."
+      },
+      {
+        "q": "Sperms are produced in the: (a) penis  (b) testes  (c) vas deferens  (d) seminal vesicles",
+        "a": "**(b) testes.** They are formed in the seminiferous tubules, where the temperature is about 2–3 °C below body temperature."
+      },
+      {
+        "q": "Sterilisation in human beings means: (a) preventing ovulation with pills  (b) surgically blocking the gamete ducts  (c) killing germs  (d) using a condom",
+        "a": "**(b) surgically blocking the gamete ducts.** Vasectomy in males and tubectomy in females prevent gametes from meeting."
       }
     ],
     "trend": "One asexual reproduction question (usually a comparison or a diagram of amoeba/yeast) plus one question on the human reproductive system, contraception or the placenta. Flower parts and pollination vs fertilisation are the recurring short answers.",
@@ -642,6 +757,33 @@
           "(b) XY; the gene (a segment of DNA on a chromosome).",
           "(c) 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Distinguish between genotype and phenotype with an example.",
+        "a": "Genotype is the genetic constitution of an organism (for example Tt), while phenotype is the observable character it produces (for example a tall plant). Because the tall allele is dominant, the genotypes TT and Tt both give the tall phenotype.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "A tall pea plant (Tt) is crossed with a dwarf plant (tt). What proportion of the progeny will be tall?",
+        "a": [
+          "The tall parent produces two kinds of gametes, T and t; the dwarf parent produces only t.",
+          "Combining them gives Tt, Tt, tt and tt.",
+          "So half the progeny are Tt (tall) and half are tt (dwarf) — a 1 : 1 ratio. This cross with a recessive parent is called a test cross."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "A family blames the mother whenever a daughter is born. Using what you know about sex determination, write the reply you would give them.",
+        "a": [
+          "Human females have two X chromosomes, so every egg carries an X chromosome.",
+          "Human males have one X and one Y, so half their sperm carry X and half carry Y.",
+          "An X-bearing sperm fertilising the egg gives XX, a girl; a Y-bearing sperm gives XY, a boy. The egg always contributes an X, so it is the sperm — that is, the father — that decides the sex of the child.",
+          "Repeated daughters in a family are a matter of chance, exactly like repeated tails when a coin is tossed; there is no biological basis for blaming the mother."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -664,6 +806,18 @@
       {
         "q": "A 3-mark answer on “Heredity” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The phenotypic ratio obtained in a dihybrid cross between two F₁ hybrids is: (a) 3 : 1  (b) 9 : 3 : 3 : 1  (c) 1 : 1  (d) 1 : 2 : 1",
+        "a": "**(b) 9 : 3 : 3 : 1.** Mendel obtained this for two independently assorting traits, such as seed shape and seed colour."
+      },
+      {
+        "q": "Which of these traits can be inherited? (a) the cut tail of a mouse  (b) large muscles built by exercise  (c) eye colour  (d) a scar",
+        "a": "**(c) eye colour.** Only changes in the DNA of reproductive cells are passed to the next generation; acquired changes in body cells are not."
+      },
+      {
+        "q": "The number of chromosomes in a human zygote is: (a) 23  (b) 46  (c) 92  (d) 22",
+        "a": "**(b) 46.** Each gamete carries 23 chromosomes and their fusion restores the 23 pairs."
       }
     ],
     "trend": "Either the monohybrid or the dihybrid cross with a Punnett square appears almost every year, along with a short question on sex determination or acquired vs inherited traits.",

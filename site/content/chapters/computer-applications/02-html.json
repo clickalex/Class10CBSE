@@ -142,6 +142,23 @@
           "(b) <html> <head> <title>My School</title> </head> <body> <h1>My School</h1> <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p> </body> </html> The <title> sits inside <head> and names the browser tab; everything visible is inside <body>.",
           "(c) <title> lives in <head>, not <body>. This single fact is worth a mark in most papers."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is HTML and what is the basic structure of an HTML document?",
+        "a": "HTML is the markup language in which web pages are written, using tags to describe the structure and meaning of the content. A document starts with <!DOCTYPE html>, then an <html> element containing a <head> with the <title>, and a <body> with everything the visitor sees.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Write the HTML for a page titled ‘My School' with one heading and one paragraph.",
+        "a": [
+          "Start with <!DOCTYPE html> so that the browser knows this is HTML5.",
+          "<html> wraps the whole document, <head> holds <title>My School</title>.",
+          "<body> holds <h1>My School</h1> for the main heading and <p>My school has thirty classrooms and a large library.</p> for the text.",
+          "Close with </body></html>; every opening tag must have a matching closing tag."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -168,6 +185,14 @@
       {
         "q": "A 3-mark answer on “HTML I — Introduction & Basic Tags” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The tag that sets the text shown in the browser's title bar is: (a) <title>  (b) <head>  (c) <h1>  (d) <body>",
+        "a": "**(a) <title>.** It is placed inside the <head> section."
+      },
+      {
+        "q": "The tag used for the most important heading is: (a) <h1>  (b) <h6>  (c) <p>  (d) <b>",
+        "a": "**(a) <h1>.** Headings run from <h1>, the largest, down to <h6>, the smallest."
       }
     ],
     "trend": "Writing a complete page by hand appears in every paper. The `<title>`-in-`<head>` point is a perennial one-marker.",
@@ -322,6 +347,23 @@
           "(b) <html> <body> <ol type='I' start='3'> <li>Mathematics</li> <li>Science</li> <li>Social Science</li> <li>English</li> </ol> </body> </html> The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III.",
           "(c) <ul> = bullets, <ol> = numbers. Both use <li>."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Which tags make text bold, italic and underlined? Which should you prefer and why?",
+        "a": "<b> makes text bold and <i> makes it italic, while <u> underlines it. <strong> and <em> also make text bold and italic, but they carry meaning: they tell search engines and screen readers that the words are important or stressed, which is better for accessibility.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Write the HTML for an ordered list of three steps and an unordered list of two items.",
+        "a": [
+          "Ordered list: <ol> then <li>Open the file</li>, <li>Edit the text</li>, <li>Save the page</li>, then </ol>.",
+          "The browser numbers the items automatically, so adding or removing an item renumbers the rest.",
+          "Unordered list: <ul> then <li>Notebook</li>, <li>Pen</li>, then </ul>, which shows bullets instead of numbers.",
+          "Lists may be nested: put a <ul> inside an <li> to make a sub-list."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -344,6 +386,14 @@
       {
         "q": "The valid values of the `align` attribute are — (a) left, middle, right (b) left, center, right (c) start, center, end (d) top, middle, bottom",
         "a": "**(b) left, center, right.**"
+      },
+      {
+        "q": "The tag that starts a new line without starting a new paragraph is: (a) <br>  (b) <hr>  (c) <p>  (d) <lb>",
+        "a": "**(a) <br>.** It is an empty tag and has no closing tag."
+      },
+      {
+        "q": "The tag that draws a horizontal rule across the page is: (a) <hr>  (b) <br>  (c) <line>  (d) <rule>",
+        "a": "**(a) <hr>.** It is used to separate sections of a page."
       }
     ],
     "trend": "List questions with a specific `type` or `start` value are extremely common, as are output-prediction snippets.",
@@ -485,6 +535,23 @@
           "(b) <a href='https://www.cbse.gov.in' target='_blank'>Visit CBSE</a> <br> <a href='mailto:principal@school.edu'>Email the Principal</a> The first uses an absolute URL and target='_blank' so it opens in a new tab. The second uses the mailto: prefix, which makes the browser open the user's email program with the address already filled in.",
           "(c) href for links, src for sources. <a href>, <img src>, <script src>."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is the difference between an absolute and a relative URL in a link?",
+        "a": "An absolute URL gives the complete address, such as https://www.example.com/notes/unit1.html, and works no matter where the linking page is stored. A relative URL gives the path from the page you are on, such as notes/unit1.html or ../images/logo.png, and stops working if the folder structure changes.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Write HTML to display the image logo.png at 200 by 100 pixels and make it a link to home.html.",
+        "a": [
+          "Put the image inside the anchor: `<a href='home.html'>`, then the image tag, then `</a>`.",
+          "The image tag is <img src=\"logo.png\" width=\"200\" height=\"100\" alt=\"School logo\">.",
+          "The src attribute gives the file, width and height set the size in pixels, and alt gives the text shown if the image cannot load or is read aloud.",
+          "Because the `<img>` tag sits inside the `<a>` tag, clicking the picture opens the page named in `href`."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -507,6 +574,14 @@
       {
         "q": "`mailto:` is used to — (a) download mail (b) open the email program (c) create a table (d) send an image",
         "a": "**(b) open the email program** with the address filled in."
+      },
+      {
+        "q": "The attribute of the <a> tag that holds the destination address is: (a) href  (b) src  (c) link  (d) target",
+        "a": "**(a) href.** The target attribute only decides where the page opens."
+      },
+      {
+        "q": "The attribute of <img> that shows text if the picture cannot be displayed is: (a) alt  (b) src  (c) title  (d) name",
+        "a": "**(a) alt.** It is also read aloud by screen readers for blind users."
       }
     ],
     "trend": "One image-tag question and one link question appear in most papers. `href` versus `src` is the standard one-marker.",
@@ -657,6 +732,23 @@
           "(b) <table border='1' width='300'> <tr><th colspan='2'>Student Report</th></tr> <tr><th>Name</th><th>Marks</th></tr> <tr><td>Asha</td><td>88</td></tr> </table> The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two.",
           "(c) <tr> = row, <td> = cell. Rows contain cells, never the other way round."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Name the tags used to build a table and say what each does.",
+        "a": "<table> begins the table; <tr> makes one row; <td> makes one data cell; <th> makes a heading cell, which is bold and centred by default; and <caption> puts a title above the table. Rows always contain cells, never the other way round.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain colspan and rowspan with an example of each.",
+        "a": [
+          "colspan makes a cell spread across two or more columns, so <td colspan=\"2\">Total</td> covers both columns of a two-column table.",
+          "rowspan makes a cell spread down two or more rows, so one label can stand beside several entries without being repeated.",
+          "Both are written inside the tag of the cell that is being stretched.",
+          "After using them, the stretched cells are not written again in the rows they cover."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -679,6 +771,14 @@
       {
         "q": "How many `<tr>` tags does a 4-row table need? (a) 1 (b) 2 (c) 4 (d) 8",
         "a": "**(c) 4** — one per row."
+      },
+      {
+        "q": "The attribute that adds a visible border around a table is: (a) border  (b) cellspacing  (c) cellpadding  (d) width",
+        "a": "**(a) border.** cellspacing sets the gap between cells and cellpadding the gap inside them."
+      },
+      {
+        "q": "The tag used for a cell that holds a column heading is: (a) <th>  (b) <td>  (c) <tr>  (d) <caption>",
+        "a": "**(a) <th>.** Its text is bold and centred by default."
       }
     ],
     "trend": "A table-writing question with at least one merged cell appears in most papers. It is the highest-value single question in Unit II.",
@@ -837,6 +937,23 @@
           "(b) <form action='/submit' method='post'> Name: <input type='text' name='uname'><br> Password: <input type='password' name='upass'><br> Gender: <input type='radio' name='gender' value='male'> Male <input type='radio' name='gender' value='female'> Female<br> Hobbies: <input type='checkbox' name='hobby' value='reading'> Reading <input type='checkbox' name='hobby' value='music'> Music<br> <input type='submit' value='Send'> <input type='reset' value='Clear'> </form> Both radio buttons share the name gen",
           "(c) Radios share a name; checkboxes do not. That one rule separates the two."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What do the action and method attributes of the <form> tag do?",
+        "a": "action gives the URL of the page or program that will receive and process the data, for example action=\"save.php\". method says how the data is sent: GET appends it to the URL, which is fine for short, public searches, and POST sends it in the body of the request, which is needed for passwords, long text and file uploads.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Write the HTML for a form with a text box for a name, two radio buttons for gender, a checkbox for a hobby and a submit button.",
+        "a": [
+          "Open the form with <form action=\"save.php\" method=\"post\">.",
+          "Name: <input type=\"text\" name=\"name\"> and then <br> for a new line.",
+          "Gender: <input type=\"radio\" name=\"gender\" value=\"f\"> Female and <input type=\"radio\" name=\"gender\" value=\"m\"> Male; radio buttons with the same name allow only one choice.",
+          "Hobby: <input type=\"checkbox\" name=\"hobby\" value=\"music\"> Music, then <input type=\"submit\" value=\"Send\"> and close with </form>."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -859,6 +976,14 @@
       {
         "q": "To pre-select a radio button you use the attribute — (a) selected (b) checked (c) default (d) value",
         "a": "**(b) checked.** `selected` is used on `<option>`."
+      },
+      {
+        "q": "The input type that hides the characters as they are typed is: (a) password  (b) text  (c) hidden  (d) email",
+        "a": "**(a) password.** It masks the characters but does not encrypt them, so the form should still use POST."
+      },
+      {
+        "q": "The tag that creates a box for several lines of text is: (a) <textarea>  (b) <input type=\"text\">  (c) <select>  (d) <option>",
+        "a": "**(a) <textarea>.** rows and columns are set with the rows and cols attributes."
       }
     ],
     "trend": "A complete form-writing question appears in most papers, usually with radio buttons so the shared-name rule can be tested.",
@@ -995,6 +1120,23 @@
           "(b) <html> <head><title>Frames</title></head> <frameset rows='25%,75%'> <frame src='header.html'> <frame src='content.html'> </frameset> </html> Note that there is no <body> — a <frameset> document replaces it. rows splits the window into horizontal bands, and each <frame> loads one document into its band.",
           "(c) rows = horizontal bands, cols = vertical columns. Picture the lines you are drawing."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is the difference between a frameset and an iframe?",
+        "a": "A frameset divides the window into two or more independent frames using <frameset> and <frame>, and it replaces the <body> tag entirely; it has been removed from HTML5. An iframe puts a small separate window inside an ordinary page with <iframe src=\"...\">, keeps the rest of the page intact, and is still supported, so it is the way to embed another document today.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Write HTML to embed a video with the browser's own controls, and name two related tags from this chapter.",
+        "a": [
+          "<video src=\"lesson.mp4\" width=\"320\" height=\"240\" controls></video> embeds the video with play, pause and volume controls.",
+          "<audio src=\"song.mp3\" controls></audio> does the same for sound.",
+          "For older browsers you can list several <source> tags inside <video> so that the browser picks a format it can play.",
+          "<marquee> scrolls text across the page, but it is not part of HTML5 and should be avoided in new pages."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -1017,6 +1159,14 @@
       {
         "q": "`<iframe>` is used to — (a) split the whole window (b) embed another page inside the current one (c) create a table (d) play audio",
         "a": "**(b) embed another page inside the current one.**"
+      },
+      {
+        "q": "The attribute that makes the browser show play, pause and volume buttons is: (a) controls  (b) autoplay  (c) loop  (d) src",
+        "a": "**(a) controls.** Without it the video or audio cannot be started by the visitor."
+      },
+      {
+        "q": "An inline frame inside a normal web page is created with: (a) <iframe>  (b) <frame>  (c) <frameset>  (d) <window>",
+        "a": "**(a) <iframe>.** It is used for maps, videos and embedded documents."
       }
     ],
     "trend": "One short frameset or multimedia question, plus definitional one-markers on marquee, meta and pre.",

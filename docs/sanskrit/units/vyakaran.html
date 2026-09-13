@@ -9,14 +9,57 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="topbar">
-  <div class="wrap topbar-in">
-    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
-    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../sanskrit/index.html">Hub</a><a href="../../sanskrit/syllabus.html">Syllabus</a><a href="../../sanskrit/revision.html">Revise</a><a href="../../sanskrit/question-bank.html">Bank</a><a href="../../sanskrit/drill.html">Drill</a><a href="../../sanskrit/pyq.html">PYQ</a></nav>
-  </div>
-</header>
-<main id="main" class="wrap">
-  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Sanskrit</a> <span class="sep">/</span> अनुप्रयुक्तव्याकरणम्</nav>
+<button class="menu-btn" onclick="openMenu()" aria-label="Open navigation">&#9776;</button>
+<div class="backdrop" id="backdrop" onclick="closeMenu()"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+<div class="side-head"><a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a><p class="side-sub">Session 2026–27</p><button class="side-close" onclick="closeMenu()" aria-label="Close navigation">&times;</button></div>
+<div class="progress-wrap"><div class="progress-label"><span>Chapters done</span><span data-subject-text="sanskrit" data-total="19">0 of 19</span></div><div class="bar"><span class="fill" data-subject="sanskrit" data-total="19"></span></div></div>
+<div class="toc-group">All subjects</div>
+<a class="toc-item" href="../../maths/index.html"><span class="toc-num">041</span>Mathematics</a>
+<a class="toc-item" href="../../science/index.html"><span class="toc-num">086</span>Science</a>
+<a class="toc-item" href="../../social-science/index.html"><span class="toc-num">087</span>Social Science</a>
+<a class="toc-item" href="../../english/index.html"><span class="toc-num">184</span>English Language &amp; Literature</a>
+<a class="toc-item" href="../../hindi/index.html"><span class="toc-num">002 (A)</span>Hindi</a>
+<a class="toc-item" href="../../information-technology/index.html"><span class="toc-num">402</span>Information Technology</a>
+<a class="toc-item" href="../../computer-applications/index.html"><span class="toc-num">165</span>Computer Applications</a>
+<a class="toc-item is-on" href="../../sanskrit/index.html"><span class="toc-num">122</span>Sanskrit</a>
+<div class="toc-group">Sanskrit</div>
+<a class="toc-item" href="../../sanskrit/index.html"><span class="toc-num">&bull;</span>Hub</a>
+<a class="toc-item is-on" href="../../sanskrit/chapters.html" aria-current="page"><span class="toc-num">&bull;</span>Chapters</a>
+<a class="toc-item" href="../../sanskrit/syllabus.html"><span class="toc-num">&bull;</span>Syllabus</a>
+<a class="toc-item" href="../../sanskrit/question-bank.html"><span class="toc-num">&bull;</span>Q&amp;A bank</a>
+<a class="toc-item" href="../../sanskrit/drill.html"><span class="toc-num">&bull;</span>MCQ drill</a>
+<a class="toc-item" href="../../sanskrit/revision.html"><span class="toc-num">&bull;</span>Revision</a>
+<a class="toc-item" href="../../sanskrit/pyq.html"><span class="toc-num">&bull;</span>PYQ</a>
+<a class="toc-item" href="../../sanskrit/practical.html"><span class="toc-num">&bull;</span>Practical</a>
+<div class="toc-group">Chapters</div>
+<div class="toc-sub">पाठ्यपुस्तक · शेमुषी भाग-2</div>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch01-shuchi-paryavaranam.html"><span class="toc-num">1</span>शुचिपर्यावरणम्</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch02-buddhir-balavati.html"><span class="toc-num">2</span>बुद्धिर्बलवती सदा</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch03-shishu-lalanam.html"><span class="toc-num">3</span>शिशुलालनम्</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch04-janani-tulya-vatsala.html"><span class="toc-num">4</span>जननी तुल्यवत्सला</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch05-subhashitani.html"><span class="toc-num">5</span>सुभाषितानि</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch06-sauhridam-prakriteh.html"><span class="toc-num">6</span>सौहार्दं प्रकृतेः शोभा</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch07-vichitrah-sakshi.html"><span class="toc-num">7</span>विचित्रः साक्षी</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch08-suktayah.html"><span class="toc-num">8</span>सूक्तयः</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch09-anyoktayah.html"><span class="toc-num">9</span>अन्योक्तयः</a>
+<div class="toc-sub">अनुप्रयुक्तव्याकरणम्</div>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch10-sandhi.html"><span class="toc-num">10</span>सन्धिः</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch11-samas.html"><span class="toc-num">11</span>समासः</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch12-pratyayah.html"><span class="toc-num">12</span>प्रत्ययाः</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch13-vachya.html"><span class="toc-num">13</span>वाच्यपरिवर्तनम् (केवलं लट्लकारे)</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch14-samayah.html"><span class="toc-num">14</span>समयः (सपाद, सार्ध, पादोन)</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch15-avyayani.html"><span class="toc-num">15</span>अव्ययपदानि</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch16-ashuddhi-sanshodhanam.html"><span class="toc-num">16</span>अशुद्धिसंशोधनम्</a>
+<div class="toc-sub">रचनात्मकलेखनम्</div>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch17-patra-lekhanam.html"><span class="toc-num">17</span>पत्रलेखनम्</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch18-chitra-varnanam.html"><span class="toc-num">18</span>चित्रवर्णनम् / अनुच्छेदलेखनम्</a>
+<a class="toc-item toc-ch" href="../../sanskrit/chapters/ch19-anuvadah.html"><span class="toc-num">19</span>अनुवादः</a>
+<div class="sidebar-foot">Progress is saved in this browser.<br>Created by <strong>Mohammad Umair</strong></div>
+  </aside>
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Sanskrit</a> <span class="sep">/</span> अनुप्रयुक्तव्याकरणम्</nav>
 
 <p class="kicker">CBSE • CLASS 10 • SANSKRIT</p>
 <h1>अनुप्रयुक्तव्याकरणम्</h1>
@@ -25,11 +68,12 @@
 <ul class="biglinks"><li><a href="../chapters/ch10-sandhi.html"><strong>Ch 10 · सन्धिः</strong><span>स्वर, व्यञ्जन और विसर्ग सन्धि — उत्वम्, रुत्वम्, लोपः और स्-श्-ष्।</span></a></li><li><a href="../chapters/ch11-samas.html"><strong>Ch 11 · समासः</strong><span>तत्पुरुष, बहुव्रीहि, अव्ययीभाव और द्वन्द्व।</span></a></li><li><a href="../chapters/ch12-pratyayah.html"><strong>Ch 12 · प्रत्ययाः</strong><span>मतुप्, ठक्, त्व, तल्, टाप्, ङीप् — शब्द-निर्माण।</span></a></li><li><a href="../chapters/ch13-vachya.html"><strong>Ch 13 · वाच्यपरिवर्तनम् (केवलं लट्लकारे)</strong><span>कर्तरिवाच्य से कर्मणिवाच्य — केवल लट्लकार में।</span></a></li><li><a href="../chapters/ch14-samayah.html"><strong>Ch 14 · समयः (सपाद, सार्ध, पादोन)</strong><span>संस्कृत में समय बताना — घंटे, मिनट और तीन विशेष शब्द।</span></a></li><li><a href="../chapters/ch15-avyayani.html"><strong>Ch 15 · अव्ययपदानि</strong><span>कदा, क्व, किम्, न, अपि, तु, च — अपरिवर्तनीय शब्द।</span></a></li><li><a href="../chapters/ch16-ashuddhi-sanshodhanam.html"><strong>Ch 16 · अशुद्धिसंशोधनम्</strong><span>गलत वाक्य शुद्ध करना — चार सामान्य भूलें।</span></a></li></ul>
 <ul><li>सूत्र रटें नहीं — हर सूत्र पर दस उदाहरण बनाइए।</li></ul>
 
-</main>
+  </main>
+</div>
 <footer class="wrap foot">
-  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  <div class="foot-main"><p>Built for CBSE Class 10 &middot; session 2026–27 &middot; content is original study material,
   not official CBSE papers. Always confirm the syllabus against
-  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p><nav class="foot-subj" aria-label="All subjects"><a href="../../maths/index.html">Mathematics</a> <a href="../../science/index.html">Science</a> <a href="../../social-science/index.html">Social Science</a> <a href="../../english/index.html">English Language &amp; Literature</a> <a href="../../hindi/index.html">Hindi</a> <a href="../../information-technology/index.html">Information Technology</a> <a href="../../computer-applications/index.html">Computer Applications</a> <a href="../../sanskrit/index.html">Sanskrit</a></nav><p class="credit">Created by <strong>Mohammad Umair</strong></p></div>
   <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
 </footer>
 <script src="../../assets/app.js"></script>

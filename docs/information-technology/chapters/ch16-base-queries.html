@@ -9,14 +9,60 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="topbar">
-  <div class="wrap topbar-in">
-    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
-    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../information-technology/index.html">Hub</a><a href="../../information-technology/syllabus.html">Syllabus</a><a href="../../information-technology/revision.html">Revise</a><a href="../../information-technology/question-bank.html">Bank</a><a href="../../information-technology/drill.html">Drill</a><a href="../../information-technology/pyq.html">PYQ</a></nav>
-  </div>
-</header>
-<main id="main" class="wrap">
-  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Information Technology</a> <span class="sep">/</span> <a href="../units/dbms.html">Unit 3 · Database Management System (Base)</a> <span class="sep">/</span> Ch 16 · Queries in Base</nav>
+<button class="menu-btn" onclick="openMenu()" aria-label="Open navigation">&#9776;</button>
+<div class="backdrop" id="backdrop" onclick="closeMenu()"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+<div class="side-head"><a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a><p class="side-sub">Session 2026–27</p><button class="side-close" onclick="closeMenu()" aria-label="Close navigation">&times;</button></div>
+<div class="progress-wrap"><div class="progress-label"><span>Chapters done</span><span data-subject-text="information-technology" data-total="20">0 of 20</span></div><div class="bar"><span class="fill" data-subject="information-technology" data-total="20"></span></div></div>
+<div class="toc-group">All subjects</div>
+<a class="toc-item" href="../../maths/index.html"><span class="toc-num">041</span>Mathematics</a>
+<a class="toc-item" href="../../science/index.html"><span class="toc-num">086</span>Science</a>
+<a class="toc-item" href="../../social-science/index.html"><span class="toc-num">087</span>Social Science</a>
+<a class="toc-item" href="../../english/index.html"><span class="toc-num">184</span>English Language &amp; Literature</a>
+<a class="toc-item" href="../../hindi/index.html"><span class="toc-num">002 (A)</span>Hindi</a>
+<a class="toc-item is-on" href="../../information-technology/index.html"><span class="toc-num">402</span>Information Technology</a>
+<a class="toc-item" href="../../computer-applications/index.html"><span class="toc-num">165</span>Computer Applications</a>
+<a class="toc-item" href="../../sanskrit/index.html"><span class="toc-num">122</span>Sanskrit</a>
+<div class="toc-group">Information Technology</div>
+<a class="toc-item" href="../../information-technology/index.html"><span class="toc-num">&bull;</span>Hub</a>
+<a class="toc-item is-on" href="../../information-technology/chapters.html" aria-current="page"><span class="toc-num">&bull;</span>Chapters</a>
+<a class="toc-item" href="../../information-technology/syllabus.html"><span class="toc-num">&bull;</span>Syllabus</a>
+<a class="toc-item" href="../../information-technology/question-bank.html"><span class="toc-num">&bull;</span>Q&amp;A bank</a>
+<a class="toc-item" href="../../information-technology/drill.html"><span class="toc-num">&bull;</span>MCQ drill</a>
+<a class="toc-item" href="../../information-technology/revision.html"><span class="toc-num">&bull;</span>Revision</a>
+<a class="toc-item" href="../../information-technology/pyq.html"><span class="toc-num">&bull;</span>PYQ</a>
+<a class="toc-item" href="../../information-technology/practical.html"><span class="toc-num">&bull;</span>Practical</a>
+<div class="toc-group">Chapters</div>
+<div class="toc-sub">Part A · Employability Skills</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch01-communication-skills.html"><span class="toc-num">1</span>Communication Skills–II</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch02-self-management-skills.html"><span class="toc-num">2</span>Self-Management Skills–II</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch03-ict-skills.html"><span class="toc-num">3</span>ICT Skills–II</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch04-entrepreneurial-skills.html"><span class="toc-num">4</span>Entrepreneurial Skills–II</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch05-green-skills.html"><span class="toc-num">5</span>Green Skills–II</a>
+<div class="toc-sub">Unit 1 · Digital Documentation (Writer)</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch06-writer-styles.html"><span class="toc-num">6</span>Introduction to Styles (Writer)</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch07-writer-images.html"><span class="toc-num">7</span>Working with Images (Writer)</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch08-writer-toc-templates.html"><span class="toc-num">8</span>ToC, Templates and Track Changes</a>
+<div class="toc-sub">Unit 2 · Electronic Spreadsheet (Calc)</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch09-calc-scenarios-goal-seek.html"><span class="toc-num">9</span>Scenarios and Goal Seek (Calc)</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch10-calc-macros.html"><span class="toc-num">10</span>Macros in Spreadsheet</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch11-calc-linking.html"><span class="toc-num">11</span>Linking Spreadsheet Data</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch12-calc-share-review.html"><span class="toc-num">12</span>Share and Review a Spreadsheet</a>
+<div class="toc-sub">Unit 3 · Database Management System (Base)</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch13-dbms-intro.html"><span class="toc-num">13</span>Introduction to DBMS</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch14-base-tables.html"><span class="toc-num">14</span>Tables in LibreOffice Base</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch15-base-relationships.html"><span class="toc-num">15</span>Relationships and Multiple Tables</a>
+<a class="toc-item toc-ch is-on" href="../../information-technology/chapters/ch16-base-queries.html" aria-current="page"><span class="toc-num">16</span>Queries in Base</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch17-base-forms-reports.html"><span class="toc-num">17</span>Forms and Reports</a>
+<div class="toc-sub">Unit 4 · Healthy, Safe and Secure Workplace</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch18-workplace-safety.html"><span class="toc-num">18</span>Health, Safety and Security at the Workplace</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch19-quality-ergonomics.html"><span class="toc-num">19</span>Workplace Quality and Ergonomics</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch20-accidents-emergencies.html"><span class="toc-num">20</span>Prevent Accidents and Emergencies</a>
+<div class="sidebar-foot">Progress is saved in this browser.<br>Created by <strong>Mohammad Umair</strong></div>
+  </aside>
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Information Technology</a> <span class="sep">/</span> <a href="../units/dbms.html">Unit 3 · Database Management System (Base)</a> <span class="sep">/</span> Ch 16 · Queries in Base</nav>
 <p class="kicker">CBSE • CLASS 10 • IT 402</p><h1>Chapter 16 · Queries in Base</h1><p class="lede"><strong>Chapter 16 of 20.</strong> A query asks a question of the tables. Criteria in the grid are the whole skill.</p><p><a class="btn" href="../practice/ch16-base-queries.html">Open this chapter’s questions + MCQs →</a></p><p class="chips"><a class="chip" href="#marks-lens">🎯 Marks lens</a> <a class="chip" href="#deep-concepts">📖 Deep concepts</a> <a class="chip" href="#formulas">🧮 Formulas</a> <a class="chip" href="#steps">🛠️ Steps</a> <a class="chip" href="#tricks">🧠 Tricks</a> <a class="chip" href="#mistakes">⚠️ Mistakes</a> <a class="chip" href="#exam-qa">❓ Exam Q&A</a> <a class="chip" href="#task">✍️ Task</a></p>
 <h2 id="marks-lens">🎯 Marks lens</h2><div class="callout"><p>Practical: query with <strong>two criteria and a sort</strong>.<br>Theory: what a query is, and examples of criteria (<code>&gt;500</code>, <code>Like 'A*'</code>).</p></div>
 <h2 id="deep-concepts">📖 Deep concepts</h2>
@@ -31,7 +77,7 @@
 <ul><li>Editing query results and expecting the table design to change.</li><li>Forgetting to add the table so the field list is empty.</li></ul>
 <h2 id="exam-qa">❓ Exam Q&A</h2>
 <p class="hint">Short · Long · Application · Competency — write first, then Show Answer.</p>
-<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 8 revealed<span class="qshown"> · <span data-shown>8</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (8)</button><button type="button" class="qfilter" data-filter="S">Short (2)</button><button type="button" class="qfilter" data-filter="L">Long (2)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
+<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 10 revealed<span class="qshown"> · <span data-shown>10</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (10)</button><button type="button" class="qfilter" data-filter="S">Short (4)</button><button type="button" class="qfilter" data-filter="L">Long (2)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
 <div class="qstack"><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S1</span><span class="marks">2 marks</span></div><p class="qtext"><strong>1.</strong> What is a query in Base?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>A saved question that selects fields from one or more tables according to criteria and sort order, without storing a second copy of the data.</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S2</span><span class="marks">2 marks</span></div><p class="qtext"><strong>2.</strong> Write criteria to list students whose names start with A and marks above 70.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Name: <code>Like 'A*'</code> AND Marks: <code>&gt;70</code> (same criteria row).</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L3</span><span class="marks">4 marks</span></div><p class="qtext"><strong>3.</strong> How do you create a query that shows student name and book title for issues after 1 Apr 2026?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Design View → add Student, Issue, Book (related) → fields Name, Title, IssueDate → criterion on IssueDate <code>&gt; {d '2026-04-01'}</code> or the date the lab uses → Run → Save.</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A4</span><span class="marks">3 marks</span></div><p class="qtext"><strong>4.</strong> The librarian wants unpaid fees greater than 500, sorted by fees high to low. Which grid settings?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Field Fees, criterion <code>&gt;500</code>, Sort Descending; include Name/AdmNo so the rows are identifiable.</p></div></details></article><article class="qcard" data-type="C"><div class="qmeta"><span class="qbadge qbadge-c">COMPETENCY</span><span class="qcode">C5</span><span class="marks">4 marks</span></div><p class="qtext"><strong>5.</strong> Read and answer:
 
 A query saved last month still shows old marks after the teacher updates the table.
@@ -46,15 +92,17 @@ The chapter is described as: Design View queries, criteria, sorting, aliases and
 
 (a) Name the key idea.
 (b) How is this usually asked in the paper?
-(c) State one mistake that would cost a mark.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(a) Design View queries, criteria, sorting, aliases and related-table queries.<br>(b) Practical: query with two criteria and a sort.<br>(c) Editing query results and expecting the table design to change.</p></div></details></article></div>
+(c) State one mistake that would cost a mark.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(a) Design View queries, criteria, sorting, aliases and related-table queries.<br>(b) Practical: query with two criteria and a sort.<br>(c) Editing query results and expecting the table design to change.</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S9</span><span class="marks">2 marks</span></div><p class="qtext"><strong>9.</strong> What is a query and why is it used?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>A query is a question put to the database. It selects the fields and records you need, filters them by conditions, sorts them and can calculate totals, so you can answer questions such as ‘which students scored above 90 in Science' without reading the whole table.</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S10</span><span class="marks">3 marks</span></div><p class="qtext"><strong>10.</strong> Describe how to create a query with a condition in LibreOffice Base.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Choose Queries, then Create Query in Design View, and add the table or tables you need.<br>Double-click each field you want to see, so that it appears in the grid below.<br>Type the condition in the Criterion row of the field you want to filter, for example &gt;90, and set Ascending or Descending in the Sort row.<br>Run the query to check the result, then save it with a clear name; it can be re-run any time the data changes.</p></div></details></article></div>
 <h2 id="task">✍️ Hands-on task</h2>
 <div class="callout alt"><p>On Student, create <code>QryHonours</code>: Name, Marks where Marks&gt;=80, sort Marks desc. Run it after changing one mark to see it update.</p></div>
 <div class="done"><label><input type="checkbox" class="mark-complete" data-key="information-technology::dbms##ch16-base-queries" data-subject="information-technology"> Mark “Ch 16 · Queries in Base” complete</label><p><a href="../practice/ch16-base-queries.html">Practise this chapter’s MCQs and written questions →</a></p></div>
-</main>
+<nav class="chapnav" aria-label="Chapter navigation"><a class="chapnav-prev" href="ch15-base-relationships.html"><span>← Previous</span>Ch 15 · Relationships and Multiple Tables</a><a class="chapnav-index" href="../chapters.html">All Information Technology chapters</a><a class="chapnav-next" href="ch17-base-forms-reports.html"><span>Next →</span>Ch 17 · Forms and Reports</a></nav>
+  </main>
+</div>
 <footer class="wrap foot">
-  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  <div class="foot-main"><p>Built for CBSE Class 10 &middot; session 2026–27 &middot; content is original study material,
   not official CBSE papers. Always confirm the syllabus against
-  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p><nav class="foot-subj" aria-label="All subjects"><a href="../../maths/index.html">Mathematics</a> <a href="../../science/index.html">Science</a> <a href="../../social-science/index.html">Social Science</a> <a href="../../english/index.html">English Language &amp; Literature</a> <a href="../../hindi/index.html">Hindi</a> <a href="../../information-technology/index.html">Information Technology</a> <a href="../../computer-applications/index.html">Computer Applications</a> <a href="../../sanskrit/index.html">Sanskrit</a></nav><p class="credit">Created by <strong>Mohammad Umair</strong></p></div>
   <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
 </footer>
 <script src="../../assets/app.js"></script>

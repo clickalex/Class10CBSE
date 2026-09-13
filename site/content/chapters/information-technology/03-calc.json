@@ -106,6 +106,23 @@
           "(b) Goal Seek and Scenarios are the theory + practical pair.",
           "(c) Mixing up Goal Seek (one input) with Solver (many inputs + constraints)."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is the difference between a scenario and Goal Seek?",
+        "a": "A scenario is a named set of input values that you save and switch between to compare outcomes, such as best case, worst case and expected case. Goal Seek works the other way: you state the result you want and Calc finds the single input value that produces it.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe how to use Goal Seek in Calc, with an example.",
+        "a": [
+          "Build the sheet so that the result cell contains a formula, for example the EMI for a loan in B5.",
+          "Choose Tools → Goal Seek and fill in the dialog: Formula Cell B5, Target Value 8000, Variable Cell B2 (the interest rate or the loan amount).",
+          "Click OK; Calc changes the variable cell step by step until the formula gives the target, and reports whether it succeeded.",
+          "This is quicker than trial and error when only one input is unknown."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -132,6 +149,14 @@
       {
         "q": "A 3-mark answer on “Scenarios and Goal Seek (Calc)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Subtotals in Calc are created from: (a) Data → Subtotals  (b) Tools → Subtotals  (c) Insert → Subtotals  (d) Format → Subtotals",
+        "a": "**(a) Data → Subtotals.** Calc groups the rows and inserts the subtotal formula for you."
+      },
+      {
+        "q": "Consolidating data means: (a) combining data from several sheets or ranges into one summary  (b) deleting duplicate rows  (c) sorting a column  (d) filtering rows",
+        "a": "**(a) combining data from several sheets or ranges into one summary.** It is useful when each branch sends its own sheet."
       }
     ],
     "trend": "Goal Seek steps, or difference between scenario and Goal Seek.",
@@ -247,6 +272,23 @@
           "(b) Steps to record and run a macro, plus one use-case (repeating a format or a formula block).",
           "(c) Recording a macro that depends on a specific cell when you needed a relative range."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is a macro and why is it used?",
+        "a": "A macro is a recorded sequence of commands that can be replayed with one click or one shortcut. It saves time on work you repeat often — formatting a daily report, cleaning imported data, or applying the same page setup to many sheets — and removes the risk of forgetting a step.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "When should you not use a macro? Give three situations.",
+        "a": [
+          "Do not record a macro for a task you will do only once; learning the steps takes longer than doing the job.",
+          "Avoid macros for work that changes each time and cannot be reduced to fixed steps.",
+          "Never open macros in a file from an unknown sender: macro viruses can damage files and spread to other documents.",
+          "Where a built-in formula, style or tool does the job, use it instead — it is easier for others to check."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -273,6 +315,14 @@
       {
         "q": "A 3-mark answer on “Macros in Spreadsheet” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Recording a macro in LibreOffice starts from: (a) Tools → Macros → Record Macro  (b) Insert → Macro  (c) Format → Macro  (d) Data → Macro",
+        "a": "**(a) Tools → Macros → Record Macro.** Stop the recording with the same menu and then save the macro."
+      },
+      {
+        "q": "Macros in LibreOffice are commonly stored and written in: (a) LibreOffice Basic  (b) HTML  (c) SQL only  (d) CSS",
+        "a": "**(a) LibreOffice Basic.** Python, BeanShell and JavaScript are also supported."
       }
     ],
     "trend": "Record-macro steps and one advantage; security as a 1-mark.",
@@ -387,6 +437,22 @@
           "(b) Syntax of a sheet reference and Insert → Hyperlink.",
           "(c) Renaming a sheet after writing formulas without checking — some links break."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is meant by linking spreadsheet data?",
+        "a": "Linking makes one cell take its value from another cell, sheet or file, so that the value is not typed twice. When the source changes, every linked cell updates automatically, which keeps reports consistent and saves the work of retyping.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "How do you link a cell to another sheet and to a file outside the workbook?",
+        "a": [
+          "Within the workbook: type = in the target cell, click the sheet tab, click the source cell and press Enter; the formula reads =Sheet2.B3.",
+          "To an external file: open both files, copy the source cell, click the target cell and choose Edit → Paste Special → Paste Link.",
+          "The formula then contains the full path, for example ='file:///home/user/accounts.ods'#$Sheet1.A1, and you can refresh the links when the source file changes."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -413,6 +479,14 @@
       {
         "q": "A 3-mark answer on “Linking Spreadsheet Data” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Linked data in a spreadsheet: (a) updates when the source value changes  (b) is frozen at the time of linking  (c) must be typed again  (d) cannot be used in a formula",
+        "a": "**(a) updates when the source value changes.** That is the whole point of linking."
+      },
+      {
+        "q": "A hyperlink in a sheet can point to: (a) a web page, an email address or a place in the same document  (b) only a web page  (c) only a file on the desktop  (d) only a printer",
+        "a": "**(a) a web page, an email address or a place in the same document.** Insert → Hyperlink sets any of these."
       }
     ],
     "trend": "Write a cross-sheet formula, or advantage of linking vs paste.",
@@ -523,6 +597,23 @@
           "(b) Share spreadsheet + record changes is the pair.",
           "(c) Protecting the sheet with no password written in the practical file — you cannot demo it."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What does recording changes do when a spreadsheet is shared?",
+        "a": "Edit → Track Changes → Record logs every edit with the author's name, the time and the old value. Each change can then be reviewed, accepted or rejected from Edit → Track Changes → Manage, so a team can work on one file without losing track of who changed what.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "How do you compare two versions of a document in LibreOffice?",
+        "a": [
+          "Open the newer copy and choose Edit → Track Changes → Compare Document.",
+          "Select the older copy in the file dialog and click Insert; LibreOffice shows the differences as tracked changes.",
+          "Review each one with Next and Previous, then accept or reject it from the Manage dialog.",
+          "This works in both Writer and Calc and is the safest way to merge two people's work."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -549,6 +640,14 @@
       {
         "q": "A 3-mark answer on “Share and Review a Spreadsheet” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Sharing a sheet while protecting it from changes is done from: (a) Tools → Protect Sheet  (b) File → Print  (c) Insert → Comment  (d) Format → Cells",
+        "a": "**(a) Tools → Protect Sheet.** You can also allow selected users to edit certain ranges."
+      },
+      {
+        "q": "Comments in a spreadsheet are used to: (a) ask a question or explain a cell without changing its value  (b) delete the cell  (c) sort the data  (d) create a chart",
+        "a": "**(a) ask a question or explain a cell without changing its value.** The cell keeps its formula."
       }
     ],
     "trend": "Share vs record changes, or protect sheet steps.",

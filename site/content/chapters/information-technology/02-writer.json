@@ -102,6 +102,23 @@
           "(b) Theory asks types of styles and why styles beat manual formatting.",
           "(c) Building a ToC from manually bolded text."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Why are styles better than formatting each heading by hand?",
+        "a": "A style stores the whole set of formatting — font, size, spacing, alignment — in one named item. Change the style once and every paragraph using it changes, the document stays consistent, and headings styled with Heading 1, 2 and 3 can be collected automatically into a table of contents.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe how to create and then apply a paragraph style in LibreOffice Writer.",
+        "a": [
+          "Format one paragraph exactly as you want it, then open the Styles window with F11 and click the New Style from Selection button.",
+          "Give the style a name such as ‘MyBodyText' and click OK.",
+          "To apply it, click anywhere in the paragraph you want to change and double-click the style name under Paragraph Styles.",
+          "To change the whole document, right-click the style, choose Modify and set the font, size and spacing once."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -128,6 +145,14 @@
       {
         "q": "A 3-mark answer on “Introduction to Styles (Writer)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The Styles window in Writer is opened with: (a) F11  (b) Ctrl + S  (c) F7  (d) Ctrl + P",
+        "a": "**(a) F11.** F7 opens the spell-check and Ctrl + S saves the document."
+      },
+      {
+        "q": "Heading 1, Heading 2 and Heading 3 are examples of: (a) paragraph styles  (b) character styles  (c) page styles  (d) frame styles",
+        "a": "**(a) paragraph styles.** They format a whole paragraph and are used to build a table of contents."
       }
     ],
     "trend": "Types of styles + advantage of styles; practical is Heading styles + Fill Format.",
@@ -246,6 +271,23 @@
           "(b) Expect “how to wrap an image” and “difference between anchor types”.",
           "(c) Stretching a photo so faces look wide — hold Shift or lock ratio."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is text wrapping and when is it useful?",
+        "a": "Wrapping decides how text flows around a picture. It is useful when a small picture has to sit inside a paragraph: the text runs beside or around the image instead of leaving a large empty space above and below it, so the page looks filled and balanced.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "List the steps to insert an image and set its position in a Writer document.",
+        "a": [
+          "Click where the picture should go and choose Insert → Image, then select the file and click Open.",
+          "Right-click the picture, choose Wrap and pick the style you need — Optimal, Before, After or Through.",
+          "Use Format → Image → Properties to set the size, the position, the cropping and whether the image is anchored to the page, the paragraph or the character.",
+          "Drag the picture to its place and, if you have several drawing objects, select them and choose Format → Group so that they move together."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -272,6 +314,14 @@
       {
         "q": "A 3-mark answer on “Working with Images (Writer)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "To make two drawing objects move together you should: (a) group them  (b) crop them  (c) wrap them  (d) delete one of them",
+        "a": "**(a) group them.** Grouping treats the objects as one; ungrouping reverses it."
+      },
+      {
+        "q": "The tool used to remove unwanted parts of a picture is the: (a) Crop tool  (b) Wrap tool  (c) Rotate tool  (d) Fill tool",
+        "a": "**(a) Crop tool.** Cropping cuts the picture without changing the rest of the page."
       }
     ],
     "trend": "Wrap + anchor, or steps to insert and caption an image.",
@@ -388,6 +438,22 @@
           "(b) ToC steps and Track Changes on/off are asked every year.",
           "(c) Saving a template as .odt instead of .ott."
         ]
+      },
+      {
+        "m": "2",
+        "q": "How is a table of contents generated automatically in Writer?",
+        "a": "Apply the Heading 1, Heading 2 and Heading 3 styles to the headings, then choose Insert → Table of Contents and Index → Table of Contents, Index or Bibliography. Writer collects the styled headings with their page numbers; after further edits, refresh it with Tools → Update → Update All.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain what track changes and comments do, and when you would use each.",
+        "a": [
+          "Track Changes (Edit → Track Changes → Record) marks every insertion and deletion so that a reader can see exactly what has been altered and accept or reject each change from Edit → Track Changes → Manage.",
+          "Comments (Insert → Comment) let a reviewer write a note or a question beside the text without changing the text itself.",
+          "Use track changes when several people are editing one document, and comments when you want to suggest an idea or ask a question."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -414,6 +480,14 @@
       {
         "q": "A 3-mark answer on “ToC, Templates and Track Changes” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "A template is: (a) a ready-made document with styles, margins and layout already set  (b) a picture  (c) a macro  (d) a printer setting",
+        "a": "**(a) a ready-made document with styles, margins and layout already set.** Saving a template saves time on every similar document."
+      },
+      {
+        "q": "Recorded changes are accepted or rejected from: (a) Edit → Track Changes → Manage  (b) File → Save  (c) Insert → Comment  (d) View → Zoom",
+        "a": "**(a) Edit → Track Changes → Manage.** The Manage dialog lists every change with its author and time."
       }
     ],
     "trend": "ToC steps, template definition, or mail-merge advantages.",

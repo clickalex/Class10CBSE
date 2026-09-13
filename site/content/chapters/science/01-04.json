@@ -142,6 +142,33 @@
           "(b) Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction.",
           "(c) Balancing order: start with the element that appears in the largest number of atoms, leave free elements (O2, H2) for last, then re-check oxygen."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is a precipitation reaction? Give one example with a balanced equation.",
+        "a": "A precipitation reaction forms an insoluble solid (the precipitate) when two aqueous solutions are mixed. Example: Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s)↓ + 2NaCl(aq), where the white precipitate is barium sulphate.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Balance this equation and name the type of reaction: FeSO₄(s) → Fe₂O₃(s) + SO₂(g) + SO₃(g).",
+        "a": [
+          "Balanced: 2FeSO₄(s) → Fe₂O₃(s) + SO₂(g) + SO₃(g).",
+          "It is a thermal decomposition reaction — one substance breaks into three on heating.",
+          "It is also a redox reaction: Fe²⁺ is oxidised while part of the sulphur is reduced."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Describe an activity to show that a chemical reaction is accompanied by the evolution of a gas, and how you would identify the gas.",
+        "a": [
+          "Take a few zinc granules in a conical flask and add dilute sulphuric acid; fit a cork with a delivery tube.",
+          "Bubbles appear on the surface of the zinc, showing that a gas is being evolved.",
+          "Bring a burning splint near the mouth of the tube: the gas burns with a pop sound, which identifies it as hydrogen.",
+          "Equation: Zn + H₂SO₄ → ZnSO₄ + H₂↑."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -164,6 +191,18 @@
       {
         "q": "A 3-mark answer on “Chemical Reactions and Equations” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Which of these is a combination reaction? (a) CaO + H₂O → Ca(OH)₂  (b) 2H₂O → 2H₂ + O₂  (c) Zn + CuSO₄ → ZnSO₄ + Cu  (d) AgNO₃ + NaCl → AgCl + NaNO₃",
+        "a": "**(a) CaO + H₂O → Ca(OH)₂.** Two reactants combine to form a single product; (b) is decomposition, (c) displacement and (d) double displacement."
+      },
+      {
+        "q": "The brown fumes evolved when lead nitrate is heated are of: (a) NO₂  (b) O₂  (c) NO  (d) PbO",
+        "a": "**(a) NO₂.** 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂; nitrogen dioxide is brown, the residue lead oxide is yellow."
+      },
+      {
+        "q": "Rancidity of fat-containing food is prevented by: (a) storing it in the open  (b) adding antioxidants and flushing with nitrogen  (c) adding oxidising agents  (d) heating it repeatedly",
+        "a": "**(b) adding antioxidants and flushing with nitrogen.** Both slow down the oxidation of fats that causes the stale smell and taste."
       }
     ],
     "trend": "One balancing question and one 'identify the reaction type' question appear almost every year; corrosion or rancidity is the recurring 2–3 mark reasoning question.",
@@ -348,6 +387,33 @@
           "(b) Because acidic behaviour requires the formation of H+(aq) ions, which needs water. Dry HCl gas has no water, so it does not ionise and cannot affect dry litmus.",
           "(c) pH memory: the scale counts *down* as acidity goes *up*. pH 2 is a hundred times more acidic than pH 4 (each unit is a factor of ten)."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What happens when a base reacts with a non-metal oxide? Give an equation and state what it tells you about non-metal oxides.",
+        "a": "A salt and water are formed, just as in neutralisation: Ca(OH)₂ + CO₂ → CaCO₃ + H₂O. It shows that non-metal oxides are acidic in nature.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "How is bleaching powder prepared? Write the equation and two uses.",
+        "a": [
+          "Bleaching powder is prepared by the action of chlorine gas on dry slaked lime: Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O.",
+          "Uses: bleaching cotton and linen in the textile industry and wood pulp in paper factories.",
+          "It is also used as an oxidising agent in chemical industries and to disinfect drinking water."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Three unlabelled bottles contain an acidic, a basic and a neutral solution. How would you identify all three using only red and blue litmus paper?",
+        "a": [
+          "Dip a strip of red litmus into each solution: the one that turns it blue is the basic solution.",
+          "Now dip a strip of blue litmus into the two remaining solutions: the one that turns it red is the acidic solution.",
+          "The solution that changes neither paper is neutral (pH ≈ 7).",
+          "Note that a single indicator is not enough — you must use both papers, because neutral and acidic solutions both leave red litmus unchanged."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -370,6 +436,18 @@
       {
         "q": "A 3-mark answer on “Acids, Bases and Salts” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "A solution turns colourless phenolphthalein pink. Its pH is likely to be: (a) 2  (b) 5  (c) 7  (d) 10",
+        "a": "**(d) 10.** Phenolphthalein turns pink only in a basic solution, whose pH is above 7."
+      },
+      {
+        "q": "The salt used to remove permanent hardness of water is: (a) sodium chloride  (b) sodium carbonate  (c) calcium sulphate  (d) ammonium chloride",
+        "a": "**(b) sodium carbonate.** Washing soda precipitates out the dissolved calcium and magnesium salts that cause hardness."
+      },
+      {
+        "q": "Dilute acid added to an active metal produces: (a) oxygen  (b) hydrogen  (c) carbon dioxide  (d) nitrogen",
+        "a": "**(b) hydrogen.** Metal + dilute acid → salt + H₂, which burns with a pop sound."
       }
     ],
     "trend": "The four salts — bleaching powder, baking soda, washing soda, plaster of Paris — rotate through the 3-mark slot every year, and the pH scale almost always appears as a case-based or diagram question.",
@@ -516,6 +594,32 @@
           "(b) Mercury (metal, liquid at room temperature) and iodine (non-metal, lustrous).",
           "(c) Reactivity series mnemonic: *Please Send Charlie's Monkey And Zebra Into Lions' Pens, Come Home Monkeys, All Safe And sound* (K Na Ca Mg Al Zn Fe Pb H Cu Hg Ag Au)."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Give a reason why ionic compounds have high melting and boiling points.",
+        "a": "Oppositely charged ions in an ionic compound are held together by strong electrostatic forces in a crystal lattice, and a large amount of energy is needed to break these forces, so melting and boiling points are high.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "How are metals low in the reactivity series extracted from their ores? Give equations.",
+        "a": [
+          "Metals low in the series (such as mercury and copper) are obtained by heating their ores alone — reduction with carbon is not needed.",
+          "Cinnabar (HgS) is first roasted in air: 2HgS + 3O₂ → 2HgO + 2SO₂, then heated: 2HgO → 2Hg + O₂.",
+          "Copper from its sulphide ore: Cu₂S + 3O₂ → 2Cu₂O + 2SO₂, then 2Cu₂O + Cu₂S → 6Cu + SO₂."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Describe the thermite reaction and give its use.",
+        "a": [
+          "The thermite reaction: Fe₂O₃ + 2Al → Al₂O₃ + 2Fe + heat.",
+          "Aluminium is more reactive than iron, so it reduces iron(III) oxide to molten iron and a large amount of heat is released.",
+          "The molten iron produced is used to weld railway tracks and cracked machine parts without dismantling them."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -538,6 +642,18 @@
       {
         "q": "A 3-mark answer on “Metals and Non-metals” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The best conductor of electricity among these is: (a) copper  (b) silver  (c) aluminium  (d) iron",
+        "a": "**(b) silver.** Silver conducts best, then copper; silver is too costly for wiring, so copper is used."
+      },
+      {
+        "q": "Brass is an alloy of: (a) copper and tin  (b) copper and zinc  (c) lead and tin  (d) mercury and zinc",
+        "a": "**(b) copper and zinc.** Bronze is copper and tin, solder is lead and tin, and an amalgam contains mercury."
+      },
+      {
+        "q": "Which metal reacts vigorously with cold water? (a) iron  (b) zinc  (c) sodium  (d) copper",
+        "a": "**(c) sodium.** It reacts violently with cold water; iron and zinc react only with steam, and copper does not react at all."
       }
     ],
     "trend": "One displacement question from the reactivity series and one reasoning question (kerosene, galvanising, aqua regia or the thermite reaction) appear almost every year; ionic bond formation is the recurring 3-mark answer.",
@@ -690,6 +806,32 @@
           "(b) Because the forces of attraction *between* their molecules are weak, even though the covalent bonds within a molecule are strong. Little energy is needed to separate the molecules.",
           "(c) Carbon counts: *Meth*-1, *Eth*-2, *Prop*-3, *But*-4, *Pent*-5, *Hex*-6. The suffix gives the bond: *-ane* single, *-ene* double, *-yne* triple."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Why is methane called a saturated hydrocarbon? Describe its electron-dot structure in words.",
+        "a": "In methane (CH₄) all four valencies of carbon are satisfied by four single covalent bonds with hydrogen atoms, so no more atoms can be added — the molecule is saturated. In the electron-dot structure, carbon sits at the centre and shares one pair of electrons with each of the four hydrogen atoms, giving every atom a stable octet (duplet for hydrogen).",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Write the equation for the combustion of ethanol and explain why ethanol burns with a clean blue flame.",
+        "a": [
+          "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O + heat and light.",
+          "Ethanol already contains oxygen and has a low carbon-to-hydrogen ratio, so it burns almost completely.",
+          "Saturated hydrocarbons contain relatively more carbon and often burn incompletely, depositing unburnt carbon, which gives a sooty yellow flame."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Why does soap not lather well in hard water, and what is used instead?",
+        "a": [
+          "Hard water contains dissolved calcium and magnesium salts, which react with soap to form an insoluble sticky precipitate (scum).",
+          "Soap is therefore wasted and lather forms only after all the Ca²⁺ and Mg²⁺ ions have been precipitated.",
+          "Detergents are used instead: their molecules are sulphonate or sulphate salts whose calcium and magnesium salts stay dissolved, so they lather even in hard water."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -712,6 +854,18 @@
       {
         "q": "A 3-mark answer on “Carbon and its Compounds” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Which compound decolourises alkaline KMnO₄ (Baeyer's reagent)? (a) C₂H₆  (b) C₂H₄  (c) CH₄  (d) C₃H₈",
+        "a": "**(b) C₂H₄.** Ethene is unsaturated; only double or triple bonds add on and decolourise the reagent."
+      },
+      {
+        "q": "The functional group present in an alcohol is: (a) –CHO  (b) –COOH  (c) –OH  (d) –CO–",
+        "a": "**(c) –OH.** –CHO is aldehyde, –COOH is carboxylic acid and –CO– is a ketone group."
+      },
+      {
+        "q": "The gas evolved when ethanoic acid reacts with sodium carbonate is: (a) H₂  (b) O₂  (c) CO₂  (d) CO",
+        "a": "**(c) CO₂.** 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂; the gas turns lime water milky."
       }
     ],
     "trend": "One IUPAC naming or structure question every year, plus either the soap/detergent comparison or an ethanol–ethanoic acid reaction question. Homologous series tables are a favourite case-based format.",

@@ -94,6 +94,23 @@
           "(b) marks with the rest of Unit 4. Hazard types + two precautions each.",
           "(c) Writing “be careful” with no concrete precaution."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is a hazard? Give two examples from a computer laboratory.",
+        "a": "A hazard is anything in the workplace that can cause injury or ill health. In a computer laboratory the hazards include a trailing cable that can trip someone, a socket or adapter that is overloaded and can start a fire, a wet floor, and a chair with a broken back that can cause a fall.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "List four fire safety rules for a workplace.",
+        "a": [
+          "Keep every fire exit and aisle clear of boxes, cables and furniture, and make sure the exit signs are lit.",
+          "Check that fire extinguishers are in place, visible and within their expiry date, and know which type to use for an electrical fire.",
+          "Switch off and unplug equipment at the end of the day, and never overload a socket with adapters.",
+          "If a fire starts, raise the alarm, cut off the power if it is safe to do so, leave by the marked route without using the lift, and go to the assembly point."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -120,6 +137,14 @@
       {
         "q": "A 3-mark answer on “Health, Safety and Security at the Workplace” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The first thing to do when a fire is discovered is to: (a) raise the alarm and leave by the marked exit  (b) collect your belongings  (c) use the lift  (d) finish the work you are doing",
+        "a": "**(a) raise the alarm and leave by the marked exit.** Never use a lift in a fire."
+      },
+      {
+        "q": "PPE stands for: (a) Personal Protective Equipment  (b) Public Protection Exercise  (c) Power Protection Equipment  (d) Personal Programme Entry",
+        "a": "**(a) Personal Protective Equipment.** Gloves, goggles, helmets and safety shoes are examples."
       }
     ],
     "trend": "Hazard types, electrical/fire rules, or password/backup security.",
@@ -231,6 +256,23 @@
           "(b) Ergonomics of a computer workstation is the set diagram/answer.",
           "(c) Drawing the user hunched over a laptop as “correct posture”."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is ergonomics and why does it matter when working at a computer?",
+        "a": "Ergonomics is the science of designing the workplace to fit the person. At a computer it keeps the body comfortable and prevents backache, neck and shoulder pain, eye strain and repetitive strain injury caused by hours of sitting in a wrong posture with badly placed equipment.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe a correct workstation arrangement and the working habit that prevents strain.",
+        "a": [
+          "Sit back in a chair that supports the lower back, with both feet flat on the floor and knees at about a right angle.",
+          "Keep the top of the screen at or just below eye level, about an arm's length away, with the keyboard and mouse close enough to keep the forearms horizontal and the wrists straight.",
+          "Place the document you are copying beside the screen rather than flat on the desk, so the neck does not keep turning.",
+          "Follow the 20-20-20 habit: every 20 minutes look 20 feet away for 20 seconds, and take a short break and stretch every hour."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -257,6 +299,14 @@
       {
         "q": "A 3-mark answer on “Workplace Quality and Ergonomics” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The 5S workplace method consists of: (a) Sort, Set in order, Shine, Standardise, Sustain  (b) Sit, See, Save, Stop, Start  (c) Safety, Speed, Size, Skill, System  (d) Scan, Send, Store, Sell, Sort",
+        "a": "**(a) Sort, Set in order, Shine, Standardise, Sustain.** It comes from Japanese workplace practice."
+      },
+      {
+        "q": "Repetitive Strain Injury is caused mainly by: (a) repeating the same small movement for long periods  (b) a single heavy fall  (c) loud noise  (d) cold weather",
+        "a": "**(a) repeating the same small movement for long periods.** Typing and mouse work without breaks are common causes."
       }
     ],
     "trend": "5S list or workstation posture; sometimes 20-20-20.",
@@ -369,6 +419,23 @@
           "(b) Evacuation order and first aid don’ts are the 2–3 markers.",
           "(c) Applying toothpaste or ice directly on a burn."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is an emergency, and what should a workplace emergency plan contain?",
+        "a": "An emergency is an unexpected event that threatens life, health or property, such as a fire, an earthquake, a chemical spill or a sudden illness. A plan should name the escape routes and the assembly point, the person responsible for each task, the emergency telephone numbers, the location of first-aid kits and extinguishers, and how often evacuation drills will be held.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe the first aid for a minor burn and for a person who has fainted.",
+        "a": [
+          "For a minor burn: hold the area under cool running water for about ten minutes, remove rings or tight clothing near it, cover it with a clean, non-sticky cloth, and do not apply ice, oil or ointment and do not break blisters.",
+          "For fainting: lay the person flat on their back, raise the legs above the level of the heart, loosen tight clothing and keep the airway clear.",
+          "Do not crowd around, do not throw water on the face and do not give anything to drink until the person is fully conscious.",
+          "Call for medical help if the person does not recover within a minute or if breathing is not normal."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -395,6 +462,14 @@
       {
         "q": "A 3-mark answer on “Prevent Accidents and Emergencies” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The single all-India emergency number for police, fire and ambulance is: (a) 112  (b) 100  (c) 101  (d) 108",
+        "a": "**(a) 112.** 100 is police, 101 is fire and 108 is the ambulance service in most states."
+      },
+      {
+        "q": "During an evacuation you should: (a) walk quickly to the assembly point without using the lift  (b) run and push past others  (c) use the lift to leave faster  (d) go back for your bag",
+        "a": "**(a) walk quickly to the assembly point without using the lift.** Report to the assembly point so that everyone can be counted."
       }
     ],
     "trend": "Evacuation steps or electric-shock first aid; near-miss as a value item.",

@@ -21,10 +21,20 @@ Class10CBSE/
 ```
 
 **Live site: <https://clickalex.github.io/Class10CBSE/>** — built from
-`site/content/`, one hub per subject (including IT 402, in-built), 174
-chapter pages. Every subject uses the same design and the same Q&A tone:
-Short, Long, Application and Competency, with click-to-reveal answers. See
-[Deploying the site](#deploying-the-site) below.
+`site/content/`, one hub per subject (including IT 402, in-built), 174 chapter
+pages, **1,922 written Q&A and 1,260 MCQs**. Every subject uses the same design
+and the same Q&A tone: Short, Long, Application and Competency, with
+click-to-reveal answers.
+
+The site uses one persistent left sidebar on every page — brand and
+*Chapters done* progress, all subjects with their board codes, the current
+subject's pages, and every chapter grouped by unit with the page you are on
+highlighted; it collapses to a `☰` drawer on small screens. Each subject also
+has a chapter index page (`/chapters.html`) and every chapter has a
+Previous / All chapters / Next strip. The credit line **"Created by Mohammad
+Umair"** appears in the sidebar foot and page footer of every page.
+
+See [Deploying the site](#deploying-the-site) below.
 
 ## Inside every subject
 

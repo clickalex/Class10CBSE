@@ -3,31 +3,90 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Practical · Class 10 CBSE</title>
-<meta name="description" content="CBSE Class 10 Practical — chapter notes, formulas, exam Q&amp;A and revision.">
+<title>Practical &amp;amp; internal assessment · Class 10 CBSE</title>
+<meta name="description" content="CBSE Class 10 Practical &amp;amp; internal assessment — chapter notes, formulas, exam Q&amp;A and revision.">
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="topbar">
-  <div class="wrap topbar-in">
-    <a class="brand" href="../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
-    <nav class="topnav"><a href="../index.html">All subjects</a><a href="../english/index.html">Hub</a><a href="../english/syllabus.html">Syllabus</a><a href="../english/revision.html">Revise</a><a href="../english/question-bank.html">Bank</a><a href="../english/drill.html">Drill</a><a href="../english/pyq.html">PYQ</a></nav>
-  </div>
-</header>
-<main id="main" class="wrap">
-  <nav class="crumbs"><a href="../index.html">Home</a> <span class="sep">/</span> <a href="index.html">English Language &amp; Literature</a> <span class="sep">/</span> Practical</nav>
+<button class="menu-btn" onclick="openMenu()" aria-label="Open navigation">&#9776;</button>
+<div class="backdrop" id="backdrop" onclick="closeMenu()"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+<div class="side-head"><a class="brand" href="../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a><p class="side-sub">Session 2026–27</p><button class="side-close" onclick="closeMenu()" aria-label="Close navigation">&times;</button></div>
+<div class="progress-wrap"><div class="progress-label"><span>Chapters done</span><span data-subject-text="english" data-total="33">0 of 33</span></div><div class="bar"><span class="fill" data-subject="english" data-total="33"></span></div></div>
+<div class="toc-group">All subjects</div>
+<a class="toc-item" href="../maths/index.html"><span class="toc-num">041</span>Mathematics</a>
+<a class="toc-item" href="../science/index.html"><span class="toc-num">086</span>Science</a>
+<a class="toc-item" href="../social-science/index.html"><span class="toc-num">087</span>Social Science</a>
+<a class="toc-item is-on" href="../english/index.html"><span class="toc-num">184</span>English Language &amp; Literature</a>
+<a class="toc-item" href="../hindi/index.html"><span class="toc-num">002 (A)</span>Hindi</a>
+<a class="toc-item" href="../information-technology/index.html"><span class="toc-num">402</span>Information Technology</a>
+<a class="toc-item" href="../computer-applications/index.html"><span class="toc-num">165</span>Computer Applications</a>
+<a class="toc-item" href="../sanskrit/index.html"><span class="toc-num">122</span>Sanskrit</a>
+<div class="toc-group">English Language &amp; Literature</div>
+<a class="toc-item" href="../english/index.html"><span class="toc-num">&bull;</span>Hub</a>
+<a class="toc-item" href="../english/chapters.html"><span class="toc-num">&bull;</span>Chapters</a>
+<a class="toc-item" href="../english/syllabus.html"><span class="toc-num">&bull;</span>Syllabus</a>
+<a class="toc-item" href="../english/question-bank.html"><span class="toc-num">&bull;</span>Q&amp;A bank</a>
+<a class="toc-item" href="../english/drill.html"><span class="toc-num">&bull;</span>MCQ drill</a>
+<a class="toc-item" href="../english/revision.html"><span class="toc-num">&bull;</span>Revision</a>
+<a class="toc-item" href="../english/pyq.html"><span class="toc-num">&bull;</span>PYQ</a>
+<a class="toc-item is-on" href="../english/practical.html" aria-current="page"><span class="toc-num">&bull;</span>Practical</a>
+<div class="toc-group">Chapters</div>
+<div class="toc-sub">First Flight · Prose</div>
+<a class="toc-item toc-ch" href="../english/chapters/ch01-a-letter-to-god.html"><span class="toc-num">1</span>A Letter to God</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch02-nelson-mandela-long-walk-to-freedom.html"><span class="toc-num">2</span>Nelson Mandela: Long Walk to Freedom</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch03-two-stories-about-flying.html"><span class="toc-num">3</span>Two Stories about Flying</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch04-from-the-diary-of-anne-frank.html"><span class="toc-num">4</span>From the Diary of Anne Frank</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch05-glimpses-of-india.html"><span class="toc-num">5</span>Glimpses of India</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch06-mijbil-the-otter.html"><span class="toc-num">6</span>Mijbil the Otter</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch07-madam-rides-the-bus.html"><span class="toc-num">7</span>Madam Rides the Bus</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch08-the-sermon-at-benares.html"><span class="toc-num">8</span>The Sermon at Benares</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch09-the-proposal.html"><span class="toc-num">9</span>The Proposal</a>
+<div class="toc-sub">First Flight · Poems</div>
+<a class="toc-item toc-ch" href="../english/chapters/ch10-dust-of-snow.html"><span class="toc-num">10</span>Dust of Snow</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch11-fire-and-ice.html"><span class="toc-num">11</span>Fire and Ice</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch12-a-tiger-in-the-zoo.html"><span class="toc-num">12</span>A Tiger in the Zoo</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch13-how-to-tell-wild-animals.html"><span class="toc-num">13</span>How to Tell Wild Animals</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch14-the-ball-poem.html"><span class="toc-num">14</span>The Ball Poem</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch15-amanda.html"><span class="toc-num">15</span>Amanda!</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch16-the-trees.html"><span class="toc-num">16</span>The Trees</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch17-fog.html"><span class="toc-num">17</span>Fog</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch18-the-tale-of-custard-the-dragon.html"><span class="toc-num">18</span>The Tale of Custard the Dragon</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch19-for-anne-gregory.html"><span class="toc-num">19</span>For Anne Gregory</a>
+<div class="toc-sub">Footprints Without Feet</div>
+<a class="toc-item toc-ch" href="../english/chapters/ch20-a-triumph-of-surgery.html"><span class="toc-num">20</span>A Triumph of Surgery</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch21-the-thiefs-story.html"><span class="toc-num">21</span>The Thief&#x27;s Story</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch22-the-midnight-visitor.html"><span class="toc-num">22</span>The Midnight Visitor</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch23-a-question-of-trust.html"><span class="toc-num">23</span>A Question of Trust</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch24-footprints-without-feet.html"><span class="toc-num">24</span>Footprints without Feet</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch25-the-making-of-a-scientist.html"><span class="toc-num">25</span>The Making of a Scientist</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch26-the-necklace.html"><span class="toc-num">26</span>The Necklace</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch27-bholi.html"><span class="toc-num">27</span>Bholi</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch28-the-book-that-saved-the-earth.html"><span class="toc-num">28</span>The Book That Saved the Earth</a>
+<div class="toc-sub">Reading, Grammar &amp; Writing</div>
+<a class="toc-item toc-ch" href="../english/chapters/ch29-reading-unseen-passages.html"><span class="toc-num">29</span>Reading: Unseen and Case-based Passages</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch30-note-making-and-summarising.html"><span class="toc-num">30</span>Note Making and Summarising</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch31-grammar-in-context.html"><span class="toc-num">31</span>Grammar in Context</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch32-formal-letter-writing.html"><span class="toc-num">32</span>Formal Letter Writing</a>
+<a class="toc-item toc-ch" href="../english/chapters/ch33-analytical-paragraph.html"><span class="toc-num">33</span>Analytical Paragraph</a>
+<div class="sidebar-foot">Progress is saved in this browser.<br>Created by <strong>Mohammad Umair</strong></div>
+  </aside>
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> <span class="sep">/</span> <a href="index.html">English Language &amp; Literature</a> <span class="sep">/</span> Practical</nav>
 
 <p class="kicker">CBSE • CLASS 10 • ENGLISH</p>
 <h1>English Language &amp; Literature — Practical &amp; internal assessment</h1>
 <p class="lede">English internal assessment is <strong>listening and speaking</strong>, not a lab exam.</p>
 <ul><li><strong>Speaking (10 marks)</strong>: usually a short picture description or topic-based speech, followed by a brief interaction. Marks go to fluency, accuracy and pronunciation — not to how fancy your vocabulary is.</li><li><strong>Listening (10 marks)</strong>: a recorded passage with comprehension questions. Practise note-taking while listening; you cannot rewind.</li><li><strong>Reading project</strong>: an assessment of reading and reading aloud, set by your school.</li><li><strong>Preparation that works</strong>: record yourself speaking for two minutes on a random topic, then listen back. Two weeks of this moves the speaking score more than any textbook.</li></ul>
 
-</main>
+  </main>
+</div>
 <footer class="wrap foot">
-  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  <div class="foot-main"><p>Built for CBSE Class 10 &middot; session 2026–27 &middot; content is original study material,
   not official CBSE papers. Always confirm the syllabus against
-  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p><nav class="foot-subj" aria-label="All subjects"><a href="../maths/index.html">Mathematics</a> <a href="../science/index.html">Science</a> <a href="../social-science/index.html">Social Science</a> <a href="../english/index.html">English Language &amp; Literature</a> <a href="../hindi/index.html">Hindi</a> <a href="../information-technology/index.html">Information Technology</a> <a href="../computer-applications/index.html">Computer Applications</a> <a href="../sanskrit/index.html">Sanskrit</a></nav><p class="credit">Created by <strong>Mohammad Umair</strong></p></div>
   <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
 </footer>
 <script src="../assets/app.js"></script>

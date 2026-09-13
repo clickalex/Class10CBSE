@@ -25,6 +25,32 @@
 
   var state = load();
 
+  /* --- sidebar drawer (the table of contents on a phone) --- */
+  var sidebar = document.getElementById("sidebar");
+  var backdrop = document.getElementById("backdrop");
+
+  window.openMenu = function () {
+    if (sidebar) sidebar.classList.add("open");
+    if (backdrop) backdrop.classList.add("show");
+  };
+
+  window.closeMenu = function () {
+    if (sidebar) sidebar.classList.remove("open");
+    if (backdrop) backdrop.classList.remove("show");
+  };
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") window.closeMenu();
+  });
+
+  if (sidebar) {
+    var current = sidebar.querySelector(".toc-item.is-on");
+    /* keep the highlighted entry in view when the list is long (Hindi: 40) */
+    if (current && current.scrollIntoView) {
+      current.scrollIntoView({ block: "nearest" });
+    }
+  }
+
   /* --- chapter "mark complete" checkboxes --- */
   Array.prototype.forEach.call(
     document.querySelectorAll("input.mark-complete"),

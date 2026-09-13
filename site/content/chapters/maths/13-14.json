@@ -161,6 +161,32 @@
           "(b) Class mark = (25 + 35)/2 = 30.",
           "(c) Median class vs modal class are different things. Median comes from the cumulative frequency crossing N/2; mode comes from the largest frequency."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Write the formula for the mode of grouped data and explain each symbol.",
+        "a": "Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, where l is the lower limit of the modal class, f₁ its frequency, f₀ the frequency of the class before it, f₂ the frequency of the class after it, and h the class size. The modal class is the class with the highest frequency.",
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Find the mean of this data by the step-deviation method: 0–20 (f = 7), 20–40 (f = 12), 40–60 (f = 16), 60–80 (f = 13), 80–100 (f = 12).",
+        "a": [
+          "Class marks: 10, 30, 50, 70, 90. Take A = 50 and h = 20, so u = −2, −1, 0, 1, 2.",
+          "Σf = 60 and Σfu = 7(−2) + 12(−1) + 16(0) + 13(1) + 12(2) = −14 − 12 + 13 + 24 = 11.",
+          "Mean = A + h(Σfu/Σf) = 50 + 20(11/60) = 50 + 3.67 = 53.67."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "4",
+        "q": "For the distribution 0–10 (5), 10–20 (8), 20–30 (12), 30–40 (7), 40–50 (3), write the less-than cumulative frequencies, name the median class and find the median.",
+        "a": [
+          "Less-than cumulative frequencies: 5, 13, 25, 32, 35. N = 35, so N/2 = 17.5.",
+          "The cumulative frequency first crosses 17.5 in the class 20–30, so that is the median class.",
+          "Median = l + [(N/2 − cf)/f] × h = 20 + [(17.5 − 13)/12] × 10 = 20 + 3.75 = 23.75."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -183,6 +209,18 @@
       {
         "q": "A 3-mark answer on “Statistics” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The mode of 3, 5, 7, 5, 9, 5, 8 is: (a) 3  (b) 5  (c) 7  (d) 9",
+        "a": "**(b) 5.** It occurs three times, more than any other value."
+      },
+      {
+        "q": "The class mark of the class 45–55 is: (a) 45  (b) 50  (c) 55  (d) 100",
+        "a": "**(b) 50.** Class mark = (lower limit + upper limit)/2 = 50."
+      },
+      {
+        "q": "The empirical relation connecting the three measures of central tendency is: (a) Mode = 3 Median − 2 Mean  (b) Median = 3 Mode − 2 Mean  (c) Mean = 3 Median − 2 Mode  (d) Mode = 2 Median − Mean",
+        "a": "**(a) Mode = 3 Median − 2 Mean.** Equivalently, 3 Median = Mode + 2 Mean."
       }
     ],
     "trend": "One 4–5 mark grouped-data question every year — mean, median, mode or a missing frequency. Ogive drawing is asked less often now but still appears in sample papers.",
@@ -331,6 +369,33 @@
           "(b) There are 2 red kings, so P = 2/52 = 1/26.",
           "(c) Always write the total number of outcomes first. Half of all probability errors are wrong totals, not wrong favourable counts."
         ]
+      },
+      {
+        "m": "2",
+        "q": "A bag contains 4 red, 5 blue and 3 green balls. Find the probability of drawing a ball that is not green.",
+        "a": "Total balls = 12. Balls that are not green = 4 + 5 = 9. So P(not green) = 9/12 = 3/4.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Two coins are tossed together. Find the probability of getting (i) two heads, (ii) at least one tail, (iii) at most one head.",
+        "a": [
+          "Sample space = {HH, HT, TH, TT}: 4 equally likely outcomes.",
+          "(i) Two heads: only HH, so P = 1/4.",
+          "(ii) At least one tail: HT, TH, TT, so P = 3/4.",
+          "(iii) At most one head: HT, TH, TT, so P = 3/4."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "A box contains 90 discs numbered 1 to 90. One disc is drawn at random. Find the probability that it bears (i) a two-digit number, (ii) a number divisible by 5, (iii) a perfect square number.",
+        "a": [
+          "(i) Two-digit numbers are 10 to 90, i.e. 81 discs, so P = 81/90 = 9/10.",
+          "(ii) Multiples of 5 from 5 to 90: 18 numbers, so P = 18/90 = 1/5.",
+          "(iii) Perfect squares: 1, 4, 9, 16, 25, 36, 49, 64, 81 — nine numbers, so P = 9/90 = 1/10."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -353,6 +418,18 @@
       {
         "q": "A 3-mark answer on “Probability” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "In one throw of a die, the probability of getting a number less than 7 is: (a) 0  (b) 1/6  (c) 5/6  (d) 1",
+        "a": "**(d) 1.** Every outcome 1–6 is less than 7, so it is a sure event."
+      },
+      {
+        "q": "If P(E) = 0.37, then P(not E) = : (a) 0.37  (b) 0.63  (c) 1  (d) 0.53",
+        "a": "**(b) 0.63.** P(not E) = 1 − P(E) = 1 − 0.37 = 0.63."
+      },
+      {
+        "q": "One card is drawn from a well-shuffled deck. The probability of a black queen is: (a) 1/52  (b) 1/26  (c) 1/13  (d) 2/13",
+        "a": "**(b) 1/26.** Two black queens out of 52 cards gives 2/52 = 1/26."
       }
     ],
     "trend": "One 2–3 mark question every year, nearly always a deck of cards or two dice. Card questions are the most common.",

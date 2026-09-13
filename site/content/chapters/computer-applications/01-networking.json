@@ -109,6 +109,23 @@
           "(b) The internet is a worldwide network of networks in which millions of smaller networks are interconnected, allowing any computer to communicate with any other. Two of its features are: it has no single owner or central control, running instead on shared protocols; and it provides many services at once — the World Wide Web, email, file transfer and video calls all travel over the same infrastructure.",
           "(c) ARPANET 1969, Berners-Lee 1989, India 1995. Three dates, three marks."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is the internet and how did it begin?",
+        "a": "The internet is a worldwide network of networks that links millions of computers using the TCP/IP family of protocols. It began in 1969 as ARPANET, a project of the US Department of Defense that linked four university computers, and grew into the public network we use after the World Wide Web was invented in 1989.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain the terms World Wide Web, webpage, website and homepage.",
+        "a": [
+          "The World Wide Web is the collection of linked documents and resources reached over the internet, invented by Tim Berners-Lee.",
+          "A webpage is a single document, written in HTML, that a browser displays.",
+          "A website is a group of related webpages stored under one domain name, such as a school's site with pages for admissions, results and contact.",
+          "The homepage is the first page that opens when you visit a website, from which the other pages are reached."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -135,6 +152,14 @@
       {
         "q": "A 3-mark answer on “Internet Basics” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The World Wide Web was invented by: (a) Tim Berners-Lee  (b) Bill Gates  (c) Vint Cerf  (d) Steve Jobs",
+        "a": "**(a) Tim Berners-Lee.** He proposed it in 1989 while working at CERN."
+      },
+      {
+        "q": "URL stands for: (a) Uniform Resource Locator  (b) Universal Resource Link  (c) United Resource Locator  (d) Uniform Resource Link",
+        "a": "**(a) Uniform Resource Locator.** It is the address of a page on the web."
       }
     ],
     "trend": "One or two definition questions every paper. The ARPANET and IPv6 facts are the most repeated.",
@@ -309,6 +334,23 @@
           "(b) HTTP (HyperText Transfer Protocol) is the protocol used to fetch web pages, and it sends everything in plain text on port 80. HTTPS is the same protocol wrapped in encryption using TLS/SSL, on port 443. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it.",
           "(c) SMTP Sends, POP Pulls, IMAP Keeps. That one sentence settles every email-protocol question."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Match each service with the protocol it uses: browsing the web, sending email, reading email, transferring files.",
+        "a": "Browsing uses HTTP or HTTPS; sending email uses SMTP; reading email uses POP3 or IMAP; transferring files uses FTP. DNS is not a service but the system that converts a domain name into an IP address so that the service can find the right computer.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe what happens when you send an email.",
+        "a": [
+          "Your mail program hands the message to your mail server using SMTP.",
+          "That server asks DNS for the mail server of the recipient's domain, such as gmail.com, and passes the message to it.",
+          "The receiving server stores the message in the recipient's mailbox.",
+          "The recipient's program collects it with POP3, which usually downloads and deletes it, or with IMAP, which leaves it on the server and synchronises folders."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -335,6 +377,14 @@
       {
         "q": "A 3-mark answer on “Internet Services & Protocols” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The protocol used to send an email is: (a) SMTP  (b) POP3  (c) IMAP  (d) FTP",
+        "a": "**(a) SMTP.** POP3 and IMAP are used to receive mail and FTP to transfer files."
+      },
+      {
+        "q": "HTTPS is safer than HTTP because it: (a) encrypts the data sent between the browser and the site  (b) is faster  (c) is free  (d) needs no server",
+        "a": "**(a) encrypts the data.** The S stands for secure, which is why a padlock appears in the address bar."
       }
     ],
     "trend": "Protocol full forms and port numbers appear in almost every paper. The URL breakdown is a reliable 2-3 marker.",
@@ -460,6 +510,23 @@
           "(b) In star topology every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its advantages are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its disadvantages are that it needs more cable than a bus, and the central device is a single point of failure — if the switch dies, the whole network stops.",
           "(c) PAN < LAN < MAN < WAN. Smallest to largest."
         ]
+      },
+      {
+        "m": "2",
+        "q": "Distinguish between a LAN and a WAN.",
+        "a": "A LAN covers a small area such as a room, a building or a campus, is owned by one organisation, uses switches and cables or Wi-Fi, and is fast. A WAN covers a city, a country or the world, links LANs over leased telephone lines, fibre or satellites, and is slower and shared among many organisations.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Compare the star and bus topologies and name one advantage of each.",
+        "a": [
+          "In a star topology every computer is connected to a central switch or hub; a fault in one cable affects only that computer, and new computers can be added easily.",
+          "In a bus topology all computers share one main cable with terminators at each end; it is cheap and needs less cable.",
+          "Star costs more because of the switch and the extra cable, while bus is slow when many computers share the cable and stops working if the main cable breaks.",
+          "Star is the topology used in almost every modern office network."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -486,6 +553,14 @@
       {
         "q": "A 3-mark answer on “Network Types, Topologies & Devices” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The device that connects two different networks and chooses the best path is a: (a) router  (b) switch  (c) hub  (d) repeater",
+        "a": "**(a) router.** A switch connects computers within one network; a repeater only strengthens the signal."
+      },
+      {
+        "q": "The topology in which every computer is connected to every other computer is the: (a) mesh topology  (b) star topology  (c) bus topology  (d) ring topology",
+        "a": "**(a) mesh topology.** It is the most reliable and the most expensive to cable."
       }
     ],
     "trend": "One topology question with a diagram, plus a device-comparison question, appears in most papers.",
@@ -649,6 +724,23 @@
           "(b) G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures.",
           "(c) 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What does 4G mean and how is it better than 3G?",
+        "a": "4G is the fourth generation of mobile network technology, designed for data rather than voice, with download speeds of up to about 100 Mbps, smooth video streaming and low delay. 3G was built mainly to improve voice calls and gave only modest data speeds, so tasks such as video calling were slow or impossible.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Name four short-range wireless technologies and give one use of each.",
+        "a": [
+          "Bluetooth connects a phone to wireless earphones, a keyboard or a speaker within about ten metres.",
+          "Wi-Fi connects devices to a local network and through it to the internet, at home, in school or in a cafe.",
+          "NFC allows contactless payments and data exchange when two devices are touched or held a few centimetres apart.",
+          "Infrared needs a direct line of sight and is still used in television remote controls."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -675,6 +767,14 @@
       {
         "q": "A 3-mark answer on “Mobile & Wireless Technology” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The generation of mobile technology that first made mobile internet practical was: (a) 3G  (b) 1G  (c) 2G  (d) 5G",
+        "a": "**(a) 3G.** 1G was analogue voice, 2G added digital voice and SMS, and 5G is the current high-speed standard."
+      },
+      {
+        "q": "NFC works only when the two devices are: (a) a few centimetres apart  (b) in the same building  (c) on the same Wi-Fi network  (d) several metres apart",
+        "a": "**(a) a few centimetres apart.** The short range is what makes contactless payment safe."
       }
     ],
     "trend": "A generations table question is very common, and it is fully memorisable.",
@@ -798,6 +898,23 @@
           "(b) A web browser is software installed on your computer or phone — Chrome, Firefox, Edge or Safari — that sends requests for pages and renders the HTML it receives into the page you see. A search engine such as Google is itself a website whose job is to index other websites and return a ranked list of results for your query. You need a browser in order to open a search engine, so they work together rather than as alternatives.",
           "(c) Browser is on your machine; search engine is on the web."
         ]
+      },
+      {
+        "m": "2",
+        "q": "What is the difference between a web browser and a search engine?",
+        "a": "A browser is the program that requests, receives and displays web pages — Chrome, Firefox, Edge or Safari. A search engine is a website, such as Google or Bing, that keeps an index of pages and returns a list of results for your query. The browser is the tool you use; the search engine is a site you visit with it.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What are cookies and cache, and why should you clear them sometimes?",
+        "a": [
+          "Cookies are small files a website stores on your computer to remember who you are, what is in your basket and what your preferences are.",
+          "The cache stores copies of images, scripts and pages so that a site loads faster the next time you visit it.",
+          "Clearing them removes old or corrupted files that can make a site load wrongly, frees disk space, logs you out of accounts and limits tracking.",
+          "The cost is that you have to sign in again and the first visit to a site is slower."
+        ],
+        "t": "S"
       }
     ],
     "mcq": [
@@ -824,6 +941,14 @@
       {
         "q": "A 3-mark answer on “Web Browsers, Search & Web Concepts” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The address bar of a browser shows the: (a) URL of the page you are on  (b) IP address of your own computer  (c) size of the page  (d) number of visitors to the site",
+        "a": "**(a) URL of the page you are on.** You can also type an address there to go to a site."
+      },
+      {
+        "q": "A padlock symbol in the address bar means the page: (a) is served over an encrypted HTTPS connection  (b) is free  (c) is saved offline  (d) belongs to the government",
+        "a": "**(a) is served over an encrypted HTTPS connection.** It does not prove that the site itself is honest."
       }
     ],
     "trend": "Browser versus search engine and cookies versus cache are the two most repeated comparisons in Unit I.",

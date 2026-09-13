@@ -9,14 +9,60 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="topbar">
-  <div class="wrap topbar-in">
-    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
-    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../information-technology/index.html">Hub</a><a href="../../information-technology/syllabus.html">Syllabus</a><a href="../../information-technology/revision.html">Revise</a><a href="../../information-technology/question-bank.html">Bank</a><a href="../../information-technology/drill.html">Drill</a><a href="../../information-technology/pyq.html">PYQ</a></nav>
-  </div>
-</header>
-<main id="main" class="wrap">
-  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Information Technology</a> <span class="sep">/</span> <a href="../units/employability.html">Part A · Employability Skills</a> <span class="sep">/</span> Ch 4 · Entrepreneurial Skills–II</nav>
+<button class="menu-btn" onclick="openMenu()" aria-label="Open navigation">&#9776;</button>
+<div class="backdrop" id="backdrop" onclick="closeMenu()"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+<div class="side-head"><a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a><p class="side-sub">Session 2026–27</p><button class="side-close" onclick="closeMenu()" aria-label="Close navigation">&times;</button></div>
+<div class="progress-wrap"><div class="progress-label"><span>Chapters done</span><span data-subject-text="information-technology" data-total="20">0 of 20</span></div><div class="bar"><span class="fill" data-subject="information-technology" data-total="20"></span></div></div>
+<div class="toc-group">All subjects</div>
+<a class="toc-item" href="../../maths/index.html"><span class="toc-num">041</span>Mathematics</a>
+<a class="toc-item" href="../../science/index.html"><span class="toc-num">086</span>Science</a>
+<a class="toc-item" href="../../social-science/index.html"><span class="toc-num">087</span>Social Science</a>
+<a class="toc-item" href="../../english/index.html"><span class="toc-num">184</span>English Language &amp; Literature</a>
+<a class="toc-item" href="../../hindi/index.html"><span class="toc-num">002 (A)</span>Hindi</a>
+<a class="toc-item is-on" href="../../information-technology/index.html"><span class="toc-num">402</span>Information Technology</a>
+<a class="toc-item" href="../../computer-applications/index.html"><span class="toc-num">165</span>Computer Applications</a>
+<a class="toc-item" href="../../sanskrit/index.html"><span class="toc-num">122</span>Sanskrit</a>
+<div class="toc-group">Information Technology</div>
+<a class="toc-item" href="../../information-technology/index.html"><span class="toc-num">&bull;</span>Hub</a>
+<a class="toc-item is-on" href="../../information-technology/chapters.html" aria-current="page"><span class="toc-num">&bull;</span>Chapters</a>
+<a class="toc-item" href="../../information-technology/syllabus.html"><span class="toc-num">&bull;</span>Syllabus</a>
+<a class="toc-item" href="../../information-technology/question-bank.html"><span class="toc-num">&bull;</span>Q&amp;A bank</a>
+<a class="toc-item" href="../../information-technology/drill.html"><span class="toc-num">&bull;</span>MCQ drill</a>
+<a class="toc-item" href="../../information-technology/revision.html"><span class="toc-num">&bull;</span>Revision</a>
+<a class="toc-item" href="../../information-technology/pyq.html"><span class="toc-num">&bull;</span>PYQ</a>
+<a class="toc-item" href="../../information-technology/practical.html"><span class="toc-num">&bull;</span>Practical</a>
+<div class="toc-group">Chapters</div>
+<div class="toc-sub">Part A · Employability Skills</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch01-communication-skills.html"><span class="toc-num">1</span>Communication Skills–II</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch02-self-management-skills.html"><span class="toc-num">2</span>Self-Management Skills–II</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch03-ict-skills.html"><span class="toc-num">3</span>ICT Skills–II</a>
+<a class="toc-item toc-ch is-on" href="../../information-technology/chapters/ch04-entrepreneurial-skills.html" aria-current="page"><span class="toc-num">4</span>Entrepreneurial Skills–II</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch05-green-skills.html"><span class="toc-num">5</span>Green Skills–II</a>
+<div class="toc-sub">Unit 1 · Digital Documentation (Writer)</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch06-writer-styles.html"><span class="toc-num">6</span>Introduction to Styles (Writer)</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch07-writer-images.html"><span class="toc-num">7</span>Working with Images (Writer)</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch08-writer-toc-templates.html"><span class="toc-num">8</span>ToC, Templates and Track Changes</a>
+<div class="toc-sub">Unit 2 · Electronic Spreadsheet (Calc)</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch09-calc-scenarios-goal-seek.html"><span class="toc-num">9</span>Scenarios and Goal Seek (Calc)</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch10-calc-macros.html"><span class="toc-num">10</span>Macros in Spreadsheet</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch11-calc-linking.html"><span class="toc-num">11</span>Linking Spreadsheet Data</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch12-calc-share-review.html"><span class="toc-num">12</span>Share and Review a Spreadsheet</a>
+<div class="toc-sub">Unit 3 · Database Management System (Base)</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch13-dbms-intro.html"><span class="toc-num">13</span>Introduction to DBMS</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch14-base-tables.html"><span class="toc-num">14</span>Tables in LibreOffice Base</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch15-base-relationships.html"><span class="toc-num">15</span>Relationships and Multiple Tables</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch16-base-queries.html"><span class="toc-num">16</span>Queries in Base</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch17-base-forms-reports.html"><span class="toc-num">17</span>Forms and Reports</a>
+<div class="toc-sub">Unit 4 · Healthy, Safe and Secure Workplace</div>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch18-workplace-safety.html"><span class="toc-num">18</span>Health, Safety and Security at the Workplace</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch19-quality-ergonomics.html"><span class="toc-num">19</span>Workplace Quality and Ergonomics</a>
+<a class="toc-item toc-ch" href="../../information-technology/chapters/ch20-accidents-emergencies.html"><span class="toc-num">20</span>Prevent Accidents and Emergencies</a>
+<div class="sidebar-foot">Progress is saved in this browser.<br>Created by <strong>Mohammad Umair</strong></div>
+  </aside>
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Information Technology</a> <span class="sep">/</span> <a href="../units/employability.html">Part A · Employability Skills</a> <span class="sep">/</span> Ch 4 · Entrepreneurial Skills–II</nav>
 <p class="kicker">CBSE • CLASS 10 • IT 402</p><h1>Chapter 4 · Entrepreneurial Skills–II</h1><p class="lede"><strong>Chapter 4 of 20.</strong> Definition plus four qualities plus one myth — that is the whole 3-mark answer.</p><p><a class="btn" href="../practice/ch04-entrepreneurial-skills.html">Open this chapter’s questions + MCQs →</a></p><p class="chips"><a class="chip" href="#marks-lens">🎯 Marks lens</a> <a class="chip" href="#deep-concepts">📖 Deep concepts</a> <a class="chip" href="#tricks">🧠 Tricks</a> <a class="chip" href="#mistakes">⚠️ Mistakes</a> <a class="chip" href="#exam-qa">❓ Exam Q&A</a> <a class="chip" href="#task">✍️ Task</a></p>
 <h2 id="marks-lens">🎯 Marks lens</h2><div class="callout"><p><strong>3 marks.</strong> Qualities of an entrepreneur and “role in society” rotate.<br>Always add a <strong>small Indian example</strong> (a local bakery, a tutoring app).</p></div>
 <h2 id="deep-concepts">📖 Deep concepts</h2>
@@ -27,7 +73,7 @@
 <ul><li>Calling every shopkeeper an entrepreneur without the risk/innovation idea.</li><li>Listing qualities with no example.</li></ul>
 <h2 id="exam-qa">❓ Exam Q&A</h2>
 <p class="hint">Short · Long · Application · Competency — write first, then Show Answer.</p>
-<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 8 revealed<span class="qshown"> · <span data-shown>8</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (8)</button><button type="button" class="qfilter" data-filter="S">Short (2)</button><button type="button" class="qfilter" data-filter="L">Long (2)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
+<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 10 revealed<span class="qshown"> · <span data-shown>10</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (10)</button><button type="button" class="qfilter" data-filter="S">Short (4)</button><button type="button" class="qfilter" data-filter="L">Long (2)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
 <div class="qstack"><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S1</span><span class="marks">2 marks</span></div><p class="qtext"><strong>1.</strong> Who is an entrepreneur? Give two qualities.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>A person who spots a need, takes a risk and organises resources to start a venture. Qualities: initiative and perseverance (or creativity, self-confidence).</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S2</span><span class="marks">2 marks</span></div><p class="qtext"><strong>2.</strong> State two myths about entrepreneurship and correct them.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(1) “Born, not made” — skills can be learned. (2) “Needs huge capital” — many start with a small idea and grow.</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L3</span><span class="marks">4 marks</span></div><p class="qtext"><strong>3.</strong> Explain four functions of an entrepreneur with a bakery example.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Identify demand for fresh bread; arrange shop, oven and staff; take the risk of unsold stock; market via samples and a board; keep accounts. Each function maps to one quality: opportunity-spotting, organising, risk-taking, selling.</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A4</span><span class="marks">3 marks</span></div><p class="qtext"><strong>4.</strong> Neha notices students waiting 40 minutes for a shared printer. She starts a paid print-and-bind desk. Which entrepreneurial qualities is she using?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Opportunity-spotting, initiative, risk-taking (she invests in a printer), problem-solving and customer focus.</p></div></details></article><article class="qcard" data-type="C"><div class="qmeta"><span class="qbadge qbadge-c">COMPETENCY</span><span class="qcode">C5</span><span class="marks">4 marks</span></div><p class="qtext"><strong>5.</strong> Read and answer:
 
 A poster says “Only rich, highly educated people can start a business.”
@@ -42,15 +88,17 @@ The chapter is described as: Who an entrepreneur is, qualities, functions, myths
 
 (a) Name the key idea.
 (b) How is this usually asked in the paper?
-(c) State one mistake that would cost a mark.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(a) Who an entrepreneur is, qualities, functions, myths and role in society.<br>(b) marks. Qualities of an entrepreneur and “role in society” rotate.<br>(c) Calling every shopkeeper an entrepreneur without the risk/innovation idea.</p></div></details></article></div>
+(c) State one mistake that would cost a mark.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(a) Who an entrepreneur is, qualities, functions, myths and role in society.<br>(b) marks. Qualities of an entrepreneur and “role in society” rotate.<br>(c) Calling every shopkeeper an entrepreneur without the risk/innovation idea.</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S9</span><span class="marks">2 marks</span></div><p class="qtext"><strong>9.</strong> List any four qualities an entrepreneur needs.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Self-confidence, the willingness to take calculated risks, initiative and perseverance, the ability to plan and organise, and the readiness to learn from failure and try again.</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S10</span><span class="marks">3 marks</span></div><p class="qtext"><strong>10.</strong> What functions does an entrepreneur perform in running an enterprise?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Spotting an opportunity and turning it into a product or service people will pay for.<br>Arranging the money, buying raw materials, machines and premises, and hiring and training workers.<br>Organising production, keeping accounts and marketing the product.<br>Bearing the risk of loss, and taking the decisions that keep the enterprise alive.</p></div></details></article></div>
 <h2 id="task">✍️ Hands-on task</h2>
 <div class="callout alt"><p>Pick one problem in your school. Write a 6-line business idea: customer, product, cost, risk, one quality you would need.</p></div>
 <div class="done"><label><input type="checkbox" class="mark-complete" data-key="information-technology::pa##ch04-entrepreneurial-skills" data-subject="information-technology"> Mark “Ch 4 · Entrepreneurial Skills–II” complete</label><p><a href="../practice/ch04-entrepreneurial-skills.html">Practise this chapter’s MCQs and written questions →</a></p></div>
-</main>
+<nav class="chapnav" aria-label="Chapter navigation"><a class="chapnav-prev" href="ch03-ict-skills.html"><span>← Previous</span>Ch 3 · ICT Skills–II</a><a class="chapnav-index" href="../chapters.html">All Information Technology chapters</a><a class="chapnav-next" href="ch05-green-skills.html"><span>Next →</span>Ch 5 · Green Skills–II</a></nav>
+  </main>
+</div>
 <footer class="wrap foot">
-  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  <div class="foot-main"><p>Built for CBSE Class 10 &middot; session 2026–27 &middot; content is original study material,
   not official CBSE papers. Always confirm the syllabus against
-  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p><nav class="foot-subj" aria-label="All subjects"><a href="../../maths/index.html">Mathematics</a> <a href="../../science/index.html">Science</a> <a href="../../social-science/index.html">Social Science</a> <a href="../../english/index.html">English Language &amp; Literature</a> <a href="../../hindi/index.html">Hindi</a> <a href="../../information-technology/index.html">Information Technology</a> <a href="../../computer-applications/index.html">Computer Applications</a> <a href="../../sanskrit/index.html">Sanskrit</a></nav><p class="credit">Created by <strong>Mohammad Umair</strong></p></div>
   <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
 </footer>
 <script src="../../assets/app.js"></script>
