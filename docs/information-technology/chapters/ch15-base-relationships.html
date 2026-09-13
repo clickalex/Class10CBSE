@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ch 15 · Relationships and Multiple Tables · Class 10 CBSE</title>
+<meta name="description" content="CBSE Class 10 Ch 15 · Relationships and Multiple Tables — chapter notes, formulas, exam Q&amp;A and revision.">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
+    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../information-technology/index.html">Hub</a><a href="../../information-technology/syllabus.html">Syllabus</a><a href="../../information-technology/revision.html">Revise</a><a href="../../information-technology/question-bank.html">Bank</a><a href="../../information-technology/drill.html">Drill</a><a href="../../information-technology/pyq.html">PYQ</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Information Technology</a> <span class="sep">/</span> <a href="../units/dbms.html">Unit 3 · Database Management System (Base)</a> <span class="sep">/</span> Ch 15 · Relationships and Multiple Tables</nav>
+<p class="kicker">CBSE • CLASS 10 • IT 402</p><h1>Chapter 15 · Relationships and Multiple Tables</h1><p class="lede"><strong>Chapter 15 of 20.</strong> Two tables and a line between them. This is what separates Base from Calc.</p><p><a class="btn" href="../practice/ch15-base-relationships.html">Open this chapter’s questions + MCQs →</a></p><p class="chips"><a class="chip" href="#marks-lens">🎯 Marks lens</a> <a class="chip" href="#deep-concepts">📖 Deep concepts</a> <a class="chip" href="#steps">🛠️ Steps</a> <a class="chip" href="#tricks">🧠 Tricks</a> <a class="chip" href="#mistakes">⚠️ Mistakes</a> <a class="chip" href="#exam-qa">❓ Exam Q&A</a> <a class="chip" href="#task">✍️ Task</a></p>
+<h2 id="marks-lens">🎯 Marks lens</h2><div class="callout"><p>Draw <strong>one-to-many</strong> (Student–Issue) with referential integrity.<br>Know why we split tables (normalisation in simple words).</p></div>
+<h2 id="deep-concepts">📖 Deep concepts</h2>
+<p><strong>1. Why multiple tables:</strong> store each fact once. Student details in Student; issues in Issue; link by AdmNo.<br><strong>2. One-to-one:</strong> one passport per citizen. Rare in Class 10 practicals.<br><strong>3. One-to-many:</strong> one student, many issue records. The <strong>many</strong> side holds the <strong>foreign key</strong>.<br><strong>4. Many-to-many:</strong> students and activities — needs a third (junction) table.<br><strong>5. Creating a relationship:</strong> Tools → Relationships → add tables → drag PK to FK → tick <strong>Referential integrity</strong> → optionally Cascade Update/Delete.<br><strong>6. Referential integrity:</strong> you cannot type an Issue.AdmNo that does not exist in Student. You cannot delete a student who still has issue rows (unless cascade).<br><strong>7. Cascade update/delete:</strong> changing/deleting the parent PK updates/deletes child rows. Use delete cascade only when the question asks.</p>
+<h2 id="steps">🛠️ Method, step by step</h2>
+<ol><li>Create both tables; set PKs.</li><li>On the many side, add the FK field with the <strong>same type</strong> as the PK.</li><li>Tools → Relationships.</li><li>Drag Student.AdmNo to Issue.AdmNo.</li><li>Tick Referential integrity → OK.</li></ol>
+<h2 id="tricks">🧠 Memory tricks</h2>
+<ul><li>FK type must <strong>match</strong> PK type (both Integer, or both VARCHAR).</li><li>The crow’s-foot / many side is the table that <strong>repeats</strong> the key.</li></ul>
+<h2 id="mistakes">⚠️ Mistakes that cost marks</h2>
+<ul><li>Drawing the relationship backwards (PK on the many side).</li><li>Different data types on PK and FK — Base refuses the link.</li></ul>
+<h2 id="exam-qa">❓ Exam Q&A</h2>
+<p class="hint">Short · Long · Application · Competency — write first, then Show Answer.</p>
+<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 8 revealed<span class="qshown"> · <span data-shown>8</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (8)</button><button type="button" class="qfilter" data-filter="S">Short (2)</button><button type="button" class="qfilter" data-filter="L">Long (2)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
+<div class="qstack"><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S1</span><span class="marks">2 marks</span></div><p class="qtext"><strong>1.</strong> What is a one-to-many relationship? Give an example.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>One record in table A matches many in table B. One student, many library issues. The Issue table stores AdmNo as FK.</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S2</span><span class="marks">2 marks</span></div><p class="qtext"><strong>2.</strong> What is referential integrity?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>A rule that every foreign-key value must match an existing primary key, so you cannot create orphan records.</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L3</span><span class="marks">4 marks</span></div><p class="qtext"><strong>3.</strong> Explain how to relate Student and Issue in Base.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>AdmNo PK in Student; AdmNo FK in Issue (same type). Tools → Relationships, drag PK to FK, enable referential integrity. Then an issue cannot use a missing admission number.</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A4</span><span class="marks">3 marks</span></div><p class="qtext"><strong>4.</strong> A shop has Customer and Order tables. Where does CustomerID go, and what relationship is this?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>CustomerID is PK in Customer and FK in Order. One-to-many (one customer, many orders).</p></div></details></article><article class="qcard" data-type="C"><div class="qmeta"><span class="qbadge qbadge-c">COMPETENCY</span><span class="qcode">C5</span><span class="marks">4 marks</span></div><p class="qtext"><strong>5.</strong> Read and answer:
+
+Deleting student 12 failed because “existing related records”.
+
+(a) What rule is firing?
+(b) Two safe ways to proceed.
+(c) When would cascade delete be wrong?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(a) Referential integrity — Issue rows still point to 12.<br>(b) Delete or reassign the issue rows first; or (if asked) enable cascade delete.<br>(c) When those issues are history you must keep — never cascade-delete library history by accident.</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L6</span><span class="marks">5 marks</span></div><p class="qtext"><strong>6.</strong> Discuss “Relationships and Multiple Tables” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Why multiple tables: store each fact once. Student details in Student; issues in Issue; link by AdmNo.<br>Marks lens: Draw one-to-many (Student–Issue) with referential integrity.<br>Method / memory trick: FK type must match PK type (both Integer, or both VARCHAR).<br>Do not: Drawing the relationship backwards (PK on the many side).</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A7</span><span class="marks">3 marks</span></div><p class="qtext"><strong>7.</strong> Riya is revising “Relationships and Multiple Tables” (One-to-one, one-to-many, many-to-many; referential integrity.). A classmate lost marks by doing this: Drawing the relationship backwards (PK on the many side). Apply the correct method and rewrite the scoring answer.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Correct method: FK type must match PK type (both Integer, or both VARCHAR).<br>Why the mistake costs marks: Drawing the relationship backwards (PK on the many side).<br>Write the definition or formula first, then the working or example.</p></div></details></article><article class="qcard" data-type="C"><div class="qmeta"><span class="qbadge qbadge-c">COMPETENCY</span><span class="qcode">C8</span><span class="marks">4 marks</span></div><p class="qtext"><strong>8.</strong> Read and answer:
+
+A Class 10 student is preparing “Relationships and Multiple Tables”. Their note says: Why multiple tables: store each fact once. Student details in Student; issues in Issue; link by AdmNo.
+
+The chapter is described as: One-to-one, one-to-many, many-to-many; referential integrity..
+
+(a) Name the key idea.
+(b) How is this usually asked in the paper?
+(c) State one mistake that would cost a mark.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(a) One-to-one, one-to-many, many-to-many; referential integrity.<br>(b) Draw one-to-many (Student–Issue) with referential integrity.<br>(c) Drawing the relationship backwards (PK on the many side).</p></div></details></article></div>
+<h2 id="task">✍️ Hands-on task</h2>
+<div class="callout alt"><p>Build Customer(CustomerID PK) and Order(OrderID PK, CustomerID FK). Relate them with referential integrity and try to enter an order for a missing customer — it should fail.</p></div>
+<div class="done"><label><input type="checkbox" class="mark-complete" data-key="information-technology::dbms##ch15-base-relationships" data-subject="information-technology"> Mark “Ch 15 · Relationships and Multiple Tables” complete</label><p><a href="../practice/ch15-base-relationships.html">Practise this chapter’s MCQs and written questions →</a></p></div>
+</main>
+<footer class="wrap foot">
+  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  not official CBSE papers. Always confirm the syllabus against
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
+</footer>
+<script src="../../assets/app.js"></script>
+</body>
+</html>

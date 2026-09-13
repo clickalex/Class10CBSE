@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ch 14 · Tables in LibreOffice Base · Class 10 CBSE</title>
+<meta name="description" content="CBSE Class 10 Ch 14 · Tables in LibreOffice Base — chapter notes, formulas, exam Q&amp;A and revision.">
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="../../index.html">Class&nbsp;10&nbsp;<span>CBSE</span></a>
+    <nav class="topnav"><a href="../../index.html">All subjects</a><a href="../../information-technology/index.html">Hub</a><a href="../../information-technology/syllabus.html">Syllabus</a><a href="../../information-technology/revision.html">Revise</a><a href="../../information-technology/question-bank.html">Bank</a><a href="../../information-technology/drill.html">Drill</a><a href="../../information-technology/pyq.html">PYQ</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+  <nav class="crumbs"><a href="../../index.html">Home</a> <span class="sep">/</span> <a href="../index.html">Information Technology</a> <span class="sep">/</span> <a href="../units/dbms.html">Unit 3 · Database Management System (Base)</a> <span class="sep">/</span> Ch 14 · Tables in LibreOffice Base</nav>
+<p class="kicker">CBSE • CLASS 10 • IT 402</p><h1>Chapter 14 · Tables in LibreOffice Base</h1><p class="lede"><strong>Chapter 14 of 20.</strong> The practical starts here. Design View + data types + PK is the 10-mark Base task.</p><p><a class="btn" href="../practice/ch14-base-tables.html">Open this chapter’s questions + MCQs →</a></p><p class="chips"><a class="chip" href="#marks-lens">🎯 Marks lens</a> <a class="chip" href="#deep-concepts">📖 Deep concepts</a> <a class="chip" href="#steps">🛠️ Steps</a> <a class="chip" href="#tricks">🧠 Tricks</a> <a class="chip" href="#mistakes">⚠️ Mistakes</a> <a class="chip" href="#exam-qa">❓ Exam Q&A</a> <a class="chip" href="#task">✍️ Task</a></p>
+<h2 id="marks-lens">🎯 Marks lens</h2><div class="callout"><p>Create a table with <strong>four fields, correct types, PK set</strong>.<br>Field properties: Required, Length, Default, Format.</p></div>
+<h2 id="deep-concepts">📖 Deep concepts</h2>
+<p><strong>1. Ways to create a table:</strong> Design View (exam method), Wizard, View/SQL. Use <strong>Design View</strong>.<br><strong>2. Data types:</strong> Text [VARCHAR], Integer, Numeric/Decimal, Date, Time, DateTime, Yes/No, Memo (long text), Image (rarely).<br><strong>3. Set primary key:</strong> right-click the field → Primary Key (key icon). Save the table (<code>Student</code>).<br><strong>4. Field properties:</strong> Entry required (Yes), Length (25), Default value, Format example, AutoValue for integer PKs.<br><strong>5. Datasheet view</strong> is for typing records; Design View is for structure. Do not confuse them.<br><strong>6. Save before closing.</strong> Base will not keep an unsaved table design.<br><strong>7. Good design:</strong> one fact per field (separate FirstName, not a whole address in Name).</p>
+<h2 id="steps">🛠️ Method, step by step</h2>
+<ol><li>Base → Create Table in Design View.</li><li>Type field names and data types down the rows.</li><li>Right-click AdmNo → Primary Key.</li><li>Set Length / Required as asked.</li><li>Save as <code>Student</code>, then open Datasheet to enter two sample rows.</li></ol>
+<h2 id="tricks">🧠 Memory tricks</h2>
+<ul><li>Phone numbers are <strong>Text</strong>, not Integer — or you lose leading 0.</li><li>Fees can be Decimal; age is Integer; DOB is Date.</li></ul>
+<h2 id="mistakes">⚠️ Mistakes that cost marks</h2>
+<ul><li>Forgetting to set the primary key — Base warns, some students click No.</li><li>Using spaces in field names when the question gave <code>RollNo</code>.</li></ul>
+<h2 id="exam-qa">❓ Exam Q&A</h2>
+<p class="hint">Short · Long · Application · Competency — write first, then Show Answer.</p>
+<div class="qbar" data-qbar><p class="qcount"><span data-revealed>0</span> / 8 revealed<span class="qshown"> · <span data-shown>8</span> shown</span></p><div class="qfilters"><button type="button" class="qfilter is-on" data-filter="all">All types (8)</button><button type="button" class="qfilter" data-filter="S">Short (2)</button><button type="button" class="qfilter" data-filter="L">Long (2)</button><button type="button" class="qfilter" data-filter="A">Application (2)</button><button type="button" class="qfilter" data-filter="C">Competency (2)</button></div><div class="qbar-actions"><button type="button" class="btn" data-show-all>Show all</button><button type="button" class="btn" data-hide-all>Hide all</button></div><p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. Original practice — not official CBSE papers.</p></div>
+<div class="qstack"><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S1</span><span class="marks">2 marks</span></div><p class="qtext"><strong>1.</strong> Name four data types in Base and one use each.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>VARCHAR for names, Integer for roll number, Date for DOB, Decimal for fees, Yes/No for paid flag.</p></div></details></article><article class="qcard" data-type="S"><div class="qmeta"><span class="qbadge qbadge-s">SHORT</span><span class="qcode">S2</span><span class="marks">2 marks</span></div><p class="qtext"><strong>2.</strong> How do you set a primary key in Design View?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Right-click the field row → Primary Key so the key icon appears, then save the table.</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L3</span><span class="marks">4 marks</span></div><p class="qtext"><strong>3.</strong> Write field names, types and keys for a table Book.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>ISBN VARCHAR PK; Title VARCHAR; Author VARCHAR; Price DECIMAL; Available YES/NO. ISBN uniquely identifies a book; Available is Boolean.</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A4</span><span class="marks">3 marks</span></div><p class="qtext"><strong>4.</strong> A student stores mobile numbers as Integer and 098… becomes 98. Why, and what type should be used?</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Integer drops leading zeros and is not a “number you calculate with”. Use <strong>Text/VARCHAR</strong>.</p></div></details></article><article class="qcard" data-type="C"><div class="qmeta"><span class="qbadge qbadge-c">COMPETENCY</span><span class="qcode">C5</span><span class="marks">4 marks</span></div><p class="qtext"><strong>5.</strong> Read and answer:
+
+Table Marks has fields Name, Marks, Marks, Date.
+
+(a) Three design faults.
+(b) Redesign with types and a PK.
+(c) Which view to use in the practical.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(a) Duplicate field name; no PK; Name is a weak key; Date of what?<br>(b) StudentID INTEGER PK; Name VARCHAR; Marks INTEGER; ExamDate DATE.<br>(c) Design View to build, Datasheet to enter records.</p></div></details></article><article class="qcard" data-type="L"><div class="qmeta"><span class="qbadge qbadge-l">LONG</span><span class="qcode">L6</span><span class="marks">5 marks</span></div><p class="qtext"><strong>6.</strong> Discuss “Tables in LibreOffice Base” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Ways to create a table: Design View (exam method), Wizard, View/SQL. Use Design View.<br>Marks lens: Create a table with four fields, correct types, PK set.<br>Method / memory trick: Phone numbers are Text, not Integer — or you lose leading 0.<br>Do not: Forgetting to set the primary key — Base warns, some students click No.</p></div></details></article><article class="qcard" data-type="A"><div class="qmeta"><span class="qbadge qbadge-a">APPLICATION</span><span class="qcode">A7</span><span class="marks">3 marks</span></div><p class="qtext"><strong>7.</strong> Riya is revising “Tables in LibreOffice Base” (Create tables in Design View, data types, primary key, field properties.). A classmate lost marks by doing this: Forgetting to set the primary key — Base warns, some students click No. Apply the correct method and rewrite the scoring answer.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>Correct method: Phone numbers are Text, not Integer — or you lose leading 0.<br>Why the mistake costs marks: Forgetting to set the primary key — Base warns, some students click No.<br>Write the definition or formula first, then the working or example.</p></div></details></article><article class="qcard" data-type="C"><div class="qmeta"><span class="qbadge qbadge-c">COMPETENCY</span><span class="qcode">C8</span><span class="marks">4 marks</span></div><p class="qtext"><strong>8.</strong> Read and answer:
+
+A Class 10 student is preparing “Tables in LibreOffice Base”. Their note says: Ways to create a table: Design View (exam method), Wizard, View/SQL. Use Design View.
+
+The chapter is described as: Create tables in Design View, data types, primary key, field properties..
+
+(a) Name the key idea.
+(b) How is this usually asked in the paper?
+(c) State one mistake that would cost a mark.</p><details class="qans"><summary>Show Answer</summary><div class="ans"><p><strong>Ans:</strong></p><p>(a) Create tables in Design View, data types, primary key, field properties.<br>(b) Create a table with four fields, correct types, PK set.<br>(c) Forgetting to set the primary key — Base warns, some students click No.</p></div></details></article></div>
+<h2 id="task">✍️ Hands-on task</h2>
+<div class="callout alt"><p>Create <code>Student(AdmNo INTEGER PK, Name VARCHAR(30), Class VARCHAR(5), Fees DECIMAL)</code> and enter three records.</p></div>
+<div class="done"><label><input type="checkbox" class="mark-complete" data-key="information-technology::dbms##ch14-base-tables" data-subject="information-technology"> Mark “Ch 14 · Tables in LibreOffice Base” complete</label><p><a href="../practice/ch14-base-tables.html">Practise this chapter’s MCQs and written questions →</a></p></div>
+</main>
+<footer class="wrap foot">
+  <p>Built for CBSE Class 10 · session 2026–27 · content is original study material,
+  not official CBSE papers. Always confirm the syllabus against
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  <button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
+</footer>
+<script src="../../assets/app.js"></script>
+</body>
+</html>

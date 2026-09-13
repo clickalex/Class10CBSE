@@ -110,8 +110,9 @@ def page(title, crumbs, body, root="..", subject=None):
             f'<a href="{root}/index.html">All subjects</a>'
             f'<a href="{root}/{subject}/index.html">Hub</a>'
             f'<a href="{root}/{subject}/syllabus.html">Syllabus</a>'
-            f'<a href="{root}/{subject}/revision.html">Revision</a>'
-            f'<a href="{root}/{subject}/question-bank.html">Questions</a>'
+            f'<a href="{root}/{subject}/revision.html">Revise</a>'
+            f'<a href="{root}/{subject}/question-bank.html">Bank</a>'
+            f'<a href="{root}/{subject}/drill.html">Drill</a>'
             f'<a href="{root}/{subject}/pyq.html">PYQ</a>'
         )
     else:
@@ -151,6 +152,125 @@ def page(title, crumbs, body, root="..", subject=None):
 
 def card_grid(cards, cls="cards"):
     return f'<div class="{cls}">' + "".join(cards) + "</div>"
+
+
+# --------------------------------------------------------------------------
+# IT-style Q&A cards (Short / Long / Application / Competency + MCQ)
+# --------------------------------------------------------------------------
+TYPE_META = {
+    "S": ("SHORT", "Short"),
+    "L": ("LONG", "Long"),
+    "A": ("APPLICATION", "Application"),
+    "C": ("COMPETENCY", "Competency"),
+    "M": ("MCQ", "MCQ"),
+}
+
+
+def infer_qa_type(q) -> str:
+    t = str(q.get("t") or "").upper()[:1]
+    if t in TYPE_META and t != "M":
+        return t
+    text = str(q.get("q", "")).lower()
+    if any(
+        k in text
+        for k in (
+            "read the following",
+            "read and answer",
+            "case-stud",
+            "competency",
+            "निम्नलिखित",
+            "पढ़कर उत्तर",
+        )
+    ):
+        return "C"
+    if any(
+        k in text
+        for k in (
+            "apply ",
+            "situation",
+            "rewrite",
+            "a student",
+            "identify the violated",
+            "स्थिति",
+        )
+    ):
+        return "A"
+    try:
+        n = int(re.match(r"\d+", str(q.get("m", "3"))).group(0))
+    except Exception:
+        n = 3
+    return "S" if n <= 3 else "L"
+
+
+def render_qcard(q, idx, kind="qa"):
+    """One click-to-reveal card. kind='qa' or 'mcq'."""
+    t = "M" if kind == "mcq" else infer_qa_type(q)
+    badge, _label = TYPE_META[t]
+    marks = html.escape(str(q.get("m", "1" if t == "M" else "2")))
+    qhtml = inline(q["q"])
+    ans = q["a"]
+    ans_html = blocks(ans if isinstance(ans, list) else [ans])
+    code = f"{t}{idx}"
+    return (
+        f'<article class="qcard" data-type="{t}">'
+        f'<div class="qmeta">'
+        f'<span class="qbadge qbadge-{t.lower()}">{badge}</span>'
+        f'<span class="qcode">{html.escape(code)}</span>'
+        f'<span class="marks">{marks} mark{"s" if marks != "1" else ""}</span>'
+        f"</div>"
+        f'<p class="qtext"><strong>{idx}.</strong> {qhtml}</p>'
+        f'<details class="qans"><summary>Show Answer</summary>'
+        f'<div class="ans"><p><strong>Ans:</strong></p>{ans_html}</div>'
+        f"</details></article>"
+    )
+
+
+def render_qbank(items, kind="qa", heading=None):
+    if not items:
+        return '<p class="hint">No questions filed yet.</p>'
+    cards = "".join(render_qcard(q, i, kind) for i, q in enumerate(items, 1))
+    head = f"<h2>{html.escape(heading)}</h2>" if heading else ""
+    return f'{head}<div class="qstack">{cards}</div>'
+
+
+def qbar_html(n_s, n_l, n_a, n_c, n_m=0):
+    total = n_s + n_l + n_a + n_c + n_m
+    btns = [("all", f"All types ({total})")]
+    if n_s:
+        btns.append(("S", f"Short ({n_s})"))
+    if n_l:
+        btns.append(("L", f"Long ({n_l})"))
+    if n_a:
+        btns.append(("A", f"Application ({n_a})"))
+    if n_c:
+        btns.append(("C", f"Competency ({n_c})"))
+    if n_m:
+        btns.append(("M", f"MCQ ({n_m})"))
+    filters = "".join(
+        f'<button type="button" class="qfilter{" is-on" if key == "all" else ""}" data-filter="{key}">{html.escape(label)}</button>'
+        for key, label in btns
+    )
+    return (
+        '<div class="qbar" data-qbar>'
+        f'<p class="qcount"><span data-revealed>0</span> / {total} revealed'
+        f'<span class="qshown"> · <span data-shown>{total}</span> shown</span></p>'
+        f'<div class="qfilters">{filters}</div>'
+        '<div class="qbar-actions">'
+        '<button type="button" class="btn" data-show-all>Show all</button>'
+        '<button type="button" class="btn" data-hide-all>Hide all</button>'
+        "</div>"
+        '<p class="hint">Write each answer in a notebook <strong>without seeing</strong>, then reveal and self-mark. '
+        "Original practice — not official CBSE papers.</p>"
+        "</div>"
+    )
+
+
+def count_types(qa, mcq=None):
+    n = {k: 0 for k in "SLACM"}
+    for q in qa or []:
+        n[infer_qa_type(q)] += 1
+    n["M"] = len(mcq or [])
+    return n
 
 
 # --------------------------------------------------------------------------
@@ -272,15 +392,13 @@ def chapter_body(subj, ch, idx, total):
         parts.append(blocks(ch["mistakes"]))
 
     parts.append('<h2 id="exam-qa">\u2753 Exam Q&A</h2>')
-    qa_html = []
-    for q in ch.get("qa", []):
-        qa_html.append(
-            f'<details class="qa"><summary><span class="marks">{html.escape(q["m"])} '
-            f'marks</span> {inline(q["q"])}</summary>'
-            f'<div class="ans">{blocks(q["a"] if isinstance(q["a"], list) else [q["a"]])}</div>'
-            "</details>"
-        )
-    parts.append("".join(qa_html) or "<p>No questions filed yet.</p>")
+    parts.append(
+        '<p class="hint">Short · Long · Application · Competency — write first, then Show Answer.</p>'
+    )
+    qa_items = ch.get("qa") or []
+    n = count_types(qa_items)
+    parts.append(qbar_html(n["S"], n["L"], n["A"], n["C"]))
+    parts.append(render_qbank(qa_items))
 
     if ch.get("task"):
         parts.append('<h2 id="task">\u270d\ufe0f Hands-on task</h2>')
@@ -344,11 +462,15 @@ def hub_body(subj, chapters):
 
     first = chapters[0]
     cards_meta = subj.get("cards", {})
+    n_qa = sum(len(c.get("qa") or []) for c in chapters)
+    n_mcq = sum(len(c.get("mcq") or []) for c in chapters)
     jump_items = [
         ("practical.html", "\U0001f9ea", cards_meta.get("practical", "Practical lab"),
          "Activities, diagrams, viva questions."),
-        ("question-bank.html", "\u2753", cards_meta.get("questions", "Test yourself"),
-         "Chapter-wise MCQs and written questions, syllabus-mapped."),
+        ("question-bank.html", "\u2753", cards_meta.get("questions", "Question bank"),
+         f"{n_qa} written Q&As — Short, Long, Application, Competency. Click to reveal."),
+        ("drill.html", "\U0001f3af", "Drill MCQs",
+         f"{n_mcq} MCQs. Attempt first, then Show Answer."),
         ("pyq.html", "\U0001f4dd", cards_meta.get("pyq", "PYQ practice"),
          "Past-paper trends by chapter."),
         ("revision.html", "\U0001f9e0", cards_meta.get("revision", "Exam morning"),
@@ -388,10 +510,19 @@ def hub_body(subj, chapters):
 <ol class="order">{order}</ol>
 <p class="hint">{inline(subj.get("countdown", ""))}</p>
 
+<h2>Follow the cycle, in order</h2>
+<div class="cycle">
+  <a class="cycle-card" href="chapters/{first["id"]}.html"><span class="cycle-n">1</span><strong>Learn</strong><span>Chapter notes, concepts, tricks.</span></a>
+  <a class="cycle-card" href="practice/{first["id"]}.html"><span class="cycle-n">2</span><strong>Write</strong><span>Short · Long · Application · Competency. Cover, write, compare.</span></a>
+  <a class="cycle-card" href="drill.html"><span class="cycle-n">3</span><strong>Drill</strong><span>MCQs for the whole subject. Show Answer when ready.</span></a>
+  <a class="cycle-card" href="revision.html"><span class="cycle-n">4</span><strong>Revise</strong><span>One-page sheet per chapter.</span></a>
+  <a class="cycle-card" href="question-bank.html"><span class="cycle-n">5</span><strong>Bank</strong><span>Every written Q&amp;A, answers hidden.</span></a>
+</div>
+
 <h2>Jump in</h2>
 {jump_cards}
 """
-    crumbs = [("Home", "../index.html"), ("Home", None)]
+    crumbs = [("Home", "../index.html"), (subj["title"], None)]
     return crumbs, body
 
 
@@ -450,27 +581,30 @@ Expand what you need, skip what you know.</p>
 
 
 def question_bank_body(subj, chapters):
+    all_qa = []
     secs = []
     for ch in chapters:
-        qa = "".join(
-            f'<li><span class="marks">{html.escape(q["m"])}</span> {inline(q["q"])}</li>'
-            for q in ch.get("qa", [])
-        )
-        qa_list = qa or '<li class="hint">No questions filed yet.</li>'
+        items = ch.get("qa") or []
+        all_qa.extend(items)
+        cards = "".join(render_qcard(q, i) for i, q in enumerate(items, 1))
         secs.append(
-            f'<section class="qblock"><h3 id="{ch["id"]}">Ch {ch["num"]} \u00b7 '
-            f'{html.escape(ch["title"])}</h3>'
-            f'<ul class="qlist">{qa_list}</ul>'
-            f'<p><a class="btn" href="practice/{ch["id"]}.html">Practise with answers \u2192</a></p></section>'
+            f'<section class="qblock" id="{ch["id"]}">'
+            f'<h3>Ch {ch["num"]} \u00b7 {html.escape(ch["title"])} '
+            f'<span class="hint">({len(items)})</span></h3>'
+            f'<div class="qstack">{cards or "<p class=hint>No questions filed yet.</p>"}</div>'
+            f'<p><a class="btn" href="practice/{ch["id"]}.html">Chapter practice (MCQs + written) \u2192</a></p>'
+            "</section>"
         )
+    n = count_types(all_qa)
     toc = " ".join(
         f'<a class="chip" href="#{ch["id"]}">Ch {ch["num"]}</a>' for ch in chapters
     )
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
 <h1>{html.escape(subj["title"])} \u2014 Question bank</h1>
-<p class="lede">Every question filed on this site, grouped by chapter.
-Original practice questions written to the syllabus \u2014 not official CBSE papers.</p>
+<p class="lede">Book-style Q&amp;As: Short + Long + Application + Competency.
+Answers stay hidden until you click <strong>Show Answer</strong>. Write 15–20 a day in a notebook, then self-mark.</p>
+{qbar_html(n["S"], n["L"], n["A"], n["C"])}
 <p class="chips">{toc}</p>
 {"".join(secs)}
 """
@@ -528,32 +662,54 @@ def unit_body(subj, unit, chapters):
 
 
 def practice_body(subj, ch):
-    qa = []
-    for q in ch.get("qa", []):
-        qa.append(
-            f'<details class="qa"><summary><span class="marks">{html.escape(q["m"])} marks</span> '
-            f'{inline(q["q"])}</summary><div class="ans">'
-            f'{blocks(q["a"] if isinstance(q["a"], list) else [q["a"]])}</div></details>'
-        )
-    mcq = "".join(
-        f'<details class="qa"><summary>{inline(m["q"])}</summary>'
-        f'<div class="ans">{blocks([m["a"]])}</div></details>'
-        for m in ch.get("mcq", [])
-    )
+    qa_items = ch.get("qa") or []
+    mcq_items = ch.get("mcq") or []
+    n = count_types(qa_items, mcq_items)
+    mcq_html = "".join(render_qcard(m, i, "mcq") for i, m in enumerate(mcq_items, 1))
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
-<h1>Ch {ch["num"]} \u00b7 {html.escape(ch["title"])} \u2014 Practice</h1>
-<p class="lede">Attempt first, then open the answer. Everything here is original
-practice material mapped to the current syllabus.</p>
-<h2>MCQs</h2>
-{mcq or '<p class="hint">MCQs for this chapter are not written yet.</p>'}
-<h2>Written questions</h2>
-{"".join(qa) or '<p class="hint">Written questions for this chapter are not written yet.</p>'}
+<h1>Ch {ch["num"]} \u00b7 {html.escape(ch["title"])} \u2014 Write &amp; Drill</h1>
+<p class="lede">Cover the grey answer box, write in a notebook, then <strong>Show Answer</strong>.
+Short · Long · Application · Competency plus MCQs — the same tone as the IT bank.</p>
+{qbar_html(n["S"], n["L"], n["A"], n["C"], n["M"])}
+<h2>MCQs · Drill</h2>
+<div class="qstack">{mcq_html or '<p class="hint">MCQs for this chapter are not written yet.</p>'}</div>
+<h2>Written questions · Write</h2>
+{render_qbank(qa_items)}
 <p><a class="btn" href="../chapters/{ch["id"]}.html">\u2190 Back to the chapter</a></p>
 """
     return [("Home", "../../index.html"), (subj["title"], "../index.html"),
             (f'Ch {ch["num"]} \u00b7 {ch["title"]}', f"../chapters/{ch['id']}.html"),
             ("Practice", None)], body
+
+
+def drill_body(subj, chapters):
+    cards = []
+    n_mcq = 0
+    for ch in chapters:
+        items = ch.get("mcq") or []
+        n_mcq += len(items)
+        inner = "".join(render_qcard(m, i, "mcq") for i, m in enumerate(items, 1))
+        cards.append(
+            f'<section class="qblock" id="{ch["id"]}">'
+            f'<h3>Ch {ch["num"]} \u00b7 {html.escape(ch["title"])} '
+            f'<span class="hint">({len(items)})</span></h3>'
+            f'<div class="qstack">{inner or "<p class=hint>No MCQs yet.</p>"}</div>'
+            "</section>"
+        )
+    toc = " ".join(
+        f'<a class="chip" href="#{ch["id"]}">Ch {ch["num"]}</a>' for ch in chapters
+    )
+    body = f"""
+<p class="kicker">{html.escape(subj["kicker"])}</p>
+<h1>{html.escape(subj["title"])} \u2014 Drill</h1>
+<p class="lede">{n_mcq} MCQs across {len(chapters)} chapters. Pick an option in your head,
+then Show Answer. Filter does not score you — this is self-check, not a test.</p>
+{qbar_html(0, 0, 0, 0, n_mcq)}
+<p class="chips">{toc}</p>
+{"".join(cards)}
+"""
+    return [("Home", "../index.html"), (subj["title"], "index.html"), ("Drill", None)], body
 
 
 # --------------------------------------------------------------------------
@@ -562,15 +718,6 @@ practice material mapped to the current syllabus.</p>
 def portal_body(subjects, counts, pending=()):
     cards = []
     for s in subjects:
-        if s.get("external"):
-            cards.append(
-                f'<a class="subject-card" href="{html.escape(s["external"])}">'
-                f'<span class="sc-code">{html.escape(s["code"])} \u00b7 separate site</span>'
-                f'<strong>{html.escape(s["title"])}</strong>'
-                f'<span class="sc-desc">{inline(s.get("short", ""))}</span>'
-                f'<span class="sc-meta">Opens the existing {html.escape(s["code"])} hub \u2197</span></a>'
-            )
-            continue
         if s["slug"] in pending:
             cards.append(
                 f'<span class="subject-card pending">'
@@ -591,16 +738,18 @@ def portal_body(subjects, counts, pending=()):
     body = f"""
 <p class="kicker">CBSE \u2022 CLASS 10 \u2022 SESSION {SESSION}</p>
 <h1>Class 10 CBSE \u2014 every subject, one hub each</h1>
-<p class="lede">The same study hub for every subject: a progress dashboard, unit overviews,
-and one deep page per chapter with concepts, formulas, memory tricks, mistakes to avoid
-and exam Q&amp;A.</p>
+<p class="lede">The same study hub for every subject — including <strong>Information Technology (402)</strong>,
+built in here, not on a separate site. Each chapter has concepts, formulas, tricks, mistakes to avoid,
+and exam Q&amp;A in four tones: <strong>Short, Long, Application, Competency</strong>. Answers stay hidden
+until you click Show Answer.</p>
 {card_grid(cards, "subjects")}
 <h2>How to use these</h2>
 <ol class="order">
-<li>Pick your subject, read the <strong>Marks lens</strong> on each chapter first \u2014 it tells you what is worth studying hard.</li>
-<li>Work the <strong>Deep concepts</strong>, then close the page and attempt that chapter\u2019s questions.</li>
-<li>Tick <strong>Mark complete</strong> at the bottom of each chapter; the hub tracks you on this device.</li>
-<li>Finish with <strong>Quick revision</strong> and a timed sample paper.</li>
+<li><strong>Learn</strong> — pick a subject, read the Marks lens, then the Deep concepts.</li>
+<li><strong>Write</strong> — cover the answer, write Short / Long / Application / Competency in a notebook, then Show Answer.</li>
+<li><strong>Drill</strong> — MCQs for the whole subject. Attempt first, then reveal.</li>
+<li><strong>Revise</strong> — the one-page sheet, then tick Mark complete. Progress stays on this device.</li>
+<li><strong>Bank</strong> — every written Q&amp;A, filtered by type, 15–20 a day.</li>
 </ol>
 """
     return [("Home", None)], body
@@ -663,9 +812,6 @@ def build(check_only=False):
 
     for subj in subjects:
         sid = subj["slug"]
-        if subj.get("external"):
-            counts[sid] = 0
-            continue
         try:
             chapters = load_chapters(sid)
         except FileNotFoundError:
@@ -702,6 +848,7 @@ def build(check_only=False):
             ("syllabus.html", syllabus_body),
             ("revision.html", revision_body),
             ("question-bank.html", question_bank_body),
+            ("drill.html", drill_body),
             ("pyq.html", pyq_body),
         ):
             crumbs, body = fn_body(subj, chapters)

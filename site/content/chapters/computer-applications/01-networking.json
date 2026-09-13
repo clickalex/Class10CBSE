@@ -1,217 +1,840 @@
 [
-{
-"id": "ch01-internet-basics", "num": 1, "title": "Internet Basics", "unit": "networking", "unit_name": "Unit I · Networking", "weight": "15 marks unit",
-"short": "What the internet is, how it started and what it is built out of.",
-"lede": "Definitions you can quote word-for-word. This chapter is where the vocabulary for the whole unit comes from.",
-"lens": ["Definitions, one-mark factual questions and the history of the internet.", "**The terms you learn here reappear in every later chapter.**"],
-"concepts": [
-"**1. What the internet is.** The internet is a **worldwide network of networks** — millions of smaller networks joined together so that any computer can reach any other. It is not owned by any single organisation; it runs on shared standards called **protocols**.",
-"**2. How it began.** It grew out of **ARPANET**, started in **1969** by the US Department of Defense's research agency. The first message travelled between UCLA and Stanford. India connected to the internet on **15 August 1995** through VSNL. The **World Wide Web**, invented by **Tim Berners-Lee in 1989**, is what made the internet usable by ordinary people — the web is *part of* the internet, not the same thing as it.",
-"**3. The building blocks.** A **client** requests something, a **server** supplies it. An **ISP (Internet Service Provider)** gives you the connection — Airtel, Jio, BSNL. A **host** is any computer permanently attached to the internet with its own address. **Bandwidth** is how much data can move per second; **latency** is how long a request takes to arrive.",
-"**4. Addressing.** Every device on the internet has an **IP address** (for example `192.168.1.5`). Because numbers are hard to remember, **DNS (Domain Name System)** translates names like `clickalex.github.io` into IP addresses. **IPv4** uses 32 bits, which ran out — **IPv6** uses 128 bits and is the replacement."
-],
-"tricks": [
-"- **ARPANET 1969, Berners-Lee 1989, India 1995.** Three dates, three marks.",
-"- **Web ≠ internet.** The web is one service running *on* the internet, like email and FTP.",
-"- **DNS = the internet's phone book.** Names in, IP addresses out.",
-"- **IPv4 = 32 bits, IPv6 = 128 bits.** The number of bits is the whole difference you are asked about."
-],
-"mistakes": [
-"- Calling the **World Wide Web** the same thing as the internet — the web is a service on it.",
-"- Writing that the internet has a single owner or central controller — it does not.",
-"- Confusing **bandwidth** (capacity) with **latency** (delay)."
-],
-"qa": [
-{"m": "2", "q": "What is the internet? Give two of its features.", "a": "The internet is a worldwide network of networks in which millions of smaller networks are interconnected, allowing any computer to communicate with any other. Two of its features are: it has **no single owner or central control**, running instead on shared protocols; and it provides **many services at once** — the World Wide Web, email, file transfer and video calls all travel over the same infrastructure."},
-{"m": "2", "q": "What was ARPANET and why is it important?", "a": "ARPANET (Advanced Research Projects Agency Network) was started in **1969** by the US Department of Defense's research agency. It is important because it was the **first packet-switched network** and the direct ancestor of today's internet — its first connection ran between UCLA and Stanford Research Institute."},
-{"m": "2", "q": "What is the role of DNS?", "a": "**DNS (Domain Name System)** translates human-readable domain names such as `clickalex.github.io` into the numeric **IP addresses** that computers actually use to find each other. Without it, users would have to memorise numbers like `140.82.121.4` to reach any website. DNS works like a distributed phone book for the internet."},
-{"m": "3", "q": "Distinguish between IPv4 and IPv6.", "a": "**IPv4** uses **32-bit** addresses, giving roughly 4.3 billion possible addresses — written as four numbers separated by dots, such as `192.168.1.5`. **IPv6** uses **128-bit** addresses, written in hexadecimal groups such as `2001:0db8:85a3::8a2e:0370:7334`. IPv6 was created because the supply of IPv4 addresses was exhausted by the growth in connected devices; it also has better built-in support for security and automatic configuration."},
-{"m": "1", "q": "When did India first get internet access, and through which provider?", "a": "India got internet access on **15 August 1995**, through **VSNL (Videsh Sanchar Nigam Limited)**."}
-],
-"mcq": [
-{"q": "ARPANET was developed in — (a) 1959 (b) 1969 (c) 1989 (d) 1995", "a": "**(b) 1969**, by the US Department of Defense's research agency."},
-{"q": "Who invented the World Wide Web? (a) Vint Cerf (b) Tim Berners-Lee (c) Bill Gates (d) Charles Babbage", "a": "**(b) Tim Berners-Lee**, in 1989."},
-{"q": "How many bits are in an IPv6 address? (a) 32 (b) 64 (c) 128 (d) 256", "a": "**(c) 128 bits.** IPv4 uses 32."},
-{"q": "DNS stands for — (a) Dynamic Name Service (b) Domain Name System (c) Data Network Server (d) Digital Naming Standard", "a": "**(b) Domain Name System.**"}
-],
-"trend": "One or two definition questions every paper. The ARPANET and IPv6 facts are the most repeated.",
-"onepager": ["- Internet = network of networks; no single owner.", "- ARPANET 1969 → internet; Berners-Lee 1989 → web; India 1995 via VSNL.", "- Client requests, server supplies, ISP connects.", "- DNS converts names to IP addresses.", "- IPv4 = 32 bits, IPv6 = 128 bits.", "- Bandwidth = capacity; latency = delay."],
-"task": ["Open a terminal and run `ping clickalex.github.io`. Note the IP address it resolves to — that lookup is DNS doing its job. Write the domain, the IP and the round-trip time in your file."]
-},
-{
-"id": "ch02-internet-services", "num": 2, "title": "Internet Services & Protocols", "unit": "networking", "unit_name": "Unit I · Networking", "weight": "15 marks unit",
-"short": "WWW, email, FTP, chat — and the protocol behind each one.",
-"lede": "Service and protocol come as a pair. Learn them together and half the unit is memorised.",
-"lens": ["Match the service to its protocol; explain what each service does.", "**Protocol full forms are guaranteed marks.**"],
-"concepts": [
-"**1. The protocol stack.** Data on the internet is layered. **HTTP/HTTPS** carries web pages, **TCP** makes sure every part of a message arrives and in the right order, and **IP** handles addressing and routing. Together they are written **TCP/IP**. **UDP** is TCP's faster, less careful cousin, used for streaming and calls where a lost packet matters less than a delay.",
-"**2. Web services.** The **World Wide Web** is a collection of documents written in **HTML** and linked by **URLs**, fetched with **HTTP** (default port **80**) or **HTTPS** (port **443**), which adds encryption. A **URL** has three parts — the protocol (`https://`), the domain (`clickalex.github.io`) and the path (`/index.html`).",
-"**3. Mail and files.** **Email** uses **SMTP** to send a message and **POP3** or **IMAP** to receive it; POP3 downloads and usually deletes, IMAP keeps everything on the server. **FTP (File Transfer Protocol, port 21)** moves files between machines. **Telnet (port 23)** gives a text login to a remote computer.",
-"**4. Real-time services.** **VoIP** carries voice over the internet; **video conferencing** carries voice plus video; **instant messaging** and **chat rooms** carry text. All of these lean on UDP for speed."
-],
-"formulas": [
-"**The protocol table to memorise**",
-{"table": {"head": ["Service", "Protocol", "Default port"], "rows": [
-["Web page (plain)", "HTTP", "80"],
-["Web page (secure)", "HTTPS", "443"],
-["Sending email", "SMTP", "25"],
-["Receiving email (download)", "POP3", "110"],
-["Receiving email (stay on server)", "IMAP", "143"],
-["File transfer", "FTP", "21"],
-["Remote text login", "Telnet", "23"]]}}
-],
-"tricks": [
-"- **SMTP Sends, POP Pulls, IMAP Keeps.** That one sentence settles every email-protocol question.",
-"- **HTTP 80, HTTPS 443.** HTTPS is just HTTP inside encryption.",
-"- **URL = protocol + domain + path.** Split any address into those three and you have answered the question.",
-"- **TCP is careful, UDP is fast.** Reliable delivery versus live streaming."
-],
-"mistakes": [
-"- Writing that **SMTP receives** email — it only sends. Receiving is POP3 or IMAP.",
-"- Treating **HTTP and HTTPS** as different services rather than the same service with and without encryption.",
-"- Forgetting the **port numbers** when the question asks for them."
-],
-"qa": [
-{"m": "2", "q": "What is the difference between HTTP and HTTPS?", "a": "**HTTP (HyperText Transfer Protocol)** is the protocol used to fetch web pages, and it sends everything in plain text on port **80**. **HTTPS** is the same protocol wrapped in encryption using TLS/SSL, on port **443**. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it."},
-{"m": "2", "q": "Explain the difference between POP3 and IMAP.", "a": "Both protocols receive email, but they handle storage differently. **POP3** downloads messages to your device and normally deletes them from the server, so the mail is only on that one machine. **IMAP** leaves messages on the server and synchronises, so the same mailbox looks identical on a phone, a laptop and a web browser. IMAP needs a constant connection and server space; POP3 works offline once downloaded."},
-{"m": "3", "q": "Break down the parts of this URL: `https://clickalex.github.io/IT-402-/index.html`.", "a": "The URL has three parts. **`https://`** is the protocol — it says the page will be fetched securely over HTTPS on port 443. **`clickalex.github.io`** is the domain name, which DNS resolves into an IP address. **`/IT-402-/index.html`** is the path, pointing to a specific file inside the `IT-402-` folder on that server."},
-{"m": "2", "q": "What is the difference between TCP and UDP?", "a": "**TCP (Transmission Control Protocol)** is connection-oriented: it checks that every packet arrived and reorders them, so delivery is guaranteed but slightly slower. **UDP (User Datagram Protocol)** simply sends packets without checking, so it is faster but some data may be lost. TCP is used for web pages and email, where a missing piece breaks the result; UDP is used for live video, VoIP and gaming, where a small loss is better than a delay."},
-{"m": "1", "q": "Give the full form of FTP and its default port.", "a": "**FTP** stands for **File Transfer Protocol**, and its default port is **21**. It is used to upload and download files between a client and a server."}
-],
-"mcq": [
-{"q": "Which protocol is used to send email? (a) POP3 (b) IMAP (c) SMTP (d) FTP", "a": "**(c) SMTP** — Simple Mail Transfer Protocol."},
-{"q": "The default port for HTTPS is — (a) 21 (b) 23 (c) 80 (d) 443", "a": "**(d) 443.** Port 80 is plain HTTP."},
-{"q": "Which protocol keeps mail on the server? (a) POP3 (b) IMAP (c) SMTP (d) Telnet", "a": "**(b) IMAP** — it synchronises instead of downloading."},
-{"q": "In `https://example.com/page.html`, `example.com` is the — (a) protocol (b) domain (c) path (d) port", "a": "**(b) domain.**"}
-],
-"trend": "Protocol full forms and port numbers appear in almost every paper. The URL breakdown is a reliable 2-3 marker.",
-"onepager": ["- HTTP 80, HTTPS 443, FTP 21, Telnet 23.", "- SMTP sends; POP3 downloads; IMAP synchronises.", "- URL = protocol + domain + path.", "- TCP = reliable, UDP = fast.", "- VoIP, video conferencing and chat run on UDP."],
-"task": ["Copy a URL from your browser into your file. Label its three parts. Then note whether the address bar shows a padlock — that tells you HTTP versus HTTPS."]
-},
-{
-"id": "ch03-network-concepts", "num": 3, "title": "Network Types, Topologies & Devices", "unit": "networking", "unit_name": "Unit I · Networking", "weight": "15 marks unit",
-"short": "LAN to WAN, star to ring, and the boxes in between.",
-"lede": "Topology questions ask for a diagram plus one advantage and one disadvantage. Prepare both.",
-"lens": ["Classify a network by its size, identify a topology from a description, name a device's job.", "**Diagrams score — practise drawing them.**"],
-"concepts": [
-"**1. Networks by size.** A **LAN (Local Area Network)** covers a room or a building — a school lab. A **MAN (Metropolitan Area Network)** covers a city — a cable TV network. A **WAN (Wide Area Network)** covers countries or the world; **the internet is the largest WAN**. A **PAN (Personal Area Network)** is the smallest, joining devices around one person, usually by Bluetooth.",
-"**2. Topologies — the shape of the wiring.** **Bus**: one central cable with all nodes attached; cheap but if the main cable fails everything stops. **Star**: every node connects to a central hub or switch; a single cable failing only drops one node, but the centre is a single point of failure. **Ring**: nodes form a closed loop, data travelling one way; easy to add nodes, but a break stops the ring. **Mesh**: every node links to several others, giving the highest reliability at the highest cost. **Tree** combines stars in a hierarchy.",
-"**3. Transmission media.** **Wired** — twisted-pair cable (RJ-45 connector, common in LANs), coaxial cable, and **optical fibre**, which carries light and is the fastest and least affected by interference. **Wireless** — Wi-Fi (IEEE **802.11**), Bluetooth, infrared, and satellite links.",
-"**4. Devices.** A **hub** repeats a signal to every port and cannot tell machines apart. A **switch** learns which device sits on which port and sends data only there — this is why switches replaced hubs. A **router** joins different networks and chooses the best path, working at the network layer. A **modem** converts digital signals to analog and back so data can travel over telephone or cable lines. A **repeater** simply boosts a weakening signal. A **gateway** connects networks that use different protocols. A **NIC (Network Interface Card)** is what physically attaches a computer to the network; every NIC has a unique **MAC address**."
-],
-"tricks": [
-"- **PAN < LAN < MAN < WAN.** Smallest to largest.",
-"- **Star is the safest single-node failure, mesh the safest overall, bus the cheapest.**",
-"- **Hub shouts, switch whispers, router chooses.** One line for all three.",
-"- **Optical fibre = light = fastest + no electrical interference.**"
-],
-"mistakes": [
-"- Confusing **hub and switch** — a hub broadcasts to all ports, a switch sends only to the intended one.",
-"- Confusing **router and modem** — a modem converts signals, a router routes between networks.",
-"- Answering a topology question without naming **one advantage and one disadvantage**.",
-"- Writing **MAC address** when the question asks for **IP address** — MAC is fixed to the hardware, IP is assigned to the network."
-],
-"qa": [
-{"m": "3", "q": "Explain star topology with its advantages and disadvantages.", "a": "In **star topology** every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its **advantages** are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its **disadvantages** are that it needs more cable than a bus, and the central device is a **single point of failure** — if the switch dies, the whole network stops."},
-{"m": "3", "q": "Differentiate between a hub, a switch and a router.", "a": "A **hub** works at the physical layer and repeats an incoming signal out of every port, so all devices see all traffic and collisions are common. A **switch** works at the data-link layer, learns the MAC address on each port and forwards a frame only to the intended port, which makes it far faster and more secure. A **router** works at the network layer and connects *different* networks, using IP addresses to choose the best path between them — it is what links your LAN to the internet."},
-{"m": "2", "q": "Why is optical fibre preferred over copper cable for long distances?", "a": "Optical fibre carries data as **pulses of light** through glass, so it suffers almost no signal loss over long distances and is **immune to electrical interference** from motors, power lines and lightning. It also has a far higher bandwidth than copper. Its drawbacks are that it is more expensive and more fragile to install, which is why copper still dominates the last few metres."},
-{"m": "2", "q": "What is the difference between a MAC address and an IP address?", "a": "A **MAC address** is a 48-bit hardware address burnt into the network card; it never changes and identifies the physical device. An **IP address** is assigned logically for the network the device is on, so it changes when the device moves to a different network. MAC works within one local network, while IP works across the whole internet."},
-{"m": "1", "q": "Which IEEE standard defines Wi-Fi?", "a": "**IEEE 802.11** defines Wi-Fi. The IEEE 802.3 standard, by contrast, defines wired Ethernet."}
-],
-"mcq": [
-{"q": "Which network covers a whole city? (a) LAN (b) MAN (c) WAN (d) PAN", "a": "**(b) MAN** — Metropolitan Area Network."},
-{"q": "Which topology has a single point of failure at its centre? (a) Mesh (b) Bus (c) Star (d) Ring", "a": "**(c) Star** — the hub or switch is the single point of failure."},
-{"q": "A device that joins two different networks and picks the best path is a — (a) hub (b) switch (c) repeater (d) router", "a": "**(d) router.**"},
-{"q": "Which medium is immune to electrical interference? (a) twisted pair (b) coaxial (c) optical fibre (d) infrared", "a": "**(c) optical fibre** — it carries light, not electricity."}
-],
-"trend": "One topology question with a diagram, plus a device-comparison question, appears in most papers.",
-"onepager": ["- PAN < LAN < MAN < WAN.", "- Star: safe per node, fragile at the centre. Bus: cheapest, fragile cable. Mesh: most reliable, most expensive.", "- Hub broadcasts, switch forwards to one port, router joins networks, modem converts signals.", "- Twisted pair (RJ-45), coaxial, optical fibre; wireless = 802.11, Bluetooth, infrared.", "- MAC = hardware, IP = network."],
-"task": ["Draw star, bus and ring topology in your file. Under each write one advantage and one disadvantage. This is exactly what the exam asks for."]
-},
-{
-"id": "ch04-mobile-technology", "num": 4, "title": "Mobile & Wireless Technology", "unit": "networking", "unit_name": "Unit I · Networking", "weight": "15 marks unit",
-"short": "Generations from 1G to 5G, plus the short-range wireless around you.",
-"lede": "One table, learnt properly, answers every generation question.",
-"lens": ["Compare generations, name short-range technologies and their uses.", "**Generations are a table question — memorise the table.**"],
-"concepts": [
-"**1. Mobile generations.** **1G** was analog and voice-only. **2G** went digital and added **SMS** and basic data through **GPRS**. **3G** made mobile internet genuinely usable — video calls and browsing at a few Mbps. **4G/LTE** is all-IP and built for data, giving tens of Mbps and making video streaming normal. **5G** targets speeds up to around 20 Gbps with latency under a millisecond, which is what makes remote surgery, autonomous vehicles and dense IoT possible.",
-"**2. Short-range wireless.** **Bluetooth** joins devices a few metres apart — headphones, keyboards, file sharing. **Wi-Fi** covers a building using the **IEEE 802.11** family of standards. **Infrared** needs a clear line of sight and is used in remote controls. **NFC** works within a few centimetres and is what contactless payments and transit cards use.",
-"**3. Mobile data plumbing.** A phone talks to a **cell tower**; the area one tower covers is a **cell**, and handover moves a call from one cell to the next without dropping it. **Roaming** is what lets a phone work on another operator's network when you travel.",
-"**4. Why it matters.** Each generation did not just get faster — it changed what phones could do. 2G added text, 3G added the web, 4G added video, 5G adds machines talking to machines."
-],
-"formulas": [
-"**Generations at a glance**",
-{"table": {"head": ["Generation", "Signal", "Speed", "What it added"], "rows": [
-["1G", "Analog", "2.4 kbps", "Voice calls only"],
-["2G", "Digital", "up to 64 kbps", "SMS, GPRS data"],
-["3G", "Digital", "up to 2 Mbps", "Video calling, mobile web"],
-["4G / LTE", "All-IP", "up to 100 Mbps", "HD streaming, VoIP"],
-["5G", "All-IP", "up to 20 Gbps", "IoT, ultra-low latency"]]}}
-],
-"tricks": [
-"- **1 voice → 2 text → 3 web → 4 video → 5 machines.** Five words for five generations.",
-"- **Bluetooth = metres, Wi-Fi = a building, cell tower = kilometres.**",
-"- **NFC needs centimetres** — that is why you tap, not wave.",
-"- **Handover** keeps a call alive as you drive between cells."
-],
-"mistakes": [
-"- Saying 4G is faster *only* — it is also **all-IP**, which is the point.",
-"- Confusing **Bluetooth and NFC** ranges: Bluetooth is metres, NFC is centimetres.",
-"- Forgetting that **infrared needs line of sight**, unlike Bluetooth and Wi-Fi."
-],
-"qa": [
-{"m": "3", "q": "Compare 3G, 4G and 5G.", "a": "**3G** made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. **4G (LTE)** is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. **5G** targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for **massive numbers of connected devices** — IoT sensors, autonomous vehicles and remote medical procedures."},
-{"m": "2", "q": "What is the difference between Bluetooth and NFC?", "a": "**Bluetooth** works over a range of a few metres and is used for continuous connections such as headphones, speakers and keyboards. **NFC (Near Field Communication)** works only within a few centimetres and is used for a single quick exchange — contactless payments, transit cards, pairing by tapping. Bluetooth needs pairing; NFC works by simply bringing two devices together."},
-{"m": "2", "q": "What is a cell and what is handover?", "a": "A **cell** is the geographic area covered by one mobile tower. A whole city is divided into many cells, which is why mobile networks are called cellular. **Handover** is the automatic process of moving an ongoing call or data session from one cell's tower to the next as the user travels, so the connection does not drop."},
-{"m": "2", "q": "Why does infrared need line of sight but Wi-Fi does not?", "a": "Infrared uses **light waves**, which cannot pass through solid objects, so the transmitter and receiver must see each other directly — that is why a TV remote only works when pointed at the TV. Wi-Fi uses **radio waves**, which pass through walls and furniture, so it works throughout a building without a direct line of sight."}
-],
-"mcq": [
-{"q": "Which generation first made video calling practical? (a) 2G (b) 3G (c) 4G (d) 1G", "a": "**(b) 3G**, with speeds up to about 2 Mbps."},
-{"q": "NFC works over a range of — (a) metres (b) kilometres (c) centimetres (d) it has no limit", "a": "**(c) centimetres** — which is why you tap."},
-{"q": "Which standard family defines Wi-Fi? (a) IEEE 802.3 (b) IEEE 802.11 (c) IEEE 802.15 (d) IEEE 802.16", "a": "**(b) IEEE 802.11.** 802.3 is wired Ethernet."},
-{"q": "4G networks are described as — (a) analog (b) circuit-switched (c) all-IP (d) infrared-based", "a": "**(c) all-IP.**"}
-],
-"trend": "A generations table question is very common, and it is fully memorisable.",
-"onepager": ["- 1 voice, 2 text, 3 web, 4 video, 5 machines.", "- Bluetooth metres, Wi-Fi a building, NFC centimetres, infrared line of sight.", "- Cell = one tower's coverage; handover moves you between them.", "- 4G and 5G are all-IP; 5G's point is IoT and low latency."],
-"task": ["Write the generations table from memory, then check it. Next, list every wireless technology in your home and label each as Bluetooth, Wi-Fi, infrared or NFC."]
-},
-{
-"id": "ch05-web-browsing", "num": 5, "title": "Web Browsers, Search & Web Concepts", "unit": "networking", "unit_name": "Unit I · Networking", "weight": "15 marks unit",
-"short": "Browsers, search engines, cookies, caching and the difference between a web page and a website.",
-"lede": "Short chapter, high mark density. Mostly one- and two-mark definitions.",
-"lens": ["Define terms, compare browsers with search engines, explain cookies and caching.", "**This chapter closes Unit I — revise it as one block.**"],
-"concepts": [
-"**1. Browser versus search engine.** A **web browser** (Chrome, Firefox, Edge, Safari) is *software on your device* that requests and displays pages. A **search engine** (Google, Bing) is *a website* that indexes other websites so you can find them. You use a browser to reach a search engine — they are not alternatives to each other.",
-"**2. Pages, sites and home pages.** A **web page** is a single HTML document. A **website** is a collection of related pages under one domain. The **home page** is the entry page, usually `index.html`. A **web portal** gathers links, news and services in one place.",
-"**3. Cookies and cache.** A **cookie** is a small piece of data a website stores in your browser to remember you — a login, a language, the contents of a cart. **Caching** stores a local copy of a page or image so it loads faster and uses less bandwidth the next time. **Browsing history** is the record of pages visited. All three raise privacy questions, which is why browsers now offer private modes.",
-"**4. Finding things.** A **search engine** uses a **crawler** (or spider) to visit pages, an **index** to store what it found, and a **ranking algorithm** to order results. **Bookmarking** saves an address you want to return to; **RSS feeds** push updates from a site to you instead of you checking it."
-],
-"tricks": [
-"- **Browser is on your machine; search engine is on the web.**",
-"- **Cookie remembers you, cache speeds you up, history records you.** Three different things, three different questions.",
-"- **Crawler visits → index stores → algorithm ranks.**",
-"- A **website** is many pages; a **web page** is one document."
-],
-"mistakes": [
-"- Calling Google a **browser** — it is a search engine, a website.",
-"- Confusing **cookies with cache** — cookies are identity data, cache is a speed copy.",
-"- Saying a **home page** is the same as a **web page** in general — the home page is specifically the entry page."
-],
-"qa": [
-{"m": "2", "q": "Differentiate between a web browser and a search engine.", "a": "A **web browser** is software installed on your computer or phone — Chrome, Firefox, Edge or Safari — that sends requests for pages and renders the HTML it receives into the page you see. A **search engine** such as Google is itself a website whose job is to index other websites and return a ranked list of results for your query. You need a browser in order to open a search engine, so they work together rather than as alternatives."},
-{"m": "2", "q": "What are cookies and why are they used?", "a": "A **cookie** is a small piece of data that a website stores in the user's browser. Websites use cookies to remember something about the user between visits — whether they are logged in, which language they chose, or what is in their shopping cart. Without cookies, every page request would be treated as a brand-new visitor. Because cookies can also be used to track browsing behaviour, browsers offer private modes that discard them when the window closes."},
-{"m": "2", "q": "What is caching and what is its benefit?", "a": "**Caching** means keeping a local copy of a resource — a page, an image or a stylesheet — so that it does not have to be downloaded again. The benefits are that pages **load faster** and **use less bandwidth**, which matters most on slow or metered connections. The trade-off is that a cached copy can be out of date, which is why a forced refresh sometimes shows a different page."},
-{"m": "2", "q": "How does a search engine find and rank pages?", "a": "A search engine uses a **crawler** — also called a spider — that automatically visits web pages and follows the links on them to discover more. What it finds is stored in an **index**, a huge searchable catalogue. When you type a query, a **ranking algorithm** scores the matching pages by relevance, authority and quality, and returns them in order."},
-{"m": "1", "q": "Name any three web browsers.", "a": "**Google Chrome**, **Mozilla Firefox** and **Microsoft Edge**. Apple's **Safari** and **Opera** are other common examples."}
-],
-"mcq": [
-{"q": "Google is an example of a — (a) browser (b) search engine (c) protocol (d) server operating system", "a": "**(b) search engine.**"},
-{"q": "Which stores a local copy of a page to speed up loading? (a) cookie (b) bookmark (c) cache (d) portal", "a": "**(c) cache.**"},
-{"q": "The entry page of a website is called the — (a) portal (b) home page (c) cache (d) feed", "a": "**(b) home page**, usually `index.html`."},
-{"q": "The program that automatically visits and indexes web pages is called a — (a) router (b) crawler (c) modem (d) gateway", "a": "**(b) crawler** or spider."}
-],
-"trend": "Browser versus search engine and cookies versus cache are the two most repeated comparisons in Unit I.",
-"onepager": ["- Browser = software on your device; search engine = a website.", "- Cookie remembers, cache speeds up, history records.", "- Crawler → index → ranking algorithm.", "- Web page = one document; website = many pages; home page = entry point."],
-"task": ["Write one line each for browser, search engine, cookie, cache, portal and bookmark. Six lines covers the whole chapter's question set."]
-}
+  {
+    "id": "ch01-internet-basics",
+    "num": 1,
+    "title": "Internet Basics",
+    "unit": "networking",
+    "unit_name": "Unit I · Networking",
+    "weight": "15 marks unit",
+    "short": "What the internet is, how it started and what it is built out of.",
+    "lede": "Definitions you can quote word-for-word. This chapter is where the vocabulary for the whole unit comes from.",
+    "lens": [
+      "Definitions, one-mark factual questions and the history of the internet.",
+      "**The terms you learn here reappear in every later chapter.**"
+    ],
+    "concepts": [
+      "**1. What the internet is.** The internet is a **worldwide network of networks** — millions of smaller networks joined together so that any computer can reach any other. It is not owned by any single organisation; it runs on shared standards called **protocols**.",
+      "**2. How it began.** It grew out of **ARPANET**, started in **1969** by the US Department of Defense's research agency. The first message travelled between UCLA and Stanford. India connected to the internet on **15 August 1995** through VSNL. The **World Wide Web**, invented by **Tim Berners-Lee in 1989**, is what made the internet usable by ordinary people — the web is *part of* the internet, not the same thing as it.",
+      "**3. The building blocks.** A **client** requests something, a **server** supplies it. An **ISP (Internet Service Provider)** gives you the connection — Airtel, Jio, BSNL. A **host** is any computer permanently attached to the internet with its own address. **Bandwidth** is how much data can move per second; **latency** is how long a request takes to arrive.",
+      "**4. Addressing.** Every device on the internet has an **IP address** (for example `192.168.1.5`). Because numbers are hard to remember, **DNS (Domain Name System)** translates names like `clickalex.github.io` into IP addresses. **IPv4** uses 32 bits, which ran out — **IPv6** uses 128 bits and is the replacement."
+    ],
+    "tricks": [
+      "- **ARPANET 1969, Berners-Lee 1989, India 1995.** Three dates, three marks.",
+      "- **Web ≠ internet.** The web is one service running *on* the internet, like email and FTP.",
+      "- **DNS = the internet's phone book.** Names in, IP addresses out.",
+      "- **IPv4 = 32 bits, IPv6 = 128 bits.** The number of bits is the whole difference you are asked about."
+    ],
+    "mistakes": [
+      "- Calling the **World Wide Web** the same thing as the internet — the web is a service on it.",
+      "- Writing that the internet has a single owner or central controller — it does not.",
+      "- Confusing **bandwidth** (capacity) with **latency** (delay)."
+    ],
+    "qa": [
+      {
+        "m": "2",
+        "q": "What is the internet? Give two of its features.",
+        "a": "The internet is a worldwide network of networks in which millions of smaller networks are interconnected, allowing any computer to communicate with any other. Two of its features are: it has **no single owner or central control**, running instead on shared protocols; and it provides **many services at once** — the World Wide Web, email, file transfer and video calls all travel over the same infrastructure.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "What was ARPANET and why is it important?",
+        "a": "ARPANET (Advanced Research Projects Agency Network) was started in **1969** by the US Department of Defense's research agency. It is important because it was the **first packet-switched network** and the direct ancestor of today's internet — its first connection ran between UCLA and Stanford Research Institute.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "What is the role of DNS?",
+        "a": "**DNS (Domain Name System)** translates human-readable domain names such as `clickalex.github.io` into the numeric **IP addresses** that computers actually use to find each other. Without it, users would have to memorise numbers like `140.82.121.4` to reach any website. DNS works like a distributed phone book for the internet.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Distinguish between IPv4 and IPv6.",
+        "a": "**IPv4** uses **32-bit** addresses, giving roughly 4.3 billion possible addresses — written as four numbers separated by dots, such as `192.168.1.5`. **IPv6** uses **128-bit** addresses, written in hexadecimal groups such as `2001:0db8:85a3::8a2e:0370:7334`. IPv6 was created because the supply of IPv4 addresses was exhausted by the growth in connected devices; it also has better built-in support for security and automatic configuration.",
+        "t": "S"
+      },
+      {
+        "m": "1",
+        "q": "When did India first get internet access, and through which provider?",
+        "a": "India got internet access on **15 August 1995**, through **VSNL (Videsh Sanchar Nigam Limited)**.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Internet Basics” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "What the internet is. The internet is a worldwide network of networks — millions of smaller networks joined together so that any computer can reach any other. It is not owned by any single organisation; it runs on shared standards called protocols.",
+          "Marks lens: Definitions, one-mark factual questions and the history of the internet.",
+          "Method / memory trick: ARPANET 1969, Berners-Lee 1989, India 1995. Three dates, three marks.",
+          "Do not: Calling the World Wide Web the same thing as the internet — the web is a service on it."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Internet Basics” (What the internet is, how it started and what it is built out of.). A classmate lost marks by doing this: Calling the World Wide Web the same thing as the internet — the web is a service on it. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: ARPANET 1969, Berners-Lee 1989, India 1995. Three dates, three marks.",
+          "Why the mistake costs marks: Calling the World Wide Web the same thing as the internet — the web is a service on it.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Internet Basics”: “What is the internet? Give two of its features.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: What the internet is, how it started and what it is built out of..",
+          "The internet is a worldwide network of networks in which millions of smaller networks are interconnected, allowing any computer to communicate with any other. Two of its features are: it has no single owner or central control, running instead on shared protocols; and it provides many services at once — the World Wide Web, email, file transfer and video calls all travel over the same infrastructure."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Internet Basics”. Their note says: What the internet is. The internet is a worldwide network of networks — millions of smaller networks joined together so that any computer can reach any other. It is not owned by any single organisation; it runs on shared standards called protocols.\n\nThe chapter is described as: What the internet is, how it started and what it is built out of..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) What the internet is, how it started and what it is built out of.",
+          "(b) Definitions, one-mark factual questions and the history of the internet.",
+          "(c) Calling the World Wide Web the same thing as the internet — the web is a service on it."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “What is the internet? Give two of its features.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) The internet is a worldwide network of networks in which millions of smaller networks are interconnected, allowing any computer to communicate with any other. Two of its features are: it has no single owner or central control, running instead on shared protocols; and it provides many services at once — the World Wide Web, email, file transfer and video calls all travel over the same infrastructure.",
+          "(c) ARPANET 1969, Berners-Lee 1989, India 1995. Three dates, three marks."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "ARPANET was developed in — (a) 1959 (b) 1969 (c) 1989 (d) 1995",
+        "a": "**(b) 1969**, by the US Department of Defense's research agency."
+      },
+      {
+        "q": "Who invented the World Wide Web? (a) Vint Cerf (b) Tim Berners-Lee (c) Bill Gates (d) Charles Babbage",
+        "a": "**(b) Tim Berners-Lee**, in 1989."
+      },
+      {
+        "q": "How many bits are in an IPv6 address? (a) 32 (b) 64 (c) 128 (d) 256",
+        "a": "**(c) 128 bits.** IPv4 uses 32."
+      },
+      {
+        "q": "DNS stands for — (a) Dynamic Name Service (b) Domain Name System (c) Data Network Server (d) Digital Naming Standard",
+        "a": "**(b) Domain Name System.**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Internet Basics” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is What the internet is, how it started and what it is built out of.."
+      },
+      {
+        "q": "A 3-mark answer on “Internet Basics” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "One or two definition questions every paper. The ARPANET and IPv6 facts are the most repeated.",
+    "onepager": [
+      "- Internet = network of networks; no single owner.",
+      "- ARPANET 1969 → internet; Berners-Lee 1989 → web; India 1995 via VSNL.",
+      "- Client requests, server supplies, ISP connects.",
+      "- DNS converts names to IP addresses.",
+      "- IPv4 = 32 bits, IPv6 = 128 bits.",
+      "- Bandwidth = capacity; latency = delay."
+    ],
+    "task": [
+      "Open a terminal and run `ping clickalex.github.io`. Note the IP address it resolves to — that lookup is DNS doing its job. Write the domain, the IP and the round-trip time in your file."
+    ]
+  },
+  {
+    "id": "ch02-internet-services",
+    "num": 2,
+    "title": "Internet Services & Protocols",
+    "unit": "networking",
+    "unit_name": "Unit I · Networking",
+    "weight": "15 marks unit",
+    "short": "WWW, email, FTP, chat — and the protocol behind each one.",
+    "lede": "Service and protocol come as a pair. Learn them together and half the unit is memorised.",
+    "lens": [
+      "Match the service to its protocol; explain what each service does.",
+      "**Protocol full forms are guaranteed marks.**"
+    ],
+    "concepts": [
+      "**1. The protocol stack.** Data on the internet is layered. **HTTP/HTTPS** carries web pages, **TCP** makes sure every part of a message arrives and in the right order, and **IP** handles addressing and routing. Together they are written **TCP/IP**. **UDP** is TCP's faster, less careful cousin, used for streaming and calls where a lost packet matters less than a delay.",
+      "**2. Web services.** The **World Wide Web** is a collection of documents written in **HTML** and linked by **URLs**, fetched with **HTTP** (default port **80**) or **HTTPS** (port **443**), which adds encryption. A **URL** has three parts — the protocol (`https://`), the domain (`clickalex.github.io`) and the path (`/index.html`).",
+      "**3. Mail and files.** **Email** uses **SMTP** to send a message and **POP3** or **IMAP** to receive it; POP3 downloads and usually deletes, IMAP keeps everything on the server. **FTP (File Transfer Protocol, port 21)** moves files between machines. **Telnet (port 23)** gives a text login to a remote computer.",
+      "**4. Real-time services.** **VoIP** carries voice over the internet; **video conferencing** carries voice plus video; **instant messaging** and **chat rooms** carry text. All of these lean on UDP for speed."
+    ],
+    "formulas": [
+      "**The protocol table to memorise**",
+      {
+        "table": {
+          "head": [
+            "Service",
+            "Protocol",
+            "Default port"
+          ],
+          "rows": [
+            [
+              "Web page (plain)",
+              "HTTP",
+              "80"
+            ],
+            [
+              "Web page (secure)",
+              "HTTPS",
+              "443"
+            ],
+            [
+              "Sending email",
+              "SMTP",
+              "25"
+            ],
+            [
+              "Receiving email (download)",
+              "POP3",
+              "110"
+            ],
+            [
+              "Receiving email (stay on server)",
+              "IMAP",
+              "143"
+            ],
+            [
+              "File transfer",
+              "FTP",
+              "21"
+            ],
+            [
+              "Remote text login",
+              "Telnet",
+              "23"
+            ]
+          ]
+        }
+      }
+    ],
+    "tricks": [
+      "- **SMTP Sends, POP Pulls, IMAP Keeps.** That one sentence settles every email-protocol question.",
+      "- **HTTP 80, HTTPS 443.** HTTPS is just HTTP inside encryption.",
+      "- **URL = protocol + domain + path.** Split any address into those three and you have answered the question.",
+      "- **TCP is careful, UDP is fast.** Reliable delivery versus live streaming."
+    ],
+    "mistakes": [
+      "- Writing that **SMTP receives** email — it only sends. Receiving is POP3 or IMAP.",
+      "- Treating **HTTP and HTTPS** as different services rather than the same service with and without encryption.",
+      "- Forgetting the **port numbers** when the question asks for them."
+    ],
+    "qa": [
+      {
+        "m": "2",
+        "q": "What is the difference between HTTP and HTTPS?",
+        "a": "**HTTP (HyperText Transfer Protocol)** is the protocol used to fetch web pages, and it sends everything in plain text on port **80**. **HTTPS** is the same protocol wrapped in encryption using TLS/SSL, on port **443**. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Explain the difference between POP3 and IMAP.",
+        "a": "Both protocols receive email, but they handle storage differently. **POP3** downloads messages to your device and normally deletes them from the server, so the mail is only on that one machine. **IMAP** leaves messages on the server and synchronises, so the same mailbox looks identical on a phone, a laptop and a web browser. IMAP needs a constant connection and server space; POP3 works offline once downloaded.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Break down the parts of this URL: `https://clickalex.github.io/IT-402-/index.html`.",
+        "a": "The URL has three parts. **`https://`** is the protocol — it says the page will be fetched securely over HTTPS on port 443. **`clickalex.github.io`** is the domain name, which DNS resolves into an IP address. **`/IT-402-/index.html`** is the path, pointing to a specific file inside the `IT-402-` folder on that server.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "What is the difference between TCP and UDP?",
+        "a": "**TCP (Transmission Control Protocol)** is connection-oriented: it checks that every packet arrived and reorders them, so delivery is guaranteed but slightly slower. **UDP (User Datagram Protocol)** simply sends packets without checking, so it is faster but some data may be lost. TCP is used for web pages and email, where a missing piece breaks the result; UDP is used for live video, VoIP and gaming, where a small loss is better than a delay.",
+        "t": "S"
+      },
+      {
+        "m": "1",
+        "q": "Give the full form of FTP and its default port.",
+        "a": "**FTP** stands for **File Transfer Protocol**, and its default port is **21**. It is used to upload and download files between a client and a server.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Internet Services & Protocols” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The protocol stack. Data on the internet is layered. HTTP/HTTPS carries web pages, TCP makes sure every part of a message arrives and in the right order, and IP handles addressing and routing. Together they are written TCP/IP. UDP is TCP's faster, less careful cousin, used for streaming and calls where a lost packet matters less than a delay.",
+          "Marks lens: Match the service to its protocol; explain what each service does.",
+          "Method / memory trick: SMTP Sends, POP Pulls, IMAP Keeps. That one sentence settles every email-protocol question.",
+          "Do not: Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Internet Services & Protocols” (WWW, email, FTP, chat — and the protocol behind each one.). A classmate lost marks by doing this: Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: SMTP Sends, POP Pulls, IMAP Keeps. That one sentence settles every email-protocol question.",
+          "Why the mistake costs marks: Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Internet Services & Protocols”: “What is the difference between HTTP and HTTPS?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: WWW, email, FTP, chat — and the protocol behind each one..",
+          "HTTP (HyperText Transfer Protocol) is the protocol used to fetch web pages, and it sends everything in plain text on port 80. HTTPS is the same protocol wrapped in encryption using TLS/SSL, on port 443. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Internet Services & Protocols”. Their note says: The protocol stack. Data on the internet is layered. HTTP/HTTPS carries web pages, TCP makes sure every part of a message arrives and in the right order, and IP handles addressing and routing. Together they are written TCP/IP. UDP is TCP's faster, less careful cousin, used for streaming and calls wh\n\nThe chapter is described as: WWW, email, FTP, chat — and the protocol behind each one..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) WWW, email, FTP, chat — and the protocol behind each one.",
+          "(b) Match the service to its protocol; explain what each service does.",
+          "(c) Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “What is the difference between HTTP and HTTPS?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) HTTP (HyperText Transfer Protocol) is the protocol used to fetch web pages, and it sends everything in plain text on port 80. HTTPS is the same protocol wrapped in encryption using TLS/SSL, on port 443. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it.",
+          "(c) SMTP Sends, POP Pulls, IMAP Keeps. That one sentence settles every email-protocol question."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Which protocol is used to send email? (a) POP3 (b) IMAP (c) SMTP (d) FTP",
+        "a": "**(c) SMTP** — Simple Mail Transfer Protocol."
+      },
+      {
+        "q": "The default port for HTTPS is — (a) 21 (b) 23 (c) 80 (d) 443",
+        "a": "**(d) 443.** Port 80 is plain HTTP."
+      },
+      {
+        "q": "Which protocol keeps mail on the server? (a) POP3 (b) IMAP (c) SMTP (d) Telnet",
+        "a": "**(b) IMAP** — it synchronises instead of downloading."
+      },
+      {
+        "q": "In `https://example.com/page.html`, `example.com` is the — (a) protocol (b) domain (c) path (d) port",
+        "a": "**(b) domain.**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Internet Services & Protocols” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is WWW, email, FTP, chat — and the protocol behind each one.."
+      },
+      {
+        "q": "A 3-mark answer on “Internet Services & Protocols” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Protocol full forms and port numbers appear in almost every paper. The URL breakdown is a reliable 2-3 marker.",
+    "onepager": [
+      "- HTTP 80, HTTPS 443, FTP 21, Telnet 23.",
+      "- SMTP sends; POP3 downloads; IMAP synchronises.",
+      "- URL = protocol + domain + path.",
+      "- TCP = reliable, UDP = fast.",
+      "- VoIP, video conferencing and chat run on UDP."
+    ],
+    "task": [
+      "Copy a URL from your browser into your file. Label its three parts. Then note whether the address bar shows a padlock — that tells you HTTP versus HTTPS."
+    ]
+  },
+  {
+    "id": "ch03-network-concepts",
+    "num": 3,
+    "title": "Network Types, Topologies & Devices",
+    "unit": "networking",
+    "unit_name": "Unit I · Networking",
+    "weight": "15 marks unit",
+    "short": "LAN to WAN, star to ring, and the boxes in between.",
+    "lede": "Topology questions ask for a diagram plus one advantage and one disadvantage. Prepare both.",
+    "lens": [
+      "Classify a network by its size, identify a topology from a description, name a device's job.",
+      "**Diagrams score — practise drawing them.**"
+    ],
+    "concepts": [
+      "**1. Networks by size.** A **LAN (Local Area Network)** covers a room or a building — a school lab. A **MAN (Metropolitan Area Network)** covers a city — a cable TV network. A **WAN (Wide Area Network)** covers countries or the world; **the internet is the largest WAN**. A **PAN (Personal Area Network)** is the smallest, joining devices around one person, usually by Bluetooth.",
+      "**2. Topologies — the shape of the wiring.** **Bus**: one central cable with all nodes attached; cheap but if the main cable fails everything stops. **Star**: every node connects to a central hub or switch; a single cable failing only drops one node, but the centre is a single point of failure. **Ring**: nodes form a closed loop, data travelling one way; easy to add nodes, but a break stops the ring. **Mesh**: every node links to several others, giving the highest reliability at the highest cost. **Tree** combines stars in a hierarchy.",
+      "**3. Transmission media.** **Wired** — twisted-pair cable (RJ-45 connector, common in LANs), coaxial cable, and **optical fibre**, which carries light and is the fastest and least affected by interference. **Wireless** — Wi-Fi (IEEE **802.11**), Bluetooth, infrared, and satellite links.",
+      "**4. Devices.** A **hub** repeats a signal to every port and cannot tell machines apart. A **switch** learns which device sits on which port and sends data only there — this is why switches replaced hubs. A **router** joins different networks and chooses the best path, working at the network layer. A **modem** converts digital signals to analog and back so data can travel over telephone or cable lines. A **repeater** simply boosts a weakening signal. A **gateway** connects networks that use different protocols. A **NIC (Network Interface Card)** is what physically attaches a computer to the network; every NIC has a unique **MAC address**."
+    ],
+    "tricks": [
+      "- **PAN < LAN < MAN < WAN.** Smallest to largest.",
+      "- **Star is the safest single-node failure, mesh the safest overall, bus the cheapest.**",
+      "- **Hub shouts, switch whispers, router chooses.** One line for all three.",
+      "- **Optical fibre = light = fastest + no electrical interference.**"
+    ],
+    "mistakes": [
+      "- Confusing **hub and switch** — a hub broadcasts to all ports, a switch sends only to the intended one.",
+      "- Confusing **router and modem** — a modem converts signals, a router routes between networks.",
+      "- Answering a topology question without naming **one advantage and one disadvantage**.",
+      "- Writing **MAC address** when the question asks for **IP address** — MAC is fixed to the hardware, IP is assigned to the network."
+    ],
+    "qa": [
+      {
+        "m": "3",
+        "q": "Explain star topology with its advantages and disadvantages.",
+        "a": "In **star topology** every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its **advantages** are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its **disadvantages** are that it needs more cable than a bus, and the central device is a **single point of failure** — if the switch dies, the whole network stops.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Differentiate between a hub, a switch and a router.",
+        "a": "A **hub** works at the physical layer and repeats an incoming signal out of every port, so all devices see all traffic and collisions are common. A **switch** works at the data-link layer, learns the MAC address on each port and forwards a frame only to the intended port, which makes it far faster and more secure. A **router** works at the network layer and connects *different* networks, using IP addresses to choose the best path between them — it is what links your LAN to the internet.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Why is optical fibre preferred over copper cable for long distances?",
+        "a": "Optical fibre carries data as **pulses of light** through glass, so it suffers almost no signal loss over long distances and is **immune to electrical interference** from motors, power lines and lightning. It also has a far higher bandwidth than copper. Its drawbacks are that it is more expensive and more fragile to install, which is why copper still dominates the last few metres.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "What is the difference between a MAC address and an IP address?",
+        "a": "A **MAC address** is a 48-bit hardware address burnt into the network card; it never changes and identifies the physical device. An **IP address** is assigned logically for the network the device is on, so it changes when the device moves to a different network. MAC works within one local network, while IP works across the whole internet.",
+        "t": "S"
+      },
+      {
+        "m": "1",
+        "q": "Which IEEE standard defines Wi-Fi?",
+        "a": "**IEEE 802.11** defines Wi-Fi. The IEEE 802.3 standard, by contrast, defines wired Ethernet.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Network Types, Topologies & Devices” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Networks by size. A LAN (Local Area Network) covers a room or a building — a school lab. A MAN (Metropolitan Area Network) covers a city — a cable TV network. A WAN (Wide Area Network) covers countries or the world; the internet is the largest WAN. A PAN (Personal Area Network) is the smallest, joining devices around one person, usually by Bluetooth.",
+          "Marks lens: Classify a network by its size, identify a topology from a description, name a device's job.",
+          "Method / memory trick: PAN < LAN < MAN < WAN. Smallest to largest.",
+          "Do not: Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Network Types, Topologies & Devices” (LAN to WAN, star to ring, and the boxes in between.). A classmate lost marks by doing this: Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: PAN < LAN < MAN < WAN. Smallest to largest.",
+          "Why the mistake costs marks: Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Network Types, Topologies & Devices”: “Explain star topology with its advantages and disadvantages.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: LAN to WAN, star to ring, and the boxes in between..",
+          "In star topology every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its advantages are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its disadvantages are that it needs more cable than a bus, and the central device is a single point of failure — if the switch dies, the whole network stops."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Network Types, Topologies & Devices”. Their note says: Networks by size. A LAN (Local Area Network) covers a room or a building — a school lab. A MAN (Metropolitan Area Network) covers a city — a cable TV network. A WAN (Wide Area Network) covers countries or the world; the internet is the largest WAN. A PAN (Personal Area Network) is the smallest, join\n\nThe chapter is described as: LAN to WAN, star to ring, and the boxes in between..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) LAN to WAN, star to ring, and the boxes in between.",
+          "(b) Classify a network by its size, identify a topology from a description, name a device's job.",
+          "(c) Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Explain star topology with its advantages and disadvantages.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) In star topology every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its advantages are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its disadvantages are that it needs more cable than a bus, and the central device is a single point of failure — if the switch dies, the whole network stops.",
+          "(c) PAN < LAN < MAN < WAN. Smallest to largest."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Which network covers a whole city? (a) LAN (b) MAN (c) WAN (d) PAN",
+        "a": "**(b) MAN** — Metropolitan Area Network."
+      },
+      {
+        "q": "Which topology has a single point of failure at its centre? (a) Mesh (b) Bus (c) Star (d) Ring",
+        "a": "**(c) Star** — the hub or switch is the single point of failure."
+      },
+      {
+        "q": "A device that joins two different networks and picks the best path is a — (a) hub (b) switch (c) repeater (d) router",
+        "a": "**(d) router.**"
+      },
+      {
+        "q": "Which medium is immune to electrical interference? (a) twisted pair (b) coaxial (c) optical fibre (d) infrared",
+        "a": "**(c) optical fibre** — it carries light, not electricity."
+      },
+      {
+        "q": "The most exam-ready way to revise “Network Types, Topologies & Devices” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is LAN to WAN, star to ring, and the boxes in between.."
+      },
+      {
+        "q": "A 3-mark answer on “Network Types, Topologies & Devices” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "One topology question with a diagram, plus a device-comparison question, appears in most papers.",
+    "onepager": [
+      "- PAN < LAN < MAN < WAN.",
+      "- Star: safe per node, fragile at the centre. Bus: cheapest, fragile cable. Mesh: most reliable, most expensive.",
+      "- Hub broadcasts, switch forwards to one port, router joins networks, modem converts signals.",
+      "- Twisted pair (RJ-45), coaxial, optical fibre; wireless = 802.11, Bluetooth, infrared.",
+      "- MAC = hardware, IP = network."
+    ],
+    "task": [
+      "Draw star, bus and ring topology in your file. Under each write one advantage and one disadvantage. This is exactly what the exam asks for."
+    ]
+  },
+  {
+    "id": "ch04-mobile-technology",
+    "num": 4,
+    "title": "Mobile & Wireless Technology",
+    "unit": "networking",
+    "unit_name": "Unit I · Networking",
+    "weight": "15 marks unit",
+    "short": "Generations from 1G to 5G, plus the short-range wireless around you.",
+    "lede": "One table, learnt properly, answers every generation question.",
+    "lens": [
+      "Compare generations, name short-range technologies and their uses.",
+      "**Generations are a table question — memorise the table.**"
+    ],
+    "concepts": [
+      "**1. Mobile generations.** **1G** was analog and voice-only. **2G** went digital and added **SMS** and basic data through **GPRS**. **3G** made mobile internet genuinely usable — video calls and browsing at a few Mbps. **4G/LTE** is all-IP and built for data, giving tens of Mbps and making video streaming normal. **5G** targets speeds up to around 20 Gbps with latency under a millisecond, which is what makes remote surgery, autonomous vehicles and dense IoT possible.",
+      "**2. Short-range wireless.** **Bluetooth** joins devices a few metres apart — headphones, keyboards, file sharing. **Wi-Fi** covers a building using the **IEEE 802.11** family of standards. **Infrared** needs a clear line of sight and is used in remote controls. **NFC** works within a few centimetres and is what contactless payments and transit cards use.",
+      "**3. Mobile data plumbing.** A phone talks to a **cell tower**; the area one tower covers is a **cell**, and handover moves a call from one cell to the next without dropping it. **Roaming** is what lets a phone work on another operator's network when you travel.",
+      "**4. Why it matters.** Each generation did not just get faster — it changed what phones could do. 2G added text, 3G added the web, 4G added video, 5G adds machines talking to machines."
+    ],
+    "formulas": [
+      "**Generations at a glance**",
+      {
+        "table": {
+          "head": [
+            "Generation",
+            "Signal",
+            "Speed",
+            "What it added"
+          ],
+          "rows": [
+            [
+              "1G",
+              "Analog",
+              "2.4 kbps",
+              "Voice calls only"
+            ],
+            [
+              "2G",
+              "Digital",
+              "up to 64 kbps",
+              "SMS, GPRS data"
+            ],
+            [
+              "3G",
+              "Digital",
+              "up to 2 Mbps",
+              "Video calling, mobile web"
+            ],
+            [
+              "4G / LTE",
+              "All-IP",
+              "up to 100 Mbps",
+              "HD streaming, VoIP"
+            ],
+            [
+              "5G",
+              "All-IP",
+              "up to 20 Gbps",
+              "IoT, ultra-low latency"
+            ]
+          ]
+        }
+      }
+    ],
+    "tricks": [
+      "- **1 voice → 2 text → 3 web → 4 video → 5 machines.** Five words for five generations.",
+      "- **Bluetooth = metres, Wi-Fi = a building, cell tower = kilometres.**",
+      "- **NFC needs centimetres** — that is why you tap, not wave.",
+      "- **Handover** keeps a call alive as you drive between cells."
+    ],
+    "mistakes": [
+      "- Saying 4G is faster *only* — it is also **all-IP**, which is the point.",
+      "- Confusing **Bluetooth and NFC** ranges: Bluetooth is metres, NFC is centimetres.",
+      "- Forgetting that **infrared needs line of sight**, unlike Bluetooth and Wi-Fi."
+    ],
+    "qa": [
+      {
+        "m": "3",
+        "q": "Compare 3G, 4G and 5G.",
+        "a": "**3G** made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. **4G (LTE)** is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. **5G** targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for **massive numbers of connected devices** — IoT sensors, autonomous vehicles and remote medical procedures.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "What is the difference between Bluetooth and NFC?",
+        "a": "**Bluetooth** works over a range of a few metres and is used for continuous connections such as headphones, speakers and keyboards. **NFC (Near Field Communication)** works only within a few centimetres and is used for a single quick exchange — contactless payments, transit cards, pairing by tapping. Bluetooth needs pairing; NFC works by simply bringing two devices together.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "What is a cell and what is handover?",
+        "a": "A **cell** is the geographic area covered by one mobile tower. A whole city is divided into many cells, which is why mobile networks are called cellular. **Handover** is the automatic process of moving an ongoing call or data session from one cell's tower to the next as the user travels, so the connection does not drop.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Why does infrared need line of sight but Wi-Fi does not?",
+        "a": "Infrared uses **light waves**, which cannot pass through solid objects, so the transmitter and receiver must see each other directly — that is why a TV remote only works when pointed at the TV. Wi-Fi uses **radio waves**, which pass through walls and furniture, so it works throughout a building without a direct line of sight.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Mobile & Wireless Technology” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Mobile generations. 1G was analog and voice-only. 2G went digital and added SMS and basic data through GPRS. 3G made mobile internet genuinely usable — video calls and browsing at a few Mbps. 4G/LTE is all-IP and built for data, giving tens of Mbps and making video streaming normal. 5G targets speeds up to around 20 Gbps with latency under a millisecond, which is what makes remote surgery, autonomous vehicles and den.",
+          "Marks lens: Compare generations, name short-range technologies and their uses.",
+          "Method / memory trick: 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations.",
+          "Do not: Saying 4G is faster *only* — it is also all-IP, which is the point."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Mobile & Wireless Technology” (Generations from 1G to 5G, plus the short-range wireless around you.). A classmate lost marks by doing this: Saying 4G is faster *only* — it is also all-IP, which is the point. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations.",
+          "Why the mistake costs marks: Saying 4G is faster *only* — it is also all-IP, which is the point.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Mobile & Wireless Technology”: “Compare 3G, 4G and 5G.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Generations from 1G to 5G, plus the short-range wireless around you..",
+          "G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Mobile & Wireless Technology”. Their note says: Mobile generations. 1G was analog and voice-only. 2G went digital and added SMS and basic data through GPRS. 3G made mobile internet genuinely usable — video calls and browsing at a few Mbps. 4G/LTE is all-IP and built for data, giving tens of Mbps and making video streaming normal. 5G targets speed\n\nThe chapter is described as: Generations from 1G to 5G, plus the short-range wireless around you..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Generations from 1G to 5G, plus the short-range wireless around you.",
+          "(b) Compare generations, name short-range technologies and their uses.",
+          "(c) Saying 4G is faster *only* — it is also all-IP, which is the point."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Compare 3G, 4G and 5G.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures.",
+          "(c) 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Which generation first made video calling practical? (a) 2G (b) 3G (c) 4G (d) 1G",
+        "a": "**(b) 3G**, with speeds up to about 2 Mbps."
+      },
+      {
+        "q": "NFC works over a range of — (a) metres (b) kilometres (c) centimetres (d) it has no limit",
+        "a": "**(c) centimetres** — which is why you tap."
+      },
+      {
+        "q": "Which standard family defines Wi-Fi? (a) IEEE 802.3 (b) IEEE 802.11 (c) IEEE 802.15 (d) IEEE 802.16",
+        "a": "**(b) IEEE 802.11.** 802.3 is wired Ethernet."
+      },
+      {
+        "q": "4G networks are described as — (a) analog (b) circuit-switched (c) all-IP (d) infrared-based",
+        "a": "**(c) all-IP.**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Mobile & Wireless Technology” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Generations from 1G to 5G, plus the short-range wireless around you.."
+      },
+      {
+        "q": "A 3-mark answer on “Mobile & Wireless Technology” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "A generations table question is very common, and it is fully memorisable.",
+    "onepager": [
+      "- 1 voice, 2 text, 3 web, 4 video, 5 machines.",
+      "- Bluetooth metres, Wi-Fi a building, NFC centimetres, infrared line of sight.",
+      "- Cell = one tower's coverage; handover moves you between them.",
+      "- 4G and 5G are all-IP; 5G's point is IoT and low latency."
+    ],
+    "task": [
+      "Write the generations table from memory, then check it. Next, list every wireless technology in your home and label each as Bluetooth, Wi-Fi, infrared or NFC."
+    ]
+  },
+  {
+    "id": "ch05-web-browsing",
+    "num": 5,
+    "title": "Web Browsers, Search & Web Concepts",
+    "unit": "networking",
+    "unit_name": "Unit I · Networking",
+    "weight": "15 marks unit",
+    "short": "Browsers, search engines, cookies, caching and the difference between a web page and a website.",
+    "lede": "Short chapter, high mark density. Mostly one- and two-mark definitions.",
+    "lens": [
+      "Define terms, compare browsers with search engines, explain cookies and caching.",
+      "**This chapter closes Unit I — revise it as one block.**"
+    ],
+    "concepts": [
+      "**1. Browser versus search engine.** A **web browser** (Chrome, Firefox, Edge, Safari) is *software on your device* that requests and displays pages. A **search engine** (Google, Bing) is *a website* that indexes other websites so you can find them. You use a browser to reach a search engine — they are not alternatives to each other.",
+      "**2. Pages, sites and home pages.** A **web page** is a single HTML document. A **website** is a collection of related pages under one domain. The **home page** is the entry page, usually `index.html`. A **web portal** gathers links, news and services in one place.",
+      "**3. Cookies and cache.** A **cookie** is a small piece of data a website stores in your browser to remember you — a login, a language, the contents of a cart. **Caching** stores a local copy of a page or image so it loads faster and uses less bandwidth the next time. **Browsing history** is the record of pages visited. All three raise privacy questions, which is why browsers now offer private modes.",
+      "**4. Finding things.** A **search engine** uses a **crawler** (or spider) to visit pages, an **index** to store what it found, and a **ranking algorithm** to order results. **Bookmarking** saves an address you want to return to; **RSS feeds** push updates from a site to you instead of you checking it."
+    ],
+    "tricks": [
+      "- **Browser is on your machine; search engine is on the web.**",
+      "- **Cookie remembers you, cache speeds you up, history records you.** Three different things, three different questions.",
+      "- **Crawler visits → index stores → algorithm ranks.**",
+      "- A **website** is many pages; a **web page** is one document."
+    ],
+    "mistakes": [
+      "- Calling Google a **browser** — it is a search engine, a website.",
+      "- Confusing **cookies with cache** — cookies are identity data, cache is a speed copy.",
+      "- Saying a **home page** is the same as a **web page** in general — the home page is specifically the entry page."
+    ],
+    "qa": [
+      {
+        "m": "2",
+        "q": "Differentiate between a web browser and a search engine.",
+        "a": "A **web browser** is software installed on your computer or phone — Chrome, Firefox, Edge or Safari — that sends requests for pages and renders the HTML it receives into the page you see. A **search engine** such as Google is itself a website whose job is to index other websites and return a ranked list of results for your query. You need a browser in order to open a search engine, so they work together rather than as alternatives.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "What are cookies and why are they used?",
+        "a": "A **cookie** is a small piece of data that a website stores in the user's browser. Websites use cookies to remember something about the user between visits — whether they are logged in, which language they chose, or what is in their shopping cart. Without cookies, every page request would be treated as a brand-new visitor. Because cookies can also be used to track browsing behaviour, browsers offer private modes that discard them when the window closes.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "What is caching and what is its benefit?",
+        "a": "**Caching** means keeping a local copy of a resource — a page, an image or a stylesheet — so that it does not have to be downloaded again. The benefits are that pages **load faster** and **use less bandwidth**, which matters most on slow or metered connections. The trade-off is that a cached copy can be out of date, which is why a forced refresh sometimes shows a different page.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "How does a search engine find and rank pages?",
+        "a": "A search engine uses a **crawler** — also called a spider — that automatically visits web pages and follows the links on them to discover more. What it finds is stored in an **index**, a huge searchable catalogue. When you type a query, a **ranking algorithm** scores the matching pages by relevance, authority and quality, and returns them in order.",
+        "t": "S"
+      },
+      {
+        "m": "1",
+        "q": "Name any three web browsers.",
+        "a": "**Google Chrome**, **Mozilla Firefox** and **Microsoft Edge**. Apple's **Safari** and **Opera** are other common examples.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Web Browsers, Search & Web Concepts” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Browser versus search engine. A web browser (Chrome, Firefox, Edge, Safari) is *software on your device* that requests and displays pages. A search engine (Google, Bing) is *a website* that indexes other websites so you can find them. You use a browser to reach a search engine — they are not alternatives to each other.",
+          "Marks lens: Define terms, compare browsers with search engines, explain cookies and caching.",
+          "Method / memory trick: Browser is on your machine; search engine is on the web.",
+          "Do not: Calling Google a browser — it is a search engine, a website."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Web Browsers, Search & Web Concepts” (Browsers, search engines, cookies, caching and the difference between a web page and a website.). A classmate lost marks by doing this: Calling Google a browser — it is a search engine, a website. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Browser is on your machine; search engine is on the web.",
+          "Why the mistake costs marks: Calling Google a browser — it is a search engine, a website.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Web Browsers, Search & Web Concepts”: “Differentiate between a web browser and a search engine.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Browsers, search engines, cookies, caching and the difference between a web page and a website..",
+          "A web browser is software installed on your computer or phone — Chrome, Firefox, Edge or Safari — that sends requests for pages and renders the HTML it receives into the page you see. A search engine such as Google is itself a website whose job is to index other websites and return a ranked list of results for your query. You need a browser in order to open a search engine, so they work together rather than as alternatives."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Web Browsers, Search & Web Concepts”. Their note says: Browser versus search engine. A web browser (Chrome, Firefox, Edge, Safari) is *software on your device* that requests and displays pages. A search engine (Google, Bing) is *a website* that indexes other websites so you can find them. You use a browser to reach a search engine — they are not alterna\n\nThe chapter is described as: Browsers, search engines, cookies, caching and the difference between a web page and a website..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Browsers, search engines, cookies, caching and the difference between a web page and a website.",
+          "(b) Define terms, compare browsers with search engines, explain cookies and caching.",
+          "(c) Calling Google a browser — it is a search engine, a website."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Differentiate between a web browser and a search engine.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) A web browser is software installed on your computer or phone — Chrome, Firefox, Edge or Safari — that sends requests for pages and renders the HTML it receives into the page you see. A search engine such as Google is itself a website whose job is to index other websites and return a ranked list of results for your query. You need a browser in order to open a search engine, so they work together rather than as alternatives.",
+          "(c) Browser is on your machine; search engine is on the web."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Google is an example of a — (a) browser (b) search engine (c) protocol (d) server operating system",
+        "a": "**(b) search engine.**"
+      },
+      {
+        "q": "Which stores a local copy of a page to speed up loading? (a) cookie (b) bookmark (c) cache (d) portal",
+        "a": "**(c) cache.**"
+      },
+      {
+        "q": "The entry page of a website is called the — (a) portal (b) home page (c) cache (d) feed",
+        "a": "**(b) home page**, usually `index.html`."
+      },
+      {
+        "q": "The program that automatically visits and indexes web pages is called a — (a) router (b) crawler (c) modem (d) gateway",
+        "a": "**(b) crawler** or spider."
+      },
+      {
+        "q": "The most exam-ready way to revise “Web Browsers, Search & Web Concepts” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Browsers, search engines, cookies, caching and the difference between a web page and a website.."
+      },
+      {
+        "q": "A 3-mark answer on “Web Browsers, Search & Web Concepts” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Browser versus search engine and cookies versus cache are the two most repeated comparisons in Unit I.",
+    "onepager": [
+      "- Browser = software on your device; search engine = a website.",
+      "- Cookie remembers, cache speeds up, history records.",
+      "- Crawler → index → ranking algorithm.",
+      "- Web page = one document; website = many pages; home page = entry point."
+    ],
+    "task": [
+      "Write one line each for browser, search engine, cookie, cache, portal and bookmark. Six lines covers the whole chapter's question set."
+    ]
+  }
 ]

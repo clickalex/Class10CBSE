@@ -1,216 +1,680 @@
 [
-{
-"id": "ch05-life-processes", "num": 5, "title": "Life Processes",
-"unit": "u2", "unit_name": "II · World of Living", "weight": "part of 25 marks",
-"short": "Nutrition, respiration, transport and excretion — four systems, four diagrams.",
-"lede": "The longest Biology chapter. Learn the four systems as diagrams, not paragraphs, and it becomes the most reliable 3–5 mark answer in the paper.",
-"lens": [
-"**4–5 marks.** Almost always a labelled diagram (human respiratory or excretory system, or the nephron) plus one 3-mark reasoning question.",
-"Case-based questions love the **10% energy transfer** or the **transpiration pull** idea, and the difference between aerobic and anaerobic respiration appears nearly every year."
-],
-"concepts": [
-"**1. Maintenance.** Living organisms constantly repair and renew their structures using energy from outside. The processes that maintain life are nutrition, respiration, transport and excretion. Growth and movement are *not* by themselves proof of life — a breathing person in a coma is alive; a growing crystal is not.",
-"**2. Nutrition.** **Autotrophic** (green plants: 6CO2 + 12H2O →(chlorophyll, sunlight) C6H12O6 + 6O2 + 6H2O — three events: absorption of light by chlorophyll, conversion of light energy to chemical energy with the splitting of water, and reduction of CO2 to carbohydrate). **Heterotrophic**: holozoic (amoeba — pseudopodia, food vacuole), parasitic (Cuscuta, ticks, tapeworm), saprophytic (fungi, yeast).",
-"**3. Nutrition in human beings.** Alimentary canal: mouth (salivary **amylase** starts starch digestion) → oesophagus (**peristaltic** movements) → stomach (HCl kills germs, **pepsin** digests protein in acidic medium, mucus protects the lining) → small intestine (bile from the liver emulsifies fat; **trypsin** acts on protein, **lipase** on fat; **villi** increase absorption area) → large intestine (water absorbed) → anus. Ruminants have a caecum for cellulose; amoeba uses pseudopodia.",
-"**4. Respiration.** **Aerobic** (in mitochondria): glucose → pyruvate → CO2 + H2O + a large amount of energy. **Anaerobic** in yeast: glucose → ethanol + CO2 + less energy (fermentation). **In our muscles** when oxygen is scarce: glucose → **lactic acid** + energy, which causes cramps. Fish have gills with a large surface area; the rate of breathing in aquatic animals is much faster because dissolved oxygen is low.",
-"**5. Transport in human beings.** **Double circulation** — blood passes through the heart twice in one cycle. Right auricle ← deoxygenated blood from the body (vena cava); right ventricle → lungs (pulmonary artery); left auricle ← oxygenated blood (pulmonary vein); left ventricle → body (aorta). Arteries have thick elastic walls and carry blood away from the heart; veins have valves and thin walls; capillaries are one cell thick for exchange. **Platelets** clot blood. In plants, **xylem** carries water and minerals upward (driven by root pressure at night and **transpiration pull** by day); **phloem** carries food by **translocation** using ATP, in both directions.",
-"**6. Excretion.** The pair of kidneys contain **nephrons** — the functional units: Bowman's capsule with the glomerulus filters the blood under pressure (ultrafiltration), then useful glucose, amino acids, salts and most water are **reabsorbed** in the tubule, leaving urine (urea, uric acid, excess water) in the collecting duct. Artificial removal of nitrogenous waste is **haemodialysis** (dialyser). Plants excrete through oxygen release, transpiration, shedding leaves, resins and gums, and storage in cellular vacuoles."
-],
-"formulas": [
-"6CO2 + 12H2O →(chlorophyll, sunlight) C6H12O6 + 6O2 + 6H2O",
-"C6H12O6 + 6O2 → 6CO2 + 6H2O + energy (aerobic)",
-"C6H12O6 → 2C2H5OH + 2CO2 + energy (yeast)",
-"C6H12O6 → 2 lactic acid + energy (muscle)"
-],
-"tricks": [
-"- **Four systems, four words:** Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion).",
-"- **Artery = Away, thick wall; Vein = in, Valves.** The pulmonary artery and vein are the exceptions to the 'oxygenated blood' rule.",
-"- **Xylem = water = one direction (up); Phloem = food = two directions.** Both are living except xylem vessels and tracheids."
-],
-"mistakes": [
-"- Writing the photosynthesis equation with 6H2O on the left. NCERT uses **12H2O**.",
-"- Saying bile contains enzymes. Bile contains **no digestive enzyme** — it only emulsifies fat and makes the medium alkaline.",
-"- Labelling the diagram wrong: the **left** side of the heart carries **oxygenated** blood (drawn on the right of your page in most diagrams).",
-"- Confusing **transpiration pull** with **root pressure** — root pressure matters at night; transpiration pull is the main daytime force."
-],
-"qa": [
-{"m": "1", "q": "Name the functional unit of the kidney and the pigment that absorbs light energy in plants.", "a": "Nephron; chlorophyll."},
-{"m": "3", "q": "Why is the rate of breathing in aquatic organisms much faster than in terrestrial organisms?", "a": "Because the amount of dissolved oxygen in water is far lower than the oxygen in air. Aquatic animals must therefore pass a larger volume of water over their gills per unit time to obtain enough oxygen, which makes the breathing rate faster."},
-{"m": "3", "q": "What are the differences between aerobic and anaerobic respiration? Name two organisms that use anaerobic respiration.", "a": ["**Aerobic** occurs in the presence of oxygen, in the mitochondria, giving CO2 and H2O and a large amount of energy.", "**Anaerobic** occurs without oxygen in the cytoplasm, giving ethanol and CO2 (yeast) or lactic acid (muscles), and much less energy.", "Organisms: yeast, some bacteria and parasitic worms such as *Taenia*; human muscle cells respire anaerobically temporarily."]},
-{"m": "3", "q": "Draw a labelled diagram of the human excretory system, or describe the working of a nephron.", "a": ["Kidneys → ureters → urinary bladder → urethra.", "**Nephron:** blood enters the glomerulus under pressure inside Bowman's capsule, where water, glucose, amino acids, salts and urea are filtered into the tubule (ultrafiltration).", "As the filtrate moves down the tubule, useful substances and most water are **selectively reabsorbed**; the remaining fluid, now urine, collects in the collecting duct and passes into the ureter."]},
-{"m": "5", "q": "Explain the process of nutrition in human beings, from ingestion to egestion.", "a": ["**Mouth:** teeth chew the food; salivary amylase begins the breakdown of starch into simpler sugars.", "**Oesophagus:** peristaltic movements push the food to the stomach.", "**Stomach:** HCl makes the medium acidic for pepsin to digest proteins, kills germs, and mucus protects the stomach wall.", "**Small intestine:** the site of complete digestion — bile from the liver emulsifies fat, pancreatic trypsin acts on proteins, lipase on fats, and intestinal enzymes convert carbohydrates to glucose and proteins to amino acids; the finger-like **villi** absorb the digested food into the blood.", "**Large intestine and anus:** water is absorbed from the undigested food and the waste is egested."]},
-{"m": "2", "q": "Why is diffusion insufficient to meet the oxygen requirements of multicellular organisms like human beings?", "a": "Because their cells are not all in direct contact with the environment, and the volume of the body is large, so the distance oxygen would have to diffuse is too great. Diffusion is too slow to supply every cell, which is why special respiratory and transport systems are needed."}
-],
-"mcq": [
-{"q": "The kidneys in human beings are a part of the system for: (a) nutrition (b) respiration (c) excretion (d) transportation", "a": "**(c) excretion** — they remove nitrogenous waste (urea and uric acid) from the blood."},
-{"q": "Which of the following is not a function of the stomach? (a) killing bacteria (b) digestion of protein (c) absorption of digested food (d) protection of the stomach wall by mucus", "a": "**(c).** Absorption of digested food occurs mainly in the small intestine through the villi."},
-{"q": "The breakdown of pyruvate to give CO2, water and energy takes place in the: (a) cytoplasm (b) mitochondria (c) chloroplast (d) nucleus", "a": "**(b) mitochondria.** Glycolysis (glucose → pyruvate) occurs in the cytoplasm; the further oxidation of pyruvate is mitochondrial."}
-],
-"trend": "A labelled diagram question from this chapter is close to certain (nephron, respiratory system, or the heart); double circulation and aerobic vs anaerobic respiration are the most repeated 3-mark answers.",
-"onepager": [
-"- Photosynthesis: 12H2O on the left, chlorophyll and sunlight above the arrow.",
-"- Bile has no enzyme — it emulsifies fat only.",
-"- Aerobic = mitochondria, more energy; anaerobic = ethanol (yeast) or lactic acid (muscle).",
-"- Arteries away/thick, veins in/valves; xylem up, phloem both ways.",
-"- Nephron: ultrafiltration in Bowman's capsule, selective reabsorption in the tubule."
-],
-"task": ["Draw and label the human respiratory system and the nephron in your notebook from memory, then check both against the NCERT diagrams. Mark in a different colour every label you missed — those are the marks you would have lost."]
-},
-{
-"id": "ch06-control-and-coordination", "num": 6, "title": "Control and Coordination",
-"unit": "u2", "unit_name": "II · World of Living", "weight": "part of 25 marks",
-"short": "Nervous system, reflex arc, plant hormones and animal hormones.",
-"lede": "Two tables to memorise — the brain parts and the plant/animal hormones — and this chapter is finished.",
-"lens": [
-"**2–3 marks.** Reflex arc and the hormone tables are the recurring questions; a labelled diagram of the neuron or the reflex arc is common.",
-"Case-based questions often present a hormone-deficiency symptom and ask you to name the hormone and the gland."
-],
-"concepts": [
-"**1. Two ways of coordinating.** **Nervous** coordination uses electrical impulses and is fast but short-lived and reaches only selected cells; **chemical (hormonal)** coordination is slower, slower to act but longer-lasting and reaches every cell through the blood. Plants rely mainly on chemical coordination and on growth movements.",
-"**2. The neuron.** Cell body with nucleus, **dendrites** receive information, the **axon** carries the impulse away, and the **nerve ending** releases a chemical (neurotransmitter) into the **synapse**, so the impulse always travels one way. An impulse is generated by a change in the electrical potential difference across the cell membrane caused by ion movement.",
-"**3. The reflex arc.** Receptor (skin) → **sensory neuron** → spinal cord (**relay/interneuron**) → **motor neuron** → **effector** (muscle or gland). Reflex actions are sudden and involuntary; they do not wait for the brain, which is why you withdraw your hand before you feel the pain. The brain is still informed afterwards.",
-"**4. The human nervous system.** **Central**: brain + spinal cord, protected by the skull, vertebral column, three meninges and **cerebrospinal fluid** (shock absorber). Brain parts: **forebrain** — cerebrum (thinking, memory, voluntary action; the largest part), olfactory centre, hunger centre; **midbrain** — involuntary actions such as change in pupil size; **hindbrain** — pons (respiration), **medulla** (involuntary actions like blood pressure, salivation, vomiting), **cerebellum** (posture, balance, precision of voluntary movement — alcohol affects it). The spinal cord runs in the vertebral column and carries reflexes.",
-"**5. Coordination in plants.** **Tropic movements** are directional growth responses: **phototropism** (shoot toward light), **geotropism** (root toward gravity), **hydrotropism** (root toward water), **chemotropism** (pollen tube growing toward the ovule), **thigmotropism** (tendrils). **Nastic** movements are non-directional, such as the closing of *Mimosa* (touch-me-not) leaves, caused by a change in the water content of cells. **Phytohormones**: **auxin** (cell elongation, phototropism, made at the shoot tip), **gibberellins** (stem growth), **cytokinins** (cell division, fruit and seed growth), **abscisic acid** (growth *inhibitor* — wilting of leaves, closing of stomata).",
-"**6. Hormones in animals.** Endocrine glands are **ductless** and pour hormones directly into the blood. **Thyroxin** (thyroid) regulates carbohydrate, protein and fat metabolism — iodine deficiency causes **goitre**. **Growth hormone** (pituitary) — deficiency causes dwarfism, excess causes gigantism. **Testosterone** (testes) and **oestrogen** (ovaries) control puberty. **Insulin** (pancreas) regulates blood sugar — its deficiency causes **diabetes**. **Adrenaline** (adrenal gland) is the emergency hormone: it increases heart rate, breathing rate and blood supply to muscles, preparing the body for fight or flight. Feedback regulation controls hormone secretion."
-],
-"formulas": [],
-"tricks": [
-"- **Reflex arc order:** Receptor → Sensory → (Spine) → Motor → Effector. *'Red Sun Shines More Energetically'.*",
-"- **Hindbrain trio:** **P**ons = breathing, **M**edulla = involuntary, **C**erebellum = balance. Remember 'PMC — Pump, Medulla control, Coordination'.",
-"- **Auxin is the growth hormone, abscisic acid is the anti-growth hormone.** Everything else promotes."
-],
-"mistakes": [
-"- Drawing the reflex arc through the brain. It passes through the **spinal cord** only.",
-"- Saying the pituitary secretes insulin. Insulin comes from the **pancreas**.",
-"- Calling the closing of *Mimosa* leaves a tropic movement. It is a **nastic** (non-directional) movement.",
-"- Writing 'thyroxin controls growth'. It controls **metabolism**; growth hormone controls growth."
-],
-"qa": [
-{"m": "1", "q": "Name the largest part of the human brain and the hormone secreted by the pancreas.", "a": "Cerebrum; insulin."},
-{"m": "2", "q": "Why is the use of iodised salt advisable?", "a": "Iodine is essential for the synthesis of thyroxin by the thyroid gland. A shortage of iodine causes the gland to swell, producing goitre, and can lead to mental and physical disability in children, so iodised salt ensures an adequate intake."},
-{"m": "3", "q": "Draw a labelled diagram of a neuron, or explain how a nerve impulse travels across a synapse.", "a": ["A neuron has a cell body with dendrites, a long axon, and branching nerve endings.", "When the impulse reaches the nerve ending, an electrical signal is converted into a chemical — a neurotransmitter is released into the synaptic gap.", "The chemical diffuses across the gap and triggers a new electrical impulse in the next neuron's dendrite, so the impulse travels in one direction only."]},
-{"m": "3", "q": "What is a reflex arc? Why are reflex actions important?", "a": ["A reflex arc is the path followed by a nerve impulse during a reflex action: receptor → sensory neuron → spinal cord (relay neuron) → motor neuron → effector.", "They are important because they are immediate and do not require the brain to think, so they protect the body from sudden injury such as heat, sharp objects or bright light."]},
-{"m": "5", "q": "Describe the parts of the human brain and their functions.", "a": ["**Forebrain** — contains the **cerebrum**, the main thinking part, which controls voluntary actions, memory, intelligence and the senses; it also contains centres for hunger and smell.", "**Midbrain** — controls involuntary actions such as the change in the size of the pupil.", "**Hindbrain** — **pons** helps regulate respiration; the **medulla** controls involuntary actions such as blood pressure, salivation and vomiting; the **cerebellum** maintains posture and balance and makes voluntary movements precise, such as walking in a straight line or picking up a pencil.", "The whole brain is protected by the cranium, meninges and the shock-absorbing cerebrospinal fluid."]},
-{"m": "2", "q": "How does phototropism occur in plants?", "a": "Auxin is synthesised at the tip of the shoot and diffuses to the **shaded** side of the stem. There it causes the cells to elongate more than on the illuminated side, so the stem bends toward the light."}
-],
-"mcq": [
-{"q": "The gap between two neurons is called: (a) dendrite (b) synapse (c) axon (d) impulse", "a": "**(b) synapse** — the junction where a neurotransmitter carries the signal across."},
-{"q": "Which plant hormone is a growth inhibitor? (a) auxin (b) gibberellin (c) cytokinin (d) abscisic acid", "a": "**(d) abscisic acid** — it inhibits growth and causes wilting of leaves and the closing of stomata."},
-{"q": "The part of the brain that maintains the posture and balance of the body is: (a) cerebrum (b) cerebellum (c) pons (d) medulla", "a": "**(b) cerebellum.** It also makes voluntary movements precise; alcohol affects it, which is why a drunk person staggers."}
-],
-"trend": "The reflex arc and the hormone tables (plant hormones and human endocrine glands) alternate as the 3-mark question; iodine–goitre and insulin–diabetes are the most repeated short answers.",
-"onepager": [
-"- Reflex arc: receptor → sensory → spinal cord → motor → effector.",
-"- Forebrain = cerebrum (largest, thinking); hindbrain = pons, medulla, cerebellum.",
-"- Auxin, gibberellin, cytokinin promote growth; abscisic acid inhibits it.",
-"- Thyroxin–metabolism, growth hormone–growth, insulin–blood sugar, adrenaline–emergency."
-],
-"task": ["Make a two-column table: left column, all plant hormones with one function each; right column, all human endocrine glands with their hormone and one deficiency disease. Do it from memory, then mark what you missed in red — that red list is your revision list for this chapter."]
-},
-{
-"id": "ch07-how-do-organisms-reproduce", "num": 7, "title": "How do Organisms Reproduce?",
-"unit": "u2", "unit_name": "II · World of Living", "weight": "part of 25 marks",
-"short": "Asexual modes, the human reproductive system, and reproductive health.",
-"lede": "Half a page of asexual modes, half a page of the human system. Diagrams of binary fission in amoeba and the female reproductive system are standard.",
-"lens": [
-"**2–3 marks.** One asexual reproduction comparison and one question on the human reproductive system or contraception.",
-"Diagrams asked: binary fission in amoeba, budding in yeast, longitudinal section of a flower, and the human female reproductive system."
-],
-"concepts": [
-"**1. Why DNA copying matters.** Reproduction produces a new organism from an existing one, and the **DNA in the nucleus is copied** first. Copying is not perfectly accurate, so variations arise. Small variations help a species survive changing conditions; large ones may be lethal. Reproduction is therefore essential for the *species*, not for the survival of the individual organism.",
-"**2. Asexual reproduction.** **Fission** — binary (amoeba, *Leishmania*, *Paramecium*: the nucleus divides first, then the cytoplasm) and multiple (Plasmodium). **Fragmentation** (Spirogyra breaks into pieces, each growing into a new organism). **Regeneration** (Planaria, Hydra — specialised cells proliferate and redifferentiate). **Budding** (Hydra, yeast — a small outgrowth detaches; in yeast it may stay attached and form chains). **Vegetative propagation** (Bryophyllum leaf buds, potato eyes, and artificial methods: cutting, layering, grafting — quick, cheap, and the new plant is a genetic copy so fruit quality is retained). **Spore formation** (Rhizopus — sporangia with thick walls that survive unfavourable conditions).",
-"**3. Sexual reproduction in flowering plants.** Flower parts: **calyx** (sepals, protective), **corolla** (petals), **androecium** (stamen = anther + filament; anther contains pollen), **gynocoecium** (pistil = stigma, style, ovary; ovary contains ovules with egg cells). **Pollination** (self or cross — by wind, water, insects) is the transfer of pollen to the stigma; **fertilisation** is the fusion of the male gamete with the egg in the ovule. The pollen tube grows down the style. After fertilisation the **ovule becomes the seed** and the **ovary becomes the fruit**; the sepals and petals fall off.",
-"**4. The human male reproductive system.** Testes (produce sperm and **testosterone**) lie outside the abdominal cavity in the **scrotum**, which keeps them 2–3 °C below body temperature for sperm formation. Vas deferens → urethra → urethral opening. Accessory glands — **prostate** and **seminal vesicles** — add fluid that nourishes the sperm and makes transport easier; this fluid plus sperm is **semen**.",
-"**5. The human female reproductive system.** Pair of **ovaries** (produce ova and **oestrogen**), **fallopian tubes/oviducts** (site of fertilisation; cilia move the egg), **uterus** (where the embryo implants and develops), **cervix**, **vagina**. If the egg is not fertilised, the thickened uterine lining breaks down and is discharged as blood and mucus — **menstruation**, roughly every 28 days. After fertilisation the embryo gets nutrition from the mother's blood through the **placenta**, a disc embedded in the uterine wall with villi on the embryo's side.",
-"**6. Reproductive health.** **Contraception** — mechanical barrier (condom, which also prevents sexually transmitted diseases; diaphragm, copper-T), chemical (oral pills that change the hormonal balance, so the ovum is not released), and surgical (vasectomy in males, tubectomy in females). **Sexually transmitted infections** — bacterial: gonorrhoea, syphilis; viral: warts, HIV-AIDS. Unwanted pregnancy and unsafe abortion lead to maternal illness and death; a healthy society needs a balance between population and resources."
-],
-"formulas": [],
-"tricks": [
-"- **Fission vs fragmentation vs regeneration:** one cell splits = fission; body breaks into pieces = fragmentation; a *cut part* grows into a whole = regeneration.",
-"- **Ovule → seed, ovary → fruit.** Both start with 'o'.",
-"- **Scrotum is outside because sperm need it cooler.** That single sentence scores the 2-mark reasoning question."
-],
-"mistakes": [
-"- Saying fertilisation occurs in the uterus. It occurs in the **fallopian tube (oviduct)**; implantation happens in the uterus.",
-"- Confusing **pollination** with **fertilisation** — pollination is only the transfer of pollen to the stigma.",
-"- Saying condoms protect against pregnancy only. They also reduce the risk of **sexually transmitted diseases**.",
-"- Drawing binary fission in amoeba without showing the **nucleus dividing first**."
-],
-"qa": [
-{"m": "1", "q": "Where does fertilisation occur in human beings, and which gland secretes testosterone?", "a": "Fertilisation occurs in the fallopian tube (oviduct); testosterone is secreted by the testes."},
-{"m": "2", "q": "Why are the testes located outside the abdominal cavity in the scrotum?", "a": "Because sperm formation requires a temperature 2–3 °C lower than the normal body temperature. The scrotum, being outside the abdomen, maintains this lower temperature."},
-{"m": "3", "q": "Explain regeneration in Planaria with a diagram description.", "a": ["If a Planaria is cut into several pieces, each piece can grow into a complete organism.", "Specialised cells at the wound surface **proliferate** (multiply) to form a mass of cells.", "These cells then **move** to their proper positions and **redifferentiate** into the various tissues and organs needed, so a whole new organism develops from the fragment."]},
-{"m": "3", "q": "Distinguish between pollination and fertilisation.", "a": ["**Pollination** is the transfer of pollen grains from the anther to the stigma of the same or another flower of the same species; it needs an external agent such as wind, water or insects.", "**Fertilisation** is the fusion of the male gamete from the pollen tube with the female gamete (egg) inside the ovule, forming a zygote. It occurs inside the ovary and needs no external agent."]},
-{"m": "5", "q": "Describe the structure and working of the human female reproductive system.", "a": ["**Ovaries** — a pair of glands that produce the female gamete (ovum) and the hormone oestrogen.", "**Fallopian tubes (oviducts)** — tubes with finger-like ends near the ovary and ciliated walls; the egg is captured here and **fertilisation takes place in the tube**.", "**Uterus** — a muscular bag where the fertilised egg implants and the embryo develops.", "**Cervix and vagina** — the cervix is the narrow opening of the uterus; the vagina is the passage through which sperm enter and the baby is delivered.", "Every month the uterus prepares a thick, spongy lining to receive a fertilised egg. If no fertilisation occurs, the lining breaks down and is discharged as blood and mucus through the vagina — this is **menstruation**. After fertilisation, the embryo is nourished by the mother's blood through the **placenta**."]},
-{"m": "2", "q": "List two advantages of vegetative propagation.", "a": "It is a quick and cheap method of multiplying plants, and the new plants are genetically identical to the parent, so desirable qualities such as fruit size and taste are retained. Plants that do not produce viable seeds, like banana and rose, can also be propagated this way."}
-],
-"mcq": [
-{"q": "Binary fission in amoeba begins with the division of the: (a) cytoplasm (b) nucleus (c) cell membrane (d) pseudopodia", "a": "**(b) nucleus.** The nucleus divides first, followed by the division of the cytoplasm into two daughter cells."},
-{"q": "The anther contains: (a) sepals (b) ovules (c) carpel (d) pollen grains", "a": "**(d) pollen grains.** The anther is the male reproductive part; ovules are inside the ovary."},
-{"q": "Which of the following is a barrier method of contraception? (a) oral pill (b) copper-T (c) condom (d) vasectomy", "a": "**(c) condom.** It physically prevents the sperm from meeting the egg and also reduces the risk of sexually transmitted diseases."}
-],
-"trend": "One asexual reproduction question (usually a comparison or a diagram of amoeba/yeast) plus one question on the human reproductive system, contraception or the placenta. Flower parts and pollination vs fertilisation are the recurring short answers.",
-"onepager": [
-"- DNA copying creates variation — essential for the species, not the individual.",
-"- Amoeba binary fission; Hydra/yeast budding; Spirogyra fragmentation; Planaria regeneration; Rhizopus spores; Bryophyllum leaf buds.",
-"- Pollination = transfer of pollen; fertilisation = fusion in the ovule; ovule→seed, ovary→fruit.",
-"- Fertilisation in the fallopian tube; nutrition via the placenta; scrotum keeps testes cool."
-],
-"task": ["Observe a permanent slide of binary fission in amoeba and a slide of budding in yeast under the microscope, and draw both in sequence order. Then draw a longitudinal section of a hibiscus flower and label all eight parts."]
-},
-{
-"id": "ch08-heredity", "num": 8, "title": "Heredity",
-"unit": "u2", "unit_name": "II · World of Living", "weight": "part of 25 marks",
-"short": "Mendel's monohybrid and dihybrid crosses, and sex determination.",
-"lede": "The shortest chapter with the most predictable questions. Learn the two crosses and the 3:1 / 9:3:3:1 ratios and you have the marks.",
-"lens": [
-"**2–3 marks.** A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.",
-"The chapter is now titled **Heredity** — the evolution section has been removed from the syllabus, so ignore it in older books and question banks."
-],
-"concepts": [
-"**1. The basis of heredity.** Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the **gene**, a segment of DNA on a chromosome. Each character has a pair of **alleles**, one from each parent. A **dominant** allele expresses itself in the F1 generation; the **recessive** allele is masked and reappears in F2. **Genotype** is the genetic make-up (TT, Tt, tt); **phenotype** is what appears (tall or dwarf).",
-"**2. Mendel's monohybrid cross.** Pure tall (TT) × pure dwarf (tt) → F1 all tall (Tt) — the recessive character is hidden, not lost. Self-pollination of F1 gives F2 in the ratio **3 tall : 1 dwarf** (phenotypic) and **1 TT : 2 Tt : 1 tt** (genotypic). Conclusion: characters are inherited as separate, independent units, and one can dominate the other.",
-"**3. Mendel's dihybrid cross.** Round-yellow (RRYY) × wrinkled-green (rryy) → F1 all round-yellow (RrYy). F2 phenotypic ratio **9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green**. Conclusion: the two pairs of characters are **independently inherited** — new combinations (round-green and wrinkled-yellow) appear that were not in the parents.",
-"**4. Sex determination in human beings.** Sex chromosomes: **XX** = female, **XY** = male. All eggs carry an X; sperms carry either X or Y. If an X-bearing sperm fertilises the egg the child is a girl (XX); if a Y-bearing sperm does, the child is a boy (XY). The chance of a boy or a girl is therefore **50 : 50** — sex is determined by the father's sperm, and it is a matter of chance, not of any parent's doing.",
-"**5. Acquired vs inherited traits.** A trait acquired during life (a beetle becoming lighter after injury, a wrestler's muscles, a pierced ear) affects only the **somatic** cells and is **not** passed on. Only changes in the **DNA of germ cells** are inherited. A small population faces a greater risk of extinction because inbreeding reduces variation, and genetic drift can wipe out rare alleles."
-],
-"formulas": [
-"Monohybrid F2 phenotypic ratio = 3 : 1",
-"Monohybrid F2 genotypic ratio = 1 : 2 : 1",
-"Dihybrid F2 phenotypic ratio = 9 : 3 : 3 : 1",
-"Sex ratio = 50% XY (boy) : 50% XX (girl)"
-],
-"tricks": [
-"- **3:1 is phenotypic, 1:2:1 is genotypic.** If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.",
-"- **Dihybrid = (3:1) × (3:1) = 9:3:3:1.** Deriving it is faster than memorising it.",
-"- **Father decides the sex.** The mother always gives X; only the sperm can give Y."
-],
-"mistakes": [
-"- Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is **masked**, and reappears in F2.",
-"- Forgetting to draw the Punnett square when the question says 'show with the help of a cross'.",
-"- Stating that the sex of a child depends on the mother. It depends on **which sperm** fertilises the egg.",
-"- Confusing **genotype** and **phenotype** in the final ratio line."
-],
-"qa": [
-{"m": "1", "q": "What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?", "a": "XY; the gene (a segment of DNA on a chromosome)."},
-{"m": "2", "q": "A man with blood group A marries a woman with blood group O and their daughter has blood group O. Is this enough to tell which trait is dominant? Why?", "a": "No. From one family we cannot tell. If A were dominant, the father could be heterozygous (IAi) and the daughter could inherit i from both parents; but a single observation does not establish dominance, which requires studying many such crosses."},
-{"m": "3", "q": "Explain Mendel's monohybrid cross with a Punnett square.", "a": ["Pure tall (TT) × pure dwarf (tt). Gametes: T and t. F1: all Tt — tall, because tall is dominant and dwarf is recessive.", "Selfing F1 (Tt × Tt) gives gametes T and t from each parent. Punnett square → TT, Tt, Tt, tt.", "**Phenotype:** 3 tall : 1 dwarf. **Genotype:** 1 TT : 2 Tt : 1 tt. The dwarf character was only masked in F1, not lost."]},
-{"m": "3", "q": "How is the sex of a child determined in human beings? Show diagrammatically.", "a": ["Mother (XX) produces only X-bearing eggs; father (XY) produces X-bearing and Y-bearing sperms in equal numbers.", "X egg + X sperm → XX = girl; X egg + Y sperm → XY = boy.", "The probability of either is 50%, so the sex of the child is decided by chance and not by either parent's wish or action."]},
-{"m": "5", "q": "Describe Mendel's dihybrid cross and state the conclusion drawn from it.", "a": ["He crossed pea plants with **round-yellow** seeds (RRYY) with plants having **wrinkled-green** seeds (rryy).", "F1: all plants had round-yellow seeds (RrYy) — round and yellow are dominant.", "On self-pollinating F1, F2 gave four phenotypes: **9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green** (16 combinations in the 4×4 Punnett square).", "**Conclusion:** the two pairs of characters are inherited **independently** of each other, which is why new combinations (round-green and wrinkled-green) appear in F2 that were absent in the parents. This is the **law of independent assortment**."]},
-{"m": "2", "q": "Distinguish between acquired and inherited traits, with one example of each.", "a": "An **acquired trait** develops during an organism's lifetime due to experience or environment and is not passed on — for example, a wrestler's well-developed muscles or a pierced ear. An **inherited trait** is present from birth and is passed on through the DNA of germ cells — for example, the colour of eyes or free ear lobes."}
-],
-"mcq": [
-{"q": "In a monohybrid cross between a tall (TT) and a dwarf (tt) pea plant, the F2 phenotypic ratio is: (a) 1:1 (b) 3:1 (c) 9:3:3:1 (d) 1:2:1", "a": "**(b) 3 tall : 1 dwarf.** 1:2:1 is the genotypic ratio of the same cross."},
-{"q": "The sex of a human child is determined by: (a) the mother's egg (b) the father's sperm (c) both parents equally (d) the diet of the mother", "a": "**(b) the father's sperm.** Eggs always carry X; a sperm carrying Y produces a boy and one carrying X produces a girl."},
-{"q": "A cross between F1 hybrid tall plants (Tt × Tt) gives dwarf plants in F2. The expected ratio of tall to dwarf is: (a) 1:3 (b) 3:1 (c) 1:1 (d) 2:2", "a": "**(b) 3:1** — 25% of F2 are homozygous dwarf (tt)."}
-],
-"trend": "Either the monohybrid or the dihybrid cross with a Punnett square appears almost every year, along with a short question on sex determination or acquired vs inherited traits.",
-"onepager": [
-"- Gene = segment of DNA; alleles come in pairs; dominant masks recessive in F1.",
-"- Monohybrid F2: 3:1 phenotype, 1:2:1 genotype. Dihybrid F2: 9:3:3:1.",
-"- XX = girl, XY = boy; the father's sperm decides, 50:50.",
-"- Acquired traits affect somatic cells and are not inherited; only germ-cell DNA changes are."
-],
-"task": ["Draw the 4×4 Punnett square for the dihybrid cross RrYy × RrYy by hand, count the sixteen squares into the four phenotype classes, and confirm the 9:3:3:1 ratio. Then convert each genotype into its phenotype to check you have 9 round-yellow, 3 round-green, 3 wrinkled-yellow and 1 wrinkled-green."]
-}
+  {
+    "id": "ch05-life-processes",
+    "num": 5,
+    "title": "Life Processes",
+    "unit": "u2",
+    "unit_name": "II · World of Living",
+    "weight": "part of 25 marks",
+    "short": "Nutrition, respiration, transport and excretion — four systems, four diagrams.",
+    "lede": "The longest Biology chapter. Learn the four systems as diagrams, not paragraphs, and it becomes the most reliable 3–5 mark answer in the paper.",
+    "lens": [
+      "**4–5 marks.** Almost always a labelled diagram (human respiratory or excretory system, or the nephron) plus one 3-mark reasoning question.",
+      "Case-based questions love the **10% energy transfer** or the **transpiration pull** idea, and the difference between aerobic and anaerobic respiration appears nearly every year."
+    ],
+    "concepts": [
+      "**1. Maintenance.** Living organisms constantly repair and renew their structures using energy from outside. The processes that maintain life are nutrition, respiration, transport and excretion. Growth and movement are *not* by themselves proof of life — a breathing person in a coma is alive; a growing crystal is not.",
+      "**2. Nutrition.** **Autotrophic** (green plants: 6CO2 + 12H2O →(chlorophyll, sunlight) C6H12O6 + 6O2 + 6H2O — three events: absorption of light by chlorophyll, conversion of light energy to chemical energy with the splitting of water, and reduction of CO2 to carbohydrate). **Heterotrophic**: holozoic (amoeba — pseudopodia, food vacuole), parasitic (Cuscuta, ticks, tapeworm), saprophytic (fungi, yeast).",
+      "**3. Nutrition in human beings.** Alimentary canal: mouth (salivary **amylase** starts starch digestion) → oesophagus (**peristaltic** movements) → stomach (HCl kills germs, **pepsin** digests protein in acidic medium, mucus protects the lining) → small intestine (bile from the liver emulsifies fat; **trypsin** acts on protein, **lipase** on fat; **villi** increase absorption area) → large intestine (water absorbed) → anus. Ruminants have a caecum for cellulose; amoeba uses pseudopodia.",
+      "**4. Respiration.** **Aerobic** (in mitochondria): glucose → pyruvate → CO2 + H2O + a large amount of energy. **Anaerobic** in yeast: glucose → ethanol + CO2 + less energy (fermentation). **In our muscles** when oxygen is scarce: glucose → **lactic acid** + energy, which causes cramps. Fish have gills with a large surface area; the rate of breathing in aquatic animals is much faster because dissolved oxygen is low.",
+      "**5. Transport in human beings.** **Double circulation** — blood passes through the heart twice in one cycle. Right auricle ← deoxygenated blood from the body (vena cava); right ventricle → lungs (pulmonary artery); left auricle ← oxygenated blood (pulmonary vein); left ventricle → body (aorta). Arteries have thick elastic walls and carry blood away from the heart; veins have valves and thin walls; capillaries are one cell thick for exchange. **Platelets** clot blood. In plants, **xylem** carries water and minerals upward (driven by root pressure at night and **transpiration pull** by day); **phloem** carries food by **translocation** using ATP, in both directions.",
+      "**6. Excretion.** The pair of kidneys contain **nephrons** — the functional units: Bowman's capsule with the glomerulus filters the blood under pressure (ultrafiltration), then useful glucose, amino acids, salts and most water are **reabsorbed** in the tubule, leaving urine (urea, uric acid, excess water) in the collecting duct. Artificial removal of nitrogenous waste is **haemodialysis** (dialyser). Plants excrete through oxygen release, transpiration, shedding leaves, resins and gums, and storage in cellular vacuoles."
+    ],
+    "formulas": [
+      "6CO2 + 12H2O →(chlorophyll, sunlight) C6H12O6 + 6O2 + 6H2O",
+      "C6H12O6 + 6O2 → 6CO2 + 6H2O + energy (aerobic)",
+      "C6H12O6 → 2C2H5OH + 2CO2 + energy (yeast)",
+      "C6H12O6 → 2 lactic acid + energy (muscle)"
+    ],
+    "tricks": [
+      "- **Four systems, four words:** Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion).",
+      "- **Artery = Away, thick wall; Vein = in, Valves.** The pulmonary artery and vein are the exceptions to the 'oxygenated blood' rule.",
+      "- **Xylem = water = one direction (up); Phloem = food = two directions.** Both are living except xylem vessels and tracheids."
+    ],
+    "mistakes": [
+      "- Writing the photosynthesis equation with 6H2O on the left. NCERT uses **12H2O**.",
+      "- Saying bile contains enzymes. Bile contains **no digestive enzyme** — it only emulsifies fat and makes the medium alkaline.",
+      "- Labelling the diagram wrong: the **left** side of the heart carries **oxygenated** blood (drawn on the right of your page in most diagrams).",
+      "- Confusing **transpiration pull** with **root pressure** — root pressure matters at night; transpiration pull is the main daytime force."
+    ],
+    "qa": [
+      {
+        "m": "1",
+        "q": "Name the functional unit of the kidney and the pigment that absorbs light energy in plants.",
+        "a": "Nephron; chlorophyll.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Why is the rate of breathing in aquatic organisms much faster than in terrestrial organisms?",
+        "a": "Because the amount of dissolved oxygen in water is far lower than the oxygen in air. Aquatic animals must therefore pass a larger volume of water over their gills per unit time to obtain enough oxygen, which makes the breathing rate faster.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What are the differences between aerobic and anaerobic respiration? Name two organisms that use anaerobic respiration.",
+        "a": [
+          "**Aerobic** occurs in the presence of oxygen, in the mitochondria, giving CO2 and H2O and a large amount of energy.",
+          "**Anaerobic** occurs without oxygen in the cytoplasm, giving ethanol and CO2 (yeast) or lactic acid (muscles), and much less energy.",
+          "Organisms: yeast, some bacteria and parasitic worms such as *Taenia*; human muscle cells respire anaerobically temporarily."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Draw a labelled diagram of the human excretory system, or describe the working of a nephron.",
+        "a": [
+          "Kidneys → ureters → urinary bladder → urethra.",
+          "**Nephron:** blood enters the glomerulus under pressure inside Bowman's capsule, where water, glucose, amino acids, salts and urea are filtered into the tubule (ultrafiltration).",
+          "As the filtrate moves down the tubule, useful substances and most water are **selectively reabsorbed**; the remaining fluid, now urine, collects in the collecting duct and passes into the ureter."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "5",
+        "q": "Explain the process of nutrition in human beings, from ingestion to egestion.",
+        "a": [
+          "**Mouth:** teeth chew the food; salivary amylase begins the breakdown of starch into simpler sugars.",
+          "**Oesophagus:** peristaltic movements push the food to the stomach.",
+          "**Stomach:** HCl makes the medium acidic for pepsin to digest proteins, kills germs, and mucus protects the stomach wall.",
+          "**Small intestine:** the site of complete digestion — bile from the liver emulsifies fat, pancreatic trypsin acts on proteins, lipase on fats, and intestinal enzymes convert carbohydrates to glucose and proteins to amino acids; the finger-like **villi** absorb the digested food into the blood.",
+          "**Large intestine and anus:** water is absorbed from the undigested food and the waste is egested."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "2",
+        "q": "Why is diffusion insufficient to meet the oxygen requirements of multicellular organisms like human beings?",
+        "a": "Because their cells are not all in direct contact with the environment, and the volume of the body is large, so the distance oxygen would have to diffuse is too great. Diffusion is too slow to supply every cell, which is why special respiratory and transport systems are needed.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Life Processes” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Maintenance. Living organisms constantly repair and renew their structures using energy from outside. The processes that maintain life are nutrition, respiration, transport and excretion. Growth and movement are *not* by themselves proof of life — a breathing person in a coma is alive; a growing crystal is not.",
+          "Marks lens: –5 marks. Almost always a labelled diagram (human respiratory or excretory system, or the nephron) plus one 3-mark reasoning question.",
+          "Method / memory trick: Four systems, four words: Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion).",
+          "Do not: Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Life Processes” (Nutrition, respiration, transport and excretion — four systems, four diagrams.). A classmate lost marks by doing this: Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Four systems, four words: Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion).",
+          "Why the mistake costs marks: Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Life Processes”: “Name the functional unit of the kidney and the pigment that absorbs light energy in plants.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Nutrition, respiration, transport and excretion — four systems, four diagrams..",
+          "Nephron; chlorophyll."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Life Processes”. Their note says: Maintenance. Living organisms constantly repair and renew their structures using energy from outside. The processes that maintain life are nutrition, respiration, transport and excretion. Growth and movement are *not* by themselves proof of life — a breathing person in a coma is alive; a growing cry\n\nThe chapter is described as: Nutrition, respiration, transport and excretion — four systems, four diagrams..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Nutrition, respiration, transport and excretion — four systems, four diagrams.",
+          "(b) –5 marks. Almost always a labelled diagram (human respiratory or excretory system, or the nephron) plus one 3-mark reasoning question.",
+          "(c) Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Name the functional unit of the kidney and the pigment that absorbs light energy in plants.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) Nephron; chlorophyll.",
+          "(c) Four systems, four words: Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion)."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "The kidneys in human beings are a part of the system for: (a) nutrition (b) respiration (c) excretion (d) transportation",
+        "a": "**(c) excretion** — they remove nitrogenous waste (urea and uric acid) from the blood."
+      },
+      {
+        "q": "Which of the following is not a function of the stomach? (a) killing bacteria (b) digestion of protein (c) absorption of digested food (d) protection of the stomach wall by mucus",
+        "a": "**(c).** Absorption of digested food occurs mainly in the small intestine through the villi."
+      },
+      {
+        "q": "The breakdown of pyruvate to give CO2, water and energy takes place in the: (a) cytoplasm (b) mitochondria (c) chloroplast (d) nucleus",
+        "a": "**(b) mitochondria.** Glycolysis (glucose → pyruvate) occurs in the cytoplasm; the further oxidation of pyruvate is mitochondrial."
+      },
+      {
+        "q": "The most exam-ready way to revise “Life Processes” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Nutrition, respiration, transport and excretion — four systems, four diagrams.."
+      },
+      {
+        "q": "A 3-mark answer on “Life Processes” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "A labelled diagram question from this chapter is close to certain (nephron, respiratory system, or the heart); double circulation and aerobic vs anaerobic respiration are the most repeated 3-mark answers.",
+    "onepager": [
+      "- Photosynthesis: 12H2O on the left, chlorophyll and sunlight above the arrow.",
+      "- Bile has no enzyme — it emulsifies fat only.",
+      "- Aerobic = mitochondria, more energy; anaerobic = ethanol (yeast) or lactic acid (muscle).",
+      "- Arteries away/thick, veins in/valves; xylem up, phloem both ways.",
+      "- Nephron: ultrafiltration in Bowman's capsule, selective reabsorption in the tubule."
+    ],
+    "task": [
+      "Draw and label the human respiratory system and the nephron in your notebook from memory, then check both against the NCERT diagrams. Mark in a different colour every label you missed — those are the marks you would have lost."
+    ]
+  },
+  {
+    "id": "ch06-control-and-coordination",
+    "num": 6,
+    "title": "Control and Coordination",
+    "unit": "u2",
+    "unit_name": "II · World of Living",
+    "weight": "part of 25 marks",
+    "short": "Nervous system, reflex arc, plant hormones and animal hormones.",
+    "lede": "Two tables to memorise — the brain parts and the plant/animal hormones — and this chapter is finished.",
+    "lens": [
+      "**2–3 marks.** Reflex arc and the hormone tables are the recurring questions; a labelled diagram of the neuron or the reflex arc is common.",
+      "Case-based questions often present a hormone-deficiency symptom and ask you to name the hormone and the gland."
+    ],
+    "concepts": [
+      "**1. Two ways of coordinating.** **Nervous** coordination uses electrical impulses and is fast but short-lived and reaches only selected cells; **chemical (hormonal)** coordination is slower, slower to act but longer-lasting and reaches every cell through the blood. Plants rely mainly on chemical coordination and on growth movements.",
+      "**2. The neuron.** Cell body with nucleus, **dendrites** receive information, the **axon** carries the impulse away, and the **nerve ending** releases a chemical (neurotransmitter) into the **synapse**, so the impulse always travels one way. An impulse is generated by a change in the electrical potential difference across the cell membrane caused by ion movement.",
+      "**3. The reflex arc.** Receptor (skin) → **sensory neuron** → spinal cord (**relay/interneuron**) → **motor neuron** → **effector** (muscle or gland). Reflex actions are sudden and involuntary; they do not wait for the brain, which is why you withdraw your hand before you feel the pain. The brain is still informed afterwards.",
+      "**4. The human nervous system.** **Central**: brain + spinal cord, protected by the skull, vertebral column, three meninges and **cerebrospinal fluid** (shock absorber). Brain parts: **forebrain** — cerebrum (thinking, memory, voluntary action; the largest part), olfactory centre, hunger centre; **midbrain** — involuntary actions such as change in pupil size; **hindbrain** — pons (respiration), **medulla** (involuntary actions like blood pressure, salivation, vomiting), **cerebellum** (posture, balance, precision of voluntary movement — alcohol affects it). The spinal cord runs in the vertebral column and carries reflexes.",
+      "**5. Coordination in plants.** **Tropic movements** are directional growth responses: **phototropism** (shoot toward light), **geotropism** (root toward gravity), **hydrotropism** (root toward water), **chemotropism** (pollen tube growing toward the ovule), **thigmotropism** (tendrils). **Nastic** movements are non-directional, such as the closing of *Mimosa* (touch-me-not) leaves, caused by a change in the water content of cells. **Phytohormones**: **auxin** (cell elongation, phototropism, made at the shoot tip), **gibberellins** (stem growth), **cytokinins** (cell division, fruit and seed growth), **abscisic acid** (growth *inhibitor* — wilting of leaves, closing of stomata).",
+      "**6. Hormones in animals.** Endocrine glands are **ductless** and pour hormones directly into the blood. **Thyroxin** (thyroid) regulates carbohydrate, protein and fat metabolism — iodine deficiency causes **goitre**. **Growth hormone** (pituitary) — deficiency causes dwarfism, excess causes gigantism. **Testosterone** (testes) and **oestrogen** (ovaries) control puberty. **Insulin** (pancreas) regulates blood sugar — its deficiency causes **diabetes**. **Adrenaline** (adrenal gland) is the emergency hormone: it increases heart rate, breathing rate and blood supply to muscles, preparing the body for fight or flight. Feedback regulation controls hormone secretion."
+    ],
+    "formulas": [],
+    "tricks": [
+      "- **Reflex arc order:** Receptor → Sensory → (Spine) → Motor → Effector. *'Red Sun Shines More Energetically'.*",
+      "- **Hindbrain trio:** **P**ons = breathing, **M**edulla = involuntary, **C**erebellum = balance. Remember 'PMC — Pump, Medulla control, Coordination'.",
+      "- **Auxin is the growth hormone, abscisic acid is the anti-growth hormone.** Everything else promotes."
+    ],
+    "mistakes": [
+      "- Drawing the reflex arc through the brain. It passes through the **spinal cord** only.",
+      "- Saying the pituitary secretes insulin. Insulin comes from the **pancreas**.",
+      "- Calling the closing of *Mimosa* leaves a tropic movement. It is a **nastic** (non-directional) movement.",
+      "- Writing 'thyroxin controls growth'. It controls **metabolism**; growth hormone controls growth."
+    ],
+    "qa": [
+      {
+        "m": "1",
+        "q": "Name the largest part of the human brain and the hormone secreted by the pancreas.",
+        "a": "Cerebrum; insulin.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Why is the use of iodised salt advisable?",
+        "a": "Iodine is essential for the synthesis of thyroxin by the thyroid gland. A shortage of iodine causes the gland to swell, producing goitre, and can lead to mental and physical disability in children, so iodised salt ensures an adequate intake.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Draw a labelled diagram of a neuron, or explain how a nerve impulse travels across a synapse.",
+        "a": [
+          "A neuron has a cell body with dendrites, a long axon, and branching nerve endings.",
+          "When the impulse reaches the nerve ending, an electrical signal is converted into a chemical — a neurotransmitter is released into the synaptic gap.",
+          "The chemical diffuses across the gap and triggers a new electrical impulse in the next neuron's dendrite, so the impulse travels in one direction only."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What is a reflex arc? Why are reflex actions important?",
+        "a": [
+          "A reflex arc is the path followed by a nerve impulse during a reflex action: receptor → sensory neuron → spinal cord (relay neuron) → motor neuron → effector.",
+          "They are important because they are immediate and do not require the brain to think, so they protect the body from sudden injury such as heat, sharp objects or bright light."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "5",
+        "q": "Describe the parts of the human brain and their functions.",
+        "a": [
+          "**Forebrain** — contains the **cerebrum**, the main thinking part, which controls voluntary actions, memory, intelligence and the senses; it also contains centres for hunger and smell.",
+          "**Midbrain** — controls involuntary actions such as the change in the size of the pupil.",
+          "**Hindbrain** — **pons** helps regulate respiration; the **medulla** controls involuntary actions such as blood pressure, salivation and vomiting; the **cerebellum** maintains posture and balance and makes voluntary movements precise, such as walking in a straight line or picking up a pencil.",
+          "The whole brain is protected by the cranium, meninges and the shock-absorbing cerebrospinal fluid."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "2",
+        "q": "How does phototropism occur in plants?",
+        "a": "Auxin is synthesised at the tip of the shoot and diffuses to the **shaded** side of the stem. There it causes the cells to elongate more than on the illuminated side, so the stem bends toward the light.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Control and Coordination” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Two ways of coordinating. Nervous coordination uses electrical impulses and is fast but short-lived and reaches only selected cells; chemical (hormonal) coordination is slower, slower to act but longer-lasting and reaches every cell through the blood. Plants rely mainly on chemical coordination and on growth movements.",
+          "Marks lens: –3 marks. Reflex arc and the hormone tables are the recurring questions; a labelled diagram of the neuron or the reflex arc is common.",
+          "Method / memory trick: Reflex arc order: Receptor → Sensory → (Spine) → Motor → Effector. *'Red Sun Shines More Energetically'.*",
+          "Do not: Drawing the reflex arc through the brain. It passes through the spinal cord only."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Control and Coordination” (Nervous system, reflex arc, plant hormones and animal hormones.). A classmate lost marks by doing this: Drawing the reflex arc through the brain. It passes through the spinal cord only. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Reflex arc order: Receptor → Sensory → (Spine) → Motor → Effector. *'Red Sun Shines More Energetically'.*",
+          "Why the mistake costs marks: Drawing the reflex arc through the brain. It passes through the spinal cord only.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Control and Coordination”: “Name the largest part of the human brain and the hormone secreted by the pancreas.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Nervous system, reflex arc, plant hormones and animal hormones..",
+          "Cerebrum; insulin."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Control and Coordination”. Their note says: Two ways of coordinating. Nervous coordination uses electrical impulses and is fast but short-lived and reaches only selected cells; chemical (hormonal) coordination is slower, slower to act but longer-lasting and reaches every cell through the blood. Plants rely mainly on chemical coordination and \n\nThe chapter is described as: Nervous system, reflex arc, plant hormones and animal hormones..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Nervous system, reflex arc, plant hormones and animal hormones.",
+          "(b) –3 marks. Reflex arc and the hormone tables are the recurring questions; a labelled diagram of the neuron or the reflex arc is common.",
+          "(c) Drawing the reflex arc through the brain. It passes through the spinal cord only."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Name the largest part of the human brain and the hormone secreted by the pancreas.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) Cerebrum; insulin.",
+          "(c) Reflex arc order: Receptor → Sensory → (Spine) → Motor → Effector. *'Red Sun Shines More Energetically'.*"
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "The gap between two neurons is called: (a) dendrite (b) synapse (c) axon (d) impulse",
+        "a": "**(b) synapse** — the junction where a neurotransmitter carries the signal across."
+      },
+      {
+        "q": "Which plant hormone is a growth inhibitor? (a) auxin (b) gibberellin (c) cytokinin (d) abscisic acid",
+        "a": "**(d) abscisic acid** — it inhibits growth and causes wilting of leaves and the closing of stomata."
+      },
+      {
+        "q": "The part of the brain that maintains the posture and balance of the body is: (a) cerebrum (b) cerebellum (c) pons (d) medulla",
+        "a": "**(b) cerebellum.** It also makes voluntary movements precise; alcohol affects it, which is why a drunk person staggers."
+      },
+      {
+        "q": "The most exam-ready way to revise “Control and Coordination” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Nervous system, reflex arc, plant hormones and animal hormones.."
+      },
+      {
+        "q": "A 3-mark answer on “Control and Coordination” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "The reflex arc and the hormone tables (plant hormones and human endocrine glands) alternate as the 3-mark question; iodine–goitre and insulin–diabetes are the most repeated short answers.",
+    "onepager": [
+      "- Reflex arc: receptor → sensory → spinal cord → motor → effector.",
+      "- Forebrain = cerebrum (largest, thinking); hindbrain = pons, medulla, cerebellum.",
+      "- Auxin, gibberellin, cytokinin promote growth; abscisic acid inhibits it.",
+      "- Thyroxin–metabolism, growth hormone–growth, insulin–blood sugar, adrenaline–emergency."
+    ],
+    "task": [
+      "Make a two-column table: left column, all plant hormones with one function each; right column, all human endocrine glands with their hormone and one deficiency disease. Do it from memory, then mark what you missed in red — that red list is your revision list for this chapter."
+    ]
+  },
+  {
+    "id": "ch07-how-do-organisms-reproduce",
+    "num": 7,
+    "title": "How do Organisms Reproduce?",
+    "unit": "u2",
+    "unit_name": "II · World of Living",
+    "weight": "part of 25 marks",
+    "short": "Asexual modes, the human reproductive system, and reproductive health.",
+    "lede": "Half a page of asexual modes, half a page of the human system. Diagrams of binary fission in amoeba and the female reproductive system are standard.",
+    "lens": [
+      "**2–3 marks.** One asexual reproduction comparison and one question on the human reproductive system or contraception.",
+      "Diagrams asked: binary fission in amoeba, budding in yeast, longitudinal section of a flower, and the human female reproductive system."
+    ],
+    "concepts": [
+      "**1. Why DNA copying matters.** Reproduction produces a new organism from an existing one, and the **DNA in the nucleus is copied** first. Copying is not perfectly accurate, so variations arise. Small variations help a species survive changing conditions; large ones may be lethal. Reproduction is therefore essential for the *species*, not for the survival of the individual organism.",
+      "**2. Asexual reproduction.** **Fission** — binary (amoeba, *Leishmania*, *Paramecium*: the nucleus divides first, then the cytoplasm) and multiple (Plasmodium). **Fragmentation** (Spirogyra breaks into pieces, each growing into a new organism). **Regeneration** (Planaria, Hydra — specialised cells proliferate and redifferentiate). **Budding** (Hydra, yeast — a small outgrowth detaches; in yeast it may stay attached and form chains). **Vegetative propagation** (Bryophyllum leaf buds, potato eyes, and artificial methods: cutting, layering, grafting — quick, cheap, and the new plant is a genetic copy so fruit quality is retained). **Spore formation** (Rhizopus — sporangia with thick walls that survive unfavourable conditions).",
+      "**3. Sexual reproduction in flowering plants.** Flower parts: **calyx** (sepals, protective), **corolla** (petals), **androecium** (stamen = anther + filament; anther contains pollen), **gynocoecium** (pistil = stigma, style, ovary; ovary contains ovules with egg cells). **Pollination** (self or cross — by wind, water, insects) is the transfer of pollen to the stigma; **fertilisation** is the fusion of the male gamete with the egg in the ovule. The pollen tube grows down the style. After fertilisation the **ovule becomes the seed** and the **ovary becomes the fruit**; the sepals and petals fall off.",
+      "**4. The human male reproductive system.** Testes (produce sperm and **testosterone**) lie outside the abdominal cavity in the **scrotum**, which keeps them 2–3 °C below body temperature for sperm formation. Vas deferens → urethra → urethral opening. Accessory glands — **prostate** and **seminal vesicles** — add fluid that nourishes the sperm and makes transport easier; this fluid plus sperm is **semen**.",
+      "**5. The human female reproductive system.** Pair of **ovaries** (produce ova and **oestrogen**), **fallopian tubes/oviducts** (site of fertilisation; cilia move the egg), **uterus** (where the embryo implants and develops), **cervix**, **vagina**. If the egg is not fertilised, the thickened uterine lining breaks down and is discharged as blood and mucus — **menstruation**, roughly every 28 days. After fertilisation the embryo gets nutrition from the mother's blood through the **placenta**, a disc embedded in the uterine wall with villi on the embryo's side.",
+      "**6. Reproductive health.** **Contraception** — mechanical barrier (condom, which also prevents sexually transmitted diseases; diaphragm, copper-T), chemical (oral pills that change the hormonal balance, so the ovum is not released), and surgical (vasectomy in males, tubectomy in females). **Sexually transmitted infections** — bacterial: gonorrhoea, syphilis; viral: warts, HIV-AIDS. Unwanted pregnancy and unsafe abortion lead to maternal illness and death; a healthy society needs a balance between population and resources."
+    ],
+    "formulas": [],
+    "tricks": [
+      "- **Fission vs fragmentation vs regeneration:** one cell splits = fission; body breaks into pieces = fragmentation; a *cut part* grows into a whole = regeneration.",
+      "- **Ovule → seed, ovary → fruit.** Both start with 'o'.",
+      "- **Scrotum is outside because sperm need it cooler.** That single sentence scores the 2-mark reasoning question."
+    ],
+    "mistakes": [
+      "- Saying fertilisation occurs in the uterus. It occurs in the **fallopian tube (oviduct)**; implantation happens in the uterus.",
+      "- Confusing **pollination** with **fertilisation** — pollination is only the transfer of pollen to the stigma.",
+      "- Saying condoms protect against pregnancy only. They also reduce the risk of **sexually transmitted diseases**.",
+      "- Drawing binary fission in amoeba without showing the **nucleus dividing first**."
+    ],
+    "qa": [
+      {
+        "m": "1",
+        "q": "Where does fertilisation occur in human beings, and which gland secretes testosterone?",
+        "a": "Fertilisation occurs in the fallopian tube (oviduct); testosterone is secreted by the testes.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Why are the testes located outside the abdominal cavity in the scrotum?",
+        "a": "Because sperm formation requires a temperature 2–3 °C lower than the normal body temperature. The scrotum, being outside the abdomen, maintains this lower temperature.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain regeneration in Planaria with a diagram description.",
+        "a": [
+          "If a Planaria is cut into several pieces, each piece can grow into a complete organism.",
+          "Specialised cells at the wound surface **proliferate** (multiply) to form a mass of cells.",
+          "These cells then **move** to their proper positions and **redifferentiate** into the various tissues and organs needed, so a whole new organism develops from the fragment."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Distinguish between pollination and fertilisation.",
+        "a": [
+          "**Pollination** is the transfer of pollen grains from the anther to the stigma of the same or another flower of the same species; it needs an external agent such as wind, water or insects.",
+          "**Fertilisation** is the fusion of the male gamete from the pollen tube with the female gamete (egg) inside the ovule, forming a zygote. It occurs inside the ovary and needs no external agent."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "5",
+        "q": "Describe the structure and working of the human female reproductive system.",
+        "a": [
+          "**Ovaries** — a pair of glands that produce the female gamete (ovum) and the hormone oestrogen.",
+          "**Fallopian tubes (oviducts)** — tubes with finger-like ends near the ovary and ciliated walls; the egg is captured here and **fertilisation takes place in the tube**.",
+          "**Uterus** — a muscular bag where the fertilised egg implants and the embryo develops.",
+          "**Cervix and vagina** — the cervix is the narrow opening of the uterus; the vagina is the passage through which sperm enter and the baby is delivered.",
+          "Every month the uterus prepares a thick, spongy lining to receive a fertilised egg. If no fertilisation occurs, the lining breaks down and is discharged as blood and mucus through the vagina — this is **menstruation**. After fertilisation, the embryo is nourished by the mother's blood through the **placenta**."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "2",
+        "q": "List two advantages of vegetative propagation.",
+        "a": "It is a quick and cheap method of multiplying plants, and the new plants are genetically identical to the parent, so desirable qualities such as fruit size and taste are retained. Plants that do not produce viable seeds, like banana and rose, can also be propagated this way.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “How do Organisms Reproduce?” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Why DNA copying matters. Reproduction produces a new organism from an existing one, and the DNA in the nucleus is copied first. Copying is not perfectly accurate, so variations arise. Small variations help a species survive changing conditions; large ones may be lethal. Reproduction is therefore essential for the *species*, not for the survival of the individual organism.",
+          "Marks lens: –3 marks. One asexual reproduction comparison and one question on the human reproductive system or contraception.",
+          "Method / memory trick: Fission vs fragmentation vs regeneration: one cell splits = fission; body breaks into pieces = fragmentation; a *cut part* grows into a whole = regeneration.",
+          "Do not: Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “How do Organisms Reproduce?” (Asexual modes, the human reproductive system, and reproductive health.). A classmate lost marks by doing this: Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Fission vs fragmentation vs regeneration: one cell splits = fission; body breaks into pieces = fragmentation; a *cut part* grows into a whole = regeneration.",
+          "Why the mistake costs marks: Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “How do Organisms Reproduce?”: “Where does fertilisation occur in human beings, and which gland secretes testosterone?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Asexual modes, the human reproductive system, and reproductive health..",
+          "Fertilisation occurs in the fallopian tube (oviduct); testosterone is secreted by the testes."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “How do Organisms Reproduce?”. Their note says: Why DNA copying matters. Reproduction produces a new organism from an existing one, and the DNA in the nucleus is copied first. Copying is not perfectly accurate, so variations arise. Small variations help a species survive changing conditions; large ones may be lethal. Reproduction is therefore ess\n\nThe chapter is described as: Asexual modes, the human reproductive system, and reproductive health..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Asexual modes, the human reproductive system, and reproductive health.",
+          "(b) –3 marks. One asexual reproduction comparison and one question on the human reproductive system or contraception.",
+          "(c) Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Where does fertilisation occur in human beings, and which gland secretes testosterone?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) Fertilisation occurs in the fallopian tube (oviduct); testosterone is secreted by the testes.",
+          "(c) Fission vs fragmentation vs regeneration: one cell splits = fission; body breaks into pieces = fragmentation; a *cut part* grows into a whole = regeneration."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Binary fission in amoeba begins with the division of the: (a) cytoplasm (b) nucleus (c) cell membrane (d) pseudopodia",
+        "a": "**(b) nucleus.** The nucleus divides first, followed by the division of the cytoplasm into two daughter cells."
+      },
+      {
+        "q": "The anther contains: (a) sepals (b) ovules (c) carpel (d) pollen grains",
+        "a": "**(d) pollen grains.** The anther is the male reproductive part; ovules are inside the ovary."
+      },
+      {
+        "q": "Which of the following is a barrier method of contraception? (a) oral pill (b) copper-T (c) condom (d) vasectomy",
+        "a": "**(c) condom.** It physically prevents the sperm from meeting the egg and also reduces the risk of sexually transmitted diseases."
+      },
+      {
+        "q": "The most exam-ready way to revise “How do Organisms Reproduce?” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Asexual modes, the human reproductive system, and reproductive health.."
+      },
+      {
+        "q": "A 3-mark answer on “How do Organisms Reproduce?” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "One asexual reproduction question (usually a comparison or a diagram of amoeba/yeast) plus one question on the human reproductive system, contraception or the placenta. Flower parts and pollination vs fertilisation are the recurring short answers.",
+    "onepager": [
+      "- DNA copying creates variation — essential for the species, not the individual.",
+      "- Amoeba binary fission; Hydra/yeast budding; Spirogyra fragmentation; Planaria regeneration; Rhizopus spores; Bryophyllum leaf buds.",
+      "- Pollination = transfer of pollen; fertilisation = fusion in the ovule; ovule→seed, ovary→fruit.",
+      "- Fertilisation in the fallopian tube; nutrition via the placenta; scrotum keeps testes cool."
+    ],
+    "task": [
+      "Observe a permanent slide of binary fission in amoeba and a slide of budding in yeast under the microscope, and draw both in sequence order. Then draw a longitudinal section of a hibiscus flower and label all eight parts."
+    ]
+  },
+  {
+    "id": "ch08-heredity",
+    "num": 8,
+    "title": "Heredity",
+    "unit": "u2",
+    "unit_name": "II · World of Living",
+    "weight": "part of 25 marks",
+    "short": "Mendel's monohybrid and dihybrid crosses, and sex determination.",
+    "lede": "The shortest chapter with the most predictable questions. Learn the two crosses and the 3:1 / 9:3:3:1 ratios and you have the marks.",
+    "lens": [
+      "**2–3 marks.** A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.",
+      "The chapter is now titled **Heredity** — the evolution section has been removed from the syllabus, so ignore it in older books and question banks."
+    ],
+    "concepts": [
+      "**1. The basis of heredity.** Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the **gene**, a segment of DNA on a chromosome. Each character has a pair of **alleles**, one from each parent. A **dominant** allele expresses itself in the F1 generation; the **recessive** allele is masked and reappears in F2. **Genotype** is the genetic make-up (TT, Tt, tt); **phenotype** is what appears (tall or dwarf).",
+      "**2. Mendel's monohybrid cross.** Pure tall (TT) × pure dwarf (tt) → F1 all tall (Tt) — the recessive character is hidden, not lost. Self-pollination of F1 gives F2 in the ratio **3 tall : 1 dwarf** (phenotypic) and **1 TT : 2 Tt : 1 tt** (genotypic). Conclusion: characters are inherited as separate, independent units, and one can dominate the other.",
+      "**3. Mendel's dihybrid cross.** Round-yellow (RRYY) × wrinkled-green (rryy) → F1 all round-yellow (RrYy). F2 phenotypic ratio **9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green**. Conclusion: the two pairs of characters are **independently inherited** — new combinations (round-green and wrinkled-yellow) appear that were not in the parents.",
+      "**4. Sex determination in human beings.** Sex chromosomes: **XX** = female, **XY** = male. All eggs carry an X; sperms carry either X or Y. If an X-bearing sperm fertilises the egg the child is a girl (XX); if a Y-bearing sperm does, the child is a boy (XY). The chance of a boy or a girl is therefore **50 : 50** — sex is determined by the father's sperm, and it is a matter of chance, not of any parent's doing.",
+      "**5. Acquired vs inherited traits.** A trait acquired during life (a beetle becoming lighter after injury, a wrestler's muscles, a pierced ear) affects only the **somatic** cells and is **not** passed on. Only changes in the **DNA of germ cells** are inherited. A small population faces a greater risk of extinction because inbreeding reduces variation, and genetic drift can wipe out rare alleles."
+    ],
+    "formulas": [
+      "Monohybrid F2 phenotypic ratio = 3 : 1",
+      "Monohybrid F2 genotypic ratio = 1 : 2 : 1",
+      "Dihybrid F2 phenotypic ratio = 9 : 3 : 3 : 1",
+      "Sex ratio = 50% XY (boy) : 50% XX (girl)"
+    ],
+    "tricks": [
+      "- **3:1 is phenotypic, 1:2:1 is genotypic.** If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.",
+      "- **Dihybrid = (3:1) × (3:1) = 9:3:3:1.** Deriving it is faster than memorising it.",
+      "- **Father decides the sex.** The mother always gives X; only the sperm can give Y."
+    ],
+    "mistakes": [
+      "- Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is **masked**, and reappears in F2.",
+      "- Forgetting to draw the Punnett square when the question says 'show with the help of a cross'.",
+      "- Stating that the sex of a child depends on the mother. It depends on **which sperm** fertilises the egg.",
+      "- Confusing **genotype** and **phenotype** in the final ratio line."
+    ],
+    "qa": [
+      {
+        "m": "1",
+        "q": "What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?",
+        "a": "XY; the gene (a segment of DNA on a chromosome).",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "A man with blood group A marries a woman with blood group O and their daughter has blood group O. Is this enough to tell which trait is dominant? Why?",
+        "a": "No. From one family we cannot tell. If A were dominant, the father could be heterozygous (IAi) and the daughter could inherit i from both parents; but a single observation does not establish dominance, which requires studying many such crosses.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain Mendel's monohybrid cross with a Punnett square.",
+        "a": [
+          "Pure tall (TT) × pure dwarf (tt). Gametes: T and t. F1: all Tt — tall, because tall is dominant and dwarf is recessive.",
+          "Selfing F1 (Tt × Tt) gives gametes T and t from each parent. Punnett square → TT, Tt, Tt, tt.",
+          "**Phenotype:** 3 tall : 1 dwarf. **Genotype:** 1 TT : 2 Tt : 1 tt. The dwarf character was only masked in F1, not lost."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "How is the sex of a child determined in human beings? Show diagrammatically.",
+        "a": [
+          "Mother (XX) produces only X-bearing eggs; father (XY) produces X-bearing and Y-bearing sperms in equal numbers.",
+          "X egg + X sperm → XX = girl; X egg + Y sperm → XY = boy.",
+          "The probability of either is 50%, so the sex of the child is decided by chance and not by either parent's wish or action."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "5",
+        "q": "Describe Mendel's dihybrid cross and state the conclusion drawn from it.",
+        "a": [
+          "He crossed pea plants with **round-yellow** seeds (RRYY) with plants having **wrinkled-green** seeds (rryy).",
+          "F1: all plants had round-yellow seeds (RrYy) — round and yellow are dominant.",
+          "On self-pollinating F1, F2 gave four phenotypes: **9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green** (16 combinations in the 4×4 Punnett square).",
+          "**Conclusion:** the two pairs of characters are inherited **independently** of each other, which is why new combinations (round-green and wrinkled-green) appear in F2 that were absent in the parents. This is the **law of independent assortment**."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "2",
+        "q": "Distinguish between acquired and inherited traits, with one example of each.",
+        "a": "An **acquired trait** develops during an organism's lifetime due to experience or environment and is not passed on — for example, a wrestler's well-developed muscles or a pierced ear. An **inherited trait** is present from birth and is passed on through the DNA of germ cells — for example, the colour of eyes or free ear lobes.",
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Heredity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The basis of heredity. Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the gene, a segment of DNA on a chromosome. Each character has a pair of alleles, one from each parent. A dominant allele expresses itself in the F1 generation; the recessive allele is masked and reappears in F2. Genotype is the genetic make-up (TT, Tt, tt); phenotype is what appears (tal.",
+          "Marks lens: –3 marks. A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.",
+          "Method / memory trick: 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.",
+          "Do not: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Heredity” (Mendel's monohybrid and dihybrid crosses, and sex determination.). A classmate lost marks by doing this: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.",
+          "Why the mistake costs marks: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Heredity”: “What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Mendel's monohybrid and dihybrid crosses, and sex determination..",
+          "XY; the gene (a segment of DNA on a chromosome)."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Heredity”. Their note says: The basis of heredity. Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the gene, a segment of DNA on a chromosome. Each character has a pair of alleles, one from each parent. A dominant allele expresses itself in the F1 generation; the rece\n\nThe chapter is described as: Mendel's monohybrid and dihybrid crosses, and sex determination..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Mendel's monohybrid and dihybrid crosses, and sex determination.",
+          "(b) –3 marks. A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.",
+          "(c) Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) XY; the gene (a segment of DNA on a chromosome).",
+          "(c) 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "In a monohybrid cross between a tall (TT) and a dwarf (tt) pea plant, the F2 phenotypic ratio is: (a) 1:1 (b) 3:1 (c) 9:3:3:1 (d) 1:2:1",
+        "a": "**(b) 3 tall : 1 dwarf.** 1:2:1 is the genotypic ratio of the same cross."
+      },
+      {
+        "q": "The sex of a human child is determined by: (a) the mother's egg (b) the father's sperm (c) both parents equally (d) the diet of the mother",
+        "a": "**(b) the father's sperm.** Eggs always carry X; a sperm carrying Y produces a boy and one carrying X produces a girl."
+      },
+      {
+        "q": "A cross between F1 hybrid tall plants (Tt × Tt) gives dwarf plants in F2. The expected ratio of tall to dwarf is: (a) 1:3 (b) 3:1 (c) 1:1 (d) 2:2",
+        "a": "**(b) 3:1** — 25% of F2 are homozygous dwarf (tt)."
+      },
+      {
+        "q": "The most exam-ready way to revise “Heredity” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Mendel's monohybrid and dihybrid crosses, and sex determination.."
+      },
+      {
+        "q": "A 3-mark answer on “Heredity” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Either the monohybrid or the dihybrid cross with a Punnett square appears almost every year, along with a short question on sex determination or acquired vs inherited traits.",
+    "onepager": [
+      "- Gene = segment of DNA; alleles come in pairs; dominant masks recessive in F1.",
+      "- Monohybrid F2: 3:1 phenotype, 1:2:1 genotype. Dihybrid F2: 9:3:3:1.",
+      "- XX = girl, XY = boy; the father's sperm decides, 50:50.",
+      "- Acquired traits affect somatic cells and are not inherited; only germ-cell DNA changes are."
+    ],
+    "task": [
+      "Draw the 4×4 Punnett square for the dihybrid cross RrYy × RrYy by hand, count the sixteen squares into the four phenotype classes, and confirm the 9:3:3:1 ratio. Then convert each genotype into its phenotype to check you have 9 round-yellow, 3 round-green, 3 wrinkled-yellow and 1 wrinkled-green."
+    ]
+  }
 ]

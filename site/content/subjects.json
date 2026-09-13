@@ -3,51 +3,130 @@
     "slug": "maths",
     "title": "Mathematics",
     "code": "041 / 241",
-    "kicker": "CBSE \u2022 CLASS 10 \u2022 MATHEMATICS",
+    "kicker": "CBSE • CLASS 10 • MATHEMATICS",
     "short": "14 NCERT chapters. Standard and Basic share the syllabus.",
     "marks": "80 + 20 IA",
-    "blurb": "Fourteen chapters, seven units. **Algebra alone is 20 of the 80 marks** and Statistics + Probability adds 11 \u2014 half the paper sits in six chapters. Every chapter page carries the formula set, the standard method, the mistakes that cost marks and exam Q&A.",
+    "blurb": "Fourteen chapters, seven units. **Algebra alone is 20 of the 80 marks** and Statistics + Probability adds 11 — half the paper sits in six chapters. Every chapter page carries the formula set, the standard method, the mistakes that cost marks and exam Q&A.",
     "areas_heading": "Seven units",
     "syllabus_note": "Standard (041) and Basic (241) share this syllabus; Basic tests the same topics at a lower difficulty. Unit marks are from the official CBSE Class X curriculum.",
     "books": [
-      "- **Mathematics \u2014 Textbook for Class X**, NCERT (primary; every board question traces back here)",
+      "- **Mathematics — Textbook for Class X**, NCERT (primary; every board question traces back here)",
       "- Mathematics Exemplar Problems for Class X, NCERT (for the harder 4- and 5-mark questions)",
-      "- Laboratory Manual \u2014 Mathematics, secondary stage, NCERT (for the 5-mark lab activity in IA)"
+      "- Laboratory Manual — Mathematics, secondary stage, NCERT (for the 5-mark lab activity in IA)"
     ],
     "removed": [
-      "- **Constructions** (old Chapter 11) \u2014 removed from the Class X book entirely.",
+      "- **Constructions** (old Chapter 11) — removed from the Class X book entirely.",
       "- **Areas Related to Circles**: only sectors and segments of a circle remain; the rest of the old chapter was trimmed."
     ],
     "units": [
-      {"id": "u1", "slug": "number-systems", "title": "Unit I \u00b7 Number Systems", "marks": "6 marks", "desc": "Euclid\u2019s division lemma, HCF/LCM, irrationality proofs and terminating decimals.", "tips": ["- Every one of these 6 marks is procedural. Do not lose them to careless long division."]},
-      {"id": "u2", "slug": "algebra", "title": "Unit II \u00b7 Algebra", "marks": "20 marks", "priority": true, "desc": "Polynomials, linear pairs, quadratics and AP \u2014 the single biggest unit in the paper.", "tips": ["- Word problems on AP and on pairs of linear equations are the reliable 4-5 markers."]},
-      {"id": "u3", "slug": "coordinate-geometry", "title": "Unit III \u00b7 Coordinate Geometry", "marks": "6 marks", "desc": "Distance formula, section formula, area of a triangle.", "tips": ["- Shortest unit to finish. Bank these 6 marks early."]},
-      {"id": "u4", "slug": "geometry", "title": "Unit IV \u00b7 Geometry", "marks": "15 marks", "desc": "Similarity in triangles, Pythagoras, and tangents to a circle.", "tips": ["- Learn the theorem statements word-perfect; the 1-mark \u201cstate the theorem\u201d questions are free."]},
-      {"id": "u5", "slug": "trigonometry", "title": "Unit V \u00b7 Trigonometry", "marks": "12 marks", "desc": "Ratios, the standard table, identities, heights and distances.", "tips": ["- Identities are proof-based: write the LHS-to-RHS chain, never both sides at once."]},
-      {"id": "u6", "slug": "mensuration", "title": "Unit VI \u00b7 Mensuration", "marks": "10 marks", "desc": "Sectors and segments, and combinations of solids including the frustum.", "tips": ["- Units. Almost every loss of a mark here is a missing or wrong unit at the end."]},
-      {"id": "u7", "slug": "statistics-probability", "title": "Unit VII \u00b7 Statistics & Probability", "marks": "11 marks", "priority": true, "desc": "Mean, median and mode of grouped data, ogives, and classical probability.", "tips": ["- The most scoring unit per hour of study. Do it before you polish Geometry."]}
+      {
+        "id": "u1",
+        "slug": "number-systems",
+        "title": "Unit I · Number Systems",
+        "marks": "6 marks",
+        "desc": "Euclid’s division lemma, HCF/LCM, irrationality proofs and terminating decimals.",
+        "tips": [
+          "- Every one of these 6 marks is procedural. Do not lose them to careless long division."
+        ]
+      },
+      {
+        "id": "u2",
+        "slug": "algebra",
+        "title": "Unit II · Algebra",
+        "marks": "20 marks",
+        "priority": true,
+        "desc": "Polynomials, linear pairs, quadratics and AP — the single biggest unit in the paper.",
+        "tips": [
+          "- Word problems on AP and on pairs of linear equations are the reliable 4-5 markers."
+        ]
+      },
+      {
+        "id": "u3",
+        "slug": "coordinate-geometry",
+        "title": "Unit III · Coordinate Geometry",
+        "marks": "6 marks",
+        "desc": "Distance formula, section formula, area of a triangle.",
+        "tips": [
+          "- Shortest unit to finish. Bank these 6 marks early."
+        ]
+      },
+      {
+        "id": "u4",
+        "slug": "geometry",
+        "title": "Unit IV · Geometry",
+        "marks": "15 marks",
+        "desc": "Similarity in triangles, Pythagoras, and tangents to a circle.",
+        "tips": [
+          "- Learn the theorem statements word-perfect; the 1-mark “state the theorem” questions are free."
+        ]
+      },
+      {
+        "id": "u5",
+        "slug": "trigonometry",
+        "title": "Unit V · Trigonometry",
+        "marks": "12 marks",
+        "desc": "Ratios, the standard table, identities, heights and distances.",
+        "tips": [
+          "- Identities are proof-based: write the LHS-to-RHS chain, never both sides at once."
+        ]
+      },
+      {
+        "id": "u6",
+        "slug": "mensuration",
+        "title": "Unit VI · Mensuration",
+        "marks": "10 marks",
+        "desc": "Sectors and segments, and combinations of solids including the frustum.",
+        "tips": [
+          "- Units. Almost every loss of a mark here is a missing or wrong unit at the end."
+        ]
+      },
+      {
+        "id": "u7",
+        "slug": "statistics-probability",
+        "title": "Unit VII · Statistics & Probability",
+        "marks": "11 marks",
+        "priority": true,
+        "desc": "Mean, median and mode of grouped data, ogives, and classical probability.",
+        "tips": [
+          "- The most scoring unit per hour of study. Do it before you polish Geometry."
+        ]
+      }
     ],
     "assessment": [
-      ["Theory paper \u2014 Section A (objective), B, C, D and case-based Section E", "**80**", "Accuracy and steps. Show the formula before substituting."],
-      ["Internal assessment \u2014 pen-paper test + multiple assessment, portfolio, lab activity", "**20**", "Keep the lab manual and portfolio current through the year."],
-      ["Total", "100", "Three hours for the theory paper."]
+      [
+        "Theory paper — Section A (objective), B, C, D and case-based Section E",
+        "**80**",
+        "Accuracy and steps. Show the formula before substituting."
+      ],
+      [
+        "Internal assessment — pen-paper test + multiple assessment, portfolio, lab activity",
+        "**20**",
+        "Keep the lab manual and portfolio current through the year."
+      ],
+      [
+        "Total",
+        "100",
+        "Three hours for the theory paper."
+      ]
     ],
     "study_order": [
-      "**Algebra first** (20 marks, Chapters 2\u20135) \u2014 the biggest single block of marks.",
-      "**Statistics and Probability** (11 marks) \u2014 short chapters, high yield.",
-      "**Trigonometry** (12 marks) \u2014 the ratio table unlocks both chapters.",
-      "**Geometry** (15 marks) \u2014 theorem statements first, then the proof practice.",
-      "**Mensuration** (10) and **Coordinate Geometry** (6) \u2014 formula-driven.",
-      "**Number Systems** (6) last \u2014 the quickest unit to revise the night before.",
+      "**Algebra first** (20 marks, Chapters 2–5) — the biggest single block of marks.",
+      "**Statistics and Probability** (11 marks) — short chapters, high yield.",
+      "**Trigonometry** (12 marks) — the ratio table unlocks both chapters.",
+      "**Geometry** (15 marks) — theorem statements first, then the proof practice.",
+      "**Mensuration** (10) and **Coordinate Geometry** (6) — formula-driven.",
+      "**Number Systems** (6) last — the quickest unit to revise the night before.",
       "Then two timed full papers with the official marking scheme."
     ],
-    "countdown": "Target: February\u2013March 2027 boards. Confirm the official date sheet when CBSE publishes it.",
-    "cards": {"practical": "Lab activity + IA"},
+    "countdown": "Target: February–March 2027 boards. Confirm the official date sheet when CBSE publishes it.",
+    "cards": {
+      "practical": "Lab activity + IA"
+    },
     "practical_note": "The 20 internal marks include a pen-paper test, multiple assessment, a portfolio and a **lab activity from the NCERT Laboratory Manual**.",
     "practical": [
-      "- **Lab activity (5 marks)**: usually a hands-on verification \u2014 for example verifying the basic proportionality theorem with a cut-out triangle, or the relationship between the surface area of a sphere and a circumscribing cylinder.",
+      "- **Lab activity (5 marks)**: usually a hands-on verification — for example verifying the basic proportionality theorem with a cut-out triangle, or the relationship between the surface area of a sphere and a circumscribing cylinder.",
       "- **Portfolio (5 marks)**: your assignment sheets, the two chapter tests and one model/working file.",
-      "- **What to keep ready**: a clean geometry box, squared paper for graphs and ogives, and every assignment submitted on time \u2014 multiple assessment is largely built from those.",
+      "- **What to keep ready**: a clean geometry box, squared paper for graphs and ogives, and every assignment submitted on time — multiple assessment is largely built from those.",
       "- Graphs: use a sharp pencil, label both axes, mark the scale, and give the graph a title. Unlabelled axes lose a step mark."
     ]
   },
@@ -55,154 +134,331 @@
     "slug": "science",
     "title": "Science",
     "code": "086",
-    "kicker": "CBSE \u2022 CLASS 10 \u2022 SCIENCE",
+    "kicker": "CBSE • CLASS 10 • SCIENCE",
     "short": "13 NCERT chapters across Chemistry, Biology and Physics.",
     "marks": "80 + 20 practical",
-    "blurb": "Thirteen chapters, five units. **Chemistry and Biology are 25 marks each** \u2014 half the paper is Chapters 1 to 8. Each chapter page has the concept, the diagram or numerical method, the memory trick and exam Q&A.",
+    "blurb": "Thirteen chapters, five units. **Chemistry and Biology are 25 marks each** — half the paper is Chapters 1 to 8. Each chapter page has the concept, the diagram or numerical method, the memory trick and exam Q&A.",
     "areas_heading": "Five units",
-    "syllabus_note": "The rationalised NCERT Class X Science book has 13 chapters. Chapter 8 is now titled **Heredity** (older books say \u201cHeredity and Evolution\u201d).",
+    "syllabus_note": "The rationalised NCERT Class X Science book has 13 chapters. Chapter 8 is now titled **Heredity** (older books say “Heredity and Evolution”).",
     "books": [
-      "- **Science \u2014 Textbook for Class X**, NCERT (the board paper is set from this book, including the activities)",
+      "- **Science — Textbook for Class X**, NCERT (the board paper is set from this book, including the activities)",
       "- NCERT Exemplar Problems for Class X Science (for case-based and higher-order questions)",
       "- CBSE Laboratory Manual for Class X (the practical exam is drawn from these activities)"
     ],
     "removed": [
-      "- **Periodic Classification of Elements** \u2014 removed.",
-      "- **Sources of Energy** \u2014 removed.",
-      "- **Management of Natural Resources** \u2014 removed.",
+      "- **Periodic Classification of Elements** — removed.",
+      "- **Sources of Energy** — removed.",
+      "- **Management of Natural Resources** — removed.",
       "- Chapter 8 no longer covers the full evolution section; it is now **Heredity**."
     ],
     "units": [
-      {"id": "u1", "slug": "chemical-substances", "title": "Unit I \u00b7 Chemical Substances", "marks": "25 marks", "priority": true, "desc": "Reactions and equations, acids bases salts, metals and non-metals, carbon compounds.", "tips": ["- Balancing equations and the reaction types are asked every single year."]},
-      {"id": "u2", "slug": "world-of-living", "title": "Unit II \u00b7 World of Living", "marks": "25 marks", "priority": true, "desc": "Life processes, control and coordination, reproduction, heredity.", "tips": ["- Diagrams carry marks. Draw them large, label with a ruler, and never shade."]},
-      {"id": "u3", "slug": "natural-phenomena", "title": "Unit III \u00b7 Natural Phenomena", "marks": "12 marks", "desc": "Light \u2014 reflection and refraction, the human eye and the colourful world.", "tips": ["- Ray diagrams follow rules; learn the six standard cases and every numerical becomes mechanical."]},
-      {"id": "u4", "slug": "effects-of-current", "title": "Unit IV \u00b7 Effects of Current", "marks": "13 marks", "desc": "Electricity and magnetic effects of current.", "tips": ["- Series vs parallel numericals are the most repeated Physics questions."]},
-      {"id": "u5", "slug": "natural-resources", "title": "Unit V \u00b7 Natural Resources", "marks": "5 marks", "desc": "Our Environment \u2014 food chains, trophic levels, ozone and waste.", "tips": ["- Small chapter, guaranteed marks. The 10% energy-transfer numerical appears often."]}
+      {
+        "id": "u1",
+        "slug": "chemical-substances",
+        "title": "Unit I · Chemical Substances",
+        "marks": "25 marks",
+        "priority": true,
+        "desc": "Reactions and equations, acids bases salts, metals and non-metals, carbon compounds.",
+        "tips": [
+          "- Balancing equations and the reaction types are asked every single year."
+        ]
+      },
+      {
+        "id": "u2",
+        "slug": "world-of-living",
+        "title": "Unit II · World of Living",
+        "marks": "25 marks",
+        "priority": true,
+        "desc": "Life processes, control and coordination, reproduction, heredity.",
+        "tips": [
+          "- Diagrams carry marks. Draw them large, label with a ruler, and never shade."
+        ]
+      },
+      {
+        "id": "u3",
+        "slug": "natural-phenomena",
+        "title": "Unit III · Natural Phenomena",
+        "marks": "12 marks",
+        "desc": "Light — reflection and refraction, the human eye and the colourful world.",
+        "tips": [
+          "- Ray diagrams follow rules; learn the six standard cases and every numerical becomes mechanical."
+        ]
+      },
+      {
+        "id": "u4",
+        "slug": "effects-of-current",
+        "title": "Unit IV · Effects of Current",
+        "marks": "13 marks",
+        "desc": "Electricity and magnetic effects of current.",
+        "tips": [
+          "- Series vs parallel numericals are the most repeated Physics questions."
+        ]
+      },
+      {
+        "id": "u5",
+        "slug": "natural-resources",
+        "title": "Unit V · Natural Resources",
+        "marks": "5 marks",
+        "desc": "Our Environment — food chains, trophic levels, ozone and waste.",
+        "tips": [
+          "- Small chapter, guaranteed marks. The 10% energy-transfer numerical appears often."
+        ]
+      }
     ],
     "assessment": [
-      ["Theory paper \u2014 objective, short answer, long answer and case-based/source-based", "**80**", "Diagrams labelled; equations balanced; units written."],
-      ["Practical / internal assessment \u2014 lab exam, practical file, two periodic tests, subject enrichment", "**20**", "The practical file must match the activity list exactly."],
-      ["Total", "100", "Three hours for the theory paper."]
+      [
+        "Theory paper — objective, short answer, long answer and case-based/source-based",
+        "**80**",
+        "Diagrams labelled; equations balanced; units written."
+      ],
+      [
+        "Practical / internal assessment — lab exam, practical file, two periodic tests, subject enrichment",
+        "**20**",
+        "The practical file must match the activity list exactly."
+      ],
+      [
+        "Total",
+        "100",
+        "Three hours for the theory paper."
+      ]
     ],
     "study_order": [
-      "**Chemistry (Chapters 1\u20134)** first \u2014 25 marks and largely self-contained.",
-      "**Biology (Chapters 5\u20138)** next \u2014 another 25 marks, diagram-heavy.",
-      "**Electricity and Magnetism (11\u201312)** \u2014 13 marks of mostly numericals.",
-      "**Optics (9\u201310)** \u2014 12 marks; do ray diagrams before the numericals.",
-      "**Our Environment (13)** \u2014 quick 5 marks.",
+      "**Chemistry (Chapters 1–4)** first — 25 marks and largely self-contained.",
+      "**Biology (Chapters 5–8)** next — another 25 marks, diagram-heavy.",
+      "**Electricity and Magnetism (11–12)** — 13 marks of mostly numericals.",
+      "**Optics (9–10)** — 12 marks; do ray diagrams before the numericals.",
+      "**Our Environment (13)** — quick 5 marks.",
       "Then one timed paper, with the marking scheme open while you check it."
     ],
-    "countdown": "The practical exam is usually held in January\u2013February, before the theory paper. Confirm with your school.",
-    "cards": {"practical": "Lab + practical file"},
+    "countdown": "The practical exam is usually held in January–February, before the theory paper. Confirm with your school.",
+    "cards": {
+      "practical": "Lab + practical file"
+    },
     "practical_note": "The 20 internal marks include a **practical examination** on the NCERT activities plus a practical file.",
     "practical": [
-      "- **Typical practical list**: properties of acids/bases with indicators; the reaction of metals with acid and with salt solutions; the reactivity series; properties of acetic acid; binary fission in amoeba and budding in yeast; CO\u2082 release in respiration; dependence of current on potential difference; series and parallel resistance; properties of a convex lens; and the parts of a dicot seed embryo.",
+      "- **Typical practical list**: properties of acids/bases with indicators; the reaction of metals with acid and with salt solutions; the reactivity series; properties of acetic acid; binary fission in amoeba and budding in yeast; CO₂ release in respiration; dependence of current on potential difference; series and parallel resistance; properties of a convex lens; and the parts of a dicot seed embryo.",
       "- **Practical file format per activity**: aim, apparatus/materials, theory (one or two lines), procedure, observation table with units, result, precautions.",
       "- **Diagram rules**: pencil only, no shading, labels on one side with horizontal guide lines, magnification not required.",
-      "- **Viva**: expect \u201cwhy this precaution?\u201d and \u201cwhat does this observation prove?\u201d \u2014 the reason matters more than the reading."
+      "- **Viva**: expect “why this precaution?” and “what does this observation prove?” — the reason matters more than the reading."
     ]
   },
   {
     "slug": "social-science",
     "title": "Social Science",
     "code": "087",
-    "kicker": "CBSE \u2022 CLASS 10 \u2022 SOCIAL SCIENCE",
+    "kicker": "CBSE • CLASS 10 • SOCIAL SCIENCE",
     "short": "One paper, four disciplines, 20 marks each.",
     "marks": "80 + 20 IA",
     "blurb": "History, Geography, Political Science and Economics in **one three-hour paper, 20 marks each**. Plus map pointing, which is the cheapest marks in the whole board. Each chapter page gives the answer frame CBSE actually rewards.",
     "areas_heading": "Four disciplines",
-    "syllabus_note": "Four separate NCERT books. Several chapters still printed in older copies are **not** assessed \u2014 see below.",
+    "syllabus_note": "Four separate NCERT books. Several chapters still printed in older copies are **not** assessed — see below.",
     "books": [
-      "- **India and the Contemporary World \u2014 II** (History)",
-      "- **Contemporary India \u2014 II** (Geography)",
-      "- **Democratic Politics \u2014 II** (Political Science)",
+      "- **India and the Contemporary World — II** (History)",
+      "- **Contemporary India — II** (Geography)",
+      "- **Democratic Politics — II** (Political Science)",
       "- **Understanding Economic Development** (Economics)"
     ],
     "removed": [
-      "- **Democracy and Diversity** \u2014 full chapter removed.",
-      "- **Popular Struggles and Movements** \u2014 full chapter removed.",
-      "- **Challenges to Democracy** \u2014 full chapter removed.",
+      "- **Democracy and Diversity** — full chapter removed.",
+      "- **Popular Struggles and Movements** — full chapter removed.",
+      "- **Challenges to Democracy** — full chapter removed.",
       "- **The Age of Industrialisation** is still printed in the History book but is **not** assessed in the board paper.",
       "- **The Making of a Global World**: only subtopics 1 to 1.3 are examined.",
       "- **Manufacturing Industries**: much of the old industry-by-industry detail was trimmed.",
       "- **Lifelines of National Economy**: map pointing only."
     ],
     "units": [
-      {"id": "history", "slug": "history", "title": "History", "marks": "20 marks", "desc": "India and the Contemporary World II \u2014 nationalism, the global world and print culture.", "tips": ["- Write dates and names. Answers without dates score badly in History."]},
-      {"id": "geography", "slug": "geography", "title": "Geography", "marks": "20 marks", "desc": "Contemporary India II \u2014 resources, water, agriculture, minerals, industry.", "tips": ["- Always give an Indian example with a name and a state."]},
-      {"id": "polity", "slug": "political-science", "title": "Political Science", "marks": "20 marks", "priority": true, "desc": "Democratic Politics II \u2014 power sharing, federalism, parties, outcomes.", "tips": ["- Five short chapters, the highest marks-per-hour in the subject."]},
-      {"id": "economics", "slug": "economics", "title": "Economics", "marks": "20 marks", "desc": "Understanding Economic Development \u2014 development, sectors, credit, globalisation.", "tips": ["- Definitions plus one example each. That is the whole answer format."]}
+      {
+        "id": "history",
+        "slug": "history",
+        "title": "History",
+        "marks": "20 marks",
+        "desc": "India and the Contemporary World II — nationalism, the global world and print culture.",
+        "tips": [
+          "- Write dates and names. Answers without dates score badly in History."
+        ]
+      },
+      {
+        "id": "geography",
+        "slug": "geography",
+        "title": "Geography",
+        "marks": "20 marks",
+        "desc": "Contemporary India II — resources, water, agriculture, minerals, industry.",
+        "tips": [
+          "- Always give an Indian example with a name and a state."
+        ]
+      },
+      {
+        "id": "polity",
+        "slug": "political-science",
+        "title": "Political Science",
+        "marks": "20 marks",
+        "priority": true,
+        "desc": "Democratic Politics II — power sharing, federalism, parties, outcomes.",
+        "tips": [
+          "- Five short chapters, the highest marks-per-hour in the subject."
+        ]
+      },
+      {
+        "id": "economics",
+        "slug": "economics",
+        "title": "Economics",
+        "marks": "20 marks",
+        "desc": "Understanding Economic Development — development, sectors, credit, globalisation.",
+        "tips": [
+          "- Definitions plus one example each. That is the whole answer format."
+        ]
+      }
     ],
     "assessment": [
-      ["Theory \u2014 History 20, Geography 20, Political Science 20, Economics 20", "**80**", "Points, not paragraphs. Five distinct points for a 5-mark answer."],
-      ["Map work \u2014 printed inside the History and Geography sections", "included", "Pure recall from the official list of map items. Do not skip it."],
-      ["Internal assessment \u2014 periodic tests, the Economics project, portfolio", "**20**", "The Consumer Rights project is the usual internal project."],
-      ["Total", "100", "Three hours for the whole paper."]
+      [
+        "Theory — History 20, Geography 20, Political Science 20, Economics 20",
+        "**80**",
+        "Points, not paragraphs. Five distinct points for a 5-mark answer."
+      ],
+      [
+        "Map work — printed inside the History and Geography sections",
+        "included",
+        "Pure recall from the official list of map items. Do not skip it."
+      ],
+      [
+        "Internal assessment — periodic tests, the Economics project, portfolio",
+        "**20**",
+        "The Consumer Rights project is the usual internal project."
+      ],
+      [
+        "Total",
+        "100",
+        "Three hours for the whole paper."
+      ]
     ],
     "study_order": [
-      "**Political Science first** \u2014 five short chapters, 20 marks, fastest to finish.",
-      "**Economics** \u2014 five chapters, definition-plus-example answers.",
+      "**Political Science first** — five short chapters, 20 marks, fastest to finish.",
+      "**Economics** — five chapters, definition-plus-example answers.",
       "**Geography**, and do the map items as you go rather than leaving them to the end.",
-      "**History** last \u2014 the longest reading, so start it early in the year and revise late.",
+      "**History** last — the longest reading, so start it early in the year and revise late.",
       "Then one full three-hour paper: the real difficulty here is finishing in time, not the content."
     ],
-    "countdown": "Download the current session\u2019s **list of map items** from CBSE Academic \u2014 it changes between sessions.",
-    "cards": {"practical": "Map work + project", "questions": "Answer frames"},
+    "countdown": "Download the current session’s **list of map items** from CBSE Academic — it changes between sessions.",
+    "cards": {
+      "practical": "Map work + project",
+      "questions": "Answer frames"
+    },
     "practical_note": "Social Science has no lab exam, but it has **map work inside the paper** and a project in the internal assessment.",
     "practical": [
       "- **Map items (History)**: centres of the 1857 revolt, Congress sessions, sites of the Non-Cooperation and Civil Disobedience movements, major plantations and industrial regions.",
       "- **Map items (Geography)**: dams, soil types, major crops, mineral belts, oil fields, steel plants, cotton and woollen textile centres, software parks, sea ports and airports.",
       "- **How to practise**: take a blank political outline map of India and point every item from the official list without looking. Repeat until you can do the whole list in ten minutes.",
-      "- **Project**: the Consumer Rights chapter is assessed as project work \u2014 a survey of a local shop, an ISI/BIS label study, or a consumer-court case write-up all work well."
+      "- **Project**: the Consumer Rights chapter is assessed as project work — a survey of a local shop, an ISI/BIS label study, or a consumer-court case write-up all work well."
     ]
   },
   {
     "slug": "english",
     "title": "English Language & Literature",
     "code": "184",
-    "kicker": "CBSE \u2022 CLASS 10 \u2022 ENGLISH",
+    "kicker": "CBSE • CLASS 10 • ENGLISH",
     "short": "First Flight, Footprints Without Feet, grammar and writing.",
     "marks": "80 + 20 IA",
-    "blurb": "Nine prose chapters, ten poems and nine supplementary chapters \u2014 but **roughly a third of the paper is Reading and Writing**, not literature at all. Each page carries the summary, the themes, the extract answers and the word meanings.",
+    "blurb": "Nine prose chapters, ten poems and nine supplementary chapters — but **roughly a third of the paper is Reading and Writing**, not literature at all. Each page carries the summary, the themes, the extract answers and the word meanings.",
     "areas_heading": "Three books + skills",
     "syllabus_note": "First Flight (main reader), Footprints Without Feet (supplementary reader) and Words and Expressions II (workbook).",
     "books": [
-      "- **First Flight** \u2014 main reader (prose and poetry)",
-      "- **Footprints Without Feet** \u2014 supplementary reader",
-      "- **Words and Expressions II** \u2014 workbook for grammar and writing"
+      "- **First Flight** — main reader (prose and poetry)",
+      "- **Footprints Without Feet** — supplementary reader",
+      "- **Words and Expressions II** — workbook for grammar and writing"
     ],
     "removed": [
-      "- **The Hundred Dresses I** and **The Hundred Dresses II** \u2014 both prose chapters removed.",
-      "- The poem **Animals** \u2014 removed.",
-      "- **The Hack Driver** \u2014 removed from Footprints Without Feet.",
+      "- **The Hundred Dresses I** and **The Hundred Dresses II** — both prose chapters removed.",
+      "- The poem **Animals** — removed.",
+      "- **The Hack Driver** — removed from Footprints Without Feet.",
       "- Older question banks still print all of these. Ignore them."
     ],
     "units": [
-      {"id": "ff-prose", "slug": "first-flight-prose", "title": "First Flight \u00b7 Prose", "marks": "9 chapters", "desc": "The main reader. Reference-to-context extracts and long answers come mostly from here.", "tips": ["- Know the narrator of every chapter \u2014 that is the most common extract question."]},
-      {"id": "ff-poems", "slug": "first-flight-poems", "title": "First Flight \u00b7 Poems", "marks": "10 poems", "desc": "Ten short poems. Theme, central idea and poetic devices.", "tips": ["- Learn the central idea of each in one sentence; the extract question is worth 3\u20134 marks."]},
-      {"id": "fwf", "slug": "footprints-without-feet", "title": "Footprints Without Feet", "marks": "9 chapters", "desc": "The supplementary reader. Read fast; answers are short.", "tips": ["- Shortest chapters first: The Thief\u2019s Story, The Midnight Visitor, A Question of Trust."]},
-      {"id": "skills", "slug": "grammar-writing", "title": "Reading, Grammar & Writing", "marks": "\u2248 30 marks", "priority": true, "desc": "Unseen passages, note-making, grammar in context, letter, article and analytical paragraph.", "tips": ["- These marks are earned by format. Practise the exact word limits."]}
+      {
+        "id": "ff-prose",
+        "slug": "first-flight-prose",
+        "title": "First Flight · Prose",
+        "marks": "9 chapters",
+        "desc": "The main reader. Reference-to-context extracts and long answers come mostly from here.",
+        "tips": [
+          "- Know the narrator of every chapter — that is the most common extract question."
+        ]
+      },
+      {
+        "id": "ff-poems",
+        "slug": "first-flight-poems",
+        "title": "First Flight · Poems",
+        "marks": "10 poems",
+        "desc": "Ten short poems. Theme, central idea and poetic devices.",
+        "tips": [
+          "- Learn the central idea of each in one sentence; the extract question is worth 3–4 marks."
+        ]
+      },
+      {
+        "id": "fwf",
+        "slug": "footprints-without-feet",
+        "title": "Footprints Without Feet",
+        "marks": "9 chapters",
+        "desc": "The supplementary reader. Read fast; answers are short.",
+        "tips": [
+          "- Shortest chapters first: The Thief’s Story, The Midnight Visitor, A Question of Trust."
+        ]
+      },
+      {
+        "id": "skills",
+        "slug": "grammar-writing",
+        "title": "Reading, Grammar & Writing",
+        "marks": "≈ 30 marks",
+        "priority": true,
+        "desc": "Unseen passages, note-making, grammar in context, letter, article and analytical paragraph.",
+        "tips": [
+          "- These marks are earned by format. Practise the exact word limits."
+        ]
+      }
     ],
     "assessment": [
-      ["Section A \u2014 Reading skills: unseen passage plus note-making and summarising", "**20**", "Format marks are awarded separately. Follow the note-making format exactly."],
-      ["Section B \u2014 Writing and grammar: letter, article or analytical paragraph, grammar in context", "**20**", "Stick to the word limit; exceed it and you run out of time."],
-      ["Section C \u2014 Literature: First Flight and Footprints Without Feet", "**40**", "Answers in your own words. Copying lines from the book scores badly."],
-      ["Total theory", "**80**", "Three hours."],
-      ["Internal assessment \u2014 listening and speaking, plus a reading/reading-aloud project", "**20**", "The ASL speaking test is scheduled by your school."]
+      [
+        "Section A — Reading skills: unseen passage plus note-making and summarising",
+        "**20**",
+        "Format marks are awarded separately. Follow the note-making format exactly."
+      ],
+      [
+        "Section B — Writing and grammar: letter, article or analytical paragraph, grammar in context",
+        "**20**",
+        "Stick to the word limit; exceed it and you run out of time."
+      ],
+      [
+        "Section C — Literature: First Flight and Footprints Without Feet",
+        "**40**",
+        "Answers in your own words. Copying lines from the book scores badly."
+      ],
+      [
+        "Total theory",
+        "**80**",
+        "Three hours."
+      ],
+      [
+        "Internal assessment — listening and speaking, plus a reading/reading-aloud project",
+        "**20**",
+        "The ASL speaking test is scheduled by your school."
+      ]
     ],
     "study_order": [
-      "**Writing formats first** \u2014 letter, article, analytical paragraph. 20 marks that depend only on format.",
-      "**Poems** \u2014 ten short texts, quick to finish, reliably asked.",
-      "**Footprints Without Feet** \u2014 nine short chapters.",
-      "**First Flight prose** \u2014 the longest reading; do the two-part chapters early.",
-      "**Grammar in context** \u2014 tense, modals, subject-verb agreement, reported speech, determiners.",
+      "**Writing formats first** — letter, article, analytical paragraph. 20 marks that depend only on format.",
+      "**Poems** — ten short texts, quick to finish, reliably asked.",
+      "**Footprints Without Feet** — nine short chapters.",
+      "**First Flight prose** — the longest reading; do the two-part chapters early.",
+      "**Grammar in context** — tense, modals, subject-verb agreement, reported speech, determiners.",
       "Then one unseen passage a day for a fortnight; this is a speed skill, not a knowledge skill."
     ],
-    "countdown": "The listening and speaking assessment is usually held in December\u2013January.",
-    "cards": {"practical": "Speaking + listening", "questions": "Extracts + Q&A"},
+    "countdown": "The listening and speaking assessment is usually held in December–January.",
+    "cards": {
+      "practical": "Speaking + listening",
+      "questions": "Extracts + Q&A"
+    },
     "practical_note": "English internal assessment is **listening and speaking**, not a lab exam.",
     "practical": [
-      "- **Speaking (10 marks)**: usually a short picture description or topic-based speech, followed by a brief interaction. Marks go to fluency, accuracy and pronunciation \u2014 not to how fancy your vocabulary is.",
+      "- **Speaking (10 marks)**: usually a short picture description or topic-based speech, followed by a brief interaction. Marks go to fluency, accuracy and pronunciation — not to how fancy your vocabulary is.",
       "- **Listening (10 marks)**: a recorded passage with comprehension questions. Practise note-taking while listening; you cannot rewind.",
       "- **Reading project**: an assessment of reading and reading aloud, set by your school.",
       "- **Preparation that works**: record yourself speaking for two minutes on a random topic, then listen back. Two weeks of this moves the speaking score more than any textbook."
@@ -212,10 +468,10 @@
     "slug": "hindi",
     "title": "Hindi",
     "code": "002 (A) / 085 (B)",
-    "kicker": "CBSE \u2022 CLASS 10 \u2022 HINDI",
+    "kicker": "CBSE • CLASS 10 • HINDI",
     "short": "Course A: क्षितिज + कृतिका. Course B: स्पर्श + संचयन.",
     "marks": "80 + 20 IA",
-    "blurb": "Two courses, same 80 + 20 split. **Course A** covers क्षितिज भाग-2 and कृतिका भाग-2; **Course B** covers स्पर्श भाग-2 and संचयन भाग-2. Grammar and writing together are worth more than the literature section \u2014 do not study them last.",
+    "blurb": "Two courses, same 80 + 20 split. **Course A** covers क्षितिज भाग-2 and कृतिका भाग-2; **Course B** covers स्पर्श भाग-2 and संचयन भाग-2. Grammar and writing together are worth more than the literature section — do not study them last.",
     "areas_heading": "Course A and Course B",
     "syllabus_note": "Study only the course your school offers. Both are here so you can ignore one.",
     "books": [
@@ -227,29 +483,104 @@
       "- From स्पर्श भाग-2: **दोहे**, **मधुर-मधुर मेरे दीपक जल** and **गिरगिट**."
     ],
     "units": [
-      {"id": "kshitij", "slug": "kshitij", "title": "Course A \u00b7 क्षितिज भाग-2", "marks": "12 पाठ", "priority": true, "desc": "The main reader \u2014 prose and poetry carrying the largest share of the literature marks.", "tips": ["- पद्य पाठों के लिए कवि-परिचय और काव्य-सौंदर्य याद रखें।"]},
-      {"id": "kritika", "slug": "kritika", "title": "Course A \u00b7 कृतिका भाग-2", "marks": "3 पाठ", "desc": "Three long prose chapters, asked as 50\u201360 word answers.", "tips": ["- केवल तीन पाठ \u2014 पूरे अंक आसानी से मिल सकते हैं।"]},
-      {"id": "sparsh", "slug": "sparsh", "title": "Course B \u00b7 स्पर्श भाग-2", "marks": "14 पाठ", "priority": true, "desc": "काव्य खंड और गद्य खंड \u2014 the Course B main reader.", "tips": ["- काव्य खंड पहले पढ़ें \u2014 पद्य छोटे होते हैं।"]},
-      {"id": "sanchayan", "slug": "sanchayan", "title": "Course B \u00b7 संचयन भाग-2", "marks": "3 पाठ", "desc": "Three supplementary stories.", "tips": ["- तीनों कहानियों के मुख्य पात्र और कथानक याद रखें।"]},
-      {"id": "vyakaran", "slug": "vyakaran-lekhan", "title": "व्याकरण और लेखन", "marks": "\u2248 36 marks", "priority": true, "desc": "Grammar in context, plus पत्र, अनुच्छेद, संदेश and विज्ञापन लेखन.", "tips": ["- शब्द-सीमा का पालन करें \u2014 यही अंक काटने का सबसे बड़ा कारण है।"]}
+      {
+        "id": "kshitij",
+        "slug": "kshitij",
+        "title": "Course A · क्षितिज भाग-2",
+        "marks": "12 पाठ",
+        "priority": true,
+        "desc": "The main reader — prose and poetry carrying the largest share of the literature marks.",
+        "tips": [
+          "- पद्य पाठों के लिए कवि-परिचय और काव्य-सौंदर्य याद रखें।"
+        ]
+      },
+      {
+        "id": "kritika",
+        "slug": "kritika",
+        "title": "Course A · कृतिका भाग-2",
+        "marks": "3 पाठ",
+        "desc": "Three long prose chapters, asked as 50–60 word answers.",
+        "tips": [
+          "- केवल तीन पाठ — पूरे अंक आसानी से मिल सकते हैं।"
+        ]
+      },
+      {
+        "id": "sparsh",
+        "slug": "sparsh",
+        "title": "Course B · स्पर्श भाग-2",
+        "marks": "14 पाठ",
+        "priority": true,
+        "desc": "काव्य खंड और गद्य खंड — the Course B main reader.",
+        "tips": [
+          "- काव्य खंड पहले पढ़ें — पद्य छोटे होते हैं।"
+        ]
+      },
+      {
+        "id": "sanchayan",
+        "slug": "sanchayan",
+        "title": "Course B · संचयन भाग-2",
+        "marks": "3 पाठ",
+        "desc": "Three supplementary stories.",
+        "tips": [
+          "- तीनों कहानियों के मुख्य पात्र और कथानक याद रखें।"
+        ]
+      },
+      {
+        "id": "vyakaran",
+        "slug": "vyakaran-lekhan",
+        "title": "व्याकरण और लेखन",
+        "marks": "≈ 36 marks",
+        "priority": true,
+        "desc": "Grammar in context, plus पत्र, अनुच्छेद, संदेश and विज्ञापन लेखन.",
+        "tips": [
+          "- शब्द-सीमा का पालन करें — यही अंक काटने का सबसे बड़ा कारण है।"
+        ]
+      }
     ],
     "assessment": [
-      ["अपठित गद्यांश \u2014 unseen comprehension", "**14**", "गति और शब्द-चयन। हर दूसरे दिन एक गद्यांश।"],
-      ["व्याकरण \u2014 grammar in context", "**16**", "रटने से नहीं, अभ्यास से।"],
-      ["पाठ्यपुस्तक और पूरक पाठ्यपुस्तक", "**30**", "उत्तर अपने शब्दों में, पाठ की पंक्तियाँ न लिखें।"],
-      ["रचनात्मक लेखन \u2014 letter, article, message, advertisement", "**20**", "प्रारूप के अंक अलग मिलते हैं।"],
-      ["Total theory", "**80**", "तीन घंटे।"],
-      ["Internal assessment \u2014 listening, speaking and reading project", "**20**", "ASL विद्यालय द्वारा निर्धारित।"]
+      [
+        "अपठित गद्यांश — unseen comprehension",
+        "**14**",
+        "गति और शब्द-चयन। हर दूसरे दिन एक गद्यांश।"
+      ],
+      [
+        "व्याकरण — grammar in context",
+        "**16**",
+        "रटने से नहीं, अभ्यास से।"
+      ],
+      [
+        "पाठ्यपुस्तक और पूरक पाठ्यपुस्तक",
+        "**30**",
+        "उत्तर अपने शब्दों में, पाठ की पंक्तियाँ न लिखें।"
+      ],
+      [
+        "रचनात्मक लेखन — letter, article, message, advertisement",
+        "**20**",
+        "प्रारूप के अंक अलग मिलते हैं।"
+      ],
+      [
+        "Total theory",
+        "**80**",
+        "तीन घंटे।"
+      ],
+      [
+        "Internal assessment — listening, speaking and reading project",
+        "**20**",
+        "ASL विद्यालय द्वारा निर्धारित।"
+      ]
     ],
     "study_order": [
-      "**व्याकरण और लेखन पहले** \u2014 लगभग 36 अंक, केवल अभ्यास पर निर्भर।",
-      "**कृतिका / संचयन** \u2014 तीन-तीन पाठ, तेज़ी से पूरे होते हैं।",
-      "**क्षितिज / स्पर्श का काव्य खंड** \u2014 पद्य छोटे, अंक अधिक।",
-      "**गद्य खंड** \u2014 सबसे लंबा पठन, वर्ष की शुरुआत में शुरू करें।",
-      "फिर हर दूसरे दिन एक अपठित गद्यांश \u2014 यह गति का अभ्यास है, ज्ञान का नहीं।"
+      "**व्याकरण और लेखन पहले** — लगभग 36 अंक, केवल अभ्यास पर निर्भर।",
+      "**कृतिका / संचयन** — तीन-तीन पाठ, तेज़ी से पूरे होते हैं।",
+      "**क्षितिज / स्पर्श का काव्य खंड** — पद्य छोटे, अंक अधिक।",
+      "**गद्य खंड** — सबसे लंबा पठन, वर्ष की शुरुआत में शुरू करें।",
+      "फिर हर दूसरे दिन एक अपठित गद्यांश — यह गति का अभ्यास है, ज्ञान का नहीं।"
     ],
-    "countdown": "श्रवण और वाचन मूल्यांकन आमतौर पर दिसंबर\u2013जनवरी में होता है।",
-    "cards": {"practical": "ASL मूल्यांकन", "questions": "पाठवार प्रश्न"},
+    "countdown": "श्रवण और वाचन मूल्यांकन आमतौर पर दिसंबर–जनवरी में होता है।",
+    "cards": {
+      "practical": "ASL मूल्यांकन",
+      "questions": "पाठवार प्रश्न"
+    },
     "practical_note": "हिंदी का आंतरिक मूल्यांकन **श्रवण एवं वाचन (ASL)** है।",
     "practical": [
       "- **वाचन (10 अंक)**: चित्र वर्णन या विषय पर संक्षिप्त भाषण, फिर कुछ प्रश्न। प्रवाह, शुद्धता और उच्चारण पर अंक मिलते हैं।",
@@ -258,52 +589,239 @@
     ]
   },
   {
+    "slug": "information-technology",
+    "title": "Information Technology",
+    "code": "402",
+    "kicker": "CBSE • CLASS 10 • IT 402",
+    "short": "20 chapters, practical-first. Employability, Writer, Calc, Base and workplace safety.",
+    "marks": "50 + 50",
+    "blurb": "Skill subject for the **Domestic Data Entry Operator** job role. **Theory 50 + Practical 50**. LibreOffice Writer, Calc and Base — not MS Office. Each chapter uses the same hub design as every other subject, with Short, Long, Application and Competency Q&As: answers hidden until you click Show Answer.",
+    "areas_heading": "Five study areas",
+    "syllabus_note": "Part A Employability Skills (10) + Part B Subject Specific Skills (40). Practical is 50 marks on Writer, Calc, Base, viva, project and file. Session 2026–27 curriculum.",
+    "books": [
+      "- **CBSE curriculum PDF, code 402**, session 2026–27 — the unit marks come from here.",
+      "- NCERT / PSSCIVE **Information Technology** Class X (job role: Domestic Data Entry Operator).",
+      "- LibreOffice Writer, Calc and Base installed for every practical."
+    ],
+    "removed": [
+      "- Older books still title Part B Unit 4 **Web Applications and Security**. The current unit is **Maintain Healthy, Safe and Secure Working Environment**.",
+      "- MS Office menu paths are not the practical. Use **LibreOffice**."
+    ],
+    "units": [
+      {
+        "id": "pa",
+        "slug": "employability",
+        "title": "Part A · Employability Skills",
+        "marks": "10 marks",
+        "desc": "Communication, self-management, ICT, entrepreneurial and green skills — short, definition-heavy, high marks per hour.",
+        "tips": [
+          "- Finish Part A early. 10 marks of lists and examples."
+        ]
+      },
+      {
+        "id": "writer",
+        "slug": "writer",
+        "title": "Unit 1 · Digital Documentation (Writer)",
+        "marks": "8 marks",
+        "desc": "Styles, images, ToC, templates, track changes and mail merge in LibreOffice Writer.",
+        "tips": [
+          "- Heading styles are what make a ToC. Manual bold does not."
+        ]
+      },
+      {
+        "id": "calc",
+        "slug": "calc",
+        "title": "Unit 2 · Electronic Spreadsheet (Calc)",
+        "marks": "10 marks",
+        "desc": "Consolidate, scenarios, Goal Seek, macros, linking and sharing.",
+        "tips": [
+          "- Goal Seek is the demo you must be able to do with your eyes closed."
+        ]
+      },
+      {
+        "id": "dbms",
+        "slug": "dbms",
+        "title": "Unit 3 · Database Management System (Base)",
+        "marks": "12 marks",
+        "priority": true,
+        "desc": "Tables, keys, relationships, queries, forms and reports — the heaviest theory unit.",
+        "tips": [
+          "- Design View + primary key + one-to-many is the 10-mark practical."
+        ]
+      },
+      {
+        "id": "safety",
+        "slug": "safety",
+        "title": "Unit 4 · Healthy, Safe and Secure Workplace",
+        "marks": "10 marks",
+        "desc": "Hazards, ergonomics, 5S, evacuation and first aid for the computer lab.",
+        "tips": [
+          "- Never water on an electrical fire. Power off before you touch a shock victim."
+        ]
+      }
+    ],
+    "assessment": [
+      [
+        "Theory — Section A objective + Section B subjective",
+        "**50**",
+        "Menu paths, definitions, steps and safety reasoning."
+      ],
+      [
+        "Practical exam — Writer 5 + Calc 5 + Base 10 + Viva 10",
+        "**30**",
+        "Repeat the 15 file tasks until the clicks are automatic."
+      ],
+      [
+        "Project work / field visit",
+        "**10**",
+        "An interdisciplinary case study."
+      ],
+      [
+        "Portfolio / practical file — min. 5 problems each in Writer, Calc and Base",
+        "**10**",
+        "Printouts with the problem statement at the top."
+      ],
+      [
+        "Total",
+        "100",
+        "Theory 2 hours; practical as scheduled by the school."
+      ]
+    ],
+    "study_order": [
+      "**Unit 3 DBMS first** (12 marks) — tables, relationships, queries.",
+      "**Unit 2 Calc** on a computer (10) — Goal Seek and scenarios.",
+      "**Unit 4 Safety** (10) — lists plus examples, fastest theory.",
+      "**Unit 1 Writer** (8) — styles, ToC, mail merge.",
+      "**Part A** (10) — communication 7 Cs, SMART goals, green skills.",
+      "Then a timed sample paper, the practical file and a viva drill."
+    ],
+    "countdown": "Practical is usually before theory, January–February. Confirm with your school. Target February–March 2027 boards.",
+    "cards": {
+      "practical": "Lab, file, viva & project",
+      "questions": "Short · Long · Application · Competency"
+    },
+    "practical_note": "IT 402 practical is **50 marks**: Writer 5 + Calc 5 + Base 10 + viva 10 + project 10 + file 10. Software is LibreOffice.",
+    "practical": [
+      "- **Writer (5):** styles, image wrap, ToC from Heading styles, track changes or mail merge as asked.",
+      "- **Calc (5):** a formula sheet plus Goal Seek or a scenario; sometimes a recorded macro.",
+      "- **Base (10):** two related tables, a query with criteria, a form and a report.",
+      "- **Viva (10):** “what is a primary key?”, “name the 7 Cs”, “which extinguisher on an electrical fire?”",
+      "- **File (10):** at least five problems each in Writer, Calc and Base, with the question at the top of the printout.",
+      "- **Project (10):** an interdisciplinary case — for example a school inventory in Base plus a Calc analysis."
+    ]
+  },
+  {
     "slug": "computer-applications",
     "title": "Computer Applications",
     "code": "165",
-    "kicker": "CBSE \u2022 CLASS 10 \u2022 COMPUTER APPLICATIONS",
+    "kicker": "CBSE • CLASS 10 • COMPUTER APPLICATIONS",
     "short": "14 chapters: networking, HTML and cyber ethics.",
     "marks": "50 + 50",
-    "blurb": "Two 2-hour theory papers worth **50 marks**, plus **50 marks of practical** \u2014 lab test, file work, viva and a website project. **HTML alone is 25 theory marks**, so Unit II is where the paper is won. Every chapter page carries the tag reference, the exact steps, the mistakes that break a page and exam Q&A.",
+    "blurb": "Two 2-hour theory papers worth **50 marks**, plus **50 marks of practical** — lab test, file work, viva and a website project. **HTML alone is 25 theory marks**, so Unit II is where the paper is won. Every chapter page carries the tag reference, the exact steps, the mistakes that break a page and exam Q&A.",
     "areas_heading": "Three units",
     "syllabus_note": "Unit I Networking (15), Unit II HTML (25), Unit III Cyber Ethics (10). Practical is assessed separately at 50 marks.",
     "books": [
-      "- **Sumita Arora** \u2014 *Computer Applications with Python & HTML*, Class 10 (Dhanpat Rai)",
-      "- **CBSE curriculum document** \u2014 Computer Applications, code 165, session 2026\u201327"
+      "- **Sumita Arora** — *Computer Applications with Python & HTML*, Class 10 (Dhanpat Rai)",
+      "- **CBSE curriculum document** — Computer Applications, code 165, session 2026–27"
     ],
     "removed": [
       "- **Scratch II, Python Revision and Python Conditionals & Loops** appear in several publisher books but are **not** part of the current 165 theory units.",
-      "- Only **HTML** is assessed in Unit II \u2014 CSS is used to style the practical project, it is not asked as separate theory."
+      "- Only **HTML** is assessed in Unit II — CSS is used to style the practical project, it is not asked as separate theory."
     ],
     "units": [
-      {"id": "networking", "slug": "networking", "title": "Unit I \u00b7 Networking", "marks": "15 marks", "priority": true, "desc": "Internet basics, internet services, mobile technology and the vocabulary of how networks are built.", "tips": ["- टोपोलॉजी, प्रोटोकॉल और नेटवर्किंग उपकरण \u2014 तीनों की परिभाषाएँ शब्दशः याद रखें।"]},
-      {"id": "html", "slug": "html", "title": "Unit II \u00b7 HTML", "marks": "25 marks", "priority": true, "desc": "The biggest single unit in the paper. Tags, attributes, tables, forms, lists and frames \u2014 all written by hand in the exam.", "tips": ["- हर टैग का उदाहरण स्वयं लिखकर अभ्यास करें \u2014 परीक्षा में कोड लिखना होता है, चलाना नहीं।"]},
-      {"id": "cyber-ethics", "slug": "cyber-ethics", "title": "Unit III \u00b7 Cyber Ethics", "marks": "10 marks", "priority": true, "desc": "Cyber safety, cybercrime, IPR, the IT Act and e-waste. Short, scoring and almost entirely definition-driven.", "tips": ["- केवल 10 अंक \u2014 इसे अंत में छोड़ें नहीं, सबसे पहले खत्म करें।"]}
+      {
+        "id": "networking",
+        "slug": "networking",
+        "title": "Unit I · Networking",
+        "marks": "15 marks",
+        "priority": true,
+        "desc": "Internet basics, internet services, mobile technology and the vocabulary of how networks are built.",
+        "tips": [
+          "- टोपोलॉजी, प्रोटोकॉल और नेटवर्किंग उपकरण — तीनों की परिभाषाएँ शब्दशः याद रखें।"
+        ]
+      },
+      {
+        "id": "html",
+        "slug": "html",
+        "title": "Unit II · HTML",
+        "marks": "25 marks",
+        "priority": true,
+        "desc": "The biggest single unit in the paper. Tags, attributes, tables, forms, lists and frames — all written by hand in the exam.",
+        "tips": [
+          "- हर टैग का उदाहरण स्वयं लिखकर अभ्यास करें — परीक्षा में कोड लिखना होता है, चलाना नहीं।"
+        ]
+      },
+      {
+        "id": "cyber-ethics",
+        "slug": "cyber-ethics",
+        "title": "Unit III · Cyber Ethics",
+        "marks": "10 marks",
+        "priority": true,
+        "desc": "Cyber safety, cybercrime, IPR, the IT Act and e-waste. Short, scoring and almost entirely definition-driven.",
+        "tips": [
+          "- केवल 10 अंक — इसे अंत में छोड़ें नहीं, सबसे पहले खत्म करें।"
+        ]
+      }
     ],
     "assessment": [
-      ["**Paper I** \u2014 Unit I Networking + Unit III Cyber Ethics", "**25**", "दो घंटे। परिभाषा-आधारित, कम समय में पूरा होता है।"],
-      ["**Paper II** \u2014 Unit II HTML", "**25**", "दो घंटे। टैग और कोड लिखने का अभ्यास अनिवार्य।"],
-      ["Total theory", "**50**", "दोनों पेपर अलग-अलग, दो-दो घंटे के।"],
-      ["**Lab test** \u2014 HTML/website task", "**20**", "समय-सीमा में पूरा पेज बनाना।"],
-      ["**File work**", "**10**", "पूरे वर्ष के अभ्यास का क्रमबद्ध संग्रह।"],
-      ["**Viva voce**", "**5**", "टैग, प्रोटोकॉल और सुरक्षा के छोटे प्रश्न।"],
-      ["**Website project**", "**15**", "निर्धारित विषय पर बहु-पेज साइट।"],
-      ["Total practical", "**50**", "सिद्धांत जितना ही महत्वपूर्ण।"]
+      [
+        "**Paper I** — Unit I Networking + Unit III Cyber Ethics",
+        "**25**",
+        "दो घंटे। परिभाषा-आधारित, कम समय में पूरा होता है।"
+      ],
+      [
+        "**Paper II** — Unit II HTML",
+        "**25**",
+        "दो घंटे। टैग और कोड लिखने का अभ्यास अनिवार्य।"
+      ],
+      [
+        "Total theory",
+        "**50**",
+        "दोनों पेपर अलग-अलग, दो-दो घंटे के।"
+      ],
+      [
+        "**Lab test** — HTML/website task",
+        "**20**",
+        "समय-सीमा में पूरा पेज बनाना।"
+      ],
+      [
+        "**File work**",
+        "**10**",
+        "पूरे वर्ष के अभ्यास का क्रमबद्ध संग्रह।"
+      ],
+      [
+        "**Viva voce**",
+        "**5**",
+        "टैग, प्रोटोकॉल और सुरक्षा के छोटे प्रश्न।"
+      ],
+      [
+        "**Website project**",
+        "**15**",
+        "निर्धारित विषय पर बहु-पेज साइट।"
+      ],
+      [
+        "Total practical",
+        "**50**",
+        "सिद्धांत जितना ही महत्वपूर्ण।"
+      ]
     ],
     "study_order": [
-      "**HTML (25 अंक)** सबसे पहले \u2014 सबसे बड़ा खंड और सबसे अधिक अभ्यास माँगता है।",
-      "**Networking (15 अंक)** \u2014 परिभाषाएँ और चित्र; टोपोलॉजी का चित्र बनाना अभ्यास करें।",
-      "**Cyber Ethics (10 अंक)** सबसे अंत में \u2014 छोटा, परिभाषा-आधारित, तेज़ी से पूरा होता है।",
-      "हर सप्ताह एक **HTML पेज बनाइए** \u2014 यही लैब टेस्ट और प्रोजेक्ट दोनों की तैयारी है।"
+      "**HTML (25 अंक)** सबसे पहले — सबसे बड़ा खंड और सबसे अधिक अभ्यास माँगता है।",
+      "**Networking (15 अंक)** — परिभाषाएँ और चित्र; टोपोलॉजी का चित्र बनाना अभ्यास करें।",
+      "**Cyber Ethics (10 अंक)** सबसे अंत में — छोटा, परिभाषा-आधारित, तेज़ी से पूरा होता है।",
+      "हर सप्ताह एक **HTML पेज बनाइए** — यही लैब टेस्ट और प्रोजेक्ट दोनों की तैयारी है।"
     ],
-    "countdown": "प्रैक्टिकल परीक्षा आमतौर पर फरवरी\u2013मार्च में, थ्योरी से पहले होती है।",
-    "cards": {"practical": "Lab, file, viva & project", "questions": "Tag-wise questions"},
-    "practical_note": "Computer Applications का 50 अंक का प्रैक्टिकल \u2014 **लैब टेस्ट (20) + फ़ाइल वर्क (10) + वाइवा (5) + वेबसाइट प्रोजेक्ट (15)**।",
+    "countdown": "प्रैक्टिकल परीक्षा आमतौर पर फरवरी–मार्च में, थ्योरी से पहले होती है।",
+    "cards": {
+      "practical": "Lab, file, viva & project",
+      "questions": "Tag-wise questions"
+    },
+    "practical_note": "Computer Applications का 50 अंक का प्रैक्टिकल — **लैब टेस्ट (20) + फ़ाइल वर्क (10) + वाइवा (5) + वेबसाइट प्रोजेक्ट (15)**।",
     "practical": [
-      "- **Lab test (20)**: निर्धारित समय में एक HTML पेज या छोटी वेबसाइट \u2014 टेबल, फ़ॉर्म, लिंक और छवि सहित।",
+      "- **Lab test (20)**: निर्धारित समय में एक HTML पेज या छोटी वेबसाइट — टेबल, फ़ॉर्म, लिंक और छवि सहित।",
       "- **File work (10)**: पूरे वर्ष के अभ्यास का क्रमबद्ध संग्रह; हर प्रयोग का उद्देश्य, कोड और आउटपुट लिखें।",
-      "- **Viva (5)**: टैग की परिभाषा, प्रोटोकॉल के पूरे नाम, साइबर-सुरक्षा के उपाय \u2014 छोटे और सीधे प्रश्न।",
-      "- **Website project (15)**: बहु-पेज साइट \u2014 होम पेज, कम-से-कम तीन अन्य पेज, नेविगेशन लिंक, टेबल, फ़ॉर्म और छवियाँ।",
+      "- **Viva (5)**: टैग की परिभाषा, प्रोटोकॉल के पूरे नाम, साइबर-सुरक्षा के उपाय — छोटे और सीधे प्रश्न।",
+      "- **Website project (15)**: बहु-पेज साइट — होम पेज, कम-से-कम तीन अन्य पेज, नेविगेशन लिंक, टेबल, फ़ॉर्म और छवियाँ।",
       "- **अभ्यास**: किसी भी टेक्स्ट एडिटर में पेज लिखें और ब्राउज़र में खोलें। रोज़ एक पेज = प्रोजेक्ट आधा पूरा।"
     ]
   },
@@ -311,56 +829,104 @@
     "slug": "sanskrit",
     "title": "Sanskrit",
     "code": "122",
-    "kicker": "CBSE \u2022 CLASS 10 \u2022 SANSKRIT",
+    "kicker": "CBSE • CLASS 10 • SANSKRIT",
     "short": "शेमुषी भाग-2, व्याकरणवीथिः और अभ्यासवान् भव।",
     "marks": "80 + 20 IA",
-    "blurb": "चार खंड \u2014 **अपठितावबोधनम् (10), रचनात्मककार्यम् (15), अनुप्रयुक्तव्याकरणम् (25) और पठितावबोधनम् (30)**। पठितावबोधनम् सबसे बड़ा खंड है और उसी में **गद्य, पद्य और नाट्य** तीनों आते हैं। प्रत्येक पाठ-पृष्ठ पर अन्वय, भावार्थ और प्रश्नोत्तर तीनों दिए गए हैं।",
+    "blurb": "चार खंड — **अपठितावबोधनम् (10), रचनात्मककार्यम् (15), अनुप्रयुक्तव्याकरणम् (25) और पठितावबोधनम् (30)**। पठितावबोधनम् सबसे बड़ा खंड है और उसी में **गद्य, पद्य और नाट्य** तीनों आते हैं। प्रत्येक पाठ-पृष्ठ पर अन्वय, भावार्थ और प्रश्नोत्तर तीनों दिए गए हैं।",
     "areas_heading": "Three sections",
-    "syllabus_note": "परीक्षायै निर्धारिताः पाठाः \u2014 शुचिपर्यावरणम्, बुद्धिर्बलवती सदा, शिशुलालनम्, जननी तुल्यवत्सला, सुभाषितानि, सौहार्दं प्रकृतेः शोभा, विचित्रः साक्षी, सूक्तयः, अन्योक्तयः।",
+    "syllabus_note": "परीक्षायै निर्धारिताः पाठाः — शुचिपर्यावरणम्, बुद्धिर्बलवती सदा, शिशुलालनम्, जननी तुल्यवत्सला, सुभाषितानि, सौहार्दं प्रकृतेः शोभा, विचित्रः साक्षी, सूक्तयः, अन्योक्तयः।",
     "books": [
-      "- **शेमुषी भाग-2 (संशोधित)** \u2014 मुख्य पाठ्यपुस्तक",
-      "- **अभ्यासवान् भव द्वितीयः भागः** \u2014 पूरक एवं अभ्यास",
-      "- **व्याकरणवीथिः** \u2014 व्याकरण"
+      "- **शेमुषी भाग-2 (संशोधित)** — मुख्य पाठ्यपुस्तक",
+      "- **अभ्यासवान् भव द्वितीयः भागः** — पूरक एवं अभ्यास",
+      "- **व्याकरणवीथिः** — व्याकरण"
     ],
     "removed": [
       "- **व्यायामः सदा पथ्यः (पाठ 3)** और **भूकम्पविभीषिका (पाठ 10)** परीक्षा के लिए निर्धारित नहीं हैं।"
     ],
     "units": [
-      {"id": "shemushi", "slug": "shemushi", "title": "पाठ्यपुस्तक \u00b7 शेमुषी भाग-2", "marks": "30 marks", "priority": true, "desc": "नौ निर्धारित पाठ \u2014 गद्य, पद्य और नाट्य। पठितावबोधनम् का पूरा आधार।", "tips": ["- प्रत्येक पाठ का अन्वय और भावार्थ लिखकर अभ्यास करें।"]},
-      {"id": "vyakaran", "slug": "vyakaran", "title": "अनुप्रयुक्तव्याकरणम्", "marks": "25 marks", "priority": true, "desc": "सन्धि, समास, प्रत्यय, वाच्य, समय, अव्यय और अशुद्धि-संशोधनम्।", "tips": ["- सूत्र रटें नहीं \u2014 हर सूत्र पर दस उदाहरण बनाइए।"]},
-      {"id": "lekhan", "slug": "lekhan", "title": "रचनात्मकलेखनम्", "marks": "15 marks", "priority": true, "desc": "पत्रलेखनम्, चित्रवर्णनम्, अनुच्छेदलेखनम् और अनुवादः।", "tips": ["- प्रारूप के अंक अलग मिलते हैं \u2014 ढाँचा पहले पक्का करें।"]}
+      {
+        "id": "shemushi",
+        "slug": "shemushi",
+        "title": "पाठ्यपुस्तक · शेमुषी भाग-2",
+        "marks": "30 marks",
+        "priority": true,
+        "desc": "नौ निर्धारित पाठ — गद्य, पद्य और नाट्य। पठितावबोधनम् का पूरा आधार।",
+        "tips": [
+          "- प्रत्येक पाठ का अन्वय और भावार्थ लिखकर अभ्यास करें।"
+        ]
+      },
+      {
+        "id": "vyakaran",
+        "slug": "vyakaran",
+        "title": "अनुप्रयुक्तव्याकरणम्",
+        "marks": "25 marks",
+        "priority": true,
+        "desc": "सन्धि, समास, प्रत्यय, वाच्य, समय, अव्यय और अशुद्धि-संशोधनम्।",
+        "tips": [
+          "- सूत्र रटें नहीं — हर सूत्र पर दस उदाहरण बनाइए।"
+        ]
+      },
+      {
+        "id": "lekhan",
+        "slug": "lekhan",
+        "title": "रचनात्मकलेखनम्",
+        "marks": "15 marks",
+        "priority": true,
+        "desc": "पत्रलेखनम्, चित्रवर्णनम्, अनुच्छेदलेखनम् और अनुवादः।",
+        "tips": [
+          "- प्रारूप के अंक अलग मिलते हैं — ढाँचा पहले पक्का करें।"
+        ]
+      }
     ],
     "assessment": [
-      ["**क** \u2014 अपठितावबोधनम् (unseen passage)", "**10**", "80\u2013100 शब्दों का गद्यांश; शीर्षक और भाषिककार्य MCQ सहित।"],
-      ["**ख** \u2014 रचनात्मककार्यम् (writing)", "**15**", "पत्र 5, चित्रवर्णन/अनुच्छेद 5, अनुवाद 5।"],
-      ["**ग** \u2014 अनुप्रयुक्तव्याकरणम् (grammar in use)", "**25**", "सन्धि 4, समास 4, प्रत्यय 4, वाच्य 3, समय 4, अव्यय 3, अशुद्धि 3।"],
-      ["**घ** \u2014 पठितावबोधनम् (textbook)", "**30**", "गद्य 5, पद्य 5, नाट्य 5, प्रश्ननिर्माण 4, अन्वय-भावार्थ 4, घटनाक्रम 4, अर्थलेखन 3।"],
-      ["Total theory", "**80**", "तीन घंटे।"],
-      ["Internal assessment", "**20**", "श्रवण, वाचन और परियोजना \u2014 विद्यालय द्वारा निर्धारित।"]
+      [
+        "**क** — अपठितावबोधनम् (unseen passage)",
+        "**10**",
+        "80–100 शब्दों का गद्यांश; शीर्षक और भाषिककार्य MCQ सहित।"
+      ],
+      [
+        "**ख** — रचनात्मककार्यम् (writing)",
+        "**15**",
+        "पत्र 5, चित्रवर्णन/अनुच्छेद 5, अनुवाद 5।"
+      ],
+      [
+        "**ग** — अनुप्रयुक्तव्याकरणम् (grammar in use)",
+        "**25**",
+        "सन्धि 4, समास 4, प्रत्यय 4, वाच्य 3, समय 4, अव्यय 3, अशुद्धि 3।"
+      ],
+      [
+        "**घ** — पठितावबोधनम् (textbook)",
+        "**30**",
+        "गद्य 5, पद्य 5, नाट्य 5, प्रश्ननिर्माण 4, अन्वय-भावार्थ 4, घटनाक्रम 4, अर्थलेखन 3।"
+      ],
+      [
+        "Total theory",
+        "**80**",
+        "तीन घंटे।"
+      ],
+      [
+        "Internal assessment",
+        "**20**",
+        "श्रवण, वाचन और परियोजना — विद्यालय द्वारा निर्धारित।"
+      ]
     ],
     "study_order": [
-      "**शेमुषी के नौ पाठ** सबसे पहले \u2014 30 अंक और सबसे लंबा पठन।",
-      "**अनुप्रयुक्तव्याकरणम् (25 अंक)** \u2014 प्रतिदिन थोड़ा, सूत्र नहीं उदाहरण।",
-      "**रचनात्मकलेखनम् (15 अंक)** \u2014 प्रारूप कंठस्थ, फिर अभ्यास।",
-      "**अपठितावबोधनम् (10 अंक)** \u2014 हर दूसरे दिन एक गद्यांश; यह गति का अभ्यास है।"
+      "**शेमुषी के नौ पाठ** सबसे पहले — 30 अंक और सबसे लंबा पठन।",
+      "**अनुप्रयुक्तव्याकरणम् (25 अंक)** — प्रतिदिन थोड़ा, सूत्र नहीं उदाहरण।",
+      "**रचनात्मकलेखनम् (15 अंक)** — प्रारूप कंठस्थ, फिर अभ्यास।",
+      "**अपठितावबोधनम् (10 अंक)** — हर दूसरे दिन एक गद्यांश; यह गति का अभ्यास है।"
     ],
-    "countdown": "आंतरिक मूल्यांकन (श्रवण-वाचन) आमतौर पर दिसंबर\u2013जनवरी में होता है।",
-    "cards": {"practical": "श्रवण एवं वाचन", "questions": "पाठवार प्रश्न"},
+    "countdown": "आंतरिक मूल्यांकन (श्रवण-वाचन) आमतौर पर दिसंबर–जनवरी में होता है।",
+    "cards": {
+      "practical": "श्रवण एवं वाचन",
+      "questions": "पाठवार प्रश्न"
+    },
     "practical_note": "संस्कृत का आंतरिक मूल्यांकन **श्रवण एवं वाचन मूल्यांकन (ASL)** और परियोजना पर आधारित है।",
     "practical": [
       "- **वाचन**: निर्धारित गद्य या पद्यांश का शुद्ध उच्चारण के साथ पठन, फिर मौखिक प्रश्न।",
-      "- **श्रवण**: सुनाए गए संस्कृत गद्यांश पर प्रश्न \u2014 सुनते समय मुख्य शब्द लिखने का अभ्यास करें।",
+      "- **श्रवण**: सुनाए गए संस्कृत गद्यांश पर प्रश्न — सुनते समय मुख्य शब्द लिखने का अभ्यास करें।",
       "- **परियोजना**: किसी एक विषय (संस्कृत-साहित्य, विज्ञान-शब्दावली या सुभाषित-संग्रह) पर निर्धारित प्रारूप में कार्य।",
-      "- **अभ्यास**: प्रतिदिन एक श्लोक या गद्यांश बोलकर पढ़ें और अपनी ध्वनि रिकॉर्ड कर सुनें \u2014 उच्चारण इसी से सुधरता है।"
+      "- **अभ्यास**: प्रतिदिन एक श्लोक या गद्यांश बोलकर पढ़ें और अपनी ध्वनि रिकॉर्ड कर सुनें — उच्चारण इसी से सुधरता है।"
     ]
-  },
-  {
-    "slug": "it-402",
-    "title": "Information Technology",
-    "code": "402",
-    "external": "https://clickalex.github.io/IT-402-/index.html",
-    "short": "20 chapters, practical-first. Already published as its own hub.",
-    "kicker": "CBSE \u2022 CLASS 10 \u2022 IT 402",
-    "marks": "50 + 50"
   }
 ]

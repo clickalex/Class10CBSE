@@ -1,0 +1,569 @@
+[
+  {
+    "id": "ch09-calc-scenarios-goal-seek",
+    "num": 9,
+    "title": "Scenarios and Goal Seek (Calc)",
+    "unit": "calc",
+    "unit_name": "Part B · Electronic Spreadsheet (Advanced)",
+    "weight": "part of 10 marks",
+    "short": "Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.",
+    "lede": "The analysis half of Calc. Goal Seek is the one tool you must be able to demo.",
+    "lens": [
+      "**Goal Seek** and **Scenarios** are the theory + practical pair.",
+      "Also: Consolidate, Group/Outline, Subtotals."
+    ],
+    "concepts": [
+      "**1. Consolidate:** Data → Consolidate. Combines the same layout from several sheets (e.g. four term marks) using Sum/Average. Tick “Link to source data” to auto-update.",
+      "**2. Groups and outline:** Data → Group and Outline. Hide detail rows; show only totals.",
+      "**3. Subtotals:** sort first, then Data → Subtotals on a column (e.g. subtotal marks by section).",
+      "**4. What-if analysis:** change inputs to see outputs. Three tools: Scenarios, Goal Seek, Solver.",
+      "**5. Scenarios:** named sets of input cells (Best case, Worst case). Tools → Scenarios. Switching the name swaps the inputs and the formulas recalculate.",
+      "**6. Goal Seek:** Tools → Goal Seek. You know the **result** you want; Calc finds the **input**. Example: “What price makes profit = 10000?” Set cell, To value, By changing cell.",
+      "**7. Solver:** for many variables and constraints (maximise profit with limits). Heavier than Goal Seek."
+    ],
+    "steps": [
+      "Goal Seek:",
+      "1. Click the formula cell (profit).",
+      "2. Tools → Goal Seek.",
+      "3. Formula cell already filled; type the target in “To value”.",
+      "4. “By changing cell” = the input (price).",
+      "5. OK — Calc tries values until the target is hit."
+    ],
+    "formulas": [
+      "Profit = Revenue − Cost",
+      "Goal Seek: set formula cell → target value → change input cell"
+    ],
+    "tricks": [
+      "- Goal Seek needs a **formula** in the set cell. Typing a number there will fail.",
+      "- Sort **before** Subtotals or the groups will be wrong."
+    ],
+    "mistakes": [
+      "- Mixing up Goal Seek (one input) with Solver (many inputs + constraints).",
+      "- Forgetting to name scenarios, so you cannot switch back."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "2",
+        "q": "What is Goal Seek in Calc?",
+        "a": "A what-if tool: you set the result you want in a formula cell and Calc finds the input value that produces it."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "What is a scenario?",
+        "a": "A named set of values for specified cells so you can switch between cases (best/worst) without retyping."
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Differentiate Consolidate and Subtotals.",
+        "a": "Consolidate **combines several ranges/sheets** into one summary (often another sheet). Subtotals **insert summary rows inside one sorted list** (sum of each group). Consolidate is across blocks; Subtotals is inside a table."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "A shop wants profit of ₹8,000. Profit is `=B2*B3-B4` (price × qty − cost). Which tool, and which cell is “By changing” if qty and cost are fixed?",
+        "a": "Goal Seek. Set cell = profit, To value = 8000, By changing = price (`B2`)."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nFour quarterly sheets have the same layout of expenses. The owner wants one yearly total that updates if a quarter changes.\n\n(a) Which tool?\n(b) Two settings to tick/choose.\n(c) Why not just type the four totals by hand?",
+        "a": [
+          "(a) Data → Consolidate.",
+          "(b) Function Sum; add each range; Link to source data.",
+          "(c) Manual totals go stale; a link updates and reduces typing errors."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Scenarios and Goal Seek (Calc)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Consolidate: Data → Consolidate. Combines the same layout from several sheets (e.g. four term marks) using Sum/Average. Tick “Link to source data” to auto-update.",
+          "Marks lens: Goal Seek and Scenarios are the theory + practical pair.",
+          "Method / memory trick: Goal Seek needs a formula in the set cell. Typing a number there will fail.",
+          "Do not: Mixing up Goal Seek (one input) with Solver (many inputs + constraints)."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Scenarios and Goal Seek (Calc)” (Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.). A classmate lost marks by doing this: Mixing up Goal Seek (one input) with Solver (many inputs + constraints). Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Goal Seek needs a formula in the set cell. Typing a number there will fail.",
+          "Why the mistake costs marks: Mixing up Goal Seek (one input) with Solver (many inputs + constraints).",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Scenarios and Goal Seek (Calc)”. Their note says: Consolidate: Data → Consolidate. Combines the same layout from several sheets (e.g. four term marks) using Sum/Average. Tick “Link to source data” to auto-update.\n\nThe chapter is described as: Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.",
+          "(b) Goal Seek and Scenarios are the theory + practical pair.",
+          "(c) Mixing up Goal Seek (one input) with Solver (many inputs + constraints)."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Goal Seek is on the menu: (a) Insert (b) Tools (c) Format (d) Window",
+        "a": "**(b) Tools.**"
+      },
+      {
+        "q": "Before Subtotals you must: (a) insert a chart (b) sort the group column (c) record a macro (d) protect the sheet",
+        "a": "**(b) sort.**"
+      },
+      {
+        "q": "A named best-case / worst-case set of inputs is a: (a) style (b) scenario (c) query (d) template",
+        "a": "**(b) scenario.**"
+      },
+      {
+        "q": "Consolidate is best when data is: (a) on several similar sheets (b) a single cell (c) an image (d) a Writer ToC",
+        "a": "**(a).**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Scenarios and Goal Seek (Calc)” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.."
+      },
+      {
+        "q": "A 3-mark answer on “Scenarios and Goal Seek (Calc)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Goal Seek steps, or difference between scenario and Goal Seek.",
+    "onepager": [
+      "- Consolidate sheets; Subtotals after sort; Group to hide detail.",
+      "- Scenario = named inputs.",
+      "- Goal Seek: know result, find input.",
+      "- Solver: many variables + constraints."
+    ],
+    "task": [
+      "Build Price, Qty, Cost, Profit. Goal Seek profit to 5000 by changing Price. Save two scenarios: Busy Day and Slack Day."
+    ],
+    "visual": []
+  },
+  {
+    "id": "ch10-calc-macros",
+    "num": 10,
+    "title": "Macros in Spreadsheet",
+    "unit": "calc",
+    "unit_name": "Part B · Electronic Spreadsheet (Advanced)",
+    "weight": "part of 10 marks",
+    "short": "Record, run, and use macros as functions; when not to use them.",
+    "lede": "Recording a macro is a 5-mark practical if you can find the menu under Tools.",
+    "lens": [
+      "Steps to **record and run** a macro, plus one use-case (repeating a format or a formula block).",
+      "Security: enable macros only from trusted files."
+    ],
+    "concepts": [
+      "**1. A macro** is a recorded sequence of commands. Play it back to repeat the work.",
+      "**2. Record:** Tools → Macros → Record Macro → do the steps → Stop Recording → name it → save in the document or My Macros.",
+      "**3. Run:** Tools → Macros → Run Macro → pick the name. Or assign it to a button / key.",
+      "**4. Use as a function:** some recorded macros can be called from a sheet; in Class 10 the expected skill is record-and-run, not writing BASIC by hand.",
+      "**5. Good uses:** apply a school marksheet format, insert a header, convert a column to uppercase, print settings.",
+      "**6. Macro security:** Tools → Options → Security → Macro Security. Very high / High / Medium / Low. Use Medium or High; never run macros from unknown people."
+    ],
+    "steps": [
+      "1. Tools → Macros → Record Macro.",
+      "2. Perform the actions (format, sort, formula).",
+      "3. Stop Recording, give a name.",
+      "4. Tools → Macros → Run Macro to test.",
+      "5. Optional: assign to a toolbar button."
+    ],
+    "tricks": [
+      "- Plan the clicks **before** you press Record — extra clicks get recorded too.",
+      "- Save the file as `.ods` with macros enabled; some formats drop macros."
+    ],
+    "mistakes": [
+      "- Recording a macro that depends on a **specific cell** when you needed a relative range.",
+      "- Enabling macros on a downloaded file you do not trust."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "2",
+        "q": "What is a macro? Give one use in Calc.",
+        "a": "A saved list of commands that can be replayed. Use: apply the same marksheet formatting every term."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Write the menu path to record a macro in Calc.",
+        "a": "Tools → Macros → Record Macro, perform the steps, Stop Recording, name the macro."
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain macro security levels and a safe practice for students.",
+        "a": "Very High / High / Medium / Low control whether unsigned macros run. Students should keep High or Medium, enable macros only on their own practical files, and never open a macro-enabled sheet from an unknown chat."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Every Monday you set print area A1:G40, landscape, header “Weekly Sales”. How does a macro help?",
+        "a": "Record those page-setup steps once. Each Monday, Run Macro — one click instead of eight menu steps, fewer missed settings."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA classmate sends `marks.ods` that auto-runs a macro on open.\n\n(a) What should you do first?\n(b) When is a macro a good idea in your own file?\n(c) One limitation of recorded macros.",
+        "a": [
+          "(a) Do not enable macros until you trust the source; check Security level.",
+          "(b) When the same clicks are repeated often on your own data.",
+          "(c) They record extra clicks; they may break if the sheet layout changes."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Macros in Spreadsheet” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "A macro is a recorded sequence of commands. Play it back to repeat the work.",
+          "Marks lens: Steps to record and run a macro, plus one use-case (repeating a format or a formula block).",
+          "Method / memory trick: Plan the clicks before you press Record — extra clicks get recorded too.",
+          "Do not: Recording a macro that depends on a specific cell when you needed a relative range."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Macros in Spreadsheet” (Record, run, and use macros as functions; when not to use them.). A classmate lost marks by doing this: Recording a macro that depends on a specific cell when you needed a relative range. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Plan the clicks before you press Record — extra clicks get recorded too.",
+          "Why the mistake costs marks: Recording a macro that depends on a specific cell when you needed a relative range.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Macros in Spreadsheet”. Their note says: A macro is a recorded sequence of commands. Play it back to repeat the work.\n\nThe chapter is described as: Record, run, and use macros as functions; when not to use them..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Record, run, and use macros as functions; when not to use them.",
+          "(b) Steps to record and run a macro, plus one use-case (repeating a format or a formula block).",
+          "(c) Recording a macro that depends on a specific cell when you needed a relative range."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Macros in Calc are started from: (a) Insert → Image (b) Tools → Macros (c) Data → Sort (d) Format → Cells",
+        "a": "**(b).**"
+      },
+      {
+        "q": "A macro is: (a) a virus always (b) a recorded command sequence (c) a Heading style (d) a primary key",
+        "a": "**(b).**"
+      },
+      {
+        "q": "Unknown file asks to enable macros. You should: (a) always click Enable (b) enable only if you trust the source (c) delete LibreOffice (d) turn security to Low forever",
+        "a": "**(b).**"
+      },
+      {
+        "q": "Best use of a macro: (a) one-time typing of a name (b) repeating a long format every week (c) drawing a circle once (d) writing an essay",
+        "a": "**(b).**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Macros in Spreadsheet” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Record, run, and use macros as functions; when not to use them.."
+      },
+      {
+        "q": "A 3-mark answer on “Macros in Spreadsheet” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Record-macro steps and one advantage; security as a 1-mark.",
+    "onepager": [
+      "- Macro = recorded commands.",
+      "- Tools → Macros → Record / Run.",
+      "- Name it; save in the document.",
+      "- Security High/Medium; never unknown files."
+    ],
+    "task": [
+      "Record a macro that bolds row 1, adds a yellow background and auto-fits columns A–F. Run it on a new sheet."
+    ],
+    "visual": [],
+    "formulas": []
+  },
+  {
+    "id": "ch11-calc-linking",
+    "num": 11,
+    "title": "Linking Spreadsheet Data",
+    "unit": "calc",
+    "unit_name": "Part B · Electronic Spreadsheet (Advanced)",
+    "weight": "part of 10 marks",
+    "short": "Sheet links, hyperlinks, linking to external files and data from the web.",
+    "lede": "One formula across sheets is the whole idea: `'Sheet2'.A1` or a hyperlink to a file.",
+    "lens": [
+      "Syntax of a sheet reference and Insert → Hyperlink.",
+      "External link: `'file:///path/file.ods'#Sheet1.A1` in principle; in the exam they ask the idea, not the URL."
+    ],
+    "concepts": [
+      "**1. Same-file sheet link:** `=Sheet2.B3` or `='Term 1'.B3` if the sheet name has a space.",
+      "**2. Why link:** one source of truth — change the source, every summary updates.",
+      "**3. Hyperlink:** Insert → Hyperlink to a web page, a mail, a file, or a target in this document (a named cell).",
+      "**4. Linking to another spreadsheet:** copy cells → Paste Special → Link, or type an external reference. The target file should stay in the same folder for the practical exam.",
+      "**5. Data from the web / register:** Insert → Link to External Data (where available) for tables that refresh.",
+      "**6. Find broken links:** Edit → Links to External Files (if present) to update or break the link."
+    ],
+    "formulas": [
+      "=Sheet2.A1",
+      "='Marks Term1'.C5",
+      "HYPERLINK(\"https://cbseacademic.nic.in\")"
+    ],
+    "tricks": [
+      "- Sheet names with spaces need **single quotes**: `'Term 1'.A1`.",
+      "- Absolute `$A$1` still works across sheets: `=Sheet2.$B$3`."
+    ],
+    "mistakes": [
+      "- Renaming a sheet after writing formulas without checking — some links break.",
+      "- Emailing only the summary file when it **links** to `data.ods` left on the lab PC."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Write a formula that shows cell B4 of sheet Fees on sheet Summary.",
+        "a": "`=Fees.B4` or `='Fees'.B4`."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "What is a hyperlink in Calc?",
+        "a": "A clickable link to a web page, file, email or a location in the document, inserted via Insert → Hyperlink."
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Why is linking sheets better than copy-pasting values for a yearly total?",
+        "a": "A link stays live: when a term sheet changes, the year sheet updates. Copy-paste values go stale, cause mismatch, and make auditing harder."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Summary sheet must show `Total` from three term sheets named Term1, Term2, Term3, each total in G20. Write the formula.",
+        "a": "`=Term1.G20+Term2.G20+Term3.G20`"
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA student pastes last month’s numbers into the annual sheet. The teacher later corrects the January file; the annual sheet does not change.\n\n(a) What did the student do wrong?\n(b) How should the cells have been pasted?\n(c) One risk of live links.",
+        "a": [
+          "(a) Pasted values, not links.",
+          "(b) Paste Special → Link, or a formula to the January sheet.",
+          "(c) If the source file is moved/renamed, the link breaks — keep files together."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Linking Spreadsheet Data” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Same-file sheet link: =Sheet2.B3 or ='Term 1'.B3 if the sheet name has a space.",
+          "Marks lens: Syntax of a sheet reference and Insert → Hyperlink.",
+          "Method / memory trick: Sheet names with spaces need single quotes: 'Term 1'.A1.",
+          "Do not: Renaming a sheet after writing formulas without checking — some links break."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Linking Spreadsheet Data” (Sheet links, hyperlinks, linking to external files and data from the web.). A classmate lost marks by doing this: Renaming a sheet after writing formulas without checking — some links break. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Sheet names with spaces need single quotes: 'Term 1'.A1.",
+          "Why the mistake costs marks: Renaming a sheet after writing formulas without checking — some links break.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Linking Spreadsheet Data”. Their note says: Same-file sheet link: =Sheet2.B3 or ='Term 1'.B3 if the sheet name has a space.\n\nThe chapter is described as: Sheet links, hyperlinks, linking to external files and data from the web..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Sheet links, hyperlinks, linking to external files and data from the web.",
+          "(b) Syntax of a sheet reference and Insert → Hyperlink.",
+          "(c) Renaming a sheet after writing formulas without checking — some links break."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "A sheet name with a space is written as: (a) Term 1.A1 (b) 'Term 1'.A1 (c) Term_only (d) (Term1)A1",
+        "a": "**(b) 'Term 1'.A1.**"
+      },
+      {
+        "q": "Insert → Hyperlink can open: (a) only images (b) a web page or a file (c) Goal Seek (d) a style",
+        "a": "**(b).**"
+      },
+      {
+        "q": "Live totals that update when a source sheet changes need: (a) a screenshot (b) a formula/link (c) Track Changes (d) a caption",
+        "a": "**(b).**"
+      },
+      {
+        "q": "Paste Special → Link is used to: (a) break a file (b) keep a live connection to copied cells (c) record a macro (d) group shapes",
+        "a": "**(b).**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Linking Spreadsheet Data” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Sheet links, hyperlinks, linking to external files and data from the web.."
+      },
+      {
+        "q": "A 3-mark answer on “Linking Spreadsheet Data” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Write a cross-sheet formula, or advantage of linking vs paste.",
+    "onepager": [
+      "- `=Sheet2.A1` and `'Name with space'.A1`.",
+      "- Hyperlink: web, file, email, internal target.",
+      "- Paste Special → Link for live copies.",
+      "- Keep linked files in one folder."
+    ],
+    "task": [
+      "Make sheets Jan, Feb, Year. Year!B2 = Jan!B2+Feb!B2. Change Jan and watch Year update. Add a hyperlink to the CBSE academic site."
+    ],
+    "visual": [],
+    "steps": []
+  },
+  {
+    "id": "ch12-calc-share-review",
+    "num": 12,
+    "title": "Share and Review a Spreadsheet",
+    "unit": "calc",
+    "unit_name": "Part B · Electronic Spreadsheet (Advanced)",
+    "weight": "part of 10 marks",
+    "short": "Sharing, recording changes, adding comments, comparing and merging sheets.",
+    "lede": "The collaboration half of Calc — same idea as Track Changes in Writer.",
+    "lens": [
+      "Share spreadsheet + record changes is the pair.",
+      "Know: comments, compare documents, merge."
+    ],
+    "concepts": [
+      "**1. Share spreadsheet:** Tools → Share Spreadsheet. Several people can open it (on a network). Conflicts are resolved when saving.",
+      "**2. Record changes:** Edit → Track Changes → Record (wording may be Record Changes). Shows who changed which cell.",
+      "**3. Show changes:** Edit → Track Changes → Show. Accept or reject like Writer.",
+      "**4. Comments on cells:** Insert → Comment. A small triangle marks the cell. Use for “please check this total”, not for storing the answer itself.",
+      "**5. Compare documents:** Edit → Track Changes → Compare Document — against an older copy to see differences.",
+      "**6. Merge:** bring another user’s copy back into the shared original.",
+      "**7. Protect sheet:** Tools → Protect Sheet so others can edit only unlocked input cells."
+    ],
+    "tricks": [
+      "- Sharing is for **one file, many users**; emailing five copies is how totals diverge.",
+      "- Unlock input cells **before** protecting the sheet."
+    ],
+    "mistakes": [
+      "- Protecting the sheet with no password written in the practical file — you cannot demo it.",
+      "- Recording changes after the work is already done."
+    ],
+    "qa": [
+      {
+        "t": "S",
+        "m": "2",
+        "q": "How do you share a Calc spreadsheet?",
+        "a": "Tools → Share Spreadsheet → enable sharing. Save on a network location the team can open."
+      },
+      {
+        "t": "S",
+        "m": "2",
+        "q": "Why add a comment to a cell instead of changing the value?",
+        "a": "A comment suggests or questions without overwriting data; the original number stays until someone decides."
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain recording, showing and accepting changes in Calc.",
+        "a": "Turn Record on before editing. Each changed cell is marked. Show lists author, date and old/new value. Accept keeps the new value; Reject restores the old. Compare Document does this against a saved copy."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Three lab partners type in three copies of `stock.ods` and the totals disagree. What should they have used?",
+        "a": "One shared spreadsheet (or one file with Record Changes + merge), not three independent copies."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA teacher wants students to fill only column B, not the formulas in C.\n\n(a) Which tool?\n(b) Steps.\n(c) How can the teacher see who changed B5?",
+        "a": [
+          "(a) Protect Sheet (unlock B first).",
+          "(b) Select B → unprotect cells; Tools → Protect Sheet; set password.",
+          "(c) Record / Show Changes — author and date on B5."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Share and Review a Spreadsheet” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Share spreadsheet: Tools → Share Spreadsheet. Several people can open it (on a network). Conflicts are resolved when saving.",
+          "Marks lens: Share spreadsheet + record changes is the pair.",
+          "Method / memory trick: Sharing is for one file, many users; emailing five copies is how totals diverge.",
+          "Do not: Protecting the sheet with no password written in the practical file — you cannot demo it."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Share and Review a Spreadsheet” (Sharing, recording changes, adding comments, comparing and merging sheets.). A classmate lost marks by doing this: Protecting the sheet with no password written in the practical file — you cannot demo it. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Sharing is for one file, many users; emailing five copies is how totals diverge.",
+          "Why the mistake costs marks: Protecting the sheet with no password written in the practical file — you cannot demo it.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Share and Review a Spreadsheet”. Their note says: Share spreadsheet: Tools → Share Spreadsheet. Several people can open it (on a network). Conflicts are resolved when saving.\n\nThe chapter is described as: Sharing, recording changes, adding comments, comparing and merging sheets..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Sharing, recording changes, adding comments, comparing and merging sheets.",
+          "(b) Share spreadsheet + record changes is the pair.",
+          "(c) Protecting the sheet with no password written in the practical file — you cannot demo it."
+        ]
+      }
+    ],
+    "mcq": [
+      {
+        "q": "Share Spreadsheet is under: (a) Insert (b) Tools (c) Format (d) Data",
+        "a": "**(b) Tools.**"
+      },
+      {
+        "q": "A cell comment is for: (a) hiding formulas forever (b) notes without changing the value (c) Goal Seek (d) styles",
+        "a": "**(b).**"
+      },
+      {
+        "q": "To allow editing only some cells: (a) Group (b) Protect Sheet after unlocking inputs (c) Consolidate (d) Mail Merge",
+        "a": "**(b).**"
+      },
+      {
+        "q": "Compare Document is useful when: (a) you have an older copy to diff (b) you need a chart (c) you insert an image (d) you write a ToC",
+        "a": "**(a).**"
+      },
+      {
+        "q": "The most exam-ready way to revise “Share and Review a Spreadsheet” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(b) learn the key idea plus one example.** The chapter is Sharing, recording changes, adding comments, comparing and merging sheets.."
+      },
+      {
+        "q": "A 3-mark answer on “Share and Review a Spreadsheet” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      }
+    ],
+    "trend": "Share vs record changes, or protect sheet steps.",
+    "onepager": [
+      "- Tools → Share Spreadsheet.",
+      "- Record / Show / Accept / Reject changes.",
+      "- Insert → Comment.",
+      "- Protect Sheet; unlock inputs first.",
+      "- Compare and merge copies."
+    ],
+    "task": [
+      "Protect a marksheet so only the Marks column is editable. Add a comment on a zero mark asking “absent or not entered?”"
+    ],
+    "visual": [],
+    "formulas": [],
+    "steps": []
+  }
+]
