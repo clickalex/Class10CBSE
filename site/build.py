@@ -718,15 +718,6 @@ then Show Answer. Filter does not score you — this is self-check, not a test.<
 def portal_body(subjects, counts, pending=()):
     cards = []
     for s in subjects:
-        if s.get("external"):
-            cards.append(
-                f'<a class="subject-card" href="{html.escape(s["external"])}">'
-                f'<span class="sc-code">{html.escape(s["code"])} \u00b7 separate site</span>'
-                f'<strong>{html.escape(s["title"])}</strong>'
-                f'<span class="sc-desc">{inline(s.get("short", ""))}</span>'
-                f'<span class="sc-meta">Opens the existing {html.escape(s["code"])} hub \u2197</span></a>'
-            )
-            continue
         if s["slug"] in pending:
             cards.append(
                 f'<span class="subject-card pending">'
@@ -821,9 +812,6 @@ def build(check_only=False):
 
     for subj in subjects:
         sid = subj["slug"]
-        if subj.get("external"):
-            counts[sid] = 0
-            continue
         try:
             chapters = load_chapters(sid)
         except FileNotFoundError:

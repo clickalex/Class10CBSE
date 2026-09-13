@@ -103,9 +103,9 @@ subjects — **174 chapters** in total:
 | Sanskrit | 19 |
 | Information Technology (402) | 20 |
 
-IT 402 is built in this site (same design as the others). It is not an
-external redirect. Question banks on every subject use Short / Long /
-Application / Competency cards with hidden answers.
+IT 402 is built in this site (same design as the others). Question banks
+on every subject use Short / Long / Application / Competency cards with
+hidden answers.
 
 A useful sanity check before committing, because `build.py` does not name the
 file when a JSON file fails to parse:

@@ -156,19 +156,17 @@ code { background: #eef2f7; padding: 1px 5px; border-radius: 4px; font-size: 90%
 .vbox span { font-size: 13px; color: var(--ink-soft); }
 
 /* ---------- Q&A (IT-style cards) ---------- */
-details.qa, details.rev {
+details.rev {
   background: var(--card); border: 1px solid var(--line); border-radius: 10px;
   padding: 10px 14px; margin: 9px 0; box-shadow: var(--shadow);
 }
-details.qa > summary, details.rev > summary { cursor: pointer; font-weight: 600; }
+details.rev > summary { cursor: pointer; font-weight: 600; }
 details[open] > summary { margin-bottom: 8px; }
 .ans { border-top: 1px dashed var(--line); padding-top: 8px; }
 .marks {
   display: inline-block; background: #111827; color: #fff; font-size: 11px; font-weight: 700;
   border-radius: 999px; padding: 2px 8px; margin-right: 8px; vertical-align: middle;
 }
-.qlist { list-style: none; padding: 0; }
-.qlist li { border-top: 1px solid #eef2f7; padding: 8px 0; }
 .qblock { margin: 22px 0; }
 
 .qbar {
