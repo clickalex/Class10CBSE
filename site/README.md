@@ -1,10 +1,31 @@
 # Study-hub site
 
 A static study hub: a portal, one hub per subject (including Information
-Technology 402, built in), unit overviews, and one deep page per chapter with a
-marks lens, concepts, formulas, memory tricks, mistakes to avoid and exam Q&A
-in four tones — Short, Long, Application and Competency — with click-to-reveal
-answers.
+Technology 402, built in), a chapter index per subject, unit overviews, and one
+deep page per chapter with a marks lens, concepts, formulas, memory tricks,
+mistakes to avoid and exam Q&A in four tones — Short, Long, Application and
+Competency — with click-to-reveal answers.
+
+## Navigation
+
+Every page carries the same left sidebar instead of a top bar, so the place you
+are in is always visible:
+
+- **Brand + progress** — "Class 10 CBSE", the session, and a per-subject
+  *Chapters done* bar.
+- **All subjects** — one entry per subject with its board code as a badge;
+  subjects whose chapter content is not written yet are plain text marked
+  *in progress*.
+- **This subject** — only when you are inside a subject: its eight pages
+  (Overview, Chapters, Syllabus, Question bank, PYQ, Revision, Drill,
+  Practical).
+- **Chapters** — grouped by unit, each chapter numbered; the page you are on is
+  highlighted and scrolled into view automatically.
+- **Foot** — "Created by Mohammad Umair" on every page, including the 404 page.
+
+On screens 900 px and narrower the sidebar becomes an off-canvas drawer opened
+with the `☰` button and closed with ×, the backdrop or Escape. Chapter and
+practice pages also carry a Previous / All chapters / Next strip at the bottom.
 
 ## Build
 
@@ -92,20 +113,39 @@ Subjects with no chapter content yet are skipped and shown on the portal as
 Every Class 10 subject has a hub. Chapter content is authored for all eight
 subjects — **174 chapters** in total:
 
-| Subject | Chapters |
-|---|---|
-| Maths | 14 |
-| Science | 13 |
-| Social Science | 21 |
-| English | 33 |
-| Hindi | 40 |
-| Computer Applications | 14 |
-| Sanskrit | 19 |
-| Information Technology (402) | 20 |
+| Subject | Chapters | Q&A | MCQ |
+|---|---|---|---|
+| Maths | 14 | 167 | 112 |
+| Science | 13 | 179 | 104 |
+| Social Science | 21 | 260 | 168 |
+| English | 33 | 343 | 231 |
+| Hindi | 40 | 406 | 249 |
+| Computer Applications | 14 | 167 | 104 |
+| Sanskrit | 19 | 200 | 130 |
+| Information Technology (402) | 20 | 200 | 162 |
+| **Total** | **174** | **1,922** | **1,260** |
 
 IT 402 is built in this site (same design as the others). Question banks
 on every subject use Short / Long / Application / Competency cards with
-hidden answers.
+hidden answers. Every chapter carries both written Q&A and MCQs, so the
+practice page for a chapter always has something to attempt.
+
+### What every chapter contains
+
+An audit of all 174 chapters (2026-09) found gaps in the optional sections
+and uneven ordering, and closed them:
+
+| Section | Coverage |
+|---|---|
+| Marks lens, Deep concepts, Memory tricks, Mistakes, Exam Q&A, Hands-on task | 174 / 174 |
+| Method, step by step | 174 / 174 |
+| Formulas to memorise | 74 / 174 — every maths, science, IT and computer-applications chapter, the five economics chapters and the three Sanskrit grammar chapters; literature chapters do not carry one |
+| Concepts per chapter | maths 5, science 6, social science 7, IT 7, computer-applications 4, english 3, hindi 5, sanskrit 5 |
+
+Median content per chapter now runs from 7,308 characters (hindi poems and
+grammar) to 18,419 (social science). Written Q&A are ordered by marks
+ascending in every chapter, and MCQ options use one label style per chapter
+— Devanagari (क ख ग घ) throughout hindi and sanskrit, Latin elsewhere.
 
 A useful sanity check before committing, because `build.py` does not name the
 file when a JSON file fails to parse:

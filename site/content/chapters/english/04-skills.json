@@ -49,17 +49,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Reading: Unseen and Case-based Passages” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "What is tested. The questions test inference (what is implied but not stated), analysis (how an argument is built), interpretation (what a word or phrase means in context), evaluation (whether a claim is supported), and vocabulary. Because the questions are multiple choice, the answer is always in the passage — never bring in outside knowledge.",
-          "Marks lens: About 15 marks. Two passages: a discursive passage of 400–450 words and a case-based factual passage of 200–250 words with visual input such as statistical data or a chart.",
-          "Method / memory trick: Questions first, then passage. It saves two or three minutes on a fifteen-mark section.",
-          "Do not: Answering from your own knowledge instead of from the passage."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Reading: Unseen and Case-based Passages” (Discursive and factual passages, MCQ-based, with a speed strategy.). A classmate lost marks by doing this: Answering from your own knowledge instead of from the passage. Apply the correct method and rewrite the scoring answer.",
@@ -79,6 +68,17 @@
         ]
       },
       {
+        "m": "3",
+        "q": "What is the right way to attempt an unseen passage in the board paper?",
+        "a": [
+          "Read the questions first, so that you know what to look for while reading.",
+          "Then read the passage once quickly for the sense and a second time to locate the answers, underlining key words.",
+          "Answer in complete sentences and, wherever asked, in your own words; do not copy long phrases from the passage.",
+          "Stick to the word limit — usually 30 to 40 words for a two-mark question — and number the answers exactly as the questions are numbered."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Reading: Unseen and Case-based Passages”. Their note says: What is tested. The questions test inference (what is implied but not stated), analysis (how an argument is built), interpretation (what a word or phrase means in context), evaluation (whether a claim is supported), and vocabulary. Because the questions are multiple choice, the answer is always in t\n\nThe chapter is described as: Discursive and factual passages, MCQ-based, with a speed strategy..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -96,6 +96,28 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) A discursive passage is 400–450 words and argues or discusses an idea, so the questions test inference, interpretation and evaluation. A case-based factual passage is 200–250 words and is supported by visual input such as statistical data or a chart, so the questions test your ability to read the data and connect it to the text.",
           "(c) Questions first, then passage. It saves two or three minutes on a fifteen-mark section."
+        ]
+      },
+      {
+        "m": "4",
+        "q": "How should you answer a case-based factual passage with MCQ and short items?",
+        "a": [
+          "Read the whole case once, including any table, chart or data given with it, before looking at the questions.",
+          "For the MCQ, choose the option that is supported by the passage and cannot be contradicted by any line in it; do not bring in outside knowledge.",
+          "For short items, write one clear sentence with the fact taken from the passage and the number or unit it gives.",
+          "Keep every answer brief and grammatical, and do not repeat the question in the answer."
+        ],
+        "t": "A"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Reading: Unseen and Case-based Passages” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "What is tested. The questions test inference (what is implied but not stated), analysis (how an argument is built), interpretation (what a word or phrase means in context), evaluation (whether a claim is supported), and vocabulary. Because the questions are multiple choice, the answer is always in the passage — never bring in outside knowledge.",
+          "Marks lens: About 15 marks. Two passages: a discursive passage of 400–450 words and a case-based factual passage of 200–250 words with visual input such as statistical data or a chart.",
+          "Method / memory trick: Questions first, then passage. It saves two or three minutes on a fifteen-mark section.",
+          "Do not: Answering from your own knowledge instead of from the passage."
         ]
       }
     ],
@@ -119,6 +141,14 @@
       {
         "q": "A 3-mark answer on “Reading: Unseen and Case-based Passages” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Before writing the answers to an unseen passage you should: (a) read the questions, then read the passage  (b) start writing immediately  (c) copy lines from the passage  (d) skip the passage",
+        "a": "**(a) read the questions, then read the passage.** It saves time and keeps your reading focused."
+      },
+      {
+        "q": "Answers to an unseen passage should be: (a) in your own words and within the word limit  (b) as long as possible  (c) copied from the passage  (d) written as bullet points only",
+        "a": "**(a) in your own words and within the word limit.** Copying whole sentences loses marks."
       }
     ],
     "trend": "The pattern is stable: one discursive passage and one case-based passage with visual input, all objective. The skill is speed and elimination, not knowledge.",
@@ -130,6 +160,12 @@
     ],
     "task": [
       "Set a timer for eighteen minutes and do one unseen passage with eight MCQs. Then repeat the same passage the next day and compare your time. Two weeks of this raises the score more than any amount of reading about technique."
+    ],
+    "steps": [
+      "1. Read the **questions first**, then the passage once for the gist and once with the questions in mind — never the other way round.",
+      "2. Underline the **sentences that answer each question** as you read them; this saves a second full read in the exam.",
+      "3. Write in **complete sentences and your own words**, unless the question says 'from the passage'; then quote, but only the part you need.",
+      "4. Keep inside the **word limit**, and finish with a **title** that covers the whole passage rather than one paragraph."
     ]
   },
   {
@@ -181,17 +217,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Note Making and Summarising” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The format. Write a title in the centre at the top. Use a numbering system: main headings 1, 1.1, 1.1.1, 1.2 and so on, indented to show the level. Main headings carry the key idea; sub-headings carry the details. Every heading is a phrase, not a sentence. End with a conclusion line if the passage has one. Do not write in sentences, do not add your own ideas, and do not exceed the recommended number of headings.",
-          "Marks lens: About 5 marks, usually as a note-making task based on a passage, followed by a short summary.",
-          "Method / memory trick: Headings are phrases, not sentences. That is the single most common loss of format marks.",
-          "Do not: Writing notes in full sentences."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Note Making and Summarising” (The exact format that earns the format marks.). A classmate lost marks by doing this: Writing notes in full sentences. Apply the correct method and rewrite the scoring answer.",
@@ -211,6 +236,17 @@
         ]
       },
       {
+        "m": "3",
+        "q": "What is the accepted format for note-making?",
+        "a": [
+          "Write the title at the top, then group the ideas into main points and sub-points.",
+          "Number them as 1, 2, 3 with sub-points as 1.1, 1.2 and so on, and indent each sub-point.",
+          "Use abbreviations wherever possible and write a key to the abbreviations at the end, leaving out articles and linkers.",
+          "Do not write full sentences: use phrases, and keep the points logically grouped under the title."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Note Making and Summarising”. Their note says: The format. Write a title in the centre at the top. Use a numbering system: main headings 1, 1.1, 1.1.1, 1.2 and so on, indented to show the level. Main headings carry the key idea; sub-headings carry the details. Every heading is a phrase, not a sentence. End with a conclusion line if the passage h\n\nThe chapter is described as: The exact format that earns the format marks..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -228,6 +264,28 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) Write a title in the centre at the top. Use decimal numbering for the headings — 1, 1.1, 1.1.1, 1.2 — with consistent indentation to show the levels. Each heading must be a short phrase, not a sentence, and must contain only what is in the passage. Standard abbreviations may be used, and a key to abbreviations must be given at the end.",
           "(c) Headings are phrases, not sentences. That is the single most common loss of format marks."
+        ]
+      },
+      {
+        "m": "4",
+        "q": "How do you write a summary from notes?",
+        "a": [
+          "A summary keeps only the essential points of the passage and drops all examples, figures of speech and repetition.",
+          "It should be about one third of the length of the original and must be written in connected prose in one paragraph.",
+          "Use your own words as far as possible and keep the order of the original, so that the reader can follow the argument.",
+          "Give the summary a title, do not add your own comments, and write it in the past or present tense as the passage requires."
+        ],
+        "t": "A"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Note Making and Summarising” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The format. Write a title in the centre at the top. Use a numbering system: main headings 1, 1.1, 1.1.1, 1.2 and so on, indented to show the level. Main headings carry the key idea; sub-headings carry the details. Every heading is a phrase, not a sentence. End with a conclusion line if the passage has one. Do not write in sentences, do not add your own ideas, and do not exceed the recommended number of headings.",
+          "Marks lens: About 5 marks, usually as a note-making task based on a passage, followed by a short summary.",
+          "Method / memory trick: Headings are phrases, not sentences. That is the single most common loss of format marks.",
+          "Do not: Writing notes in full sentences."
         ]
       }
     ],
@@ -251,6 +309,14 @@
       {
         "q": "A 3-mark answer on “Note Making and Summarising” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "In note-making, the format marks are awarded for: (a) the title, numbering and use of abbreviations  (b) neat handwriting  (c) the length of the notes  (d) coloured pens",
+        "a": "**(a) the title, numbering and use of abbreviations.** These show that you know the format."
+      },
+      {
+        "q": "A good summary should be: (a) about one third of the original, in your own words  (b) as long as the passage  (c) a copy of the first and last sentences  (d) full of examples",
+        "a": "**(a) about one third of the original, in your own words.** Examples and details are left out."
       }
     ],
     "trend": "The task is stable: a passage, a set of notes and an 80-word summary. The marks lost are almost always format marks, not content marks.",
@@ -262,6 +328,12 @@
     ],
     "task": [
       "Take any newspaper article of about 400 words and make notes on it in eight minutes, then write the 80-word summary. Check your headings: if any of them is a full sentence, rewrite it as a phrase. Do this five times and the format becomes automatic."
+    ],
+    "steps": [
+      "1. Read the passage twice and mark the **main idea** and the supporting points; note-making is not copying sentences.",
+      "2. Build **headings and sub-headings** with roman, capital and small numbers in the standard indented format.",
+      "3. Use **abbreviations** for long or repeated words, and give a **key** for anything a reader could not guess.",
+      "4. Write the **summary** from the notes, never from the passage: one connected paragraph, in your own words, inside the word limit, with the **title** on top."
     ]
   },
   {
@@ -303,12 +375,6 @@
         "t": "S"
       },
       {
-        "m": "2",
-        "q": "Change into reported speech: 'Where have you kept my files?' she asked the clerk.",
-        "a": "She asked the clerk where he had kept her files. Note the three changes: the present perfect becomes the past perfect, the question word order becomes statement order, and 'my' becomes 'her'.",
-        "t": "S"
-      },
-      {
         "m": "1",
         "q": "Fill in the blank with a suitable modal: You ____ consult a doctor if the cough persists. (can / should / may)",
         "a": "**should** — the sentence gives advice, which is the use of 'should'. 'Can' expresses ability and 'may' expresses permission or possibility, neither of which fits.",
@@ -321,15 +387,10 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Grammar in Context” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Tenses. The tense must agree with the time marker in the sentence. Since and for take the perfect tenses; yesterday, last year take the simple past; now, at present take the present continuous; tomorrow, next week take the future. In a narrative passage, the tense often shifts only when the time shifts — so keep the tense until a new time marker appears.",
-          "Marks lens: About 10 marks, usually as a gap-filling or editing task set within a short passage or dialogue.",
-          "Method / memory trick: In a gap-filling passage, look at the other verbs first — the tense of the passage is usually consistent.",
-          "Do not: Using the simple past with 'since'. *Since* requires a perfect tense."
-        ]
+        "m": "2",
+        "q": "Change into reported speech: 'Where have you kept my files?' she asked the clerk.",
+        "a": "She asked the clerk where he had kept her files. Note the three changes: the present perfect becomes the past perfect, the question word order becomes statement order, and 'my' becomes 'her'.",
+        "t": "S"
       },
       {
         "t": "A",
@@ -351,6 +412,17 @@
         ]
       },
       {
+        "m": "3",
+        "q": "How do you change a sentence from direct into indirect speech?",
+        "a": [
+          "Change the reporting verb into the past tense; since the reporting verb is already in the past, the verb in the reported clause moves one step back — present to past, past to past perfect.",
+          "Change the pronouns according to sense, and change words of nearness into words of distance: now becomes then, today that day, tomorrow the next day, here there.",
+          "Remove the inverted commas and the comma after the reporting verb, and use ‘if' or ‘whether' for yes–no questions.",
+          "Do not change a universal truth: ‘The teacher said that the earth moves round the sun' keeps the present tense."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Grammar in Context”. Their note says: Tenses. The tense must agree with the time marker in the sentence. Since and for take the perfect tenses; yesterday, last year take the simple past; now, at present take the present continuous; tomorrow, next week take the future. In a narrative passage, the tense often shifts only when the time shi\n\nThe chapter is described as: Tenses, modals, subject-verb agreement, reported speech, determiners..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -368,6 +440,28 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) has. 'Neither of' takes a singular verb, because the subject is 'neither', not 'candidates'.",
           "(c) In a gap-filling passage, look at the other verbs first — the tense of the passage is usually consistent."
+        ]
+      },
+      {
+        "m": "4",
+        "q": "Correct these sentences and give a reason for each: (i) She don't like mangoes. (ii) He is working since morning. (iii) The teacher said that the earth moved round the sun. (iv) Neither of the boys were present.",
+        "a": [
+          "(i) She doesn't like mangoes — a third-person singular subject takes does not, not do not.",
+          "(ii) He has been working since morning — an action continuing up to the present uses the present perfect continuous, not the present continuous.",
+          "(iii) The teacher said that the earth moves round the sun — a universal truth keeps the present tense even in indirect speech.",
+          "(iv) Neither of the boys was present — ‘neither' is singular, so the verb is was, not were."
+        ],
+        "t": "A"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Grammar in Context” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Tenses. The tense must agree with the time marker in the sentence. Since and for take the perfect tenses; yesterday, last year take the simple past; now, at present take the present continuous; tomorrow, next week take the future. In a narrative passage, the tense often shifts only when the time shifts — so keep the tense until a new time marker appears.",
+          "Marks lens: About 10 marks, usually as a gap-filling or editing task set within a short passage or dialogue.",
+          "Method / memory trick: In a gap-filling passage, look at the other verbs first — the tense of the passage is usually consistent.",
+          "Do not: Using the simple past with 'since'. *Since* requires a perfect tense."
         ]
       }
     ],
@@ -391,6 +485,14 @@
       {
         "q": "A 3-mark answer on “Grammar in Context” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "Choose the correct form: Neither of the boys ___ present. (a) were  (b) was  (c) are  (d) have been",
+        "a": "**(b) was.** ‘Neither' and ‘either' are treated as singular in formal English."
+      },
+      {
+        "q": "The correct reported form of ‘He said, “I am busy”' is: (a) He said that he was busy  (b) He said that he is busy  (c) He said that I was busy  (d) He says he was busy",
+        "a": "**(a) He said that he was busy.** The pronoun changes to he and the tense moves one step back."
       }
     ],
     "trend": "The topics are fixed — tenses, modals, subject-verb agreement, reported speech and determiners — and are tested inside a passage or dialogue, so the skill is recognising the pattern in context.",
@@ -403,6 +505,12 @@
     ],
     "task": [
       "Take any page of a story book, remove ten function words and verbs at random, and fill them back in from memory. Then check. This is exactly the gap-filling exercise the paper sets, and it trains the pattern recognition the questions need."
+    ],
+    "steps": [
+      "1. Read the **whole sentence** before the blank — the tense, subject and voice are usually fixed by the sentence, not the blank.",
+      "2. Name the **choice you are making**: a tense, a modal, a determiner, a preposition or a passive form.",
+      "3. Apply the rule and **read the sentence again** with your answer in it; most errors are caught by ear.",
+      "4. For narration and voice changes, change **one thing at a time** — pronoun, then tense, then time and place words — and check each."
     ]
   },
   {
@@ -443,37 +551,10 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "Write a letter to the editor about the irregular water supply in your locality.",
-        "a": [
-          "**Examination Hall** *(or the sender's address)* / **12, Civil Lines** / **Jaipur**",
-          "**15 March 2027**",
-          "**The Editor** / **The Rajasthan Patrika** / **Jaipur**",
-          "**Subject: Irregular water supply in Civil Lines**",
-          "**Sir,**",
-          "**Para 1:** Through the columns of your esteemed daily, I wish to draw the attention of the concerned authorities to the irregular water supply in our locality, which has caused great hardship to the residents for the past three weeks.",
-          "**Para 2:** Water is supplied for barely half an hour, and that too at odd hours. On many days there is no supply at all. The overhead tanks run dry, and the residents, including schoolchildren and the elderly, are forced to depend on private tankers at high rates. Two written complaints to the Jal Board have received no reply.",
-          "**Para 3:** I hope this letter will prompt the authorities to restore a regular supply and to inform residents of the timings in advance.",
-          "**Yours faithfully,** / **Amit Sharma** / **Resident, Civil Lines**"
-        ],
-        "t": "L"
-      },
-      {
         "m": "3",
         "q": "What should a letter of complaint contain?",
         "a": "It should give the invoice or bill number and the date of purchase, describe precisely what is wrong with the goods or the service, state the remedy required — replacement, repair or refund — and give a reasonable deadline. The tone must be firm but polite, and the letter must end with a request for an early reply.",
         "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Formal Letter Writing” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The format. (1) Sender's address at the top left, in two or three lines, without the name. (2) Date, written in full — 15 March 2027, not 15/3/27. (3) Receiver's designation and address — The Editor / The Manager, the name of the newspaper or firm, and the city. (4) Subject, in one line, short and specific. (5) Salutation — Sir / Madam. (6) Body in three short paragraphs. (7) Complimentary close — Yours faithfully /.",
-          "Marks lens: marks, 100–120 words. Two kinds are set: a letter to the editor and a letter of order, enquiry or complaint to a firm or an official.",
-          "Method / memory trick: The subject line is one line only. If it runs to two, shorten it.",
-          "Do not: Putting your name in the sender's address at the top. It goes at the bottom, under the signature."
-        ]
       },
       {
         "t": "A",
@@ -495,6 +576,17 @@
         ]
       },
       {
+        "m": "3",
+        "q": "What is the format of a letter to the editor?",
+        "a": [
+          "Sender's address on the left, then the date, then ‘The Editor' with the name of the newspaper and its city.",
+          "Then the subject line in brief, then the salutation ‘Sir' or ‘Madam'.",
+          "The body: introduce the issue in one sentence, explain the problem and its effect, suggest two or three solutions and end with a hope that the authorities will act.",
+          "End with ‘Thanking you' or ‘Yours truly', and then the sender's name and designation or address."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Formal Letter Writing”. Their note says: The format. (1) Sender's address at the top left, in two or three lines, without the name. (2) Date, written in full — 15 March 2027, not 15/3/27. (3) Receiver's designation and address — The Editor / The Manager, the name of the newspaper or firm, and the city. (4) Subject, in one line, short and s\n\nThe chapter is described as: Letters to the editor and letters of order, enquiry, complaint..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -512,6 +604,44 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) Sender's address at the top left, without the name; the date in full; the receiver's designation and address; a one-line subject; the salutation Sir or Madam; the body in three short paragraphs; the complimentary close Yours faithfully or Yours sincerely; and the signature, name and designation at the bottom left.",
           "(c) The subject line is one line only. If it runs to two, shorten it."
+        ]
+      },
+      {
+        "m": "4",
+        "q": "Write a letter to the editor of a national daily on the nuisance of loudspeakers in your locality.",
+        "a": [
+          "Start with the address, date and ‘The Editor, The Times of India, New Delhi', and give the subject: ‘Nuisance of loudspeakers in residential areas'.",
+          "Body: say that loudspeakers are played at high volume from early morning till late at night, disturbing students, the elderly and night-shift workers.",
+          "Point out that this flouts the Noise Pollution Rules and the Supreme Court's directions, and that repeated complaints to the local police have had no effect.",
+          "Suggest strict enforcement of the 10 pm limit, seizure of equipment on repetition, and a helpline for complaints; end with ‘Yours truly' and your name and address."
+        ],
+        "t": "A"
+      },
+      {
+        "m": "5",
+        "q": "Write a letter to the editor about the irregular water supply in your locality.",
+        "a": [
+          "**Examination Hall** *(or the sender's address)* / **12, Civil Lines** / **Jaipur**",
+          "**15 March 2027**",
+          "**The Editor** / **The Rajasthan Patrika** / **Jaipur**",
+          "**Subject: Irregular water supply in Civil Lines**",
+          "**Sir,**",
+          "**Para 1:** Through the columns of your esteemed daily, I wish to draw the attention of the concerned authorities to the irregular water supply in our locality, which has caused great hardship to the residents for the past three weeks.",
+          "**Para 2:** Water is supplied for barely half an hour, and that too at odd hours. On many days there is no supply at all. The overhead tanks run dry, and the residents, including schoolchildren and the elderly, are forced to depend on private tankers at high rates. Two written complaints to the Jal Board have received no reply.",
+          "**Para 3:** I hope this letter will prompt the authorities to restore a regular supply and to inform residents of the timings in advance.",
+          "**Yours faithfully,** / **Amit Sharma** / **Resident, Civil Lines**"
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Formal Letter Writing” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The format. (1) Sender's address at the top left, in two or three lines, without the name. (2) Date, written in full — 15 March 2027, not 15/3/27. (3) Receiver's designation and address — The Editor / The Manager, the name of the newspaper or firm, and the city. (4) Subject, in one line, short and specific. (5) Salutation — Sir / Madam. (6) Body in three short paragraphs. (7) Complimentary close — Yours faithfully /.",
+          "Marks lens: marks, 100–120 words. Two kinds are set: a letter to the editor and a letter of order, enquiry or complaint to a firm or an official.",
+          "Method / memory trick: The subject line is one line only. If it runs to two, shorten it.",
+          "Do not: Putting your name in the sender's address at the top. It goes at the bottom, under the signature."
         ]
       }
     ],
@@ -535,6 +665,14 @@
       {
         "q": "A 3-mark answer on “Formal Letter Writing” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "A letter to the editor begins with: (a) the sender's address, date, and then ‘The Editor'  (b) the subject line  (c) ‘Dear Sir' alone  (d) a question",
+        "a": "**(a) the sender's address, date, and then ‘The Editor'.** The format marks depend on this order."
+      },
+      {
+        "q": "In a letter of complaint or order, the subject line should be: (a) short and specific  (b) long and detailed  (c) left out  (d) written as a question",
+        "a": "**(a) short and specific.** It tells the reader at once what the letter is about."
       }
     ],
     "trend": "One formal letter is set every year, alternating between a letter to the editor on a civic issue and a letter of order, enquiry or complaint. The marks lost are format marks and word-limit marks.",
@@ -546,6 +684,12 @@
     ],
     "task": [
       "Write one letter to the editor and one letter of complaint, both in twelve minutes. Then count the words and check all eight format points. Repeat once a week for a month and the format will not cost you a single mark."
+    ],
+    "steps": [
+      "1. Write the **format first** — sender's address, date, receiver's designation and address, subject, salutation — before a word of the body.",
+      "2. State the **purpose in the first sentence** of the body; a letter that takes three paragraphs to explain itself loses marks.",
+      "3. Add the **detail and the reason**, then the **action you want** — a complaint wants a remedy, an order wants a delivery date.",
+      "4. Close with **'Yours sincerely'** (named) or **'Yours faithfully'** (unnamed), your signature and full name, and re-check the five format points."
     ]
   },
   {
@@ -586,31 +730,10 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "Write an analytical paragraph on a bar chart showing the mode of transport used by students: bus 45%, cycle 25%, walk 20%, private car 10%.",
-        "a": [
-          "The bar chart shows how students travel to school, expressed as a percentage of the total number of students.",
-          "The most common mode of transport is the bus, used by 45 per cent of students — almost half. Cycling is the second most popular, at 25 per cent, while 20 per cent of students walk to school. Only 10 per cent travel by private car, the least common mode.",
-          "Taken together, the figures show that the great majority of students — 90 per cent — use public or non-motorised transport, and that reliance on private cars is minimal. This suggests that improving bus services and cycle lanes would benefit far more students than any measure aimed at car users."
-        ],
-        "t": "L"
-      },
-      {
         "m": "3",
         "q": "What should an analytical paragraph avoid?",
         "a": "It should avoid giving personal opinions or recommendations unless the question asks for them, inventing data that is not in the chart, listing every figure instead of selecting the significant ones, and exceeding the word limit. It should describe and compare the data, not comment on it.",
         "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Analytical Paragraph” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The structure. First sentence: introduce the data — what the chart shows, what period it covers and what units are used. Middle sentences: describe the main features, comparing and contrasting the significant figures. Last sentence: give a conclusion or a trend inferred from the data. Do not list every number — select the two or three that matter.",
-          "Marks lens: marks, 100–120 words. Based on a chart, graph, table, data set, outline or set of clues.",
-          "Method / memory trick: Open with what the chart shows, then compare, then conclude. Three moves, one paragraph.",
-          "Do not: Copying every number from the table."
-        ]
       },
       {
         "t": "A",
@@ -632,6 +755,17 @@
         ]
       },
       {
+        "m": "3",
+        "q": "What is the structure of an analytical paragraph?",
+        "a": [
+          "Begin by naming the data: what the chart or table shows, over what period and for whom.",
+          "Then give the main trend or the largest and smallest categories, using the figures in the data.",
+          "Next explain the reasons or the pattern behind the figures, comparing categories where useful.",
+          "End with a conclusion or a suggestion, and keep the whole paragraph to about 100 to 120 words."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Analytical Paragraph”. Their note says: The structure. First sentence: introduce the data — what the chart shows, what period it covers and what units are used. Middle sentences: describe the main features, comparing and contrasting the significant figures. Last sentence: give a conclusion or a trend inferred from the data. Do not list ev\n\nThe chapter is described as: A data-based paragraph from a chart, graph, table or set of clues..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -649,6 +783,38 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) The paragraph opens with a sentence introducing the data — what it shows, the period it covers and the units used. The middle sentences describe the main features, selecting the significant figures and comparing them. The final sentence gives a conclusion or a trend inferred from the data. The whole paragraph is within the word limit and contains no opinion.",
           "(c) Open with what the chart shows, then compare, then conclude. Three moves, one paragraph."
+        ]
+      },
+      {
+        "m": "4",
+        "q": "A survey of 200 students of a school showed these preferences for co-curricular activities: Sports 80, Music 50, Art 40, Debate 30. Write an analytical paragraph.",
+        "a": [
+          "A survey of 200 students shows clear preferences among the four co-curricular activities offered by the school.",
+          "Sports is the most popular choice, preferred by 80 students, or 40 per cent of those surveyed, while music is second with 50 students, or 25 per cent.",
+          "Art is chosen by 40 students (20 per cent) and debate by only 30 (15 per cent), which together account for just over a third of the students.",
+          "The pattern suggests that physical activity attracts the largest number of students, while activities that require performance in front of an audience, such as debate, attract the fewest; the school could encourage the less popular activities by giving them more time, trained coaches and recognition."
+        ],
+        "t": "A"
+      },
+      {
+        "m": "5",
+        "q": "Write an analytical paragraph on a bar chart showing the mode of transport used by students: bus 45%, cycle 25%, walk 20%, private car 10%.",
+        "a": [
+          "The bar chart shows how students travel to school, expressed as a percentage of the total number of students.",
+          "The most common mode of transport is the bus, used by 45 per cent of students — almost half. Cycling is the second most popular, at 25 per cent, while 20 per cent of students walk to school. Only 10 per cent travel by private car, the least common mode.",
+          "Taken together, the figures show that the great majority of students — 90 per cent — use public or non-motorised transport, and that reliance on private cars is minimal. This suggests that improving bus services and cycle lanes would benefit far more students than any measure aimed at car users."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Analytical Paragraph” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The structure. First sentence: introduce the data — what the chart shows, what period it covers and what units are used. Middle sentences: describe the main features, comparing and contrasting the significant figures. Last sentence: give a conclusion or a trend inferred from the data. Do not list every number — select the two or three that matter.",
+          "Marks lens: marks, 100–120 words. Based on a chart, graph, table, data set, outline or set of clues.",
+          "Method / memory trick: Open with what the chart shows, then compare, then conclude. Three moves, one paragraph.",
+          "Do not: Copying every number from the table."
         ]
       }
     ],
@@ -672,6 +838,14 @@
       {
         "q": "A 3-mark answer on “Analytical Paragraph” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "An analytical paragraph must be based on: (a) the data given in the chart or table  (b) personal opinion only  (c) imaginary facts  (d) a news report",
+        "a": "**(a) the data given in the chart or table.** Your own views are added only as a conclusion."
+      },
+      {
+        "q": "The usual length of an analytical paragraph in the board paper is: (a) 100 to 120 words  (b) 300 words  (c) 20 words  (d) 500 words",
+        "a": "**(a) 100 to 120 words.** It should cover the trend, the data and one conclusion."
       }
     ],
     "trend": "The task is stable: a chart, graph, table or set of clues, and a 100–120 word paragraph. Marks go to selection, comparison and a concluding inference.",
@@ -684,6 +858,12 @@
     ],
     "task": [
       "Find any graph in a newspaper or a textbook and write a 100-word analytical paragraph on it in ten minutes. Then underline your comparison phrases — if you cannot find four, rewrite using more of them."
+    ],
+    "steps": [
+      "1. Note the **data cue** in the question — it will ask you to analyse a chart, a table, a set of facts or a short extract.",
+      "2. Open with one sentence that **states what the data shows overall**, not with the numbers themselves.",
+      "3. Develop **two or three points** with the figures that support them, and say what they mean rather than repeating them.",
+      "4. Close with a **conclusion or trend** — the likely direction, the reason, or the implication — and stay inside the word limit."
     ]
   }
 ]

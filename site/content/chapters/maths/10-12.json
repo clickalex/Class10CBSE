@@ -74,6 +74,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "Two tangents TP and TQ are drawn to a circle with centre O from an external point T. If ∠POQ = 110°, find ∠PTQ.",
+        "a": "The radius is perpendicular to the tangent at the point of contact, so ∠OPT = ∠OQT = 90°. In quadrilateral POQT: ∠PTQ = 360° − (90° + 90° + 110°) = 70°.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Prove that the lengths of tangents drawn from an external point to a circle are equal.",
         "a": [
@@ -83,28 +89,6 @@
           "By RHS congruence, ΔOAP ≅ ΔOBP, so PA = PB."
         ],
         "t": "S"
-      },
-      {
-        "m": "4",
-        "q": "A quadrilateral ABCD circumscribes a circle. Prove that AB + CD = AD + BC.",
-        "a": [
-          "Let the tangent segments from A, B, C, D be p, q, r, s respectively.",
-          "Then AB = p + q, BC = q + r, CD = r + s and AD = p + s.",
-          "AB + CD = p + q + r + s and AD + BC = p + s + q + r.",
-          "The two sums are identical, so AB + CD = AD + BC."
-        ],
-        "t": "L"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Circles” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Tangent. A line that touches the circle at exactly one point. That point is the point of contact.",
-          "Marks lens: The rest of the 15-mark Geometry unit, roughly 5–6 marks.",
-          "Method / memory trick: Always join the centre to the point of contact. That creates the right angle you need, and it is the first line of almost every proof here.",
-          "Do not: Forgetting to state that the radius is perpendicular to the tangent — that is a marked step."
-        ]
       },
       {
         "t": "A",
@@ -126,6 +110,39 @@
         ]
       },
       {
+        "m": "3",
+        "q": "Prove that a chord of the larger of two concentric circles which touches the smaller circle is bisected at the point of contact.",
+        "a": [
+          "Let the chord AB of the larger circle touch the smaller circle at P; O is the common centre.",
+          "OP is a radius of the smaller circle and AB is a tangent to it, so OP ⊥ AB.",
+          "In the larger circle, the perpendicular drawn from the centre to a chord bisects the chord.",
+          "Hence AP = PB: the chord is bisected at the point of contact."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Prove that the angle between two tangents drawn from an external point to a circle is supplementary to the angle subtended by the line joining the points of contact at the centre.",
+        "a": [
+          "Let TP and TQ be tangents from T, touching the circle at P and Q.",
+          "∠OPT = ∠OQT = 90° because a radius is perpendicular to the tangent at the point of contact.",
+          "In quadrilateral POQT the angles sum to 360°, so ∠PTQ + ∠POQ = 360° − 180° = 180°.",
+          "Therefore the two angles are supplementary."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "4",
+        "q": "A quadrilateral ABCD circumscribes a circle. Prove that AB + CD = AD + BC.",
+        "a": [
+          "Let the tangent segments from A, B, C, D be p, q, r, s respectively.",
+          "Then AB = p + q, BC = q + r, CD = r + s and AD = p + s.",
+          "AB + CD = p + q + r + s and AD + BC = p + s + q + r.",
+          "The two sums are identical, so AB + CD = AD + BC."
+        ],
+        "t": "L"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Circles”. Their note says: Tangent. A line that touches the circle at exactly one point. That point is the point of contact.\n\nThe chapter is described as: Tangents to a circle and the number of tangents from a point..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -143,6 +160,17 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) None. A line through an interior point must cut the circle at two points.",
           "(c) Always join the centre to the point of contact. That creates the right angle you need, and it is the first line of almost every proof here."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Circles” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Tangent. A line that touches the circle at exactly one point. That point is the point of contact.",
+          "Marks lens: The rest of the 15-mark Geometry unit, roughly 5–6 marks.",
+          "Method / memory trick: Always join the centre to the point of contact. That creates the right angle you need, and it is the first line of almost every proof here.",
+          "Do not: Forgetting to state that the radius is perpendicular to the tangent — that is a marked step."
         ]
       }
     ],
@@ -166,6 +194,18 @@
       {
         "q": "A 3-mark answer on “Circles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The number of tangents that can be drawn from a point outside a circle is: (a) 1  (b) 2  (c) 3  (d) infinite",
+        "a": "**(b) 2.** Exactly two, and they are equal in length."
+      },
+      {
+        "q": "A line that cuts a circle in two distinct points is called a: (a) tangent  (b) secant  (c) chord  (d) diameter",
+        "a": "**(b) secant.** A tangent meets the circle at one point; a chord is the segment joining the two points."
+      },
+      {
+        "q": "A tangent of length 24 cm is drawn from a point 25 cm from the centre. The radius is: (a) 5 cm  (b) 7 cm  (c) 12 cm  (d) 24 cm",
+        "a": "**(b) 7 cm.** r² + 24² = 25², so r = √49 = 7 cm."
       }
     ],
     "trend": "One tangent-length proof or numerical (3 marks) and objective questions on the number of tangents.",
@@ -176,6 +216,12 @@
     ],
     "task": [
       "Draw a circle, take an external point, and construct both tangents with compass and ruler. Measure them — they should match, which is Theorem 10.2 in your hand."
+    ],
+    "steps": [
+      "1. Note whether the line **touches** (tangent, one point), **cuts** (secant, two points) or **misses** the circle — the number of intersections decides the whole theorem.",
+      "2. Recall the two core facts: the **tangent is perpendicular to the radius at the point of contact**, and **tangents from an external point are equal in length**.",
+      "3. When two tangents are drawn from an external point, join the centre to that point: it **bisects the angle between the tangents** and the line joining the points of contact is bisected by it.",
+      "4. In the proof, name the theorem you used at each step and finish with the **angle or length** asked for, with units where relevant."
     ]
   },
   {
@@ -247,17 +293,19 @@
       {
         "m": "2",
         "q": "Find the length of an arc of a sector with radius 21 cm and central angle 120°.",
-        "a": [
-          "Arc = (120/360) × 2 × (22/7) × 21 = (1/3) × 132 = 44 cm."
-        ],
+        "a": "Arc length = (θ/360°) × 2πr = (120/360) × 2 × (22/7) × 21 = (1/3) × 132 = **44 cm**. Use 22/7 for π whenever the radius is a multiple of 7, as it is here — the sevens cancel and the arithmetic stays exact.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "The circumference of a circle exceeds its diameter by 30 cm. Find the radius (take π = 22/7).",
+        "a": "2πr − 2r = 30 ⇒ 2r(22/7 − 1) = 30 ⇒ 2r(15/7) = 30 ⇒ r = 7 cm. Check: circumference 44 cm, diameter 14 cm, difference 30 cm.",
         "t": "S"
       },
       {
         "m": "3",
         "q": "Find the area of a sector of radius 6 cm with a central angle of 60° (take π = 3.14).",
-        "a": [
-          "Area = (60/360) × 3.14 × 36 = (1/6) × 113.04 = 18.84 cm²."
-        ],
+        "a": "Area of sector = (θ/360°) × πr² = (60/360) × 3.14 × 36 = (1/6) × 113.04 = **18.84 cm²**. Here the radius is not a multiple of 7, so π = 3.14 as the question directs, and the unit is cm² because this is an area, not a length.",
         "t": "S"
       },
       {
@@ -268,27 +316,6 @@
           "Perimeter = 2(14) + 22 = 50 cm."
         ],
         "t": "S"
-      },
-      {
-        "m": "4",
-        "q": "A square of side 14 cm has a circle inscribed in it. Find the area between the square and the circle.",
-        "a": [
-          "The inscribed circle has diameter 14 cm, so radius 7 cm.",
-          "Area of square = 196 cm². Area of circle = (22/7) × 49 = 154 cm².",
-          "Required area = 196 − 154 = 42 cm²."
-        ],
-        "t": "L"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Areas Related to Circles” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Sector. The region between two radii and the arc joining their endpoints. The angle at the centre is θ.",
-          "Marks lens: Part of the 10-mark Mensuration unit, roughly 4–5 marks.",
-          "Method / memory trick: Perimeter of a sector is 2r + arc, not just the arc. Missing the two radii is the most common error here.",
-          "Do not: Forgetting to add the two radii to the perimeter of a sector."
-        ]
       },
       {
         "t": "A",
@@ -310,6 +337,26 @@
         ]
       },
       {
+        "m": "3",
+        "q": "Find the area of the minor segment of a circle of radius 14 cm whose central angle is 90° (π = 22/7).",
+        "a": [
+          "Area of sector = (90/360) × (22/7) × 14² = ¼ × 616 = 154 cm².",
+          "Area of the right triangle formed by the two radii = ½ × 14 × 14 = 98 cm².",
+          "Area of the minor segment = 154 − 98 = 56 cm²."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "A square of side 14 cm has a circle inscribed in it. Find the area between the square and the circle.",
+        "a": [
+          "The inscribed circle has diameter 14 cm, so radius 7 cm.",
+          "Area of square = 196 cm². Area of circle = (22/7) × 49 = 154 cm².",
+          "Required area = 196 − 154 = 42 cm²."
+        ],
+        "t": "L"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Areas Related to Circles”. Their note says: Sector. The region between two radii and the arc joining their endpoints. The angle at the centre is θ.\n\nThe chapter is described as: Sectors, segments and combined figures..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -327,6 +374,28 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) Arc = (120/360) × 2 × (22/7) × 21 = (1/3) × 132 = 44 cm.",
           "(c) Perimeter of a sector is 2r + arc, not just the arc. Missing the two radii is the most common error here."
+        ]
+      },
+      {
+        "m": "4",
+        "q": "Two circles touch externally. The sum of their areas is 130π cm² and the distance between their centres is 14 cm. Find their radii.",
+        "a": [
+          "Let the radii be r₁ and r₂. Since they touch externally, r₁ + r₂ = 14.",
+          "πr₁² + πr₂² = 130π ⇒ r₁² + r₂² = 130.",
+          "(r₁ + r₂)² = r₁² + r₂² + 2r₁r₂ ⇒ 196 = 130 + 2r₁r₂ ⇒ r₁r₂ = 33.",
+          "So r₁ and r₂ are roots of t² − 14t + 33 = 0, giving 11 cm and 3 cm."
+        ],
+        "t": "A"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Areas Related to Circles” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Sector. The region between two radii and the arc joining their endpoints. The angle at the centre is θ.",
+          "Marks lens: Part of the 10-mark Mensuration unit, roughly 4–5 marks.",
+          "Method / memory trick: Perimeter of a sector is 2r + arc, not just the arc. Missing the two radii is the most common error here.",
+          "Do not: Forgetting to add the two radii to the perimeter of a sector."
         ]
       }
     ],
@@ -350,6 +419,18 @@
       {
         "q": "A 3-mark answer on “Areas Related to Circles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The area of a circle whose circumference is 44 cm is: (a) 77 cm²  (b) 154 cm²  (c) 308 cm²  (d) 616 cm²",
+        "a": "**(b) 154 cm².** 2πr = 44 gives r = 7 cm, so the area is πr² = 154 cm²."
+      },
+      {
+        "q": "If the radius of a circle is doubled, its area becomes: (a) 2 times  (b) 4 times  (c) 8 times  (d) unchanged",
+        "a": "**(b) 4 times.** Area ∝ r², so doubling r multiplies the area by 2² = 4."
+      },
+      {
+        "q": "The area of a semicircle of radius r is: (a) πr²  (b) πr²/2  (c) 2πr  (d) πr²/4",
+        "a": "**(b) πr²/2.** A semicircle is half of a full circle."
       }
     ],
     "trend": "One sector perimeter/area question and one combined-figure question. Quadrant corners cut from a square is the classic combined figure.",
@@ -360,6 +441,12 @@
     ],
     "task": [
       "Cut four identical quadrants from the corners of a square card and lay them together — they form exactly one full circle when the radius is half the side."
+    ],
+    "steps": [
+      "1. List the **radius or diameter** first, then decide what the question is asking for — circumference, area of a circle, length of an arc, area of a sector, or area of a segment.",
+      "2. Use the angle at the centre: **arc length = (θ/360°) × 2πr** and **area of sector = (θ/360°) × πr²**.",
+      "3. For a **segment**, subtract the triangle from the sector: minor segment = sector − triangle, and for θ = 60°, 90° or 120° the triangle part is usually found by ½r² sin θ or by the standard values.",
+      "4. For combined figures, **add or subtract whole shapes** and never add a part twice. Keep π as 22/7 only when the radius is a multiple of 7, otherwise use 3.14, and state the unit as cm or cm²."
     ]
   },
   {
@@ -456,6 +543,12 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "Find the total surface area of a solid hemisphere of radius 7 cm (π = 22/7).",
+        "a": "Total surface area of a solid hemisphere = 3πr² = 3 × (22/7) × 49 = 462 cm² (curved 308 + flat circular face 154).",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "A solid consists of a cylinder with a hemisphere on one end and a cone on the other, all of radius 7 cm. The cylinder is 20 cm high, the cone 12 cm high. Find the total surface area (take π = 22/7).",
         "a": [
@@ -473,6 +566,35 @@
           "Volume of sphere = volume of cylinder.",
           "(4/3)π(4.2)³ = π(6)²h.",
           "h = (4 × 74.088)/(3 × 36) = 296.352/108 ≈ 2.74 cm."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Surface Areas and Volumes” (Combinations of solids, conversion of solids, and the frustum.). A classmate lost marks by doing this: Including the joining face in the total surface area. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Hemisphere on top of a cuboid or cylinder: the flat circular base of the hemisphere is *not* part of the outer surface. Use only its curved area, 2πr².",
+          "Why the mistake costs marks: Including the joining face in the total surface area.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Surface Areas and Volumes”: “A solid consists of a cylinder with a hemisphere on one end and a cone on the other, all of radius 7 cm. The cylinder is 20 cm high, the cone 12 cm high. Find the total surface area (take π = 22/7).” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Combinations of solids, conversion of solids, and the frustum..",
+          "Cylinder CSA = 2 × (22/7) × 7 × 20 = 880 cm². Hemisphere CSA = 2 × (22/7) × 49 = 308 cm². Cone slant height l = √(7² + 12²) = √193 ≈ 13.89 cm, so cone CSA = (22/7) × 7 × 13.89 ≈ 305.6 cm². Total ≈ 880 + 308 + 305.6 = 1493.6 cm². The two circular joining faces are not counted."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "A cylindrical bucket 32 cm high with base radius 18 cm is emptied to form a conical heap of sand 24 cm high. Find the radius of the heap.",
+        "a": [
+          "Volumes are equal: π(18)²(32) = (1/3)πr²(24).",
+          "⇒ 324 × 32 = 8r² ⇒ r² = 10368/8 = 1296.",
+          "So r = 36 cm. (The height of the heap is ¼ of the cylinder’s, but the radius works out larger.)"
         ],
         "t": "S"
       },
@@ -495,25 +617,6 @@
         "t": "L"
       },
       {
-        "t": "A",
-        "m": "3",
-        "q": "Riya is revising “Surface Areas and Volumes” (Combinations of solids, conversion of solids, and the frustum.). A classmate lost marks by doing this: Including the joining face in the total surface area. Apply the correct method and rewrite the scoring answer.",
-        "a": [
-          "Correct method: Hemisphere on top of a cuboid or cylinder: the flat circular base of the hemisphere is *not* part of the outer surface. Use only its curved area, 2πr².",
-          "Why the mistake costs marks: Including the joining face in the total surface area.",
-          "Write the definition or formula first, then the working or example."
-        ]
-      },
-      {
-        "t": "A",
-        "m": "3",
-        "q": "Amit is given this exam-style task from “Surface Areas and Volumes”: “A solid consists of a cylinder with a hemisphere on one end and a cone on the other, all of radius 7 cm. The cylinder is 20 cm high, the cone 12 cm high. Find the total surface area (take π = 22/7).” Treat it as an application question. Identify the idea, then write the working in points.",
-        "a": [
-          "Idea: Combinations of solids, conversion of solids, and the frustum..",
-          "Cylinder CSA = 2 × (22/7) × 7 × 20 = 880 cm². Hemisphere CSA = 2 × (22/7) × 49 = 308 cm². Cone slant height l = √(7² + 12²) = √193 ≈ 13.89 cm, so cone CSA = (22/7) × 7 × 13.89 ≈ 305.6 cm². Total ≈ 880 + 308 + 305.6 = 1493.6 cm². The two circular joining faces are not counted."
-        ]
-      },
-      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Surface Areas and Volumes”. Their note says: Combinations of solids. A solid made of two or more basic solids. Total surface area = sum of the *curved/lateral* surface areas actually exposed. Where two solids join, the joining face is not part of the outer surface.\n\nThe chapter is described as: Combinations of solids, conversion of solids, and the frustum..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -532,6 +635,16 @@
           "(b) Cylinder CSA = 2 × (22/7) × 7 × 20 = 880 cm². Hemisphere CSA = 2 × (22/7) × 49 = 308 cm². Cone slant height l = √(7² + 12²) = √193 ≈ 13.89 cm, so cone CSA = (22/7) × 7 × 13.89 ≈ 305.6 cm². Total ≈ 880 + 308 + 305.6 = 1493.6 cm². The two circular joining faces are not counted.",
           "(c) Hemisphere on top of a cuboid or cylinder: the flat circular base of the hemisphere is *not* part of the outer surface. Use only its curved area, 2πr²."
         ]
+      },
+      {
+        "m": "4",
+        "q": "A drinking glass is shaped like a frustum of a cone with height 14 cm and end diameters 4 cm and 2 cm. Find its capacity.",
+        "a": [
+          "R = 2 cm, r = 1 cm, h = 14 cm.",
+          "Volume = (πh/3)(R² + r² + Rr) = (π × 14/3)(4 + 1 + 2) = (14π/3)(7).",
+          "= 98π/3 = (98/3)(22/7) = 308/3 ≈ 102.7 cm³."
+        ],
+        "t": "A"
       }
     ],
     "mcq": [
@@ -554,6 +667,18 @@
       {
         "q": "A 3-mark answer on “Surface Areas and Volumes” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The curved surface area of a cylinder of radius r and height h is: (a) 2πrh  (b) πr²h  (c) 2πr(r + h)  (d) πrl",
+        "a": "**(a) 2πrh.** 2πr(r + h) is the total surface area and πr²h is the volume."
+      },
+      {
+        "q": "The volume of a sphere of radius r is: (a) (4/3)πr³  (b) 4πr²  (c) (2/3)πr³  (d) πr³",
+        "a": "**(a) (4/3)πr³.** 4πr² is the surface area of the sphere."
+      },
+      {
+        "q": "A cone, a hemisphere and a cylinder have equal bases and equal heights. The ratio of their volumes is: (a) 1 : 2 : 3  (b) 2 : 3 : 1  (c) 3 : 1 : 2  (d) 1 : 3 : 2",
+        "a": "**(a) 1 : 2 : 3.** With radius = height = r: πr³/3 : 2πr³/3 : πr³."
       }
     ],
     "trend": "One combination-of-solids surface area question and one conversion or frustum question appear most years. The frustum has been asked repeatedly since it was retained in the syllabus.",

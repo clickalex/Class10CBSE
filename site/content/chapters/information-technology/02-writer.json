@@ -51,37 +51,16 @@
         "a": "A Styles-window tool that copies the selected style onto each paragraph (or object) you click, like a format paintbrush."
       },
       {
-        "t": "L",
-        "m": "4",
-        "q": "Why should a long report use styles instead of manual formatting?",
-        "a": "One change updates every heading; ToC can be generated; the look stays consistent; less chance of mixed fonts; templates become reusable."
+        "m": "2",
+        "q": "Why are styles better than formatting each heading by hand?",
+        "a": "A style stores the whole set of formatting — font, size, spacing, alignment — in one named item. Change the style once and every paragraph using it changes, the document stays consistent, and headings styled with Heading 1, 2 and 3 can be collected automatically into a table of contents.",
+        "t": "S"
       },
       {
         "t": "A",
         "m": "3",
         "q": "A 20-page report uses Bold 16 pt for titles. The examiner wants Heading 1 in navy. What should the student do instead of selecting each title?",
         "a": "Create or modify **Heading 1** (navy, size, spacing), then Fill Format / select each title and apply Heading 1. Later, one modify updates all."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nNeha’s ToC is empty even though titles look big and bold.\n\n(a) Why?\n(b) Steps to fix it.\n(c) How will this help next time she changes the colour of all headings?",
-        "a": [
-          "(a) Titles used direct formatting, not Heading styles.",
-          "(b) Apply Heading 1/2, then Insert → Table of Contents.",
-          "(c) Modify Heading 1 once — every heading and the ToC pick up the new colour."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Introduction to Styles (Writer)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "A style is a named collection of formatting. Change the style once, every place it is used updates.",
-          "Marks lens: Theory asks types of styles and why styles beat manual formatting.",
-          "Method / memory trick: Headings must use Heading styles, not just Bold 16 pt — otherwise ToC will be empty.",
-          "Do not: Building a ToC from manually bolded text."
-        ]
       },
       {
         "t": "A",
@@ -94,6 +73,33 @@
         ]
       },
       {
+        "m": "3",
+        "q": "Describe how to create and then apply a paragraph style in LibreOffice Writer.",
+        "a": [
+          "Format one paragraph exactly as you want it, then open the Styles window with F11 and click the New Style from Selection button.",
+          "Give the style a name such as ‘MyBodyText' and click OK.",
+          "To apply it, click anywhere in the paragraph you want to change and double-click the style name under Paragraph Styles.",
+          "To change the whole document, right-click the style, choose Modify and set the font, size and spacing once."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Why should a long report use styles instead of manual formatting?",
+        "a": "One change updates every heading; ToC can be generated; the look stays consistent; less chance of mixed fonts; templates become reusable."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nNeha’s ToC is empty even though titles look big and bold.\n\n(a) Why?\n(b) Steps to fix it.\n(c) How will this help next time she changes the colour of all headings?",
+        "a": [
+          "(a) Titles used direct formatting, not Heading styles.",
+          "(b) Apply Heading 1/2, then Insert → Table of Contents.",
+          "(c) Modify Heading 1 once — every heading and the ToC pick up the new colour."
+        ]
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Introduction to Styles (Writer)”. Their note says: A style is a named collection of formatting. Change the style once, every place it is used updates.\n\nThe chapter is described as: Page, paragraph, character, frame, list and table styles in LibreOffice Writer..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -101,6 +107,17 @@
           "(a) Page, paragraph, character, frame, list and table styles in LibreOffice Writer.",
           "(b) Theory asks types of styles and why styles beat manual formatting.",
           "(c) Building a ToC from manually bolded text."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Introduction to Styles (Writer)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "A style is a named collection of formatting. Change the style once, every place it is used updates.",
+          "Marks lens: Theory asks types of styles and why styles beat manual formatting.",
+          "Method / memory trick: Headings must use Heading styles, not just Bold 16 pt — otherwise ToC will be empty.",
+          "Do not: Building a ToC from manually bolded text."
         ]
       }
     ],
@@ -128,6 +145,14 @@
       {
         "q": "A 3-mark answer on “Introduction to Styles (Writer)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The Styles window in Writer is opened with: (a) F11  (b) Ctrl + S  (c) F7  (d) Ctrl + P",
+        "a": "**(a) F11.** F7 opens the spell-check and Ctrl + S saves the document."
+      },
+      {
+        "q": "Heading 1, Heading 2 and Heading 3 are examples of: (a) paragraph styles  (b) character styles  (c) page styles  (d) frame styles",
+        "a": "**(a) paragraph styles.** They format a whole paragraph and are used to build a table of contents."
       }
     ],
     "trend": "Types of styles + advantage of styles; practical is Heading styles + Fill Format.",
@@ -141,7 +166,12 @@
       "Type a 1-page note with Title, two Heading 1, three Heading 2. Create a custom paragraph style `ExamPoint` (11 pt, 0.5 cm indent) and apply it to body text."
     ],
     "visual": [],
-    "formulas": []
+    "formulas": [
+      "Style hierarchy: Heading 1 → Heading 2 → Heading 3 → Body Text",
+      "**F11** opens the Styles and Formatting window",
+      "Modify a style once → every paragraph using it changes",
+      "A style carries font, size, colour, alignment, spacing and outline level together"
+    ]
   },
   {
     "id": "ch07-writer-images",
@@ -186,7 +216,7 @@
         "t": "S",
         "m": "2",
         "q": "Name any four text-wrapping options in Writer.",
-        "a": "None, Before, After, Parallel, Optimal, Through, In Background (any four)."
+        "a": "Writer offers these wrap options: **None, Before, After, Parallel, Optimal, Through** and **In Background** (any four). **Optimal** is the default — text flows around the object; **Through** lets text pass over it; **In Background** turns the picture into a watermark that sits behind the text. Choose **Optimal** for a report and **In Background** for a letterhead logo."
       },
       {
         "t": "S",
@@ -195,37 +225,16 @@
         "a": "It joins selected drawing objects so they move, resize and copy as a single object."
       },
       {
-        "t": "L",
-        "m": "4",
-        "q": "Explain anchoring of images in Writer.",
-        "a": "Anchor decides what the image sticks to: **To Paragraph** (moves with the para), **To Character**, **As Character** (in the text line), **To Page** (fixed on that page). Choose To Paragraph + Optimal wrap for reports."
+        "m": "2",
+        "q": "What is text wrapping and when is it useful?",
+        "a": "Wrapping decides how text flows around a picture. It is useful when a small picture has to sit inside a paragraph: the text runs beside or around the image instead of leaving a large empty space above and below it, so the page looks filled and balanced.",
+        "t": "S"
       },
       {
         "t": "A",
         "m": "3",
         "q": "An image covers the heading of a report. Which two settings would you change first?",
         "a": "Wrap (Optimal or After) and arrangement (Send to Back) or move the anchor to the correct paragraph."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nA student’s picture sits in a huge white box and the caption is not numbered.\n\n(a) Two likely causes.\n(b) Steps to insert a proper Figure caption.\n(c) Why captions help in a long file.",
-        "a": [
-          "(a) Wrap = None; image as a huge As-Character object; no Insert Caption used.",
-          "(b) Right-click → Insert Caption → category Figure → type the title.",
-          "(c) Auto numbering and a Table of Figures."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Working with Images (Writer)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Insert image: Insert → Image, or drag from a folder, or copy-paste. Keep a copy of the picture with the file if you must move the document.",
-          "Marks lens: Expect “how to wrap an image” and “difference between anchor types”.",
-          "Method / memory trick: If text jumps wildly, the image is probably As Character — change wrap and anchor.",
-          "Do not: Stretching a photo so faces look wide — hold Shift or lock ratio."
-        ]
       },
       {
         "t": "A",
@@ -238,6 +247,33 @@
         ]
       },
       {
+        "m": "3",
+        "q": "List the steps to insert an image and set its position in a Writer document.",
+        "a": [
+          "Click where the picture should go and choose Insert → Image, then select the file and click Open.",
+          "Right-click the picture, choose Wrap and pick the style you need — Optimal, Before, After or Through.",
+          "Use Format → Image → Properties to set the size, the position, the cropping and whether the image is anchored to the page, the paragraph or the character.",
+          "Drag the picture to its place and, if you have several drawing objects, select them and choose Format → Group so that they move together."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain anchoring of images in Writer.",
+        "a": "Anchor decides what the image sticks to: **To Paragraph** (moves with the para), **To Character**, **As Character** (in the text line), **To Page** (fixed on that page). Choose To Paragraph + Optimal wrap for reports."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA student’s picture sits in a huge white box and the caption is not numbered.\n\n(a) Two likely causes.\n(b) Steps to insert a proper Figure caption.\n(c) Why captions help in a long file.",
+        "a": [
+          "(a) Wrap = None; image as a huge As-Character object; no Insert Caption used.",
+          "(b) Right-click → Insert Caption → category Figure → type the title.",
+          "(c) Auto numbering and a Table of Figures."
+        ]
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Working with Images (Writer)”. Their note says: Insert image: Insert → Image, or drag from a folder, or copy-paste. Keep a copy of the picture with the file if you must move the document.\n\nThe chapter is described as: Insert, wrap, arrange, drawing objects, grouping and captions..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -245,6 +281,17 @@
           "(a) Insert, wrap, arrange, drawing objects, grouping and captions.",
           "(b) Expect “how to wrap an image” and “difference between anchor types”.",
           "(c) Stretching a photo so faces look wide — hold Shift or lock ratio."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Working with Images (Writer)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Insert image: Insert → Image, or drag from a folder, or copy-paste. Keep a copy of the picture with the file if you must move the document.",
+          "Marks lens: Expect “how to wrap an image” and “difference between anchor types”.",
+          "Method / memory trick: If text jumps wildly, the image is probably As Character — change wrap and anchor.",
+          "Do not: Stretching a photo so faces look wide — hold Shift or lock ratio."
         ]
       }
     ],
@@ -272,6 +319,14 @@
       {
         "q": "A 3-mark answer on “Working with Images (Writer)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "To make two drawing objects move together you should: (a) group them  (b) crop them  (c) wrap them  (d) delete one of them",
+        "a": "**(a) group them.** Grouping treats the objects as one; ungrouping reverses it."
+      },
+      {
+        "q": "The tool used to remove unwanted parts of a picture is the: (a) Crop tool  (b) Wrap tool  (c) Rotate tool  (d) Fill tool",
+        "a": "**(a) Crop tool.** Cropping cuts the picture without changing the rest of the page."
       }
     ],
     "trend": "Wrap + anchor, or steps to insert and caption an image.",
@@ -285,7 +340,12 @@
       "Insert a school-building photo, wrap Optimal, caption it Figure 1, and draw a labelled arrow to the main gate; group the arrow and label."
     ],
     "visual": [],
-    "formulas": []
+    "formulas": [
+      "Anchor as character = the picture moves with the text; anchor to page/paragraph = it stays put",
+      "Wrap options: None · Before/After · Page · Optimal · Through · In background",
+      "Crop trims the picture; the original file on disk stays unchanged until you compress it",
+      "Keep the **aspect ratio** locked while resizing, or the picture looks stretched"
+    ]
   },
   {
     "id": "ch08-writer-toc-templates",
@@ -337,37 +397,16 @@
         "a": "A model file (`.ott`) that stores styles, headers and boilerplate so new documents start consistent."
       },
       {
-        "t": "L",
-        "m": "4",
-        "q": "Explain mail merge and its advantages.",
-        "a": "Mail merge combines a main document with a data source to produce personalised letters. Advantages: speed, accuracy of names, one design for many copies, labels/envelopes."
+        "m": "2",
+        "q": "How is a table of contents generated automatically in Writer?",
+        "a": "Apply the Heading 1, Heading 2 and Heading 3 styles to the headings, then choose Insert → Table of Contents and Index → Table of Contents, Index or Bibliography. Writer collects the styled headings with their page numbers; after further edits, refresh it with Tools → Update → Update All.",
+        "t": "S"
       },
       {
         "t": "A",
         "m": "3",
         "q": "A teacher wants 40 identical permission letters with only the parent name changing. Which Writer feature, and what two files does she need?",
         "a": "Mail merge. She needs the main letter and a data source (Calc column `ParentName`)."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nTwo students edit `report.odt`. One deletes a paragraph; the other does not know what changed.\n\n(a) Which tool should have been on?\n(b) How do they accept only some edits?\n(c) When would a Comment be better than changing the text?",
-        "a": [
-          "(a) Track Changes → Record.",
-          "(b) Review each change → Accept or Reject.",
-          "(c) When suggesting, not rewriting — e.g. “please add the figure here”."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “ToC, Templates and Track Changes” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Table of Contents: apply Heading 1/2/3 → Insert → Table of Contents and Index → Table of Contents. Update with right-click → Update Index after edits.",
-          "Marks lens: ToC steps and Track Changes on/off are asked every year.",
-          "Method / memory trick: Empty ToC ⇒ headings are not Heading styles.",
-          "Do not: Saving a template as .odt instead of .ott."
-        ]
       },
       {
         "t": "A",
@@ -380,6 +419,32 @@
         ]
       },
       {
+        "m": "3",
+        "q": "Explain what track changes and comments do, and when you would use each.",
+        "a": [
+          "Track Changes (Edit → Track Changes → Record) marks every insertion and deletion so that a reader can see exactly what has been altered and accept or reject each change from Edit → Track Changes → Manage.",
+          "Comments (Insert → Comment) let a reviewer write a note or a question beside the text without changing the text itself.",
+          "Use track changes when several people are editing one document, and comments when you want to suggest an idea or ask a question."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain mail merge and its advantages.",
+        "a": "Mail merge combines a main document with a data source to produce personalised letters. Advantages: speed, accuracy of names, one design for many copies, labels/envelopes."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students edit `report.odt`. One deletes a paragraph; the other does not know what changed.\n\n(a) Which tool should have been on?\n(b) How do they accept only some edits?\n(c) When would a Comment be better than changing the text?",
+        "a": [
+          "(a) Track Changes → Record.",
+          "(b) Review each change → Accept or Reject.",
+          "(c) When suggesting, not rewriting — e.g. “please add the figure here”."
+        ]
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “ToC, Templates and Track Changes”. Their note says: Table of Contents: apply Heading 1/2/3 → Insert → Table of Contents and Index → Table of Contents. Update with right-click → Update Index after edits.\n\nThe chapter is described as: Table of Contents, templates, track changes, comments and mail merge..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -387,6 +452,17 @@
           "(a) Table of Contents, templates, track changes, comments and mail merge.",
           "(b) ToC steps and Track Changes on/off are asked every year.",
           "(c) Saving a template as .odt instead of .ott."
+        ]
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “ToC, Templates and Track Changes” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Table of Contents: apply Heading 1/2/3 → Insert → Table of Contents and Index → Table of Contents. Update with right-click → Update Index after edits.",
+          "Marks lens: ToC steps and Track Changes on/off are asked every year.",
+          "Method / memory trick: Empty ToC ⇒ headings are not Heading styles.",
+          "Do not: Saving a template as .odt instead of .ott."
         ]
       }
     ],
@@ -414,6 +490,14 @@
       {
         "q": "A 3-mark answer on “ToC, Templates and Track Changes” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "A template is: (a) a ready-made document with styles, margins and layout already set  (b) a picture  (c) a macro  (d) a printer setting",
+        "a": "**(a) a ready-made document with styles, margins and layout already set.** Saving a template saves time on every similar document."
+      },
+      {
+        "q": "Recorded changes are accepted or rejected from: (a) Edit → Track Changes → Manage  (b) File → Save  (c) Insert → Comment  (d) View → Zoom",
+        "a": "**(a) Edit → Track Changes → Manage.** The Manage dialog lists every change with its author and time."
       }
     ],
     "trend": "ToC steps, template definition, or mail-merge advantages.",
@@ -427,6 +511,11 @@
       "Create a 2-page notes file with headings, insert a ToC on page 1, turn on Track Changes, and make two dummy edits."
     ],
     "visual": [],
-    "formulas": []
+    "formulas": [
+      "A table of contents is generated from **heading styles** — plain bold text will not appear in it",
+      "Update a ToC: right-click → Update Index/Table (**F9** in some builds)",
+      "Template: `.ott` — a document that carries styles and layout but not your content",
+      "Track Changes shows edits; **Comments** hold questions; Accept/Reject closes them"
+    ]
   }
 ]

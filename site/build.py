@@ -96,27 +96,140 @@ def blocks(items) -> str:
 
 
 # --------------------------------------------------------------------------
-# page shell
+# page shell: sidebar navigation (drawer) + credit footer
 # --------------------------------------------------------------------------
-def page(title, crumbs, body, root="..", subject=None):
+# The pages every subject hub owns, in the order they are meant to be used.
+# `key` is what a page passes as `active=` so the sidebar can show where you are.
+SECTIONS = (
+    ("hub", "Hub", "index.html"),
+    ("chapters", "Chapters", "chapters.html"),
+    ("syllabus", "Syllabus", "syllabus.html"),
+    ("bank", "Q&A bank", "question-bank.html"),
+    ("drill", "MCQ drill", "drill.html"),
+    ("revision", "Revision", "revision.html"),
+    ("pyq", "PYQ", "pyq.html"),
+    ("practical", "Practical", "practical.html"),
+)
+
+CREDIT = "Mohammad Umair"
+
+# Filled in by build() so every page can render the same subject switcher.
+NAV_SUBJECTS: list = []
+NAV_PENDING: set = set()
+
+
+def href_to(root, path):
+    """A link that works from any page depth."""
+    return path if root == "." else f"{root}/{path}"
+
+
+def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
+    """The navigation drawer: all subjects, then this subject's pages and chapters.
+
+    Modelled on the AI-Course book sidebar - a grouped table of contents that
+    is always on screen on a desktop and slides in behind a ☰ button on a phone.
+    """
+    home = href_to(root, "index.html")
+    bits = [
+        '<div class="side-head">'
+        f'<a class="brand" href="{home}">Class&nbsp;10&nbsp;<span>CBSE</span></a>'
+        f'<p class="side-sub">Session {SESSION}</p>'
+        '<button class="side-close" onclick="closeMenu()" aria-label="Close navigation">&times;</button>'
+        "</div>"
+    ]
+
+    if subject and chapters is not None:
+        bits.append(
+            '<div class="progress-wrap">'
+            '<div class="progress-label"><span>Chapters done</span>'
+            f'<span data-subject-text="{html.escape(subject)}" data-total="{len(chapters)}">'
+            f"0 of {len(chapters)}</span></div>"
+            '<div class="bar"><span class="fill" '
+            f'data-subject="{html.escape(subject)}" data-total="{len(chapters)}"></span></div>'
+            "</div>"
+        )
+
+    bits.append('<div class="toc-group">All subjects</div>')
+    for s in NAV_SUBJECTS:
+        if s["slug"] in NAV_PENDING:
+            bits.append(
+                f'<span class="toc-item is-off"><span class="toc-num">&middot;</span>'
+                f'{html.escape(s["title"])} <em>in progress</em></span>'
+            )
+            continue
+        on = " is-on" if s["slug"] == subject else ""
+        code = html.escape(str(s.get("code", "")).split("/")[0].strip())
+        bits.append(
+            f'<a class="toc-item{on}" href="{href_to(root, s["slug"] + "/index.html")}">'
+            f'<span class="toc-num">{code}</span>{html.escape(s["title"])}</a>'
+        )
+
+    if subject:
+        subj = next((s for s in NAV_SUBJECTS if s["slug"] == subject), None)
+        title = subj["title"] if subj else subject.title()
+        bits.append(f'<div class="toc-group">{html.escape(title)}</div>')
+        for key, label, fn in SECTIONS:
+            on = " is-on" if active == key else ""
+            cur = ' aria-current="page"' if active == key else ""
+            bits.append(
+                f'<a class="toc-item{on}" href="{href_to(root, f"{subject}/{fn}")}"{cur}>'
+                f'<span class="toc-num">&bull;</span>{html.escape(label)}</a>'
+            )
+
+        if chapters is not None and subj:
+            bits.append('<div class="toc-group">Chapters</div>')
+            for unit in subj["units"]:
+                chs = [c for c in chapters if c.get("unit") == unit["id"]]
+                if not chs:
+                    continue
+                bits.append(
+                    f'<div class="toc-sub">{html.escape(unit["title"])}</div>'
+                )
+                for c in chs:
+                    on = " is-on" if c["id"] == chapter_id else ""
+                    cur = ' aria-current="page"' if c["id"] == chapter_id else ""
+                    url = href_to(root, subject + "/chapters/" + c["id"] + ".html")
+                    bits.append(
+                        f'<a class="toc-item toc-ch{on}" href="{url}"{cur}>'
+                        f'<span class="toc-num">{c["num"]}</span>'
+                        f'{html.escape(c["title"])}</a>'
+                    )
+
+    bits.append(
+        '<div class="sidebar-foot">Progress is saved in this browser.<br>'
+        f'Created by <strong>{html.escape(CREDIT)}</strong></div>'
+    )
+    return "\n".join(bits)
+
+
+def footer(root):
+    subj_links = " ".join(
+        f'<a href="{href_to(root, s["slug"] + "/index.html")}">{html.escape(s["title"])}</a>'
+        if s["slug"] not in NAV_PENDING
+        else f'<span class="foot-off">{html.escape(s["title"])}</span>'
+        for s in NAV_SUBJECTS
+    )
+    return (
+        '<div class="foot-main">'
+        f"<p>Built for CBSE Class 10 &middot; session {SESSION} &middot; content is original study material,\n"
+        "  not official CBSE papers. Always confirm the syllabus against\n"
+        '  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>'
+        + (
+            f'<nav class="foot-subj" aria-label="All subjects">{subj_links}</nav>'
+            if subj_links
+            else ""
+        )
+        + f'<p class="credit">Created by <strong>{html.escape(CREDIT)}</strong></p>'
+        + "</div>"
+    )
+
+
+def page(title, crumbs, body, root="..", subject=None, active=None,
+         chapters=None, chapter_id=None):
     crumb_html = ' <span class="sep">/</span> '.join(
         f'<a href="{url}">{html.escape(label)}</a>' if url else html.escape(label)
         for label, url in crumbs
     )
-    home_url = f"{root}/index.html" if root != "." else "index.html"
-    nav_extra = ""
-    if subject:
-        nav_extra = (
-            f'<a href="{root}/index.html">All subjects</a>'
-            f'<a href="{root}/{subject}/index.html">Hub</a>'
-            f'<a href="{root}/{subject}/syllabus.html">Syllabus</a>'
-            f'<a href="{root}/{subject}/revision.html">Revise</a>'
-            f'<a href="{root}/{subject}/question-bank.html">Bank</a>'
-            f'<a href="{root}/{subject}/drill.html">Drill</a>'
-            f'<a href="{root}/{subject}/pyq.html">PYQ</a>'
-        )
-    else:
-        nav_extra = '<a href="index.html">All subjects</a>'
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -128,20 +241,19 @@ def page(title, crumbs, body, root="..", subject=None):
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="topbar">
-  <div class="wrap topbar-in">
-    <a class="brand" href="{home_url}">Class&nbsp;10&nbsp;<span>CBSE</span></a>
-    <nav class="topnav">{nav_extra}</nav>
-  </div>
-</header>
-<main id="main" class="wrap">
-  <nav class="crumbs">{crumb_html}</nav>
+<button class="menu-btn" onclick="openMenu()" aria-label="Open navigation">&#9776;</button>
+<div class="backdrop" id="backdrop" onclick="closeMenu()"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+{sidebar(root, subject, active, chapters, chapter_id)}
+  </aside>
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb">{crumb_html}</nav>
 {body}
-</main>
+  </main>
+</div>
 <footer class="wrap foot">
-  <p>Built for CBSE Class 10 \u00b7 session {SESSION} \u00b7 content is original study material,
-  not official CBSE papers. Always confirm the syllabus against
-  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+  {footer(root)}
   <button class="totop" onclick="scrollTo({{top:0,behavior:'smooth'}})">\u2191 Top</button>
 </footer>
 <script src="{root}/assets/app.js"></script>
@@ -273,6 +385,31 @@ def count_types(qa, mcq=None):
     return n
 
 
+def chapter_nav(chapters, ch, href_of, index_href, index_label="All chapters"):
+    """Previous / index / next links so a chapter is never a dead end."""
+    i = next((k for k, c in enumerate(chapters) if c["id"] == ch["id"]), None)
+    if i is None:
+        return ""
+
+    def side(offset, cls, tag):
+        j = i + offset
+        if not (0 <= j < len(chapters)):
+            return f'<span class="chapnav-b is-off">{html.escape(tag)}</span>'
+        c = chapters[j]
+        return (
+            f'<a class="{cls}" href="{href_of(c)}"><span>{html.escape(tag)}</span>'
+            f'Ch {c["num"]} \u00b7 {html.escape(c["title"])}</a>'
+        )
+
+    return (
+        '<nav class="chapnav" aria-label="Chapter navigation">'
+        + side(-1, "chapnav-prev", "\u2190 Previous")
+        + f'<a class="chapnav-index" href="{index_href}">{html.escape(index_label)}</a>'
+        + side(1, "chapnav-next", "Next \u2192")
+        + "</nav>"
+    )
+
+
 # --------------------------------------------------------------------------
 # loaders
 # --------------------------------------------------------------------------
@@ -316,7 +453,57 @@ def write(path: Path, text: str):
 # --------------------------------------------------------------------------
 # chapter page
 # --------------------------------------------------------------------------
-def chapter_body(subj, ch, idx, total):
+def chapters_body(subj, chapters):
+    """One page listing every chapter, so there is a single obvious index."""
+    total_qa = sum(len(c.get("qa") or []) for c in chapters)
+    total_mcq = sum(len(c.get("mcq") or []) for c in chapters)
+    dot = "\u00b7"
+    chips = " ".join(
+        '<a class="chip" href="#{}">{}</a>'.format(
+            u["slug"], html.escape(u["title"].split(dot)[-1].strip()))
+        for u in subj["units"]
+        if any(c.get("unit") == u["id"] for c in chapters)
+    )
+    secs = []
+    for unit in subj["units"]:
+        chs = [c for c in chapters if c.get("unit") == unit["id"]]
+        if not chs:
+            continue
+        rows = "".join(
+            f'<tr><td>{c["num"]}</td>'
+            f'<td><a href="chapters/{c["id"]}.html">{html.escape(c["title"])}</a>'
+            f'<span class="rowsub">{inline(c.get("short", ""))}</span></td>'
+            f'<td>{html.escape(c.get("weight", ""))}</td>'
+            f'<td>{len(c.get("qa") or [])}</td>'
+            f'<td>{len(c.get("mcq") or [])}</td>'
+            f'<td><a class="more" href="practice/{c["id"]}.html">Practise \u2192</a></td></tr>'
+            for c in chs
+        )
+        star = ' <span class="star">\u2b50</span>' if unit.get("priority") else ""
+        secs.append(
+            f'<section id="{unit["slug"]}">'
+            f'<h3>{html.escape(unit["title"])}{star}'
+            f'<span class="unitmarks">{html.escape(unit.get("marks", ""))}</span></h3>'
+            f'<div class="tablewrap"><table><thead><tr><th>#</th><th>Chapter</th>'
+            f"<th>Weightage</th><th>Q&amp;A</th><th>MCQs</th><th>Practise</th></tr></thead>"
+            f"<tbody>{rows}</tbody></table></div></section>"
+        )
+    body = f"""
+<p class="kicker">{html.escape(subj["kicker"])}</p>
+<h1>{html.escape(subj["title"])} \u2014 all chapters</h1>
+<p class="lede">{len(chapters)} chapters in study order, with <strong>{total_qa} written Q&amp;As</strong>
+and <strong>{total_mcq} MCQs</strong>. Open a chapter to read it, or go straight to
+<em>Practise</em> for its questions with hidden answers.</p>
+<p class="chips">{chips}</p>
+{"".join(secs)}
+<p class="hint">Looking for unit-wise marks instead? See the
+<a href="syllabus.html">syllabus page</a>, or the
+<a href="index.html">subject hub</a> for the study cycle.</p>
+"""
+    return [("Home", "../index.html"), (subj["title"], "index.html"), ("Chapters", None)], body
+
+
+def chapter_body(subj, ch, idx, total, chapters):
     sid = subj["slug"]
     unit = next((u for u in subj["units"] if u["id"] == ch.get("unit")), None)
     unit_label = unit["title"] if unit else subj["title"]
@@ -413,6 +600,15 @@ def chapter_body(subj, ch, idx, total):
         f'<p><a href="../practice/{ch["id"]}.html">Practise this chapter\u2019s MCQs and '
         "written questions \u2192</a></p>"
         "</div>"
+    )
+    parts.append(
+        chapter_nav(
+            chapters,
+            ch,
+            lambda c: f"{c['id']}.html",
+            "../chapters.html",
+            f"All {subj['title']} chapters",
+        )
     )
 
     crumbs = [
@@ -661,7 +857,7 @@ def unit_body(subj, unit, chapters):
     return [("Home", "../../index.html"), (subj["title"], "../index.html"), (unit["title"], None)], body
 
 
-def practice_body(subj, ch):
+def practice_body(subj, ch, chapters):
     qa_items = ch.get("qa") or []
     mcq_items = ch.get("mcq") or []
     n = count_types(qa_items, mcq_items)
@@ -677,6 +873,8 @@ Short · Long · Application · Competency plus MCQs — the same tone as the IT
 <h2>Written questions · Write</h2>
 {render_qbank(qa_items)}
 <p><a class="btn" href="../chapters/{ch["id"]}.html">\u2190 Back to the chapter</a></p>
+{chapter_nav(chapters, ch, lambda c: c["id"] + ".html", "../chapters.html",
+               "All " + subj["title"] + " chapters")}
 """
     return [("Home", "../../index.html"), (subj["title"], "../index.html"),
             (f'Ch {ch["num"]} \u00b7 {ch["title"]}', f"../chapters/{ch['id']}.html"),
@@ -786,16 +984,32 @@ def not_found(base=BASE):
     <p>That page is not part of the Class 10 CBSE study hub. The chapter lists,
     revision sheets and question banks all start from the portal.</p>
     <p><a href="{base}/index.html">\u2190 Back to all subjects</a></p>
+    <p class="credit">Created by <strong>{CREDIT}</strong></p>
   </div>
 </body>
 </html>
 """
 
 
+def chapters_exist(sid) -> bool:
+    """True when chapter content has been authored for this subject."""
+    if (CONTENT / "chapters" / f"{sid}.json").exists():
+        return True
+    folder = CONTENT / "chapters" / sid
+    return folder.is_dir() and any(folder.glob("*.json"))
+
+
 def build(check_only=False):
     if DIST.resolve() == REPO.resolve():
         raise SystemExit("refusing to build: output directory is the repo root")
     subjects = load("subjects.json")
+
+    # Every page renders the same sidebar, so share the subject list and work
+    # out up front which subjects still have no content.
+    global NAV_SUBJECTS, NAV_PENDING
+    NAV_SUBJECTS = subjects
+    NAV_PENDING = {s["slug"] for s in subjects if not chapters_exist(s["slug"])}
+
     if DIST.exists():
         shutil.rmtree(DIST)
     DIST.mkdir(parents=True)
@@ -812,15 +1026,15 @@ def build(check_only=False):
 
     for subj in subjects:
         sid = subj["slug"]
-        try:
-            chapters = load_chapters(sid)
-        except FileNotFoundError:
+        if sid in NAV_PENDING:
             # No chapter content authored for this subject yet: keep the portal
             # honest instead of failing the whole build.
             counts[sid] = 0
             pending.append(sid)
             print(f"  skipped {sid}: no chapter content yet")
             continue
+
+        chapters = load_chapters(sid)
         counts[sid] = len(chapters)
 
         # Content sanity checks, so a typo cannot silently produce a broken hub.
@@ -840,42 +1054,50 @@ def build(check_only=False):
             if not ch.get("concepts"):
                 raise ValueError(f"{sid}/{ch['id']}: missing 'concepts'")
 
+        def out(path, title, crumbs, body, root, active=None, chapter_id=None):
+            write(path, page(title, crumbs, body, root, sid, active, chapters, chapter_id))
+
         crumbs, body = hub_body(subj, chapters)
-        write(DIST / sid / "index.html", page(f"{subj['title']} hub", crumbs, body, "..", sid))
+        out(DIST / sid / "index.html", f"{subj['title']} hub", crumbs, body, "..", "hub")
         written.append(f"{sid}/index.html")
 
-        for fn, fn_body in (
-            ("syllabus.html", syllabus_body),
-            ("revision.html", revision_body),
-            ("question-bank.html", question_bank_body),
-            ("drill.html", drill_body),
-            ("pyq.html", pyq_body),
+        for fn, fn_body, title, active in (
+            ("chapters.html", chapters_body, "All chapters", "chapters"),
+            ("syllabus.html", syllabus_body, "Syllabus", "syllabus"),
+            ("question-bank.html", question_bank_body, "Question bank", "bank"),
+            ("drill.html", drill_body, "MCQ drill", "drill"),
+            ("revision.html", revision_body, "Revision", "revision"),
+            ("pyq.html", pyq_body, "PYQ trends", "pyq"),
         ):
             crumbs, body = fn_body(subj, chapters)
-            write(DIST / sid / fn, page(fn.replace(".html", " ").title(), crumbs, body, "..", sid))
+            out(DIST / sid / fn, f"{subj['title']} \u2014 {title}", crumbs, body, "..", active)
             written.append(f"{sid}/{fn}")
 
         crumbs, body = practical_body(subj)
-        write(DIST / sid / "practical.html", page("Practical", crumbs, body, "..", sid))
+        out(DIST / sid / "practical.html", "Practical &amp; internal assessment",
+            crumbs, body, "..", "practical")
         written.append(f"{sid}/practical.html")
 
         for unit in subj["units"]:
             crumbs, body = unit_body(subj, unit, chapters)
-            write(DIST / sid / "units" / f"{unit['slug']}.html",
-                  page(unit["title"], crumbs, body, "../..", sid))
+            out(DIST / sid / "units" / f"{unit['slug']}.html", unit["title"],
+                crumbs, body, "../..", "chapters")
             written.append(f"{sid}/units/{unit['slug']}.html")
 
         for i, ch in enumerate(chapters, 1):
-            crumbs, body = chapter_body(subj, ch, i, len(chapters))
-            write(DIST / sid / "chapters" / f"{ch['id']}.html",
-                  page(f"Ch {ch['num']} \u00b7 {ch['title']}", crumbs, body, "../..", sid))
-            crumbs, body = practice_body(subj, ch)
-            write(DIST / sid / "practice" / f"{ch['id']}.html",
-                  page(f"Ch {ch['num']} practice", crumbs, body, "../..", sid))
+            crumbs, body = chapter_body(subj, ch, i, len(chapters), chapters)
+            out(DIST / sid / "chapters" / f"{ch['id']}.html",
+                f"Ch {ch['num']} \u00b7 {ch['title']}", crumbs, body, "../..", "chapters",
+                chapter_id=ch["id"])
+            crumbs, body = practice_body(subj, ch, chapters)
+            out(DIST / sid / "practice" / f"{ch['id']}.html",
+                f"Ch {ch['num']} \u00b7 {ch['title']} \u2014 practice", crumbs, body, "../..",
+                "chapters", chapter_id=ch["id"])
             written.append(f"{sid}/chapters/{ch['id']}.html")
+            written.append(f"{sid}/practice/{ch['id']}.html")
 
     crumbs, body = portal_body(subjects, counts, pending)
-    write(DIST / "index.html", page("Home", crumbs, body, "."))
+    write(DIST / "index.html", page("Home", crumbs, body, ".", None, "home"))
     written.append("index.html")
     return written, pending
 

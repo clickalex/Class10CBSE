@@ -69,6 +69,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "Prove that 5 − √3 is irrational.",
+        "a": "Assume 5 − √3 is rational and equals r. Then √3 = 5 − r, which is rational because it is the difference of two rationals. That contradicts the fact that √3 is irrational, so 5 − √3 must be irrational.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Prove that √3 is irrational.",
         "a": [
@@ -83,29 +89,8 @@
       {
         "m": "3",
         "q": "The HCF of 96 and 404 is 4. Find their LCM.",
-        "a": "HCF × LCM = product, so LCM = (96 × 404)/4 = 38784/4 = 9696.",
+        "a": "For any two positive integers, **HCF × LCM = product of the numbers**. So LCM = (96 × 404) ÷ 4 = 38784 ÷ 4 = **9696**. It is worth checking the result: 9696 ÷ 96 = 101 and 9696 ÷ 404 = 24, and 101 and 24 share no factor, so 9696 really is the least common multiple.",
         "t": "S"
-      },
-      {
-        "m": "4",
-        "q": "An army contingent of 616 members marches behind an army band of 32 members. Both groups must march in the same number of columns. What is the maximum number of columns?",
-        "a": [
-          "Maximum columns = HCF(616, 32).",
-          "616 = 2³ × 7 × 11 and 32 = 2⁵.",
-          "HCF = 2³ = 8, so the maximum is 8 columns."
-        ],
-        "t": "L"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Real Numbers” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Euclid’s Division Lemma. Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 ≤ r < b. It is the basis of the HCF algorithm: divide, then repeat with (b, r) until the remainder is 0. The last non-zero divisor is the HCF.",
-          "Marks lens: marks, always procedural. Expect one HCF/LCM word problem (2–3 marks), one irrationality proof (3 marks), and one terminating-decimal question (1 mark).",
-          "Method / memory trick: Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.",
-          "Do not: Using HCF × LCM = product for three numbers. It fails. Factorise instead."
-        ]
       },
       {
         "t": "A",
@@ -127,6 +112,27 @@
         ]
       },
       {
+        "m": "3",
+        "q": "Use Euclid’s division algorithm to find the HCF of 867 and 255.",
+        "a": [
+          "867 = 255 × 3 + 102",
+          "255 = 102 × 2 + 51",
+          "102 = 51 × 2 + 0",
+          "The remainder is now 0, so the divisor at that step, 51, is the HCF. Always stop at a zero remainder and take the previous divisor."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "An army contingent of 616 members marches behind an army band of 32 members. Both groups must march in the same number of columns. What is the maximum number of columns?",
+        "a": [
+          "Maximum columns = HCF(616, 32).",
+          "616 = 2³ × 7 × 11 and 32 = 2⁵.",
+          "HCF = 2³ = 8, so the maximum is 8 columns."
+        ],
+        "t": "L"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Real Numbers”. Their note says: Euclid’s Division Lemma. Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 ≤ r < b. It is the basis of the HCF algorithm: divide, then repeat with (b, r) until the remainder is 0. The last non-zero divisor is the HCF.\n\nThe chapter is described as: HCF/LCM, irrationality proofs, terminating decimals..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -144,6 +150,23 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) Given positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.",
           "(c) Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely."
+        ]
+      },
+      {
+        "m": "4",
+        "q": "Can 6ⁿ end with the digit 0 for any natural number n? Give a reason.",
+        "a": "No. If 6ⁿ ended in 0 it would be divisible by 10 = 2 × 5, so 5 would have to be a prime factor of 6ⁿ. But 6ⁿ = (2 × 3)ⁿ = 2ⁿ × 3ⁿ and, by the Fundamental Theorem of Arithmetic, its only prime factors are 2 and 3. Since 5 never appears, 6ⁿ cannot end in 0 for any n.",
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Real Numbers” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Euclid’s Division Lemma. Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 ≤ r < b. It is the basis of the HCF algorithm: divide, then repeat with (b, r) until the remainder is 0. The last non-zero divisor is the HCF.",
+          "Marks lens: marks, always procedural. Expect one HCF/LCM word problem (2–3 marks), one irrationality proof (3 marks), and one terminating-decimal question (1 mark).",
+          "Method / memory trick: Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.",
+          "Do not: Using HCF × LCM = product for three numbers. It fails. Factorise instead."
         ]
       }
     ],
@@ -167,6 +190,18 @@
       {
         "q": "A 3-mark answer on “Real Numbers” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The decimal expansion of 23/(2³ × 5²) terminates after: (a) 2 places  (b) 3 places  (c) 4 places  (d) 5 places",
+        "a": "**(b) 3 places.** 23/200 = 115/1000 = 0.115. The number of decimal places is the larger exponent, max(3, 2) = 3."
+      },
+      {
+        "q": "Which of these is irrational? (a) √(16/9)  (b) √12  (c) 0.444…  (d) 22/7",
+        "a": "**(b) √12.** √12 = 2√3 and √3 is irrational. √(16/9) = 4/3, 0.444… = 4/9 and 22/7 are all rational."
+      },
+      {
+        "q": "The HCF of the smallest prime number and the smallest composite number is: (a) 1  (b) 2  (c) 4  (d) 6",
+        "a": "**(b) 2.** Smallest prime = 2, smallest composite = 4, and HCF(2, 4) = 2."
       }
     ],
     "trend": "One irrationality proof almost every year (√2, √3, √5 or 3√2). One HCF/LCM word problem. One terminating-decimal 1-marker.",
@@ -177,6 +212,12 @@
     ],
     "task": [
       "Take any two numbers above 200. Find their HCF by **both** Euclid’s algorithm and prime factorisation, then verify HCF × LCM = product. If the two HCFs disagree, your algorithm stopped a step early."
+    ],
+    "steps": [
+      "1. Decide which tool the question needs: **Euclid's division lemma** for a general proof, the **prime factorisation** route for HCF and LCM, or a **contradiction** for proving irrationality.",
+      "2. For HCF and LCM, write both numbers as products of primes in index form. **HCF = smallest power of each common prime; LCM = greatest power of every prime present.** Check with HCF × LCM = product of the numbers.",
+      "3. To prove a number irrational, **assume it is rational** (write it as p/q in lowest terms), square or rearrange until a prime divides both p and q, and point out the contradiction.",
+      "4. For a terminating decimal, factorise the denominator: if it is of the form **2ⁿ5ᵐ** the decimal terminates (after max(n, m) places); otherwise it repeats without terminating."
     ]
   },
   {
@@ -260,10 +301,7 @@
       {
         "m": "3",
         "q": "Find a quadratic polynomial whose zeroes have sum 1/4 and product −1.",
-        "a": [
-          "p(x) = x² − (1/4)x − 1.",
-          "Clearing the fraction: 4x² − x − 4."
-        ],
+        "a": "A quadratic with zeroes whose sum is S and product is P is **k[x² − Sx + P]**. Here S = 1/4 and P = −1, so p(x) = k[x² − (1/4)x − 1]. Taking k = 4 to clear the fraction gives **4x² − x − 4**. Any non-zero value of k is accepted, since multiplying a polynomial by a constant does not change its zeroes.",
         "t": "S"
       },
       {
@@ -275,17 +313,6 @@
           "k² − 1 = 2, k² = 3, so k = ±√3."
         ],
         "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Polynomials” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Zeroes of a polynomial. A zero of p(x) is a value of x for which p(x) = 0. Geometrically it is where the graph cuts or touches the x-axis.",
-          "Marks lens: Usually one 2-mark question plus part of an objective question.",
-          "Method / memory trick: Sign trap: the sum is minus b/a. Almost every wrong answer here has the wrong sign.",
-          "Do not: Writing the sum as +b/a. It is −b/a."
-        ]
       },
       {
         "t": "A",
@@ -307,6 +334,27 @@
         ]
       },
       {
+        "m": "3",
+        "q": "If α and β are the zeroes of x² − 6x + k and 3α + 2β = 20, find k.",
+        "a": [
+          "α + β = 6 (sum of zeroes) and 3α + 2β = 20.",
+          "Subtract twice the first equation from the second: α = 20 − 12 = 8, so β = −2.",
+          "Product αβ = 8(−2) = −16, and product = c/a = k, so k = −16."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Divide 3x³ + x² + 2x + 5 by x² + 2x + 1 and verify the division algorithm.",
+        "a": [
+          "Quotient = 3x − 5, remainder = 9x + 10.",
+          "Check: (x² + 2x + 1)(3x − 5) + 9x + 10",
+          "= 3x³ + 6x² + 3x − 5x² − 10x − 5 + 9x + 10",
+          "= 3x³ + x² + 2x + 5, which is the dividend — so dividend = divisor × quotient + remainder."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Polynomials”. Their note says: Zeroes of a polynomial. A zero of p(x) is a value of x for which p(x) = 0. Geometrically it is where the graph cuts or touches the x-axis.\n\nThe chapter is described as: Zeroes of a quadratic and their relation to coefficients..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -324,6 +372,27 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) x² − 2x − 8 = (x − 4)(x + 2), so the zeroes are 4 and −2. Sum = 4 + (−2) = 2 = −(−2)/1 = −b/a ✓ Product = 4 × (−2) = −8 = c/a ✓",
           "(c) Sign trap: the sum is minus b/a. Almost every wrong answer here has the wrong sign."
+        ]
+      },
+      {
+        "m": "4",
+        "q": "A quadratic polynomial cuts the x-axis at −2 and 3 and its graph passes through (0, 6). Find the polynomial.",
+        "a": [
+          "With zeroes −2 and 3, p(x) = a(x + 2)(x − 3).",
+          "It passes through (0, 6), so 6 = a(2)(−3) = −6a, giving a = −1.",
+          "Hence p(x) = −(x + 2)(x − 3) = −x² + x + 6."
+        ],
+        "t": "A"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Polynomials” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Zeroes of a polynomial. A zero of p(x) is a value of x for which p(x) = 0. Geometrically it is where the graph cuts or touches the x-axis.",
+          "Marks lens: Usually one 2-mark question plus part of an objective question.",
+          "Method / memory trick: Sign trap: the sum is minus b/a. Almost every wrong answer here has the wrong sign.",
+          "Do not: Writing the sum as +b/a. It is −b/a."
         ]
       }
     ],
@@ -347,6 +416,18 @@
       {
         "q": "A 3-mark answer on “Polynomials” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "A polynomial of degree 3 is called: (a) linear  (b) quadratic  (c) cubic  (d) biquadratic",
+        "a": "**(c) cubic.** Degree 1 is linear, 2 is quadratic, 3 is cubic and 4 is biquadratic."
+      },
+      {
+        "q": "If one zero of x² − 4x + 1 is 2 + √3, the other zero is: (a) 2 − √3  (b) −2 − √3  (c) √3 − 2  (d) −√3",
+        "a": "**(a) 2 − √3.** Sum of zeroes = 4, so the other zero = 4 − (2 + √3) = 2 − √3."
+      },
+      {
+        "q": "A quadratic polynomial can have at most: (a) 0 zeroes  (b) 1 zero  (c) 2 zeroes  (d) 3 zeroes",
+        "a": "**(c) 2 zeroes.** A polynomial of degree n has at most n zeroes, so degree 2 gives at most two."
       }
     ],
     "trend": "One 2-mark question on the zeroes–coefficient relationship, usually asking for k or for an expression like 1/α + 1/β. Graph-counting appears in the objective section.",
@@ -357,6 +438,12 @@
     ],
     "task": [
       "Pick any quadratic with integer zeroes. Compute sum and product from the zeroes, then check them against −b/a and c/a. Do one where a ≠ 1 — that is the case students get wrong."
+    ],
+    "steps": [
+      "1. Read off **a, b, c** from the polynomial, signs included, and note the degree — most mistakes here start with a copied sign.",
+      "2. For zeroes, either **factorise** (split the middle term or use an identity) or apply the **quadratic formula**. Verify by substituting each zero back into p(x).",
+      "3. For sum and product questions use the relations directly: **sum of zeroes = −b/a**, **product = c/a**. For a cubic, add the third relation: sum of pairwise products = c/a and product = −d/a.",
+      "4. To build a polynomial from given zeroes, use **k[x² − (sum)x + (product)]**. Finish by finding k from any extra condition, then write the polynomial with all terms expanded."
     ]
   },
   {
@@ -449,30 +536,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "A boat goes 30 km upstream and 44 km downstream in 10 hours. In 13 hours it can go 40 km upstream and 55 km downstream. Find the speed of the stream and of the boat in still water.",
-        "a": [
-          "Let the still-water speed be x km/h and the stream’s speed be y km/h.",
-          "Put u = 1/(x − y) and v = 1/(x + y).",
-          "30u + 44v = 10 and 40u + 55v = 13.",
-          "Solving gives u = 1/8 and v = 1/11, so x − y = 8 and x + y = 11.",
-          "Therefore x = 9.5 km/h and y = 1.5 km/h."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "4",
-        "q": "Five years ago, Nuri was thrice as old as Sonu. Ten years later, Nuri will be twice as old as Sonu. How old are they?",
-        "a": [
-          "Let Nuri be x and Sonu be y now.",
-          "x − 5 = 3(y − 5) ⇒ x − 3y = −10.",
-          "x + 10 = 2(y + 10) ⇒ x − 2y = 10.",
-          "Subtracting: −y = −20, so y = 20 and x = 50.",
-          "Nuri is 50 and Sonu is 20."
-        ],
-        "t": "L"
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Pair of Linear Equations in Two Variables” (Consistency conditions, three solving methods, word problems.). A classmate lost marks by doing this: Declaring a pair inconsistent when only two of the three ratios are equal. You must check c₁/c₂ as well. Apply the correct method and rewrite the scoring answer.",
@@ -490,6 +553,39 @@
           "Idea: Consistency conditions, three solving methods, word problems..",
           "a₁/a₂ = 2/4 = 1/2, b₁/b₂ = −3/−6 = 1/2, c₁/c₂ = (−7)/(−14) = 1/2. All three ratios are equal, so the lines are coincident — infinitely many solutions, not a unique one."
         ]
+      },
+      {
+        "m": "3",
+        "q": "For what value of k does the pair 3x + y = 1 and (2k − 1)x + (k − 1)y = 2k + 1 have no solution?",
+        "a": [
+          "For no solution the lines must be parallel: a₁/a₂ = b₁/b₂ ≠ c₁/c₂.",
+          "3/(2k − 1) = 1/(k − 1) ⇒ 3k − 3 = 2k − 1 ⇒ k = 2.",
+          "Check: at k = 2 the equations become 3x + y = 1 and 3x + y = 5, which are parallel and distinct — so no solution."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Solve by cross-multiplication: 2x + 3y = 46 and 3x + 5y = 74.",
+        "a": [
+          "Write as 2x + 3y − 46 = 0 and 3x + 5y − 74 = 0.",
+          "x/(3(−74) − 5(−46)) = y/(−46(3) − (−74)(2)) = 1/(2(5) − 3(3))",
+          "x/(−222 + 230) = y/(−138 + 148) = 1/1, so x = 8 and y = 10.",
+          "Check: 2(8) + 3(10) = 46 and 3(8) + 5(10) = 74."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Five years ago, Nuri was thrice as old as Sonu. Ten years later, Nuri will be twice as old as Sonu. How old are they?",
+        "a": [
+          "Let Nuri be x and Sonu be y now.",
+          "x − 5 = 3(y − 5) ⇒ x − 3y = −10.",
+          "x + 10 = 2(y + 10) ⇒ x − 2y = 10.",
+          "Subtracting: −y = −20, so y = 20 and x = 50.",
+          "Nuri is 50 and Sonu is 20."
+        ],
+        "t": "L"
       },
       {
         "t": "C",
@@ -510,6 +606,29 @@
           "(b) a₁/a₂ = 2/4 = 1/2, b₁/b₂ = −3/−6 = 1/2, c₁/c₂ = (−7)/(−14) = 1/2. All three ratios are equal, so the lines are coincident — infinitely many solutions, not a unique one.",
           "(c) Ratio order matters. Compare a with a, b with b, c with c — never a with b."
         ]
+      },
+      {
+        "m": "4",
+        "q": "A fraction becomes 1/3 when 1 is subtracted from its numerator, and becomes 1/4 when 8 is added to its denominator. Find the fraction.",
+        "a": [
+          "Let the fraction be x/y.",
+          "(x − 1)/y = 1/3 ⇒ y = 3x − 3. And x/(y + 8) = 1/4 ⇒ 4x = y + 8.",
+          "Substituting: 4x = 3x − 3 + 8 ⇒ x = 5, so y = 12.",
+          "The fraction is 5/12. Check: (5 − 1)/12 = 1/3 and 5/20 = 1/4."
+        ],
+        "t": "A"
+      },
+      {
+        "m": "5",
+        "q": "A boat goes 30 km upstream and 44 km downstream in 10 hours. In 13 hours it can go 40 km upstream and 55 km downstream. Find the speed of the stream and of the boat in still water.",
+        "a": [
+          "Let the still-water speed be x km/h and the stream’s speed be y km/h.",
+          "Put u = 1/(x − y) and v = 1/(x + y).",
+          "30u + 44v = 10 and 40u + 55v = 13.",
+          "Solving gives u = 1/8 and v = 1/11, so x − y = 8 and x + y = 11.",
+          "Therefore x = 9.5 km/h and y = 1.5 km/h."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
@@ -532,6 +651,18 @@
       {
         "q": "A 3-mark answer on “Pair of Linear Equations in Two Variables” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The pair 6x − 3y + 10 = 0 and 2x − y + 9 = 0 has: (a) one solution  (b) two solutions  (c) infinitely many solutions  (d) no solution",
+        "a": "**(d) no solution.** 6/2 = 3 and (−3)/(−1) = 3 but 10/9 ≠ 3, so the lines are parallel and distinct."
+      },
+      {
+        "q": "If x + 2y = 5 and 3x + ky = 15 are coincident lines, then k = : (a) 2  (b) 3  (c) 6  (d) 15",
+        "a": "**(c) 6.** Coincident lines need 1/3 = 2/k = 5/15, and 2/k = 1/3 gives k = 6."
+      },
+      {
+        "q": "The solution of x + y = 14 and x − y = 4 is: (a) x = 9, y = 5  (b) x = 5, y = 9  (c) x = 10, y = 4  (d) x = 8, y = 6",
+        "a": "**(a) x = 9, y = 5.** Adding the equations gives 2x = 18, so x = 9 and then y = 5."
       }
     ],
     "trend": "One 4–5 mark word problem nearly every year. Upstream/downstream and age problems are the most repeated.",

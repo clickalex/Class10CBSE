@@ -99,6 +99,18 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "A lens of power −4.0 D is placed in the path of light. Find its focal length and identify it.",
+        "a": "P = 1/f, so f = 1/(−4.0) = −0.25 m = −25 cm. Negative focal length means it is a **concave (diverging) lens**.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Define the principal focus of a concave mirror and relate it to the radius of curvature.",
+        "a": "The principal focus is the point on the principal axis where rays parallel to the axis meet (or appear to meet) after reflection. For a spherical mirror the focus lies midway between the pole and the centre of curvature, so f = R/2.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "An object 4 cm high is placed 25 cm in front of a concave mirror of focal length 15 cm. Find the position, nature and size of the image.",
         "a": [
@@ -117,33 +129,6 @@
           "The rays meet **beyond C**, so the image is **real, inverted and magnified**. This is the arrangement used in a shaving or makeup mirror when the object is close."
         ],
         "t": "S"
-      },
-      {
-        "m": "5",
-        "q": "State the laws of refraction and solve: light enters from air into glass (n = 1.5) with an angle of incidence of 30°. Find the angle of refraction and the speed of light in glass.",
-        "a": [
-          "**Laws:** (i) the incident ray, the refracted ray and the normal at the point of incidence lie in the same plane; (ii) for a given pair of media and a given colour, sin i / sin r is constant (Snell's law).",
-          "**Angle of refraction:** sin r = sin i / n = 0.5/1.5 = 0.3333, so r ≈ **19.5°** — the ray bends toward the normal.",
-          "**Speed in glass:** v = c/n = (3 × 10⁸)/1.5 = **2 × 10⁸ m/s**."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "2",
-        "q": "A lens of power −4.0 D is placed in the path of light. Find its focal length and identify it.",
-        "a": "P = 1/f, so f = 1/(−4.0) = −0.25 m = −25 cm. Negative focal length means it is a **concave (diverging) lens**.",
-        "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Light — Reflection and Refraction” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Reflection. Light travelling in a straight line bounces back on striking a polished surface. Laws of reflection: the angle of incidence equals the angle of reflection, and the incident ray, reflected ray and normal at the point of incidence all lie in the same plane. A plane mirror always forms a virtual, erect image, the same size as the object, at the same distance behind the mirror, and laterally inverted.",
-          "Marks lens: –4 marks. One ray diagram, one numerical on the mirror or lens formula, and one question on magnification or power.",
-          "Method / memory trick: Sign convention: distances measured against the direction of the incident light (to the left of the pole) are negative. Object distance u is always negative. For a concave mirror f is negative; for a convex mirror and a convex lens f is positive; a concave lens has negative f.",
-          "Do not: Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f."
-        ]
       },
       {
         "t": "A",
@@ -165,6 +150,17 @@
         ]
       },
       {
+        "m": "3",
+        "q": "An object 5 cm tall is placed 30 cm from a convex lens of focal length 20 cm. Find the position, size and nature of the image.",
+        "a": [
+          "Using the lens formula 1/f = 1/v − 1/u with f = +20 cm and u = −30 cm:",
+          "1/v = 1/20 − 1/30 = (3 − 2)/60 = 1/60, so v = 60 cm.",
+          "Magnification m = v/u = 60/(−30) = −2, so h₂ = m × h₁ = −2 × 5 = −10 cm.",
+          "The image is real, inverted and twice the size, formed 60 cm on the other side of the lens."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Light — Reflection and Refraction”. Their note says: Reflection. Light travelling in a straight line bounces back on striking a polished surface. Laws of reflection: the angle of incidence equals the angle of reflection, and the incident ray, reflected ray and normal at the point of incidence all lie in the same plane. A plane mirror always forms a vi\n\nThe chapter is described as: Ray diagrams, mirror and lens formulas, magnification and power..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -182,6 +178,37 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) /v + 1/u = 1/f. The SI unit of power is the dioptre (D), equal to 1 m⁻¹.",
           "(c) Sign convention: distances measured against the direction of the incident light (to the left of the pole) are negative. Object distance u is always negative. For a concave mirror f is negative; for a convex mirror and a convex lens f is positive; a concave lens has negative f."
+        ]
+      },
+      {
+        "m": "4",
+        "q": "State the sign convention used for spherical mirrors and lenses, and apply it to a concave mirror.",
+        "a": [
+          "All distances are measured from the pole (mirror) or the optical centre (lens).",
+          "Distances measured in the direction of the incident light are positive and those against it are negative; heights above the principal axis are positive and those below are negative.",
+          "In practice the object distance u is always negative, the focal length of a concave mirror and of a concave lens is negative, and that of a convex mirror and a convex lens is positive."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "State the laws of refraction and solve: light enters from air into glass (n = 1.5) with an angle of incidence of 30°. Find the angle of refraction and the speed of light in glass.",
+        "a": [
+          "**Laws:** (i) the incident ray, the refracted ray and the normal at the point of incidence lie in the same plane; (ii) for a given pair of media and a given colour, sin i / sin r is constant (Snell's law).",
+          "**Angle of refraction:** sin r = sin i / n = 0.5/1.5 = 0.3333, so r ≈ **19.5°** — the ray bends toward the normal.",
+          "**Speed in glass:** v = c/n = (3 × 10⁸)/1.5 = **2 × 10⁸ m/s**."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Light — Reflection and Refraction” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Reflection. Light travelling in a straight line bounces back on striking a polished surface. Laws of reflection: the angle of incidence equals the angle of reflection, and the incident ray, reflected ray and normal at the point of incidence all lie in the same plane. A plane mirror always forms a virtual, erect image, the same size as the object, at the same distance behind the mirror, and laterally inverted.",
+          "Marks lens: –4 marks. One ray diagram, one numerical on the mirror or lens formula, and one question on magnification or power.",
+          "Method / memory trick: Sign convention: distances measured against the direction of the incident light (to the left of the pole) are negative. Object distance u is always negative. For a concave mirror f is negative; for a convex mirror and a convex lens f is positive; a concave lens has negative f.",
+          "Do not: Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f."
         ]
       }
     ],
@@ -205,6 +232,18 @@
       {
         "q": "A 3-mark answer on “Light — Reflection and Refraction” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The power of a convex lens of focal length 50 cm is: (a) +2 D  (b) −2 D  (c) +0.5 D  (d) −0.5 D",
+        "a": "**(a) +2 D.** P = 1/f in metres = 1/0.5 = +2 D; a converging lens always has positive power."
+      },
+      {
+        "q": "Which mirror always forms an erect and diminished image? (a) plane  (b) concave  (c) convex  (d) parabolic",
+        "a": "**(c) convex.** Its image is always virtual, erect and smaller, which is why it is used as a rear-view mirror."
+      },
+      {
+        "q": "When a ray of light goes from glass into air, it: (a) bends towards the normal  (b) bends away from the normal  (c) does not bend  (d) is totally absorbed",
+        "a": "**(b) bends away from the normal.** Moving from a denser to a rarer medium, the ray speeds up and bends away from the normal."
       }
     ],
     "trend": "One ray diagram (concave mirror or convex lens) and one numerical using the mirror/lens formula with the magnification appear nearly every year; power and the sign of the focal length are common 1-mark items.",
@@ -217,6 +256,12 @@
     ],
     "task": [
       "Using a concave mirror (or a spoon's inner surface) and a candle, find the focal length by focusing the sun or a distant window on a screen. Then place the candle at 2f and measure the image distance and size — check that v ≈ 2f and that the image is the same size and inverted."
+    ],
+    "steps": [
+      "1. Decide which **mirror or lens** is involved, then write down the sign convention you will use (Cartesian: distances measured from the pole/optical centre, left is negative).",
+      "2. List what is given as **u, v, f, R, h, h′** with their signs; convert everything to centimetres before substituting.",
+      "3. Substitute into the **mirror formula** 1/v + 1/u = 1/f (or the lens formula 1/v − 1/u = 1/f) and solve. Do the arithmetic a second time — most lost marks here are arithmetic slips, not concept errors.",
+      "4. Interpret the sign of the answer: negative v means a real image in front, positive means virtual behind. Then state **size, nature and position** in one line, since the question usually asks for all three."
     ]
   },
   {
@@ -239,7 +284,13 @@
       "**4. Atmospheric refraction.** The refractive index of air decreases with altitude, so light from a star bends continuously as it enters the atmosphere. Effects: **stars twinkle** (the apparent position and brightness keep changing), **planets do not twinkle** (they are nearer and act as extended sources, so the variations average out), the **sun appears above the horizon about two minutes before actual sunrise and two minutes after sunset** (daylight is lengthened by about 4 minutes), and **stars appear slightly higher** than their true position.",
       "**5. Scattering of light.** Fine particles scatter shorter (blue) wavelengths more strongly — the **Tyndall effect**. This explains the **blue colour of the sky**, the **reddish appearance of the sun at sunrise and sunset** (blue is scattered away over the long path, leaving red), the **white appearance of clouds** (large water droplets scatter all colours equally), and why **danger signals are red** (red scatters least and travels farthest through fog and smoke). At noon the sun looks white because the path through the atmosphere is short."
     ],
-    "formulas": [],
+    "formulas": [
+      "Power of a lens: P = 1/f (f in metres, P in dioptres)",
+      "Correction: myopia → concave (diverging) lens of negative power; hypermetropia → convex (converging) lens of positive power",
+      "Presbyopia → bifocal lens; astigmatism → cylindrical lens",
+      "Scattering intensity ∝ 1/λ⁴ — shorter wavelength scatters far more",
+      "Refractive index and deviation: violet deviates most, red least"
+    ],
     "tricks": [
       "- **Myopia = image in front = concave lens.** *'My-o-pia → My oh, I can't see far → Concave.'*",
       "- **Hypermetropia = image behind = convex lens.** *'Hyper → beyond → behind → convex.'*",
@@ -265,6 +316,18 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "Why does the sun appear reddish early in the morning?",
+        "a": "Because near the horizon sunlight travels through a much thicker layer of air. The shorter blue wavelengths are scattered away, and mainly the longer red wavelengths reach our eyes, so the sun looks red. At noon the path is short, little blue light is scattered, and the sun looks white.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "What is the power of accommodation of the eye?",
+        "a": "It is the ability of the eye lens to change its focal length — by the action of the ciliary muscles — so that both near and distant objects are focused sharply on the retina. In a normal eye the near point is about 25 cm and the far point is infinity.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "What is myopia? State its two causes and its correction.",
         "a": [
@@ -283,34 +346,6 @@
           "Because different colours emerge at slightly different angles, the observer sees a coloured arc — a rainbow — with the sun always behind them."
         ],
         "t": "S"
-      },
-      {
-        "m": "5",
-        "q": "Explain atmospheric refraction and describe any three phenomena based on it.",
-        "a": [
-          "**Atmospheric refraction** is the bending of light as it passes through layers of air of different densities; the refractive index of air decreases as we go up, so light from a celestial body bends gradually toward the normal.",
-          "**(1) Twinkling of stars:** the continuously changing refractive index makes the apparent position and brightness of a star fluctuate.",
-          "**(2) Advance of sunrise and delay of sunset:** light from the sun below the horizon is refracted toward the earth, so the sun becomes visible about two minutes before actual sunrise and remains visible about two minutes after sunset — the day is lengthened by about 4 minutes.",
-          "**(3) Apparent flattening of the sun's disc** at sunrise and sunset, and stars appearing slightly higher than their true position, are also caused by the same refraction."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "2",
-        "q": "Why does the sun appear reddish early in the morning?",
-        "a": "Because near the horizon sunlight travels through a much thicker layer of air. The shorter blue wavelengths are scattered away, and mainly the longer red wavelengths reach our eyes, so the sun looks red. At noon the path is short, little blue light is scattered, and the sun looks white.",
-        "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “The Human Eye and the Colourful World” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The eye as a camera. Cornea — most of the refraction happens here. Iris — the dark muscular diaphragm that controls the size of the pupil and hence the amount of light entering. Crystalline lens — a convex lens of adjustable focal length; ciliary muscles change its curvature, so a clear image is formed on the retina for objects at all distances. This is the power of accommodation. The image on the retina is real and.",
-          "Marks lens: –3 marks. Myopia/hypermetropia with a labelled diagram is the single most repeated question in Physics.",
-          "Method / memory trick: Myopia = image in front = concave lens. *'My-o-pia → My oh, I can't see far → Concave.'*",
-          "Do not: Drawing the corrective lens on the wrong side of the eye diagram, or labelling the image position incorrectly (in front for myopia, behind for hypermetropia)."
-        ]
       },
       {
         "t": "A",
@@ -332,6 +367,16 @@
         ]
       },
       {
+        "m": "3",
+        "q": "What is presbyopia? State its cause and how it is corrected.",
+        "a": [
+          "Presbyopia is the loss of the eye's power of accommodation with age: the ciliary muscles weaken and the lens becomes less flexible.",
+          "As a result the near point recedes and reading or threading a needle becomes difficult.",
+          "It is corrected with converging (convex) spectacles; when a person has both myopia and presbyopia, bifocal lenses are used."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “The Human Eye and the Colourful World”. Their note says: The eye as a camera. Cornea — most of the refraction happens here. Iris — the dark muscular diaphragm that controls the size of the pupil and hence the amount of light entering. Crystalline lens — a convex lens of adjustable focal length; ciliary muscles change its curvature, so a clear image is for\n\nThe chapter is described as: Defects of vision, dispersion, atmospheric refraction and scattering..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -349,6 +394,39 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) The iris (which adjusts the size of the pupil); 25 cm.",
           "(c) Myopia = image in front = concave lens. *'My-o-pia → My oh, I can't see far → Concave.'*"
+        ]
+      },
+      {
+        "m": "4",
+        "q": "Explain why the sky looks blue and the sun looks white at noon but red at sunrise.",
+        "a": [
+          "Air molecules and fine particles scatter light of short wavelength much more strongly than long wavelength light (scattering ∝ 1/λ⁴).",
+          "Blue light is scattered the most, so light reaching the eye from all parts of the sky is rich in blue.",
+          "At noon the sun is overhead and its light crosses the shortest possible path, so very little blue is removed and the sun looks white.",
+          "Near sunrise and sunset the path through the atmosphere is much longer, most of the blue is scattered away, and the remaining direct light looks red."
+        ],
+        "t": "A"
+      },
+      {
+        "m": "5",
+        "q": "Explain atmospheric refraction and describe any three phenomena based on it.",
+        "a": [
+          "**Atmospheric refraction** is the bending of light as it passes through layers of air of different densities; the refractive index of air decreases as we go up, so light from a celestial body bends gradually toward the normal.",
+          "**(1) Twinkling of stars:** the continuously changing refractive index makes the apparent position and brightness of a star fluctuate.",
+          "**(2) Advance of sunrise and delay of sunset:** light from the sun below the horizon is refracted toward the earth, so the sun becomes visible about two minutes before actual sunrise and remains visible about two minutes after sunset — the day is lengthened by about 4 minutes.",
+          "**(3) Apparent flattening of the sun's disc** at sunrise and sunset, and stars appearing slightly higher than their true position, are also caused by the same refraction."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “The Human Eye and the Colourful World” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The eye as a camera. Cornea — most of the refraction happens here. Iris — the dark muscular diaphragm that controls the size of the pupil and hence the amount of light entering. Crystalline lens — a convex lens of adjustable focal length; ciliary muscles change its curvature, so a clear image is formed on the retina for objects at all distances. This is the power of accommodation. The image on the retina is real and.",
+          "Marks lens: –3 marks. Myopia/hypermetropia with a labelled diagram is the single most repeated question in Physics.",
+          "Method / memory trick: Myopia = image in front = concave lens. *'My-o-pia → My oh, I can't see far → Concave.'*",
+          "Do not: Drawing the corrective lens on the wrong side of the eye diagram, or labelling the image position incorrectly (in front for myopia, behind for hypermetropia)."
         ]
       }
     ],
@@ -372,6 +450,18 @@
       {
         "q": "A 3-mark answer on “The Human Eye and the Colourful World” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The eye defect in which the far point is nearer than infinity is: (a) hypermetropia  (b) myopia  (c) presbyopia  (d) cataract",
+        "a": "**(b) myopia.** Short-sightedness is corrected with a diverging (concave) lens."
+      },
+      {
+        "q": "The splitting of white light into its component colours is called: (a) scattering  (b) dispersion  (c) total internal reflection  (d) polarisation",
+        "a": "**(b) dispersion.** Different wavelengths bend by different amounts inside a prism, so the colours separate."
+      },
+      {
+        "q": "Stars twinkle mainly because of: (a) atmospheric refraction  (b) dispersion  (c) reflection from clouds  (d) their own flickering",
+        "a": "**(a) atmospheric refraction.** Moving layers of air of changing density bend the starlight by varying amounts, so its apparent position shifts rapidly."
       }
     ],
     "trend": "One defect of vision with a labelled diagram is asked almost every year; the sky-blue / red-sunrise reasoning and the rainbow are the next most common.",
@@ -383,6 +473,12 @@
     ],
     "task": [
       "Make a spectrum with a glass prism and a white screen, and mark the order of colours. Then hold a second identical prism inverted above the first and observe the recombination into white light — this is exactly Newton's experiment."
+    ],
+    "steps": [
+      "1. For a **defect of vision**, name it, say where the image forms (myopia: in front of the retina; hypermetropia: would form behind it), and quote the **correcting lens** — concave for myopia, convex for hypermetropia.",
+      "2. For a **dispersion** question, state that white light splits into seven colours because different wavelengths refract by different amounts — violet deviates most, red least.",
+      "3. For **scattering**, apply the inverse-fourth law: shorter wavelengths scatter far more, which is why the sky is blue and the sun looks red at sunrise and sunset.",
+      "4. End with the **everyday example** asked for — the apparent position of stars due to atmospheric refraction, or the rainbow after rain."
     ]
   },
   {
@@ -439,6 +535,22 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "An electric iron of rating 750 W, 220 V is used for 2 hours daily. Calculate the cost of using it for 30 days at ₹5 per unit.",
+        "a": [
+          "Energy per day = P × t = 750 W × 2 h = 1500 Wh = **1.5 kWh**.",
+          "Energy for 30 days = 1.5 × 30 = **45 kWh** = 45 units.",
+          "Cost = 45 × ₹5 = **₹225**."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Why are household appliances connected in parallel and not in series?",
+        "a": "In a parallel circuit every appliance gets the full supply voltage and works independently, so switching one off does not affect the others and a fault in one branch does not stop the rest — none of which is possible in a series circuit.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "State Ohm's law and draw the V–I graph for an ohmic conductor.",
         "a": [
@@ -455,38 +567,6 @@
           "So **Rp = 1 Ω** — less than the smallest resistor (2 Ω), as expected for a parallel combination."
         ],
         "t": "S"
-      },
-      {
-        "m": "5",
-        "q": "A 4 Ω resistor and a 6 Ω resistor are connected in series with a 20 V battery. Find the total resistance, the current, the potential difference across each resistor, and the heat produced in the 4 Ω resistor in 1 minute.",
-        "a": [
-          "**Total resistance** Rs = 4 + 6 = **10 Ω**.",
-          "**Current** I = V/R = 20/10 = **2 A** — the same through both resistors.",
-          "**Potential differences:** across 4 Ω, V = 2 × 4 = **8 V**; across 6 Ω, V = 2 × 6 = **12 V**. (8 + 12 = 20 V ✓)",
-          "**Heat in the 4 Ω resistor** H = I²Rt = (2)² × 4 × 60 = **960 J**."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "2",
-        "q": "An electric iron of rating 750 W, 220 V is used for 2 hours daily. Calculate the cost of using it for 30 days at ₹5 per unit.",
-        "a": [
-          "Energy per day = P × t = 750 W × 2 h = 1500 Wh = **1.5 kWh**.",
-          "Energy for 30 days = 1.5 × 30 = **45 kWh** = 45 units.",
-          "Cost = 45 × ₹5 = **₹225**."
-        ],
-        "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Electricity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Electric current and potential difference. Current I = Q/t, measured in amperes with an ammeter connected in series. Potential difference V = W/Q, measured in volts with a voltmeter connected in parallel; 1 volt = 1 joule per coulomb. By convention current flows from the positive to the negative terminal, opposite to the flow of electrons. A cell maintains the potential difference that drives the charge.",
-          "Marks lens: –4 marks. A series or parallel circuit numerical is almost certain, plus one question on the heating effect or on power rating.",
-          "Method / memory trick: Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.",
-          "Do not: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error."
-        ]
       },
       {
         "t": "A",
@@ -508,6 +588,16 @@
         ]
       },
       {
+        "m": "3",
+        "q": "Resistors of 4 Ω and 12 Ω are connected in parallel and the combination is joined to a 6 V battery. Find the equivalent resistance and the current drawn from the battery.",
+        "a": [
+          "1/Rₚ = 1/4 + 1/12 = (3 + 1)/12 = 4/12, so Rₚ = 3 Ω.",
+          "Current I = V/R = 6/3 = 2 A.",
+          "Check: the branch currents are 6/4 = 1.5 A and 6/12 = 0.5 A, which add to 2 A. Note the equivalent resistance is less than the smaller resistor."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Electricity”. Their note says: Electric current and potential difference. Current I = Q/t, measured in amperes with an ammeter connected in series. Potential difference V = W/Q, measured in volts with a voltmeter connected in parallel; 1 volt = 1 joule per coulomb. By convention current flows from the positive to the negative ter\n\nThe chapter is described as: Ohm's law, series and parallel circuits, heating effect and power..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -525,6 +615,38 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) One ohm is the resistance of a conductor when a potential difference of 1 volt across its ends produces a current of 1 ampere through it. Potential difference is measured with a voltmeter, connected in parallel.",
           "(c) Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question."
+        ]
+      },
+      {
+        "m": "4",
+        "q": "A 100 W bulb and a 60 W bulb are both rated at 220 V. Which has the higher resistance, and what current does each draw?",
+        "a": [
+          "Using R = V²/P: R₁₀₀ = 220²/100 = 484 Ω and R₆₀ = 220²/60 ≈ 806.7 Ω.",
+          "So the 60 W bulb has the higher resistance — the lower-power bulb resists the current more.",
+          "Currents: I = P/V, so the 100 W bulb draws 100/220 ≈ 0.45 A and the 60 W bulb draws 60/220 ≈ 0.27 A."
+        ],
+        "t": "A"
+      },
+      {
+        "m": "5",
+        "q": "A 4 Ω resistor and a 6 Ω resistor are connected in series with a 20 V battery. Find the total resistance, the current, the potential difference across each resistor, and the heat produced in the 4 Ω resistor in 1 minute.",
+        "a": [
+          "**Total resistance** Rs = 4 + 6 = **10 Ω**.",
+          "**Current** I = V/R = 20/10 = **2 A** — the same through both resistors.",
+          "**Potential differences:** across 4 Ω, V = 2 × 4 = **8 V**; across 6 Ω, V = 2 × 6 = **12 V**. (8 + 12 = 20 V ✓)",
+          "**Heat in the 4 Ω resistor** H = I²Rt = (2)² × 4 × 60 = **960 J**."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Electricity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Electric current and potential difference. Current I = Q/t, measured in amperes with an ammeter connected in series. Potential difference V = W/Q, measured in volts with a voltmeter connected in parallel; 1 volt = 1 joule per coulomb. By convention current flows from the positive to the negative terminal, opposite to the flow of electrons. A cell maintains the potential difference that drives the charge.",
+          "Marks lens: –4 marks. A series or parallel circuit numerical is almost certain, plus one question on the heating effect or on power rating.",
+          "Method / memory trick: Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.",
+          "Do not: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error."
         ]
       }
     ],
@@ -548,6 +670,18 @@
       {
         "q": "A 3-mark answer on “Electricity” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The resistance of a wire doubles when: (a) its length is doubled  (b) its area of cross-section is doubled  (c) its length is halved  (d) its diameter is doubled",
+        "a": "**(a) its length is doubled.** R ∝ l/A; doubling the area halves R, doubling the diameter reduces R to a quarter."
+      },
+      {
+        "q": "One kilowatt hour equals: (a) 3.6 × 10⁶ J  (b) 3.6 × 10³ J  (c) 360 J  (d) 6 × 10µ J",
+        "a": "**(a) 3.6 × 10⁶ J.** 1 kWh = 1000 W × 3600 s = 3,600,000 J."
+      },
+      {
+        "q": "An ammeter is connected in a circuit: (a) in series  (b) in parallel  (c) across the supply  (d) either way",
+        "a": "**(a) in series.** It has very low resistance so it does not change the current; a voltmeter is connected in parallel."
       }
     ],
     "trend": "A series/parallel circuit numerical appears every year, and the heating-effect formula with a household energy-bill calculation is the most repeated 3–5 mark question in Physics.",
@@ -560,6 +694,12 @@
     ],
     "task": [
       "Wire two 1.5 V cells in series with a 5 Ω and a 10 Ω resistor in series, and measure the current with an ammeter and the potential difference across each resistor with a voltmeter. Verify V = IR for each resistor and that the voltages add up to the battery voltage."
+    ],
+    "steps": [
+      "1. Sketch the circuit in words and decide whether the resistors are in **series** (same current, Rs = R1 + R2 …) or **parallel** (same voltage, 1/Rp = 1/R1 + 1/R2 …).",
+      "2. Write down **Ohm's law** V = IR for the part of the circuit you are solving, and keep the units straight — current in amperes, potential difference in volts, resistance in ohms.",
+      "3. For heating, use **H = I²Rt** when the current is known and H = VIt when the voltage is known; state the power as P = VI = I²R = V²/R.",
+      "4. Check the **physical sense** of your answer: in series, total resistance must exceed the largest single resistor; in parallel, it must be smaller than the smallest."
     ]
   },
   {
@@ -583,7 +723,13 @@
       "**5. The electric generator.** It converts mechanical energy into electrical energy using electromagnetic induction. A **DC generator** uses a split-ring commutator and gives current in one direction; an **AC generator** uses two slip rings and the current reverses direction periodically. In India, AC has a frequency of **50 Hz**, so its direction changes **100 times in one second**.",
       "**6. Domestic electric circuits.** Live wire (red, 220 V), neutral (black, 0 V) and earth wire (green, connected to a metal plate deep in the earth). Appliances with metallic bodies — geysers, irons, toasters — are earthed so that leakage current flows to the earth instead of through the user. **Short circuit** — live and neutral touch, resistance becomes almost zero, current rises enormously. **Overloading** — too many appliances on one circuit. **Fuse** and **MCB** protect the circuit; separate circuits of 15 A and 5 A are provided."
     ],
-    "formulas": [],
+    "formulas": [
+      "Force on a current-carrying conductor: F = B I L (for a conductor perpendicular to the field)",
+      "Fleming's left-hand rule: First finger = Field, Second finger = Current, Thumb = Force (motion)",
+      "Fleming's right-hand rule: for induced current in a generator",
+      "Domestic supply in India: 220 V, 50 Hz AC — live (red/brown), neutral (black/blue), earth (green)",
+      "Fuse rating: choose a fuse whose rating is just above the current the appliance draws"
+    ],
     "tricks": [
       "- **Left hand = Motor, Right hand = Generator.** *'M' for motor and 'M' is in the word 'Motion' — but remember: the **left** hand has the thumb as Force, so Motor = Left.*",
       "- **Field lines never intersect** — the standard one-mark reason question.",
@@ -609,6 +755,18 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "Differentiate between an AC generator and a DC generator.",
+        "a": "An **AC generator** uses two complete slip rings, and the current it produces reverses direction periodically (50 Hz in India). A **DC generator** uses a split-ring commutator, so although the current in the coil reverses, the current in the external circuit always flows in one direction.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "State the rule used to find the direction of the magnetic field around a straight current-carrying conductor.",
+        "a": "Right-hand thumb rule: imagine holding the conductor in your right hand with the thumb pointing along the current; the direction in which your fingers curl around the conductor is the direction of the magnetic field lines, which are concentric circles around the wire.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Explain the principle and working of an electric motor.",
         "a": [
@@ -630,34 +788,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "Describe a domestic electric circuit and explain the function of the earth wire and the fuse.",
-        "a": [
-          "The supply has three wires: **live** (red, at about 220 V), **neutral** (black, at zero potential) and **earth** (green).",
-          "Appliances are connected **in parallel** so that each receives the full supply voltage, each has its own switch, and the failure of one does not affect the others. Separate **15 A** and **5 A** circuits are provided for heavy and light appliances.",
-          "**Earth wire:** the metallic body of an appliance is connected to a metal plate buried in the earth, so if the live wire touches the body the leakage current flows safely into the ground instead of through a person — preventing a fatal shock.",
-          "**Fuse:** a short piece of wire of low melting point connected **in series** with the appliance. If the current exceeds the safe value, the fuse wire melts and breaks the circuit, protecting the appliance from damage due to overloading or short circuiting."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "2",
-        "q": "Differentiate between an AC generator and a DC generator.",
-        "a": "An **AC generator** uses two complete slip rings, and the current it produces reverses direction periodically (50 Hz in India). A **DC generator** uses a split-ring commutator, so although the current in the coil reverses, the current in the external circuit always flows in one direction.",
-        "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Magnetic Effects of Electric Current” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Magnetic field and field lines. A magnetic field is the region around a magnet in which its force can be detected. Field lines are closed continuous curves — outside a bar magnet they run from the north to the south pole and inside from south to north. Two field lines never intersect (that would mean two directions of force at one point). The relative strength is shown by how close the lines are.",
-          "Marks lens: –3 marks. Fleming's left-hand and right-hand rules and the difference between AC and DC are asked repeatedly.",
-          "Method / memory trick: Left hand = Motor, Right hand = Generator. *'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.*",
-          "Do not: Saying field lines run from south to north *outside* a magnet. Outside it is north to south."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Magnetic Effects of Electric Current” (Field patterns, the three hand rules, the motor and the generator.). A classmate lost marks by doing this: Saying field lines run from south to north *outside* a magnet. Outside it is north to south. Apply the correct method and rewrite the scoring answer.",
@@ -677,6 +807,16 @@
         ]
       },
       {
+        "m": "3",
+        "q": "How does the strength of the magnetic field at the centre of a current-carrying circular coil depend on the current, the number of turns and the radius of the coil?",
+        "a": [
+          "It is directly proportional to the current flowing through the coil.",
+          "It is directly proportional to the number of turns, because the field of each turn adds up.",
+          "It is inversely proportional to the radius of the coil, so a smaller coil gives a stronger field. This is the principle behind electromagnets and solenoids."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Magnetic Effects of Electric Current”. Their note says: Magnetic field and field lines. A magnetic field is the region around a magnet in which its force can be detected. Field lines are closed continuous curves — outside a bar magnet they run from the north to the south pole and inside from south to north. Two field lines never intersect (that would mea\n\nThe chapter is described as: Field patterns, the three hand rules, the motor and the generator..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -694,6 +834,39 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) Stretch the thumb, forefinger and middle finger of the right hand so that they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the thumb in the direction of motion of the conductor, the middle finger gives the direction of the induced current.",
           "(c) Left hand = Motor, Right hand = Generator. *'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.*"
+        ]
+      },
+      {
+        "m": "4",
+        "q": "Explain the working of an electric generator, including the role of slip rings and the commutator.",
+        "a": [
+          "A coil is rotated mechanically in a magnetic field, so the magnetic flux linked with it keeps changing and an induced current is produced (electromagnetic induction).",
+          "The direction of the induced current reverses every half rotation, which is found by Fleming's right-hand rule.",
+          "In an AC generator two slip rings keep the coil connected to the external circuit without reversing the connections, so the output is alternating current.",
+          "A DC generator replaces them with a split-ring commutator, which reverses the connection to the external circuit every half turn so the output flows in one direction."
+        ],
+        "t": "A"
+      },
+      {
+        "m": "5",
+        "q": "Describe a domestic electric circuit and explain the function of the earth wire and the fuse.",
+        "a": [
+          "The supply has three wires: **live** (red, at about 220 V), **neutral** (black, at zero potential) and **earth** (green).",
+          "Appliances are connected **in parallel** so that each receives the full supply voltage, each has its own switch, and the failure of one does not affect the others. Separate **15 A** and **5 A** circuits are provided for heavy and light appliances.",
+          "**Earth wire:** the metallic body of an appliance is connected to a metal plate buried in the earth, so if the live wire touches the body the leakage current flows safely into the ground instead of through a person — preventing a fatal shock.",
+          "**Fuse:** a short piece of wire of low melting point connected **in series** with the appliance. If the current exceeds the safe value, the fuse wire melts and breaks the circuit, protecting the appliance from damage due to overloading or short circuiting."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Magnetic Effects of Electric Current” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Magnetic field and field lines. A magnetic field is the region around a magnet in which its force can be detected. Field lines are closed continuous curves — outside a bar magnet they run from the north to the south pole and inside from south to north. Two field lines never intersect (that would mean two directions of force at one point). The relative strength is shown by how close the lines are.",
+          "Marks lens: –3 marks. Fleming's left-hand and right-hand rules and the difference between AC and DC are asked repeatedly.",
+          "Method / memory trick: Left hand = Motor, Right hand = Generator. *'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.*",
+          "Do not: Saying field lines run from south to north *outside* a magnet. Outside it is north to south."
         ]
       }
     ],
@@ -717,6 +890,18 @@
       {
         "q": "A 3-mark answer on “Magnetic Effects of Electric Current” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The magnetic field lines inside a long current-carrying solenoid are: (a) concentric circles  (b) parallel straight lines  (c) diverging curves  (d) absent",
+        "a": "**(b) parallel straight lines.** The field inside a solenoid is nearly uniform, like the field inside a bar magnet."
+      },
+      {
+        "q": "An electric motor converts: (a) electrical energy into mechanical energy  (b) mechanical energy into electrical energy  (c) heat into light  (d) chemical energy into sound",
+        "a": "**(a) electrical energy into mechanical energy.** A generator does the reverse conversion."
+      },
+      {
+        "q": "The insulation on the earth wire in a domestic circuit is: (a) red  (b) black  (c) green  (d) blue",
+        "a": "**(c) green.** Live is red or brown, neutral is black or blue, and earth is green or green-yellow."
       }
     ],
     "trend": "Fleming's two rules, the motor or generator working, and the domestic circuit with the earth wire and fuse rotate through the 3-mark slot; 'why field lines never intersect' is a standard 1-marker.",
@@ -728,6 +913,12 @@
     ],
     "task": [
       "Build a simple electromagnet: wind 40 turns of insulated copper wire around an iron nail, connect it to two cells in series with a switch, and test how many pins it picks up. Then double the number of turns and repeat — the number of pins picked up shows that the field strength depends on the number of turns and the current."
+    ],
+    "steps": [
+      "1. Apply **Maxwell's right-hand thumb rule** to fix the direction of the field: thumb along the current, fingers curl along the field lines.",
+      "2. For the force on a conductor, use **Fleming's left-hand rule** (left hand for the motor effect): first finger field, second finger current, thumb force — all three mutually perpendicular.",
+      "3. For an induced current, switch to **Fleming's right-hand rule** (right hand for the generator effect) and state Faraday's law: the induced current is largest when the magnet or coil moves fast.",
+      "4. Finish with the **device and its safety part** — an electric motor uses a commutator to reverse current every half turn; domestic circuits use a fuse or MCB in the live wire, and earthing on the metal body of the appliance."
     ]
   },
   {
@@ -780,6 +971,18 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "Suggest two ways to reduce the problem of waste disposal.",
+        "a": "Segregate waste at the source and send biodegradable waste for composting or vermicomposting; and practise the 5 R's — refuse what is unnecessary, reduce consumption, reuse containers, repurpose items, and recycle paper, plastic, glass and metal.",
+        "t": "A"
+      },
+      {
+        "m": "2",
+        "q": "Distinguish between a food chain and a food web.",
+        "a": "A food chain is a single linear sequence showing who eats whom, for example grass → grasshopper → frog → snake. A food web is a network of many interconnected food chains in an ecosystem; because each organism can feed at more than one level, the web is far more stable than a single chain.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "In a food chain, if 10,000 joules of solar energy is available to the producers, how much energy will be available to the secondary consumer?",
         "a": [
@@ -799,33 +1002,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "What is biological magnification? Will the level of magnification be different at different levels of the ecosystem?",
-        "a": [
-          "Biological magnification is the progressive increase in the concentration of non-biodegradable harmful chemicals at successive trophic levels of a food chain.",
-          "Yes, the level differs. Because these chemicals are not metabolised or excreted, they pass on to the next level, and the amount of food consumed at each level is large, so the concentration keeps increasing.",
-          "**Example:** DDT sprayed on crops is absorbed by plants; grasshoppers eating many plants accumulate more; frogs eating many grasshoppers more still; and hawks at the top accumulate the highest concentration. Human beings, being at the top of many food chains, are among the most affected."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "2",
-        "q": "Suggest two ways to reduce the problem of waste disposal.",
-        "a": "Segregate waste at the source and send biodegradable waste for composting or vermicomposting; and practise the 5 R's — refuse what is unnecessary, reduce consumption, reuse containers, repurpose items, and recycle paper, plastic, glass and metal.",
-        "t": "A"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Our Environment” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Ecosystem. All the living organisms (biotic) in an area together with the non-living (abiotic) components — temperature, rainfall, wind, soil and minerals — form an ecosystem. Producers (green plants and blue-green algae) make their own food; consumers depend on them (herbivores, carnivores, omnivores, parasites); decomposers (bacteria and fungi) break down dead organic matter and return nutrients to the soil. A pond.",
-          "Marks lens: –5 marks. A food-chain question with the 10% energy calculation, one on ozone depletion, and one on biodegradable waste or the two environmental problems.",
-          "Method / memory trick: 10% calculation: move the decimal one place to the left at each level going up, and one place to the right going down.",
-          "Do not: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Our Environment” (Food chains, the 10% law, ozone depletion and waste management.). A classmate lost marks by doing this: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow. Apply the correct method and rewrite the scoring answer.",
@@ -834,6 +1010,16 @@
           "Why the mistake costs marks: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow.",
           "Write the definition or formula first, then the working or example."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Explain the role of decomposers in an ecosystem.",
+        "a": [
+          "Decomposers such as bacteria and fungi break down the dead bodies of plants and animals and their wastes into simple inorganic substances.",
+          "These substances — mineral salts, carbon dioxide and water — go back into the soil and air and are reused by the producers.",
+          "They also clean up the environment. Without decomposers nutrients would stay locked in dead matter and the cycling of matter would stop."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -853,6 +1039,38 @@
           "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
           "(b) Green plants and blue-green algae (producers). An ecosystem is a self-sustaining system in which all the living organisms of an area interact with each other and with the non-living (abiotic) components such as soil, water and air.",
           "(c) 10% calculation: move the decimal one place to the left at each level going up, and one place to the right going down."
+        ]
+      },
+      {
+        "m": "4",
+        "q": "A village panchayat plans to burn its collected plastic waste in the open. Advise them, giving reasons from what you have studied about ecosystems.",
+        "a": [
+          "Open burning of plastic releases poisonous gases such as hydrogen chloride and dioxins into the air, harming people, animals and crops.",
+          "Plastics are non-biodegradable, so if they are buried or dumped they persist in the soil for decades and choke drains and the guts of animals.",
+          "Better: segregate waste at source, send recyclable plastic for recycling, compost the biodegradable fraction, and replace single-use plastic with cloth or paper bags.",
+          "This keeps harmful chemicals out of the soil and water, so they cannot enter food chains and build up by biological magnification."
+        ],
+        "t": "C"
+      },
+      {
+        "m": "5",
+        "q": "What is biological magnification? Will the level of magnification be different at different levels of the ecosystem?",
+        "a": [
+          "Biological magnification is the progressive increase in the concentration of non-biodegradable harmful chemicals at successive trophic levels of a food chain.",
+          "Yes, the level differs. Because these chemicals are not metabolised or excreted, they pass on to the next level, and the amount of food consumed at each level is large, so the concentration keeps increasing.",
+          "**Example:** DDT sprayed on crops is absorbed by plants; grasshoppers eating many plants accumulate more; frogs eating many grasshoppers more still; and hawks at the top accumulate the highest concentration. Human beings, being at the top of many food chains, are among the most affected."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Our Environment” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Ecosystem. All the living organisms (biotic) in an area together with the non-living (abiotic) components — temperature, rainfall, wind, soil and minerals — form an ecosystem. Producers (green plants and blue-green algae) make their own food; consumers depend on them (herbivores, carnivores, omnivores, parasites); decomposers (bacteria and fungi) break down dead organic matter and return nutrients to the soil. A pond.",
+          "Marks lens: –5 marks. A food-chain question with the 10% energy calculation, one on ozone depletion, and one on biodegradable waste or the two environmental problems.",
+          "Method / memory trick: 10% calculation: move the decimal one place to the left at each level going up, and one place to the right going down.",
+          "Do not: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow."
         ]
       }
     ],
@@ -876,6 +1094,18 @@
       {
         "q": "A 3-mark answer on “Our Environment” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
         "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+      },
+      {
+        "q": "The ‘10% law’ in an ecosystem describes the transfer of: (a) energy  (b) water  (c) minerals  (d) oxygen",
+        "a": "**(a) energy.** Only about 10% of the energy at one trophic level is stored in the next; the rest is lost as heat and in life processes."
+      },
+      {
+        "q": "Which of these is a renewable resource? (a) coal  (b) petroleum  (c) sunlight  (d) natural gas",
+        "a": "**(c) sunlight.** Coal, petroleum and natural gas are fossil fuels that take millions of years to form."
+      },
+      {
+        "q": "The ozone layer is being depleted mainly by: (a) CFCs  (b) methane  (c) nitrogen fertilisers  (d) carbon monoxide",
+        "a": "**(a) CFCs.** Chlorofluorocarbons from refrigerants and aerosol sprays release chlorine atoms that destroy ozone molecules."
       }
     ],
     "trend": "One food chain with a 10% energy calculation is asked almost every year, alternating with ozone depletion or biodegradable vs non-biodegradable waste.",
@@ -888,6 +1118,12 @@
     ],
     "task": [
       "Survey your own household waste for three days and sort it into biodegradable and non-biodegradable. Weigh or count each group, then list two things you could refuse or reuse that would remove the largest share of the non-biodegradable waste from the bin."
+    ],
+    "steps": [
+      "1. Identify the level the question is set at: **ecosystem components** (biotic and abiotic), a **food chain or web**, or **waste management**.",
+      "2. For a food chain, write the arrow as **'is eaten by'** and place the producer first. If a pesticide or energy question follows, apply the **10 per cent law** at each trophic level and quote biological magnification for harmful chemicals.",
+      "3. For depletion or pollution, name the **cause, the mechanism and one remedy** — for example, CFCs break ozone, and the remedy was to phase them out under the Montreal Protocol.",
+      "4. Close with the **action** that is asked for: reduce, reuse, recycle (with 'refuse' and 'rethink' if the question wants the full five Rs), and segregate biodegradable from non-biodegradable waste."
     ]
   }
 ]
