@@ -572,7 +572,7 @@
         "t": "S",
         "m": "2",
         "q": "Write criteria to list students whose names start with A and marks above 70.",
-        "a": "Name: `Like 'A*'` AND Marks: `>70` (same criteria row)."
+        "a": "Put both criteria in the **same criteria row**: Name with `Like 'A*'` and Marks with `>70`. Criteria on the same row are joined by **AND**, so a student must satisfy both to appear; putting them on different rows would join them by **OR** and list every student who passes either test."
       },
       {
         "m": "2",

@@ -34,6 +34,12 @@ has a chapter index page (`/chapters.html`) and every chapter has a
 Previous / All chapters / Next strip. The credit line **"Created by Mohammad
 Umair"** appears in the sidebar foot and page footer of every page.
 
+Every chapter page now carries the same sections — a marks lens, deep
+concepts, a step-by-step method, memory tricks, mistakes that cost marks,
+exam Q&A with click-to-reveal answers ordered by marks, and a hands-on task —
+plus a formula list in the subjects that have formulas. See
+[What every chapter contains](site/README.md#what-every-chapter-contains).
+
 See [Deploying the site](#deploying-the-site) below.
 
 ## Inside every subject

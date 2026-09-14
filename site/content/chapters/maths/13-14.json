@@ -77,7 +77,7 @@
       {
         "m": "2",
         "q": "Find the class mark of the class 25–35.",
-        "a": "Class mark = (25 + 35)/2 = 30.",
+        "a": "The class mark is the midpoint of the class: (lower limit + upper limit) ÷ 2 = (25 + 35)/2 = **30**. It stands in for every value in that interval when a mean is calculated from grouped data, which is why it is also called the mid-value.",
         "t": "S"
       },
       {
@@ -294,10 +294,7 @@
       {
         "m": "2",
         "q": "A bag contains 5 red and 3 green balls. One ball is drawn at random. Find the probability that it is not red.",
-        "a": [
-          "Total = 8. P(not red) = P(green) = 3/8.",
-          "Equivalently, 1 − 5/8 = 3/8."
-        ],
+        "a": "Total outcomes = 5 + 3 = 8. Not red means green, so P(not red) = 3/8. Equivalently, using the complement rule: P(not red) = 1 − P(red) = 1 − 5/8 = **3/8**. The complement route is quicker when the event you are asked about has more outcomes than the one you are not.",
         "t": "S"
       },
       {

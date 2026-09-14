@@ -89,7 +89,7 @@
       {
         "m": "3",
         "q": "The HCF of 96 and 404 is 4. Find their LCM.",
-        "a": "HCF × LCM = product, so LCM = (96 × 404)/4 = 38784/4 = 9696.",
+        "a": "For any two positive integers, **HCF × LCM = product of the numbers**. So LCM = (96 × 404) ÷ 4 = 38784 ÷ 4 = **9696**. It is worth checking the result: 9696 ÷ 96 = 101 and 9696 ÷ 404 = 24, and 101 and 24 share no factor, so 9696 really is the least common multiple.",
         "t": "S"
       },
       {
@@ -301,10 +301,7 @@
       {
         "m": "3",
         "q": "Find a quadratic polynomial whose zeroes have sum 1/4 and product −1.",
-        "a": [
-          "p(x) = x² − (1/4)x − 1.",
-          "Clearing the fraction: 4x² − x − 4."
-        ],
+        "a": "A quadratic with zeroes whose sum is S and product is P is **k[x² − Sx + P]**. Here S = 1/4 and P = −1, so p(x) = k[x² − (1/4)x − 1]. Taking k = 4 to clear the fraction gives **4x² − x − 4**. Any non-zero value of k is accepted, since multiplying a polynomial by a constant does not change its zeroes.",
         "t": "S"
       },
       {

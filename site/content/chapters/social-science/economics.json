@@ -241,6 +241,12 @@
     ],
     "task": [
       "Calculate your own BMI and interpret it using the 18.5–25 range. Then find the per capita income, IMR and literacy rate of your state and of Kerala from the latest Human Development Report, and write three sentences explaining any difference — that is exactly a 3-mark board answer."
+    ],
+    "steps": [
+      "1. Begin with the **distinction the chapter opens on**: development means different things to different people, so state whose goal you are using.",
+      "2. Use **income, then look beyond it** — per capita income is a beginning, but literacy, life expectancy, infant mortality and school enrolment say more.",
+      "3. Name the **index or the source** — HDI, World Development Report, or India's own data by state.",
+      "4. Close with **sustainability** — growth that uses up groundwater, forests and clean air is borrowing from the next generation."
     ]
   },
   {
@@ -292,7 +298,12 @@
       },
       "**8. National Rural Employment Guarantee and the shift in the economy.** The rise of the tertiary sector and the fall of agriculture's share in GDP is a feature of **economic development** — in developed countries the service sector dominates. But employment has not shifted at the same rate, so India has a large workforce still dependent on agriculture with low incomes, which is why MGNREGA and rural development matter."
     ],
-    "formulas": [],
+    "formulas": [
+      "GDP = value of all final goods and services produced within a country in a year",
+      "Primary + Secondary + Tertiary = total production; count a good only once, at its final stage",
+      "Organised sector: registered, regular wages, social security; unorganised: none of these guaranteed",
+      "Sectoral share today: tertiary largest by output, primary still largest by employment"
+    ],
     "tricks": [
       "- **Primary = extract, Secondary = make, Tertiary = support.** One word each.",
       "- **The paradox to remember:** tertiary produces the most GDP, primary employs the most people.",
@@ -463,6 +474,12 @@
     ],
     "task": [
       "Take five people you know who work — a farmer, a shopkeeper, a driver, a teacher, a factory worker — and classify each by sector, and as organised or unorganised. Then note which of the five has job security and a provident fund. That single list covers both the sector and the security question."
+    ],
+    "steps": [
+      "1. Classify the activity — **primary, secondary or tertiary** — by what it does to the product, not by how modern it looks.",
+      "2. Give the **sectoral share** and note the trend: the tertiary sector is now the largest, while the primary still employs the most people.",
+      "3. Distinguish **organised and unorganised** work, with the figures for job security, wages and social protection.",
+      "4. Close with **one policy** — MGNREGA, rural credit, or the push for skill development — and what it is meant to fix."
     ]
   },
   {
@@ -520,7 +537,12 @@
       "**5. Self-help groups.** A **self-help group (SHG)** is a group of 15–20 members, usually women from one neighbourhood, who meet and save regularly, each contributing **₹ 25 to ₹ 100 or more** per saving session. Members can take **small loans from the group itself** at a low rate of interest. After a year or two of regular savings, the group becomes eligible for a **loan from a bank**, which is sanctioned in the name of the group, with the group itself responsible for repayment. By 2017–18, more than **9 crore women** were members of SHGs. **Grameen Bank of Bangladesh**, started by **Muhammad Yunus** in the 1970s, showed that poor women can repay loans reliably; it grew to over 9 million members. SHGs help borrowers overcome the problem of lack of collateral, provide a platform to discuss social issues such as health, nutrition and domestic violence, and make women financially self-reliant.",
       "**6. Why credit should be available to all.** Cheap and affordable credit is essential for a country's development, because farmers need loans for seeds, fertilisers and equipment, and small entrepreneurs need loans to start or expand enterprises. At present most of the credit is available only to the rich, so the government should encourage formal sources of lending, expand banks and cooperatives into rural areas, and ensure that small borrowers get loans at a reasonable rate. This is the role of the RBI's supervision and of SHGs."
     ],
-    "formulas": [],
+    "formulas": [
+      "Simple interest = (P × R × T) ÷ 100 — the extra money a borrower pays over the principal",
+      "Total repayment = Principal + Interest; the interest rate is what makes credit cheap or costly",
+      "Formal credit: banks and cooperatives, supervised by the RBI; informal: moneylenders, traders, landlords",
+      "Self-help group: about 15–20 members pool savings and lend to one another at their own rate"
+    ],
     "tricks": [
       "- **Credit helps Salim and traps Swapna.** Name both in any credit question and you have the whole argument.",
       "- **Formal = banks and cooperatives (RBI supervised, low rates, collateral needed). Informal = moneylenders (high rates, no supervision, no collateral).**",
@@ -689,6 +711,12 @@
     ],
     "task": [
       "Ask three adults how they would raise ₹ 20,000 in an emergency and record the source, whether collateral is needed and roughly what interest would be charged. Sort the answers into formal and informal — this is the data the exam expects you to reason with."
+    ],
+    "steps": [
+      "1. Explain the **problem credit solves** with the Salya example the chapter uses, then say what money replaced — barter and its double coincidence of wants.",
+      "2. Distinguish **formal from informal credit** by source, interest rate, collateral and supervision: banks and cooperatives versus moneylenders.",
+      "3. Name the **institutions** — the RBI, commercial banks, SHGs and the priority sector lending rules.",
+      "4. Close on **why cheap credit matters** — high interest pushes a borrower into debt, so the cost of credit decides whether borrowing lifts a family or traps it."
     ]
   },
   {
@@ -713,7 +741,12 @@
       "**6. Impact of globalisation on India.** **Positive:** MNCs have increased investment in India — **Ford, Samsung, Hyundai, Coca-Cola, Pepsi, Nokia** and others have set up production; Indian companies such as **Tata Motors, Infosys, Ranbaxy, Sundaram Fasteners** have themselves become multinationals by acquiring foreign companies; consumers have greater choice at lower prices and better quality; top Indian companies have benefited from competition and now compete globally; **IT and services** have grown rapidly, with business process outsourcing employing lakhs; and India receives a large part of the world's **remittances** from Indians working abroad. **Negative:** globalisation has hit **small producers and workers** hardest. Small industries making batteries, capacitors, plastics, toys, tyres, dairy products, vegetable oil, groundnut oil and **matchboxes** could not compete with cheap imports and many units were shut down, leaving workers unemployed. Workers are increasingly employed on **temporary contracts** at low wages with no job security, and small farmers have been affected by cheap agricultural imports.",
       "**7. Special Economic Zones and fair globalisation.** **Special Economic Zones (SEZs)** are industrial areas set up by the government with world-class facilities — electricity, water, roads, transport, storage, recreational and educational facilities — where companies that set up production get **tax exemption for five years**. SEZs are at **Noida, Gandhidham, Falta, Cochin, Chennai, Visakhapatnam, Santacruz, Kandla, Surat, Nellore** and elsewhere. **Fair globalisation** would create opportunities for all and ensure that the benefits of globalisation are shared better. For this the government must support small producers to improve their performance until they become strong enough to compete, protect workers' rights and implement labour laws properly, negotiate for fairer rules at the WTO, and align with other developing countries. **People's movements** and workers' organisations also play a role in ensuring that globalisation is fair."
     ],
-    "formulas": [],
+    "formulas": [
+      "Globalisation = integration of markets through trade + foreign investment + technology",
+      "Foreign direct investment: buying an asset **and** controlling it; portfolio investment buys shares only",
+      "Trade barrier: a tax (tariff) or a quota that makes imports costlier or scarcer",
+      "1991 reforms: devaluation, removal of licensing, lower tariffs — the year the Indian market opened"
+    ],
     "tricks": [
       "- **MNC = production in two or more countries besides the home country.** That exact wording is a marked step.",
       "- **Three ways MNCs control production: build, buy, place orders.** 'Build, buy, brand.'",
@@ -883,6 +916,12 @@
     ],
     "task": [
       "Look at five products in your home and find where each was made and which company owns the brand. Mark the ones made by an MNC and note the country of origin. Then write three sentences on how that brand reached your town — through a factory, an acquisition, or an order placed with a local producer."
+    ],
+    "steps": [
+      "1. Define globalisation as **integration of markets through trade, investment and technology**, and give the year that matters — 1991.",
+      "2. Name the **mechanisms**: removal of trade barriers, foreign investment, WTO rules, and the spread of information technology.",
+      "3. Give **one Indian example** on each side — the IT and call-centre boom and cheaper consumer goods; and the pressure on small manufacturers and farmers.",
+      "4. Close with **fair globalisation** — the gains are real, but they reach only those with skills, credit and a market to sell into."
     ]
   },
   {
@@ -907,7 +946,12 @@
       "**6. Consumer organisations.** **Consumer protection councils**, **consumer groups**, **women's organisations** and **residents' welfare associations** play a major role in spreading awareness, helping consumers file cases, and pressuring traders and the government. **Bureau of Indian Standards (BIS)** certifies goods with the **ISI mark**; **Agmark** certifies agricultural produce; the **Hallmark** certifies the purity of gold and silver. **Legal Metrology** ensures correct weights and measures. **RTI (Right to Information) Act 2005** also empowers consumers to ask government departments about their functioning.",
       "**7. Duties of a consumer.** Check the expiry and manufacturing dates and the certification marks; ask for a bill; do not buy adulterated or defective goods; complain when cheated, since silence encourages the trader; form consumer groups; and buy only standardised goods where certification is available."
     ],
-    "formulas": [],
+    "formulas": [
+      "Six rights: **Safety, Information, Choice, Redress, Representation, Consumer education**",
+      "COPRA 1986 → three-tier commissions: District (up to ₹1 crore), State, National",
+      "Always keep the **cash memo** — a complaint without proof of purchase does not survive",
+      "Standard marks: ISI (goods), Agmark (agriculture), Hallmark (gold), FSSAI (food), ISO (systems)"
+    ],
     "tricks": [
       "- **COPRA 1986, enacted on 24 December = National Consumers' Day.** The date and the Act go together.",
       "- **Six rights: informed, choose, redressal, represent, safety, education.** *'I Choose Redressal, Representation, Safety, Education'.*",
@@ -1074,6 +1118,12 @@
     ],
     "task": [
       "Visit one shop near your home and record: the MRP and actual price charged on three items, whether a bill was given, and whether any item carried an ISI or Agmark mark. Write it up as a one-page consumer survey with a photograph — that is a complete internal assessment project."
+    ],
+    "steps": [
+      "1. State the **right** that has been violated — safety, information, choice, redress, representation, or consumer education.",
+      "2. Describe the **exploitation** with a concrete case: underweight packets, adulteration, a faulty appliance, or a misleading advertisement.",
+      "3. Name the **remedy and the forum** — the Consumer Protection Act, the district/state/national commissions, and the right to file a complaint with a cash memo as evidence.",
+      "4. Close with **COPRA and consumer awareness** — the movement exists because an individual buyer cannot fight a company alone."
     ]
   }
 ]

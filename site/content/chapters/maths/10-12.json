@@ -293,9 +293,7 @@
       {
         "m": "2",
         "q": "Find the length of an arc of a sector with radius 21 cm and central angle 120°.",
-        "a": [
-          "Arc = (120/360) × 2 × (22/7) × 21 = (1/3) × 132 = 44 cm."
-        ],
+        "a": "Arc length = (θ/360°) × 2πr = (120/360) × 2 × (22/7) × 21 = (1/3) × 132 = **44 cm**. Use 22/7 for π whenever the radius is a multiple of 7, as it is here — the sevens cancel and the arithmetic stays exact.",
         "t": "S"
       },
       {
@@ -307,9 +305,7 @@
       {
         "m": "3",
         "q": "Find the area of a sector of radius 6 cm with a central angle of 60° (take π = 3.14).",
-        "a": [
-          "Area = (60/360) × 3.14 × 36 = (1/6) × 113.04 = 18.84 cm²."
-        ],
+        "a": "Area of sector = (θ/360°) × πr² = (60/360) × 3.14 × 36 = (1/6) × 113.04 = **18.84 cm²**. Here the radius is not a multiple of 7, so π = 3.14 as the question directs, and the unit is cm² because this is an area, not a length.",
         "t": "S"
       },
       {

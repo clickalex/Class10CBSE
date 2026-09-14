@@ -130,6 +130,23 @@ on every subject use Short / Long / Application / Competency cards with
 hidden answers. Every chapter carries both written Q&A and MCQs, so the
 practice page for a chapter always has something to attempt.
 
+### What every chapter contains
+
+An audit of all 174 chapters (2026-09) found gaps in the optional sections
+and uneven ordering, and closed them:
+
+| Section | Coverage |
+|---|---|
+| Marks lens, Deep concepts, Memory tricks, Mistakes, Exam Q&A, Hands-on task | 174 / 174 |
+| Method, step by step | 174 / 174 |
+| Formulas to memorise | 74 / 174 — every maths, science, IT and computer-applications chapter, the five economics chapters and the three Sanskrit grammar chapters; literature chapters do not carry one |
+| Concepts per chapter | maths 5, science 6, social science 7, IT 7, computer-applications 4, english 3, hindi 5, sanskrit 5 |
+
+Median content per chapter now runs from 7,308 characters (hindi poems and
+grammar) to 18,419 (social science). Written Q&A are ordered by marks
+ascending in every chapter, and MCQ options use one label style per chapter
+— Devanagari (क ख ग घ) throughout hindi and sanskrit, Latin elsewhere.
+
 A useful sanity check before committing, because `build.py` does not name the
 file when a JSON file fails to parse:
 

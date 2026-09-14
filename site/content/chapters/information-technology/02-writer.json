@@ -216,7 +216,7 @@
         "t": "S",
         "m": "2",
         "q": "Name any four text-wrapping options in Writer.",
-        "a": "None, Before, After, Parallel, Optimal, Through, In Background (any four)."
+        "a": "Writer offers these wrap options: **None, Before, After, Parallel, Optimal, Through** and **In Background** (any four). **Optimal** is the default — text flows around the object; **Through** lets text pass over it; **In Background** turns the picture into a watermark that sits behind the text. Choose **Optimal** for a report and **In Background** for a letterhead logo."
       },
       {
         "t": "S",

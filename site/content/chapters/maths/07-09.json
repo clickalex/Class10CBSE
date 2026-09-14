@@ -42,9 +42,7 @@
       {
         "m": "2",
         "q": "Find the distance between (−2, 3) and (4, −5).",
-        "a": [
-          "d = √[(4 − (−2))² + (−5 − 3)²] = √[36 + 64] = √100 = 10 units."
-        ],
+        "a": "Using the distance formula d = √[(x₂ − x₁)² + (y₂ − y₁)²]: d = √[(4 − (−2))² + (−5 − 3)²] = √[36 + 64] = √100 = **10 units**. Note the signs: subtracting a negative coordinate becomes an addition, and both differences are squared, so it does not matter which point is taken first.",
         "t": "S"
       },
       {
@@ -497,10 +495,7 @@
       {
         "m": "3",
         "q": "The angle of elevation of the top of a tower from a point 30 m from its foot is 60°. Find the height of the tower.",
-        "a": [
-          "tan 60° = h/30, so √3 = h/30.",
-          "h = 30√3 m ≈ 51.96 m."
-        ],
+        "a": "In the right triangle, tan 60° = height ÷ distance, so √3 = h/30 and **h = 30√3 m ≈ 51.96 m**. Draw the triangle first — the tower is the perpendicular, the 30 m ground distance is the base, and the angle of elevation is at the foot. Unless asked for a decimal, 30√3 m is the exact answer and is preferred.",
         "t": "S"
       },
       {

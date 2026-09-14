@@ -160,6 +160,12 @@
     ],
     "task": [
       "Set a timer for eighteen minutes and do one unseen passage with eight MCQs. Then repeat the same passage the next day and compare your time. Two weeks of this raises the score more than any amount of reading about technique."
+    ],
+    "steps": [
+      "1. Read the **questions first**, then the passage once for the gist and once with the questions in mind — never the other way round.",
+      "2. Underline the **sentences that answer each question** as you read them; this saves a second full read in the exam.",
+      "3. Write in **complete sentences and your own words**, unless the question says 'from the passage'; then quote, but only the part you need.",
+      "4. Keep inside the **word limit**, and finish with a **title** that covers the whole passage rather than one paragraph."
     ]
   },
   {
@@ -322,6 +328,12 @@
     ],
     "task": [
       "Take any newspaper article of about 400 words and make notes on it in eight minutes, then write the 80-word summary. Check your headings: if any of them is a full sentence, rewrite it as a phrase. Do this five times and the format becomes automatic."
+    ],
+    "steps": [
+      "1. Read the passage twice and mark the **main idea** and the supporting points; note-making is not copying sentences.",
+      "2. Build **headings and sub-headings** with roman, capital and small numbers in the standard indented format.",
+      "3. Use **abbreviations** for long or repeated words, and give a **key** for anything a reader could not guess.",
+      "4. Write the **summary** from the notes, never from the passage: one connected paragraph, in your own words, inside the word limit, with the **title** on top."
     ]
   },
   {
@@ -493,6 +505,12 @@
     ],
     "task": [
       "Take any page of a story book, remove ten function words and verbs at random, and fill them back in from memory. Then check. This is exactly the gap-filling exercise the paper sets, and it trains the pattern recognition the questions need."
+    ],
+    "steps": [
+      "1. Read the **whole sentence** before the blank — the tense, subject and voice are usually fixed by the sentence, not the blank.",
+      "2. Name the **choice you are making**: a tense, a modal, a determiner, a preposition or a passive form.",
+      "3. Apply the rule and **read the sentence again** with your answer in it; most errors are caught by ear.",
+      "4. For narration and voice changes, change **one thing at a time** — pronoun, then tense, then time and place words — and check each."
     ]
   },
   {
@@ -666,6 +684,12 @@
     ],
     "task": [
       "Write one letter to the editor and one letter of complaint, both in twelve minutes. Then count the words and check all eight format points. Repeat once a week for a month and the format will not cost you a single mark."
+    ],
+    "steps": [
+      "1. Write the **format first** — sender's address, date, receiver's designation and address, subject, salutation — before a word of the body.",
+      "2. State the **purpose in the first sentence** of the body; a letter that takes three paragraphs to explain itself loses marks.",
+      "3. Add the **detail and the reason**, then the **action you want** — a complaint wants a remedy, an order wants a delivery date.",
+      "4. Close with **'Yours sincerely'** (named) or **'Yours faithfully'** (unnamed), your signature and full name, and re-check the five format points."
     ]
   },
   {
@@ -834,6 +858,12 @@
     ],
     "task": [
       "Find any graph in a newspaper or a textbook and write a 100-word analytical paragraph on it in ten minutes. Then underline your comparison phrases — if you cannot find four, rewrite using more of them."
+    ],
+    "steps": [
+      "1. Note the **data cue** in the question — it will ask you to analyse a chart, a table, a set of facts or a short extract.",
+      "2. Open with one sentence that **states what the data shows overall**, not with the numbers themselves.",
+      "3. Develop **two or three points** with the figures that support them, and say what they mean rather than repeating them.",
+      "4. Close with a **conclusion or trend** — the likely direction, the reason, or the implication — and stay inside the word limit."
     ]
   }
 ]

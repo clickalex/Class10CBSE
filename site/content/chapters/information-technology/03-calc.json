@@ -64,7 +64,11 @@
         "t": "A",
         "m": "3",
         "q": "A shop wants profit of ₹8,000. Profit is `=B2*B3-B4` (price × qty − cost). Which tool, and which cell is “By changing” if qty and cost are fixed?",
-        "a": "Goal Seek. Set cell = profit, To value = 8000, By changing = price (`B2`)."
+        "a": [
+          "Use **Goal Seek** (Tools → Goal Seek). Set cell = the profit cell, To value = 8000, and By changing cell = the price cell `B2`.",
+          " Goal Seek works backwards: instead of asking what the profit is, it asks what input would produce the profit you want, and it tries values until the formula cell reaches 8000.",
+          " Only one input cell can be changed, so the quantity and the cost must stay fixed while the price is adjusted."
+        ]
       },
       {
         "t": "A",
@@ -382,7 +386,7 @@
         "t": "S",
         "m": "2",
         "q": "Write a formula that shows cell B4 of sheet Fees on sheet Summary.",
-        "a": "`=Fees.B4` or `='Fees'.B4`."
+        "a": "`=Fees.B4` — or, if the sheet name contains spaces or punctuation, quote it: `='Fees'.B4`. The sheet name comes first, then a full stop, then the cell address; Calc fills this in for you if you type `=` and then click the cell on the Fees sheet."
       },
       {
         "t": "S",
@@ -400,7 +404,7 @@
         "t": "A",
         "m": "3",
         "q": "Summary sheet must show `Total` from three term sheets named Term1, Term2, Term3, each total in G20. Write the formula.",
-        "a": "`=Term1.G20+Term2.G20+Term3.G20`"
+        "a": "`=Term1.G20+Term2.G20+Term3.G20` — one reference per term sheet, added together. Linking this way means each term file can be updated on its own and the Summary total follows automatically, with no retyping and no copy-paste errors."
       },
       {
         "t": "A",

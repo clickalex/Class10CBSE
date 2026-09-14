@@ -89,10 +89,7 @@
       {
         "m": "3",
         "q": "Find the value of k for which 2x² + kx + 3 = 0 has two equal roots.",
-        "a": [
-          "For equal roots, D = 0, so k² − 4(2)(3) = 0.",
-          "k² = 24, so k = ±2√6."
-        ],
+        "a": "Equal roots means the discriminant is zero: D = b² − 4ac = 0. Here k² − 4(2)(3) = 0, so k² = 24 and **k = ±2√6**. Both signs are needed — (+2√6)² and (−2√6)² are both 24, so each value gives a perfect square with a double root.",
         "t": "S"
       },
       {
@@ -511,10 +508,7 @@
       {
         "m": "2",
         "q": "In ΔABC, DE ∥ BC with AD = 1.5 cm, DB = 3 cm, AE = 1 cm. Find EC.",
-        "a": [
-          "By BPT, AD/DB = AE/EC.",
-          "1.5/3 = 1/EC, so EC = 2 cm."
-        ],
+        "a": "By the **Basic Proportionality Theorem**, a line parallel to one side of a triangle divides the other two sides in the same ratio: AD/DB = AE/EC. So 1.5/3 = 1/EC, giving EC = (3 × 1)/1.5 = **2 cm**. The theorem only applies because DE ∥ BC is given — without that, the ratio cannot be used.",
         "t": "S"
       },
       {
