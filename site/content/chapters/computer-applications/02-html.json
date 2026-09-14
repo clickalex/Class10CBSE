@@ -53,20 +53,9 @@
     ],
     "qa": [
       {
-        "m": "3",
-        "q": "Write an HTML page that displays the heading 'My School' and a paragraph about it.",
-        "a": [
-          "`<html>`",
-          "`  <head>`",
-          "`    <title>My School</title>`",
-          "`  </head>`",
-          "`  <body>`",
-          "`    <h1>My School</h1>`",
-          "`    <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p>`",
-          "`  </body>`",
-          "`</html>`",
-          "The `<title>` sits inside `<head>` and names the browser tab; everything visible is inside `<body>`."
-        ],
+        "m": "1",
+        "q": "What is the difference between `<br>` and `<p>`?",
+        "a": "`<br>` inserts a single **line break** inside existing text without any spacing, while `<p>` starts a **new paragraph**, which the browser surrounds with vertical space before and after.",
         "t": "S"
       },
       {
@@ -88,21 +77,27 @@
         "t": "S"
       },
       {
-        "m": "1",
-        "q": "What is the difference between `<br>` and `<p>`?",
-        "a": "`<br>` inserts a single **line break** inside existing text without any spacing, while `<p>` starts a **new paragraph**, which the browser surrounds with vertical space before and after.",
+        "m": "2",
+        "q": "What is HTML and what is the basic structure of an HTML document?",
+        "a": "HTML is the markup language in which web pages are written, using tags to describe the structure and meaning of the content. A document starts with <!DOCTYPE html>, then an <html> element containing a <head> with the <title>, and a <body> with everything the visitor sees.",
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “HTML I — Introduction & Basic Tags” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "m": "3",
+        "q": "Write an HTML page that displays the heading 'My School' and a paragraph about it.",
         "a": [
-          "What HTML is. HTML stands for HyperText Markup Language. It is *not* a programming language — it has no variables, conditions or loops. It is a markup language: you surround content with tags that describe what the content *is*, and the browser decides how to display it. HTML files are saved with a .html or .htm extension and are plain text.",
-          "Marks lens: Write a complete HTML page by hand; give the purpose of a tag; predict the output of a snippet.",
-          "Method / memory trick: <title> lives in <head>, not <body>. This single fact is worth a mark in most papers.",
-          "Do not: Putting <title> inside <body>."
-        ]
+          "`<html>`",
+          "`  <head>`",
+          "`    <title>My School</title>`",
+          "`  </head>`",
+          "`  <body>`",
+          "`    <h1>My School</h1>`",
+          "`    <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p>`",
+          "`  </body>`",
+          "`</html>`",
+          "The `<title>` sits inside `<head>` and names the browser tab; everything visible is inside `<body>`."
+        ],
+        "t": "S"
       },
       {
         "t": "A",
@@ -122,6 +117,17 @@
           "Idea: What HTML is, the skeleton of a document, and the tags you use on every page..",
           "<html> <head> <title>My School</title> </head> <body> <h1>My School</h1> <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p> </body> </html> The <title> sits inside <head> and names the browser tab; everything visible is inside <body>."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Write the HTML for a page titled ‘My School' with one heading and one paragraph.",
+        "a": [
+          "Start with <!DOCTYPE html> so that the browser knows this is HTML5.",
+          "<html> wraps the whole document, <head> holds <title>My School</title>.",
+          "<body> holds <h1>My School</h1> for the main heading and <p>My school has thirty classrooms and a large library.</p> for the text.",
+          "Close with </body></html>; every opening tag must have a matching closing tag."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -144,21 +150,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is HTML and what is the basic structure of an HTML document?",
-        "a": "HTML is the markup language in which web pages are written, using tags to describe the structure and meaning of the content. A document starts with <!DOCTYPE html>, then an <html> element containing a <head> with the <title>, and a <body> with everything the visitor sees.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Write the HTML for a page titled ‘My School' with one heading and one paragraph.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “HTML I — Introduction & Basic Tags” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Start with <!DOCTYPE html> so that the browser knows this is HTML5.",
-          "<html> wraps the whole document, <head> holds <title>My School</title>.",
-          "<body> holds <h1>My School</h1> for the main heading and <p>My school has thirty classrooms and a large library.</p> for the text.",
-          "Close with </body></html>; every opening tag must have a matching closing tag."
-        ],
-        "t": "S"
+          "What HTML is. HTML stands for HyperText Markup Language. It is *not* a programming language — it has no variables, conditions or loops. It is a markup language: you surround content with tags that describe what the content *is*, and the browser decides how to display it. HTML files are saved with a .html or .htm extension and are plain text.",
+          "Marks lens: Write a complete HTML page by hand; give the purpose of a tag; predict the output of a snippet.",
+          "Method / memory trick: <title> lives in <head>, not <body>. This single fact is worth a mark in most papers.",
+          "Do not: Putting <title> inside <body>."
+        ]
       }
     ],
     "mcq": [
@@ -251,36 +251,12 @@
     ],
     "qa": [
       {
-        "m": "3",
-        "q": "Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.",
-        "a": [
-          "`<html>`",
-          "`  <body>`",
-          "`    <ol type='I' start='3'>`",
-          "`      <li>Mathematics</li>`",
-          "`      <li>Science</li>`",
-          "`      <li>Social Science</li>`",
-          "`      <li>English</li>`",
-          "`    </ol>`",
-          "`  </body>`",
-          "`</html>`",
-          "The `type='I'` attribute gives capital Roman numerals and `start='3'` makes the list begin at III."
-        ],
-        "t": "S"
-      },
-      {
         "m": "2",
         "q": "Write the HTML to display the text 'Water' with the 2 as a subscript.",
         "a": [
           "`<p>Water is written as H<sub>2</sub>O.</p>`",
           "The `<sub>` tag lowers the character it wraps, producing H₂O. Its opposite is `<sup>`, which raises text — used for powers such as x`<sup>`2`</sup>`."
         ],
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Explain the `<font>` tag with its attributes.",
-        "a": "The `<font>` tag changes how a piece of text looks. It takes three attributes. **`face`** sets the typeface, for example `face='Arial'`. **`size`** sets the size on a scale of **1 to 7**, for example `size='5'`. **`color`** sets the colour, either by name such as `color='red'` or by hexadecimal code such as `color='#FF0000'`. An example is `<font face='Arial' size='5' color='blue'>Hello</font>`.",
         "t": "S"
       },
       {
@@ -299,15 +275,34 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “HTML II — Text Formatting & Lists” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "m": "2",
+        "q": "Which tags make text bold, italic and underlined? Which should you prefer and why?",
+        "a": "<b> makes text bold and <i> makes it italic, while <u> underlines it. <strong> and <em> also make text bold and italic, but they carry meaning: they tell search engines and screen readers that the words are important or stressed, which is better for accessibility.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.",
         "a": [
-          "Style tags. <b> makes text bold, <i> makes it *italic*, <u> underlines it, <tt> shows typewriter text, <strike> draws a line through it. <sub> lowers text for chemical formulas like H<sub>2</sub>O, and <sup> raises it for powers like x<sup>2</sup>. <center> centres a block of content.",
-          "Marks lens: Produce a given visual output as HTML; name the attribute that does a given job.",
-          "Method / memory trick: <ul> = bullets, <ol> = numbers. Both use <li>.",
-          "Do not: Using <ul> when the output clearly shows numbers."
-        ]
+          "`<html>`",
+          "`  <body>`",
+          "`    <ol type='I' start='3'>`",
+          "`      <li>Mathematics</li>`",
+          "`      <li>Science</li>`",
+          "`      <li>Social Science</li>`",
+          "`      <li>English</li>`",
+          "`    </ol>`",
+          "`  </body>`",
+          "`</html>`",
+          "The `type='I'` attribute gives capital Roman numerals and `start='3'` makes the list begin at III."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain the `<font>` tag with its attributes.",
+        "a": "The `<font>` tag changes how a piece of text looks. It takes three attributes. **`face`** sets the typeface, for example `face='Arial'`. **`size`** sets the size on a scale of **1 to 7**, for example `size='5'`. **`color`** sets the colour, either by name such as `color='red'` or by hexadecimal code such as `color='#FF0000'`. An example is `<font face='Arial' size='5' color='blue'>Hello</font>`.",
+        "t": "S"
       },
       {
         "t": "A",
@@ -327,6 +322,17 @@
           "Idea: Bold, italic, alignment, colour — plus ordered, unordered and definition lists..",
           "<html> <body> <ol type='I' start='3'> <li>Mathematics</li> <li>Science</li> <li>Social Science</li> <li>English</li> </ol> </body> </html> The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Write the HTML for an ordered list of three steps and an unordered list of two items.",
+        "a": [
+          "Ordered list: <ol> then <li>Open the file</li>, <li>Edit the text</li>, <li>Save the page</li>, then </ol>.",
+          "The browser numbers the items automatically, so adding or removing an item renumbers the rest.",
+          "Unordered list: <ul> then <li>Notebook</li>, <li>Pen</li>, then </ul>, which shows bullets instead of numbers.",
+          "Lists may be nested: put a <ul> inside an <li> to make a sub-list."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -349,21 +355,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "Which tags make text bold, italic and underlined? Which should you prefer and why?",
-        "a": "<b> makes text bold and <i> makes it italic, while <u> underlines it. <strong> and <em> also make text bold and italic, but they carry meaning: they tell search engines and screen readers that the words are important or stressed, which is better for accessibility.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Write the HTML for an ordered list of three steps and an unordered list of two items.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “HTML II — Text Formatting & Lists” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Ordered list: <ol> then <li>Open the file</li>, <li>Edit the text</li>, <li>Save the page</li>, then </ol>.",
-          "The browser numbers the items automatically, so adding or removing an item renumbers the rest.",
-          "Unordered list: <ul> then <li>Notebook</li>, <li>Pen</li>, then </ul>, which shows bullets instead of numbers.",
-          "Lists may be nested: put a <ul> inside an <li> to make a sub-list."
-        ],
-        "t": "S"
+          "Style tags. <b> makes text bold, <i> makes it *italic*, <u> underlines it, <tt> shows typewriter text, <strike> draws a line through it. <sub> lowers text for chemical formulas like H<sub>2</sub>O, and <sup> raises it for powers like x<sup>2</sup>. <center> centres a block of content.",
+          "Marks lens: Produce a given visual output as HTML; name the attribute that does a given job.",
+          "Method / memory trick: <ul> = bullets, <ol> = numbers. Both use <li>.",
+          "Do not: Using <ul> when the output clearly shows numbers."
+        ]
       }
     ],
     "mcq": [
@@ -452,20 +452,9 @@
     ],
     "qa": [
       {
-        "m": "3",
-        "q": "Write HTML to create a link to the CBSE website that opens in a new tab, and a link that emails the principal.",
-        "a": [
-          "`<a href='https://www.cbse.gov.in' target='_blank'>Visit CBSE</a>`",
-          "`<br>`",
-          "`<a href='mailto:principal@school.edu'>Email the Principal</a>`",
-          "The first uses an absolute URL and `target='_blank'` so it opens in a new tab. The second uses the `mailto:` prefix, which makes the browser open the user's email program with the address already filled in."
-        ],
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Explain the `<img>` tag with any four of its attributes.",
-        "a": "The `<img>` tag inserts an image into a page and is an **empty tag**, so it has no closing partner. **`src`** gives the location of the image file and is compulsory — without it nothing displays. **`alt`** provides alternative text shown when the image fails to load and read by screen readers. **`width`** and **`height`** set the displayed size in pixels or as a percentage of the container. **`align`** controls how the image sits beside surrounding text, and **`border`** draws a frame around it. An example is `<img src='logo.png' alt='School logo' width='200' height='100'>`.",
+        "m": "1",
+        "q": "What does the `alt` attribute do?",
+        "a": "The **`alt`** attribute supplies alternative text for an image. It is displayed when the image cannot be loaded and is read aloud by screen readers for visually impaired users, which is why it should always be included.",
         "t": "S"
       },
       {
@@ -481,21 +470,27 @@
         "t": "S"
       },
       {
-        "m": "1",
-        "q": "What does the `alt` attribute do?",
-        "a": "The **`alt`** attribute supplies alternative text for an image. It is displayed when the image cannot be loaded and is read aloud by screen readers for visually impaired users, which is why it should always be included.",
+        "m": "2",
+        "q": "What is the difference between an absolute and a relative URL in a link?",
+        "a": "An absolute URL gives the complete address, such as https://www.example.com/notes/unit1.html, and works no matter where the linking page is stored. A relative URL gives the path from the page you are on, such as notes/unit1.html or ../images/logo.png, and stops working if the folder structure changes.",
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “HTML III — Links & Images” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "m": "3",
+        "q": "Write HTML to create a link to the CBSE website that opens in a new tab, and a link that emails the principal.",
         "a": [
-          "The anchor tag. <a href='destination'>text</a> creates a hyperlink. href (hypertext reference) holds the address of the destination. The destination can be another page on the same site, a page on another site, an email address using mailto:, or a place further down the same page.",
-          "Marks lens: Write a working link or image tag; explain the difference between absolute and relative paths.",
-          "Method / memory trick: href for links, src for sources. <a href>, <img src>, <script src>.",
-          "Do not: Writing <img href=...> instead of <img src=...>."
-        ]
+          "`<a href='https://www.cbse.gov.in' target='_blank'>Visit CBSE</a>`",
+          "`<br>`",
+          "`<a href='mailto:principal@school.edu'>Email the Principal</a>`",
+          "The first uses an absolute URL and `target='_blank'` so it opens in a new tab. The second uses the `mailto:` prefix, which makes the browser open the user's email program with the address already filled in."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain the `<img>` tag with any four of its attributes.",
+        "a": "The `<img>` tag inserts an image into a page and is an **empty tag**, so it has no closing partner. **`src`** gives the location of the image file and is compulsory — without it nothing displays. **`alt`** provides alternative text shown when the image fails to load and read by screen readers. **`width`** and **`height`** set the displayed size in pixels or as a percentage of the container. **`align`** controls how the image sits beside surrounding text, and **`border`** draws a frame around it. An example is `<img src='logo.png' alt='School logo' width='200' height='100'>`.",
+        "t": "S"
       },
       {
         "t": "A",
@@ -515,6 +510,17 @@
           "Idea: The <a> tag, href, anchors, and the <img> tag with its attributes..",
           "<a href='https://www.cbse.gov.in' target='_blank'>Visit CBSE</a> <br> <a href='mailto:principal@school.edu'>Email the Principal</a> The first uses an absolute URL and target='_blank' so it opens in a new tab. The second uses the mailto: prefix, which makes the browser open the user's email program with the address already filled in."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Write HTML to display the image logo.png at 200 by 100 pixels and make it a link to home.html.",
+        "a": [
+          "Put the image inside the anchor: `<a href='home.html'>`, then the image tag, then `</a>`.",
+          "The image tag is <img src=\"logo.png\" width=\"200\" height=\"100\" alt=\"School logo\">.",
+          "The src attribute gives the file, width and height set the size in pixels, and alt gives the text shown if the image cannot load or is read aloud.",
+          "Because the `<img>` tag sits inside the `<a>` tag, clicking the picture opens the page named in `href`."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -537,21 +543,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is the difference between an absolute and a relative URL in a link?",
-        "a": "An absolute URL gives the complete address, such as https://www.example.com/notes/unit1.html, and works no matter where the linking page is stored. A relative URL gives the path from the page you are on, such as notes/unit1.html or ../images/logo.png, and stops working if the folder structure changes.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Write HTML to display the image logo.png at 200 by 100 pixels and make it a link to home.html.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “HTML III — Links & Images” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Put the image inside the anchor: `<a href='home.html'>`, then the image tag, then `</a>`.",
-          "The image tag is <img src=\"logo.png\" width=\"200\" height=\"100\" alt=\"School logo\">.",
-          "The src attribute gives the file, width and height set the size in pixels, and alt gives the text shown if the image cannot load or is read aloud.",
-          "Because the `<img>` tag sits inside the `<a>` tag, clicking the picture opens the page named in `href`."
-        ],
-        "t": "S"
+          "The anchor tag. <a href='destination'>text</a> creates a hyperlink. href (hypertext reference) holds the address of the destination. The destination can be another page on the same site, a page on another site, an email address using mailto:, or a place further down the same page.",
+          "Marks lens: Write a working link or image tag; explain the difference between absolute and relative paths.",
+          "Method / memory trick: href for links, src for sources. <a href>, <img src>, <script src>.",
+          "Do not: Writing <img href=...> instead of <img src=...>."
+        ]
       }
     ],
     "mcq": [
@@ -647,22 +647,9 @@
     ],
     "qa": [
       {
-        "m": "4",
-        "q": "Write HTML for a table with a merged title cell across two columns, a header row and one data row.",
-        "a": [
-          "`<table border='1' width='300'>`",
-          "`  <tr><th colspan='2'>Student Report</th></tr>`",
-          "`  <tr><th>Name</th><th>Marks</th></tr>`",
-          "`  <tr><td>Asha</td><td>88</td></tr>`",
-          "`</table>`",
-          "The first row uses `colspan='2'` so the title stretches across both columns; that row therefore contains only one cell instead of two."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "3",
-        "q": "Explain colspan and rowspan with an example.",
-        "a": "**`colspan='n'`** makes a single cell stretch across **n columns**. For example `<td colspan='3'>Heading</td>` occupies the width of three columns, so that row needs three fewer `<td>` tags than a normal row. **`rowspan='n'`** makes a cell stretch down **n rows**. For example, a `<td rowspan='2'>Science</td>` in the first of two rows covers both rows, so the second row must not include a cell in that position. Using them incorrectly is what makes a table look misaligned.",
+        "m": "1",
+        "q": "What does `<caption>` do in a table?",
+        "a": "`<caption>` gives the table a title. It is placed immediately after the opening `<table>` tag and is displayed above the table by default.",
         "t": "S"
       },
       {
@@ -678,21 +665,16 @@
         "t": "S"
       },
       {
-        "m": "1",
-        "q": "What does `<caption>` do in a table?",
-        "a": "`<caption>` gives the table a title. It is placed immediately after the opening `<table>` tag and is displayed above the table by default.",
+        "m": "2",
+        "q": "Name the tags used to build a table and say what each does.",
+        "a": "<table> begins the table; <tr> makes one row; <td> makes one data cell; <th> makes a heading cell, which is bold and centred by default; and <caption> puts a title above the table. Rows always contain cells, never the other way round.",
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “HTML Tables” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The structure. A table is built from three nested levels. <table> is the whole grid. Each <tr> is one row (think *t*able *r*ow). Each <td> is one cell or data column inside that row (think *t*able *d*ata). A table with three rows and two columns needs three <tr> blocks, each containing two <td> cells.",
-          "Marks lens: Convert a drawn table into HTML and vice versa; explain rowspan and colspan.",
-          "Method / memory trick: <tr> = row, <td> = cell. Rows contain cells, never the other way round.",
-          "Do not: Putting <td> directly inside <table> without a <tr>."
-        ]
+        "m": "3",
+        "q": "Explain colspan and rowspan with an example.",
+        "a": "**`colspan='n'`** makes a single cell stretch across **n columns**. For example `<td colspan='3'>Heading</td>` occupies the width of three columns, so that row needs three fewer `<td>` tags than a normal row. **`rowspan='n'`** makes a cell stretch down **n rows**. For example, a `<td rowspan='2'>Science</td>` in the first of two rows covers both rows, so the second row must not include a cell in that position. Using them incorrectly is what makes a table look misaligned.",
+        "t": "S"
       },
       {
         "t": "A",
@@ -712,6 +694,30 @@
           "Idea: <table>, <tr>, <td>, borders, and the two attributes that merge cells..",
           "<table border='1' width='300'> <tr><th colspan='2'>Student Report</th></tr> <tr><th>Name</th><th>Marks</th></tr> <tr><td>Asha</td><td>88</td></tr> </table> The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Explain colspan and rowspan with an example of each.",
+        "a": [
+          "colspan makes a cell spread across two or more columns, so <td colspan=\"2\">Total</td> covers both columns of a two-column table.",
+          "rowspan makes a cell spread down two or more rows, so one label can stand beside several entries without being repeated.",
+          "Both are written inside the tag of the cell that is being stretched.",
+          "After using them, the stretched cells are not written again in the rows they cover."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Write HTML for a table with a merged title cell across two columns, a header row and one data row.",
+        "a": [
+          "`<table border='1' width='300'>`",
+          "`  <tr><th colspan='2'>Student Report</th></tr>`",
+          "`  <tr><th>Name</th><th>Marks</th></tr>`",
+          "`  <tr><td>Asha</td><td>88</td></tr>`",
+          "`</table>`",
+          "The first row uses `colspan='2'` so the title stretches across both columns; that row therefore contains only one cell instead of two."
+        ],
+        "t": "L"
       },
       {
         "t": "C",
@@ -734,21 +740,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "Name the tags used to build a table and say what each does.",
-        "a": "<table> begins the table; <tr> makes one row; <td> makes one data cell; <th> makes a heading cell, which is bold and centred by default; and <caption> puts a title above the table. Rows always contain cells, never the other way round.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Explain colspan and rowspan with an example of each.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “HTML Tables” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "colspan makes a cell spread across two or more columns, so <td colspan=\"2\">Total</td> covers both columns of a two-column table.",
-          "rowspan makes a cell spread down two or more rows, so one label can stand beside several entries without being repeated.",
-          "Both are written inside the tag of the cell that is being stretched.",
-          "After using them, the stretched cells are not written again in the rows they cover."
-        ],
-        "t": "S"
+          "The structure. A table is built from three nested levels. <table> is the whole grid. Each <tr> is one row (think *t*able *r*ow). Each <td> is one cell or data column inside that row (think *t*able *d*ata). A table with three rows and two columns needs three <tr> blocks, each containing two <td> cells.",
+          "Marks lens: Convert a drawn table into HTML and vice versa; explain rowspan and colspan.",
+          "Method / memory trick: <tr> = row, <td> = cell. Rows contain cells, never the other way round.",
+          "Do not: Putting <td> directly inside <table> without a <tr>."
+        ]
       }
     ],
     "mcq": [
@@ -838,32 +838,6 @@
     ],
     "qa": [
       {
-        "m": "4",
-        "q": "Write an HTML form with a name field, a password field, two radio buttons for gender, a hobbies checkbox group, and submit and reset buttons.",
-        "a": [
-          "`<form action='/submit' method='post'>`",
-          "`  Name: <input type='text' name='uname'><br>`",
-          "`  Password: <input type='password' name='upass'><br>`",
-          "`  Gender:`",
-          "`  <input type='radio' name='gender' value='male'> Male`",
-          "`  <input type='radio' name='gender' value='female'> Female<br>`",
-          "`  Hobbies:`",
-          "`  <input type='checkbox' name='hobby' value='reading'> Reading`",
-          "`  <input type='checkbox' name='hobby' value='music'> Music<br>`",
-          "`  <input type='submit' value='Send'>`",
-          "`  <input type='reset' value='Clear'>`",
-          "`</form>`",
-          "Both radio buttons share the name `gender`, so only one can be chosen; the two checkboxes are independent, so both can be ticked."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "3",
-        "q": "What is the difference between the GET and POST methods?",
-        "a": "**GET** appends the form data to the URL as a query string, such as `search.html?q=physics`. The data is visible in the address bar, is limited in length, and can be bookmarked or shared — which makes GET suitable for searches. **POST** places the data in the body of the HTTP request, so it does not appear in the URL, has no practical size limit, and can carry files. POST is therefore used for logins, registrations and any form carrying sensitive or large data.",
-        "t": "S"
-      },
-      {
         "m": "2",
         "q": "What is the difference between radio buttons and checkboxes?",
         "a": "**Radio buttons** allow the user to choose **only one** option from a group, and all buttons in that group must share the same `name` attribute. **Checkboxes** allow **any number** of options to be selected at once, including none or all. Visually, radios are round and checkboxes are square.",
@@ -889,15 +863,16 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “HTML Forms” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The form tag. <form> wraps every control. Its two important attributes are action, the URL that receives the data, and method, which is either get or post. GET appends the data to the URL as a query string, so it is visible, short and can be bookmarked — suitable for searches. POST sends the data in the body of the request, so it is not shown in the address bar and has no practical size limit — used for logins and fo.",
-          "Marks lens: Write a complete form; name the input type for a given control; explain method and action.",
-          "Method / memory trick: Radios share a name; checkboxes do not. That one rule separates the two.",
-          "Do not: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose."
-        ]
+        "m": "2",
+        "q": "What do the action and method attributes of the <form> tag do?",
+        "a": "action gives the URL of the page or program that will receive and process the data, for example action=\"save.php\". method says how the data is sent: GET appends it to the URL, which is fine for short, public searches, and POST sends it in the body of the request, which is needed for passwords, long text and file uploads.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What is the difference between the GET and POST methods?",
+        "a": "**GET** appends the form data to the URL as a query string, such as `search.html?q=physics`. The data is visible in the address bar, is limited in length, and can be bookmarked or shared — which makes GET suitable for searches. **POST** places the data in the body of the HTTP request, so it does not appear in the URL, has no practical size limit, and can carry files. POST is therefore used for logins, registrations and any form carrying sensitive or large data.",
+        "t": "S"
       },
       {
         "t": "A",
@@ -917,6 +892,37 @@
           "Idea: <form>, every <input> type, <textarea>, <select> and the buttons..",
           "<form action='/submit' method='post'> Name: <input type='text' name='uname'><br> Password: <input type='password' name='upass'><br> Gender: <input type='radio' name='gender' value='male'> Male <input type='radio' name='gender' value='female'> Female<br> Hobbies: <input type='checkbox' name='hobby' value='reading'> Reading <input type='checkbox' name='hobby' value='music'> Music<br> <input type='submit' value='Send'> <input type='reset' value='Clear'> </form> Both radio buttons share the name gender, so only one can be chosen; the two checkboxes are independent, so both can be ticked."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Write the HTML for a form with a text box for a name, two radio buttons for gender, a checkbox for a hobby and a submit button.",
+        "a": [
+          "Open the form with <form action=\"save.php\" method=\"post\">.",
+          "Name: <input type=\"text\" name=\"name\"> and then <br> for a new line.",
+          "Gender: <input type=\"radio\" name=\"gender\" value=\"f\"> Female and <input type=\"radio\" name=\"gender\" value=\"m\"> Male; radio buttons with the same name allow only one choice.",
+          "Hobby: <input type=\"checkbox\" name=\"hobby\" value=\"music\"> Music, then <input type=\"submit\" value=\"Send\"> and close with </form>."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "4",
+        "q": "Write an HTML form with a name field, a password field, two radio buttons for gender, a hobbies checkbox group, and submit and reset buttons.",
+        "a": [
+          "`<form action='/submit' method='post'>`",
+          "`  Name: <input type='text' name='uname'><br>`",
+          "`  Password: <input type='password' name='upass'><br>`",
+          "`  Gender:`",
+          "`  <input type='radio' name='gender' value='male'> Male`",
+          "`  <input type='radio' name='gender' value='female'> Female<br>`",
+          "`  Hobbies:`",
+          "`  <input type='checkbox' name='hobby' value='reading'> Reading`",
+          "`  <input type='checkbox' name='hobby' value='music'> Music<br>`",
+          "`  <input type='submit' value='Send'>`",
+          "`  <input type='reset' value='Clear'>`",
+          "`</form>`",
+          "Both radio buttons share the name `gender`, so only one can be chosen; the two checkboxes are independent, so both can be ticked."
+        ],
+        "t": "L"
       },
       {
         "t": "C",
@@ -939,21 +945,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What do the action and method attributes of the <form> tag do?",
-        "a": "action gives the URL of the page or program that will receive and process the data, for example action=\"save.php\". method says how the data is sent: GET appends it to the URL, which is fine for short, public searches, and POST sends it in the body of the request, which is needed for passwords, long text and file uploads.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Write the HTML for a form with a text box for a name, two radio buttons for gender, a checkbox for a hobby and a submit button.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “HTML Forms” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Open the form with <form action=\"save.php\" method=\"post\">.",
-          "Name: <input type=\"text\" name=\"name\"> and then <br> for a new line.",
-          "Gender: <input type=\"radio\" name=\"gender\" value=\"f\"> Female and <input type=\"radio\" name=\"gender\" value=\"m\"> Male; radio buttons with the same name allow only one choice.",
-          "Hobby: <input type=\"checkbox\" name=\"hobby\" value=\"music\"> Music, then <input type=\"submit\" value=\"Send\"> and close with </form>."
-        ],
-        "t": "S"
+          "The form tag. <form> wraps every control. Its two important attributes are action, the URL that receives the data, and method, which is either get or post. GET appends the data to the URL as a query string, so it is visible, short and can be bookmarked — suitable for searches. POST sends the data in the body of the request, so it is not shown in the address bar and has no practical size limit — used for logins and fo.",
+          "Marks lens: Write a complete form; name the input type for a given control; explain method and action.",
+          "Method / memory trick: Radios share a name; checkboxes do not. That one rule separates the two.",
+          "Do not: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose."
+        ]
       }
     ],
     "mcq": [
@@ -1033,6 +1033,30 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "What is the difference between `<frame>` and `<iframe>`?",
+        "a": "A **`<frame>`** can only be used inside a `<frameset>`, which replaces the document's `<body>` and splits the entire browser window into separate regions. An **`<iframe>`** (inline frame) is placed inside an ordinary page and embeds another document in a rectangular area within it, leaving the rest of the page untouched. In practice iframes are still common for maps and embedded videos, while framesets are considered outdated.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "What does the `<marquee>` tag do? Name two of its attributes.",
+        "a": "The `<marquee>` tag makes its content scroll across the page. Two of its attributes are **`direction`**, which sets the direction of movement — `left`, `right`, `up` or `down` — and **`scrollamount`**, which sets how fast it moves. A third, **`behavior`**, chooses between `scroll` (continuous), `slide` (moves once and stops) and `alternate` (bounces back and forth).",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Why is the `<pre>` tag used?",
+        "a": "The `<pre>` tag displays text **exactly as it is typed**, preserving all spaces, tabs and line breaks. Ordinary HTML collapses multiple spaces into one and ignores line breaks, so `<pre>` is used whenever the formatting itself matters — for code samples, ASCII diagrams or poetry.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "What is the difference between a frameset and an iframe?",
+        "a": "A frameset divides the window into two or more independent frames using <frameset> and <frame>, and it replaces the <body> tag entirely; it has been removed from HTML5. An iframe puts a small separate window inside an ordinary page with <iframe src=\"...\">, keeps the rest of the page intact, and is still supported, so it is the way to embed another document today.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Write HTML to divide the browser window into two rows, the top 25% showing a header and the bottom 75% showing content.",
         "a": [
@@ -1054,35 +1078,6 @@
         "t": "S"
       },
       {
-        "m": "2",
-        "q": "What is the difference between `<frame>` and `<iframe>`?",
-        "a": "A **`<frame>`** can only be used inside a `<frameset>`, which replaces the document's `<body>` and splits the entire browser window into separate regions. An **`<iframe>`** (inline frame) is placed inside an ordinary page and embeds another document in a rectangular area within it, leaving the rest of the page untouched. In practice iframes are still common for maps and embedded videos, while framesets are considered outdated.",
-        "t": "S"
-      },
-      {
-        "m": "2",
-        "q": "What does the `<marquee>` tag do? Name two of its attributes.",
-        "a": "The `<marquee>` tag makes its content scroll across the page. Two of its attributes are **`direction`**, which sets the direction of movement — `left`, `right`, `up` or `down` — and **`scrollamount`**, which sets how fast it moves. A third, **`behavior`**, chooses between `scroll` (continuous), `slide` (moves once and stops) and `alternate` (bounces back and forth).",
-        "t": "S"
-      },
-      {
-        "m": "2",
-        "q": "Why is the `<pre>` tag used?",
-        "a": "The `<pre>` tag displays text **exactly as it is typed**, preserving all spaces, tabs and line breaks. Ordinary HTML collapses multiple spaces into one and ignores line breaks, so `<pre>` is used whenever the formatting itself matters — for code samples, ASCII diagrams or poetry.",
-        "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Frames, Multimedia & Special Tags” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Frames. A frame divides the browser window into separate regions, each showing a different HTML document. Frames are declared in a <frameset> document, which replaces <body> entirely. rows='30%,70%' splits the window horizontally into stacked bands; cols='25%,75%' splits it vertically into side-by-side columns. Each region is then filled by a <frame src='file.html'>. The name attribute on a frame lets a link in one f.",
-          "Marks lens: Explain what a frame does; write an audio or video tag; give the purpose of a special tag.",
-          "Method / memory trick: rows = horizontal bands, cols = vertical columns. Picture the lines you are drawing.",
-          "Do not: Writing a <body> in a frameset document — <frameset> replaces it."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Frames, Multimedia & Special Tags” (Framesets, iframes, audio and video, marquee, and the closing tags of Unit II.). A classmate lost marks by doing this: Writing a <body> in a frameset document — <frameset> replaces it. Apply the correct method and rewrite the scoring answer.",
@@ -1100,6 +1095,17 @@
           "Idea: Framesets, iframes, audio and video, marquee, and the closing tags of Unit II..",
           "<html> <head><title>Frames</title></head> <frameset rows='25%,75%'> <frame src='header.html'> <frame src='content.html'> </frameset> </html> Note that there is no <body> — a <frameset> document replaces it. rows splits the window into horizontal bands, and each <frame> loads one document into its band."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Write HTML to embed a video with the browser's own controls, and name two related tags from this chapter.",
+        "a": [
+          "<video src=\"lesson.mp4\" width=\"320\" height=\"240\" controls></video> embeds the video with play, pause and volume controls.",
+          "<audio src=\"song.mp3\" controls></audio> does the same for sound.",
+          "For older browsers you can list several <source> tags inside <video> so that the browser picks a format it can play.",
+          "<marquee> scrolls text across the page, but it is not part of HTML5 and should be avoided in new pages."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -1122,21 +1128,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is the difference between a frameset and an iframe?",
-        "a": "A frameset divides the window into two or more independent frames using <frameset> and <frame>, and it replaces the <body> tag entirely; it has been removed from HTML5. An iframe puts a small separate window inside an ordinary page with <iframe src=\"...\">, keeps the rest of the page intact, and is still supported, so it is the way to embed another document today.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Write HTML to embed a video with the browser's own controls, and name two related tags from this chapter.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Frames, Multimedia & Special Tags” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "<video src=\"lesson.mp4\" width=\"320\" height=\"240\" controls></video> embeds the video with play, pause and volume controls.",
-          "<audio src=\"song.mp3\" controls></audio> does the same for sound.",
-          "For older browsers you can list several <source> tags inside <video> so that the browser picks a format it can play.",
-          "<marquee> scrolls text across the page, but it is not part of HTML5 and should be avoided in new pages."
-        ],
-        "t": "S"
+          "Frames. A frame divides the browser window into separate regions, each showing a different HTML document. Frames are declared in a <frameset> document, which replaces <body> entirely. rows='30%,70%' splits the window horizontally into stacked bands; cols='25%,75%' splits it vertically into side-by-side columns. Each region is then filled by a <frame src='file.html'>. The name attribute on a frame lets a link in one f.",
+          "Marks lens: Explain what a frame does; write an audio or video tag; give the purpose of a special tag.",
+          "Method / memory trick: rows = horizontal bands, cols = vertical columns. Picture the lines you are drawing.",
+          "Do not: Writing a <body> in a frameset document — <frameset> replaces it."
+        ]
       }
     ],
     "mcq": [

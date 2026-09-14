@@ -74,6 +74,12 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "Why is it said that a resource is a function of human wants and technology?",
+        "a": "A substance becomes a resource only when human beings find a use for it and have the technology and the will to use it. Petroleum was just a black liquid until refining technology made it valuable; as technology and wants change, substances move in and out of being resources.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Distinguish between renewable and non-renewable resources with examples.",
         "a": "Renewable resources can be renewed or reproduced by physical, chemical or mechanical processes and are inexhaustible in the long run — solar and wind energy, water, forests and wildlife. Non-renewable resources occur over very long geological periods and cannot be replenished once used up — coal, petroleum and natural gas, and metallic minerals such as iron ore.",
@@ -86,16 +92,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "What is sustainable development and why is it important? Refer to Agenda 21.",
-        "a": [
-          "Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs. It requires that economic growth go hand in hand with environmental protection and social equity.",
-          "**Why it matters:** indiscriminate use of resources has led to depletion, concentration of resources in a few hands, land degradation and global ecological crises such as global warming and ozone depletion.",
-          "**Agenda 21** was adopted by the first Earth Summit held at Rio de Janeiro in 1992. It is a declaration of global agreement and international cooperation to combat environmental damage, poverty and disease through sustainable development, and it also provides that every local government should draw its own local Agenda 21."
-        ],
-        "t": "L"
-      },
-      {
         "m": "3",
         "q": "What are the causes of land degradation in India and how can it be controlled?",
         "a": [
@@ -103,17 +99,6 @@
           "**Control:** large-scale afforestation, proper management of grazing, shelter belts of plants, stabilisation of sand dunes by growing thorny bushes, proper discharge and treatment of industrial effluents, and control on mining."
         ],
         "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Resources and Development” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "What is a resource? Anything available in our environment that can be used to satisfy our needs, provided it is technologically accessible, economically feasible and culturally acceptable. Human beings are themselves resources — hence *human resource*. Development of resources happens through interaction between nature, technology and institutions.",
-          "Marks lens: –4 marks. Soil types with crops and states is the most repeated question; sustainable development and Agenda 21 recur as short answers.",
-          "Method / memory trick: Four ways to classify: origin, exhaustibility, ownership, status of development — *'O-E-O-S'.*",
-          "Do not: Giving forest cover as 33%. Actual forest area is about 22.8%; 33% is the target of the National Forest Policy of 1952."
-        ]
       },
       {
         "t": "A",
@@ -133,6 +118,16 @@
           "Idea: Types of resources, land use, soil types and conservation..",
           "Renewable resources can be renewed or reproduced by physical, chemical or mechanical processes and are inexhaustible in the long run — solar and wind energy, water, forests and wildlife. Non-renewable resources occur over very long geological periods and cannot be replenished once used up — coal, petroleum and natural gas, and metallic minerals such as iron ore."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Suggest any three methods of soil conservation used in India.",
+        "a": [
+          "Contour ploughing and terracing on hill slopes slow down the flow of water and check soil erosion.",
+          "Strip cropping and planting shelterbelts of trees reduce erosion caused by wind, especially in dry regions.",
+          "Controlling overgrazing, preventing deforestation and practising crop rotation and gully plugging keep the soil covered and fertile."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -155,22 +150,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "Why is it said that a resource is a function of human wants and technology?",
-        "a": "A substance becomes a resource only when human beings find a use for it and have the technology and the will to use it. Petroleum was just a black liquid until refining technology made it valuable; as technology and wants change, substances move in and out of being resources.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Suggest any three methods of soil conservation used in India.",
-        "a": [
-          "Contour ploughing and terracing on hill slopes slow down the flow of water and check soil erosion.",
-          "Strip cropping and planting shelterbelts of trees reduce erosion caused by wind, especially in dry regions.",
-          "Controlling overgrazing, preventing deforestation and practising crop rotation and gully plugging keep the soil covered and fertile."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Compare alluvial soil and laterite soil — how each is formed, where it is found and what it grows.",
         "a": [
@@ -180,6 +159,27 @@
           "With manures and irrigation it grows tea, coffee, rubber, cashew and tapioca."
         ],
         "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "What is sustainable development and why is it important? Refer to Agenda 21.",
+        "a": [
+          "Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs. It requires that economic growth go hand in hand with environmental protection and social equity.",
+          "**Why it matters:** indiscriminate use of resources has led to depletion, concentration of resources in a few hands, land degradation and global ecological crises such as global warming and ozone depletion.",
+          "**Agenda 21** was adopted by the first Earth Summit held at Rio de Janeiro in 1992. It is a declaration of global agreement and international cooperation to combat environmental damage, poverty and disease through sustainable development, and it also provides that every local government should draw its own local Agenda 21."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Resources and Development” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "What is a resource? Anything available in our environment that can be used to satisfy our needs, provided it is technologically accessible, economically feasible and culturally acceptable. Human beings are themselves resources — hence *human resource*. Development of resources happens through interaction between nature, technology and institutions.",
+          "Marks lens: –4 marks. Soil types with crops and states is the most repeated question; sustainable development and Agenda 21 recur as short answers.",
+          "Method / memory trick: Four ways to classify: origin, exhaustibility, ownership, status of development — *'O-E-O-S'.*",
+          "Do not: Giving forest cover as 33%. Actual forest area is about 22.8%; 33% is the target of the National Forest Policy of 1952."
+        ]
       }
     ],
     "mcq": [
@@ -329,6 +329,12 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "What is biodiversity and why is it important?",
+        "a": "Biodiversity is the variety of plant and animal life found in a region or in the world. It keeps ecosystems stable, recycles nutrients, maintains the climate and water cycle, and supplies food, medicines, fibre and other raw materials on which human life depends.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "What are the categories of species recognised for conservation? Give one example of each.",
         "a": [
@@ -342,19 +348,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "Explain any five causes of the depletion of forests and wildlife in India.",
-        "a": [
-          "**Agricultural expansion and shifting cultivation** have cleared large forest tracts.",
-          "**Large development projects** — dams, roads, railways and mines — submerge or cut through forests.",
-          "**Mining and quarrying** destroy habitats and pollute streams.",
-          "**Grazing and the collection of fuel wood** prevent regeneration.",
-          "**Poaching and illegal trade** in skins, tusks and horns target the most threatened species.",
-          "**Habitat destruction and fragmentation** leave small populations that a single fire or disease can wipe out."
-        ],
-        "t": "L"
-      },
-      {
         "m": "3",
         "q": "How have local communities conserved forests and wildlife? Give two examples.",
         "a": "Villagers around the Sariska Tiger Reserve in Alwar (Rajasthan) fought against mining in the reserve, and villages of the Bhairodev Dakav 'Sonchuri' in the same district framed their own rules banning hunting and protecting wildlife. The Chipko movement stopped felling in the Himalayas when women hugged the trees, the Beej Bachao Andolan saved indigenous seeds, and in sacred groves such as the Sarna and devrai, forests are protected by religious custom rather than by law.",
@@ -365,17 +358,6 @@
         "q": "What is Joint Forest Management and why does it matter?",
         "a": "Joint Forest Management, introduced in 1988 and first adopted in Odisha, is a programme in which local communities protect and regenerate forests together with the Forest Department, in return for a share of the produce of the forest. It matters because protection works only when the people who live next to the forest have an interest in it.",
         "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Forest and Wildlife Resources” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Biodiversity. The variety of plants, animals and micro-organisms, and the ecosystems they live in. India is one of the world's mega-diverse countries: about 8 per cent of all recorded species are found here — roughly 47,000 species of plants and 81,000 species of animals, of which about 15,000 are flowering plants (6 per cent of the world's total). Three levels are protected together: genetic diversity, species diver.",
-          "Marks lens: Part of the 20 geography marks. Usually one 3-mark or 5-mark question, plus map pointing from the national parks and sanctuaries named here.",
-          "Method / memory trick: Order of seriousness: normal → rare → vulnerable → endangered → extinct. *Rare is few and local, vulnerable is falling, endangered is nearly gone.*",
-          "Do not: Mixing up rare and endangered. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues."
-        ]
       },
       {
         "t": "A",
@@ -395,6 +377,16 @@
           "Idea: Biodiversity, why species disappear, and the laws and movements that protect them..",
           "Normal species — population levels are normal, e.g. cattle and rodents. Endangered species — in danger of extinction, e.g. the black buck and the Indian rhino. Vulnerable species — declining and likely to become endangered, e.g. the Asiatic elephant. Rare species — a small population in a limited area, e.g. the Himalayan brown bear. Extinct species — no longer found, e.g. the Asiatic cheetah. Endemic species — found only in one area, e.g. the Andaman teal."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Distinguish between a wildlife sanctuary, a national park and a biosphere reserve.",
+        "a": [
+          "In a wildlife sanctuary, hunting is banned and some human activity such as grazing or collection of forest produce is allowed under restrictions.",
+          "In a national park, no human activity at all is permitted inside the core area; grazing, forestry and cultivation are prohibited.",
+          "A biosphere reserve is a larger area divided into core, buffer and transition zones, in which conservation, research and limited human use go together; a reserve may include several sanctuaries and parks."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -417,22 +409,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is biodiversity and why is it important?",
-        "a": "Biodiversity is the variety of plant and animal life found in a region or in the world. It keeps ecosystems stable, recycles nutrients, maintains the climate and water cycle, and supplies food, medicines, fibre and other raw materials on which human life depends.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Distinguish between a wildlife sanctuary, a national park and a biosphere reserve.",
-        "a": [
-          "In a wildlife sanctuary, hunting is banned and some human activity such as grazing or collection of forest produce is allowed under restrictions.",
-          "In a national park, no human activity at all is permitted inside the core area; grazing, forestry and cultivation are prohibited.",
-          "A biosphere reserve is a larger area divided into core, buffer and transition zones, in which conservation, research and limited human use go together; a reserve may include several sanctuaries and parks."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Describe the Chipko movement and what it achieved.",
         "a": [
@@ -442,6 +418,30 @@
           "The movement showed that local communities can manage forests better than distant contractors, and it inspired later conservation struggles in India."
         ],
         "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "Explain any five causes of the depletion of forests and wildlife in India.",
+        "a": [
+          "**Agricultural expansion and shifting cultivation** have cleared large forest tracts.",
+          "**Large development projects** — dams, roads, railways and mines — submerge or cut through forests.",
+          "**Mining and quarrying** destroy habitats and pollute streams.",
+          "**Grazing and the collection of fuel wood** prevent regeneration.",
+          "**Poaching and illegal trade** in skins, tusks and horns target the most threatened species.",
+          "**Habitat destruction and fragmentation** leave small populations that a single fire or disease can wipe out."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Forest and Wildlife Resources” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Biodiversity. The variety of plants, animals and micro-organisms, and the ecosystems they live in. India is one of the world's mega-diverse countries: about 8 per cent of all recorded species are found here — roughly 47,000 species of plants and 81,000 species of animals, of which about 15,000 are flowering plants (6 per cent of the world's total). Three levels are protected together: genetic diversity, species diver.",
+          "Marks lens: Part of the 20 geography marks. Usually one 3-mark or 5-mark question, plus map pointing from the national parks and sanctuaries named here.",
+          "Method / memory trick: Order of seriousness: normal → rare → vulnerable → endangered → extinct. *Rare is few and local, vulnerable is falling, endangered is nearly gone.*",
+          "Do not: Mixing up rare and endangered. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues."
+        ]
       }
     ],
     "mcq": [
@@ -525,19 +525,16 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "Why is water scarcity in India often a problem of management rather than of availability?",
+        "a": "India receives plenty of monsoon rain, but most of it flows away unused. Scarcity is caused by over-extraction of groundwater, unequal access between rich and poor, pollution of rivers and tanks by domestic and industrial waste, and wasteful irrigation and domestic use — so the problem is how water is stored, distributed and used.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Why is water scarcity increasing in India?",
         "a": "Because of a growing population, which raises the demand for water for drinking and for growing more food and cash crops; rapid urbanisation and changing lifestyles that consume more water; over-exploitation of groundwater by commercial farming; and unequal access between social groups. In many regions water is abundant but polluted by domestic and industrial waste and by pesticides and fertilisers, so it cannot be used without treatment.",
         "t": "S"
-      },
-      {
-        "m": "5",
-        "q": "Multi-purpose river projects have several advantages but also several drawbacks. Explain.",
-        "a": [
-          "**Advantages:** they provide water for irrigation, generate hydroelectricity, control floods, help inland navigation, supply water to industries and cities, and provide fish breeding, recreation and landscape value. Nehru proudly called dams the temples of modern India.",
-          "**Drawbacks:** (i) large dams submerge forests and agricultural land and displace local communities, who are often not properly rehabilitated — the Narmada Bachao Andolan and the Tehri Dam Andolan grew out of this; (ii) they disturb the natural flow of rivers, causing poor sediment flow and excessive sedimentation at the bottom of the reservoir, which destroys habitats; (iii) they cause waterlogging and soil salinity in the command area; (iv) they trigger inter-state disputes over the sharing of costs and benefits, as between Karnataka, Maharashtra and Andhra Pradesh over the Krishna-Godavari waters; (v) they have induced earthquakes and, in the case of the Sardar Sarovar project, sparked protests when urban water supply was given priority over irrigation for farmers."
-        ],
-        "t": "L"
       },
       {
         "m": "3",
@@ -550,17 +547,6 @@
         "q": "What is rooftop rainwater harvesting and where has it been made compulsory?",
         "a": "It is a method in which rainwater falling on rooftops is collected through pipes and stored in underground tanks or used to recharge groundwater. It is common in Meghalaya, where bamboo pipes are used, and in Tamil Nadu it has been made compulsory for all houses, with legal provisions to punish defaulters.",
         "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Water Resources” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Water resources. About three-fourths of the earth's surface is covered with water, but only about 2.5% is fresh water, and nearly 70% of that is frozen in ice sheets; almost all the rest is groundwater. India ranks 133rd in the world in terms of water availability per person per annum (2010 data). Renewable water resources amount to about 1,869 cubic km. About 22% of the total water used is in the industrial sector;.",
-          "Marks lens: marks. Multi-purpose river projects with their benefits and drawbacks is the set question; rainwater harvesting methods come second.",
-          "Method / memory trick: Dams: give three benefits and three drawbacks in every answer — irrigation, power, flood control against displacement, sedimentation and conflict. Full marks need both sides.",
-          "Do not: Writing only the benefits of dams. The question almost always asks for drawbacks too."
-        ]
       },
       {
         "t": "A",
@@ -580,6 +566,16 @@
           "Idea: Scarcity, multi-purpose projects, and rainwater harvesting..",
           "Because of a growing population, which raises the demand for water for drinking and for growing more food and cash crops; rapid urbanisation and changing lifestyles that consume more water; over-exploitation of groundwater by commercial farming; and unequal access between social groups. In many regions water is abundant but polluted by domestic and industrial waste and by pesticides and fertilisers, so it cannot be used without treatment."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Mention any three problems caused by large multi-purpose river projects.",
+        "a": [
+          "Large numbers of tribal and peasant families are displaced and often inadequately resettled and rehabilitated.",
+          "Forests and biodiversity are submerged, and the flow and ecology of the river are disturbed.",
+          "Benefits are unequal: canals usually serve the richer farmers in the command area, causing waterlogging and salinity, while the poor and the downstream areas gain little."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -602,22 +598,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "Why is water scarcity in India often a problem of management rather than of availability?",
-        "a": "India receives plenty of monsoon rain, but most of it flows away unused. Scarcity is caused by over-extraction of groundwater, unequal access between rich and poor, pollution of rivers and tanks by domestic and industrial waste, and wasteful irrigation and domestic use — so the problem is how water is stored, distributed and used.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Mention any three problems caused by large multi-purpose river projects.",
-        "a": [
-          "Large numbers of tribal and peasant families are displaced and often inadequately resettled and rehabilitated.",
-          "Forests and biodiversity are submerged, and the flow and ecology of the river are disturbed.",
-          "Benefits are unequal: canals usually serve the richer farmers in the command area, causing waterlogging and salinity, while the poor and the downstream areas gain little."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Write one important fact each about the Hirakud, Bhakra Nangal and Sardar Sarovar projects.",
         "a": [
@@ -626,6 +606,26 @@
           "Sardar Sarovar, on the Narmada in Gujarat, has been at the centre of a long struggle over the displacement of adivasis and peasants, led by the Narmada Bachao Andolan."
         ],
         "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "Multi-purpose river projects have several advantages but also several drawbacks. Explain.",
+        "a": [
+          "**Advantages:** they provide water for irrigation, generate hydroelectricity, control floods, help inland navigation, supply water to industries and cities, and provide fish breeding, recreation and landscape value. Nehru proudly called dams the temples of modern India.",
+          "**Drawbacks:** (i) large dams submerge forests and agricultural land and displace local communities, who are often not properly rehabilitated — the Narmada Bachao Andolan and the Tehri Dam Andolan grew out of this; (ii) they disturb the natural flow of rivers, causing poor sediment flow and excessive sedimentation at the bottom of the reservoir, which destroys habitats; (iii) they cause waterlogging and soil salinity in the command area; (iv) they trigger inter-state disputes over the sharing of costs and benefits, as between Karnataka, Maharashtra and Andhra Pradesh over the Krishna-Godavari waters; (v) they have induced earthquakes and, in the case of the Sardar Sarovar project, sparked protests when urban water supply was given priority over irrigation for farmers."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Water Resources” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Water resources. About three-fourths of the earth's surface is covered with water, but only about 2.5% is fresh water, and nearly 70% of that is frozen in ice sheets; almost all the rest is groundwater. India ranks 133rd in the world in terms of water availability per person per annum (2010 data). Renewable water resources amount to about 1,869 cubic km. About 22% of the total water used is in the industrial sector;.",
+          "Marks lens: marks. Multi-purpose river projects with their benefits and drawbacks is the set question; rainwater harvesting methods come second.",
+          "Method / memory trick: Dams: give three benefits and three drawbacks in every answer — irrigation, power, flood control against displacement, sedimentation and conflict. Full marks need both sides.",
+          "Do not: Writing only the benefits of dams. The question almost always asks for drawbacks too."
+        ]
       }
     ],
     "mcq": [
@@ -760,6 +760,12 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "What is mixed cropping? Why do farmers practise it?",
+        "a": "Mixed cropping is growing two or more crops together on the same field in the same season, for example wheat and gram. It reduces the risk of total crop failure, keeps the soil fertile because different crops use different nutrients, and checks the spread of pests.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Describe the geographical conditions required for the growth of rice.",
         "a": "Rice is a kharif crop that requires a temperature above 25 °C and high humidity, with annual rainfall above 100 cm. It grows best in the plains of north and north-eastern India, the coastal areas and the deltaic regions. In areas of less rainfall, such as Punjab, Haryana and western Uttar Pradesh, it is grown with the help of irrigation and canal networks.",
@@ -772,18 +778,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "Describe the impact of globalisation on Indian agriculture.",
-        "a": [
-          "Indian agriculture has faced the impact of globalisation since colonial times — indigo was grown for export and forced upon farmers, leading to the Champaran revolt.",
-          "Today, Indian farmers face competition from highly subsidised agriculture in developed countries, so the prices of agricultural produce are unstable and many small farmers find cultivation unviable.",
-          "Liberalisation has removed restrictions on imports, so cheaper imports of edible oils and grains have reduced demand for Indian produce.",
-          "**Positive side:** improved technology, HYV and genetically modified seeds, better irrigation and access to information have raised productivity in some regions, and organic farming is opening new markets.",
-          "**Result:** a large number of small and marginal farmers have withdrawn from farming, and agriculture is no longer a rewarding occupation for them."
-        ],
-        "t": "L"
-      },
-      {
         "m": "3",
         "q": "What is plantation agriculture? Give one example.",
         "a": "It is a type of commercial farming in which a single crop is grown on a large area, using capital-intensive inputs and migrant labour, and the produce is used as raw material in industries. Tea in Assam and North Bengal, coffee in Karnataka, rubber in Kerala and banana in southern India are examples; the production of tea in Assam was developed by the British with capital, technology and indentured labour.",
@@ -794,17 +788,6 @@
         "q": "What is buffer stock and why is it created?",
         "a": "Buffer stock is a stock of foodgrains, mainly wheat and rice, procured by the government through the Food Corporation of India. It is created to distribute foodgrains in deficit areas and among the poorer strata of society at a price lower than the market price, and to meet the shortage during a bad harvest or a calamity.",
         "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Agriculture” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Agriculture in India. About two-thirds of India's population is engaged in agriculture, which provides most of the food consumed, produces raw material for industries, and earns foreign exchange through exports of tea, coffee and spices. It is the backbone of the economy.",
-          "Marks lens: –4 marks. The geographical conditions of rice/wheat/tea/coffee and the three cropping seasons are asked almost every year.",
-          "Method / memory trick: Kharif = monsoon (June–July to Sept–Oct); Rabi = winter (Oct–Dec to April–June); Zaid = summer. *'Kharif rain, Rabi grain, Zaid melon.'*",
-          "Do not: Mixing up kharif and rabi crops. Wheat, gram, mustard and barley are rabi; rice, cotton, jute and maize are kharif."
-        ]
       },
       {
         "t": "A",
@@ -824,6 +807,17 @@
           "Idea: Cropping patterns, crop requirements and food security..",
           "Rice is a kharif crop that requires a temperature above 25 °C and high humidity, with annual rainfall above 100 cm. It grows best in the plains of north and north-eastern India, the coastal areas and the deltaic regions. In areas of less rainfall, such as Punjab, Haryana and western Uttar Pradesh, it is grown with the help of irrigation and canal networks."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Describe the geographical conditions required for growing sugarcane and name the main producing states.",
+        "a": [
+          "Sugarcane needs a hot and humid climate with a temperature of about 21°C to 27°C.",
+          "It requires 75 to 100 cm of rainfall, plenty of sunshine and a long growing season of 10 to 12 months.",
+          "It grows best in well-drained fertile soil and needs a large supply of cheap labour for harvesting and crushing.",
+          "The main producers are Uttar Pradesh, Maharashtra, Karnataka, Tamil Nadu, Gujarat and Bihar."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -846,23 +840,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is mixed cropping? Why do farmers practise it?",
-        "a": "Mixed cropping is growing two or more crops together on the same field in the same season, for example wheat and gram. It reduces the risk of total crop failure, keeps the soil fertile because different crops use different nutrients, and checks the spread of pests.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Describe the geographical conditions required for growing sugarcane and name the main producing states.",
-        "a": [
-          "Sugarcane needs a hot and humid climate with a temperature of about 21°C to 27°C.",
-          "It requires 75 to 100 cm of rainfall, plenty of sunshine and a long growing season of 10 to 12 months.",
-          "It grows best in well-drained fertile soil and needs a large supply of cheap labour for harvesting and crushing.",
-          "The main producers are Uttar Pradesh, Maharashtra, Karnataka, Tamil Nadu, Gujarat and Bihar."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Explain any three institutional and technological reforms that changed Indian agriculture.",
         "a": [
@@ -872,6 +849,29 @@
           "There is now a growing shift towards organic farming, contract farming and diversification into horticulture and dairy."
         ],
         "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "Describe the impact of globalisation on Indian agriculture.",
+        "a": [
+          "Indian agriculture has faced the impact of globalisation since colonial times — indigo was grown for export and forced upon farmers, leading to the Champaran revolt.",
+          "Today, Indian farmers face competition from highly subsidised agriculture in developed countries, so the prices of agricultural produce are unstable and many small farmers find cultivation unviable.",
+          "Liberalisation has removed restrictions on imports, so cheaper imports of edible oils and grains have reduced demand for Indian produce.",
+          "**Positive side:** improved technology, HYV and genetically modified seeds, better irrigation and access to information have raised productivity in some regions, and organic farming is opening new markets.",
+          "**Result:** a large number of small and marginal farmers have withdrawn from farming, and agriculture is no longer a rewarding occupation for them."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Agriculture” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Agriculture in India. About two-thirds of India's population is engaged in agriculture, which provides most of the food consumed, produces raw material for industries, and earns foreign exchange through exports of tea, coffee and spices. It is the backbone of the economy.",
+          "Marks lens: –4 marks. The geographical conditions of rice/wheat/tea/coffee and the three cropping seasons are asked almost every year.",
+          "Method / memory trick: Kharif = monsoon (June–July to Sept–Oct); Rabi = winter (Oct–Dec to April–June); Zaid = summer. *'Kharif rain, Rabi grain, Zaid melon.'*",
+          "Do not: Mixing up kharif and rabi crops. Wheat, gram, mustard and barley are rabi; rice, cotton, jute and maize are kharif."
+        ]
       }
     ],
     "mcq": [
@@ -954,6 +954,12 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "What is meant by a conventional source of energy? Give two examples.",
+        "a": "Conventional sources are those that have been in use for a long time and are non-renewable, so their stock is limited and cannot be replaced within a human lifetime. Examples: coal, petroleum, natural gas and firewood.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Distinguish between conventional and non-conventional sources of energy with two examples each.",
         "a": "Conventional sources have been in use for a long time, are largely exhaustible, cause pollution and are costly to obtain — for example coal and petroleum. Non-conventional sources are recently developed, are renewable and eco-friendly, and have lower running costs — for example solar and wind energy.",
@@ -970,6 +976,67 @@
         "q": "Describe the distribution of iron ore in India.",
         "a": "Iron ore is the basic mineral and the backbone of industrial development. Hematite, the finest quality with up to 70% iron, and magnetite, with 60–70% iron and excellent magnetic properties, are found in four belts: the Odisha-Jharkhand belt (Badampahar and Mayurbhanj in Odisha, Kiriburu in Jharkhand); the Durg-Bastar-Chandrapur belt in Chhattisgarh and Maharashtra, including the famous Bailadila mines whose ore is exported to Japan and South Korea; the Bellary-Chitradurga-Chikkamagaluru-Tumakuru belt in Karnataka with the large Kudremukh mines; and the Maharashtra-Goa belt, whose ore is exported through the Marmagao port.",
         "t": "S"
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya is revising “Minerals and Energy Resources” (Mineral belts, conventional and non-conventional energy.). A classmate lost marks by doing this: Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best. Apply the correct method and rewrite the scoring answer.",
+        "a": [
+          "Correct method: Coal ranks: Anthracite > Bituminous > Lignite > Peat. *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses.",
+          "Why the mistake costs marks: Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best.",
+          "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Amit is given this exam-style task from “Minerals and Energy Resources”: “Distinguish between conventional and non-conventional sources of energy with two examples each.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "a": [
+          "Idea: Mineral belts, conventional and non-conventional energy..",
+          "Conventional sources have been in use for a long time, are largely exhaustible, cause pollution and are costly to obtain — for example coal and petroleum. Non-conventional sources are recently developed, are renewable and eco-friendly, and have lower running costs — for example solar and wind energy."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "Describe the distribution of coal in India and the types of coal found.",
+        "a": [
+          "Most of India's coal comes from the Gondwana rocks of the Damodar valley: Raniganj, Jharia, Bokaro and Karanpura in Jharkhand and West Bengal.",
+          "Other important coalfields are Korba in Chhattisgarh, Talcher in Odisha, Singrauli in Madhya Pradesh and Singareni in Telangana.",
+          "Anthracite, the highest-quality coal with over 80% carbon, occurs only in Reasi district of Jammu and Kashmir.",
+          "Bituminous coal is the most common and is mined in Jharkhand, Odisha, Chhattisgarh and West Bengal; lignite (brown coal) is mined at Neyveli in Tamil Nadu, and in Gujarat and Rajasthan."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Minerals and Energy Resources”. Their note says: Minerals. A mineral is a homogeneous, naturally occurring substance with a definite internal structure, found in various forms from the hardest diamond to the softest talc. They are classified as metallic (iron, manganese, copper, bauxite) and non-metallic (limestone, mica, gypsum), and as ferrous a\n\nThe chapter is described as: Mineral belts, conventional and non-conventional energy..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "a": [
+          "(a) Mineral belts, conventional and non-conventional energy.",
+          "(b) marks. The difference between conventional and non-conventional sources, and one mineral with its belt, is the usual question.",
+          "(c) Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best."
+        ]
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nTwo students attempt: “Distinguish between conventional and non-conventional sources of energy with two examples each.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "a": [
+          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
+          "(b) Conventional sources have been in use for a long time, are largely exhaustible, cause pollution and are costly to obtain — for example coal and petroleum. Non-conventional sources are recently developed, are renewable and eco-friendly, and have lower running costs — for example solar and wind energy.",
+          "(c) Coal ranks: Anthracite > Bituminous > Lignite > Peat. *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses."
+        ]
+      },
+      {
+        "m": "4",
+        "q": "Explain why non-conventional sources of energy are being promoted, and describe solar and wind energy.",
+        "a": [
+          "Coal and petroleum are limited and their use pollutes the air and adds to global warming, while demand keeps rising; non-conventional sources are renewable and much cleaner.",
+          "Solar energy is captured by photovoltaic cells that convert sunlight directly into electricity and by solar thermal plants; India's largest solar parks are in Gujarat, Rajasthan and Madhya Pradesh.",
+          "Wind energy uses clusters of windmills in windy areas; the biggest wind farms are in Tamil Nadu, Gujarat, Maharashtra, Karnataka, Rajasthan and Andhra Pradesh.",
+          "India is now among the world's leading producers of wind power, and the government supports both through subsidies and renewable purchase obligations."
+        ],
+        "t": "L"
       },
       {
         "m": "5",
@@ -994,73 +1061,6 @@
           "Method / memory trick: Coal ranks: Anthracite > Bituminous > Lignite > Peat. *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses.",
           "Do not: Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best."
         ]
-      },
-      {
-        "t": "A",
-        "m": "3",
-        "q": "Riya is revising “Minerals and Energy Resources” (Mineral belts, conventional and non-conventional energy.). A classmate lost marks by doing this: Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best. Apply the correct method and rewrite the scoring answer.",
-        "a": [
-          "Correct method: Coal ranks: Anthracite > Bituminous > Lignite > Peat. *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses.",
-          "Why the mistake costs marks: Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best.",
-          "Write the definition or formula first, then the working or example."
-        ]
-      },
-      {
-        "t": "A",
-        "m": "3",
-        "q": "Amit is given this exam-style task from “Minerals and Energy Resources”: “Distinguish between conventional and non-conventional sources of energy with two examples each.” Treat it as an application question. Identify the idea, then write the working in points.",
-        "a": [
-          "Idea: Mineral belts, conventional and non-conventional energy..",
-          "Conventional sources have been in use for a long time, are largely exhaustible, cause pollution and are costly to obtain — for example coal and petroleum. Non-conventional sources are recently developed, are renewable and eco-friendly, and have lower running costs — for example solar and wind energy."
-        ]
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Minerals and Energy Resources”. Their note says: Minerals. A mineral is a homogeneous, naturally occurring substance with a definite internal structure, found in various forms from the hardest diamond to the softest talc. They are classified as metallic (iron, manganese, copper, bauxite) and non-metallic (limestone, mica, gypsum), and as ferrous a\n\nThe chapter is described as: Mineral belts, conventional and non-conventional energy..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
-        "a": [
-          "(a) Mineral belts, conventional and non-conventional energy.",
-          "(b) marks. The difference between conventional and non-conventional sources, and one mineral with its belt, is the usual question.",
-          "(c) Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best."
-        ]
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Distinguish between conventional and non-conventional sources of energy with two examples each.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
-        "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Conventional sources have been in use for a long time, are largely exhaustible, cause pollution and are costly to obtain — for example coal and petroleum. Non-conventional sources are recently developed, are renewable and eco-friendly, and have lower running costs — for example solar and wind energy.",
-          "(c) Coal ranks: Anthracite > Bituminous > Lignite > Peat. *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses."
-        ]
-      },
-      {
-        "m": "2",
-        "q": "What is meant by a conventional source of energy? Give two examples.",
-        "a": "Conventional sources are those that have been in use for a long time and are non-renewable, so their stock is limited and cannot be replaced within a human lifetime. Examples: coal, petroleum, natural gas and firewood.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Describe the distribution of coal in India and the types of coal found.",
-        "a": [
-          "Most of India's coal comes from the Gondwana rocks of the Damodar valley: Raniganj, Jharia, Bokaro and Karanpura in Jharkhand and West Bengal.",
-          "Other important coalfields are Korba in Chhattisgarh, Talcher in Odisha, Singrauli in Madhya Pradesh and Singareni in Telangana.",
-          "Anthracite, the highest-quality coal with over 80% carbon, occurs only in Reasi district of Jammu and Kashmir.",
-          "Bituminous coal is the most common and is mined in Jharkhand, Odisha, Chhattisgarh and West Bengal; lignite (brown coal) is mined at Neyveli in Tamil Nadu, and in Gujarat and Rajasthan."
-        ],
-        "t": "S"
-      },
-      {
-        "m": "4",
-        "q": "Explain why non-conventional sources of energy are being promoted, and describe solar and wind energy.",
-        "a": [
-          "Coal and petroleum are limited and their use pollutes the air and adds to global warming, while demand keeps rising; non-conventional sources are renewable and much cleaner.",
-          "Solar energy is captured by photovoltaic cells that convert sunlight directly into electricity and by solar thermal plants; India's largest solar parks are in Gujarat, Rajasthan and Madhya Pradesh.",
-          "Wind energy uses clusters of windmills in windy areas; the biggest wind farms are in Tamil Nadu, Gujarat, Maharashtra, Karnataka, Rajasthan and Andhra Pradesh.",
-          "India is now among the world's leading producers of wind power, and the government supports both through subsidies and renewable purchase obligations."
-        ],
-        "t": "L"
       }
     ],
     "mcq": [
@@ -1143,32 +1143,16 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "Why is the jute industry concentrated in the Hooghly basin?",
+        "a": "The Hooghly basin grows raw jute in its delta, has cheap labour from the neighbouring states of Bihar, Odisha and Uttar Pradesh, a humid climate suitable for spinning, plenty of water for retting and washing, Kolkata port for export, and the Hooghly river for transport.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Why is the iron and steel industry called a basic industry? Give three reasons.",
         "a": "It is called a basic industry because all other industries — heavy, medium and light — depend on it for their machinery, and because production and consumption of steel are regarded as the index of a country's level of development. It is also a heavy industry, since both its raw materials and its finished products are heavy and bulky, so transport costs are a major part of its total cost.",
         "t": "S"
-      },
-      {
-        "m": "5",
-        "q": "Describe the factors responsible for the location of the jute textile industry along the banks of the Hooghly.",
-        "a": [
-          "**Proximity of the jute-producing areas** — the jute belt of West Bengal, Bihar, Odisha and Assam lies close by.",
-          "**Inexpensive water transport**, supported by a good network of railways, roadways and waterways for the movement of jute to the mills.",
-          "**Abundant water** for processing raw jute, which the Hooghly supplies.",
-          "**Cheap labour** from West Bengal and the adjoining states of Bihar, Odisha and Uttar Pradesh.",
-          "**Kolkata as a large urban centre** provides banking, insurance, port facilities for export and other commercial services.",
-          "As a result India is the largest producer of raw jute and jute goods in the world, though it faces competition from synthetic substitutes and from other producers such as Bangladesh."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "5",
-        "q": "What are the different types of industrial pollution? How can it be controlled?",
-        "a": [
-          "**Types:** (1) **Air pollution** — caused by chemical and paper factories, brick kilns, refineries and smelting plants burning fossil fuels, and by toxic gas leaks such as the Bhopal tragedy; (2) **Water pollution** — caused by organic and inorganic industrial wastes and effluents discharged into rivers by paper, pulp, chemical, textile and dyeing, petroleum refineries and tanneries; (3) **Thermal pollution** — hot water from factories and power plants drained into rivers and ponds before cooling; (4) **Noise pollution** — from industrial and construction activity, machinery and generators, causing hearing impairment and stress.",
-          "**Control:** particulate matter can be controlled by fitting electrostatic precipitators, fabric filters, scrubbers and inertial separators to smokestacks; smoke can be reduced by using oil instead of coal; water pollution can be minimised by reusing and recycling water in two or more successive stages, harvesting rainwater, and treating hot water and effluents before releasing them, in three stages — primary (mechanical), secondary (biological) and tertiary (chemical and physical); noise can be reduced by fitting silencers on generators and machinery, redesigning machines and providing workers with earplugs."
-        ],
-        "t": "L"
       },
       {
         "m": "3",
@@ -1202,6 +1186,16 @@
         ]
       },
       {
+        "m": "3",
+        "q": "Name the different types of industrial pollution and suggest two ways of reducing air pollution.",
+        "a": [
+          "Types: air pollution, water pollution, thermal pollution, land pollution and noise pollution.",
+          "Air pollution can be reduced by fitting electrostatic precipitators, scrubbers and filters in chimneys to remove particulates and gases.",
+          "Other measures: using cleaner fuels such as CNG and low-sulphur coal, building tall chimneys so pollutants disperse, and keeping industries away from residential areas."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Manufacturing Industries”. Their note says: Manufacturing and its importance. Manufacturing is the production of goods in large quantities after processing raw materials into more valuable products — for example, paper from wood, sugar from sugarcane, aluminium from bauxite. It contributes about 17% of GDP (of which 10% comes from mining, ele\n\nThe chapter is described as: Classification, agro-based and mineral-based industries, pollution..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -1222,22 +1216,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "Why is the jute industry concentrated in the Hooghly basin?",
-        "a": "The Hooghly basin grows raw jute in its delta, has cheap labour from the neighbouring states of Bihar, Odisha and Uttar Pradesh, a humid climate suitable for spinning, plenty of water for retting and washing, Kolkata port for export, and the Hooghly river for transport.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Name the different types of industrial pollution and suggest two ways of reducing air pollution.",
-        "a": [
-          "Types: air pollution, water pollution, thermal pollution, land pollution and noise pollution.",
-          "Air pollution can be reduced by fitting electrostatic precipitators, scrubbers and filters in chimneys to remove particulates and gases.",
-          "Other measures: using cleaner fuels such as CNG and low-sulphur coal, building tall chimneys so pollutants disperse, and keeping industries away from residential areas."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Explain why the cotton textile industry shifted from Maharashtra to Gujarat and Tamil Nadu.",
         "a": [
@@ -1245,6 +1223,28 @@
           "Ahmedabad grew as the ‘Manchester of India' on the basis of the spinning and weaving mills set up by Gujarati entrepreneurs.",
           "In Tamil Nadu, cotton comes from the black soil region, cheap power is available from hydroelectricity, and labour is plentiful; the Coimbatore–Madurai belt has integrated ginning, spinning and weaving.",
           "The Mumbai mills, meanwhile, faced high land costs, old machinery, power shortages and militant trade unionism."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "Describe the factors responsible for the location of the jute textile industry along the banks of the Hooghly.",
+        "a": [
+          "**Proximity of the jute-producing areas** — the jute belt of West Bengal, Bihar, Odisha and Assam lies close by.",
+          "**Inexpensive water transport**, supported by a good network of railways, roadways and waterways for the movement of jute to the mills.",
+          "**Abundant water** for processing raw jute, which the Hooghly supplies.",
+          "**Cheap labour** from West Bengal and the adjoining states of Bihar, Odisha and Uttar Pradesh.",
+          "**Kolkata as a large urban centre** provides banking, insurance, port facilities for export and other commercial services.",
+          "As a result India is the largest producer of raw jute and jute goods in the world, though it faces competition from synthetic substitutes and from other producers such as Bangladesh."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "What are the different types of industrial pollution? How can it be controlled?",
+        "a": [
+          "**Types:** (1) **Air pollution** — caused by chemical and paper factories, brick kilns, refineries and smelting plants burning fossil fuels, and by toxic gas leaks such as the Bhopal tragedy; (2) **Water pollution** — caused by organic and inorganic industrial wastes and effluents discharged into rivers by paper, pulp, chemical, textile and dyeing, petroleum refineries and tanneries; (3) **Thermal pollution** — hot water from factories and power plants drained into rivers and ponds before cooling; (4) **Noise pollution** — from industrial and construction activity, machinery and generators, causing hearing impairment and stress.",
+          "**Control:** particulate matter can be controlled by fitting electrostatic precipitators, fabric filters, scrubbers and inertial separators to smokestacks; smoke can be reduced by using oil instead of coal; water pollution can be minimised by reusing and recycling water in two or more successive stages, harvesting rainwater, and treating hot water and effluents before releasing them, in three stages — primary (mechanical), secondary (biological) and tertiary (chemical and physical); noise can be reduced by fitting silencers on generators and machinery, redesigning machines and providing workers with earplugs."
         ],
         "t": "L"
       }
@@ -1329,6 +1329,12 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "Why is the density of roads higher in the northern plains than in the Himalayan region?",
+        "a": "The northern plains are level, densely populated and rich in agriculture and industry, so roads are cheap to build and carry heavy traffic. The Himalayas are rugged, prone to landslides and sparsely populated, so construction costs are high and the volume of traffic is low.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Why are roadways considered more efficient than railways in India?",
         "a": "Because the cost of constructing roads is much lower than that of railway lines; roads can traverse more dissected and undulating topography and negotiate higher gradients, such as in the Himalayas; they provide door-to-door service, which reduces the loading and unloading cost; and they act as feeders to other modes of transport, connecting railway stations, airports and sea ports.",
@@ -1353,17 +1359,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Lifelines of National Economy” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Why transport and communication are called lifelines. The movement of goods and services from their supply locations to demand locations is called trade. No country can prosper without efficient means of transport; trade between countries is called international trade, and trade within a country is internal or domestic trade. A dense and efficient network of transport and communication is a prerequisite for local, na.",
-          "Marks lens: Map work is the main return here — sea ports, airports, national highways and pipelines.",
-          "Method / memory trick: Roadways beat railways on four counts: lower cost, difficult terrain, higher gradients, and door-to-door service.",
-          "Do not: Saying pipelines have low initial cost. They have a high initial cost but minimal running cost."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Lifelines of National Economy” (Roadways, railways, pipelines, waterways, airways and trade.). A classmate lost marks by doing this: Saying pipelines have low initial cost. They have a high initial cost but minimal running cost. Apply the correct method and rewrite the scoring answer.",
@@ -1381,6 +1376,16 @@
           "Idea: Roadways, railways, pipelines, waterways, airways and trade..",
           "Because the cost of constructing roads is much lower than that of railway lines; roads can traverse more dissected and undulating topography and negotiate higher gradients, such as in the Himalayas; they provide door-to-door service, which reduces the loading and unloading cost; and they act as feeders to other modes of transport, connecting railway stations, airports and sea ports."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Explain the importance of railways in India and any two problems they face.",
+        "a": [
+          "Railways carry a huge number of passengers and bulky goods over long distances cheaply, link markets, ports and pilgrim centres, and promote national integration.",
+          "Problem 1: a large backlog of investment — tracks, bridges and rolling stock are old and the network is congested on trunk routes.",
+          "Problem 2: losses on passenger services, theft and damage to railway property, and the slow pace of gauge conversion and electrification."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -1403,22 +1408,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "Why is the density of roads higher in the northern plains than in the Himalayan region?",
-        "a": "The northern plains are level, densely populated and rich in agriculture and industry, so roads are cheap to build and carry heavy traffic. The Himalayas are rugged, prone to landslides and sparsely populated, so construction costs are high and the volume of traffic is low.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Explain the importance of railways in India and any two problems they face.",
-        "a": [
-          "Railways carry a huge number of passengers and bulky goods over long distances cheaply, link markets, ports and pilgrim centres, and promote national integration.",
-          "Problem 1: a large backlog of investment — tracks, bridges and rolling stock are old and the network is congested on trunk routes.",
-          "Problem 2: losses on passenger services, theft and damage to railway property, and the slow pace of gauge conversion and electrification."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Describe the importance of means of communication in India's economy.",
         "a": [
@@ -1428,6 +1417,17 @@
           "Together, transport and communication link producers with markets, buyers with sellers, and citizens with the government, which is why they are called the lifelines of the economy."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Lifelines of National Economy” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Why transport and communication are called lifelines. The movement of goods and services from their supply locations to demand locations is called trade. No country can prosper without efficient means of transport; trade between countries is called international trade, and trade within a country is internal or domestic trade. A dense and efficient network of transport and communication is a prerequisite for local, na.",
+          "Marks lens: Map work is the main return here — sea ports, airports, national highways and pipelines.",
+          "Method / memory trick: Roadways beat railways on four counts: lower cost, difficult terrain, higher gradients, and door-to-door service.",
+          "Do not: Saying pipelines have low initial cost. They have a high initial cost but minimal running cost."
+        ]
       }
     ],
     "mcq": [

@@ -109,6 +109,35 @@
         "a": "(1) **Clear** — simple, exact message (“Submit the file by Friday 5 pm”). (2) **Courteous** — polite words (“please”, “thank you”, “sorry for the delay”)."
       },
       {
+        "m": "2",
+        "q": "Name any four barriers to effective communication.",
+        "a": "Physical barriers such as noise or distance; language barriers such as jargon or an unfamiliar accent; psychological barriers such as anger, fear or prejudice; and cultural barriers, where the same word or gesture means different things. Poor listening and the absence of feedback make all of them worse.",
+        "t": "S"
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "Riya messages her team “do it soon”. Identify the violated C and rewrite the message correctly.",
+        "a": "Violates **Clear** (vague, no deadline) and **Complete** (no what/when). Rewrite: “Please submit the sales sheet by Friday 5 pm on email.” — now clear, complete and courteous."
+      },
+      {
+        "t": "A",
+        "m": "3",
+        "q": "A team leader’s juniors look confused by his technical jargon. What two steps should he take?",
+        "a": "(1) Replace jargon with simple words and show a chart (linguistic barrier). (2) Pause, ask “any doubts?”, and paraphrase replies (feedback + active listening)."
+      },
+      {
+        "m": "3",
+        "q": "What are the 7 Cs of effective communication? Explain any three.",
+        "a": [
+          "The seven Cs are clear, concise, concrete, correct, coherent, complete and courteous.",
+          "Clear: say what you mean in words the listener understands, and avoid jargon.",
+          "Concise: use only as many words as the message needs, so the point is not lost.",
+          "Complete: give all the facts the receiver needs, including who, what, when and where, so that no further questions are needed."
+        ],
+        "t": "S"
+      },
+      {
         "t": "L",
         "m": "4",
         "q": "Discuss in detail the verbal method of communication.",
@@ -131,18 +160,6 @@
         ]
       },
       {
-        "t": "A",
-        "m": "3",
-        "q": "Riya messages her team “do it soon”. Identify the violated C and rewrite the message correctly.",
-        "a": "Violates **Clear** (vague, no deadline) and **Complete** (no what/when). Rewrite: “Please submit the sales sheet by Friday 5 pm on email.” — now clear, complete and courteous."
-      },
-      {
-        "t": "A",
-        "m": "3",
-        "q": "A team leader’s juniors look confused by his technical jargon. What two steps should he take?",
-        "a": "(1) Replace jargon with simple words and show a chart (linguistic barrier). (2) Pause, ask “any doubts?”, and paraphrase replies (feedback + active listening)."
-      },
-      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nAmit presents with zero eye contact, 40 text-packed slides in 10 minutes, and says “no questions, I am getting late”. The manager understands nothing.\n\n(a) Identify four communication mistakes.\n(b) Suggest four fixes.",
@@ -159,23 +176,6 @@
           "(a) Posters = **visual**; loudspeaker = **oral/verbal**; notice = **written**.",
           "(b) Visual attracts, oral spreads fast, written is proof — together they cover more audiences with both speed and a record."
         ]
-      },
-      {
-        "m": "2",
-        "q": "Name any four barriers to effective communication.",
-        "a": "Physical barriers such as noise or distance; language barriers such as jargon or an unfamiliar accent; psychological barriers such as anger, fear or prejudice; and cultural barriers, where the same word or gesture means different things. Poor listening and the absence of feedback make all of them worse.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "What are the 7 Cs of effective communication? Explain any three.",
-        "a": [
-          "The seven Cs are clear, concise, concrete, correct, coherent, complete and courteous.",
-          "Clear: say what you mean in words the listener understands, and avoid jargon.",
-          "Concise: use only as many words as the message needs, so the point is not lost.",
-          "Complete: give all the facts the receiver needs, including who, what, when and where, so that no further questions are needed."
-        ],
-        "t": "S"
       }
     ],
     "mcq": [
@@ -278,37 +278,16 @@
         "a": "**Eustress** is helpful pressure — a timed practical that makes you focus. **Distress** is harmful — so much overtime that errors increase and sleep is lost."
       },
       {
-        "t": "L",
-        "m": "4",
-        "q": "Explain SMART goals with a data-entry example.",
-        "a": "Specific (which file), Measurable (how many records), Achievable (within skill), Realistic (hours available), Time-bound (by 5 pm). Example: “Enter 80 customer rows in Calc with zero blanks by 4 pm today.”"
+        "m": "2",
+        "q": "Distinguish between stress and a stressor.",
+        "a": "Stress is the way the body and mind react to pressure, while a stressor is the event or situation that triggers it. An examination, a deadline, a family problem or a noisy workplace can each be a stressor; the resulting worry, headache or loss of sleep is the stress.",
+        "t": "S"
       },
       {
         "t": "A",
         "m": "3",
         "q": "Meera has three tasks: a 5 pm file, a messy desk, and a social-media reel. Using urgent/important, what should she do first and why?",
         "a": "The 5 pm file is urgent and important — do it first. The desk is important but not urgent — schedule it. The reel is neither — drop it until the file is in."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nRavi’s hands shake before every practical, he skips breakfast and then makes typing errors.\n\n(a) Name the type of stress.\n(b) List four management steps.\n(c) Write one SMART goal for his next practical.",
-        "a": [
-          "(a) Distress — it is harming performance.",
-          "(b) Breakfast, 4–7 breathing, a 5-minute practice file, a checklist, sleep 7 hours.",
-          "(c) “Complete the Base table of 10 records with primary key set, in 25 minutes, with zero errors, on Friday.”"
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Self-Management Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Self-management is the ability to control one's emotions, thoughts and behaviour and to work towards goals without constant supervision.",
-          "Marks lens: marks. Stress symptoms, SMART goals and time-management steps are the usual asks.",
-          "Method / memory trick: SMART → Specific Measurable Achievable Realistic Time-bound.",
-          "Do not: Writing SMART expansions in the wrong order."
-        ]
       },
       {
         "t": "A",
@@ -318,6 +297,32 @@
           "Correct method: SMART → Specific Measurable Achievable Realistic Time-bound.",
           "Why the mistake costs marks: Writing SMART expansions in the wrong order.",
           "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "Suggest three ways of managing stress and building self-motivation.",
+        "a": [
+          "Plan the day, break big tasks into small ones and do the hardest first, so that the work never feels endless.",
+          "Look after the body: sleep enough, exercise, breathe deeply and eat regularly, because a tired body exaggerates every problem.",
+          "Set specific goals, track them, reward yourself when a goal is met, and talk to someone you trust instead of keeping worries inside."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain SMART goals with a data-entry example.",
+        "a": "Specific (which file), Measurable (how many records), Achievable (within skill), Realistic (hours available), Time-bound (by 5 pm). Example: “Enter 80 customer rows in Calc with zero blanks by 4 pm today.”"
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nRavi’s hands shake before every practical, he skips breakfast and then makes typing errors.\n\n(a) Name the type of stress.\n(b) List four management steps.\n(c) Write one SMART goal for his next practical.",
+        "a": [
+          "(a) Distress — it is harming performance.",
+          "(b) Breakfast, 4–7 breathing, a 5-minute practice file, a checklist, sleep 7 hours.",
+          "(c) “Complete the Base table of 10 records with primary key set, in 25 minutes, with zero errors, on Friday.”"
         ]
       },
       {
@@ -331,20 +336,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "Distinguish between stress and a stressor.",
-        "a": "Stress is the way the body and mind react to pressure, while a stressor is the event or situation that triggers it. An examination, a deadline, a family problem or a noisy workplace can each be a stressor; the resulting worry, headache or loss of sleep is the stress.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Suggest three ways of managing stress and building self-motivation.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Self-Management Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Plan the day, break big tasks into small ones and do the hardest first, so that the work never feels endless.",
-          "Look after the body: sleep enough, exercise, breathe deeply and eat regularly, because a tired body exaggerates every problem.",
-          "Set specific goals, track them, reward yourself when a goal is met, and talk to someone you trust instead of keeping worries inside."
-        ],
-        "t": "S"
+          "Self-management is the ability to control one's emotions, thoughts and behaviour and to work towards goals without constant supervision.",
+          "Marks lens: marks. Stress symptoms, SMART goals and time-management steps are the usual asks.",
+          "Method / memory trick: SMART → Specific Measurable Achievable Realistic Time-bound.",
+          "Do not: Writing SMART expansions in the wrong order."
+        ]
       }
     ],
     "mcq": [
@@ -437,30 +437,16 @@
         "a": "A **file** stores data (`marks.ods`). A **folder** stores files and other folders (`Class10/IT/`)."
       },
       {
+        "m": "2",
+        "q": "What is an operating system? Name two examples.",
+        "a": "An operating system is the system software that manages the computer's memory, processor, disks and devices and lets the user run application programs. Examples are Windows, Linux, macOS and Android.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "Amit eats chips over the keyboard and never shuts the PC down. List three risks and three care steps.",
         "a": "Risks: crumbs jam keys, oil damage, overheating, data loss. Care: no food/drink, proper shutdown, dust-free vents, surge protector, backups."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nMeera’s project file vanished after a power cut. She had saved only on the Desktop as `aaa.odt`.\n\n(a) Two file-management mistakes.\n(b) Two care/maintenance steps that would have helped.",
-        "a": [
-          "(a) No backup; a meaningless file name; Desktop-only copy.",
-          "(b) Surge protector / UPS; Save As into a named folder; weekly backup on a pen drive or cloud."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “ICT Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "ICT is Information and Communication Technology — hardware, software and networks used to create, store and share information.",
-          "Marks lens: mark. Definitions and “which of the following” items.",
-          "Method / memory trick: File has an extension; a folder does not need one.",
-          "Do not: Calling Writer an operating system."
-        ]
       },
       {
         "t": "A",
@@ -470,6 +456,26 @@
           "Correct method: File has an extension; a folder does not need one.",
           "Why the mistake costs marks: Calling Writer an operating system.",
           "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "How would you organise files and folders so that your work is always easy to find?",
+        "a": [
+          "Make one folder for each subject or project, and inside it one folder per term or per type of work.",
+          "Give every file a short, descriptive name with the date, such as maths_notes_2026-08-12.",
+          "Keep the folder tree shallow — no more than two or three levels — and delete or archive old versions.",
+          "Keep a backup copy on an external drive or in the cloud, and run an antivirus scan on anything you download."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nMeera’s project file vanished after a power cut. She had saved only on the Desktop as `aaa.odt`.\n\n(a) Two file-management mistakes.\n(b) Two care/maintenance steps that would have helped.",
+        "a": [
+          "(a) No backup; a meaningless file name; Desktop-only copy.",
+          "(b) Surge protector / UPS; Save As into a named folder; weekly backup on a pen drive or cloud."
         ]
       },
       {
@@ -483,21 +489,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is an operating system? Name two examples.",
-        "a": "An operating system is the system software that manages the computer's memory, processor, disks and devices and lets the user run application programs. Examples are Windows, Linux, macOS and Android.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "How would you organise files and folders so that your work is always easy to find?",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “ICT Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Make one folder for each subject or project, and inside it one folder per term or per type of work.",
-          "Give every file a short, descriptive name with the date, such as maths_notes_2026-08-12.",
-          "Keep the folder tree shallow — no more than two or three levels — and delete or archive old versions.",
-          "Keep a backup copy on an external drive or in the cloud, and run an antivirus scan on anything you download."
-        ],
-        "t": "S"
+          "ICT is Information and Communication Technology — hardware, software and networks used to create, store and share information.",
+          "Marks lens: mark. Definitions and “which of the following” items.",
+          "Method / memory trick: File has an extension; a folder does not need one.",
+          "Do not: Calling Writer an operating system."
+        ]
       }
     ],
     "mcq": [
@@ -591,37 +591,16 @@
         "a": "(1) “Born, not made” — skills can be learned. (2) “Needs huge capital” — many start with a small idea and grow."
       },
       {
-        "t": "L",
-        "m": "4",
-        "q": "Explain four functions of an entrepreneur with a bakery example.",
-        "a": "Identify demand for fresh bread; arrange shop, oven and staff; take the risk of unsold stock; market via samples and a board; keep accounts. Each function maps to one quality: opportunity-spotting, organising, risk-taking, selling."
+        "m": "2",
+        "q": "List any four qualities an entrepreneur needs.",
+        "a": "Self-confidence, the willingness to take calculated risks, initiative and perseverance, the ability to plan and organise, and the readiness to learn from failure and try again.",
+        "t": "S"
       },
       {
         "t": "A",
         "m": "3",
         "q": "Neha notices students waiting 40 minutes for a shared printer. She starts a paid print-and-bind desk. Which entrepreneurial qualities is she using?",
         "a": "Opportunity-spotting, initiative, risk-taking (she invests in a printer), problem-solving and customer focus."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nA poster says “Only rich, highly educated people can start a business.”\n\n(a) Name the myth.\n(b) Give two counter-examples from daily life.\n(c) State two roles of entrepreneurship in society.",
-        "a": [
-          "(a) Myth of huge capital / only the highly educated.",
-          "(b) A tiffin service from a home kitchen; a tuition class in a garage.",
-          "(c) Jobs, new products, local resources used, local problems solved."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Entrepreneurial Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Entrepreneur — a person who spots a need, takes a risk, organises resources and starts a business to earn profit and create value.",
-          "Marks lens: marks. Qualities of an entrepreneur and “role in society” rotate.",
-          "Method / memory trick: Quality vs function: quality is a trait (perseverance); function is a job (arrange capital).",
-          "Do not: Calling every shopkeeper an entrepreneur without the risk/innovation idea."
-        ]
       },
       {
         "t": "A",
@@ -631,6 +610,33 @@
           "Correct method: Quality vs function: quality is a trait (perseverance); function is a job (arrange capital).",
           "Why the mistake costs marks: Calling every shopkeeper an entrepreneur without the risk/innovation idea.",
           "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "What functions does an entrepreneur perform in running an enterprise?",
+        "a": [
+          "Spotting an opportunity and turning it into a product or service people will pay for.",
+          "Arranging the money, buying raw materials, machines and premises, and hiring and training workers.",
+          "Organising production, keeping accounts and marketing the product.",
+          "Bearing the risk of loss, and taking the decisions that keep the enterprise alive."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain four functions of an entrepreneur with a bakery example.",
+        "a": "Identify demand for fresh bread; arrange shop, oven and staff; take the risk of unsold stock; market via samples and a board; keep accounts. Each function maps to one quality: opportunity-spotting, organising, risk-taking, selling."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA poster says “Only rich, highly educated people can start a business.”\n\n(a) Name the myth.\n(b) Give two counter-examples from daily life.\n(c) State two roles of entrepreneurship in society.",
+        "a": [
+          "(a) Myth of huge capital / only the highly educated.",
+          "(b) A tiffin service from a home kitchen; a tuition class in a garage.",
+          "(c) Jobs, new products, local resources used, local problems solved."
         ]
       },
       {
@@ -644,21 +650,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "List any four qualities an entrepreneur needs.",
-        "a": "Self-confidence, the willingness to take calculated risks, initiative and perseverance, the ability to plan and organise, and the readiness to learn from failure and try again.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "What functions does an entrepreneur perform in running an enterprise?",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Entrepreneurial Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Spotting an opportunity and turning it into a product or service people will pay for.",
-          "Arranging the money, buying raw materials, machines and premises, and hiring and training workers.",
-          "Organising production, keeping accounts and marketing the product.",
-          "Bearing the risk of loss, and taking the decisions that keep the enterprise alive."
-        ],
-        "t": "S"
+          "Entrepreneur — a person who spots a need, takes a risk, organises resources and starts a business to earn profit and create value.",
+          "Marks lens: marks. Qualities of an entrepreneur and “role in society” rotate.",
+          "Method / memory trick: Quality vs function: quality is a trait (perseverance); function is a job (arrange capital).",
+          "Do not: Calling every shopkeeper an entrepreneur without the risk/innovation idea."
+        ]
       }
     ],
     "mcq": [
@@ -752,31 +752,16 @@
         "a": "Skills that help a person live and work in an environmentally friendly way. Examples: waste segregation, saving electricity, water conservation."
       },
       {
+        "m": "2",
+        "q": "What is sustainable development?",
+        "a": "It is development that meets the needs of the present without reducing the ability of future generations to meet their own needs — using resources carefully, keeping pollution low and protecting ecosystems while the economy grows.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "A computer lab leaves 20 PCs on overnight. Suggest three green practices and one green skill the lab assistant needs.",
         "a": "Shut down PCs, use sleep mode, switch off AC/lights, enable duplex printing. Skill: energy-conservation habit / e-waste handling."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nA factory dumps dye in a river but pays workers well.\n\n(a) Is this sustainable development? Why?\n(b) Name two green-economy changes.\n(c) One green job this town could create.",
-        "a": [
-          "(a) No — present wages at the cost of future water and health.",
-          "(b) Treat effluent, switch to safer dye, reuse water.",
-          "(c) Water-treatment operator or waste-segregation worker."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Green Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Environment = the surroundings in which we live — air, water, land, plants, animals and humans.",
-          "Marks lens: mark. Sustainable development definition is the banker.",
-          "Method / memory trick: Sustainable development = present + future, not only “planting trees”.",
-          "Do not: Defining sustainable development as “using no resources”. It is wise use, not zero use."
-        ]
       },
       {
         "t": "A",
@@ -786,6 +771,26 @@
           "Correct method: Sustainable development = present + future, not only “planting trees”.",
           "Why the mistake costs marks: Defining sustainable development as “using no resources”. It is wise use, not zero use.",
           "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "Give three examples of green jobs and explain what makes a job green.",
+        "a": [
+          "Installing and maintaining solar panels, managing recycling and composting, organic farming, water harvesting and energy auditing are all green jobs.",
+          "A job is green when it reduces the use of energy or raw materials, cuts greenhouse-gas emissions and waste, and protects or restores ecosystems.",
+          "It should also provide decent work and income, because a green economy is meant to improve human well-being as well as the environment."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA factory dumps dye in a river but pays workers well.\n\n(a) Is this sustainable development? Why?\n(b) Name two green-economy changes.\n(c) One green job this town could create.",
+        "a": [
+          "(a) No — present wages at the cost of future water and health.",
+          "(b) Treat effluent, switch to safer dye, reuse water.",
+          "(c) Water-treatment operator or waste-segregation worker."
         ]
       },
       {
@@ -799,20 +804,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is sustainable development?",
-        "a": "It is development that meets the needs of the present without reducing the ability of future generations to meet their own needs — using resources carefully, keeping pollution low and protecting ecosystems while the economy grows.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Give three examples of green jobs and explain what makes a job green.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Green Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Installing and maintaining solar panels, managing recycling and composting, organic farming, water harvesting and energy auditing are all green jobs.",
-          "A job is green when it reduces the use of energy or raw materials, cuts greenhouse-gas emissions and waste, and protects or restores ecosystems.",
-          "It should also provide decent work and income, because a green economy is meant to improve human well-being as well as the environment."
-        ],
-        "t": "S"
+          "Environment = the surroundings in which we live — air, water, land, plants, animals and humans.",
+          "Marks lens: mark. Sustainable development definition is the banker.",
+          "Method / memory trick: Sustainable development = present + future, not only “planting trees”.",
+          "Do not: Defining sustainable development as “using no resources”. It is wise use, not zero use."
+        ]
       }
     ],
     "mcq": [

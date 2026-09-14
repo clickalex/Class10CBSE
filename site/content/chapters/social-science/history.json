@@ -34,6 +34,12 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "Who were the Jacobins and what did they do during the French Revolution?",
+        "a": "The Jacobins were members of a political club led by Maximilian Robespierre. They overthrew the monarchy, declared France a republic, and gave the nation its symbols — the tricolour flag, the red cap (liberty cap) and the new national anthem, the Marseillaise — through which people could identify with the nation.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Interpret the significance of the allegory of Marianne and Germania.",
         "a": "Both were female allegories used to give the abstract idea of the nation a concrete visual form. Marianne, with her red cap, tricolour and cockade, represented the ideals of liberty and the French Republic, and statues of her were installed in public squares to remind citizens of national unity. Germania, wearing a crown of oak leaves, symbolised heroism and the German nation. Allegories made it easy for people to identify with the nation.",
@@ -46,17 +52,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "Write a note on the role of Giuseppe Mazzini, Count Cavour and Giuseppe Garibaldi in the unification of Italy.",
-        "a": [
-          "**Giuseppe Mazzini** — a member of the secret society Carbonari, he founded **Young Italy** in Marseilles to work for a unitary Italian republic. He provided the ideological inspiration and the programme.",
-          "**Count Cavour** — Chief Minister of Sardinia-Piedmont, he led the unification movement through diplomacy rather than revolution, and with the help of France and the army defeated Austria in **1859**.",
-          "**Giuseppe Garibaldi** — he led the armed volunteers known as the **Red Shirts**, marched into the Kingdom of the Two Sicilies in **1860**, won the support of the local peasants and drove out the Spanish rulers.",
-          "In **1861** Victor Emmanuel II was proclaimed king of united Italy, with Cavour as his Chief Minister. Much of the peasant population, however, knew nothing of the ideals of liberal nationalism."
-        ],
-        "t": "L"
-      },
-      {
         "m": "3",
         "q": "What steps did the French revolutionaries take to create a sense of collective identity among the French people?",
         "a": "They introduced the ideas of *la patrie* (the fatherland) and *le citoyen* (the citizen), emphasising a united community with equal rights under a constitution. A new tricolour replaced the royal standard, the Estates General was renamed the National Assembly and elected by active citizens, a uniform system of weights and measures was adopted, internal customs duties were abolished, and French as spoken in Paris became the common language. Oaths of loyalty to the constitution and commemoration of martyrs were also used.",
@@ -67,17 +62,6 @@
         "q": "How did culture play an important role in creating the idea of the nation in Europe?",
         "a": "Romantic artists and poets criticised the glorification of reason and science and turned to emotion, intuition and mysticism, using folk songs, folk poetry and folk dances to reach the people. Language too was used as a weapon of national resistance — in Poland, for example, the use of Polish in schools and church gatherings became a symbol of struggle against Russian dominance. Operas and music carried nationalist feelings to a largely illiterate audience.",
         "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “The Rise of Nationalism in Europe” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Frédéric Sorrieu's print (1848). Four prints showing a vision of a world of *democratic and social republics*. Men and women of Europe and America march past the Statue of Liberty, offering homage to it. On the ground lie the shattered remains of the symbols of absolutist institutions — the age of nationalism had begun.",
-          "Marks lens: marks from this chapter, usually a 3–5 mark answer on one of the unifications or on the liberal nationalism of the middle class.",
-          "Method / memory trick: Three unifications, three years: Germany 1871, Italy 1861, Britain 1707/1801 (no revolution — the 'odd one out').",
-          "Do not: Confusing the Frankfurt Parliament (1848) with the proclamation of the German Empire (Versailles, 1871)."
-        ]
       },
       {
         "t": "A",
@@ -97,6 +81,16 @@
           "Idea: Liberal nationalism, 1848, and the unification of Germany, Italy and Britain..",
           "Both were female allegories used to give the abstract idea of the nation a concrete visual form. Marianne, with her red cap, tricolour and cockade, represented the ideals of liberty and the French Republic, and statues of her were installed in public squares to remind citizens of national unity. Germania, wearing a crown of oak leaves, symbolised heroism and the German nation. Allegories made it easy for people to identify with the nation."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Describe the condition of the Balkans in the nineteenth century and why the region caused tension in Europe.",
+        "a": [
+          "The Balkans was a region of great ethnic and religious diversity that had been part of the Ottoman Empire.",
+          "As Ottoman power weakened, the Slavic peoples demanded independence, and the Balkan states fought each other over territory.",
+          "Big powers such as Russia, Austria-Hungary, Britain and Germany each wanted influence over the region. These rivalries made the Balkans the powder keg of Europe and helped trigger the First World War in 1914."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -119,22 +113,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "Who were the Jacobins and what did they do during the French Revolution?",
-        "a": "The Jacobins were members of a political club led by Maximilian Robespierre. They overthrew the monarchy, declared France a republic, and gave the nation its symbols — the tricolour flag, the red cap (liberty cap) and the new national anthem, the Marseillaise — through which people could identify with the nation.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Describe the condition of the Balkans in the nineteenth century and why the region caused tension in Europe.",
-        "a": [
-          "The Balkans was a region of great ethnic and religious diversity that had been part of the Ottoman Empire.",
-          "As Ottoman power weakened, the Slavic peoples demanded independence, and the Balkan states fought each other over territory.",
-          "Big powers such as Russia, Austria-Hungary, Britain and Germany each wanted influence over the region. These rivalries made the Balkans the powder keg of Europe and helped trigger the First World War in 1914."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Explain how the French Revolution spread the idea of nationalism across Europe.",
         "a": [
@@ -144,6 +122,28 @@
           "This idea shaped the unification movements of Italy and Germany and the struggles of the Balkan peoples in the nineteenth century."
         ],
         "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "Write a note on the role of Giuseppe Mazzini, Count Cavour and Giuseppe Garibaldi in the unification of Italy.",
+        "a": [
+          "**Giuseppe Mazzini** — a member of the secret society Carbonari, he founded **Young Italy** in Marseilles to work for a unitary Italian republic. He provided the ideological inspiration and the programme.",
+          "**Count Cavour** — Chief Minister of Sardinia-Piedmont, he led the unification movement through diplomacy rather than revolution, and with the help of France and the army defeated Austria in **1859**.",
+          "**Giuseppe Garibaldi** — he led the armed volunteers known as the **Red Shirts**, marched into the Kingdom of the Two Sicilies in **1860**, won the support of the local peasants and drove out the Spanish rulers.",
+          "In **1861** Victor Emmanuel II was proclaimed king of united Italy, with Cavour as his Chief Minister. Much of the peasant population, however, knew nothing of the ideals of liberal nationalism."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “The Rise of Nationalism in Europe” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Frédéric Sorrieu's print (1848). Four prints showing a vision of a world of *democratic and social republics*. Men and women of Europe and America march past the Statue of Liberty, offering homage to it. On the ground lie the shattered remains of the symbols of absolutist institutions — the age of nationalism had begun.",
+          "Marks lens: marks from this chapter, usually a 3–5 mark answer on one of the unifications or on the liberal nationalism of the middle class.",
+          "Method / memory trick: Three unifications, three years: Germany 1871, Italy 1861, Britain 1707/1801 (no revolution — the 'odd one out').",
+          "Do not: Confusing the Frankfurt Parliament (1848) with the proclamation of the German Empire (Versailles, 1871)."
+        ]
       }
     ],
     "mcq": [
@@ -225,34 +225,16 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "What was the Rowlatt Act of 1919 and why was it opposed?",
+        "a": "It allowed the colonial government to imprison any person suspected of sedition without trial for up to two years. Indians saw it as a betrayal after the war and Gandhiji called for a hartal on 6 April 1919 against what he called the ‘black act'.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Why was the Salt March an effective symbol of resistance against colonialism?",
         "a": "Salt was consumed by rich and poor alike and was one of the most essential items of food, yet the tax on it and the government monopoly over its production revealed the most oppressive face of British rule. Choosing it united the whole country behind a single demand, and breaking the salt law by boiling sea water at Dandi was simple, visible and easy for every villager to repeat, so it quickly spread into a nationwide movement.",
         "t": "S"
-      },
-      {
-        "m": "5",
-        "q": "How did the Non-Cooperation Movement differ from the Civil Disobedience Movement?",
-        "a": [
-          "**Non-Cooperation (1920–22):** people were asked to refuse all cooperation with the British government — students left schools, lawyers gave up practice, foreign cloth was boycotted and burnt. It was launched with the Khilafat issue and withdrawn by Gandhi after the Chauri Chaura violence.",
-          "**Civil Disobedience (1930–34):** people were asked not merely to refuse cooperation but to **break colonial laws** — the salt law, forest laws, refusal to pay revenue and chaukidari taxes, boycott of foreign cloth and picketing of liquor shops.",
-          "**Participation:** Civil Disobedience saw much larger participation by women, who left their homes to join protest marches and manufacture salt.",
-          "**Outcome:** Non-Cooperation was withdrawn in 1922; Civil Disobedience was suspended by the Gandhi-Irwin Pact in 1931, revived after the failed Round Table Conference, and finally lost momentum by 1934."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "5",
-        "q": "Explain the idea of the Sense of Collective Belonging with reference to nationalism in India.",
-        "a": [
-          "Nationalism develops when people begin to believe that they are part of the same nation, and this feeling is created through history and fiction, folklore and songs, and popular prints.",
-          "**Images:** Bharat Mata, first created by Bankim Chandra Chattopadhyay and painted by Abhinindranath Tagore as a calm, divine ascetic figure, came to symbolise the nation; devotion to her became a sign of nationalism.",
-          "**Songs:** *Vande Mataram*, written by Bankim Chandra in the 1870s and set in *Anandamath*, was widely sung during the Swadeshi movement.",
-          "**Folklore:** in Bengal, Natesan Sastri and others collected folk tales and songs, arguing that these were the truest manifestation of national identity.",
-          "**Flags:** the Swadeshi flag of 1905 and the Swaraj flag of 1921, with the spinning wheel, became symbols of defiance; carrying them was itself an act of rebellion.",
-          "**History:** Indians began writing of India's ancient achievements in mathematics, science, law and philosophy, to counter the colonial view of Indians as backward and to instil pride in the past."
-        ],
-        "t": "L"
       },
       {
         "m": "3",
@@ -286,6 +268,16 @@
         ]
       },
       {
+        "m": "3",
+        "q": "Describe the participation of women and students in the national movement.",
+        "a": [
+          "Women joined processions, picketed shops selling liquor and foreign cloth, and went to jail; several, such as Sarojini Naidu, became national leaders.",
+          "Students left government schools and colleges during the Non-Cooperation Movement and joined national schools and colleges.",
+          "Their participation widened the social base of the movement, turning it from a middle-class agitation into a mass struggle."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Nationalism in India”. Their note says: The First World War, Khilafat and Non-Cooperation. The war created a new economic and political situation: defence expenditure rose, customs duties were raised and income tax introduced, prices doubled between 1913 and 1918, villages were forced to supply soldiers, and crop failure and influenza kil\n\nThe chapter is described as: Non-Cooperation, Civil Disobedience and the Sense of Collective Belonging..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -306,28 +298,36 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What was the Rowlatt Act of 1919 and why was it opposed?",
-        "a": "It allowed the colonial government to imprison any person suspected of sedition without trial for up to two years. Indians saw it as a betrayal after the war and Gandhiji called for a hartal on 6 April 1919 against what he called the ‘black act'.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Describe the participation of women and students in the national movement.",
-        "a": [
-          "Women joined processions, picketed shops selling liquor and foreign cloth, and went to jail; several, such as Sarojini Naidu, became national leaders.",
-          "Students left government schools and colleges during the Non-Cooperation Movement and joined national schools and colleges.",
-          "Their participation widened the social base of the movement, turning it from a middle-class agitation into a mass struggle."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Describe the course of the Civil Disobedience Movement and explain why it was withdrawn.",
         "a": [
           "It began with the Salt March: on 12 March 1930 Gandhiji set out from Sabarmati with 78 followers and broke the salt law at Dandi on 6 April.",
           "People refused to pay taxes, boycotted foreign cloth and liquor, and peasants and tribals agitated against forest laws and land revenue.",
           "Gandhiji suspended it after the Gandhi-Irwin Pact of March 1931, revived it in 1932, and finally withdrew it in April 1934 when mass support had faded and the government had crushed the movement."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "How did the Non-Cooperation Movement differ from the Civil Disobedience Movement?",
+        "a": [
+          "**Non-Cooperation (1920–22):** people were asked to refuse all cooperation with the British government — students left schools, lawyers gave up practice, foreign cloth was boycotted and burnt. It was launched with the Khilafat issue and withdrawn by Gandhi after the Chauri Chaura violence.",
+          "**Civil Disobedience (1930–34):** people were asked not merely to refuse cooperation but to **break colonial laws** — the salt law, forest laws, refusal to pay revenue and chaukidari taxes, boycott of foreign cloth and picketing of liquor shops.",
+          "**Participation:** Civil Disobedience saw much larger participation by women, who left their homes to join protest marches and manufacture salt.",
+          "**Outcome:** Non-Cooperation was withdrawn in 1922; Civil Disobedience was suspended by the Gandhi-Irwin Pact in 1931, revived after the failed Round Table Conference, and finally lost momentum by 1934."
+        ],
+        "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "Explain the idea of the Sense of Collective Belonging with reference to nationalism in India.",
+        "a": [
+          "Nationalism develops when people begin to believe that they are part of the same nation, and this feeling is created through history and fiction, folklore and songs, and popular prints.",
+          "**Images:** Bharat Mata, first created by Bankim Chandra Chattopadhyay and painted by Abhinindranath Tagore as a calm, divine ascetic figure, came to symbolise the nation; devotion to her became a sign of nationalism.",
+          "**Songs:** *Vande Mataram*, written by Bankim Chandra in the 1870s and set in *Anandamath*, was widely sung during the Swadeshi movement.",
+          "**Folklore:** in Bengal, Natesan Sastri and others collected folk tales and songs, arguing that these were the truest manifestation of national identity.",
+          "**Flags:** the Swadeshi flag of 1905 and the Swaraj flag of 1921, with the spinning wheel, became symbols of defiance; carrying them was itself an act of rebellion.",
+          "**History:** Indians began writing of India's ancient achievements in mathematics, science, law and philosophy, to counter the colonial view of Indians as backward and to instil pride in the past."
         ],
         "t": "L"
       }
@@ -411,6 +411,12 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "What was the Corn Laws controversy in Britain?",
+        "a": "The Corn Laws restricted the import of cheap corn into Britain, keeping bread prices high to protect landowners. Workers and industrialists demanded their repeal; after repeal in 1846, food flowed in from the colonies and eastern Europe, bread became cheaper, but many European peasants were forced to migrate to the Americas.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "What were the Silk Routes and what did they carry besides goods?",
         "a": "The Silk Routes were a network of pre-modern trade and cultural routes linking Asia with Europe and northern Africa. Besides goods such as Chinese silk, Indian cotton textiles and spices going west and silver going east, they carried religions — Buddhism, and later Christianity and Islam — and also carried diseases, since germs travelled with the traders and pilgrims.",
@@ -435,17 +441,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “The Making of a Global World” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Globalisation is not new. Human societies have always been in contact, but globalisation as we know it — the integration of markets, movement of goods, capital, people and ideas across the world — began to take shape only in the last few centuries. Even in the pre-modern world, trade, migration and the spread of religion and disease linked distant regions.",
-          "Marks lens: marks at most, from the pre-modern exchanges, the Silk Routes and the Columbian food trades.",
-          "Method / memory trick: Silk Routes = goods + religion + disease. All three travel together; mention all three for full marks.",
-          "Do not: Revising the later subtopics (corn laws, gold standard, Bretton Woods) and spending revision time on material that is not assessed."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “The Making of a Global World” (Pre-modern exchange, the Silk Routes and the Columbian food trades.). A classmate lost marks by doing this: Revising the later subtopics (corn laws, gold standard, Bretton Woods) and spending revision time on material that is not assessed. Apply the correct method and rewrite the scoring answer.",
@@ -463,6 +458,17 @@
           "Idea: Pre-modern exchange, the Silk Routes and the Columbian food trades..",
           "The Silk Routes were a network of pre-modern trade and cultural routes linking Asia with Europe and northern Africa. Besides goods such as Chinese silk, Indian cotton textiles and spices going west and silver going east, they carried religions — Buddhism, and later Christianity and Islam — and also carried diseases, since germs travelled with the traders and pilgrims."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Explain what indentured labour was and its effects in the nineteenth century.",
+        "a": [
+          "After slavery was abolished, plantations in the Caribbean, Fiji, Mauritius, Sri Lanka and Natal needed cheap labour.",
+          "Millions of workers were recruited from India, China and Africa on contracts (girmit) for a fixed number of years, often after being misled about the terms.",
+          "They were carried in crowded ships and worked in harsh conditions, but they also carried Indian languages, festivals and food abroad.",
+          "Indentured migration from India was finally abolished in 1917 after the nationalist movement raised the issue."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -485,23 +491,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What was the Corn Laws controversy in Britain?",
-        "a": "The Corn Laws restricted the import of cheap corn into Britain, keeping bread prices high to protect landowners. Workers and industrialists demanded their repeal; after repeal in 1846, food flowed in from the colonies and eastern Europe, bread became cheaper, but many European peasants were forced to migrate to the Americas.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Explain what indentured labour was and its effects in the nineteenth century.",
-        "a": [
-          "After slavery was abolished, plantations in the Caribbean, Fiji, Mauritius, Sri Lanka and Natal needed cheap labour.",
-          "Millions of workers were recruited from India, China and Africa on contracts (girmit) for a fixed number of years, often after being misled about the terms.",
-          "They were carried in crowded ships and worked in harsh conditions, but they also carried Indian languages, festivals and food abroad.",
-          "Indentured migration from India was finally abolished in 1917 after the nationalist movement raised the issue."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Explain how the First World War and the Great Depression changed the world economy.",
         "a": [
@@ -511,6 +500,17 @@
           "The crisis destroyed confidence in unregulated markets and led to state intervention — for example Roosevelt's New Deal — and to a demand for decolonisation."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “The Making of a Global World” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Globalisation is not new. Human societies have always been in contact, but globalisation as we know it — the integration of markets, movement of goods, capital, people and ideas across the world — began to take shape only in the last few centuries. Even in the pre-modern world, trade, migration and the spread of religion and disease linked distant regions.",
+          "Marks lens: marks at most, from the pre-modern exchanges, the Silk Routes and the Columbian food trades.",
+          "Method / memory trick: Silk Routes = goods + religion + disease. All three travel together; mention all three for full marks.",
+          "Do not: Revising the later subtopics (corn laws, gold standard, Bretton Woods) and spending revision time on material that is not assessed."
+        ]
       }
     ],
     "mcq": [
@@ -593,6 +593,12 @@
     ],
     "qa": [
       {
+        "m": "2",
+        "q": "What were the penny dreadfuls and what do they tell us about the readers of print?",
+        "a": "Penny dreadfuls were cheap serial novels sold in Victorian Britain for a penny. They show that print had begun to reach working-class readers, that publishers were producing for a mass market rather than for the elite, and that the new readers wanted exciting, escapist stories.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "How did Gutenberg develop the printing press?",
         "a": "Gutenberg grew up on a large agricultural estate and from childhood had seen wine and olive presses. By the 1430s he had perfected the printing press by adapting the olive press, and he developed a metal mould for casting types. His press could print far more copies than hand copying — his first book, the Bible, was printed in about three years, producing 180 copies.",
@@ -605,18 +611,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "How did print culture help the growth of nationalism in India?",
-        "a": [
-          "**Newspapers carried nationalist criticism.** Vernacular newspapers such as Tilak's *Kesari* and *Maratha* reported colonial misrule and supported the Punjab revolutionaries; Tilak's imprisonment in 1908 provoked widespread protest.",
-          "**Religious and social reform debates were printed.** Raja Rammohun Roy's *Sambad Kaumudi*, the *Mirat-ul-Akhbar*, and the fatwas of the Deoband seminary spread reformist and religious ideas to a wide readership.",
-          "**Cheap books and libraries** made knowledge available to the poor and to workers, and novels and pamphlets carried political ideas in an easily readable form.",
-          "**Writings by and about women** — Tarabai Shinde's *Stripurushtulna*, Pandita Ramabai on widowhood — created a new public debate on social questions.",
-          "**Censorship itself proved the point.** The Vernacular Press Act of 1878, which allowed the government to seize presses, showed how powerful print had become, and made the press a recognised weapon of the national movement."
-        ],
-        "t": "L"
-      },
-      {
         "m": "3",
         "q": "Why were manuscripts not widely used in everyday life in pre-colonial India?",
         "a": "Because they were written on palm leaf or fragile handmade paper, were expensive to produce, and could not be handled or read easily. They were also copied by hand, so copies were few and easily damaged, and the script was written in a variety of styles that made reading difficult. Knowledge was therefore largely transmitted orally — texts were recited and memorised rather than read.",
@@ -627,17 +621,6 @@
         "q": "What was the Vernacular Press Act of 1878?",
         "a": "It was a law modelled on Irish press laws that gave the government extensive powers to censor reports and editorials in the vernacular press. If a newspaper published anything judged seditious and did not heed an initial warning, its press could be confiscated, including its printing machinery. It was widely resented and became a symbol of colonial repression of the Indian press.",
         "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Print Culture and the Modern World” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Print in China, Japan and Korea. China was the major producer of printed matter for a long time, using hand printing — rubbing paper against a woodblock with inked characters. It developed because of the large imperial state bureaucracy, for which textbooks for the civil service examinations were printed in volume. Print was used by Buddhist missionaries (the oldest printed book, the Diamond Sutra, AD 868), by mercha.",
-          "Marks lens: –5 marks, usually on print in colonial India — the vernacular press, censorship, or how print helped the spread of nationalist ideas.",
-          "Method / memory trick: Three 'firsts' in India: press came with the Portuguese at Goa; first Tamil book 1579 (Cochin); first English newspaper Bengal Gazette, 1780, by Hicky.",
-          "Do not: Saying the printing press was invented in India by the British. It first came to Goa with Portuguese missionaries in the mid-sixteenth century."
-        ]
       },
       {
         "t": "A",
@@ -657,6 +640,16 @@
           "Idea: Hand printing in Asia, Gutenberg, and print in colonial India..",
           "Gutenberg grew up on a large agricultural estate and from childhood had seen wine and olive presses. By the 1430s he had perfected the printing press by adapting the olive press, and he developed a metal mould for casting types. His press could print far more copies than hand copying — his first book, the Bible, was printed in about three years, producing 180 copies."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Describe how print came to India and the role it played in social reform.",
+        "a": [
+          "Printing presses were first set up in Goa by Christian missionaries in the mid-sixteenth century; from the 1780s Bengali and other vernacular presses multiplied.",
+          "Reformers used print: Raja Rammohun Roy published tracts against sati and idolatry, and Ishwar Chandra Vidyasagar wrote in favour of widow remarriage.",
+          "Women read and wrote in the popular Bengali almanacs and domestic magazines, and public libraries and cheap books carried these debates to ordinary readers."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -679,22 +672,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What were the penny dreadfuls and what do they tell us about the readers of print?",
-        "a": "Penny dreadfuls were cheap serial novels sold in Victorian Britain for a penny. They show that print had begun to reach working-class readers, that publishers were producing for a mass market rather than for the elite, and that the new readers wanted exciting, escapist stories.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Describe how print came to India and the role it played in social reform.",
-        "a": [
-          "Printing presses were first set up in Goa by Christian missionaries in the mid-sixteenth century; from the 1780s Bengali and other vernacular presses multiplied.",
-          "Reformers used print: Raja Rammohun Roy published tracts against sati and idolatry, and Ishwar Chandra Vidyasagar wrote in favour of widow remarriage.",
-          "Women read and wrote in the popular Bengali almanacs and domestic magazines, and public libraries and cheap books carried these debates to ordinary readers."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Explain why colonial governments tried to control the press and how nationalist newspapers responded.",
         "a": [
@@ -704,6 +681,29 @@
           "Print thus created a public opinion outside the government's control and became a major force in the freedom struggle."
         ],
         "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "How did print culture help the growth of nationalism in India?",
+        "a": [
+          "**Newspapers carried nationalist criticism.** Vernacular newspapers such as Tilak's *Kesari* and *Maratha* reported colonial misrule and supported the Punjab revolutionaries; Tilak's imprisonment in 1908 provoked widespread protest.",
+          "**Religious and social reform debates were printed.** Raja Rammohun Roy's *Sambad Kaumudi*, the *Mirat-ul-Akhbar*, and the fatwas of the Deoband seminary spread reformist and religious ideas to a wide readership.",
+          "**Cheap books and libraries** made knowledge available to the poor and to workers, and novels and pamphlets carried political ideas in an easily readable form.",
+          "**Writings by and about women** — Tarabai Shinde's *Stripurushtulna*, Pandita Ramabai on widowhood — created a new public debate on social questions.",
+          "**Censorship itself proved the point.** The Vernacular Press Act of 1878, which allowed the government to seize presses, showed how powerful print had become, and made the press a recognised weapon of the national movement."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Print Culture and the Modern World” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Print in China, Japan and Korea. China was the major producer of printed matter for a long time, using hand printing — rubbing paper against a woodblock with inked characters. It developed because of the large imperial state bureaucracy, for which textbooks for the civil service examinations were printed in volume. Print was used by Buddhist missionaries (the oldest printed book, the Diamond Sutra, AD 868), by mercha.",
+          "Marks lens: –5 marks, usually on print in colonial India — the vernacular press, censorship, or how print helped the spread of nationalist ideas.",
+          "Method / memory trick: Three 'firsts' in India: press came with the Portuguese at Goa; first Tamil book 1579 (Cochin); first English newspaper Bengal Gazette, 1780, by Hicky.",
+          "Do not: Saying the printing press was invented in India by the British. It first came to Goa with Portuguese missionaries in the mid-sixteenth century."
+        ]
       }
     ],
     "mcq": [

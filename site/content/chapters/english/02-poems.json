@@ -47,17 +47,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Dust of Snow” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The poem. A crow shakes down the dust of snow on the poet from a hemlock tree, and this gives him a change of mood — it saves some part of the day he had rued. The poem is in two four-line stanzas with an alternating rhyme.",
-          "Marks lens: Reference-to-context extracts and a 3-mark central idea. Eight lines, so every word is examinable.",
-          "Method / memory trick: The two 'unlucky' symbols — crow and hemlock — bringing happiness is the point. Say it explicitly.",
-          "Do not: Calling the bird a sparrow or the tree a pine. It is a crow and a hemlock."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Dust of Snow” (Robert Frost: a crow, a hemlock tree and a change of mood.). A classmate lost marks by doing this: Calling the bird a sparrow or the tree a pine. It is a crow and a hemlock. Apply the correct method and rewrite the scoring answer.",
@@ -75,6 +64,17 @@
           "Idea: Robert Frost: a crow, a hemlock tree and a change of mood..",
           "The poet was in a depressed or sorrowful mood and had regretted the day. The change came when a crow shook down a dust of snow on him from a hemlock tree. This small, unexpected event lifted his spirits and saved some part of the day that he had rued."
         ]
+      },
+      {
+        "m": "3",
+        "q": "How does ‘Dust of Snow' bring about a change of mood?",
+        "a": [
+          "The poet is in a bitter, unhappy mood, suggested by the hemlock tree — a poisonous plant — under which he sits.",
+          "A crow, another conventionally unpleasant bird, shakes down a shower of dust of snow onto him.",
+          "Instead of annoying him, the small event is taken as a good omen: it gives his heart a change of mood.",
+          "He says he has rued many a day that day; the rest of the day is saved, so the poem is about how a tiny natural incident can lift depression."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -97,17 +97,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "How does ‘Dust of Snow' bring about a change of mood?",
-        "a": [
-          "The poet is in a bitter, unhappy mood, suggested by the hemlock tree — a poisonous plant — under which he sits.",
-          "A crow, another conventionally unpleasant bird, shakes down a shower of dust of snow onto him.",
-          "Instead of annoying him, the small event is taken as a good omen: it gives his heart a change of mood.",
-          "He says he has rued many a day that day; the rest of the day is saved, so the poem is about how a tiny natural incident can lift depression."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Why does Frost choose a crow and a hemlock tree rather than a nightingale and a rose?",
         "a": [
@@ -117,6 +106,17 @@
           "The poem thus becomes modern rather than romantic: nature does not flatter us, and yet it can still save a ruined day."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Dust of Snow” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The poem. A crow shakes down the dust of snow on the poet from a hemlock tree, and this gives him a change of mood — it saves some part of the day he had rued. The poem is in two four-line stanzas with an alternating rhyme.",
+          "Marks lens: Reference-to-context extracts and a 3-mark central idea. Eight lines, so every word is examinable.",
+          "Method / memory trick: The two 'unlucky' symbols — crow and hemlock — bringing happiness is the point. Say it explicitly.",
+          "Do not: Calling the bird a sparrow or the tree a pine. It is a crow and a hemlock."
+        ]
       }
     ],
     "mcq": [
@@ -209,17 +209,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Fire and Ice” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The poem. The poet says that some say the world will end in fire and some say in ice. From what he has tasted of desire, he holds with those who favour fire. But if it had to perish twice, he thinks he knows enough of hate to say that for destruction ice is also great, and would suffice.",
-          "Marks lens: Reference-to-context extracts and the rhyme scheme; a 3-mark answer on what fire and ice stand for.",
-          "Method / memory trick: Fire = desire, Ice = hatred. If the question asks what the symbols stand for, this is the whole answer.",
-          "Do not: Saying the poet prefers fire. He holds with those who favour fire, but adds that ice would also suffice."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Fire and Ice” (Robert Frost on desire and hatred, and how the world could end.). A classmate lost marks by doing this: Saying the poet prefers fire. He holds with those who favour fire, but adds that ice would also suffice. Apply the correct method and rewrite the scoring answer.",
@@ -237,6 +226,17 @@
           "Idea: Robert Frost on desire and hatred, and how the world could end..",
           "Fire stands for desire or passion, and ice stands for hatred. The poet says that from what he has tasted of desire he agrees with those who say the world will end in fire, but he knows enough of hate to say that for destruction ice is also great and would suffice. Both emotions are destructive enough to end the world."
         ]
+      },
+      {
+        "m": "3",
+        "q": "What do fire and ice symbolise in Frost's poem?",
+        "a": [
+          "Fire stands for desire — greed, passion, ambition and the appetite that consumes.",
+          "Ice stands for hatred — coldness, cruelty and indifference towards others.",
+          "Both are presented as powerful enough to destroy the world, which is the poet's way of saying that human feeling, not natural disaster, is the real danger.",
+          "The poem is brief but packs a moral warning into everyday words."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -259,17 +259,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "What do fire and ice symbolise in Frost's poem?",
-        "a": [
-          "Fire stands for desire — greed, passion, ambition and the appetite that consumes.",
-          "Ice stands for hatred — coldness, cruelty and indifference towards others.",
-          "Both are presented as powerful enough to destroy the world, which is the poet's way of saying that human feeling, not natural disaster, is the real danger.",
-          "The poem is brief but packs a moral warning into everyday words."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Explain the last four lines of ‘Fire and Ice'.",
         "a": [
@@ -279,6 +268,17 @@
           "The ending is chilling precisely because it is spoken so calmly."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Fire and Ice” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The poem. The poet says that some say the world will end in fire and some say in ice. From what he has tasted of desire, he holds with those who favour fire. But if it had to perish twice, he thinks he knows enough of hate to say that for destruction ice is also great, and would suffice.",
+          "Marks lens: Reference-to-context extracts and the rhyme scheme; a 3-mark answer on what fire and ice stand for.",
+          "Method / memory trick: Fire = desire, Ice = hatred. If the question asks what the symbols stand for, this is the whole answer.",
+          "Do not: Saying the poet prefers fire. He holds with those who favour fire, but adds that ice would also suffice."
+        ]
       }
     ],
     "mcq": [
@@ -370,17 +370,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “A Tiger in the Zoo” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The poem. The tiger in the zoo stalks the few steps of his cage in quiet rage; his strength is locked in a cage, so he ignores visitors. The poet then imagines where the tiger should be — lurking in the shadow, sliding through long grass near the watering hole where plump deer pass. He should be lurking in shadow, sliding through long grass near the water hole, where plump deer pass. In the last stanza the tiger is l.",
-          "Marks lens: Reference-to-context extracts, usually the first stanza (the cage) or the last (the stars).",
-          "Method / memory trick: Two settings, two lists. Cage: few steps, concrete cell, bars, visitors, stare at the stars. Forest: shadow, long grass, watering hole, plump deer, terrorise the village.",
-          "Do not: Saying the tiger attacks the visitors. He ignores them."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “A Tiger in the Zoo” (Leslie Norris: captivity in the zoo, freedom in the forest.). A classmate lost marks by doing this: Saying the tiger attacks the visitors. He ignores them. Apply the correct method and rewrite the scoring answer.",
@@ -398,6 +387,17 @@
           "Idea: Leslie Norris: captivity in the zoo, freedom in the forest..",
           "In the cage the tiger stalks only the few steps of his enclosure, in quiet rage, with his strength locked behind bars and his attention turned away from the visitors. In the wild he would lurk in shadow, slide through the long grass near the watering hole where plump deer pass, and snarl around houses at the jungle's edge, baring his white fangs and claws and terrorising the village. The contrast is between useless confinement and natural power."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Contrast the tiger in the cage with the tiger in its natural habitat.",
+        "a": [
+          "In the cage he paces a few steps along the length of his cage, ignores visitors, looks at the brilliant stars and is described as being ‘locked in concrete cell'.",
+          "His strength is behind bars; his voice is ‘the few steps of his cage' — reduced and silent.",
+          "In the forest he would be lurking in shadow, sliding through long grass near the water hole, snarling around houses at the jungle's edge.",
+          "There he would terrorise villages, show his white fangs and claws, and be free; the contrast is between helplessness and wild power."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -420,17 +420,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "Contrast the tiger in the cage with the tiger in its natural habitat.",
-        "a": [
-          "In the cage he paces a few steps along the length of his cage, ignores visitors, looks at the brilliant stars and is described as being ‘locked in concrete cell'.",
-          "His strength is behind bars; his voice is ‘the few steps of his cage' — reduced and silent.",
-          "In the forest he would be lurking in shadow, sliding through long grass near the water hole, snarling around houses at the jungle's edge.",
-          "There he would terrorise villages, show his white fangs and claws, and be free; the contrast is between helplessness and wild power."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "What does ‘A Tiger in the Zoo' say about freedom and captivity?",
         "a": [
@@ -440,6 +429,17 @@
           "By ending with the tiger asleep behind bars while the forest world goes on, Norris quietly criticises the human habit of caging wild animals for amusement."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “A Tiger in the Zoo” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The poem. The tiger in the zoo stalks the few steps of his cage in quiet rage; his strength is locked in a cage, so he ignores visitors. The poet then imagines where the tiger should be — lurking in the shadow, sliding through long grass near the watering hole where plump deer pass. He should be lurking in shadow, sliding through long grass near the water hole, where plump deer pass. In the last stanza the tiger is l.",
+          "Marks lens: Reference-to-context extracts, usually the first stanza (the cage) or the last (the stars).",
+          "Method / memory trick: Two settings, two lists. Cage: few steps, concrete cell, bars, visitors, stare at the stars. Forest: shadow, long grass, watering hole, plump deer, terrorise the village.",
+          "Do not: Saying the tiger attacks the visitors. He ignores them."
+        ]
       }
     ],
     "mcq": [
@@ -531,17 +531,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “How to Tell Wild Animals” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The poem. The poet gives an amusing method of telling one wild animal from another — by letting each of them attack you. If a large tawny beast in the east roars at you so that you feel you will die, it is an Asian lion. If the beast has a hide with black stripes on a yellow ground and it only needs to roar to know it is a Bengal tiger, and if it eats you, you can be quite sure it is a tiger. If a creature walks towa.",
-          "Marks lens: Reference-to-context extracts from any one stanza; a 3-mark answer on the humour or on the poet's purpose.",
-          "Method / memory trick: Six animals in order: Asian lion, Bengal tiger, leopard, bear, crocodile, hyena — then the chameleon.",
-          "Do not: Confusing the hyena's smile with the crocodile's tears. The hyena comes with merry smiles; the crocodile weeps."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “How to Tell Wild Animals” (Carolyn Wells: a humorous way to identify six animals.). A classmate lost marks by doing this: Confusing the hyena's smile with the crocodile's tears. The hyena comes with merry smiles; the crocodile weeps. Apply the correct method and rewrite the scoring answer.",
@@ -559,6 +548,17 @@
           "Idea: Carolyn Wells: a humorous way to identify six animals..",
           "The Bengal tiger has a hide with black stripes on a yellow ground and announces itself with a roar. The leopard has a hide with spots that pepper it, and it does not roar — it simply leaps at you, and it will do no good to roar with pain, because it will only leap again."
         ]
+      },
+      {
+        "m": "3",
+        "q": "What is the poet's humorous advice for identifying a Bengal tiger?",
+        "a": [
+          "She tells the reader to roar at a tiger, and then count — one, two, three.",
+          "If he roars again, you will know you ‘might have been' a Bengal tiger.",
+          "The joke is that you will not live to count: the tiger will eat you.",
+          "The humour comes from giving practical-sounding advice that is completely useless, which is the method of the whole poem."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -581,17 +581,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "What is the poet's humorous advice for identifying a Bengal tiger?",
-        "a": [
-          "She tells the reader to roar at a tiger, and then count — one, two, three.",
-          "If he roars again, you will know you ‘might have been' a Bengal tiger.",
-          "The joke is that you will not live to count: the tiger will eat you.",
-          "The humour comes from giving practical-sounding advice that is completely useless, which is the method of the whole poem."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "How does Carolyn Wells create humour in the poem?",
         "a": [
@@ -601,6 +590,17 @@
           "The effect is a comic, mock-serious poem that teaches the reader a little natural history while making fun of the very idea of a handbook on wild animals."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “How to Tell Wild Animals” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The poem. The poet gives an amusing method of telling one wild animal from another — by letting each of them attack you. If a large tawny beast in the east roars at you so that you feel you will die, it is an Asian lion. If the beast has a hide with black stripes on a yellow ground and it only needs to roar to know it is a Bengal tiger, and if it eats you, you can be quite sure it is a tiger. If a creature walks towa.",
+          "Marks lens: Reference-to-context extracts from any one stanza; a 3-mark answer on the humour or on the poet's purpose.",
+          "Method / memory trick: Six animals in order: Asian lion, Bengal tiger, leopard, bear, crocodile, hyena — then the chameleon.",
+          "Do not: Confusing the hyena's smile with the crocodile's tears. The hyena comes with merry smiles; the crocodile weeps."
+        ]
       }
     ],
     "mcq": [
@@ -686,28 +686,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "What is the boy learning, according to the poet? Explain the significance of the first loss.",
-        "a": [
-          "The boy is learning the **epistemology of loss** — the knowledge of what loss means and how to live with it. He stands rigid and trembling, staring down at the harbour where his ball went, and in that moment he understands that some things, once gone, cannot be brought back.",
-          "The poet says a dime, another ball, is worthless, because a new ball would not restore the one that is lost. Money is external, so it cannot help him here.",
-          "The boy learns that **balls will be lost always** — loss is a permanent feature of life, and everyone must learn to accept it. He learns to stand up, which means to accept the loss and go on.",
-          "The significance of the first loss is that it is the beginning of maturity. Until this moment the boy lived in a world where everything could be replaced; now he is part of a world of possessions in which things can be taken away. That realisation is painful, but it is also the first step towards becoming an adult who can bear responsibility and disappointment."
-        ],
-        "t": "L"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “The Ball Poem” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The poem. The boy stands rigid, trembling, staring down at the harbour where his ball went. The poet does not intrude on him; he says he would not intrude on the boy, and that a dime, another ball, is worthless. The boy is learning the epistemology of loss — the knowledge of what it is to lose something. The poet says that money is external, and that the boy will learn to stand up, knowing that people will take balls.",
-          "Marks lens: Reference-to-context extracts; a 5-mark answer on the boy's lesson and on the meaning of 'the epistemology of loss'.",
-          "Method / memory trick: 'Epistemology of loss' = the knowledge of how to lose things. Explain it in simple words and you get the mark.",
-          "Do not: Saying the poet buys the boy a new ball. He does not, and explains why."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “The Ball Poem” (John Berryman: a lost ball and the first lesson in loss.). A classmate lost marks by doing this: Saying the poet buys the boy a new ball. He does not, and explains why. Apply the correct method and rewrite the scoring answer.",
@@ -725,6 +703,17 @@
           "Idea: John Berryman: a lost ball and the first lesson in loss..",
           "Because the boy is learning something important for the first time — the epistemology of loss, or the knowledge of what it is to lose something. Intruding on him, or offering a new ball, would spoil the lesson. The poet wants the boy to feel the loss fully and to learn to stand up on his own."
         ]
+      },
+      {
+        "m": "3",
+        "q": "What does the boy lose in the poem, and what does the loss mean to him?",
+        "a": [
+          "He loses a ball that bounces merrily down the street and into the water.",
+          "To an adult it is a small, cheap thing; to the boy it is the first thing he has owned and the first thing he has lost.",
+          "He stands rigid, trembling, staring at the water where the ball went, with a helplessness the poet understands.",
+          "The loss stands for the end of the innocent world of childhood, in which nothing is owned and nothing is lost."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -747,17 +736,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "What does the boy lose in the poem, and what does the loss mean to him?",
-        "a": [
-          "He loses a ball that bounces merrily down the street and into the water.",
-          "To an adult it is a small, cheap thing; to the boy it is the first thing he has owned and the first thing he has lost.",
-          "He stands rigid, trembling, staring at the water where the ball went, with a helplessness the poet understands.",
-          "The loss stands for the end of the innocent world of childhood, in which nothing is owned and nothing is lost."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Explain the ending: ‘he is learning … to stand up in the world of possessions'.",
         "a": [
@@ -767,6 +745,28 @@
           "So the boy is learning, through grief, to stand up among people who own and lose things: this is the painful education that makes an adult."
         ],
         "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "What is the boy learning, according to the poet? Explain the significance of the first loss.",
+        "a": [
+          "The boy is learning the **epistemology of loss** — the knowledge of what loss means and how to live with it. He stands rigid and trembling, staring down at the harbour where his ball went, and in that moment he understands that some things, once gone, cannot be brought back.",
+          "The poet says a dime, another ball, is worthless, because a new ball would not restore the one that is lost. Money is external, so it cannot help him here.",
+          "The boy learns that **balls will be lost always** — loss is a permanent feature of life, and everyone must learn to accept it. He learns to stand up, which means to accept the loss and go on.",
+          "The significance of the first loss is that it is the beginning of maturity. Until this moment the boy lived in a world where everything could be replaced; now he is part of a world of possessions in which things can be taken away. That realisation is painful, but it is also the first step towards becoming an adult who can bear responsibility and disappointment."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “The Ball Poem” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The poem. The boy stands rigid, trembling, staring down at the harbour where his ball went. The poet does not intrude on him; he says he would not intrude on the boy, and that a dime, another ball, is worthless. The boy is learning the epistemology of loss — the knowledge of what it is to lose something. The poet says that money is external, and that the boy will learn to stand up, knowing that people will take balls.",
+          "Marks lens: Reference-to-context extracts; a 5-mark answer on the boy's lesson and on the meaning of 'the epistemology of loss'.",
+          "Method / memory trick: 'Epistemology of loss' = the knowledge of how to lose things. Explain it in simple words and you get the mark.",
+          "Do not: Saying the poet buys the boy a new ball. He does not, and explains why."
+        ]
       }
     ],
     "mcq": [
@@ -859,17 +859,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Amanda!” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The poem. The poem alternates between the instructions of an adult — presumably Amanda's mother — and Amanda's daydreams. The adult tells her not to bite her nails, not to hunch her shoulders, not to slouch, to sit up straight, to do her homework, to clean her room, to shine her shoes, not to eat chocolate because of her acne, and not to look so moody. Amanda answers each instruction with a fantasy: she is an orphan.",
-          "Marks lens: Reference-to-context extracts; a 3-mark answer on whether Amanda is an orphan or a mermaid, and on the theme of control.",
-          "Method / memory trick: Three fantasies in order: orphan, Rapunzel, mermaid. Each is her escape from one kind of instruction.",
-          "Do not: Answering that Amanda *is* an orphan. She only imagines herself to be one."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Amanda!” (Robin Klein: a girl's daydreams against her mother's nagging.). A classmate lost marks by doing this: Answering that Amanda *is* an orphan. She only imagines herself to be one. Apply the correct method and rewrite the scoring answer.",
@@ -887,6 +876,17 @@
           "Idea: Robin Klein: a girl's daydreams against her mother's nagging..",
           "No, she is not an orphan. She imagines herself to be one because she is tired of the constant instructions and scolding. As an orphan roaming the street, patterning the dust with her bare feet, she would be free, silent and alone — free from anyone telling her what to do. The fantasy is an escape, not a statement of fact."
         ]
+      },
+      {
+        "m": "3",
+        "q": "What does Amanda imagine herself to be, and why?",
+        "a": [
+          "She imagines herself as a mermaid drifting blissfully on the lapping waves of a languid emerald sea.",
+          "She imagines herself as an orphan, roaming barefoot and free in the dust and gold of the street, with no one to scold her.",
+          "She also dreams of being Rapunzel, living in a tower where no one can find her and life is ‘tranquil and rare, unmolested'.",
+          "Each daydream is an escape from the constant instruction and nagging she hears at home, so the poem is really about a child's need for freedom."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -909,17 +909,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "What does Amanda imagine herself to be, and why?",
-        "a": [
-          "She imagines herself as a mermaid drifting blissfully on the lapping waves of a languid emerald sea.",
-          "She imagines herself as an orphan, roaming barefoot and free in the dust and gold of the street, with no one to scold her.",
-          "She also dreams of being Rapunzel, living in a tower where no one can find her and life is ‘tranquil and rare, unmolested'.",
-          "Each daydream is an escape from the constant instruction and nagging she hears at home, so the poem is really about a child's need for freedom."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "How does the poem show the conflict between a child's freedom and adult instruction?",
         "a": [
@@ -929,6 +918,17 @@
           "The poem suggests that endless instruction produces withdrawal rather than goodness, and ends with the warning that if she is sulked at all day she will stop loving herself."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Amanda!” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The poem. The poem alternates between the instructions of an adult — presumably Amanda's mother — and Amanda's daydreams. The adult tells her not to bite her nails, not to hunch her shoulders, not to slouch, to sit up straight, to do her homework, to clean her room, to shine her shoes, not to eat chocolate because of her acne, and not to look so moody. Amanda answers each instruction with a fantasy: she is an orphan.",
+          "Marks lens: Reference-to-context extracts; a 3-mark answer on whether Amanda is an orphan or a mermaid, and on the theme of control.",
+          "Method / memory trick: Three fantasies in order: orphan, Rapunzel, mermaid. Each is her escape from one kind of instruction.",
+          "Do not: Answering that Amanda *is* an orphan. She only imagines herself to be one."
+        ]
       }
     ],
     "mcq": [
@@ -1014,28 +1014,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "What message does the poem convey about human beings and nature?",
-        "a": [
-          "The poem shows that human beings have removed nature from its natural home and confined it to houses, verandas and gardens, so that the forest outside is left empty and lifeless. Without trees there are no birds, no insects and no shade.",
-          "But the trees do not accept this imprisonment. All night their roots work to disengage themselves from the cracks in the veranda floor, their leaves strain towards the glass, and their twigs stiffen with exertion. Slowly, painfully, they move out and stumble forward into the forest.",
-          "The poet watches them from inside, writing long letters and hardly mentioning their departure — which suggests that human beings know what they have done and prefer not to speak of it.",
-          "The breaking of the moon like a mirror, its pieces flashing in the crown of the tallest oak, marks the moment the trees return to the wild. The message is that nature cannot be permanently confined, and that human beings who destroy forests are left with an empty world — but nature itself will find its way back."
-        ],
-        "t": "L"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “The Trees” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The poem. The trees are inside the house, and the forest outside is empty — no birds sit, no insects hide, no sun bury its feet in shadow, and there is nothing there all day. The trees that had been inside are moving out: their roots work all night to disengage themselves from the cracks in the veranda floor, their leaves strain towards the glass, and their small twigs stiff with exertion. The long-cramped boughs shu.",
-          "Marks lens: Reference-to-context extracts, usually the first or the third stanza; a 5-mark answer on the message about nature.",
-          "Method / memory trick: The trees are prisoners; the forest is empty. That reversal is the whole poem.",
-          "Do not: Saying the forest is full and the trees are outside. It is the opposite: the forest is empty and the trees are inside."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “The Trees” (Adrienne Rich: trees leaving a house to return to the forest.). A classmate lost marks by doing this: Saying the forest is full and the trees are outside. It is the opposite: the forest is empty and the trees are inside. Apply the correct method and rewrite the scoring answer.",
@@ -1053,6 +1031,17 @@
           "Idea: Adrienne Rich: trees leaving a house to return to the forest..",
           "Because all the trees have been brought inside — into houses, verandas and pots — so there are none left in the forest. With no trees there are no birds to sit, no insects to hide and no sun to bury its feet in the shadow of leaves. The forest is empty all day, which shows how completely human beings have taken nature away from it."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Describe the movement of the trees out of the house.",
+        "a": [
+          "The trees inside the house strain at the windows and the doors, and their roots work all night to disengage themselves from the cracks in the veranda floor.",
+          "Their leaves move towards the glass, and the small twigs stiffen with exertion while the long, broken branches are relieved of the weight of the roof.",
+          "The poet says she sits inside, and the doors open and the huge trees move out, like newly discharged patients half-dazed, moving to the clinic doors.",
+          "They leave behind the broken glass, the smell of leaves and lichen, and the moonlight that had been trapped in the house."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -1075,17 +1064,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "Describe the movement of the trees out of the house.",
-        "a": [
-          "The trees inside the house strain at the windows and the doors, and their roots work all night to disengage themselves from the cracks in the veranda floor.",
-          "Their leaves move towards the glass, and the small twigs stiffen with exertion while the long, broken branches are relieved of the weight of the roof.",
-          "The poet says she sits inside, and the doors open and the huge trees move out, like newly discharged patients half-dazed, moving to the clinic doors.",
-          "They leave behind the broken glass, the smell of leaves and lichen, and the moonlight that had been trapped in the house."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "What is the poet's message about nature in ‘The Trees'?",
         "a": [
@@ -1095,6 +1073,28 @@
           "By ending with the empty forest waiting to be filled, she hints that the natural world is diminished by our attempts to possess it."
         ],
         "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "What message does the poem convey about human beings and nature?",
+        "a": [
+          "The poem shows that human beings have removed nature from its natural home and confined it to houses, verandas and gardens, so that the forest outside is left empty and lifeless. Without trees there are no birds, no insects and no shade.",
+          "But the trees do not accept this imprisonment. All night their roots work to disengage themselves from the cracks in the veranda floor, their leaves strain towards the glass, and their twigs stiffen with exertion. Slowly, painfully, they move out and stumble forward into the forest.",
+          "The poet watches them from inside, writing long letters and hardly mentioning their departure — which suggests that human beings know what they have done and prefer not to speak of it.",
+          "The breaking of the moon like a mirror, its pieces flashing in the crown of the tallest oak, marks the moment the trees return to the wild. The message is that nature cannot be permanently confined, and that human beings who destroy forests are left with an empty world — but nature itself will find its way back."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “The Trees” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The poem. The trees are inside the house, and the forest outside is empty — no birds sit, no insects hide, no sun bury its feet in shadow, and there is nothing there all day. The trees that had been inside are moving out: their roots work all night to disengage themselves from the cracks in the veranda floor, their leaves strain towards the glass, and their small twigs stiff with exertion. The long-cramped boughs shu.",
+          "Marks lens: Reference-to-context extracts, usually the first or the third stanza; a 5-mark answer on the message about nature.",
+          "Method / memory trick: The trees are prisoners; the forest is empty. That reversal is the whole poem.",
+          "Do not: Saying the forest is full and the trees are outside. It is the opposite: the forest is empty and the trees are inside."
+        ]
       }
     ],
     "mcq": [
@@ -1187,17 +1187,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Fog” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The poem. *The fog comes / on little cat feet. / It sits looking / over harbour and city / on silent haunches / and then moves on.* Six lines, no rhyme.",
-          "Marks lens: Reference-to-context extracts; a 3-mark answer on the central metaphor and on whether the poet actually says the fog is a cat.",
-          "Method / memory trick: It is a metaphor, not a simile. The poet never uses 'like' or 'as' — that distinction is a marked point.",
-          "Do not: Saying the poet *says* the fog is a cat. He compares it to a cat; the fog is not literally a cat."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Fog” (Carl Sandburg: six lines comparing fog to a cat.). A classmate lost marks by doing this: Saying the poet *says* the fog is a cat. He compares it to a cat; the fog is not literally a cat. Apply the correct method and rewrite the scoring answer.",
@@ -1215,6 +1204,17 @@
           "Idea: Carl Sandburg: six lines comparing fog to a cat..",
           "The poet compares the fog to a cat. He says it comes on little cat feet, sits on silent haunches looking over the harbour and city, and then moves on — all the quiet, soft, unhurried movements of a cat. He never says directly that the fog is a cat, and he never uses the word 'like' or 'as', so the comparison is a metaphor rather than a simile."
         ]
+      },
+      {
+        "m": "3",
+        "q": "How does Carl Sandburg describe the fog?",
+        "a": [
+          "The fog comes ‘on little cat feet': silently, slowly and almost without anyone noticing.",
+          "It sits looking over harbour and city on silent haunches, like a cat perched and watching.",
+          "Then it moves on; it does not announce itself, and it does not stay.",
+          "The six-line poem turns an ordinary weather event into a living creature."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -1237,17 +1237,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "How does Carl Sandburg describe the fog?",
-        "a": [
-          "The fog comes ‘on little cat feet': silently, slowly and almost without anyone noticing.",
-          "It sits looking over harbour and city on silent haunches, like a cat perched and watching.",
-          "Then it moves on; it does not announce itself, and it does not stay.",
-          "The six-line poem turns an ordinary weather event into a living creature."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "What does the comparison with a cat achieve in the poem?",
         "a": [
@@ -1257,6 +1246,17 @@
           "By using a domestic animal, Sandburg makes the natural phenomenon familiar, which is typical of his plain, imagist style."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Fog” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The poem. *The fog comes / on little cat feet. / It sits looking / over harbour and city / on silent haunches / and then moves on.* Six lines, no rhyme.",
+          "Marks lens: Reference-to-context extracts; a 3-mark answer on the central metaphor and on whether the poet actually says the fog is a cat.",
+          "Method / memory trick: It is a metaphor, not a simile. The poet never uses 'like' or 'as' — that distinction is a marked point.",
+          "Do not: Saying the poet *says* the fog is a cat. He compares it to a cat; the fog is not literally a cat."
+        ]
       }
     ],
     "mcq": [
@@ -1343,28 +1343,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "What is the central idea of the poem? Is Custard a coward?",
-        "a": [
-          "The poem is a humorous story about bravery and boasting. Belinda, Ink, Blink and Mustard all boast about how brave they are, while Custard openly admits his fear and asks for a nice safe cage.",
-          "When the pirate actually appears, the boasters run away: Mustard flees with a terrified cry, Ink trickles to the bottom of the house, and Blink disappears into his mouse hole. Only Custard faces the pirate and eats him up, every bit.",
-          "**The moral** is that those who boast are not necessarily brave, and the one who admits his fear may be the bravest of all when action is needed. Bravery is shown in deeds, not in words.",
-          "**Is Custard a coward?** The poet leaves this open. Custard himself says he is a coward and would still prefer a nice safe cage, and the others all agree they are braver than he is. The humour lies in the fact that nobody changes their opinion, even after Custard has saved them. So the poem suggests that a person can be genuinely brave in action and still be timid by nature — the two are not contradictory."
-        ],
-        "t": "L"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “The Tale of Custard the Dragon” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The poem. Belinda lived in a little white house with a little black kitten, a little grey mouse, a little yellow dog, and a little pet dragon named Custard. Belinda was as brave as a barrel full of bears; Ink and Blink could chase lions down the stairs; Mustard was as brave as a tiger in a rage. But Custard cried for a nice safe cage. Then a pirate climbed in through the window, with a pistol in his hand and two cutl.",
-          "Marks lens: Reference-to-context extracts; a 5-mark answer on the moral and on why Custard cried for a nice safe cage.",
-          "Method / memory trick: Four pets, four names: Ink, Blink, Mustard, Custard. Learn which animal is which colour.",
-          "Do not: Making Mustard the grey mouse. Ink is the black kitten, Blink is the grey mouse, Mustard is the yellow dog."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “The Tale of Custard the Dragon” (Ogden Nash's ballad: a cowardly dragon and a real pirate.). A classmate lost marks by doing this: Making Mustard the grey mouse. Ink is the black kitten, Blink is the grey mouse, Mustard is the yellow dog. Apply the correct method and rewrite the scoring answer.",
@@ -1382,6 +1360,17 @@
           "Idea: Ogden Nash's ballad: a cowardly dragon and a real pirate..",
           "Because he was a coward, or at least thought of himself as one. While Belinda and the other pets boasted of their bravery, Custard admitted his fear and asked for a nice safe cage. His cry is honest, and it is what makes his later action so surprising — he is the only one who did not pretend to be brave."
         ]
+      },
+      {
+        "m": "3",
+        "q": "How does Custard prove himself when the pirate appears?",
+        "a": [
+          "While Belinda, Ink, Blink and Mustard all run away in terror, Custard alone stands his ground.",
+          "He snorts, claps his sharp teeth, gulps some mustard at the pirate and charges at him like a robin at a worm.",
+          "The pirate fires two bullets that miss, and Custard swallows him in one bite, clashing his tail like irons in a dungeon.",
+          "The ‘cowardly' dragon turns out to be the only one with real courage, which is the joke of the poem."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -1404,17 +1393,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "How does Custard prove himself when the pirate appears?",
-        "a": [
-          "While Belinda, Ink, Blink and Mustard all run away in terror, Custard alone stands his ground.",
-          "He snorts, claps his sharp teeth, gulps some mustard at the pirate and charges at him like a robin at a worm.",
-          "The pirate fires two bullets that miss, and Custard swallows him in one bite, clashing his tail like irons in a dungeon.",
-          "The ‘cowardly' dragon turns out to be the only one with real courage, which is the joke of the poem."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "What makes ‘The Tale of Custard the Dragon' a ballad of humour?",
         "a": [
@@ -1424,6 +1402,28 @@
           "The ending is comic too: once the danger is over, everyone goes back to boasting, and Custard meekly wishes for his nice safe cage again."
         ],
         "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "What is the central idea of the poem? Is Custard a coward?",
+        "a": [
+          "The poem is a humorous story about bravery and boasting. Belinda, Ink, Blink and Mustard all boast about how brave they are, while Custard openly admits his fear and asks for a nice safe cage.",
+          "When the pirate actually appears, the boasters run away: Mustard flees with a terrified cry, Ink trickles to the bottom of the house, and Blink disappears into his mouse hole. Only Custard faces the pirate and eats him up, every bit.",
+          "**The moral** is that those who boast are not necessarily brave, and the one who admits his fear may be the bravest of all when action is needed. Bravery is shown in deeds, not in words.",
+          "**Is Custard a coward?** The poet leaves this open. Custard himself says he is a coward and would still prefer a nice safe cage, and the others all agree they are braver than he is. The humour lies in the fact that nobody changes their opinion, even after Custard has saved them. So the poem suggests that a person can be genuinely brave in action and still be timid by nature — the two are not contradictory."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “The Tale of Custard the Dragon” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The poem. Belinda lived in a little white house with a little black kitten, a little grey mouse, a little yellow dog, and a little pet dragon named Custard. Belinda was as brave as a barrel full of bears; Ink and Blink could chase lions down the stairs; Mustard was as brave as a tiger in a rage. But Custard cried for a nice safe cage. Then a pirate climbed in through the window, with a pistol in his hand and two cutl.",
+          "Marks lens: Reference-to-context extracts; a 5-mark answer on the moral and on why Custard cried for a nice safe cage.",
+          "Method / memory trick: Four pets, four names: Ink, Blink, Mustard, Custard. Learn which animal is which colour.",
+          "Do not: Making Mustard the grey mouse. Ink is the black kitten, Blink is the grey mouse, Mustard is the yellow dog."
+        ]
       }
     ],
     "mcq": [
@@ -1516,17 +1516,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “For Anne Gregory” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The poem. The poet asks Anne Gregory: never shall a young man, thrown into despair by those great honey-coloured ramparts at your ear, love you for yourself alone, and not your yellow hair. Anne replies that she can dye her hair brown, or black, or carrot, and that young men could then love her for herself alone and not her yellow hair. The poet answers that an old religious man told him last night that he had found.",
-          "Marks lens: Reference-to-context extracts; a 3-mark answer on the central question and on the religious man's answer.",
-          "Method / memory trick: 'Ramparts' = the walls of a fort. Her hair is compared to a fort's wall — a metaphor, and a marked figure of speech.",
-          "Do not: Saying the poet answers Anne directly. He quotes an old religious man and a text."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “For Anne Gregory” (W. B. Yeats: is a man loved for himself or for his yellow hair?). A classmate lost marks by doing this: Saying the poet answers Anne directly. He quotes an old religious man and a text. Apply the correct method and rewrite the scoring answer.",
@@ -1544,6 +1533,17 @@
           "Idea: W. B. Yeats: is a man loved for himself or for his yellow hair?.",
           "He is comparing Anne's yellow hair to the ramparts, or high walls, of a fort. The hair hangs around her ears like a wall that young men cannot cross, and it throws them into despair because they cannot help being attracted to her beauty. It is a metaphor, since no 'like' or 'as' is used."
         ]
+      },
+      {
+        "m": "3",
+        "q": "What does the poet say about young men's love? Give the reason he gives.",
+        "a": [
+          "The poet tells Anne Gregory that young men who are in love with her will never love her for herself alone, but only for her yellow hair.",
+          "He says ‘never shall a young man, Thrown into despair By those great honey-coloured Ramparts at your ear, Love you for yourself alone And not your yellow hair.'",
+          "This is because youth is taken by physical beauty and cannot see the person behind it.",
+          "The poem therefore makes a distinction between being loved for one's looks and being loved for oneself."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -1566,17 +1566,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "What does the poet say about young men's love? Give the reason he gives.",
-        "a": [
-          "The poet tells Anne Gregory that young men who are in love with her will never love her for herself alone, but only for her yellow hair.",
-          "He says ‘never shall a young man, Thrown into despair By those great honey-coloured Ramparts at your ear, Love you for yourself alone And not your yellow hair.'",
-          "This is because youth is taken by physical beauty and cannot see the person behind it.",
-          "The poem therefore makes a distinction between being loved for one's looks and being loved for oneself."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "How does the poem contrast outer beauty with inner worth?",
         "a": [
@@ -1586,6 +1575,17 @@
           "The poem is not cynical so much as realistic: youth values the face and hair; the worth of a person is known only to love that does not depend on appearance."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “For Anne Gregory” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The poem. The poet asks Anne Gregory: never shall a young man, thrown into despair by those great honey-coloured ramparts at your ear, love you for yourself alone, and not your yellow hair. Anne replies that she can dye her hair brown, or black, or carrot, and that young men could then love her for herself alone and not her yellow hair. The poet answers that an old religious man told him last night that he had found.",
+          "Marks lens: Reference-to-context extracts; a 3-mark answer on the central question and on the religious man's answer.",
+          "Method / memory trick: 'Ramparts' = the walls of a fort. Her hair is compared to a fort's wall — a metaphor, and a marked figure of speech.",
+          "Do not: Saying the poet answers Anne directly. He quotes an old religious man and a text."
+        ]
       }
     ],
     "mcq": [

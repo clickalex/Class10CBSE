@@ -45,6 +45,18 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "Why is diffusion insufficient to meet the oxygen requirements of multicellular organisms like human beings?",
+        "a": "Because their cells are not all in direct contact with the environment, and the volume of the body is large, so the distance oxygen would have to diffuse is too great. Diffusion is too slow to supply every cell, which is why special respiratory and transport systems are needed.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Name the raw materials and the products of photosynthesis, and write the overall equation.",
+        "a": "Raw materials: carbon dioxide from the air and water absorbed from the soil, using chlorophyll and sunlight. Products: glucose (stored as starch) and oxygen. Overall: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ in the presence of sunlight and chlorophyll.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Why is the rate of breathing in aquatic organisms much faster than in terrestrial organisms?",
         "a": "Because the amount of dissolved oxygen in water is far lower than the oxygen in air. Aquatic animals must therefore pass a larger volume of water over their gills per unit time to obtain enough oxygen, which makes the breathing rate faster.",
@@ -71,35 +83,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "Explain the process of nutrition in human beings, from ingestion to egestion.",
-        "a": [
-          "**Mouth:** teeth chew the food; salivary amylase begins the breakdown of starch into simpler sugars.",
-          "**Oesophagus:** peristaltic movements push the food to the stomach.",
-          "**Stomach:** HCl makes the medium acidic for pepsin to digest proteins, kills germs, and mucus protects the stomach wall.",
-          "**Small intestine:** the site of complete digestion — bile from the liver emulsifies fat, pancreatic trypsin acts on proteins, lipase on fats, and intestinal enzymes convert carbohydrates to glucose and proteins to amino acids; the finger-like **villi** absorb the digested food into the blood.",
-          "**Large intestine and anus:** water is absorbed from the undigested food and the waste is egested."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "2",
-        "q": "Why is diffusion insufficient to meet the oxygen requirements of multicellular organisms like human beings?",
-        "a": "Because their cells are not all in direct contact with the environment, and the volume of the body is large, so the distance oxygen would have to diffuse is too great. Diffusion is too slow to supply every cell, which is why special respiratory and transport systems are needed.",
-        "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Life Processes” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Maintenance. Living organisms constantly repair and renew their structures using energy from outside. The processes that maintain life are nutrition, respiration, transport and excretion. Growth and movement are *not* by themselves proof of life — a breathing person in a coma is alive; a growing crystal is not.",
-          "Marks lens: –5 marks. Almost always a labelled diagram (human respiratory or excretory system, or the nephron) plus one 3-mark reasoning question.",
-          "Method / memory trick: Four systems, four words: Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion).",
-          "Do not: Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Life Processes” (Nutrition, respiration, transport and excretion — four systems, four diagrams.). A classmate lost marks by doing this: Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O. Apply the correct method and rewrite the scoring answer.",
@@ -117,6 +100,16 @@
           "Idea: Nutrition, respiration, transport and excretion — four systems, four diagrams..",
           "Nephron; chlorophyll."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Describe how water and minerals are transported in plants.",
+        "a": [
+          "Root hair cells absorb water and dissolved minerals from the soil by osmosis and active transport.",
+          "They pass into the xylem vessels, which form a continuous tube from the roots to the leaves.",
+          "Loss of water vapour through the stomata (transpiration) creates a suction pull that lifts the water column upward; no energy is spent by the plant."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -139,22 +132,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "Name the raw materials and the products of photosynthesis, and write the overall equation.",
-        "a": "Raw materials: carbon dioxide from the air and water absorbed from the soil, using chlorophyll and sunlight. Products: glucose (stored as starch) and oxygen. Overall: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ in the presence of sunlight and chlorophyll.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Describe how water and minerals are transported in plants.",
-        "a": [
-          "Root hair cells absorb water and dissolved minerals from the soil by osmosis and active transport.",
-          "They pass into the xylem vessels, which form a continuous tube from the roots to the leaves.",
-          "Loss of water vapour through the stomata (transpiration) creates a suction pull that lifts the water column upward; no energy is spent by the plant."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Explain double circulation in human beings and state why it is advantageous.",
         "a": [
@@ -164,6 +141,29 @@
           "Because oxygenated and deoxygenated blood stay separate, tissues receive blood with the maximum possible oxygen, which supports the high energy needs of a warm-blooded body."
         ],
         "t": "A"
+      },
+      {
+        "m": "5",
+        "q": "Explain the process of nutrition in human beings, from ingestion to egestion.",
+        "a": [
+          "**Mouth:** teeth chew the food; salivary amylase begins the breakdown of starch into simpler sugars.",
+          "**Oesophagus:** peristaltic movements push the food to the stomach.",
+          "**Stomach:** HCl makes the medium acidic for pepsin to digest proteins, kills germs, and mucus protects the stomach wall.",
+          "**Small intestine:** the site of complete digestion — bile from the liver emulsifies fat, pancreatic trypsin acts on proteins, lipase on fats, and intestinal enzymes convert carbohydrates to glucose and proteins to amino acids; the finger-like **villi** absorb the digested food into the blood.",
+          "**Large intestine and anus:** water is absorbed from the undigested food and the waste is egested."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Life Processes” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Maintenance. Living organisms constantly repair and renew their structures using energy from outside. The processes that maintain life are nutrition, respiration, transport and excretion. Growth and movement are *not* by themselves proof of life — a breathing person in a coma is alive; a growing crystal is not.",
+          "Marks lens: –5 marks. Almost always a labelled diagram (human respiratory or excretory system, or the nephron) plus one 3-mark reasoning question.",
+          "Method / memory trick: Four systems, four words: Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion).",
+          "Do not: Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O."
+        ]
       }
     ],
     "mcq": [
@@ -210,6 +210,12 @@
     ],
     "task": [
       "Draw and label the human respiratory system and the nephron in your notebook from memory, then check both against the NCERT diagrams. Mark in a different colour every label you missed — those are the marks you would have lost."
+    ],
+    "steps": [
+      "1. Name the **process** the question is really asking about — nutrition, respiration, transport, or excretion — before writing anything else.",
+      "2. State the **organs and the chemical change**: for example, in human digestion, starch → maltose by salivary amylase in the mouth, then → glucose by pancreatic amylase in the small intestine.",
+      "3. Give the **equation** where one exists: aerobic respiration is C6H12O6 + 6O2 → 6CO2 + 6H2O + 38 ATP; anaerobic in muscle gives lactic acid, in yeast gives ethanol + CO2.",
+      "4. End with the **why** — villi increase surface area, haemoglobin carries oxygen, nephrons filter blood — because board marking schemes reward the reason, not just the name."
     ]
   },
   {
@@ -233,7 +239,12 @@
       "**5. Coordination in plants.** **Tropic movements** are directional growth responses: **phototropism** (shoot toward light), **geotropism** (root toward gravity), **hydrotropism** (root toward water), **chemotropism** (pollen tube growing toward the ovule), **thigmotropism** (tendrils). **Nastic** movements are non-directional, such as the closing of *Mimosa* (touch-me-not) leaves, caused by a change in the water content of cells. **Phytohormones**: **auxin** (cell elongation, phototropism, made at the shoot tip), **gibberellins** (stem growth), **cytokinins** (cell division, fruit and seed growth), **abscisic acid** (growth *inhibitor* — wilting of leaves, closing of stomata).",
       "**6. Hormones in animals.** Endocrine glands are **ductless** and pour hormones directly into the blood. **Thyroxin** (thyroid) regulates carbohydrate, protein and fat metabolism — iodine deficiency causes **goitre**. **Growth hormone** (pituitary) — deficiency causes dwarfism, excess causes gigantism. **Testosterone** (testes) and **oestrogen** (ovaries) control puberty. **Insulin** (pancreas) regulates blood sugar — its deficiency causes **diabetes**. **Adrenaline** (adrenal gland) is the emergency hormone: it increases heart rate, breathing rate and blood supply to muscles, preparing the body for fight or flight. Feedback regulation controls hormone secretion."
     ],
-    "formulas": [],
+    "formulas": [
+      "Reflex arc: receptor → sensory neuron → spinal cord → motor neuron → effector",
+      "Synapse: electrical impulse → chemical (neurotransmitter) → electrical impulse",
+      "Plant movements: tropism = growth response; nastic = non-directional response",
+      "Phototropism: auxin accumulates on the shaded side → that side grows faster → bend towards light"
+    ],
     "tricks": [
       "- **Reflex arc order:** Receptor → Sensory → (Spine) → Motor → Effector. *'Red Sun Shines More Energetically'.*",
       "- **Hindbrain trio:** **P**ons = breathing, **M**edulla = involuntary, **C**erebellum = balance. Remember 'PMC — Pump, Medulla control, Coordination'.",
@@ -259,6 +270,18 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "How does phototropism occur in plants?",
+        "a": "Auxin is synthesised at the tip of the shoot and diffuses to the **shaded** side of the stem. There it causes the cells to elongate more than on the illuminated side, so the stem bends toward the light.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Name the plant hormone responsible for cell elongation and the one that ripens fruit.",
+        "a": "Auxin causes cell elongation and is responsible for the bending of a shoot towards light. Ethylene is a gaseous hormone that promotes the ripening of fruits.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Draw a labelled diagram of a neuron, or explain how a nerve impulse travels across a synapse.",
         "a": [
@@ -278,34 +301,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "Describe the parts of the human brain and their functions.",
-        "a": [
-          "**Forebrain** — contains the **cerebrum**, the main thinking part, which controls voluntary actions, memory, intelligence and the senses; it also contains centres for hunger and smell.",
-          "**Midbrain** — controls involuntary actions such as the change in the size of the pupil.",
-          "**Hindbrain** — **pons** helps regulate respiration; the **medulla** controls involuntary actions such as blood pressure, salivation and vomiting; the **cerebellum** maintains posture and balance and makes voluntary movements precise, such as walking in a straight line or picking up a pencil.",
-          "The whole brain is protected by the cranium, meninges and the shock-absorbing cerebrospinal fluid."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "2",
-        "q": "How does phototropism occur in plants?",
-        "a": "Auxin is synthesised at the tip of the shoot and diffuses to the **shaded** side of the stem. There it causes the cells to elongate more than on the illuminated side, so the stem bends toward the light.",
-        "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Control and Coordination” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Two ways of coordinating. Nervous coordination uses electrical impulses and is fast but short-lived and reaches only selected cells; chemical (hormonal) coordination is slower, slower to act but longer-lasting and reaches every cell through the blood. Plants rely mainly on chemical coordination and on growth movements.",
-          "Marks lens: –3 marks. Reflex arc and the hormone tables are the recurring questions; a labelled diagram of the neuron or the reflex arc is common.",
-          "Method / memory trick: Reflex arc order: Receptor → Sensory → (Spine) → Motor → Effector. *'Red Sun Shines More Energetically'.*",
-          "Do not: Drawing the reflex arc through the brain. It passes through the spinal cord only."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Control and Coordination” (Nervous system, reflex arc, plant hormones and animal hormones.). A classmate lost marks by doing this: Drawing the reflex arc through the brain. It passes through the spinal cord only. Apply the correct method and rewrite the scoring answer.",
@@ -323,6 +318,16 @@
           "Idea: Nervous system, reflex arc, plant hormones and animal hormones..",
           "Cerebrum; insulin."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Explain how the nervous and endocrine systems work together, using adrenaline as the example.",
+        "a": [
+          "The nervous system gives a fast, point-to-point electrical message; hormones give a slower, longer-lasting chemical message.",
+          "In a frightening situation the brain signals the adrenal medulla, which releases adrenaline into the blood.",
+          "Adrenaline increases heart rate and breathing, and diverts blood to the skeletal muscles — the ‘fight or flight’ response — so the whole body reacts, not just one muscle."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -345,22 +350,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "Name the plant hormone responsible for cell elongation and the one that ripens fruit.",
-        "a": "Auxin causes cell elongation and is responsible for the bending of a shoot towards light. Ethylene is a gaseous hormone that promotes the ripening of fruits.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Explain how the nervous and endocrine systems work together, using adrenaline as the example.",
-        "a": [
-          "The nervous system gives a fast, point-to-point electrical message; hormones give a slower, longer-lasting chemical message.",
-          "In a frightening situation the brain signals the adrenal medulla, which releases adrenaline into the blood.",
-          "Adrenaline increases heart rate and breathing, and diverts blood to the skeletal muscles — the ‘fight or flight’ response — so the whole body reacts, not just one muscle."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Describe the feedback mechanism that keeps blood sugar level steady.",
         "a": [
@@ -369,6 +358,28 @@
           "This is a negative feedback loop. If insulin secretion fails, the blood sugar stays high — the condition called diabetes."
         ],
         "t": "A"
+      },
+      {
+        "m": "5",
+        "q": "Describe the parts of the human brain and their functions.",
+        "a": [
+          "**Forebrain** — contains the **cerebrum**, the main thinking part, which controls voluntary actions, memory, intelligence and the senses; it also contains centres for hunger and smell.",
+          "**Midbrain** — controls involuntary actions such as the change in the size of the pupil.",
+          "**Hindbrain** — **pons** helps regulate respiration; the **medulla** controls involuntary actions such as blood pressure, salivation and vomiting; the **cerebellum** maintains posture and balance and makes voluntary movements precise, such as walking in a straight line or picking up a pencil.",
+          "The whole brain is protected by the cranium, meninges and the shock-absorbing cerebrospinal fluid."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Control and Coordination” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Two ways of coordinating. Nervous coordination uses electrical impulses and is fast but short-lived and reaches only selected cells; chemical (hormonal) coordination is slower, slower to act but longer-lasting and reaches every cell through the blood. Plants rely mainly on chemical coordination and on growth movements.",
+          "Marks lens: –3 marks. Reflex arc and the hormone tables are the recurring questions; a labelled diagram of the neuron or the reflex arc is common.",
+          "Method / memory trick: Reflex arc order: Receptor → Sensory → (Spine) → Motor → Effector. *'Red Sun Shines More Energetically'.*",
+          "Do not: Drawing the reflex arc through the brain. It passes through the spinal cord only."
+        ]
       }
     ],
     "mcq": [
@@ -414,6 +425,12 @@
     ],
     "task": [
       "Make a two-column table: left column, all plant hormones with one function each; right column, all human endocrine glands with their hormone and one deficiency disease. Do it from memory, then mark what you missed in red — that red list is your revision list for this chapter."
+    ],
+    "steps": [
+      "1. Split the answer into the **nervous** route and the **hormonal** route; most questions ask for one of the two or a comparison.",
+      "2. For nervous control, trace the **reflex arc** in order: receptor → sensory neuron → spinal cord → motor neuron → effector. Name the part that is damaged if a reflex is lost.",
+      "3. For hormones, name the **gland, the hormone and the effect**: pituitary → growth hormone, thyroid → thyroxine, pancreas → insulin, adrenals → adrenaline, testes/ovaries → testosterone/oestrogen.",
+      "4. Finish with the **advantage**: nervous control is fast and short-lived, hormonal control is slow but long-lasting. In plants, name the hormone — auxin, gibberellin, cytokinin or abscisic acid."
     ]
   },
   {
@@ -437,7 +454,12 @@
       "**5. The human female reproductive system.** Pair of **ovaries** (produce ova and **oestrogen**), **fallopian tubes/oviducts** (site of fertilisation; cilia move the egg), **uterus** (where the embryo implants and develops), **cervix**, **vagina**. If the egg is not fertilised, the thickened uterine lining breaks down and is discharged as blood and mucus — **menstruation**, roughly every 28 days. After fertilisation the embryo gets nutrition from the mother's blood through the **placenta**, a disc embedded in the uterine wall with villi on the embryo's side.",
       "**6. Reproductive health.** **Contraception** — mechanical barrier (condom, which also prevents sexually transmitted diseases; diaphragm, copper-T), chemical (oral pills that change the hormonal balance, so the ovum is not released), and surgical (vasectomy in males, tubectomy in females). **Sexually transmitted infections** — bacterial: gonorrhoea, syphilis; viral: warts, HIV-AIDS. Unwanted pregnancy and unsafe abortion lead to maternal illness and death; a healthy society needs a balance between population and resources."
     ],
-    "formulas": [],
+    "formulas": [
+      "DNA + histone protein → chromosome; a gene is a segment of DNA",
+      "Binary fission: one cell → two identical cells (Amoeba)",
+      "Zygote → embryo → foetus; gestation in humans ≈ 9 months (about 280 days)",
+      "Vegetative propagation: cutting, layering, grafting — offspring are clones of the parent"
+    ],
     "tricks": [
       "- **Fission vs fragmentation vs regeneration:** one cell splits = fission; body breaks into pieces = fragmentation; a *cut part* grows into a whole = regeneration.",
       "- **Ovule → seed, ovary → fruit.** Both start with 'o'.",
@@ -463,6 +485,18 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "List two advantages of vegetative propagation.",
+        "a": "It is a quick and cheap method of multiplying plants, and the new plants are genetically identical to the parent, so desirable qualities such as fruit size and taste are retained. Plants that do not produce viable seeds, like banana and rose, can also be propagated this way.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Why is variation useful to a species, and how does sexual reproduction produce it?",
+        "a": "Sexual reproduction combines DNA from two different individuals, so offspring differ from both parents. Variation means that when the environment changes or a disease strikes, some individuals are likely to survive, the population is not wiped out, and natural selection has raw material to work on.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Explain regeneration in Planaria with a diagram description.",
         "a": [
@@ -482,35 +516,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "Describe the structure and working of the human female reproductive system.",
-        "a": [
-          "**Ovaries** — a pair of glands that produce the female gamete (ovum) and the hormone oestrogen.",
-          "**Fallopian tubes (oviducts)** — tubes with finger-like ends near the ovary and ciliated walls; the egg is captured here and **fertilisation takes place in the tube**.",
-          "**Uterus** — a muscular bag where the fertilised egg implants and the embryo develops.",
-          "**Cervix and vagina** — the cervix is the narrow opening of the uterus; the vagina is the passage through which sperm enter and the baby is delivered.",
-          "Every month the uterus prepares a thick, spongy lining to receive a fertilised egg. If no fertilisation occurs, the lining breaks down and is discharged as blood and mucus through the vagina — this is **menstruation**. After fertilisation, the embryo is nourished by the mother's blood through the **placenta**."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "2",
-        "q": "List two advantages of vegetative propagation.",
-        "a": "It is a quick and cheap method of multiplying plants, and the new plants are genetically identical to the parent, so desirable qualities such as fruit size and taste are retained. Plants that do not produce viable seeds, like banana and rose, can also be propagated this way.",
-        "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “How do Organisms Reproduce?” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Why DNA copying matters. Reproduction produces a new organism from an existing one, and the DNA in the nucleus is copied first. Copying is not perfectly accurate, so variations arise. Small variations help a species survive changing conditions; large ones may be lethal. Reproduction is therefore essential for the *species*, not for the survival of the individual organism.",
-          "Marks lens: –3 marks. One asexual reproduction comparison and one question on the human reproductive system or contraception.",
-          "Method / memory trick: Fission vs fragmentation vs regeneration: one cell splits = fission; body breaks into pieces = fragmentation; a *cut part* grows into a whole = regeneration.",
-          "Do not: Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “How do Organisms Reproduce?” (Asexual modes, the human reproductive system, and reproductive health.). A classmate lost marks by doing this: Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus. Apply the correct method and rewrite the scoring answer.",
@@ -528,6 +533,16 @@
           "Idea: Asexual modes, the human reproductive system, and reproductive health..",
           "Fertilisation occurs in the fallopian tube (oviduct); testosterone is secreted by the testes."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Describe what happens in a flower after fertilisation.",
+        "a": [
+          "The male gamete fuses with the egg to form a zygote, which develops into an embryo.",
+          "The ovule becomes the seed and its wall becomes the seed coat.",
+          "The ovary grows into the fruit, while the petals, sepals and stamens wither and fall off."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -550,22 +565,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "Why is variation useful to a species, and how does sexual reproduction produce it?",
-        "a": "Sexual reproduction combines DNA from two different individuals, so offspring differ from both parents. Variation means that when the environment changes or a disease strikes, some individuals are likely to survive, the population is not wiped out, and natural selection has raw material to work on.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Describe what happens in a flower after fertilisation.",
-        "a": [
-          "The male gamete fuses with the egg to form a zygote, which develops into an embryo.",
-          "The ovule becomes the seed and its wall becomes the seed coat.",
-          "The ovary grows into the fruit, while the petals, sepals and stamens wither and fall off."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Describe the menstrual cycle and state what happens when the egg is not fertilised.",
         "a": [
@@ -574,6 +573,29 @@
           "If the egg is not fertilised, the thickened lining is no longer needed, breaks down, and is shed along with blood through the vagina for about three to five days — menstruation."
         ],
         "t": "A"
+      },
+      {
+        "m": "5",
+        "q": "Describe the structure and working of the human female reproductive system.",
+        "a": [
+          "**Ovaries** — a pair of glands that produce the female gamete (ovum) and the hormone oestrogen.",
+          "**Fallopian tubes (oviducts)** — tubes with finger-like ends near the ovary and ciliated walls; the egg is captured here and **fertilisation takes place in the tube**.",
+          "**Uterus** — a muscular bag where the fertilised egg implants and the embryo develops.",
+          "**Cervix and vagina** — the cervix is the narrow opening of the uterus; the vagina is the passage through which sperm enter and the baby is delivered.",
+          "Every month the uterus prepares a thick, spongy lining to receive a fertilised egg. If no fertilisation occurs, the lining breaks down and is discharged as blood and mucus through the vagina — this is **menstruation**. After fertilisation, the embryo is nourished by the mother's blood through the **placenta**."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “How do Organisms Reproduce?” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Why DNA copying matters. Reproduction produces a new organism from an existing one, and the DNA in the nucleus is copied first. Copying is not perfectly accurate, so variations arise. Small variations help a species survive changing conditions; large ones may be lethal. Reproduction is therefore essential for the *species*, not for the survival of the individual organism.",
+          "Marks lens: –3 marks. One asexual reproduction comparison and one question on the human reproductive system or contraception.",
+          "Method / memory trick: Fission vs fragmentation vs regeneration: one cell splits = fission; body breaks into pieces = fragmentation; a *cut part* grows into a whole = regeneration.",
+          "Do not: Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus."
+        ]
       }
     ],
     "mcq": [
@@ -619,6 +641,12 @@
     ],
     "task": [
       "Observe a permanent slide of binary fission in amoeba and a slide of budding in yeast under the microscope, and draw both in sequence order. Then draw a longitudinal section of a hibiscus flower and label all eight parts."
+    ],
+    "steps": [
+      "1. Decide whether the question is about **asexual** methods, **sexual** reproduction, or **reproductive health** — each has a fixed vocabulary.",
+      "2. For asexual reproduction, name the **method and one example**: binary fission in Amoeba, budding in Hydra, fragmentation in Spirogyra, regeneration in Planaria, spore formation in Rhizopus, vegetative propagation in potato/bryophyllum.",
+      "3. For sexual reproduction in plants, draw the **flower diagram in words**: sepals, petals, stamen (anther + filament), carpel (stigma, style, ovary) — then pollination, fertilisation, zygote, embryo, seed, fruit.",
+      "4. For the human system, give the **male and female parts with their two functions each** — testis makes sperm and testosterone; ovary makes eggs and oestrogen/progesterone — and end with one point on contraception or menstrual hygiene."
     ]
   },
   {
@@ -672,6 +700,18 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "Distinguish between acquired and inherited traits, with one example of each.",
+        "a": "An **acquired trait** develops during an organism's lifetime due to experience or environment and is not passed on — for example, a wrestler's well-developed muscles or a pierced ear. An **inherited trait** is present from birth and is passed on through the DNA of germ cells — for example, the colour of eyes or free ear lobes.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Distinguish between genotype and phenotype with an example.",
+        "a": "Genotype is the genetic constitution of an organism (for example Tt), while phenotype is the observable character it produces (for example a tall plant). Because the tall allele is dominant, the genotypes TT and Tt both give the tall phenotype.",
+        "t": "S"
+      },
+      {
         "m": "3",
         "q": "Explain Mendel's monohybrid cross with a Punnett square.",
         "a": [
@@ -692,34 +732,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "Describe Mendel's dihybrid cross and state the conclusion drawn from it.",
-        "a": [
-          "He crossed pea plants with **round-yellow** seeds (RRYY) with plants having **wrinkled-green** seeds (rryy).",
-          "F1: all plants had round-yellow seeds (RrYy) — round and yellow are dominant.",
-          "On self-pollinating F1, F2 gave four phenotypes: **9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green** (16 combinations in the 4×4 Punnett square).",
-          "**Conclusion:** the two pairs of characters are inherited **independently** of each other, which is why new combinations (round-green and wrinkled-green) appear in F2 that were absent in the parents. This is the **law of independent assortment**."
-        ],
-        "t": "L"
-      },
-      {
-        "m": "2",
-        "q": "Distinguish between acquired and inherited traits, with one example of each.",
-        "a": "An **acquired trait** develops during an organism's lifetime due to experience or environment and is not passed on — for example, a wrestler's well-developed muscles or a pierced ear. An **inherited trait** is present from birth and is passed on through the DNA of germ cells — for example, the colour of eyes or free ear lobes.",
-        "t": "S"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Heredity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The basis of heredity. Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the gene, a segment of DNA on a chromosome. Each character has a pair of alleles, one from each parent. A dominant allele expresses itself in the F1 generation; the recessive allele is masked and reappears in F2. Genotype is the genetic make-up (TT, Tt, tt); phenotype is what appears (tal.",
-          "Marks lens: –3 marks. A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.",
-          "Method / memory trick: 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.",
-          "Do not: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Heredity” (Mendel's monohybrid and dihybrid crosses, and sex determination.). A classmate lost marks by doing this: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2. Apply the correct method and rewrite the scoring answer.",
@@ -737,6 +749,16 @@
           "Idea: Mendel's monohybrid and dihybrid crosses, and sex determination..",
           "XY; the gene (a segment of DNA on a chromosome)."
         ]
+      },
+      {
+        "m": "3",
+        "q": "A tall pea plant (Tt) is crossed with a dwarf plant (tt). What proportion of the progeny will be tall?",
+        "a": [
+          "The tall parent produces two kinds of gametes, T and t; the dwarf parent produces only t.",
+          "Combining them gives Tt, Tt, tt and tt.",
+          "So half the progeny are Tt (tall) and half are tt (dwarf) — a 1 : 1 ratio. This cross with a recessive parent is called a test cross."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -759,22 +781,6 @@
         ]
       },
       {
-        "m": "2",
-        "q": "Distinguish between genotype and phenotype with an example.",
-        "a": "Genotype is the genetic constitution of an organism (for example Tt), while phenotype is the observable character it produces (for example a tall plant). Because the tall allele is dominant, the genotypes TT and Tt both give the tall phenotype.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "A tall pea plant (Tt) is crossed with a dwarf plant (tt). What proportion of the progeny will be tall?",
-        "a": [
-          "The tall parent produces two kinds of gametes, T and t; the dwarf parent produces only t.",
-          "Combining them gives Tt, Tt, tt and tt.",
-          "So half the progeny are Tt (tall) and half are tt (dwarf) — a 1 : 1 ratio. This cross with a recessive parent is called a test cross."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "A family blames the mother whenever a daughter is born. Using what you know about sex determination, write the reply you would give them.",
         "a": [
@@ -784,6 +790,28 @@
           "Repeated daughters in a family are a matter of chance, exactly like repeated tails when a coin is tossed; there is no biological basis for blaming the mother."
         ],
         "t": "A"
+      },
+      {
+        "m": "5",
+        "q": "Describe Mendel's dihybrid cross and state the conclusion drawn from it.",
+        "a": [
+          "He crossed pea plants with **round-yellow** seeds (RRYY) with plants having **wrinkled-green** seeds (rryy).",
+          "F1: all plants had round-yellow seeds (RrYy) — round and yellow are dominant.",
+          "On self-pollinating F1, F2 gave four phenotypes: **9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green** (16 combinations in the 4×4 Punnett square).",
+          "**Conclusion:** the two pairs of characters are inherited **independently** of each other, which is why new combinations (round-green and wrinkled-green) appear in F2 that were absent in the parents. This is the **law of independent assortment**."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Heredity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "The basis of heredity. Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the gene, a segment of DNA on a chromosome. Each character has a pair of alleles, one from each parent. A dominant allele expresses itself in the F1 generation; the recessive allele is masked and reappears in F2. Genotype is the genetic make-up (TT, Tt, tt); phenotype is what appears (tal.",
+          "Marks lens: –3 marks. A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.",
+          "Method / memory trick: 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.",
+          "Do not: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2."
+        ]
       }
     ],
     "mcq": [
@@ -829,6 +857,12 @@
     ],
     "task": [
       "Draw the 4×4 Punnett square for the dihybrid cross RrYy × RrYy by hand, count the sixteen squares into the four phenotype classes, and confirm the 9:3:3:1 ratio. Then convert each genotype into its phenotype to check you have 9 round-yellow, 3 round-green, 3 wrinkled-yellow and 1 wrinkled-green."
+    ],
+    "steps": [
+      "1. Identify whether it is a **monohybrid** cross (one trait) or **dihybrid** (two). This fixes the ratio you are heading for: 3:1 or 9:3:3:1.",
+      "2. Fix the **symbols** first: capital for dominant, small for recessive. Write the parental genotypes, then the gametes each parent can produce.",
+      "3. Build the **Punnett square** and read off the genotypic and phenotypic ratios. If the question asks for a probability, quote it as a fraction from the square.",
+      "4. State the **conclusion** in words — 'three tall to one dwarf', or 'the trait is dominant because it appears in the F1'. For sex determination, remember the **father decides the sex**: X-bearing sperm gives a girl, Y-bearing gives a boy."
     ]
   }
 ]

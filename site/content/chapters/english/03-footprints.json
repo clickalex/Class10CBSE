@@ -47,17 +47,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “A Triumph of Surgery” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Summary. The narrator, a veterinary surgeon, is asked by Mrs Pumphrey to look at her dog Tricki, a small Pomeranian. The dog is hugely fat, with bloodshot, rheumy eyes and a lolling tongue, and Mrs Pumphrey worries that he is suffering from malnutrition. The vet finds the dog is simply overfed and spoilt: Mrs Pumphrey gives him cream cakes, chocolates, sweets and cod-liver oil, and never lets him exercise. The vet ta.",
-          "Marks lens: Short answers of 30–40 words and one 50–60 word value-based question.",
-          "Method / memory trick: The vet gives no medicine — water, fasting and exercise only. That is the point of the story.",
-          "Do not: Saying the vet operated on Tricki. There was no surgery at all."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “A Triumph of Surgery” (James Herriot and Tricki, the spoiled Pomeranian.). A classmate lost marks by doing this: Saying the vet operated on Tricki. There was no surgery at all. Apply the correct method and rewrite the scoring answer.",
@@ -75,6 +64,12 @@
           "Idea: James Herriot and Tricki, the spoiled Pomeranian..",
           "Because Mrs Pumphrey overfed him. She gave him cream cakes, chocolates, sweets and cod-liver oil, and never allowed him any exercise. The result was that he became hugely fat, with bloodshot, rheumy eyes and a lolling tongue, and could hardly walk. His illness was caused by indulgence, not by disease."
         ]
+      },
+      {
+        "m": "3",
+        "q": "What was wrong with Tricki and how had Mrs Pumphrey treated him?",
+        "a": "Tricki was hugely overfed and listless: Mrs Pumphrey gave him malt, cod-liver oil, Horlicks, cream cakes, chocolates, and even a whole box of eggs with wine and brandy between meals. He had become a bloated, panting little creature with no exercise, so at the surgery James Herriot diagnosed nothing more serious than overeating and lack of discipline.",
+        "t": "S"
       },
       {
         "t": "C",
@@ -97,12 +92,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "What was wrong with Tricki and how had Mrs Pumphrey treated him?",
-        "a": "Tricki was hugely overfed and listless: Mrs Pumphrey gave him malt, cod-liver oil, Horlicks, cream cakes, chocolates, and even a whole box of eggs with wine and brandy between meals. He had become a bloated, panting little creature with no exercise, so at the surgery James Herriot diagnosed nothing more serious than overeating and lack of discipline.",
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "How does James Herriot cure Tricki, and what does the story say about love and discipline?",
         "a": [
@@ -112,6 +101,17 @@
           "The story shows that love without discipline harms its object: Mrs Pumphrey's affection nearly killed Tricki, while Herriot's firmness restored his health."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “A Triumph of Surgery” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Summary. The narrator, a veterinary surgeon, is asked by Mrs Pumphrey to look at her dog Tricki, a small Pomeranian. The dog is hugely fat, with bloodshot, rheumy eyes and a lolling tongue, and Mrs Pumphrey worries that he is suffering from malnutrition. The vet finds the dog is simply overfed and spoilt: Mrs Pumphrey gives him cream cakes, chocolates, sweets and cod-liver oil, and never lets him exercise. The vet ta.",
+          "Marks lens: Short answers of 30–40 words and one 50–60 word value-based question.",
+          "Method / memory trick: The vet gives no medicine — water, fasting and exercise only. That is the point of the story.",
+          "Do not: Saying the vet operated on Tricki. There was no surgery at all."
+        ]
       }
     ],
     "mcq": [
@@ -203,17 +203,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “The Thief's Story” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Summary. The narrator is a fairly successful thief, still only fifteen but already experienced. He meets Anil, a tall, lean, easy-going young writer at a wrestling match, and decides to rob him. He gives his name as Hari Singh and changes it every month to escape the police. Anil takes him in as a servant, but he pays him irregularly and mostly in food, so there is little to steal. The narrator learns to write his na.",
-          "Marks lens: Short answers and a value-based question on why the thief came back.",
-          "Method / memory trick: The thief returns because of loss of trust, not loss of money. That sentence is the standard 3-mark answer.",
-          "Do not: Saying Anil punished him. He says nothing and pays him regularly instead."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “The Thief's Story” (Ruskin Bond: a small thief, a kind writer, and a changed mind.). A classmate lost marks by doing this: Saying Anil punished him. He says nothing and pays him regularly instead. Apply the correct method and rewrite the scoring answer.",
@@ -231,6 +220,17 @@
           "Idea: Ruskin Bond: a small thief, a kind writer, and a changed mind..",
           "Because while walking in the rain he realised that Anil would not be grieved by the loss of money — Anil was careless about money — but he would be grieved by the loss of trust. The thief understood that he had destroyed something more valuable than the six hundred rupees, and that realisation, along with the thought of what he was learning from Anil, brought him back."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Why does Hari Singh come back to Anil after stealing the money?",
+        "a": [
+          "He gets on the train at Lucknow but does not board it; he cannot bring himself to break away from Anil.",
+          "He knows that stealing is easy but education would change his life, and Anil was the only person teaching him to read and write.",
+          "He also fears that if he leaves, the wet notes will be all he has, and the chance to become ‘a big man' will be gone.",
+          "So he returns, puts the notes back under the mattress, and accepts Anil's quiet forgiveness, which we never see refused."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -253,17 +253,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "Why does Hari Singh come back to Anil after stealing the money?",
-        "a": [
-          "He gets on the train at Lucknow but does not board it; he cannot bring himself to break away from Anil.",
-          "He knows that stealing is easy but education would change his life, and Anil was the only person teaching him to read and write.",
-          "He also fears that if he leaves, the wet notes will be all he has, and the chance to become ‘a big man' will be gone.",
-          "So he returns, puts the notes back under the mattress, and accepts Anil's quiet forgiveness, which we never see refused."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Describe Anil's character and how he changes Hari Singh.",
         "a": [
@@ -273,6 +262,17 @@
           "That trust shames Hari Singh into honesty: for the first time someone believes in him, and he chooses education and work over theft."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “The Thief's Story” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Summary. The narrator is a fairly successful thief, still only fifteen but already experienced. He meets Anil, a tall, lean, easy-going young writer at a wrestling match, and decides to rob him. He gives his name as Hari Singh and changes it every month to escape the police. Anil takes him in as a servant, but he pays him irregularly and mostly in food, so there is little to steal. The narrator learns to write his na.",
+          "Marks lens: Short answers and a value-based question on why the thief came back.",
+          "Method / memory trick: The thief returns because of loss of trust, not loss of money. That sentence is the standard 3-mark answer.",
+          "Do not: Saying Anil punished him. He says nothing and pays him regularly instead."
+        ]
       }
     ],
     "mcq": [
@@ -365,17 +365,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “The Midnight Visitor” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Summary. Ausable is a secret agent, but he is nothing like the popular image of one: he is very fat, lives in a small, musty room on the top floor of a gloomy French hotel, and speaks French and German only passably. He has just been given an important report about some missiles. Max, a rival agent, is waiting in his room with a pistol, having entered by a passkey, and demands the report. At that moment there is a kn.",
-          "Marks lens: Short answers and a character question on Ausable.",
-          "Method / memory trick: Ausable never had a balcony and never called the police — both are inventions. Say so explicitly.",
-          "Do not: Saying Ausable called the police. The knock was a waiter with the drink he had ordered."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “The Midnight Visitor” (Robert Arthur: Ausable the unlikely secret agent and a invented balcony.). A classmate lost marks by doing this: Saying Ausable called the police. The knock was a waiter with the drink he had ordered. Apply the correct method and rewrite the scoring answer.",
@@ -393,6 +382,17 @@
           "Idea: Robert Arthur: Ausable the unlikely secret agent and a invented balcony..",
           "Ausable invented a balcony outside his window and told Max that he had complained twice to the hotel management about people entering his room through it. When the knock came at the door, he said it was the police, whom he had called. Max, panicking, said he would wait on the balcony and jumped backwards through the window — onto a balcony that did not exist — and fell six storeys to his death."
         ]
+      },
+      {
+        "m": "3",
+        "q": "How does Ausable outwit Max?",
+        "a": [
+          "Ausable tells Max and Fowler that his room has a balcony, and that someone has already got into it; this makes Max anxious.",
+          "When the waiter knocks, Ausable says it must be the police, whom he has asked to check on him.",
+          "Max backs towards the window, steps out onto what he believes is the balcony, and falls to his death — there is no balcony at all.",
+          "Ausable had invented the whole story, and his quick thinking removes a dangerous rival without a shot being fired."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -415,17 +415,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "How does Ausable outwit Max?",
-        "a": [
-          "Ausable tells Max and Fowler that his room has a balcony, and that someone has already got into it; this makes Max anxious.",
-          "When the waiter knocks, Ausable says it must be the police, whom he has asked to check on him.",
-          "Max backs towards the window, steps out onto what he believes is the balcony, and falls to his death — there is no balcony at all.",
-          "Ausable had invented the whole story, and his quick thinking removes a dangerous rival without a shot being fired."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "What is ironic about Ausable as a secret agent?",
         "a": [
@@ -437,6 +426,17 @@
           ]
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “The Midnight Visitor” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Summary. Ausable is a secret agent, but he is nothing like the popular image of one: he is very fat, lives in a small, musty room on the top floor of a gloomy French hotel, and speaks French and German only passably. He has just been given an important report about some missiles. Max, a rival agent, is waiting in his room with a pistol, having entered by a passkey, and demands the report. At that moment there is a kn.",
+          "Marks lens: Short answers and a character question on Ausable.",
+          "Method / memory trick: Ausable never had a balcony and never called the police — both are inventions. Say so explicitly.",
+          "Do not: Saying Ausable called the police. The knock was a waiter with the drink he had ordered."
+        ]
       }
     ],
     "mcq": [
@@ -529,17 +529,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “A Question of Trust” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Summary. Horace Danby was a good and respectable man, about fifty and unmarried, who made locks and was successful enough to have two people help him. But he was not completely honest: he robbed a safe every year, planning each robbery carefully, so that the money lasted twelve months. He robbed only rich people, and never robbed anyone poor. This year he had planned to rob the safe at Shotover Grange, which containe.",
-          "Marks lens: Short answers and a value-based question on whether the lady was right to trick Horace.",
-          "Method / memory trick: He forgot his gloves because he believed her story — that detail explains the arrest.",
-          "Do not: Saying the woman was the owner's wife. She was another thief, who had planned to rob the same house."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “A Question of Trust” (Victor Canning: Horace Danby robbed by a thief posing as the lady of the house.). A classmate lost marks by doing this: Saying the woman was the owner's wife. She was another thief, who had planned to rob the same house. Apply the correct method and rewrite the scoring answer.",
@@ -557,6 +546,17 @@
           "Idea: Victor Canning: Horace Danby robbed by a thief posing as the lady of the house..",
           "She appeared while he was working on the safe and spoke to him as if she were the lady of the house, saying she had arrived home just in time. She told him that the jewels were needed that evening for a party, that she had forgotten the number of the safe, and that if he did not open it for her she would have to call the police. Afraid of being sent to prison, Horace opened the safe and handed her the jewels, and she let him go. She was herself a burglar, who had been waiting for her chance."
         ]
+      },
+      {
+        "m": "3",
+        "q": "How is Horace Danby trapped by the young woman at Shotover Grange?",
+        "a": [
+          "She finds him unlocking the door, and calmly claims to be the lady of the house who has forgotten her jewels upstairs.",
+          "Horace helps her open the door, and she watches him take the jewels from the safe and lets him go with them.",
+          "Because she saw him handle the safe, her fingerprints are not needed: he has left a clean set of prints all over the house.",
+          "The police find his fingerprints and arrest him, while the real thief, who had read the family's letters in the hall, escapes."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -579,17 +579,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "How is Horace Danby trapped by the young woman at Shotover Grange?",
-        "a": [
-          "She finds him unlocking the door, and calmly claims to be the lady of the house who has forgotten her jewels upstairs.",
-          "Horace helps her open the door, and she watches him take the jewels from the safe and lets him go with them.",
-          "Because she saw him handle the safe, her fingerprints are not needed: he has left a clean set of prints all over the house.",
-          "The police find his fingerprints and arrest him, while the real thief, who had read the family's letters in the hall, escapes."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "What is the irony in ‘A Question of Trust'?",
         "a": [
@@ -601,6 +590,17 @@
           ]
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “A Question of Trust” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Summary. Horace Danby was a good and respectable man, about fifty and unmarried, who made locks and was successful enough to have two people help him. But he was not completely honest: he robbed a safe every year, planning each robbery carefully, so that the money lasted twelve months. He robbed only rich people, and never robbed anyone poor. This year he had planned to rob the safe at Shotover Grange, which containe.",
+          "Marks lens: Short answers and a value-based question on whether the lady was right to trick Horace.",
+          "Method / memory trick: He forgot his gloves because he believed her story — that detail explains the arrest.",
+          "Do not: Saying the woman was the owner's wife. She was another thief, who had planned to rob the same house."
+        ]
       }
     ],
     "mcq": [
@@ -687,27 +687,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "Was Griffin a brilliant scientist or a lawless person? Justify your answer.",
-        "a": [
-          "**He was certainly a brilliant scientist.** He carried out experiment after experiment until he proved that the human body could be made invisible, and succeeded in swallowing drugs that made his body as transparent as glass. It is a discovery of extraordinary difficulty, and it shows real scientific ability and persistence.",
-          "**But he was also lawless.** His first use of the discovery was revenge: he set fire to his landlord's house because the man disliked him and was trying to eject him. He then robbed a shop in London, stole clothes from a big store, robbed a shopkeeper at Drury Lane, and attacked the village constable Mr Jaffers at Iping.",
-          "**Conclusion:** scientific brilliance without moral responsibility is dangerous. Griffin used a remarkable discovery for theft, revenge and violence, and ended up a hunted, homeless wanderer with no friends. So while his ability as a scientist cannot be denied, he was, in his behaviour, a lawless person."
-        ],
-        "t": "L"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Footprints without Feet” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Summary. Griffin was a brilliant scientist who had carried out experiment after experiment to prove that the human body could become invisible, and finally swallowed certain rare drugs, so that his body became as transparent as a sheet of glass, though as hard to see. His landlord disliked him and was trying to eject him, so in revenge Griffin set fire to the house and, to escape without being seen, removed his cloth.",
-          "Marks lens: Short answers and a long answer on whether Griffin was a brilliant scientist or a lawless person.",
-          "Method / memory trick: Two words describe him: brilliant and lawless. Every long answer on Griffin needs both.",
-          "Do not: Saying Griffin was invisible by birth. He made himself invisible by swallowing rare drugs."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Footprints without Feet” (H. G. Wells: Griffin the invisible scientist becomes a hunted lawless man.). A classmate lost marks by doing this: Saying Griffin was invisible by birth. He made himself invisible by swallowing rare drugs. Apply the correct method and rewrite the scoring answer.",
@@ -725,6 +704,17 @@
           "Idea: H. G. Wells: Griffin the invisible scientist becomes a hunted lawless man..",
           "He was a brilliant scientist who carried out experiment after experiment to prove that the human body could be made invisible, and at last he swallowed certain rare drugs. His body became as transparent as a sheet of glass, though still as hard to see. To avoid being seen he also had to remove his clothes, which left him naked, homeless and penniless in the middle of winter."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Why does Griffin fail as an invisible man?",
+        "a": [
+          "He discovers how to make the human body transparent, but he does not discover how to make it visible again, and he cannot reverse his experiment.",
+          "Invisibility leaves him without clothes, food and shelter; he is hungry, cold and hunted everywhere.",
+          "His behavior turns violent: he sets fire to his landlord's house, assaults people who get in his way and steals to survive.",
+          "Finally he is attacked by the crowd in the inn, and his cloak is torn off, revealing an empty space where a man should be."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -747,17 +737,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "Why does Griffin fail as an invisible man?",
-        "a": [
-          "He discovers how to make the human body transparent, but he does not discover how to make it visible again, and he cannot reverse his experiment.",
-          "Invisibility leaves him without clothes, food and shelter; he is hungry, cold and hunted everywhere.",
-          "His behavior turns violent: he sets fire to his landlord's house, assaults people who get in his way and steals to survive.",
-          "Finally he is attacked by the crowd in the inn, and his cloak is torn off, revealing an empty space where a man should be."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Describe Griffin's character and what the story says about the misuse of science.",
         "a": [
@@ -767,6 +746,27 @@
           "Wells thus warns that a discovery used for private gain instead of public good turns its maker into a criminal and a victim."
         ],
         "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "Was Griffin a brilliant scientist or a lawless person? Justify your answer.",
+        "a": [
+          "**He was certainly a brilliant scientist.** He carried out experiment after experiment until he proved that the human body could be made invisible, and succeeded in swallowing drugs that made his body as transparent as glass. It is a discovery of extraordinary difficulty, and it shows real scientific ability and persistence.",
+          "**But he was also lawless.** His first use of the discovery was revenge: he set fire to his landlord's house because the man disliked him and was trying to eject him. He then robbed a shop in London, stole clothes from a big store, robbed a shopkeeper at Drury Lane, and attacked the village constable Mr Jaffers at Iping.",
+          "**Conclusion:** scientific brilliance without moral responsibility is dangerous. Griffin used a remarkable discovery for theft, revenge and violence, and ended up a hunted, homeless wanderer with no friends. So while his ability as a scientist cannot be denied, he was, in his behaviour, a lawless person."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Footprints without Feet” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Summary. Griffin was a brilliant scientist who had carried out experiment after experiment to prove that the human body could become invisible, and finally swallowed certain rare drugs, so that his body became as transparent as a sheet of glass, though as hard to see. His landlord disliked him and was trying to eject him, so in revenge Griffin set fire to the house and, to escape without being seen, removed his cloth.",
+          "Marks lens: Short answers and a long answer on whether Griffin was a brilliant scientist or a lawless person.",
+          "Method / memory trick: Two words describe him: brilliant and lawless. Every long answer on Griffin needs both.",
+          "Do not: Saying Griffin was invisible by birth. He made himself invisible by swallowing rare drugs."
+        ]
       }
     ],
     "mcq": [
@@ -859,17 +859,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “The Making of a Scientist” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Summary. Richard Ebright grew up in Reading, Pennsylvania, an only child whose father died when he was in third grade. His mother was his only companion and encouraged his learning: she took him on trips, bought him scientific equipment and gave him challenges. She gave him a children's book, *The Travels of Monarch X*, which opened the world of science to him; it was written by James R. Wong, and it described the mi.",
-          "Marks lens: Short answers and a long answer on the qualities that make a scientist.",
-          "Method / memory trick: Three qualities: curiosity, competitive spirit, first-rate mind. Quote the textbook phrase if you can.",
-          "Do not: Saying his teacher encouraged him to compete in order to win. Weiherer taught him to compete to do the best job he could."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “The Making of a Scientist” (Richard Ebright's projects, his curiosity and his mother's encouragement.). A classmate lost marks by doing this: Saying his teacher encouraged him to compete in order to win. Weiherer taught him to compete to do the best job he could. Apply the correct method and rewrite the scoring answer.",
@@ -887,6 +876,17 @@
           "Idea: Richard Ebright's projects, his curiosity and his mother's encouragement..",
           "She was his only companion after his father's death, and she encouraged his learning in every way. She took him on trips, bought him telescopes, microscopes, cameras and other scientific equipment, and always found work for him to do. Most importantly she gave him the children's book The Travels of Monarch X, which opened the world of science to him and started him on his work with butterflies."
         ]
+      },
+      {
+        "m": "3",
+        "q": "What did Richard Ebright learn from his monarch butterfly research?",
+        "a": [
+          "He began by tagging monarch butterflies to track their migration to Mexico and beyond.",
+          "He discovered what caused a viral disease that kills nearly all monarchs, and later, with a friend, he found that the gold spots on the pupa are not decorative.",
+          "The spots produce a hormone needed for the full development of the butterfly.",
+          "This work won him the Searle scholarship, the Schering Plough award and a place in the Intel Science Talent Search."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -909,17 +909,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "What did Richard Ebright learn from his monarch butterfly research?",
-        "a": [
-          "He began by tagging monarch butterflies to track their migration to Mexico and beyond.",
-          "He discovered what caused a viral disease that kills nearly all monarchs, and later, with a friend, he found that the gold spots on the pupa are not decorative.",
-          "The spots produce a hormone needed for the full development of the butterfly.",
-          "This work won him the Searle scholarship, the Schering Plough award and a place in the Intel Science Talent Search."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "What qualities made Richard Ebright a scientist?",
         "a": [
@@ -929,6 +918,17 @@
           "Most of all, he had a mother who encouraged him, teachers and mentors who took him seriously, and the imagination to ask why."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “The Making of a Scientist” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Summary. Richard Ebright grew up in Reading, Pennsylvania, an only child whose father died when he was in third grade. His mother was his only companion and encouraged his learning: she took him on trips, bought him scientific equipment and gave him challenges. She gave him a children's book, *The Travels of Monarch X*, which opened the world of science to him; it was written by James R. Wong, and it described the mi.",
+          "Marks lens: Short answers and a long answer on the qualities that make a scientist.",
+          "Method / memory trick: Three qualities: curiosity, competitive spirit, first-rate mind. Quote the textbook phrase if you can.",
+          "Do not: Saying his teacher encouraged him to compete in order to win. Weiherer taught him to compete to do the best job he could."
+        ]
       }
     ],
     "mcq": [
@@ -1015,27 +1015,6 @@
         "t": "S"
       },
       {
-        "m": "5",
-        "q": "Was Matilda's suffering deserved? Give reasons for your answer.",
-        "a": [
-          "**The case that it was deserved:** her suffering came from her own vanity and discontent. She had a kind husband who loved her and a comfortable enough life, but she could not enjoy either because she compared herself with the rich. She was embarrassed to borrow a dress, insisted on jewels for the ball, and was so anxious to escape quickly that she did not check the necklace. Her vanity caused the loss.",
-          "**The case that it was not deserved:** she never stole anything, and she behaved honourably afterwards. Rather than admit the loss to her friend, she and her husband replaced the necklace honestly and spent ten years repaying a ruinous debt. She did the heavy housework and gave up her looks and her youth. A mistake of vanity, however foolish, does not deserve ten years of punishment.",
-          "**Conclusion:** the punishment was far greater than the fault, and that disproportion is what makes the ending so bitter. The real tragedy is that the necklace was only paste, so the ten years of suffering were wasted entirely."
-        ],
-        "t": "L"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “The Necklace” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Summary. Matilda Loisel was a pretty and charming girl born into a family of clerks, married to a clerk at the Board of Education. She was unhappy, believing she was born for all the delicacies and luxuries of life, and she suffered from the poverty of her home. Her husband brought home an invitation to a reception at the Ministry of Public Instruction. Instead of being delighted she was irritated, because she had no.",
-          "Marks lens: Short answers and a value-based question on whether Matilda's suffering was deserved.",
-          "Method / memory trick: Two figures: 36,000 francs for the necklace and 40,000 to replace it; ten years to repay.",
-          "Do not: Saying Matilda stole the necklace. It was lost, not stolen."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “The Necklace” (Guy de Maupassant: an evening, a lost necklace and ten years of debt.). A classmate lost marks by doing this: Saying Matilda stole the necklace. It was lost, not stolen. Apply the correct method and rewrite the scoring answer.",
@@ -1053,6 +1032,17 @@
           "Idea: Guy de Maupassant: an evening, a lost necklace and ten years of debt..",
           "Because she believed she was born for all the delicacies and luxuries of life, and her actual life was poor and plain. She suffered from the poverty of her home, from the shabby walls, the worn chairs and the ugly curtains, and she dreamed of silent antechambers, tall bronze candelabra and expensive dinners. Her dissatisfaction came from comparing herself with the rich, so she could not enjoy what she had."
         ]
+      },
+      {
+        "m": "3",
+        "q": "What was the price of the lost necklace and how did the Loisels pay for it?",
+        "a": [
+          "They borrowed 18,000 francs from usurers to buy a replacement necklace that cost 36,000 francs.",
+          "For ten years they dismissed their maid, moved to a garret, and Matilda did all the housework while her husband worked evenings and night.",
+          "He copied manuscripts at five sous a page and often worked late into the night; at the end of ten years they had paid back everything.",
+          "The price was not only money: Matilda lost her youth, her beauty and her comfortable life, and became a hard, coarse woman."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -1075,17 +1065,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "What was the price of the lost necklace and how did the Loisels pay for it?",
-        "a": [
-          "They borrowed 18,000 francs from usurers to buy a replacement necklace that cost 36,000 francs.",
-          "For ten years they dismissed their maid, moved to a garret, and Matilda did all the housework while her husband worked evenings and night.",
-          "He copied manuscripts at five sous a page and often worked late into the night; at the end of ten years they had paid back everything.",
-          "The price was not only money: Matilda lost her youth, her beauty and her comfortable life, and became a hard, coarse woman."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "Explain the twist at the end of ‘The Necklace' and what it says about pride.",
         "a": [
@@ -1095,6 +1074,27 @@
           "Maupassant's point is that vanity and the desire to appear rich punished them far more than poverty itself did."
         ],
         "t": "L"
+      },
+      {
+        "m": "5",
+        "q": "Was Matilda's suffering deserved? Give reasons for your answer.",
+        "a": [
+          "**The case that it was deserved:** her suffering came from her own vanity and discontent. She had a kind husband who loved her and a comfortable enough life, but she could not enjoy either because she compared herself with the rich. She was embarrassed to borrow a dress, insisted on jewels for the ball, and was so anxious to escape quickly that she did not check the necklace. Her vanity caused the loss.",
+          "**The case that it was not deserved:** she never stole anything, and she behaved honourably afterwards. Rather than admit the loss to her friend, she and her husband replaced the necklace honestly and spent ten years repaying a ruinous debt. She did the heavy housework and gave up her looks and her youth. A mistake of vanity, however foolish, does not deserve ten years of punishment.",
+          "**Conclusion:** the punishment was far greater than the fault, and that disproportion is what makes the ending so bitter. The real tragedy is that the necklace was only paste, so the ten years of suffering were wasted entirely."
+        ],
+        "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “The Necklace” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Summary. Matilda Loisel was a pretty and charming girl born into a family of clerks, married to a clerk at the Board of Education. She was unhappy, believing she was born for all the delicacies and luxuries of life, and she suffered from the poverty of her home. Her husband brought home an invitation to a reception at the Ministry of Public Instruction. Instead of being delighted she was irritated, because she had no.",
+          "Marks lens: Short answers and a value-based question on whether Matilda's suffering was deserved.",
+          "Method / memory trick: Two figures: 36,000 francs for the necklace and 40,000 to replace it; ten years to repay.",
+          "Do not: Saying Matilda stole the necklace. It was lost, not stolen."
+        ]
       }
     ],
     "mcq": [
@@ -1187,17 +1187,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Bholi” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Summary. Bholi, whose real name was Sulekha, was the fourth daughter of Ramlal, the village *numberdar*. She fell off the cot as a child and was disfigured on one side of her face, and later an attack of smallpox left black pock marks all over her body. She was neglected, given coarse clothes, and never sent to school. She was slow to speak and stammered, so the other children mocked her, and she became silent. Then.",
-          "Marks lens: Short answers and a value-based question on how education changed her, and on the dowry.",
-          "Method / memory trick: Two names: Bholi and Sulekha. The shift from one to the other is the story.",
-          "Do not: Saying Bholi's parents hated her. They neglected her; her father was not cruel."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “Bholi” (K. A. Abbas: a neglected girl finds her voice through education.). A classmate lost marks by doing this: Saying Bholi's parents hated her. They neglected her; her father was not cruel. Apply the correct method and rewrite the scoring answer.",
@@ -1215,6 +1204,17 @@
           "Idea: K. A. Abbas: a neglected girl finds her voice through education..",
           "The teacher was the first person to treat Bholi with kindness and respect. She spoke to her in a soft, soothing voice, told her not to be afraid, and promised that if she came to school every day she would learn more than anyone else in the village and would soon speak without a stammer. She encouraged Bholi to read, praised her progress, and gave her confidence. Education gave Bholi a voice, self-respect and the courage to refuse a humiliating marriage."
         ]
+      },
+      {
+        "m": "3",
+        "q": "Why is Bholi called a simpleton, and how does she change?",
+        "a": [
+          "As a child she fell and damaged part of her brain, so she was slow, stammered and was mocked as ‘Bholi, the simpleton'.",
+          "She was neglected, given old clothes and little food, and kept out of school for years.",
+          "The village primary school and then the city school gave her a teacher's kindness, confidence and the ability to speak without stammering.",
+          "By the end she is able to refuse an unequal marriage and to speak up for her father, her teacher and herself."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -1237,17 +1237,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "Why is Bholi called a simpleton, and how does she change?",
-        "a": [
-          "As a child she fell and damaged part of her brain, so she was slow, stammered and was mocked as ‘Bholi, the simpleton'.",
-          "She was neglected, given old clothes and little food, and kept out of school for years.",
-          "The village primary school and then the city school gave her a teacher's kindness, confidence and the ability to speak without stammering.",
-          "By the end she is able to refuse an unequal marriage and to speak up for her father, her teacher and herself."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "How does education give Bholi a voice?",
         "a": [
@@ -1257,6 +1246,17 @@
           "She finally declares that she will serve her parents and teach at the same school, showing that education has turned a frightened child into a person with a will of her own."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Bholi” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Summary. Bholi, whose real name was Sulekha, was the fourth daughter of Ramlal, the village *numberdar*. She fell off the cot as a child and was disfigured on one side of her face, and later an attack of smallpox left black pock marks all over her body. She was neglected, given coarse clothes, and never sent to school. She was slow to speak and stammered, so the other children mocked her, and she became silent. Then.",
+          "Marks lens: Short answers and a value-based question on how education changed her, and on the dowry.",
+          "Method / memory trick: Two names: Bholi and Sulekha. The shift from one to the other is the story.",
+          "Do not: Saying Bholi's parents hated her. They neglected her; her father was not cruel."
+        ]
       }
     ],
     "mcq": [
@@ -1349,17 +1349,6 @@
         "t": "S"
       },
       {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “The Book That Saved the Earth” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Summary. The play is set in the twenty-fifth century, described as the Era of the Book, when books were used for everything. The Historian tells how, in the year 2040, the people of Mars had planned to invade Earth, but the invasion was called off because of a book. The Martian Think-Tank, the Commander-in-Chief of the Space Probe fleet, is vain and stupid, and believes he is the most intelligent creature in the univ.",
-          "Marks lens: Short answers; know Think-Tank, Captain Omega, Noodle, Sergeant Oop, and *Mother Goose*.",
-          "Method / memory trick: Think-Tank is stupid and Noodle is clever — but Noodle lets Think-Tank take the credit. That contrast is the joke.",
-          "Do not: Saying the Martians attacked. They fled, to Alpha Centauri, a hundred million miles away."
-        ]
-      },
-      {
         "t": "A",
         "m": "3",
         "q": "Riya is revising “The Book That Saved the Earth” (Claire Boiko: Martians misread a nursery rhyme and abandon an invasion.). A classmate lost marks by doing this: Saying the Martians attacked. They fled, to Alpha Centauri, a hundred million miles away. Apply the correct method and rewrite the scoring answer.",
@@ -1377,6 +1366,17 @@
           "Idea: Claire Boiko: Martians misread a nursery rhyme and abandon an invasion..",
           "Because the Martians had never seen a book. Think-Tank examined it from the control room, saw that it was flat and had pages, and concluded that the earthlings ate it as a sandwich. He ordered the crew to eat it, and when they could not, he changed his mind and decided that the books were communication devices used for listening."
         ]
+      },
+      {
+        "m": "3",
+        "q": "How do the Martians misunderstand the nursery rhymes?",
+        "a": [
+          "Think-Tank asks to be shown books, and the crew bring him nursery rhymes from a library.",
+          "From ‘Mistress Mary, quite contrary' he decides that humans grow money, and from ‘Mother Goose' he concludes that she is the supreme ruler of Earth.",
+          "He takes the rhyme about the cow that jumped over the moon as proof that Earth's creatures can jump between planets.",
+          "Finally he hears ‘Humpty Dumpty' and ‘Hey diddle diddle' and decides that Earth is planning to launch an attack on Mars."
+        ],
+        "t": "S"
       },
       {
         "t": "C",
@@ -1399,17 +1399,6 @@
         ]
       },
       {
-        "m": "3",
-        "q": "How do the Martians misunderstand the nursery rhymes?",
-        "a": [
-          "Think-Tank asks to be shown books, and the crew bring him nursery rhymes from a library.",
-          "From ‘Mistress Mary, quite contrary' he decides that humans grow money, and from ‘Mother Goose' he concludes that she is the supreme ruler of Earth.",
-          "He takes the rhyme about the cow that jumped over the moon as proof that Earth's creatures can jump between planets.",
-          "Finally he hears ‘Humpty Dumpty' and ‘Hey diddle diddle' and decides that Earth is planning to launch an attack on Mars."
-        ],
-        "t": "S"
-      },
-      {
         "m": "4",
         "q": "What is the humour in the way the Martians abandon their invasion?",
         "a": [
@@ -1419,6 +1408,17 @@
           "The joke is that the greatest danger to Earth was never an attack from Mars, but a Martian commander too proud to ask what the words mean."
         ],
         "t": "L"
+      },
+      {
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “The Book That Saved the Earth” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "a": [
+          "Summary. The play is set in the twenty-fifth century, described as the Era of the Book, when books were used for everything. The Historian tells how, in the year 2040, the people of Mars had planned to invade Earth, but the invasion was called off because of a book. The Martian Think-Tank, the Commander-in-Chief of the Space Probe fleet, is vain and stupid, and believes he is the most intelligent creature in the univ.",
+          "Marks lens: Short answers; know Think-Tank, Captain Omega, Noodle, Sergeant Oop, and *Mother Goose*.",
+          "Method / memory trick: Think-Tank is stupid and Noodle is clever — but Noodle lets Think-Tank take the credit. That contrast is the joke.",
+          "Do not: Saying the Martians attacked. They fled, to Alpha Centauri, a hundred million miles away."
+        ]
       }
     ],
     "mcq": [

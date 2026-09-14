@@ -55,37 +55,16 @@
         "a": "A named set of values for specified cells so you can switch between cases (best/worst) without retyping."
       },
       {
-        "t": "L",
-        "m": "4",
-        "q": "Differentiate Consolidate and Subtotals.",
-        "a": "Consolidate **combines several ranges/sheets** into one summary (often another sheet). Subtotals **insert summary rows inside one sorted list** (sum of each group). Consolidate is across blocks; Subtotals is inside a table."
+        "m": "2",
+        "q": "What is the difference between a scenario and Goal Seek?",
+        "a": "A scenario is a named set of input values that you save and switch between to compare outcomes, such as best case, worst case and expected case. Goal Seek works the other way: you state the result you want and Calc finds the single input value that produces it.",
+        "t": "S"
       },
       {
         "t": "A",
         "m": "3",
         "q": "A shop wants profit of ₹8,000. Profit is `=B2*B3-B4` (price × qty − cost). Which tool, and which cell is “By changing” if qty and cost are fixed?",
         "a": "Goal Seek. Set cell = profit, To value = 8000, By changing = price (`B2`)."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nFour quarterly sheets have the same layout of expenses. The owner wants one yearly total that updates if a quarter changes.\n\n(a) Which tool?\n(b) Two settings to tick/choose.\n(c) Why not just type the four totals by hand?",
-        "a": [
-          "(a) Data → Consolidate.",
-          "(b) Function Sum; add each range; Link to source data.",
-          "(c) Manual totals go stale; a link updates and reduces typing errors."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Scenarios and Goal Seek (Calc)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Consolidate: Data → Consolidate. Combines the same layout from several sheets (e.g. four term marks) using Sum/Average. Tick “Link to source data” to auto-update.",
-          "Marks lens: Goal Seek and Scenarios are the theory + practical pair.",
-          "Method / memory trick: Goal Seek needs a formula in the set cell. Typing a number there will fail.",
-          "Do not: Mixing up Goal Seek (one input) with Solver (many inputs + constraints)."
-        ]
       },
       {
         "t": "A",
@@ -95,6 +74,33 @@
           "Correct method: Goal Seek needs a formula in the set cell. Typing a number there will fail.",
           "Why the mistake costs marks: Mixing up Goal Seek (one input) with Solver (many inputs + constraints).",
           "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "Describe how to use Goal Seek in Calc, with an example.",
+        "a": [
+          "Build the sheet so that the result cell contains a formula, for example the EMI for a loan in B5.",
+          "Choose Tools → Goal Seek and fill in the dialog: Formula Cell B5, Target Value 8000, Variable Cell B2 (the interest rate or the loan amount).",
+          "Click OK; Calc changes the variable cell step by step until the formula gives the target, and reports whether it succeeded.",
+          "This is quicker than trial and error when only one input is unknown."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Differentiate Consolidate and Subtotals.",
+        "a": "Consolidate **combines several ranges/sheets** into one summary (often another sheet). Subtotals **insert summary rows inside one sorted list** (sum of each group). Consolidate is across blocks; Subtotals is inside a table."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nFour quarterly sheets have the same layout of expenses. The owner wants one yearly total that updates if a quarter changes.\n\n(a) Which tool?\n(b) Two settings to tick/choose.\n(c) Why not just type the four totals by hand?",
+        "a": [
+          "(a) Data → Consolidate.",
+          "(b) Function Sum; add each range; Link to source data.",
+          "(c) Manual totals go stale; a link updates and reduces typing errors."
         ]
       },
       {
@@ -108,21 +114,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is the difference between a scenario and Goal Seek?",
-        "a": "A scenario is a named set of input values that you save and switch between to compare outcomes, such as best case, worst case and expected case. Goal Seek works the other way: you state the result you want and Calc finds the single input value that produces it.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Describe how to use Goal Seek in Calc, with an example.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Scenarios and Goal Seek (Calc)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Build the sheet so that the result cell contains a formula, for example the EMI for a loan in B5.",
-          "Choose Tools → Goal Seek and fill in the dialog: Formula Cell B5, Target Value 8000, Variable Cell B2 (the interest rate or the loan amount).",
-          "Click OK; Calc changes the variable cell step by step until the formula gives the target, and reports whether it succeeded.",
-          "This is quicker than trial and error when only one input is unknown."
-        ],
-        "t": "S"
+          "Consolidate: Data → Consolidate. Combines the same layout from several sheets (e.g. four term marks) using Sum/Average. Tick “Link to source data” to auto-update.",
+          "Marks lens: Goal Seek and Scenarios are the theory + practical pair.",
+          "Method / memory trick: Goal Seek needs a formula in the set cell. Typing a number there will fail.",
+          "Do not: Mixing up Goal Seek (one input) with Solver (many inputs + constraints)."
+        ]
       }
     ],
     "mcq": [
@@ -221,37 +221,16 @@
         "a": "Tools → Macros → Record Macro, perform the steps, Stop Recording, name the macro."
       },
       {
-        "t": "L",
-        "m": "4",
-        "q": "Explain macro security levels and a safe practice for students.",
-        "a": "Very High / High / Medium / Low control whether unsigned macros run. Students should keep High or Medium, enable macros only on their own practical files, and never open a macro-enabled sheet from an unknown chat."
+        "m": "2",
+        "q": "What is a macro and why is it used?",
+        "a": "A macro is a recorded sequence of commands that can be replayed with one click or one shortcut. It saves time on work you repeat often — formatting a daily report, cleaning imported data, or applying the same page setup to many sheets — and removes the risk of forgetting a step.",
+        "t": "S"
       },
       {
         "t": "A",
         "m": "3",
         "q": "Every Monday you set print area A1:G40, landscape, header “Weekly Sales”. How does a macro help?",
         "a": "Record those page-setup steps once. Each Monday, Run Macro — one click instead of eight menu steps, fewer missed settings."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nA classmate sends `marks.ods` that auto-runs a macro on open.\n\n(a) What should you do first?\n(b) When is a macro a good idea in your own file?\n(c) One limitation of recorded macros.",
-        "a": [
-          "(a) Do not enable macros until you trust the source; check Security level.",
-          "(b) When the same clicks are repeated often on your own data.",
-          "(c) They record extra clicks; they may break if the sheet layout changes."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Macros in Spreadsheet” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "A macro is a recorded sequence of commands. Play it back to repeat the work.",
-          "Marks lens: Steps to record and run a macro, plus one use-case (repeating a format or a formula block).",
-          "Method / memory trick: Plan the clicks before you press Record — extra clicks get recorded too.",
-          "Do not: Recording a macro that depends on a specific cell when you needed a relative range."
-        ]
       },
       {
         "t": "A",
@@ -261,6 +240,33 @@
           "Correct method: Plan the clicks before you press Record — extra clicks get recorded too.",
           "Why the mistake costs marks: Recording a macro that depends on a specific cell when you needed a relative range.",
           "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "When should you not use a macro? Give three situations.",
+        "a": [
+          "Do not record a macro for a task you will do only once; learning the steps takes longer than doing the job.",
+          "Avoid macros for work that changes each time and cannot be reduced to fixed steps.",
+          "Never open macros in a file from an unknown sender: macro viruses can damage files and spread to other documents.",
+          "Where a built-in formula, style or tool does the job, use it instead — it is easier for others to check."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain macro security levels and a safe practice for students.",
+        "a": "Very High / High / Medium / Low control whether unsigned macros run. Students should keep High or Medium, enable macros only on their own practical files, and never open a macro-enabled sheet from an unknown chat."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA classmate sends `marks.ods` that auto-runs a macro on open.\n\n(a) What should you do first?\n(b) When is a macro a good idea in your own file?\n(c) One limitation of recorded macros.",
+        "a": [
+          "(a) Do not enable macros until you trust the source; check Security level.",
+          "(b) When the same clicks are repeated often on your own data.",
+          "(c) They record extra clicks; they may break if the sheet layout changes."
         ]
       },
       {
@@ -274,21 +280,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is a macro and why is it used?",
-        "a": "A macro is a recorded sequence of commands that can be replayed with one click or one shortcut. It saves time on work you repeat often — formatting a daily report, cleaning imported data, or applying the same page setup to many sheets — and removes the risk of forgetting a step.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "When should you not use a macro? Give three situations.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Macros in Spreadsheet” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Do not record a macro for a task you will do only once; learning the steps takes longer than doing the job.",
-          "Avoid macros for work that changes each time and cannot be reduced to fixed steps.",
-          "Never open macros in a file from an unknown sender: macro viruses can damage files and spread to other documents.",
-          "Where a built-in formula, style or tool does the job, use it instead — it is easier for others to check."
-        ],
-        "t": "S"
+          "A macro is a recorded sequence of commands. Play it back to repeat the work.",
+          "Marks lens: Steps to record and run a macro, plus one use-case (repeating a format or a formula block).",
+          "Method / memory trick: Plan the clicks before you press Record — extra clicks get recorded too.",
+          "Do not: Recording a macro that depends on a specific cell when you needed a relative range."
+        ]
       }
     ],
     "mcq": [
@@ -386,37 +386,16 @@
         "a": "A clickable link to a web page, file, email or a location in the document, inserted via Insert → Hyperlink."
       },
       {
-        "t": "L",
-        "m": "4",
-        "q": "Why is linking sheets better than copy-pasting values for a yearly total?",
-        "a": "A link stays live: when a term sheet changes, the year sheet updates. Copy-paste values go stale, cause mismatch, and make auditing harder."
+        "m": "2",
+        "q": "What is meant by linking spreadsheet data?",
+        "a": "Linking makes one cell take its value from another cell, sheet or file, so that the value is not typed twice. When the source changes, every linked cell updates automatically, which keeps reports consistent and saves the work of retyping.",
+        "t": "S"
       },
       {
         "t": "A",
         "m": "3",
         "q": "Summary sheet must show `Total` from three term sheets named Term1, Term2, Term3, each total in G20. Write the formula.",
         "a": "`=Term1.G20+Term2.G20+Term3.G20`"
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nA student pastes last month’s numbers into the annual sheet. The teacher later corrects the January file; the annual sheet does not change.\n\n(a) What did the student do wrong?\n(b) How should the cells have been pasted?\n(c) One risk of live links.",
-        "a": [
-          "(a) Pasted values, not links.",
-          "(b) Paste Special → Link, or a formula to the January sheet.",
-          "(c) If the source file is moved/renamed, the link breaks — keep files together."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Linking Spreadsheet Data” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Same-file sheet link: =Sheet2.B3 or ='Term 1'.B3 if the sheet name has a space.",
-          "Marks lens: Syntax of a sheet reference and Insert → Hyperlink.",
-          "Method / memory trick: Sheet names with spaces need single quotes: 'Term 1'.A1.",
-          "Do not: Renaming a sheet after writing formulas without checking — some links break."
-        ]
       },
       {
         "t": "A",
@@ -426,6 +405,32 @@
           "Correct method: Sheet names with spaces need single quotes: 'Term 1'.A1.",
           "Why the mistake costs marks: Renaming a sheet after writing formulas without checking — some links break.",
           "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "How do you link a cell to another sheet and to a file outside the workbook?",
+        "a": [
+          "Within the workbook: type = in the target cell, click the sheet tab, click the source cell and press Enter; the formula reads =Sheet2.B3.",
+          "To an external file: open both files, copy the source cell, click the target cell and choose Edit → Paste Special → Paste Link.",
+          "The formula then contains the full path, for example ='file:///home/user/accounts.ods'#$Sheet1.A1, and you can refresh the links when the source file changes."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Why is linking sheets better than copy-pasting values for a yearly total?",
+        "a": "A link stays live: when a term sheet changes, the year sheet updates. Copy-paste values go stale, cause mismatch, and make auditing harder."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA student pastes last month’s numbers into the annual sheet. The teacher later corrects the January file; the annual sheet does not change.\n\n(a) What did the student do wrong?\n(b) How should the cells have been pasted?\n(c) One risk of live links.",
+        "a": [
+          "(a) Pasted values, not links.",
+          "(b) Paste Special → Link, or a formula to the January sheet.",
+          "(c) If the source file is moved/renamed, the link breaks — keep files together."
         ]
       },
       {
@@ -439,20 +444,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is meant by linking spreadsheet data?",
-        "a": "Linking makes one cell take its value from another cell, sheet or file, so that the value is not typed twice. When the source changes, every linked cell updates automatically, which keeps reports consistent and saves the work of retyping.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "How do you link a cell to another sheet and to a file outside the workbook?",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Linking Spreadsheet Data” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Within the workbook: type = in the target cell, click the sheet tab, click the source cell and press Enter; the formula reads =Sheet2.B3.",
-          "To an external file: open both files, copy the source cell, click the target cell and choose Edit → Paste Special → Paste Link.",
-          "The formula then contains the full path, for example ='file:///home/user/accounts.ods'#$Sheet1.A1, and you can refresh the links when the source file changes."
-        ],
-        "t": "S"
+          "Same-file sheet link: =Sheet2.B3 or ='Term 1'.B3 if the sheet name has a space.",
+          "Marks lens: Syntax of a sheet reference and Insert → Hyperlink.",
+          "Method / memory trick: Sheet names with spaces need single quotes: 'Term 1'.A1.",
+          "Do not: Renaming a sheet after writing formulas without checking — some links break."
+        ]
       }
     ],
     "mcq": [
@@ -546,37 +546,16 @@
         "a": "A comment suggests or questions without overwriting data; the original number stays until someone decides."
       },
       {
-        "t": "L",
-        "m": "4",
-        "q": "Explain recording, showing and accepting changes in Calc.",
-        "a": "Turn Record on before editing. Each changed cell is marked. Show lists author, date and old/new value. Accept keeps the new value; Reject restores the old. Compare Document does this against a saved copy."
+        "m": "2",
+        "q": "What does recording changes do when a spreadsheet is shared?",
+        "a": "Edit → Track Changes → Record logs every edit with the author's name, the time and the old value. Each change can then be reviewed, accepted or rejected from Edit → Track Changes → Manage, so a team can work on one file without losing track of who changed what.",
+        "t": "S"
       },
       {
         "t": "A",
         "m": "3",
         "q": "Three lab partners type in three copies of `stock.ods` and the totals disagree. What should they have used?",
         "a": "One shared spreadsheet (or one file with Record Changes + merge), not three independent copies."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nA teacher wants students to fill only column B, not the formulas in C.\n\n(a) Which tool?\n(b) Steps.\n(c) How can the teacher see who changed B5?",
-        "a": [
-          "(a) Protect Sheet (unlock B first).",
-          "(b) Select B → unprotect cells; Tools → Protect Sheet; set password.",
-          "(c) Record / Show Changes — author and date on B5."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Share and Review a Spreadsheet” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Share spreadsheet: Tools → Share Spreadsheet. Several people can open it (on a network). Conflicts are resolved when saving.",
-          "Marks lens: Share spreadsheet + record changes is the pair.",
-          "Method / memory trick: Sharing is for one file, many users; emailing five copies is how totals diverge.",
-          "Do not: Protecting the sheet with no password written in the practical file — you cannot demo it."
-        ]
       },
       {
         "t": "A",
@@ -586,6 +565,33 @@
           "Correct method: Sharing is for one file, many users; emailing five copies is how totals diverge.",
           "Why the mistake costs marks: Protecting the sheet with no password written in the practical file — you cannot demo it.",
           "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "How do you compare two versions of a document in LibreOffice?",
+        "a": [
+          "Open the newer copy and choose Edit → Track Changes → Compare Document.",
+          "Select the older copy in the file dialog and click Insert; LibreOffice shows the differences as tracked changes.",
+          "Review each one with Next and Previous, then accept or reject it from the Manage dialog.",
+          "This works in both Writer and Calc and is the safest way to merge two people's work."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain recording, showing and accepting changes in Calc.",
+        "a": "Turn Record on before editing. Each changed cell is marked. Show lists author, date and old/new value. Accept keeps the new value; Reject restores the old. Compare Document does this against a saved copy."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA teacher wants students to fill only column B, not the formulas in C.\n\n(a) Which tool?\n(b) Steps.\n(c) How can the teacher see who changed B5?",
+        "a": [
+          "(a) Protect Sheet (unlock B first).",
+          "(b) Select B → unprotect cells; Tools → Protect Sheet; set password.",
+          "(c) Record / Show Changes — author and date on B5."
         ]
       },
       {
@@ -599,21 +605,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What does recording changes do when a spreadsheet is shared?",
-        "a": "Edit → Track Changes → Record logs every edit with the author's name, the time and the old value. Each change can then be reviewed, accepted or rejected from Edit → Track Changes → Manage, so a team can work on one file without losing track of who changed what.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "How do you compare two versions of a document in LibreOffice?",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Share and Review a Spreadsheet” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Open the newer copy and choose Edit → Track Changes → Compare Document.",
-          "Select the older copy in the file dialog and click Insert; LibreOffice shows the differences as tracked changes.",
-          "Review each one with Next and Previous, then accept or reject it from the Manage dialog.",
-          "This works in both Writer and Calc and is the safest way to merge two people's work."
-        ],
-        "t": "S"
+          "Share spreadsheet: Tools → Share Spreadsheet. Several people can open it (on a network). Conflicts are resolved when saving.",
+          "Marks lens: Share spreadsheet + record changes is the pair.",
+          "Method / memory trick: Sharing is for one file, many users; emailing five copies is how totals diverge.",
+          "Do not: Protecting the sheet with no password written in the practical file — you cannot demo it."
+        ]
       }
     ],
     "mcq": [

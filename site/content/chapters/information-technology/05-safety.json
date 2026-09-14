@@ -43,37 +43,16 @@
         "a": "Dry hands; earthed plugs; no overloaded boards; don’t open the power supply; report frayed wires; use a surge protector."
       },
       {
-        "t": "L",
-        "m": "4",
-        "q": "Explain four types of workplace hazard with one IT-lab example each.",
-        "a": "Physical — trailing cables; electrical — open socket; ergonomic — low screen causing neck pain; psychosocial — long hours without a break. Control each: cable covers, close sockets, raise the monitor, timetable breaks."
+        "m": "2",
+        "q": "What is a hazard? Give two examples from a computer laboratory.",
+        "a": "A hazard is anything in the workplace that can cause injury or ill health. In a computer laboratory the hazards include a trailing cable that can trip someone, a socket or adapter that is overloaded and can start a fire, a wet floor, and a chair with a broken back that can cause a fall.",
+        "t": "S"
       },
       {
         "t": "A",
         "m": "3",
         "q": "A student pours water on a sparking socket. Two mistakes and the correct actions.",
         "a": "Water on electrical fire; staying next to a live spark. Instead: don’t touch, switch off mains if safe, alert staff, use CO2/powder extinguisher, evacuate."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nLab PCs face a window, chairs don’t adjust, passwords are on sticky notes.\n\n(a) Name three hazard/security issues.\n(b) One control for each.\n(c) Who should you report this to?",
-        "a": [
-          "(a) Glare (ergonomic), poor posture, password leak (security).",
-          "(b) Blinds/position screens, adjustable chairs, unique passwords stored in a password manager / teacher vault — never sticky notes.",
-          "(c) Lab teacher / system admin / safety in-charge."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Health, Safety and Security at the Workplace” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Hazard = anything that can cause harm. Risk = chance that the harm will occur.",
-          "Marks lens: marks with the rest of Unit 4. Hazard types + two precautions each.",
-          "Method / memory trick: Water on an electrical fire is the classic wrong answer.",
-          "Do not: Writing “be careful” with no concrete precaution."
-        ]
       },
       {
         "t": "A",
@@ -83,6 +62,33 @@
           "Correct method: Water on an electrical fire is the classic wrong answer.",
           "Why the mistake costs marks: Writing “be careful” with no concrete precaution.",
           "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "List four fire safety rules for a workplace.",
+        "a": [
+          "Keep every fire exit and aisle clear of boxes, cables and furniture, and make sure the exit signs are lit.",
+          "Check that fire extinguishers are in place, visible and within their expiry date, and know which type to use for an electrical fire.",
+          "Switch off and unplug equipment at the end of the day, and never overload a socket with adapters.",
+          "If a fire starts, raise the alarm, cut off the power if it is safe to do so, leave by the marked route without using the lift, and go to the assembly point."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain four types of workplace hazard with one IT-lab example each.",
+        "a": "Physical — trailing cables; electrical — open socket; ergonomic — low screen causing neck pain; psychosocial — long hours without a break. Control each: cable covers, close sockets, raise the monitor, timetable breaks."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nLab PCs face a window, chairs don’t adjust, passwords are on sticky notes.\n\n(a) Name three hazard/security issues.\n(b) One control for each.\n(c) Who should you report this to?",
+        "a": [
+          "(a) Glare (ergonomic), poor posture, password leak (security).",
+          "(b) Blinds/position screens, adjustable chairs, unique passwords stored in a password manager / teacher vault — never sticky notes.",
+          "(c) Lab teacher / system admin / safety in-charge."
         ]
       },
       {
@@ -96,21 +102,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is a hazard? Give two examples from a computer laboratory.",
-        "a": "A hazard is anything in the workplace that can cause injury or ill health. In a computer laboratory the hazards include a trailing cable that can trip someone, a socket or adapter that is overloaded and can start a fire, a wet floor, and a chair with a broken back that can cause a fall.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "List four fire safety rules for a workplace.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Health, Safety and Security at the Workplace” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Keep every fire exit and aisle clear of boxes, cables and furniture, and make sure the exit signs are lit.",
-          "Check that fire extinguishers are in place, visible and within their expiry date, and know which type to use for an electrical fire.",
-          "Switch off and unplug equipment at the end of the day, and never overload a socket with adapters.",
-          "If a fire starts, raise the alarm, cut off the power if it is safe to do so, leave by the marked route without using the lift, and go to the assembly point."
-        ],
-        "t": "S"
+          "Hazard = anything that can cause harm. Risk = chance that the harm will occur.",
+          "Marks lens: marks with the rest of Unit 4. Hazard types + two precautions each.",
+          "Method / memory trick: Water on an electrical fire is the classic wrong answer.",
+          "Do not: Writing “be careful” with no concrete precaution."
+        ]
       }
     ],
     "mcq": [
@@ -205,37 +205,16 @@
         "a": "Sort, Set in order, Shine, Standardise, Sustain."
       },
       {
-        "t": "L",
-        "m": "4",
-        "q": "Describe a correct computer workstation and two quality checks before submitting a practical file.",
-        "a": "Chair and desk so elbows and knees are about 90°, screen arm’s length, top at eye level, no glare. Quality: proof-read, spell-check, file named as asked, print preview, backup copy."
+        "m": "2",
+        "q": "What is ergonomics and why does it matter when working at a computer?",
+        "a": "Ergonomics is the science of designing the workplace to fit the person. At a computer it keeps the body comfortable and prevents backache, neck and shoulder pain, eye strain and repetitive strain injury caused by hours of sitting in a wrong posture with badly placed equipment.",
+        "t": "S"
       },
       {
         "t": "A",
         "m": "3",
         "q": "Amit’s laptop is on a high table, he looks up, and his wrists bend on the edge. Two injuries this invites and two fixes.",
         "a": "Neck strain and wrist RSI. Fixes: raise the chair or lower the desk, laptop stand + external keyboard, wrist straight, breaks."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nA lab has tangled wires, unmarked CDs, glare, and students skip spell-check.\n\n(a) Map each problem to 5S or ergonomics or quality.\n(b) One action each.\n(c) Why quality matters in a data-entry job role.",
-        "a": [
-          "(a) Wires/CDs → 5S Set in order; glare → ergonomics; skip spell-check → quality.",
-          "(b) Cable ties + labels; blinds or move screens; compulsory preview + peer check.",
-          "(c) Wrong data costs money and trust — the job role is Domestic Data Entry Operator."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Workplace Quality and Ergonomics” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Quality of work in IT: accurate data, readable documents, meeting time, following the house style, checking before submit.",
-          "Marks lens: Ergonomics of a computer workstation is the set diagram/answer.",
-          "Method / memory trick: Screen top at eye level, not looking down at a laptop on the lap.",
-          "Do not: Drawing the user hunched over a laptop as “correct posture”."
-        ]
       },
       {
         "t": "A",
@@ -245,6 +224,33 @@
           "Correct method: Screen top at eye level, not looking down at a laptop on the lap.",
           "Why the mistake costs marks: Drawing the user hunched over a laptop as “correct posture”.",
           "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "Describe a correct workstation arrangement and the working habit that prevents strain.",
+        "a": [
+          "Sit back in a chair that supports the lower back, with both feet flat on the floor and knees at about a right angle.",
+          "Keep the top of the screen at or just below eye level, about an arm's length away, with the keyboard and mouse close enough to keep the forearms horizontal and the wrists straight.",
+          "Place the document you are copying beside the screen rather than flat on the desk, so the neck does not keep turning.",
+          "Follow the 20-20-20 habit: every 20 minutes look 20 feet away for 20 seconds, and take a short break and stretch every hour."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Describe a correct computer workstation and two quality checks before submitting a practical file.",
+        "a": "Chair and desk so elbows and knees are about 90°, screen arm’s length, top at eye level, no glare. Quality: proof-read, spell-check, file named as asked, print preview, backup copy."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nA lab has tangled wires, unmarked CDs, glare, and students skip spell-check.\n\n(a) Map each problem to 5S or ergonomics or quality.\n(b) One action each.\n(c) Why quality matters in a data-entry job role.",
+        "a": [
+          "(a) Wires/CDs → 5S Set in order; glare → ergonomics; skip spell-check → quality.",
+          "(b) Cable ties + labels; blinds or move screens; compulsory preview + peer check.",
+          "(c) Wrong data costs money and trust — the job role is Domestic Data Entry Operator."
         ]
       },
       {
@@ -258,21 +264,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is ergonomics and why does it matter when working at a computer?",
-        "a": "Ergonomics is the science of designing the workplace to fit the person. At a computer it keeps the body comfortable and prevents backache, neck and shoulder pain, eye strain and repetitive strain injury caused by hours of sitting in a wrong posture with badly placed equipment.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Describe a correct workstation arrangement and the working habit that prevents strain.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Workplace Quality and Ergonomics” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "Sit back in a chair that supports the lower back, with both feet flat on the floor and knees at about a right angle.",
-          "Keep the top of the screen at or just below eye level, about an arm's length away, with the keyboard and mouse close enough to keep the forearms horizontal and the wrists straight.",
-          "Place the document you are copying beside the screen rather than flat on the desk, so the neck does not keep turning.",
-          "Follow the 20-20-20 habit: every 20 minutes look 20 feet away for 20 seconds, and take a short break and stretch every hour."
-        ],
-        "t": "S"
+          "Quality of work in IT: accurate data, readable documents, meeting time, following the house style, checking before submit.",
+          "Marks lens: Ergonomics of a computer workstation is the set diagram/answer.",
+          "Method / memory trick: Screen top at eye level, not looking down at a laptop on the lap.",
+          "Do not: Drawing the user hunched over a laptop as “correct posture”."
+        ]
       }
     ],
     "mcq": [
@@ -368,37 +368,16 @@
         "a": "A near-miss shows a hazard that almost caused harm. Reporting it lets the school fix the condition before someone is actually injured."
       },
       {
-        "t": "L",
-        "m": "4",
-        "q": "Explain first aid for (i) a small cut (ii) a minor burn (iii) suspected electric shock.",
-        "a": "Cut: wash, pressure, clean dressing. Burn: cool with running water 10 minutes, loose sterile cover, no toothpaste/ice. Shock: do not touch until power is off; then separate with a dry non-conductor, call help, monitor breathing."
+        "m": "2",
+        "q": "What is an emergency, and what should a workplace emergency plan contain?",
+        "a": "An emergency is an unexpected event that threatens life, health or property, such as a fire, an earthquake, a chemical spill or a sudden illness. A plan should name the escape routes and the assembly point, the person responsible for each task, the emergency telephone numbers, the location of first-aid kits and extinguishers, and how often evacuation drills will be held.",
+        "t": "S"
       },
       {
         "t": "A",
         "m": "3",
         "q": "The fire alarm rings. A student runs back for a USB and takes the lift. Two wrong actions and the correct ones.",
         "a": "Going back for belongings and using the lift. Correct: leave immediately by stairs, USB can be replaced, assemble for headcount."
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nDuring a practical a student gets a shock from a damaged mouse cable, laughs it off, and no one writes it down.\n\n(a) Immediate first actions.\n(b) Why a report still matters.\n(c) Two prevention steps so it does not recur.",
-        "a": [
-          "(a) Switch off power, check breathing, first aid, inform the teacher.",
-          "(b) Near-miss/incident record → cable replaced, others warned, pattern spotted.",
-          "(c) Inspect peripherals, remove damaged devices, remind: report all shocks."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Prevent Accidents and Emergencies” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "Causes of accidents: unsafe conditions (wet floor, bad wiring) and unsafe acts (running, bypassing rules). Most lab accidents are preventable.",
-          "Marks lens: Evacuation order and first aid don’ts are the 2–3 markers.",
-          "Method / memory trick: Power off before touch is the electric-shock line examiners want.",
-          "Do not: Applying toothpaste or ice directly on a burn."
-        ]
       },
       {
         "t": "A",
@@ -408,6 +387,33 @@
           "Correct method: Power off before touch is the electric-shock line examiners want.",
           "Why the mistake costs marks: Applying toothpaste or ice directly on a burn.",
           "Write the definition or formula first, then the working or example."
+        ]
+      },
+      {
+        "m": "3",
+        "q": "Describe the first aid for a minor burn and for a person who has fainted.",
+        "a": [
+          "For a minor burn: hold the area under cool running water for about ten minutes, remove rings or tight clothing near it, cover it with a clean, non-sticky cloth, and do not apply ice, oil or ointment and do not break blisters.",
+          "For fainting: lay the person flat on their back, raise the legs above the level of the heart, loosen tight clothing and keep the airway clear.",
+          "Do not crowd around, do not throw water on the face and do not give anything to drink until the person is fully conscious.",
+          "Call for medical help if the person does not recover within a minute or if breathing is not normal."
+        ],
+        "t": "S"
+      },
+      {
+        "t": "L",
+        "m": "4",
+        "q": "Explain first aid for (i) a small cut (ii) a minor burn (iii) suspected electric shock.",
+        "a": "Cut: wash, pressure, clean dressing. Burn: cool with running water 10 minutes, loose sterile cover, no toothpaste/ice. Shock: do not touch until power is off; then separate with a dry non-conductor, call help, monitor breathing."
+      },
+      {
+        "t": "C",
+        "m": "4",
+        "q": "Read and answer:\n\nDuring a practical a student gets a shock from a damaged mouse cable, laughs it off, and no one writes it down.\n\n(a) Immediate first actions.\n(b) Why a report still matters.\n(c) Two prevention steps so it does not recur.",
+        "a": [
+          "(a) Switch off power, check breathing, first aid, inform the teacher.",
+          "(b) Near-miss/incident record → cable replaced, others warned, pattern spotted.",
+          "(c) Inspect peripherals, remove damaged devices, remind: report all shocks."
         ]
       },
       {
@@ -421,21 +427,15 @@
         ]
       },
       {
-        "m": "2",
-        "q": "What is an emergency, and what should a workplace emergency plan contain?",
-        "a": "An emergency is an unexpected event that threatens life, health or property, such as a fire, an earthquake, a chemical spill or a sudden illness. A plan should name the escape routes and the assembly point, the person responsible for each task, the emergency telephone numbers, the location of first-aid kits and extinguishers, and how often evacuation drills will be held.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Describe the first aid for a minor burn and for a person who has fainted.",
+        "t": "L",
+        "m": "5",
+        "q": "Discuss “Prevent Accidents and Emergencies” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
         "a": [
-          "For a minor burn: hold the area under cool running water for about ten minutes, remove rings or tight clothing near it, cover it with a clean, non-sticky cloth, and do not apply ice, oil or ointment and do not break blisters.",
-          "For fainting: lay the person flat on their back, raise the legs above the level of the heart, loosen tight clothing and keep the airway clear.",
-          "Do not crowd around, do not throw water on the face and do not give anything to drink until the person is fully conscious.",
-          "Call for medical help if the person does not recover within a minute or if breathing is not normal."
-        ],
-        "t": "S"
+          "Causes of accidents: unsafe conditions (wet floor, bad wiring) and unsafe acts (running, bypassing rules). Most lab accidents are preventable.",
+          "Marks lens: Evacuation order and first aid don’ts are the 2–3 markers.",
+          "Method / memory trick: Power off before touch is the electric-shock line examiners want.",
+          "Do not: Applying toothpaste or ice directly on a burn."
+        ]
       }
     ],
     "mcq": [
