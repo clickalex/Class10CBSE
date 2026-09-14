@@ -166,7 +166,12 @@
       "Type a 1-page note with Title, two Heading 1, three Heading 2. Create a custom paragraph style `ExamPoint` (11 pt, 0.5 cm indent) and apply it to body text."
     ],
     "visual": [],
-    "formulas": []
+    "formulas": [
+      "Style hierarchy: Heading 1 → Heading 2 → Heading 3 → Body Text",
+      "**F11** opens the Styles and Formatting window",
+      "Modify a style once → every paragraph using it changes",
+      "A style carries font, size, colour, alignment, spacing and outline level together"
+    ]
   },
   {
     "id": "ch07-writer-images",
@@ -335,7 +340,12 @@
       "Insert a school-building photo, wrap Optimal, caption it Figure 1, and draw a labelled arrow to the main gate; group the arrow and label."
     ],
     "visual": [],
-    "formulas": []
+    "formulas": [
+      "Anchor as character = the picture moves with the text; anchor to page/paragraph = it stays put",
+      "Wrap options: None · Before/After · Page · Optimal · Through · In background",
+      "Crop trims the picture; the original file on disk stays unchanged until you compress it",
+      "Keep the **aspect ratio** locked while resizing, or the picture looks stretched"
+    ]
   },
   {
     "id": "ch08-writer-toc-templates",
@@ -501,6 +511,11 @@
       "Create a 2-page notes file with headings, insert a ToC on page 1, turn on Track Changes, and make two dummy edits."
     ],
     "visual": [],
-    "formulas": []
+    "formulas": [
+      "A table of contents is generated from **heading styles** — plain bold text will not appear in it",
+      "Update a ToC: right-click → Update Index/Table (**F9** in some builds)",
+      "Template: `.ott` — a document that carries styles and layout but not your content",
+      "Track Changes shows edits; **Comments** hold questions; Accept/Reject closes them"
+    ]
   }
 ]

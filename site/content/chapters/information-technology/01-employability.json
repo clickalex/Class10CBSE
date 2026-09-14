@@ -230,7 +230,12 @@
     "task": [
       "Write a formal email to the principal requesting one day's leave. Subject, greeting, 3-line body, sign-off — that is written communication plus courtesy."
     ],
-    "steps": []
+    "steps": [
+      "1. Decide the **purpose** first — to inform, to ask, to persuade, or to thank.",
+      "2. Pick the **channel** that fits: spoken for quick and personal, written for anything you must prove later.",
+      "3. Structure the message: opening line, the **one main point**, supporting detail, and what should happen next.",
+      "4. Check the feedback — ask a question, watch the listener, and **rephrase** if the point did not land."
+    ]
   },
   {
     "id": "ch02-self-management-skills",
@@ -392,8 +397,18 @@
       "Write three SMART goals for this week: one for theory, one for a LibreOffice file, one for sleep."
     ],
     "visual": [],
-    "formulas": [],
-    "steps": []
+    "formulas": [
+      "SMART goal: **S**pecific · **M**easurable · **A**chievable · **R**elevant · **T**ime-bound",
+      "Time-management matrix: urgent + important = do now; not urgent + important = schedule; urgent + not important = delegate; neither = drop",
+      "Stress cycle: trigger → thought → feeling → behaviour → relief or regret",
+      "Self-management = self-awareness + self-regulation + self-motivation"
+    ],
+    "steps": [
+      "1. Write the goal down as a **SMART** statement — 'finish 20 maths sums in 40 minutes' beats 'study maths'.",
+      "2. Break it into **tasks of one sitting each** and put a date next to every task.",
+      "3. Rank the tasks with the **urgent/important matrix** and start with 'do now'.",
+      "4. Review at the end of the day: what moved, what blocked you, and **rewrite the plan** for tomorrow."
+    ]
   },
   {
     "id": "ch03-ict-skills",
@@ -544,8 +559,18 @@
       "Create a folder `IT402/PartB` with three empty files `writer.odt`, `calc.ods`, `base.odb` and a one-line README."
     ],
     "visual": [],
-    "formulas": [],
-    "steps": []
+    "formulas": [
+      "Ctrl + C copy · Ctrl + X cut · Ctrl + V paste · Ctrl + Z undo · Ctrl + Y redo",
+      "Ctrl + S save · Ctrl + P print · Ctrl + F find · Ctrl + A select all",
+      "File extensions: `.odt` Writer, `.ods` Calc, `.odp` Impress, `.odb` Base, `.pdf` portable document",
+      "1 byte = 8 bits · 1 KB = 1024 B · 1 MB = 1024 KB · 1 GB = 1024 MB"
+    ],
+    "steps": [
+      "1. Plan the **folder structure** first — one folder per subject, one sub-folder per chapter.",
+      "2. Name files so they sort: `ch04-quadratic-equations.odt`, not `doc1.odt`.",
+      "3. Save work every few minutes with **Ctrl + S**, and keep a backup copy in another location.",
+      "4. Before sharing, check the **file format** — export to PDF if the reader must not change it."
+    ]
   },
   {
     "id": "ch04-entrepreneurial-skills",
@@ -706,8 +731,18 @@
       "Pick one problem in your school. Write a 6-line business idea: customer, product, cost, risk, one quality you would need."
     ],
     "visual": [],
-    "formulas": [],
-    "steps": []
+    "formulas": [
+      "Marketing mix — the 4 Ps: **P**roduct, **P**rice, **P**lace, **P**romotion",
+      "SWOT: **S**trengths, **W**eaknesses (internal) · **O**pportunities, **T**hreats (external)",
+      "Profit = Total revenue − Total cost; Break-even = Fixed cost ÷ (Price − Variable cost per unit)",
+      "A business plan names: the idea, the customer, the money needed, and how it will be earned back"
+    ],
+    "steps": [
+      "1. Start from a **problem people have**, not from a product you like.",
+      "2. Describe the **customer** exactly — age, place, what they pay for today.",
+      "3. Work out the **cost of making one unit** and the price you can charge; the difference is your margin.",
+      "4. Write the plan in one page: idea, customer, cost, price, and **how you will reach them**."
+    ]
   },
   {
     "id": "ch05-green-skills",
@@ -860,7 +895,17 @@
       "For one school day, list five green actions you actually did (lights, paper, water, waste, travel)."
     ],
     "visual": [],
-    "formulas": [],
-    "steps": []
+    "formulas": [
+      "The 5 Rs in order: **Refuse → Reduce → Reuse → Repurpose → Recycle**",
+      "Carbon footprint = the greenhouse gases one person or activity adds to the air",
+      "E-waste: any discarded device with a plug, battery or chip — never in the household bin",
+      "Energy saved at the plug is energy never generated — the greenest unit is the one not used"
+    ],
+    "steps": [
+      "1. **Refuse** first: say no to what you do not need (freebies, extra packaging).",
+      "2. **Reduce** what you do use — both sides of the page, shorter showers, fewer printouts.",
+      "3. **Reuse and repurpose** before buying: refilling a bottle beats recycling one.",
+      "4. **Recycle** what is left, and hand **e-waste to an authorised recycler** — it carries lead, mercury and cadmium."
+    ]
   }
 ]

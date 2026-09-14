@@ -173,6 +173,18 @@
     ],
     "task": [
       "Open a terminal and run `ping clickalex.github.io`. Note the IP address it resolves to — that lookup is DNS doing its job. Write the domain, the IP and the round-trip time in your file."
+    ],
+    "formulas": [
+      "Bandwidth measured in **bps**: 1 Kbps = 1000 bps · 1 Mbps = 1000 Kbps · 1 Gbps = 1000 Mbps",
+      "Download speed in seconds ≈ file size in **megabits** ÷ speed in Mbps",
+      "ISP = Internet Service Provider; every device on the internet has an **IP address**",
+      "IP address formats: IPv4 = 4 numbers 0–255 separated by dots; IPv6 = eight groups of hex"
+    ],
+    "steps": [
+      "1. Identify how the device **connects** — fibre, DSL, cable, mobile data or Wi-Fi.",
+      "2. Check the **IP configuration**; a device with no IP or an address starting 169.254 is not connected.",
+      "3. Test the link in order: your device → the router → the ISP → a website by name.",
+      "4. If a name fails but a ping to an IP works, the fault is **DNS**, not the connection."
     ]
   },
   {
@@ -397,6 +409,12 @@
     ],
     "task": [
       "Copy a URL from your browser into your file. Label its three parts. Then note whether the address bar shows a padlock — that tells you HTTP versus HTTPS."
+    ],
+    "steps": [
+      "1. Name the **service** the question describes — web, mail, file transfer, chat, or remote login.",
+      "2. Match it to its **protocol and port**: HTTP 80, HTTPS 443, FTP 21, SMTP 25, POP3 110, IMAP 143, DNS 53.",
+      "3. Say whether it is **client-server** (most services) or **peer-to-peer** (file sharing, some chat).",
+      "4. Finish with the **security version** where one exists — HTTPS instead of HTTP, SMTPS, FTPS."
     ]
   },
   {
@@ -573,6 +591,18 @@
     ],
     "task": [
       "Draw star, bus and ring topology in your file. Under each write one advantage and one disadvantage. This is exactly what the exam asks for."
+    ],
+    "formulas": [
+      "LAN < MAN < WAN < the Internet — by area covered",
+      "Topologies: **bus** (one cable), **star** (all to a hub/switch), **ring** (each to the next), **mesh** (every node to many)",
+      "Devices: **hub** repeats to all · **switch** sends to one · **router** joins networks · **modem** converts the signal",
+      "Transmission media: twisted pair, coaxial, fibre optic (guided); radio, microwave, satellite (unguided)"
+    ],
+    "steps": [
+      "1. Decide the **area** the network covers — a room, a campus, or a country.",
+      "2. Draw the **topology** in words: what sits at the centre, and what happens if it fails.",
+      "3. Choose the **device for each job** — switch inside a network, router between networks.",
+      "4. Pick the **medium** on cost, distance and interference, and state the reason for the choice."
     ]
   },
   {
@@ -786,6 +816,12 @@
     ],
     "task": [
       "Write the generations table from memory, then check it. Next, list every wireless technology in your home and label each as Bluetooth, Wi-Fi, infrared or NFC."
+    ],
+    "steps": [
+      "1. Identify the **generation or technology**: 1G voice, 2G voice + SMS, 3G data, 4G/LTE broadband, 5G low latency.",
+      "2. Name the **access method** — cellular towers, Wi-Fi, Bluetooth or satellite.",
+      "3. Note the **handset requirements** — a SIM, a radio for the band, and enough battery for the duty cycle.",
+      "4. Close with the **trade-off**: range against speed, and speed against battery and cost."
     ]
   },
   {
@@ -960,6 +996,18 @@
     ],
     "task": [
       "Write one line each for browser, search engine, cookie, cache, portal and bookmark. Six lines covers the whole chapter's question set."
+    ],
+    "formulas": [
+      "A URL reads: `scheme://host:port/path?query#fragment` — `https://cbse.gov.in/syllabus`",
+      "Search operators: `\"exact phrase\"`, `-exclude`, `site:domain`, `filetype:pdf`",
+      "Browser cache stores copies; **incognito** mode does not save history or cookies locally",
+      "Cookie = a small file a site leaves on your device to remember you"
+    ],
+    "steps": [
+      "1. Read the **address bar** first — the scheme (http or https) and the domain tell you where you are.",
+      "2. Check the **padlock**: it means the connection is encrypted, not that the site is honest.",
+      "3. Search with **operators** — quotes for a phrase, minus to drop a meaning, site: to stay on one domain.",
+      "4. Judge the result before using it: who published it, when, and does another source agree."
     ]
   }
 ]

@@ -336,7 +336,12 @@
       "Record a macro that bolds row 1, adds a yellow background and auto-fits columns A–F. Run it on a new sheet."
     ],
     "visual": [],
-    "formulas": []
+    "formulas": [
+      "A macro is a **recorded sequence of actions** you can replay with one key press",
+      "Record: Tools → Macros → Record Macro; Stop: click Stop Recording",
+      "Macros are stored per document or in **My Macros** for use everywhere",
+      "Only record what you would do by hand — the recorder copies menu clicks, not intentions"
+    ]
   },
   {
     "id": "ch11-calc-linking",
@@ -500,7 +505,12 @@
       "Make sheets Jan, Feb, Year. Year!B2 = Jan!B2+Feb!B2. Change Jan and watch Year update. Add a hyperlink to the CBSE academic site."
     ],
     "visual": [],
-    "steps": []
+    "steps": [
+      "1. Open both spreadsheets — the source (data) and the target (where the link appears).",
+      "2. In the target cell type `=`, then **switch to the source sheet and click the cell**; Calc writes the reference for you.",
+      "3. For another file, the reference looks like `='file:///home/user/Fees.ods'#Sheet1.B4` — **do not retype it by hand**.",
+      "4. If the source moves, use **Edit → Links** to repoint the file instead of rebuilding the formula."
+    ]
   },
   {
     "id": "ch12-calc-share-review",
@@ -662,7 +672,17 @@
       "Protect a marksheet so only the Marks column is editable. Add a comment on a zero mark asking “absent or not entered?”"
     ],
     "visual": [],
-    "formulas": [],
-    "steps": []
+    "formulas": [
+      "Sharing modes: share the file, or share the **spreadsheet** so several people edit at once",
+      "Protect Sheet / Protect Document stops accidental edits; a password is optional",
+      "Record Changes keeps a history of who changed what and when",
+      "Comments raise questions without touching the cell values"
+    ],
+    "steps": [
+      "1. Decide what others may do — **view only**, comment, or edit.",
+      "2. Apply **protection** to the sheets and cells that must not change.",
+      "3. Turn on **Record Changes** if you need an audit trail, then share the file.",
+      "4. Review incoming comments, **accept or reject** each change, and remove protection last."
+    ]
   }
 ]

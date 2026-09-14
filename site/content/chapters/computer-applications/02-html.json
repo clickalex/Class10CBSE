@@ -407,6 +407,13 @@
     ],
     "task": [
       "Write three lists without looking: one bulleted with square markers, one numbered starting at 5 with capital letters, and one definition list of three terms. Then check your syntax in a browser."
+    ],
+    "formulas": [
+      "Logical tags describe meaning: `<strong>`, `<em>`, `<blockquote>`, `<code>`",
+      "Physical tags describe looks: `<b>`, `<i>`, `<u>`, `<tt>`, `<big>`, `<small>`",
+      "Lists: `<ul><li>` unordered · `<ol><li>` ordered · `<dl><dt><dd>` definition",
+      "Font tag with attributes: `<font face=\"Arial\" size=\"4\" color=\"#0066cc\">text</font>`",
+      "`<pre>` keeps spaces and line breaks exactly as typed"
     ]
   },
   {
@@ -594,6 +601,13 @@
     ],
     "task": [
       "Build two pages in the same folder that link to each other, plus one image on each with alt text. Then add a 'back to top' link on the longer page. That is the whole chapter."
+    ],
+    "formulas": [
+      "Link: `<a href='page.html'>text</a>`; open in a new tab with `target='_blank'`",
+      "Jump inside a page: `<a href=\"#top\">` to an element carrying `id=\"top\"`",
+      "Image: `<img src=\"logo.png\" width=\"200\" height=\"100\" alt=\"School logo\">`",
+      "Image as a link: put `<img>` **inside** `<a>` — the picture then opens the `href`",
+      "Rules: **`href` for links, `src` for sources** — `<a href>`, `<img src>`, `<script src>`"
     ]
   },
   {
@@ -997,6 +1011,13 @@
     ],
     "task": [
       "Write a registration form with name, email, password, gender radios, three hobby checkboxes, a subject drop-down, a comments text area, and submit and reset buttons. Then open it and click everything."
+    ],
+    "formulas": [
+      "Form shell: `<form action=\"submit.php\" method=\"post\"> … </form>`",
+      "Input types: `text` `password` `radio` `checkbox` `submit` `reset` `file` `hidden`",
+      "`<textarea rows=\"4\" cols=\"40\">` for long text; `<select><option>` for a drop-down",
+      "Every field that is submitted needs a **name**; `value` is what travels, `placeholder` is only a hint",
+      "`method=\"get\"` puts data in the URL (short, visible); `method=\"post\"` sends it in the body"
     ]
   },
   {
@@ -1179,6 +1200,19 @@
     ],
     "task": [
       "Write two frameset examples — one with rows, one with cols — and one `<audio>` and one `<video>` tag with controls. That finishes Unit II; now re-read this chapter's one-pager before the exam."
+    ],
+    "formulas": [
+      "Frames split a window: `<frameset cols=\"25%,75%\"><frame src=\"menu.html\"> … </frameset>`",
+      "Frames need **no `<body>`** in the frameset document; `<noframes>` covers old browsers",
+      "Inline frame today: `<iframe src='page.html' width='600' height='400'></iframe>`",
+      "Multimedia: `<audio controls>`, `<video controls>`, or the older `<embed src=\"clip.mp4\">`",
+      "Marquee: `<marquee behavior=\"scroll\" direction=\"left\">text</marquee>` — non-standard, use with care"
+    ],
+    "steps": [
+      "1. Decide whether you are **splitting the window** (frameset) or **embedding a box** (iframe).",
+      "2. Give every frame a **`src`** and a **`name`**; links target a frame with `target=\"name\"`.",
+      "3. For audio or video, add **`controls`** and a fallback message between the tags.",
+      "4. Always provide an **alternative** — text for a frame, a download link for media that will not play."
     ]
   }
 ]

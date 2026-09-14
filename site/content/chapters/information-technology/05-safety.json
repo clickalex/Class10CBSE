@@ -158,8 +158,18 @@
       "Walk your computer lab and list five hazards with one control each. Include at least one electrical and one ergonomic."
     ],
     "visual": [],
-    "formulas": [],
-    "steps": []
+    "formulas": [
+      "Hazard = something that can hurt; **Risk** = how likely and how badly",
+      "PPE: Personal Protective Equipment — gloves, goggles, masks, ear plugs, safety shoes",
+      "Safety sign colours: **red** prohibition/fire, **yellow** warning, **blue** mandatory, **green** emergency",
+      "Report every near-miss — a near-miss today is an accident tomorrow"
+    ],
+    "steps": [
+      "1. Look around the workplace and **list what could hurt someone** — cables, wet floors, hot surfaces.",
+      "2. Judge each hazard: how likely, and how bad. Fix the **high risk** ones first.",
+      "3. Remove or guard the hazard, and wear the **PPE** that the task requires.",
+      "4. **Report** anything you cannot fix yourself, and write it in the logbook."
+    ]
   },
   {
     "id": "ch19-quality-ergonomics",
@@ -320,8 +330,18 @@
       "Photograph or sketch your study desk. Mark three ergonomic faults and the fix for each."
     ],
     "visual": [],
-    "formulas": [],
-    "steps": []
+    "formulas": [
+      "5S: **Sort, Set in order, Shine, Standardise, Sustain**",
+      "Ergonomics = fitting the work to the person, not the person to the work",
+      "Screen: arm's length away, top of the screen at or just below eye level",
+      "Quality = doing it right the first time; **KAIZEN** = small improvements, every day"
+    ],
+    "steps": [
+      "1. **Sort** your desk — keep only what the job needs, remove the rest.",
+      "2. **Set in order** — a fixed place for each item, the used-often items closest.",
+      "3. Adjust the chair, screen and keyboard so elbows are at **90°** and the screen is at eye level.",
+      "4. Every 30 minutes, look 6 metres away for 20 seconds and **stretch** — the 20-20-20 rule."
+    ]
   },
   {
     "id": "ch20-accidents-emergencies",
@@ -483,7 +503,17 @@
       "Write a half-page incident report for a fictional wet-floor slip in the lab: who, when, where, injury, action, prevention."
     ],
     "visual": [],
-    "formulas": [],
-    "steps": []
+    "formulas": [
+      "Fire: **R**escue → **A**larm → **C**ontain → **E**xtinguish/Evacuate (RACE)",
+      "Emergency numbers in India: **112** (all-in-one), 101 fire, 102 ambulance, 100 police",
+      "First aid for burns: cool running water for 10 minutes — no ice, no ointment, no cotton",
+      "Never use water on an **electrical** fire — cut the supply and use a CO₂ or dry-powder extinguisher"
+    ],
+    "steps": [
+      "1. Check the scene is **safe for you** before you help anyone — a second casualty helps nobody.",
+      "2. Call for help and give the **four facts**: where, what happened, how many hurt, your phone number.",
+      "3. Give only the first aid you know: stop bleeding, cool a burn, recover position if unconscious.",
+      "4. Stay with the person, keep them calm, and **hand over clearly** when help arrives."
+    ]
   }
 ]

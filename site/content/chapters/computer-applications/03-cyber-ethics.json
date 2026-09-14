@@ -176,6 +176,18 @@
     ],
     "task": [
       "Make a two-column table: threat on the left, one-line description on the right. Fifteen rows covers the entire chapter."
+    ],
+    "formulas": [
+      "Strong password: at least **12 characters**, mixed case, digits and symbols, unique per site",
+      "2FA / OTP: something you know **plus** something you have",
+      "Phishing signals: urgency, a wrong-looking domain, a link that is not where it claims to go",
+      "Update rule: patch the **operating system, browser and apps** — most attacks use known, fixed holes"
+    ],
+    "steps": [
+      "1. **Pause** before you click — urgency is the attacker's strongest tool.",
+      "2. Check the **sender and the domain**, not just the display name or the logo on the page.",
+      "3. Use a **unique password** from a manager, and turn on two-factor authentication everywhere it is offered.",
+      "4. Keep **backups** of what you cannot afford to lose, and keep the software patched."
     ]
   },
   {
@@ -382,6 +394,12 @@
     ],
     "task": [
       "Fill in the IPR table from memory, then list three FOSS and three proprietary programs you have used. This chapter is now fully revised."
+    ],
+    "steps": [
+      "1. Name the **act** — hacking, identity theft, phishing, cyber stalking, piracy, or plagiarism.",
+      "2. Name the **right or law** it breaks: copyright, trademark, patent, or the IT Act section.",
+      "3. Say who is **affected** and what loss they suffer — money, data, reputation.",
+      "4. Finish with the **remedy**: report to the cyber cell, preserve the evidence, and prevent a repeat."
     ]
   },
   {
@@ -555,6 +573,18 @@
     ],
     "task": [
       "Search your own name online and write down what appears — that is your passive footprint. Then list five items of e-waste in your home and find the nearest authorised collection point."
+    ],
+    "formulas": [
+      "IT Act 2000 (amended 2008) — the Indian law on electronic transactions and cyber crime",
+      "Digital footprint = **active** (what you post) + **passive** (what sites collect about you)",
+      "E-waste rule: never in the household bin — hand it to an **authorised recycler**",
+      "Right to privacy is a fundamental right; ask what data an app collects and why"
+    ],
+    "steps": [
+      "1. List what you have **posted or shared** — your active footprint.",
+      "2. Work out what is **collected silently** — location, contacts, cookies, device ID: your passive footprint.",
+      "3. Tighten the **privacy settings**, delete what you no longer need, and close unused accounts.",
+      "4. Dispose of old devices **securely**: wipe the data first, then hand them to an authorised recycler."
     ]
   }
 ]

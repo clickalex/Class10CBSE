@@ -160,8 +160,18 @@
       "On paper, design two tables Student(AdmNo PK, Name, Class) and Issue(IssueID PK, AdmNo FK, BookISBN, Date). Mark the keys."
     ],
     "visual": [],
-    "formulas": [],
-    "steps": []
+    "formulas": [
+      "Data → Information → Knowledge: raw facts, facts with meaning, meaning applied",
+      "Table = rows (records) + columns (fields); a **primary key** makes each row unique",
+      "DBMS advantages: no duplication, shared access, security, backup, integrity",
+      "RDBMS: data in related tables; a **foreign key** links a row to its parent table"
+    ],
+    "steps": [
+      "1. Write down **what you need to store** and what you will ask of it later.",
+      "2. Split it into **tables**, one subject per table (students, classes, marks).",
+      "3. Choose a **primary key** for each table and give every column one data type.",
+      "4. Draw the **links between tables** — that drawing is your database design."
+    ]
   },
   {
     "id": "ch14-base-tables",
@@ -329,7 +339,12 @@
       "Create `Student(AdmNo INTEGER PK, Name VARCHAR(30), Class VARCHAR(5), Fees DECIMAL)` and enter three records."
     ],
     "visual": [],
-    "formulas": []
+    "formulas": [
+      "Common Base types: Text (VARCHAR), Integer, Number/Decimal, Date, Time, Boolean (Yes/No)",
+      "Primary key: unique and never empty — often an auto-incrementing ID",
+      "Design View: you define fields and types; **Data View**: you type the rows",
+      "Field properties: size, format, default value, and 'required' — set them before entering data"
+    ]
   },
   {
     "id": "ch15-base-relationships",
@@ -496,7 +511,12 @@
       "Build Customer(CustomerID PK) and Order(OrderID PK, CustomerID FK). Relate them with referential integrity and try to enter an order for a missing customer — it should fail."
     ],
     "visual": [],
-    "formulas": []
+    "formulas": [
+      "One-to-many: one class has many students — the **most common** relationship",
+      "One-to-one: one student has one locker record; Many-to-many needs a **junction table**",
+      "Referential integrity: a child row cannot point to a parent that does not exist",
+      "Cascade update/delete keeps child rows in step when the parent changes"
+    ]
   },
   {
     "id": "ch16-base-queries",
@@ -834,6 +854,11 @@
       "Create `frmStudent` (columnar) and `rptHonours` based on `QryHonours`. Print-preview the report."
     ],
     "visual": [],
-    "formulas": []
+    "formulas": [
+      "A **form** is for entering and editing one record at a time; a **table** is for seeing many",
+      "A **report** groups and totals data for printing; it is not for editing",
+      "Form/Report Wizard: pick the table or query → pick the fields → pick the layout → finish",
+      "Reports can sort and group, add totals, and carry a header and footer"
+    ]
   }
 ]
