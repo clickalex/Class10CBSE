@@ -394,6 +394,10 @@
       {
         "q": "The tag that draws a horizontal rule across the page is: (a) <hr>  (b) <br>  (c) <line>  (d) <rule>",
         "a": "**(a) <hr>.** It is used to separate sections of a page."
+      },
+      {
+        "q": "`<ul type='square'>` shows bullets as: (a) discs (b) squares (c) circles (d) numbers",
+        "a": "**(b) squares.** The `type` values for `<ul>` are disc (default), circle and square."
       }
     ],
     "trend": "List questions with a specific `type` or `start` value are extremely common, as are output-prediction snippets.",
@@ -589,6 +593,10 @@
       {
         "q": "The attribute of <img> that shows text if the picture cannot be displayed is: (a) alt  (b) src  (c) title  (d) name",
         "a": "**(a) alt.** It is also read aloud by screen readers for blind users."
+      },
+      {
+        "q": "An in-page link to a section with `id='top'` is written as: (a) `<a href='#top'>` (b) `<a src='top'>` (c) `<a link='top'>` (d) `<a href='top.html'>`",
+        "a": "**(a) `<a href='#top'>`.** The `#id` form jumps within the page; the target carries the matching `id`."
       }
     ],
     "trend": "One image-tag question and one link question appear in most papers. `href` versus `src` is the standard one-marker.",
@@ -793,6 +801,10 @@
       {
         "q": "The tag used for a cell that holds a column heading is: (a) <th>  (b) <td>  (c) <tr>  (d) <caption>",
         "a": "**(a) <th>.** Its text is bold and centred by default."
+      },
+      {
+        "q": "`cellpadding` controls: (a) space inside each cell (b) space between cells (c) the border thickness (d) the table width",
+        "a": "**(a) space inside each cell.** Padding is inside, spacing is between — cellspacing does the other job."
       }
     ],
     "trend": "A table-writing question with at least one merged cell appears in most papers. It is the highest-value single question in Unit II.",
@@ -998,6 +1010,10 @@
       {
         "q": "The tag that creates a box for several lines of text is: (a) <textarea>  (b) <input type=\"text\">  (c) <select>  (d) <option>",
         "a": "**(a) <textarea>.** rows and columns are set with the rows and cols attributes."
+      },
+      {
+        "q": "In `<select>`, the option shown by default is marked with: (a) selected (b) checked (c) default (d) value",
+        "a": "**(a) selected.** `checked` is the equivalent for radio buttons and checkboxes."
       }
     ],
     "trend": "A complete form-writing question appears in most papers, usually with radio buttons so the shared-name rule can be tested.",
@@ -1188,6 +1204,10 @@
       {
         "q": "An inline frame inside a normal web page is created with: (a) <iframe>  (b) <frame>  (c) <frameset>  (d) <window>",
         "a": "**(a) <iframe>.** It is used for maps, videos and embedded documents."
+      },
+      {
+        "q": "`<marquee>` is used to: (a) scroll text across the page (b) play a video (c) create a table (d) embed another page",
+        "a": "**(a) scroll text across the page.** Its `direction`, `behavior` and `scrollamount` control the movement."
       }
     ],
     "trend": "One short frameset or multimedia question, plus definitional one-markers on marquee, meta and pre.",

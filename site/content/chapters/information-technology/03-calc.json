@@ -61,6 +61,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is Solver in Calc, and how does it differ from Goal Seek?",
+        "a": "Solver finds input values that produce a target result, like Goal Seek — but it can change many cells at once and respect constraints (for example, quantities that must stay whole numbers). Goal Seek changes exactly one cell with no constraints. Use Goal Seek for one unknown, Solver for many.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "A shop wants profit of ₹8,000. Profit is `=B2*B3-B4` (price × qty − cost). Which tool, and which cell is “By changing” if qty and cost are fixed?",
@@ -88,6 +94,16 @@
           "Choose Tools → Goal Seek and fill in the dialog: Formula Cell B5, Target Value 8000, Variable Cell B2 (the interest rate or the loan amount).",
           "Click OK; Calc changes the variable cell step by step until the formula gives the target, and reports whether it succeeded.",
           "This is quicker than trial and error when only one input is unknown."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What is the ‘Group’ feature in Calc? Explain with a monthly-expense sheet example.",
+        "a": [
+          "Group (Data → Define Range → Group) bundles rows or columns so they can be collapsed to a single line or expanded again with one click.",
+          "Example — a yearly sheet with twelve monthly blocks: group each month's daily rows, collapse all twelve, and only the monthly totals stay visible for review.",
+          "Unlike hiding, grouping shows a clear plus/minus control, so hidden detail is never forgotten."
         ],
         "t": "S"
       },
@@ -231,6 +247,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is LibreOffice Basic, and how is it connected with macros?",
+        "a": "LibreOffice Basic is the programming language in which Calc macros are stored. When you record a macro, Calc translates your clicks and keystrokes into Basic code; running the macro replays that code. You never need to read the code for the exam, but knowing where it lives explains why a macro file can carry a virus.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "Every Monday you set print area A1:G40, landscape, header “Weekly Sales”. How does a macro help?",
@@ -254,6 +276,16 @@
           "Avoid macros for work that changes each time and cannot be reduced to fixed steps.",
           "Never open macros in a file from an unknown sender: macro viruses can damage files and spread to other documents.",
           "Where a built-in formula, style or tool does the job, use it instead — it is easier for others to check."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Describe the steps to run a recorded macro and to delete one you no longer need.",
+        "a": [
+          "To run — Tools → Macros → Run Macro, select the library and module where the macro was saved, choose its name, and press Run.",
+          "To delete — Tools → Macros → Organise Macros → LibreOffice Basic, select the macro, and press Delete.",
+          "Tip — save practice macros inside the document (not in My Macros) so they travel with the file to the examiner's machine."
         ],
         "t": "S"
       },
@@ -401,6 +433,15 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is the difference between a hyperlink and a sheet-link formula? Give one example of each.",
+        "a": [
+          "A hyperlink jumps the reader somewhere when clicked — for example, Insert → Hyperlink to `https://cbseacademic.nic.in` opens the CBSE site.",
+          "A sheet-link formula pulls a live value into a cell — for example, `=Term1.G20` shows Term1's total inside the Summary sheet and updates whenever Term1 changes."
+        ],
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "Summary sheet must show `Total` from three term sheets named Term1, Term2, Term3, each total in G20. Write the formula.",
@@ -423,6 +464,16 @@
           "Within the workbook: type = in the target cell, click the sheet tab, click the source cell and press Enter; the formula reads =Sheet2.B3.",
           "To an external file: open both files, copy the source cell, click the target cell and choose Edit → Paste Special → Paste Link.",
           "The formula then contains the full path, for example ='file:///home/user/accounts.ods'#$Sheet1.A1, and you can refresh the links when the source file changes."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Why should linked files be kept in one folder? Describe what breaks when a source file is moved or renamed.",
+        "a": [
+          "Calc stores external links as paths; keeping all files in one folder keeps those paths short and portable.",
+          "If the source file moves or is renamed, the link cannot be resolved: the dependent cells show errors or stale values instead of live data.",
+          "Fix — keep the set together from the start, and if a move is unavoidable, re-point the links through Edit → Links to External Files."
         ],
         "t": "S"
       },
@@ -566,6 +617,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is the difference between accepting and rejecting a recorded change? Where is each done?",
+        "a": "Accepting keeps the edited value as the final content; rejecting discards the edit and restores the original value. Both are done in the Manage Changes dialogue (Edit → Track Changes → Manage), which lists every change with its author and time so each can be judged separately.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "Three lab partners type in three copies of `stock.ods` and the totals disagree. What should they have used?",
@@ -589,6 +646,16 @@
           "Select the older copy in the file dialog and click Insert; LibreOffice shows the differences as tracked changes.",
           "Review each one with Next and Previous, then accept or reject it from the Manage dialog.",
           "This works in both Writer and Calc and is the safest way to merge two people's work."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What is ‘Protect Sheet’, and why must input cells be unlocked before it is applied?",
+        "a": [
+          "Protect Sheet (Tools → Protect Sheet) locks the sheet so that only permitted actions — usually editing unlocked cells — are possible.",
+          "By default every cell is locked, so protecting first would freeze the whole sheet including the inputs.",
+          "Correct order — select the input cells, uncheck Protected in Format → Cells → Protection, then protect the sheet; formulas stay safe while inputs stay editable."
         ],
         "t": "S"
       },

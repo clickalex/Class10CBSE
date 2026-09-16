@@ -164,6 +164,10 @@
       {
         "q": "Software that secretly records every key you press is called: (a) a keylogger  (b) a firewall  (c) an antivirus  (d) a browser",
         "a": "**(a) a keylogger.** A firewall blocks unwanted connections; an antivirus removes known malware."
+      },
+      {
+        "q": "Phishing carried out by voice call is called: (a) vishing (b) smishing (c) spamming (d) spoofing",
+        "a": "**(a) vishing.** Voice + phishing; smishing is the same trick by SMS."
       }
     ],
     "trend": "Definitions of threats and a safety-measures list appear in every paper. Ten marks, very predictable.",
@@ -382,6 +386,10 @@
       {
         "q": "Open source software is software that: (a) lets users study, change and share the source code  (b) is always free of cost  (c) cannot be copied  (d) runs only on mobile phones",
         "a": "**(a) lets users study, change and share the source code.** Free refers to freedom, not necessarily to price."
+      },
+      {
+        "q": "Software distributed as a paid trial is called: (a) shareware (b) freeware (c) FOSS (d) malware",
+        "a": "**(a) shareware.** Try first, pay later; freeware is free but closed, FOSS is open in source."
       }
     ],
     "trend": "One IPR question and one FOSS-versus-proprietary question appear in most papers.",
@@ -561,6 +569,10 @@
       {
         "q": "The correct way to dispose of an old mobile phone is to: (a) hand it to an authorised e-waste recycler  (b) throw it into the dustbin  (c) burn it with the rubbish  (d) bury it in the garden",
         "a": "**(a) hand it to an authorised e-waste recycler.** Burning or burying releases toxic metals into air and soil."
+      },
+      {
+        "q": "Publishing obscene material electronically is punished under IT Act section: (a) 67 (b) 65 (c) 66 (d) 72",
+        "a": "**(a) 67.** Section 65 is tampering, 66 is hacking, 66C is identity theft, 72 is breach of confidentiality."
       }
     ],
     "trend": "One IT Act question and one e-waste or footprint question close the paper every year.",

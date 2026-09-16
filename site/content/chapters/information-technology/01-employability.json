@@ -289,6 +289,16 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is self-regulation, and how does it differ from self-motivation? Give one example of each.",
+        "a": [
+          "Self-regulation is controlling your emotions and behaviour to stay on track — for example, closing social media during study hours despite the urge to scroll.",
+          "Self-motivation is generating your own drive to start and continue — for example, setting a personal target of finishing ten Calc rows before lunch.",
+          "In short: motivation starts the engine, regulation keeps it on the road."
+        ],
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "Meera has three tasks: a 5 pm file, a messy desk, and a social-media reel. Using urgent/important, what should she do first and why?",
@@ -313,6 +323,17 @@
           "Set specific goals, track them, reward yourself when a goal is met, and talk to someone you trust instead of keeping worries inside."
         ],
         "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain the four steps of time management (list → prioritise → one chunk → review) with a study-evening example.",
+        "a": [
+          "List — write down everything for the evening: finish the Writer practical, revise ten formulas, pack the bag.",
+          "Prioritise — rank by urgent/important: the practical due tomorrow comes first, packing the bag last.",
+          "One chunk — work on the top task in a single unbroken block instead of switching every ten minutes.",
+          "Review — at the end, tick off what is done and carry only the remainder forward."
+        ],
+        "t": "L"
       },
       {
         "t": "L",
@@ -458,6 +479,23 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is the Recycle Bin, and how is restoring a file different from deleting it permanently?",
+        "a": "The Recycle Bin is a holding area where deleted files wait until it is emptied. Restoring returns the file to its original folder, so nothing is lost. Deleting permanently (emptying the Bin, or Shift + Delete) removes the file beyond easy recovery — which is why important files should be backed up before the Bin is emptied.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "List four basic care rules that protect a computer from physical damage and data loss.",
+        "a": [
+          "Keep the machine dust-free and away from food and drink, which damage keyboards and circuits.",
+          "Use a surge protector so voltage spikes do not harm the hardware.",
+          "Shut down through the OS command instead of pulling the plug, which can corrupt files.",
+          "Run updated antivirus software and keep a backup of important work."
+        ],
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "Amit eats chips over the keyboard and never shuts the PC down. List three risks and three care steps.",
@@ -481,6 +519,16 @@
           "Give every file a short, descriptive name with the date, such as maths_notes_2026-08-12.",
           "Keep the folder tree shallow — no more than two or three levels — and delete or archive old versions.",
           "Keep a backup copy on an external drive or in the cloud, and run an antivirus scan on anything you download."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Why should files be given clear names and kept in subject-wise folders? Illustrate with a school-project example.",
+        "a": [
+          "Clear names and folders make work findable: a file named `aaa.odt` on a crowded Desktop is easily lost or overwritten.",
+          "Example — a project split as `Project/notes.odt`, `Project/images/`, `Project/final-report.odt` lets any part be found in seconds.",
+          "Good organisation also protects against loss: one folder is easy to back up, scattered files are not."
         ],
         "t": "S"
       },
@@ -622,6 +670,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is a social entrepreneur? How does the aim differ from that of a business entrepreneur?",
+        "a": "A social entrepreneur starts an enterprise mainly to solve a social problem — for example, cheap solar lamps for villages — rather than to maximise profit. A business entrepreneur also creates value but measures success primarily in profit and growth. Both take risks and organise resources; they differ in what counts as the return.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "Neha notices students waiting 40 minutes for a shared printer. She starts a paid print-and-bind desk. Which entrepreneurial qualities is she using?",
@@ -647,6 +701,16 @@
           "Bearing the risk of loss, and taking the decisions that keep the enterprise alive."
         ],
         "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain the role of entrepreneurs in society with reference to jobs, products and local resources.",
+        "a": [
+          "Jobs — every new enterprise hires people, from a bakery's helpers to a startup's designers.",
+          "Products — entrepreneurs turn needs into goods and services, such as affordable school stationery or repair shops.",
+          "Local resources — they use nearby material and talent, for example fruit from local orchards in a jam unit, keeping wealth in the area."
+        ],
+        "t": "L"
       },
       {
         "t": "L",
@@ -793,6 +857,22 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is a green economy? State its three features.",
+        "a": "A green economy is one that improves human well-being while reducing environmental risks. Its three features are: low carbon emissions, efficient use of resources, and inclusive growth that does not leave the poor behind.",
+        "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Arrange Reduce, Reuse, Recycle in order of preference and justify the order with one example each.",
+        "a": [
+          "First Reduce — preventing waste is best: carry a cloth bag instead of taking a plastic one each time.",
+          "Then Reuse — using again costs nothing extra: refill the same water bottle for months.",
+          "Last Recycle — reprocessing still needs energy: send worn-out notebooks for paper recycling only when reuse is over."
+        ],
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "A computer lab leaves 20 PCs on overnight. Suggest three green practices and one green skill the lab assistant needs.",
@@ -815,6 +895,16 @@
           "Installing and maintaining solar panels, managing recycling and composting, organic farming, water harvesting and energy auditing are all green jobs.",
           "A job is green when it reduces the use of energy or raw materials, cuts greenhouse-gas emissions and waste, and protects or restores ecosystems.",
           "It should also provide decent work and income, because a green economy is meant to improve human well-being as well as the environment."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What makes a job a ‘green job’? Name two green jobs and the green skill each needs.",
+        "a": [
+          "A job is green when it directly protects or restores the environment — through clean energy, waste handling, conservation or green construction.",
+          "Solar-panel technician — needs the skill of installing and maintaining photovoltaic systems safely.",
+          "Waste-segregation supervisor — needs the skill of sorting waste at source into wet, dry and hazardous streams."
         ],
         "t": "S"
       },

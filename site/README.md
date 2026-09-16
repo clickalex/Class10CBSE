@@ -115,15 +115,15 @@ subjects — **174 chapters** in total:
 
 | Subject | Chapters | Q&A | MCQ |
 |---|---|---|---|
-| Maths | 14 | 167 | 112 |
+| Maths | 14 | 170 | 112 |
 | Science | 13 | 179 | 104 |
 | Social Science | 21 | 260 | 168 |
-| English | 33 | 343 | 231 |
-| Hindi | 40 | 406 | 249 |
-| Computer Applications | 14 | 167 | 104 |
-| Sanskrit | 19 | 200 | 130 |
-| Information Technology (402) | 20 | 200 | 162 |
-| **Total** | **174** | **1,922** | **1,260** |
+| English | 33 | 396 | 264 |
+| Hindi | 40 | 480 | 320 |
+| Computer Applications | 14 | 168 | 112 |
+| Sanskrit | 19 | 229 | 152 |
+| Information Technology (402) | 20 | 240 | 162 |
+| **Total** | **174** | **2,122** | **1,394** |
 
 IT 402 is built in this site (same design as the others). Question banks
 on every subject use Short / Long / Application / Competency cards with

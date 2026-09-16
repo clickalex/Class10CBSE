@@ -599,6 +599,17 @@
         "t": "S"
       },
       {
+        "m": "3",
+        "q": "A cylindrical vessel of radius 6 cm and height 12 cm is full of water. How many conical cups of radius 2 cm and height 6 cm can be filled from it?",
+        "a": [
+          "Volume of the vessel = π × 6² × 12 = 432π cm³.",
+          "Volume of one cup = (1/3)π × 2² × 6 = 8π cm³.",
+          "Number of cups = 432π ÷ 8π = 54.",
+          "So 54 conical cups can be filled."
+        ],
+        "t": "S"
+      },
+      {
         "m": "4",
         "q": "100 solid iron spheres, each of radius 1 cm, are melted to form one solid sphere. Find its radius.",
         "a": [
