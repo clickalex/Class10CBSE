@@ -111,19 +111,19 @@ Subjects with no chapter content yet are skipped and shown on the portal as
 ## Coverage
 
 Every Class 10 subject has a hub. Chapter content is authored for all eight
-subjects — **174 chapters** in total:
+subjects — **175 chapters** in total:
 
 | Subject | Chapters | Q&A | MCQ |
 |---|---|---|---|
 | Maths | 14 | 170 | 112 |
 | Science | 13 | 179 | 104 |
-| Social Science | 21 | 260 | 168 |
-| English | 33 | 396 | 264 |
-| Hindi | 40 | 480 | 320 |
-| Computer Applications | 14 | 168 | 112 |
+| Social Science | 20 | 247 | 160 |
+| English | 32 | 384 | 256 |
+| Hindi | 44 | 528 | 352 |
+| Computer Applications | 13 | 156 | 104 |
 | Sanskrit | 19 | 229 | 152 |
 | Information Technology (402) | 20 | 240 | 162 |
-| **Total** | **174** | **2,122** | **1,394** |
+| **Total** | **175** | **2,133** | **1,402** |
 
 IT 402 is built in this site (same design as the others). Question banks
 on every subject use Short / Long / Application / Competency cards with

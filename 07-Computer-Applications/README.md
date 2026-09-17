@@ -13,14 +13,17 @@ and chapter:
 | Unit | Marks | Chapters |
 |---|---|---|
 | `unit1-Networking` | 15 | ch01 Internet Basics · ch02 Internet Services & Protocols · ch03 Network Types, Topologies & Devices · ch04 Mobile & Wireless Technology · ch05 Web Browsers, Search & Web Concepts |
-| `unit2-HTML` | 25 | ch06 HTML Introduction & Basic Tags · ch07 Text Formatting & Lists · ch08 Links & Images · ch09 Tables · ch10 Forms · ch11 Frames, Multimedia & Special Tags |
-| `unit3-Cyber-Ethics` | 10 | ch12 Cyber Safety & Security · ch13 Cybercrime, IPR & Open Source · ch14 IT Act, Digital Footprint & e-Waste |
+| `unit2-HTML` | 25 | ch06 HTML Introduction & Basic Tags · ch07 Text Formatting & Lists · ch08 Links & Images · ch09 Tables · ch10 Forms · ch11 CSS & Multimedia |
+| `unit3-Cyber-Ethics` | 10 | ch12 Netiquette, E-Commerce & Digital Divide · ch13 Cybercrime, IPR & Open Source |
 
 **HTML is 25 of the 50 theory marks** — half the written paper sits in six
-chapters. Practical is the other 50: lab test 20, file work 10, viva 5, website
-project 15.
+chapters. Practical is the other 50: lab test 20, report file 15, viva 5,
+project 10.
 
-Deep chapter pages for all 14 chapters are built in the site — see
+Not in the 2026–27 theory syllabus: frames, `<marquee>`, the IT Act, e-waste,
+and malware threat-names (those are lab-blog topics). CSS **is** theory.
+
+Deep chapter pages for all 13 chapters are built in the site — see
 [the Computer Applications hub](../docs/computer-applications/index.html)
 (live: <https://clickalex.github.io/Class10CBSE/computer-applications/index.html>).
 The 2026–27 curriculum PDF for this code is on the CBSE Class X page:

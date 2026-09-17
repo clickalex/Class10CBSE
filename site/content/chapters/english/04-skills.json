@@ -193,200 +193,8 @@
     ]
   },
   {
-    "id": "ch30-note-making-and-summarising",
+    "id": "ch30-grammar-in-context",
     "num": 30,
-    "title": "Note Making and Summarising",
-    "unit": "skills",
-    "unit_name": "Reading, Grammar & Writing",
-    "weight": "≈ 5 marks",
-    "short": "The exact format that earns the format marks.",
-    "lede": "Format marks are awarded separately, so a correct answer in the wrong format still loses marks.",
-    "lens": [
-      "**About 5 marks**, usually as a note-making task based on a passage, followed by a short summary.",
-      "Marks are split between **content, format and the summary** — learn the format exactly."
-    ],
-    "concepts": [
-      "**1. The format.** Write a **title** in the centre at the top. Use a **numbering system**: main headings 1, 1.1, 1.1.1, 1.2 and so on, indented to show the level. Main headings carry the key idea; sub-headings carry the details. Every heading is a **phrase, not a sentence**. End with a **conclusion** line if the passage has one. **Do not write in sentences, do not add your own ideas, and do not exceed the recommended number of headings.**",
-      "**2. Rules.** Use only what is in the passage. Keep headings short — usually four to six words. Use standard **abbreviations**, and give a **key to abbreviations** at the end. Do not copy whole sentences. Indentation must be consistent, because the examiner reads the structure, not the prose.",
-      "**3. The summary.** The summary is usually limited to about **80 words** and must be written in **your own words**, in complete sentences, covering the main idea and the two or three supporting points. Do not add anything new, do not give your opinion, and do not exceed the word limit — the limit is checked."
-    ],
-    "tricks": [
-      "- **Headings are phrases, not sentences.** That is the single most common loss of format marks.",
-      "- **1, 1.1, 1.1.1** — the decimal numbering shows the examiner your structure at a glance.",
-      "- **Always write the key to abbreviations** — it is a separate mark."
-    ],
-    "mistakes": [
-      "- Writing notes in full sentences.",
-      "- Exceeding the number of headings asked for.",
-      "- Forgetting the key to abbreviations.",
-      "- Exceeding the 80-word limit in the summary, or copying sentences from the passage."
-    ],
-    "qa": [
-      {
-        "m": "3",
-        "q": "Describe the format required for note making.",
-        "a": "Write a title in the centre at the top. Use decimal numbering for the headings — 1, 1.1, 1.1.1, 1.2 — with consistent indentation to show the levels. Each heading must be a short phrase, not a sentence, and must contain only what is in the passage. Standard abbreviations may be used, and a key to abbreviations must be given at the end.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "What are the rules for writing the summary that follows the notes?",
-        "a": "The summary must be written in your own words, in complete sentences, and within the word limit, usually about 80 words. It must cover the main idea of the passage and its two or three main supporting points, and it must not include anything new or any personal opinion. Exceeding the word limit or copying sentences from the passage results in a deduction.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Why is the key to abbreviations important?",
-        "a": "Because it is assessed as part of the format, and because abbreviations are meaningless without it. The examiner needs to be able to see that the abbreviations used in the headings are standard and have been explained. Omitting the key costs a mark even if the notes themselves are correct.",
-        "t": "S"
-      },
-      {
-        "t": "A",
-        "m": "3",
-        "q": "Riya is revising “Note Making and Summarising” (The exact format that earns the format marks.). A classmate lost marks by doing this: Writing notes in full sentences. Apply the correct method and rewrite the scoring answer.",
-        "a": [
-          "Correct method: Headings are phrases, not sentences. That is the single most common loss of format marks.",
-          "Why the mistake costs marks: Writing notes in full sentences.",
-          "Write the definition or formula first, then the working or example."
-        ]
-      },
-      {
-        "t": "A",
-        "m": "3",
-        "q": "Amit is given this exam-style task from “Note Making and Summarising”: “Describe the format required for note making.” Treat it as an application question. Identify the idea, then write the working in points.",
-        "a": [
-          "Idea: The exact format that earns the format marks..",
-          "Write a title in the centre at the top. Use decimal numbering for the headings — 1, 1.1, 1.1.1, 1.2 — with consistent indentation to show the levels. Each heading must be a short phrase, not a sentence, and must contain only what is in the passage. Standard abbreviations may be used, and a key to abbreviations must be given at the end."
-        ]
-      },
-      {
-        "m": "3",
-        "q": "What is the accepted format for note-making?",
-        "a": [
-          "Write the title at the top, then group the ideas into main points and sub-points.",
-          "Number them as 1, 2, 3 with sub-points as 1.1, 1.2 and so on, and indent each sub-point.",
-          "Use abbreviations wherever possible and write a key to the abbreviations at the end, leaving out articles and linkers.",
-          "Do not write full sentences: use phrases, and keep the points logically grouped under the title."
-        ],
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "What is the difference between a heading and a sub-heading in notes? Give one example of correct decimal numbering.",
-        "a": [
-          "A heading (1, 2, 3) names a main idea of the passage; a sub-heading (1.1, 1.2) gives a detail or example under it.",
-          "Example — 1. Causes of air pollution; 1.1 vehicular exhaust; 1.2 industrial smoke; 1.3 burning of waste.",
-          "Headings are short phrases, never sentences, and nothing may come from outside the passage."
-        ],
-        "t": "S"
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Note Making and Summarising”. Their note says: The format. Write a title in the centre at the top. Use a numbering system: main headings 1, 1.1, 1.1.1, 1.2 and so on, indented to show the level. Main headings carry the key idea; sub-headings carry the details. Every heading is a phrase, not a sentence. End with a conclusion line if the passage h\n\nThe chapter is described as: The exact format that earns the format marks..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
-        "a": [
-          "(a) The exact format that earns the format marks.",
-          "(b) About 5 marks, usually as a note-making task based on a passage, followed by a short summary.",
-          "(c) Writing notes in full sentences."
-        ]
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Describe the format required for note making.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
-        "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Write a title in the centre at the top. Use decimal numbering for the headings — 1, 1.1, 1.1.1, 1.2 — with consistent indentation to show the levels. Each heading must be a short phrase, not a sentence, and must contain only what is in the passage. Standard abbreviations may be used, and a key to abbreviations must be given at the end.",
-          "(c) Headings are phrases, not sentences. That is the single most common loss of format marks."
-        ]
-      },
-      {
-        "m": "4",
-        "q": "How do you write a summary from notes?",
-        "a": [
-          "A summary keeps only the essential points of the passage and drops all examples, figures of speech and repetition.",
-          "It should be about one third of the length of the original and must be written in connected prose in one paragraph.",
-          "Use your own words as far as possible and keep the order of the original, so that the reader can follow the argument.",
-          "Give the summary a title, do not add your own comments, and write it in the past or present tense as the passage requires."
-        ],
-        "t": "A"
-      },
-      {
-        "m": "4",
-        "q": "A student writes full sentences in notes and adds points from memory. Identify the two errors and explain the mark each costs.",
-        "a": [
-          "First error — full sentences instead of short phrases: notes must be condensed, so sentences lose the content mark for brevity.",
-          "Second error — points from memory instead of from the passage: notes may only compress what is given, so invented points lose the accuracy mark.",
-          "Both errors also weaken the summary, which must be built strictly from the notes."
-        ],
-        "t": "A"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Note Making and Summarising” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The format. Write a title in the centre at the top. Use a numbering system: main headings 1, 1.1, 1.1.1, 1.2 and so on, indented to show the level. Main headings carry the key idea; sub-headings carry the details. Every heading is a phrase, not a sentence. End with a conclusion line if the passage has one. Do not write in sentences, do not add your own ideas, and do not exceed the recommended number of headings.",
-          "Marks lens: About 5 marks, usually as a note-making task based on a passage, followed by a short summary.",
-          "Method / memory trick: Headings are phrases, not sentences. That is the single most common loss of format marks.",
-          "Do not: Writing notes in full sentences."
-        ]
-      }
-    ],
-    "mcq": [
-      {
-        "q": "Headings in note making should be: (a) full sentences (b) short phrases (c) questions (d) quotations",
-        "a": "**(b) short phrases** — usually four to six words, containing only what is in the passage."
-      },
-      {
-        "q": "The summary that follows the notes is usually limited to about: (a) 40 words (b) 60 words (c) 80 words (d) 120 words",
-        "a": "**(c) about 80 words**, written in your own words in complete sentences."
-      },
-      {
-        "q": "Which numbering system is used in note making? (a) a, b, c (b) 1, 1.1, 1.1.1 (c) i, ii, iii only (d) bullet points only",
-        "a": "**(b) 1, 1.1, 1.1.1** — decimal numbering with consistent indentation."
-      },
-      {
-        "q": "The most exam-ready way to revise “Note Making and Summarising” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is The exact format that earns the format marks.."
-      },
-      {
-        "q": "A 3-mark answer on “Note Making and Summarising” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
-      },
-      {
-        "q": "In note-making, the format marks are awarded for: (a) the title, numbering and use of abbreviations  (b) neat handwriting  (c) the length of the notes  (d) coloured pens",
-        "a": "**(a) the title, numbering and use of abbreviations.** These show that you know the format."
-      },
-      {
-        "q": "A good summary should be: (a) about one third of the original, in your own words  (b) as long as the passage  (c) a copy of the first and last sentences  (d) full of examples",
-        "a": "**(a) about one third of the original, in your own words.** Examples and details are left out."
-      },
-      {
-        "q": "Every abbreviation used in notes must be: (a) listed with its full form in the key at the end (b) invented freely without explanation (c) written in capital letters only (d) avoided entirely",
-        "a": "**(a) listed with its full form in the key at the end.** The key carries a separate mark — never skip it."
-      }
-    ],
-    "trend": "The task is stable: a passage, a set of notes and an 80-word summary. The marks lost are almost always format marks, not content marks.",
-    "onepager": [
-      "- Title centred at the top; decimal numbering 1, 1.1, 1.1.1 with consistent indentation.",
-      "- Headings are short phrases, not sentences; nothing from outside the passage.",
-      "- Key to abbreviations at the end — a separate mark.",
-      "- Summary: about 80 words, your own words, complete sentences, no opinion."
-    ],
-    "task": [
-      "Take any newspaper article of about 400 words and make notes on it in eight minutes, then write the 80-word summary. Check your headings: if any of them is a full sentence, rewrite it as a phrase. Do this five times and the format becomes automatic."
-    ],
-    "steps": [
-      "1. Read the passage twice and mark the **main idea** and the supporting points; note-making is not copying sentences.",
-      "2. Build **headings and sub-headings** with roman, capital and small numbers in the standard indented format.",
-      "3. Use **abbreviations** for long or repeated words, and give a **key** for anything a reader could not guess.",
-      "4. Write the **summary** from the notes, never from the passage: one connected paragraph, in your own words, inside the word limit, with the **title** on top."
-    ]
-  },
-  {
-    "id": "ch31-grammar-in-context",
-    "num": 31,
     "title": "Grammar in Context",
     "unit": "skills",
     "unit_name": "Reading, Grammar & Writing",
@@ -575,8 +383,8 @@
     ]
   },
   {
-    "id": "ch32-formal-letter-writing",
-    "num": 32,
+    "id": "ch31-formal-letter-writing",
+    "num": 31,
     "title": "Formal Letter Writing",
     "unit": "skills",
     "unit_name": "Reading, Grammar & Writing",
@@ -777,8 +585,8 @@
     ]
   },
   {
-    "id": "ch33-analytical-paragraph",
-    "num": 33,
+    "id": "ch32-analytical-paragraph",
+    "num": 32,
     "title": "Analytical Paragraph",
     "unit": "skills",
     "unit_name": "Reading, Grammar & Writing",

@@ -73,6 +73,9 @@ These appear in older editions and old question banks — they are **not** in th
 current paper: *The Hundred Dresses I*, *The Hundred Dresses II*, the poem
 *Animals*, and *The Hack Driver* from Footprints Without Feet.
 
+*Note Making* is likewise not in the 184 paper — Writing is only the formal
+letter and the analytical paragraph.
+
 ## What to keep per chapter
 
 For literature the marks come from reference-to-context extracts and short/long

@@ -21,8 +21,8 @@ Class10CBSE/
 ```
 
 **Live site: <https://clickalex.github.io/Class10CBSE/>** — built from
-`site/content/`, one hub per subject (including IT 402, in-built), 174 chapter
-pages, **2,122 written Q&A and 1,394 MCQs**. Every subject uses the same design
+`site/content/`, one hub per subject (including IT 402, in-built), 175 chapter
+pages, **2,133 written Q&A and 1,402 MCQs**. Every subject uses the same design
 and the same Q&A tone: Short, Long, Application and Competency, with
 click-to-reveal answers.
 
