@@ -410,22 +410,23 @@
         "id": "skills",
         "slug": "grammar-writing",
         "title": "Reading, Grammar & Writing",
-        "marks": "≈ 30 marks",
+        "marks": "≈ 40 marks",
         "priority": true,
-        "desc": "Unseen passages, note-making, grammar in context, letter, article and analytical paragraph.",
+        "desc": "Unseen passages, grammar in context (determiners, tenses, modals, subject-verb concord, reported speech), formal letter and analytical paragraph.",
         "tips": [
-          "- These marks are earned by format. Practise the exact word limits."
+          "- These marks are earned by format. Practise the exact word limits.",
+          "- Grammar is tested only through five fixed topics: determiners, tenses, modals, subject-verb concord and reported speech."
         ]
       }
     ],
     "assessment": [
       [
-        "Section A — Reading skills: unseen passage plus note-making and summarising",
+        "Section A — Reading: two unseen passages (discursive + case-based factual)",
         "**20**",
-        "Format marks are awarded separately. Follow the note-making format exactly."
+        "Objective + short-answer questions test inference and vocabulary in context."
       ],
       [
-        "Section B — Writing and grammar: letter, article or analytical paragraph, grammar in context",
+        "Section B — Writing and grammar: formal letter, analytical paragraph, grammar in context",
         "**20**",
         "Stick to the word limit; exceed it and you run out of time."
       ],
@@ -446,7 +447,7 @@
       ]
     ],
     "study_order": [
-      "**Writing formats first** — letter, article, analytical paragraph. 20 marks that depend only on format.",
+      "**Writing formats first** — formal letter, analytical paragraph. 10 marks that depend only on format.",
       "**Poems** — ten short texts, quick to finish, reliably asked.",
       "**Footprints Without Feet** — nine short chapters.",
       "**First Flight prose** — the longest reading; do the two-part chapters early.",
@@ -558,7 +559,7 @@
         "उत्तर अपने शब्दों में, पाठ की पंक्तियाँ न लिखें।"
       ],
       [
-        "रचनात्मक लेखन — letter, article, message, advertisement",
+        "रचनात्मक लेखन — अनुच्छेद, पत्र, स्ववृत्त/ईमेल, विज्ञापन/संदेश",
         "**20**",
         "प्रारूप के अंक अलग मिलते हैं।"
       ],

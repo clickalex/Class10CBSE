@@ -18,7 +18,7 @@ The paper has three parts — **Reading Skills**, **Writing & Grammar**, and
 ├── Footprints-Without-Feet/   9 chapters
 └── Grammar-and-Writing/
     ├── 01-Grammar/
-    └── 02-Writing-Skills/     letter, article, analytical paragraph
+    └── 02-Writing-Skills/     formal letter, analytical paragraph
 ```
 
 `04-NCERT-Solutions/` has the same three book-level folders; drop solved

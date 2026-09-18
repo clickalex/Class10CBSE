@@ -169,10 +169,10 @@
       "Write a 6-line “safe shopping checklist” for a grandparent: https, known shop, no OTP sharing, no advance to strangers, check reviews, keep receipts."
     ],
     "formulas": [
-      "Strong password: at least **12 characters**, mixed case, digits and symbols, unique per site",
-      "2FA / OTP: something you know **plus** something you have",
-      "Phishing signals: urgency, a wrong-looking domain, a link that is not where it claims to go",
-      "Update rule: patch the **operating system, browser and apps** — most attacks use known, fixed holes"
+      "Netiquette: polite words, no CAPS, no spam, respect privacy, give credit",
+      "E-commerce risks: **privacy** (guard OTPs/passwords) + **fraud** (fake shops, phishing)",
+      "Secure transmission: **encryption** + `https://` padlock + **OTP**",
+      "Digital divide = the connected vs the unconnected: devices, coverage, skills, language"
     ],
     "steps": [
       "**1.** Define the term in one line (netiquette / e-commerce / digital divide).",
@@ -368,7 +368,7 @@
       },
       {
         "q": "Copying a paid program and selling it without the owner's permission is: (a) software piracy  (b) fair use  (c) open source  (d) shareware",
-        "a": "**(a) software piracy.** It is a criminal offence under the Copyright Act and the IT Act."
+        "a": "**(a) software piracy.** It is a criminal offence under the Copyright Act."
       },
       {
         "q": "Open source software is software that: (a) lets users study, change and share the source code  (b) is always free of cost  (c) cannot be copied  (d) runs only on mobile phones",
@@ -392,7 +392,7 @@
     ],
     "steps": [
       "1. Name the **act** — hacking, identity theft, phishing, cyber stalking, piracy, or plagiarism.",
-      "2. Name the **right or law** it breaks: copyright, trademark, patent, or the IT Act section.",
+      "2. Name the **right or law** it breaks: copyright, trademark or patent.",
       "3. Say who is **affected** and what loss they suffer — money, data, reputation.",
       "4. Finish with the **remedy**: report to the cyber cell, preserve the evidence, and prevent a repeat."
     ]

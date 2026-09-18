@@ -59,7 +59,10 @@ assessed: *सवैया और कवित्त* (देव), *छाया
 |---|---|---|
 | 1 | `ch01-Mata-ka-Aanchal` | माता का अंचल |
 | 2 | `ch02-Sana-Sana-Hath-Jodi` | साना-साना हाथ जोड़ि |
-| 3 | `ch03-Ehi-Thaiyan-Jhulani-Herani-Ho` | एही ठैयाँ झुलनी हेरानी हो |
+| 3 | `ch03-Main-Kyon-Likhta-Hoon` | मैं क्यों लिखता हूँ |
+
+Removed from कृतिका in the rationalisation — present in older books, **not**
+assessed: *एही ठैयाँ झुलनी हेरानी हो* and *जॉर्ज पंचम की नाक*.
 
 ## Course B — स्पर्श भाग 2 (14 पाठ)
 

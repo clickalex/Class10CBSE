@@ -1213,11 +1213,11 @@
       "Style one page three ways without touching the HTML: navy centred headings, 16px Arial paragraphs, a dashed border and a left-floated picture — then add a song with `<audio controls loop>`."
     ],
     "formulas": [
-      "Frames split a window: `<frameset cols=\"25%,75%\"><frame src=\"menu.html\"> … </frameset>`",
-      "Frames need **no `<body>`** in the frameset document; `<noframes>` covers old browsers",
-      "Inline frame today: `<iframe src='page.html' width='600' height='400'></iframe>`",
-      "Multimedia: `<audio controls>`, `<video controls>`, or the older `<embed src=\"clip.mp4\">`",
-      "Marquee: `<marquee behavior=\"scroll\" direction=\"left\">text</marquee>` — non-standard, use with care"
+      "Rule shape: `selector { property: value; }` — e.g. `h1 { color: blue; }`",
+      "`color` = text ink, `background-color` = the box behind it",
+      "Font triple: `font-family`, `font-size`, `font-style` (normal / italic)",
+      "`border-style`: solid / dashed / dotted / double / none; `margin` gaps, `height`/`width` size",
+      "`float: left` wraps text around a picture; `<audio controls>` and `<video controls>` embed media"
     ],
     "steps": [
       "**1.** Write the HTML first — headings, paragraphs, one picture.",
