@@ -394,6 +394,10 @@
       {
         "q": "The tag that draws a horizontal rule across the page is: (a) <hr>  (b) <br>  (c) <line>  (d) <rule>",
         "a": "**(a) <hr>.** It is used to separate sections of a page."
+      },
+      {
+        "q": "`<ul type='square'>` shows bullets as: (a) discs (b) squares (c) circles (d) numbers",
+        "a": "**(b) squares.** The `type` values for `<ul>` are disc (default), circle and square."
       }
     ],
     "trend": "List questions with a specific `type` or `start` value are extremely common, as are output-prediction snippets.",
@@ -589,6 +593,10 @@
       {
         "q": "The attribute of <img> that shows text if the picture cannot be displayed is: (a) alt  (b) src  (c) title  (d) name",
         "a": "**(a) alt.** It is also read aloud by screen readers for blind users."
+      },
+      {
+        "q": "An in-page link to a section with `id='top'` is written as: (a) `<a href='#top'>` (b) `<a src='top'>` (c) `<a link='top'>` (d) `<a href='top.html'>`",
+        "a": "**(a) `<a href='#top'>`.** The `#id` form jumps within the page; the target carries the matching `id`."
       }
     ],
     "trend": "One image-tag question and one link question appear in most papers. `href` versus `src` is the standard one-marker.",
@@ -793,6 +801,10 @@
       {
         "q": "The tag used for a cell that holds a column heading is: (a) <th>  (b) <td>  (c) <tr>  (d) <caption>",
         "a": "**(a) <th>.** Its text is bold and centred by default."
+      },
+      {
+        "q": "`cellpadding` controls: (a) space inside each cell (b) space between cells (c) the border thickness (d) the table width",
+        "a": "**(a) space inside each cell.** Padding is inside, spacing is between — cellspacing does the other job."
       }
     ],
     "trend": "A table-writing question with at least one merged cell appears in most papers. It is the highest-value single question in Unit II.",
@@ -998,6 +1010,10 @@
       {
         "q": "The tag that creates a box for several lines of text is: (a) <textarea>  (b) <input type=\"text\">  (c) <select>  (d) <option>",
         "a": "**(a) <textarea>.** rows and columns are set with the rows and cols attributes."
+      },
+      {
+        "q": "In `<select>`, the option shown by default is marked with: (a) selected (b) checked (c) default (d) value",
+        "a": "**(a) selected.** `checked` is the equivalent for radio buttons and checkboxes."
       }
     ],
     "trend": "A complete form-writing question appears in most papers, usually with radio buttons so the shared-name rule can be tested.",
@@ -1021,75 +1037,74 @@
     ]
   },
   {
-    "id": "ch11-html-frames-multimedia",
+    "id": "ch11-css-and-multimedia",
     "num": 11,
-    "title": "Frames, Multimedia & Special Tags",
+    "title": "CSS and Multimedia",
     "unit": "html",
     "unit_name": "Unit II · HTML",
     "weight": "25 marks unit",
-    "short": "Framesets, iframes, audio and video, marquee, and the closing tags of Unit II.",
-    "lede": "The last chapter of the biggest unit. Mostly short definitional questions.",
+    "short": "CSS properties (colour, font, border, margin, float) plus `<audio>` and `<video>`.",
+    "lede": "The last chapter of the biggest unit: style every page with CSS, then embed sound and video.",
     "lens": [
-      "Explain what a frame does; write an audio or video tag; give the purpose of a special tag.",
-      "**Revise Unit II as one block after this chapter.**"
+      "Name the CSS property for a given effect; write one-rule CSS for colour, font, border, margin and float; write `<audio>` and `<video>` tags with `controls`.",
+      "**CSS is now theory, not just practical.** Every property in this chapter can be asked by name."
     ],
     "concepts": [
-      "**1. Frames.** A **frame** divides the browser window into separate regions, each showing a different HTML document. Frames are declared in a **`<frameset>`** document, which replaces `<body>` entirely. **`rows='30%,70%'`** splits the window **horizontally** into stacked bands; **`cols='25%,75%'`** splits it **vertically** into side-by-side columns. Each region is then filled by a **`<frame src='file.html'>`**. The `name` attribute on a frame lets a link in one frame load its target into another, using `target`.",
-      "**2. iframe.** `<iframe src='page.html' width='600' height='400'>` embeds another page **inside** the current one, without needing a frameset. It is still widely used for maps and embedded videos. `frameborder='0'` removes the visible border.",
-      "**3. Multimedia.** `<audio src='song.mp3' controls>` plays sound; `<video src='clip.mp4' width='400' controls>` plays video. The **`controls`** attribute is what makes the play, pause and volume buttons appear — without it the media is invisible and unusable. **`autoplay`** starts immediately, **`loop`** repeats, and **`muted`** silences it.",
-      "**4. Special tags.** **`<marquee>`** scrolls text or an image across the page; `direction` sets the direction, `behavior` sets `scroll`, `slide` or `alternate`, and `scrollamount` sets the speed. **`<meta>`** sits in `<head>` and describes the page to browsers and search engines. **`<pre>`** preserves spaces and line breaks exactly as typed, which is why it is used for code samples. **`<div>`** and **`<span>`** are generic containers used to group content for styling."
+      "**1. What CSS is.** **CSS (Cascading Style Sheets)** separates *presentation* from *content*: HTML describes what the text is, CSS describes how it looks. One rule can style every matching element at once, so changing the colour of all headings needs one edit instead of fifty. A rule has a **selector** (which elements) plus **declarations** of the form `property: value`, e.g. `h1 { color: blue; }`.",
+      "**2. Colour and background.** **`color`** sets the colour of the text itself; **`background-color`** sets the colour of the box behind it. Values may be names (`red`, `navy`) or hex codes (`#FF0000`). So `body { background-color: #FFFFCC; }` gives the whole page a pale-yellow background, while `p { color: green; }` turns paragraph text green.",
+      "**3. Font properties.** **`font-family`** picks the typeface (`Arial`, `serif`, `monospace`); **`font-size`** sets how big the text is (`14px`, `120%`); **`font-style`** is normally `normal` or `italic`. Example: `h2 { font-family: Arial; font-size: 24px; font-style: italic; }` makes every second-level heading large, Arial and italic.",
+      "**4. Border, outline, margin and size.** **`border-style`** draws the edge of the box — values include `solid`, `dashed`, `dotted`, `double` and `none`. **`outline`** draws a second line just outside the border, often used to highlight a focused field. **`margin`** is the empty space *outside* the border that pushes neighbours away. **`height`** and **`width`** fix how big the box itself is, e.g. `img { width: 200px; height: 150px; }`.",
+      "**5. Align and float.** **`align`**/`text-align` lines text up: `left`, `right`, `center` or `justify`. **`float`** pushes an element to one side (`left` or `right`) so that following text wraps around it — the classic way to set a picture beside a paragraph: `img { float: left; margin: 10px; }`.",
+      "**6. Embedding audio.** `<audio src=\"song.mp3\" controls>` puts a sound player in the page. **`controls`** shows the play, pause and volume buttons — without it the player is invisible. **`autoplay`** starts the sound on load, **`loop`** repeats it and **`muted`** starts it silently.",
+      "**7. Embedding video.** `<video src=\"lesson.mp4\" width=\"320\" height=\"240\" controls>` embeds a film with the browser’s own buttons. The same attributes as audio apply (`controls`, `autoplay`, `loop`, `muted`), and `width`/`height` fix the size of the picture."
     ],
     "tricks": [
-      "- **`rows` = horizontal bands, `cols` = vertical columns.** Picture the lines you are drawing.",
-      "- **A frameset document has no `<body>`.**",
-      "- **No `controls` attribute = no visible player.**",
-      "- **`<marquee>` scrolls, `<pre>` preserves spacing.**",
-      "- **`<iframe>` embeds inside a normal page; `<frameset>` splits the whole window.**"
+      "- **Color is the ink, background-color is the paper.**",
+      "- **Controls or silence** — no `controls`, no way to press play.",
+      "- **Float wraps, margin gaps.** Float pulls a picture to the side; margin pushes things apart.",
+      "- **Font has three F’s: family, size, style.**"
     ],
     "mistakes": [
-      "- Writing a `<body>` in a frameset document — `<frameset>` replaces it.",
-      "- Forgetting **`controls`** on `<audio>` or `<video>`, so nothing shows.",
-      "- Confusing `rows` and `cols` in a frameset.",
-      "- Confusing **`<iframe>`** with **`<frame>`** — one works inside a normal page, the other only inside a frameset."
+      "- Writing `font-color` — the property is just **`color`**.",
+      "- Expecting an `<audio>` tag to play with no **`controls`** attribute.",
+      "- Confusing **margin** (space outside the border) with the border itself.",
+      "- Forgetting the semicolons between CSS declarations."
     ],
     "qa": [
       {
         "m": "2",
-        "q": "What is the difference between `<frame>` and `<iframe>`?",
-        "a": "A **`<frame>`** can only be used inside a `<frameset>`, which replaces the document's `<body>` and splits the entire browser window into separate regions. An **`<iframe>`** (inline frame) is placed inside an ordinary page and embeds another document in a rectangular area within it, leaving the rest of the page untouched. In practice iframes are still common for maps and embedded videos, while framesets are considered outdated.",
+        "q": "What is CSS? State two advantages of using CSS with an HTML page.",
+        "a": "**CSS (Cascading Style Sheets)** is the language that controls how a page looks — colours, fonts, borders and spacing — while HTML keeps only the content. Two advantages: (1) **one rule styles every matching element**, so all headings can be recoloured with a single edit; (2) **content and presentation stay separate**, so the design can be changed without touching the text.",
         "t": "S"
       },
       {
         "m": "2",
-        "q": "What does the `<marquee>` tag do? Name two of its attributes.",
-        "a": "The `<marquee>` tag makes its content scroll across the page. Two of its attributes are **`direction`**, which sets the direction of movement — `left`, `right`, `up` or `down` — and **`scrollamount`**, which sets how fast it moves. A third, **`behavior`**, chooses between `scroll` (continuous), `slide` (moves once and stops) and `alternate` (bounces back and forth).",
+        "q": "What do the CSS properties `color` and `background-color` control? Give one example of each.",
+        "a": "`color` sets the colour of the **text itself**, e.g. `p { color: green; }`. `background-color` sets the colour of the **box behind the text**, e.g. `body { background-color: #FFFFCC; }`, which paints the whole page pale yellow. Values may be colour names or hex codes.",
         "t": "S"
       },
       {
         "m": "2",
-        "q": "Why is the `<pre>` tag used?",
-        "a": "The `<pre>` tag displays text **exactly as it is typed**, preserving all spaces, tabs and line breaks. Ordinary HTML collapses multiple spaces into one and ignores line breaks, so `<pre>` is used whenever the formatting itself matters — for code samples, ASCII diagrams or poetry.",
+        "q": "Explain `border-style` with any two values. How is `outline` different from a border?",
+        "a": "`border-style` draws the edge of an element’s box; values include **`solid`** (a continuous line) and **`dashed`** (a broken line), besides `dotted`, `double` and `none`. **`outline`** draws a second line just *outside* the border (e.g. `outline: solid blue;`) and is often used to highlight the field a visitor is typing in.",
         "t": "S"
       },
       {
         "m": "2",
-        "q": "What is the difference between a frameset and an iframe?",
-        "a": "A frameset divides the window into two or more independent frames using <frameset> and <frame>, and it replaces the <body> tag entirely; it has been removed from HTML5. An iframe puts a small separate window inside an ordinary page with <iframe src=\"...\">, keeps the rest of the page intact, and is still supported, so it is the way to embed another document today.",
+        "q": "What do `height`, `width` and `margin` do in CSS? Give one example.",
+        "a": "`height` and `width` fix how big an element’s box is, e.g. `img { width: 200px; height: 150px; }`. **`margin`** is the empty space *outside* the border that pushes neighbouring elements away, e.g. `p { margin: 15px; }` leaves a 15-pixel gap around every paragraph.",
         "t": "S"
       },
       {
         "m": "3",
-        "q": "Write HTML to divide the browser window into two rows, the top 25% showing a header and the bottom 75% showing content.",
-        "a": [
-          "`<html>`",
-          "`  <head><title>Frames</title></head>`",
-          "`  <frameset rows='25%,75%'>`",
-          "`    <frame src='header.html'>`",
-          "`    <frame src='content.html'>`",
-          "`  </frameset>`",
-          "`</html>`",
-          "Note that there is no `<body>` — a `<frameset>` document replaces it. `rows` splits the window into horizontal bands, and each `<frame>` loads one document into its band."
-        ],
+        "q": "Explain the three font properties in the syllabus with one example that uses all three.",
+        "a": "The three font properties are **`font-family`** (the typeface, e.g. Arial), **`font-size`** (how big the text is, e.g. 24px) and **`font-style`** (usually `normal` or `italic`). Together: `h2 { font-family: Arial; font-size: 24px; font-style: italic; }` — every second-level heading becomes large, Arial and italic.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "How is the `float` property used to place an image beside a paragraph? Write the CSS.",
+        "a": "`float` pushes an element to one side (`left` or `right`) so that the following text **wraps around it**. To float a picture left of a paragraph with a small gap: `img { float: left; margin: 10px; }`. The margin keeps the text from touching the picture.",
         "t": "S"
       },
       {
@@ -1099,120 +1114,117 @@
         "t": "S"
       },
       {
-        "t": "A",
         "m": "3",
-        "q": "Riya is revising “Frames, Multimedia & Special Tags” (Framesets, iframes, audio and video, marquee, and the closing tags of Unit II.). A classmate lost marks by doing this: Writing a <body> in a frameset document — <frameset> replaces it. Apply the correct method and rewrite the scoring answer.",
+        "q": "Write HTML to embed a video with the browser’s own controls. Name the attributes you used.",
         "a": [
-          "Correct method: rows = horizontal bands, cols = vertical columns. Picture the lines you are drawing.",
-          "Why the mistake costs marks: Writing a <body> in a frameset document — <frameset> replaces it.",
-          "Write the definition or formula first, then the working or example."
-        ]
-      },
-      {
-        "t": "A",
-        "m": "3",
-        "q": "Amit is given this exam-style task from “Frames, Multimedia & Special Tags”: “Write HTML to divide the browser window into two rows, the top 25% showing a header and the bottom 75% showing content.” Treat it as an application question. Identify the idea, then write the working in points.",
-        "a": [
-          "Idea: Framesets, iframes, audio and video, marquee, and the closing tags of Unit II..",
-          "<html> <head><title>Frames</title></head> <frameset rows='25%,75%'> <frame src='header.html'> <frame src='content.html'> </frameset> </html> Note that there is no <body> — a <frameset> document replaces it. rows splits the window into horizontal bands, and each <frame> loads one document into its band."
-        ]
-      },
-      {
-        "m": "3",
-        "q": "Write HTML to embed a video with the browser's own controls, and name two related tags from this chapter.",
-        "a": [
-          "<video src=\"lesson.mp4\" width=\"320\" height=\"240\" controls></video> embeds the video with play, pause and volume controls.",
-          "<audio src=\"song.mp3\" controls></audio> does the same for sound.",
-          "For older browsers you can list several <source> tags inside <video> so that the browser picks a format it can play.",
-          "<marquee> scrolls text across the page, but it is not part of HTML5 and should be avoided in new pages."
+          "`<video src=\"lesson.mp4\" width=\"320\" height=\"240\" controls></video>` embeds the video with play, pause and volume controls.",
+          "**`src`** gives the video file, **`width`** and **`height`** fix the size of the picture, and **`controls`** shows the browser’s own buttons.",
+          "`<audio src=\"song.mp3\" controls></audio>` does the same job for sound, using the same `controls` idea."
         ],
         "t": "S"
       },
       {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Frames, Multimedia & Special Tags”. Their note says: Frames. A frame divides the browser window into separate regions, each showing a different HTML document. Frames are declared in a <frameset> document, which replaces <body> entirely. rows='30%,70%' splits the window horizontally into stacked bands; cols='25%,75%' splits it vertically into side-by-s\n\nThe chapter is described as: Framesets, iframes, audio and video, marquee, and the closing tags of Unit II..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "m": "3",
+        "q": "A school page needs this design: all `<h2>` headings navy blue and centred; every paragraph in 16px Arial; pictures 200px wide, floated left. Write the CSS.",
         "a": [
-          "(a) Framesets, iframes, audio and video, marquee, and the closing tags of Unit II.",
-          "(b) Explain what a frame does; write an audio or video tag; give the purpose of a special tag.",
-          "(c) Writing a <body> in a frameset document — <frameset> replaces it."
-        ]
+          "`h2 { color: navy; text-align: center; }` — navy ink, centred line.",
+          "`p { font-family: Arial; font-size: 16px; }` — the three-F rule for the body text.",
+          "`img { width: 200px; float: left; margin: 10px; }` — small pictures wrapped by text with a gap."
+        ],
+        "t": "A"
       },
       {
-        "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Write HTML to divide the browser window into two rows, the top 25% showing a header and the bottom 75% showing content.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA student wrote this CSS for a class page:\n\n```\np { font-color: green; margin: 20px }\nimg { float: middle; width: 300 }\n```\n\n(a) Name the two property errors.\n(b) Write the corrected rules.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) <html> <head><title>Frames</title></head> <frameset rows='25%,75%'> <frame src='header.html'> <frame src='content.html'> </frameset> </html> Note that there is no <body> — a <frameset> document replaces it. rows splits the window into horizontal bands, and each <frame> loads one document into its band.",
-          "(c) rows = horizontal bands, cols = vertical columns. Picture the lines you are drawing."
-        ]
+          "(a) `font-color` is not a CSS property — text colour is just **`color`**. `float: middle` is invalid — float accepts only **`left`** or **`right`** (and widths need a unit like `px`).",
+          "(b) `p { color: green; margin: 20px; }` and `img { float: left; width: 300px; }`."
+        ],
+        "t": "C"
       },
       {
-        "t": "L",
+        "m": "4",
+        "q": "Read and answer:\n\nA project page must play a welcome song on loop and show a 320×240 demo video with play buttons.\n\n(a) Write the `<audio>` tag.\n(b) Write the `<video>` tag.\n(c) What goes wrong if `controls` is left out of both?",
+        "a": [
+          "(a) `<audio src=\"welcome.mp3\" controls loop>` — `loop` repeats the song.",
+          "(b) `<video src=\"demo.mp4\" width=\"320\" height=\"240\" controls></video>`.",
+          "(c) Without `controls` both players are **invisible and unusable** — the visitor gets no play, pause or volume buttons."
+        ],
+        "t": "C"
+      },
+      {
         "m": "5",
-        "q": "Discuss “Frames, Multimedia & Special Tags” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "CSS gives a web author full control of a page’s look. Explain any five CSS properties from the syllabus, with one example each.",
         "a": [
-          "Frames. A frame divides the browser window into separate regions, each showing a different HTML document. Frames are declared in a <frameset> document, which replaces <body> entirely. rows='30%,70%' splits the window horizontally into stacked bands; cols='25%,75%' splits it vertically into side-by-side columns. Each region is then filled by a <frame src='file.html'>. The name attribute on a frame lets a link in one f.",
-          "Marks lens: Explain what a frame does; write an audio or video tag; give the purpose of a special tag.",
-          "Method / memory trick: rows = horizontal bands, cols = vertical columns. Picture the lines you are drawing.",
-          "Do not: Writing a <body> in a frameset document — <frameset> replaces it."
-        ]
+          "**`color`** — colour of the text: `h1 { color: blue; }`.",
+          "**`background-color`** — colour behind the text: `body { background-color: #FFFFCC; }`.",
+          "**`font-size`** — size of the letters: `p { font-size: 16px; }`.",
+          "**`border-style`** — the edge of the box: `div { border-style: dashed; }`.",
+          "**`margin`** — empty space outside the border: `p { margin: 15px; }`.",
+          "Together with `font-family`, `font-style`, `outline`, `height`, `width`, `align` and `float`, these properties style a whole page from a few short rules."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
       {
-        "q": "In a frameset, which attribute splits the window vertically into columns? (a) rows (b) cols (c) split (d) frames",
-        "a": "**(b) cols.** `rows` splits horizontally."
+        "q": "To make paragraph text red you write — (a) `p { font-color: red; }` (b) `p { color: red; }` (c) `p { text: red; }` (d) `p { ink: red; }`",
+        "a": "**(b) `p { color: red; }`.** The property is `color`; `font-color` does not exist."
       },
       {
-        "q": "Which attribute makes audio controls visible? (a) play (b) controls (c) visible (d) show",
-        "a": "**(b) controls.**"
+        "q": "Which of these is a valid `border-style` value? (a) striped (b) dashed (c) glowing (d) thick",
+        "a": "**(b) dashed.** Valid values include `solid`, `dashed`, `dotted`, `double` and `none`."
       },
       {
-        "q": "A frameset document does not contain — (a) `<html>` (b) `<head>` (c) `<body>` (d) `<frame>`",
-        "a": "**(c) `<body>`** — `<frameset>` replaces it."
+        "q": "The space OUTSIDE an element’s border is controlled by — (a) padding (b) margin (c) outline (d) float",
+        "a": "**(b) margin.** Margin pushes neighbouring elements away from the box."
       },
       {
-        "q": "Which tag preserves spaces and line breaks? (a) `<p>` (b) `<pre>` (c) `<div>` (d) `<span>`",
-        "a": "**(b) `<pre>`.**"
+        "q": "To set a picture 200 px wide with text wrapping on its right, use — (a) `img { align: left; }` (b) `img { float: left; width: 200px; }` (c) `img { margin: left; }` (d) `img { size: 200px; }`",
+        "a": "**(b) `img { float: left; width: 200px; }`.** Float pulls the picture aside so text wraps around it."
       },
       {
-        "q": "`<iframe>` is used to — (a) split the whole window (b) embed another page inside the current one (c) create a table (d) play audio",
-        "a": "**(b) embed another page inside the current one.**"
+        "q": "Which rule makes all `<h2>` headings italic? (a) `h2 { font: italic; }` (b) `h2 { style: italic; }` (c) `h2 { font-style: italic; }` (d) `h2 { text: italic; }`",
+        "a": "**(c) `h2 { font-style: italic; }`.** Font has three properties: family, size and style."
       },
       {
         "q": "The attribute that makes the browser show play, pause and volume buttons is: (a) controls  (b) autoplay  (c) loop  (d) src",
         "a": "**(a) controls.** Without it the video or audio cannot be started by the visitor."
       },
       {
-        "q": "An inline frame inside a normal web page is created with: (a) <iframe>  (b) <frame>  (c) <frameset>  (d) <window>",
-        "a": "**(a) <iframe>.** It is used for maps, videos and embedded documents."
+        "q": "Which tag embeds a film in a page? (a) `<movie>` (b) `<media>` (c) `<video>` (d) `<film>`",
+        "a": "**(c) `<video>`.** Example: `<video src=\"lesson.mp4\" controls></video>`."
+      },
+      {
+        "q": "`outline` differs from `border` because it — (a) sits inside the text (b) is drawn outside the border (c) only works on images (d) needs no style value",
+        "a": "**(b) is drawn outside the border.** It is often used to highlight the active field."
       }
     ],
-    "trend": "One short frameset or multimedia question, plus definitional one-markers on marquee, meta and pre.",
+    "trend": "One short CSS question (name the property / write one rule) plus audio-video tags — the closing marks of Unit II.",
     "onepager": [
-      "- `<frameset rows|cols>` replaces `<body>`; each `<frame src>` fills a region.",
-      "- `<iframe src width height>` embeds inside a normal page.",
-      "- `<audio|video src controls autoplay loop muted>`.",
-      "- `<marquee direction behavior scrollamount>`.",
-      "- `<pre>` preserves spacing; `<meta>` describes the page."
+      "- CSS: selector + `property: value` rules; content stays in HTML, look stays in CSS.",
+      "- `color` = ink, `background-color` = paper.",
+      "- Font: family, size, style.",
+      "- `border-style` (solid/dashed/dotted), `outline` outside it, `margin` gaps, `height`/`width` size.",
+      "- `float: left/right` wraps text around pictures.",
+      "- `<audio>` / `<video>` need `src` + `controls`."
     ],
     "task": [
-      "Write two frameset examples — one with rows, one with cols — and one `<audio>` and one `<video>` tag with controls. That finishes Unit II; now re-read this chapter's one-pager before the exam."
+      "Style one page three ways without touching the HTML: navy centred headings, 16px Arial paragraphs, a dashed border and a left-floated picture — then add a song with `<audio controls loop>`."
     ],
     "formulas": [
-      "Frames split a window: `<frameset cols=\"25%,75%\"><frame src=\"menu.html\"> … </frameset>`",
-      "Frames need **no `<body>`** in the frameset document; `<noframes>` covers old browsers",
-      "Inline frame today: `<iframe src='page.html' width='600' height='400'></iframe>`",
-      "Multimedia: `<audio controls>`, `<video controls>`, or the older `<embed src=\"clip.mp4\">`",
-      "Marquee: `<marquee behavior=\"scroll\" direction=\"left\">text</marquee>` — non-standard, use with care"
+      "Rule shape: `selector { property: value; }` — e.g. `h1 { color: blue; }`",
+      "`color` = text ink, `background-color` = the box behind it",
+      "Font triple: `font-family`, `font-size`, `font-style` (normal / italic)",
+      "`border-style`: solid / dashed / dotted / double / none; `margin` gaps, `height`/`width` size",
+      "`float: left` wraps text around a picture; `<audio controls>` and `<video controls>` embed media"
     ],
     "steps": [
-      "1. Decide whether you are **splitting the window** (frameset) or **embedding a box** (iframe).",
-      "2. Give every frame a **`src`** and a **`name`**; links target a frame with `target=\"name\"`.",
-      "3. For audio or video, add **`controls`** and a fallback message between the tags.",
-      "4. Always provide an **alternative** — text for a frame, a download link for media that will not play."
+      "**1.** Write the HTML first — headings, paragraphs, one picture.",
+      "**2.** Add one rule per requirement: `color`, `font-family`/`font-size`, `border-style`, `float` + `width`.",
+      "**3.** Check every declaration ends with a semicolon and every value has its unit.",
+      "**4.** Add `<audio src controls>` and `<video src width height controls>`.",
+      "**5.** Open the page and confirm the play buttons appear."
     ]
   }
 ]

@@ -42,15 +42,16 @@ titles are in the tables below.
 | 6 | `ch06-Sangatkar` | संगतकार | मैथिलीशरण गुप्त |
 | 7 | `ch07-Netaji-ka-Chashma` | नेताजी का चश्मा | हज़ारी प्रसाद द्विवेदी |
 | 8 | `ch08-Balgobin-Bhagat` | बालगोबिन भगत | रामवृक्ष बेनीपुरी |
-| 9 | `ch09-Lakhnavi-Andaz` | लखनवी अंदाज़ | शारद जोशी |
+| 9 | `ch09-Lakhnavi-Andaz` | लखनवी अंदाज़ | यशपाल |
 | 10 | `ch10-Ek-Kahani-Yah-Bhi` | एक कहानी यह भी | मन्नू भंडारी |
 | 11 | `ch11-Naubatkhane-mein-Ibadat` | नौबतखाने में इबादत | यशपाल |
 | 12 | `ch12-Sanskriti` | संस्कृति | अय्यूब खान |
 
 Removed from क्षितिज in the rationalisation — present in older books, **not**
 assessed: *सवैया और कवित्त* (देव), *छाया मत छूना* (गिरिजा कुमार माथुर),
-*कन्यादान* (ऋतुराज), *मानवीय करुणा की दिव्य चमक* (जैनेन्द्र कुमार),
-*स्त्री शिक्षा के विरोधी कुतर्कों का खंडन* (शेखर जोशी).
+*कन्यादान* (ऋतुराज), *मानवीय करुणा की दिव्य चमक*
+(सर्वेश्वर दयाल सक्सेना), *स्त्री शिक्षा के विरोधी कुतर्कों का खंडन*
+(महावीरप्रसाद द्विवेदी).
 
 ## Course A — कृतिका भाग 2 (3 पाठ)
 
@@ -58,7 +59,10 @@ assessed: *सवैया और कवित्त* (देव), *छाया
 |---|---|---|
 | 1 | `ch01-Mata-ka-Aanchal` | माता का अंचल |
 | 2 | `ch02-Sana-Sana-Hath-Jodi` | साना-साना हाथ जोड़ि |
-| 3 | `ch03-Ehi-Thaiyan-Jhulani-Herani-Ho` | एही ठैयाँ झुलनी हेरानी हो |
+| 3 | `ch03-Main-Kyon-Likhta-Hoon` | मैं क्यों लिखता हूँ |
+
+Removed from कृतिका in the rationalisation — present in older books, **not**
+assessed: *एही ठैयाँ झुलनी हेरानी हो* and *जॉर्ज पंचम की नाक*.
 
 ## Course B — स्पर्श भाग 2 (14 पाठ)
 

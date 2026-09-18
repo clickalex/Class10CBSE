@@ -50,6 +50,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is a foreign key? Explain with a Student–Library example how it links two tables.",
+        "a": "A foreign key is a field in one table that refers to the primary key of another table. Example — the Issue table stores RollNo as a foreign key pointing to the Student table's RollNo primary key, so each issued book is tied to exactly one student without retyping the student's name and class.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "A school stores students in one sheet with teacher phone numbers typed against every student. Two problems, and the DBMS idea that fixes them.",
@@ -73,6 +79,16 @@
           "It keeps the data consistent and lets the designer set rules, so that wrong data cannot easily be entered.",
           "It allows many users to work at the same time without overwriting each other's work.",
           "It gives security through passwords and permissions, and fast searching, sorting and reporting through queries."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Define field, record and table with reference to a school database.",
+        "a": [
+          "Field — one attribute, such as Name or Class; a column of the table.",
+          "Record — all the fields for one item, such as one student's complete row.",
+          "Table — the full set of records of one kind, such as the Student table holding every student's row."
         ],
         "t": "S"
       },
@@ -230,6 +246,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is the difference between Datasheet View and Design View in Base?",
+        "a": "Design View defines structure — field names, data types, lengths and the primary key. Datasheet View holds content — the actual records typed row by row. You build the table in Design View first, then enter data in Datasheet View; changing structure later can endanger existing records.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "A student stores mobile numbers as Integer and 098… becomes 98. Why, and what type should be used?",
@@ -253,6 +275,16 @@
           "Roll number — Integer, so that records sort correctly and no space is wasted.",
           "Date of birth — Date, so that the database can sort dates properly and calculate ages.",
           "Fee amount — Decimal with two decimal places, so that money can be added up exactly."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What are the field properties ‘Required’, ‘Length’ and ‘Default’? Give one example of each.",
+        "a": [
+          "Required — the field cannot be left empty; for example, RollNo must always be filled.",
+          "Length — the maximum characters a text field holds; for example, Name limited to 40 characters.",
+          "Default — the value filled in automatically; for example, Class defaulting to ‘10’ for a Class 10 table."
         ],
         "t": "S"
       },
@@ -403,6 +435,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is a many-to-many relationship? Explain why it needs a junction table, with an example.",
+        "a": "Many-to-many means rows on both sides link to many rows on the other — for example, each student borrows many books and each book is borrowed by many students. Neither table can hold the other's key directly, so a junction table (Issue: IssueID, RollNo, BookID, Date) stores each pairing as its own record.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "A shop has Customer and Order tables. Where does CustomerID go, and what relationship is this?",
@@ -425,6 +463,16 @@
           "One-to-one: one record in the first table matches one in the second, for example one student and one library card.",
           "One-to-many: one record in the first table matches many in the second, for example one class has many students.",
           "Many-to-many: records on both sides match many on the other, for example students and subjects; this is usually split into two one-to-many relationships through a third table."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What is ‘cascade delete’? Describe one situation where it is useful and one where it is dangerous.",
+        "a": [
+          "Cascade delete automatically deletes child records when their parent is deleted.",
+          "Useful — removing a passed-out batch's students together with their old fee rows in one step.",
+          "Dangerous — deleting one supplier and silently wiping years of purchase history that accounts still needs. Prefer blocking the delete (referential integrity) unless you are certain the children are disposable."
         ],
         "t": "S"
       },
@@ -581,6 +629,15 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is the difference between AND and OR in a query grid? Illustrate with one row each.",
+        "a": [
+          "AND — two criteria on the same grid row must both be true; for example, Class = 10 AND Marks > 75 lists only high-scoring Class 10 students.",
+          "OR — criteria on separate rows need only one to be true; for example, Class = 10 on one row and Class = 9 on the next lists both classes."
+        ],
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "The librarian wants unpaid fees greater than 500, sorted by fees high to low. Which grid settings?",
@@ -604,6 +661,15 @@
           "Double-click each field you want to see, so that it appears in the grid below.",
           "Type the condition in the Criterion row of the field you want to filter, for example >90, and set Ascending or Descending in the Sort row.",
           "Run the query to check the result, then save it with a clear name; it can be re-run any time the data changes."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What is an alias in a query? Give one example where renaming a field improves a report.",
+        "a": [
+          "An alias is a display name given to a field in a query (Field AS Alias) without changing the stored data.",
+          "Example — a report column headed ‘M’ confuses readers; aliasing it as ‘Marks’ makes the printed report self-explanatory while the table field stays M."
         ],
         "t": "S"
       },
@@ -745,6 +811,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is grouping in a report? Give one example with a suitable total.",
+        "a": "Grouping collects report rows by a shared field and prints sub-headings and subtotals for each group. Example — a fee-dues report grouped by Section, with each section's list followed by that section's total dues, and a grand total at the end.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "The office wants a printed list of Class 10 students owing more than ₹500, grouped by section. Form or report? What sits underneath?",
@@ -768,6 +840,15 @@
           "Pick the fields to show, choose a grouping level if you want subtotals, set the sort order and the layout.",
           "Give the report a title, choose whether it is a columnar or a tabular report, and finish; the wizard opens it for preview.",
           "The report can then be edited in Design View, and printed or exported as a PDF for distribution."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Name two form controls suited to different field types, and explain the match in each case.",
+        "a": [
+          "Check box ↔ Yes/No field — a tick directly means true and an empty box means false, so no typing is needed.",
+          "List box ↔ a field with fixed options — showing Class as 9/10/11/12 prevents spellings like ‘ten’ or ‘X’ that would corrupt queries."
         ],
         "t": "S"
       },

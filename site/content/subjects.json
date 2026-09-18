@@ -265,7 +265,8 @@
       "- **The Age of Industrialisation** is still printed in the History book but is **not** assessed in the board paper.",
       "- **The Making of a Global World**: only subtopics 1 to 1.3 are examined.",
       "- **Manufacturing Industries**: much of the old industry-by-industry detail was trimmed.",
-      "- **Lifelines of National Economy**: map pointing only."
+      "- **Lifelines of National Economy**: map pointing only.",
+      "- **Consumer Rights is project work, not theory.** It carries no board-paper marks — prepare it as the Economics internal-assessment project."
     ],
     "units": [
       {
@@ -371,6 +372,7 @@
       "- **The Hundred Dresses I** and **The Hundred Dresses II** — both prose chapters removed.",
       "- The poem **Animals** — removed.",
       "- **The Hack Driver** — removed from Footprints Without Feet.",
+      "- **Note Making is not in the 184 paper.** Writing is only the formal letter and the analytical paragraph — older “writing skills” books still print it.",
       "- Older question banks still print all of these. Ignore them."
     ],
     "units": [
@@ -408,22 +410,23 @@
         "id": "skills",
         "slug": "grammar-writing",
         "title": "Reading, Grammar & Writing",
-        "marks": "≈ 30 marks",
+        "marks": "≈ 40 marks",
         "priority": true,
-        "desc": "Unseen passages, note-making, grammar in context, letter, article and analytical paragraph.",
+        "desc": "Unseen passages, grammar in context (determiners, tenses, modals, subject-verb concord, reported speech), formal letter and analytical paragraph.",
         "tips": [
-          "- These marks are earned by format. Practise the exact word limits."
+          "- These marks are earned by format. Practise the exact word limits.",
+          "- Grammar is tested only through five fixed topics: determiners, tenses, modals, subject-verb concord and reported speech."
         ]
       }
     ],
     "assessment": [
       [
-        "Section A — Reading skills: unseen passage plus note-making and summarising",
+        "Section A — Reading: two unseen passages (discursive + case-based factual)",
         "**20**",
-        "Format marks are awarded separately. Follow the note-making format exactly."
+        "Objective + short-answer questions test inference and vocabulary in context."
       ],
       [
-        "Section B — Writing and grammar: letter, article or analytical paragraph, grammar in context",
+        "Section B — Writing and grammar: formal letter, analytical paragraph, grammar in context",
         "**20**",
         "Stick to the word limit; exceed it and you run out of time."
       ],
@@ -444,7 +447,7 @@
       ]
     ],
     "study_order": [
-      "**Writing formats first** — letter, article, analytical paragraph. 20 marks that depend only on format.",
+      "**Writing formats first** — formal letter, analytical paragraph. 10 marks that depend only on format.",
       "**Poems** — ten short texts, quick to finish, reliably asked.",
       "**Footprints Without Feet** — nine short chapters.",
       "**First Flight prose** — the longest reading; do the two-part chapters early.",
@@ -479,8 +482,10 @@
       "- **Course B (085)**: स्पर्श भाग-2 (main), संचयन भाग-2 (supplementary)"
     ],
     "removed": [
-      "- From क्षितिज भाग-2: **सवैया और कवित्त** (देव), **छाया मत छूना** (गिरिजा कुमार माथुर), **कन्यादान** (ऋतुराज), **मानवीय करुणा की दिव्य चमक** (जैनेन्द्र कुमार) and **स्त्री शिक्षा के विरोधी कुतर्कों का खंडन** (शेखर जोशी).",
-      "- From स्पर्श भाग-2: **दोहे**, **मधुर-मधुर मेरे दीपक जल** and **गिरगिट**."
+      "- From क्षितिज भाग-2: **सवैया और कवित्त** (देव), **छाया मत छूना** (गिरिजा कुमार माथुर), **कन्यादान** (ऋतुराज), **मानवीय करुणा की दिव्य चमक** (सर्वेश्वर दयाल सक्सेना) and **स्त्री शिक्षा के विरोधी कुतर्कों का खंडन** (महावीरप्रसाद द्विवेदी).",
+      "- From कृतिका भाग-2: **जॉर्ज पंचम की नाक** and **एही ठैयाँ झुलनी हेरानी हो** — the syllabus excludes both पूरा पाठ, so only माता का आँचल, साना-साना हाथ जोड़ि and मैं क्यों लिखता हूँ are examined.",
+      "- From स्पर्श भाग-2: **दोहे**, **मधुर-मधुर मेरे दीपक जल** and **गिरगिट**.",
+      "- Class 10 grammar is fixed-topic: Course A tests **वाक्य-भेद, वाच्य, पद-परिचय, अलंकार**; Course B tests **पदबंध, वाक्य-रूपांतरण, समास, मुहावरे**. उपसर्ग-प्रत्यय-संधि, रस and वर्तनी drills belong to other classes."
     ],
     "units": [
       {
@@ -554,7 +559,7 @@
         "उत्तर अपने शब्दों में, पाठ की पंक्तियाँ न लिखें।"
       ],
       [
-        "रचनात्मक लेखन — letter, article, message, advertisement",
+        "रचनात्मक लेखन — अनुच्छेद, पत्र, स्ववृत्त/ईमेल, विज्ञापन/संदेश",
         "**20**",
         "प्रारूप के अंक अलग मिलते हैं।"
       ],
@@ -715,9 +720,9 @@
     "title": "Computer Applications",
     "code": "165",
     "kicker": "CBSE • CLASS 10 • COMPUTER APPLICATIONS",
-    "short": "14 chapters: networking, HTML and cyber ethics.",
+    "short": "13 chapters: networking, HTML and cyber ethics.",
     "marks": "50 + 50",
-    "blurb": "Two 2-hour theory papers worth **50 marks**, plus **50 marks of practical** — lab test, file work, viva and a website project. **HTML alone is 25 theory marks**, so Unit II is where the paper is won. Every chapter page carries the tag reference, the exact steps, the mistakes that break a page and exam Q&A.",
+    "blurb": "One 2-hour theory paper worth **50 marks**, plus **50 marks of practical** — lab test, file work, viva and a website project. **HTML alone is 25 theory marks**, so Unit II is where the paper is won. Every chapter page carries the tag reference, the exact steps, the mistakes that break a page and exam Q&A.",
     "areas_heading": "Three units",
     "syllabus_note": "Unit I Networking (15), Unit II HTML (25), Unit III Cyber Ethics (10). Practical is assessed separately at 50 marks.",
     "books": [
@@ -726,7 +731,10 @@
     ],
     "removed": [
       "- **Scratch II, Python Revision and Python Conditionals & Loops** appear in several publisher books but are **not** part of the current 165 theory units.",
-      "- Only **HTML** is assessed in Unit II — CSS is used to style the practical project, it is not asked as separate theory."
+      "- **CSS is theory, not just practical.** Colour, font, border, margin, float and the rest are listed in Unit II of the 2026–27 syllabus.",
+      "- **Frames, `<marquee>` and `<pre>` are not in Unit II.** Frames appear only as a lab exercise; audio-video tags are the examinable “special” tags.",
+      "- **The IT Act, e-waste and digital footprint are not in Unit III.** Unit III is netiquette, e-commerce (privacy, fraud, secure transmission), freedom of information, the digital divide, IPR and open source.",
+      "- **Viruses and malware are lab-blog topics**, not theory questions — Unit III tests behaviour and rights, not threat names."
     ],
     "units": [
       {
@@ -746,7 +754,7 @@
         "title": "Unit II · HTML",
         "marks": "25 marks",
         "priority": true,
-        "desc": "The biggest single unit in the paper. Tags, attributes, tables, forms, lists and frames — all written by hand in the exam.",
+        "desc": "The biggest single unit in the paper. Tags, attributes, tables, forms, lists and CSS — plus embedded audio and video — all written by hand in the exam.",
         "tips": [
           "- हर टैग का उदाहरण स्वयं लिखकर अभ्यास करें — परीक्षा में कोड लिखना होता है, चलाना नहीं।"
         ]
@@ -757,7 +765,7 @@
         "title": "Unit III · Cyber Ethics",
         "marks": "10 marks",
         "priority": true,
-        "desc": "Cyber safety, cybercrime, IPR, the IT Act and e-waste. Short, scoring and almost entirely definition-driven.",
+        "desc": "Netiquette, e-commerce safety, freedom of information, the digital divide, IPR and open source. Short, scoring and almost entirely definition-driven.",
         "tips": [
           "- केवल 10 अंक — इसे अंत में छोड़ें नहीं, सबसे पहले खत्म करें।"
         ]

@@ -576,6 +576,17 @@
         "t": "S"
       },
       {
+        "m": "3",
+        "q": "Solve by substitution: x + 3y = 16 and 2x − y = 4.",
+        "a": [
+          "From the second equation, y = 2x − 4.",
+          "Substituting in the first: x + 3(2x − 4) = 16, so x + 6x − 12 = 16.",
+          "Hence 7x = 28, giving x = 4 and y = 2(4) − 4 = 4.",
+          "Check: 4 + 12 = 16 and 8 − 4 = 4. The solution is x = 4, y = 4."
+        ],
+        "t": "S"
+      },
+      {
         "m": "4",
         "q": "Five years ago, Nuri was thrice as old as Sonu. Ten years later, Nuri will be twice as old as Sonu. How old are they?",
         "a": [

@@ -79,6 +79,16 @@
         "t": "S"
       },
       {
+        "m": "3",
+        "q": "What is the ‘eliminate two options’ rule, and why does it work in the reading section?",
+        "a": [
+          "In every reading MCQ, two options can usually be ruled out at once — one contradicts the passage and one is not mentioned in it at all.",
+          "That leaves a fifty-fifty choice between two close options, which you settle by re-reading the exact lines the question points to.",
+          "It works because boards design one distractor as opposite and one as out-of-scope; eliminating both is faster and safer than hunting directly for the answer."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Reading: Unseen and Case-based Passages”. Their note says: What is tested. The questions test inference (what is implied but not stated), analysis (how an argument is built), interpretation (what a word or phrase means in context), evaluation (whether a claim is supported), and vocabulary. Because the questions are multiple choice, the answer is always in t\n\nThe chapter is described as: Discursive and factual passages, MCQ-based, with a speed strategy..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -106,6 +116,16 @@
           "For the MCQ, choose the option that is supported by the passage and cannot be contradicted by any line in it; do not bring in outside knowledge.",
           "For short items, write one clear sentence with the fact taken from the passage and the number or unit it gives.",
           "Keep every answer brief and grammatical, and do not repeat the question in the answer."
+        ],
+        "t": "A"
+      },
+      {
+        "m": "4",
+        "q": "You have ninety seconds per question and a 450-word passage. Plan your time across reading, locating and answering.",
+        "a": [
+          "First minute — read the questions, not the passage, so you know what to hunt for.",
+          "Next three to four minutes — one fast read of the passage, underlining names, figures and opinion words.",
+          "Then about a minute per question — locate the exact line, eliminate two options, mark the answer, and move on without re-reading the whole passage."
         ],
         "t": "A"
       },
@@ -149,6 +169,10 @@
       {
         "q": "Answers to an unseen passage should be: (a) in your own words and within the word limit  (b) as long as possible  (c) copied from the passage  (d) written as bullet points only",
         "a": "**(a) in your own words and within the word limit.** Copying whole sentences loses marks."
+      },
+      {
+        "q": "In a case-based factual passage, the visual input is usually: (a) a chart, table or graph (b) a photograph (c) a map only (d) a cartoon",
+        "a": "**(a) a chart, table or graph.** The questions test whether you can read data, not just prose."
       }
     ],
     "trend": "The pattern is stable: one discursive passage and one case-based passage with visual input, all objective. The skill is speed and elimination, not knowledge.",
@@ -169,176 +193,8 @@
     ]
   },
   {
-    "id": "ch30-note-making-and-summarising",
+    "id": "ch30-grammar-in-context",
     "num": 30,
-    "title": "Note Making and Summarising",
-    "unit": "skills",
-    "unit_name": "Reading, Grammar & Writing",
-    "weight": "≈ 5 marks",
-    "short": "The exact format that earns the format marks.",
-    "lede": "Format marks are awarded separately, so a correct answer in the wrong format still loses marks.",
-    "lens": [
-      "**About 5 marks**, usually as a note-making task based on a passage, followed by a short summary.",
-      "Marks are split between **content, format and the summary** — learn the format exactly."
-    ],
-    "concepts": [
-      "**1. The format.** Write a **title** in the centre at the top. Use a **numbering system**: main headings 1, 1.1, 1.1.1, 1.2 and so on, indented to show the level. Main headings carry the key idea; sub-headings carry the details. Every heading is a **phrase, not a sentence**. End with a **conclusion** line if the passage has one. **Do not write in sentences, do not add your own ideas, and do not exceed the recommended number of headings.**",
-      "**2. Rules.** Use only what is in the passage. Keep headings short — usually four to six words. Use standard **abbreviations**, and give a **key to abbreviations** at the end. Do not copy whole sentences. Indentation must be consistent, because the examiner reads the structure, not the prose.",
-      "**3. The summary.** The summary is usually limited to about **80 words** and must be written in **your own words**, in complete sentences, covering the main idea and the two or three supporting points. Do not add anything new, do not give your opinion, and do not exceed the word limit — the limit is checked."
-    ],
-    "tricks": [
-      "- **Headings are phrases, not sentences.** That is the single most common loss of format marks.",
-      "- **1, 1.1, 1.1.1** — the decimal numbering shows the examiner your structure at a glance.",
-      "- **Always write the key to abbreviations** — it is a separate mark."
-    ],
-    "mistakes": [
-      "- Writing notes in full sentences.",
-      "- Exceeding the number of headings asked for.",
-      "- Forgetting the key to abbreviations.",
-      "- Exceeding the 80-word limit in the summary, or copying sentences from the passage."
-    ],
-    "qa": [
-      {
-        "m": "3",
-        "q": "Describe the format required for note making.",
-        "a": "Write a title in the centre at the top. Use decimal numbering for the headings — 1, 1.1, 1.1.1, 1.2 — with consistent indentation to show the levels. Each heading must be a short phrase, not a sentence, and must contain only what is in the passage. Standard abbreviations may be used, and a key to abbreviations must be given at the end.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "What are the rules for writing the summary that follows the notes?",
-        "a": "The summary must be written in your own words, in complete sentences, and within the word limit, usually about 80 words. It must cover the main idea of the passage and its two or three main supporting points, and it must not include anything new or any personal opinion. Exceeding the word limit or copying sentences from the passage results in a deduction.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Why is the key to abbreviations important?",
-        "a": "Because it is assessed as part of the format, and because abbreviations are meaningless without it. The examiner needs to be able to see that the abbreviations used in the headings are standard and have been explained. Omitting the key costs a mark even if the notes themselves are correct.",
-        "t": "S"
-      },
-      {
-        "t": "A",
-        "m": "3",
-        "q": "Riya is revising “Note Making and Summarising” (The exact format that earns the format marks.). A classmate lost marks by doing this: Writing notes in full sentences. Apply the correct method and rewrite the scoring answer.",
-        "a": [
-          "Correct method: Headings are phrases, not sentences. That is the single most common loss of format marks.",
-          "Why the mistake costs marks: Writing notes in full sentences.",
-          "Write the definition or formula first, then the working or example."
-        ]
-      },
-      {
-        "t": "A",
-        "m": "3",
-        "q": "Amit is given this exam-style task from “Note Making and Summarising”: “Describe the format required for note making.” Treat it as an application question. Identify the idea, then write the working in points.",
-        "a": [
-          "Idea: The exact format that earns the format marks..",
-          "Write a title in the centre at the top. Use decimal numbering for the headings — 1, 1.1, 1.1.1, 1.2 — with consistent indentation to show the levels. Each heading must be a short phrase, not a sentence, and must contain only what is in the passage. Standard abbreviations may be used, and a key to abbreviations must be given at the end."
-        ]
-      },
-      {
-        "m": "3",
-        "q": "What is the accepted format for note-making?",
-        "a": [
-          "Write the title at the top, then group the ideas into main points and sub-points.",
-          "Number them as 1, 2, 3 with sub-points as 1.1, 1.2 and so on, and indent each sub-point.",
-          "Use abbreviations wherever possible and write a key to the abbreviations at the end, leaving out articles and linkers.",
-          "Do not write full sentences: use phrases, and keep the points logically grouped under the title."
-        ],
-        "t": "S"
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Note Making and Summarising”. Their note says: The format. Write a title in the centre at the top. Use a numbering system: main headings 1, 1.1, 1.1.1, 1.2 and so on, indented to show the level. Main headings carry the key idea; sub-headings carry the details. Every heading is a phrase, not a sentence. End with a conclusion line if the passage h\n\nThe chapter is described as: The exact format that earns the format marks..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
-        "a": [
-          "(a) The exact format that earns the format marks.",
-          "(b) About 5 marks, usually as a note-making task based on a passage, followed by a short summary.",
-          "(c) Writing notes in full sentences."
-        ]
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Describe the format required for note making.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
-        "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Write a title in the centre at the top. Use decimal numbering for the headings — 1, 1.1, 1.1.1, 1.2 — with consistent indentation to show the levels. Each heading must be a short phrase, not a sentence, and must contain only what is in the passage. Standard abbreviations may be used, and a key to abbreviations must be given at the end.",
-          "(c) Headings are phrases, not sentences. That is the single most common loss of format marks."
-        ]
-      },
-      {
-        "m": "4",
-        "q": "How do you write a summary from notes?",
-        "a": [
-          "A summary keeps only the essential points of the passage and drops all examples, figures of speech and repetition.",
-          "It should be about one third of the length of the original and must be written in connected prose in one paragraph.",
-          "Use your own words as far as possible and keep the order of the original, so that the reader can follow the argument.",
-          "Give the summary a title, do not add your own comments, and write it in the past or present tense as the passage requires."
-        ],
-        "t": "A"
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “Note Making and Summarising” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The format. Write a title in the centre at the top. Use a numbering system: main headings 1, 1.1, 1.1.1, 1.2 and so on, indented to show the level. Main headings carry the key idea; sub-headings carry the details. Every heading is a phrase, not a sentence. End with a conclusion line if the passage has one. Do not write in sentences, do not add your own ideas, and do not exceed the recommended number of headings.",
-          "Marks lens: About 5 marks, usually as a note-making task based on a passage, followed by a short summary.",
-          "Method / memory trick: Headings are phrases, not sentences. That is the single most common loss of format marks.",
-          "Do not: Writing notes in full sentences."
-        ]
-      }
-    ],
-    "mcq": [
-      {
-        "q": "Headings in note making should be: (a) full sentences (b) short phrases (c) questions (d) quotations",
-        "a": "**(b) short phrases** — usually four to six words, containing only what is in the passage."
-      },
-      {
-        "q": "The summary that follows the notes is usually limited to about: (a) 40 words (b) 60 words (c) 80 words (d) 120 words",
-        "a": "**(c) about 80 words**, written in your own words in complete sentences."
-      },
-      {
-        "q": "Which numbering system is used in note making? (a) a, b, c (b) 1, 1.1, 1.1.1 (c) i, ii, iii only (d) bullet points only",
-        "a": "**(b) 1, 1.1, 1.1.1** — decimal numbering with consistent indentation."
-      },
-      {
-        "q": "The most exam-ready way to revise “Note Making and Summarising” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is The exact format that earns the format marks.."
-      },
-      {
-        "q": "A 3-mark answer on “Note Making and Summarising” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
-      },
-      {
-        "q": "In note-making, the format marks are awarded for: (a) the title, numbering and use of abbreviations  (b) neat handwriting  (c) the length of the notes  (d) coloured pens",
-        "a": "**(a) the title, numbering and use of abbreviations.** These show that you know the format."
-      },
-      {
-        "q": "A good summary should be: (a) about one third of the original, in your own words  (b) as long as the passage  (c) a copy of the first and last sentences  (d) full of examples",
-        "a": "**(a) about one third of the original, in your own words.** Examples and details are left out."
-      }
-    ],
-    "trend": "The task is stable: a passage, a set of notes and an 80-word summary. The marks lost are almost always format marks, not content marks.",
-    "onepager": [
-      "- Title centred at the top; decimal numbering 1, 1.1, 1.1.1 with consistent indentation.",
-      "- Headings are short phrases, not sentences; nothing from outside the passage.",
-      "- Key to abbreviations at the end — a separate mark.",
-      "- Summary: about 80 words, your own words, complete sentences, no opinion."
-    ],
-    "task": [
-      "Take any newspaper article of about 400 words and make notes on it in eight minutes, then write the 80-word summary. Check your headings: if any of them is a full sentence, rewrite it as a phrase. Do this five times and the format becomes automatic."
-    ],
-    "steps": [
-      "1. Read the passage twice and mark the **main idea** and the supporting points; note-making is not copying sentences.",
-      "2. Build **headings and sub-headings** with roman, capital and small numbers in the standard indented format.",
-      "3. Use **abbreviations** for long or repeated words, and give a **key** for anything a reader could not guess.",
-      "4. Write the **summary** from the notes, never from the passage: one connected paragraph, in your own words, inside the word limit, with the **title** on top."
-    ]
-  },
-  {
-    "id": "ch31-grammar-in-context",
-    "num": 31,
     "title": "Grammar in Context",
     "unit": "skills",
     "unit_name": "Reading, Grammar & Writing",
@@ -391,6 +247,15 @@
         "q": "Change into reported speech: 'Where have you kept my files?' she asked the clerk.",
         "a": "She asked the clerk where he had kept her files. Note the three changes: the present perfect becomes the past perfect, the question word order becomes statement order, and 'my' becomes 'her'.",
         "t": "S"
+      },
+      {
+        "m": "2",
+        "q": "Fill in the blanks with a reason for each: (i) Slow and steady ___ (win/wins) the race. (ii) No news ___ (is/are) good news.",
+        "a": [
+          "(i) wins — ‘slow and steady’ is a single combined idea (one subject), so the verb is singular.",
+          "(ii) is — ‘news’ looks plural but is an uncountable singular noun, so it takes a singular verb."
+        ],
+        "t": "A"
       },
       {
         "t": "A",
@@ -493,6 +358,10 @@
       {
         "q": "The correct reported form of ‘He said, “I am busy”' is: (a) He said that he was busy  (b) He said that he is busy  (c) He said that I was busy  (d) He says he was busy",
         "a": "**(a) He said that he was busy.** The pronoun changes to he and the tense moves one step back."
+      },
+      {
+        "q": "Fill in the blank: He asked me ____ I could help him. (a) if (b) that (c) what (d) to",
+        "a": "**(a) if.** A reported yes/no question joins the main clause with if (or whether), never that."
       }
     ],
     "trend": "The topics are fixed — tenses, modals, subject-verb agreement, reported speech and determiners — and are tested inside a passage or dialogue, so the skill is recognising the pattern in context.",
@@ -514,8 +383,8 @@
     ]
   },
   {
-    "id": "ch32-formal-letter-writing",
-    "num": 32,
+    "id": "ch31-formal-letter-writing",
+    "num": 31,
     "title": "Formal Letter Writing",
     "unit": "skills",
     "unit_name": "Reading, Grammar & Writing",
@@ -587,6 +456,16 @@
         "t": "S"
       },
       {
+        "m": "3",
+        "q": "What are the three paragraphs of the body of a formal letter expected to do? Illustrate with a complaint about damaged goods.",
+        "a": [
+          "Paragraph 1 states the purpose — the order number, date and the fact that the goods arrived damaged.",
+          "Paragraph 2 gives the details — which items are broken, how the packing failed, and what the invoice says.",
+          "Paragraph 3 states what you want done — replacement, refund or repair — with a clear, polite deadline."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Formal Letter Writing”. Their note says: The format. (1) Sender's address at the top left, in two or three lines, without the name. (2) Date, written in full — 15 March 2027, not 15/3/27. (3) Receiver's designation and address — The Editor / The Manager, the name of the newspaper or firm, and the city. (4) Subject, in one line, short and s\n\nThe chapter is described as: Letters to the editor and letters of order, enquiry, complaint..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -614,6 +493,15 @@
           "Body: say that loudspeakers are played at high volume from early morning till late at night, disturbing students, the elderly and night-shift workers.",
           "Point out that this flouts the Noise Pollution Rules and the Supreme Court's directions, and that repeated complaints to the local police have had no effect.",
           "Suggest strict enforcement of the 10 pm limit, seizure of equipment on repetition, and a helpline for complaints; end with ‘Yours truly' and your name and address."
+        ],
+        "t": "A"
+      },
+      {
+        "m": "4",
+        "q": "A student writes the sender's name at the top of a formal letter and signs off ‘Yours lovingly’. Correct both errors and explain why each loses marks.",
+        "a": [
+          "First error — the sender's name at the top: only the address goes at the top (no name); the name comes at the bottom, under the signature. It breaks the format the examiner checks first.",
+          "Second error — ‘Yours lovingly’: a formal letter opening with Sir/Madam must close with ‘Yours faithfully’ (or ‘Yours sincerely’ for a named officer). An informal close contradicts the letter's tone and loses the format mark."
         ],
         "t": "A"
       },
@@ -673,6 +561,10 @@
       {
         "q": "In a letter of complaint or order, the subject line should be: (a) short and specific  (b) long and detailed  (c) left out  (d) written as a question",
         "a": "**(a) short and specific.** It tells the reader at once what the letter is about."
+      },
+      {
+        "q": "A letter of enquiry should always ask for: (a) specific details such as price, terms and delivery (b) personal favours (c) a job (d) an autograph",
+        "a": "**(a) specific details such as price, terms and delivery.** Vague enquiries get vague replies — and fewer marks."
       }
     ],
     "trend": "One formal letter is set every year, alternating between a letter to the editor on a civic issue and a letter of order, enquiry or complaint. The marks lost are format marks and word-limit marks.",
@@ -693,8 +585,8 @@
     ]
   },
   {
-    "id": "ch33-analytical-paragraph",
-    "num": 33,
+    "id": "ch32-analytical-paragraph",
+    "num": 32,
     "title": "Analytical Paragraph",
     "unit": "skills",
     "unit_name": "Reading, Grammar & Writing",
@@ -766,6 +658,17 @@
         "t": "S"
       },
       {
+        "m": "3",
+        "q": "Which phrases of comparison and trend should an analytical paragraph use? Give four examples with the situation for each.",
+        "a": [
+          "‘Rose steadily’ — for a gradual increase over time, as in literacy rates climbing year by year.",
+          "‘Fell sharply’ — for a sudden drop, as in accidents after speed cameras were installed.",
+          "‘Peaked in’ — for the highest point, as in sales peaking in December.",
+          "‘Twice as much as’ — for direct comparison, as in bus users being twice as many as car users."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Analytical Paragraph”. Their note says: The structure. First sentence: introduce the data — what the chart shows, what period it covers and what units are used. Middle sentences: describe the main features, comparing and contrasting the significant figures. Last sentence: give a conclusion or a trend inferred from the data. Do not list ev\n\nThe chapter is described as: A data-based paragraph from a chart, graph, table or set of clues..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
@@ -793,6 +696,16 @@
           "Sports is the most popular choice, preferred by 80 students, or 40 per cent of those surveyed, while music is second with 50 students, or 25 per cent.",
           "Art is chosen by 40 students (20 per cent) and debate by only 30 (15 per cent), which together account for just over a third of the students.",
           "The pattern suggests that physical activity attracts the largest number of students, while activities that require performance in front of an audience, such as debate, attract the fewest; the school could encourage the less popular activities by giving them more time, trained coaches and recognition."
+        ],
+        "t": "A"
+      },
+      {
+        "m": "4",
+        "q": "A student writes: ‘I think the chart is wrong and the school should buy more buses.’ Identify what is wrong with this sentence for an analytical paragraph.",
+        "a": [
+          "First, ‘I think the chart is wrong’ disputes the given data — the data must be accepted and analysed, never challenged.",
+          "Second, ‘the school should buy more buses’ is a personal opinion and a suggestion — analytical paragraphs report trends and inferences, not opinions.",
+          "The correct close would state what the data shows, for example that bus use dominates and is still rising."
         ],
         "t": "A"
       },
@@ -846,6 +759,10 @@
       {
         "q": "The usual length of an analytical paragraph in the board paper is: (a) 100 to 120 words  (b) 300 words  (c) 20 words  (d) 500 words",
         "a": "**(a) 100 to 120 words.** It should cover the trend, the data and one conclusion."
+      },
+      {
+        "q": "Figures in an analytical paragraph should be: (a) compared with each other to show a trend (b) listed one by one without comment (c) invented to fill space (d) rounded off to zero",
+        "a": "**(a) compared with each other to show a trend.** Data without comparison is a list, not an analysis."
       }
     ],
     "trend": "The task is stable: a chart, graph, table or set of clues, and a 100–120 word paragraph. Marks go to selection, comparison and a concluding inference.",

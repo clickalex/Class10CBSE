@@ -1,193 +1,184 @@
 [
   {
-    "id": "ch12-cyber-safety",
+    "id": "ch12-netiquette-ecommerce-digital-divide",
     "num": 12,
-    "title": "Cyber Safety & Security",
+    "title": "Netiquette, E-Commerce & Digital Divide",
     "unit": "cyber-ethics",
     "unit_name": "Unit III · Cyber Ethics",
     "weight": "10 marks unit",
-    "short": "Cyber ethics, cyber security, threats and how to stay safe online.",
-    "lede": "Ten marks of definitions. Learn them precisely and this unit is finished in a week.",
+    "short": "Good behaviour online, safe buying and banking, and who gets left offline.",
+    "lede": "Unit III is about responsible behaviour: how to act, how to transact, and who the internet still leaves out.",
     "lens": [
-      "Define terms, list threats, give safety measures.",
-      "**Shortest unit, highest marks per hour studied.**"
+      "List netiquette rules; explain e-commerce privacy, fraud and secure transmission; define the digital divide and freedom of information.",
+      "**Unit III is only 10 marks of short answers** — learn each idea as a crisp definition plus two examples."
     ],
     "concepts": [
-      "**1. The core definitions.** **Cyber ethics** are the moral rules that guide behaviour on the internet — what is right to do online. **Cyber safety** is the practice of protecting yourself and your devices from online harm. **Cyber security** is the wider technical protection of systems, networks and data from attack. Ethics is about behaviour, safety is about personal protection, security is about defending systems.",
-      "**2. Common threats.** **Malware** is any malicious software. A **virus** attaches itself to a file and spreads when that file is shared. A **worm** spreads on its own across a network without needing a host file. A **trojan horse** pretends to be a useful program but carries a hidden payload. **Spyware** quietly collects information about you. **Ransomware** encrypts your files and demands payment for the key. A **logic bomb** waits for a trigger — a date or an event — before firing. **Adware** pushes unwanted advertising.",
-      "**3. Attacks on people.** **Phishing** is a fake email or website that tricks you into handing over passwords or card details. **Smishing** does the same by SMS, and **vishing** by voice call. **Cyberstalking** is repeated online harassment. **Identity theft** is using someone's personal data to impersonate them. **Cyberbullying** is the use of digital tools to intimidate or humiliate, mostly affecting students.",
-      "**4. Staying safe.** Use a **strong, unique password** for every account and a password manager. Turn on **two-factor authentication**. Keep the operating system, browser and **antivirus** updated. Never open attachments or links from unknown senders. Use **HTTPS** sites for any payment. Do not share personal details, photographs or your location publicly. Back up important files regularly, and report abuse rather than replying to it."
+      "**1. Netiquette.** **Netiquette** (network + etiquette) is the code of good manners for the internet: write polite messages, respect other people’s time and privacy, do not type in ALL CAPS (it reads as shouting), do not forward rumours or spam, and give credit instead of copying. Schools test it as a short list of do’s and don’ts.",
+      "**2. E-commerce.** **E-commerce** means buying, selling, banking and paying over the internet — e-shopping, e-banking, e-reservation, online bill payment. It is fast and available round the clock, but every transaction moves money and personal data, so privacy and fraud are the two big risks.",
+      "**3. Privacy and fraud.** **Privacy** means your personal data (name, address, card number, OTP) must stay with the parties you trust — never share passwords or OTPs, and check what an app collects before installing it. **Fraud** is cheating online: fake shops that take payment and never deliver, phishing messages that steal passwords, and lottery/prize scams. The defence is simple — shop on known sites, look for `https://`, and never pay in advance to strangers.",
+      "**4. Secure data transmission.** Data is protected in transit by **encryption** (scrambling it so only the receiver can read it), by **`https://`** (HTTP over a secure channel — the padlock in the browser), by **OTPs** (one-time passwords that prove it is really you), and by **firewalls and updated software** on both ends. `http://` without the *s* sends everything as readable text.",
+      "**5. Freedom of information.** **Freedom of information** is the principle that citizens have the right to access information — governments publish records, results and services online (e-governance) so that people can see, question and use them. It sits opposite censorship: an open internet lets ideas and facts flow freely.",
+      "**6. Digital divide.** The **digital divide** is the gap between people who have access to computers, smartphones and the internet — and those who do not, because of poverty, remote villages, age, language or disability. Consequences: missed schooling (online classes), missed services (banking, certificates) and missed opportunities. It is bridged by cheap devices, mobile networks in villages, public Wi-Fi and services in regional languages."
     ],
     "tricks": [
-      "- **Virus needs a host file, worm travels alone.**",
-      "- **Trojan looks useful, spyware watches you, ransomware locks you out.**",
-      "- **Phishing = email, smishing = SMS, vishing = voice call.**",
-      "- **Ethics = behaviour, safety = you, security = systems.**"
+      "- **Netiquette = manners with a modem.** Polite words, no CAPS, no spam, give credit.",
+      "- **Shop SAFE: Secure site, Avoid advance payment, Fraud-check the seller, Exit if it smells wrong.**",
+      "- **`https` = HTTP + Security.** No *s*, no shopping.",
+      "- **Divide = the offline gap.** Access + skills + language decide who is in."
     ],
     "mistakes": [
-      "- Confusing **virus and worm** — a worm does not need a host file.",
-      "- Confusing **cyber safety with cyber security** — one protects the person, the other the system.",
-      "- Listing safety measures without naming **strong passwords** and **two-factor authentication**.",
-      "- Treating **trojan** as a self-spreading threat — it must be installed by the user, tricked into it."
+      "- Calling any online cheating “hacking” — shopping fraud, phishing and fake shops each have their own name.",
+      "- Saying `http` is safe — only **`https`** encrypts the data in transit.",
+      "- Defining the digital divide as only “no internet” — devices, skills, language and cost count too.",
+      "- Sharing an OTP “even with the bank” — no genuine caller ever asks for it."
     ],
     "qa": [
       {
-        "m": "1",
-        "q": "What is ransomware?",
-        "a": "**Ransomware** is a type of malware that **encrypts the victim's files** so they cannot be opened, and then demands payment — usually in cryptocurrency — in exchange for the decryption key. Regular offline backups are the main defence, because they let the victim restore the data without paying.",
+        "m": "2",
+        "q": "What is netiquette? List any four netiquette rules.",
+        "a": "**Netiquette** (network + etiquette) is the code of polite, responsible behaviour on the internet. Four rules: (1) write courteous messages and respect others’ privacy; (2) do not type in ALL CAPS — it reads as shouting; (3) do not forward rumours, chain messages or spam; (4) give credit for others’ work instead of copying it.",
         "t": "S"
       },
       {
         "m": "2",
-        "q": "What is the difference between cyber safety and cyber security?",
-        "a": "**Cyber safety** is about protecting an individual user online — using strong passwords, avoiding suspicious links, not oversharing personal information. **Cyber security** is the broader technical discipline of protecting computers, networks, systems and data from unauthorised access and attack, using firewalls, encryption, access control and monitoring. Safety is personal practice; security is systematic defence.",
+        "q": "What is e-commerce? Give two examples from the syllabus.",
+        "a": "**E-commerce** means carrying out trade — buying, selling, paying and banking — over the internet. Two syllabus examples: **e-shopping** (ordering goods on a website) and **e-banking** (transferring money or paying bills through a bank’s site or app). e-reservation and online bill payment are two more.",
         "t": "S"
       },
       {
         "m": "2",
-        "q": "What is phishing? How can it be avoided?",
-        "a": "**Phishing** is an attack in which a fake email or website imitates a trusted organisation — a bank, a school or a popular service — and tricks the user into entering passwords, card numbers or other sensitive data. It can be avoided by checking the sender's actual address rather than the display name, never clicking links in unsolicited messages, typing the website address yourself instead, looking for **HTTPS** before entering credentials, and enabling **two-factor authentication** so a stolen password alone is not enough.",
+        "q": "Why is privacy the biggest concern in e-commerce? State two precautions a buyer should take.",
+        "a": "Every e-commerce transaction moves **money plus personal data** (name, address, card number, OTP), which thieves can misuse. Two precautions: (1) shop only on known, reputed sites showing **`https://`** and the padlock; (2) **never share passwords or OTPs** with anyone, and check what data an app collects before installing it.",
         "t": "S"
       },
       {
         "m": "2",
-        "q": "What is phishing and how do you recognise it?",
-        "a": "Phishing is a message, email or website made to look as though it comes from a bank, a delivery company or a government office, asking you to click a link and enter your password, card number or OTP. You can recognise it by a sender's address that does not match the real company, urgent or threatening language, a link whose real address differs from the text, and the request itself, because no bank ever asks for a password or an OTP.",
+        "q": "What is the digital divide?",
+        "a": "The **digital divide** is the gap between people who have access to computers, smartphones and the internet — and those who do not. It is caused by poverty, remote villages with no network, lack of digital skills, age, disability and language barriers, and it locks the excluded out of online schooling, banking and services.",
         "t": "S"
       },
       {
         "m": "3",
-        "q": "Differentiate between a virus, a worm and a trojan horse.",
-        "a": "A **virus** is malicious code that attaches itself to a legitimate file and spreads only when that infected file is opened or shared, so it needs a human action to move. A **worm** is a standalone program that copies itself across a network automatically, needing no host file and no user action, which is why worms spread so fast. A **trojan horse** does not spread at all — it disguises itself as a useful or attractive program so the user installs it willingly, and only then does its hidden payload run.",
+        "q": "Explain online fraud in e-commerce with two examples. How can a buyer avoid each?",
+        "a": "**Online fraud** is cheating a buyer or seller over the internet. Example 1: **fake shops** that take payment and never deliver — avoid by buying only from known sites and checking reviews. Example 2: **phishing** messages that pose as a bank and steal passwords — avoid by never clicking such links and never sharing OTPs.",
         "t": "S"
       },
       {
         "m": "3",
-        "q": "List five safety measures for using the internet safely.",
+        "q": "How is data kept secure during transmission? Explain any three methods.",
+        "a": "Three methods: (1) **Encryption** — scrambling the data so only the intended receiver can read it. (2) **`https://`** — HTTP over a secure channel (the browser padlock); plain `http` sends everything as readable text. (3) **OTPs** — one-time passwords sent to the buyer’s phone that prove the transaction is really theirs.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What is freedom of information? How does e-governance support it?",
+        "a": "**Freedom of information** is the principle that citizens have the right to access information held by public authorities. **E-governance** supports it by putting records, results, forms and services online — certificates, exam results, land records — so people can see, question and use them without middlemen or secrecy.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "State three consequences of the digital divide and three ways to bridge it.",
+        "a": "Consequences: students miss **online classes**, citizens miss **digital banking and certificates**, and job-seekers miss **online opportunities**. Bridging it: (1) cheap smartphones and low-cost data; (2) mobile networks and public Wi-Fi in villages; (3) services and training in **regional languages** so language is no barrier.",
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "A friend forwards every “forward to 10 people” message, types angry replies in CAPS, and posts a classmate’s photo without asking. Which three netiquette rules is being broken, and what should be done instead?",
         "a": [
-          "- Use a **strong, unique password** for each account and never reuse one; a password manager helps.",
-          "- Enable **two-factor authentication** so a stolen password is not enough on its own.",
-          "- Keep the operating system, browser and **antivirus software** updated, since updates close known security holes.",
-          "- Never open attachments or follow links from unknown senders, and verify the address of any site asking for payment.",
-          "- **Back up** important files regularly, and avoid sharing personal details, photographs or location publicly."
+          "Chain forwards break the **no spam/rumours** rule — verify before forwarding, or delete.",
+          "ALL-CAPS replies break the **no shouting** rule — use normal case and polite words.",
+          "Posting the photo breaks **respect for privacy** — always take permission before sharing someone’s picture or number."
         ],
-        "t": "S"
+        "t": "A"
       },
       {
-        "t": "A",
-        "m": "3",
-        "q": "Riya is revising “Cyber Safety & Security” (Cyber ethics, cyber security, threats and how to stay safe online.). A classmate lost marks by doing this: Confusing virus and worm — a worm does not need a host file. Apply the correct method and rewrite the scoring answer.",
+        "m": "4",
+        "q": "Read and answer:\n\nMeera finds a phone 40% cheaper on an unknown site. The site uses `http://`, asks for full payment by bank transfer, and a “seller” on chat asks for her OTP to “confirm the order”.\n\n(a) Name three fraud/danger signals.\n(b) What should Meera do?",
         "a": [
-          "Correct method: Virus needs a host file, worm travels alone.",
-          "Why the mistake costs marks: Confusing virus and worm — a worm does not need a host file.",
-          "Write the definition or formula first, then the working or example."
-        ]
-      },
-      {
-        "t": "A",
-        "m": "3",
-        "q": "Amit is given this exam-style task from “Cyber Safety & Security”: “What is the difference between cyber safety and cyber security?” Treat it as an application question. Identify the idea, then write the working in points.",
-        "a": [
-          "Idea: Cyber ethics, cyber security, threats and how to stay safe online..",
-          "Cyber safety is about protecting an individual user online — using strong passwords, avoiding suspicious links, not oversharing personal information. Cyber security is the broader technical discipline of protecting computers, networks, systems and data from unauthorised access and attack, using firewalls, encryption, access control and monitoring. Safety is personal practice; security is systematic defence."
-        ]
-      },
-      {
-        "m": "3",
-        "q": "List five rules for staying safe online.",
-        "a": [
-          "Use long, unique passwords for each account, and a password manager to remember them; turn on two-factor authentication wherever it is offered.",
-          "Keep the operating system, browser and antivirus updated, because updates close the holes attackers use.",
-          "Never share an OTP, a card number, a password or private photographs with anyone who asks online.",
-          "Think before you click: check the address in the link, and do not open attachments you were not expecting.",
-          "Back up your files, log out of shared computers, and check the privacy settings of every account you create."
+          "(a) An unknown site with an **unbelievable discount**; **`http://` with no padlock**, so data travels unencrypted; and **advance bank transfer plus an OTP demand** — no genuine seller ever asks for an OTP.",
+          "(b) Close the site, buy only from a reputed `https://` shop, never pay strangers in advance, and never share the OTP with anyone."
         ],
-        "t": "S"
+        "t": "C"
       },
       {
-        "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Cyber Safety & Security”. Their note says: The core definitions. Cyber ethics are the moral rules that guide behaviour on the internet — what is right to do online. Cyber safety is the practice of protecting yourself and your devices from online harm. Cyber security is the wider technical protection of systems, networks and data from attack.\n\nThe chapter is described as: Cyber ethics, cyber security, threats and how to stay safe online..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA village gets a mobile tower but students still cannot attend online classes: families share one old phone, the signal is weak indoors, and the learning app is English-only.\n\n(a) Which problem is this an example of?\n(b) Identify three barriers shown here.\n(c) Suggest one fix for each.",
         "a": [
-          "(a) Cyber ethics, cyber security, threats and how to stay safe online.",
-          "(b) Define terms, list threats, give safety measures.",
-          "(c) Confusing virus and worm — a worm does not need a host file."
-        ]
+          "(a) This is the **digital divide** — access on paper, exclusion in practice.",
+          "(b) Shared/old **devices**, weak **connectivity**, and a **language** barrier.",
+          "(c) Device: a shared tablet corner at school; connectivity: classes or downloads from a spot with signal; language: apps and help in the regional language."
+        ],
+        "t": "C"
       },
       {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “What is the difference between cyber safety and cyber security?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
-        "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Cyber safety is about protecting an individual user online — using strong passwords, avoiding suspicious links, not oversharing personal information. Cyber security is the broader technical discipline of protecting computers, networks, systems and data from unauthorised access and attack, using firewalls, encryption, access control and monitoring. Safety is personal practice; security is systematic defence.",
-          "(c) Virus needs a host file, worm travels alone."
-        ]
-      },
-      {
-        "t": "L",
         "m": "5",
-        "q": "Discuss “Cyber Safety & Security” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Responsible use of the internet needs good manners, safe transactions and access for all. Discuss netiquette, e-commerce safety and the digital divide.",
         "a": [
-          "The core definitions. Cyber ethics are the moral rules that guide behaviour on the internet — what is right to do online. Cyber safety is the practice of protecting yourself and your devices from online harm. Cyber security is the wider technical protection of systems, networks and data from attack. Ethics is about behaviour, safety is about personal protection, security is about defending systems.",
-          "Marks lens: Define terms, list threats, give safety measures.",
-          "Method / memory trick: Virus needs a host file, worm travels alone.",
-          "Do not: Confusing virus and worm — a worm does not need a host file."
-        ]
+          "**Netiquette** — polite messages, no CAPS shouting, no spam or rumours, respect privacy, give credit.",
+          "**E-commerce safety** — shop on reputed `https://` sites, guard privacy (no OTP/password sharing), recognise **fraud** (fake shops, phishing, prize scams), and rely on **secure transmission** (encryption, OTPs).",
+          "**Digital divide** — the gap between the connected and the unconnected, caused by cost, coverage, skills and language; bridged by cheap devices, village networks, public Wi-Fi and regional-language services.",
+          "Together the three ideas make one point: use the net politely, transact on it safely, and carry everyone along."
+        ],
+        "t": "L"
       }
     ],
     "mcq": [
       {
-        "q": "Which malware spreads across a network without a host file? (a) virus (b) worm (c) trojan (d) adware",
-        "a": "**(b) worm.**"
+        "q": "Typing a message in ALL CAPS is bad netiquette because it — (a) saves time (b) reads as shouting (c) looks stylish (d) avoids spam",
+        "a": "**(b) reads as shouting.** Netiquette asks for normal case and polite words."
       },
       {
-        "q": "A program that pretends to be useful but hides a payload is a — (a) worm (b) logic bomb (c) trojan horse (d) virus",
-        "a": "**(c) trojan horse.**"
+        "q": "Which of these is an e-commerce activity? (a) reading a blog (b) paying an electricity bill on a bank app (c) watching a video (d) typing a document",
+        "a": "**(b) paying an electricity bill on a bank app.** E-commerce = trade, payment and banking online."
       },
       {
-        "q": "Phishing by SMS is called — (a) vishing (b) smishing (c) spamming (d) spoofing",
-        "a": "**(b) smishing.**"
+        "q": "A safe shopping site must show — (a) `http://` (b) `https://` with a padlock (c) flashing ads (d) pop-up prizes",
+        "a": "**(b) `https://` with a padlock.** The *s* means the data is encrypted in transit."
       },
       {
-        "q": "Which malware encrypts files and demands payment? (a) spyware (b) ransomware (c) adware (d) worm",
-        "a": "**(b) ransomware.**"
+        "q": "Someone calls “from the bank” and asks for your OTP. You should — (a) share it quickly (b) share half of it (c) refuse and cut the call (d) ask for a bigger limit",
+        "a": "**(c) refuse and cut the call.** No genuine caller ever asks for an OTP."
       },
       {
-        "q": "Cyber ethics deals with — (a) encryption algorithms (b) moral behaviour online (c) network hardware (d) programming",
-        "a": "**(b) moral behaviour online.**"
+        "q": "Phishing is an example of — (a) netiquette (b) online fraud (c) e-governance (d) encryption",
+        "a": "**(b) online fraud.** Fake messages steal passwords and money."
       },
       {
-        "q": "A strong password should: (a) be long and mix letters, numbers and symbols  (b) be your own name and birth year  (c) be the same on every site  (d) be written on your desk",
-        "a": "**(a) be long and mix letters, numbers and symbols.** Length matters more than cleverness."
+        "q": "The digital divide is the gap between — (a) boys and girls (b) the connected and the unconnected (c) cities (d) phones and laptops",
+        "a": "**(b) the connected and the unconnected.** Cost, coverage, skills and language cause it."
       },
       {
-        "q": "Software that secretly records every key you press is called: (a) a keylogger  (b) a firewall  (c) an antivirus  (d) a browser",
-        "a": "**(a) a keylogger.** A firewall blocks unwanted connections; an antivirus removes known malware."
+        "q": "Publishing exam results and certificates online is an example of — (a) e-governance supporting freedom of information (b) phishing (c) netiquette (d) malware",
+        "a": "**(a) e-governance supporting freedom of information.** Citizens can see and use public records directly."
+      },
+      {
+        "q": "Which step does NOT bridge the digital divide? (a) village mobile networks (b) regional-language apps (c) English-only services (d) low-cost data",
+        "a": "**(c) English-only services.** Services in regional languages include more people, not fewer."
       }
     ],
-    "trend": "Definitions of threats and a safety-measures list appear in every paper. Ten marks, very predictable.",
+    "trend": "Short 2–3 mark definitions: one netiquette list, one e-commerce safety question, one digital-divide question.",
     "onepager": [
-      "- Ethics = behaviour; safety = you; security = systems.",
-      "- Virus needs a host file; worm travels alone; trojan must be installed.",
-      "- Spyware watches, ransomware locks, logic bomb waits, adware advertises.",
-      "- Phishing email, smishing SMS, vishing voice.",
-      "- Strong unique passwords, 2FA, updates, HTTPS, backups."
+      "- Netiquette: polite, no CAPS, no spam, privacy, credit.",
+      "- E-commerce: shopping/banking online; risks = privacy + fraud.",
+      "- Fraud: fake shops, phishing, prize scams — verify, never prepay strangers, never share OTP.",
+      "- Secure transmission: encryption, `https`, OTP.",
+      "- Freedom of information + e-governance: public records online.",
+      "- Digital divide: the offline gap; fix with devices, coverage, regional languages."
     ],
     "task": [
-      "Make a two-column table: threat on the left, one-line description on the right. Fifteen rows covers the entire chapter."
+      "Write a 6-line “safe shopping checklist” for a grandparent: https, known shop, no OTP sharing, no advance to strangers, check reviews, keep receipts."
     ],
     "formulas": [
-      "Strong password: at least **12 characters**, mixed case, digits and symbols, unique per site",
-      "2FA / OTP: something you know **plus** something you have",
-      "Phishing signals: urgency, a wrong-looking domain, a link that is not where it claims to go",
-      "Update rule: patch the **operating system, browser and apps** — most attacks use known, fixed holes"
+      "Netiquette: polite words, no CAPS, no spam, respect privacy, give credit",
+      "E-commerce risks: **privacy** (guard OTPs/passwords) + **fraud** (fake shops, phishing)",
+      "Secure transmission: **encryption** + `https://` padlock + **OTP**",
+      "Digital divide = the connected vs the unconnected: devices, coverage, skills, language"
     ],
     "steps": [
-      "1. **Pause** before you click — urgency is the attacker's strongest tool.",
-      "2. Check the **sender and the domain**, not just the display name or the logo on the page.",
-      "3. Use a **unique password** from a manager, and turn on two-factor authentication everywhere it is offered.",
-      "4. Keep **backups** of what you cannot afford to lose, and keep the software patched."
+      "**1.** Define the term in one line (netiquette / e-commerce / digital divide).",
+      "**2.** Add two examples or two precautions — that is where the marks sit.",
+      "**3.** For fraud questions: name the trick, then the defence.",
+      "**4.** For divide questions: name the barrier, then the bridge."
     ]
   },
   {
@@ -377,11 +368,15 @@
       },
       {
         "q": "Copying a paid program and selling it without the owner's permission is: (a) software piracy  (b) fair use  (c) open source  (d) shareware",
-        "a": "**(a) software piracy.** It is a criminal offence under the Copyright Act and the IT Act."
+        "a": "**(a) software piracy.** It is a criminal offence under the Copyright Act."
       },
       {
         "q": "Open source software is software that: (a) lets users study, change and share the source code  (b) is always free of cost  (c) cannot be copied  (d) runs only on mobile phones",
         "a": "**(a) lets users study, change and share the source code.** Free refers to freedom, not necessarily to price."
+      },
+      {
+        "q": "Software distributed as a paid trial is called: (a) shareware (b) freeware (c) FOSS (d) malware",
+        "a": "**(a) shareware.** Try first, pay later; freeware is free but closed, FOSS is open in source."
       }
     ],
     "trend": "One IPR question and one FOSS-versus-proprietary question appear in most papers.",
@@ -397,194 +392,9 @@
     ],
     "steps": [
       "1. Name the **act** — hacking, identity theft, phishing, cyber stalking, piracy, or plagiarism.",
-      "2. Name the **right or law** it breaks: copyright, trademark, patent, or the IT Act section.",
+      "2. Name the **right or law** it breaks: copyright, trademark or patent.",
       "3. Say who is **affected** and what loss they suffer — money, data, reputation.",
       "4. Finish with the **remedy**: report to the cyber cell, preserve the evidence, and prevent a repeat."
-    ]
-  },
-  {
-    "id": "ch14-it-act-ewaste",
-    "num": 14,
-    "title": "The IT Act, Digital Footprint & e-Waste",
-    "unit": "cyber-ethics",
-    "unit_name": "Unit III · Cyber Ethics",
-    "weight": "10 marks unit",
-    "short": "India's IT Act 2000, digital citizenship, footprints and responsible disposal.",
-    "lede": "The closing chapter. Sections, footprints and e-waste — three short topics.",
-    "lens": [
-      "Name IT Act sections and their offences, explain a digital footprint, describe e-waste handling.",
-      "**Section numbers are recall marks.**"
-    ],
-    "concepts": [
-      "**1. The IT Act, 2000.** The **Information Technology Act, 2000** is India's principal law for electronic commerce and cybercrime; it was amended in **2008**. It gives **legal recognition to electronic documents and digital signatures**, making an online contract as valid as a paper one, and it defines punishments for cyber offences. Key sections: **Section 65** — tampering with computer source documents; **Section 66** — computer-related offences including hacking; **Section 66C** — identity theft; **Section 66D** — cheating by personation using a computer resource; **Section 67** — publishing obscene material in electronic form; **Section 72** — breach of confidentiality and privacy.",
-      "**2. Digital citizenship.** A **digital citizen** uses technology responsibly, respectfully and safely. That means respecting other people's privacy and intellectual property, communicating without abusing or bullying, verifying information before sharing it, and reporting abuse instead of spreading it.",
-      "**3. Digital footprint.** A **digital footprint** is the trail of data you leave behind online — accounts, posts, search history, photographs, comments and the metadata attached to them. Footprints are of two kinds: **active**, which you create deliberately by posting or filling a form, and **passive**, which is collected without your direct action, such as your IP address, location and browsing history. Anything posted can be copied, screenshotted and remain searchable for years, and it is routinely checked by colleges and employers.",
-      "**4. e-Waste.** **e-Waste** is discarded electronic equipment — old phones, batteries, chargers, monitors, circuit boards. It is dangerous because it contains **lead, mercury, cadmium and brominated flame retardants**, which poison soil and groundwater when dumped, and because burning it releases toxic fumes. It is also valuable, since circuit boards contain recoverable gold, silver and copper. The correct handling is the **3R approach — reduce, reuse, recycle** — by handing devices to authorised recyclers or e-waste collection centres rather than to ordinary waste collection."
-    ],
-    "tricks": [
-      "- **65 tampering, 66 hacking, 66C identity theft, 67 obscenity.**",
-      "- **IT Act 2000, amended 2008.**",
-      "- **Active footprint = you posted it; passive footprint = it was collected.**",
-      "- **e-Waste = 3R: reduce, reuse, recycle.**",
-      "- The Act made **electronic documents legally valid** — that is its most-asked point."
-    ],
-    "mistakes": [
-      "- Forgetting the **2008 amendment** when asked about the IT Act.",
-      "- Confusing **active and passive** digital footprints.",
-      "- Describing e-waste only as 'old electronics' without naming the **toxic substances**.",
-      "- Recommending throwing old devices in normal household waste."
-    ],
-    "qa": [
-      {
-        "m": "1",
-        "q": "Which section of the IT Act deals with publishing obscene material electronically?",
-        "a": "**Section 67** of the IT Act deals with publishing or transmitting obscene material in electronic form.",
-        "t": "S"
-      },
-      {
-        "m": "2",
-        "q": "What is meant by digital citizenship?",
-        "a": "**Digital citizenship** is the responsible, respectful and safe use of technology. A good digital citizen protects their own and other people's privacy, respects intellectual property by not copying or pirating, communicates politely without abusing or bullying others, checks facts before sharing information, and reports harmful content instead of spreading it.",
-        "t": "S"
-      },
-      {
-        "m": "2",
-        "q": "What is a digital footprint and why should you manage it?",
-        "a": "A digital footprint is the trail of information you leave whenever you browse, search, post, comment, like a picture or fill in a form online. It is public and long-lasting: colleges and employers look at it, and once something is posted it is very hard to remove completely, so it is worth checking what your own footprint says about you.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "What is the IT Act, 2000? State any three of its key provisions.",
-        "a": "The **Information Technology Act, 2000** is India's principal legislation governing electronic commerce and cybercrime, amended in **2008**. Three key provisions are: it gives **legal recognition to electronic records and digital signatures**, so an online document or contract is as valid as a paper one; it **defines cyber offences and their punishments**, such as tampering with source documents under Section 65 and hacking under Section 66; and it provides a **legal framework for electronic governance and secure electronic transactions**, including penalties for identity theft under Section 66C and for publishing obscene material under Section 67.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "What is a digital footprint? Explain its two types.",
-        "a": "A **digital footprint** is the trail of data a person leaves behind while using the internet — accounts, posts, comments, photographs, search history and the metadata attached to them. It has two types. An **active footprint** is created deliberately, when you post on social media, fill in a form or upload a photograph. A **passive footprint** is collected without your direct action, such as your IP address, approximate location, browsing history and cookies. Both matter because the internet rarely forgets — content can be copied and screenshotted, and colleges and employers increasingly check what is publicly visible.",
-        "t": "S"
-      },
-      {
-        "m": "3",
-        "q": "Why is e-waste hazardous and how should it be managed?",
-        "a": "e-Waste is hazardous because discarded electronics contain toxic substances such as **lead, mercury, cadmium and brominated flame retardants**. When dumped in ordinary landfills these chemicals leach into soil and groundwater, and burning the waste releases poisonous fumes that harm both workers and the surrounding population. At the same time e-waste contains recoverable **gold, silver and copper**, so throwing it away wastes valuable material. It should be managed through the **3R approach — reduce, reuse and recycle** — by repairing and passing on working devices where possible and handing the rest to authorised e-waste recyclers or collection centres rather than to regular waste collection.",
-        "t": "S"
-      },
-      {
-        "t": "A",
-        "m": "3",
-        "q": "Riya is revising “The IT Act, Digital Footprint & e-Waste” (India's IT Act 2000, digital citizenship, footprints and responsible disposal.). A classmate lost marks by doing this: Forgetting the 2008 amendment when asked about the IT Act. Apply the correct method and rewrite the scoring answer.",
-        "a": [
-          "Correct method: 65 tampering, 66 hacking, 66C identity theft, 67 obscenity.",
-          "Why the mistake costs marks: Forgetting the 2008 amendment when asked about the IT Act.",
-          "Write the definition or formula first, then the working or example."
-        ]
-      },
-      {
-        "t": "A",
-        "m": "3",
-        "q": "Amit is given this exam-style task from “The IT Act, Digital Footprint & e-Waste”: “What is the IT Act, 2000? State any three of its key provisions.” Treat it as an application question. Identify the idea, then write the working in points.",
-        "a": [
-          "Idea: India's IT Act 2000, digital citizenship, footprints and responsible disposal..",
-          "The Information Technology Act, 2000 is India's principal legislation governing electronic commerce and cybercrime, amended in 2008. Three key provisions are: it gives legal recognition to electronic records and digital signatures, so an online document or contract is as valid as a paper one; it defines cyber offences and their punishments, such as tampering with source documents under Section 65 and hacking under Section 66; and it provides a legal framework for electronic governance and secure electronic transactions, including penalties for identity theft under Section 66C and for publishing obscene material under Section 67."
-        ]
-      },
-      {
-        "m": "3",
-        "q": "What does the Information Technology Act 2000 cover, and how should e-waste be handled?",
-        "a": [
-          "The Act gives legal recognition to electronic records and digital signatures, so that online documents and contracts are valid.",
-          "It defines cyber offences such as hacking, theft of data, identity theft, sending obscene material and spreading viruses, and sets fines and imprisonment for them.",
-          "It also created the framework for adjudicating officers and the Cyber Appellate Tribunal.",
-          "e-Waste must never be burnt or thrown into household garbage: under the E-Waste (Management) Rules it should be handed to an authorised recycler or returned to the manufacturer, because phones and computers contain lead, mercury and cadmium."
-        ],
-        "t": "S"
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “The IT Act, Digital Footprint & e-Waste”. Their note says: The IT Act, 2000. The Information Technology Act, 2000 is India's principal law for electronic commerce and cybercrime; it was amended in 2008. It gives legal recognition to electronic documents and digital signatures, making an online contract as valid as a paper one, and it defines punishments for\n\nThe chapter is described as: India's IT Act 2000, digital citizenship, footprints and responsible disposal..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
-        "a": [
-          "(a) India's IT Act 2000, digital citizenship, footprints and responsible disposal.",
-          "(b) Name IT Act sections and their offences, explain a digital footprint, describe e-waste handling.",
-          "(c) Forgetting the 2008 amendment when asked about the IT Act."
-        ]
-      },
-      {
-        "t": "C",
-        "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “What is the IT Act, 2000? State any three of its key provisions.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
-        "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) The Information Technology Act, 2000 is India's principal legislation governing electronic commerce and cybercrime, amended in 2008. Three key provisions are: it gives legal recognition to electronic records and digital signatures, so an online document or contract is as valid as a paper one; it defines cyber offences and their punishments, such as tampering with source documents under Section 65 and hacking under Section 66; and it provides a legal framework for electronic governance and secure",
-          "(c) 65 tampering, 66 hacking, 66C identity theft, 67 obscenity."
-        ]
-      },
-      {
-        "t": "L",
-        "m": "5",
-        "q": "Discuss “The IT Act, Digital Footprint & e-Waste” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
-        "a": [
-          "The IT Act, 2000. The Information Technology Act, 2000 is India's principal law for electronic commerce and cybercrime; it was amended in 2008. It gives legal recognition to electronic documents and digital signatures, making an online contract as valid as a paper one, and it defines punishments for cyber offences. Key sections: Section 65 — tampering with computer source documents; Section 66 — computer-related offe.",
-          "Marks lens: Name IT Act sections and their offences, explain a digital footprint, describe e-waste handling.",
-          "Method / memory trick: 65 tampering, 66 hacking, 66C identity theft, 67 obscenity.",
-          "Do not: Forgetting the 2008 amendment when asked about the IT Act."
-        ]
-      }
-    ],
-    "mcq": [
-      {
-        "q": "The IT Act was passed in — (a) 1998 (b) 2000 (c) 2005 (d) 2013",
-        "a": "**(b) 2000**, and amended in 2008."
-      },
-      {
-        "q": "Which section deals with hacking? (a) 65 (b) 66 (c) 67 (d) 72",
-        "a": "**(b) Section 66.**"
-      },
-      {
-        "q": "A footprint collected without your action is called — (a) active (b) passive (c) public (d) hidden",
-        "a": "**(b) passive.**"
-      },
-      {
-        "q": "Which is NOT a toxic substance found in e-waste? (a) lead (b) mercury (c) cadmium (d) calcium",
-        "a": "**(d) calcium.** Lead, mercury and cadmium are all present."
-      },
-      {
-        "q": "The 3R approach means — (a) read, run, rest (b) reduce, reuse, recycle (c) repair, replace, remove (d) return, refund, recover",
-        "a": "**(b) reduce, reuse, recycle.**"
-      },
-      {
-        "q": "The Information Technology Act was passed in India in: (a) 2000  (b) 1995  (c) 2005  (d) 2010",
-        "a": "**(a) 2000.** It was amended in 2008 to strengthen the provisions on cybercrime."
-      },
-      {
-        "q": "The correct way to dispose of an old mobile phone is to: (a) hand it to an authorised e-waste recycler  (b) throw it into the dustbin  (c) burn it with the rubbish  (d) bury it in the garden",
-        "a": "**(a) hand it to an authorised e-waste recycler.** Burning or burying releases toxic metals into air and soil."
-      }
-    ],
-    "trend": "One IT Act question and one e-waste or footprint question close the paper every year.",
-    "onepager": [
-      "- IT Act 2000 (amended 2008): legal validity to e-documents and digital signatures.",
-      "- Sections: 65 tampering, 66 hacking, 66C identity theft, 67 obscenity, 72 confidentiality.",
-      "- Active footprint = you posted it; passive = collected automatically.",
-      "- e-Waste contains lead, mercury, cadmium; manage by 3R.",
-      "- Digital citizenship = responsible, respectful, safe use."
-    ],
-    "task": [
-      "Search your own name online and write down what appears — that is your passive footprint. Then list five items of e-waste in your home and find the nearest authorised collection point."
-    ],
-    "formulas": [
-      "IT Act 2000 (amended 2008) — the Indian law on electronic transactions and cyber crime",
-      "Digital footprint = **active** (what you post) + **passive** (what sites collect about you)",
-      "E-waste rule: never in the household bin — hand it to an **authorised recycler**",
-      "Right to privacy is a fundamental right; ask what data an app collects and why"
-    ],
-    "steps": [
-      "1. List what you have **posted or shared** — your active footprint.",
-      "2. Work out what is **collected silently** — location, contacts, cookies, device ID: your passive footprint.",
-      "3. Tighten the **privacy settings**, delete what you no longer need, and close unused accounts.",
-      "4. Dispose of old devices **securely**: wipe the data first, then hand them to an authorised recycler."
     ]
   }
 ]

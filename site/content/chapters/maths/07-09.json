@@ -547,6 +547,16 @@
         "t": "A"
       },
       {
+        "m": "3",
+        "q": "A kite flies with 100 m of string out so that its height above the ground is 50 m. If the string is taut, find the angle of elevation of the kite.",
+        "a": [
+          "Let the angle of elevation be θ. The string is the hypotenuse (100 m) and the height is the opposite side (50 m).",
+          "So sin θ = 50/100 = 1/2.",
+          "Therefore θ = 30°. The angle of elevation of the kite is 30°."
+        ],
+        "t": "S"
+      },
+      {
         "m": "4",
         "q": "A person on the bank of a river sees the top of a tree on the opposite bank at an angle of elevation of 60°. Walking 20 m away from the bank, the angle becomes 30°. Find the height of the tree and the width of the river.",
         "a": [

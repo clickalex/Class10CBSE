@@ -60,7 +60,7 @@ the paper: *Democracy and Diversity*, *Popular Struggles and Movements*,
 | 2 | Sectors of the Indian Economy |
 | 3 | Money and Credit |
 | 4 | Globalisation and the Indian Economy |
-| 5 | Consumer Rights — project work |
+| 5 | Consumer Rights — project work only (see `11-Project-Work/`, no theory chapter) |
 
 ## Map work
 

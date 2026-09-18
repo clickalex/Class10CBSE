@@ -57,6 +57,15 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is the difference between a paragraph style and a character style? Give one example of each.",
+        "a": [
+          "A paragraph style formats a whole paragraph at once — for example, Heading 1 sets the font, size and spacing of every chapter title.",
+          "A character style formats only selected words inside a paragraph — for example, an Emphasis style that italicises a single term without touching the rest of the line."
+        ],
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "A 20-page report uses Bold 16 pt for titles. The examiner wants Heading 1 in navy. What should the student do instead of selecting each title?",
@@ -80,6 +89,15 @@
           "Give the style a name such as ‘MyBodyText' and click OK.",
           "To apply it, click anywhere in the paragraph you want to change and double-click the style name under Paragraph Styles.",
           "To change the whole document, right-click the style, choose Modify and set the font, size and spacing once."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What is ‘Update Style’? Describe a situation in which it saves more time than re-applying a style.",
+        "a": [
+          "Update Style takes the manual formatting of the current paragraph and writes it back into the style definition, so every paragraph using that style changes at once.",
+          "Situation — a report has forty Heading 2 titles in black; the teacher wants them navy. Format one title navy, click Update Style, and all forty change in one step instead of forty."
         ],
         "t": "S"
       },
@@ -231,6 +249,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is an image caption, and why should figures be captioned and numbered in a report?",
+        "a": "A caption is a numbered label under an image, such as ‘Figure 3: School garden’. Captions let the text refer to figures precisely (‘see Figure 3’) instead of vaguely (‘the picture above’), and automatic numbering keeps the sequence correct when images are added or moved.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "An image covers the heading of a report. Which two settings would you change first?",
@@ -254,6 +278,15 @@
           "Right-click the picture, choose Wrap and pick the style you need — Optimal, Before, After or Through.",
           "Use Format → Image → Properties to set the size, the position, the cropping and whether the image is anchored to the page, the paragraph or the character.",
           "Drag the picture to its place and, if you have several drawing objects, select them and choose Format → Group so that they move together."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Distinguish between anchoring an image ‘To Paragraph’ and ‘As Character’, with one use-case each.",
+        "a": [
+          "To Paragraph — the image attaches to a paragraph and moves with it, while text wraps around freely; use it for a photo beside a paragraph of a report.",
+          "As Character — the image sits inside the text line like a big letter and moves with the words; use it for a small icon or symbol within a sentence."
         ],
         "t": "S"
       },
@@ -403,6 +436,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is the difference between a template (.ott) and an ordinary Writer document (.odt)?",
+        "a": "A template is a reusable starting point: it stores styles, margins, headers and layout that every new document based on it inherits. An ordinary document stores one finished piece of work. Editing a template changes all future documents made from it; editing a document changes only that file.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "A teacher wants 40 identical permission letters with only the parent name changing. Which Writer feature, and what two files does she need?",
@@ -425,6 +464,16 @@
           "Track Changes (Edit → Track Changes → Record) marks every insertion and deletion so that a reader can see exactly what has been altered and accept or reject each change from Edit → Track Changes → Manage.",
           "Comments (Insert → Comment) let a reviewer write a note or a question beside the text without changing the text itself.",
           "Use track changes when several people are editing one document, and comments when you want to suggest an idea or ask a question."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "After adding two new chapters, a student's ToC shows stale page numbers. What is the exact fix, and why does the problem occur?",
+        "a": [
+          "Fix — right-click inside the Table of Contents and choose Update Index (or Update Index/Table), then update the whole table.",
+          "Cause — the ToC is a snapshot taken when it was inserted; Writer does not rebuild it automatically as pages shift.",
+          "Prevention — the new chapters must use Heading styles, not manual bold, or they will be missing from the rebuilt ToC as well."
         ],
         "t": "S"
       },

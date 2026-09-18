@@ -49,6 +49,16 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is the difference between a hazard and a risk? Give one IT-lab example of each.",
+        "a": [
+          "A hazard is anything that can cause harm — for example, a trailing cable across the lab floor.",
+          "Risk is the chance that the harm actually happens — for example, the high risk that someone hurrying between PCs trips over that cable.",
+          "Safety work removes hazards first, then reduces the remaining risk with guards, rules and training."
+        ],
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "A student pours water on a sparking socket. Two mistakes and the correct actions.",
@@ -72,6 +82,17 @@
           "Check that fire extinguishers are in place, visible and within their expiry date, and know which type to use for an electrical fire.",
           "Switch off and unplug equipment at the end of the day, and never overload a socket with adapters.",
           "If a fire starts, raise the alarm, cut off the power if it is safe to do so, leave by the marked route without using the lift, and go to the assembly point."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "List four data-security measures for a school computer lab and explain the purpose of each.",
+        "a": [
+          "Unique passwords per user — so every action can be traced to its author.",
+          "Authorised access only — outsiders cannot reach student records or exam files.",
+          "Regular backups — a failed disk or ransomware cannot destroy the only copy of practical files.",
+          "Locked server and storeroom — physical theft of drives is blocked at the door."
         ],
         "t": "S"
       },
@@ -221,6 +242,17 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What are the four features of quality work in IT? Illustrate with a data-entry task.",
+        "a": [
+          "Accurate — every figure matches the source; for example, marks typed without a single digit error.",
+          "Complete — nothing is missing; every student's row is filled.",
+          "On time — the file is ready before the deadline, not after.",
+          "Checked — a second pass (spell-check, totals re-added) proves the first three."
+        ],
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "Amit’s laptop is on a high table, he looks up, and his wrists bend on the edge. Two injuries this invites and two fixes.",
@@ -244,6 +276,18 @@
           "Keep the top of the screen at or just below eye level, about an arm's length away, with the keyboard and mouse close enough to keep the forearms horizontal and the wrists straight.",
           "Place the document you are copying beside the screen rather than flat on the desk, so the neck does not keep turning.",
           "Follow the 20-20-20 habit: every 20 minutes look 20 feet away for 20 seconds, and take a short break and stretch every hour."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "Explain the 5S method with one computer-lab example for each S.",
+        "a": [
+          "Sort — remove what is not needed: discard dried pens and broken CDs from the lab drawers.",
+          "Set in order — give everything a place: label each shelf, cable and software CD.",
+          "Shine — clean regularly: wipe keyboards and screens on a fixed weekly roster.",
+          "Standardise — make it a rule: the same layout and cleaning checklist in every lab.",
+          "Sustain — keep it going: a monthly audit so the lab never slides back."
         ],
         "t": "S"
       },
@@ -394,6 +438,12 @@
         "t": "S"
       },
       {
+        "m": "2",
+        "q": "What is the difference between an accident and a near-miss? Why must both be reported?",
+        "a": "An accident is an event that causes harm — for example, a shock from a damaged cable. A near-miss is an event that could have caused harm but did not — for example, spotting the same damaged cable before anyone touched it. Both must be reported because the near-miss reveals the hazard while there is still time to fix it.",
+        "t": "S"
+      },
+      {
         "t": "A",
         "m": "3",
         "q": "The fire alarm rings. A student runs back for a USB and takes the lift. Two wrong actions and the correct ones.",
@@ -417,6 +467,17 @@
           "For fainting: lay the person flat on their back, raise the legs above the level of the heart, loosen tight clothing and keep the airway clear.",
           "Do not crowd around, do not throw water on the face and do not give anything to drink until the person is fully conscious.",
           "Call for medical help if the person does not recover within a minute or if breathing is not normal."
+        ],
+        "t": "S"
+      },
+      {
+        "m": "3",
+        "q": "What should a workplace emergency plan contain? List its essential parts with one line on each.",
+        "a": [
+          "Alarm and exits — how the alarm sounds and which stairs and exits to use (never the lift).",
+          "Assembly and headcount — where to gather outside and who checks that everyone is out.",
+          "First aid and numbers — where the kit is and the emergency number 112 for fire, police and ambulance.",
+          "Roles and reporting — who leads the evacuation and how every incident and near-miss is written up afterwards."
         ],
         "t": "S"
       },

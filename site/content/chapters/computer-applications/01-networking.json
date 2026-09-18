@@ -742,6 +742,16 @@
         "t": "S"
       },
       {
+        "m": "3",
+        "q": "Why is 5G described as ‘for machines’ rather than just ‘faster phones’? Explain with reference to IoT and latency.",
+        "a": [
+          "Speed alone would only improve video on phones, which 4G already handles well.",
+          "5G's real change is low latency plus massive device density: millions of sensors, vehicles and appliances can talk to each other in milliseconds.",
+          "That is what the Internet of Things needs — a driverless car or a factory robot cannot wait for a slow round-trip. Hence: 1 voice, 2 text, 3 web, 4 video, 5 machines."
+        ],
+        "t": "S"
+      },
+      {
         "t": "C",
         "m": "4",
         "q": "Read and answer:\n\nA Class 10 student is preparing “Mobile & Wireless Technology”. Their note says: Mobile generations. 1G was analog and voice-only. 2G went digital and added SMS and basic data through GPRS. 3G made mobile internet genuinely usable — video calls and browsing at a few Mbps. 4G/LTE is all-IP and built for data, giving tens of Mbps and making video streaming normal. 5G targets speed\n\nThe chapter is described as: Generations from 1G to 5G, plus the short-range wireless around you..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
