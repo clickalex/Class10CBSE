@@ -4,7 +4,7 @@
 Reads JSON content from site/content/ and writes a complete static site into
 docs/, mirroring the architecture of the IT-402 hub: a portal page, one hub per
 subject, unit overviews, deep chapter pages, syllabus, revision, question bank
-and PYQ pages.
+and PYQ pages, plus mock tests with online scoring and one-page report.
 
 docs/ is the GitHub Pages publishing folder (Settings -> Pages -> main /docs),
 so the build writes straight into the directory the live site is served from.
@@ -31,21 +31,11 @@ REPO = SITE.parent
 CONTENT = SITE / "content"
 THEME = SITE / "theme"
 
-# GitHub Pages for this repository publishes github.com/clickalex/Class10CBSE
-# from the /docs folder of the default branch, so that is where the build goes.
 DIST = REPO / "docs"
-
-# Absolute path the site is served under, used only by the 404 page (GitHub
-# Pages serves that one file for every unknown URL, so its links cannot be
-# relative to the requested path).
 BASE = "/Class10CBSE"
+SESSION = "2026–27"
 
-SESSION = "2026\u201327"
 
-
-# --------------------------------------------------------------------------
-# tiny markup renderer (bold / italic / code / lists / tables)
-# --------------------------------------------------------------------------
 def inline(text: str) -> str:
     text = html.escape(str(text), quote=False)
     text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
@@ -55,9 +45,7 @@ def inline(text: str) -> str:
 
 
 def blocks(items) -> str:
-    """Render a list of strings/tables/dicts into HTML blocks."""
     out, para, ul, ol = [], [], [], []
-
     def flush():
         if para:
             out.append("<p>" + "<br>".join(inline(p) for p in para) + "</p>")
@@ -68,7 +56,6 @@ def blocks(items) -> str:
         if ol:
             out.append("<ol>" + "".join(f"<li>{inline(i)}</li>" for i in ol) + "</ol>")
             ol.clear()
-
     for item in items or []:
         if isinstance(item, dict) and item.get("table"):
             flush()
@@ -98,11 +85,6 @@ def blocks(items) -> str:
     return "\n".join(out)
 
 
-# --------------------------------------------------------------------------
-# page shell: sidebar navigation (drawer) + credit footer
-# --------------------------------------------------------------------------
-# The pages every subject hub owns, in the order they are meant to be used.
-# `key` is what a page passes as `active=` so the sidebar can show where you are.
 SECTIONS = (
     ("hub", "Hub", "index.html"),
     ("chapters", "Chapters", "chapters.html"),
@@ -116,22 +98,241 @@ SECTIONS = (
 
 CREDIT = "Mohammad Umair"
 
-# Filled in by build() so every page can render the same subject switcher.
+# --------------------------------------------------------------------------
+# Mock test helpers
+# --------------------------------------------------------------------------
+def parse_mcq_item(q_text: str, a_text: str):
+    # Map Hindi/Sanskrit option markers to English a-d
+    dev_map = {'क': 'a', 'ख': 'b', 'ग': 'c', 'घ': 'd',
+               'a': 'a', 'b': 'b', 'c': 'c', 'd': 'd',
+               'A': 'a', 'B': 'b', 'C': 'c', 'D': 'd'}
+    # pattern matches (a) (b) (c) (d) OR (क) (ख) (ग) (घ)
+    opt_pat = re.compile(r'\(([a-dA-Dक-घ])\)')
+    matches = list(opt_pat.finditer(q_text))
+    if len(matches) < 2:
+        # try without parentheses? e.g. क) ख) ?
+        # fallback: try to split by Hindi markers without parens? For now require at least 2
+        return None
+    stem = q_text[:matches[0].start()].strip()
+    stem = re.sub(r'\s*:\s*$', '', stem).strip()
+    if not stem:
+        stem = q_text.strip()
+    options = {}
+    for i, m in enumerate(matches):
+        raw_label = m.group(1)
+        label = dev_map.get(raw_label, raw_label.lower())
+        start = m.end()
+        end = matches[i+1].start() if i+1 < len(matches) else len(q_text)
+        opt_txt = q_text[start:end].strip()
+        opt_txt = re.sub(r'^[\s\-:]+', '', opt_txt)
+        # Remove trailing punctuation that might be part of next option start
+        options[label] = opt_txt[:300]
+    # correct answer: look for **(x) or (x) where x can be a-d or क-घ
+    correct = None
+    # try bold markers
+    cm = re.search(r'\*\*\s*\(?([a-dA-Dक-घ])\)?', a_text)
+    if not cm:
+        cm = re.search(r'^\s*\(?([a-dA-Dक-घ])\)', a_text)
+    if not cm:
+        # search in first 40 chars for any option marker
+        cm = re.search(r'\(([a-dA-Dक-घ])\)', a_text[:50])
+    if cm:
+        raw = cm.group(1)
+        correct = dev_map.get(raw, raw.lower())
+    if correct not in options:
+        # if still not, try to find by mapping all possibilities
+        # e.g. answer text contains Hindi marker
+        for k in ['क','ख','ग','घ','a','b','c','d']:
+            if f'({k})' in a_text[:20] or f'**({k})' in a_text[:20]:
+                correct = dev_map.get(k, k)
+                break
+    if correct not in options:
+        return None
+    explanation = a_text.strip()
+    return {"stem": stem, "options": options, "correct": correct, "explanation": explanation}
+
+
+def build_mock_tests_for_subject(chapters, subject_slug):
+    all_q = []
+    for ch in chapters:
+        for mcq in ch.get("mcq") or []:
+            parsed = parse_mcq_item(mcq.get("q",""), mcq.get("a",""))
+            if not parsed:
+                continue
+            parsed["chapterId"] = ch["id"]
+            parsed["chapterTitle"] = ch["title"]
+            parsed["chapterNum"] = ch["num"]
+            all_q.append(parsed)
+    all_q.sort(key=lambda x: (x["chapterNum"], x["stem"]))
+    tests = []
+    total = len(all_q)
+    if total == 0:
+        return []
+    specs = [
+        {"title_suffix": "Mock Test 1 — Full Syllabus", "size": min(20, total), "duration": 60, "type": "Full Syllabus", "desc": "20 MCQs covering full syllabus. Timed 60 minutes. Instant one-page report."},
+        {"title_suffix": "Mock Test 2 — Full Syllabus", "size": min(20, max(0, total-20)), "duration": 60, "type": "Full Syllabus", "desc": "Another 20 MCQs from different chapters. Full syllabus practice."},
+        {"title_suffix": "Mock Test 3 — Quick Practice", "size": min(15, max(0, total-40)), "duration": 30, "type": "Quick Practice", "desc": "15 MCQs for quick revision. 30 minutes, instant scoring."},
+    ]
+    if total < 20:
+        specs = [{"title_suffix": "Mock Test 1 — Full Syllabus", "size": total, "duration": 45, "type": "Full Syllabus", "desc": "Full syllabus mock based on available MCQs."}]
+    elif total < 40:
+        specs = [
+            {"title_suffix": "Mock Test 1 — Full Syllabus", "size": 20, "duration": 60, "type": "Full Syllabus", "desc": "20 MCQs full syllabus."},
+            {"title_suffix": "Mock Test 2 — Quick Practice", "size": total-20, "duration": 30, "type": "Quick Practice", "desc": "Remaining questions quick practice."},
+        ]
+    elif total < 55:
+        specs = [
+            {"title_suffix": "Mock Test 1 — Full Syllabus", "size": 20, "duration": 60, "type": "Full Syllabus", "desc": "20 MCQs full syllabus."},
+            {"title_suffix": "Mock Test 2 — Full Syllabus", "size": 20, "duration": 60, "type": "Full Syllabus", "desc": "20 MCQs full syllabus set 2."},
+            {"title_suffix": "Mock Test 3 — Quick Practice", "size": total-40, "duration": 30, "type": "Quick Practice", "desc": "Quick practice with remaining questions."},
+        ]
+    offset = 0
+    for idx, spec in enumerate(specs):
+        size = spec["size"]
+        if size <=0:
+            continue
+        qs = all_q[offset:offset+size]
+        offset += size
+        if not qs:
+            continue
+        test = {
+            "id": f"{subject_slug}-mock-{idx+1}",
+            "title": f"{subject_slug.replace('-',' ').title()} {spec['title_suffix']}",
+            "subject": subject_slug,
+            "duration": spec["duration"],
+            "type": spec["type"],
+            "description": spec["desc"],
+            "questions": qs,
+        }
+        tests.append(test)
+    return tests
+
+
+def mock_tests_hub_body(subjects, mock_data):
+    total_tests = sum(len(v) for v in mock_data.values())
+    total_q = sum(sum(len(t["questions"]) for t in arr) for arr in mock_data.values())
+    body = f"""
+<p class="kicker">CBSE • CLASS 10 • MOCK TESTS</p>
+<h1>Mock Tests — All Subjects</h1>
+<p class="lede"><strong>{total_tests} mock tests</strong> across <strong>{len(subjects)} subjects</strong> with <strong>{total_q} MCQs</strong> taken directly from chapter drills. Take them online with a timer, get instant scoring, and download a <strong>one-page report</strong>. Every test can also be printed as PDF or downloaded as JSON/TXT.</p>
+
+<div class="callout">
+<p><strong>How it works:</strong> Pick a subject → Choose a test → Start → Timer runs → Submit → See one-page report with score, chapter-wise breakdown, and full review. Download report as PDF, JSON or TXT. No login, everything stays in your browser.</p>
+</div>
+
+<div id="mock-stats"></div>
+
+<p class="btnrow">
+  <a class="btn primary" href="take.html?subject=maths&test=0">Try Maths Mock 1 →</a>
+  <a class="btn" href="../index.html">← Back to Home</a>
+</p>
+
+<h2>All Subjects — {total_tests} Tests Ready</h2>
+<div id="mock-hub" data-json="../assets/mock-tests.json"><p class="hint">Loading mock tests...</p></div>
+
+<h2>Features</h2>
+<div class="visual">
+  <div class="vbox"><strong>⏱ Timed Online</strong><span>Auto-submit when time ends, palette navigation</span></div>
+  <div class="vbox"><strong>📊 Instant Score</strong><span>Score, %, accuracy, time taken immediately</span></div>
+  <div class="vbox"><strong>📄 One-Page Report</strong><span>Chapter breakdown + question review + download</span></div>
+  <div class="vbox"><strong>⬇ Download</strong><span>Print/PDF, JSON, TXT for offline practice</span></div>
+</div>
+
+<h2>Report — What you get in one page</h2>
+<div class="tablewrap"><table><thead><tr><th>Section</th><th>What it shows</th></tr></thead>
+<tbody>
+<tr><td>Score Card</td><td>Total score, percentage, grade, progress bar</td></tr>
+<tr><td>Breakdown</td><td>Correct / Wrong / Unattempted / Time / Accuracy</td></tr>
+<tr><td>Chapter-wise</td><td>Which chapters need revision</td></tr>
+<tr><td>Detailed Review</td><td>Every question with your answer vs correct + explanation</td></tr>
+<tr><td>Downloads</td><td>Print/PDF, JSON report, TXT report, retake link</td></tr>
+</tbody></table></div>
+
+<script src="../assets/mock-test.js"></script>
+"""
+    return [("Home", "../index.html"), ("Mock Tests", None)], body
+
+
+def mock_subject_body(subject_slug, subject_meta, tests):
+    body = f"""
+<p class="kicker">{html.escape(subject_meta.get('code',''))} · MOCK TESTS</p>
+<h1>{html.escape(subject_meta.get('title', subject_slug))} — Mock Tests</h1>
+<p class="lede">{html.escape(subject_meta.get('short',''))} — {len(tests)} mock tests ready. Take online with timer, get instant one-page report, and download as PDF/JSON/TXT.</p>
+
+<div class="btnrow">
+  <a class="btn" href="../index.html">← All Mock Tests</a>
+  <a class="btn" href="../../{subject_slug}/index.html">Go to {html.escape(subject_meta.get('title', subject_slug))} Hub</a>
+  <a class="btn primary" href="../take.html?subject={subject_slug}&test=0">Start Mock 1 →</a>
+</div>
+
+<div id="mock-subject" data-subject="{subject_slug}"><p class="hint">Loading tests...</p></div>
+
+<script src="../../assets/mock-test.js"></script>
+"""
+    return [("Home", "../../index.html"), ("Mock Tests", "../index.html"), (subject_meta.get('title', subject_slug), None)], body
+
+
+def mock_take_body():
+    body = """
+<p class="kicker">MOCK TEST · ONLINE</p>
+<h1>Online Mock Test</h1>
+<p class="lede">Timed test with instant scoring and one-page report. Your answers are saved only in this browser.</p>
+
+<div id="mock-take"><p class="hint">Loading test... If nothing loads, <a href="index.html">go back to mock tests list</a> and pick a test.</p></div>
+
+<script src="../assets/mock-test.js"></script>
+"""
+    return [("Home", "../index.html"), ("Mock Tests", "index.html"), ("Take Test", None)], body
+
+
+def mock_print_body(test, subject_meta):
+    q_html = ""
+    for i, q in enumerate(test["questions"], 1):
+        opts = "".join(f'<li>({k}) {html.escape(v)}</li>' for k,v in q["options"].items())
+        q_html += f"""
+<div class="qcard">
+<p class="qtext"><strong>{i}.</strong> {html.escape(q["stem"])} <span class="hint">[{html.escape(q["chapterTitle"])}]</span></p>
+<ul>{opts}</ul>
+<p class="hint">Answer: __________ &nbsp; Correct: ({q["correct"]}) {html.escape(q["options"][q["correct"]])}</p>
+</div>
+"""
+    body = f"""
+<p class="kicker">{html.escape(subject_meta.get('code',''))} · PRINT / PDF</p>
+<h1>{html.escape(test["title"])} — Printable</h1>
+<p class="lede">{html.escape(test["description"])} — {len(test["questions"])} questions, {test["duration"]} minutes. Print this page or Save as PDF from browser.</p>
+
+<div class="btnrow" style="margin-bottom:20px;">
+  <button class="btn primary" onclick="window.print()">🖨 Print / Save as PDF</button>
+  <a class="btn" href="../take.html?subject={test["subject"]}&test={int(test['id'].split('-')[-1])-1}">Take Online Instead →</a>
+  <a class="btn" href="index.html">← Back</a>
+</div>
+
+<div class="callout"><p><strong>Instructions:</strong> 1 mark each, no negative. Time: {test["duration"]} minutes. Circle the correct option, then check with answer key below.</p></div>
+
+<h2>Questions</h2>
+<div class="qstack">{q_html}</div>
+
+<h2>Answer Key (One Page)</h2>
+<div class="tablewrap"><table><thead><tr><th>Q</th><th>Correct</th><th>Chapter</th><th>Explanation</th></tr></thead>
+<tbody>
+{"".join(f'<tr><td>{i}</td><td>({q["correct"]}) {html.escape(q["options"][q["correct"]])}</td><td>{html.escape(q["chapterTitle"])}</td><td>{html.escape(q["explanation"][:200])}</td></tr>' for i,q in enumerate(test["questions"],1))}
+</tbody></table></div>
+
+<p class="hint">Generated for offline practice. For instant scoring, take the test online.</p>
+"""
+    return [("Home", "../../index.html"), ("Mock Tests", "../index.html"), (subject_meta.get('title',''), f"index.html"), (test["title"]+" Print", None)], body
+
+
+# --------------------------------------------------------------------------
+# page shell
+# --------------------------------------------------------------------------
 NAV_SUBJECTS: list = []
 NAV_PENDING: set = set()
 
-
 def href_to(root, path):
-    """A link that works from any page depth."""
     return path if root == "." else f"{root}/{path}"
 
-
 def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
-    """The navigation drawer: all subjects, then this subject's pages and chapters.
-
-    Modelled on the AI-Course book sidebar - a grouped table of contents that
-    is always on screen on a desktop and slides in behind a ☰ button on a phone.
-    """
     home = href_to(root, "index.html")
     bits = [
         '<div class="side-head">'
@@ -140,7 +341,6 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
         '<button class="side-close" onclick="closeMenu()" aria-label="Close navigation">&times;</button>'
         "</div>"
     ]
-
     if subject and chapters is not None:
         bits.append(
             '<div class="progress-wrap">'
@@ -151,7 +351,6 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
             f'data-subject="{html.escape(subject)}" data-total="{len(chapters)}"></span></div>'
             "</div>"
         )
-
     bits.append('<div class="toc-group">All subjects</div>')
     for s in NAV_SUBJECTS:
         if s["slug"] in NAV_PENDING:
@@ -166,23 +365,27 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
             f'<a class="toc-item{on}" href="{href_to(root, s["slug"] + "/index.html")}">'
             f'<span class="toc-num">{code}</span>{html.escape(s["title"])}</a>'
         )
-
+    on = " is-on" if active == "mock-tests" else ""
+    cur = ' aria-current="page"' if active == "mock-tests" else ""
+    bits.append('<div class="toc-group">Practice &amp; Tests</div>')
+    bits.append(
+        f'<a class="toc-item{on}" href="{href_to(root, "mock-tests/index.html")}\"{cur}>'
+        '<span class="toc-num">MOCK</span>Mock Tests · Online + PDF</a>'
+    )
     on = " is-on" if active == "admissions" else ""
     cur = ' aria-current="page"' if active == "admissions" else ""
     bits.append('<div class="toc-group">Beyond Class 10</div>')
     bits.append(
-        f'<a class="toc-item{on}" href="{href_to(root, "after-10th/index.html")}"{cur}>'
+        f'<a class="toc-item{on}" href="{href_to(root, "after-10th/index.html")}\"{cur}>'
         '<span class="toc-num">XI</span>Admissions &amp; scholarships</a>'
     )
-
     on = " is-on" if active == "pw-nsat" else ""
     cur = ' aria-current="page"' if active == "pw-nsat" else ""
     bits.append('<div class="toc-group">Scholarships &amp; coaching</div>')
     bits.append(
-        f'<a class="toc-item{on}" href="{href_to(root, "pw-nsat/index.html")}"{cur}>'
+        f'<a class="toc-item{on}" href="{href_to(root, "pw-nsat/index.html")}\"{cur}>'
         '<span class="toc-num">NSAT</span>PW NSAT</a>'
     )
-
     if subject:
         subj = next((s for s in NAV_SUBJECTS if s["slug"] == subject), None)
         title = subj["title"] if subj else subject.title()
@@ -190,10 +393,17 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
         for key, label, fn in SECTIONS:
             on = " is-on" if active == key else ""
             cur = ' aria-current="page"' if active == key else ""
+            # handle mock-tests link templating
+            fn_resolved = fn.replace("{subject}", subject)
             bits.append(
-                f'<a class="toc-item{on}" href="{href_to(root, f"{subject}/{fn}")}"{cur}>'
+                f'<a class="toc-item{on}" href="{href_to(root, f"{subject}/{fn_resolved}" if not fn_resolved.startswith("../") else fn_resolved.replace("../","") )}\"{cur}>'
                 f'<span class="toc-num">&bull;</span>{html.escape(label)}</a>'
             )
+        # fix mock-tests link to be absolute under mock-tests folder
+        # replace last item if it was mock
+        if bits and "Mock Tests" in bits[-1]:
+            # rewrite to correct href
+            bits[-1] = f'<a class="toc-item{" is-on" if active=="mock" else ""}" href="{href_to(root, f"mock-tests/{subject}/index.html")}\"'+ (f' aria-current="page"' if active=="mock" else '') + f'><span class="toc-num">&bull;</span>Mock Tests</a>'
 
         if chapters is not None and subj:
             bits.append('<div class="toc-group">Chapters</div>')
@@ -209,11 +419,10 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
                     cur = ' aria-current="page"' if c["id"] == chapter_id else ""
                     url = href_to(root, subject + "/chapters/" + c["id"] + ".html")
                     bits.append(
-                        f'<a class="toc-item toc-ch{on}" href="{url}"{cur}>'
-                        f'<span class="toc-num">{c["num"]}</span>'
+                        f'<a class="toc-item toc-ch{on}" href="{url}\"{cur}>'
+                        f'<span class="toc-num\">{c["num"]}</span>'
                         f'{html.escape(c["title"])}</a>'
                     )
-
     bits.append(
         '<div class="sidebar-foot">Progress is saved in this browser.<br>'
         f'Created by <strong>{html.escape(CREDIT)}</strong></div>'
@@ -223,9 +432,9 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
 
 def footer(root):
     subj_links = " ".join(
-        f'<a href="{href_to(root, s["slug"] + "/index.html")}">{html.escape(s["title"])}</a>'
+        f'<a href="{href_to(root, s["slug"] + "/index.html")}\">{html.escape(s["title"])}</a>'
         if s["slug"] not in NAV_PENDING
-        else f'<span class="foot-off">{html.escape(s["title"])}</span>'
+        else f'<span class="foot-off\">{html.escape(s["title"])}</span>'
         for s in NAV_SUBJECTS
     )
     return (
@@ -254,8 +463,8 @@ def page(title, crumbs, body, root="..", subject=None, active=None,
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{html.escape(title)} \u00b7 Class 10 CBSE</title>
-<meta name="description" content="CBSE Class 10 {html.escape(title)} \u2014 chapter notes, formulas, exam Q&amp;A and revision.">
+<title>{html.escape(title)} · Class 10 CBSE</title>
+<meta name="description" content="CBSE Class 10 {html.escape(title)} — chapter notes, formulas, exam Q&amp;A and revision.">
 <link rel="stylesheet" href="{root}/assets/style.css">
 </head>
 <body>
@@ -273,21 +482,16 @@ def page(title, crumbs, body, root="..", subject=None, active=None,
 </div>
 <footer class="wrap foot">
   {footer(root)}
-  <button class="totop" onclick="scrollTo({{top:0,behavior:'smooth'}})">\u2191 Top</button>
+  <button class="totop" onclick="scrollTo({{top:0,behavior:'smooth'}})">↑ Top</button>
 </footer>
 <script src="{root}/assets/app.js"></script>
 </body>
 </html>
 """
 
-
 def card_grid(cards, cls="cards"):
     return f'<div class="{cls}">' + "".join(cards) + "</div>"
 
-
-# --------------------------------------------------------------------------
-# IT-style Q&A cards (Short / Long / Application / Competency + MCQ)
-# --------------------------------------------------------------------------
 TYPE_META = {
     "S": ("SHORT", "Short"),
     "L": ("LONG", "Long"),
@@ -296,35 +500,14 @@ TYPE_META = {
     "M": ("MCQ", "MCQ"),
 }
 
-
 def infer_qa_type(q) -> str:
     t = str(q.get("t") or "").upper()[:1]
     if t in TYPE_META and t != "M":
         return t
     text = str(q.get("q", "")).lower()
-    if any(
-        k in text
-        for k in (
-            "read the following",
-            "read and answer",
-            "case-stud",
-            "competency",
-            "निम्नलिखित",
-            "पढ़कर उत्तर",
-        )
-    ):
+    if any(k in text for k in ("read the following","read and answer","case-stud","competency","निम्नलिखित","पढ़कर उत्तर",)):
         return "C"
-    if any(
-        k in text
-        for k in (
-            "apply ",
-            "situation",
-            "rewrite",
-            "a student",
-            "identify the violated",
-            "स्थिति",
-        )
-    ):
+    if any(k in text for k in ("apply ","situation","rewrite","a student","identify the violated","स्थिति",)):
         return "A"
     try:
         n = int(re.match(r"\d+", str(q.get("m", "3"))).group(0))
@@ -332,9 +515,7 @@ def infer_qa_type(q) -> str:
         n = 3
     return "S" if n <= 3 else "L"
 
-
 def render_qcard(q, idx, kind="qa"):
-    """One click-to-reveal card. kind='qa' or 'mcq'."""
     t = "M" if kind == "mcq" else infer_qa_type(q)
     badge, _label = TYPE_META[t]
     marks = html.escape(str(q.get("m", "1" if t == "M" else "2")))
@@ -355,7 +536,6 @@ def render_qcard(q, idx, kind="qa"):
         f"</details></article>"
     )
 
-
 def render_qbank(items, kind="qa", heading=None):
     if not items:
         return '<p class="hint">No questions filed yet.</p>'
@@ -363,20 +543,14 @@ def render_qbank(items, kind="qa", heading=None):
     head = f"<h2>{html.escape(heading)}</h2>" if heading else ""
     return f'{head}<div class="qstack">{cards}</div>'
 
-
 def qbar_html(n_s, n_l, n_a, n_c, n_m=0):
     total = n_s + n_l + n_a + n_c + n_m
     btns = [("all", f"All types ({total})")]
-    if n_s:
-        btns.append(("S", f"Short ({n_s})"))
-    if n_l:
-        btns.append(("L", f"Long ({n_l})"))
-    if n_a:
-        btns.append(("A", f"Application ({n_a})"))
-    if n_c:
-        btns.append(("C", f"Competency ({n_c})"))
-    if n_m:
-        btns.append(("M", f"MCQ ({n_m})"))
+    if n_s: btns.append(("S", f"Short ({n_s})"))
+    if n_l: btns.append(("L", f"Long ({n_l})"))
+    if n_a: btns.append(("A", f"Application ({n_a})"))
+    if n_c: btns.append(("C", f"Competency ({n_c})"))
+    if n_m: btns.append(("M", f"MCQ ({n_m})"))
     filters = "".join(
         f'<button type="button" class="qfilter{" is-on" if key == "all" else ""}" data-filter="{key}">{html.escape(label)}</button>'
         for key, label in btns
@@ -395,7 +569,6 @@ def qbar_html(n_s, n_l, n_a, n_c, n_m=0):
         "</div>"
     )
 
-
 def count_types(qa, mcq=None):
     n = {k: 0 for k in "SLACM"}
     for q in qa or []:
@@ -403,13 +576,10 @@ def count_types(qa, mcq=None):
     n["M"] = len(mcq or [])
     return n
 
-
 def chapter_nav(chapters, ch, href_of, index_href, index_label="All chapters"):
-    """Previous / index / next links so a chapter is never a dead end."""
     i = next((k for k, c in enumerate(chapters) if c["id"] == ch["id"]), None)
     if i is None:
         return ""
-
     def side(offset, cls, tag):
         j = i + offset
         if not (0 <= j < len(chapters)):
@@ -417,44 +587,33 @@ def chapter_nav(chapters, ch, href_of, index_href, index_label="All chapters"):
         c = chapters[j]
         return (
             f'<a class="{cls}" href="{href_of(c)}"><span>{html.escape(tag)}</span>'
-            f'Ch {c["num"]} \u00b7 {html.escape(c["title"])}</a>'
+            f'Ch {c["num"]} · {html.escape(c["title"])}</a>'
         )
-
     return (
         '<nav class="chapnav" aria-label="Chapter navigation">'
-        + side(-1, "chapnav-prev", "\u2190 Previous")
+        + side(-1, "chapnav-prev", "← Previous")
         + f'<a class="chapnav-index" href="{index_href}">{html.escape(index_label)}</a>'
-        + side(1, "chapnav-next", "Next \u2192")
+        + side(1, "chapnav-next", "Next →")
         + "</nav>"
     )
 
-
-# --------------------------------------------------------------------------
-# loaders
-# --------------------------------------------------------------------------
 def load(name):
     with open(CONTENT / name, encoding="utf-8") as fh:
         return json.load(fh)
 
-
 def load_chapters(sid):
-    """Chapters come either from chapters/<sid>.json (a list) or from any number
-    of JSON files in chapters/<sid>/, so content can be split into small files."""
     single = CONTENT / "chapters" / f"{sid}.json"
     if single.exists():
         with open(single, encoding="utf-8") as fh:
             return json.load(fh)
-
     folder = CONTENT / "chapters" / sid
     if not folder.is_dir():
         raise FileNotFoundError(f"no chapter content for subject '{sid}'")
-
     chapters = []
     for path in sorted(folder.glob("*.json")):
         with open(path, encoding="utf-8") as fh:
             data = json.load(fh)
         chapters.extend(data if isinstance(data, list) else [data])
-
     chapters.sort(key=lambda c: c["num"])
     seen = {}
     for c in chapters:
@@ -463,20 +622,14 @@ def load_chapters(sid):
         seen[c["id"]] = True
     return chapters
 
-
 def write(path: Path, text: str):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
 
-
-# --------------------------------------------------------------------------
-# chapter page
-# --------------------------------------------------------------------------
 def chapters_body(subj, chapters):
-    """One page listing every chapter, so there is a single obvious index."""
     total_qa = sum(len(c.get("qa") or []) for c in chapters)
     total_mcq = sum(len(c.get("mcq") or []) for c in chapters)
-    dot = "\u00b7"
+    dot = "·"
     chips = " ".join(
         '<a class="chip" href="#{}">{}</a>'.format(
             u["slug"], html.escape(u["title"].split(dot)[-1].strip()))
@@ -495,10 +648,10 @@ def chapters_body(subj, chapters):
             f'<td>{html.escape(c.get("weight", ""))}</td>'
             f'<td>{len(c.get("qa") or [])}</td>'
             f'<td>{len(c.get("mcq") or [])}</td>'
-            f'<td><a class="more" href="practice/{c["id"]}.html">Practise \u2192</a></td></tr>'
+            f'<td><a class="more" href="practice/{c["id"]}.html">Practise →</a></td></tr>'
             for c in chs
         )
-        star = ' <span class="star">\u2b50</span>' if unit.get("priority") else ""
+        star = ' <span class="star">⭐</span>' if unit.get("priority") else ""
         secs.append(
             f'<section id="{unit["slug"]}">'
             f'<h3>{html.escape(unit["title"])}{star}'
@@ -509,7 +662,7 @@ def chapters_body(subj, chapters):
         )
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
-<h1>{html.escape(subj["title"])} \u2014 all chapters</h1>
+<h1>{html.escape(subj["title"])} — all chapters</h1>
 <p class="lede">{len(chapters)} chapters in study order, with <strong>{total_qa} written Q&amp;As</strong>
 and <strong>{total_mcq} MCQs</strong>. Open a chapter to read it, or go straight to
 <em>Practise</em> for its questions with hidden answers.</p>
@@ -521,189 +674,117 @@ and <strong>{total_mcq} MCQs</strong>. Open a chapter to read it, or go straight
 """
     return [("Home", "../index.html"), (subj["title"], "index.html"), ("Chapters", None)], body
 
-
 def chapter_body(subj, ch, idx, total, chapters):
     sid = subj["slug"]
     unit = next((u for u in subj["units"] if u["id"] == ch.get("unit")), None)
     unit_label = unit["title"] if unit else subj["title"]
     unit_slug = unit["slug"] if unit else "index"
-    unit_href = (
-        f"../units/{unit_slug}.html" if unit else f"../index.html"
-    )
-
+    unit_href = f"../units/{unit_slug}.html" if unit else f"../index.html"
     chips = [
-        ("#marks-lens", "\U0001f3af Marks lens"),
-        ("#deep-concepts", "\U0001f4d6 Deep concepts"),
+        ("#marks-lens", "🎯 Marks lens"),
+        ("#deep-concepts", "📖 Deep concepts"),
     ]
-    if ch.get("formulas"):
-        chips.append(("#formulas", "\U0001f9ee Formulas"))
-    if ch.get("steps"):
-        chips.append(("#steps", "\U0001f6e0\ufe0f Steps"))
-    if ch.get("tricks"):
-        chips.append(("#tricks", "\U0001f9e0 Tricks"))
-    if ch.get("mistakes"):
-        chips.append(("#mistakes", "\u26a0\ufe0f Mistakes"))
-    chips.append(("#exam-qa", "\u2753 Exam Q&A"))
-    if ch.get("task"):
-        chips.append(("#task", "\u270d\ufe0f Task"))
-
-    default_lede = (
-        "Deep study page: concepts, worked method, memory tricks, "
-        "mistakes to avoid and exam Q&A. Finish it and tick the box at the bottom."
-    )
+    if ch.get("formulas"): chips.append(("#formulas", "🧮 Formulas"))
+    if ch.get("steps"): chips.append(("#steps", "🛠️ Steps"))
+    if ch.get("tricks"): chips.append(("#tricks", "🧠 Tricks"))
+    if ch.get("mistakes"): chips.append(("#mistakes", "⚠️ Mistakes"))
+    chips.append(("#exam-qa", "❓ Exam Q&A"))
+    if ch.get("task"): chips.append(("#task", "✍️ Task"))
+    default_lede = "Deep study page: concepts, worked method, memory tricks, mistakes to avoid and exam Q&A. Finish it and tick the box at the bottom."
     lede_html = inline(ch.get("lede", default_lede))
     practice_href = f"../practice/{ch['id']}.html"
     chip_html = " ".join(f'<a class="chip" href="{h}">{t}</a>' for h, t in chips)
-
     parts = []
     parts.append(
         f'<p class="kicker">{html.escape(subj["kicker"])}</p>'
-        f'<h1>Chapter {ch["num"]} \u00b7 {html.escape(ch["title"])}</h1>'
+        f'<h1>Chapter {ch["num"]} · {html.escape(ch["title"])}</h1>'
         f'<p class="lede"><strong>Chapter {idx} of {total}.</strong> {lede_html}</p>'
-        f'<p><a class="btn" href="{practice_href}">'
-        f'Open this chapter\u2019s questions + MCQs \u2192</a></p>'
+        f'<p><a class="btn" href="{practice_href}">Open this chapter’s questions + MCQs →</a></p>'
         f'<p class="chips">{chip_html}</p>'
     )
-
     if ch.get("visual"):
-        parts.append('<h2 id="visual">\U0001f5bc\ufe0f Visual summary</h2>')
+        parts.append('<h2 id="visual">🖼️ Visual summary</h2>')
         parts.append('<div class="visual">' + "".join(
-            f'<div class="vbox"><strong>{inline(v["t"])}</strong>'
-            f'<span>{inline(v.get("s", ""))}</span></div>' for v in ch["visual"]
+            f'<div class="vbox"><strong>{inline(v["t"])}</strong><span>{inline(v.get("s", ""))}</span></div>' for v in ch["visual"]
         ) + "</div>")
-
-    parts.append(
-        f'<h2 id="marks-lens">\U0001f3af Marks lens</h2>'
-        f'<div class="callout">{blocks(ch["lens"])}</div>'
-    )
-
-    parts.append('<h2 id="deep-concepts">\U0001f4d6 Deep concepts</h2>')
+    parts.append(f'<h2 id="marks-lens">🎯 Marks lens</h2><div class="callout">{blocks(ch["lens"])}</div>')
+    parts.append('<h2 id="deep-concepts">📖 Deep concepts</h2>')
     parts.append(blocks(ch.get("concepts", [])))
-
     if ch.get("formulas"):
-        parts.append('<h2 id="formulas">\U0001f9ee Formulas to memorise</h2>')
-        parts.append('<ul class="formula">' + "".join(
-            f"<li>{inline(f)}</li>" for f in ch["formulas"]) + "</ul>")
-
+        parts.append('<h2 id="formulas">🧮 Formulas to memorise</h2>')
+        parts.append('<ul class="formula">' + "".join(f"<li>{inline(f)}</li>" for f in ch["formulas"]) + "</ul>")
     if ch.get("steps"):
-        parts.append('<h2 id="steps">\U0001f6e0\ufe0f Method, step by step</h2>')
+        parts.append('<h2 id="steps">🛠️ Method, step by step</h2>')
         parts.append(blocks(ch["steps"]))
-
     if ch.get("tricks"):
-        parts.append('<h2 id="tricks">\U0001f9e0 Memory tricks</h2>')
+        parts.append('<h2 id="tricks">🧠 Memory tricks</h2>')
         parts.append(blocks(ch["tricks"]))
-
     if ch.get("mistakes"):
-        parts.append('<h2 id="mistakes">\u26a0\ufe0f Mistakes that cost marks</h2>')
+        parts.append('<h2 id="mistakes">⚠️ Mistakes that cost marks</h2>')
         parts.append(blocks(ch["mistakes"]))
-
-    parts.append('<h2 id="exam-qa">\u2753 Exam Q&A</h2>')
-    parts.append(
-        '<p class="hint">Short · Long · Application · Competency — write first, then Show Answer.</p>'
-    )
+    parts.append('<h2 id="exam-qa">❓ Exam Q&A</h2>')
+    parts.append('<p class="hint">Short · Long · Application · Competency — write first, then Show Answer.</p>')
     qa_items = ch.get("qa") or []
     n = count_types(qa_items)
     parts.append(qbar_html(n["S"], n["L"], n["A"], n["C"]))
     parts.append(render_qbank(qa_items))
-
     if ch.get("task"):
-        parts.append('<h2 id="task">\u270d\ufe0f Hands-on task</h2>')
+        parts.append('<h2 id="task">✍️ Hands-on task</h2>')
         parts.append(f'<div class="callout alt">{blocks(ch["task"])}</div>')
-
     key = f"{sid}::{(unit['id'] if unit else 'general')}##{ch['id']}"
     parts.append(
         '<div class="done">'
         '<label><input type="checkbox" class="mark-complete" '
         f'data-key="{html.escape(key)}" data-subject="{sid}"> '
-        f'Mark \u201cCh {ch["num"]} \u00b7 {html.escape(ch["title"])}\u201d complete</label>'
-        f'<p><a href="../practice/{ch["id"]}.html">Practise this chapter\u2019s MCQs and '
-        "written questions \u2192</a></p>"
+        f'Mark “Ch {ch["num"]} · {html.escape(ch["title"])}” complete</label>'
+        f'<p><a href="../practice/{ch["id"]}.html">Practise this chapter’s MCQs and '
+        "written questions →</a></p>"
         "</div>"
     )
-    parts.append(
-        chapter_nav(
-            chapters,
-            ch,
-            lambda c: f"{c['id']}.html",
-            "../chapters.html",
-            f"All {subj['title']} chapters",
-        )
-    )
-
-    crumbs = [
-        ("Home", "../../index.html"),
-        (subj["title"], f"../index.html"),
-        (unit_label, unit_href),
-        (f'Ch {ch["num"]} \u00b7 {ch["title"]}', None),
-    ]
+    parts.append(chapter_nav(chapters, ch, lambda c: f"{c['id']}.html", "../chapters.html", f"All {subj['title']} chapters"))
+    crumbs = [("Home", "../../index.html"), (subj["title"], f"../index.html"), (unit_label, unit_href), (f'Ch {ch["num"]} · {ch["title"]}', None)]
     return crumbs, "\n".join(parts)
 
-
-# --------------------------------------------------------------------------
-# subject hub
-# --------------------------------------------------------------------------
 def hub_body(subj, chapters):
     sid = subj["slug"]
     total = len(chapters)
     by_unit = {}
     for ch in chapters:
         by_unit.setdefault(ch.get("unit"), []).append(ch)
-
     cards = []
     for unit in subj["units"]:
         chs = by_unit.get(unit["id"], [])
-        links = "".join(
-            f'<li><a href="chapters/{c["id"]}.html">Ch {c["num"]} \u00b7 {html.escape(c["title"])}</a></li>'
-            for c in chs
-        )
-        star = ' <span class="star">\u2b50</span>' if unit.get("priority") else ""
+        links = "".join(f'<li><a href="chapters/{c["id"]}.html">Ch {c["num"]} · {html.escape(c["title"])}</a></li>' for c in chs)
+        star = ' <span class="star">⭐</span>' if unit.get("priority") else ""
         cards.append(
-            f'<article class="unit-card"><h3>{html.escape(unit["title"])}{star}'
-            f'<span class="unitmarks">{html.escape(unit.get("marks", ""))}</span></h3>'
-            f'<p class="unitdesc">{inline(unit.get("desc", ""))}</p>'
-            f'<ul class="chlinks">{links}</ul>'
-            f'<p class="unitfoot"><span class="prog" data-unit="{sid}::{unit["id"]}" '
-            f'data-total="{len(chs)}">0/{len(chs)} chapters</span>'
-            f'<a class="more" href="units/{unit["slug"]}.html">Unit overview \u2192</a></p>'
-            "</article>"
+            f'<article class="unit-card"><h3>{html.escape(unit["title"])}{star}<span class="unitmarks">{html.escape(unit.get("marks", ""))}</span></h3>'
+            f'<p class="unitdesc">{inline(unit.get("desc", ""))}</p><ul class="chlinks">{links}</ul>'
+            f'<p class="unitfoot"><span class="prog" data-unit="{sid}::{unit["id"]}" data-total="{len(chs)}">0/{len(chs)} chapters</span><a class="more" href="units/{unit["slug"]}.html">Unit overview →</a></p></article>'
         )
-
-    assess = "".join(
-        f"<tr><td>{inline(r[0])}</td><td><strong>{html.escape(str(r[1]))}</strong></td>"
-        f"<td>{inline(r[2])}</td></tr>"
-        for r in subj["assessment"]
-    )
+    assess = "".join(f"<tr><td>{inline(r[0])}</td><td><strong>{html.escape(str(r[1]))}</strong></td><td>{inline(r[2])}</td></tr>" for r in subj["assessment"])
     order = "".join(f"<li>{inline(o)}</li>" for o in subj["study_order"])
-
     first = chapters[0]
     cards_meta = subj.get("cards", {})
     n_qa = sum(len(c.get("qa") or []) for c in chapters)
     n_mcq = sum(len(c.get("mcq") or []) for c in chapters)
     jump_items = [
-        ("practical.html", "\U0001f9ea", cards_meta.get("practical", "Practical lab"),
-         "Activities, diagrams, viva questions."),
-        ("question-bank.html", "\u2753", cards_meta.get("questions", "Question bank"),
-         f"{n_qa} written Q&As — Short, Long, Application, Competency. Click to reveal."),
-        ("drill.html", "\U0001f3af", "Drill MCQs",
-         f"{n_mcq} MCQs. Attempt first, then Show Answer."),
-        ("pyq.html", "\U0001f4dd", cards_meta.get("pyq", "PYQ practice"),
-         "Past-paper trends by chapter."),
-        ("revision.html", "\U0001f9e0", cards_meta.get("revision", "Exam morning"),
-         "Formulas, definitions and answer frames."),
+        ("practical.html", "🧪", cards_meta.get("practical", "Practical lab"), "Activities, diagrams, viva questions."),
+        ("question-bank.html", "❓", cards_meta.get("questions", "Question bank"), f"{n_qa} written Q&As — Short, Long, Application, Competency. Click to reveal."),
+        ("drill.html", "🎯", "Drill MCQs", f"{n_mcq} MCQs. Attempt first, then Show Answer."),
+        ("pyq.html", "📝", cards_meta.get("pyq", "PYQ practice"), "Past-paper trends by chapter."),
+        ("revision.html", "🧠", cards_meta.get("revision", "Exam morning"), "Formulas, definitions and answer frames."),
+        (f"../mock-tests/{sid}/index.html", "📝", "Mock Tests", f"{n_mcq} MCQs → 3 timed mocks with one-page report + PDF download."),
     ]
-    jump_cards = card_grid([
-        f'<a class="jump" href="{href}"><strong>{icon} {html.escape(label)}</strong>'
-        f'<span>{html.escape(desc)}</span></a>'
-        for href, icon, label, desc in jump_items
-    ])
+    jump_cards = card_grid([f'<a class="jump" href="{href}"><strong>{icon} {html.escape(label)}</strong><span>{html.escape(desc)}</span></a>' for href, icon, label, desc in jump_items])
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
 <h1>{html.escape(subj["title"])} <span class="code">Subject Code {html.escape(subj["code"])}</span></h1>
 <p class="lede">{inline(subj["blurb"])}</p>
 <p class="btnrow">
   <a class="btn" href="syllabus.html">View syllabus</a>
-  <a class="btn primary" href="chapters/{first["id"]}.html">Start Ch {first["num"]} \u00b7 {html.escape(first["title"])} \u2192</a>
+  <a class="btn primary" href="chapters/{first["id"]}.html">Start Ch {first["num"]} · {html.escape(first["title"])} →</a>
   <a class="btn" href="revision.html">Quick revision</a>
+  <a class="btn" href="../mock-tests/{sid}/index.html" style="background:#0f9d76;color:#fff;border-color:#0f9d76;">📝 Mock Tests →</a>
 </p>
 
 <section class="dash">
@@ -711,17 +792,16 @@ def hub_body(subj, chapters):
   <p class="dashsub"><strong>Your {total}-chapter progress</strong></p>
   <div class="bar"><span class="fill" data-subject="{sid}" data-total="{total}"></span></div>
   <p class="dashtxt" data-subject-text="{sid}" data-total="{total}">0 of {total} chapters marked complete</p>
-  <p class="hint">Saved on this device with localStorage. Tick \u201cMark complete\u201d at the bottom of each chapter.</p>
+  <p class="hint">Saved on this device with localStorage. Tick “Mark complete” at the bottom of each chapter.</p>
 </section>
 
-<h2>{html.escape(subj.get("areas_heading", "Study areas"))} \u00b7 {total} chapters</h2>
+<h2>{html.escape(subj.get("areas_heading", "Study areas"))} · {total} chapters</h2>
 {card_grid(cards, "units")}
 
 <h2>Assessment at a glance</h2>
-<div class="tablewrap"><table><thead><tr><th>Component</th><th>Marks</th><th>Preparation</th></tr></thead>
-<tbody>{assess}</tbody></table></div>
+<div class="tablewrap"><table><thead><tr><th>Component</th><th>Marks</th><th>Preparation</th></tr></thead><tbody>{assess}</tbody></table></div>
 
-<h2>Topper\u2019s study order</h2>
+<h2>Topper’s study order</h2>
 <ol class="order">{order}</ol>
 <p class="hint">{inline(subj.get("countdown", ""))}</p>
 
@@ -732,6 +812,7 @@ def hub_body(subj, chapters):
   <a class="cycle-card" href="drill.html"><span class="cycle-n">3</span><strong>Drill</strong><span>MCQs for the whole subject. Show Answer when ready.</span></a>
   <a class="cycle-card" href="revision.html"><span class="cycle-n">4</span><strong>Revise</strong><span>One-page sheet per chapter.</span></a>
   <a class="cycle-card" href="question-bank.html"><span class="cycle-n">5</span><strong>Bank</strong><span>Every written Q&amp;A, answers hidden.</span></a>
+  <a class="cycle-card" href="../mock-tests/{sid}/index.html"><span class="cycle-n">6</span><strong>Mock</strong><span>Timed test + one-page report + PDF download.</span></a>
 </div>
 
 <h2>Jump in</h2>
@@ -740,60 +821,37 @@ def hub_body(subj, chapters):
     crumbs = [("Home", "../index.html"), (subj["title"], None)]
     return crumbs, body
 
-
-# --------------------------------------------------------------------------
-# secondary pages
-# --------------------------------------------------------------------------
 def syllabus_body(subj, chapters):
-    rows = "".join(
-        f'<tr><td>{ch["num"]}</td><td><a href="chapters/{ch["id"]}.html">'
-        f'{html.escape(ch["title"])}</a></td>'
-        f'<td>{inline(ch.get("unit_name", ""))}</td>'
-        f'<td>{inline(ch.get("weight", ""))}</td></tr>'
-        for ch in chapters
-    )
+    rows = "".join(f'<tr><td>{ch["num"]}</td><td><a href="chapters/{ch["id"]}.html">{html.escape(ch["title"])}</a></td><td>{inline(ch.get("unit_name", ""))}</td><td>{inline(ch.get("weight", ""))}</td></tr>' for ch in chapters)
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
-<h1>{html.escape(subj["title"])} \u2014 Syllabus</h1>
+<h1>{html.escape(subj["title"])} — Syllabus</h1>
 <p class="lede">{inline(subj.get("syllabus_note", "The full chapter list with unit and exam weightage."))}</p>
-<div class="tablewrap"><table><thead><tr><th>#</th><th>Chapter</th><th>Unit</th><th>Weightage</th></tr></thead>
-<tbody>{rows}</tbody></table></div>
+<div class="tablewrap"><table><thead><tr><th>#</th><th>Chapter</th><th>Unit</th><th>Weightage</th></tr></thead><tbody>{rows}</tbody></table></div>
 {("<h2>Removed from the syllabus</h2>" + blocks(subj["removed"])) if subj.get("removed") else ""}
 {("<h2>Prescribed books</h2>" + blocks(subj["books"])) if subj.get("books") else ""}
-<p class="hint">Confirm against the current session\u2019s PDF on
-<a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+<p class="hint">Confirm against the current session’s PDF on <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
 """
     return [("Home", "../index.html"), (subj["title"], "index.html"), ("Syllabus", None)], body
-
 
 def revision_body(subj, chapters):
     secs = []
     for ch in chapters:
         items = []
         if ch.get("formulas"):
-            items.append(
-                '<p class="rhead">Formulas</p><ul class="formula">'
-                + "".join(f"<li>{inline(f)}</li>" for f in ch["formulas"])
-                + "</ul>"
-            )
+            items.append('<p class="rhead">Formulas</p><ul class="formula">' + "".join(f"<li>{inline(f)}</li>" for f in ch["formulas"]) + "</ul>")
         if ch.get("onepager"):
             items.append(blocks(ch["onepager"]))
         if not items:
             items.append('<p class="hint">Revision points for this chapter are not written yet.</p>')
-        secs.append(
-            f'<details class="rev" {"open" if ch["num"] <= 2 else ""}>'
-            f'<summary><span>Ch {ch["num"]}</span> {html.escape(ch["title"])}</summary>'
-            + "".join(items) + "</details>"
-        )
+        secs.append(f'<details class="rev" {"open" if ch["num"] <= 2 else ""}><summary><span>Ch {ch["num"]}</span> {html.escape(ch["title"])}</summary>' + "".join(items) + "</details>")
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
-<h1>{html.escape(subj["title"])} \u2014 Quick revision</h1>
-<p class="lede">One screen per chapter: formulas and the points that actually get asked.
-Expand what you need, skip what you know.</p>
+<h1>{html.escape(subj["title"])} — Quick revision</h1>
+<p class="lede">One screen per chapter: formulas and the points that actually get asked. Expand what you need, skip what you know.</p>
 {"".join(secs)}
 """
     return [("Home", "../index.html"), (subj["title"], "index.html"), ("Revision", None)], body
-
 
 def question_bank_body(subj, chapters):
     all_qa = []
@@ -802,69 +860,45 @@ def question_bank_body(subj, chapters):
         items = ch.get("qa") or []
         all_qa.extend(items)
         cards = "".join(render_qcard(q, i) for i, q in enumerate(items, 1))
-        secs.append(
-            f'<section class="qblock" id="{ch["id"]}">'
-            f'<h3>Ch {ch["num"]} \u00b7 {html.escape(ch["title"])} '
-            f'<span class="hint">({len(items)})</span></h3>'
-            f'<div class="qstack">{cards or "<p class=hint>No questions filed yet.</p>"}</div>'
-            f'<p><a class="btn" href="practice/{ch["id"]}.html">Chapter practice (MCQs + written) \u2192</a></p>'
-            "</section>"
-        )
+        secs.append(f'<section class="qblock" id="{ch["id"]}"><h3>Ch {ch["num"]} · {html.escape(ch["title"])} <span class="hint">({len(items)})</span></h3><div class="qstack">{cards or "<p class=hint>No questions filed yet.</p>"}</div><p><a class="btn" href="practice/{ch["id"]}.html">Chapter practice (MCQs + written) →</a></p></section>')
     n = count_types(all_qa)
-    toc = " ".join(
-        f'<a class="chip" href="#{ch["id"]}">Ch {ch["num"]}</a>' for ch in chapters
-    )
+    toc = " ".join(f'<a class="chip" href="#{ch["id"]}">Ch {ch["num"]}</a>' for ch in chapters)
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
-<h1>{html.escape(subj["title"])} \u2014 Question bank</h1>
-<p class="lede">Book-style Q&amp;As: Short + Long + Application + Competency.
-Answers stay hidden until you click <strong>Show Answer</strong>. Write 15–20 a day in a notebook, then self-mark.</p>
+<h1>{html.escape(subj["title"])} — Question bank</h1>
+<p class="lede">Book-style Q&amp;As: Short + Long + Application + Competency. Answers stay hidden until you click <strong>Show Answer</strong>. Write 15–20 a day in a notebook, then self-mark.</p>
 {qbar_html(n["S"], n["L"], n["A"], n["C"])}
 <p class="chips">{toc}</p>
 {"".join(secs)}
 """
     return [("Home", "../index.html"), (subj["title"], "index.html"), ("Question bank", None)], body
 
-
 def pyq_body(subj, chapters):
     rows = []
     for ch in chapters:
         trend = ch.get("trend", "Not yet mapped")
-        rows.append(
-            f'<tr id="C-{ch["id"]}"><td>Ch {ch["num"]}</td>'
-            f'<td><a href="chapters/{ch["id"]}.html">{html.escape(ch["title"])}</a></td>'
-            f"<td>{inline(trend)}</td></tr>"
-        )
+        rows.append(f'<tr id="C-{ch["id"]}"><td>Ch {ch["num"]}</td><td><a href="chapters/{ch["id"]}.html">{html.escape(ch["title"])}</a></td><td>{inline(trend)}</td></tr>')
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
-<h1>{html.escape(subj["title"])} \u2014 PYQ trends</h1>
-<p class="lede">Where past papers keep returning, chapter by chapter. Use it to decide
-revision order \u2014 not to guess the paper.</p>
-<div class="callout"><p>Trend notes below are an original reading of publicly available past
-papers and sample papers. They are <strong>not</strong> official CBSE predictions.</p></div>
-<div class="tablewrap"><table><thead><tr><th>Chapter</th><th>Title</th><th>What past papers ask</th></tr></thead>
-<tbody>{"".join(rows)}</tbody></table></div>
+<h1>{html.escape(subj["title"])} — PYQ trends</h1>
+<p class="lede">Where past papers keep returning, chapter by chapter. Use it to decide revision order — not to guess the paper.</p>
+<div class="callout"><p>Trend notes below are an original reading of publicly available past papers and sample papers. They are <strong>not</strong> official CBSE predictions.</p></div>
+<div class="tablewrap"><table><thead><tr><th>Chapter</th><th>Title</th><th>What past papers ask</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
 """
     return [("Home", "../index.html"), (subj["title"], "index.html"), ("PYQ", None)], body
-
 
 def practical_body(subj):
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
-<h1>{html.escape(subj["title"])} \u2014 Practical &amp; internal assessment</h1>
+<h1>{html.escape(subj["title"])} — Practical &amp; internal assessment</h1>
 <p class="lede">{inline(subj.get("practical_note", "What the internal assessment expects and how to prepare it."))}</p>
 {blocks(subj.get("practical", []))}
 """
     return [("Home", "../index.html"), (subj["title"], "index.html"), ("Practical", None)], body
 
-
 def unit_body(subj, unit, chapters):
     chs = [c for c in chapters if c.get("unit") == unit["id"]]
-    links = "".join(
-        f'<li><a href="../chapters/{c["id"]}.html"><strong>Ch {c["num"]} \u00b7 {html.escape(c["title"])}</strong>'
-        f'<span>{inline(c.get("short", ""))}</span></a></li>'
-        for c in chs
-    )
+    links = "".join(f'<li><a href="../chapters/{c["id"]}.html"><strong>Ch {c["num"]} · {html.escape(c["title"])}</strong><span>{inline(c.get("short", ""))}</span></a></li>' for c in chs)
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
 <h1>{html.escape(unit["title"])}</h1>
@@ -875,7 +909,6 @@ def unit_body(subj, unit, chapters):
 """
     return [("Home", "../../index.html"), (subj["title"], "../index.html"), (unit["title"], None)], body
 
-
 def practice_body(subj, ch, chapters):
     qa_items = ch.get("qa") or []
     mcq_items = ch.get("mcq") or []
@@ -883,22 +916,17 @@ def practice_body(subj, ch, chapters):
     mcq_html = "".join(render_qcard(m, i, "mcq") for i, m in enumerate(mcq_items, 1))
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
-<h1>Ch {ch["num"]} \u00b7 {html.escape(ch["title"])} \u2014 Write &amp; Drill</h1>
-<p class="lede">Cover the grey answer box, write in a notebook, then <strong>Show Answer</strong>.
-Short · Long · Application · Competency plus MCQs — the same tone as the IT bank.</p>
+<h1>Ch {ch["num"]} · {html.escape(ch["title"])} — Write &amp; Drill</h1>
+<p class="lede">Cover the grey answer box, write in a notebook, then <strong>Show Answer</strong>. Short · Long · Application · Competency plus MCQs — the same tone as the IT bank.</p>
 {qbar_html(n["S"], n["L"], n["A"], n["C"], n["M"])}
 <h2>MCQs · Drill</h2>
 <div class="qstack">{mcq_html or '<p class="hint">MCQs for this chapter are not written yet.</p>'}</div>
 <h2>Written questions · Write</h2>
 {render_qbank(qa_items)}
-<p><a class="btn" href="../chapters/{ch["id"]}.html">\u2190 Back to the chapter</a></p>
-{chapter_nav(chapters, ch, lambda c: c["id"] + ".html", "../chapters.html",
-               "All " + subj["title"] + " chapters")}
+<p><a class="btn" href="../chapters/{ch["id"]}.html">← Back to the chapter</a></p>
+{chapter_nav(chapters, ch, lambda c: c["id"] + ".html", "../chapters.html", "All " + subj["title"] + " chapters")}
 """
-    return [("Home", "../../index.html"), (subj["title"], "../index.html"),
-            (f'Ch {ch["num"]} \u00b7 {ch["title"]}', f"../chapters/{ch['id']}.html"),
-            ("Practice", None)], body
-
+    return [("Home", "../../index.html"), (subj["title"], "../index.html"), (f'Ch {ch["num"]} · {ch["title"]}', f"../chapters/{ch['id']}.html"), ("Practice", None)], body
 
 def drill_body(subj, chapters):
     cards = []
@@ -907,59 +935,44 @@ def drill_body(subj, chapters):
         items = ch.get("mcq") or []
         n_mcq += len(items)
         inner = "".join(render_qcard(m, i, "mcq") for i, m in enumerate(items, 1))
-        cards.append(
-            f'<section class="qblock" id="{ch["id"]}">'
-            f'<h3>Ch {ch["num"]} \u00b7 {html.escape(ch["title"])} '
-            f'<span class="hint">({len(items)})</span></h3>'
-            f'<div class="qstack">{inner or "<p class=hint>No MCQs yet.</p>"}</div>'
-            "</section>"
-        )
-    toc = " ".join(
-        f'<a class="chip" href="#{ch["id"]}">Ch {ch["num"]}</a>' for ch in chapters
-    )
+        cards.append(f'<section class="qblock" id="{ch["id"]}"><h3>Ch {ch["num"]} · {html.escape(ch["title"])} <span class="hint">({len(items)})</span></h3><div class="qstack">{inner or "<p class=hint>No MCQs yet.</p>"}</div></section>')
+    toc = " ".join(f'<a class="chip" href="#{ch["id"]}">Ch {ch["num"]}</a>' for ch in chapters)
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
-<h1>{html.escape(subj["title"])} \u2014 Drill</h1>
-<p class="lede">{n_mcq} MCQs across {len(chapters)} chapters. Pick an option in your head,
-then Show Answer. Filter does not score you — this is self-check, not a test.</p>
+<h1>{html.escape(subj["title"])} — Drill</h1>
+<p class="lede">{n_mcq} MCQs across {len(chapters)} chapters. Pick an option in your head, then Show Answer. Filter does not score you — this is self-check, not a test.</p>
 {qbar_html(0, 0, 0, 0, n_mcq)}
 <p class="chips">{toc}</p>
 {"".join(cards)}
 """
     return [("Home", "../index.html"), (subj["title"], "index.html"), ("Drill", None)], body
 
-
-# --------------------------------------------------------------------------
-# portal
-# --------------------------------------------------------------------------
-def portal_body(subjects, counts, pending=()):
+def portal_body(subjects, counts, pending=(), mock_data=None):
     cards = []
     for s in subjects:
         if s["slug"] in pending:
-            cards.append(
-                f'<span class="subject-card pending">'
-                f'<span class="sc-code">{html.escape(s["code"])} \u00b7 in progress</span>'
-                f'<strong>{html.escape(s["title"])}</strong>'
-                f'<span class="sc-desc">{inline(s.get("short", ""))}</span>'
-                f'<span class="sc-meta">Hub opens once its chapter content is written.</span></span>'
-            )
+            cards.append(f'<span class="subject-card pending"><span class="sc-code">{html.escape(s["code"])} · in progress</span><strong>{html.escape(s["title"])}</strong><span class="sc-desc">{inline(s.get("short", ""))}</span><span class="sc-meta">Hub opens once its chapter content is written.</span></span>')
             continue
         n = counts[s["slug"]]
-        cards.append(
-            f'<a class="subject-card" href="{s["slug"]}/index.html">'
-            f'<span class="sc-code">{html.escape(s["code"])}</span>'
-            f'<strong>{html.escape(s["title"])}</strong>'
-            f'<span class="sc-desc">{inline(s.get("short", ""))}</span>'
-            f'<span class="sc-meta">{n} chapters \u00b7 {html.escape(s.get("marks", ""))}</span></a>'
-        )
+        cards.append(f'<a class="subject-card" href="{s["slug"]}/index.html"><span class="sc-code">{html.escape(s["code"])}</span><strong>{html.escape(s["title"])}</strong><span class="sc-desc">{inline(s.get("short", ""))}</span><span class="sc-meta">{n} chapters · {html.escape(s.get("marks", ""))}</span></a>')
+    mock_total = 0
+    mock_q = 0
+    if mock_data:
+        mock_total = sum(len(v) for v in mock_data.values())
+        mock_q = sum(sum(len(t["questions"]) for t in arr) for arr in mock_data.values())
     body = f"""
-<p class="kicker">CBSE \u2022 CLASS 10 \u2022 SESSION {SESSION}</p>
-<h1>Class 10 CBSE \u2014 every subject, one hub each</h1>
-<p class="lede">The same study hub for every subject — including <strong>Information Technology (402)</strong>,
-built in here, not on a separate site. Each chapter has concepts, formulas, tricks, mistakes to avoid,
-and exam Q&amp;A in four tones: <strong>Short, Long, Application, Competency</strong>. Answers stay hidden
-until you click Show Answer.</p>
+<p class="kicker">CBSE • CLASS 10 • SESSION {SESSION}</p>
+<h1>Class 10 CBSE — every subject, one hub each</h1>
+<p class="lede">The same study hub for every subject — including <strong>Information Technology (402)</strong>, built in here, not on a separate site. Each chapter has concepts, formulas, tricks, mistakes to avoid, and exam Q&amp;A in four tones: <strong>Short, Long, Application, Competency</strong>. Answers stay hidden until you click Show Answer. Now also with <strong>Mock Tests — online timed tests with instant one-page report + PDF download</strong>.</p>
 {card_grid(cards, "subjects")}
+<h2>Practice &amp; Mock Tests</h2>
+<div class="subjects">
+<a class="subject-card" href="mock-tests/index.html" style="border:2px solid #0f9d76;">
+<span class="sc-code">NEW · MOCK TESTS · {mock_total} TESTS</span>
+<strong>📝 Mock Tests — All Subjects</strong>
+<span class="sc-desc">Take timed mock tests for all 8 subjects. {mock_q} MCQs, instant scoring, one-page report with chapter breakdown, and download as PDF / JSON / TXT. No login.</span>
+<span class="sc-meta">Online + Print PDF + Download · One-page report</span></a>
+</div>
 <h2>Plan your next step</h2>
 <div class="subjects">
 <a class="subject-card" href="after-10th/index.html">
@@ -978,28 +991,20 @@ until you click Show Answer.</p>
 <li><strong>Learn</strong> — pick a subject, read the Marks lens, then the Deep concepts.</li>
 <li><strong>Write</strong> — cover the answer, write Short / Long / Application / Competency in a notebook, then Show Answer.</li>
 <li><strong>Drill</strong> — MCQs for the whole subject. Attempt first, then reveal.</li>
+<li><strong>Mock</strong> — timed mock test, instant score, one-page report, download PDF/JSON.</li>
 <li><strong>Revise</strong> — the one-page sheet, then tick Mark complete. Progress stays on this device.</li>
 <li><strong>Bank</strong> — every written Q&amp;A, filtered by type, 15–20 a day.</li>
 </ol>
 """
     return [("Home", None)], body
 
-
-# --------------------------------------------------------------------------
-# build
-# --------------------------------------------------------------------------
 def not_found(base=BASE):
-    """A self-contained 404 page.
-
-    GitHub Pages answers every unknown path with this file, so the stylesheet
-    and the links have to be absolute under the published base path.
-    """
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Page not found \u00b7 Class 10 CBSE</title>
+<title>Page not found · Class 10 CBSE</title>
 <style>
   body {{ margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
          background: #0f172a; color: #e2e8f0; display: grid; place-items: center;
@@ -1015,29 +1020,23 @@ def not_found(base=BASE):
     <h1>404</h1>
     <p>That page is not part of the Class 10 CBSE study hub. The chapter lists,
     revision sheets and question banks all start from the portal.</p>
-    <p><a href="{base}/index.html">\u2190 Back to all subjects</a></p>
+    <p><a href="{base}/index.html">← Back to all subjects</a></p>
     <p class="credit">Created by <strong>{CREDIT}</strong></p>
   </div>
 </body>
 </html>
 """
 
-
 def chapters_exist(sid) -> bool:
-    """True when chapter content has been authored for this subject."""
     if (CONTENT / "chapters" / f"{sid}.json").exists():
         return True
     folder = CONTENT / "chapters" / sid
     return folder.is_dir() and any(folder.glob("*.json"))
 
-
 def build(check_only=False):
     if DIST.resolve() == REPO.resolve():
         raise SystemExit("refusing to build: output directory is the repo root")
     subjects = load("subjects.json")
-
-    # Every page renders the same sidebar, so share the subject list and work
-    # out up front which subjects still have no content.
     global NAV_SUBJECTS, NAV_PENDING
     NAV_SUBJECTS = subjects
     NAV_PENDING = {s["slug"] for s in subjects if not chapters_exist(s["slug"])}
@@ -1048,43 +1047,40 @@ def build(check_only=False):
     (DIST / "assets").mkdir()
     shutil.copy(THEME / "style.css", DIST / "assets" / "style.css")
     shutil.copy(THEME / "app.js", DIST / "assets" / "app.js")
-
-    # GitHub Pages runs Jekyll on a branch-served folder unless this marker is
-    # present; the site is plain static HTML, so skip it.
+    # copy mock-test.js if exists
+    if (THEME / "mock-test.js").exists():
+        shutil.copy(THEME / "mock-test.js", DIST / "assets" / "mock-test.js")
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
     write(DIST / "404.html", not_found())
 
     counts, written, pending = {}, [], []
+    # collect chapters for mock generation
+    all_chapters_by_subject = {}
+    mock_data_by_subject = {}
 
     for subj in subjects:
         sid = subj["slug"]
         if sid in NAV_PENDING:
-            # No chapter content authored for this subject yet: keep the portal
-            # honest instead of failing the whole build.
             counts[sid] = 0
             pending.append(sid)
             print(f"  skipped {sid}: no chapter content yet")
             continue
-
         chapters = load_chapters(sid)
+        all_chapters_by_subject[sid] = chapters
         counts[sid] = len(chapters)
-
-        # Content sanity checks, so a typo cannot silently produce a broken hub.
         unit_ids = {u["id"] for u in subj["units"]}
         for i, ch in enumerate(chapters, 1):
             if ch["num"] != i:
-                raise ValueError(
-                    f"{sid}: chapter numbering gap \u2014 expected {i}, got {ch['num']} ({ch['id']})"
-                )
+                raise ValueError(f"{sid}: chapter numbering gap — expected {i}, got {ch['num']} ({ch['id']})")
             if ch.get("unit") not in unit_ids:
-                raise ValueError(
-                    f"{sid}/{ch['id']}: unknown unit '{ch.get('unit')}' "
-                    f"(known: {sorted(unit_ids)})"
-                )
+                raise ValueError(f"{sid}/{ch['id']}: unknown unit '{ch.get('unit')}' (known: {sorted(unit_ids)})")
             if not ch.get("lens"):
                 raise ValueError(f"{sid}/{ch['id']}: missing 'lens'")
             if not ch.get("concepts"):
                 raise ValueError(f"{sid}/{ch['id']}: missing 'concepts'")
+        # mock tests
+        mocks = build_mock_tests_for_subject(chapters, sid)
+        mock_data_by_subject[sid] = mocks
 
         def out(path, title, crumbs, body, root, active=None, chapter_id=None):
             write(path, page(title, crumbs, body, root, sid, active, chapters, chapter_id))
@@ -1102,52 +1098,75 @@ def build(check_only=False):
             ("pyq.html", pyq_body, "PYQ trends", "pyq"),
         ):
             crumbs, body = fn_body(subj, chapters)
-            out(DIST / sid / fn, f"{subj['title']} \u2014 {title}", crumbs, body, "..", active)
+            out(DIST / sid / fn, f"{subj['title']} — {title}", crumbs, body, "..", active)
             written.append(f"{sid}/{fn}")
 
         crumbs, body = practical_body(subj)
-        out(DIST / sid / "practical.html", "Practical &amp; internal assessment",
-            crumbs, body, "..", "practical")
+        out(DIST / sid / "practical.html", "Practical &amp; internal assessment", crumbs, body, "..", "practical")
         written.append(f"{sid}/practical.html")
 
         for unit in subj["units"]:
             crumbs, body = unit_body(subj, unit, chapters)
-            out(DIST / sid / "units" / f"{unit['slug']}.html", unit["title"],
-                crumbs, body, "../..", "chapters")
+            out(DIST / sid / "units" / f"{unit['slug']}.html", unit["title"], crumbs, body, "../..", "chapters")
             written.append(f"{sid}/units/{unit['slug']}.html")
 
         for i, ch in enumerate(chapters, 1):
             crumbs, body = chapter_body(subj, ch, i, len(chapters), chapters)
-            out(DIST / sid / "chapters" / f"{ch['id']}.html",
-                f"Ch {ch['num']} \u00b7 {ch['title']}", crumbs, body, "../..", "chapters",
-                chapter_id=ch["id"])
+            out(DIST / sid / "chapters" / f"{ch['id']}.html", f"Ch {ch['num']} · {ch['title']}", crumbs, body, "../..", "chapters", chapter_id=ch["id"])
             crumbs, body = practice_body(subj, ch, chapters)
-            out(DIST / sid / "practice" / f"{ch['id']}.html",
-                f"Ch {ch['num']} \u00b7 {ch['title']} \u2014 practice", crumbs, body, "../..",
-                "chapters", chapter_id=ch["id"])
+            out(DIST / sid / "practice" / f"{ch['id']}.html", f"Ch {ch['num']} · {ch['title']} — practice", crumbs, body, "../..", "chapters", chapter_id=ch["id"])
             written.append(f"{sid}/chapters/{ch['id']}.html")
             written.append(f"{sid}/practice/{ch['id']}.html")
 
-    write(DIST / "after-10th" / "index.html", page(
-        "After 10th — admissions & scholarships",
-        [("Home", "../index.html"), ("After 10th", None)],
-        admissions_body(), "..", active="admissions"))
+    # ---- mock-tests assets ----
+    # Build combined mock-tests.json
+    mock_combined = {
+        "generated": "auto from chapter MCQs",
+        "subjects": [{"slug": s["slug"], "title": s["title"], "code": s["code"], "short": s.get("short","")} for s in subjects if s["slug"] not in NAV_PENDING],
+        "tests": mock_data_by_subject,
+    }
+    write(DIST / "assets" / "mock-tests.json", json.dumps(mock_combined, ensure_ascii=False, indent=2))
+    written.append("assets/mock-tests.json")
+
+    # ---- mock-tests pages ----
+    # hub
+    crumbs, body = mock_tests_hub_body([s for s in subjects if s["slug"] not in NAV_PENDING], mock_data_by_subject)
+    write(DIST / "mock-tests" / "index.html", page("Mock Tests — All Subjects", crumbs, body, "..", active="mock-tests"))
+    written.append("mock-tests/index.html")
+
+    # take page
+    crumbs, body = mock_take_body()
+    write(DIST / "mock-tests" / "take.html", page("Take Mock Test — Online", crumbs, body, "..", active="mock-tests"))
+    written.append("mock-tests/take.html")
+
+    # per-subject mock pages + printable
+    for subj in subjects:
+        sid = subj["slug"]
+        if sid in NAV_PENDING:
+            continue
+        tests = mock_data_by_subject.get(sid, [])
+        # subject index
+        crumbs, body = mock_subject_body(sid, subj, tests)
+        write(DIST / "mock-tests" / sid / "index.html", page(f"{subj['title']} — Mock Tests", crumbs, body, "../..", active="mock-tests"))
+        written.append(f"mock-tests/{sid}/index.html")
+        # printable per test
+        for t_idx, test in enumerate(tests):
+            crumbs, body = mock_print_body(test, subj)
+            write(DIST / "mock-tests" / sid / f"test-{t_idx+1}-print.html", page(f"{test['title']} — Printable", crumbs, body, "../..", active="mock-tests"))
+            written.append(f"mock-tests/{sid}/test-{t_idx+1}-print.html")
+
+    write(DIST / "after-10th" / "index.html", page("After 10th — admissions & scholarships", [("Home", "../index.html"), ("After 10th", None)], admissions_body(), "..", active="admissions"))
     written.append("after-10th/index.html")
 
-    write(DIST / "pw-nsat" / "index.html", page(
-        "PW NSAT — scholarship test",
-        [("Home", "../index.html"), ("PW NSAT", None)],
-        nsat_body(), "..", active="pw-nsat"))
+    write(DIST / "pw-nsat" / "index.html", page("PW NSAT — scholarship test", [("Home", "../index.html"), ("PW NSAT", None)], nsat_body(), "..", active="pw-nsat"))
     written.append("pw-nsat/index.html")
 
-    crumbs, body = portal_body(subjects, counts, pending)
+    crumbs, body = portal_body(subjects, counts, pending, mock_data_by_subject)
     write(DIST / "index.html", page("Home", crumbs, body, ".", None, "home"))
     written.append("index.html")
     return written, pending
 
-
 def validate():
-    """Every internal href must resolve to a file that was written."""
     broken = 0
     files = list(DIST.rglob("*.html"))
     for f in files:
@@ -1155,29 +1174,31 @@ def validate():
         for href in re.findall(r'href="([^"#]+?)(?:#[^"]*)?"', text):
             if href.startswith(("http", "mailto:", "/")):
                 continue
-            target = (f.parent / href).resolve()
+            # skip query params for mock take page
+            href_clean = href.split("?")[0]
+            if not href_clean:
+                continue
+            target = (f.parent / href_clean).resolve()
             if not target.exists():
+                # allow mock-tests/take.html?params
+                if "take.html" in href:
+                    # check base file exists
+                    base = href.split("?")[0]
+                    if (f.parent / base).exists():
+                        continue
                 print(f"BROKEN LINK {f.relative_to(DIST)} -> {href}")
                 broken += 1
     return broken, len(files)
-
 
 def main():
     global DIST
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true", help="build then validate links")
-    ap.add_argument(
-        "--out",
-        metavar="DIR",
-        help=f"write the site here instead of {DIST.relative_to(REPO)} "
-        "(relative paths are taken from the repository root)",
-    )
+    ap.add_argument("--out", metavar="DIR", help=f"write the site here instead of {DIST.relative_to(REPO)} (relative paths are taken from the repository root)")
     args = ap.parse_args()
-
     if args.out:
         out = Path(args.out)
         DIST = out if out.is_absolute() else (REPO / out)
-
     written, pending = build()
     try:
         shown = DIST.relative_to(REPO)
@@ -1190,7 +1211,6 @@ def main():
     print(f"validated {n} html files, {broken} broken links")
     if broken:
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()
