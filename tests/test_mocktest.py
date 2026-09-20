@@ -249,7 +249,7 @@ class BuildTests(unittest.TestCase):
     def test_expected_files_per_exam(self):
         config = json.loads((CONTENT / "mock-tests.json").read_text(encoding="utf-8"))
         self.assertTrue((self.tmp / "mock-test" / "index.html").exists())
-        self.assertTrue((self.tmp / "assets" / "mock.js").exists())
+        self.assertTrue((self.tmp / "assets" / "js" / "mock.js").exists())
         for exam in config["exams"]:
             folder = self.tmp / "mock-test" / exam["id"]
             self.assertTrue((folder / "index.html").exists(), exam["id"])
@@ -350,7 +350,7 @@ class ScoringCoreTests(unittest.TestCase):
 
     def run_js(self, snippet):
         script = (
-            f"const core = require({json.dumps(str(SITE / 'theme' / 'mock.js'))});\n"
+            f"const core = require({json.dumps(str(SITE / 'theme' / 'js' / 'mock.js'))});\n"
             f"process.stdout.write(JSON.stringify((function(){{ {snippet} }})()));"
         )
         out = subprocess.run(["node", "-e", script], capture_output=True, text=True, check=True, timeout=30)

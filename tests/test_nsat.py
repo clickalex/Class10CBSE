@@ -53,7 +53,7 @@ class NSATTests(unittest.TestCase):
                 self.assertEqual(build.validate()[0], 0)
             page = (Path(out) / 'pw-nsat/index.html').read_text()
             self.assertIn('Open official PW NSAT website / registration', page)
-            self.assertIn('href="../assets/style.css"', page)
+            self.assertIn('href="../assets/css/style.css"', page)
             self.assertIn('href="../pw-nsat/index.html" aria-current="page"', page)
 
 

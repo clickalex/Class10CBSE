@@ -1,0 +1,15 @@
+<!-- partials/footer.html — the page footer skeleton. layout.footer() fills:
+       SESSION       board session label
+       SUBJECT_LINKS every subject hub (or "in progress" spans)
+       MOCK_LINKS    the mock-test centre nav row
+       CREDIT        author credit line
+     The back-to-top button is part of the footer on every page. -->
+<div class="foot-main">
+<p>Built for CBSE Class 10 &middot; session {{SESSION}} &middot; content is original study material,
+  not official CBSE papers. Always confirm the syllabus against
+  <a href="https://cbseacademic.nic.in/">cbseacademic.nic.in</a>.</p>
+{{SUBJECT_LINKS}}
+{{MOCK_LINKS}}
+<p class="credit">Created by <strong>{{CREDIT}}</strong></p>
+</div>
+<button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">&#8593; Top</button>

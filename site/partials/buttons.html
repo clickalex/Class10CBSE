@@ -1,0 +1,39 @@
+<!-- partials/buttons.html — the reusable button / link component library.
+
+     layout.component(name, **tokens) pulls one snippet out of this file, so
+     every call-to-action on the site is edited here, in one place, instead of
+     being re-typed in fifty Python f-strings. Tokens are NAME; the two
+     optional ones default to empty:
+       MODIFIERS  extra CSS classes, leading space included (" primary")
+       ATTRS      extra attributes, leading space included (' target="_blank"')
+       HREF       link target
+       LABEL      visible (already escaped) label
+       ITEMS      child markup for the row wrappers
+       TEXT       body text for the callout
+
+     The class names must stay in step with site/theme/css/style.css
+     (.btn, .btn.primary, .btnrow, .chip, .chips, .chapnav, .callout). -->
+
+<!-- @component:button -->
+<a class="btn{{MODIFIERS}}" href="{{HREF}}"{{ATTRS}}>{{LABEL}}</a>
+<!-- @end -->
+
+<!-- @component:button-row -->
+<div class="btnrow{{MODIFIERS}}">{{ITEMS}}</div>
+<!-- @end -->
+
+<!-- @component:chip -->
+<a class="chip{{MODIFIERS}}" href="{{HREF}}"{{ATTRS}}>{{LABEL}}</a>
+<!-- @end -->
+
+<!-- @component:chip-row -->
+<p class="chips{{MODIFIERS}}">{{ITEMS}}</p>
+<!-- @end -->
+
+<!-- @component:chapter-nav -->
+<nav class="chapnav{{MODIFIERS}}" aria-label="Chapter navigation">{{ITEMS}}</nav>
+<!-- @end -->
+
+<!-- @component:callout -->
+<div class="callout{{MODIFIERS}}"><p>{{TEXT}}</p></div>
+<!-- @end -->

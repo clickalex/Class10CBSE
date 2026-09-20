@@ -1,0 +1,16 @@
+<!-- partials/navigation.html — the sidebar drawer skeleton, shared by all 496
+     pages. layout.sidebar() fills the middle:
+       HOME      link target for the brand
+       SESSION   board session label, e.g. 2026–27
+       PROGRESS  the "Chapters done" bar, or empty off subject pages
+       GROUPS    every toc-group / toc-item link, generated per page
+       CREDIT    author credit line -->
+<div class="side-head">
+<a class="brand" href="{{HOME}}">Class&nbsp;10&nbsp;<span>CBSE</span></a>
+<p class="side-sub">Session {{SESSION}}</p>
+<button class="side-close" onclick="closeMenu()" aria-label="Close navigation">&times;</button>
+</div>
+{{PROGRESS}}
+{{GROUPS}}
+<div class="sidebar-foot">Progress is saved in this browser.<br>
+Created by <strong>{{CREDIT}}</strong></div>
