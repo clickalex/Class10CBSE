@@ -1,7 +1,7 @@
 # After Class 10 — admissions & scholarships
 
-[Website directory](https://clickalex.github.io/Class10CBSE/after-10th/)
-(updated when these changes are published) ·
+[Website directory](https://clickalex.github.io/Class10CBSE/after-10th/) ·
+[Live daily report](https://clickalex.github.io/Class10CBSE/after-10th/report.html) ·
 [Mock tests for these exams](https://clickalex.github.io/Class10CBSE/mock-test/)
 — timed online sets with instant scoring and downloadable papers for every
 test-based route below (original practice material, not official papers).

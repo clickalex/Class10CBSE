@@ -1,3 +1,4 @@
+import html
 import importlib.util
 import json
 from pathlib import Path
@@ -102,6 +103,20 @@ class SiteTests(unittest.TestCase):
                 self.assertIn(url, body)
         self.assertIn('Setup required', body)
         self.assertIn('2027-28', body)
+        self.assertIn('href="report.html"', body, "should link to the HTML report instead of GitHub Issues")
+        self.assertNotIn('issues?q=', body, "should not point users to GitHub Issues search")
+
+    def test_report_body_renders_all_institutions_and_sources(self):
+        config = json.loads((ROOT / 'site/content/admissions.json').read_text())
+        report_html = admissions.report_body()
+        for inst in config['institutions']:
+            self.assertIn(f'id="report-{inst["id"]}"', report_html)
+            self.assertIn(html.escape(inst['name']), report_html)
+            for url in inst['sources']:
+                self.assertIn(url, report_html)
+        self.assertIn('href="index.html"', report_html, "report must link back to directory")
+        self.assertIn('Daily admission &amp; scholarship watch report', report_html)
+        self.assertIn('2027-28', report_html)
 
     def test_navigation_from_nested_pages(self):
         spec = importlib.util.spec_from_file_location('site_build', ROOT / 'site/build.py')
@@ -109,6 +124,8 @@ class SiteTests(unittest.TestCase):
         spec.loader.exec_module(build)
         self.assertIn('../../after-10th/index.html', build.sidebar('../..'))
         self.assertIn('aria-current="page"', build.sidebar('..', active='admissions'))
+        self.assertIn('after-10th/report.html', build.sidebar('..', active='admissions'))
+        self.assertIn('aria-current="page"', build.sidebar('..', active='admissions', subactive='report'))
         self.assertNotIn('after-10th/chapters.html', build.sidebar('..', active='admissions'))
 
 

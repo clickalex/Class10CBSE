@@ -33,8 +33,10 @@ snippet are evidence to inspect, not necessarily registration or exam dates.
    matching notices or changed fetch health create a comment; unchanged runs do not spam comments.
    Fetch errors appear in the daily report, not as “not started”. GitHub's
    notification settings control email delivery; this is not an SMS service.
-5. Follow the report from the website's **Open latest daily report** button.
-   The website directory itself is static and does not claim live statuses.
+5. Follow the report from the website's **Open latest daily report** button
+   ([live HTML report](https://clickalex.github.io/Class10CBSE/after-10th/report.html)).
+   The live report opens directly on an HTML web page showing monitored institutions,
+   sources, notice snippets, dates, and fetch health without requiring GitHub.
    Full Markdown and JSON reports are also workflow artifacts (30-day retention).
 
 GitHub can delay cron execution, and may disable scheduled workflows after

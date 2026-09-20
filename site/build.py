@@ -22,7 +22,7 @@ import re
 import shutil
 import sys
 
-from admissions import admissions_body
+from admissions import admissions_body, report_body
 from nsat import nsat_body
 import mocktest
 from pathlib import Path
@@ -199,7 +199,7 @@ def href_to(root, path):
 
 
 def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None,
-            mock_exam=None, active_mock=None):
+            mock_exam=None, active_mock=None, subactive=None):
     """The navigation drawer: all subjects, then this subject's pages and chapters.
 
     Modelled on the AI-Course book sidebar - a grouped table of contents that
@@ -273,13 +273,20 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None,
                 f'<span class="toc-num">{html.escape(badge)}</span>{html.escape(ntitle)}</a>'
             )
 
-    on = " is-on" if active == "admissions" else ""
-    cur = ' aria-current="page"' if active == "admissions" else ""
+    on = " is-on" if (active == "admissions" and subactive != "report") else ""
+    cur = ' aria-current="page"' if (active == "admissions" and subactive != "report") else ""
     bits.append('<div class="toc-group">Beyond Class 10</div>')
     bits.append(
         f'<a class="toc-item{on}" href="{href_to(root, "after-10th/index.html")}"{cur}>'
         '<span class="toc-num">XI</span>Admissions &amp; scholarships</a>'
     )
+    if active == "admissions":
+        on_rep = " is-on" if subactive == "report" else ""
+        cur_rep = ' aria-current="page"' if subactive == "report" else ""
+        bits.append(
+            f'<a class="toc-item toc-ch{on_rep}" href="{href_to(root, "after-10th/report.html")}"{cur_rep}>'
+            '<span class="toc-num">&#128269;</span>Daily watch report</a>'
+        )
 
     on = " is-on" if active == "pw-nsat" else ""
     cur = ' aria-current="page"' if active == "pw-nsat" else ""
@@ -420,7 +427,7 @@ def footer(root):
 
 
 def page(title, crumbs, body, root="..", subject=None, active=None,
-         chapters=None, chapter_id=None, mock_exam=None, active_mock=None):
+         chapters=None, chapter_id=None, mock_exam=None, active_mock=None, subactive=None):
     crumb_html = ' <span class="sep">/</span> '.join(
         f'<a href="{url}">{html.escape(label)}</a>' if url else html.escape(label)
         for label, url in crumbs
@@ -440,7 +447,7 @@ def page(title, crumbs, body, root="..", subject=None, active=None,
 <div class="backdrop" id="backdrop" onclick="closeMenu()"></div>
 <div class="app">
   <aside class="sidebar" id="sidebar" aria-label="Site navigation">
-{sidebar(root, subject, active, chapters, chapter_id, mock_exam, active_mock)}
+{sidebar(root, subject, active, chapters, chapter_id, mock_exam, active_mock, subactive)}
   </aside>
   <main id="main" class="wrap">
     <nav class="crumbs" aria-label="Breadcrumb">{crumb_html}</nav>
@@ -1410,6 +1417,13 @@ def build(check_only=False):
         [("Home", "../index.html"), ("After 10th", None)],
         admissions_body(mock_ids), "..", active="admissions"))
     written.append("after-10th/index.html")
+
+    write(DIST / "after-10th" / "report.html", page(
+        "Daily admission & scholarship watch report",
+        [("Home", "../index.html"), ("After 10th", "index.html"), ("Daily watch report", None)],
+        report_body(state_path=REPO / ".admission-monitor/state.json", mock_ids=mock_ids),
+        "..", active="admissions", subactive="report"))
+    written.append("after-10th/report.html")
 
     write(DIST / "pw-nsat" / "index.html", page(
         "PW NSAT — scholarship test",

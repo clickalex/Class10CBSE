@@ -165,6 +165,7 @@ def report_markdown(config, report):
     lines = ['# After Class 10 — daily admission watch', '',
              f"Target session: **{config['target_session']}** · Checked: **{report['checked_at']}**", '',
              'Scheduled for **9 PM Asia/Kolkata (15:30 UTC)**; GitHub may delay scheduled runs.', '',
+             '**[Open the live HTML report on the website](https://clickalex.github.io/Class10CBSE/after-10th/report.html)**', '',
              '**This is a notice/change detector, not confirmation that registration is open or closed.**',
              'Dates in snippets are unverified mentions, not deadlines. Read the current prospectus or scholarship terms; the test cycle may differ from the admission year.',
              'PDF/image contents and JavaScript-only notices are not read. An error or no match does NOT mean applications have not started.', '']
@@ -240,6 +241,7 @@ def main():
     ap.add_argument('--config', type=Path, default=ROOT / 'site/content/admissions.json')
     ap.add_argument('--state', type=Path, default=ROOT / '.admission-monitor/state.json')
     ap.add_argument('--report', type=Path, default=ROOT / '.admission-monitor/report.md')
+    ap.add_argument('--html-report', type=Path, default=ROOT / 'docs/after-10th/report.html')
     args = ap.parse_args()
     config = json.loads(args.config.read_text(encoding='utf-8'))
     old = load_state(args.state)
@@ -257,6 +259,26 @@ def main():
     temp.replace(args.state)
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(report_markdown(config, report), encoding='utf-8')
+    if args.html_report:
+        try:
+            sys.path.insert(0, str(ROOT / 'site'))
+            import admissions
+            import build
+            mock_manifest_path = ROOT / 'site/content/mock-tests.json'
+            mock_ids = {}
+            if mock_manifest_path.exists():
+                mock_m = json.loads(mock_manifest_path.read_text(encoding='utf-8'))
+                mock_ids = {e['admission_id']: e['id'] for e in mock_m.get('exams', []) if e.get('admission_id')}
+            html_content = build.page(
+                "Daily admission & scholarship watch report",
+                [("Home", "../index.html"), ("After 10th", "index.html"), ("Daily watch report", None)],
+                admissions.report_body(state_path=args.state, mock_ids=mock_ids),
+                "..", active="admissions", subactive="report"
+            )
+            args.html_report.parent.mkdir(parents=True, exist_ok=True)
+            args.html_report.write_text(html_content, encoding='utf-8')
+        except Exception as exc:
+            print(f"Warning: could not write HTML report to {args.html_report}: {exc}", file=sys.stderr)
     print(f"Checked {len(urls)} sources; {sum(s['check_status'] == 'error' for s in sources.values())} errors. Report: {args.report}")
     # Partial failures must still publish their report. Fail the run if ALL fail.
     return 1 if all(s['check_status'] == 'error' for s in sources.values()) else 0
