@@ -51,15 +51,9 @@ School/college admissions and coaching scholarships are different decisions. Cho
 <nav aria-label="Directory categories"><p>{navigation}</p></nav>
 <div class="admission-watch">
 <h2>Daily admission &amp; scholarship watch · 9 PM IST</h2>
-<p>The checker is configured for <strong>21:00 Asia/Kolkata (15:30 UTC)</strong> every day.
-All official sources listed below are included. It checks readable HTML notices and flags changed evidence and date mentions for review.
-The live report is published directly on the website, so you can inspect notice changes, captured dates, and fetch health on the HTML report page without visiting GitHub.</p>
-<p><a class="btn primary" href="report.html">Open latest daily report</a>
-<a class="btn" href="https://github.com/clickalex/Class10CBSE/actions" target="_blank" rel="noopener">GitHub Actions &amp; run logs ↗</a></p>
-<p><strong>Setup required:</strong> the workflow is configured in
-<code>.github/workflows/admission-watch.yml</code> on the default branch. Enable GitHub Actions before scheduled checks run.
-GitHub may delay a run. The daily run publishes updates to the live HTML report page; use its timestamp to check freshness.
-Subscribe to the tracker issue on GitHub for email notice-change and fetch-health alerts.</p>
+<p>All official sources listed below are monitored every day at <strong>21:00 IST</strong> for admission notifications, application links, and exam dates.
+Open the live daily report to review captured notices, date mentions, and current verification status for each institution.</p>
+<p><a class="btn primary" href="report.html">Open latest daily report</a></p>
 <p class="hint">This directory is not a live confirmation of registration. An unchanged page, failed fetch or missing notice does not mean applications have not started.
 PDFs, scanned images, linked-page contents and JavaScript-only updates need manual review.
 Old notices can remain online after deadlines. Never treat a login link as proof that registration is open.
@@ -79,7 +73,7 @@ Scholarship tests may happen during Class X for a later course year; do not conf
 Upload documents only on the official application portal. Check whether appearing candidates may apply before results.</p>
 <p>Revise Class X subjects, then follow each test's own syllabus and official sample/past papers where available.
 These options do not guarantee admission or an award. School, diploma and coaching fees are separate.</p>
-<p><a href="https://github.com/clickalex/Class10CBSE/tree/main/09-After-10th">Open the after-10th folder &amp; tracker instructions</a></p>
+<p><a class="btn" href="report.html">View the daily watch report →</a></p>
 '''
 
 
@@ -223,7 +217,6 @@ for Class XI schools, polytechnic diplomas, and coaching scholarship tests. Scan
 
 <div class="btnrow">
   <a class="btn primary" href="index.html">&larr; Back to admissions directory</a>
-  <a class="btn" href="https://github.com/clickalex/Class10CBSE/actions" target="_blank" rel="noopener">GitHub Actions run logs &rarr;</a>
 </div>
 
 <nav aria-label="Report categories" style="margin: 16px 0 8px;"><p>{nav_html}</p></nav>

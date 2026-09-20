@@ -101,7 +101,9 @@ class SiteTests(unittest.TestCase):
             for url in inst['sources']:
                 self.assertTrue(url.startswith('https://'))
                 self.assertIn(url, body)
-        self.assertIn('Setup required', body)
+        self.assertNotIn('Setup required', body, "developer workflow setup instructions should not be shown to students")
+        self.assertNotIn('github.com', body, "no GitHub links in student admissions body")
+        self.assertIn('Daily admission &amp; scholarship watch', body)
         self.assertIn('2027-28', body)
         self.assertIn('href="report.html"', body, "should link to the HTML report instead of GitHub Issues")
         self.assertNotIn('issues?q=', body, "should not point users to GitHub Issues search")
@@ -115,6 +117,7 @@ class SiteTests(unittest.TestCase):
             for url in inst['sources']:
                 self.assertIn(url, report_html)
         self.assertIn('href="index.html"', report_html, "report must link back to directory")
+        self.assertNotIn('github.com', report_html, "no GitHub links in student watch report")
         self.assertIn('Daily admission &amp; scholarship watch report', report_html)
         self.assertIn('2027-28', report_html)
 

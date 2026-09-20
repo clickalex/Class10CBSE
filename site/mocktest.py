@@ -444,7 +444,7 @@ def centre_body(config, exams, subjects):
 <p class="kicker">MOCK TESTS · CHECK YOUR OWN SCORE ONLINE</p>
 <h1>Mock test centre</h1>
 <p class="lede">{len(exams)} exams · {total_slots} mock tests · {n_chapters} chapter-wise mocks — every subject and every
-entrance or scholarship test listed in this repository. <strong>Every attempt generates a fresh paper</strong> from the site's
+entrance or scholarship test listed on this website. <strong>Every attempt generates a fresh paper</strong> from the site's
 question pool: take a mock online with a timer, get an instant <strong>one-page score report</strong>, and download the same paper
 with its key to attempt on paper.</p>
 <nav aria-label="Exam groups"><p>{nav} · <a href="#how">How it works</a></p></nav>
