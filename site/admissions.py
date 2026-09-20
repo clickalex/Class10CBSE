@@ -10,7 +10,10 @@ GROUPS = (
 )
 
 
-def admissions_body():
+def admissions_body(mock_ids=None):
+    """mock_ids: {institution id: mock-test exam id} for the test-based routes
+    that have a practice set in mock-test/; the build passes it, tests may not."""
+    mock_ids = mock_ids or {}
     data = json.loads((Path(__file__).parent / 'content/admissions.json').read_text())
     esc = html.escape
     groups = {key: [] for key, _, _ in GROUPS}
@@ -23,6 +26,9 @@ def admissions_body():
                 'verify': 'Selection process: verify current notice'}[selection]
         date = 'Not applicable: merit / vacancy route' if selection == 'merit' else 'Not confirmed here — verify the current cycle'
         extra = '<p><a href="../pw-nsat/index.html">PW NSAT detailed guide &amp; dated exam snapshot</a></p>' if inst['id'] == 'pw-nsat' else ''
+        if inst['id'] in mock_ids:
+            extra += (f'<p><a class="btn" href="../mock-test/{esc(mock_ids[inst["id"]], quote=True)}/index.html">'
+                      'Practise a timed mock test &amp; check your score →</a></p>')
         groups[category].append(f'''<article class="admission-card" id="{esc(inst['id'])}">
 <p class="kicker">{esc(inst['location'])}</p>
 <h3>{esc(inst['name'])}</h3>

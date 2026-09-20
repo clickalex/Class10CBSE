@@ -1,0 +1,132 @@
+{
+  "id": "mental-ability",
+  "title": "Mental Ability",
+  "note": "Original reasoning questions for the Mental Ability / IQ section of scholarship and Class XI entrance tests. Same MCQ format as the chapter banks: four options in the question, the bold label in the answer is the key.",
+  "groups": [
+    {
+      "id": "number-series",
+      "title": "Number series",
+      "mcq": [
+        {"q": "Find the next number: 2, 6, 12, 20, 30, ? (a) 40  (b) 42  (c) 44  (d) 36", "a": "**(b) 42.** The differences are 4, 6, 8, 10, so the next difference is 12 and 30 + 12 = 42."},
+        {"q": "Find the next number: 3, 9, 27, 81, ? (a) 162  (b) 243  (c) 324  (d) 729", "a": "**(b) 243.** Each term is 3 times the previous one: 81 × 3 = 243."},
+        {"q": "Find the next number: 1, 4, 9, 16, 25, ? (a) 30  (b) 35  (c) 36  (d) 49", "a": "**(c) 36.** These are the squares 1², 2², 3², 4², 5²; the next is 6² = 36."},
+        {"q": "Find the next number: 5, 11, 23, 47, ? (a) 94  (b) 95  (c) 96  (d) 71", "a": "**(b) 95.** Each term is double the previous term plus 1: 47 × 2 + 1 = 95."},
+        {"q": "Find the next number: 100, 81, 64, 49, ? (a) 25  (b) 36  (c) 42  (d) 32", "a": "**(b) 36.** The terms are 10², 9², 8², 7², so the next is 6² = 36."},
+        {"q": "Find the next number: 2, 3, 5, 7, 11, 13, ? (a) 15  (b) 16  (c) 17  (d) 19", "a": "**(c) 17.** These are the prime numbers in order; after 13 comes 17."},
+        {"q": "Find the next number: 1, 1, 2, 3, 5, 8, 13, ? (a) 18  (b) 20  (c) 21  (d) 26", "a": "**(c) 21.** Each term is the sum of the two before it (Fibonacci): 8 + 13 = 21."},
+        {"q": "Find the next number: 7, 14, 28, 56, ? (a) 84  (b) 102  (c) 112  (d) 128", "a": "**(c) 112.** Each term doubles: 56 × 2 = 112."},
+        {"q": "Find the next number: 0, 3, 8, 15, 24, ? (a) 33  (b) 34  (c) 35  (d) 36", "a": "**(c) 35.** The terms are n² − 1 for n = 1, 2, 3, 4, 5; the next is 6² − 1 = 35."},
+        {"q": "Find the next number: 4, 7, 12, 19, 28, ? (a) 37  (b) 38  (c) 39  (d) 41", "a": "**(c) 39.** The differences are 3, 5, 7, 9 (consecutive odd numbers), so add 11: 28 + 11 = 39."},
+        {"q": "Which number is wrong in the series 2, 5, 10, 17, 26, 38, 50? (a) 17  (b) 26  (c) 38  (d) 50", "a": "**(c) 38.** The pattern is n² + 1: 2, 5, 10, 17, 26, 37, 50. The sixth term should be 37, not 38."},
+        {"q": "Find the missing number: 1, 8, 27, 64, ?, 216 (a) 100  (b) 125  (c) 144  (d) 150", "a": "**(b) 125.** These are cubes 1³, 2³, 3³, 4³, 5³, 6³; the missing term is 5³ = 125."}
+      ]
+    },
+    {
+      "id": "letter-series",
+      "title": "Letter series",
+      "mcq": [
+        {"q": "Find the next letter: A, C, F, J, O, ? (a) T  (b) U  (c) V  (d) S", "a": "**(b) U.** The gaps grow by one each time: +2, +3, +4, +5, so the next gap is +6. O is the 15th letter; 15 + 6 = 21 = U."},
+        {"q": "Find the next letter: Z, X, V, T, R, ? (a) Q  (b) P  (c) O  (d) N", "a": "**(b) P.** The series moves two letters backwards each time: R → P."},
+        {"q": "Find the next pair: AZ, BY, CX, DW, ? (a) EV  (b) EU  (c) FV  (d) EW", "a": "**(a) EV.** The first letter moves forward (A, B, C, D, E) while the second moves backward from Z (Z, Y, X, W, V)."},
+        {"q": "Find the next letter: B, D, H, P, ? (a) X  (b) F  (c) Z  (d) E", "a": "**(b) F.** The positions double: 2, 4, 8, 16, 32. Position 32 wraps around the 26-letter alphabet to 32 − 26 = 6, which is F."},
+        {"q": "Find the next pair: AB, DE, GH, JK, ? (a) LM  (b) MN  (c) NO  (d) KL", "a": "**(b) MN.** Each pair skips one letter after the previous pair: C, F, I and L are skipped, so after JK comes MN."},
+        {"q": "Which letter replaces the question mark: M, ?, Q, S, U (a) N  (b) O  (c) P  (d) L", "a": "**(b) O.** The letters go up by two: M (13), O (15), Q (17), S (19), U (21)."},
+        {"q": "Which letter is 7th to the right of the 5th letter from the left in the English alphabet? (a) K  (b) L  (c) M  (d) J", "a": "**(b) L.** The 5th letter is E (position 5); seven places to the right is position 12, which is L."},
+        {"q": "Which group of letters is different from the others? (a) BDF  (b) HJL  (c) NPR  (d) TVY", "a": "**(d) TVY.** In the other groups each letter is two places after the previous one; T, V, Y has gaps of 2 and 3 (it should be TVX)."}
+      ]
+    },
+    {
+      "id": "analogy",
+      "title": "Analogy",
+      "mcq": [
+        {"q": "Doctor : Hospital :: Teacher : ? (a) Class  (b) School  (c) Student  (d) Book", "a": "**(b) School.** A doctor works in a hospital; a teacher works in a school."},
+        {"q": "Hand : Fingers :: Foot : ? (a) Legs  (b) Toes  (c) Shoes  (d) Ankle", "a": "**(b) Toes.** Fingers are the digits of a hand; toes are the digits of a foot."},
+        {"q": "8 : 64 :: 12 : ? (a) 96  (b) 124  (c) 144  (d) 132", "a": "**(c) 144.** 64 is 8 squared, so the answer is 12 squared = 144."},
+        {"q": "ACE : BDF :: MOQ : ? (a) NPR  (b) NQS  (c) PRT  (d) NOP", "a": "**(a) NPR.** Each letter moves one step forward: M → N, O → P, Q → R."},
+        {"q": "Thermometer : Temperature :: Barometer : ? (a) Humidity  (b) Pressure  (c) Rainfall  (d) Wind speed", "a": "**(b) Pressure.** A thermometer measures temperature; a barometer measures atmospheric pressure."},
+        {"q": "5 : 30 :: 7 : ? (a) 42  (b) 49  (c) 56  (d) 63", "a": "**(c) 56.** 30 = 5 × 6, i.e. n × (n + 1). So 7 × 8 = 56."},
+        {"q": "Kilogram : Mass :: Newton : ? (a) Energy  (b) Power  (c) Force  (d) Pressure", "a": "**(c) Force.** The kilogram is the SI unit of mass; the newton is the SI unit of force."},
+        {"q": "Triangle : 3 :: Hexagon : ? (a) 5  (b) 6  (c) 7  (d) 8", "a": "**(b) 6.** A triangle has 3 sides; a hexagon has 6 sides."}
+      ]
+    },
+    {
+      "id": "odd-one-out",
+      "title": "Odd one out",
+      "mcq": [
+        {"q": "Which number is the odd one out? (a) 27  (b) 64  (c) 125  (d) 100", "a": "**(d) 100.** 27, 64 and 125 are perfect cubes (3³, 4³, 5³); 100 is not a perfect cube."},
+        {"q": "Which is the odd one out? (a) Copper  (b) Iron  (c) Mercury  (d) Aluminium", "a": "**(c) Mercury.** It is the only metal in the list that is liquid at room temperature."},
+        {"q": "Which number is the odd one out? (a) 13  (b) 17  (c) 21  (d) 23", "a": "**(c) 21.** 13, 17 and 23 are prime; 21 = 3 × 7 is not."},
+        {"q": "Which is the odd one out? (a) Rose  (b) Lotus  (c) Marigold  (d) Mango", "a": "**(d) Mango.** Rose, lotus and marigold are flowers; mango is a fruit."},
+        {"q": "Which is the odd one out? (a) Square  (b) Rectangle  (c) Rhombus  (d) Circle", "a": "**(d) Circle.** The other three are quadrilaterals with four straight sides; a circle has no sides."},
+        {"q": "Which word is the odd one out? (a) Cricket  (b) Football  (c) Chess  (d) Hockey", "a": "**(c) Chess.** Chess is an indoor board game; the other three are outdoor field games."}
+      ]
+    },
+    {
+      "id": "coding-decoding",
+      "title": "Coding–decoding",
+      "mcq": [
+        {"q": "If A = 1, B = 2, … and CAT is coded as 24, what is the code for DOG? (a) 25  (b) 26  (c) 27  (d) 28", "a": "**(b) 26.** The code is the sum of letter positions: D (4) + O (15) + G (7) = 26. Check: C (3) + A (1) + T (20) = 24."},
+        {"q": "In a certain code APPLE is written as BQQMF. How is MANGO written in that code? (a) NBOHP  (b) NBOHQ  (c) LZMFN  (d) NBPHO", "a": "**(a) NBOHP.** Every letter moves one step forward: M → N, A → B, N → O, G → H, O → P."},
+        {"q": "If RED is coded as 27 by adding letter positions, what is the code for BLUE? (a) 38  (b) 40  (c) 42  (d) 44", "a": "**(b) 40.** B (2) + L (12) + U (21) + E (5) = 40. Check: R (18) + E (5) + D (4) = 27."},
+        {"q": "In a code language TABLE is written as ELBAT. How is CHAIR written? (a) RIAHC  (b) RAIHC  (c) CHIAR  (d) RIHAC", "a": "**(a) RIAHC.** The word is simply reversed: CHAIR → RIAHC."},
+        {"q": "If PEN is written as QFO, how is INK written? (a) JOL  (b) JNL  (c) HMJ  (d) JOK", "a": "**(a) JOL.** Each letter moves one step forward: I → J, N → O, K → L."},
+        {"q": "In a code, 'sky is blue' is 'la pa ta', 'sea is deep' is 'pa na ro' and 'blue sea' is 'ta na'. What is the code for 'deep'? (a) pa  (b) na  (c) ro  (d) la", "a": "**(c) ro.** 'is' = pa (common to the first two), 'blue' = ta (common to the first and third), 'sea' = na (common to the second and third). That leaves 'deep' = ro."},
+        {"q": "If A = 1, B = 2, C = 3 and so on, what is the sum of the letters of the word BAG? (a) 9  (b) 10  (c) 11  (d) 12", "a": "**(b) 10.** B (2) + A (1) + G (7) = 10."},
+        {"q": "If 1 = 5, 2 = 25, 3 = 125 and 4 = 625, then 5 = ? (a) 3125  (b) 1  (c) 25  (d) 5", "a": "**(b) 1.** The first statement says 1 = 5, so 5 = 1. The powers of 5 are a distraction."}
+      ]
+    },
+    {
+      "id": "direction-sense",
+      "title": "Direction sense",
+      "mcq": [
+        {"q": "A boy walks 3 km north, turns right and walks 4 km. How far is he from his starting point? (a) 7 km  (b) 5 km  (c) 1 km  (d) 12 km", "a": "**(b) 5 km.** North then east form a right angle; the distance is √(3² + 4²) = 5 km."},
+        {"q": "A person facing north turns 90° clockwise and then 180° anticlockwise. Which direction is he facing now? (a) East  (b) West  (c) South  (d) North", "a": "**(b) West.** North → (90° clockwise) east → (180° anticlockwise) west."},
+        {"q": "Ravi walks 10 m south, turns left and walks 10 m, then turns left again and walks 10 m. In which direction is he from his starting point? (a) North  (b) South  (c) East  (d) West", "a": "**(c) East.** Facing south, a left turn faces east; the next left turn faces north. He ends 10 m east of where he started, level with it."},
+        {"q": "If South-East becomes North and North-East becomes West, what does West become? (a) South-East  (b) North-West  (c) South-West  (d) North-East", "a": "**(a) South-East.** Every direction is turned 135° anticlockwise (SE → N, NE → W). West turned 135° anticlockwise is South-East."}
+      ]
+    },
+    {
+      "id": "blood-relations",
+      "title": "Blood relations",
+      "mcq": [
+        {"q": "Pointing to a girl in a photograph, Ram says, “She is the daughter of my grandfather's only son.” How is the girl related to Ram? (a) Mother  (b) Sister  (c) Cousin  (d) Aunt", "a": "**(b) Sister.** The grandfather's only son is Ram's father, so his daughter is Ram's sister."},
+        {"q": "A is the brother of B. B is the daughter of C. D is the father of A. How is C related to D? (a) Husband  (b) Wife  (c) Sister  (d) Mother", "a": "**(b) Wife.** D is the father of A and B (they are siblings), so C, the other parent of B, is D's wife."},
+        {"q": "Sita is the mother of Raju. Raju is the brother of Meena. Meena is the wife of Anil. How is Anil related to Sita? (a) Son  (b) Brother  (c) Son-in-law  (d) Nephew", "a": "**(c) Son-in-law.** Meena is Sita's daughter, so her husband Anil is Sita's son-in-law."},
+        {"q": "Introducing a man, a woman said, “His mother is the only daughter of my mother.” How is the woman related to the man? (a) Sister  (b) Aunt  (c) Mother  (d) Grandmother", "a": "**(c) Mother.** The only daughter of the woman's mother is the woman herself, so she is the man's mother."}
+      ]
+    },
+    {
+      "id": "clock-calendar",
+      "title": "Clock and calendar",
+      "mcq": [
+        {"q": "If today is Monday, what day of the week will it be after 100 days? (a) Tuesday  (b) Wednesday  (c) Thursday  (d) Sunday", "a": "**(b) Wednesday.** 100 = 14 × 7 + 2, so the day moves two places forward: Monday → Wednesday."},
+        {"q": "What is the angle between the hour hand and the minute hand of a clock at 3:00? (a) 60°  (b) 90°  (c) 120°  (d) 180°", "a": "**(b) 90°.** Each hour mark is 30° apart; at 3:00 the hands are 3 marks apart: 3 × 30° = 90°."},
+        {"q": "What is the angle between the hands of a clock at 3:30? (a) 60°  (b) 75°  (c) 90°  (d) 105°", "a": "**(b) 75°.** The minute hand is at 180°; the hour hand is at 3 × 30° + 30 × 0.5° = 105°. The difference is 75°."},
+        {"q": "A clock shows 4:20. What time does its mirror image show? (a) 7:40  (b) 8:40  (c) 7:20  (d) 8:20", "a": "**(a) 7:40.** Subtract from 11:60 — 11:60 − 4:20 = 7:40."}
+      ]
+    },
+    {
+      "id": "puzzles",
+      "title": "Ranking, arrangement and puzzles",
+      "mcq": [
+        {"q": "In a row of 25 students, Amit is 9th from the left end. What is his position from the right end? (a) 16th  (b) 17th  (c) 18th  (d) 15th", "a": "**(b) 17th.** Position from the right = 25 − 9 + 1 = 17."},
+        {"q": "If 5 machines take 5 minutes to make 5 toys, how long would 100 machines take to make 100 toys? (a) 100 minutes  (b) 20 minutes  (c) 5 minutes  (d) 1 minute", "a": "**(c) 5 minutes.** Each machine makes one toy in 5 minutes, so 100 machines make 100 toys in the same 5 minutes."},
+        {"q": "A father is 4 times as old as his son. After 5 years he will be 3 times as old. What is the son's present age? (a) 5 years  (b) 10 years  (c) 15 years  (d) 20 years", "a": "**(b) 10 years.** Let the son be s. Then 4s + 5 = 3(s + 5), so s = 10. Check: 40 and 10 now; 45 and 15 after five years."},
+        {"q": "How many numbers from 1 to 100 are divisible by both 3 and 5? (a) 5  (b) 6  (c) 7  (d) 15", "a": "**(b) 6.** A number divisible by both 3 and 5 is a multiple of 15: 15, 30, 45, 60, 75, 90."},
+        {"q": "If 2 # 3 = 13 and 3 # 4 = 25, then 4 # 5 = ? (a) 39  (b) 40  (c) 41  (d) 45", "a": "**(c) 41.** The rule is a² + b²: 4 + 9 = 13, 9 + 16 = 25, so 16 + 25 = 41."},
+        {"q": "In each row the third number comes from the first two in the same way: 3, 5 → 8; 7, 2 → 9; 4, 6 → ? (a) 9  (b) 10  (c) 11  (d) 12", "a": "**(b) 10.** The third number is the sum of the first two: 4 + 6 = 10."},
+        {"q": "Statements: All roses are flowers. Some flowers fade quickly. Conclusions: I. Some roses fade quickly. II. All flowers are roses. Which conclusion follows? (a) Only I  (b) Only II  (c) Both I and II  (d) Neither I nor II", "a": "**(d) Neither I nor II.** The flowers that fade quickly need not include any roses, and 'all roses are flowers' does not make all flowers roses."},
+        {"q": "Statements: All pens are pencils. All pencils are erasers. Conclusions: I. All pens are erasers. II. Some erasers are pens. Which conclusion follows? (a) Only I  (b) Only II  (c) Both I and II  (d) Neither I nor II", "a": "**(c) Both I and II.** Pens ⊂ pencils ⊂ erasers, so all pens are erasers; and since pens exist among erasers, some erasers are pens."},
+        {"q": "Among five friends, P is taller than Q but shorter than R. S is taller than R. T is shorter than Q. Who is the shortest? (a) Q  (b) T  (c) P  (d) R", "a": "**(b) T.** The order is S > R > P > Q > T, so T is the shortest."},
+        {"q": "The sum of the ages of a mother and her daughter is 50 years. Five years ago the mother was 7 times as old as the daughter. What is the daughter's present age? (a) 8 years  (b) 10 years  (c) 12 years  (d) 15 years", "a": "**(b) 10 years.** With daughter d and mother 50 − d: (50 − d) − 5 = 7(d − 5) gives 45 − d = 7d − 35, so 8d = 80 and d = 10."},
+        {"q": "A cube is painted red on all faces and cut into 27 equal small cubes. How many small cubes have exactly two red faces? (a) 8  (b) 12  (c) 6  (d) 1", "a": "**(b) 12.** In a 3 × 3 × 3 cube the edge cubes (not corners) have two painted faces; there are 12 edges with one such cube each."},
+        {"q": "How many capital letters of the English alphabet look the same in a mirror placed vertically beside them (left–right reversal)? (a) 9  (b) 10  (c) 11  (d) 12", "a": "**(c) 11.** A, H, I, M, O, T, U, V, W, X and Y are symmetric about a vertical axis."},
+        {"q": "How many times does the digit 7 appear when the numbers from 1 to 100 are written out? (a) 10  (b) 11  (c) 19  (d) 20", "a": "**(d) 20.** Ten times in the units place (7, 17, …, 97) and ten times in the tens place (70–79); 77 counts twice."},
+        {"q": "A bat and a ball cost ₹110 together. The bat costs ₹100 more than the ball. What does the ball cost? (a) ₹10  (b) ₹5  (c) ₹15  (d) ₹20", "a": "**(b) ₹5.** If the ball costs b, the bat costs b + 100 and 2b + 100 = 110, so b = 5. (₹10 would make the total ₹120.)"},
+        {"q": "In a class Rohit ranks 12th from the top and 30th from the bottom. How many students are there in the class? (a) 40  (b) 41  (c) 42  (d) 43", "a": "**(b) 41.** Total = 12 + 30 − 1 = 41, because Rohit is counted in both directions."},
+        {"q": "Five people A, B, C, D and E sit in a row facing north. E sits at the left end. A sits immediately to the left of B. C sits between B and D. Who sits at the right end? (a) B  (b) C  (c) D  (d) A", "a": "**(c) D.** The only arrangement that fits is E, A, B, C, D from left to right, so D is at the right end."},
+        {"q": "One tap fills a tank in 6 hours and another fills it in 3 hours. How long do both taps together take to fill the tank? (a) 2 hours  (b) 3 hours  (c) 4.5 hours  (d) 9 hours", "a": "**(a) 2 hours.** Together they fill 1/6 + 1/3 = 1/2 of the tank per hour, so the full tank takes 2 hours."}
+      ]
+    }
+  ]
+}

@@ -24,6 +24,7 @@ import sys
 
 from admissions import admissions_body
 from nsat import nsat_body
+import mocktest
 from pathlib import Path
 
 SITE = Path(__file__).resolve().parent
@@ -119,6 +120,12 @@ CREDIT = "Mohammad Umair"
 # Filled in by build() so every page can render the same subject switcher.
 NAV_SUBJECTS: list = []
 NAV_PENDING: set = set()
+# {subject slug: mock-test exam id} so hubs and the sidebar can link to
+# "the mock test for this subject" (Hindi links to Course A, which cross-links B).
+NAV_MOCK: dict = {}
+# {(subject slug, chapter id): mock exam id} — which mock-test engine page
+# hosts the chapter-wise mock for that chapter.
+MOCK_CHAPTERS: dict = {}
 
 
 def href_to(root, path):
@@ -167,6 +174,14 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
             f'<span class="toc-num">{code}</span>{html.escape(s["title"])}</a>'
         )
 
+    on = " is-on" if active == "mock" else ""
+    cur = ' aria-current="page"' if active == "mock" else ""
+    bits.append('<div class="toc-group">Practice</div>')
+    bits.append(
+        f'<a class="toc-item{on}" href="{href_to(root, "mock-test/index.html")}"{cur}>'
+        '<span class="toc-num">&#10003;</span>Mock tests &amp; score</a>'
+    )
+
     on = " is-on" if active == "admissions" else ""
     cur = ' aria-current="page"' if active == "admissions" else ""
     bits.append('<div class="toc-group">Beyond Class 10</div>')
@@ -193,6 +208,11 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
             bits.append(
                 f'<a class="toc-item{on}" href="{href_to(root, f"{subject}/{fn}")}"{cur}>'
                 f'<span class="toc-num">&bull;</span>{html.escape(label)}</a>'
+            )
+        if subject in NAV_MOCK:
+            bits.append(
+                f'<a class="toc-item" href="{href_to(root, f"mock-test/{NAV_MOCK[subject]}/index.html")}">'
+                '<span class="toc-num">&#10003;</span>Mock test</a>'
             )
 
         if chapters is not None and subj:
@@ -554,14 +574,20 @@ def chapter_body(subj, ch, idx, total, chapters):
     lede_html = inline(ch.get("lede", default_lede))
     practice_href = f"../practice/{ch['id']}.html"
     chip_html = " ".join(f'<a class="chip" href="{h}">{t}</a>' for h, t in chips)
+    mock_host = MOCK_CHAPTERS.get((sid, ch["id"]))
+    mock_btn = (
+        f'<a class="btn" href="../../mock-test/{mock_host}/test.html?chapter={ch["id"]}">'
+        "Mock-test this chapter (timed, scored) \u2192</a>"
+        if mock_host else ""
+    )
 
     parts = []
     parts.append(
         f'<p class="kicker">{html.escape(subj["kicker"])}</p>'
         f'<h1>Chapter {ch["num"]} \u00b7 {html.escape(ch["title"])}</h1>'
         f'<p class="lede"><strong>Chapter {idx} of {total}.</strong> {lede_html}</p>'
-        f'<p><a class="btn" href="{practice_href}">'
-        f'Open this chapter\u2019s questions + MCQs \u2192</a></p>'
+        f'<p class="btnrow"><a class="btn" href="{practice_href}">'
+        f'Open this chapter\u2019s questions + MCQs \u2192</a>{mock_btn}</p>'
         f'<p class="chips">{chip_html}</p>'
     )
 
@@ -691,6 +717,12 @@ def hub_body(subj, chapters):
         ("revision.html", "\U0001f9e0", cards_meta.get("revision", "Exam morning"),
          "Formulas, definitions and answer frames."),
     ]
+    mock_id = NAV_MOCK.get(sid)
+    if mock_id:
+        jump_items.append((
+            f"../mock-test/{mock_id}/index.html", "\u2705", "Mock tests",
+            "10 generated mocks + a timed mock for every chapter. Instant score, one-page report, downloadable paper.",
+        ))
     jump_cards = card_grid([
         f'<a class="jump" href="{href}"><strong>{icon} {html.escape(label)}</strong>'
         f'<span>{html.escape(desc)}</span></a>'
@@ -704,6 +736,7 @@ def hub_body(subj, chapters):
   <a class="btn" href="syllabus.html">View syllabus</a>
   <a class="btn primary" href="chapters/{first["id"]}.html">Start Ch {first["num"]} \u00b7 {html.escape(first["title"])} \u2192</a>
   <a class="btn" href="revision.html">Quick revision</a>
+  {(f'<a class="btn" href="../mock-test/{NAV_MOCK[sid]}/index.html">Mock tests &amp; score</a>' if sid in NAV_MOCK else "")}
 </p>
 
 <section class="dash">
@@ -877,6 +910,12 @@ def unit_body(subj, unit, chapters):
 
 
 def practice_body(subj, ch, chapters):
+    mock_host = MOCK_CHAPTERS.get((subj["slug"], ch["id"]))
+    mock_btn = (
+        f'<a class="btn" href="../../mock-test/{mock_host}/test.html?chapter={ch["id"]}">'
+        "Mock-test this chapter \u2192</a>"
+        if mock_host else ""
+    )
     qa_items = ch.get("qa") or []
     mcq_items = ch.get("mcq") or []
     n = count_types(qa_items, mcq_items)
@@ -891,7 +930,7 @@ Short · Long · Application · Competency plus MCQs — the same tone as the IT
 <div class="qstack">{mcq_html or '<p class="hint">MCQs for this chapter are not written yet.</p>'}</div>
 <h2>Written questions · Write</h2>
 {render_qbank(qa_items)}
-<p><a class="btn" href="../chapters/{ch["id"]}.html">\u2190 Back to the chapter</a></p>
+<p class="btnrow"><a class="btn" href="../chapters/{ch["id"]}.html">\u2190 Back to the chapter</a>{mock_btn}</p>
 {chapter_nav(chapters, ch, lambda c: c["id"] + ".html", "../chapters.html",
                "All " + subj["title"] + " chapters")}
 """
@@ -932,7 +971,7 @@ then Show Answer. Filter does not score you — this is self-check, not a test.<
 # --------------------------------------------------------------------------
 # portal
 # --------------------------------------------------------------------------
-def portal_body(subjects, counts, pending=()):
+def portal_body(subjects, counts, pending=(), mock_summary=None):
     cards = []
     for s in subjects:
         if s["slug"] in pending:
@@ -960,6 +999,15 @@ built in here, not on a separate site. Each chapter has concepts, formulas, tric
 and exam Q&amp;A in four tones: <strong>Short, Long, Application, Competency</strong>. Answers stay hidden
 until you click Show Answer.</p>
 {card_grid(cards, "subjects")}
+<h2>Test yourself</h2>
+<div class="subjects">
+<a class="subject-card" href="mock-test/index.html">
+<span class="sc-code">MOCK TESTS · CHECK YOUR SCORE ONLINE</span>
+<strong>Mock test centre</strong>
+<span class="sc-desc">Timed MCQ mock tests for every subject and every entrance or scholarship exam listed here. Instant score,
+a one-page report you can print or save as PDF, and downloadable question papers with answer keys.</span>
+<span class="sc-meta">{html.escape(mock_summary or "Online test · report · downloads")}</span></a>
+</div>
 <h2>Plan your next step</h2>
 <div class="subjects">
 <a class="subject-card" href="after-10th/index.html">
@@ -980,6 +1028,7 @@ until you click Show Answer.</p>
 <li><strong>Drill</strong> — MCQs for the whole subject. Attempt first, then reveal.</li>
 <li><strong>Revise</strong> — the one-page sheet, then tick Mark complete. Progress stays on this device.</li>
 <li><strong>Bank</strong> — every written Q&amp;A, filtered by type, 15–20 a day.</li>
+<li><strong>Test</strong> — a timed mock test every week; read the one-page report and revise the chapters it flags.</li>
 </ol>
 """
     return [("Home", None)], body
@@ -1038,9 +1087,18 @@ def build(check_only=False):
 
     # Every page renders the same sidebar, so share the subject list and work
     # out up front which subjects still have no content.
-    global NAV_SUBJECTS, NAV_PENDING
+    global NAV_SUBJECTS, NAV_PENDING, NAV_MOCK, MOCK_CHAPTERS
     NAV_SUBJECTS = subjects
     NAV_PENDING = {s["slug"] for s in subjects if not chapters_exist(s["slug"])}
+
+    # Mock tests are assembled before any page is written so the sidebar and
+    # hubs can link to them; assembly also validates the blueprints.
+    all_chapters = {
+        s["slug"]: load_chapters(s["slug"]) for s in subjects if s["slug"] not in NAV_PENDING
+    }
+    mock_config, mock_exams = mocktest.prepare(subjects, all_chapters)
+    NAV_MOCK = mocktest.mock_for_subject(mock_exams)
+    MOCK_CHAPTERS = mocktest.mock_chapter_hosts(mock_exams)
 
     if DIST.exists():
         shutil.rmtree(DIST)
@@ -1048,6 +1106,7 @@ def build(check_only=False):
     (DIST / "assets").mkdir()
     shutil.copy(THEME / "style.css", DIST / "assets" / "style.css")
     shutil.copy(THEME / "app.js", DIST / "assets" / "app.js")
+    shutil.copy(THEME / "mock.js", DIST / "assets" / "mock.js")
 
     # GitHub Pages runs Jekyll on a branch-served folder unless this marker is
     # present; the site is plain static HTML, so skip it.
@@ -1066,7 +1125,7 @@ def build(check_only=False):
             print(f"  skipped {sid}: no chapter content yet")
             continue
 
-        chapters = load_chapters(sid)
+        chapters = all_chapters[sid]
         counts[sid] = len(chapters)
 
         # Content sanity checks, so a typo cannot silently produce a broken hub.
@@ -1128,10 +1187,11 @@ def build(check_only=False):
             written.append(f"{sid}/chapters/{ch['id']}.html")
             written.append(f"{sid}/practice/{ch['id']}.html")
 
+    mock_ids = {e["admission_id"]: e["id"] for e in mock_exams if e.get("admission_id")}
     write(DIST / "after-10th" / "index.html", page(
         "After 10th — admissions & scholarships",
         [("Home", "../index.html"), ("After 10th", None)],
-        admissions_body(), "..", active="admissions"))
+        admissions_body(mock_ids), "..", active="admissions"))
     written.append("after-10th/index.html")
 
     write(DIST / "pw-nsat" / "index.html", page(
@@ -1140,7 +1200,21 @@ def build(check_only=False):
         nsat_body(), "..", active="pw-nsat"))
     written.append("pw-nsat/index.html")
 
-    crumbs, body = portal_body(subjects, counts, pending)
+    # Mock tests: centre, one page per exam, one test + paper + downloads per set.
+    admissions = load("admissions.json")["institutions"]
+    mock_written = mocktest.build_mock_tests(
+        DIST, mock_config, mock_exams, subjects, admissions, page, write, inline)
+    written.extend(mock_written)
+    n_slots = sum(e.get("tests", 10) for e in mock_exams)
+    n_ch = sum(len(e["chapters_data"]) for e in mock_exams)
+    n_q = len({q["uid"] for e in mock_exams for q in e["pool_data"].values()})
+    biggest = max(len(e["pool_data"]) for e in mock_exams)
+    print(f"  mock tests: {len(mock_exams)} exams, {n_slots} mock slots, "
+          f"{n_ch} chapter mocks, {n_q} pool questions (largest pool {biggest})")
+
+    crumbs, body = portal_body(
+        subjects, counts, pending,
+        f"{len(mock_exams)} exams \u00b7 {n_slots} mocks \u00b7 {n_ch} chapter mocks")
     write(DIST / "index.html", page("Home", crumbs, body, ".", None, "home"))
     written.append("index.html")
     return written, pending
@@ -1155,6 +1229,9 @@ def validate():
         for href in re.findall(r'href="([^"#]+?)(?:#[^"]*)?"', text):
             if href.startswith(("http", "mailto:", "/")):
                 continue
+            # a query string (test.html?n=3) selects a mode on a real page;
+            # only the file itself has to exist
+            href = href.split("?", 1)[0]
             target = (f.parent / href).resolve()
             if not target.exists():
                 print(f"BROKEN LINK {f.relative_to(DIST)} -> {href}")

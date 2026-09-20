@@ -1,0 +1,1375 @@
+{
+  "_about": "Mock-test blueprints. Each exam offers `tests` online mocks; every attempt generates a fresh paper in the browser from the pools listed per section (subject units / chapter ids / a bank id), avoiding questions already served on that device until the pool cycles. Chapter mocks are generated from the same chapter banks. Patterns are approximations from public sources — not official papers.",
+  "groups": [
+    {
+      "id": "board",
+      "title": "CBSE board subjects",
+      "intro": "Objective mocks modelled on the MCQ section of the board paper but stretched across the whole syllabus, so one attempt tells you which units need work. One mark per question, no negative marking."
+    },
+    {
+      "id": "school",
+      "title": "Class XI entrance tests",
+      "intro": "School admission tests set on the Class X syllabus. Where an official section (General Knowledge, Indo-Islamic culture) has no question bank here, the mock says so and leaves it out."
+    },
+    {
+      "id": "diploma",
+      "title": "Diploma / polytechnic entrance tests",
+      "intro": "Physics, Chemistry and Mathematics at Class X level. These mocks are half-length so that every set stays fresh; double your time and marks for a full-length estimate."
+    },
+    {
+      "id": "scholarship",
+      "title": "Coaching scholarship tests",
+      "intro": "Private coaching scholarship tests: Physics, Chemistry, Biology, Mathematics and Mental Ability. Marks per question and negative marking follow the pattern each institute has published; verify the year's brochure."
+    }
+  ],
+  "exams": [
+    {
+      "id": "maths",
+      "group": "board",
+      "subject": "maths",
+      "title": "Mathematics",
+      "code": "041 / 241",
+      "short": "All seven units, weighted like the board paper.",
+      "questions": 28,
+      "minutes": 40,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "Objective mock",
+      "pattern_note": "The board paper has 20 one-mark MCQs in Section A plus written sections; this mock uses 28 MCQs spread over all seven units in roughly the unit-marks ratio, and the three sets together use every question in the bank exactly once.",
+      "sections": [
+        {
+          "name": "Number Systems",
+          "count": 2,
+          "pools": [
+            {
+              "subject": "maths",
+              "units": [
+                "u1"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Algebra",
+          "count": 8,
+          "pools": [
+            {
+              "subject": "maths",
+              "units": [
+                "u2"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Coordinate Geometry",
+          "count": 2,
+          "pools": [
+            {
+              "subject": "maths",
+              "units": [
+                "u3"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Geometry",
+          "count": 4,
+          "pools": [
+            {
+              "subject": "maths",
+              "units": [
+                "u4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Trigonometry",
+          "count": 4,
+          "pools": [
+            {
+              "subject": "maths",
+              "units": [
+                "u5"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mensuration",
+          "count": 4,
+          "pools": [
+            {
+              "subject": "maths",
+              "units": [
+                "u6"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Statistics & Probability",
+          "count": 4,
+          "pools": [
+            {
+              "subject": "maths",
+              "units": [
+                "u7"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "science",
+      "group": "board",
+      "subject": "science",
+      "title": "Science",
+      "code": "086",
+      "short": "Chemistry, Biology, Physics and Environment in the board ratio.",
+      "questions": 30,
+      "minutes": 40,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "Objective mock",
+      "pattern_note": "The board paper has 20 one-mark MCQs in Section A plus written sections; this mock uses 30 MCQs spread over all five units in roughly the unit-marks ratio (Chemistry 10, Biology 8, Physics 10, Environment 2).",
+      "sections": [
+        {
+          "name": "Chemical Substances",
+          "count": 10,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u1"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "World of Living",
+          "count": 8,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u2"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Natural Phenomena",
+          "count": 5,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u3"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Effects of Current",
+          "count": 5,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Natural Resources",
+          "count": 2,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u5"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "social-science",
+      "group": "board",
+      "subject": "social-science",
+      "title": "Social Science",
+      "code": "087",
+      "short": "History, Geography, Political Science, Economics — 8 each.",
+      "questions": 32,
+      "minutes": 40,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "Objective mock",
+      "pattern_note": "The board paper has 20 one-mark MCQs in Section A plus written sections; this mock uses 32 MCQs, 8 from each of the four books, matching their equal 20-mark weight.",
+      "sections": [
+        {
+          "name": "History",
+          "count": 8,
+          "pools": [
+            {
+              "subject": "social-science",
+              "units": [
+                "history"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Geography",
+          "count": 8,
+          "pools": [
+            {
+              "subject": "social-science",
+              "units": [
+                "geography"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Political Science",
+          "count": 8,
+          "pools": [
+            {
+              "subject": "social-science",
+              "units": [
+                "polity"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Economics",
+          "count": 8,
+          "pools": [
+            {
+              "subject": "social-science",
+              "units": [
+                "economics"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "english",
+      "group": "board",
+      "subject": "english",
+      "title": "English Language & Literature",
+      "code": "184",
+      "short": "First Flight prose and poems, Footprints, reading and grammar.",
+      "questions": 40,
+      "minutes": 40,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "Objective mock",
+      "pattern_note": "Literature questions dominate here because the reading and writing sections of the real paper are passage-based; use the Reading, Grammar & Writing questions as a check on rules, not as a substitute for writing practice.",
+      "sections": [
+        {
+          "name": "First Flight · Prose",
+          "count": 11,
+          "pools": [
+            {
+              "subject": "english",
+              "units": [
+                "ff-prose"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "First Flight · Poems",
+          "count": 11,
+          "pools": [
+            {
+              "subject": "english",
+              "units": [
+                "ff-poems"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Footprints Without Feet",
+          "count": 10,
+          "pools": [
+            {
+              "subject": "english",
+              "units": [
+                "fwf"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reading, Grammar & Writing",
+          "count": 8,
+          "pools": [
+            {
+              "subject": "english",
+              "units": [
+                "skills"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "hindi-a",
+      "group": "board",
+      "subject": "hindi",
+      "title": "Hindi Course A",
+      "code": "002",
+      "short": "क्षितिज, कृतिका और व्याकरण-लेखन।",
+      "questions": 40,
+      "minutes": 40,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "Objective mock",
+      "pattern_note": "Course A students only: क्षितिज भाग-2 and कृतिका भाग-2 plus the grammar and writing units shared with Course B. Options use क ख ग घ as in the board paper.",
+      "sections": [
+        {
+          "name": "क्षितिज भाग-2",
+          "count": 16,
+          "pools": [
+            {
+              "subject": "hindi",
+              "units": [
+                "kshitij"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "कृतिका भाग-2",
+          "count": 6,
+          "pools": [
+            {
+              "subject": "hindi",
+              "units": [
+                "kritika"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "व्याकरण और लेखन",
+          "count": 18,
+          "pools": [
+            {
+              "subject": "hindi",
+              "units": [
+                "vyakaran"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "hindi-b",
+      "group": "board",
+      "subject": "hindi",
+      "title": "Hindi Course B",
+      "code": "085",
+      "short": "स्पर्श, संचयन और व्याकरण-लेखन।",
+      "questions": 40,
+      "minutes": 40,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "Objective mock",
+      "pattern_note": "Course B students only: स्पर्श भाग-2 and संचयन भाग-2 plus the grammar and writing units shared with Course A. Options use क ख ग घ as in the board paper.",
+      "sections": [
+        {
+          "name": "स्पर्श भाग-2",
+          "count": 16,
+          "pools": [
+            {
+              "subject": "hindi",
+              "units": [
+                "sparsh"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "संचयन भाग-2",
+          "count": 6,
+          "pools": [
+            {
+              "subject": "hindi",
+              "units": [
+                "sanchayan"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "व्याकरण और लेखन",
+          "count": 18,
+          "pools": [
+            {
+              "subject": "hindi",
+              "units": [
+                "vyakaran"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "information-technology",
+      "group": "board",
+      "subject": "information-technology",
+      "title": "Information Technology",
+      "code": "402",
+      "short": "Employability skills, Writer, Calc, Base and workplace safety.",
+      "questions": 30,
+      "minutes": 35,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "Objective mock",
+      "pattern_note": "The 50-mark theory paper is objective in Section A and subjective in Section B; this mock keeps the unit ratio of the theory paper (10 : 8 : 10 : 12 : 10).",
+      "sections": [
+        {
+          "name": "Employability Skills",
+          "count": 6,
+          "pools": [
+            {
+              "subject": "information-technology",
+              "units": [
+                "pa"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Digital Documentation (Writer)",
+          "count": 5,
+          "pools": [
+            {
+              "subject": "information-technology",
+              "units": [
+                "writer"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Electronic Spreadsheet (Calc)",
+          "count": 6,
+          "pools": [
+            {
+              "subject": "information-technology",
+              "units": [
+                "calc"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Database Management (Base)",
+          "count": 7,
+          "pools": [
+            {
+              "subject": "information-technology",
+              "units": [
+                "dbms"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Healthy, Safe & Secure Workplace",
+          "count": 6,
+          "pools": [
+            {
+              "subject": "information-technology",
+              "units": [
+                "safety"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "computer-applications",
+      "group": "board",
+      "subject": "computer-applications",
+      "title": "Computer Applications",
+      "code": "165",
+      "short": "Networking, HTML and cyber ethics.",
+      "questions": 30,
+      "minutes": 35,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "Objective mock",
+      "pattern_note": "Theory is 50 marks split Networking 15, HTML 25, Cyber Ethics 10; this mock keeps that ratio.",
+      "sections": [
+        {
+          "name": "Networking",
+          "count": 10,
+          "pools": [
+            {
+              "subject": "computer-applications",
+              "units": [
+                "networking"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HTML",
+          "count": 15,
+          "pools": [
+            {
+              "subject": "computer-applications",
+              "units": [
+                "html"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cyber Ethics",
+          "count": 5,
+          "pools": [
+            {
+              "subject": "computer-applications",
+              "units": [
+                "cyber-ethics"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "sanskrit",
+      "group": "board",
+      "subject": "sanskrit",
+      "title": "Sanskrit",
+      "code": "122",
+      "short": "शेमुषी, अनुप्रयुक्त-व्याकरण और रचनात्मक लेखन।",
+      "questions": 38,
+      "minutes": 40,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "Objective mock",
+      "pattern_note": "The board paper is largely objective: पठित-अवबोधन 30, व्याकरण 25, लेखन 15, अपठित 10. This mock keeps the first three in ratio; options use क ख ग घ.",
+      "sections": [
+        {
+          "name": "शेमुषी भाग-2",
+          "count": 18,
+          "pools": [
+            {
+              "subject": "sanskrit",
+              "units": [
+                "shemushi"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "अनुप्रयुक्तव्याकरणम्",
+          "count": 14,
+          "pools": [
+            {
+              "subject": "sanskrit",
+              "units": [
+                "vyakaran"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "रचनात्मकलेखनम्",
+          "count": 6,
+          "pools": [
+            {
+              "subject": "sanskrit",
+              "units": [
+                "lekhan"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "nvs",
+      "group": "school",
+      "admission_id": "nvs",
+      "title": "JNV Class XI — Lateral Entry Selection Test",
+      "code": "LEST",
+      "short": "Mental Ability, English, Science, Social Science, Mathematics — 20 each.",
+      "questions": 100,
+      "minutes": 150,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "Full-length",
+      "pattern_note": "Public descriptions of the Class XI LEST give 100 one-mark MCQs in five sections of 20 (Mental Ability, English, Science, Social Science, Mathematics) in 2½ hours with no negative marking. Confirm in the current NVS prospectus.",
+      "sections": [
+        {
+          "name": "Mental Ability",
+          "count": 20,
+          "pools": [
+            {
+              "bank": "mental-ability"
+            }
+          ]
+        },
+        {
+          "name": "English",
+          "count": 20,
+          "pools": [
+            {
+              "subject": "english"
+            }
+          ]
+        },
+        {
+          "name": "Science",
+          "count": 20,
+          "pools": [
+            {
+              "subject": "science"
+            }
+          ]
+        },
+        {
+          "name": "Social Science",
+          "count": 20,
+          "pools": [
+            {
+              "subject": "social-science"
+            }
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "count": 20,
+          "pools": [
+            {
+              "subject": "maths"
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "jmi",
+      "group": "school",
+      "admission_id": "jmi",
+      "title": "JMI Class XI (Science) — school entrance test",
+      "code": "JMI XI",
+      "short": "English, Physics, Chemistry, Biology, Mathematics.",
+      "questions": 90,
+      "minutes": 108,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "90 of 100 questions",
+      "pattern_note": "Public descriptions of the Class XI Science test give 100 one-mark MCQs in 2 hours with no negative marking: English 25, GK 10, Physics 15, Chemistry 15, Biology 15, Mathematics 20. This mock has no General Knowledge bank, so it runs the other 90 questions in 108 minutes. Confirm in the current JMI prospectus.",
+      "sections": [
+        {
+          "name": "English",
+          "count": 25,
+          "pools": [
+            {
+              "subject": "english"
+            }
+          ]
+        },
+        {
+          "name": "Physics",
+          "count": 15,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u3",
+                "u4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "count": 15,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u1"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Biology",
+          "count": 15,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u2",
+                "u5"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "count": 20,
+          "pools": [
+            {
+              "subject": "maths"
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "amu",
+      "group": "school",
+      "admission_id": "amu",
+      "title": "AMU Class XI (Science) — admission test",
+      "code": "AMU XI",
+      "short": "Physics, Chemistry, Biology, Mathematics, English.",
+      "questions": 50,
+      "minutes": 60,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "Half-length",
+      "pattern_note": "Public descriptions give a 100-question, 2-hour objective paper on the Class IX–X syllabus, with Physics, Chemistry and Biology together carrying about half the marks and Mathematics most of the rest; sources disagree on negative marking. This half-length mock scores +1 / 0 and omits the Indo-Islamic culture and GK sections. Confirm in the current AMU guide.",
+      "sections": [
+        {
+          "name": "Physics",
+          "count": 9,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u3",
+                "u4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "count": 9,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u1"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Biology",
+          "count": 8,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u2",
+                "u5"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "count": 18,
+          "pools": [
+            {
+              "subject": "maths"
+            }
+          ]
+        },
+        {
+          "name": "English",
+          "count": 6,
+          "pools": [
+            {
+              "subject": "english",
+              "units": [
+                "skills"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "bhu",
+      "group": "school",
+      "admission_id": "bhu",
+      "title": "BHU / CHS SET Class XI (Maths group)",
+      "code": "SET XI",
+      "short": "Mathematics, Physics, Chemistry.",
+      "questions": 50,
+      "minutes": 60,
+      "marks_correct": 1,
+      "marks_wrong": 0,
+      "length": "Half-length",
+      "pattern_note": "Public descriptions of the Class XI SET give 100 MCQs in 2 hours, one mark each, with no negative marking mentioned in the bulletin; the Maths group draws on Mathematics, Physics and Chemistry. This half-length mock keeps that mix. Confirm in the current SET bulletin.",
+      "sections": [
+        {
+          "name": "Mathematics",
+          "count": 22,
+          "pools": [
+            {
+              "subject": "maths"
+            }
+          ]
+        },
+        {
+          "name": "Physics",
+          "count": 14,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u3",
+                "u4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "count": 14,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u1"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "up-polytechnic",
+      "group": "diploma",
+      "admission_id": "up-polytechnic",
+      "title": "JEECUP / UPJEE(P) Group A — Diploma in Engineering",
+      "code": "JEECUP A",
+      "short": "Mathematics 50 %, Physics 25 %, Chemistry 25 %.",
+      "questions": 50,
+      "minutes": 75,
+      "marks_correct": 4,
+      "marks_wrong": 1,
+      "length": "Half-length",
+      "pattern_note": "Group A is publicly described as 100 MCQs for 400 marks in 150 minutes, +4 for a correct answer and −1 for a wrong one, split Mathematics 50, Physics 25, Chemistry 25. This is the half-length version with the same marking. Confirm in the current JEECUP information brochure.",
+      "sections": [
+        {
+          "name": "Mathematics",
+          "count": 24,
+          "pools": [
+            {
+              "subject": "maths"
+            }
+          ]
+        },
+        {
+          "name": "Physics",
+          "count": 13,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u3",
+                "u4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "count": 13,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u1"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "bihar-polytechnic",
+      "group": "diploma",
+      "admission_id": "bihar-polytechnic",
+      "title": "DCECE (PE) — Bihar Polytechnic Engineering",
+      "code": "DCECE PE",
+      "short": "Physics, Chemistry, Mathematics — 5 marks each.",
+      "questions": 45,
+      "minutes": 68,
+      "marks_correct": 5,
+      "marks_wrong": 0,
+      "length": "Half-length",
+      "pattern_note": "The PE paper is publicly described as 90 MCQs for 450 marks (5 marks each, no negative marking) in 2 hours 15 minutes, 30 questions each from Physics, Chemistry and Mathematics. This is the half-length version. Confirm in the current BCECEB prospectus.",
+      "sections": [
+        {
+          "name": "Physics",
+          "count": 15,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u3",
+                "u4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "count": 15,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u1"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "count": 15,
+          "pools": [
+            {
+              "subject": "maths"
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "pw-nsat",
+      "group": "scholarship",
+      "admission_id": "pw-nsat",
+      "title": "PW NSAT (Class 10)",
+      "code": "NSAT",
+      "short": "Physics, Chemistry, Mathematics, Biology, Mental Ability.",
+      "questions": 40,
+      "minutes": 60,
+      "marks_correct": 4,
+      "marks_wrong": 0,
+      "length": "Full-length",
+      "pattern_note": "PW describes NSAT as 40 MCQs in 60 minutes, 4 marks each, with no negative marking in Level-1; Class 10 papers are track-specific (JEE: Physics, Chemistry, Mathematics, Mental Ability; NEET: Physics, Chemistry, Biology, Mental Ability). This mock mixes both tracks. Confirm on the official NSAT page.",
+      "sections": [
+        {
+          "name": "Physics",
+          "count": 10,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u3",
+                "u4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "count": 10,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u1"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "count": 10,
+          "pools": [
+            {
+              "subject": "maths"
+            }
+          ]
+        },
+        {
+          "name": "Biology",
+          "count": 5,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u2",
+                "u5"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mental Ability",
+          "count": 5,
+          "pools": [
+            {
+              "bank": "mental-ability"
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "tallentex",
+      "group": "scholarship",
+      "admission_id": "tallentex",
+      "title": "ALLEN TALLENTEX (Class X)",
+      "code": "TALLENTEX",
+      "short": "Physics, Chemistry, Biology, Maths 15 each; IQ 20. +4 / −1.",
+      "questions": 80,
+      "minutes": 120,
+      "marks_correct": 4,
+      "marks_wrong": 1,
+      "length": "Full-length",
+      "pattern_note": "ALLEN's published Class X pattern: 80 MCQs in 2 hours, +4 for a correct answer and −1 for a wrong one; Physics 15, Chemistry 15, Biology 15, Mathematics 15, IQ 20. Confirm on the official TALLENTEX site for the current cycle.",
+      "sections": [
+        {
+          "name": "Physics",
+          "count": 15,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u3",
+                "u4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "count": 15,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u1"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Biology",
+          "count": 15,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u2",
+                "u5"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "count": 15,
+          "pools": [
+            {
+              "subject": "maths"
+            }
+          ]
+        },
+        {
+          "name": "IQ / Mental Ability",
+          "count": 20,
+          "pools": [
+            {
+              "bank": "mental-ability"
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "anthe",
+      "group": "scholarship",
+      "admission_id": "anthe",
+      "title": "Aakash ANTHE (Class 10)",
+      "code": "ANTHE",
+      "short": "Mental Ability, Physics, Chemistry, Mathematics, Biology.",
+      "questions": 40,
+      "minutes": 60,
+      "marks_correct": 4,
+      "marks_wrong": 0,
+      "length": "Full-length",
+      "pattern_note": "Aakash has published different Class 10 formats in different years (35 or 40 MCQs in 60 minutes, and a 75-question, 2-hour version), always 4 marks per question with no negative marking and a Medical or Engineering track. This mock uses 40 questions in 60 minutes across both tracks. Confirm the current ANTHE brochure.",
+      "sections": [
+        {
+          "name": "Mental Ability",
+          "count": 10,
+          "pools": [
+            {
+              "bank": "mental-ability"
+            }
+          ]
+        },
+        {
+          "name": "Physics",
+          "count": 8,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u3",
+                "u4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "count": 8,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u1"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "count": 7,
+          "pools": [
+            {
+              "subject": "maths"
+            }
+          ]
+        },
+        {
+          "name": "Biology",
+          "count": 7,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u2",
+                "u5"
+              ]
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "iacst",
+      "group": "scholarship",
+      "admission_id": "iacst",
+      "title": "Aakash iACST (Class 10)",
+      "code": "iACST",
+      "short": "Physics, Chemistry, Mathematics, Biology, Mental Ability.",
+      "questions": 40,
+      "minutes": 60,
+      "marks_correct": 4,
+      "marks_wrong": 0,
+      "length": "Practice pattern",
+      "pattern_note": "iACST is a slot-based online test whose exact pattern depends on the course chosen and is not published as one fixed format. This mock uses 40 MCQs in 60 minutes, 4 marks each, no negative marking, across the Class 10 subjects Aakash lists. Confirm on the official iACST portal before booking a slot.",
+      "sections": [
+        {
+          "name": "Physics",
+          "count": 10,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u3",
+                "u4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "count": 10,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u1"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "count": 10,
+          "pools": [
+            {
+              "subject": "maths"
+            }
+          ]
+        },
+        {
+          "name": "Biology",
+          "count": 5,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u2",
+                "u5"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mental Ability",
+          "count": 5,
+          "pools": [
+            {
+              "bank": "mental-ability"
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    },
+    {
+      "id": "vmc-viq",
+      "group": "scholarship",
+      "admission_id": "vmc-viq",
+      "title": "Vidyamandir Classes VIQ (Class 10)",
+      "code": "VIQ",
+      "short": "Physics, Chemistry, Mathematics, Biology, Mental Ability. +4 / −1.",
+      "questions": 60,
+      "minutes": 90,
+      "marks_correct": 4,
+      "marks_wrong": 1,
+      "length": "Practice pattern",
+      "pattern_note": "VMC's Class 10 test covers Physics, Chemistry, Mathematics, Biology and Mental Ability; the exact count and marking vary by cycle and are not fixed publicly. This mock uses 60 MCQs in 90 minutes with +4 / −1 so you practise leaving doubtful questions. Confirm the current VIQ notice.",
+      "sections": [
+        {
+          "name": "Physics",
+          "count": 14,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u3",
+                "u4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "count": 14,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u1"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "count": 16,
+          "pools": [
+            {
+              "subject": "maths"
+            }
+          ]
+        },
+        {
+          "name": "Biology",
+          "count": 6,
+          "pools": [
+            {
+              "subject": "science",
+              "units": [
+                "u2",
+                "u5"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mental Ability",
+          "count": 10,
+          "pools": [
+            {
+              "bank": "mental-ability"
+            }
+          ]
+        }
+      ],
+      "tests": 10
+    }
+  ],
+  "no_test": [
+    {
+      "admission_id": "kvs",
+      "title": "Kendriya Vidyalayas — Class XI",
+      "why": "merit / vacancy route, no entrance test"
+    },
+    {
+      "admission_id": "chandigarh-xi",
+      "title": "Chandigarh government schools — Class XI",
+      "why": "centralised merit allotment, no entrance test"
+    },
+    {
+      "admission_id": "haryana-polytechnic",
+      "title": "Haryana HSTES Diploma Engineering",
+      "why": "merit / counselling route, no entrance test"
+    },
+    {
+      "admission_id": "rkm-narendrapur",
+      "title": "RKM Vidyalaya Narendrapur — Class XI",
+      "why": "selection process must be verified in the current notice"
+    }
+  ]
+}

@@ -18,13 +18,13 @@ Class10CBSE/
 ├── 09-After-10th/            Class XI admissions, official links, 9 PM IST tracker
 ├── 10-PW-NSAT/               PW scholarship test: syllabus, practice, registration
 ├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · structure.conf
-├── site/                     content/ + build.py that generate the study hub
+├── site/                     content/ + build.py + mocktest.py that generate the study hub
 └── docs/                     the generated study hub — this is what GitHub Pages serves
 ```
 
 **Live site: <https://clickalex.github.io/Class10CBSE/>** — built from
 `site/content/`, one hub per subject (including IT 402, in-built), 175 chapter
-pages, **2,133 written Q&A and 1,402 MCQs**. Every subject uses the same design
+pages, **2,133 written Q&A and 1,426 MCQs**. Every subject uses the same design
 and the same Q&A tone: Short, Long, Application and Competency, with
 click-to-reveal answers.
 
@@ -43,6 +43,46 @@ plus a formula list in the subjects that have formulas. See
 [What every chapter contains](site/README.md#what-every-chapter-contains).
 
 See [Deploying the site](#deploying-the-site) below.
+
+## Mock tests — check your own score online
+
+The [mock test centre](https://clickalex.github.io/Class10CBSE/mock-test/)
+has a timed MCQ mock test for **every exam listed in this repository**: the nine
+board subjects (Maths, Science, Social Science, English, Hindi A, Hindi B, IT
+402, Computer Applications, Sanskrit) and the eleven test-based entrance and
+scholarship exams in the after-10th directory (JNV Class XI, JMI, AMU, BHU/CHS
+SET, UP and Bihar polytechnic, PW NSAT, TALLENTEX, ANTHE, iACST, VMC VIQ) —
+20 exams × 10 mocks each, plus 187 chapter-wise mocks. Routes that select on
+merit or document verification (KV, RKM Narendrapur, Chandigarh XI, Haryana
+polytechnic) are listed on the same page with a note instead of a test.
+
+- **A live question generator** — every mock is generated in the browser when
+  you click it: each section draws its questions at random from the exam's
+  pool (1,197 MCQs across the banks) and avoids the questions you were already
+  served on that device, so **every attempt is a different paper** until the
+  pool cycles. Ten numbered mocks per exam, and a chapter-wise mock for every
+  chapter that has MCQs (from that chapter's practice page or the exam page).
+- **Online screen** — timer, question palette, mark-for-review, keyboard
+  shortcuts, auto-submit at zero; the generated paper and your answers survive
+  an accidental reload. A *New questions* button reshuffles before you start.
+- **Instant score and one-page report** — marks, percentage, accuracy,
+  negative-marking loss, section-wise table, the topics to revise first (linked
+  to the chapter and its practice page) and a question map. *Download report*
+  prints it as a single A4 page / PDF; there is also a `.txt` download. Full
+  answer review with explanations follows.
+- **Downloads** — the same generated paper opens as a printable paper with an
+  OMR grid and an optional answer-key page (print → *Save as PDF*), plus
+  plain-text paper and key files generated on the fly.
+- Scores are stored only in the browser (localStorage) — nothing is uploaded.
+
+`site/mocktest.py` embeds each exam's question pool and blueprint (from
+`site/content/mock-tests.json`) into one engine page per exam
+(`mock-test/<exam>/test.html`); `site/theme/mock.js` generates the paper, runs
+the test, scores it and builds the downloads in the browser. Questions come
+from the chapter question banks plus an original Mental Ability bank
+(`site/content/banks/`). Board mocks are objective practice across the whole
+syllabus; entrance patterns are approximations of the published pattern and
+say so on every page — these are not official papers.
 
 ## After Class 10 admissions
 

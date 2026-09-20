@@ -49,10 +49,14 @@ python3 -m http.server 8000 --bind 0.0.0.0 --directory docs
 ```
 site/
 ├── build.py                  generator
-├── theme/                    style.css + app.js, copied into docs/assets
+├── mocktest.py               builds the mock-test pools and pages (called by build.py)
+├── admissions.py, nsat.py    the after-10th and PW NSAT hub pages
+├── theme/                    style.css + app.js + mock.js, copied into docs/assets
 ├── content/
 │   ├── subjects.json         one entry per subject: units, marks, study order
-│   └── chapters/<slug>/      chapter content, split into small JSON files
+│   ├── chapters/<slug>/      chapter content, split into small JSON files
+│   ├── mock-tests.json       one blueprint per exam: mocks, time, marking, sections → pools
+│   └── banks/                extra MCQ banks used only by mock tests (mental-ability.json)
 docs/                         generated site — GitHub Pages serves this folder
 ```
 
@@ -116,14 +120,14 @@ subjects — **175 chapters** in total:
 | Subject | Chapters | Q&A | MCQ |
 |---|---|---|---|
 | Maths | 14 | 170 | 112 |
-| Science | 13 | 179 | 104 |
+| Science | 13 | 179 | 128 |
 | Social Science | 20 | 247 | 160 |
 | English | 32 | 384 | 256 |
 | Hindi | 44 | 528 | 352 |
 | Computer Applications | 13 | 156 | 104 |
 | Sanskrit | 19 | 229 | 152 |
 | Information Technology (402) | 20 | 240 | 162 |
-| **Total** | **175** | **2,133** | **1,402** |
+| **Total** | **175** | **2,133** | **1,426** |
 
 IT 402 is built in this site (same design as the others). Question banks
 on every subject use Short / Long / Application / Competency cards with
@@ -157,6 +161,46 @@ try: json.load(open('$f', encoding='utf-8'))
 except Exception as e: print('FAIL', '$f', e)
 "; done
 ```
+
+## Mock tests
+
+`mocktest.py` builds `mock-test/` — a centre page, one page per exam and one
+**engine page** per exam that generates every paper live in the browser:
+
+| File | What it is |
+|---|---|
+| `mock-test/index.html` | the centre: every exam, best scores, recent attempts |
+| `mock-test/<exam>/index.html` | pattern card, the 10 mock cards, chapter mocks, attempts |
+| `mock-test/<exam>/test.html?n=K` | the engine page for mock K: generates a fresh paper, runs the timed test, scores it, prints the one-page report, renders the printable paper and builds the `.txt` downloads |
+| `mock-test/<exam>/test.html?chapter=<id>` | a chapter-wise mock: every MCQ of that chapter, +1 / no negative, about a minute per question |
+
+Blueprints live in `content/mock-tests.json`. Each exam has `tests` (10),
+`questions`, `minutes`, `marks_correct`, `marks_wrong`, a `pattern_note` and a
+list of `sections`; a section has a `count` and one or more `pools`, each either
+`{"subject": slug, "units": [...]}` (chapter banks) or `{"bank": name}` (a file
+in `content/banks/`). Board exams carry `subject`; entrance exams carry
+`admission_id`, which must match an id in `admissions.json`. Routes without a
+written test go in `no_test` with a one-line reason, and the tests insist that
+every institution in `admissions.json` is in one list or the other.
+
+The engine page embeds the exam's whole pool (the union of its section pools)
+as JSON plus the chapter list. `theme/mock.js` generates a paper on every
+attempt: each section shuffles its pool preferring questions the device has
+never been served (tracked in localStorage per exam), then questions from
+older batches, and only then the immediately previous batch — so two attempts
+never show the same paper while the pool allows it, and cycle back evenly when
+it does not. The templated study-habit MCQs in the chapter banks are excluded
+from pools; a question is never used twice in one paper (also enforced across
+sections). If a section pool cannot cover its count the build fails with the
+exam and section named.
+
+The same script runs the test entirely in the browser — timer, palette,
+resume of the *same generated paper* after reload (sessionStorage),
+auto-submit, scoring with negative marks, the report, review, the printable
+paper with OMR grid and key toggle, and the paper / key / report `.txt`
+downloads (Blob). Attempt history is kept in localStorage under `c10cbse-mock-*`
+keys; nothing is sent anywhere. The generator and scoring helpers are exported
+for Node, and the test-suite runs them when `node` is available.
 
 ## After-Class-10 hub
 

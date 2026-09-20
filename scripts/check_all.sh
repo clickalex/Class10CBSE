@@ -44,7 +44,7 @@ fi
 echo
 echo "== 2/4  site content JSON =="
 json_fail=0
-for f in site/content/*.json site/content/chapters/*/*.json; do
+for f in site/content/*.json site/content/banks/*.json site/content/chapters/*/*.json; do
   [ -e "$f" ] || continue
   python3 -c '
 import json, sys

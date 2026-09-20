@@ -34,6 +34,8 @@ Dates, available slots and terms may change. Recheck the official page before ap
 <p>Revise relevant topics using the <a href="../maths/index.html">Mathematics</a> and
 <a href="../science/index.html">Science</a> hubs, guided by PW's Class 10 syllabus.
 Practise timed questions, review mistakes and use official sample material where available.</p>
+<p><a class="btn" href="../mock-test/pw-nsat/index.html">Take an NSAT-pattern mock test (40 questions, 60 minutes) and check your score →</a>
+<br><span class="hint">Built from this site's own Physics, Chemistry, Mathematics, Biology and Mental Ability banks — not a PW paper.</span></p>
 <p><a href="https://github.com/clickalex/Class10CBSE/tree/main/10-PW-NSAT">Open the PW NSAT folder</a>
 for syllabus notes, practice and registration checklists. Keep downloaded PDFs and personal records locally.</p>
 <h2>Looking for Class XI school entrance exams?</h2>
