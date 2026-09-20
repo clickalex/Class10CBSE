@@ -56,10 +56,8 @@ All official sources listed below are included. It checks readable HTML notices 
 The live report lives on GitHub, so you do not need to keep this page open.</p>
 <p><a class="btn" href="https://github.com/clickalex/Class10CBSE/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+%22daily+admission+watch%22">Open latest daily report</a>
 <a class="btn" href="https://github.com/clickalex/Class10CBSE/actions">Check runs &amp; download reports</a></p>
-<p><strong>Setup required:</strong> the workflow is currently an inactive template in
-<a href="https://github.com/clickalex/Class10CBSE/tree/main/temporary-workflows">temporary-workflows</a>.
-Manually copy it to <code>.github/workflows/admission-watch.yml</code> on the default branch and enable GitHub Actions before scheduled checks run.
-Merging the template alone does not activate the scheduler.
+<p><strong>Setup required:</strong> the workflow is configured in
+<code>.github/workflows/admission-watch.yml</code> on the default branch. Enable GitHub Actions before scheduled checks run.
 GitHub may delay a run. The first completed run creates the report issue; use its timestamp to check freshness.
 Subscribe to that issue for notice-change and fetch-health alerts, subject to your GitHub notification settings.</p>
 <p class="hint">This directory is not a live confirmation of registration. An unchanged page, failed fetch or missing notice does not mean applications have not started.

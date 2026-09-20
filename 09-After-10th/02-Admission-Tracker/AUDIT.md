@@ -61,9 +61,6 @@ No token or credentials are stored in this repository.
 
 ## Manual-install packaging
 
-At the owner's request, the audited workflow has been moved unchanged to
-`temporary-workflows/admission-watch.yml`. It is **inactive** there. After the
-feature is merged, the owner must create `.github/workflows/admission-watch.yml`
-on `main` using the supplied contents, then run it manually to verify operation.
-This avoids requiring the connected GitHub App to write a workflow file. The
-cron regression test accepts the temporary or active path.
+The audited workflow is configured in
+`.github/workflows/admission-watch.yml`.
+The cron regression test verifies the active path.

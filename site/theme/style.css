@@ -281,6 +281,8 @@ details.qans[open] > summary { margin-bottom: 8px; }
 .foot-main { flex: 1 1 420px; }
 .foot-main p { margin: 0 0 8px; }
 .foot-subj { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.foot-mocks { margin-top: 8px; }
+.mock-home-sub { margin: 16px 0 6px; font-size: 13px; color: var(--ink-soft); font-weight: 700; }
 .foot-off { color: #9aa8b6; }
 .credit { margin: 10px 0 0; padding-top: 10px; border-top: 1px solid var(--line); color: var(--ink); }
 .totop { background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; cursor: pointer; font-size: 13px; }

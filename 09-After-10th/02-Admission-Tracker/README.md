@@ -2,10 +2,9 @@
 
 ## What runs
 
-The inactive template is stored in
-[`temporary-workflows/admission-watch.yml`](../../temporary-workflows/admission-watch.yml).
-After you manually copy it to `.github/workflows/admission-watch.yml` on `main`,
-it schedules `scripts/check_admissions.py` at **21:00 Asia/Kolkata**, using GitHub's UTC cron **`30 15 * * *`**.
+The active workflow is configured in
+[`.github/workflows/admission-watch.yml`](../../.github/workflows/admission-watch.yml).
+It schedules `scripts/check_admissions.py` at **21:00 Asia/Kolkata**, using GitHub's UTC cron **`30 15 * * *`**.
 The scheduler runs on GitHub; the website does not need to be open.
 
 It fetches official HTML sources with a timeout, retry and size limit, isolates
@@ -24,10 +23,7 @@ snippet are evidence to inspect, not necessarily registration or exam dates.
 
 ## Enable it once
 
-1. Merge the feature, then follow [manual workflow setup](../../temporary-workflows/README.md):
-   copy the template into `.github/workflows/admission-watch.yml` on **main**
-   using GitHub's **Add file → Create new file**. The temporary folder is
-   **inactive**; merging it alone does not enable scheduled checks.
+1. Ensure `.github/workflows/admission-watch.yml` exists on **main**.
 2. In GitHub **Settings → Actions**, allow Actions. Enable repository Issues.
    Repository/organisation policy must allow the workflow's `issues: write`
    permission. No personal token or third-party service is needed.

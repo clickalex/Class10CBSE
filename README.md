@@ -95,9 +95,8 @@ subjects on the home page and in every page's sidebar.
 A GitHub Actions checker is configured for **9 PM IST daily**. It flags changed
 school, diploma and scholarship notices, includes date evidence, and updates a report issue.
 It does not guess whether registration is open or reuse old deadlines.
-**The workflow is stored in an inactive [temporary folder](temporary-workflows/README.md).**
-After merging, manually create `.github/workflows/admission-watch.yml` on `main`
-using the supplied YAML, then enable Actions/Issues and run it once.
+The workflow is configured in [`.github/workflows/admission-watch.yml`](.github/workflows/admission-watch.yml).
+Enable Actions/Issues and run it once.
 See [setup and limitations](09-After-10th/02-Admission-Tracker/README.md).
 
 ## PW NSAT scholarship test

@@ -126,6 +126,71 @@ NAV_MOCK: dict = {}
 # {(subject slug, chapter id): mock exam id} — which mock-test engine page
 # hosts the chapter-wise mock for that chapter.
 MOCK_CHAPTERS: dict = {}
+NAV_MOCK_GROUPS: list = []
+NAV_MOCK_EXAMS: list = []
+
+MOCK_BADGES = {
+    "maths": "041",
+    "science": "086",
+    "social-science": "087",
+    "english": "184",
+    "hindi-a": "002",
+    "hindi-b": "085",
+    "information-technology": "402",
+    "computer-applications": "165",
+    "sanskrit": "122",
+    "nvs": "NVS",
+    "jmi": "JMI",
+    "amu": "AMU",
+    "bhu": "BHU",
+    "up-polytechnic": "UP",
+    "bihar-polytechnic": "BR",
+    "pw-nsat": "NSAT",
+    "tallentex": "TAL",
+    "anthe": "ANT",
+    "iacst": "ACST",
+    "vmc-viq": "VIQ",
+}
+
+MOCK_NAV_TITLES = {
+    "maths": "Mathematics",
+    "science": "Science",
+    "social-science": "Social Science",
+    "english": "English Language & Literature",
+    "hindi-a": "Hindi Course A",
+    "hindi-b": "Hindi Course B",
+    "information-technology": "Information Technology",
+    "computer-applications": "Computer Applications",
+    "sanskrit": "Sanskrit",
+    "nvs": "JNV Class XI",
+    "jmi": "JMI Class XI (Science)",
+    "amu": "AMU Class XI (Science)",
+    "bhu": "BHU / CHS SET Class XI",
+    "up-polytechnic": "UP Polytechnic (JEECUP)",
+    "bihar-polytechnic": "Bihar Polytechnic (DCECE)",
+    "pw-nsat": "PW NSAT (Class 10)",
+    "tallentex": "ALLEN TALLENTEX",
+    "anthe": "Aakash ANTHE",
+    "iacst": "Aakash iACST",
+    "vmc-viq": "Vidyamandir Classes VIQ",
+}
+
+
+def get_mock_nav_data():
+    global NAV_MOCK_EXAMS, NAV_MOCK_GROUPS
+    if not NAV_MOCK_EXAMS:
+        conf_file = REPO / "site" / "content" / "mock-tests.json"
+        if not conf_file.is_file():
+            conf_file = CONTENT / "mock-tests.json"
+        if conf_file.is_file():
+            try:
+                with open(conf_file, encoding="utf-8") as fh:
+                    cfg = json.load(fh)
+                    NAV_MOCK_GROUPS = cfg.get("groups", [])
+                    NAV_MOCK_EXAMS = cfg.get("exams", [])
+            except Exception:
+                pass
+    return NAV_MOCK_GROUPS, NAV_MOCK_EXAMS
 
 
 def href_to(root, path):
@@ -133,7 +198,8 @@ def href_to(root, path):
     return path if root == "." else f"{root}/{path}"
 
 
-def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
+def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None,
+            mock_exam=None, active_mock=None):
     """The navigation drawer: all subjects, then this subject's pages and chapters.
 
     Modelled on the AI-Course book sidebar - a grouped table of contents that
@@ -174,13 +240,38 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
             f'<span class="toc-num">{code}</span>{html.escape(s["title"])}</a>'
         )
 
-    on = " is-on" if active == "mock" else ""
-    cur = ' aria-current="page"' if active == "mock" else ""
-    bits.append('<div class="toc-group">Practice</div>')
+    on_centre = " is-on" if (active == "mock" and not mock_exam) else ""
+    cur_centre = ' aria-current="page"' if (active == "mock" and not mock_exam) else ""
+    bits.append('<div class="toc-group">Mock tests</div>')
     bits.append(
-        f'<a class="toc-item{on}" href="{href_to(root, "mock-test/index.html")}"{cur}>'
-        '<span class="toc-num">&#10003;</span>Mock tests &amp; score</a>'
+        f'<a class="toc-item{on_centre}" href="{href_to(root, "mock-test/index.html")}"{cur_centre}>'
+        '<span class="toc-num">&#10003;</span>Mock test centre</a>'
     )
+
+    mock_groups, mock_exams_list = get_mock_nav_data()
+    sub_title_map = {
+        "board": "Board exams",
+        "school": "Class XI entrance",
+        "diploma": "Polytechnic entrance",
+        "scholarship": "Scholarships & coaching",
+    }
+    for grp in mock_groups:
+        grp_exams = [e for e in mock_exams_list if e.get("group") == grp["id"]]
+        if not grp_exams:
+            continue
+        stitle = sub_title_map.get(grp["id"], grp.get("title", ""))
+        bits.append(f'<div class="toc-sub">{html.escape(stitle)}</div>')
+        for e in grp_exams:
+            eid = e["id"]
+            on_e = " is-on" if mock_exam == eid else ""
+            cur_e = ' aria-current="page"' if mock_exam == eid else ""
+            badge = MOCK_BADGES.get(eid, e.get("code", "M")[:4].strip())
+            ntitle = MOCK_NAV_TITLES.get(eid, e.get("title", eid).split(" — ")[0])
+            url = href_to(root, f"mock-test/{eid}/index.html")
+            bits.append(
+                f'<a class="toc-item toc-ch{on_e}" href="{url}"{cur_e}>'
+                f'<span class="toc-num">{html.escape(badge)}</span>{html.escape(ntitle)}</a>'
+            )
 
     on = " is-on" if active == "admissions" else ""
     cur = ' aria-current="page"' if active == "admissions" else ""
@@ -209,7 +300,22 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
                 f'<a class="toc-item{on}" href="{href_to(root, f"{subject}/{fn}")}"{cur}>'
                 f'<span class="toc-num">&bull;</span>{html.escape(label)}</a>'
             )
-        if subject in NAV_MOCK:
+        subj_mocks = [e for e in mock_exams_list if e.get("subject") == subject]
+        if len(subj_mocks) == 1:
+            m_id = subj_mocks[0]["id"]
+            bits.append(
+                f'<a class="toc-item" href="{href_to(root, f"mock-test/{m_id}/index.html")}">'
+                '<span class="toc-num">&#10003;</span>Mock test</a>'
+            )
+        elif len(subj_mocks) > 1:
+            for sm in subj_mocks:
+                sm_id = sm["id"]
+                sname = "Course A" if sm_id == "hindi-a" else ("Course B" if sm_id == "hindi-b" else sm["title"])
+                bits.append(
+                    f'<a class="toc-item" href="{href_to(root, f"mock-test/{sm_id}/index.html")}">'
+                    f'<span class="toc-num">&#10003;</span>Mock test ({html.escape(sname)})</a>'
+                )
+        elif subject in NAV_MOCK:
             bits.append(
                 f'<a class="toc-item" href="{href_to(root, f"mock-test/{NAV_MOCK[subject]}/index.html")}">'
                 '<span class="toc-num">&#10003;</span>Mock test</a>'
@@ -234,6 +340,51 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
                         f'{html.escape(c["title"])}</a>'
                     )
 
+    if mock_exam:
+        exam = next((e for e in mock_exams_list if e["id"] == mock_exam), None)
+        if exam:
+            exam_title = MOCK_NAV_TITLES.get(mock_exam, exam.get("title", mock_exam).split(" — ")[0])
+            bits.append(f'<div class="toc-group">{html.escape(exam_title)}</div>')
+            on_pat = " is-on" if active_mock == "exam" else ""
+            cur_pat = ' aria-current="page"' if active_mock == "exam" else ""
+            bits.append(
+                f'<a class="toc-item{on_pat}" href="{href_to(root, f"mock-test/{mock_exam}/index.html")}"{cur_pat}>'
+                '<span class="toc-num">&bull;</span>Pattern &amp; 10 mocks</a>'
+            )
+            on_test = " is-on" if active_mock == "test" else ""
+            cur_test = ' aria-current="page"' if active_mock == "test" else ""
+            bits.append(
+                f'<a class="toc-item{on_test}" href="{href_to(root, f"mock-test/{mock_exam}/test.html?n=1")}"{cur_test}>'
+                '<span class="toc-num">&#9654;</span>Take online mock test</a>'
+            )
+            if exam.get("chapters_data"):
+                bits.append(f'<div class="toc-sub">Chapter mocks ({len(exam["chapters_data"])})</div>')
+                for c in exam["chapters_data"]:
+                    url = href_to(root, f"mock-test/{mock_exam}/test.html?chapter={c['id']}")
+                    bits.append(
+                        f'<a class="toc-item toc-ch" href="{url}">'
+                        f'<span class="toc-num">{c["num"]}</span>{html.escape(c["title"])}</a>'
+                    )
+            if exam.get("subject"):
+                exam_subj = exam["subject"]
+                s = next((x for x in NAV_SUBJECTS if x["slug"] == exam_subj), None)
+                stitle = s["title"] if s else exam_subj.title()
+                bits.append(
+                    f'<a class="toc-item" href="{href_to(root, f"{exam_subj}/index.html")}">'
+                    f'<span class="toc-num">&larr;</span>{html.escape(stitle)} study hub</a>'
+                )
+            if exam.get("admission_id"):
+                exam_adm = exam["admission_id"]
+                bits.append(
+                    f'<a class="toc-item" href="{href_to(root, f"after-10th/index.html#{exam_adm}")}">'
+                    '<span class="toc-num">&larr;</span>Admission details</a>'
+                )
+            if mock_exam == "pw-nsat":
+                bits.append(
+                    f'<a class="toc-item" href="{href_to(root, "pw-nsat/index.html")}">'
+                    '<span class="toc-num">&larr;</span>PW NSAT hub</a>'
+                )
+
     bits.append(
         '<div class="sidebar-foot">Progress is saved in this browser.<br>'
         f'Created by <strong>{html.escape(CREDIT)}</strong></div>'
@@ -248,6 +399,10 @@ def footer(root):
         else f'<span class="foot-off">{html.escape(s["title"])}</span>'
         for s in NAV_SUBJECTS
     )
+    mock_links = " ".join(
+        f'<a href="{href_to(root, f"mock-test/{eid}/index.html")}">{html.escape(MOCK_NAV_TITLES.get(eid, eid))}</a>'
+        for eid in ["maths", "science", "social-science", "english", "hindi-a", "hindi-b", "information-technology", "computer-applications", "sanskrit"]
+    )
     return (
         '<div class="foot-main">'
         f"<p>Built for CBSE Class 10 &middot; session {SESSION} &middot; content is original study material,\n"
@@ -258,13 +413,14 @@ def footer(root):
             if subj_links
             else ""
         )
+        + f'<nav class="foot-subj foot-mocks" aria-label="Mock tests"><a href="{href_to(root, "mock-test/index.html")}"><strong>Mock tests:</strong></a> {mock_links} <a href="{href_to(root, "after-10th/index.html")}">Admissions &amp; scholarships</a> <a href="{href_to(root, "pw-nsat/index.html")}">PW NSAT</a></nav>'
         + f'<p class="credit">Created by <strong>{html.escape(CREDIT)}</strong></p>'
         + "</div>"
     )
 
 
 def page(title, crumbs, body, root="..", subject=None, active=None,
-         chapters=None, chapter_id=None):
+         chapters=None, chapter_id=None, mock_exam=None, active_mock=None):
     crumb_html = ' <span class="sep">/</span> '.join(
         f'<a href="{url}">{html.escape(label)}</a>' if url else html.escape(label)
         for label, url in crumbs
@@ -284,7 +440,7 @@ def page(title, crumbs, body, root="..", subject=None, active=None,
 <div class="backdrop" id="backdrop" onclick="closeMenu()"></div>
 <div class="app">
   <aside class="sidebar" id="sidebar" aria-label="Site navigation">
-{sidebar(root, subject, active, chapters, chapter_id)}
+{sidebar(root, subject, active, chapters, chapter_id, mock_exam, active_mock)}
   </aside>
   <main id="main" class="wrap">
     <nav class="crumbs" aria-label="Breadcrumb">{crumb_html}</nav>
@@ -718,7 +874,16 @@ def hub_body(subj, chapters):
          "Formulas, definitions and answer frames."),
     ]
     mock_id = NAV_MOCK.get(sid)
-    if mock_id:
+    if sid == "hindi":
+        jump_items.append((
+            "../mock-test/hindi-a/index.html", "\u2705", "Mock tests (Course A)",
+            "Course A: Kshitij + Kritika. 10 generated mocks + chapter mocks. Instant score, report, downloads.",
+        ))
+        jump_items.append((
+            "../mock-test/hindi-b/index.html", "\u2705", "Mock tests (Course B)",
+            "Course B: Sparsh + Sanchayan. 10 generated mocks + chapter mocks. Instant score, report, downloads.",
+        ))
+    elif mock_id:
         jump_items.append((
             f"../mock-test/{mock_id}/index.html", "\u2705", "Mock tests",
             "10 generated mocks + a timed mock for every chapter. Instant score, one-page report, downloadable paper.",
@@ -728,6 +893,14 @@ def hub_body(subj, chapters):
         f'<span>{html.escape(desc)}</span></a>'
         for href, icon, label, desc in jump_items
     ])
+    hindi_mock_btns = (
+        '<a class="btn" href="../mock-test/hindi-a/index.html">Course A mock tests</a> '
+        '<a class="btn" href="../mock-test/hindi-b/index.html">Course B mock tests</a>'
+    )
+    mock_btn_html = (
+        hindi_mock_btns if sid == "hindi"
+        else (f'<a class="btn" href="../mock-test/{NAV_MOCK[sid]}/index.html">Mock tests &amp; score</a>' if sid in NAV_MOCK else "")
+    )
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
 <h1>{html.escape(subj["title"])} <span class="code">Subject Code {html.escape(subj["code"])}</span></h1>
@@ -736,7 +909,7 @@ def hub_body(subj, chapters):
   <a class="btn" href="syllabus.html">View syllabus</a>
   <a class="btn primary" href="chapters/{first["id"]}.html">Start Ch {first["num"]} \u00b7 {html.escape(first["title"])} \u2192</a>
   <a class="btn" href="revision.html">Quick revision</a>
-  {(f'<a class="btn" href="../mock-test/{NAV_MOCK[sid]}/index.html">Mock tests &amp; score</a>' if sid in NAV_MOCK else "")}
+  {mock_btn_html}
 </p>
 
 <section class="dash">
@@ -991,6 +1164,47 @@ def portal_body(subjects, counts, pending=(), mock_summary=None):
             f'<span class="sc-desc">{inline(s.get("short", ""))}</span>'
             f'<span class="sc-meta">{n} chapters \u00b7 {html.escape(s.get("marks", ""))}</span></a>'
         )
+    mock_chips_groups = [
+        ("Board subject mocks", [
+            ("maths", "041", "Mathematics"),
+            ("science", "086", "Science"),
+            ("social-science", "087", "Social Science"),
+            ("english", "184", "English"),
+            ("hindi-a", "002", "Hindi Course A"),
+            ("hindi-b", "085", "Hindi Course B"),
+            ("information-technology", "402", "Information Technology"),
+            ("computer-applications", "165", "Computer Applications"),
+            ("sanskrit", "122", "Sanskrit"),
+        ]),
+        ("Class XI entrance mocks", [
+            ("nvs", "NVS", "JNV Class XI"),
+            ("jmi", "JMI", "JMI Class XI"),
+            ("amu", "AMU", "AMU Class XI"),
+            ("bhu", "BHU", "BHU Class XI"),
+        ]),
+        ("Polytechnic entrance mocks", [
+            ("up-polytechnic", "UP", "UP Polytechnic"),
+            ("bihar-polytechnic", "BR", "Bihar Polytechnic"),
+        ]),
+        ("Coaching scholarship mocks", [
+            ("pw-nsat", "NSAT", "PW NSAT"),
+            ("tallentex", "TAL", "ALLEN TALLENTEX"),
+            ("anthe", "ANT", "Aakash ANTHE"),
+            ("iacst", "ACST", "Aakash iACST"),
+            ("vmc-viq", "VIQ", "Vidyamandir Classes VIQ"),
+        ]),
+    ]
+    mock_chips_html = "".join(
+        f'<p class="mock-home-sub"><strong>{html.escape(gtitle)}:</strong></p>'
+        f'<p class="chips">'
+        + " ".join(
+            f'<a class="chip" href="mock-test/{eid}/index.html"><span class="chip-n">{badge}</span>{html.escape(title)}</a>'
+            for eid, badge, title in elist
+        )
+        + "</p>"
+        for gtitle, elist in mock_chips_groups
+    )
+
     body = f"""
 <p class="kicker">CBSE \u2022 CLASS 10 \u2022 SESSION {SESSION}</p>
 <h1>Class 10 CBSE \u2014 every subject, one hub each</h1>
@@ -1008,6 +1222,7 @@ until you click Show Answer.</p>
 a one-page report you can print or save as PDF, and downloadable question papers with answer keys.</span>
 <span class="sc-meta">{html.escape(mock_summary or "Online test · report · downloads")}</span></a>
 </div>
+{mock_chips_html}
 <h2>Plan your next step</h2>
 <div class="subjects">
 <a class="subject-card" href="after-10th/index.html">
@@ -1087,7 +1302,7 @@ def build(check_only=False):
 
     # Every page renders the same sidebar, so share the subject list and work
     # out up front which subjects still have no content.
-    global NAV_SUBJECTS, NAV_PENDING, NAV_MOCK, MOCK_CHAPTERS
+    global NAV_SUBJECTS, NAV_PENDING, NAV_MOCK, MOCK_CHAPTERS, NAV_MOCK_EXAMS, NAV_MOCK_GROUPS
     NAV_SUBJECTS = subjects
     NAV_PENDING = {s["slug"] for s in subjects if not chapters_exist(s["slug"])}
 
@@ -1099,6 +1314,8 @@ def build(check_only=False):
     mock_config, mock_exams = mocktest.prepare(subjects, all_chapters)
     NAV_MOCK = mocktest.mock_for_subject(mock_exams)
     MOCK_CHAPTERS = mocktest.mock_chapter_hosts(mock_exams)
+    NAV_MOCK_GROUPS = mock_config.get("groups", [])
+    NAV_MOCK_EXAMS = mock_exams
 
     if DIST.exists():
         shutil.rmtree(DIST)

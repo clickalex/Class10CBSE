@@ -321,6 +321,28 @@ class BuildTests(unittest.TestCase):
         nsat = (self.tmp / "pw-nsat" / "index.html").read_text(encoding="utf-8")
         self.assertIn("../mock-test/pw-nsat/index.html", nsat)
 
+    def test_navigation_links_all_mock_tests(self):
+        config = json.loads((CONTENT / "mock-tests.json").read_text(encoding="utf-8"))
+        exams = config["exams"]
+        home = (self.tmp / "index.html").read_text(encoding="utf-8")
+        # Every exam must be linked in the sidebar navigation
+        for exam in exams:
+            self.assertIn(f'href="mock-test/{exam["id"]}/index.html"', home)
+
+        # On an exam page, the sidebar must highlight the exam and provide its sub-navigation
+        maths_page = (self.tmp / "mock-test" / "maths" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('href="../../mock-test/maths/index.html" aria-current="page"', maths_page)
+        self.assertIn('href="../../mock-test/maths/test.html?n=1"', maths_page)
+        self.assertIn('href="../../maths/index.html"', maths_page)
+
+        # On Hindi pages, both Course A and Course B must be linked in the sidebar
+        hindi_page = (self.tmp / "hindi" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('href="../mock-test/hindi-a/index.html"', hindi_page)
+        self.assertIn('href="../mock-test/hindi-b/index.html"', hindi_page)
+
+    def test_unused_folders_removed(self):
+        self.assertFalse((ROOT / "temporary-workflows").exists(), "temporary-workflows folder should be removed")
+
 
 @unittest.skipUnless(shutil.which("node"), "node is not installed")
 class ScoringCoreTests(unittest.TestCase):
