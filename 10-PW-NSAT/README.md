@@ -3,7 +3,10 @@
 **Official website: <https://www.pw.live/scholarship/vidyapeeth/nsat>**
 
 [Study-hub page](https://clickalex.github.io/Class10CBSE/pw-nsat/)
-(available once these changes are published).
+(available once these changes are published) ·
+[NSAT-pattern mock test](https://clickalex.github.io/Class10CBSE/mock-test/pw-nsat/)
+(scores itself, one-page report, downloadable paper — built from this site's
+banks, not PW papers).
 
 PW NSAT is Physics Wallah's National Scholarship cum Admission Test for its
 coaching offerings. **It is not a Class XI school/college admission test** and

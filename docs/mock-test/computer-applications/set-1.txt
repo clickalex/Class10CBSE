@@ -1,0 +1,221 @@
+CLASS 10 CBSE STUDY HUB - MOCK TEST
+========================================================================
+Exam    : Computer Applications (165)
+Set     : 1 of 3
+Time    : 35 min
+Marks   : 30 (+1 correct · no negative marking)
+Pattern : Objective mock - Theory is 50 marks split Networking 15, HTML 25, Cyber Ethics 10; this mock keeps that ratio.
+========================================================================
+
+Instructions
+1. Each question has exactly one correct option.
+2. Write your answers in the answer grid at the end, then check the key file.
+3. +1 correct · no negative marking; unattempted questions score 0.
+
+
+SECTION A - Networking (Q1-Q10, 10 marks)
+-----------------------------------------
+
+Q1. Who invented the World Wide Web?
+    (a) Vint Cerf
+    (b) Tim Berners-Lee
+    (c) Bill Gates
+    (d) Charles Babbage
+
+Q2. DNS stands for —
+    (a) Dynamic Name Service
+    (b) Domain Name System
+    (c) Data Network Server
+    (d) Digital Naming Standard
+
+Q3. In https://example.com/page.html, example.com is the —
+    (a) protocol
+    (b) domain
+    (c) path
+    (d) port
+
+Q4. The protocol used to send an email is:
+    (a) SMTP
+    (b) POP3
+    (c) IMAP
+    (d) FTP
+
+Q5. Which topology has a single point of failure at its centre?
+    (a) Mesh
+    (b) Bus
+    (c) Star
+    (d) Ring
+
+Q6. The topology in which every computer is connected to every other computer is the:
+    (a) mesh topology
+    (b) star topology
+    (c) bus topology
+    (d) ring topology
+
+Q7. 4G networks are described as —
+    (a) analog
+    (b) circuit-switched
+    (c) all-IP
+    (d) infrared-based
+
+Q8. The generation of mobile technology that first made mobile internet practical was:
+    (a) 3G
+    (b) 1G
+    (c) 2G
+    (d) 5G
+
+Q9. Google is an example of a —
+    (a) browser
+    (b) search engine
+    (c) protocol
+    (d) server operating system
+
+Q10. The program that automatically visits and indexes web pages is called a —
+    (a) router
+    (b) crawler
+    (c) modem
+    (d) gateway
+
+
+SECTION B - HTML (Q11-Q25, 15 marks)
+------------------------------------
+
+Q11. HTML stands for —
+    (a) HighText Machine Language
+    (b) HyperText Markup Language
+    (c) HyperTool Markup Language
+    (d) Home Tool Markup Language
+
+Q12. Which tag goes inside <head>?
+    (a) <body>
+    (b) <h1>
+    (c) <title>
+    (d) <p>
+
+Q13. The smallest heading tag is —
+    (a) <h1>
+    (b) <h3>
+    (c) <h6>
+    (d) <head>
+
+Q14. Which attribute of <font> sets the typeface?
+    (a) size
+    (b) color
+    (c) face
+    (d) style
+
+Q15. To write x² in HTML you use —
+    (a) <sub>
+    (b) <sup>
+    (c) <u>
+    (d) <tt>
+
+Q16. The tag that starts a new line without starting a new paragraph is:
+    (a) <br>
+    (b) <hr>
+    (c) <p>
+    (d) <lb>
+
+Q17. Which opens a link in a new tab?
+    (a) target='_new'
+    (b) target='_blank'
+    (c) new='true'
+    (d) href='_blank'
+
+Q18. The attribute of the <a> tag that holds the destination address is:
+    (a) href
+    (b) src
+    (c) link
+    (d) target
+
+Q19. Which tag defines a table row?
+    (a) <td>
+    (b) <tr>
+    (c) <th>
+    (d) <table>
+
+Q20. To merge a cell across three columns you use —
+    (a) rowspan='3'
+    (b) colspan='3'
+    (c) span='3'
+    (d) merge='3'
+
+Q21. Which input type hides the characters typed?
+    (a) text
+    (b) hidden
+    (c) password
+    (d) secure
+
+Q22. To pre-select a radio button you use the attribute —
+    (a) selected
+    (b) checked
+    (c) default
+    (d) value
+
+Q23. Which of these is a valid border-style value?
+    (a) striped
+    (b) dashed
+    (c) glowing
+    (d) thick
+
+Q24. Which rule makes all <h2> headings italic?
+    (a) h2 { font: italic; }
+    (b) h2 { style: italic; }
+    (c) h2 { font-style: italic; }
+    (d) h2 { text: italic; }
+
+Q25. The attribute that makes the browser show play, pause and volume buttons is:
+    (a) controls
+    (b) autoplay
+    (c) loop
+    (d) src
+
+
+SECTION C - Cyber Ethics (Q26-Q30, 5 marks)
+-------------------------------------------
+
+Q26. Typing a message in ALL CAPS is bad netiquette because it —
+    (a) saves time
+    (b) reads as shouting
+    (c) looks stylish
+    (d) avoids spam
+
+Q27. A safe shopping site must show —
+    (a) http://
+    (b) https:// with a padlock
+    (c) flashing ads
+    (d) pop-up prizes
+
+Q28. Someone calls “from the bank” and asks for your OTP. You should —
+    (a) share it quickly
+    (b) share half of it
+    (c) refuse and cut the call
+    (d) ask for a bigger limit
+
+Q29. Which IPR protects a brand logo?
+    (a) copyright
+    (b) patent
+    (c) trademark
+    (d) trade secret
+
+Q30. Presenting someone else's work as your own is —
+    (a) piracy
+    (b) plagiarism
+    (c) phishing
+    (d) hacking
+
+
+ANSWER GRID
+-----------
+Q  1 [   ]  Q  2 [   ]  Q  3 [   ]  Q  4 [   ]  Q  5 [   ]
+Q  6 [   ]  Q  7 [   ]  Q  8 [   ]  Q  9 [   ]  Q 10 [   ]
+Q 11 [   ]  Q 12 [   ]  Q 13 [   ]  Q 14 [   ]  Q 15 [   ]
+Q 16 [   ]  Q 17 [   ]  Q 18 [   ]  Q 19 [   ]  Q 20 [   ]
+Q 21 [   ]  Q 22 [   ]  Q 23 [   ]  Q 24 [   ]  Q 25 [   ]
+Q 26 [   ]  Q 27 [   ]  Q 28 [   ]  Q 29 [   ]  Q 30 [   ]
+
+========================================================================
+Answer key : set-1-key.txt
+Score online: https://clickalex.github.io/Class10CBSE/mock-test/computer-applications/set-1.html
+Original practice material from the Class 10 CBSE study hub - not an official paper.
+Created by Mohammad Umair.

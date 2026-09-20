@@ -1,0 +1,345 @@
+CLASS 10 CBSE STUDY HUB - MOCK TEST
+========================================================================
+Exam    : JEECUP / UPJEE(P) Group A — Diploma in Engineering (JEECUP A)
+Set     : 1 of 2
+Time    : 1 h 15 min
+Marks   : 200 (+4 correct · −1 wrong)
+Pattern : Half-length - Group A is publicly described as 100 MCQs for 400 marks in 150 minutes, +4 for a correct answer and −1 for a wrong one, split Mathematics 50, Physics 25, Chemistry 25. This is the half-length version with the same marking. Confirm in the current JEECUP information brochure.
+========================================================================
+
+Instructions
+1. Each question has exactly one correct option.
+2. Write your answers in the answer grid at the end, then check the key file.
+3. +4 correct · −1 wrong; unattempted questions score 0.
+
+
+SECTION A - Mathematics (Q1-Q24, 96 marks)
+------------------------------------------
+
+Q1. Which has a terminating decimal expansion?
+    (a) 7/24
+    (b) 5/13
+    (c) 9/40
+    (d) 11/21
+
+Q2. Which of these is irrational?
+    (a) √(16/9)
+    (b) √12
+    (c) 0.444…
+    (d) 22/7
+
+Q3. If α, β are zeroes of x² − 5x + 6, then α + β = ?
+    (a) 6
+    (b) 5
+    (c) −5
+    (d) 1
+
+Q4. A quadratic polynomial whose zeroes are 3 and −3 is:
+    (a) x² − 9
+    (b) x² + 9
+    (c) x² − 6x + 9
+    (d) x² − 3
+
+Q5. For what value of k does kx + 3y = 7 and 2x + 6y = 14 have infinitely many solutions?
+    (a) 1
+    (b) −1
+    (c) 2
+    (d) 1/2
+
+Q6. If x + 2y = 5 and 3x + ky = 15 are coincident lines, then k = :
+    (a) 2
+    (b) 3
+    (c) 6
+    (d) 15
+
+Q7. For x² + 4x + k = 0 to have real roots, k must satisfy:
+    (a) k ≤ 4
+    (b) k ≥ 4
+    (c) k ≤ −4
+    (d) k = 4
+
+Q8. If the roots of x² − 8x + k = 0 are equal, then k = :
+    (a) 8
+    (b) 16
+    (c) −16
+    (d) 64
+
+Q9. The 10th term of the AP 2, 7, 12, … is:
+    (a) 45
+    (b) 47
+    (c) 50
+    (d) 52
+
+Q10. S₅ − S₄ equals:
+    (a) the 5th term
+    (b) the 4th term
+    (c) the 9th term
+    (d) zero
+
+Q11. Two triangles are similar if their corresponding sides are:
+    (a) equal
+    (b) proportional
+    (c) perpendicular
+    (d) parallel
+
+Q12. In ΔABC, DE ∥ BC with AD = 4 cm, DB = 6 cm and AE = 5 cm. Then EC = :
+    (a) 6.5 cm
+    (b) 7.5 cm
+    (c) 8 cm
+    (d) 9 cm
+
+Q13. The distance of the point (3, 4) from the origin is:
+    (a) 5
+    (b) 7
+    (c) 25
+    (d) 12
+
+Q14. The point (−3, 0) lies on:
+    (a) the x-axis
+    (b) the y-axis
+    (c) the line y = x
+    (d) the origin
+
+Q15. If sin θ = cos θ, then θ = :
+    (a) 0°
+    (b) 30°
+    (c) 45°
+    (d) 90°
+
+Q16. sec²A − tan²A equals:
+    (a) 0
+    (b) 1
+    (c) −1
+    (d) sin²A
+
+Q17. From the top of a tower the angle of depression of an object on the ground is 30°. The angle of elevation of the top from that object is:
+    (a) 30°
+    (b) 45°
+    (c) 60°
+    (d) 90°
+
+Q18. When the shadow of a pole equals its height, the sun’s angle of elevation is:
+    (a) 30°
+    (b) 45°
+    (c) 60°
+    (d) 90°
+
+Q19. Two tangents from an external point to a circle are:
+    (a) unequal
+    (b) equal
+    (c) always perpendicular
+    (d) parallel
+
+Q20. The area of a quadrant of a circle of radius r is:
+    (a) πr²/2
+    (b) πr²/4
+    (c) 2πr
+    (d) πr²
+
+Q21. The volume of a sphere of radius r is:
+    (a) (4/3)πr³
+    (b) 4πr²
+    (c) (2/3)πr³
+    (d) πr³
+
+Q22. The mode of 3, 5, 7, 5, 9, 5, 8 is:
+    (a) 3
+    (b) 5
+    (c) 7
+    (d) 9
+
+Q23. Two dice are thrown together. The total number of outcomes is:
+    (a) 6
+    (b) 12
+    (c) 36
+    (d) 24
+
+Q24. If P(E) = 0.37, then P(not E) = :
+    (a) 0.37
+    (b) 0.63
+    (c) 1
+    (d) 0.53
+
+
+SECTION B - Physics (Q25-Q37, 52 marks)
+---------------------------------------
+
+Q25. The power of a convex lens of focal length 50 cm is:
+    (a) +2 D
+    (b) −2 D
+    (c) +0.5 D
+    (d) −0.5 D
+
+Q26. Which mirror always forms an erect and diminished image?
+    (a) plane
+    (b) concave
+    (c) convex
+    (d) parabolic
+
+Q27. An object is placed 20 cm in front of a concave mirror of focal length 10 cm. The image is formed:
+    (a) 10 cm in front of the mirror
+    (b) 20 cm in front of the mirror
+    (c) 20 cm behind the mirror
+    (d) at infinity
+
+Q28. A student with myopia is prescribed a lens of power −2.0 D. The lens is:
+    (a) convex, focal length 50 cm
+    (b) concave, focal length 50 cm
+    (c) concave, focal length 2 m
+    (d) convex, focal length 2 m
+
+Q29. A person cannot read a newspaper without glasses. He is probably suffering from:
+    (a) myopia
+    (b) hypermetropia
+    (c) astigmatism
+    (d) night blindness
+
+Q30. Stars twinkle mainly because of:
+    (a) atmospheric refraction
+    (b) dispersion
+    (c) reflection from clouds
+    (d) their own flickering
+
+Q31. Two wires of the same material and length but different cross-sectional areas are compared. The thicker wire has:
+    (a) more resistance
+    (b) less resistance
+    (c) the same resistance
+    (d) no resistance
+
+Q32. A 100 W bulb is used for 10 hours every day. The electrical energy it consumes in 30 days is:
+    (a) 3 kWh
+    (b) 30 kWh
+    (c) 300 kWh
+    (d) 3000 kWh
+
+Q33. The resistance of a wire doubles when:
+    (a) its length is doubled
+    (b) its area of cross-section is doubled
+    (c) its length is halved
+    (d) its diameter is doubled
+
+Q34. An ammeter is connected in a circuit:
+    (a) in series
+    (b) in parallel
+    (c) across the supply
+    (d) either way
+
+Q35. The direction of the magnetic field produced by a straight current-carrying wire is given by:
+    (a) Fleming's left-hand rule
+    (b) Fleming's right-hand rule
+    (c) the right-hand thumb rule
+    (d) Lenz's law
+
+Q36. The magnetic field lines inside a long current-carrying solenoid are:
+    (a) concentric circles
+    (b) parallel straight lines
+    (c) diverging curves
+    (d) absent
+
+Q37. An electric motor converts:
+    (a) electrical energy into mechanical energy
+    (b) mechanical energy into electrical energy
+    (c) heat into light
+    (d) chemical energy into sound
+
+
+SECTION C - Chemistry (Q38-Q50, 52 marks)
+-----------------------------------------
+
+Q38. The green coating on copper and the black coating on silver are respectively:
+    (a) basic copper carbonate and Ag2S
+    (b) CuO and Ag2O
+    (c) CuCO3 and AgS2
+    (d) Cu(OH)2 and AgO
+
+Q39. The brown fumes evolved when lead nitrate is heated are of:
+    (a) NO₂
+    (b) O₂
+    (c) NO
+    (d) PbO
+
+Q40. When the equation Fe + H₂O → Fe₃O₄ + H₂ is balanced, the coefficient of steam (H₂O) is:
+    (a) 2
+    (b) 3
+    (c) 4
+    (d) 6
+
+Q41. A shiny brown element X becomes black when heated in air. X and the black compound are:
+    (a) Cu and CuO
+    (b) Fe and Fe₂O₃
+    (c) Ag and Ag₂S
+    (d) Al and Al₂O₃
+
+Q42. Bleaching powder is manufactured by passing chlorine gas over:
+    (a) dry slaked lime
+    (b) quicklime
+    (c) limestone
+    (d) gypsum
+
+Q43. The salt used to remove permanent hardness of water is:
+    (a) sodium chloride
+    (b) sodium carbonate
+    (c) calcium sulphate
+    (d) ammonium chloride
+
+Q44. The chemical formula of Plaster of Paris is:
+    (a) CaSO₄·2H₂O
+    (b) CaSO₄·½H₂O
+    (c) CaSO₄
+    (d) CaCO₃
+
+Q45. Magnesium (2, 8, 2) combines with chlorine (2, 8, 7) to form an ionic compound with the formula:
+    (a) MgCl
+    (b) MgCl₂
+    (c) Mg₂Cl
+    (d) MgCl₃
+
+Q46. Which metal reacts vigorously with cold water?
+    (a) iron
+    (b) zinc
+    (c) sodium
+    (d) copper
+
+Q47. The correct decreasing order of reactivity is:
+    (a) Zn > Mg > Cu
+    (b) Mg > Zn > Cu
+    (c) Cu > Zn > Mg
+    (d) Zn > Cu > Mg
+
+Q48. The number of covalent bonds in a molecule of ethane (C2H6) is:
+    (a) 5
+    (b) 6
+    (c) 7
+    (d) 8
+
+Q49. Which compound decolorises bromine water?
+    (a) CH4
+    (b) C2H6
+    (c) C2H4
+    (d) C3H8
+
+Q50. Which compound decolourises alkaline KMnO₄ (Baeyer's reagent)?
+    (a) C₂H₆
+    (b) C₂H₄
+    (c) CH₄
+    (d) C₃H₈
+
+
+ANSWER GRID
+-----------
+Q  1 [   ]  Q  2 [   ]  Q  3 [   ]  Q  4 [   ]  Q  5 [   ]
+Q  6 [   ]  Q  7 [   ]  Q  8 [   ]  Q  9 [   ]  Q 10 [   ]
+Q 11 [   ]  Q 12 [   ]  Q 13 [   ]  Q 14 [   ]  Q 15 [   ]
+Q 16 [   ]  Q 17 [   ]  Q 18 [   ]  Q 19 [   ]  Q 20 [   ]
+Q 21 [   ]  Q 22 [   ]  Q 23 [   ]  Q 24 [   ]  Q 25 [   ]
+Q 26 [   ]  Q 27 [   ]  Q 28 [   ]  Q 29 [   ]  Q 30 [   ]
+Q 31 [   ]  Q 32 [   ]  Q 33 [   ]  Q 34 [   ]  Q 35 [   ]
+Q 36 [   ]  Q 37 [   ]  Q 38 [   ]  Q 39 [   ]  Q 40 [   ]
+Q 41 [   ]  Q 42 [   ]  Q 43 [   ]  Q 44 [   ]  Q 45 [   ]
+Q 46 [   ]  Q 47 [   ]  Q 48 [   ]  Q 49 [   ]  Q 50 [   ]
+
+========================================================================
+Answer key : set-1-key.txt
+Score online: https://clickalex.github.io/Class10CBSE/mock-test/up-polytechnic/set-1.html
+Original practice material from the Class 10 CBSE study hub - not an official paper.
+Created by Mohammad Umair.

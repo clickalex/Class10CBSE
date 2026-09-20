@@ -49,10 +49,14 @@ python3 -m http.server 8000 --bind 0.0.0.0 --directory docs
 ```
 site/
 ├── build.py                  generator
-├── theme/                    style.css + app.js, copied into docs/assets
+├── mocktest.py               assembles and renders the mock tests (called by build.py)
+├── admissions.py, nsat.py    the after-10th and PW NSAT hub pages
+├── theme/                    style.css + app.js + mock.js, copied into docs/assets
 ├── content/
 │   ├── subjects.json         one entry per subject: units, marks, study order
-│   └── chapters/<slug>/      chapter content, split into small JSON files
+│   ├── chapters/<slug>/      chapter content, split into small JSON files
+│   ├── mock-tests.json       one blueprint per exam: sets, time, marking, sections → pools
+│   └── banks/                extra MCQ banks used only by mock tests (mental-ability.json)
 docs/                         generated site — GitHub Pages serves this folder
 ```
 
@@ -116,14 +120,14 @@ subjects — **175 chapters** in total:
 | Subject | Chapters | Q&A | MCQ |
 |---|---|---|---|
 | Maths | 14 | 170 | 112 |
-| Science | 13 | 179 | 104 |
+| Science | 13 | 179 | 128 |
 | Social Science | 20 | 247 | 160 |
 | English | 32 | 384 | 256 |
 | Hindi | 44 | 528 | 352 |
 | Computer Applications | 13 | 156 | 104 |
 | Sanskrit | 19 | 229 | 152 |
 | Information Technology (402) | 20 | 240 | 162 |
-| **Total** | **175** | **2,133** | **1,402** |
+| **Total** | **175** | **2,133** | **1,426** |
 
 IT 402 is built in this site (same design as the others). Question banks
 on every subject use Short / Long / Application / Competency cards with
@@ -157,6 +161,41 @@ try: json.load(open('$f', encoding='utf-8'))
 except Exception as e: print('FAIL', '$f', e)
 "; done
 ```
+
+## Mock tests
+
+`mocktest.py` builds `mock-test/` — a centre page, one page per exam and, per
+set, four files:
+
+| File | What it is |
+|---|---|
+| `mock-test/<exam>/set-N.html` | the online test screen: intro → timed test → one-page score report → answer review |
+| `mock-test/<exam>/set-N-paper.html` | printable paper with an OMR grid and an optional answer-key page (print → *Save as PDF*) |
+| `mock-test/<exam>/set-N.txt`, `set-N-key.txt` | plain-text paper and key with explanations |
+
+Blueprints live in `content/mock-tests.json`. Each exam has `sets`,
+`questions`, `minutes`, `marks_correct`, `marks_wrong`, a `pattern_note` and a
+list of `sections`; a section has a `count` and one or more `pools`, each either
+`{"subject": slug, "units": [...]}` (chapter banks) or `{"bank": name}` (a file
+in `content/banks/`). Board exams carry `subject`; entrance exams carry
+`admission_id`, which must match an id in `admissions.json`. Routes without a
+written test go in `no_test` with a one-line reason, and the tests insist that
+every institution in `admissions.json` is in one list or the other.
+
+Assembly is deterministic (seeded per exam and section) so a rebuild never
+silently changes a published set. Questions are drawn round-robin across the
+chapters of a pool so every set covers the syllabus evenly; the templated
+study-habit MCQs in the chapter banks are excluded; a question is never used
+twice in one set, and blueprints are sized so that no question repeats across
+the sets of an exam either (`tests/test_mocktest.py` enforces both). If a
+section cannot be filled the build fails with the exam, set and section named.
+
+The set page embeds its questions as JSON; `theme/mock.js` runs the test
+entirely in the browser — timer, palette, resume after reload
+(sessionStorage), auto-submit, scoring with negative marks, the report,
+review, `.txt` download and print. Attempt history is kept in localStorage
+under `c10cbse-mock-*` keys; nothing is sent anywhere. The scoring helpers are
+exported for Node, and the test-suite runs them when `node` is available.
 
 ## After-Class-10 hub
 

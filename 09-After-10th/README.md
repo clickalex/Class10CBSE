@@ -1,7 +1,10 @@
 # After Class 10 — admissions & scholarships
 
 [Website directory](https://clickalex.github.io/Class10CBSE/after-10th/)
-(updated when these changes are published).
+(updated when these changes are published) ·
+[Mock tests for these exams](https://clickalex.github.io/Class10CBSE/mock-test/)
+— timed online sets with instant scoring and downloadable papers for every
+test-based route below (original practice material, not official papers).
 
 The directory now has **15 options**: **7 Class XI school routes**, **3 diploma /
 polytechnic routes** and **5 coaching scholarship exams**. For students studying

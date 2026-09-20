@@ -1,0 +1,170 @@
+ANSWER KEY - JEECUP / UPJEE(P) Group A — Diploma in Engineering (JEECUP A) - Set 1
+========================================================================
+Marking: +4 correct · −1 wrong. Score = correct x 4 - wrong x 1. Maximum 200.
+
+Quick key
+Q  1 (c)  Q  2 (b)  Q  3 (b)  Q  4 (a)  Q  5 (a)  Q  6 (c)
+Q  7 (a)  Q  8 (b)  Q  9 (b)  Q 10 (a)  Q 11 (b)  Q 12 (b)
+Q 13 (a)  Q 14 (a)  Q 15 (c)  Q 16 (b)  Q 17 (a)  Q 18 (b)
+Q 19 (b)  Q 20 (b)  Q 21 (a)  Q 22 (b)  Q 23 (c)  Q 24 (b)
+Q 25 (a)  Q 26 (c)  Q 27 (b)  Q 28 (b)  Q 29 (b)  Q 30 (a)
+Q 31 (b)  Q 32 (b)  Q 33 (a)  Q 34 (a)  Q 35 (c)  Q 36 (b)
+Q 37 (a)  Q 38 (a)  Q 39 (a)  Q 40 (c)  Q 41 (a)  Q 42 (a)
+Q 43 (b)  Q 44 (b)  Q 45 (b)  Q 46 (c)  Q 47 (b)  Q 48 (c)
+Q 49 (c)  Q 50 (b)
+
+Explanations
+------------
+
+Q1. (c) 9/40. 40 = 2³ × 5, of the form 2ᵐ × 5ⁿ. The others have denominators with other primes.
+      Topic: Ch 1 · Real Numbers (Mathematics)
+
+Q2. (b) √12. √12 = 2√3 and √3 is irrational. √(16/9) = 4/3, 0.444… = 4/9 and 22/7 are all rational.
+      Topic: Ch 1 · Real Numbers (Mathematics)
+
+Q3. (b) 5. Sum = −b/a = 5.
+      Topic: Ch 2 · Polynomials (Mathematics)
+
+Q4. (a) x² − 9. Sum = 0 and product = −9.
+      Topic: Ch 2 · Polynomials (Mathematics)
+
+Q5. (a) 1. We need k/2 = 3/6 = 7/14, and 3/6 = 1/2, so k = 1.
+      Topic: Ch 3 · Pair of Linear Equations in Two Variables (Mathematics)
+
+Q6. (c) 6. Coincident lines need 1/3 = 2/k = 5/15, and 2/k = 1/3 gives k = 6.
+      Topic: Ch 3 · Pair of Linear Equations in Two Variables (Mathematics)
+
+Q7. (a) k ≤ 4. D = 16 − 4k ≥ 0 gives k ≤ 4.
+      Topic: Ch 4 · Quadratic Equations (Mathematics)
+
+Q8. (b) 16. D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16.
+      Topic: Ch 4 · Quadratic Equations (Mathematics)
+
+Q9. (b) 47. a₁₀ = 2 + 9(5).
+      Topic: Ch 5 · Arithmetic Progressions (Mathematics)
+
+Q10. (a) The 5th term. That is what aₙ = Sₙ − Sₙ₋₁ means.
+      Topic: Ch 5 · Arithmetic Progressions (Mathematics)
+
+Q11. (b) Proportional. That is the SSS similarity criterion.
+      Topic: Ch 6 · Triangles (Mathematics)
+
+Q12. (b) 7.5 cm. AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm.
+      Topic: Ch 6 · Triangles (Mathematics)
+
+Q13. (a) 5. √(9 + 16) = 5.
+      Topic: Ch 7 · Coordinate Geometry (Mathematics)
+
+Q14. (a) the x-axis. Every point whose y-coordinate is 0 lies on the x-axis.
+      Topic: Ch 7 · Coordinate Geometry (Mathematics)
+
+Q15. (c) 45°. sin 45° = cos 45° = 1/√2.
+      Topic: Ch 8 · Introduction to Trigonometry (Mathematics)
+
+Q16. (b) 1. It follows directly from 1 + tan²A = sec²A.
+      Topic: Ch 8 · Introduction to Trigonometry (Mathematics)
+
+Q17. (a) 30°. Alternate angles between parallel horizontals.
+      Topic: Ch 9 · Some Applications of Trigonometry (Mathematics)
+
+Q18. (b) 45°. tan θ = height/shadow = 1, so θ = 45°.
+      Topic: Ch 9 · Some Applications of Trigonometry (Mathematics)
+
+Q19. (b) Equal.
+      Topic: Ch 10 · Circles (Mathematics)
+
+Q20. (b) πr²/4.
+      Topic: Ch 11 · Areas Related to Circles (Mathematics)
+
+Q21. (a) (4/3)πr³. 4πr² is the surface area of the sphere.
+      Topic: Ch 12 · Surface Areas and Volumes (Mathematics)
+
+Q22. (b) 5. It occurs three times, more than any other value.
+      Topic: Ch 13 · Statistics (Mathematics)
+
+Q23. (c) 36.
+      Topic: Ch 14 · Probability (Mathematics)
+
+Q24. (b) 0.63. P(not E) = 1 − P(E) = 1 − 0.37 = 0.63.
+      Topic: Ch 14 · Probability (Mathematics)
+
+Q25. (a) +2 D. P = 1/f in metres = 1/0.5 = +2 D; a converging lens always has positive power.
+      Topic: Ch 9 · Light — Reflection and Refraction (Science)
+
+Q26. (c) convex. Its image is always virtual, erect and smaller, which is why it is used as a rear-view mirror.
+      Topic: Ch 9 · Light — Reflection and Refraction (Science)
+
+Q27. (b) 20 cm in front of the mirror. The object is at C (2f = 20 cm), so the image is also at C, real, inverted and the same size. Mirror formula: 1/v = 1/f − 1/u = −1/10 + 1/20 = −1/20, v = −20 cm.
+      Topic: Ch 9 · Light — Reflection and Refraction (Science)
+
+Q28. (b) concave, focal length 50 cm. f = 1/P = 1/(−2) m = −0.5 m; the negative sign means a concave (diverging) lens, which corrects myopia.
+      Topic: Ch 10 · The Human Eye and the Colourful World (Science)
+
+Q29. (b) hypermetropia — difficulty in seeing near objects clearly, corrected with a convex lens.
+      Topic: Ch 10 · The Human Eye and the Colourful World (Science)
+
+Q30. (a) atmospheric refraction. Moving layers of air of changing density bend the starlight by varying amounts, so its apparent position shifts rapidly.
+      Topic: Ch 10 · The Human Eye and the Colourful World (Science)
+
+Q31. (b) less resistance, since R = ρl/A and a larger area of cross-section reduces the resistance.
+      Topic: Ch 11 · Electricity (Science)
+
+Q32. (b) 30 kWh. Energy = power × time = 0.1 kW × 10 h × 30 = 30 kWh, i.e. 30 units.
+      Topic: Ch 11 · Electricity (Science)
+
+Q33. (a) its length is doubled. R ∝ l/A; doubling the area halves R, doubling the diameter reduces R to a quarter.
+      Topic: Ch 11 · Electricity (Science)
+
+Q34. (a) in series. It has very low resistance so it does not change the current; a voltmeter is connected in parallel.
+      Topic: Ch 11 · Electricity (Science)
+
+Q35. (c) the right-hand thumb rule — hold the wire in the right hand with the thumb along the current; the curled fingers give the direction of the field lines.
+      Topic: Ch 12 · Magnetic Effects of Electric Current (Science)
+
+Q36. (b) parallel straight lines. The field inside a solenoid is nearly uniform, like the field inside a bar magnet.
+      Topic: Ch 12 · Magnetic Effects of Electric Current (Science)
+
+Q37. (a) electrical energy into mechanical energy. A generator does the reverse conversion.
+      Topic: Ch 12 · Magnetic Effects of Electric Current (Science)
+
+Q38. (a). Copper forms basic copper carbonate CuCO3·Cu(OH)2 (green); silver forms silver sulphide Ag2S (black).
+      Topic: Ch 1 · Chemical Reactions and Equations (Science)
+
+Q39. (a) NO₂. 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂; nitrogen dioxide is brown, the residue lead oxide is yellow.
+      Topic: Ch 1 · Chemical Reactions and Equations (Science)
+
+Q40. (c) 4. 3Fe + 4H₂O → Fe₃O₄ + 4H₂ — three iron atoms need four oxygen atoms, which come from four water molecules.
+      Topic: Ch 1 · Chemical Reactions and Equations (Science)
+
+Q41. (a) Cu and CuO. Copper is reddish-brown and forms black copper(II) oxide on heating: 2Cu + O₂ → 2CuO.
+      Topic: Ch 1 · Chemical Reactions and Equations (Science)
+
+Q42. (a) dry slaked lime. Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O. Quicklime is CaO, limestone is CaCO₃, gypsum is a sulphate.
+      Topic: Ch 2 · Acids, Bases and Salts (Science)
+
+Q43. (b) sodium carbonate. Washing soda precipitates out the dissolved calcium and magnesium salts that cause hardness.
+      Topic: Ch 2 · Acids, Bases and Salts (Science)
+
+Q44. (b) CaSO₄·½H₂O. Gypsum (CaSO₄·2H₂O) heated to 373 K loses three-quarters of its water of crystallisation to give the hemihydrate.
+      Topic: Ch 2 · Acids, Bases and Salts (Science)
+
+Q45. (b) MgCl₂. Magnesium loses two electrons to become Mg²⁺; each chlorine atom gains one, so two Cl⁻ ions are needed.
+      Topic: Ch 3 · Metals and Non-metals (Science)
+
+Q46. (c) sodium. It reacts violently with cold water; iron and zinc react only with steam, and copper does not react at all.
+      Topic: Ch 3 · Metals and Non-metals (Science)
+
+Q47. (b) Mg > Zn > Cu. In the reactivity series magnesium lies above zinc, and copper lies below hydrogen, so it is the least reactive of the three.
+      Topic: Ch 3 · Metals and Non-metals (Science)
+
+Q48. (c) 7 — six C–H bonds plus one C–C bond.
+      Topic: Ch 4 · Carbon and its Compounds (Science)
+
+Q49. (c) C2H4 (ethene). Only unsaturated compounds with a double bond undergo addition with bromine.
+      Topic: Ch 4 · Carbon and its Compounds (Science)
+
+Q50. (b) C₂H₄. Ethene is unsaturated; only double or triple bonds add on and decolourise the reagent.
+      Topic: Ch 4 · Carbon and its Compounds (Science)
+
+========================================================================
+Paper: set-1.txt  |  Online: https://clickalex.github.io/Class10CBSE/mock-test/up-polytechnic/set-1.html

@@ -1,0 +1,100 @@
+ANSWER KEY - Mathematics (041 / 241) - Set 1
+========================================================================
+Marking: +1 correct · no negative marking. Score = correct x 1. Maximum 28.
+
+Quick key
+Q  1 (b)  Q  2 (b)  Q  3 (b)  Q  4 (b)  Q  5 (c)  Q  6 (a)
+Q  7 (a)  Q  8 (c)  Q  9 (a)  Q 10 (a)  Q 11 (a)  Q 12 (a)
+Q 13 (a)  Q 14 (b)  Q 15 (c)  Q 16 (b)  Q 17 (c)  Q 18 (c)
+Q 19 (a)  Q 20 (b)  Q 21 (b)  Q 22 (b)  Q 23 (b)  Q 24 (b)
+Q 25 (b)  Q 26 (a)  Q 27 (c)  Q 28 (b)
+
+Explanations
+------------
+
+Q1. (b) 4. 8 = 2³, 12 = 2² × 3; the lowest power of the common prime 2 is 2² = 4.
+      Topic: Ch 1 · Real Numbers (Mathematics)
+
+Q2. (b) 3 places. 23/200 = 115/1000 = 0.115. The number of decimal places is the larger exponent, max(3, 2) = 3.
+      Topic: Ch 1 · Real Numbers (Mathematics)
+
+Q3. (b) −2, −5. Sum = −7, product = 10, so both zeroes are negative.
+      Topic: Ch 2 · Polynomials (Mathematics)
+
+Q4. (b) 5. Sum = −b/a = 5.
+      Topic: Ch 2 · Polynomials (Mathematics)
+
+Q5. (c) Coincident lines. All three ratios equal 1/2.
+      Topic: Ch 3 · Pair of Linear Equations in Two Variables (Mathematics)
+
+Q6. (a) x = 9, y = 5. Adding the equations gives 2x = 18, so x = 9 and then y = 5.
+      Topic: Ch 3 · Pair of Linear Equations in Two Variables (Mathematics)
+
+Q7. (a) 7/2 and 3/2. Sum = −b/a = 7/2 and product = c/a = 3/2.
+      Topic: Ch 4 · Quadratic Equations (Mathematics)
+
+Q8. (c) x³ − x² + 1 = 0. Its degree is 3, so it is a cubic; the others reduce to degree 2.
+      Topic: Ch 4 · Quadratic Equations (Mathematics)
+
+Q9. (a) The 5th term. That is what aₙ = Sₙ − Sₙ₋₁ means.
+      Topic: Ch 5 · Arithmetic Progressions (Mathematics)
+
+Q10. (a) 3. a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n.
+      Topic: Ch 5 · Arithmetic Progressions (Mathematics)
+
+Q11. (a) (−2, 1). ((2−6)/2, (−3+5)/2).
+      Topic: Ch 7 · Coordinate Geometry (Mathematics)
+
+Q12. (a) (0, 2). x = (2 − 4 + 2)/3 = 0 and y = (3 + 7 − 4)/3 = 2.
+      Topic: Ch 7 · Coordinate Geometry (Mathematics)
+
+Q13. (a) equal. Equiangular triangles are similar — the AAA similarity criterion.
+      Topic: Ch 6 · Triangles (Mathematics)
+
+Q14. (b) 7.5 cm. AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm.
+      Topic: Ch 6 · Triangles (Mathematics)
+
+Q15. (c) 90°.
+      Topic: Ch 10 · Circles (Mathematics)
+
+Q16. (b) Equal.
+      Topic: Ch 10 · Circles (Mathematics)
+
+Q17. (c) 1. That is the fundamental identity.
+      Topic: Ch 8 · Introduction to Trigonometry (Mathematics)
+
+Q18. (c) 45°. sin 45° = cos 45° = 1/√2.
+      Topic: Ch 8 · Introduction to Trigonometry (Mathematics)
+
+Q19. (a) 30°. Alternate angles between parallel horizontals.
+      Topic: Ch 9 · Some Applications of Trigonometry (Mathematics)
+
+Q20. (b) 6 m. By Pythagoras, √(100 − 64) = √36 = 6 m.
+      Topic: Ch 9 · Some Applications of Trigonometry (Mathematics)
+
+Q21. (b) πr²/4.
+      Topic: Ch 11 · Areas Related to Circles (Mathematics)
+
+Q22. (b) 4 times. Area ∝ r², so doubling r multiplies the area by 2² = 4.
+      Topic: Ch 11 · Areas Related to Circles (Mathematics)
+
+Q23. (b) πr²h/3.
+      Topic: Ch 12 · Surface Areas and Volumes (Mathematics)
+
+Q24. (b) √[h² + (R − r)²].
+      Topic: Ch 12 · Surface Areas and Volumes (Mathematics)
+
+Q25. (b) 20. (15 + 25)/2.
+      Topic: Ch 13 · Statistics (Mathematics)
+
+Q26. (a) Mode = 3 Median − 2 Mean. Equivalently, 3 Median = Mode + 2 Mean.
+      Topic: Ch 13 · Statistics (Mathematics)
+
+Q27. (c) 36.
+      Topic: Ch 14 · Probability (Mathematics)
+
+Q28. (b) 1/26. Two black queens out of 52 cards gives 2/52 = 1/26.
+      Topic: Ch 14 · Probability (Mathematics)
+
+========================================================================
+Paper: set-1.txt  |  Online: https://clickalex.github.io/Class10CBSE/mock-test/maths/set-1.html

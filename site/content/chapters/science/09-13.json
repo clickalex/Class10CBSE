@@ -244,6 +244,18 @@
       {
         "q": "When a ray of light goes from glass into air, it: (a) bends towards the normal  (b) bends away from the normal  (c) does not bend  (d) is totally absorbed",
         "a": "**(b) bends away from the normal.** Moving from a denser to a rarer medium, the ray speeds up and bends away from the normal."
+      },
+      {
+        "q": "An object is placed 20 cm in front of a concave mirror of focal length 10 cm. The image is formed: (a) 10 cm in front of the mirror  (b) 20 cm in front of the mirror  (c) 20 cm behind the mirror  (d) at infinity",
+        "a": "**(b) 20 cm in front of the mirror.** The object is at C (2f = 20 cm), so the image is also at C, real, inverted and the same size. Mirror formula: 1/v = 1/f − 1/u = −1/10 + 1/20 = −1/20, v = −20 cm."
+      },
+      {
+        "q": "A ray of light enters a denser medium along the normal (angle of incidence 0°). It: (a) bends towards the normal  (b) bends away from the normal  (c) passes undeviated  (d) is totally reflected",
+        "a": "**(c) passes undeviated.** Refraction changes the speed but there is no bending when the ray is along the normal, because sin 0° = 0 on both sides of Snell's law."
+      },
+      {
+        "q": "The image formed by a concave lens of a real object is always: (a) real and inverted  (b) virtual, erect and diminished  (c) virtual, erect and magnified  (d) real and magnified",
+        "a": "**(b) virtual, erect and diminished.** A diverging lens forms the image between F₁ and the optical centre on the same side as the object, whatever the object distance."
       }
     ],
     "trend": "One ray diagram (concave mirror or convex lens) and one numerical using the mirror/lens formula with the magnification appear nearly every year; power and the sign of the focal length are common 1-mark items.",
@@ -462,6 +474,18 @@
       {
         "q": "Stars twinkle mainly because of: (a) atmospheric refraction  (b) dispersion  (c) reflection from clouds  (d) their own flickering",
         "a": "**(a) atmospheric refraction.** Moving layers of air of changing density bend the starlight by varying amounts, so its apparent position shifts rapidly."
+      },
+      {
+        "q": "The least distance of distinct vision for a young adult with normal vision is about: (a) 2.5 cm  (b) 25 cm  (c) 25 m  (d) infinity",
+        "a": "**(b) 25 cm.** This is the near point; the far point of a normal eye is at infinity."
+      },
+      {
+        "q": "The clear sky appears blue because: (a) blue light is absorbed the most  (b) shorter wavelengths are scattered more by air molecules  (c) the sea reflects blue light upwards  (d) the atmosphere refracts blue light towards the eye",
+        "a": "**(b) shorter wavelengths are scattered more by air molecules.** Fine particles scatter blue light far more than red, so scattered blue reaches the eye from every direction."
+      },
+      {
+        "q": "A student with myopia is prescribed a lens of power −2.0 D. The lens is: (a) convex, focal length 50 cm  (b) concave, focal length 50 cm  (c) concave, focal length 2 m  (d) convex, focal length 2 m",
+        "a": "**(b) concave, focal length 50 cm.** f = 1/P = 1/(−2) m = −0.5 m; the negative sign means a concave (diverging) lens, which corrects myopia."
       }
     ],
     "trend": "One defect of vision with a labelled diagram is asked almost every year; the sky-blue / red-sunrise reasoning and the rainbow are the next most common.",
@@ -682,6 +706,18 @@
       {
         "q": "An ammeter is connected in a circuit: (a) in series  (b) in parallel  (c) across the supply  (d) either way",
         "a": "**(a) in series.** It has very low resistance so it does not change the current; a voltmeter is connected in parallel."
+      },
+      {
+        "q": "A 12 V battery drives a current of 2 A through a resistor. The resistance of the resistor is: (a) 24 Ω  (b) 6 Ω  (c) 0.17 Ω  (d) 14 Ω",
+        "a": "**(b) 6 Ω.** Ohm's law: R = V/I = 12/2 = 6 Ω."
+      },
+      {
+        "q": "Three 6 Ω resistors are connected in parallel. Their equivalent resistance is: (a) 18 Ω  (b) 6 Ω  (c) 2 Ω  (d) 3 Ω",
+        "a": "**(c) 2 Ω.** 1/R = 1/6 + 1/6 + 1/6 = 3/6, so R = 2 Ω — equal resistors in parallel give R/n."
+      },
+      {
+        "q": "A 100 W bulb is used for 10 hours every day. The electrical energy it consumes in 30 days is: (a) 3 kWh  (b) 30 kWh  (c) 300 kWh  (d) 3000 kWh",
+        "a": "**(b) 30 kWh.** Energy = power × time = 0.1 kW × 10 h × 30 = 30 kWh, i.e. 30 units."
       }
     ],
     "trend": "A series/parallel circuit numerical appears every year, and the heating-effect formula with a household energy-bill calculation is the most repeated 3–5 mark question in Physics.",
@@ -902,6 +938,18 @@
       {
         "q": "The insulation on the earth wire in a domestic circuit is: (a) red  (b) black  (c) green  (d) blue",
         "a": "**(c) green.** Live is red or brown, neutral is black or blue, and earth is green or green-yellow."
+      },
+      {
+        "q": "The magnetic field at a point near a long straight current-carrying wire: (a) increases as you move away from the wire  (b) decreases as you move away from the wire  (c) does not depend on the current  (d) is zero everywhere around the wire",
+        "a": "**(b) decreases as you move away from the wire.** The concentric field lines get farther apart with distance; the field is stronger for a larger current and closer to the wire."
+      },
+      {
+        "q": "Fleming's left-hand rule gives the direction of the: (a) induced current in a coil  (b) magnetic field due to a current  (c) force on a current-carrying conductor in a magnetic field  (d) current produced by a generator",
+        "a": "**(c) force on a current-carrying conductor in a magnetic field.** Forefinger = field, middle finger = current, thumb = force (motor). The right-hand rule is for generators."
+      },
+      {
+        "q": "The production of a current in a closed coil by a changing magnetic field is called: (a) electromagnetic induction  (b) magnetic effect of current  (c) electrolysis  (d) electrostatic induction",
+        "a": "**(a) electromagnetic induction.** Faraday's discovery — the basis of the electric generator; the induced current direction is given by Fleming's right-hand rule."
       }
     ],
     "trend": "Fleming's two rules, the motor or generator working, and the domestic circuit with the earth wire and fuse rotate through the 3-mark slot; 'why field lines never intersect' is a standard 1-marker.",

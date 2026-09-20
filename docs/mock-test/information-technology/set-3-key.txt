@@ -1,0 +1,106 @@
+ANSWER KEY - Information Technology (402) - Set 3
+========================================================================
+Marking: +1 correct · no negative marking. Score = correct x 1. Maximum 30.
+
+Quick key
+Q  1 (b)  Q  2 (b)  Q  3 (b)  Q  4 (b)  Q  5 (b)  Q  6 (a)
+Q  7 (b)  Q  8 (a)  Q  9 (a)  Q 10 (b)  Q 11 (a)  Q 12 (b)
+Q 13 (a)  Q 14 (b)  Q 15 (a)  Q 16 (b)  Q 17 (a)  Q 18 (a)
+Q 19 (a)  Q 20 (a)  Q 21 (a)  Q 22 (a)  Q 23 (a)  Q 24 (a)
+Q 25 (a)  Q 26 (a)  Q 27 (b)  Q 28 (a)  Q 29 (c)  Q 30 (a)
+
+Explanations
+------------
+
+Q1. (b) Concise.
+      Topic: Ch 1 · Communication Skills–II (Information Technology)
+
+Q2. (b) a stress-management method.
+      Topic: Ch 2 · Self-Management Skills–II (Information Technology)
+
+Q3. (b).
+      Topic: Ch 3 · ICT Skills–II (Information Technology)
+
+Q4. (b).
+      Topic: Ch 4 · Entrepreneurial Skills–II (Information Technology)
+
+Q5. (b) a green job.
+      Topic: Ch 5 · Green Skills–II (Information Technology)
+
+Q6. (a) improves human well-being while reducing environmental risks. It is low-carbon and resource-efficient.
+      Topic: Ch 5 · Green Skills–II (Information Technology)
+
+Q7. (b) Heading styles.
+      Topic: Ch 6 · Introduction to Styles (Writer) (Information Technology)
+
+Q8. (a) F11. F7 opens the spell-check and Ctrl + S saves the document.
+      Topic: Ch 6 · Introduction to Styles (Writer) (Information Technology)
+
+Q9. (a) Crop tool. Cropping cuts the picture without changing the rest of the page.
+      Topic: Ch 7 · Working with Images (Writer) (Information Technology)
+
+Q10. (b) strike-out text.
+      Topic: Ch 8 · ToC, Templates and Track Changes (Information Technology)
+
+Q11. (a) Edit → Track Changes → Manage. The Manage dialog lists every change with its author and time.
+      Topic: Ch 8 · ToC, Templates and Track Changes (Information Technology)
+
+Q12. (b) sort.
+      Topic: Ch 9 · Scenarios and Goal Seek (Calc) (Information Technology)
+
+Q13. (a) combining data from several sheets or ranges into one summary. It is useful when each branch sends its own sheet.
+      Topic: Ch 9 · Scenarios and Goal Seek (Calc) (Information Technology)
+
+Q14. (b).
+      Topic: Ch 10 · Macros in Spreadsheet (Information Technology)
+
+Q15. (a) Tools → Macros → Record Macro. Stop the recording with the same menu and then save the macro.
+      Topic: Ch 10 · Macros in Spreadsheet (Information Technology)
+
+Q16. (b).
+      Topic: Ch 11 · Linking Spreadsheet Data (Information Technology)
+
+Q17. (a).
+      Topic: Ch 12 · Share and Review a Spreadsheet (Information Technology)
+
+Q18. (a) primary key. It must be unique and cannot be empty.
+      Topic: Ch 13 · Introduction to DBMS (Information Technology)
+
+Q19. (a) LibreOffice Base. MySQL, PostgreSQL and Oracle are other examples.
+      Topic: Ch 13 · Introduction to DBMS (Information Technology)
+
+Q20. (a) Field Length. Default Value fills in a value automatically when nothing is typed.
+      Topic: Ch 14 · Tables in LibreOffice Base (Information Technology)
+
+Q21. (a) foreign key. It is what holds the relationship together.
+      Topic: Ch 15 · Relationships and Multiple Tables (Information Technology)
+
+Q22. (a) from largest to smallest. For text, Z to A.
+      Topic: Ch 16 · Queries in Base (Information Technology)
+
+Q23. (a) a query.
+      Topic: Ch 17 · Forms and Reports (Information Technology)
+
+Q24. (a) print or present data in a formatted way. Data entry is done through a form.
+      Topic: Ch 17 · Forms and Reports (Information Technology)
+
+Q25. (a) raise the alarm and leave by the marked exit. Never use a lift in a fire.
+      Topic: Ch 18 · Health, Safety and Security at the Workplace (Information Technology)
+
+Q26. (a) Personal Protective Equipment. Gloves, goggles, helmets and safety shoes are examples.
+      Topic: Ch 18 · Health, Safety and Security at the Workplace (Information Technology)
+
+Q27. (b) at eye level.
+      Topic: Ch 19 · Workplace Quality and Ergonomics (Information Technology)
+
+Q28. (a) repeating the same small movement for long periods. Typing and mouse work without breaks are common causes.
+      Topic: Ch 19 · Workplace Quality and Ergonomics (Information Technology)
+
+Q29. (c) use the lift.
+      Topic: Ch 20 · Prevent Accidents and Emergencies (Information Technology)
+
+Q30. (a) walk quickly to the assembly point without using the lift. Report to the assembly point so that everyone can be counted.
+      Topic: Ch 20 · Prevent Accidents and Emergencies (Information Technology)
+
+========================================================================
+Paper: set-3.txt  |  Online: https://clickalex.github.io/Class10CBSE/mock-test/information-technology/set-3.html

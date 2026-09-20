@@ -203,6 +203,18 @@
       {
         "q": "Rancidity of fat-containing food is prevented by: (a) storing it in the open  (b) adding antioxidants and flushing with nitrogen  (c) adding oxidising agents  (d) heating it repeatedly",
         "a": "**(b) adding antioxidants and flushing with nitrogen.** Both slow down the oxidation of fats that causes the stale smell and taste."
+      },
+      {
+        "q": "When the equation Fe + H₂O → Fe₃O₄ + H₂ is balanced, the coefficient of steam (H₂O) is: (a) 2  (b) 3  (c) 4  (d) 6",
+        "a": "**(c) 4.** 3Fe + 4H₂O → Fe₃O₄ + 4H₂ — three iron atoms need four oxygen atoms, which come from four water molecules."
+      },
+      {
+        "q": "A shiny brown element X becomes black when heated in air. X and the black compound are: (a) Cu and CuO  (b) Fe and Fe₂O₃  (c) Ag and Ag₂S  (d) Al and Al₂O₃",
+        "a": "**(a) Cu and CuO.** Copper is reddish-brown and forms black copper(II) oxide on heating: 2Cu + O₂ → 2CuO."
+      },
+      {
+        "q": "The reaction 2AgBr → 2Ag + Br₂ used in black-and-white photography is a: (a) thermal decomposition  (b) photochemical decomposition  (c) displacement  (d) combination reaction",
+        "a": "**(b) photochemical decomposition.** Light, not heat, splits silver bromide into silver and bromine; the grey silver darkens the film."
       }
     ],
     "trend": "One balancing question and one 'identify the reaction type' question appear almost every year; corrosion or rancidity is the recurring 2–3 mark reasoning question.",
@@ -454,6 +466,18 @@
       {
         "q": "Dilute acid added to an active metal produces: (a) oxygen  (b) hydrogen  (c) carbon dioxide  (d) nitrogen",
         "a": "**(b) hydrogen.** Metal + dilute acid → salt + H₂, which burns with a pop sound."
+      },
+      {
+        "q": "The chemical formula of Plaster of Paris is: (a) CaSO₄·2H₂O  (b) CaSO₄·½H₂O  (c) CaSO₄  (d) CaCO₃",
+        "a": "**(b) CaSO₄·½H₂O.** Gypsum (CaSO₄·2H₂O) heated to 373 K loses three-quarters of its water of crystallisation to give the hemihydrate."
+      },
+      {
+        "q": "Baking soda is: (a) Na₂CO₃·10H₂O  (b) NaHCO₃  (c) NaOH  (d) Na₂CO₃",
+        "a": "**(b) NaHCO₃.** Sodium hydrogencarbonate; it releases CO₂ on heating or with acid, which makes cakes rise and antacids fizz."
+      },
+      {
+        "q": "Bleaching powder is manufactured by passing chlorine gas over: (a) dry slaked lime  (b) quicklime  (c) limestone  (d) gypsum",
+        "a": "**(a) dry slaked lime.** Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O. Quicklime is CaO, limestone is CaCO₃, gypsum is a sulphate."
       }
     ],
     "trend": "The four salts — bleaching powder, baking soda, washing soda, plaster of Paris — rotate through the 3-mark slot every year, and the pH scale almost always appears as a case-based or diagram question.",
@@ -666,6 +690,18 @@
       {
         "q": "Which metal reacts vigorously with cold water? (a) iron  (b) zinc  (c) sodium  (d) copper",
         "a": "**(c) sodium.** It reacts violently with cold water; iron and zinc react only with steam, and copper does not react at all."
+      },
+      {
+        "q": "The correct decreasing order of reactivity is: (a) Zn > Mg > Cu  (b) Mg > Zn > Cu  (c) Cu > Zn > Mg  (d) Zn > Cu > Mg",
+        "a": "**(b) Mg > Zn > Cu.** In the reactivity series magnesium lies above zinc, and copper lies below hydrogen, so it is the least reactive of the three."
+      },
+      {
+        "q": "Galvanisation protects iron from rusting by coating it with a thin layer of: (a) tin  (b) chromium  (c) zinc  (d) copper",
+        "a": "**(c) zinc.** Zinc is more reactive than iron, so it corrodes in preference to the iron even if the coating is scratched."
+      },
+      {
+        "q": "Magnesium (2, 8, 2) combines with chlorine (2, 8, 7) to form an ionic compound with the formula: (a) MgCl  (b) MgCl₂  (c) Mg₂Cl  (d) MgCl₃",
+        "a": "**(b) MgCl₂.** Magnesium loses two electrons to become Mg²⁺; each chlorine atom gains one, so two Cl⁻ ions are needed."
       }
     ],
     "trend": "One displacement question from the reactivity series and one reasoning question (kerosene, galvanising, aqua regia or the thermite reaction) appear almost every year; ionic bond formation is the recurring 3-mark answer.",
@@ -884,6 +920,18 @@
       {
         "q": "The gas evolved when ethanoic acid reacts with sodium carbonate is: (a) H₂  (b) O₂  (c) CO₂  (d) CO",
         "a": "**(c) CO₂.** 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂; the gas turns lime water milky."
+      },
+      {
+        "q": "The IUPAC name of CH₃–CH₂–CHO is: (a) propanol  (b) propanal  (c) propanone  (d) propanoic acid",
+        "a": "**(b) propanal.** Three carbons (prop-) with an aldehyde group –CHO (-al). Propanone is a ketone, propanol an alcohol, propanoic acid a carboxylic acid."
+      },
+      {
+        "q": "Which pair belongs to the same homologous series? (a) CH₄ and C₂H₄  (b) C₂H₆ and C₃H₈  (c) C₂H₄ and C₂H₂  (d) CH₃OH and CH₃COOH",
+        "a": "**(b) C₂H₆ and C₃H₈.** Both are alkanes (CₙH₂ₙ₊₂) differing by one –CH₂– unit. The other pairs have different functional groups or bond types."
+      },
+      {
+        "q": "Which hydrocarbon undergoes an addition reaction with hydrogen in the presence of a nickel catalyst? (a) C₃H₈  (b) C₂H₆  (c) C₄H₁₀  (d) C₂H₄",
+        "a": "**(d) C₂H₄.** Only an unsaturated hydrocarbon (ethene, with a C=C double bond) can add hydrogen; the other three are saturated alkanes."
       }
     ],
     "trend": "One IUPAC naming or structure question every year, plus either the soap/detergent comparison or an ethanol–ethanoic acid reaction question. Homologous series tables are a favourite case-based format.",

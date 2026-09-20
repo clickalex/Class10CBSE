@@ -18,13 +18,13 @@ Class10CBSE/
 ├── 09-After-10th/            Class XI admissions, official links, 9 PM IST tracker
 ├── 10-PW-NSAT/               PW scholarship test: syllabus, practice, registration
 ├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · structure.conf
-├── site/                     content/ + build.py that generate the study hub
+├── site/                     content/ + build.py + mocktest.py that generate the study hub
 └── docs/                     the generated study hub — this is what GitHub Pages serves
 ```
 
 **Live site: <https://clickalex.github.io/Class10CBSE/>** — built from
 `site/content/`, one hub per subject (including IT 402, in-built), 175 chapter
-pages, **2,133 written Q&A and 1,402 MCQs**. Every subject uses the same design
+pages, **2,133 written Q&A and 1,426 MCQs**. Every subject uses the same design
 and the same Q&A tone: Short, Long, Application and Competency, with
 click-to-reveal answers.
 
@@ -43,6 +43,36 @@ plus a formula list in the subjects that have formulas. See
 [What every chapter contains](site/README.md#what-every-chapter-contains).
 
 See [Deploying the site](#deploying-the-site) below.
+
+## Mock tests — check your own score online
+
+The [mock test centre](https://clickalex.github.io/Class10CBSE/mock-test/)
+has a timed MCQ mock test for **every exam listed in this repository**: the nine
+board subjects (Maths, Science, Social Science, English, Hindi A, Hindi B, IT
+402, Computer Applications, Sanskrit) and the eleven test-based entrance and
+scholarship exams in the after-10th directory (JNV Class XI, JMI, AMU, BHU/CHS
+SET, UP and Bihar polytechnic, PW NSAT, TALLENTEX, ANTHE, iACST, VMC VIQ) —
+20 exams, 49 fixed sets, 2,214 questions. Routes that select on merit or
+document verification (KV, RKM Narendrapur, Chandigarh XI, Haryana polytechnic)
+are listed on the same page with a note instead of a test.
+
+- **Online screen** — timer, question palette, mark-for-review, keyboard
+  shortcuts, auto-submit at zero; answers survive an accidental reload.
+- **Instant score and one-page report** — marks, percentage, accuracy,
+  negative-marking loss, section-wise table, the topics to revise first (linked
+  to the chapter and its practice page) and a question map. *Download report*
+  prints it as a single A4 page / PDF; there is also a `.txt` download. Full
+  answer review with explanations follows.
+- **Downloads** — every set is also a printable paper with an OMR grid and an
+  optional answer-key page (`set-N-paper.html`), plus plain-text
+  `set-N.txt` and `set-N-key.txt` files.
+- Scores are stored only in the browser (localStorage) — nothing is uploaded.
+
+Everything is generated from the chapter question banks plus an original
+Mental Ability bank (`site/content/banks/`) by `site/mocktest.py`, from the
+blueprints in `site/content/mock-tests.json`. Board mocks are objective
+practice across the whole syllabus; entrance patterns are approximations of
+the published pattern and say so on every page — these are not official papers.
 
 ## After Class 10 admissions
 

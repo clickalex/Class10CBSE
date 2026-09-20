@@ -1,0 +1,106 @@
+ANSWER KEY - Computer Applications (165) - Set 1
+========================================================================
+Marking: +1 correct · no negative marking. Score = correct x 1. Maximum 30.
+
+Quick key
+Q  1 (b)  Q  2 (b)  Q  3 (b)  Q  4 (a)  Q  5 (c)  Q  6 (a)
+Q  7 (c)  Q  8 (a)  Q  9 (b)  Q 10 (b)  Q 11 (b)  Q 12 (c)
+Q 13 (c)  Q 14 (c)  Q 15 (b)  Q 16 (a)  Q 17 (b)  Q 18 (a)
+Q 19 (b)  Q 20 (b)  Q 21 (c)  Q 22 (b)  Q 23 (b)  Q 24 (c)
+Q 25 (a)  Q 26 (b)  Q 27 (b)  Q 28 (c)  Q 29 (c)  Q 30 (b)
+
+Explanations
+------------
+
+Q1. (b) Tim Berners-Lee, in 1989.
+      Topic: Ch 1 · Internet Basics (Computer Applications)
+
+Q2. (b) Domain Name System.
+      Topic: Ch 1 · Internet Basics (Computer Applications)
+
+Q3. (b) domain.
+      Topic: Ch 2 · Internet Services & Protocols (Computer Applications)
+
+Q4. (a) SMTP. POP3 and IMAP are used to receive mail and FTP to transfer files.
+      Topic: Ch 2 · Internet Services & Protocols (Computer Applications)
+
+Q5. (c) Star — the hub or switch is the single point of failure.
+      Topic: Ch 3 · Network Types, Topologies & Devices (Computer Applications)
+
+Q6. (a) mesh topology. It is the most reliable and the most expensive to cable.
+      Topic: Ch 3 · Network Types, Topologies & Devices (Computer Applications)
+
+Q7. (c) all-IP.
+      Topic: Ch 4 · Mobile & Wireless Technology (Computer Applications)
+
+Q8. (a) 3G. 1G was analogue voice, 2G added digital voice and SMS, and 5G is the current high-speed standard.
+      Topic: Ch 4 · Mobile & Wireless Technology (Computer Applications)
+
+Q9. (b) search engine.
+      Topic: Ch 5 · Web Browsers, Search & Web Concepts (Computer Applications)
+
+Q10. (b) crawler or spider.
+      Topic: Ch 5 · Web Browsers, Search & Web Concepts (Computer Applications)
+
+Q11. (b) HyperText Markup Language.
+      Topic: Ch 6 · HTML I — Introduction & Basic Tags (Computer Applications)
+
+Q12. (c) <title>.
+      Topic: Ch 6 · HTML I — Introduction & Basic Tags (Computer Applications)
+
+Q13. (c) <h6>.
+      Topic: Ch 6 · HTML I — Introduction & Basic Tags (Computer Applications)
+
+Q14. (c) face.
+      Topic: Ch 7 · HTML II — Text Formatting & Lists (Computer Applications)
+
+Q15. (b) <sup> for superscript.
+      Topic: Ch 7 · HTML II — Text Formatting & Lists (Computer Applications)
+
+Q16. (a) <br>. It is an empty tag and has no closing tag.
+      Topic: Ch 7 · HTML II — Text Formatting & Lists (Computer Applications)
+
+Q17. (b) target='_blank'.
+      Topic: Ch 8 · HTML III — Links & Images (Computer Applications)
+
+Q18. (a) href. The target attribute only decides where the page opens.
+      Topic: Ch 8 · HTML III — Links & Images (Computer Applications)
+
+Q19. (b) <tr>.
+      Topic: Ch 9 · HTML Tables (Computer Applications)
+
+Q20. (b) colspan='3'.
+      Topic: Ch 9 · HTML Tables (Computer Applications)
+
+Q21. (c) password.
+      Topic: Ch 10 · HTML Forms (Computer Applications)
+
+Q22. (b) checked. selected is used on <option>.
+      Topic: Ch 10 · HTML Forms (Computer Applications)
+
+Q23. (b) dashed. Valid values include solid, dashed, dotted, double and none.
+      Topic: Ch 11 · CSS and Multimedia (Computer Applications)
+
+Q24. (c) h2 { font-style: italic; }. Font has three properties: family, size and style.
+      Topic: Ch 11 · CSS and Multimedia (Computer Applications)
+
+Q25. (a) controls. Without it the video or audio cannot be started by the visitor.
+      Topic: Ch 11 · CSS and Multimedia (Computer Applications)
+
+Q26. (b) reads as shouting. Netiquette asks for normal case and polite words.
+      Topic: Ch 12 · Netiquette, E-Commerce & Digital Divide (Computer Applications)
+
+Q27. (b) https:// with a padlock. The s means the data is encrypted in transit.
+      Topic: Ch 12 · Netiquette, E-Commerce & Digital Divide (Computer Applications)
+
+Q28. (c) refuse and cut the call. No genuine caller ever asks for an OTP.
+      Topic: Ch 12 · Netiquette, E-Commerce & Digital Divide (Computer Applications)
+
+Q29. (c) trademark.
+      Topic: Ch 13 · Cybercrime, IPR & Open Source (Computer Applications)
+
+Q30. (b) plagiarism.
+      Topic: Ch 13 · Cybercrime, IPR & Open Source (Computer Applications)
+
+========================================================================
+Paper: set-1.txt  |  Online: https://clickalex.github.io/Class10CBSE/mock-test/computer-applications/set-1.html

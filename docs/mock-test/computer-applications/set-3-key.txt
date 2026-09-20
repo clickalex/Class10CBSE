@@ -1,0 +1,106 @@
+ANSWER KEY - Computer Applications (165) - Set 3
+========================================================================
+Marking: +1 correct · no negative marking. Score = correct x 1. Maximum 30.
+
+Quick key
+Q  1 (b)  Q  2 (a)  Q  3 (d)  Q  4 (a)  Q  5 (d)  Q  6 (a)
+Q  7 (c)  Q  8 (b)  Q  9 (b)  Q 10 (a)  Q 11 (a)  Q 12 (b)
+Q 13 (c)  Q 14 (a)  Q 15 (b)  Q 16 (c)  Q 17 (a)  Q 18 (b)
+Q 19 (a)  Q 20 (a)  Q 21 (b)  Q 22 (a)  Q 23 (b)  Q 24 (b)
+Q 25 (b)  Q 26 (b)  Q 27 (b)  Q 28 (a)  Q 29 (c)  Q 30 (a)
+
+Explanations
+------------
+
+Q1. (b) 1969, by the US Department of Defense's research agency.
+      Topic: Ch 1 · Internet Basics (Computer Applications)
+
+Q2. (a) Tim Berners-Lee. He proposed it in 1989 while working at CERN.
+      Topic: Ch 1 · Internet Basics (Computer Applications)
+
+Q3. (d) 443. Port 80 is plain HTTP.
+      Topic: Ch 2 · Internet Services & Protocols (Computer Applications)
+
+Q4. (a) encrypts the data. The S stands for secure, which is why a padlock appears in the address bar.
+      Topic: Ch 2 · Internet Services & Protocols (Computer Applications)
+
+Q5. (d) router.
+      Topic: Ch 3 · Network Types, Topologies & Devices (Computer Applications)
+
+Q6. (a) router. A switch connects computers within one network; a repeater only strengthens the signal.
+      Topic: Ch 3 · Network Types, Topologies & Devices (Computer Applications)
+
+Q7. (c) centimetres — which is why you tap.
+      Topic: Ch 4 · Mobile & Wireless Technology (Computer Applications)
+
+Q8. (b) IEEE 802.11. 802.3 is wired Ethernet.
+      Topic: Ch 4 · Mobile & Wireless Technology (Computer Applications)
+
+Q9. (b) home page, usually index.html.
+      Topic: Ch 5 · Web Browsers, Search & Web Concepts (Computer Applications)
+
+Q10. (a) URL of the page you are on. You can also type an address there to go to a site.
+      Topic: Ch 5 · Web Browsers, Search & Web Concepts (Computer Applications)
+
+Q11. (a) <h1>. Headings run from <h1>, the largest, down to <h6>, the smallest.
+      Topic: Ch 6 · HTML I — Introduction & Basic Tags (Computer Applications)
+
+Q12. (b) <ul>. <li> marks the items inside it.
+      Topic: Ch 7 · HTML II — Text Formatting & Lists (Computer Applications)
+
+Q13. (c) a, b, c — lowercase letters.
+      Topic: Ch 7 · HTML II — Text Formatting & Lists (Computer Applications)
+
+Q14. (a) <hr>. It is used to separate sections of a page.
+      Topic: Ch 7 · HTML II — Text Formatting & Lists (Computer Applications)
+
+Q15. (b) an empty tag — it has no closing partner.
+      Topic: Ch 8 · HTML III — Links & Images (Computer Applications)
+
+Q16. (c) ../index.html.
+      Topic: Ch 8 · HTML III — Links & Images (Computer Applications)
+
+Q17. (a) <a href='#top'>. The #id form jumps within the page; the target carries the matching id.
+      Topic: Ch 8 · HTML III — Links & Images (Computer Applications)
+
+Q18. (b) the space between cells.
+      Topic: Ch 9 · HTML Tables (Computer Applications)
+
+Q19. (a) border. cellspacing sets the gap between cells and cellpadding the gap inside them.
+      Topic: Ch 9 · HTML Tables (Computer Applications)
+
+Q20. (a) <th>. Its text is bold and centred by default.
+      Topic: Ch 9 · HTML Tables (Computer Applications)
+
+Q21. (b) <textarea>.
+      Topic: Ch 10 · HTML Forms (Computer Applications)
+
+Q22. (a) selected. checked is the equivalent for radio buttons and checkboxes.
+      Topic: Ch 10 · HTML Forms (Computer Applications)
+
+Q23. (b) p { color: red; }. The property is color; font-color does not exist.
+      Topic: Ch 11 · CSS and Multimedia (Computer Applications)
+
+Q24. (b) margin. Margin pushes neighbouring elements away from the box.
+      Topic: Ch 11 · CSS and Multimedia (Computer Applications)
+
+Q25. (b) is drawn outside the border. It is often used to highlight the active field.
+      Topic: Ch 11 · CSS and Multimedia (Computer Applications)
+
+Q26. (b) online fraud. Fake messages steal passwords and money.
+      Topic: Ch 12 · Netiquette, E-Commerce & Digital Divide (Computer Applications)
+
+Q27. (b) the connected and the unconnected. Cost, coverage, skills and language cause it.
+      Topic: Ch 12 · Netiquette, E-Commerce & Digital Divide (Computer Applications)
+
+Q28. (a) e-governance supporting freedom of information. Citizens can see and use public records directly.
+      Topic: Ch 12 · Netiquette, E-Commerce & Digital Divide (Computer Applications)
+
+Q29. (c) Linux.
+      Topic: Ch 13 · Cybercrime, IPR & Open Source (Computer Applications)
+
+Q30. (a) shareware. Try first, pay later; freeware is free but closed, FOSS is open in source.
+      Topic: Ch 13 · Cybercrime, IPR & Open Source (Computer Applications)
+
+========================================================================
+Paper: set-3.txt  |  Online: https://clickalex.github.io/Class10CBSE/mock-test/computer-applications/set-3.html
