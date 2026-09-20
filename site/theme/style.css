@@ -302,6 +302,21 @@ details.qans[open] > summary { margin-bottom: 8px; }
   .wrap { padding: 0 14px; }
 }
 
+/* ---------- mock tests: small screens ---------- */
+@media (max-width: 560px) {
+  /* the paper header table wraps instead of squeezing four columns */
+  .paper-meta tr { display: flex; flex-wrap: wrap; gap: 1px 12px; }
+  .paper-meta th, .paper-meta td { width: auto; }
+}
+@media (max-width: 480px) {
+  .mock-slots { grid-template-columns: repeat(auto-fill, minmax(136px, 1fr)); }
+  /* long options stack instead of sharing 45% columns */
+  .paper-opts { grid-template-columns: 1fr; }
+  /* the name input must fit a 320px viewport */
+  .mock-name label { display: block; }
+  .mock-name input { min-width: 0; width: 100%; margin: 6px 0 0; }
+}
+
 /* After-Class-10 admissions use the same cards and responsive page shell. */
 .admission-watch, .admission-card {
   background: var(--card); border: 1px solid var(--line);
@@ -445,6 +460,17 @@ details.qans[open] > summary { margin-bottom: 8px; }
 .mock-fresh strong { color: var(--brand-dark); }
 .mock-chapters .chip { font-size: 13px; }
 .mock-chapters .chip-n { color: var(--ink-soft); font-weight: 600; margin-left: 4px; }
+
+/* ---------- mock tests: the 10 slot cards ---------- */
+.mock-slots { display: grid; gap: 12px; margin: 16px 0; grid-template-columns: repeat(auto-fill, minmax(172px, 1fr)); }
+.slot-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px 16px 16px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 4px;
+}
+.slot-card h3 { margin: 0; font-size: 17px; }
+.slot-meta { margin: 0; font-size: 13px; color: var(--ink-soft); }
+.slot-best { margin: 2px 0 10px; font-size: 13px; color: var(--ink-soft); border-top: 1px solid #eef2f7; padding-top: 8px; min-height: 1.2em; }
+.slot-card .btn { align-self: flex-start; }
 .paper-head { text-align: center; }
 .paper-brand { margin: 0; font-size: 11px; letter-spacing: 1.4px; text-transform: uppercase; color: var(--ink-soft); }
 .paper-head h1 { font-size: 26px; margin: 4px 0 2px; }

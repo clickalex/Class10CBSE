@@ -170,7 +170,7 @@ except Exception as e: print('FAIL', '$f', e)
 | File | What it is |
 |---|---|
 | `mock-test/index.html` | the centre: every exam, best scores, recent attempts |
-| `mock-test/<exam>/index.html` | pattern card, the 10 mock slots, chapter mocks, attempts |
+| `mock-test/<exam>/index.html` | pattern card, the 10 mock cards, chapter mocks, attempts |
 | `mock-test/<exam>/test.html?n=K` | the engine page for mock K: generates a fresh paper, runs the timed test, scores it, prints the one-page report, renders the printable paper and builds the `.txt` downloads |
 | `mock-test/<exam>/test.html?chapter=<id>` | a chapter-wise mock: every MCQ of that chapter, +1 / no negative, about a minute per question |
 

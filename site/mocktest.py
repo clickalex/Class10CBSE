@@ -482,10 +482,13 @@ def exam_body(exam, admissions, subjects):
     inst = next((i for i in admissions if i["id"] == exam.get("admission_id")), None)
     tests = exam.get("tests", 10)
 
-    slot_rows = "".join(
-        f'<tr><td>Mock {n}</td><td>{exam["questions"]} Qs · {minutes_text(exam["minutes"])}</td>'
-        f'<td><a class="btn primary" href="test.html?n={n}">Take online →</a></td>'
-        f'<td data-mock-slot-best="{esc(exam["id"])}/{n}">—</td></tr>'
+    slot_cards = "".join(
+        f'<article class="slot-card">'
+        f"<h3>Mock {n}</h3>"
+        f'<p class="slot-meta">{exam["questions"]} Qs \u00b7 {minutes_text(exam["minutes"])} \u00b7 Max {max_marks(exam)}</p>'
+        f'<p class="slot-best" data-mock-slot-best="{esc(exam["id"])}/{n}">No attempt yet</p>'
+        f'<a class="btn primary" href="test.html?n={n}">Take online \u2192</a>'
+        "</article>"
         for n in range(1, tests + 1)
     )
 
@@ -545,9 +548,8 @@ about a minute per question. Each attempt reshuffles the order and refreshes the
 report, or download the same paper with its key.</p>
 {pattern_chips(exam)}
 <h2>Mock tests · {tests}</h2>
-<div class="tablewrap"><table><thead><tr><th>Mock</th><th>Pattern</th><th>Online</th><th>Your best</th></tr></thead>
-<tbody>{slot_rows}</tbody></table></div>
-<p class="hint">Each slot generates a new paper on every attempt — the questions you get are picked to avoid the ones
+<div class="mock-slots">{slot_cards}</div>
+<p class="hint">Each card generates a new paper on every attempt — the questions you get are picked to avoid the ones
 you have already been served on this device. The <em>printable paper, the .txt paper and the key</em> are on the test
 screen, made from the same generated paper.</p>
 {chapter_html}
