@@ -301,3 +301,20 @@ details.qans[open] > summary { margin-bottom: 8px; }
   main { padding: 54px 14px 40px; }
   .wrap { padding: 0 14px; }
 }
+
+/* After-Class-10 admissions use the same cards and responsive page shell. */
+.admission-watch, .admission-card {
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 22px; margin: 20px 0;
+  box-shadow: var(--shadow); overflow-wrap: anywhere;
+}
+.admission-watch { border-left: 4px solid var(--brand); }
+.admission-watch h2, .admission-card h2 { margin-top: 0; }
+.admission-watch .btn { margin: 4px 8px 4px 0; }
+.admission-dates { display: grid; grid-template-columns: minmax(120px, 1fr) 3fr; gap: 8px 16px; }
+.admission-dates dt { font-weight: 700; }
+.admission-dates dd { margin: 0; color: var(--ink-soft); }
+@media (max-width: 550px) {
+  .admission-dates { grid-template-columns: 1fr; gap: 4px; }
+  .admission-dates dd { margin-bottom: 10px; }
+}

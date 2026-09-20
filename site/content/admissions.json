@@ -1,0 +1,261 @@
+{
+  "target_session": "2027-28",
+  "timezone": "Asia/Kolkata",
+  "institutions": [
+    {
+      "id": "jmi",
+      "name": "JMI — Jamia Millia Islamia schools",
+      "location": "New Delhi",
+      "route": "Class XI school admission / entrance test; check the current school prospectus for each stream.",
+      "eligibility": "Class X qualification, stream-wise marks and age rules apply. Check school, stream, category and hostel availability separately.",
+      "sources": [
+        "https://admission.jmi.ac.in/",
+        "https://jmicoe.in/"
+      ],
+      "expected_window": "Not verified for 2027-28. Do not reuse last year's dates.",
+      "category": "school",
+      "selection": "test",
+      "cycle": "2027-28 admission; verify the new prospectus"
+    },
+    {
+      "id": "amu",
+      "name": "AMU — Senior Secondary School (Class XI)",
+      "location": "Aligarh, Uttar Pradesh",
+      "route": "Class XI admission test; consult the admission guide for Science and other available streams.",
+      "eligibility": "Class X qualification, marks, age and stream-specific requirements apply. School admission is not undergraduate admission.",
+      "sources": [
+        "https://www.amucontrollerexams.com/"
+      ],
+      "expected_window": "Not verified for 2027-28. Watch for the new admission guide.",
+      "category": "school",
+      "selection": "test",
+      "cycle": "2027-28 admission; verify the new prospectus"
+    },
+    {
+      "id": "bhu",
+      "name": "BHU / CHS — Central Hindu Boys' and Girls' Schools",
+      "location": "Varanasi, Uttar Pradesh",
+      "route": "School Entrance Test (SET) for Class XI; consult the bulletin for the relevant school and stream.",
+      "eligibility": "Class X qualification and current marks/age criteria apply. Check boys'/girls' school eligibility and available streams. This is SET, not CUET UG.",
+      "sources": [
+        "https://bhuonline.in/"
+      ],
+      "expected_window": "Not verified for 2027-28. Watch for the new SET bulletin.",
+      "category": "school",
+      "selection": "test",
+      "cycle": "2027-28 admission; verify the new prospectus"
+    },
+    {
+      "id": "nvs",
+      "name": "JNV — Jawahar Navodaya Vidyalayas",
+      "location": "Participating districts across India",
+      "route": "Class XI Lateral Entry Selection Test (LEST), against vacant seats.",
+      "eligibility": "Check district/residence, school location, age and Class X study requirements in the current prospectus. This is not the Class VI or IX test.",
+      "sources": [
+        "https://navodaya.gov.in/nvs/en/Admission-Notifications/Class-XI/",
+        "https://cbseitms.nic.in/2026/nvsxi_11/"
+      ],
+      "expected_window": "Check immediately: the application cycle can precede Class X board results. No deadline is confirmed by this tracker.",
+      "category": "school",
+      "selection": "test",
+      "cycle": "2027-28 admission; verify the new prospectus"
+    },
+    {
+      "id": "kvs",
+      "name": "Kendriya Vidyalayas — Class XI backup option",
+      "location": "Local KVs, including Delhi NCR",
+      "route": "Merit / vacancy-based admission, not a general Class XI entrance exam.",
+      "eligibility": "Non-KV students depend on vacancies after eligible KV students. Check current stream cut-offs, priorities and the individual school's notice.",
+      "sources": [
+        "https://kvsangathan.nic.in/en/admission/"
+      ],
+      "expected_window": "Follow the current KVS schedule and local school notices around Class X results; exact dates are not verified.",
+      "category": "school",
+      "selection": "merit",
+      "cycle": "2027-28 admission; verify the new prospectus"
+    },
+    {
+      "id": "rkm-narendrapur",
+      "name": "Ramakrishna Mission Vidyalaya, Narendrapur — Class XI",
+      "category": "school",
+      "location": "Narendrapur, West Bengal",
+      "route": "Higher-secondary admission for selected external students; check the current Class XI selection notice.",
+      "eligibility": "Confirm whether external Class X students are being admitted this cycle, gender/residential rules, accepted boards, medium, streams and marks requirements. Old Class XI notices are still on the site.",
+      "sources": [
+        "https://www.rkmvnarendrapur.org/"
+      ],
+      "monitor_terms": [
+        "class xi",
+        "class 11",
+        "higher secondary"
+      ],
+      "selection": "verify",
+      "expected_window": "Not verified for 2027-28. Follow the current official prospectus and counselling notices.",
+      "cycle": "2027-28 admission; verify the new prospectus"
+    },
+    {
+      "id": "chandigarh-xi",
+      "name": "Chandigarh government senior secondary schools — Class XI",
+      "category": "school",
+      "location": "Chandigarh",
+      "route": "Centralised Class XI school/stream allotment and counselling; a non-entrance-test backup route.",
+      "eligibility": "Check Class X marks, stream criteria, category rules and preferences for students from Chandigarh schools. Do not assume every seat is available to an out-of-state applicant.",
+      "sources": [
+        "https://www.chdeducation.gov.in/"
+      ],
+      "monitor_terms": [
+        "admission to xi",
+        "senior secondary"
+      ],
+      "selection": "merit",
+      "expected_window": "Not verified for 2027-28. Follow the current official prospectus and counselling notices.",
+      "cycle": "2027-28 admission; verify the new prospectus"
+    },
+    {
+      "id": "haryana-polytechnic",
+      "name": "Haryana polytechnic colleges — HSTES Diploma Engineering",
+      "category": "diploma",
+      "location": "Haryana; useful for a Delhi NCR shortlist",
+      "route": "First-year Diploma Engineering admissions through HSTES merit/counselling, rather than a general entrance test.",
+      "eligibility": "Check Class X subjects/marks, domicile, reservation and approved college/branch lists. Choose first-year engineering diploma, not lateral entry or pharmacy; their requirements differ.",
+      "sources": [
+        "https://www.hstes.org.in/"
+      ],
+      "monitor_terms": [
+        "diploma",
+        "polytechnic"
+      ],
+      "selection": "merit",
+      "expected_window": "Not verified for 2027-28. Follow the current official prospectus and counselling notices.",
+      "cycle": "2027-28 admission; verify the new prospectus"
+    },
+    {
+      "id": "up-polytechnic",
+      "name": "Uttar Pradesh polytechnic colleges — JEECUP / UPJEE(P)",
+      "category": "diploma",
+      "location": "Uttar Pradesh",
+      "route": "Polytechnic entrance test followed by counselling. Look for first-year engineering/technology groups that accept Class X.",
+      "eligibility": "Check group-specific Class X eligibility, subjects, age, domicile and seat rules in the current brochure. Not every JEECUP group accepts Class X; pharmacy and post-diploma routes differ.",
+      "sources": [
+        "https://jeecup.admissions.nic.in/"
+      ],
+      "monitor_terms": [
+        "jeecup",
+        "upjee",
+        "polytechnic"
+      ],
+      "selection": "test",
+      "expected_window": "Not verified for 2027-28. Follow the current official prospectus and counselling notices.",
+      "cycle": "2027-28 admission; verify the new prospectus"
+    },
+    {
+      "id": "bihar-polytechnic",
+      "name": "Bihar polytechnic colleges — DCECE (PE)",
+      "category": "diploma",
+      "location": "Bihar",
+      "route": "Diploma Certificate Entrance Competitive Examination, Polytechnic Engineering (PE) route and counselling.",
+      "eligibility": "Verify Class X qualification, marks, residence/category and medical requirements for PE. Do not confuse PE with PM/PMM or lateral-entry exams, which have different eligibility.",
+      "sources": [
+        "https://bceceboard.bihar.gov.in/DCECEIndex.php"
+      ],
+      "monitor_terms": [
+        "dcece",
+        "polytechnic"
+      ],
+      "selection": "test",
+      "expected_window": "Not verified for 2027-28. Follow the current official prospectus and counselling notices.",
+      "cycle": "2027-28 admission; verify the new prospectus"
+    },
+    {
+      "id": "pw-nsat",
+      "name": "PW NSAT — Physics Wallah",
+      "category": "scholarship",
+      "location": "PW Vidyapeeth / participating centres and online test options",
+      "route": "Coaching admission-cum-scholarship test; separate from Class XI school admission.",
+      "eligibility": "Select current Class 10 and confirm the intended next-session course. Verify scholarship components, remaining fees, validity and online/offline conditions.",
+      "sources": [
+        "https://www.pw.live/scholarship/vidyapeeth/nsat"
+      ],
+      "monitor_terms": [
+        "nsat",
+        "scholarship"
+      ],
+      "selection": "test",
+      "expected_window": "See the separate PW NSAT hub for a dated 2026 snapshot. Recheck current slots and closing date with PW.",
+      "cycle": "Current test cycle for Class 10 students; course/admission year varies"
+    },
+    {
+      "id": "tallentex",
+      "name": "ALLEN TALLENTEX",
+      "category": "scholarship",
+      "location": "ALLEN participating centres / offered test modes",
+      "route": "Talent-search and coaching scholarship examination; not a school admission test.",
+      "eligibility": "Class X has been included in the published eligibility range. Confirm the current cycle, present class, course year and test mode. Online and classroom scholarships may have different conditions.",
+      "sources": [
+        "https://www.tallentex.com/"
+      ],
+      "monitor_terms": [
+        "tallentex",
+        "scholarship"
+      ],
+      "selection": "test",
+      "expected_window": "Current dates not verified: the main portal could not be fetched during this update. Do not use archived cycle dates. Open the official site manually.",
+      "cycle": "Current test cycle for Class 10 students; course/admission year varies"
+    },
+    {
+      "id": "anthe",
+      "name": "Aakash ANTHE — National Talent Hunt Exam",
+      "category": "scholarship",
+      "location": "Aakash participating centres / online",
+      "route": "Talent-hunt test for coaching scholarships; cash awards, if offered, have separate conditions.",
+      "eligibility": "Class 10 students should select their current class and intended JEE/NEET/Foundation course. Check test-mode differences, fee components, award conditions and scholarship validity.",
+      "sources": [
+        "https://anthe.aakash.ac.in/home"
+      ],
+      "monitor_terms": [
+        "anthe",
+        "scholarship"
+      ],
+      "selection": "test",
+      "expected_window": "Check the current ANTHE exam calendar and registration deadline. A test date is not necessarily the application closing date.",
+      "cycle": "Current test cycle for Class 10 students; course/admission year varies"
+    },
+    {
+      "id": "iacst",
+      "name": "Aakash iACST — Instant Admission Cum Scholarship Test",
+      "category": "scholarship",
+      "location": "Online; applicable Aakash courses/centres",
+      "route": "Slot-based coaching admission and scholarship test, distinct from ANTHE.",
+      "eligibility": "Class 10 is within the published school-class eligibility range. Check current course/stream criteria, available slots and offer expiry before taking the test.",
+      "sources": [
+        "https://iacst.aakash.ac.in/"
+      ],
+      "monitor_terms": [
+        "iacst",
+        "scholarship"
+      ],
+      "selection": "test",
+      "expected_window": "Slot-based: confirm availability in the official portal rather than assuming one annual exam date. Verify the scholarship acceptance deadline.",
+      "cycle": "Current test cycle for Class 10 students; course/admission year varies"
+    },
+    {
+      "id": "vmc-viq",
+      "name": "Vidyamandir Classes VIQ — Intellect Quest",
+      "category": "scholarship",
+      "location": "VMC participating centres / online",
+      "route": "Coaching admission-cum-scholarship test for JEE, NEET and Foundation preparation.",
+      "eligibility": "Class 10 is included in the published school-class range. Select current class, course and test mode; verify centre, fee components, scholarship terms and remaining course cost.",
+      "sources": [
+        "https://vidyamandir.com/viq-scholarship-test-free.html"
+      ],
+      "monitor_terms": [
+        "viq",
+        "vidyamandir",
+        "scholarship"
+      ],
+      "selection": "test",
+      "expected_window": "Check the current VIQ schedule and centre/mode options. Archived NAT and VIQ pages can show different cycles; use the current registration notice.",
+      "cycle": "Current test cycle for Class 10 students; course/admission year varies"
+    }
+  ]
+}

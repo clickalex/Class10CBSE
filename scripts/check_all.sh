@@ -7,6 +7,8 @@
 #   2. JSON parse                    every site/content JSON file is valid
 #   3. site/build.py --check         the site builds and has no broken links
 #
+#   4. unittest                    admission monitor + hub tests (offline)
+#
 # The site is written to a scratch directory by default, so a check never
 # touches the published docs/ folder. Exits non-zero if anything fails.
 #
@@ -32,7 +34,7 @@ done
 cd "$ROOT" || exit 2
 fail=0
 
-echo "== 1/3  folder tree =="
+echo "== 1/4  folder tree =="
 if [ "$QUIET" -eq 1 ]; then
   bash scripts/verify_structure.sh --quiet || fail=1
 else
@@ -40,7 +42,7 @@ else
 fi
 
 echo
-echo "== 2/3  site content JSON =="
+echo "== 2/4  site content JSON =="
 json_fail=0
 for f in site/content/*.json site/content/chapters/*/*.json; do
   [ -e "$f" ] || continue
@@ -61,8 +63,12 @@ else
 fi
 
 echo
-echo "== 3/3  site build + link check =="
+echo "== 3/4  site build + link check =="
 python3 site/build.py --check --out "$OUT" || fail=1
+
+echo
+echo "== 4/4  admission monitor tests (offline) =="
+python3 -m unittest discover -s tests -v || fail=1
 
 if [ "$CLEANUP" -eq 1 ]; then
   rm -rf "$OUT"

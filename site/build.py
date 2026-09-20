@@ -21,6 +21,9 @@ import json
 import re
 import shutil
 import sys
+
+from admissions import admissions_body
+from nsat import nsat_body
 from pathlib import Path
 
 SITE = Path(__file__).resolve().parent
@@ -163,6 +166,22 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None):
             f'<a class="toc-item{on}" href="{href_to(root, s["slug"] + "/index.html")}">'
             f'<span class="toc-num">{code}</span>{html.escape(s["title"])}</a>'
         )
+
+    on = " is-on" if active == "admissions" else ""
+    cur = ' aria-current="page"' if active == "admissions" else ""
+    bits.append('<div class="toc-group">Beyond Class 10</div>')
+    bits.append(
+        f'<a class="toc-item{on}" href="{href_to(root, "after-10th/index.html")}"{cur}>'
+        '<span class="toc-num">XI</span>Admissions &amp; scholarships</a>'
+    )
+
+    on = " is-on" if active == "pw-nsat" else ""
+    cur = ' aria-current="page"' if active == "pw-nsat" else ""
+    bits.append('<div class="toc-group">Scholarships &amp; coaching</div>')
+    bits.append(
+        f'<a class="toc-item{on}" href="{href_to(root, "pw-nsat/index.html")}"{cur}>'
+        '<span class="toc-num">NSAT</span>PW NSAT</a>'
+    )
 
     if subject:
         subj = next((s for s in NAV_SUBJECTS if s["slug"] == subject), None)
@@ -941,6 +960,19 @@ built in here, not on a separate site. Each chapter has concepts, formulas, tric
 and exam Q&amp;A in four tones: <strong>Short, Long, Application, Competency</strong>. Answers stay hidden
 until you click Show Answer.</p>
 {card_grid(cards, "subjects")}
+<h2>Plan your next step</h2>
+<div class="subjects">
+<a class="subject-card" href="after-10th/index.html">
+<span class="sc-code">AFTER CLASS 10 · CLASS XI</span>
+<strong>Admissions &amp; scholarships</strong>
+<span class="sc-desc">School admissions, diploma colleges and scholarship exams. Official links, eligibility reminders and a daily 9 PM watch.</span>
+<span class="sc-meta">9 PM IST checker · registration notices &amp; dates to verify</span></a>
+<a class="subject-card" href="pw-nsat/index.html">
+<span class="sc-code">SCHOLARSHIP &amp; COACHING</span>
+<strong>PW NSAT</strong>
+<span class="sc-desc">Physics Wallah's scholarship test: official website, Class 10 syllabus guidance and registration checklist.</span>
+<span class="sc-meta">Official links · dated exam details · preparation</span></a>
+</div>
 <h2>How to use these</h2>
 <ol class="order">
 <li><strong>Learn</strong> — pick a subject, read the Marks lens, then the Deep concepts.</li>
@@ -1095,6 +1127,18 @@ def build(check_only=False):
                 "chapters", chapter_id=ch["id"])
             written.append(f"{sid}/chapters/{ch['id']}.html")
             written.append(f"{sid}/practice/{ch['id']}.html")
+
+    write(DIST / "after-10th" / "index.html", page(
+        "After 10th — admissions & scholarships",
+        [("Home", "../index.html"), ("After 10th", None)],
+        admissions_body(), "..", active="admissions"))
+    written.append("after-10th/index.html")
+
+    write(DIST / "pw-nsat" / "index.html", page(
+        "PW NSAT — scholarship test",
+        [("Home", "../index.html"), ("PW NSAT", None)],
+        nsat_body(), "..", active="pw-nsat"))
+    written.append("pw-nsat/index.html")
 
     crumbs, body = portal_body(subjects, counts, pending)
     write(DIST / "index.html", page("Home", crumbs, body, ".", None, "home"))

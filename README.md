@@ -15,6 +15,8 @@ Class10CBSE/
 ├── 06-Information-Technology/  skill subject, code 402   ┐
 ├── 07-Computer-Applications/   elective, code 165        ├ keep only the ones you study
 ├── 08-Sanskrit/                language II, code 122     ┘
+├── 09-After-10th/            Class XI admissions, official links, 9 PM IST tracker
+├── 10-PW-NSAT/               PW scholarship test: syllabus, practice, registration
 ├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · structure.conf
 ├── site/                     content/ + build.py that generate the study hub
 └── docs/                     the generated study hub — this is what GitHub Pages serves
@@ -41,6 +43,33 @@ plus a formula list in the subjects that have formulas. See
 [What every chapter contains](site/README.md#what-every-chapter-contains).
 
 See [Deploying the site](#deploying-the-site) below.
+
+## After Class 10 admissions
+
+The new [after-10th folder](09-After-10th/README.md) and
+[website hub](https://clickalex.github.io/Class10CBSE/after-10th/) cover 15 options across Class XI schools, diploma colleges and scholarship
+exams: JMI, AMU, BHU/CHS, JNV, KV, RKM Narendrapur, Chandigarh schools,
+Haryana/UP/Bihar polytechnics, PW NSAT, TALLENTEX, ANTHE, iACST and VMC VIQ. The hub appears alongside the
+subjects on the home page and in every page's sidebar.
+
+A GitHub Actions checker is configured for **9 PM IST daily**. It flags changed
+school, diploma and scholarship notices, includes date evidence, and updates a report issue.
+It does not guess whether registration is open or reuse old deadlines.
+**The workflow is stored in an inactive [temporary folder](temporary-workflows/README.md).**
+After merging, manually create `.github/workflows/admission-watch.yml` on `main`
+using the supplied YAML, then enable Actions/Issues and run it once.
+See [setup and limitations](09-After-10th/02-Admission-Tracker/README.md).
+
+## PW NSAT scholarship test
+
+The [PW NSAT folder](10-PW-NSAT/README.md) and
+[website hub](https://clickalex.github.io/Class10CBSE/pw-nsat/) link to the
+[official PW NSAT website](https://www.pw.live/scholarship/vidyapeeth/nsat).
+Find it on the home page and in the sidebar, alongside the study hubs.
+It contains a dated official-page summary, Class 10 syllabus guidance,
+practice planning and a registration checklist. This coaching scholarship test
+is labelled separately from school entrance tests and is now also included
+in the directory’s daily checker.
 
 ## Inside every subject
 

@@ -157,3 +157,27 @@ try: json.load(open('$f', encoding='utf-8'))
 except Exception as e: print('FAIL', '$f', e)
 "; done
 ```
+
+## After-Class-10 hub
+
+`admissions.py` renders `content/admissions.json` at `after-10th/index.html`
+using the same sidebar and theme. The portal and every page link to it.
+Rebuild `docs/` after editing either file. Network checks are separate from
+the deterministic build: `scripts/check_admissions.py` and the admission-watch
+workflow template in `../temporary-workflows/` publish a daily GitHub issue
+report linked from the hub once the workflow is installed manually. See
+[tracker setup](../09-After-10th/02-Admission-Tracker/README.md).
+
+## PW NSAT hub
+
+`nsat.py` renders `content/pw-nsat.json` at `pw-nsat/index.html` using the same
+sidebar and theme. The home page and sidebar link to it. The official-page
+summary has an explicit checked-on date and is not a live status feed. Its source is also included
+in the expanded admission and scholarship monitor. Update the JSON, then rebuild `docs/` when
+the official exam cycle changes. The corresponding study folder is
+[`10-PW-NSAT/`](../10-PW-NSAT/README.md).
+
+The after-10th page groups entries by `category` (`school`, `diploma`,
+`scholarship`) and labels `selection` (`test`, `merit`, `verify`). `cycle` notes
+prevent school admission years being mistaken for coaching test years.
+Per-source `monitor_terms` extends the checker beyond Class XI text.

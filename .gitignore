@@ -35,3 +35,6 @@ desktop.ini
 *.swp
 __pycache__/
 *.pyc
+
+# Local admission-monitor reports and cache (CI uploads reports as artifacts)
+.admission-monitor/
