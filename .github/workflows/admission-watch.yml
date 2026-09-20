@@ -1,1 +1,78 @@
+name: After Class 10 admission watch
 
+on:
+  schedule:
+    # UTC: 15:30 = 21:00 Asia/Kolkata, every day.
+    - cron: '30 15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: admission-watch-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Restore previous successful observations
+        uses: actions/cache/restore@v4
+        with:
+          path: .admission-monitor/state.json
+          key: admission-v2-${{ hashFiles('site/content/admissions.json') }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            admission-v2-${{ hashFiles('site/content/admissions.json') }}-
+      - name: Check official sources
+        run: python3 scripts/check_admissions.py
+      - name: Save observations (including fetch failures)
+        if: always() && hashFiles('.admission-monitor/state.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .admission-monitor/state.json
+          key: admission-v2-${{ hashFiles('site/content/admissions.json') }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Publish full report and machine-readable state
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: admission-report-${{ github.run_id }}
+          path: .admission-monitor/
+          include-hidden-files: true
+          retention-days: 30
+      - name: Update daily report issue
+        if: always() && hashFiles('.admission-monitor/report.md') != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const title = 'After Class 10 — daily admission watch';
+            const report = fs.readFileSync('.admission-monitor/report.md', 'utf8');
+            const state = JSON.parse(fs.readFileSync('.admission-monitor/state.json', 'utf8'));
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = report.slice(0, 58000) + `\n\n[Full report, JSON and run logs](${runUrl})\n\nSubscribe to this issue for page-change alerts. Always verify official notices before applying.`;
+            await core.summary.addRaw(body).write();
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              ...context.repo, state: 'open', creator: 'github-actions[bot]', per_page: 100
+            });
+            const issue = issues.find(i => !i.pull_request && i.title === title);
+            if (!issue) {
+              await github.rest.issues.create({...context.repo, title, body});
+            } else {
+              await github.rest.issues.update({...context.repo, issue_number: issue.number, body});
+              const changed = Object.values(state.sources).filter(s => s.changed);
+              const failed = Object.values(state.sources).filter(s => s.check_status === 'error');
+              const health = Object.values(state.sources).filter(s => s.health_changed);
+              if (changed.length || health.length) {
+                await github.rest.issues.createComment({
+                  ...context.repo, issue_number: issue.number,
+                  body: `${changed.length} official source(s) have changed admission/scholarship notice evidence. ${health.length} source(s) changed fetch health. ${failed.length} source(s) failed to load. Registration status remains unverified. Review the updated issue report and [run details](${runUrl}).`
+                });
+              }
+            }
