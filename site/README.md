@@ -49,13 +49,13 @@ python3 -m http.server 8000 --bind 0.0.0.0 --directory docs
 ```
 site/
 ├── build.py                  generator
-├── mocktest.py               assembles and renders the mock tests (called by build.py)
+├── mocktest.py               builds the mock-test pools and pages (called by build.py)
 ├── admissions.py, nsat.py    the after-10th and PW NSAT hub pages
 ├── theme/                    style.css + app.js + mock.js, copied into docs/assets
 ├── content/
 │   ├── subjects.json         one entry per subject: units, marks, study order
 │   ├── chapters/<slug>/      chapter content, split into small JSON files
-│   ├── mock-tests.json       one blueprint per exam: sets, time, marking, sections → pools
+│   ├── mock-tests.json       one blueprint per exam: mocks, time, marking, sections → pools
 │   └── banks/                extra MCQ banks used only by mock tests (mental-ability.json)
 docs/                         generated site — GitHub Pages serves this folder
 ```
@@ -164,16 +164,17 @@ except Exception as e: print('FAIL', '$f', e)
 
 ## Mock tests
 
-`mocktest.py` builds `mock-test/` — a centre page, one page per exam and, per
-set, four files:
+`mocktest.py` builds `mock-test/` — a centre page, one page per exam and one
+**engine page** per exam that generates every paper live in the browser:
 
 | File | What it is |
 |---|---|
-| `mock-test/<exam>/set-N.html` | the online test screen: intro → timed test → one-page score report → answer review |
-| `mock-test/<exam>/set-N-paper.html` | printable paper with an OMR grid and an optional answer-key page (print → *Save as PDF*) |
-| `mock-test/<exam>/set-N.txt`, `set-N-key.txt` | plain-text paper and key with explanations |
+| `mock-test/index.html` | the centre: every exam, best scores, recent attempts |
+| `mock-test/<exam>/index.html` | pattern card, the 10 mock slots, chapter mocks, attempts |
+| `mock-test/<exam>/test.html?n=K` | the engine page for mock K: generates a fresh paper, runs the timed test, scores it, prints the one-page report, renders the printable paper and builds the `.txt` downloads |
+| `mock-test/<exam>/test.html?chapter=<id>` | a chapter-wise mock: every MCQ of that chapter, +1 / no negative, about a minute per question |
 
-Blueprints live in `content/mock-tests.json`. Each exam has `sets`,
+Blueprints live in `content/mock-tests.json`. Each exam has `tests` (10),
 `questions`, `minutes`, `marks_correct`, `marks_wrong`, a `pattern_note` and a
 list of `sections`; a section has a `count` and one or more `pools`, each either
 `{"subject": slug, "units": [...]}` (chapter banks) or `{"bank": name}` (a file
@@ -182,20 +183,24 @@ in `content/banks/`). Board exams carry `subject`; entrance exams carry
 written test go in `no_test` with a one-line reason, and the tests insist that
 every institution in `admissions.json` is in one list or the other.
 
-Assembly is deterministic (seeded per exam and section) so a rebuild never
-silently changes a published set. Questions are drawn round-robin across the
-chapters of a pool so every set covers the syllabus evenly; the templated
-study-habit MCQs in the chapter banks are excluded; a question is never used
-twice in one set, and blueprints are sized so that no question repeats across
-the sets of an exam either (`tests/test_mocktest.py` enforces both). If a
-section cannot be filled the build fails with the exam, set and section named.
+The engine page embeds the exam's whole pool (the union of its section pools)
+as JSON plus the chapter list. `theme/mock.js` generates a paper on every
+attempt: each section shuffles its pool preferring questions the device has
+never been served (tracked in localStorage per exam), then questions from
+older batches, and only then the immediately previous batch — so two attempts
+never show the same paper while the pool allows it, and cycle back evenly when
+it does not. The templated study-habit MCQs in the chapter banks are excluded
+from pools; a question is never used twice in one paper (also enforced across
+sections). If a section pool cannot cover its count the build fails with the
+exam and section named.
 
-The set page embeds its questions as JSON; `theme/mock.js` runs the test
-entirely in the browser — timer, palette, resume after reload
-(sessionStorage), auto-submit, scoring with negative marks, the report,
-review, `.txt` download and print. Attempt history is kept in localStorage
-under `c10cbse-mock-*` keys; nothing is sent anywhere. The scoring helpers are
-exported for Node, and the test-suite runs them when `node` is available.
+The same script runs the test entirely in the browser — timer, palette,
+resume of the *same generated paper* after reload (sessionStorage),
+auto-submit, scoring with negative marks, the report, review, the printable
+paper with OMR grid and key toggle, and the paper / key / report `.txt`
+downloads (Blob). Attempt history is kept in localStorage under `c10cbse-mock-*`
+keys; nothing is sent anywhere. The generator and scoring helpers are exported
+for Node, and the test-suite runs them when `node` is available.
 
 ## After-Class-10 hub
 

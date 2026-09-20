@@ -1,31 +1,33 @@
-"""Mock tests: timed, auto-scored MCQ papers for every exam listed in the repo.
+"""Mock tests: a live question generator for every exam listed in the repo.
 
-Content comes from the site's own banks — the chapter MCQs under
-site/content/chapters/ and the standalone banks under site/content/banks/ —
-so nothing here is an official paper. The blueprints live in
-site/content/mock-tests.json: one entry per exam, each with sections that
-say how many questions to draw from which pool.
+Clicking a mock generates a fresh paper in the browser from the site's own
+banks — the chapter MCQs under site/content/chapters/ and the standalone
+banks under site/content/banks/ — so nothing here is an official paper.
+The blueprints live in site/content/mock-tests.json: one entry per exam with
+`tests` mock slots and sections that say how many questions to draw from
+which pool.
 
-Set assembly is deterministic (seeded by exam id) so a rebuild reproduces the
-same papers: the printable paper, the .txt download and the online test for
-"Set 2" are always the same 40 questions.
+Every attempt picks questions the student has not been served before (tracked
+in the browser's localStorage) and cycles only when a pool runs out, so two
+attempts never show the same batch while the pool allows it. Each board
+subject also gets a chapter-wise mock for every chapter that has MCQs.
 
 Pages written (relative to the site root):
 
-    mock-test/index.html                 the centre: every exam, best scores
-    mock-test/<exam>/index.html          pattern, sets, downloads, attempts
-    mock-test/<exam>/set-N.html          the test screen + one-page report
-    mock-test/<exam>/set-N-paper.html    printable paper (+ key) -> Save as PDF
-    mock-test/<exam>/set-N.txt           plain-text paper
-    mock-test/<exam>/set-N-key.txt       plain-text answer key
+    mock-test/index.html           the centre: every exam, recent attempts
+    mock-test/<exam>/index.html    pattern, the 10 mocks, chapter mocks
+    mock-test/<exam>/test.html     the engine page: ?n=<mock number> for a
+                                   full mock or ?chapter=<id> for a chapter
+                                   mock — test screen, one-page report,
+                                   printable paper and .txt downloads are
+                                   all generated live from the pool
 
-The engine that runs the test in the browser is site/theme/mock.js.
+The engine that runs everything in the browser is site/theme/mock.js.
 """
 from __future__ import annotations
 
 import html
 import json
-import random
 import re
 from pathlib import Path
 
@@ -94,14 +96,6 @@ def parse_mcq(mcq):
     }
 
 
-def plain(text: str) -> str:
-    """Strip the bank's inline markup for the .txt downloads."""
-    text = re.sub(r"\*\*(.+?)\*\*", r"\1", str(text))
-    text = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"\1", text)
-    text = re.sub(r"`(.+?)`", r"\1", text)
-    return text.strip()
-
-
 # --------------------------------------------------------------------------
 # loading
 # --------------------------------------------------------------------------
@@ -139,6 +133,9 @@ def chapter_questions(subject, chapter):
             group_key=f"{subject['slug']}/{chapter['id']}",
             group_title=f"Ch {chapter['num']} · {chapter['title']}",
             group_order=chapter["num"],
+            chapter_id=chapter["id"],
+            chapter_num=chapter["num"],
+            chapter_title=chapter["title"],
             chapter_url=f"{subject['slug']}/chapters/{chapter['id']}.html",
             practice_url=f"{subject['slug']}/practice/{chapter['id']}.html",
             context=chapter["title"] if subject["slug"] in CONTEXT_SUBJECTS else "",
@@ -161,76 +158,15 @@ def bank_questions(bank):
                 group_key=f"bank:{bank['id']}/{grp['id']}",
                 group_title=grp["title"],
                 group_order=gi + 1,
+                chapter_id=None,
+                chapter_num=None,
+                chapter_title=None,
                 chapter_url=None,
                 practice_url=None,
                 context="",
             )
             out.append(p)
     return out
-
-
-# --------------------------------------------------------------------------
-# set assembly
-# --------------------------------------------------------------------------
-class _Queue:
-    """A shuffled, cyclic queue of one chapter's questions."""
-
-    def __init__(self, items, rng):
-        self.items = list(items)
-        rng.shuffle(self.items)
-        self.pos = 0
-
-    def next_not_in(self, used, avoid=None):
-        """Next question not in ``used`` (and, if given, not in ``avoid``)."""
-        n = len(self.items)
-        for k in range(n):
-            q = self.items[(self.pos + k) % n]
-            if q["uid"] in used or (avoid is not None and q["uid"] in avoid):
-                continue
-            self.pos = (self.pos + k + 1) % n
-            return q
-        return None
-
-
-class Pool:
-    """Questions grouped by chapter, drawn round-robin so every set covers
-    the whole pool evenly. Cursors persist across sets, so Set 2 continues
-    where Set 1 stopped. Questions never used in any earlier set are drawn
-    first; a question repeats across sets only once every chapter in the
-    pool has been exhausted."""
-
-    def __init__(self, questions, seed):
-        rng = random.Random(seed)
-        groups = {}
-        for q in questions:
-            groups.setdefault(q["group_key"], []).append(q)
-        keys = sorted(groups, key=lambda k: (groups[k][0]["subject"], groups[k][0]["group_order"]))
-        self.queues = [_Queue(groups[k], rng) for k in keys]
-        self.size = len(questions)
-        self.rr = rng.randrange(len(self.queues)) if self.queues else 0
-
-    def take(self, count, used, seen=None):
-        """Draw ``count`` questions not in ``used`` (this set). ``seen`` holds
-        uids used by earlier sets; they are drawn only when nothing fresh is
-        left anywhere in the pool."""
-        picked = []
-        if not self.queues:
-            return picked
-        for avoid in ((seen or set()), None):
-            misses = 0
-            while len(picked) < count and misses < len(self.queues):
-                queue = self.queues[self.rr % len(self.queues)]
-                self.rr += 1
-                q = queue.next_not_in(used, avoid)
-                if q is None:
-                    misses += 1
-                    continue
-                misses = 0
-                picked.append(q)
-                used.add(q["uid"])
-            if len(picked) >= count:
-                break
-        return picked
 
 
 def _pool_questions(spec, subjects_by_slug, chapters_by_subject, banks):
@@ -257,12 +193,21 @@ def _pool_questions(spec, subjects_by_slug, chapters_by_subject, banks):
     return out
 
 
+# --------------------------------------------------------------------------
+# pool assembly (per exam; the paper itself is generated in the browser)
+# --------------------------------------------------------------------------
 def assemble(config, subjects, chapters_by_subject, banks):
-    """Return the exams with their sets filled in.
+    """Return the exams with their pools.
 
-    Each exam gains ``sets``: a list (one per set) of question dicts with
-    ``n`` (1-based number), ``section`` (index) and the parsed fields; and
-    ``stats``: pool sizes and how many questions had to repeat across sets.
+    Each exam gains:
+      ``sections_data``  list of {name, count, questions} — the pool each
+                         section draws from (validated: pool >= count);
+      ``pool_data``      {uid: question} — everything embedded in the page
+                         (a whole subject for board exams, the union of the
+                         section pools for entrance exams);
+      ``chapters_data``  mockable chapters with their question counts
+                         (board subjects only);
+      ``stats``          sizes for the build report.
     """
     subjects_by_slug = {s["slug"]: s for s in subjects}
     exams = []
@@ -273,41 +218,49 @@ def assemble(config, subjects, chapters_by_subject, banks):
                 f"mock-tests/{exam['id']}: section counts add up to {total}, "
                 f"not {exam['questions']}"
             )
-        pools = {}
-        pool_sizes = {}
-        for si, sec in enumerate(exam["sections"]):
-            qs = []
-            for spec in sec["pools"]:
-                qs.extend(_pool_questions(spec, subjects_by_slug, chapters_by_subject, banks))
-            pools[si] = Pool(qs, seed=f"{exam['id']}::{sec['name']}")
-            pool_sizes[sec["name"]] = len(qs)
 
-        sets, seen_before, repeats = [], set(), 0
-        for set_no in range(1, exam["sets"] + 1):
-            used = set()
-            paper = []
-            for si, sec in enumerate(exam["sections"]):
-                picked = pools[si].take(sec["count"], used, seen_before)
-                if len(picked) < sec["count"]:
-                    raise ValueError(
-                        f"mock-tests/{exam['id']} set {set_no}: section "
-                        f"'{sec['name']}' needs {sec['count']} questions, pool has {len(picked)}"
+        sections_data = []
+        for sec in exam["sections"]:
+            qs = {}
+            for spec in sec["pools"]:
+                for q in _pool_questions(spec, subjects_by_slug, chapters_by_subject, banks):
+                    qs[q["uid"]] = q
+            if len(qs) < sec["count"]:
+                raise ValueError(
+                    f"mock-tests/{exam['id']} section '{sec['name']}': needs "
+                    f"{sec['count']} questions, pool has {len(qs)}"
+                )
+            sections_data.append({"name": sec["name"], "count": sec["count"], "questions": qs})
+
+        # The embedded pool is the union of the section pools: for a board
+        # subject that is every chapter its blueprint draws on (Course A and
+        # Course B pages each carry their own chapters), for an entrance exam
+        # the subjects it tests.
+        pool = {}
+        for sd in sections_data:
+            pool.update(sd["questions"])
+        if not pool:
+            raise ValueError(f"mock-tests/{exam['id']}: empty pool")
+
+        # chapters with at least one question in the pool get a chapter mock
+        chapters_data = []
+        if exam.get("subject"):
+            for ch in chapters_by_subject.get(exam["subject"]) or []:
+                n = sum(1 for q in pool.values() if q["chapter_id"] == ch["id"])
+                if n:
+                    chapters_data.append(
+                        {"id": ch["id"], "num": ch["num"], "title": ch["title"], "n": n}
                     )
-                picked.sort(key=lambda q: (q["subject"], q["group_order"], q["uid"]))
-                for q in picked:
-                    item = dict(q)
-                    item["section"] = si
-                    paper.append(item)
-            for n, item in enumerate(paper, 1):
-                item["n"] = n
-                if item["uid"] in seen_before:
-                    repeats += 1
-                seen_before.add(item["uid"])
-            sets.append(paper)
 
         e = dict(exam)
-        e["sets_data"] = sets
-        e["stats"] = {"pools": pool_sizes, "repeats": repeats}
+        e["sections_data"] = sections_data
+        e["pool_data"] = pool
+        e["chapters_data"] = chapters_data
+        e["stats"] = {
+            "pool": len(pool),
+            "sections": {sd["name"]: len(sd["questions"]) for sd in sections_data},
+            "chapters": len(chapters_data),
+        }
         exams.append(e)
     return exams
 
@@ -363,7 +316,10 @@ def sections_table(exam, subjects=()) -> str:
             subj = by_slug.get(spec["subject"])
             label = subj["title"] if subj else spec["subject"]
             if spec.get("units"):
-                names = {u["id"]: u.get("title") or u.get("name") or u["id"] for u in (subj or {}).get("units", [])}
+                names = {
+                    u["id"]: u.get("title") or u.get("name") or u["id"]
+                    for u in (subj or {}).get("units", [])
+                }
                 # "Unit III · Natural Phenomena" -> "Natural Phenomena"
                 pretty = [names.get(u, u).split(" · ")[-1] for u in spec["units"]]
                 label += ": " + ", ".join(pretty)
@@ -384,41 +340,55 @@ def _json_for_script(data) -> str:
     return json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 
-def question_payload(exam, set_no, paper, inline, root):
-    """What mock.js needs: the questions with HTML-rendered text and links."""
-    questions = []
-    for q in paper:
-        questions.append({
-            "n": q["n"],
-            "sec": q["section"],
-            "ctx": inline(q["context"]) if q.get("context") else "",
-            "stem": inline(q["stem"]),
-            "opts": [inline(o) for o in q["options"]],
-            "labels": q["labels"],
-            "ans": q["answer"],
-            "exp": inline(q["explanation"]),
-            "topic": q["group_title"],
-            "topicKey": q["group_key"],
-            "src": q["subject_title"],
-            "url": f"{root}/{q['chapter_url']}" if q["chapter_url"] else None,
-            "practice": f"{root}/{q['practice_url']}" if q["practice_url"] else None,
-        })
+def question_fields(q, inline, root):
+    """The client-side form of one question (HTML-rendered, compact keys)."""
+    return {
+        "uid": q["uid"],
+        "s": inline(q["stem"]),
+        "o": [inline(o) for o in q["options"]],
+        "l": q["labels"],
+        "a": q["answer"],
+        "e": inline(q["explanation"]),
+        "t": q["group_title"],
+        "k": q["group_key"],
+        "c": inline(q["context"]) if q.get("context") else "",
+        "src": q["subject_title"],
+        "u": f"{root}/{q['chapter_url']}" if q.get("chapter_url") else None,
+        "p": f"{root}/{q['practice_url']}" if q.get("practice_url") else None,
+        "ord": q["group_order"],
+        "ch": q.get("chapter_id"),
+    }
+
+
+def engine_payload(exam, inline, root):
+    """Everything test.html needs: exam meta, section pools, the pool itself
+    and the mockable chapter list."""
+    pool = exam["pool_data"]
+    sections = []
+    for sd in exam["sections_data"]:
+        ids = sorted(
+            sd["questions"], key=lambda u: (sd["questions"][u]["group_order"], u)
+        )
+        sections.append({"name": sd["name"], "count": sd["count"], "ids": ids})
     return {
         "exam": {
             "id": exam["id"],
             "title": exam["title"],
             "code": exam.get("code", ""),
             "group": exam["group"],
-            "set": set_no,
-            "sets": exam["sets"],
+            "tests": exam.get("tests", 10),
             "minutes": exam["minutes"],
             "marksCorrect": exam["marks_correct"],
             "marksWrong": exam["marks_wrong"],
             "questions": exam["questions"],
             "length": exam.get("length", ""),
+            "patternNote": exam.get("pattern_note", ""),
+            "subject": exam.get("subject") or "",
+            "siteUrl": SITE_URL,
         },
-        "sections": [{"name": s["name"], "count": s["count"]} for s in exam["sections"]],
-        "questions": questions,
+        "sections": sections,
+        "pool": [question_fields(pool[u], inline, root) for u in sorted(pool)],
+        "chapters": exam["chapters_data"],
     }
 
 
@@ -426,11 +396,10 @@ def question_payload(exam, set_no, paper, inline, root):
 # page bodies
 # --------------------------------------------------------------------------
 def centre_body(config, exams, subjects):
-    """mock-test/index.html — every exam with its sets and your best score."""
-    subj_titles = {s["slug"]: s["title"] for s in subjects}
-    total_sets = sum(e["sets"] for e in exams)
-    total_q = sum(e["sets"] * e["questions"] for e in exams)
-    unique_q = len({q["uid"] for e in exams for paper in e["sets_data"] for q in paper})
+    """mock-test/index.html — every exam with recent attempts."""
+    total_slots = sum(e.get("tests", 10) for e in exams)
+    unique_q = len({q["uid"] for e in exams for q in e["pool_data"].values()})
+    n_chapters = sum(e["stats"]["chapters"] for e in exams if e["chapters_data"])
 
     group_html = []
     for grp in config["groups"]:
@@ -438,9 +407,10 @@ def centre_body(config, exams, subjects):
         for e in exams:
             if e["group"] != grp["id"]:
                 continue
-            set_links = " ".join(
-                f'<a class="chip" href="{e["id"]}/set-{n}.html">Set {n}</a>'
-                for n in range(1, e["sets"] + 1)
+            ch_note = (
+                f"<p class='mock-meta'>{e['stats']['chapters']} chapter-wise mocks</p>"
+                if e["chapters_data"]
+                else ""
             )
             cards.append(
                 f'<article class="mock-card" id="{esc(e["id"])}">'
@@ -449,10 +419,11 @@ def centre_body(config, exams, subjects):
                 f'<p class="sc-desc">{esc(e.get("short", ""))}</p>'
                 f'<p class="mock-meta">{e["questions"]} Qs · {minutes_text(e["minutes"])} · '
                 f'{esc(marking_text(e))}</p>'
+                f'<p class="mock-meta">Pool of {e["stats"]["pool"]} questions · {e.get("tests", 10)} mocks</p>'
+                f"{ch_note}"
                 f'<p class="mock-best" data-mock-best="{esc(e["id"])}">No attempt yet on this device.</p>'
-                f'<p class="chips">{set_links}</p>'
-                f'<p class="btnrow"><a class="btn primary" href="{e["id"]}/set-1.html">Start Set 1 →</a>'
-                f'<a class="btn" href="{e["id"]}/index.html">Details &amp; downloads</a></p>'
+                f'<p class="btnrow"><a class="btn primary" href="{e["id"]}/test.html?n=1">Start a mock →</a>'
+                f'<a class="btn" href="{e["id"]}/index.html">Details &amp; chapters</a></p>'
                 "</article>"
             )
         if not cards:
@@ -472,13 +443,14 @@ def centre_body(config, exams, subjects):
     body = f"""
 <p class="kicker">MOCK TESTS · CHECK YOUR OWN SCORE ONLINE</p>
 <h1>Mock test centre</h1>
-<p class="lede">{len(exams)} exams · {total_sets} sets · {total_q} questions ({unique_q} distinct) — every subject
-and every entrance or scholarship test listed in this repository. Take a set online with a timer and get an
-instant <strong>one-page score report</strong>, or download the paper and answer key to attempt it on paper.</p>
+<p class="lede">{len(exams)} exams · {total_slots} mock tests · {n_chapters} chapter-wise mocks — every subject and every
+entrance or scholarship test listed in this repository. <strong>Every attempt generates a fresh paper</strong> from the site's
+question pool: take a mock online with a timer, get an instant <strong>one-page score report</strong>, and download the same paper
+with its key to attempt on paper.</p>
 <nav aria-label="Exam groups"><p>{nav} · <a href="#how">How it works</a></p></nav>
 <div class="mock-recent" data-mock-recent hidden>
 <h2>Your recent attempts</h2>
-<div class="tablewrap"><table><thead><tr><th>When</th><th>Exam</th><th>Set</th><th>Score</th><th>%</th><th>Time</th><th></th></tr></thead>
+<div class="tablewrap"><table><thead><tr><th>When</th><th>Exam</th><th>Paper</th><th>Score</th><th>%</th><th>Time</th><th></th></tr></thead>
 <tbody data-mock-recent-rows></tbody></table></div>
 <p class="hint">Attempts are saved only in this browser (localStorage). <button type="button" class="btn" data-mock-clear>Clear history</button></p>
 </div>
@@ -489,11 +461,11 @@ counselling, so there is nothing to mock:</p>
 <ul>{no_test}</ul>
 <h2 id="how">How it works</h2>
 <ol class="order">
+<li><strong>A question generator, not a fixed paper</strong> — every mock is put together when you click it: each section draws its questions from the pool at random, avoiding the questions you were already served on this device. Two attempts get different papers until the pool cycles; the shuffle and the anti-repeat memory live in your browser.</li>
+<li><strong>10 mocks per exam</strong> — every exam has ten numbered mock slots (Mock 1–10), each generating a fresh paper every time. Board subjects also have a chapter-wise mock for every chapter with MCQs.</li>
 <li><strong>Online test</strong> — a countdown timer, one question at a time, a palette to jump around, mark-for-review, and auto-submit when time runs out. Progress survives a page reload.</li>
-<li><strong>Instant score</strong> — marks, percentage, accuracy, section-wise and chapter-wise breakdown, and the chapters to revise, each linked to its study page.</li>
-<li><strong>One-page report</strong> — print it or save it as a PDF (the print layout is a single A4 page), or download it as a text file. Review every question with its explanation.</li>
-<li><strong>Download the paper</strong> — each set has a printable paper (Save as PDF from the print dialog, with or without the answer key), a plain-text paper and a plain-text key.</li>
-<li><strong>Fixed sets</strong> — a set is always the same questions, so a paper you printed last week matches the online version and its key.</li>
+<li><strong>Instant score + one-page report</strong> — marks, percentage, accuracy, negative-marking loss, section-wise and chapter-wise breakdown, and the chapters to revise, each linked to its study page. Print it or save it as a single-A4 PDF, download it as text, or review every question with its explanation.</li>
+<li><strong>Download the paper</strong> — the same generated paper can be printed (Save as PDF from the print dialog, with an OMR grid and an optional key page) or downloaded as plain text with a separate key file.</li>
 </ol>
 <div class="callout alt"><p>All questions are the site's own study material drawn from the chapter banks — the same
 {unique_q} questions you can already practise chapter by chapter — plus an original Mental Ability bank. They are
@@ -505,19 +477,31 @@ entrance-test patterns are practice approximations: confirm the current official
 
 
 def exam_body(exam, admissions, subjects):
-    """mock-test/<exam>/index.html — pattern, sets, downloads, attempts."""
+    """mock-test/<exam>/index.html — pattern, the 10 mocks, chapter mocks."""
     subj = next((s for s in subjects if s["slug"] == exam.get("subject")), None)
     inst = next((i for i in admissions if i["id"] == exam.get("admission_id")), None)
+    tests = exam.get("tests", 10)
 
-    set_rows = "".join(
-        f'<tr><td>Set {n}</td><td>{exam["questions"]} Qs · {minutes_text(exam["minutes"])}</td>'
-        f'<td><a class="btn primary" href="set-{n}.html">Take online →</a></td>'
-        f'<td><a class="btn" href="set-{n}-paper.html">Printable / PDF</a> '
-        f'<a class="btn" href="set-{n}.txt" download>Paper .txt</a> '
-        f'<a class="btn" href="set-{n}-key.txt" download>Key .txt</a></td>'
-        f'<td data-mock-set-best="{esc(exam["id"])}/{n}">—</td></tr>'
-        for n in range(1, exam["sets"] + 1)
+    slot_rows = "".join(
+        f'<tr><td>Mock {n}</td><td>{exam["questions"]} Qs · {minutes_text(exam["minutes"])}</td>'
+        f'<td><a class="btn primary" href="test.html?n={n}">Take online →</a></td>'
+        f'<td data-mock-slot-best="{esc(exam["id"])}/{n}">—</td></tr>'
+        for n in range(1, tests + 1)
     )
+
+    chapter_html = ""
+    if exam["chapters_data"]:
+        chips = " ".join(
+            f'<a class="chip" href="test.html?chapter={esc(c["id"])}" title="{esc(c["n"])} questions">'
+            f"Ch {c['num']} · {esc(c['title'])} <span class='chip-n'>{c['n']}</span></a>"
+            for c in exam["chapters_data"]
+        )
+        chapter_html = f"""
+<h2>Chapter-wise mock tests · {len(exam["chapters_data"])}</h2>
+<p>A quick scored mock on one chapter — every MCQ of that chapter, +1 per correct answer, no negative marking,
+about a minute per question. Each attempt reshuffles the order and refreshes the questions.</p>
+<p class="chips mock-chapters">{chips}</p>
+"""
 
     links = []
     if subj:
@@ -556,24 +540,28 @@ def exam_body(exam, admissions, subjects):
     body = f"""
 <p class="kicker">MOCK TEST · {esc(exam.get("code", ""))}</p>
 <h1>{esc(exam["title"])} — mock tests</h1>
-<p class="lede">{esc(exam.get("short", ""))} {exam["sets"]} fixed sets. Take a set online for an instant score and
-a one-page report, or download it as a printable paper.</p>
+<p class="lede">{esc(exam.get("short", ""))} {tests} mocks, and each one is <strong>generated fresh from a pool of
+{exam["stats"]["pool"]} questions</strong> when you click it. Take one online for an instant score and a one-page
+report, or download the same paper with its key.</p>
 {pattern_chips(exam)}
-<h2>Sets</h2>
-<div class="tablewrap"><table><thead><tr><th>Set</th><th>Pattern</th><th>Online</th><th>Download</th><th>Your best</th></tr></thead>
-<tbody>{set_rows}</tbody></table></div>
-<p class="hint">“Printable / PDF” opens the paper in a print layout — choose <em>Save as PDF</em> in the print dialog. The
-answer key prints on separate pages after the paper and can be switched off before printing.</p>
+<h2>Mock tests · {tests}</h2>
+<div class="tablewrap"><table><thead><tr><th>Mock</th><th>Pattern</th><th>Online</th><th>Your best</th></tr></thead>
+<tbody>{slot_rows}</tbody></table></div>
+<p class="hint">Each slot generates a new paper on every attempt — the questions you get are picked to avoid the ones
+you have already been served on this device. The <em>printable paper, the .txt paper and the key</em> are on the test
+screen, made from the same generated paper.</p>
+{chapter_html}
 <h2>Pattern used in this mock</h2>
 <p>{esc(exam.get("pattern_note", ""))}</p>
 {negative}
 {sections_table(exam, subjects)}
-<p class="hint">Questions are drawn from {esc(src_text)} on this site. Each set is fixed: the same questions online, on paper and in the key.</p>
+<p class="hint">Questions are drawn from {esc(src_text)} on this site. The generator lives in your browser —
+nothing is sent anywhere.</p>
 <h2>Your attempts on this device</h2>
 <div data-mock-attempts="{esc(exam["id"])}"><p class="hint">No attempts saved yet. Scores are stored only in this browser.</p></div>
 <h2>Official material &amp; related pages</h2>
 <ul>{"".join(f"<li>{l}</li>" for l in links)}</ul>
-<div class="callout alt"><p>These sets are original practice material built from the site's question banks — not an official
+<div class="callout alt"><p>These mocks are original practice material built from the site's question banks — not an official
 paper, and not a prediction. Entrance-test patterns above are practice approximations; verify the current official brochure.</p></div>
 <p><a class="btn" href="../index.html">← All mock tests</a></p>
 <script src="../../assets/mock.js"></script>
@@ -582,24 +570,19 @@ paper, and not a prediction. Entrance-test patterns above are practice approxima
     return crumbs, body
 
 
-def test_body(exam, set_no, paper, inline, group_title):
-    """mock-test/<exam>/set-N.html — the test screen; mock.js does the rest."""
-    payload = question_payload(exam, set_no, paper, inline, "../..")
+def test_body(exam, group_title, payload):
+    """mock-test/<exam>/test.html — the engine page; mock.js does the rest."""
     sec_rows = "".join(
         f"<tr><td>{esc(s['name'])}</td><td>{s['count']}</td><td>{s['count'] * exam['marks_correct']}</td></tr>"
         for s in exam["sections"]
     )
-    other_sets = " ".join(
-        f'<a class="chip" href="set-{n}.html">Set {n}</a>' if n != set_no else f'<span class="chip is-on">Set {n}</span>'
-        for n in range(1, exam["sets"] + 1)
-    )
+    tests = exam.get("tests", 10)
     body = f"""
 <p class="kicker">MOCK TEST · {esc(group_title)}</p>
-<h1>{esc(exam["title"])} — Set {set_no}</h1>
-<p class="lede">{exam["questions"]} questions · {minutes_text(exam["minutes"])} · {esc(marking_text(exam))}.
-Answer on screen, submit, and get your score with a one-page report.</p>
-<p class="chips">{other_sets}</p>
-<div class="mock-app" id="mock" data-mock-key="{esc(exam["id"])}/{set_no}">
+<h1>{esc(exam["title"])} <span data-mock-h1>— mock test</span></h1>
+<p class="lede" data-mock-lede>Putting your paper together…</p>
+<p class="chips" data-mock-slots></p>
+<div class="mock-app" id="mock">
 
   <section class="mock-view" data-view="intro">
     {pattern_chips(exam)}
@@ -608,6 +591,7 @@ Answer on screen, submit, and get your score with a one-page report.</p>
     <div class="mock-instructions">
       <h2>Instructions</h2>
       <ol>
+        <li><strong>This paper was generated just now</strong> from the site's question pool — it avoids the questions you were already served on this device, so every attempt is a different paper. Press <em>New questions</em> for another one before you start.</li>
         <li>The timer starts when you press <strong>Start test</strong> and the test submits itself at zero.</li>
         <li>Each question has one correct option. {esc(marking_text(exam))}; unattempted questions score 0.</li>
         <li>Use the palette to jump between questions; <em>Mark for review</em> only colours the palette, it does not affect the score.</li>
@@ -615,15 +599,19 @@ Answer on screen, submit, and get your score with a one-page report.</p>
         <li>After submitting you get a one-page report (print or save as PDF), a text download and a full answer review.</li>
       </ol>
     </div>
+    <p class="mock-fresh" data-mock-fresh></p>
     <p class="mock-name"><label>Name for the report (optional) <input type="text" data-mock-name maxlength="60" placeholder="Your name"></label></p>
     <p class="btnrow">
       <button type="button" class="btn primary" data-mock-start>Start test →</button>
-      <a class="btn" href="set-{set_no}-paper.html">Printable paper / PDF</a>
-      <a class="btn" href="set-{set_no}.txt" download>Download paper (.txt)</a>
-      <a class="btn" href="set-{set_no}-key.txt" download>Answer key (.txt)</a>
+      <button type="button" class="btn" data-act="regen">↻ New questions</button>
+      <button type="button" class="btn" data-act="paper">Printable paper / PDF</button>
+      <button type="button" class="btn" data-act="txt-paper">Download paper (.txt)</button>
+      <button type="button" class="btn" data-act="txt-key">Answer key (.txt)</button>
     </p>
     <div data-mock-last hidden></div>
     <p class="hint">Original practice material built from this site's question banks — not an official paper.</p>
+    <noscript><div class="callout"><p>This screen needs JavaScript to generate and score the paper — use the
+    subject drill pages for untimed practice without it.</p></div></noscript>
   </section>
 
   <section class="mock-view" data-view="test" hidden>
@@ -659,6 +647,13 @@ Answer on screen, submit, and get your score with a one-page report.</p>
     <div class="qstack" data-mock-review></div>
   </section>
 
+  <section class="mock-view" data-view="paper" hidden>
+    <div class="paper" data-paper>
+      <div class="paper-tools no-print" data-paper-tools></div>
+      <div data-paper-body></div>
+    </div>
+  </section>
+
 </div>
 <p class="btnrow mock-foot"><a class="btn" href="index.html">← {esc(exam["title"])} mocks</a> <a class="btn" href="../index.html">All mock tests</a></p>
 <script type="application/json" id="mock-data">{_json_for_script(payload)}</script>
@@ -668,193 +663,16 @@ Answer on screen, submit, and get your score with a one-page report.</p>
         ("Home", "../../index.html"),
         ("Mock tests", "../index.html"),
         (exam["title"], "index.html"),
-        (f"Set {set_no}", None),
-    ]
-    return crumbs, body
-
-
-def paper_body(exam, set_no, paper, inline, group_title):
-    """mock-test/<exam>/set-N-paper.html — print layout with optional key."""
-    qs_html = []
-    current_sec = None
-    for q in paper:
-        if q["section"] != current_sec:
-            current_sec = q["section"]
-            sec = exam["sections"][current_sec]
-            first = q["n"]
-            last = first + sec["count"] - 1
-            qs_html.append(
-                f'<h2 class="paper-sec">Section {chr(65 + current_sec)} · {esc(sec["name"])} '
-                f'<span>Q{first}–Q{last} · {sec["count"] * exam["marks_correct"]} marks</span></h2>'
-            )
-        opts = "".join(
-            f'<li><span class="paper-lab">({esc(l)})</span> {inline(o)}</li>'
-            for l, o in zip(q["labels"], q["options"])
-        )
-        ctx = f'<span class="paper-ctx">[{inline(q["context"])}]</span> ' if q.get("context") else ""
-        qs_html.append(
-            f'<div class="paper-q"><p class="paper-stem"><strong>{q["n"]}.</strong> {ctx}{inline(q["stem"])}</p>'
-            f'<ul class="paper-opts">{opts}</ul></div>'
-        )
-
-    omr = "".join(
-        f'<div class="omr-row"><span class="omr-n">{q["n"]}</span>'
-        + "".join(f'<span class="omr-bubble">{esc(l)}</span>' for l in q["labels"])
-        + "</div>"
-        for q in paper
-    )
-    key_rows = "".join(
-        f'<tr><td>{q["n"]}</td><td><strong>({esc(q["labels"][q["answer"]])})</strong> {inline(q["options"][q["answer"]])}</td>'
-        f'<td>{inline(q["explanation"])}</td><td>{esc(q["group_title"])}</td></tr>'
-        for q in paper
-    )
-    body = f"""
-<div class="paper" data-paper>
-<div class="paper-tools no-print">
-  <p class="kicker">MOCK TEST · {esc(group_title)} · PRINTABLE PAPER</p>
-  <p class="btnrow">
-    <button type="button" class="btn primary" onclick="window.print()">Print / Save as PDF</button>
-    <a class="btn" href="set-{set_no}.txt" download>Download paper (.txt)</a>
-    <a class="btn" href="set-{set_no}-key.txt" download>Download key (.txt)</a>
-    <a class="btn" href="set-{set_no}.html">Take this set online →</a>
-  </p>
-  <p><label><input type="checkbox" data-paper-key checked> Include the answer key and explanations when printing (it starts on a new page)</label>
-  <label class="paper-toggle"><input type="checkbox" data-paper-show-key> Show the key on screen now</label></p>
-  <p class="hint">In the print dialog choose <em>Save as PDF</em> to download the paper. Portrait A4, default margins.</p>
-</div>
-
-<header class="paper-head">
-  <p class="paper-brand">Class 10 CBSE study hub · Mock test</p>
-  <h1>{esc(exam["title"])} <small>{esc(exam.get("code", ""))}</small></h1>
-  <p class="paper-set">Set {set_no} of {exam["sets"]}</p>
-  <table class="paper-meta"><tbody>
-    <tr><th>Time allowed</th><td>{minutes_text(exam["minutes"])}</td><th>Maximum marks</th><td>{max_marks(exam)}</td></tr>
-    <tr><th>Questions</th><td>{exam["questions"]}</td><th>Marking</th><td>{esc(marking_text(exam))}</td></tr>
-    <tr><th>Name</th><td class="paper-blank"></td><th>Date</th><td class="paper-blank"></td></tr>
-  </tbody></table>
-  <ol class="paper-instr">
-    <li>All questions are compulsory unless you are practising negative marking; each has exactly one correct option.</li>
-    <li>Mark your answers on the answer grid at the end, then check them against the key.</li>
-    <li>{esc(exam.get("length", "Mock"))} — pattern: {esc(exam.get("pattern_note", ""))}</li>
-  </ol>
-</header>
-
-<main class="paper-qs">{"".join(qs_html)}</main>
-
-<section class="paper-omr">
-  <h2>Answer grid</h2>
-  <div class="omr">{omr}</div>
-</section>
-
-<section class="paper-key" data-paper-key-block>
-  <h2>Answer key &amp; explanations — {esc(exam["title"])} · Set {set_no}</h2>
-  <div class="tablewrap"><table class="key-table"><thead><tr><th>Q</th><th>Answer</th><th>Why</th><th>Topic</th></tr></thead>
-  <tbody>{key_rows}</tbody></table></div>
-</section>
-
-<footer class="paper-foot">Original practice material from {SITE_URL}/ — not an official paper. Created by Mohammad Umair.
-Score this set online: {SITE_URL}/mock-test/{esc(exam["id"])}/set-{set_no}.html</footer>
-</div>
-<script src="../../assets/mock.js"></script>
-"""
-    crumbs = [
-        ("Home", "../../index.html"),
-        ("Mock tests", "../index.html"),
-        (exam["title"], "index.html"),
-        (f"Set {set_no} · paper", None),
+        ("Test", None),
     ]
     return crumbs, body
 
 
 # --------------------------------------------------------------------------
-# plain-text downloads
-# --------------------------------------------------------------------------
-def paper_txt(exam, set_no, paper) -> str:
-    rule = "=" * 72
-    lines = [
-        "CLASS 10 CBSE STUDY HUB - MOCK TEST",
-        rule,
-        f"Exam    : {exam['title']} ({exam.get('code', '')})",
-        f"Set     : {set_no} of {exam['sets']}",
-        f"Time    : {minutes_text(exam['minutes'])}",
-        f"Marks   : {max_marks(exam)} ({marking_text(exam)})",
-        f"Pattern : {exam.get('length', 'Mock')} - {exam.get('pattern_note', '')}",
-        rule,
-        "",
-        "Instructions",
-        "1. Each question has exactly one correct option.",
-        "2. Write your answers in the answer grid at the end, then check the key file.",
-        f"3. {marking_text(exam)}; unattempted questions score 0.",
-        "",
-    ]
-    current_sec = None
-    for q in paper:
-        if q["section"] != current_sec:
-            current_sec = q["section"]
-            sec = exam["sections"][current_sec]
-            first = q["n"]
-            last = first + sec["count"] - 1
-            title = f"SECTION {chr(65 + current_sec)} - {sec['name']} (Q{first}-Q{last}, {sec['count'] * exam['marks_correct']} marks)"
-            lines += ["", title, "-" * len(title), ""]
-        ctx = f"[{plain(q['context'])}] " if q.get("context") else ""
-        lines.append(f"Q{q['n']}. {ctx}{plain(q['stem'])}")
-        for l, o in zip(q["labels"], q["options"]):
-            lines.append(f"    ({l}) {plain(o)}")
-        lines.append("")
-    lines += ["", "ANSWER GRID", "-" * 11]
-    row = []
-    for q in paper:
-        row.append(f"Q{q['n']:>3} [   ]")
-        if len(row) == 5:
-            lines.append("  ".join(row))
-            row = []
-    if row:
-        lines.append("  ".join(row))
-    lines += [
-        "",
-        rule,
-        f"Answer key : set-{set_no}-key.txt",
-        f"Score online: {SITE_URL}/mock-test/{exam['id']}/set-{set_no}.html",
-        "Original practice material from the Class 10 CBSE study hub - not an official paper.",
-        "Created by Mohammad Umair.",
-        "",
-    ]
-    return "\n".join(lines)
-
-
-def key_txt(exam, set_no, paper) -> str:
-    rule = "=" * 72
-    lines = [
-        f"ANSWER KEY - {exam['title']} ({exam.get('code', '')}) - Set {set_no}",
-        rule,
-        f"Marking: {marking_text(exam)}. Score = correct x {exam['marks_correct']}"
-        + (f" - wrong x {exam['marks_wrong']}" if exam["marks_wrong"] else "")
-        + f". Maximum {max_marks(exam)}.",
-        "",
-        "Quick key",
-    ]
-    row = []
-    for q in paper:
-        row.append(f"Q{q['n']:>3} ({q['labels'][q['answer']]})")
-        if len(row) == 6:
-            lines.append("  ".join(row))
-            row = []
-    if row:
-        lines.append("  ".join(row))
-    lines += ["", "Explanations", "-" * 12, ""]
-    for q in paper:
-        lines.append(f"Q{q['n']}. {plain(q['explanation'])}")
-        lines.append(f"      Topic: {q['group_title']} ({q['subject_title']})")
-        lines.append("")
-    lines += [rule, f"Paper: set-{set_no}.txt  |  Online: {SITE_URL}/mock-test/{exam['id']}/set-{set_no}.html", ""]
-    return "\n".join(lines)
-
-
-# --------------------------------------------------------------------------
-# entry point used by build.py
+# entry points used by build.py
 # --------------------------------------------------------------------------
 def prepare(subjects, chapters_by_subject):
-    """Load the config and banks and assemble every set. Returns (config, exams)."""
+    """Load the config and banks and assemble every pool. Returns (config, exams)."""
     config = load_config()
     banks = load_banks()
     exams = assemble(config, subjects, chapters_by_subject, banks)
@@ -870,9 +688,21 @@ def mock_for_subject(exams):
     return out
 
 
+def mock_chapter_hosts(exams):
+    """{(subject slug, chapter id): exam id} — which exam page hosts each
+    chapter mock (board subjects carry their whole subject as a pool)."""
+    out = {}
+    for e in exams:
+        if not e.get("subject"):
+            continue
+        for c in e["chapters_data"]:
+            out.setdefault((e["subject"], c["id"]), e["id"])
+    return out
+
+
 def build_mock_tests(dist, config, exams, subjects, admissions, page, write, inline):
-    """Write every mock-test page and download file. Returns the list of
-    site-relative paths written (for the build report)."""
+    """Write every mock-test page. Returns the list of site-relative paths
+    written (for the build report)."""
     written = []
     group_titles = {g["id"]: g["title"] for g in config["groups"]}
 
@@ -889,19 +719,9 @@ def build_mock_tests(dist, config, exams, subjects, admissions, page, write, inl
         written.append(f"mock-test/{exam['id']}/index.html")
 
         gtitle = group_titles.get(exam["group"], "Mock test")
-        for set_no, paper in enumerate(exam["sets_data"], 1):
-            crumbs, body = test_body(exam, set_no, paper, inline, gtitle)
-            write(folder / f"set-{set_no}.html",
-                  page(f"{exam['title']} — Set {set_no} mock test", crumbs, body, "../..", None, "mock"))
-            crumbs, body = paper_body(exam, set_no, paper, inline, gtitle)
-            write(folder / f"set-{set_no}-paper.html",
-                  page(f"{exam['title']} — Set {set_no} paper", crumbs, body, "../..", None, "mock"))
-            write(folder / f"set-{set_no}.txt", paper_txt(exam, set_no, paper))
-            write(folder / f"set-{set_no}-key.txt", key_txt(exam, set_no, paper))
-            written += [
-                f"mock-test/{exam['id']}/set-{set_no}.html",
-                f"mock-test/{exam['id']}/set-{set_no}-paper.html",
-                f"mock-test/{exam['id']}/set-{set_no}.txt",
-                f"mock-test/{exam['id']}/set-{set_no}-key.txt",
-            ]
+        payload = engine_payload(exam, inline, "../..")
+        crumbs, body = test_body(exam, gtitle, payload)
+        write(folder / "test.html",
+              page(f"{exam['title']} — mock test (generated)", crumbs, body, "../..", None, "mock"))
+        written.append(f"mock-test/{exam['id']}/test.html")
     return written

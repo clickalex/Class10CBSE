@@ -1,14 +1,17 @@
 /* Mock-test engine for the Class 10 CBSE study hub.
  *
  * One file, three jobs:
- *   1. the test screen (set-N.html): timer, palette, answers, submit, the
- *      one-page score report, answer review, print / text download;
+ *   1. the engine page (test.html): generates a fresh paper from the
+ *      embedded pool on every attempt (avoiding questions already served on
+ *      this device), runs the timed test, scores it, renders the one-page
+ *      report, the answer review and the printable paper, and builds the
+ *      .txt downloads — all in the browser;
  *   2. attempt history on the centre and exam pages (localStorage only —
  *      nothing leaves the browser);
- *   3. the printable paper page: show / hide the answer key.
+ *   3. best-score lines per exam and per mock slot.
  *
- * The scoring helpers live in `core` and are exported for Node so the
- * repository tests can check them without a browser.
+ * The generator and scoring helpers live in `core` and are exported for
+ * Node so the repository tests can check them without a browser.
  */
 (function (root) {
   "use strict";
@@ -77,6 +80,14 @@
     return h ? h + ":" + mm + ":" + ss : mm + ":" + ss;
   };
 
+  core.fmtMinutes = function (m) {
+    m = Math.max(1, Math.floor(Number(m) || 0));
+    var h = Math.floor(m / 60), r = m % 60;
+    if (h && r) return h + " h " + r + " min";
+    if (h) return h + " h";
+    return r + " min";
+  };
+
   /* Topics to revise first: accuracy under 60% with at least two questions
    * asked; if nothing qualifies, the lowest-accuracy topics that had a miss. */
   core.weakTopics = function (topics, limit) {
@@ -89,23 +100,102 @@
     return weak.slice(0, limit);
   };
 
-  core.reportText = function (data, result, attempt, siteUrl) {
-    var ex = data.exam;
+  /* Strip the payload's inline HTML back to plain text for the .txt files. */
+  core.plainText = function (s) {
+    return String(s)
+      .replace(/<[^>]*>/g, "")
+      .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'").replace(/&amp;/g, "&")
+      .replace(/\s+/g, " ")
+      .trim();
+  };
+
+  /* ---------------- the question generator ---------------- */
+
+  core.shuffle = function (arr, rand) {
+    var r = rand || Math.random;
+    for (var i = arr.length - 1; i > 0; i--) {
+      var j = Math.floor(r() * (i + 1));
+      var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
+    }
+    return arr;
+  };
+
+  function toSet(list) {
+    var s = {};
+    if (!list) return s;
+    if (list.forEach) { list.forEach(function (x) { s[x] = true; }); return s; }
+    Object.keys(list).forEach(function (k) { s[list[k]] = true; });
+    return s;
+  }
+
+  /* Pick `count` ids from `ids`, preferring questions never served before
+   * (not in `seenSet`), then old ones that were not in the immediately
+   * previous batch (`lastSet`), and only then the previous batch itself.
+   * `usedSet` holds ids already picked for this paper (kept out of other
+   * sections). All three are uid -> true maps as built by toSet(). */
+  core.pickIds = function (ids, count, seenSet, lastSet, usedSet, rand) {
+    var fresh = [], mid = [], back = [];
+    ids.forEach(function (id) {
+      if (usedSet[id]) return;
+      if (!seenSet[id]) fresh.push(id);
+      else if (!lastSet[id]) mid.push(id);
+      else back.push(id);
+    });
+    core.shuffle(fresh, rand); core.shuffle(mid, rand); core.shuffle(back, rand);
+    return fresh.concat(mid, back).slice(0, count);
+  };
+
+  /* sections: [{name, count, ids: [uid…]}]; byId: {uid: question}.
+   * Returns {questions: [...with sec + n], fresh: n} — the paper. */
+  core.generate = function (sections, byId, seen, last, rand) {
+    var seenSet = toSet(seen), lastSet = toSet(last), usedSet = {};
+    var out = [], fresh = 0;
+    sections.forEach(function (sec, si) {
+      var ids = core.pickIds(sec.ids, sec.count, seenSet, lastSet, usedSet, rand);
+      var qs = ids.map(function (id) { return byId[id]; }).filter(Boolean)
+        .sort(function (a, b) { return (a.ord - b.ord) || (a.uid > b.uid ? 1 : a.uid < b.uid ? -1 : 0); });
+      qs.forEach(function (q) {
+        var item = copy(q);
+        item.sec = si;
+        if (!seenSet[q.uid]) fresh++;
+        usedSet[q.uid] = true;
+        out.push(item);
+      });
+    });
+    out.forEach(function (q, i) { q.n = i + 1; });
+    return { questions: out, fresh: fresh, total: out.length };
+  };
+
+  function copy(o) {
+    var c = {};
+    Object.keys(o).forEach(function (k) { c[k] = o[k]; });
+    return c;
+  }
+
+  /* ---------------- text builders (report / paper / key) ---------------- */
+
+  core.markingText = function (m) {
+    return "+" + m.marksCorrect + " correct \u00b7 " +
+      (m.marksWrong ? "\u2212" + m.marksWrong + " wrong" : "no negative marking");
+  };
+
+  core.reportText = function (meta, result, attempt, questions) {
     var lines = [];
     var rule = "=".repeat(64);
-    lines.push("SCORE REPORT - " + ex.title + " - Set " + ex.set);
+    lines.push("SCORE REPORT - " + meta.title + " - " + meta.label);
     lines.push(rule);
     if (attempt.name) lines.push("Name    : " + attempt.name);
     lines.push("Date    : " + new Date(attempt.at).toLocaleString());
     lines.push("Score   : " + result.marks + " / " + result.max + " (" + result.pct + "%) - " + core.grade(result.pct));
     lines.push("Correct " + result.correct + " | Wrong " + result.wrong + " | Unattempted " + result.skipped +
       " | Accuracy " + result.accuracy + "%" + (result.negative ? " | Lost to negatives -" + result.negative : ""));
-    lines.push("Time    : " + core.fmtTime(attempt.timeSec) + " of " + core.fmtTime(ex.minutes * 60) +
+    lines.push("Time    : " + core.fmtTime(attempt.timeSec) + " of " + core.fmtTime(meta.minutes * 60) +
       (attempt.auto ? " (auto-submitted at time-out)" : ""));
     lines.push("");
     lines.push("Section-wise");
     result.sections.forEach(function (s) {
-      var name = data.sections[s.sec] ? data.sections[s.sec].name : ("Section " + (s.sec + 1));
+      var name = meta.sections[s.sec] ? meta.sections[s.sec].name : ("Section " + (s.sec + 1));
       lines.push("  " + pad(name, 34) + pad(s.correct + "/" + s.total, 8) + pad(s.marks + "/" + s.max, 10) + s.pct + "%");
     });
     var weak = core.weakTopics(result.topics);
@@ -113,8 +203,7 @@
       lines.push("");
       lines.push("Revise first");
       weak.forEach(function (t) {
-        lines.push("  " + t.topic + " (" + t.src + "): " + t.correct + "/" + t.total + " correct" +
-          (t.url ? "  -> " + absolute(t.url, siteUrl, ex) : ""));
+        lines.push("  " + t.topic + " (" + t.src + "): " + t.correct + "/" + t.total + " correct");
       });
     }
     lines.push("");
@@ -129,14 +218,89 @@
     lines.push("");
     lines.push(rule);
     lines.push("Class 10 CBSE study hub - original practice material, not an official paper.");
-    lines.push(siteUrl + "/mock-test/" + ex.id + "/set-" + ex.set + ".html");
+    lines.push(meta.onlineUrl);
     return lines.join("\n");
 
     function pad(s, n) { s = String(s); while (s.length < n) s += " "; return s; }
-    function absolute(url, base, exam) {
-      /* links in the payload are relative to mock-test/<exam>/ */
-      return base + "/" + String(url).replace(/^(\.\.\/)+/, "");
-    }
+  };
+
+  core.paperText = function (meta, questions) {
+    var rule = "=".repeat(72);
+    var lines = [
+      "CLASS 10 CBSE STUDY HUB - MOCK TEST (GENERATED)",
+      rule,
+      "Exam    : " + meta.title + " (" + meta.code + ")",
+      "Paper   : " + meta.label,
+      "Time    : " + core.fmtMinutes(meta.minutes),
+      "Marks   : " + meta.maxMarks + " (" + core.markingText(meta.marking) + ")",
+      "Pattern : " + (meta.length || "Mock") + " - " + (meta.patternNote || ""),
+      rule,
+      "",
+      "Instructions",
+      "1. Each question has exactly one correct option.",
+      "2. Write your answers in the answer grid at the end, then check the key file.",
+      "3. " + core.markingText(meta.marking) + "; unattempted questions score 0.",
+      "",
+    ];
+    var currentSec = null;
+    questions.forEach(function (q) {
+      if (q.sec !== currentSec) {
+        currentSec = q.sec;
+        var name = meta.sections[q.sec] ? meta.sections[q.sec].name : ("Section " + (q.sec + 1));
+        var title = "SECTION " + String.fromCharCode(65 + q.sec) + " - " + name;
+        lines.push("", title, "-".repeat(title.length), "");
+      }
+      var ctx = q.ctx ? "[" + core.plainText(q.ctx) + "] " : "";
+      lines.push("Q" + q.n + ". " + ctx + core.plainText(q.stem));
+      q.labels.forEach(function (l, i) {
+        lines.push("    (" + l + ") " + core.plainText(q.opts[i]));
+      });
+      lines.push("");
+    });
+    lines.push("", "ANSWER GRID", "-".repeat(11));
+    var row = [];
+    questions.forEach(function (q) {
+      row.push("Q" + ("   " + q.n).slice(-3) + " [   ]");
+      if (row.length === 5) { lines.push(row.join("  ")); row = []; }
+    });
+    if (row.length) lines.push(row.join("  "));
+    lines.push([
+      "",
+      rule,
+      "Answer key : the key .txt file generated with this paper",
+      "Score online: " + meta.onlineUrl,
+      "Original practice material from the Class 10 CBSE study hub - not an official paper.",
+      "Created by Mohammad Umair.",
+      "",
+    ].join("\n"));
+    return lines.join("\n");
+  };
+
+  core.keyText = function (meta, questions) {
+    var rule = "=".repeat(72);
+    var lines = [
+      "ANSWER KEY - " + meta.title + " (" + meta.code + ") - " + meta.label,
+      rule,
+      "Marking: " + core.markingText(meta.marking) + ". Score = correct x " + meta.marking.marksCorrect +
+        (meta.marking.marksWrong ? " - wrong x " + meta.marking.marksWrong : "") +
+        ". Maximum " + meta.maxMarks + ".",
+      "",
+      "Quick key",
+    ];
+    var row = [];
+    questions.forEach(function (q) {
+      row.push("Q" + ("   " + q.n).slice(-3) + " (" + q.labels[q.ans] + ")");
+      if (row.length === 6) { lines.push(row.join("  ")); row = []; }
+    });
+    if (row.length) lines.push(row.join("  "));
+    lines.push("", "Explanations", "-".repeat(12), "");
+    questions.forEach(function (q) {
+      lines.push("Q" + q.n + ". " + core.plainText(q.exp));
+      lines.push("      Topic: " + q.topic + " (" + q.src + ")");
+      lines.push("");
+    });
+    lines.push(rule, "Paper: the paper .txt file generated with this key  |  Online: " + meta.onlineUrl, "");
+    return lines.join("\n");
   };
 
   if (typeof module !== "undefined" && module.exports) module.exports = core;
@@ -171,16 +335,27 @@
     return best;
   }
   function download(name, text) {
-    var blob = new Blob([text], { type: "text/plain;charset=utf-8" });
-    var a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = name;
-    document.body.appendChild(a);
-    a.click();
-    setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 0);
+    try {
+      var blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+      var a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = name;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 0);
+    } catch (e) { /* very old browsers / test runners */ }
   }
   function each(sel, fn, scope) {
     Array.prototype.forEach.call((scope || document).querySelectorAll(sel), fn);
+  }
+  function attemptLabel(a) {
+    if (a.label) return a.label;
+    return a.set ? "Set " + a.set : "—";
+  }
+  function attemptHref(a) {
+    if (!a.mode) return null; /* attempts from the old fixed-set pages */
+    if (a.mode === "chapter") return a.exam + "/test.html?chapter=" + encodeURIComponent(a.chapter) + "#report";
+    return a.exam + "/test.html?n=" + a.slot + "#report";
   }
 
   if (document.querySelector(".mock-app, .paper, [data-mock-best], [data-mock-attempts]")) {
@@ -194,8 +369,8 @@
     var mine = all.filter(function (a) { return a.exam === id; });
     if (!mine.length) return;
     var b = bestOf(mine);
-    el.innerHTML = "Best on this device: <strong>" + b.marks + " / " + b.max + "</strong> (" + b.pct + "%, Set " +
-      b.set + ") · " + mine.length + " attempt" + (mine.length === 1 ? "" : "s");
+    el.innerHTML = "Best on this device: <strong>" + b.marks + " / " + b.max + "</strong> (" + b.pct + "%, " +
+      esc(attemptLabel(b)) + ") \u00b7 " + mine.length + " attempt" + (mine.length === 1 ? "" : "s");
     el.className += " has-score";
   });
   var recent = document.querySelector("[data-mock-recent]");
@@ -203,9 +378,10 @@
     var rows = document.querySelector("[data-mock-recent-rows]");
     all.slice(0, 12).forEach(function (a) {
       var tr = document.createElement("tr");
-      tr.innerHTML = "<td>" + esc(fmtDate(a.at)) + "</td><td>" + esc(a.title) + "</td><td>" + a.set + "</td>" +
+      var href = attemptHref(a);
+      tr.innerHTML = "<td>" + esc(fmtDate(a.at)) + "</td><td>" + esc(a.title) + "</td><td>" + esc(attemptLabel(a)) + "</td>" +
         "<td>" + a.marks + " / " + a.max + "</td><td>" + a.pct + "%</td><td>" + core.fmtTime(a.timeSec) + "</td>" +
-        '<td><a href="' + esc(a.exam) + "/set-" + a.set + '.html#report">Report</a></td>';
+        "<td>" + (href ? '<a href="' + esc(href) + '">Report</a>' : "") + "</td>";
       rows.appendChild(tr);
     });
     recent.hidden = false;
@@ -223,59 +399,98 @@
     });
   });
 
-  /* ---- exam page: attempts table + best per set ---- */
+  /* ---- exam page: attempts table + best per mock slot ---- */
   each("[data-mock-attempts]", function (el) {
     var id = el.getAttribute("data-mock-attempts");
     var mine = all.filter(function (a) { return a.exam === id; });
     if (!mine.length) return;
     var b = bestOf(mine);
-    var html = '<p><strong>Best: ' + b.marks + " / " + b.max + " (" + b.pct + "%)</strong> on Set " + b.set +
-      " · " + mine.length + " attempt" + (mine.length === 1 ? "" : "s") + "</p>" +
-      '<div class="tablewrap"><table><thead><tr><th>When</th><th>Set</th><th>Score</th><th>%</th>' +
+    var html = '<p><strong>Best: ' + b.marks + " / " + b.max + " (" + b.pct + "%)</strong> on " +
+      esc(attemptLabel(b)) + " \u00b7 " + mine.length + " attempt" + (mine.length === 1 ? "" : "s") + "</p>" +
+      '<div class="tablewrap"><table><thead><tr><th>When</th><th>Paper</th><th>Score</th><th>%</th>' +
       "<th>Correct / wrong / skipped</th><th>Time</th><th></th></tr></thead><tbody>";
     mine.slice(0, 20).forEach(function (a) {
-      html += "<tr><td>" + esc(fmtDate(a.at)) + "</td><td>" + a.set + "</td><td>" + a.marks + " / " + a.max +
+      var href = attemptHref(a);
+      var localHref = href ? href.replace(/^[^/]+\//, "") : null;
+      html += "<tr><td>" + esc(fmtDate(a.at)) + "</td><td>" + esc(attemptLabel(a)) + "</td><td>" + a.marks + " / " + a.max +
         "</td><td>" + a.pct + "%</td><td>" + a.correct + " / " + a.wrong + " / " + a.skipped + "</td><td>" +
-        core.fmtTime(a.timeSec) + '</td><td><a href="set-' + a.set + '.html#report">Report</a></td></tr>';
+        core.fmtTime(a.timeSec) + "</td><td>" +
+        (localHref ? '<a href="' + esc(localHref) + '">Report</a>' : "") + "</td></tr>";
     });
     html += "</tbody></table></div>";
     el.innerHTML = html;
   });
-  each("[data-mock-set-best]", function (el) {
-    var parts = el.getAttribute("data-mock-set-best").split("/");
-    var mine = all.filter(function (a) { return a.exam === parts[0] && String(a.set) === parts[1]; });
+  each("[data-mock-slot-best]", function (el) {
+    var parts = el.getAttribute("data-mock-slot-best").split("/");
+    var mine = all.filter(function (a) {
+      return a.exam === parts[0] && (a.mode === "exam" ? String(a.slot) === parts[1] : (!a.mode && String(a.set) === parts[1]));
+    });
     if (!mine.length) return;
     var b = bestOf(mine);
     el.innerHTML = "<strong>" + b.marks + " / " + b.max + "</strong> (" + b.pct + "%)";
   });
 
-  /* ---- printable paper: key toggles ---- */
-  var paper = document.querySelector("[data-paper]");
-  if (paper) {
-    var printKey = paper.querySelector("[data-paper-key]");
-    var showKey = paper.querySelector("[data-paper-show-key]");
-    function syncPaper() {
-      paper.classList.toggle("paper-print-key", !printKey || printKey.checked);
-      paper.classList.toggle("paper-show-key", !!(showKey && showKey.checked));
-    }
-    if (printKey) printKey.addEventListener("change", syncPaper);
-    if (showKey) showKey.addEventListener("change", syncPaper);
-    syncPaper();
-  }
-
-  /* ---- the test screen ---- */
+  /* ---- the engine page ---- */
   var app = document.getElementById("mock");
   var dataEl = document.getElementById("mock-data");
   if (!app || !dataEl) return;
 
   var data = JSON.parse(dataEl.textContent);
   var exam = data.exam;
-  var Q = data.questions;
-  var N = Q.length;
-  var KEY = app.getAttribute("data-mock-key");
+
+  /* pool: compact payload keys -> the full names the renderers expect */
+  var POOL = {};
+  data.pool.forEach(function (q) {
+    POOL[q.uid] = {
+      uid: q.uid, stem: q.s, opts: q.o, labels: q.l, ans: q.a, exp: q.e,
+      topic: q.t, topicKey: q.k, ctx: q.c, src: q.src, url: q.u, practice: q.p,
+      ord: q.ord, ch: q.ch
+    };
+  });
+
+  /* mode: ?chapter=<id> for a chapter mock, else ?n=<slot> for a full mock */
+  var params = (typeof URLSearchParams !== "undefined" && location.search)
+    ? new URLSearchParams(location.search) : { get: function () { return null; } };
+  var chapters = data.chapters || [];
+  var chParam = params.get("chapter");
+  var chapter = null;
+  for (var ci = 0; ci < chapters.length; ci++) {
+    if (chapters[ci].id === chParam) { chapter = chapters[ci]; break; }
+  }
+  var mode = chapter ? "chapter" : "exam";
+  var slot = parseInt(params.get("n"), 10);
+  if (!slot || slot < 1 || slot > exam.tests) slot = 1;
+
+  var sections, marking, minutes, label, maxMarks, onlinePath;
+  if (mode === "chapter") {
+    var chIds = data.pool.filter(function (q) { return q.ch === chapter.id; }).map(function (q) { return q.uid; });
+    sections = [{ name: "Ch " + chapter.num + " \u00b7 " + chapter.title, count: chIds.length, ids: chIds }];
+    marking = { marksCorrect: 1, marksWrong: 0 };
+    minutes = Math.max(5, chIds.length);
+    label = "Ch " + chapter.num + " \u00b7 " + chapter.title;
+    onlinePath = "test.html?chapter=" + encodeURIComponent(chapter.id);
+  } else {
+    sections = data.sections;
+    marking = { marksCorrect: exam.marksCorrect, marksWrong: exam.marksWrong };
+    minutes = exam.minutes;
+    label = "Mock " + slot;
+    onlinePath = "test.html?n=" + slot;
+  }
+  maxMarks = sections.reduce(function (m, s) { return m + s.count * marking.marksCorrect; }, 0);
+
+  var meta = {
+    title: exam.title, code: exam.code, label: label, minutes: minutes,
+    marking: marking, maxMarks: maxMarks, length: exam.length,
+    patternNote: exam.patternNote, sections: sections,
+    onlineUrl: SITE_URL + "/mock-test/" + exam.id + "/" + onlinePath
+  };
+  var fileTag = mode === "chapter" ? "ch-" + chapter.id : "m" + slot;
+
+  var KEY = exam.id + "/" + (mode === "chapter" ? "ch/" + chapter.id : "s/" + slot);
   var PROG_KEY = "c10cbse-mock-progress:" + KEY;
   var LAST_KEY = "c10cbse-mock-last:" + KEY;
-  var TOTAL_SEC = exam.minutes * 60;
+  var SEEN_KEY = "c10cbse-mock-seen:" + exam.id;
+  var TOTAL_SEC = minutes * 60;
 
   var views = {};
   each("[data-view]", function (v) { views[v.getAttribute("data-view")] = v; }, app);
@@ -286,15 +501,51 @@
   var sectionEl = $("[data-mock-section]");
   var qEl = $("[data-mock-question]");
   var palEl = $("[data-mock-palette]");
+  var freshEl = $("[data-mock-fresh]");
+  var h1El = document.querySelector("[data-mock-h1]");
+  var ledeEl = document.querySelector("[data-mock-lede]");
+  var slotsEl = document.querySelector("[data-mock-slots]");
 
-  var state = { answers: [], marked: [], current: 0, startedAt: null, name: "" };
-  for (var i0 = 0; i0 < N; i0++) { state.answers.push(null); state.marked.push(false); }
+  var Q = [];
+  var state = { ids: [], answers: [], marked: [], current: 0, startedAt: null, name: "" };
   var ticker = null;
   var lastResult = null, lastAttempt = null;
+  var poolSize = data.pool.length;
+
+  /* --- headers, slot chips --- */
+  if (h1El) h1El.textContent = "\u2014 " + label;
+  if (ledeEl) {
+    ledeEl.innerHTML = mode === "chapter"
+      ? "A chapter mock on <strong>" + esc(chapter.title) + "</strong> — every MCQ of the chapter (" +
+        sections[0].count + "), " + core.fmtMinutes(minutes) + ", +1 per correct answer, no negative marking."
+      : exam.questions + " questions \u00b7 " + core.fmtMinutes(minutes) + " \u00b7 " +
+        esc(core.markingText(marking)) + ". Generated fresh from a pool of " + poolSize +
+        " questions — answer on screen, submit, and get your score with a one-page report.";
+  }
+  if (slotsEl) {
+    var chips = "";
+    if (mode === "chapter") {
+      var idx = chapters.indexOf(chapter);
+      if (idx > 0) chips += '<a class="chip" href="test.html?chapter=' + esc(chapters[idx - 1].id) + '">\u2190 ' +
+        "Ch " + chapters[idx - 1].num + "</a>";
+      chips += '<span class="chip is-on">Ch ' + chapter.num + " \u00b7 " + esc(chapter.title) + "</span>";
+      if (idx > -1 && idx < chapters.length - 1) chips += '<a class="chip" href="test.html?chapter=' +
+        esc(chapters[idx + 1].id) + '">Ch ' + chapters[idx + 1].num + " \u2192</a>";
+      chips += '<a class="chip" href="index.html#chapters">All chapter mocks</a>';
+    } else {
+      for (var s = 1; s <= exam.tests; s++) {
+        chips += s === slot
+          ? '<span class="chip is-on">Mock ' + s + "</span>"
+          : '<a class="chip" href="test.html?n=' + s + '">Mock ' + s + "</a>";
+      }
+    }
+    slotsEl.innerHTML = chips;
+  }
 
   function show(name) {
     Object.keys(views).forEach(function (k) { views[k].hidden = k !== name; });
     document.body.classList.toggle("mock-print-report", name === "report");
+    document.body.classList.toggle("mock-print-paper", name === "paper");
     document.body.classList.toggle("mock-in-test", name === "test");
     if (name !== "intro") {
       var top = app.getBoundingClientRect().top + window.pageYOffset - 8;
@@ -305,18 +556,59 @@
   function elapsed() { return Math.floor((Date.now() - state.startedAt) / 1000); }
   function remaining() { return Math.max(0, TOTAL_SEC - elapsed()); }
 
-  function sectionName(i) { return data.sections[Q[i].sec] ? data.sections[Q[i].sec].name : ""; }
+  function sectionName(i) { return sections[Q[i].sec] ? sections[Q[i].sec].name : ""; }
   function answered() { return state.answers.filter(function (a) { return a !== null && a !== undefined; }).length; }
 
-  /* --- rendering --- */
+  /* --- the generator --- */
+  function generatePaper() {
+    var seenStore = loadJSON(localStorage, SEEN_KEY, { ids: [], last: [] });
+    if (!seenStore.ids) seenStore.ids = [];
+    if (!seenStore.last) seenStore.last = [];
+    var gen = core.generate(sections, POOL, seenStore.ids, seenStore.last);
+    Q = gen.questions;
+    state = { ids: Q.map(function (q) { return q.uid; }), answers: [], marked: [], current: 0, startedAt: null, name: state.name || "" };
+    for (var i = 0; i < Q.length; i++) { state.answers.push(null); state.marked.push(false); }
+    seenStore.last = state.ids.slice();
+    state.ids.forEach(function (id) {
+      if (seenStore.ids.indexOf(id) < 0) seenStore.ids.push(id);
+    });
+    if (seenStore.ids.length > 2000) seenStore.ids = seenStore.ids.slice(-2000);
+    saveJSON(localStorage, SEEN_KEY, seenStore);
+    renderFreshLine(gen.fresh, seenStore);
+  }
+
+  function renderFreshLine(fresh, seenStore) {
+    if (!freshEl) return;
+    var repeats = Q.length - fresh;
+    var seenCount = seenStore ? seenStore.ids.length : 0;
+    var txt = "<strong>This paper: " + Q.length + " questions</strong> \u2014 " + fresh + " never served to you before";
+    if (repeats) txt += ", " + repeats + " repeated (the pool of " + poolSize + " has cycled on this device)";
+    else txt += " \u2014 none repeated";
+    txt += ". You have been served " + seenCount + " of the " + poolSize +
+      " questions in this pool. <em>Every attempt picks a different paper.</em>";
+    freshEl.innerHTML = txt;
+  }
+
+  function restorePaper(ids) {
+    Q = ids.map(function (id) { return POOL[id]; }).filter(Boolean);
+    Q.forEach(function (q, i) { q.n = i + 1; });
+    /* recompute which section each question belongs to */
+    var byIdSec = {};
+    sections.forEach(function (sec, si) {
+      sec.ids.forEach(function (id) { byIdSec[id] = si; });
+    });
+    Q.forEach(function (q) { q.sec = byIdSec[q.uid] !== undefined ? byIdSec[q.uid] : 0; });
+  }
+
+  /* --- rendering: question, palette --- */
   function renderQuestion() {
     var i = state.current, q = Q[i];
-    var html = '<div class="mock-q-head"><span class="mock-q-num">Question ' + (i + 1) + " of " + N + "</span>" +
+    var html = '<div class="mock-q-head"><span class="mock-q-num">Question ' + (i + 1) + " of " + Q.length + "</span>" +
       '<span class="mock-q-sec">' + esc(sectionName(i)) + "</span>" +
-      '<span class="marks">' + exam.marksCorrect + " mark" + (exam.marksCorrect === 1 ? "" : "s") +
-      (exam.marksWrong ? " · −" + exam.marksWrong : "") + "</span></div>" +
+      '<span class="marks">' + marking.marksCorrect + " mark" + (marking.marksCorrect === 1 ? "" : "s") +
+      (marking.marksWrong ? " \u00b7 \u2212" + marking.marksWrong : "") + "</span></div>" +
       (q.ctx ? '<p class="mock-ctx">' + q.ctx + "</p>" : "") +
-      '<p class="qtext">' + q.stem + "</p><div class=\"mock-opts\" role=\"radiogroup\">";
+      '<p class="qtext">' + q.stem + '</p><div class="mock-opts" role="radiogroup">';
     for (var k = 0; k < q.opts.length; k++) {
       var on = state.answers[i] === k;
       html += '<label class="mock-opt' + (on ? " is-picked" : "") + '"><input type="radio" name="q' + i + '" value="' + k + '"' +
@@ -324,21 +616,21 @@
     }
     html += "</div>" +
       '<div class="mock-q-actions">' +
-      '<button type="button" class="btn" data-act="prev"' + (i === 0 ? " disabled" : "") + ">← Previous</button>" +
+      '<button type="button" class="btn" data-act="prev"' + (i === 0 ? " disabled" : "") + ">\u2190 Previous</button>" +
       '<button type="button" class="btn" data-act="clear">Clear response</button>' +
       '<button type="button" class="btn' + (state.marked[i] ? " is-marked" : "") + '" data-act="mark">' +
       (state.marked[i] ? "Unmark review" : "Mark for review") + "</button>" +
-      '<button type="button" class="btn primary" data-act="next">' + (i === N - 1 ? "Go to first unanswered" : "Save & next →") + "</button>" +
+      '<button type="button" class="btn primary" data-act="next">' + (i === Q.length - 1 ? "Go to first unanswered" : "Save & next \u2192") + "</button>" +
       "</div>";
     qEl.innerHTML = html;
-    progressEl.textContent = answered() + " / " + N + " answered";
-    sectionEl.textContent = "Section " + String.fromCharCode(65 + q.sec) + " · " + sectionName(i);
+    progressEl.textContent = answered() + " / " + Q.length + " answered";
+    sectionEl.textContent = "Section " + String.fromCharCode(65 + q.sec) + " \u00b7 " + sectionName(i);
   }
 
   function renderPalette() {
     var html = "";
     var lastSec = -1;
-    for (var i = 0; i < N; i++) {
+    for (var i = 0; i < Q.length; i++) {
       if (Q[i].sec !== lastSec) {
         lastSec = Q[i].sec;
         html += '<span class="pal-sec">' + String.fromCharCode(65 + lastSec) + "</span>";
@@ -355,7 +647,7 @@
   function render() { renderQuestion(); renderPalette(); }
 
   function go(i) {
-    if (i < 0 || i >= N) return;
+    if (i < 0 || i >= Q.length) return;
     state.current = i;
     saveProgress();
     render();
@@ -390,22 +682,24 @@
   function submit(auto) {
     if (!state.startedAt) return;
     if (!auto) {
-      var un = N - answered();
+      var un = Q.length - answered();
       var msg = un > 0 ? "You have " + un + " unanswered question" + (un === 1 ? "" : "s") + ". Submit anyway?" : "Submit the test now?";
       if (!confirm(msg)) return;
     }
     if (ticker) { clearInterval(ticker); ticker = null; }
     var timeSec = Math.min(TOTAL_SEC, elapsed());
-    var result = core.score(Q, state.answers, exam);
+    var result = core.score(Q, state.answers, marking);
     var attempt = {
-      exam: exam.id, title: exam.title, set: exam.set, name: state.name, at: new Date().toISOString(),
+      exam: exam.id, title: exam.title, label: label, mode: mode, slot: slot,
+      chapter: mode === "chapter" ? chapter.id : null,
+      name: state.name, at: new Date().toISOString(),
       marks: result.marks, max: result.max, pct: result.pct, correct: result.correct, wrong: result.wrong,
       skipped: result.skipped, timeSec: timeSec, auto: !!auto
     };
     var list = attempts();
     list.unshift(attempt);
-    saveJSON(localStorage, ATT_KEY, list.slice(0, 100));
-    saveJSON(localStorage, LAST_KEY, { attempt: attempt, answers: state.answers });
+    saveJSON(localStorage, ATT_KEY, list.slice(0, 200));
+    saveJSON(localStorage, LAST_KEY, { attempt: attempt, answers: state.answers, ids: state.ids });
     try { sessionStorage.removeItem(PROG_KEY); } catch (e) { /* ignore */ }
     state.startedAt = null;
     renderReport(attempt, result);
@@ -416,29 +710,30 @@
     lastResult = result; lastAttempt = attempt;
     var pct = result.pct, grade = core.grade(pct);
     var secRows = result.sections.map(function (s) {
-      var name = data.sections[s.sec] ? data.sections[s.sec].name : "Section " + (s.sec + 1);
+      var name = sections[s.sec] ? sections[s.sec].name : "Section " + (s.sec + 1);
       return "<tr><td>" + esc(name) + "</td><td>" + s.correct + " / " + s.total + "</td><td>" + s.wrong + "</td><td>" + s.skipped +
         "</td><td>" + s.marks + " / " + s.max + "</td><td><span class=\"rep-mini\"><i style=\"width:" + s.pct + "%\"></i></span> " + s.pct + "%</td></tr>";
     }).join("");
     var weak = core.weakTopics(result.topics);
     var weakHtml = weak.length ? "<ol class=\"rep-weak\">" + weak.map(function (t) {
       var links = "";
-      if (t.url) links += ' <a href="' + esc(t.url) + '">Revise →</a>';
-      if (t.practice) links += ' <a href="' + esc(t.practice) + '">Practise →</a>';
-      return "<li><strong>" + esc(t.topic) + "</strong> <span class=\"hint\">" + esc(t.src) + " · " + t.correct + "/" + t.total +
+      if (t.url) links += ' <a href="' + esc(t.url) + '">Revise \u2192</a>';
+      if (t.practice) links += ' <a href="' + esc(t.practice) + '">Practise \u2192</a>';
+      return "<li><strong>" + esc(t.topic) + "</strong> <span class=\"hint\">" + esc(t.src) + " \u00b7 " + t.correct + " / " + t.total +
         " correct</span>" + links + "</li>";
-    }).join("") + "</ol>" : '<p class="hint">Nothing flagged — every topic scored 60% or better. Try the next set.</p>';
+    }).join("") + "</ol>" : '<p class="hint">Nothing flagged \u2014 every topic scored 60% or better. Try the next mock.</p>';
     var map = result.per.map(function (st, i) {
-      var sym = st === "correct" ? "✓" : st === "wrong" ? "✗" : "–";
+      var sym = st === "correct" ? "\u2713" : st === "wrong" ? "\u2717" : "\u2013";
       return '<button type="button" class="qmap-c is-' + st + '" data-review="' + i + '" title="Q' + (i + 1) + " " + st + '">' + (i + 1) + "<i>" + sym + "</i></button>";
     }).join("");
-    var avg = N ? Math.round(attempt.timeSec / N) : 0;
+    var avg = Q.length ? Math.round(attempt.timeSec / Q.length) : 0;
     var html =
       '<div class="rep">' +
-      '<div class="rep-head"><div><p class="kicker">SCORE REPORT · MOCK TEST' + (attempt.auto ? " · AUTO-SUBMITTED AT TIME-OUT" : "") + "</p>" +
-      "<h2>" + esc(exam.title) + " — Set " + exam.set + "</h2>" +
-      '<p class="rep-meta">' + (attempt.name ? "<strong>" + esc(attempt.name) + "</strong> · " : "") + esc(fmtDate(attempt.at)) +
-      " · " + N + " questions · " + core.fmtTime(TOTAL_SEC) + " · +" + exam.marksCorrect + (exam.marksWrong ? " / −" + exam.marksWrong : ", no negative") + "</p></div>" +
+      '<div class="rep-head"><div><p class="kicker">SCORE REPORT \u00b7 MOCK TEST' + (attempt.auto ? " \u00b7 AUTO-SUBMITTED AT TIME-OUT" : "") + "</p>" +
+      "<h2>" + esc(exam.title) + " \u2014 " + esc(label) + "</h2>" +
+      '<p class="rep-meta">' + (attempt.name ? "<strong>" + esc(attempt.name) + "</strong> \u00b7 " : "") + esc(fmtDate(attempt.at)) +
+      " \u00b7 " + Q.length + " questions \u00b7 " + core.fmtTime(TOTAL_SEC) + " \u00b7 +" + marking.marksCorrect +
+      (marking.marksWrong ? " / \u2212" + marking.marksWrong : ", no negative") + "</p></div>" +
       '<div class="rep-score"><span class="rep-big">' + result.marks + '</span><span class="rep-of">/ ' + result.max + "</span>" +
       '<span class="rep-pct">' + pct + "%</span><span class=\"rep-grade\">" + esc(grade) + "</span></div></div>" +
       '<div class="bar rep-bar"><span class="fill" style="width:' + pct + '%"></span></div>' +
@@ -447,21 +742,22 @@
       "<div><strong>" + result.wrong + "</strong><span>Wrong</span></div>" +
       "<div><strong>" + result.skipped + "</strong><span>Unattempted</span></div>" +
       "<div><strong>" + result.accuracy + "%</strong><span>Accuracy</span></div>" +
-      (exam.marksWrong ? "<div><strong>−" + result.negative + "</strong><span>Lost to negatives</span></div>" : "") +
+      (marking.marksWrong ? "<div><strong>\u2212" + result.negative + "</strong><span>Lost to negatives</span></div>" : "") +
       "<div><strong>" + core.fmtTime(attempt.timeSec) + "</strong><span>Time used</span></div>" +
       "<div><strong>" + avg + " s</strong><span>Per question</span></div>" +
       "</div>" +
       '<div class="rep-cols"><div><h3>Section-wise</h3><div class="tablewrap"><table class="rep-table"><thead><tr><th>Section</th><th>Correct</th><th>Wrong</th><th>Skipped</th><th>Marks</th><th>%</th></tr></thead><tbody>' +
       secRows + "</tbody></table></div></div>" +
-      "<div><h3>Revise first</h3>" + weakHtml + "</div></div>" +
+      '<div><h3>Revise first</h3>' + weakHtml + "</div></div>" +
       '<h3>Question map <span class="hint">click a question to review it</span></h3><div class="qmap">' + map + "</div>" +
-      '<p class="rep-foot">Generated on this device · Class 10 CBSE study hub · ' + SITE_URL + "/mock-test/" + esc(exam.id) + "/set-" + exam.set + ".html · original practice material, not an official paper.</p>" +
+      '<p class="rep-foot">Generated on this device \u00b7 Class 10 CBSE study hub \u00b7 ' + meta.onlineUrl + " \u00b7 original practice material, not an official paper.</p>" +
       '<p class="btnrow no-print">' +
       '<button type="button" class="btn primary" data-act="print">Download report (PDF / print)</button>' +
       '<button type="button" class="btn" data-act="txt">Download report (.txt)</button>' +
       '<button type="button" class="btn" data-act="review">Review answers</button>' +
-      '<button type="button" class="btn" data-act="retake">Retake this set</button>' +
-      '<a class="btn" href="index.html">Other sets</a>' +
+      '<button type="button" class="btn" data-act="paper">Printable paper</button>' +
+      '<button type="button" class="btn" data-act="retake">Retake with new questions</button>' +
+      '<a class="btn" href="index.html">All ' + esc(exam.title) + " mocks</a>" +
       "</p></div>";
     views.report.innerHTML = html;
   }
@@ -470,7 +766,7 @@
     var box = $("[data-mock-review]");
     var answers = lastAttemptAnswers();
     var html = "";
-    for (var i = 0; i < N; i++) {
+    for (var i = 0; i < Q.length; i++) {
       var st = lastResult.per[i];
       if (filter !== "all" && st !== filter) continue;
       var q = Q[i], mine = answers[i];
@@ -484,10 +780,10 @@
       }
       html += '<article class="qcard rev-card is-' + st + '" id="rev-' + i + '"><div class="qmeta"><span class="qbadge qbadge-' +
         (st === "correct" ? "a" : st === "wrong" ? "c" : "s") + '">' + st.toUpperCase() + "</span>" +
-        '<span class="qcode">Q' + (i + 1) + " · " + esc(sectionName(i)) + "</span><span class=\"qcode\">" + esc(q.topic) + "</span></div>" +
+        '<span class="qcode">Q' + (i + 1) + " \u00b7 " + esc(sectionName(i)) + "</span><span class=\"qcode\">" + esc(q.topic) + "</span></div>" +
         '<p class="qtext"><strong>' + (i + 1) + ".</strong> " + (q.ctx ? '<span class="mock-ctx-inline">[' + q.ctx + "]</span> " : "") + q.stem + "</p><ul class=\"rev-opts\">" + opts + "</ul>" +
         '<div class="ans"><p><strong>Explanation:</strong> ' + q.exp + "</p>" +
-        (q.url ? '<p><a href="' + esc(q.url) + '">Read the chapter →</a> · <a href="' + esc(q.practice) + '">Practise it →</a></p>' : "") +
+        (q.url ? '<p><a href="' + esc(q.url) + '">Read the chapter \u2192</a> \u00b7 <a href="' + esc(q.practice) + '">Practise it \u2192</a></p>' : "") +
         "</div></article>";
     }
     box.innerHTML = html || '<p class="hint">No questions in this filter.</p>';
@@ -505,8 +801,8 @@
   }
 
   function retake() {
-    for (var i = 0; i < N; i++) { state.answers[i] = null; state.marked[i] = false; }
-    state.current = 0; state.startedAt = null;
+    generatePaper();
+    state.startedAt = null;
     try { sessionStorage.removeItem(PROG_KEY); } catch (e) { /* ignore */ }
     show("intro");
     showLast();
@@ -524,11 +820,97 @@
 
   function openLastReport() {
     var last = loadJSON(localStorage, LAST_KEY, null);
-    if (!last || !last.answers) return false;
-    for (var i = 0; i < N; i++) state.answers[i] = last.answers[i] === undefined ? null : last.answers[i];
-    renderReport(last.attempt, core.score(Q, state.answers, exam));
+    if (!last || !last.answers || !last.ids) return false;
+    restorePaper(last.ids);
+    if (Q.length !== last.answers.length) return false;
+    state.answers = last.answers.map(function (a) { return a === undefined ? null : a; });
+    state.ids = last.ids;
+    renderReport(last.attempt, core.score(Q, state.answers, marking));
     show("report");
     return true;
+  }
+
+  /* --- the printable paper (rendered from the generated questions) --- */
+  function renderPaper() {
+    var tools = $("[data-paper-tools]");
+    var body = $("[data-paper-body]");
+    if (!tools || !body || !Q.length) return;
+    tools.innerHTML =
+      '<p class="btnrow">' +
+      '<button type="button" class="btn primary" data-act="print-paper">Print / Save as PDF</button>' +
+      '<button type="button" class="btn" data-act="txt-paper">Download paper (.txt)</button>' +
+      '<button type="button" class="btn" data-act="txt-key">Answer key (.txt)</button>' +
+      '<button type="button" class="btn" data-act="to-intro">\u2190 Back</button>' +
+      "</p>" +
+      "<p><label><input type=\"checkbox\" data-paper-key checked> Include the answer key and explanations when printing (it starts on a new page)</label> " +
+      '<label class="paper-toggle"><input type="checkbox" data-paper-show-key> Show the key on screen now</label></p>' +
+      '<p class="hint">This is the same generated paper as the online test. In the print dialog choose <em>Save as PDF</em> \u2014 portrait A4, default margins.</p>';
+
+    var qsHtml = [];
+    var currentSec = null;
+    Q.forEach(function (q) {
+      if (q.sec !== currentSec) {
+        currentSec = q.sec;
+        var first = q.n, lastQ = first + sections[q.sec].count - 1;
+        qsHtml.push(
+          '<h2 class="paper-sec">Section ' + String.fromCharCode(65 + q.sec) + " \u00b7 " + esc(sections[q.sec].name) +
+          " <span>Q" + first + "\u2013Q" + lastQ + " \u00b7 " + (sections[q.sec].count * marking.marksCorrect) + " marks</span></h2>"
+        );
+      }
+      var opts = q.labels.map(function (l, i) {
+        return '<li><span class="paper-lab">(' + esc(l) + ")</span> " + q.opts[i] + "</li>";
+      }).join("");
+      var ctx = q.ctx ? '<span class="paper-ctx">[' + q.ctx + "]</span> " : "";
+      qsHtml.push(
+        '<div class="paper-q"><p class="paper-stem"><strong>' + q.n + ".</strong> " + ctx + q.stem + "</p>" +
+        '<ul class="paper-opts">' + opts + "</ul></div>"
+      );
+    });
+
+    var omr = Q.map(function (q) {
+      return '<div class="omr-row"><span class="omr-n">' + q.n + "</span>" +
+        q.labels.map(function (l) { return '<span class="omr-bubble">' + esc(l) + "</span>"; }).join("") + "</div>";
+    }).join("");
+
+    var keyRows = Q.map(function (q) {
+      return "<tr><td>" + q.n + "</td><td><strong>(" + esc(q.labels[q.ans]) + ")</strong> " + q.opts[q.ans] +
+        "</td><td>" + q.exp + "</td><td>" + esc(q.topic) + "</td></tr>";
+    }).join("");
+
+    body.innerHTML =
+      '<header class="paper-head">' +
+      '<p class="paper-brand">Class 10 CBSE study hub \u00b7 Mock test (generated)</p>' +
+      "<h1>" + esc(exam.title) + " <small>" + esc(exam.code) + "</small></h1>" +
+      '<p class="paper-set">' + esc(label) + " \u00b7 generated " + esc(fmtDate(new Date().toISOString())) + "</p>" +
+      '<table class="paper-meta"><tbody>' +
+      "<tr><th>Time allowed</th><td>" + core.fmtMinutes(minutes) + "</td><th>Maximum marks</th><td>" + maxMarks + "</td></tr>" +
+      "<tr><th>Questions</th><td>" + Q.length + "</td><th>Marking</th><td>" + esc(core.markingText(marking)) + "</td></tr>" +
+      '<tr><th>Name</th><td class="paper-blank"></td><th>Date</th><td class="paper-blank"></td></tr>' +
+      "</tbody></table>" +
+      '<ol class="paper-instr">' +
+      "<li>All questions are compulsory unless you are practising negative marking; each has exactly one correct option.</li>" +
+      "<li>Mark your answers on the answer grid at the end, then check them against the key.</li>" +
+      "<li>" + esc(exam.length || "Mock") + " \u2014 pattern: " + esc(exam.patternNote || "") + "</li>" +
+      "</ol></header>" +
+      '<main class="paper-qs">' + qsHtml.join("") + "</main>" +
+      '<section class="paper-omr"><h2>Answer grid</h2><div class="omr">' + omr + "</div></section>" +
+      '<section class="paper-key" data-paper-key-block>' +
+      "<h2>Answer key &amp; explanations \u2014 " + esc(exam.title) + " \u00b7 " + esc(label) + "</h2>" +
+      '<div class="tablewrap"><table class="key-table"><thead><tr><th>Q</th><th>Answer</th><th>Why</th><th>Topic</th></tr></thead>' +
+      "<tbody>" + keyRows + "</tbody></table></div></section>" +
+      '<footer class="paper-foot">Original practice material from ' + SITE_URL + "/ \u2014 not an official paper. Created by Mohammad Umair." +
+      " Score this paper online: " + meta.onlineUrl + "</footer>";
+
+    var paper = app.querySelector("[data-paper]");
+    var printKey = paper.querySelector("[data-paper-key]");
+    var showKey = paper.querySelector("[data-paper-show-key]");
+    function syncPaper() {
+      paper.classList.toggle("paper-print-key", !printKey || printKey.checked);
+      paper.classList.toggle("paper-show-key", !!(showKey && showKey.checked));
+    }
+    if (printKey) printKey.addEventListener("change", syncPaper);
+    if (showKey) showKey.addEventListener("change", syncPaper);
+    syncPaper();
   }
 
   /* --- events (delegated) --- */
@@ -544,16 +926,28 @@
     var act = t.getAttribute("data-act"), i = state.current;
     if (act === "prev") go(i - 1);
     else if (act === "next") {
-      if (i < N - 1) go(i + 1);
+      if (i < Q.length - 1) go(i + 1);
       else { var first = state.answers.indexOf(null); go(first === -1 ? 0 : first); }
     }
     else if (act === "clear") { state.answers[i] = null; saveProgress(); render(); }
     else if (act === "mark") { state.marked[i] = !state.marked[i]; saveProgress(); render(); }
     else if (act === "print") window.print();
-    else if (act === "txt") download("mock-report-" + exam.id + "-set" + exam.set + ".txt", core.reportText(data, lastResult, lastAttempt, SITE_URL));
+    else if (act === "print-paper") window.print();
+    else if (act === "txt") download("mock-report-" + exam.id + "-" + fileTag + ".txt",
+      core.reportText(meta, lastResult, lastAttempt, Q));
+    else if (act === "txt-paper") download("mock-" + exam.id + "-" + fileTag + "-paper.txt",
+      core.paperText(meta, Q));
+    else if (act === "txt-key") download("mock-" + exam.id + "-" + fileTag + "-key.txt",
+      core.keyText(meta, Q));
     else if (act === "review") renderReview("all");
     else if (act === "retake") retake();
     else if (act === "last-report") openLastReport();
+    else if (act === "regen") {
+      if (state.startedAt) return; /* never regenerate mid-test */
+      generatePaper();
+    }
+    else if (act === "paper") { renderPaper(); show("paper"); }
+    else if (act === "to-intro") show(state.startedAt ? "test" : "intro");
   });
   app.addEventListener("change", function (e) {
     var input = e.target;
@@ -573,21 +967,29 @@
     }
   });
 
-  /* --- boot: resume, reopen last report, or show the intro --- */
+  /* --- boot: resume the running test, reopen the last report, or
+   *        generate a fresh paper --- */
   var saved = loadJSON(sessionStorage, PROG_KEY, null);
-  if (saved && saved.startedAt && saved.answers && saved.answers.length === N) {
-    state = saved;
-    if (nameInput) nameInput.value = state.name || "";
-    if (TOTAL_SEC - Math.floor((Date.now() - state.startedAt) / 1000) > 0) {
-      show("test");
-      render();
-      startTimer();
-    } else {
-      submit(true);
+  if (saved && saved.startedAt && saved.ids && saved.ids.length) {
+    restorePaper(saved.ids);
+    if (Q.length === saved.ids.length) {
+      state = saved;
+      if (nameInput) nameInput.value = state.name || "";
+      if (state.answers.length !== Q.length) state.answers = Q.map(function () { return null; });
+      if (TOTAL_SEC - Math.floor((Date.now() - state.startedAt) / 1000) > 0) {
+        show("test");
+        render();
+        startTimer();
+      } else {
+        submit(true);
+      }
+      return;
     }
-  } else if (location.hash === "#report" && openLastReport()) {
-    /* reopened from the attempts table */
+  }
+  if (location.hash === "#report" && openLastReport()) {
+    /* reopened from an attempts table */
   } else {
+    generatePaper();
     show("intro");
     showLast();
   }

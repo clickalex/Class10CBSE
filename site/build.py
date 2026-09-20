@@ -123,6 +123,9 @@ NAV_PENDING: set = set()
 # {subject slug: mock-test exam id} so hubs and the sidebar can link to
 # "the mock test for this subject" (Hindi links to Course A, which cross-links B).
 NAV_MOCK: dict = {}
+# {(subject slug, chapter id): mock exam id} — which mock-test engine page
+# hosts the chapter-wise mock for that chapter.
+MOCK_CHAPTERS: dict = {}
 
 
 def href_to(root, path):
@@ -571,14 +574,20 @@ def chapter_body(subj, ch, idx, total, chapters):
     lede_html = inline(ch.get("lede", default_lede))
     practice_href = f"../practice/{ch['id']}.html"
     chip_html = " ".join(f'<a class="chip" href="{h}">{t}</a>' for h, t in chips)
+    mock_host = MOCK_CHAPTERS.get((sid, ch["id"]))
+    mock_btn = (
+        f'<a class="btn" href="../../mock-test/{mock_host}/test.html?chapter={ch["id"]}">'
+        "Mock-test this chapter (timed, scored) \u2192</a>"
+        if mock_host else ""
+    )
 
     parts = []
     parts.append(
         f'<p class="kicker">{html.escape(subj["kicker"])}</p>'
         f'<h1>Chapter {ch["num"]} \u00b7 {html.escape(ch["title"])}</h1>'
         f'<p class="lede"><strong>Chapter {idx} of {total}.</strong> {lede_html}</p>'
-        f'<p><a class="btn" href="{practice_href}">'
-        f'Open this chapter\u2019s questions + MCQs \u2192</a></p>'
+        f'<p class="btnrow"><a class="btn" href="{practice_href}">'
+        f'Open this chapter\u2019s questions + MCQs \u2192</a>{mock_btn}</p>'
         f'<p class="chips">{chip_html}</p>'
     )
 
@@ -711,8 +720,8 @@ def hub_body(subj, chapters):
     mock_id = NAV_MOCK.get(sid)
     if mock_id:
         jump_items.append((
-            f"../mock-test/{mock_id}/index.html", "\u2705", "Mock test",
-            "Timed sets, instant score, one-page report, downloadable paper.",
+            f"../mock-test/{mock_id}/index.html", "\u2705", "Mock tests",
+            "10 generated mocks + a timed mock for every chapter. Instant score, one-page report, downloadable paper.",
         ))
     jump_cards = card_grid([
         f'<a class="jump" href="{href}"><strong>{icon} {html.escape(label)}</strong>'
@@ -727,7 +736,7 @@ def hub_body(subj, chapters):
   <a class="btn" href="syllabus.html">View syllabus</a>
   <a class="btn primary" href="chapters/{first["id"]}.html">Start Ch {first["num"]} \u00b7 {html.escape(first["title"])} \u2192</a>
   <a class="btn" href="revision.html">Quick revision</a>
-  {(f'<a class="btn" href="../mock-test/{NAV_MOCK[sid]}/index.html">Mock test &amp; score</a>' if sid in NAV_MOCK else "")}
+  {(f'<a class="btn" href="../mock-test/{NAV_MOCK[sid]}/index.html">Mock tests &amp; score</a>' if sid in NAV_MOCK else "")}
 </p>
 
 <section class="dash">
@@ -901,6 +910,12 @@ def unit_body(subj, unit, chapters):
 
 
 def practice_body(subj, ch, chapters):
+    mock_host = MOCK_CHAPTERS.get((subj["slug"], ch["id"]))
+    mock_btn = (
+        f'<a class="btn" href="../../mock-test/{mock_host}/test.html?chapter={ch["id"]}">'
+        "Mock-test this chapter \u2192</a>"
+        if mock_host else ""
+    )
     qa_items = ch.get("qa") or []
     mcq_items = ch.get("mcq") or []
     n = count_types(qa_items, mcq_items)
@@ -915,7 +930,7 @@ Short · Long · Application · Competency plus MCQs — the same tone as the IT
 <div class="qstack">{mcq_html or '<p class="hint">MCQs for this chapter are not written yet.</p>'}</div>
 <h2>Written questions · Write</h2>
 {render_qbank(qa_items)}
-<p><a class="btn" href="../chapters/{ch["id"]}.html">\u2190 Back to the chapter</a></p>
+<p class="btnrow"><a class="btn" href="../chapters/{ch["id"]}.html">\u2190 Back to the chapter</a>{mock_btn}</p>
 {chapter_nav(chapters, ch, lambda c: c["id"] + ".html", "../chapters.html",
                "All " + subj["title"] + " chapters")}
 """
@@ -1072,7 +1087,7 @@ def build(check_only=False):
 
     # Every page renders the same sidebar, so share the subject list and work
     # out up front which subjects still have no content.
-    global NAV_SUBJECTS, NAV_PENDING, NAV_MOCK
+    global NAV_SUBJECTS, NAV_PENDING, NAV_MOCK, MOCK_CHAPTERS
     NAV_SUBJECTS = subjects
     NAV_PENDING = {s["slug"] for s in subjects if not chapters_exist(s["slug"])}
 
@@ -1083,6 +1098,7 @@ def build(check_only=False):
     }
     mock_config, mock_exams = mocktest.prepare(subjects, all_chapters)
     NAV_MOCK = mocktest.mock_for_subject(mock_exams)
+    MOCK_CHAPTERS = mocktest.mock_chapter_hosts(mock_exams)
 
     if DIST.exists():
         shutil.rmtree(DIST)
@@ -1189,15 +1205,16 @@ def build(check_only=False):
     mock_written = mocktest.build_mock_tests(
         DIST, mock_config, mock_exams, subjects, admissions, page, write, inline)
     written.extend(mock_written)
-    n_sets = sum(e["sets"] for e in mock_exams)
-    n_q = sum(e["sets"] * e["questions"] for e in mock_exams)
-    repeats = sum(e["stats"]["repeats"] for e in mock_exams)
-    print(f"  mock tests: {len(mock_exams)} exams, {n_sets} sets, {n_q} questions"
-          + (f" ({repeats} repeat across sets)" if repeats else ""))
+    n_slots = sum(e.get("tests", 10) for e in mock_exams)
+    n_ch = sum(len(e["chapters_data"]) for e in mock_exams)
+    n_q = len({q["uid"] for e in mock_exams for q in e["pool_data"].values()})
+    biggest = max(len(e["pool_data"]) for e in mock_exams)
+    print(f"  mock tests: {len(mock_exams)} exams, {n_slots} mock slots, "
+          f"{n_ch} chapter mocks, {n_q} pool questions (largest pool {biggest})")
 
     crumbs, body = portal_body(
         subjects, counts, pending,
-        f"{len(mock_exams)} exams \u00b7 {n_sets} sets \u00b7 {n_q} questions")
+        f"{len(mock_exams)} exams \u00b7 {n_slots} mocks \u00b7 {n_ch} chapter mocks")
     write(DIST / "index.html", page("Home", crumbs, body, ".", None, "home"))
     written.append("index.html")
     return written, pending
@@ -1212,6 +1229,9 @@ def validate():
         for href in re.findall(r'href="([^"#]+?)(?:#[^"]*)?"', text):
             if href.startswith(("http", "mailto:", "/")):
                 continue
+            # a query string (test.html?n=3) selects a mode on a real page;
+            # only the file itself has to exist
+            href = href.split("?", 1)[0]
             target = (f.parent / href).resolve()
             if not target.exists():
                 print(f"BROKEN LINK {f.relative_to(DIST)} -> {href}")

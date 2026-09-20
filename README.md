@@ -52,27 +52,37 @@ board subjects (Maths, Science, Social Science, English, Hindi A, Hindi B, IT
 402, Computer Applications, Sanskrit) and the eleven test-based entrance and
 scholarship exams in the after-10th directory (JNV Class XI, JMI, AMU, BHU/CHS
 SET, UP and Bihar polytechnic, PW NSAT, TALLENTEX, ANTHE, iACST, VMC VIQ) —
-20 exams, 49 fixed sets, 2,214 questions. Routes that select on merit or
-document verification (KV, RKM Narendrapur, Chandigarh XI, Haryana polytechnic)
-are listed on the same page with a note instead of a test.
+20 exams × 10 mocks each, plus 187 chapter-wise mocks. Routes that select on
+merit or document verification (KV, RKM Narendrapur, Chandigarh XI, Haryana
+polytechnic) are listed on the same page with a note instead of a test.
 
+- **A live question generator** — every mock is generated in the browser when
+  you click it: each section draws its questions at random from the exam's
+  pool (1,197 MCQs across the banks) and avoids the questions you were already
+  served on that device, so **every attempt is a different paper** until the
+  pool cycles. Ten numbered mocks per exam, and a chapter-wise mock for every
+  chapter that has MCQs (from that chapter's practice page or the exam page).
 - **Online screen** — timer, question palette, mark-for-review, keyboard
-  shortcuts, auto-submit at zero; answers survive an accidental reload.
+  shortcuts, auto-submit at zero; the generated paper and your answers survive
+  an accidental reload. A *New questions* button reshuffles before you start.
 - **Instant score and one-page report** — marks, percentage, accuracy,
   negative-marking loss, section-wise table, the topics to revise first (linked
   to the chapter and its practice page) and a question map. *Download report*
   prints it as a single A4 page / PDF; there is also a `.txt` download. Full
   answer review with explanations follows.
-- **Downloads** — every set is also a printable paper with an OMR grid and an
-  optional answer-key page (`set-N-paper.html`), plus plain-text
-  `set-N.txt` and `set-N-key.txt` files.
+- **Downloads** — the same generated paper opens as a printable paper with an
+  OMR grid and an optional answer-key page (print → *Save as PDF*), plus
+  plain-text paper and key files generated on the fly.
 - Scores are stored only in the browser (localStorage) — nothing is uploaded.
 
-Everything is generated from the chapter question banks plus an original
-Mental Ability bank (`site/content/banks/`) by `site/mocktest.py`, from the
-blueprints in `site/content/mock-tests.json`. Board mocks are objective
-practice across the whole syllabus; entrance patterns are approximations of
-the published pattern and say so on every page — these are not official papers.
+`site/mocktest.py` embeds each exam's question pool and blueprint (from
+`site/content/mock-tests.json`) into one engine page per exam
+(`mock-test/<exam>/test.html`); `site/theme/mock.js` generates the paper, runs
+the test, scores it and builds the downloads in the browser. Questions come
+from the chapter question banks plus an original Mental Ability bank
+(`site/content/banks/`). Board mocks are objective practice across the whole
+syllabus; entrance patterns are approximations of the published pattern and
+say so on every page — these are not official papers.
 
 ## After Class 10 admissions
 

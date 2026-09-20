@@ -439,6 +439,12 @@ details.qans[open] > summary { margin-bottom: 8px; }
 .paper-tools { border-bottom: 1px dashed var(--line); padding-bottom: 14px; margin-bottom: 18px; }
 .paper-tools label { margin-right: 18px; font-size: 14px; }
 .paper-toggle { cursor: pointer; }
+
+/* ---------- mock tests: generator page ---------- */
+.mock-fresh { background: var(--wash, #f6f8fa); border: 1px dashed var(--line); border-radius: var(--radius); padding: 10px 14px; font-size: 14px; }
+.mock-fresh strong { color: var(--brand-dark); }
+.mock-chapters .chip { font-size: 13px; }
+.mock-chapters .chip-n { color: var(--ink-soft); font-weight: 600; margin-left: 4px; }
 .paper-head { text-align: center; }
 .paper-brand { margin: 0; font-size: 11px; letter-spacing: 1.4px; text-transform: uppercase; color: var(--ink-soft); }
 .paper-head h1 { font-size: 26px; margin: 4px 0 2px; }
@@ -508,6 +514,12 @@ details.qans[open] > summary { margin-bottom: 8px; }
   .qmap-c i { font-size: 8px; }
   .bar .fill, .rep-mini i, .qmap-c, .rep-stats div { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .rep-foot { font-size: 9px; margin-top: 8px; }
+  /* the generated paper on the engine page: nothing but the paper */
+  body.mock-print-paper main > :not(.mock-app) { display: none !important; }
+  body.mock-print-paper .mock-app > :not([data-view="paper"]) { display: none !important; }
+  body.mock-print-paper [data-view="paper"] { display: block !important; }
+  body.mock-print-paper .paper-tools { display: none !important; }
+  body.mock-print-paper .mock-foot { display: none !important; }
   /* printable paper */
   .paper { border: 0; box-shadow: none; padding: 0; }
   .paper-head h1 { font-size: 20px; }

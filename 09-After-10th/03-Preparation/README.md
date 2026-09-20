@@ -10,10 +10,11 @@
    record mistakes. Avoid calling unofficial practice papers “official”.
    Between official papers, use the site's
    [mock test centre](https://clickalex.github.io/Class10CBSE/mock-test/):
-   it has timed, pattern-shaped sets for JNV, JMI, AMU, BHU/CHS SET, the UP and
-   Bihar polytechnic tests and the coaching scholarship tests (NSAT, TALLENTEX,
-   ANTHE, iACST, VIQ), scores them instantly with a one-page report, and lets
-   you download each paper and key. They are built from this repository's own
+   it has ten timed, pattern-shaped mocks each for JNV, JMI, AMU, BHU/CHS SET,
+   the UP and Bihar polytechnic tests and the coaching scholarship tests (NSAT,
+   TALLENTEX, ANTHE, iACST, VIQ) — every attempt generates a fresh paper from
+   the question pool — scores them instantly with a one-page report, and lets
+   you download each generated paper and key. They are built from this repository's own
    question banks — original practice material, not official papers, and the
    entrance patterns are approximations to verify against the current brochure.
 6. At 9 PM, inspect the admission watch report and verify any changed notice.
