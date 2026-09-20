@@ -444,7 +444,7 @@ def centre_body(config, exams, subjects):
 <p class="kicker">MOCK TESTS · CHECK YOUR OWN SCORE ONLINE</p>
 <h1>Mock test centre</h1>
 <p class="lede">{len(exams)} exams · {total_slots} mock tests · {n_chapters} chapter-wise mocks — every subject and every
-entrance or scholarship test listed in this repository. <strong>Every attempt generates a fresh paper</strong> from the site's
+entrance or scholarship test listed on this website. <strong>Every attempt generates a fresh paper</strong> from the site's
 question pool: take a mock online with a timer, get an instant <strong>one-page score report</strong>, and download the same paper
 with its key to attempt on paper.</p>
 <nav aria-label="Exam groups"><p>{nav} · <a href="#how">How it works</a></p></nav>
@@ -710,20 +710,20 @@ def build_mock_tests(dist, config, exams, subjects, admissions, page, write, inl
 
     crumbs, body = centre_body(config, exams, subjects)
     write(dist / "mock-test" / "index.html",
-          page("Mock tests", crumbs, body, "..", None, "mock"))
+          page("Mock tests", crumbs, body, "..", None, "mock", mock_exam=None, active_mock="centre"))
     written.append("mock-test/index.html")
 
     for exam in exams:
         folder = dist / "mock-test" / exam["id"]
         crumbs, body = exam_body(exam, admissions, subjects)
         write(folder / "index.html",
-              page(f"{exam['title']} — mock tests", crumbs, body, "../..", None, "mock"))
+              page(f"{exam['title']} — mock tests", crumbs, body, "../..", None, "mock", mock_exam=exam["id"], active_mock="exam"))
         written.append(f"mock-test/{exam['id']}/index.html")
 
         gtitle = group_titles.get(exam["group"], "Mock test")
         payload = engine_payload(exam, inline, "../..")
         crumbs, body = test_body(exam, gtitle, payload)
         write(folder / "test.html",
-              page(f"{exam['title']} — mock test (generated)", crumbs, body, "../..", None, "mock"))
+              page(f"{exam['title']} — mock test (generated)", crumbs, body, "../..", None, "mock", mock_exam=exam["id"], active_mock="test"))
         written.append(f"mock-test/{exam['id']}/test.html")
     return written

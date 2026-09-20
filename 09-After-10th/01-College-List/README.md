@@ -2,7 +2,7 @@
 
 Entrance-test and merit/vacancy routes are different. Verify current Class X eligibility, age, streams and hostel rules.
 
-[Website directory](https://clickalex.github.io/Class10CBSE/after-10th/#school) · [Daily checker](../02-Admission-Tracker/README.md)
+[Website directory](https://clickalex.github.io/Class10CBSE/after-10th/#school) · [Live daily report](https://clickalex.github.io/Class10CBSE/after-10th/report.html) · [Daily checker](../02-Admission-Tracker/README.md)
 
 ## JMI — Jamia Millia Islamia schools
 

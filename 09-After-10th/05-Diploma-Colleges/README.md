@@ -2,7 +2,7 @@
 
 These routes are alternatives to Class XI–XII, not school admissions. Each portal publishes participating colleges and branch/seat lists; it is not one college. Verify recognition, further-study options and state eligibility.
 
-[Website directory](https://clickalex.github.io/Class10CBSE/after-10th/#diploma) · [Daily checker](../02-Admission-Tracker/README.md)
+[Website directory](https://clickalex.github.io/Class10CBSE/after-10th/#diploma) · [Live daily report](https://clickalex.github.io/Class10CBSE/after-10th/report.html) · [Daily checker](../02-Admission-Tracker/README.md)
 
 ## Haryana polytechnic colleges — HSTES Diploma Engineering
 

@@ -105,8 +105,7 @@ class AuditTests(unittest.TestCase):
         moment = datetime(2026, 9, 20, 15, 30, tzinfo=ZoneInfo('UTC')).astimezone(ZoneInfo('Asia/Kolkata'))
         self.assertEqual((moment.hour, moment.minute), (21, 0))
         workflow = ROOT / '.github/workflows/admission-watch.yml'
-        if not workflow.exists():
-            workflow = ROOT / 'temporary-workflows/admission-watch.yml'
+        self.assertTrue(workflow.is_file(), f"workflow not found at {workflow}")
         self.assertIn("cron: '30 15 * * *'", workflow.read_text())
 
 

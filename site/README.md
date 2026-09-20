@@ -208,8 +208,8 @@ for Node, and the test-suite runs them when `node` is available.
 using the same sidebar and theme. The portal and every page link to it.
 Rebuild `docs/` after editing either file. Network checks are separate from
 the deterministic build: `scripts/check_admissions.py` and the admission-watch
-workflow template in `../temporary-workflows/` publish a daily GitHub issue
-report linked from the hub once the workflow is installed manually. See
+workflow in `.github/workflows/admission-watch.yml` publish a daily GitHub issue
+report linked from the hub. See
 [tracker setup](../09-After-10th/02-Admission-Tracker/README.md).
 
 ## PW NSAT hub

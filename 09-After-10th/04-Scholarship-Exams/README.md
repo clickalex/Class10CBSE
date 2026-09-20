@@ -2,7 +2,7 @@
 
 These are private coaching scholarship tests, not government cash scholarships or school admission tests. An “up to” award is not guaranteed. Compare the final payable course fee, validity and centre/mode restrictions.
 
-[Website directory](https://clickalex.github.io/Class10CBSE/after-10th/#scholarship) · [Daily checker](../02-Admission-Tracker/README.md)
+[Website directory](https://clickalex.github.io/Class10CBSE/after-10th/#scholarship) · [Live daily report](https://clickalex.github.io/Class10CBSE/after-10th/report.html) · [Daily checker](../02-Admission-Tracker/README.md)
 
 ## PW NSAT — Physics Wallah
 
