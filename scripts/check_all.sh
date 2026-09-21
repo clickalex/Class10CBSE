@@ -6,8 +6,11 @@
 #                                    every subject still has its README
 #   2. JSON parse                    every site/content JSON file is valid
 #   3. site/build.py --check         the site builds and has no broken links
-#
-#   4. unittest                    admission monitor + hub tests (offline)
+#   4. docs/ drift                   committed docs/ equals that fresh build,
+#                                    i.e. the published folder is never stale
+#                                    or hand-edited
+#   5. scripts/make_icons.py         committed raster icons match their generator
+#   6. unittest                      admission monitor + hub + structure tests
 #
 # The site is written to a scratch directory by default, so a check never
 # touches the published docs/ folder. Exits non-zero if anything fails.
@@ -26,7 +29,7 @@ while [ $# -gt 0 ]; do
   case "$1" in
     --out)   OUT="$2"; CLEANUP=0; shift 2 ;;
     --quiet) QUIET=1; shift ;;
-    -h|--help) sed -n '2,14p' "${BASH_SOURCE[0]}"; exit 0 ;;
+    -h|--help) sed -n '2,17p' "${BASH_SOURCE[0]}"; exit 0 ;;
     *) echo "unknown option: $1" >&2; exit 2 ;;
   esac
 done
@@ -34,7 +37,7 @@ done
 cd "$ROOT" || exit 2
 fail=0
 
-echo "== 1/4  folder tree =="
+echo "== 1/6  folder tree =="
 if [ "$QUIET" -eq 1 ]; then
   bash scripts/verify_structure.sh --quiet || fail=1
 else
@@ -42,7 +45,7 @@ else
 fi
 
 echo
-echo "== 2/4  site content JSON =="
+echo "== 2/6  site content JSON =="
 json_fail=0
 for f in site/content/*.json site/content/banks/*.json site/content/chapters/*/*.json; do
   [ -e "$f" ] || continue
@@ -63,12 +66,30 @@ else
 fi
 
 echo
-echo "== 3/4  site build + link check =="
+echo "== 3/6  site build + link check =="
 python3 site/build.py --check --out "$OUT" || fail=1
 
 echo
-echo "== 4/4  admission monitor tests (offline) =="
-python3 -m unittest discover -s tests -v || fail=1
+echo "== 4/6  published docs/ matches the build =="
+if [ "$fail" -eq 0 ]; then
+  if diff -r "$OUT" docs > /dev/null; then
+    echo "docs/ is in sync with a fresh build of site/"
+  else
+    echo "docs/ differs from a fresh build - rebuild with: python3 site/build.py"
+    diff -rq "$OUT" docs | head -20
+    fail=1
+  fi
+else
+  echo "skipped: the build in step 3 did not succeed"
+fi
+
+echo
+echo "== 5/6  committed icons match scripts/make_icons.py =="
+python3 scripts/make_icons.py --check || fail=1
+
+echo
+echo "== 6/6  unit tests (offline) =="
+python3 -m unittest discover -s tests || fail=1
 
 if [ "$CLEANUP" -eq 1 ]; then
   rm -rf "$OUT"

@@ -1,0 +1,58 @@
+# Staged workflow: copy to .github/workflows/deploy-pages.yml to activate.
+# GitHub Pages serves docs/ from the default branch, and docs/ is committed
+# output. This rebuilds it whenever the sources change, commits the result and
+# then asks Pages for a build - the explicit request is needed because a push
+# made with the default GITHUB_TOKEN does not trigger other workflows.
+name: Rebuild and publish docs/
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'assets/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: deploy-pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # A token allowed to push to main; fall back to the default token,
+          # which can commit but will not start another workflow run.
+          token: ${{ secrets.PAGES_TOKEN || secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild the published folder
+        run: python3 site/build.py
+      - name: Commit docs/ when the rebuild changed anything
+        run: |
+          if git diff --quiet -- docs; then
+            echo "docs/ already matches the sources"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "Rebuild docs/ from site/ [skip ci]"
+          git push
+      - name: Request a GitHub Pages build
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.repos.requestPagesBuild({
+              ...context.repo,
+            });
+            core.summary.addRaw('Requested a GitHub Pages build after rebuilding docs/.');

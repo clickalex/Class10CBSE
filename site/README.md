@@ -48,24 +48,49 @@ python3 -m http.server 8000 --bind 0.0.0.0 --directory docs
 
 ```
 site/
-├── build.py                  generator
+├── build.py                  generator: reads content/, writes docs/
+├── layout.py                 the page shell + reusable components; renders partials/
 ├── mocktest.py               builds the mock-test pools and pages (called by build.py)
 ├── admissions.py, nsat.py    the after-10th and PW NSAT hub pages
-├── theme/                    style.css + app.js + mock.js, copied into docs/assets
+├── partials/                 the shared HTML, one file per component
+│   ├── page.html             document shell: doctype, <html>, sidebar/main grid
+│   ├── head.html             charset, title, description, favicon, canonical, OG
+│   ├── header.html           skip link, ☰ drawer button, backdrop
+│   ├── navigation.html       sidebar skeleton: brand, progress bar, groups, foot
+│   ├── footer.html           footer skeleton + back-to-top button
+│   ├── buttons.html          the button / chip / callout / chapter-nav components
+│   └── notfound.html         the self-contained 404 page
+├── theme/
+│   ├── css/style.css         the whole design, one stylesheet
+│   └── js/app.js, mock.js    drawer + progress bar; the mock-test engine
 ├── content/
 │   ├── subjects.json         one entry per subject: units, marks, study order
 │   ├── chapters/<slug>/      chapter content, split into small JSON files
 │   ├── mock-tests.json       one blueprint per exam: mocks, time, marking, sections → pools
 │   └── banks/                extra MCQ banks used only by mock tests (mental-ability.json)
 docs/                         generated site — GitHub Pages serves this folder
+assets/images/  (repo root)   favicon.svg, logo.svg + generated icon-*.png → docs/assets/img/
 ```
+
+### Reusable components (partials)
+
+Everything repeated on all ~500 pages is markup in `site/partials/`, not Python
+strings: `layout.py` reads a partial, fills its `{{TOKEN}}` placeholders with
+data and assembles the page. A partial that asks for a token the caller forgot
+fails the build, and the explanatory comment at the top of each partial is
+stripped from the published HTML. Buttons, chips, callouts and the
+previous/next chapter strip come from `partials/buttons.html` through
+`layout.button()`, `layout.chip()`, `layout.callout()` and
+`layout.component("chapter-nav", …)`, so their markup exists exactly once and
+stays in step with `theme/css/style.css`.
 
 `docs/` is committed on purpose: the repository's Pages setting is
 *Deploy from a branch → main → /docs*, so the built site has to be in the tree.
 Rebuild and commit `docs/` whenever `site/content/` changes — `scripts/check_all.sh`
-runs the build into a scratch directory first, so the published folder is only
-ever written on purpose. `.github/workflows/` has two workflows that automate
-that and the checks; see the root README for how to add them.
+runs the build into a scratch directory first and then diffs it against the
+committed `docs/`, so a stale or hand-edited published folder fails the check.
+`temp-workflow/` holds the two workflows that automate checks and rebuilds;
+see the root README for how to install them.
 
 ## Adding a chapter
 
@@ -184,7 +209,7 @@ written test go in `no_test` with a one-line reason, and the tests insist that
 every institution in `admissions.json` is in one list or the other.
 
 The engine page embeds the exam's whole pool (the union of its section pools)
-as JSON plus the chapter list. `theme/mock.js` generates a paper on every
+as JSON plus the chapter list. `theme/js/mock.js` generates a paper on every
 attempt: each section shuffles its pool preferring questions the device has
 never been served (tracked in localStorage per exam), then questions from
 older batches, and only then the immediately previous batch — so two attempts

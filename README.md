@@ -17,10 +17,19 @@ Class10CBSE/
 ├── 08-Sanskrit/                language II, code 122     ┘
 ├── 09-After-10th/            Class XI admissions, official links, 9 PM IST tracker
 ├── 10-PW-NSAT/               PW scholarship test: syllabus, practice, registration
-├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · structure.conf
-├── site/                     content/ + build.py + mocktest.py that generate the study hub
+├── assets/                   brand imagery: favicon.svg, logo.svg, generated icon-*.png
+├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · make_icons.py
+├── site/                     the site's source: content/, partials/, theme/, generators
+├── temp-workflow/            ready-made GitHub workflows, installed by hand when wanted
 └── docs/                     the generated study hub — this is what GitHub Pages serves
 ```
+
+Two folders hold the same site on purpose and must never be confused:
+**`site/` is the source** (content JSON, HTML partials, CSS/JS, generators) and
+**`docs/` is the build output** that GitHub Pages publishes. Never edit `docs/`
+by hand — `scripts/check_all.sh` diffs a fresh build against the committed
+`docs/` and fails if they differ, so a stale or hand-edited publish folder
+cannot be committed by accident.
 
 **Live site: <https://clickalex.github.io/Class10CBSE/>** — built from
 `site/content/`, one hub per subject (including IT 402, in-built), 175 chapter
@@ -77,7 +86,7 @@ polytechnic) are listed on the same page with a note instead of a test.
 
 `site/mocktest.py` embeds each exam's question pool and blueprint (from
 `site/content/mock-tests.json`) into one engine page per exam
-(`mock-test/<exam>/test.html`); `site/theme/mock.js` generates the paper, runs
+(`mock-test/<exam>/test.html`); `site/theme/js/mock.js` generates the paper, runs
 the test, scores it and builds the downloads in the browser. Questions come
 from the chapter question banks plus an original Mental Ability bank
 (`site/content/banks/`). Board mocks are objective practice across the whole
@@ -194,13 +203,24 @@ scripts/check_all.sh            # every check in the repo, site built to a scrat
   from `docs/` on its own.
 - `docs/.nojekyll` tells Pages to serve the folder as-is instead of running
   Jekyll over it; `docs/404.html` is the not-found page for the live site.
-- `.github/workflows/` carries two optional automations that keep the above from
-  depending on anyone's memory — `checks.yml` (folder tree, content JSON, build
-  and link check on every push and pull request) and `deploy-pages.yml` (rebuild
-  and commit `docs/` on `main`, then ask Pages for a build, because a push made
-  with the default `GITHUB_TOKEN` does not start other workflows). Add them from
-  an account or token allowed to manage workflow files; until they are in, run
-  `scripts/check_all.sh` and rebuild `docs/` yourself.
+- The published folder is organised by type, like any static site:
+  `docs/assets/css/` (stylesheet), `docs/assets/js/` (drawer + mock engine),
+  `docs/assets/img/` (favicon and icons copied from `assets/images/`), plus
+  `sitemap.xml` and `robots.txt`, which the build writes from the page list so
+  search engines can crawl all ~500 pages. Every page also carries its
+  canonical URL, Open Graph tags and the favicon from one shared partial.
+- `scripts/check_all.sh` runs six gates: folder tree, content JSON, build +
+  link check, **docs/ drift** (committed output equals a fresh build), icon
+  reproducibility and the offline unit tests.
+- `temp-workflow/` holds two ready-made automations that keep the above from
+  depending on anyone's memory — `checks.yml` (all six gates on every push and
+  pull request) and `deploy-pages.yml` (rebuild and commit `docs/` on `main`,
+  then ask Pages for a build, because a push made with the default
+  `GITHUB_TOKEN` does not start other workflows). They live outside
+  `.github/workflows/` because adding a workflow file needs a credential with
+  workflow-write permission; copy one into `.github/workflows/` and push it
+  from an account that has it. See `temp-workflow/README.md`. Until one is
+  installed, run `scripts/check_all.sh` and rebuild `docs/` yourself.
 
 If you ever switch Pages to **Settings → Pages → Source: GitHub Actions**, the
 same `docs/` folder keeps working from the branch, so the switch is optional.

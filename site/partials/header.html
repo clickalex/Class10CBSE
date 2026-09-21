@@ -1,0 +1,7 @@
+<!-- partials/header.html — what sits above the two-column app shell on every
+     page: the skip link for keyboard users, the ☰ drawer button (shown by CSS
+     on small screens) and the backdrop that closes the drawer.
+     No tokens: this markup is identical on all 496 pages. -->
+<a class="skip" href="#main">Skip to content</a>
+<button class="menu-btn" onclick="openMenu()" aria-label="Open navigation">&#9776;</button>
+<div class="backdrop" id="backdrop" onclick="closeMenu()"></div>

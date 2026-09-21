@@ -22,7 +22,7 @@ Pages written (relative to the site root):
                                    printable paper and .txt downloads are
                                    all generated live from the pool
 
-The engine that runs everything in the browser is site/theme/mock.js.
+The engine that runs everything in the browser is site/theme/js/mock.js.
 """
 from __future__ import annotations
 
@@ -33,7 +33,8 @@ from pathlib import Path
 
 CONTENT = Path(__file__).resolve().parent / "content"
 
-SITE_URL = "https://clickalex.github.io/Class10CBSE"
+# Single source of truth for the published URL lives in layout.py.
+from layout import SITE_URL, SUBJECT_LANGS  # noqa: E402
 
 # Option labels used by the banks: Latin for most subjects, Devanagari for
 # Hindi and Sanskrit. A question uses exactly one of the two sets.
@@ -471,7 +472,7 @@ counselling, so there is nothing to mock:</p>
 {unique_q} questions you can already practise chapter by chapter — plus an original Mental Ability bank. They are
 <strong>not</strong> official CBSE, NVS, JMI, AMU, BHU, JEECUP, BCECEB, PW, ALLEN, Aakash or VMC papers, and the
 entrance-test patterns are practice approximations: confirm the current official brochure before the real exam.</p></div>
-<script src="../assets/mock.js"></script>
+<script src="../assets/js/mock.js"></script>
 """
     return [("Home", "../index.html"), ("Mock tests", None)], body
 
@@ -566,7 +567,7 @@ nothing is sent anywhere.</p>
 <div class="callout alt"><p>These mocks are original practice material built from the site's question banks — not an official
 paper, and not a prediction. Entrance-test patterns above are practice approximations; verify the current official brochure.</p></div>
 <p><a class="btn" href="../index.html">← All mock tests</a></p>
-<script src="../../assets/mock.js"></script>
+<script src="../../assets/js/mock.js"></script>
 """
     crumbs = [("Home", "../../index.html"), ("Mock tests", "../index.html"), (exam["title"], None)]
     return crumbs, body
@@ -659,7 +660,7 @@ def test_body(exam, group_title, payload):
 </div>
 <p class="btnrow mock-foot"><a class="btn" href="index.html">← {esc(exam["title"])} mocks</a> <a class="btn" href="../index.html">All mock tests</a></p>
 <script type="application/json" id="mock-data">{_json_for_script(payload)}</script>
-<script src="../../assets/mock.js"></script>
+<script src="../../assets/js/mock.js"></script>
 """
     crumbs = [
         ("Home", "../../index.html"),
@@ -710,20 +711,27 @@ def build_mock_tests(dist, config, exams, subjects, admissions, page, write, inl
 
     crumbs, body = centre_body(config, exams, subjects)
     write(dist / "mock-test" / "index.html",
-          page("Mock tests", crumbs, body, "..", None, "mock", mock_exam=None, active_mock="centre"))
+          page("Mock tests", crumbs, body, "..", None, "mock", mock_exam=None,
+               active_mock="centre", path="mock-test/index.html"))
     written.append("mock-test/index.html")
 
     for exam in exams:
         folder = dist / "mock-test" / exam["id"]
         crumbs, body = exam_body(exam, admissions, subjects)
         write(folder / "index.html",
-              page(f"{exam['title']} — mock tests", crumbs, body, "../..", None, "mock", mock_exam=exam["id"], active_mock="exam"))
+              page(f"{exam['title']} — mock tests", crumbs, body, "../..", None,
+                   "mock", mock_exam=exam["id"], active_mock="exam",
+                   lang=SUBJECT_LANGS.get(exam.get("subject"), "en"),
+                   path=f"mock-test/{exam['id']}/index.html"))
         written.append(f"mock-test/{exam['id']}/index.html")
 
         gtitle = group_titles.get(exam["group"], "Mock test")
         payload = engine_payload(exam, inline, "../..")
         crumbs, body = test_body(exam, gtitle, payload)
         write(folder / "test.html",
-              page(f"{exam['title']} — mock test (generated)", crumbs, body, "../..", None, "mock", mock_exam=exam["id"], active_mock="test"))
+              page(f"{exam['title']} — mock test (generated)", crumbs, body, "../..",
+                   None, "mock", mock_exam=exam["id"], active_mock="test",
+                   lang=SUBJECT_LANGS.get(exam.get("subject"), "en"),
+                   path=f"mock-test/{exam['id']}/test.html"))
         written.append(f"mock-test/{exam['id']}/test.html")
     return written

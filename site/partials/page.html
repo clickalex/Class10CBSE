@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- partials/page.html — the document shell every page is assembled from.
+     layout.page() composes the other partials into these slots:
+       LANG         BCP-47 language of the page content
+       HEAD         partials/head.html, rendered
+       HEADER       partials/header.html, rendered
+       NAVIGATION   partials/navigation.html, rendered (the sidebar)
+       CRUMBS       breadcrumb trail for this page
+       BODY         the page's own content
+       FOOTER       partials/footer.html, rendered
+       SCRIPTS      theme/js/app.js (plus page-specific scripts) -->
+<html lang="{{LANG}}">
+<head>
+{{HEAD}}
+</head>
+<body>
+{{HEADER}}
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+{{NAVIGATION}}
+  </aside>
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb">{{CRUMBS}}</nav>
+{{BODY}}
+  </main>
+</div>
+<footer class="wrap foot">
+  {{FOOTER}}
+</footer>
+{{SCRIPTS}}
+</body>
+</html>

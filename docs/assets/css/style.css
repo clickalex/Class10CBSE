@@ -79,6 +79,10 @@ body {
 main { padding: 28px 20px 48px; }
 h1 { font-size: clamp(28px, 4.2vw, 40px); line-height: 1.15; margin: 6px 0 10px; letter-spacing: -.5px; }
 h2 { font-size: 23px; margin: 40px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+/* Section headings that sit directly under the page's <h1> (unit blocks on the
+   chapter index, chapter blocks on the bank/drill pages). They keep the
+   correct document outline (h1 -> h2) while staying as compact as an h3. */
+h2.sect { font-size: 17px; margin: 26px 0 6px; padding-bottom: 0; border-bottom: 0; }
 h3 { font-size: 17px; margin: 0 0 6px; }
 .code { display: block; font-size: 15px; font-weight: 600; color: var(--brand-dark); margin-top: 8px; }
 

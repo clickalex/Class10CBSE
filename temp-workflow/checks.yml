@@ -1,0 +1,39 @@
+# Staged workflow: copy to .github/workflows/checks.yml to activate.
+# Runs every check this repository has on each push and pull request, so a
+# broken folder tree, bad content JSON, broken link, stale docs/ or stale icon
+# can never be merged by accident.
+name: Repo checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Folder tree, content JSON, site build + links, unit tests
+        run: bash scripts/check_all.sh
+      - name: Published docs/ matches a fresh build, icons match generator
+        run: |
+          tmp="$(mktemp -d)"
+          python3 site/build.py --out "$tmp" > /dev/null
+          if ! diff -r "$tmp" docs > /dev/null; then
+            echo "::error::docs/ does not match a fresh build of site/ - rebuild and commit both"
+            diff -rq "$tmp" docs | head -40
+            exit 1
+          fi
+          rm -rf "$tmp"
+          python3 scripts/make_icons.py --check

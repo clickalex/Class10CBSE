@@ -1,0 +1,26 @@
+<!-- partials/head.html — every <head> on the site, one file.
+     Tokens (written as a doubled-brace word in the markup): LANG is set on <html> by page.html; everything else lives here.
+       TITLE       escaped page title
+       DESCRIPTION escaped meta description
+       ROOT        depth prefix to the site root ("" / ".." / "../..")
+       CANONICAL   absolute URL of this page (SITE_URL + path)
+     Icons ship from assets/images/ into docs/assets/img/; the build copies
+     them, so changing the favicon means editing that folder, not 496 pages. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#0d1b2a">
+<title>{{TITLE}} · Class 10 CBSE</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<link rel="icon" type="image/svg+xml" href="{{ROOT}}/assets/img/favicon.svg">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ROOT}}/assets/img/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ROOT}}/assets/img/icon-180.png">
+<link rel="canonical" href="{{CANONICAL}}">
+<link rel="stylesheet" href="{{ROOT}}/assets/css/style.css">
+<meta property="og:site_name" content="Class 10 CBSE study hub">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{TITLE}} · Class 10 CBSE">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:url" content="{{CANONICAL}}">
+<meta property="og:image" content="{{SITE_URL}}/assets/img/icon-512.png">
+<meta name="twitter:card" content="summary">
