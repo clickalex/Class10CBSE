@@ -52,7 +52,29 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            await github.rest.repos.requestPagesBuild({
-              ...context.repo,
-            });
-            core.summary.addRaw('Requested a GitHub Pages build after rebuilding docs/.');
+            try {
+              await github.rest.repos.requestPagesBuild({
+                ...context.repo,
+              });
+              await core.summary
+                .addRaw('Requested a GitHub Pages build after rebuilding docs/.')
+                .write();
+            } catch (error) {
+              const msg = (error && error.message) || String(error);
+              const notEnabled =
+                error &&
+                (error.status === 403 || error.status === 404) &&
+                msg.includes('GitHub Pages site');
+              if (!notEnabled) {
+                throw error;
+              }
+              // Pages is not enabled yet: docs/ was still rebuilt and committed,
+              // so warn with the one-time setup step instead of failing the run.
+              const help =
+                'GitHub Pages is not enabled for this repository yet, so no build was requested. ' +
+                'The rebuilt docs/ was still committed. Enable Pages once under ' +
+                'Settings → Pages → Source: Deploy from a branch → Branch: main → Folder: /docs, ' +
+                'then re-run this workflow (or push again) to publish.';
+              core.warning(help);
+              await core.summary.addRaw('⚠️ ' + help).write();
+            }
