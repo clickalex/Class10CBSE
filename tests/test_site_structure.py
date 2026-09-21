@@ -13,7 +13,7 @@ guarantees that separation depends on:
   * the committed raster icons still match scripts/make_icons.py output;
   * the reusable components live in partials/buttons.html and nothing internal
     (template comments, component markers) leaks into published HTML;
-  * temp-workflow/ holds workflow files that are still installable.
+  * .github/staged-workflows/ holds workflow files that are still installable.
 
 Run with:  python3 -m unittest tests.test_site_structure -v
 """
@@ -193,11 +193,11 @@ class IconTests(unittest.TestCase):
                              f"{name} is stale: run scripts/make_icons.py")
 
 
-class TempWorkflowTests(unittest.TestCase):
-    """temp-workflow/ holds workflows the owner copies in when they want them."""
+class StagedWorkflowTests(unittest.TestCase):
+    """staged-workflows/ holds reviewed copies the owner installs by hand."""
 
     def test_staged_workflows_are_installable(self):
-        folder = ROOT / "temp-workflow"
+        folder = ROOT / ".github" / "staged-workflows"
         self.assertTrue((folder / "README.md").is_file())
         for name in ("checks.yml", "deploy-pages.yml"):
             text = (folder / name).read_text(encoding="utf-8")
