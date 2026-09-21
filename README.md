@@ -20,7 +20,8 @@ Class10CBSE/
 ├── assets/                   brand imagery: favicon.svg, logo.svg, generated icon-*.png
 ├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · make_icons.py
 ├── site/                     the site's source: content/, partials/, theme/, generators
-├── temp-workflow/            ready-made GitHub workflows, installed by hand when wanted
+├── tests/                    offline unit tests (run all via scripts/check_all.sh)
+├── project-info/             notes about the repo itself (whole-repo audit)
 └── docs/                     the generated study hub — this is what GitHub Pages serves
 ```
 
@@ -212,15 +213,16 @@ scripts/check_all.sh            # every check in the repo, site built to a scrat
 - `scripts/check_all.sh` runs six gates: folder tree, content JSON, build +
   link check, **docs/ drift** (committed output equals a fresh build), icon
   reproducibility and the offline unit tests.
-- `temp-workflow/` holds two ready-made automations that keep the above from
-  depending on anyone's memory — `checks.yml` (all six gates on every push and
-  pull request) and `deploy-pages.yml` (rebuild and commit `docs/` on `main`,
-  then ask Pages for a build, because a push made with the default
-  `GITHUB_TOKEN` does not start other workflows). They live outside
-  `.github/workflows/` because adding a workflow file needs a credential with
-  workflow-write permission; copy one into `.github/workflows/` and push it
-  from an account that has it. See `temp-workflow/README.md`. Until one is
-  installed, run `scripts/check_all.sh` and rebuild `docs/` yourself.
+- `.github/staged-workflows/` holds the reviewed copies of the two automations
+  that keep the above from depending on anyone's memory — `checks.yml` (all six
+  gates on every push and pull request) and `deploy-pages.yml` (rebuild and
+  commit `docs/` on `main`, then ask Pages for a build — it warns instead of
+  failing if Pages isn't enabled yet — because a push made with the default
+  `GITHUB_TOKEN` does not start other workflows). Files under
+  `.github/workflows/` need a credential with workflow-write permission to
+  update, so edits land in the staged copies first; copy one into
+  `.github/workflows/` and push it from an account that has it. See
+  `.github/staged-workflows/README.md`.
 
 If you ever switch Pages to **Settings → Pages → Source: GitHub Actions**, the
 same `docs/` folder keeps working from the branch, so the switch is optional.

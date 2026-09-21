@@ -89,8 +89,8 @@ stays in step with `theme/css/style.css`.
 Rebuild and commit `docs/` whenever `site/content/` changes — `scripts/check_all.sh`
 runs the build into a scratch directory first and then diffs it against the
 committed `docs/`, so a stale or hand-edited published folder fails the check.
-`temp-workflow/` holds the two workflows that automate checks and rebuilds;
-see the root README for how to install them.
+`.github/staged-workflows/` holds the reviewed copies of the two workflows that
+automate checks and rebuilds; see the root README for how to install them.
 
 ## Adding a chapter
 
