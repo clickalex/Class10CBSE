@@ -6,7 +6,7 @@ installed in `.github/workflows/` on purpose:
 | File here | Install as | What it does once installed |
 |---|---|---|
 | `checks.yml` | `.github/workflows/checks.yml` | On every push and pull request: folder tree, content JSON, site build + link check, unit tests, docs/-drift check and icon reproducibility (`scripts/check_all.sh` plus the two publishing checks). |
-| `deploy-pages.yml` | `.github/workflows/deploy-pages.yml` | On pushes to `main` that touch `site/`, `assets/` or `scripts/`: rebuild `docs/`, commit it if anything changed, then request a GitHub Pages build. |
+| `deploy-pages.yml` | `.github/workflows/deploy-pages.yml` | On pushes to `main` that touch `site/`, `assets/` or `scripts/`: rebuild `docs/`, commit it if anything changed, then request a GitHub Pages build (warns instead of failing if Pages isn't enabled yet). |
 
 The workflow that **is** live today is
 [`.github/workflows/admission-watch.yml`](../.github/workflows/admission-watch.yml)

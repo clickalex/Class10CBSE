@@ -216,7 +216,8 @@ scripts/check_all.sh            # every check in the repo, site built to a scrat
 - `temp-workflow/` holds two ready-made automations that keep the above from
   depending on anyone's memory — `checks.yml` (all six gates on every push and
   pull request) and `deploy-pages.yml` (rebuild and commit `docs/` on `main`,
-  then ask Pages for a build, because a push made with the default
+  then ask Pages for a build — it warns instead of failing if Pages isn't
+  enabled yet — because a push made with the default
   `GITHUB_TOKEN` does not start other workflows). They live outside
   `.github/workflows/` because adding a workflow file needs a credential with
   workflow-write permission; copy one into `.github/workflows/` and push it
