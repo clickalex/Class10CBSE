@@ -21,6 +21,7 @@ Class10CBSE/
 ├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · make_icons.py
 ├── site/                     the site's source: content/, partials/, theme/, generators
 ├── temp-workflow/            ready-made GitHub workflows, installed by hand when wanted
+├── project-info/             notes about the repo itself (whole-repo audit)
 └── docs/                     the generated study hub — this is what GitHub Pages serves
 ```
 
