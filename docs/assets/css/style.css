@@ -591,6 +591,12 @@ details.qans[open] > summary { margin-bottom: 8px; }
   font-weight: 800;
   color: var(--ink);
 }
+.report-stat-sub {
+  display: block;
+  margin-top: 2px;
+  font-size: 12.5px;
+  color: var(--ink-soft);
+}
 .report-source {
   background: var(--card);
   border: 1px solid var(--line);

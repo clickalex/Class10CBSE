@@ -1,7 +1,11 @@
 """Render the grouped after-Class-10 admissions directory and live HTML watch report."""
+from datetime import datetime
 import html
 import json
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
+MONTHS = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
 
 GROUPS = (
     ('school', 'Class XI / intermediate schools', 'Entrance-test and merit/vacancy routes are labelled separately. Check eligibility before applying.'),
@@ -77,22 +81,88 @@ These options do not guarantee admission or an award. School, diploma and coachi
 '''
 
 
+def local_time(value, timezone='Asia/Kolkata'):
+    """Parse a checker timestamp into the report's time zone.
+
+    Returns None for anything that is not an offset-aware ISO-8601 timestamp,
+    so callers fall back to the raw text instead of inventing a time.
+    """
+    try:
+        moment = datetime.fromisoformat(str(value))
+    except ValueError:
+        return None
+    if moment.tzinfo is None:
+        return None
+    return moment.astimezone(ZoneInfo(timezone))
+
+
+def clock_text(local):
+    """'12:37 AM IST' for a time from local_time()."""
+    return f'{local.hour % 12 or 12}:{local.minute:02d} {"AM" if local.hour < 12 else "PM"} {local.tzname()}'
+
+
+def date_text(local):
+    """'24 Sep 2026' for a time from local_time()."""
+    return f'{local.day} {MONTHS[local.month - 1]} {local.year}'
+
+
+def format_time(value, timezone='Asia/Kolkata'):
+    """'2026-09-24T00:37:54+05:30' -> '24 Sep 2026, 12:37 AM IST' (None if unparseable)."""
+    local = local_time(value, timezone)
+    return f'{date_text(local)}, {clock_text(local)}' if local else None
+
+
+def time_tag(value, timezone='Asia/Kolkata'):
+    """A <time> element for a checker timestamp (escaped raw text if unparseable)."""
+    text = format_time(value, timezone)
+    if text is None:
+        return html.escape(str(value))
+    return f'<time datetime="{html.escape(str(value), quote=True)}">{html.escape(text)}</time>'
+
+
+def load_watch_state(state_path, session):
+    """Observations written by scripts/check_admissions.py, or {} when there are
+    none for the current target session.
+
+    The deterministic site build passes no path at all; the publishing
+    workflows pass the latest state.json. Observations recorded for another
+    session describe a different admission year (the checker starts a new
+    baseline when the session changes), so they are ignored rather than shown.
+    """
+    if not state_path:
+        return {}
+    try:
+        state = json.loads(Path(state_path).read_text(encoding='utf-8'))
+    except (OSError, ValueError):
+        return {}
+    if (not isinstance(state, dict) or not isinstance(state.get('sources'), dict)
+            or state.get('session') != session
+            or not isinstance(state.get('checked_at'), str) or not state['checked_at']):
+        return {}
+    sources = {}
+    for url, item in state['sources'].items():
+        if isinstance(item, dict):
+            if not isinstance(item.get('evidence', []), list):
+                item['evidence'] = []
+            sources[url] = item
+    state['sources'] = sources
+    return state
+
+
 def report_body(state_path=None, mock_ids=None):
-    """Render the full HTML body of the daily admission watch live report."""
+    """Render the full HTML body of the daily admission watch live report.
+
+    Without state (the committed docs/ build) the page says plainly that no
+    check has been published yet; with state it shows when the check ran and
+    when each official source was last fetched successfully.
+    """
     mock_ids = mock_ids or {}
     data = json.loads((Path(__file__).parent / 'content/admissions.json').read_text())
     esc = html.escape
-    state = {}
-    if state_path:
-        p = Path(state_path)
-        if p.exists():
-            try:
-                state = json.loads(p.read_text(encoding='utf-8'))
-            except Exception:
-                state = {}
-
-    checked_at = state.get('checked_at', 'Scheduled daily at 9 PM IST (15:30 UTC)')
-    session = state.get('session', data.get('target_session', '2027-28'))
+    session = data.get('target_session', '2027-28')
+    tz = data.get('timezone', 'Asia/Kolkata')
+    state = load_watch_state(state_path, session)
+    checked_at = state.get('checked_at')
     sources_data = state.get('sources', {})
 
     total_institutions = len(data['institutions'])
@@ -100,12 +170,33 @@ def report_body(state_path=None, mock_ids=None):
     changed_count = sum(1 for s in sources_data.values() if s.get('changed'))
     error_count = sum(1 for s in sources_data.values() if s.get('check_status') == 'error')
     unchanged_count = sum(1 for s in sources_data.values() if s.get('check_status') == 'unchanged')
+    first_count = sum(1 for s in sources_data.values() if s.get('check_status') == 'first_check')
 
-    if sources_data:
-        status_line = (f"{total_sources} sources monitored · {unchanged_count} unchanged · "
-                       f"{changed_count} changed · {error_count} fetch errors")
+    if checked_at:
+        status_line = (f"{total_sources} sources monitored &middot; {unchanged_count} unchanged &middot; "
+                       f"{changed_count} changed &middot; {error_count} fetch errors")
+        if first_count:
+            status_line += f" &middot; {first_count} first check"
+        last_run_html = (
+            f'<p class="hint report-last-run" data-checked-at="{esc(checked_at, quote=True)}">'
+            f'Last check ran: <strong>{time_tag(checked_at, tz)}</strong><span data-age></span>'
+            f' &middot; {status_line}</p>'
+            '<div class="callout alt" data-report-stale hidden><p><strong>This report may be out of date.</strong> '
+            'The last check ran more than a day and a half ago, so the daily check may have been delayed or stopped. '
+            'Verify every date directly on the official websites.</p></div>'
+        )
+        local = local_time(checked_at, tz)
+        last_card = (f'<span class="report-stat-val">{esc(clock_text(local))}</span>'
+                     f'<span class="report-stat-sub">{esc(date_text(local))}</span>' if local else
+                     f'<span class="report-stat-sub">{esc(str(checked_at))}</span>')
     else:
-        status_line = f"{total_sources} official portals monitored · Scheduled daily check"
+        last_run_html = (
+            '<p class="hint report-last-run">Last check ran: <strong>not published yet</strong>'
+            ' &mdash; results appear here after the next daily check'
+            f' &middot; {total_sources} official portals monitored</p>'
+        )
+        last_card = ('<span class="report-stat-val">Not yet</span>'
+                     '<span class="report-stat-sub">Results appear after the daily check</span>')
 
     group_sections = []
     nav_links = []
@@ -123,7 +214,7 @@ def report_body(state_path=None, mock_ids=None):
             date = 'Not applicable: merit / vacancy route' if selection == 'merit' else 'Not confirmed here — verify current cycle'
 
             source_blocks = []
-            for sidx, url in enumerate(inst['sources'], 1):
+            for url in inst['sources']:
                 sinfo = sources_data.get(url, {})
                 c_status = sinfo.get('check_status')
                 if c_status == 'changed':
@@ -135,24 +226,38 @@ def report_body(state_path=None, mock_ids=None):
                 elif c_status == 'first_check':
                     badge = '<span class="report-badge-base">First Check Recorded</span>'
                 else:
-                    badge = '<span class="report-badge-base">Monitored / Baseline</span>'
+                    badge = '<span class="report-badge-base">Awaiting daily check</span>'
 
-                last_succ = sinfo.get('last_success_at') or 'Pending scheduled run'
-                err_html = f'<p class="hint"><strong>Fetch notice:</strong> {esc(sinfo.get("error", ""))} — open the portal directly.</p>' if sinfo.get('error') else ''
+                if not sinfo:
+                    fetched = 'Not published yet'
+                elif sinfo.get('last_success_at'):
+                    fetched = time_tag(sinfo['last_success_at'], tz)
+                else:
+                    fetched = 'None yet'
+
+                err_html = ''
+                if sinfo.get('error'):
+                    attempted = sinfo.get('checked_at') or checked_at
+                    when = f' at {time_tag(attempted, tz)}' if attempted else ''
+                    older = ' The notices below are from the last successful fetch.' if sinfo.get('evidence') else ''
+                    err_html = (f'<p class="hint"><strong>Fetch failed{when}:</strong> {esc(str(sinfo["error"]))}'
+                                f' &mdash; open the portal directly.{older}</p>')
 
                 evidence_items = []
                 for ev in sinfo.get('evidence', [])[:8]:
-                    ev_text = esc(ev.get('text', ''))
-                    ev_url = esc(ev.get('url', url), quote=True)
+                    if not isinstance(ev, dict):
+                        continue
+                    ev_text = esc(str(ev.get('text', '')))
+                    ev_url = esc(str(ev.get('url', url)), quote=True)
                     tags = []
                     if ev.get('target_year_mentioned'):
                         tags.append(f'<span class="report-badge-ok">Target session {esc(session[:4])}</span>')
                     else:
                         tags.append('<span class="report-badge-base">Target year not established</span>')
                     for d in ev.get('date_mentions', []):
-                        tags.append(f'<span class="report-badge-date">&#128197; {esc(d)}</span>')
+                        tags.append(f'<span class="report-badge-date">&#128197; {esc(str(d))}</span>')
                     for sig in ev.get('signals', []):
-                        tags.append(f'<span class="report-badge-signal">{esc(sig)}</span>')
+                        tags.append(f'<span class="report-badge-signal">{esc(str(sig))}</span>')
                     tag_str = ' '.join(tags)
                     evidence_items.append(
                         f'<div class="report-snippet">'
@@ -161,7 +266,12 @@ def report_body(state_path=None, mock_ids=None):
                         f'</div>'
                     )
 
-                if not evidence_items and not sinfo.get('error'):
+                if not sinfo:
+                    evidence_items.append(
+                        '<p class="hint">No check results have been published for this portal yet. '
+                        'Open the official portal directly for current notices.</p>'
+                    )
+                elif not evidence_items and not sinfo.get('error'):
                     evidence_items.append(
                         '<p class="hint">No matching admission or scholarship notice keywords found in the readable HTML. '
                         'Consult the official portal directly for PDF circulars and application bulletins.</p>'
@@ -174,7 +284,7 @@ def report_body(state_path=None, mock_ids=None):
                     f'{badge}'
                     f'</div>'
                     f'<p class="hint"><strong>Registration:</strong> Unknown — manual review required &middot; '
-                    f'<strong>Last successful fetch:</strong> {esc(str(last_succ))}</p>'
+                    f'<strong>Last successful fetch:</strong> {fetched}</p>'
                     f'{err_html}'
                     f'{"".join(evidence_items)}'
                     f'</div>'
@@ -235,6 +345,10 @@ for Class XI schools, polytechnic diplomas, and coaching scholarship tests. Scan
     <span class="report-stat-val">{total_sources}</span>
   </div>
   <div class="report-stat-card">
+    <span class="report-stat-label">Last check ran</span>
+    {last_card}
+  </div>
+  <div class="report-stat-card">
     <span class="report-stat-label">Scheduled scan</span>
     <span class="report-stat-val">21:00 IST</span>
   </div>
@@ -242,7 +356,8 @@ for Class XI schools, polytechnic diplomas, and coaching scholarship tests. Scan
 
 <div class="admission-watch">
 <h2>About this live monitor</h2>
-<p>The daily checker runs at <strong>21:00 Asia/Kolkata (15:30 UTC)</strong> every day.
+<p>The daily checker is scheduled for <strong>21:00 Asia/Kolkata (15:30 UTC)</strong> every day.
+GitHub can start scheduled runs late, so the time the check actually ran is shown below.
 It scans the official HTML pages listed below for changes in notice headlines, application links, and date announcements.</p>
 <p><strong>Conservative detection rules:</strong></p>
 <ul>
@@ -250,7 +365,7 @@ It scans the official HTML pages listed below for changes in notice headlines, a
 <li><strong>Dates are unverified mentions:</strong> Any dates shown below are extracted from readable HTML text. They are evidence to inspect, not confirmed registration or exam deadlines.</li>
 <li><strong>PDF and portal limits:</strong> Scanned circulars, PDFs, and JavaScript-based application portals cannot be parsed by the automated crawler. An unchanged page or fetch failure does not mean admissions have not started. Always inspect the linked official portal.</li>
 </ul>
-<p class="hint">Last report generated: <strong>{esc(checked_at)}</strong> &middot; {status_line}</p>
+{last_run_html}
 </div>
 
 {"".join(group_sections)}

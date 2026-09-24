@@ -23,9 +23,9 @@ SITE = Path(__file__).resolve().parent
 REPO = SITE.parent
 PARTIALS = SITE / "partials"
 
-# GitHub Pages for this repository publishes github.com/clickalex/Class10CBSE
-# from the /docs folder of the default branch. Used for canonical/OG URLs and
-# by the sitemap.
+# Where GitHub Pages serves github.com/clickalex/Class10CBSE (a build of this
+# site, published by the deploy workflows). Used for canonical/OG URLs and by
+# the sitemap.
 SITE_URL = "https://clickalex.github.io/Class10CBSE"
 BASE = "/Class10CBSE"          # absolute path the 404 page links under
 SESSION = "2026\u201327"        # board session shown in the sidebar and footer

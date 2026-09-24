@@ -13,7 +13,9 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
+sys.path.insert(0, str(ROOT / 'site'))
 import check_admissions as monitor
+import admissions
 
 URL = 'https://example.edu/'
 FILLER = '<p>Official portal: please check the latest course, eligibility and admission session before completing your application.</p>'
@@ -104,9 +106,33 @@ class AuditTests(unittest.TestCase):
     def test_utc_cron_is_nine_pm_india(self):
         moment = datetime(2026, 9, 20, 15, 30, tzinfo=ZoneInfo('UTC')).astimezone(ZoneInfo('Asia/Kolkata'))
         self.assertEqual((moment.hour, moment.minute), (21, 0))
-        workflow = ROOT / '.github/workflows/admission-watch.yml'
-        self.assertTrue(workflow.is_file(), f"workflow not found at {workflow}")
-        self.assertIn("cron: '30 15 * * *'", workflow.read_text())
+        for folder in ('workflows', 'staged-workflows'):
+            workflow = ROOT / '.github' / folder / 'admission-watch.yml'
+            self.assertTrue(workflow.is_file(), f"workflow not found at {workflow}")
+            self.assertIn("cron: '30 15 * * *'", workflow.read_text())
+
+    def test_checker_output_is_what_the_website_renders(self):
+        # Offline end to end: the checker's state.json feeds the report page
+        # directly, and a local run never rewrites the committed docs/.
+        page = FILLER + '<a href="/xi">Class XI admission 2027-28: apply by 12 March 2027</a>'
+        committed = ROOT / 'docs/after-10th/report.html'
+        before = committed.read_bytes()
+        with tempfile.TemporaryDirectory() as tmp:
+            state, report = Path(tmp) / 'state.json', Path(tmp) / 'report.md'
+            argv = ['check_admissions.py', '--state', str(state), '--report', str(report)]
+            fake = lambda *args, **kwargs: self.response(body=page.encode('utf-8'))  # noqa: E731
+            with patch.object(sys, 'argv', argv), patch.object(monitor, 'urlopen', side_effect=fake), \
+                    patch('sys.stdout', new_callable=StringIO):
+                self.assertEqual(monitor.main(), 0)
+            data = json.loads(state.read_text(encoding='utf-8'))
+            html = admissions.report_body(state_path=state)
+        self.assertEqual(committed.read_bytes(), before, "the checker must not write into docs/")
+        checked = data['checked_at']
+        stamp = f'<time datetime="{checked}">{admissions.format_time(checked)}</time>'
+        self.assertIn(f'Last check ran: <strong>{stamp}</strong>', html)
+        self.assertEqual(html.count(f'<strong>Last successful fetch:</strong> {stamp}'), len(data['sources']))
+        self.assertIn('First Check Recorded', html)
+        self.assertIn('Class XI admission 2027-28: apply by 12 March 2027', html)
 
 
 if __name__ == '__main__':

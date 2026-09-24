@@ -104,9 +104,13 @@ subjects on the home page and in every page's sidebar.
 
 A GitHub Actions checker is configured for **9 PM IST daily**. It flags changed
 school, diploma and scholarship notices, includes date evidence, and updates a report issue.
+It then publishes the results to the website's
+[daily watch report](https://clickalex.github.io/Class10CBSE/after-10th/report.html),
+which shows when the check ran and when each official source was last fetched.
 It does not guess whether registration is open or reuse old deadlines.
-The workflow is configured in [`.github/workflows/admission-watch.yml`](.github/workflows/admission-watch.yml).
-Enable Actions/Issues and run it once.
+The workflow is configured in [`.github/workflows/admission-watch.yml`](.github/workflows/admission-watch.yml)
+(reviewed copy: [`.github/staged-workflows/admission-watch.yml`](.github/staged-workflows/admission-watch.yml)).
+Set **Settings → Pages → Source** to **GitHub Actions**, enable Actions/Issues and run it once.
 See [setup and limitations](09-After-10th/02-Admission-Tracker/README.md).
 
 ## PW NSAT scholarship test
@@ -195,13 +199,16 @@ python3 site/build.py --out /tmp/preview
 scripts/check_all.sh            # every check in the repo, site built to a scratch dir
 ```
 
-- **Published at** <https://clickalex.github.io/Class10CBSE/> from
-  `main` → `/docs` (**Settings → Pages → Deploy from a branch**).
-- `docs/` is committed, not generated at deploy time, so a push that changes
-  only `docs/` publishes exactly what was reviewed.
+- **Published at** <https://clickalex.github.io/Class10CBSE/> by GitHub
+  Actions (**Settings → Pages → Source: GitHub Actions**): `deploy-pages.yml`
+  on pushes to `main`, and `admission-watch.yml` after every daily check.
+- `docs/` is the committed, reviewable build. What gets published is a fresh
+  build of the same sources, byte-identical to `docs/` (the drift check
+  enforces it) except that `after-10th/report.html` also carries the latest
+  daily watch results (`site/build.py --admission-state`).
 - To publish a change: edit `site/content/`, run `python3 site/build.py`, commit
-  `site/content/` and `docs/` together, and push to `main`. Pages then rebuilds
-  from `docs/` on its own.
+  `site/content/` and `docs/` together, and push to `main`. The deploy workflow
+  then publishes it.
 - `docs/.nojekyll` tells Pages to serve the folder as-is instead of running
   Jekyll over it; `docs/404.html` is the not-found page for the live site.
 - The published folder is organised by type, like any static site:
@@ -213,19 +220,22 @@ scripts/check_all.sh            # every check in the repo, site built to a scrat
 - `scripts/check_all.sh` runs six gates: folder tree, content JSON, build +
   link check, **docs/ drift** (committed output equals a fresh build), icon
   reproducibility and the offline unit tests.
-- `.github/staged-workflows/` holds the reviewed copies of the two automations
+- `.github/staged-workflows/` holds the reviewed copies of the automations
   that keep the above from depending on anyone's memory — `checks.yml` (all six
-  gates on every push and pull request) and `deploy-pages.yml` (rebuild and
-  commit `docs/` on `main`, then ask Pages for a build — it warns instead of
-  failing if Pages isn't enabled yet — because a push made with the default
-  `GITHUB_TOKEN` does not start other workflows). Files under
-  `.github/workflows/` need a credential with workflow-write permission to
-  update, so edits land in the staged copies first; copy one into
-  `.github/workflows/` and push it from an account that has it. See
-  `.github/staged-workflows/README.md`.
+  gates on every push and pull request), `deploy-pages.yml` (rebuild and
+  commit `docs/` on `main`, then deploy the site to Pages) and
+  `admission-watch.yml` (the daily check, which also deploys the site with its
+  results). They deploy with `actions/deploy-pages` because a commit made with
+  the default `GITHUB_TOKEN` does not start a *Deploy from a branch* Pages
+  build. Files under `.github/workflows/` need a credential with
+  workflow-write permission to update, so edits land in the staged copies
+  first; copy one into `.github/workflows/` and push it from an account that
+  has it. See `.github/staged-workflows/README.md`.
 
-If you ever switch Pages to **Settings → Pages → Source: GitHub Actions**, the
-same `docs/` folder keeps working from the branch, so the switch is optional.
+The Pages source must be **GitHub Actions** for the daily watch results to
+reach the live report page reliably. With *Deploy from a branch*, `main` →
+`/docs` still serves the site, but every push republishes the report page
+without check results.
 
 ## Note on Git
 

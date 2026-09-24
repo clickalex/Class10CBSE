@@ -14,6 +14,15 @@ State is restored through GitHub Actions cache. Evicted cache means a new
 baseline, not “registration closed”. Network failures preserve the last good
 observations, explicitly labelled stale. All-source failure also fails the run.
 
+After every check the workflow rebuilds the website with the results
+(`site/build.py --admission-state`) and publishes it to GitHub Pages, so the
+[live report](https://clickalex.github.io/Class10CBSE/after-10th/report.html)
+shows when the check actually ran and, for each source, its last successful
+fetch, status badge and captured notices. It publishes even when some sources
+fail to load; those show the error next to their last good fetch. The reviewed
+copy of the workflow is
+[`.github/staged-workflows/admission-watch.yml`](../../.github/staged-workflows/admission-watch.yml).
+
 **This does not automatically verify open/closed status or exact deadlines.**
 A notice can be outdated, refer to another class or category, or exist only in
 a PDF, image, linked page or JavaScript portal. The checker does not parse those
@@ -23,25 +32,36 @@ snippet are evidence to inspect, not necessarily registration or exam dates.
 
 ## Enable it once
 
-1. Ensure `.github/workflows/admission-watch.yml` exists on **main**.
-2. In GitHub **Settings → Actions**, allow Actions. Enable repository Issues.
-   Repository/organisation policy must allow the workflow's `issues: write`
-   permission. No personal token or third-party service is needed.
-3. In **Actions → After Class 10 admission watch → Run workflow**, run once.
-4. Open the automatically created **“After Class 10 — daily admission watch”**
+1. Set **Settings → Pages → Build and deployment → Source** to
+   **GitHub Actions**, so the workflow can publish the report page. A push made
+   by a workflow does not start a *Deploy from a branch* build; see
+   [`.github/staged-workflows/README.md`](../../.github/staged-workflows/README.md).
+2. Ensure `.github/workflows/admission-watch.yml` on **main** matches the
+   reviewed copy in `.github/staged-workflows/` (install `deploy-pages.yml`
+   from there too, so content pushes keep the results on the page).
+3. In GitHub **Settings → Actions**, allow Actions. Enable repository Issues.
+   Repository/organisation policy must allow the workflow's `issues: write`,
+   `pages: write` and `id-token: write` permissions. No personal token or
+   third-party service is needed.
+4. In **Actions → After Class 10 admission watch → Run workflow**, run once.
+5. Open the automatically created **“After Class 10 — daily admission watch”**
    issue and click **Subscribe**. The body is refreshed every run. Changed
    matching notices or changed fetch health create a comment; unchanged runs do not spam comments.
    Fetch errors appear in the daily report, not as “not started”. GitHub's
    notification settings control email delivery; this is not an SMS service.
-5. Follow the report from the website's **Open latest daily report** button
+6. Follow the report from the website's **Open latest daily report** button
    ([live HTML report](https://clickalex.github.io/Class10CBSE/after-10th/report.html)).
    The live report opens directly on an HTML web page showing monitored institutions,
    sources, notice snippets, dates, and fetch health without requiring GitHub.
+   It states when the check last ran (in IST, with “N hours ago”) and each
+   source's last successful fetch.
    Full Markdown and JSON reports are also workflow artifacts (30-day retention).
 
-GitHub can delay cron execution, and may disable scheduled workflows after
-60 days of inactivity in a public repository. Check the report's timestamp and
-Actions page regularly; this is not an exact-to-the-minute or guaranteed alert.
+GitHub can delay cron execution (a 21:00 run can start hours late), and may
+disable scheduled workflows after 60 days of inactivity in a public repository.
+The report page shows the actual check time and warns visitors when the last
+check is more than 36 hours old; check the Actions page if you see that
+warning. This is not an exact-to-the-minute or guaranteed alert.
 If Issues permissions are blocked, the artifacts still contain the report.
 
 ## Run locally / test
@@ -49,11 +69,15 @@ If Issues permissions are blocked, the artifacts still contain the report.
 ```bash
 python3 scripts/check_admissions.py
 cat .admission-monitor/report.md
+# preview the website report with those results (never build them into docs/)
+python3 site/build.py --out /tmp/site --admission-state .admission-monitor/state.json
 python3 -m unittest discover -s tests -v
 ```
 
-Outputs under `.admission-monitor/` are ignored by Git. No network request runs
-as part of the site build. Use `--config`, `--state` and `--report` to override
+Outputs under `.admission-monitor/` are ignored by Git, and the checker never
+writes into `docs/`: a plain `python3 site/build.py` always renders the report
+page without results, so `docs/` stays equal to a fresh build. No network
+request runs as part of the site build. Use `--config`, `--state` and `--report` to override
 paths. Changing the target session resets comparison baselines. Keep personal
 application numbers, passwords, identity documents and payment details out of Git.
 

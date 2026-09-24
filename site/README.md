@@ -30,9 +30,12 @@ practice pages also carry a Previous / All chapters / Next strip at the bottom.
 ## Build
 
 ```bash
-python3 site/build.py           # writes ../docs/  (the published folder)
+python3 site/build.py           # writes ../docs/  (the committed build)
 python3 site/build.py --check   # same, and exits non-zero if anything is broken
 python3 site/build.py --out /tmp/preview
+# what the publishing workflows run: the same site plus the latest daily
+# admission-watch results on after-10th/report.html (never used for docs/)
+python3 site/build.py --out _site --admission-state .admission-monitor/state.json
 ```
 
 No dependencies beyond the Python 3 standard library.
@@ -84,13 +87,15 @@ previous/next chapter strip come from `partials/buttons.html` through
 `layout.component("chapter-nav", …)`, so their markup exists exactly once and
 stays in step with `theme/css/style.css`.
 
-`docs/` is committed on purpose: the repository's Pages setting is
-*Deploy from a branch → main → /docs*, so the built site has to be in the tree.
-Rebuild and commit `docs/` whenever `site/content/` changes — `scripts/check_all.sh`
+`docs/` is committed on purpose: it is the reviewable build of the site, and
+the publishing workflows (Pages source: *GitHub Actions*) deploy a fresh build
+that must equal it. Rebuild and commit `docs/` whenever `site/content/` changes — `scripts/check_all.sh`
 runs the build into a scratch directory first and then diffs it against the
 committed `docs/`, so a stale or hand-edited published folder fails the check.
-`.github/staged-workflows/` holds the reviewed copies of the two workflows that
-automate checks and rebuilds; see the root README for how to install them.
+A plain build never reads live data; only `--admission-state` adds the daily
+watch results, and the workflows pass it when they publish.
+`.github/staged-workflows/` holds the reviewed copies of the workflows that
+automate checks, rebuilds and publishing; see the root README for how to install them.
 
 ## Adding a chapter
 
@@ -234,7 +239,8 @@ using the same sidebar and theme. The portal and every page link to it.
 Rebuild `docs/` after editing either file. Network checks are separate from
 the deterministic build: `scripts/check_admissions.py` and the admission-watch
 workflow in `.github/workflows/admission-watch.yml` publish a daily GitHub issue
-report linked from the hub. See
+report and, through `build.py --admission-state`, the `after-10th/report.html`
+page linked from the hub (check time, per-source last fetch, notices). See
 [tracker setup](../09-After-10th/02-Admission-Tracker/README.md).
 
 ## PW NSAT hub

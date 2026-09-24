@@ -170,4 +170,23 @@
     scope.addEventListener("toggle", recount, true);
     recount();
   });
+
+  /* --- admission watch report: how long ago the last check ran --- */
+  /* The page is rebuilt after every daily check, so an old timestamp means the
+   * check was delayed or has stopped; say so instead of looking current. */
+  var STALE_HOURS = 36; /* one daily run plus generous room for GitHub delays */
+  Array.prototype.forEach.call(document.querySelectorAll("[data-checked-at]"), function (el) {
+    var checked = Date.parse(el.getAttribute("data-checked-at"));
+    if (isNaN(checked)) return;
+    var hours = Math.max(0, (Date.now() - checked) / 3600000);
+    var whole = Math.floor(hours);
+    var days = Math.floor(hours / 24);
+    var age = hours < 1 ? "less than an hour ago"
+      : hours < 48 ? whole + (whole === 1 ? " hour ago" : " hours ago")
+      : days + " days ago";
+    var label = el.querySelector("[data-age]");
+    if (label) label.textContent = " (" + age + ")";
+    var stale = document.querySelector("[data-report-stale]");
+    if (stale && hours > STALE_HOURS) stale.hidden = false;
+  });
 })();
