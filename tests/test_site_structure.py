@@ -13,13 +13,18 @@ guarantees that separation depends on:
   * the committed raster icons still match scripts/make_icons.py output;
   * the reusable components live in partials/buttons.html and nothing internal
     (template comments, component markers) leaks into published HTML;
-  * .github/staged-workflows/ holds workflow files that are still installable.
+  * the daily admission-watch results reach report.html only through
+    build.py --admission-state, never through a default (docs/) build;
+  * .github/staged-workflows/ holds workflow files that are still installable
+    and that publish the site, with the watch results, to GitHub Pages.
 
 Run with:  python3 -m unittest tests.test_site_structure -v
 """
 import importlib.util
+import json
 import re
 import shutil
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -193,20 +198,104 @@ class IconTests(unittest.TestCase):
                              f"{name} is stale: run scripts/make_icons.py")
 
 
+class AdmissionReportBuildTests(unittest.TestCase):
+    """Watch results reach the report page only through --admission-state."""
+
+    CHECKED = "2026-09-24T00:37:54+05:30"
+
+    @classmethod
+    def setUpClass(cls):
+        cls.tmp = Path(tempfile.mkdtemp(prefix="c10-watch-"))
+        config = build.load("admissions.json")
+        urls = [u for inst in config["institutions"] for u in inst["sources"]]
+        state = {"checked_at": cls.CHECKED, "session": config["target_session"], "sources": {
+            u: {"check_status": "unchanged", "last_success_at": cls.CHECKED, "evidence": []}
+            for u in urls}}
+        cls.state = cls.tmp / "state.json"
+        cls.state.write_text(json.dumps(state), encoding="utf-8")
+        saved = build.DIST, build.ADMISSION_STATE
+        build.DIST, build.ADMISSION_STATE = cls.tmp / "site", cls.state
+        try:
+            build.build()
+        finally:
+            build.DIST, build.ADMISSION_STATE = saved
+        cls.report = (cls.tmp / "site" / "after-10th" / "report.html").read_text(encoding="utf-8")
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.tmp, ignore_errors=True)
+
+    def test_published_report_carries_the_check_time(self):
+        self.assertIn(f'<time datetime="{self.CHECKED}">24 Sep 2026, 12:37 AM IST</time>', self.report)
+        self.assertIn('rel="canonical" href="https://clickalex.github.io/Class10CBSE/after-10th/report.html"',
+                      self.report)
+
+    def test_default_build_reads_no_live_state(self):
+        # docs/ must equal a fresh build, so a local .admission-monitor/ (the
+        # checker's default output) can never leak into it.
+        self.assertIsNone(build.ADMISSION_STATE)
+        committed = (DOCS / "after-10th" / "report.html").read_text(encoding="utf-8")
+        self.assertIn("not published yet", committed)
+        self.assertNotIn("<time", committed)
+
+    def test_missing_state_file_fails_the_build(self):
+        result = subprocess.run(
+            [sys.executable, str(SITE / "build.py"), "--out", str(self.tmp / "unused"),
+             "--admission-state", str(self.tmp / "missing.json")],
+            capture_output=True, text=True, timeout=60)
+        self.assertEqual(result.returncode, 1)
+        self.assertIn("no such file", result.stderr)
+        self.assertFalse((self.tmp / "unused").exists())
+
+
 class StagedWorkflowTests(unittest.TestCase):
     """staged-workflows/ holds reviewed copies the owner installs by hand."""
 
+    FOLDER = ROOT / ".github" / "staged-workflows"
+
+    def read(self, name):
+        return (self.FOLDER / name).read_text(encoding="utf-8")
+
     def test_staged_workflows_are_installable(self):
-        folder = ROOT / ".github" / "staged-workflows"
-        self.assertTrue((folder / "README.md").is_file())
-        for name in ("checks.yml", "deploy-pages.yml"):
-            text = (folder / name).read_text(encoding="utf-8")
+        self.assertTrue((self.FOLDER / "README.md").is_file())
+        for name in ("checks.yml", "deploy-pages.yml", "admission-watch.yml"):
+            text = self.read(name)
             for key in ("name:", "on:", "jobs:", "runs-on:"):
                 self.assertIn(key, text, f"{name} missing {key}")
-        checks = (folder / "checks.yml").read_text(encoding="utf-8")
-        self.assertIn("scripts/check_all.sh", checks)
-        deploy = (folder / "deploy-pages.yml").read_text(encoding="utf-8")
-        self.assertIn("docs/", deploy)
+            self.assertNotIn("\t", text, f"{name}: YAML must be indented with spaces")
+        self.assertIn("scripts/check_all.sh", self.read("checks.yml"))
+        self.assertIn("docs/", self.read("deploy-pages.yml"))
+
+    def test_both_publishers_deploy_the_site_with_watch_results(self):
+        # A push made with GITHUB_TOKEN does not start a branch Pages build,
+        # so both workflows publish through actions/deploy-pages instead.
+        for name in ("admission-watch.yml", "deploy-pages.yml"):
+            text = self.read(name)
+            for needle in ("actions/upload-pages-artifact@", "actions/deploy-pages@",
+                           "--admission-state .admission-monitor/state.json",
+                           "pages: write", "id-token: write", "name: github-pages",
+                           "group: pages", "cancel-in-progress: false"):
+                self.assertIn(needle, text, f"{name} missing {needle}")
+            self.assertNotIn("requestPagesBuild", text, name)
+
+    def test_watch_runs_at_nine_pm_india_and_publishes_even_after_fetch_errors(self):
+        watch = self.read("admission-watch.yml")
+        self.assertIn("cron: '30 15 * * *'", watch)
+        self.assertIn("python3 scripts/check_admissions.py", watch)
+        self.assertIn("if: ${{ !cancelled() && needs.check.outputs.site == 'true' }}", watch)
+
+    def test_deploy_restores_the_cache_the_watch_saves(self):
+        # Keys contain spaces (${{ hashFiles(...) }}), so match to end of line.
+        saved = re.search(r"uses: actions/cache/save@\S+\s+with:\s+path: (\S+)\s+key: (.+)",
+                          self.read("admission-watch.yml"))
+        restore = re.search(r"uses: actions/cache/restore@\S+\s+with:\s+path: (\S+)"
+                            r"(?:\s+#.*)*\s+key: .+\s+restore-keys: \|\s+(.+)",
+                            self.read("deploy-pages.yml"))
+        self.assertTrue(saved and restore, "cache steps not found")
+        self.assertEqual(saved.group(1), restore.group(1), "cache paths must match exactly")
+        prefix = restore.group(2).strip()
+        self.assertTrue(saved.group(2).strip().startswith(prefix),
+                        f"{prefix} does not restore {saved.group(2)}")
 
 
 if __name__ == "__main__":

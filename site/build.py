@@ -6,12 +6,15 @@ docs/, mirroring the architecture of the IT-402 hub: a portal page, one hub per
 subject, unit overviews, deep chapter pages, syllabus, revision, question bank
 and PYQ pages.
 
-docs/ is the GitHub Pages publishing folder (Settings -> Pages -> main /docs),
-so the build writes straight into the directory the live site is served from.
+docs/ is the committed build: a fresh build must equal it byte for byte, so the
+default build never reads live data. The publishing workflows build the same
+site with --admission-state to add the latest daily admission-watch results
+(check time, per-source fetch times, notices) to after-10th/report.html.
 
     python3 site/build.py                 # build into docs/
     python3 site/build.py --check         # build, then validate links + content
     python3 site/build.py --out /tmp/x    # build somewhere else (CI)
+    python3 site/build.py --out _site --admission-state .admission-monitor/state.json
 """
 from __future__ import annotations
 
@@ -22,7 +25,7 @@ import re
 import shutil
 import sys
 
-from admissions import admissions_body, report_body
+from admissions import admissions_body, load_watch_state, report_body
 from nsat import nsat_body
 import layout
 import mocktest
@@ -38,10 +41,13 @@ THEME = SITE / "theme"
 # published by the build into docs/assets/img/ (see assets/README.md).
 IMAGES = REPO / "assets" / "images"
 
-# GitHub Pages for this repository publishes github.com/clickalex/Class10CBSE
-# from the /docs folder of the default branch, so that is where the build goes.
+# docs/ is the committed, reviewable build of the site and the default output.
 # docs/ is generated output only: edit site/ and rebuild, never docs/ by hand.
 DIST = REPO / "docs"
+
+# Optional state.json from scripts/check_admissions.py. None (the default) keeps
+# the build deterministic; the publishing workflows set it via --admission-state.
+ADMISSION_STATE = None
 
 # Absolute path the site is served under, used only by the 404 page (GitHub
 # Pages serves that one file for every unknown URL, so its links cannot be
@@ -1039,7 +1045,7 @@ def build(check_only=False):
     write(DIST / "after-10th" / "report.html", page(
         "Daily admission & scholarship watch report",
         [("Home", "../index.html"), ("After 10th", "index.html"), ("Daily watch report", None)],
-        report_body(state_path=REPO / ".admission-monitor/state.json", mock_ids=mock_ids),
+        report_body(state_path=ADMISSION_STATE, mock_ids=mock_ids),
         "..", active="admissions", subactive="report",
         path="after-10th/report.html"))
     written.append("after-10th/report.html")
@@ -1112,7 +1118,7 @@ def validate():
 
 
 def main():
-    global DIST
+    global DIST, ADMISSION_STATE
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true", help="build then validate links")
     ap.add_argument(
@@ -1121,11 +1127,24 @@ def main():
         help=f"write the site here instead of {DIST.relative_to(REPO)} "
         "(relative paths are taken from the repository root)",
     )
+    ap.add_argument(
+        "--admission-state",
+        metavar="STATE_JSON",
+        help="show the latest daily admission-watch results (the state.json written by "
+        "scripts/check_admissions.py) on after-10th/report.html; used by the publishing "
+        "workflows, never for docs/ (relative paths are taken from the repository root)",
+    )
     args = ap.parse_args()
 
     if args.out:
         out = Path(args.out)
         DIST = out if out.is_absolute() else (REPO / out)
+    if args.admission_state:
+        state = Path(args.admission_state)
+        state = state if state.is_absolute() else (REPO / state)
+        if not state.is_file():
+            sys.exit(f"--admission-state: no such file: {state}")
+        ADMISSION_STATE = state
 
     written, pending = build()
     try:
@@ -1133,6 +1152,10 @@ def main():
     except ValueError:
         shown = DIST
     print(f"built {len(written)} pages into {shown}")
+    if ADMISSION_STATE:
+        watch = load_watch_state(ADMISSION_STATE, load("admissions.json")["target_session"])
+        print(f"admission watch report: last check {watch['checked_at']}" if watch else
+              "admission watch report: state ignored (unreadable or for another session)")
     if pending:
         print(f"subjects awaiting chapter content: {', '.join(pending)}")
     broken, n = validate()
