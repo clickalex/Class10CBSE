@@ -1,22 +1,25 @@
 # Class 10 CBSE — Subject-wise Study Folder
 
 A ready-to-use folder structure for CBSE **Class 10** (India) board preparation.
-One top-level folder per subject, and inside each subject the same set of
-places to keep syllabus, notes, NCERT solutions, practice work and past papers.
+Subject folders live together under `study/` — one folder per subject, and
+inside each subject the same set of places to keep syllabus, notes, NCERT
+solutions, practice work and past papers. The repository root only keeps that
+study tree plus the folders the website needs.
 
 ```
 Class10CBSE/
-├── 00-Common/                syllabus PDFs, date sheet, marking scheme, all-subject papers
-├── 01-English/               First Flight + Footprints Without Feet  (code 184)
-├── 02-Hindi/                 Course A (002) and Course B (085)
-├── 03-Mathematics/           Standard 041 / Basic 241
-├── 04-Science/               code 086
-├── 05-Social-Science/        History · Geography · Political Science · Economics (087)
-├── 06-Information-Technology/  skill subject, code 402   ┐
-├── 07-Computer-Applications/   elective, code 165        ├ keep only the ones you study
-├── 08-Sanskrit/                language II, code 122     ┘
-├── 09-After-10th/            Class XI admissions, official links, 9 PM IST tracker
-├── 10-PW-NSAT/               PW scholarship test: syllabus, practice, registration
+├── study/                    subject folders (syllabus, notes, papers)
+│   ├── 00-Common/            syllabus PDFs, date sheet, marking scheme, all-subject papers
+│   ├── 01-English/           First Flight + Footprints Without Feet  (code 184)
+│   ├── 02-Hindi/             Course A (002) and Course B (085)
+│   ├── 03-Mathematics/       Standard 041 / Basic 241
+│   ├── 04-Science/           code 086
+│   ├── 05-Social-Science/    History · Geography · Political Science · Economics (087)
+│   ├── 06-Information-Technology/  skill subject, code 402   ┐
+│   ├── 07-Computer-Applications/   elective, code 165        ├ keep only the ones you study
+│   ├── 08-Sanskrit/          language II, code 122           ┘
+│   ├── 09-After-10th/        Class XI admissions, official links, 9 PM IST tracker
+│   └── 10-PW-NSAT/           PW scholarship test: syllabus, practice, registration
 ├── assets/                   brand imagery: favicon.svg, logo.svg, generated icon-*.png
 ├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · make_icons.py
 ├── site/                     the site's source: content/, partials/, theme/, generators
@@ -96,7 +99,7 @@ say so on every page — these are not official papers.
 
 ## After Class 10 admissions
 
-The new [after-10th folder](09-After-10th/README.md) and
+The new [after-10th folder](study/09-After-10th/README.md) and
 [website hub](https://clickalex.github.io/Class10CBSE/after-10th/) cover 15 options across Class XI schools, diploma colleges and scholarship
 exams: JMI, AMU, BHU/CHS, JNV, KV, RKM Narendrapur, Chandigarh schools,
 Haryana/UP/Bihar polytechnics, PW NSAT, TALLENTEX, ANTHE, iACST and VMC VIQ. The hub appears alongside the
@@ -111,11 +114,11 @@ It does not guess whether registration is open or reuse old deadlines.
 The workflow is configured in [`.github/workflows/admission-watch.yml`](.github/workflows/admission-watch.yml)
 (reviewed copy: [`.github/staged-workflows/admission-watch.yml`](.github/staged-workflows/admission-watch.yml)).
 Set **Settings → Pages → Source** to **GitHub Actions**, enable Actions/Issues and run it once.
-See [setup and limitations](09-After-10th/02-Admission-Tracker/README.md).
+See [setup and limitations](study/09-After-10th/02-Admission-Tracker/README.md).
 
 ## PW NSAT scholarship test
 
-The [PW NSAT folder](10-PW-NSAT/README.md) and
+The [PW NSAT folder](study/10-PW-NSAT/README.md) and
 [website hub](https://clickalex.github.io/Class10CBSE/pw-nsat/) link to the
 [official PW NSAT website](https://www.pw.live/scholarship/vidyapeeth/nsat).
 Find it on the home page and in the sidebar, alongside the study hubs.
@@ -163,7 +166,7 @@ marks for that subject — read those before you start filling folders.
 
 - `NN-Name` — two-digit prefix so folders sort in the order you use them.
 - `chNN-Name` — chapter folders, numbered exactly as in the NCERT textbook, so
-  `03-Mathematics/03-Notes/ch04-Quadratic-Equations/` is Chapter 4 of the book.
+  `study/03-Mathematics/03-Notes/ch04-Quadratic-Equations/` is Chapter 4 of the book.
 - `unitN-Name` — unit folders for the skill/elective subjects, which are
   organised by unit rather than chapter.
 - Folder names are plain ASCII, hyphen-separated. Hindi and Sanskrit chapter

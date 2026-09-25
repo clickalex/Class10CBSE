@@ -24,7 +24,7 @@ Not in the 2026–27 theory syllabus: frames, `<marquee>`, the IT Act, e-waste,
 and malware threat-names (those are lab-blog topics). CSS **is** theory.
 
 Deep chapter pages for all 13 chapters are built in the site — see
-[the Computer Applications hub](../docs/computer-applications/index.html)
+[the Computer Applications hub](../../docs/computer-applications/index.html)
 (live: <https://clickalex.github.io/Class10CBSE/computer-applications/index.html>).
 The 2026–27 curriculum PDF for this code is on the CBSE Class X page:
 <https://cbseacademic.nic.in/curriculum_2027.html>.

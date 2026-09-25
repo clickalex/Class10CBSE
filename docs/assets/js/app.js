@@ -51,6 +51,55 @@
     }
   }
 
+  /* --- back to top ---
+   * Shown after a scroll. Must scroll the document, not the button: an inline
+   * scrollTo() resolves to Element.scrollTo on the button itself, which does
+   * not move the page. The sidebar is its own scroller, so reset that too. */
+  var totop = document.getElementById("totop");
+  if (totop) {
+    var reduceMotion = window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function scrollY() {
+      return window.pageYOffset ||
+        document.documentElement.scrollTop ||
+        document.body.scrollTop ||
+        0;
+    }
+
+    function syncTotop() {
+      totop.hidden = scrollY() < 240;
+    }
+
+    function scrollEl(el) {
+      if (!el) return;
+      var behavior = reduceMotion ? "auto" : "smooth";
+      try {
+        el.scrollTo({ top: 0, left: 0, behavior: behavior });
+      } catch (e) {
+        try { el.scrollTo(0, 0); } catch (e2) { el.scrollTop = 0; }
+      }
+    }
+
+    totop.addEventListener("click", function () {
+      var behavior = reduceMotion ? "auto" : "smooth";
+      try {
+        window.scrollTo({ top: 0, left: 0, behavior: behavior });
+      } catch (e) {
+        window.scrollTo(0, 0);
+        var root = document.scrollingElement || document.documentElement;
+        root.scrollTop = 0;
+        document.body.scrollTop = 0;
+      }
+      scrollEl(sidebar);
+      if (window.closeMenu) window.closeMenu();
+    });
+
+    window.addEventListener("scroll", syncTotop, { passive: true });
+    window.addEventListener("pageshow", syncTotop);
+    syncTotop();
+  }
+
   /* --- chapter "mark complete" checkboxes --- */
   Array.prototype.forEach.call(
     document.querySelectorAll("input.mark-complete"),

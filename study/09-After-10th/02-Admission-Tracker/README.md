@@ -3,7 +3,7 @@
 ## What runs
 
 The active workflow is configured in
-[`.github/workflows/admission-watch.yml`](../../.github/workflows/admission-watch.yml).
+[`.github/workflows/admission-watch.yml`](../../../.github/workflows/admission-watch.yml).
 It schedules `scripts/check_admissions.py` at **21:00 Asia/Kolkata**, using GitHub's UTC cron **`30 15 * * *`**.
 The scheduler runs on GitHub; the website does not need to be open.
 
@@ -21,7 +21,7 @@ shows when the check actually ran and, for each source, its last successful
 fetch, status badge and captured notices. It publishes even when some sources
 fail to load; those show the error next to their last good fetch. The reviewed
 copy of the workflow is
-[`.github/staged-workflows/admission-watch.yml`](../../.github/staged-workflows/admission-watch.yml).
+[`.github/staged-workflows/admission-watch.yml`](../../../.github/staged-workflows/admission-watch.yml).
 
 **This does not automatically verify open/closed status or exact deadlines.**
 A notice can be outdated, refer to another class or category, or exist only in
@@ -35,7 +35,7 @@ snippet are evidence to inspect, not necessarily registration or exam dates.
 1. Set **Settings → Pages → Build and deployment → Source** to
    **GitHub Actions**, so the workflow can publish the report page. A push made
    by a workflow does not start a *Deploy from a branch* build; see
-   [`.github/staged-workflows/README.md`](../../.github/staged-workflows/README.md).
+   [`.github/staged-workflows/README.md`](../../../.github/staged-workflows/README.md).
 2. Ensure `.github/workflows/admission-watch.yml` on **main** matches the
    reviewed copy in `.github/staged-workflows/` (install `deploy-pages.yml`
    from there too, so content pushes keep the results on the page).
