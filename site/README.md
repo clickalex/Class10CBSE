@@ -26,6 +26,8 @@ are in is always visible:
 On screens 900 px and narrower the sidebar becomes an off-canvas drawer opened
 with the `☰` button and closed with ×, the backdrop or Escape. Chapter and
 practice pages also carry a Previous / All chapters / Next strip at the bottom.
+After you scroll down, a **Top** button appears at the bottom-right and returns
+the page to the top (it is hidden again once you are there).
 
 ## Build
 
@@ -241,7 +243,7 @@ the deterministic build: `scripts/check_admissions.py` and the admission-watch
 workflow in `.github/workflows/admission-watch.yml` publish a daily GitHub issue
 report and, through `build.py --admission-state`, the `after-10th/report.html`
 page linked from the hub (check time, per-source last fetch, notices). See
-[tracker setup](../09-After-10th/02-Admission-Tracker/README.md).
+[tracker setup](../study/09-After-10th/02-Admission-Tracker/README.md).
 
 ## PW NSAT hub
 
@@ -250,7 +252,7 @@ sidebar and theme. The home page and sidebar link to it. The official-page
 summary has an explicit checked-on date and is not a live status feed. Its source is also included
 in the expanded admission and scholarship monitor. Update the JSON, then rebuild `docs/` when
 the official exam cycle changes. The corresponding study folder is
-[`10-PW-NSAT/`](../10-PW-NSAT/README.md).
+[`study/10-PW-NSAT/`](../study/10-PW-NSAT/README.md).
 
 The after-10th page groups entries by `category` (`school`, `diploma`,
 `scholarship`) and labels `selection` (`test`, `merit`, `verify`). `cycle` notes

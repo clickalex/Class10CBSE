@@ -50,7 +50,9 @@ while IFS= read -r dir || [ -n "$dir" ]; do
 done < "$CONF"
 
 # Every subject folder must ship a README explaining what belongs inside.
-for subj in "$ROOT"/[0-9][0-9]-*/; do
+# Subjects live under study/ so the repository root stays the website plus
+# that one study tree.
+for subj in "$ROOT"/study/[0-9][0-9]-*/; do
   [ -d "$subj" ] || continue
   base="$(basename "$subj")"
   case "$base" in 00-Common) continue ;; esac

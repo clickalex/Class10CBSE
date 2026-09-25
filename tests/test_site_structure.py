@@ -110,6 +110,27 @@ class PublishedShellTests(unittest.TestCase):
                     missing.append(f"{rel}: {needle}")
         self.assertEqual(missing, [])
 
+    def test_back_to_top_scrolls_the_document(self):
+        """A bare inline scrollTo() is the button's own method and does not
+        move the page. The control must target the document scroller."""
+        footer = (PARTIALS / "footer.html").read_text(encoding="utf-8")
+        js = (SITE / "theme" / "js" / "app.js").read_text(encoding="utf-8")
+        css = (SITE / "theme" / "css" / "style.css").read_text(encoding="utf-8")
+        self.assertIn('id="totop"', footer)
+        self.assertNotRegex(footer, r"""onclick=["']scrollTo\(""")
+        self.assertIn("scrollingElement", js)
+        self.assertIn('getElementById("totop")', js)
+        self.assertIn(".totop[hidden]", css)
+        bad = []
+        for rel, text in _pages():
+            if rel == "404.html":
+                continue
+            if 'id="totop"' not in text:
+                bad.append(f"{rel}: missing back-to-top button")
+            if re.search(r"""onclick=["']scrollTo\(""", text):
+                bad.append(f"{rel}: bare scrollTo does not scroll the page")
+        self.assertEqual(bad, [])
+
     def test_document_outline_never_skips_a_level(self):
         bad = []
         for rel, text in _pages():

@@ -3,7 +3,9 @@
        SUBJECT_LINKS every subject hub (or "in progress" spans)
        MOCK_LINKS    the mock-test centre nav row
        CREDIT        author credit line
-     The back-to-top button is part of the footer on every page. -->
+     The back-to-top control is hidden until the page is scrolled. Its click
+     handler lives in theme/js/app.js — an inline scrollTo() would be the
+     button's own Element.scrollTo and would not move the page. -->
 <div class="foot-main">
 <p>Built for CBSE Class 10 &middot; session {{SESSION}} &middot; content is original study material,
   not official CBSE papers. Always confirm the syllabus against
@@ -12,4 +14,4 @@
 {{MOCK_LINKS}}
 <p class="credit">Created by <strong>{{CREDIT}}</strong></p>
 </div>
-<button class="totop" onclick="scrollTo({top:0,behavior:'smooth'})">&#8593; Top</button>
+<button type="button" class="totop" id="totop" hidden>&#8593; Top</button>

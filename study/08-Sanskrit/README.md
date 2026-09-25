@@ -42,7 +42,7 @@ have no folders.
 The remaining 10 marks are अपठितावबोधनम् (one unseen passage of 80–100 words).
 
 Deep pages for all 19 chapters are built in the site — see
-[the Sanskrit hub](../docs/sanskrit/index.html)
+[the Sanskrit hub](../../docs/sanskrit/index.html)
 (live: <https://clickalex.github.io/Class10CBSE/sanskrit/index.html>). Chapter
 numbering there is continuous 1–19 across the three sections.
 

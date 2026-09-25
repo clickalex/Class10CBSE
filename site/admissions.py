@@ -372,6 +372,6 @@ It scans the official HTML pages listed below for changes in notice headlines, a
 
 <div class="btnrow" style="margin: 32px 0;">
   <a class="btn primary" href="index.html">&larr; Return to admissions directory</a>
-  <a class="btn" href="#main" onclick="scrollTo({{top:0,behavior:'smooth'}})">Top of report &uarr;</a>
+  <a class="btn" href="#main" onclick="window.scrollTo(0,0);return false;">Top of report &uarr;</a>
 </div>
 '''

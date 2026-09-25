@@ -5,7 +5,7 @@ Scope: everything in the repository on branch `arena/01a0c05e-class10cbse`
 content, the published `docs/`, the scripts, the tests, the workflow and the
 documentation. The admission monitor's own feature audit from 20 September 2026
 remains at
-[`09-After-10th/02-Admission-Tracker/AUDIT.md`](../09-After-10th/02-Admission-Tracker/AUDIT.md);
+[`study/09-After-10th/02-Admission-Tracker/AUDIT.md`](../study/09-After-10th/02-Admission-Tracker/AUDIT.md);
 this file covers the rest and the structure work that followed.
 
 ## Method
