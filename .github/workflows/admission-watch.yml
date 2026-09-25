@@ -1,8 +1,17 @@
+# Staged copy of .github/workflows/admission-watch.yml - see README.md here.
+#
+# Every evening this checks the official admission / scholarship pages, updates
+# the daily-watch issue, then rebuilds the website with the results and
+# publishes it to GitHub Pages, so after-10th/report.html shows the time this
+# check ran, when each official source was last fetched, and what it found.
+# Publishing needs Settings -> Pages -> Build and deployment -> Source set to
+# "GitHub Actions" (one-time switch, described in README.md).
 name: After Class 10 admission watch
 
 on:
   schedule:
-    # UTC: 15:30 = 21:00 Asia/Kolkata, every day.
+    # UTC: 15:30 = 21:00 Asia/Kolkata, every day. GitHub can start scheduled
+    # runs late; the published report shows the time the check actually ran.
     - cron: '30 15 * * *'
   workflow_dispatch:
 
@@ -18,6 +27,8 @@ jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      site: ${{ steps.site.outputs.built }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -76,3 +87,54 @@ jobs:
                 });
               }
             }
+      # The website is rebuilt from main with this run's observations, so the
+      # live report page carries the check time and per-source fetch times.
+      # It is built even when every source failed: the page then shows the
+      # errors next to each source's last successful fetch.
+      - name: Build the website with this check's results
+        id: site
+        if: ${{ !cancelled() && hashFiles('.admission-monitor/state.json') != '' }}
+        run: |
+          python3 site/build.py --check --out _site --admission-state .admission-monitor/state.json
+          echo "built=true" >> "$GITHUB_OUTPUT"
+      - name: Upload the website for GitHub Pages
+        if: ${{ !cancelled() && steps.site.outputs.built == 'true' }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  publish:
+    needs: check
+    if: ${{ !cancelled() && needs.check.outputs.site == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}after-10th/report.html
+    # Shared with deploy-pages.yml so two deployments never overlap.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - name: Check the GitHub Pages source
+        uses: actions/github-script@v7
+        with:
+          script: |
+            try {
+              const { data } = await github.rest.repos.getPages(context.repo);
+              if (data.build_type !== 'workflow') {
+                core.warning('GitHub Pages is still set to "Deploy from a branch". Switch Settings → Pages → ' +
+                  'Build and deployment → Source to "GitHub Actions"; otherwise the next push to main ' +
+                  'republishes docs/, whose report page carries no check results. ' +
+                  'See .github/staged-workflows/README.md.');
+              }
+            } catch (error) {
+              core.info(`Could not read the Pages settings (${error.status || error.message}); deploying anyway.`);
+            }
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
