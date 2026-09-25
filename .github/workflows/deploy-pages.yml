@@ -1,8 +1,15 @@
 # Staged workflow: copy to .github/workflows/deploy-pages.yml to activate.
-# GitHub Pages serves docs/ from the default branch, and docs/ is committed
-# output. This rebuilds it whenever the sources change, commits the result and
-# then asks Pages for a build - the explicit request is needed because a push
-# made with the default GITHUB_TOKEN does not trigger other workflows.
+#
+# docs/ is the committed build of site/. When the sources change on main this
+# rebuilds it (committing any drift), then publishes a fresh build of the site
+# to GitHub Pages. That published build also carries the latest daily
+# admission-watch results, restored from admission-watch.yml's cache, so a
+# content push never resets after-10th/report.html to "no results yet".
+#
+# Publishing needs Settings -> Pages -> Build and deployment -> Source set to
+# "GitHub Actions" (see README.md). A push made with the default GITHUB_TOKEN
+# does not start a "Deploy from a branch" Pages build, which is why this
+# workflow deploys the site itself instead of committing and waiting.
 name: Rebuild and publish docs/
 
 on:
@@ -12,69 +19,105 @@ on:
       - 'site/**'
       - 'assets/**'
       - 'scripts/**'
+      - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
+  pages: read
 
 concurrency:
   group: deploy-pages-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
-  rebuild:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    outputs:
+      deploy: ${{ steps.source.outputs.deploy }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          # A token allowed to push to main; fall back to the default token,
-          # which can commit but will not start another workflow run.
-          token: ${{ secrets.PAGES_TOKEN || secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Rebuild the published folder
-        run: python3 site/build.py
+      - name: Rebuild the committed docs/ folder
+        run: python3 site/build.py --check
       - name: Commit docs/ when the rebuild changed anything
         run: |
-          if git diff --quiet -- docs; then
+          if [ -z "$(git status --porcelain -- docs)" ]; then
             echo "docs/ already matches the sources"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs
+          git add -A docs
           git commit -m "Rebuild docs/ from site/ [skip ci]"
           git push
-      - name: Request a GitHub Pages build
+      - name: Restore the latest admission watch results
+        uses: actions/cache/restore@v4
+        with:
+          path: .admission-monitor/state.json
+          # Never an exact hit: the prefixes pick the newest observations the
+          # watch saved (same admissions.json first, then any).
+          key: admission-v2-${{ hashFiles('site/content/admissions.json') }}-publish-${{ github.run_id }}
+          restore-keys: |
+            admission-v2-${{ hashFiles('site/content/admissions.json') }}-
+            admission-v2-
+      - name: Build the website to publish
+        run: |
+          if [ -f .admission-monitor/state.json ]; then
+            python3 site/build.py --check --out _site --admission-state .admission-monitor/state.json
+          else
+            echo "No admission watch results cached yet; the report page will say so."
+            python3 site/build.py --check --out _site
+          fi
+      - name: Upload the website for GitHub Pages
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+      - name: Check the GitHub Pages source
+        id: source
         uses: actions/github-script@v7
         with:
           script: |
+            // "GitHub Actions" source: this workflow is what publishes main.
+            // "Deploy from a branch": Pages itself is already rebuilding docs/
+            // for this push, and a second deployment would collide with it.
+            let buildType = 'unknown';
             try {
-              await github.rest.repos.requestPagesBuild({
-                ...context.repo,
-              });
-              await core.summary
-                .addRaw('Requested a GitHub Pages build after rebuilding docs/.')
-                .write();
+              ({ data: { build_type: buildType } } = await github.rest.repos.getPages(context.repo));
             } catch (error) {
-              const msg = (error && error.message) || String(error);
-              const notEnabled =
-                error &&
-                (error.status === 403 || error.status === 404) &&
-                msg.includes('GitHub Pages site');
-              if (!notEnabled) {
-                throw error;
-              }
-              // Pages is not enabled yet: docs/ was still rebuilt and committed,
-              // so warn with the one-time setup step instead of failing the run.
-              const help =
-                'GitHub Pages is not enabled for this repository yet, so no build was requested. ' +
-                'The rebuilt docs/ was still committed. Enable Pages once under ' +
-                'Settings → Pages → Source: Deploy from a branch → Branch: main → Folder: /docs, ' +
-                'then re-run this workflow (or push again) to publish.';
-              core.warning(help);
-              await core.summary.addRaw('⚠️ ' + help).write();
+              core.info(`Could not read the Pages settings (${error.status || error.message}); deploying anyway.`);
             }
+            const deploy = buildType !== 'legacy' || context.eventName === 'workflow_dispatch';
+            if (buildType === 'legacy') {
+              core.warning('GitHub Pages is still set to "Deploy from a branch", so ' +
+                (deploy ? 'this manual run deploys, but pushes to main republish docs/, ' :
+                          'Pages publishes docs/ for this push, ') +
+                'whose report page carries no check results until the next daily check. ' +
+                'Switch Settings → Pages → Build and deployment → Source to "GitHub Actions". ' +
+                'See .github/staged-workflows/README.md.');
+            }
+            core.setOutput('deploy', deploy ? 'true' : 'false');
+
+  publish:
+    needs: build
+    if: needs.build.outputs.deploy == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    # Shared with admission-watch.yml so two deployments never overlap.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
