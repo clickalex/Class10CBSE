@@ -1,0 +1,125 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 5 · Arithmetic Progressions · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 5 · Arithmetic Progressions
+Unit: II · Algebra
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the 20th term from the last term of the AP 3, 8, 13, …, 253.
+    Ans:
+      Counting from the end, the AP is 253, 248, 243, … with a = 253 and d = −5.
+      20th term = 253 + 19(−5) = 158.
+
+Q2. [Short · 2 marks] Find the sum of the first 20 terms of the AP 7, 10, 13, …
+    Ans: Here a = 7, d = 3 and n = 20. S₂₀ = (20/2)[2(7) + 19(3)] = 10(14 + 57) = 10 × 71 = 710.
+
+Q3. [Short · 3 marks] Which term of the AP 3, 15, 27, 39, … will be 132 more than its 54th term?
+    Ans:
+      54th term = 3 + 53(12) = 639.
+      Required term = 639 + 132 = 771.
+      3 + (n − 1)12 = 771 gives (n − 1)12 = 768, so n = 65.
+
+Q4. [Short · 3 marks] If the sum of the first n terms of an AP is 3n² + 5n, find its 10th term.
+    Ans:
+      aₙ = Sₙ − Sₙ₋₁.
+      S₁₀ = 300 + 50 = 350 and S₉ = 243 + 45 = 288.
+      a₁₀ = 350 − 288 = 62.
+
+Q5. [Application · 3 marks] Riya is revising “Arithmetic Progressions” (nth term, sum of n terms, and word problems). A classmate lost marks by doing this: Using a + nd instead of a + (n − 1)d. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: d can be negative. A decreasing AP has a negative d; students lose marks by writing it positive.
+      Why the mistake costs marks: Using a + nd instead of a + (n − 1)d.
+      Write the definition or formula first, then the working or example.
+
+Q6. [Application · 3 marks] Amit is given this exam-style task from “Arithmetic Progressions”: “Find the 20th term from the last term of the AP 3, 8, 13, …, 253.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: nth term, sum of n terms, and word problems.
+      Counting from the end, the AP is 253, 248, 243, … with a = 253 and d = −5. th term = 253 + 19(−5) = 158.
+
+Q7. [Short · 3 marks] How many terms of the AP 24, 21, 18, … must be taken to give a sum of 78? Explain the two answers.
+    Ans:
+      Sₙ = (n/2)[2(24) + (n − 1)(−3)] = n(51 − 3n)/2 = 78.
+      ⇒ 3n² − 51n + 156 = 0 ⇒ n² − 17n + 52 = 0 ⇒ (n − 4)(n − 13) = 0.
+      So n = 4 or n = 13. Both are valid: the terms from the 5th to the 13th are negative and cancel out the extra positive terms.
+
+Q8. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Arithmetic Progressions”. Their note says: Definition. An AP has a constant common difference d = aₙ₊₁ − aₙ between consecutive terms.
+    
+    The chapter is described as: nth term, sum of n terms, and word problems.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) nth term, sum of n terms, and word problems.
+      (b) –6 marks. Typically one 3-mark question on finding a term or the number of terms, and one 4–5 mark word problem.
+      (c) Using a + nd instead of a + (n − 1)d.
+
+Q9. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Find the 20th term from the last term of the AP 3, 8, 13, …, 253.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Counting from the end, the AP is 253, 248, 243, … with a = 253 and d = −5. th term = 253 + 19(−5) = 158.
+      (c) d can be negative. A decreasing AP has a negative d; students lose marks by writing it positive.
+
+Q10. [Long · 4 marks] The first term of an AP is 5, the last term is 45 and the sum of all terms is 400. Find the number of terms and the common difference.
+    Ans:
+      Sₙ = (n/2)(a + l) ⇒ 400 = (n/2)(5 + 45) = 25n ⇒ n = 16.
+      l = a + (n − 1)d ⇒ 45 = 5 + 15d ⇒ d = 40/15 = 8/3.
+      So there are 16 terms with common difference 8/3.
+
+Q11. [Long · 5 marks] A sum of Rs 700 is to be used to give seven cash prizes, each prize being Rs 20 less than its preceding prize. Find the value of each prize.
+    Ans:
+      Seven prizes in AP with d = −20 and S₇ = 700.
+      700 = (7/2)[2a + 6(−20)] = (7/2)(2a − 120).
+      200 = 2a − 120, so a = 160.
+      The prizes are Rs 160, 140, 120, 100, 80, 60 and 40.
+
+Q12. [Long · 5 marks] Discuss “Arithmetic Progressions” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Definition. An AP has a constant common difference d = aₙ₊₁ − aₙ between consecutive terms.
+      Marks lens: –6 marks. Typically one 3-mark question on finding a term or the number of terms, and one 4–5 mark word problem.
+      Method / memory trick: d can be negative. A decreasing AP has a negative d; students lose marks by writing it positive.
+      Do not: Using a + nd instead of a + (n − 1)d.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The 10th term of the AP 2, 7, 12, … is: (a) 45  (b) 47  (c) 50  (d) 52
+    Ans: (b) 47. a₁₀ = 2 + 9(5).
+
+M2. The sum of the first 10 natural numbers is: (a) 45  (b) 50  (c) 55  (d) 100
+    Ans: (c) 55. n(n+1)/2 = 10 × 11/2.
+
+M3. S₅ − S₄ equals: (a) the 5th term  (b) the 4th term  (c) the 9th term  (d) zero
+    Ans: (a) The 5th term. That is what aₙ = Sₙ − Sₙ₋₁ means.
+
+M4. The most exam-ready way to revise “Arithmetic Progressions” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is nth term, sum of n terms, and word problems.
+
+M5. A 3-mark answer on “Arithmetic Progressions” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The common difference of the AP whose nth term is 3n + 5 is: (a) 3  (b) 5  (c) 8  (d) 2
+    Ans: (a) 3. a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n.
+
+M7. If the 3rd term of an AP is 4 and the 9th term is −8, its first term is: (a) 8  (b) 6  (c) 4  (d) 2
+    Ans: (a) 8. a + 2d = 4 and a + 8d = −8 give 6d = −12, so d = −2 and a = 8.
+
+M8. The sum of the first 100 natural numbers is: (a) 5000  (b) 5050  (c) 4950  (d) 5100
+    Ans: (b) 5050. S = 100 × 101/2 = 5050.

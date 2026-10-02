@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 7 · Working with Images (Writer) · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 7 · Working with Images (Writer)
+Unit: Part B · Digital Documentation (Advanced)
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Name any four text-wrapping options in Writer.
+    Ans: Writer offers these wrap options: None, Before, After, Parallel, Optimal, Through and In Background (any four). Optimal is the default — text flows around the object; Through lets text pass over it; In Background turns the picture into a watermark that sits behind the text. Choose Optimal for a report and In Background for a letterhead logo.
+
+Q2. [Short · 2 marks] What does grouping do?
+    Ans: It joins selected drawing objects so they move, resize and copy as a single object.
+
+Q3. [Short · 2 marks] What is text wrapping and when is it useful?
+    Ans: Wrapping decides how text flows around a picture. It is useful when a small picture has to sit inside a paragraph: the text runs beside or around the image instead of leaving a large empty space above and below it, so the page looks filled and balanced.
+
+Q4. [Short · 2 marks] What is an image caption, and why should figures be captioned and numbered in a report?
+    Ans: A caption is a numbered label under an image, such as ‘Figure 3: School garden’. Captions let the text refer to figures precisely (‘see Figure 3’) instead of vaguely (‘the picture above’), and automatic numbering keeps the sequence correct when images are added or moved.
+
+Q5. [Application · 3 marks] An image covers the heading of a report. Which two settings would you change first?
+    Ans: Wrap (Optimal or After) and arrangement (Send to Back) or move the anchor to the correct paragraph.
+
+Q6. [Application · 3 marks] Riya is revising “Working with Images (Writer)” (Insert, wrap, arrange, drawing objects, grouping and captions). A classmate lost marks by doing this: Stretching a photo so faces look wide — hold Shift or lock ratio. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: If text jumps wildly, the image is probably As Character — change wrap and anchor.
+      Why the mistake costs marks: Stretching a photo so faces look wide — hold Shift or lock ratio.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Short · 3 marks] List the steps to insert an image and set its position in a Writer document.
+    Ans:
+      Click where the picture should go and choose Insert → Image, then select the file and click Open.
+      Right-click the picture, choose Wrap and pick the style you need — Optimal, Before, After or Through.
+      Use Format → Image → Properties to set the size, the position, the cropping and whether the image is anchored to the page, the paragraph or the character.
+      Drag the picture to its place and, if you have several drawing objects, select them and choose Format → Group so that they move together.
+
+Q8. [Short · 3 marks] Distinguish between anchoring an image ‘To Paragraph’ and ‘As Character’, with one use-case each.
+    Ans:
+      To Paragraph — the image attaches to a paragraph and moves with it, while text wraps around freely; use it for a photo beside a paragraph of a report.
+      As Character — the image sits inside the text line like a big letter and moves with the words; use it for a small icon or symbol within a sentence.
+
+Q9. [Long · 4 marks] Explain anchoring of images in Writer.
+    Ans: Anchor decides what the image sticks to: To Paragraph (moves with the para), To Character, As Character (in the text line), To Page (fixed on that page). Choose To Paragraph + Optimal wrap for reports.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A student’s picture sits in a huge white box and the caption is not numbered.
+    
+    (a) Two likely causes.
+    (b) Steps to insert a proper Figure caption.
+    (c) Why captions help in a long file.
+    Ans:
+      (a) Wrap = None; image as a huge As-Character object; no Insert Caption used.
+      (b) Right-click → Insert Caption → category Figure → type the title.
+      (c) Auto numbering and a Table of Figures.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Working with Images (Writer)”. Their note says: Insert image: Insert → Image, or drag from a folder, or copy-paste. Keep a copy of the picture with the file if you must move the document.
+    
+    The chapter is described as: Insert, wrap, arrange, drawing objects, grouping and captions.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Insert, wrap, arrange, drawing objects, grouping and captions.
+      (b) Expect “how to wrap an image” and “difference between anchor types”.
+      (c) Stretching a photo so faces look wide — hold Shift or lock ratio.
+
+Q12. [Long · 5 marks] Discuss “Working with Images (Writer)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Insert image: Insert → Image, or drag from a folder, or copy-paste. Keep a copy of the picture with the file if you must move the document.
+      Marks lens: Expect “how to wrap an image” and “difference between anchor types”.
+      Method / memory trick: If text jumps wildly, the image is probably As Character — change wrap and anchor.
+      Do not: Stretching a photo so faces look wide — hold Shift or lock ratio.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Optimal wrap means: (a) image hidden (b) text flows in the best way around the image (c) image deleted (d) no caption
+    Ans: (b).
+
+M2. To move several shapes together: (a) Mail Merge (b) Group (c) Goal Seek (d) Styles F11
+    Ans: (b) Group.
+
+M3. Inserting a caption is done by: (a) File → New (b) right-click image → Insert Caption (c) Tools → Macros (d) Data → Sort
+    Ans: (b).
+
+M4. Anchor “As Character” treats the image: (a) as a page background (b) like a character in the line (c) as a hidden file (d) as a style
+    Ans: (b).
+
+M5. The most exam-ready way to revise “Working with Images (Writer)” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Insert, wrap, arrange, drawing objects, grouping and captions.
+
+M6. A 3-mark answer on “Working with Images (Writer)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. To make two drawing objects move together you should: (a) group them  (b) crop them  (c) wrap them  (d) delete one of them
+    Ans: (a) group them. Grouping treats the objects as one; ungrouping reverses it.
+
+M8. The tool used to remove unwanted parts of a picture is the: (a) Crop tool  (b) Wrap tool  (c) Rotate tool  (d) Fill tool
+    Ans: (a) Crop tool. Cropping cuts the picture without changing the rest of the page.

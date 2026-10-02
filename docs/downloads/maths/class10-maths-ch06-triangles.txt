@@ -1,0 +1,120 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 6 · Triangles · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 6 · Triangles
+Unit: IV · Geometry
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] State the Basic Proportionality Theorem.
+    Ans: If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio.
+
+Q2. [Short · 2 marks] In ΔABC, DE ∥ BC with AD = 1.5 cm, DB = 3 cm, AE = 1 cm. Find EC.
+    Ans: By the Basic Proportionality Theorem, a line parallel to one side of a triangle divides the other two sides in the same ratio: AD/DB = AE/EC. So 1.5/3 = 1/EC, giving EC = (3 × 1)/1.5 = 2 cm. The theorem only applies because DE ∥ BC is given — without that, the ratio cannot be used.
+
+Q3. [Short · 2 marks] State the converse of the Basic Proportionality Theorem.
+    Ans: If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side. In ΔABC, if a line through D on AB and E on AC satisfies AD/DB = AE/EC, then DE ∥ BC.
+
+Q4. [Short · 3 marks] The areas of two similar triangles are in the ratio 9:16. If one side of the smaller triangle is 4.5 cm, find the corresponding side of the larger.
+    Ans:
+      Area ratio = square of side ratio, so 9/16 = (4.5/x)².
+      Taking square roots: 3/4 = 4.5/x, so x = 6 cm.
+
+Q5. [Short · 3 marks] Prove that in a right triangle, the square on the hypotenuse equals the sum of the squares on the other two sides.
+    Ans:
+      In right ΔABC, right-angled at B, draw BD ⊥ AC.
+      ΔADB ∼ ΔABC (AA), so AD/AB = AB/AC, giving AB² = AD × AC.
+      ΔBDC ∼ ΔABC (AA), so DC/BC = BC/AC, giving BC² = DC × AC.
+      Adding: AB² + BC² = (AD + DC) × AC = AC².
+
+Q6. [Application · 3 marks] Riya is revising “Triangles” (Similarity criteria, Basic Proportionality Theorem, Pythagoras). A classmate lost marks by doing this: Writing the area ratio equal to the side ratio, without squaring. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.
+      Why the mistake costs marks: Writing the area ratio equal to the side ratio, without squaring.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Application · 3 marks] Amit is given this exam-style task from “Triangles”: “State the Basic Proportionality Theorem.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Similarity criteria, Basic Proportionality Theorem, Pythagoras.
+      If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio.
+
+Q8. [Short · 3 marks] In ΔABC, D and E lie on AB and AC with AD = 5.7 cm, DB = 9.5 cm, AE = 4.8 cm and EC = 8 cm. Is DE parallel to BC?
+    Ans:
+      AD/DB = 5.7/9.5 = 0.6 and AE/EC = 4.8/8 = 0.6.
+      The two ratios are equal, so by the converse of the Basic Proportionality Theorem DE ∥ BC.
+
+Q9. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Triangles”. Their note says: Similar polygons. Corresponding angles are equal and corresponding sides are in the same ratio.
+    
+    The chapter is described as: Similarity criteria, Basic Proportionality Theorem, Pythagoras.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Similarity criteria, Basic Proportionality Theorem, Pythagoras.
+      (b) Triangles carries most of the 15-mark Geometry unit (Circles is the rest).
+      (c) Writing the area ratio equal to the side ratio, without squaring.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “State the Basic Proportionality Theorem.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio.
+      (c) Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.
+
+Q11. [Long · 4 marks] Prove that the ratio of the areas of two similar triangles equals the square of the ratio of their corresponding medians.
+    Ans:
+      Let ΔABC ~ ΔPQR with medians AD and PS to the sides BC and QR.
+      Since the triangles are similar, AB/PQ = BC/QR and ∠B = ∠Q.
+      D and S are midpoints, so BD = BC/2 and QS = QR/2, giving BD/QS = BC/QR = AB/PQ.
+      With the included angles equal, ΔABD ~ ΔPQS (SAS), so AD/PS = AB/PQ.
+      Therefore ar(ABC)/ar(PQR) = (AB/PQ)² = (AD/PS)².
+
+Q12. [Long · 5 marks] Discuss “Triangles” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Similar polygons. Corresponding angles are equal and corresponding sides are in the same ratio.
+      Marks lens: Triangles carries most of the 15-mark Geometry unit (Circles is the rest).
+      Method / memory trick: Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.
+      Do not: Writing the area ratio equal to the side ratio, without squaring.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Two triangles are similar if their corresponding sides are: (a) equal  (b) proportional  (c) perpendicular  (d) parallel
+    Ans: (b) Proportional. That is the SSS similarity criterion.
+
+M2. The ratio of the areas of two similar triangles is 25:49. The ratio of their corresponding sides is: (a) 25:49  (b) 5:7  (c) 7:5  (d) 49:25
+    Ans: (b) 5:7. Square root of the area ratio.
+
+M3. In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 10 cm  (b) 12 cm  (c) 14 cm  (d) 9 cm
+    Ans: (a) 10 cm. √(36 + 64) = 10.
+
+M4. The most exam-ready way to revise “Triangles” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Similarity criteria, Basic Proportionality Theorem, Pythagoras.
+
+M5. A 3-mark answer on “Triangles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. Two triangles are similar if their corresponding angles are: (a) equal  (b) supplementary  (c) complementary  (d) proportional
+    Ans: (a) equal. Equiangular triangles are similar — the AAA similarity criterion.
+
+M7. In ΔABC, DE ∥ BC with AD = 4 cm, DB = 6 cm and AE = 5 cm. Then EC = : (a) 6.5 cm  (b) 7.5 cm  (c) 8 cm  (d) 9 cm
+    Ans: (b) 7.5 cm. AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm.
+
+M8. If the corresponding sides of two similar triangles are in the ratio 4 : 9, their areas are in the ratio: (a) 4 : 9  (b) 2 : 3  (c) 16 : 81  (d) 8 : 27
+    Ans: (c) 16 : 81. The area ratio of similar triangles is the square of the side ratio.

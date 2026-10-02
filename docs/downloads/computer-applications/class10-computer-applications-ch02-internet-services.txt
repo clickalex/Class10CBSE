@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 2 · Internet Services & Protocols · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 2 · Internet Services & Protocols
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Give the full form of FTP and its default port.
+    Ans: FTP stands for File Transfer Protocol, and its default port is 21. It is used to upload and download files between a client and a server.
+
+Q2. [Short · 2 marks] What is the difference between HTTP and HTTPS?
+    Ans: HTTP (HyperText Transfer Protocol) is the protocol used to fetch web pages, and it sends everything in plain text on port 80. HTTPS is the same protocol wrapped in encryption using TLS/SSL, on port 443. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it.
+
+Q3. [Short · 2 marks] Explain the difference between POP3 and IMAP.
+    Ans: Both protocols receive email, but they handle storage differently. POP3 downloads messages to your device and normally deletes them from the server, so the mail is only on that one machine. IMAP leaves messages on the server and synchronises, so the same mailbox looks identical on a phone, a laptop and a web browser. IMAP needs a constant connection and server space; POP3 works offline once downloaded.
+
+Q4. [Short · 2 marks] What is the difference between TCP and UDP?
+    Ans: TCP (Transmission Control Protocol) is connection-oriented: it checks that every packet arrived and reorders them, so delivery is guaranteed but slightly slower. UDP (User Datagram Protocol) simply sends packets without checking, so it is faster but some data may be lost. TCP is used for web pages and email, where a missing piece breaks the result; UDP is used for live video, VoIP and gaming, where a small loss is better than a delay.
+
+Q5. [Short · 2 marks] Match each service with the protocol it uses: browsing the web, sending email, reading email, transferring files.
+    Ans: Browsing uses HTTP or HTTPS; sending email uses SMTP; reading email uses POP3 or IMAP; transferring files uses FTP. DNS is not a service but the system that converts a domain name into an IP address so that the service can find the right computer.
+
+Q6. [Short · 3 marks] Break down the parts of this URL: https://clickalex.github.io/IT-402-/index.html.
+    Ans: The URL has three parts. https:// is the protocol — it says the page will be fetched securely over HTTPS on port 443. clickalex.github.io is the domain name, which DNS resolves into an IP address. /IT-402-/index.html is the path, pointing to a specific file inside the IT-402- folder on that server.
+
+Q7. [Application · 3 marks] Riya is revising “Internet Services & Protocols” (WWW, email, FTP, chat — and the protocol behind each one). A classmate lost marks by doing this: Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: SMTP Sends, POP Pulls, IMAP Keeps. That one sentence settles every email-protocol question.
+      Why the mistake costs marks: Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Internet Services & Protocols”: “What is the difference between HTTP and HTTPS?” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: WWW, email, FTP, chat — and the protocol behind each one.
+      HTTP (HyperText Transfer Protocol) is the protocol used to fetch web pages, and it sends everything in plain text on port 80. HTTPS is the same protocol wrapped in encryption using TLS/SSL, on port 443. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it.
+
+Q9. [Short · 3 marks] Describe what happens when you send an email.
+    Ans:
+      Your mail program hands the message to your mail server using SMTP.
+      That server asks DNS for the mail server of the recipient's domain, such as gmail.com, and passes the message to it.
+      The receiving server stores the message in the recipient's mailbox.
+      The recipient's program collects it with POP3, which usually downloads and deletes it, or with IMAP, which leaves it on the server and synchronises folders.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Internet Services & Protocols”. Their note says: The protocol stack. Data on the internet is layered. HTTP/HTTPS carries web pages, TCP makes sure every part of a message arrives and in the right order, and IP handles addressing and routing. Together they are written TCP/IP. UDP is TCP's faster, less careful cousin, used for streaming and calls wh
+    
+    The chapter is described as: WWW, email, FTP, chat — and the protocol behind each one.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) WWW, email, FTP, chat — and the protocol behind each one.
+      (b) Match the service to its protocol; explain what each service does.
+      (c) Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “What is the difference between HTTP and HTTPS?” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) HTTP (HyperText Transfer Protocol) is the protocol used to fetch web pages, and it sends everything in plain text on port 80. HTTPS is the same protocol wrapped in encryption using TLS/SSL, on port 443. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it.
+      (c) SMTP Sends, POP Pulls, IMAP Keeps. That one sentence settles every email-protocol question.
+
+Q12. [Long · 5 marks] Discuss “Internet Services & Protocols” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      The protocol stack. Data on the internet is layered. HTTP/HTTPS carries web pages, TCP makes sure every part of a message arrives and in the right order, and IP handles addressing and routing. Together they are written TCP/IP. UDP is TCP's faster, less careful cousin, used for streaming and calls where a lost packet matters less than a delay.
+      Marks lens: Match the service to its protocol; explain what each service does.
+      Method / memory trick: SMTP Sends, POP Pulls, IMAP Keeps. That one sentence settles every email-protocol question.
+      Do not: Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which protocol is used to send email? (a) POP3 (b) IMAP (c) SMTP (d) FTP
+    Ans: (c) SMTP — Simple Mail Transfer Protocol.
+
+M2. The default port for HTTPS is — (a) 21 (b) 23 (c) 80 (d) 443
+    Ans: (d) 443. Port 80 is plain HTTP.
+
+M3. Which protocol keeps mail on the server? (a) POP3 (b) IMAP (c) SMTP (d) Telnet
+    Ans: (b) IMAP — it synchronises instead of downloading.
+
+M4. In https://example.com/page.html, example.com is the — (a) protocol (b) domain (c) path (d) port
+    Ans: (b) domain.
+
+M5. The most exam-ready way to revise “Internet Services & Protocols” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is WWW, email, FTP, chat — and the protocol behind each one.
+
+M6. A 3-mark answer on “Internet Services & Protocols” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The protocol used to send an email is: (a) SMTP  (b) POP3  (c) IMAP  (d) FTP
+    Ans: (a) SMTP. POP3 and IMAP are used to receive mail and FTP to transfer files.
+
+M8. HTTPS is safer than HTTP because it: (a) encrypts the data sent between the browser and the site  (b) is faster  (c) is free  (d) needs no server
+    Ans: (a) encrypts the data. The S stands for secure, which is why a padlock appears in the address bar.

@@ -1,0 +1,1635 @@
+﻿CLASS 10 CBSE · SCIENCE (Subject Code 086)
+Question bank · session 2026–27
+
+13 chapters · 179 written Q&A · 128 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/science/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 1 · Chemical Reactions and Equations
+Unit: I · Chemical Substances
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Why must a chemical equation be balanced?
+    Ans: Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction.
+
+Q2. [Short · 2 marks] Balance: HNO3 + Ca(OH)2 → Ca(NO3)2 + H2O
+    Ans: 2HNO3 + Ca(OH)2 → Ca(NO3)2 + 2H2O. This is also a neutralisation, hence a double displacement reaction.
+
+Q3. [Short · 2 marks] What is a precipitation reaction? Give one example with a balanced equation.
+    Ans: A precipitation reaction forms an insoluble solid (the precipitate) when two aqueous solutions are mixed. Example: Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s)↓ + 2NaCl(aq), where the white precipitate is barium sulphate.
+
+Q4. [Short · 3 marks] Why is nitrogen flushed into bags of potato chips?
+    Ans: Nitrogen is an unreactive (inert) gas. It displaces oxygen from the packet, so the fats and oils cannot be oxidised, which prevents rancidity and keeps the chips from changing smell and taste.
+
+Q5. [Application · 3 marks] Riya is revising “Chemical Reactions and Equations” (Balancing, the five reaction types, corrosion and rancidity). A classmate lost marks by doing this: Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Balancing order: start with the element that appears in the largest number of atoms, leave free elements (O2, H2) for last, then re-check oxygen.
+      Why the mistake costs marks: Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed.
+      Write the definition or formula first, then the working or example.
+
+Q6. [Application · 3 marks] Amit is given this exam-style task from “Chemical Reactions and Equations”: “Why must a chemical equation be balanced?” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Balancing, the five reaction types, corrosion and rancidity.
+      Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction.
+
+Q7. [Short · 3 marks] Balance this equation and name the type of reaction: FeSO₄(s) → Fe₂O₃(s) + SO₂(g) + SO₃(g).
+    Ans:
+      Balanced: 2FeSO₄(s) → Fe₂O₃(s) + SO₂(g) + SO₃(g).
+      It is a thermal decomposition reaction — one substance breaks into three on heating.
+      It is also a redox reaction: Fe²⁺ is oxidised while part of the sulphur is reduced.
+
+Q8. [Long · 4 marks] In the reaction ZnO + C → Zn + CO, identify the substance oxidised and the substance reduced.
+    Ans: Carbon is oxidised (it gains oxygen to form CO) and zinc oxide is reduced (it loses oxygen to form Zn). Carbon is the reducing agent; ZnO is the oxidising agent.
+
+Q9. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Chemical Reactions and Equations”. Their note says: Recognising a chemical reaction. Four observable clues: change of state, change of colour, evolution of a gas, and change in temperature. If a new substance with new properties forms, a chemical reaction has taken place.
+    
+    The chapter is described as: Balancing, the five reaction types, corrosion and rancidity.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Balancing, the five reaction types, corrosion and rancidity.
+      (b) –4 marks every year, usually as one balancing question, one reaction-type identification and one reasoning question on corrosion or rancidity.
+      (c) Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Why must a chemical equation be balanced?” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction.
+      (c) Balancing order: start with the element that appears in the largest number of atoms, leave free elements (O2, H2) for last, then re-check oxygen.
+
+Q11. [Application · 4 marks] Describe an activity to show that a chemical reaction is accompanied by the evolution of a gas, and how you would identify the gas.
+    Ans:
+      Take a few zinc granules in a conical flask and add dilute sulphuric acid; fit a cork with a delivery tube.
+      Bubbles appear on the surface of the zinc, showing that a gas is being evolved.
+      Bring a burning splint near the mouth of the tube: the gas burns with a pop sound, which identifies it as hydrogen.
+      Equation: Zn + H₂SO₄ → ZnSO₄ + H₂↑.
+
+Q12. [Long · 5 marks] A white salt on heating decomposes to give brown fumes and a residue. Name the salt and write the equation.
+    Ans: Lead nitrate. The brown fumes are nitrogen dioxide. 2Pb(NO3)2 → 2PbO + 4NO2↑ + O2↑ — a thermal decomposition reaction.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The reaction Fe2O3 + 2Al → Al2O3 + 2Fe is an example of: (a) combination (b) decomposition (c) displacement (d) double displacement
+    Ans: (c) displacement. Aluminium, being more reactive, displaces iron from its oxide. It is also a redox and a highly exothermic (thermite) reaction.
+
+M2. Which of the following is an endothermic process? (a) respiration (b) decomposition of vegetable matter into compost (c) process of decomposition of ferrous sulphate (d) quicklime + water
+    Ans: (c). Decomposition always needs energy, so heating ferrous sulphate is endothermic. The other three release heat.
+
+M3. The green coating on copper and the black coating on silver are respectively: (a) basic copper carbonate and Ag2S (b) CuO and Ag2O (c) CuCO3 and AgS2 (d) Cu(OH)2 and AgO
+    Ans: (a). Copper forms basic copper carbonate CuCO3·Cu(OH)2 (green); silver forms silver sulphide Ag2S (black).
+
+M4. The most exam-ready way to revise “Chemical Reactions and Equations” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Balancing, the five reaction types, corrosion and rancidity.
+
+M5. A 3-mark answer on “Chemical Reactions and Equations” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. Which of these is a combination reaction? (a) CaO + H₂O → Ca(OH)₂  (b) 2H₂O → 2H₂ + O₂  (c) Zn + CuSO₄ → ZnSO₄ + Cu  (d) AgNO₃ + NaCl → AgCl + NaNO₃
+    Ans: (a) CaO + H₂O → Ca(OH)₂. Two reactants combine to form a single product; (b) is decomposition, (c) displacement and (d) double displacement.
+
+M7. The brown fumes evolved when lead nitrate is heated are of: (a) NO₂  (b) O₂  (c) NO  (d) PbO
+    Ans: (a) NO₂. 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂; nitrogen dioxide is brown, the residue lead oxide is yellow.
+
+M8. Rancidity of fat-containing food is prevented by: (a) storing it in the open  (b) adding antioxidants and flushing with nitrogen  (c) adding oxidising agents  (d) heating it repeatedly
+    Ans: (b) adding antioxidants and flushing with nitrogen. Both slow down the oxidation of fats that causes the stale smell and taste.
+
+M9. When the equation Fe + H₂O → Fe₃O₄ + H₂ is balanced, the coefficient of steam (H₂O) is: (a) 2  (b) 3  (c) 4  (d) 6
+    Ans: (c) 4. 3Fe + 4H₂O → Fe₃O₄ + 4H₂ — three iron atoms need four oxygen atoms, which come from four water molecules.
+
+M10. A shiny brown element X becomes black when heated in air. X and the black compound are: (a) Cu and CuO  (b) Fe and Fe₂O₃  (c) Ag and Ag₂S  (d) Al and Al₂O₃
+    Ans: (a) Cu and CuO. Copper is reddish-brown and forms black copper(II) oxide on heating: 2Cu + O₂ → 2CuO.
+
+M11. The reaction 2AgBr → 2Ag + Br₂ used in black-and-white photography is a: (a) thermal decomposition  (b) photochemical decomposition  (c) displacement  (d) combination reaction
+    Ans: (b) photochemical decomposition. Light, not heat, splits silver bromide into silver and bromine; the grey silver darkens the film.
+
+========================================================================
+CHAPTER 2 · Acids, Bases and Salts
+Unit: I · Chemical Substances
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Why does dry HCl gas not change the colour of dry litmus paper?
+    Ans: Because acidic behaviour requires the formation of H+(aq) ions, which needs water. Dry HCl gas has no water, so it does not ionise and cannot affect dry litmus.
+
+Q2. [Short · 2 marks] A solution turns red litmus blue. Its pH is likely to be: 1, 4, 7 or 10. Justify.
+    Ans: 10. Turning red litmus blue shows the solution is basic, and only pH 10 among the options is on the basic side of 7.
+
+Q3. [Short · 2 marks] Fresh milk has a pH of 6. Explain why the pH falls as it turns into curd.
+    Ans: Bacteria convert lactose into lactic acid. The acid increases the H+ ion concentration, so the pH drops below 6 and the milk proteins coagulate into curd.
+
+Q4. [Short · 2 marks] What happens when a base reacts with a non-metal oxide? Give an equation and state what it tells you about non-metal oxides.
+    Ans: A salt and water are formed, just as in neutralisation: Ca(OH)₂ + CO₂ → CaCO₃ + H₂O. It shows that non-metal oxides are acidic in nature.
+
+Q5. [Short · 3 marks] Why is plaster of Paris written as CaSO4·½H2O? Is it possible to have half a water molecule?
+    Ans: The formula is written per formula unit of CaSO4. One molecule of water is shared between two CaSO4 units, so each unit effectively holds half a water molecule. Heating gypsum at 373 K drives out 1½ molecules of water.
+
+Q6. [Short · 3 marks] A milkman adds a very small amount of baking soda to fresh milk. Why does the milk take longer to set as curd?
+    Ans: The baking soda makes the milk slightly alkaline, so the lactic acid produced by bacteria is first neutralised before the pH can fall low enough to coagulate the casein. Setting is therefore delayed.
+
+Q7. [Application · 3 marks] Riya is revising “Acids, Bases and Salts” (pH scale, indicators, and the four commercially important salts). A classmate lost marks by doing this: Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: pH memory: the scale counts down as acidity goes up. pH 2 is a hundred times more acidic than pH 4 (each unit is a factor of ten).
+      Why the mistake costs marks: Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Acids, Bases and Salts”: “Why does dry HCl gas not change the colour of dry litmus paper?” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: pH scale, indicators, and the four commercially important salts.
+      Because acidic behaviour requires the formation of H+(aq) ions, which needs water. Dry HCl gas has no water, so it does not ionise and cannot affect dry litmus.
+
+Q9. [Short · 3 marks] How is bleaching powder prepared? Write the equation and two uses.
+    Ans:
+      Bleaching powder is prepared by the action of chlorine gas on dry slaked lime: Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O.
+      Uses: bleaching cotton and linen in the textile industry and wood pulp in paper factories.
+      It is also used as an oxidising agent in chemical industries and to disinfect drinking water.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Acids, Bases and Salts”. Their note says: What makes an acid an acid. Acids produce H+(aq) ions in water; bases produce OH−(aq) ions. Distillation water does not conduct electricity, but adding an acid or base makes it conduct, because the ions are the charge carriers. Note: dry HCl gas does not turn dry blue litmus red — water is needed fo
+    
+    The chapter is described as: pH scale, indicators, and the four commercially important salts.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) pH scale, indicators, and the four commercially important salts.
+      (b) –5 marks. A pH/reasoning question (2), a salt-family question such as bleaching powder or plaster of Paris (2–3), and one indicator or neutralisation question.
+      (c) Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Why does dry HCl gas not change the colour of dry litmus paper?” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Because acidic behaviour requires the formation of H+(aq) ions, which needs water. Dry HCl gas has no water, so it does not ionise and cannot affect dry litmus.
+      (c) pH memory: the scale counts down as acidity goes up. pH 2 is a hundred times more acidic than pH 4 (each unit is a factor of ten).
+
+Q12. [Application · 4 marks] Three unlabelled bottles contain an acidic, a basic and a neutral solution. How would you identify all three using only red and blue litmus paper?
+    Ans:
+      Dip a strip of red litmus into each solution: the one that turns it blue is the basic solution.
+      Now dip a strip of blue litmus into the two remaining solutions: the one that turns it red is the acidic solution.
+      The solution that changes neither paper is neutral (pH ≈ 7).
+      Note that a single indicator is not enough — you must use both papers, because neutral and acidic solutions both leave red litmus unchanged.
+
+Q13. [Long · 5 marks] Explain the chlor-alkali process with an equation, and give two uses each of the products.
+    Ans:
+      Electrolysis of concentrated aqueous sodium chloride (brine) gives sodium hydroxide, chlorine and hydrogen: 2NaCl(aq) + 2H2O(l) → 2NaOH(aq) + Cl2(g) + H2(g).
+      Sodium hydroxide — making soaps and detergents, and in the paper industry.
+      Chlorine — disinfecting drinking water and making bleaching powder/PVC.
+      Hydrogen — as a fuel and in the manufacture of ammonia and margarine (hydrogenation of oils).
+
+Q14. [Long · 5 marks] Discuss “Acids, Bases and Salts” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      What makes an acid an acid. Acids produce H+(aq) ions in water; bases produce OH−(aq) ions. Distillation water does not conduct electricity, but adding an acid or base makes it conduct, because the ions are the charge carriers. Note: dry HCl gas does not turn dry blue litmus red — water is needed for ionisation.
+      Marks lens: –5 marks. A pH/reasoning question (2), a salt-family question such as bleaching powder or plaster of Paris (2–3), and one indicator or neutralisation question.
+      Method / memory trick: pH memory: the scale counts down as acidity goes up. pH 2 is a hundred times more acidic than pH 4 (each unit is a factor of ten).
+      Do not: Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. A solution reacts with crushed egg-shell to give a gas that turns lime water milky. The solution contains: (a) NaCl (b) HCl (c) LiCl (d) KCl
+    Ans: (b) HCl. Egg-shell is CaCO3; CaCO3 + 2HCl → CaCl2 + H2O + CO2. The CO2 turns lime water milky.
+
+M2. Which one is a strong base? (a) NH4OH (b) Mg(OH)2 (c) NaOH (d) Cu(OH)2
+    Ans: (c) NaOH. Alkali metal hydroxides are strong bases and ionise completely; the others are weak.
+
+M3. The pH of gastric juice released during digestion is: (a) less than 7 (b) more than 7 (c) equal to 7 (d) equal to 0
+    Ans: (a) less than 7. The stomach secretes hydrochloric acid, which keeps the gastric juice acidic (roughly pH 1.2–3) so that pepsin can act.
+
+M4. The most exam-ready way to revise “Acids, Bases and Salts” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is pH scale, indicators, and the four commercially important salts.
+
+M5. A 3-mark answer on “Acids, Bases and Salts” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. A solution turns colourless phenolphthalein pink. Its pH is likely to be: (a) 2  (b) 5  (c) 7  (d) 10
+    Ans: (d) 10. Phenolphthalein turns pink only in a basic solution, whose pH is above 7.
+
+M7. The salt used to remove permanent hardness of water is: (a) sodium chloride  (b) sodium carbonate  (c) calcium sulphate  (d) ammonium chloride
+    Ans: (b) sodium carbonate. Washing soda precipitates out the dissolved calcium and magnesium salts that cause hardness.
+
+M8. Dilute acid added to an active metal produces: (a) oxygen  (b) hydrogen  (c) carbon dioxide  (d) nitrogen
+    Ans: (b) hydrogen. Metal + dilute acid → salt + H₂, which burns with a pop sound.
+
+M9. The chemical formula of Plaster of Paris is: (a) CaSO₄·2H₂O  (b) CaSO₄·½H₂O  (c) CaSO₄  (d) CaCO₃
+    Ans: (b) CaSO₄·½H₂O. Gypsum (CaSO₄·2H₂O) heated to 373 K loses three-quarters of its water of crystallisation to give the hemihydrate.
+
+M10. Baking soda is: (a) Na₂CO₃·10H₂O  (b) NaHCO₃  (c) NaOH  (d) Na₂CO₃
+    Ans: (b) NaHCO₃. Sodium hydrogencarbonate; it releases CO₂ on heating or with acid, which makes cakes rise and antacids fizz.
+
+M11. Bleaching powder is manufactured by passing chlorine gas over: (a) dry slaked lime  (b) quicklime  (c) limestone  (d) gypsum
+    Ans: (a) dry slaked lime. Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O. Quicklime is CaO, limestone is CaCO₃, gypsum is a sulphate.
+
+========================================================================
+CHAPTER 3 · Metals and Non-metals
+Unit: I · Chemical Substances
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Name a metal that is liquid at room temperature and a non-metal that is lustrous.
+    Ans: Mercury (metal, liquid at room temperature) and iodine (non-metal, lustrous).
+
+Q2. [Short · 2 marks] Why is sodium kept immersed in kerosene oil?
+    Ans: Sodium is so reactive that it reacts vigorously with oxygen, moisture and carbon dioxide in air, catching fire. Kerosene cuts off air and moisture, so the metal stays unreacted.
+
+Q3. [Short · 2 marks] Why does aluminium not corrode easily even though it is a reactive metal?
+    Ans: It reacts with oxygen to form a thin, tightly adhering layer of aluminium oxide on its surface. This layer prevents further reaction with air or moisture, so the metal below is protected.
+
+Q4. [Short · 2 marks] Give a reason why ionic compounds have high melting and boiling points.
+    Ans: Oppositely charged ions in an ionic compound are held together by strong electrostatic forces in a crystal lattice, and a large amount of energy is needed to break these forces, so melting and boiling points are high.
+
+Q5. [Short · 3 marks] Why are food cans coated with tin and not with zinc?
+    Ans: Zinc is more reactive than tin and would itself react with the acidic contents of the food, contaminating it. Tin is less reactive, so it protects the can without reacting.
+
+Q6. [Short · 3 marks] Show the formation of MgCl2 by the transfer of electrons, and state two properties of the compound formed.
+    Ans:
+      Mg (2,8,2) loses 2 electrons → Mg2+; each Cl (2,8,7) gains one electron → Cl−. Mg2+ + 2Cl− → MgCl2, held by strong electrostatic force.
+      Properties: it is a hard crystalline solid with a high melting point, and it conducts electricity when molten or dissolved in water.
+
+Q7. [Application · 3 marks] Riya is revising “Metals and Non-metals” (Physical properties, the reactivity series and extraction of metals). A classmate lost marks by doing this: Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Reactivity series mnemonic: Please Send Charlie's Monkey And Zebra Into Lions' Pens, Come Home Monkeys, All Safe And sound (K Na Ca Mg Al Zn Fe Pb H Cu Hg Ag Au).
+      Why the mistake costs marks: Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Metals and Non-metals”: “Name a metal that is liquid at room temperature and a non-metal that is lustrous.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Physical properties, the reactivity series and extraction of metals.
+      Mercury (metal, liquid at room temperature) and iodine (non-metal, lustrous).
+
+Q9. [Short · 3 marks] How are metals low in the reactivity series extracted from their ores? Give equations.
+    Ans:
+      Metals low in the series (such as mercury and copper) are obtained by heating their ores alone — reduction with carbon is not needed.
+      Cinnabar (HgS) is first roasted in air: 2HgS + 3O₂ → 2HgO + 2SO₂, then heated: 2HgO → 2Hg + O₂.
+      Copper from its sulphide ore: Cu₂S + 3O₂ → 2Cu₂O + 2SO₂, then 2Cu₂O + Cu₂S → 6Cu + SO₂.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Metals and Non-metals”. Their note says: Physical properties. Metals are lustrous, malleable, ductile, sonorous and good conductors of heat and electricity; sodium and potassium are soft enough to cut with a knife, mercury is the only liquid metal, gallium and caesium melt in your palm. Non-metals are the opposite: dull, brittle, poor cond
+    
+    The chapter is described as: Physical properties, the reactivity series and extraction of metals.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Physical properties, the reactivity series and extraction of metals.
+      (b) –4 marks. The reactivity series and displacement reactions are asked every year; ionic bond formation and the extraction of a metal (usually copper or zinc) fill the 3-mark slot.
+      (c) Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Name a metal that is liquid at room temperature and a non-metal that is lustrous.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Mercury (metal, liquid at room temperature) and iodine (non-metal, lustrous).
+      (c) Reactivity series mnemonic: Please Send Charlie's Monkey And Zebra Into Lions' Pens, Come Home Monkeys, All Safe And sound (K Na Ca Mg Al Zn Fe Pb H Cu Hg Ag Au).
+
+Q12. [Application · 4 marks] Describe the thermite reaction and give its use.
+    Ans:
+      The thermite reaction: Fe₂O₃ + 2Al → Al₂O₃ + 2Fe + heat.
+      Aluminium is more reactive than iron, so it reduces iron(III) oxide to molten iron and a large amount of heat is released.
+      The molten iron produced is used to weld railway tracks and cracked machine parts without dismantling them.
+
+Q13. [Long · 5 marks] Explain electrolytic refining of copper.
+    Ans:
+      The impure copper is made the anode and a thin strip of pure copper the cathode, both dipped in acidified copper sulphate solution.
+      On passing current, copper from the anode dissolves as Cu2+ and an equal amount deposits on the cathode.
+      Soluble impurities go into the solution; insoluble impurities settle below the anode as anode mud (which contains the precious metals).
+
+Q14. [Long · 5 marks] Discuss “Metals and Non-metals” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Physical properties. Metals are lustrous, malleable, ductile, sonorous and good conductors of heat and electricity; sodium and potassium are soft enough to cut with a knife, mercury is the only liquid metal, gallium and caesium melt in your palm. Non-metals are the opposite: dull, brittle, poor conductors — except graphite, which conducts, and iodine, a lustrous non-metal.
+      Marks lens: –4 marks. The reactivity series and displacement reactions are asked every year; ionic bond formation and the extraction of a metal (usually copper or zinc) fill the 3-mark slot.
+      Method / memory trick: Reactivity series mnemonic: Please Send Charlie's Monkey And Zebra Into Lions' Pens, Come Home Monkeys, All Safe And sound (K Na Ca Mg Al Zn Fe Pb H Cu Hg Ag Au).
+      Do not: Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. A copper coin placed in silver nitrate solution turns silvery and the solution turns blue. This shows copper is: (a) less reactive than silver (b) more reactive than silver (c) equally reactive (d) an inert metal
+    Ans: (b) more reactive than silver. Cu + 2AgNO3 → Cu(NO3)2 + 2Ag; the blue colour is due to Cu2+ ions.
+
+M2. Which pair is amphoteric? (a) Na2O and CaO (b) Al2O3 and ZnO (c) CO2 and SO2 (d) CuO and FeO
+    Ans: (b) Al2O3 and ZnO — they react with both acids and bases to form salt and water.
+
+M3. The method used to extract sodium from molten NaCl is: (a) reduction with carbon (b) self reduction (c) electrolytic reduction (d) roasting
+    Ans: (c) electrolytic reduction. Sodium is above carbon in the reactivity series, so carbon cannot reduce it; the molten chloride is electrolysed.
+
+M4. The most exam-ready way to revise “Metals and Non-metals” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Physical properties, the reactivity series and extraction of metals.
+
+M5. A 3-mark answer on “Metals and Non-metals” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The best conductor of electricity among these is: (a) copper  (b) silver  (c) aluminium  (d) iron
+    Ans: (b) silver. Silver conducts best, then copper; silver is too costly for wiring, so copper is used.
+
+M7. Brass is an alloy of: (a) copper and tin  (b) copper and zinc  (c) lead and tin  (d) mercury and zinc
+    Ans: (b) copper and zinc. Bronze is copper and tin, solder is lead and tin, and an amalgam contains mercury.
+
+M8. Which metal reacts vigorously with cold water? (a) iron  (b) zinc  (c) sodium  (d) copper
+    Ans: (c) sodium. It reacts violently with cold water; iron and zinc react only with steam, and copper does not react at all.
+
+M9. The correct decreasing order of reactivity is: (a) Zn > Mg > Cu  (b) Mg > Zn > Cu  (c) Cu > Zn > Mg  (d) Zn > Cu > Mg
+    Ans: (b) Mg > Zn > Cu. In the reactivity series magnesium lies above zinc, and copper lies below hydrogen, so it is the least reactive of the three.
+
+M10. Galvanisation protects iron from rusting by coating it with a thin layer of: (a) tin  (b) chromium  (c) zinc  (d) copper
+    Ans: (c) zinc. Zinc is more reactive than iron, so it corrodes in preference to the iron even if the coating is scratched.
+
+M11. Magnesium (2, 8, 2) combines with chlorine (2, 8, 7) to form an ionic compound with the formula: (a) MgCl  (b) MgCl₂  (c) Mg₂Cl  (d) MgCl₃
+    Ans: (b) MgCl₂. Magnesium loses two electrons to become Mg²⁺; each chlorine atom gains one, so two Cl⁻ ions are needed.
+
+========================================================================
+CHAPTER 4 · Carbon and its Compounds
+Unit: I · Chemical Substances
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Why do covalent compounds generally have low melting and boiling points?
+    Ans: Because the forces of attraction between their molecules are weak, even though the covalent bonds within a molecule are strong. Little energy is needed to separate the molecules.
+
+Q2. [Short · 2 marks] Give a chemical test to distinguish between butter and cooking oil.
+    Ans: The bromine water test (or the alkaline KMnO4 test). Cooking oil is unsaturated, so it decolorises bromine water/KMnO4; butter is largely saturated and does not.
+
+Q3. [Short · 2 marks] Why is a mixture of ethyne and pure oxygen used for welding instead of ethyne and air?
+    Ans: In air, ethyne burns incompletely and gives a sooty flame with less heat. In pure oxygen combustion is complete, producing a clean flame at about 3000 °C (the oxy-acetylene flame), which is hot enough for welding.
+
+Q4. [Short · 2 marks] Why is methane called a saturated hydrocarbon? Describe its electron-dot structure in words.
+    Ans: In methane (CH₄) all four valencies of carbon are satisfied by four single covalent bonds with hydrogen atoms, so no more atoms can be added — the molecule is saturated. In the electron-dot structure, carbon sits at the centre and shares one pair of electrons with each of the four hydrogen atoms, giving every atom a stable octet (duplet for hydrogen).
+
+Q5. [Short · 3 marks] What is a homologous series? Write the general formula and the third member of the alkane series.
+    Ans:
+      A homologous series is a group of compounds with the same general formula and similar chemical properties, in which successive members differ by a −CH2− unit (14 u).
+      Alkanes: CnH2n+2. Third member = propane, C3H8.
+
+Q6. [Short · 3 marks] Explain the cleansing action of soap with the help of a diagram description.
+    Ans:
+      A soap molecule has a hydrophilic ionic head and a hydrophobic hydrocarbon tail.
+      In water, the tails attach to the oily dirt while the heads remain in water, forming a spherical cluster called a micelle with the oil trapped inside.
+      The micelle is washed away with the water, taking the dirt with it; agitation helps detach the oil.
+
+Q7. [Application · 3 marks] Riya is revising “Carbon and its Compounds” (Covalent bonding, homologous series, and ethanol and ethanoic acid). A classmate lost marks by doing this: Writing the general formula of alkenes as CnH2n+2. Check by counting ethene: C2H4 fits CnH2n. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Carbon counts: Meth-1, Eth-2, Prop-3, But-4, Pent-5, Hex-6. The suffix gives the bond: -ane single, -ene double, -yne triple.
+      Why the mistake costs marks: Writing the general formula of alkenes as CnH2n+2. Check by counting ethene: C2H4 fits CnH2n.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Carbon and its Compounds”: “Why do covalent compounds generally have low melting and boiling points?” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Covalent bonding, homologous series, and ethanol and ethanoic acid.
+      Because the forces of attraction between their molecules are weak, even though the covalent bonds within a molecule are strong. Little energy is needed to separate the molecules.
+
+Q9. [Short · 3 marks] Write the equation for the combustion of ethanol and explain why ethanol burns with a clean blue flame.
+    Ans:
+      C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O + heat and light.
+      Ethanol already contains oxygen and has a low carbon-to-hydrogen ratio, so it burns almost completely.
+      Saturated hydrocarbons contain relatively more carbon and often burn incompletely, depositing unburnt carbon, which gives a sooty yellow flame.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Carbon and its Compounds”. Their note says: Why carbon is special. Carbon has four valence electrons; gaining or losing four electrons is energetically impossible, so it shares electrons and forms covalent bonds. Two properties make it unique: catenation (bonding to itself in long chains, branches and rings) and tetravalency. Covalent compoun
+    
+    The chapter is described as: Covalent bonding, homologous series, and ethanol and ethanoic acid.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Covalent bonding, homologous series, and ethanol and ethanoic acid.
+      (b) –5 marks. One naming question (IUPAC name or structure), one comparison of soap and detergent or of ethanol and ethanoic acid, and one reaction of carbon compounds.
+      (c) Writing the general formula of alkenes as CnH2n+2. Check by counting ethene: C2H4 fits CnH2n.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Why do covalent compounds generally have low melting and boiling points?” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Because the forces of attraction between their molecules are weak, even though the covalent bonds within a molecule are strong. Little energy is needed to separate the molecules.
+      (c) Carbon counts: Meth-1, Eth-2, Prop-3, But-4, Pent-5, Hex-6. The suffix gives the bond: -ane single, -ene double, -yne triple.
+
+Q12. [Application · 4 marks] Why does soap not lather well in hard water, and what is used instead?
+    Ans:
+      Hard water contains dissolved calcium and magnesium salts, which react with soap to form an insoluble sticky precipitate (scum).
+      Soap is therefore wasted and lather forms only after all the Ca²⁺ and Mg²⁺ ions have been precipitated.
+      Detergents are used instead: their molecules are sulphonate or sulphate salts whose calcium and magnesium salts stay dissolved, so they lather even in hard water.
+
+Q13. [Long · 5 marks] With equations, describe three chemical properties of ethanoic acid.
+    Ans:
+      With a base (neutralisation): CH3COOH + NaOH → CH3COONa + H2O.
+      With a metal carbonate: 2CH3COOH + Na2CO3 → 2CH3COONa + H2O + CO2.
+      With a hydrogen carbonate: CH3COOH + NaHCO3 → CH3COONa + H2O + CO2 (brisk effervescence).
+      Esterification (with ethanol, conc. H2SO4): CH3COOH + C2H5OH → CH3COOC2H5 + H2O — a sweet-smelling ester used in perfumes and flavourings.
+
+Q14. [Long · 5 marks] Discuss “Carbon and its Compounds” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Why carbon is special. Carbon has four valence electrons; gaining or losing four electrons is energetically impossible, so it shares electrons and forms covalent bonds. Two properties make it unique: catenation (bonding to itself in long chains, branches and rings) and tetravalency. Covalent compounds have low melting and boiling points (weak intermolecular forces), are usually insoluble in water, and do not conduct.
+      Marks lens: –5 marks. One naming question (IUPAC name or structure), one comparison of soap and detergent or of ethanol and ethanoic acid, and one reaction of carbon compounds.
+      Method / memory trick: Carbon counts: Meth-1, Eth-2, Prop-3, But-4, Pent-5, Hex-6. The suffix gives the bond: -ane single, -ene double, -yne triple.
+      Do not: Writing the general formula of alkenes as CnH2n+2. Check by counting ethene: C2H4 fits CnH2n.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The number of covalent bonds in a molecule of ethane (C2H6) is: (a) 5 (b) 6 (c) 7 (d) 8
+    Ans: (c) 7 — six C–H bonds plus one C–C bond.
+
+M2. Which compound decolorises bromine water? (a) CH4 (b) C2H6 (c) C2H4 (d) C3H8
+    Ans: (c) C2H4 (ethene). Only unsaturated compounds with a double bond undergo addition with bromine.
+
+M3. Vinegar is a solution of: (a) 5–8% ethanoic acid in water (b) 50–80% ethanoic acid (c) pure ethanoic acid (d) ethanoic acid in alcohol
+    Ans: (a) 5–8% ethanoic acid in water. Pure (glacial) acetic acid freezes at 290 K, which is why it is not used directly in kitchens.
+
+M4. The most exam-ready way to revise “Carbon and its Compounds” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Covalent bonding, homologous series, and ethanol and ethanoic acid.
+
+M5. A 3-mark answer on “Carbon and its Compounds” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. Which compound decolourises alkaline KMnO₄ (Baeyer's reagent)? (a) C₂H₆  (b) C₂H₄  (c) CH₄  (d) C₃H₈
+    Ans: (b) C₂H₄. Ethene is unsaturated; only double or triple bonds add on and decolourise the reagent.
+
+M7. The functional group present in an alcohol is: (a) –CHO  (b) –COOH  (c) –OH  (d) –CO–
+    Ans: (c) –OH. –CHO is aldehyde, –COOH is carboxylic acid and –CO– is a ketone group.
+
+M8. The gas evolved when ethanoic acid reacts with sodium carbonate is: (a) H₂  (b) O₂  (c) CO₂  (d) CO
+    Ans: (c) CO₂. 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂; the gas turns lime water milky.
+
+M9. The IUPAC name of CH₃–CH₂–CHO is: (a) propanol  (b) propanal  (c) propanone  (d) propanoic acid
+    Ans: (b) propanal. Three carbons (prop-) with an aldehyde group –CHO (-al). Propanone is a ketone, propanol an alcohol, propanoic acid a carboxylic acid.
+
+M10. Which pair belongs to the same homologous series? (a) CH₄ and C₂H₄  (b) C₂H₆ and C₃H₈  (c) C₂H₄ and C₂H₂  (d) CH₃OH and CH₃COOH
+    Ans: (b) C₂H₆ and C₃H₈. Both are alkanes (CₙH₂ₙ₊₂) differing by one –CH₂– unit. The other pairs have different functional groups or bond types.
+
+M11. Which hydrocarbon undergoes an addition reaction with hydrogen in the presence of a nickel catalyst? (a) C₃H₈  (b) C₂H₆  (c) C₄H₁₀  (d) C₂H₄
+    Ans: (d) C₂H₄. Only an unsaturated hydrocarbon (ethene, with a C=C double bond) can add hydrogen; the other three are saturated alkanes.
+
+========================================================================
+CHAPTER 5 · Life Processes
+Unit: II · World of Living
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Name the functional unit of the kidney and the pigment that absorbs light energy in plants.
+    Ans: Nephron; chlorophyll.
+
+Q2. [Short · 2 marks] Why is diffusion insufficient to meet the oxygen requirements of multicellular organisms like human beings?
+    Ans: Because their cells are not all in direct contact with the environment, and the volume of the body is large, so the distance oxygen would have to diffuse is too great. Diffusion is too slow to supply every cell, which is why special respiratory and transport systems are needed.
+
+Q3. [Short · 2 marks] Name the raw materials and the products of photosynthesis, and write the overall equation.
+    Ans: Raw materials: carbon dioxide from the air and water absorbed from the soil, using chlorophyll and sunlight. Products: glucose (stored as starch) and oxygen. Overall: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ in the presence of sunlight and chlorophyll.
+
+Q4. [Short · 3 marks] Why is the rate of breathing in aquatic organisms much faster than in terrestrial organisms?
+    Ans: Because the amount of dissolved oxygen in water is far lower than the oxygen in air. Aquatic animals must therefore pass a larger volume of water over their gills per unit time to obtain enough oxygen, which makes the breathing rate faster.
+
+Q5. [Short · 3 marks] What are the differences between aerobic and anaerobic respiration? Name two organisms that use anaerobic respiration.
+    Ans:
+      Aerobic occurs in the presence of oxygen, in the mitochondria, giving CO2 and H2O and a large amount of energy.
+      Anaerobic occurs without oxygen in the cytoplasm, giving ethanol and CO2 (yeast) or lactic acid (muscles), and much less energy.
+      Organisms: yeast, some bacteria and parasitic worms such as Taenia; human muscle cells respire anaerobically temporarily.
+
+Q6. [Short · 3 marks] Draw a labelled diagram of the human excretory system, or describe the working of a nephron.
+    Ans:
+      Kidneys → ureters → urinary bladder → urethra.
+      Nephron: blood enters the glomerulus under pressure inside Bowman's capsule, where water, glucose, amino acids, salts and urea are filtered into the tubule (ultrafiltration).
+      As the filtrate moves down the tubule, useful substances and most water are selectively reabsorbed; the remaining fluid, now urine, collects in the collecting duct and passes into the ureter.
+
+Q7. [Application · 3 marks] Riya is revising “Life Processes” (Nutrition, respiration, transport and excretion — four systems, four diagrams). A classmate lost marks by doing this: Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Four systems, four words: Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion).
+      Why the mistake costs marks: Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Life Processes”: “Name the functional unit of the kidney and the pigment that absorbs light energy in plants.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Nutrition, respiration, transport and excretion — four systems, four diagrams.
+      Nephron; chlorophyll.
+
+Q9. [Short · 3 marks] Describe how water and minerals are transported in plants.
+    Ans:
+      Root hair cells absorb water and dissolved minerals from the soil by osmosis and active transport.
+      They pass into the xylem vessels, which form a continuous tube from the roots to the leaves.
+      Loss of water vapour through the stomata (transpiration) creates a suction pull that lifts the water column upward; no energy is spent by the plant.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Life Processes”. Their note says: Maintenance. Living organisms constantly repair and renew their structures using energy from outside. The processes that maintain life are nutrition, respiration, transport and excretion. Growth and movement are not by themselves proof of life — a breathing person in a coma is alive; a growing cry
+    
+    The chapter is described as: Nutrition, respiration, transport and excretion — four systems, four diagrams.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Nutrition, respiration, transport and excretion — four systems, four diagrams.
+      (b) –5 marks. Almost always a labelled diagram (human respiratory or excretory system, or the nephron) plus one 3-mark reasoning question.
+      (c) Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Name the functional unit of the kidney and the pigment that absorbs light energy in plants.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Nephron; chlorophyll.
+      (c) Four systems, four words: Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion).
+
+Q12. [Application · 4 marks] Explain double circulation in human beings and state why it is advantageous.
+    Ans:
+      Blood passes through the heart twice during one complete round of the body.
+      Pulmonary circuit: right side of the heart → lungs (oxygenation) → left side of the heart.
+      Systemic circuit: left side → body organs → right side of the heart.
+      Because oxygenated and deoxygenated blood stay separate, tissues receive blood with the maximum possible oxygen, which supports the high energy needs of a warm-blooded body.
+
+Q13. [Long · 5 marks] Explain the process of nutrition in human beings, from ingestion to egestion.
+    Ans:
+      Mouth: teeth chew the food; salivary amylase begins the breakdown of starch into simpler sugars.
+      Oesophagus: peristaltic movements push the food to the stomach.
+      Stomach: HCl makes the medium acidic for pepsin to digest proteins, kills germs, and mucus protects the stomach wall.
+      Small intestine: the site of complete digestion — bile from the liver emulsifies fat, pancreatic trypsin acts on proteins, lipase on fats, and intestinal enzymes convert carbohydrates to glucose and proteins to amino acids; the finger-like villi absorb the digested food into the blood.
+      Large intestine and anus: water is absorbed from the undigested food and the waste is egested.
+
+Q14. [Long · 5 marks] Discuss “Life Processes” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Maintenance. Living organisms constantly repair and renew their structures using energy from outside. The processes that maintain life are nutrition, respiration, transport and excretion. Growth and movement are not by themselves proof of life — a breathing person in a coma is alive; a growing crystal is not.
+      Marks lens: –5 marks. Almost always a labelled diagram (human respiratory or excretory system, or the nephron) plus one 3-mark reasoning question.
+      Method / memory trick: Four systems, four words: Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion).
+      Do not: Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The kidneys in human beings are a part of the system for: (a) nutrition (b) respiration (c) excretion (d) transportation
+    Ans: (c) excretion — they remove nitrogenous waste (urea and uric acid) from the blood.
+
+M2. Which of the following is not a function of the stomach? (a) killing bacteria (b) digestion of protein (c) absorption of digested food (d) protection of the stomach wall by mucus
+    Ans: (c). Absorption of digested food occurs mainly in the small intestine through the villi.
+
+M3. The breakdown of pyruvate to give CO2, water and energy takes place in the: (a) cytoplasm (b) mitochondria (c) chloroplast (d) nucleus
+    Ans: (b) mitochondria. Glycolysis (glucose → pyruvate) occurs in the cytoplasm; the further oxidation of pyruvate is mitochondrial.
+
+M4. The most exam-ready way to revise “Life Processes” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Nutrition, respiration, transport and excretion — four systems, four diagrams.
+
+M5. A 3-mark answer on “Life Processes” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. Photosynthesis in a leaf takes place inside the: (a) mitochondria  (b) chloroplast  (c) ribosome  (d) vacuole
+    Ans: (b) chloroplast. Chloroplasts contain the green pigment chlorophyll that traps light energy.
+
+M7. Which of these is an autotroph? (a) mushroom  (b) Cuscuta  (c) green plant  (d) human being
+    Ans: (c) green plant. It prepares its own food by photosynthesis; Cuscuta is a parasite and fungi are saprotrophs.
+
+M8. The main nitrogenous waste filtered out by the kidneys is: (a) carbon dioxide  (b) urea  (c) glucose  (d) glycogen
+    Ans: (b) urea. It is filtered out of blood in the nephrons along with water and salts to form urine.
+
+========================================================================
+CHAPTER 6 · Control and Coordination
+Unit: II · World of Living
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Name the largest part of the human brain and the hormone secreted by the pancreas.
+    Ans: Cerebrum; insulin.
+
+Q2. [Short · 2 marks] Why is the use of iodised salt advisable?
+    Ans: Iodine is essential for the synthesis of thyroxin by the thyroid gland. A shortage of iodine causes the gland to swell, producing goitre, and can lead to mental and physical disability in children, so iodised salt ensures an adequate intake.
+
+Q3. [Short · 2 marks] How does phototropism occur in plants?
+    Ans: Auxin is synthesised at the tip of the shoot and diffuses to the shaded side of the stem. There it causes the cells to elongate more than on the illuminated side, so the stem bends toward the light.
+
+Q4. [Short · 2 marks] Name the plant hormone responsible for cell elongation and the one that ripens fruit.
+    Ans: Auxin causes cell elongation and is responsible for the bending of a shoot towards light. Ethylene is a gaseous hormone that promotes the ripening of fruits.
+
+Q5. [Short · 3 marks] Draw a labelled diagram of a neuron, or explain how a nerve impulse travels across a synapse.
+    Ans:
+      A neuron has a cell body with dendrites, a long axon, and branching nerve endings.
+      When the impulse reaches the nerve ending, an electrical signal is converted into a chemical — a neurotransmitter is released into the synaptic gap.
+      The chemical diffuses across the gap and triggers a new electrical impulse in the next neuron's dendrite, so the impulse travels in one direction only.
+
+Q6. [Short · 3 marks] What is a reflex arc? Why are reflex actions important?
+    Ans:
+      A reflex arc is the path followed by a nerve impulse during a reflex action: receptor → sensory neuron → spinal cord (relay neuron) → motor neuron → effector.
+      They are important because they are immediate and do not require the brain to think, so they protect the body from sudden injury such as heat, sharp objects or bright light.
+
+Q7. [Application · 3 marks] Riya is revising “Control and Coordination” (Nervous system, reflex arc, plant hormones and animal hormones). A classmate lost marks by doing this: Drawing the reflex arc through the brain. It passes through the spinal cord only. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Reflex arc order: Receptor → Sensory → (Spine) → Motor → Effector. 'Red Sun Shines More Energetically'.
+      Why the mistake costs marks: Drawing the reflex arc through the brain. It passes through the spinal cord only.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Control and Coordination”: “Name the largest part of the human brain and the hormone secreted by the pancreas.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Nervous system, reflex arc, plant hormones and animal hormones.
+      Cerebrum; insulin.
+
+Q9. [Short · 3 marks] Explain how the nervous and endocrine systems work together, using adrenaline as the example.
+    Ans:
+      The nervous system gives a fast, point-to-point electrical message; hormones give a slower, longer-lasting chemical message.
+      In a frightening situation the brain signals the adrenal medulla, which releases adrenaline into the blood.
+      Adrenaline increases heart rate and breathing, and diverts blood to the skeletal muscles — the ‘fight or flight’ response — so the whole body reacts, not just one muscle.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Control and Coordination”. Their note says: Two ways of coordinating. Nervous coordination uses electrical impulses and is fast but short-lived and reaches only selected cells; chemical (hormonal) coordination is slower, slower to act but longer-lasting and reaches every cell through the blood. Plants rely mainly on chemical coordination and 
+    
+    The chapter is described as: Nervous system, reflex arc, plant hormones and animal hormones.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Nervous system, reflex arc, plant hormones and animal hormones.
+      (b) –3 marks. Reflex arc and the hormone tables are the recurring questions; a labelled diagram of the neuron or the reflex arc is common.
+      (c) Drawing the reflex arc through the brain. It passes through the spinal cord only.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Name the largest part of the human brain and the hormone secreted by the pancreas.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Cerebrum; insulin.
+      (c) Reflex arc order: Receptor → Sensory → (Spine) → Motor → Effector. 'Red Sun Shines More Energetically'.
+
+Q12. [Application · 4 marks] Describe the feedback mechanism that keeps blood sugar level steady.
+    Ans:
+      When the glucose level in blood rises, the pancreas releases insulin, which makes body cells take up glucose and the liver convert the excess into glycogen.
+      As the level falls, the pancreas reduces insulin and secretes glucagon, which converts the stored glycogen back into glucose.
+      This is a negative feedback loop. If insulin secretion fails, the blood sugar stays high — the condition called diabetes.
+
+Q13. [Long · 5 marks] Describe the parts of the human brain and their functions.
+    Ans:
+      Forebrain — contains the cerebrum, the main thinking part, which controls voluntary actions, memory, intelligence and the senses; it also contains centres for hunger and smell.
+      Midbrain — controls involuntary actions such as the change in the size of the pupil.
+      Hindbrain — pons helps regulate respiration; the medulla controls involuntary actions such as blood pressure, salivation and vomiting; the cerebellum maintains posture and balance and makes voluntary movements precise, such as walking in a straight line or picking up a pencil.
+      The whole brain is protected by the cranium, meninges and the shock-absorbing cerebrospinal fluid.
+
+Q14. [Long · 5 marks] Discuss “Control and Coordination” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Two ways of coordinating. Nervous coordination uses electrical impulses and is fast but short-lived and reaches only selected cells; chemical (hormonal) coordination is slower, slower to act but longer-lasting and reaches every cell through the blood. Plants rely mainly on chemical coordination and on growth movements.
+      Marks lens: –3 marks. Reflex arc and the hormone tables are the recurring questions; a labelled diagram of the neuron or the reflex arc is common.
+      Method / memory trick: Reflex arc order: Receptor → Sensory → (Spine) → Motor → Effector. 'Red Sun Shines More Energetically'.
+      Do not: Drawing the reflex arc through the brain. It passes through the spinal cord only.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The gap between two neurons is called: (a) dendrite (b) synapse (c) axon (d) impulse
+    Ans: (b) synapse — the junction where a neurotransmitter carries the signal across.
+
+M2. Which plant hormone is a growth inhibitor? (a) auxin (b) gibberellin (c) cytokinin (d) abscisic acid
+    Ans: (d) abscisic acid — it inhibits growth and causes wilting of leaves and the closing of stomata.
+
+M3. The part of the brain that maintains the posture and balance of the body is: (a) cerebrum (b) cerebellum (c) pons (d) medulla
+    Ans: (b) cerebellum. It also makes voluntary movements precise; alcohol affects it, which is why a drunk person staggers.
+
+M4. The most exam-ready way to revise “Control and Coordination” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Nervous system, reflex arc, plant hormones and animal hormones.
+
+M5. A 3-mark answer on “Control and Coordination” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The hormone that regulates the body's metabolic rate is: (a) insulin  (b) thyroxine  (c) growth hormone  (d) adrenaline
+    Ans: (b) thyroxine. Secreted by the thyroid gland; iodine is needed to make it, and its deficiency causes goitre.
+
+M7. The part of a neuron that receives the impulse is the: (a) axon  (b) dendrite  (c) cell body  (d) myelin sheath
+    Ans: (b) dendrite. Dendrites receive signals; the axon carries the impulse away towards the next neuron.
+
+M8. In a reflex action the impulse is processed in the: (a) cerebrum  (b) spinal cord  (c) cerebellum  (d) medulla only
+    Ans: (b) spinal cord. Because the brain is not involved in the decision, the response is quick and automatic.
+
+========================================================================
+CHAPTER 7 · How do Organisms Reproduce?
+Unit: II · World of Living
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Where does fertilisation occur in human beings, and which gland secretes testosterone?
+    Ans: Fertilisation occurs in the fallopian tube (oviduct); testosterone is secreted by the testes.
+
+Q2. [Short · 2 marks] Why are the testes located outside the abdominal cavity in the scrotum?
+    Ans: Because sperm formation requires a temperature 2–3 °C lower than the normal body temperature. The scrotum, being outside the abdomen, maintains this lower temperature.
+
+Q3. [Short · 2 marks] List two advantages of vegetative propagation.
+    Ans: It is a quick and cheap method of multiplying plants, and the new plants are genetically identical to the parent, so desirable qualities such as fruit size and taste are retained. Plants that do not produce viable seeds, like banana and rose, can also be propagated this way.
+
+Q4. [Short · 2 marks] Why is variation useful to a species, and how does sexual reproduction produce it?
+    Ans: Sexual reproduction combines DNA from two different individuals, so offspring differ from both parents. Variation means that when the environment changes or a disease strikes, some individuals are likely to survive, the population is not wiped out, and natural selection has raw material to work on.
+
+Q5. [Short · 3 marks] Explain regeneration in Planaria with a diagram description.
+    Ans:
+      If a Planaria is cut into several pieces, each piece can grow into a complete organism.
+      Specialised cells at the wound surface proliferate (multiply) to form a mass of cells.
+      These cells then move to their proper positions and redifferentiate into the various tissues and organs needed, so a whole new organism develops from the fragment.
+
+Q6. [Short · 3 marks] Distinguish between pollination and fertilisation.
+    Ans:
+      Pollination is the transfer of pollen grains from the anther to the stigma of the same or another flower of the same species; it needs an external agent such as wind, water or insects.
+      Fertilisation is the fusion of the male gamete from the pollen tube with the female gamete (egg) inside the ovule, forming a zygote. It occurs inside the ovary and needs no external agent.
+
+Q7. [Application · 3 marks] Riya is revising “How do Organisms Reproduce?” (Asexual modes, the human reproductive system, and reproductive health). A classmate lost marks by doing this: Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Fission vs fragmentation vs regeneration: one cell splits = fission; body breaks into pieces = fragmentation; a cut part grows into a whole = regeneration.
+      Why the mistake costs marks: Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “How do Organisms Reproduce?”: “Where does fertilisation occur in human beings, and which gland secretes testosterone?” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Asexual modes, the human reproductive system, and reproductive health.
+      Fertilisation occurs in the fallopian tube (oviduct); testosterone is secreted by the testes.
+
+Q9. [Short · 3 marks] Describe what happens in a flower after fertilisation.
+    Ans:
+      The male gamete fuses with the egg to form a zygote, which develops into an embryo.
+      The ovule becomes the seed and its wall becomes the seed coat.
+      The ovary grows into the fruit, while the petals, sepals and stamens wither and fall off.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “How do Organisms Reproduce?”. Their note says: Why DNA copying matters. Reproduction produces a new organism from an existing one, and the DNA in the nucleus is copied first. Copying is not perfectly accurate, so variations arise. Small variations help a species survive changing conditions; large ones may be lethal. Reproduction is therefore ess
+    
+    The chapter is described as: Asexual modes, the human reproductive system, and reproductive health.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Asexual modes, the human reproductive system, and reproductive health.
+      (b) –3 marks. One asexual reproduction comparison and one question on the human reproductive system or contraception.
+      (c) Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Where does fertilisation occur in human beings, and which gland secretes testosterone?” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Fertilisation occurs in the fallopian tube (oviduct); testosterone is secreted by the testes.
+      (c) Fission vs fragmentation vs regeneration: one cell splits = fission; body breaks into pieces = fragmentation; a cut part grows into a whole = regeneration.
+
+Q12. [Application · 4 marks] Describe the menstrual cycle and state what happens when the egg is not fertilised.
+    Ans:
+      Roughly once every 28 days one egg matures in an ovary and is released around day 14 (ovulation).
+      Meanwhile the lining of the uterus thickens and develops blood vessels to receive a fertilised egg.
+      If the egg is not fertilised, the thickened lining is no longer needed, breaks down, and is shed along with blood through the vagina for about three to five days — menstruation.
+
+Q13. [Long · 5 marks] Describe the structure and working of the human female reproductive system.
+    Ans:
+      Ovaries — a pair of glands that produce the female gamete (ovum) and the hormone oestrogen.
+      Fallopian tubes (oviducts) — tubes with finger-like ends near the ovary and ciliated walls; the egg is captured here and fertilisation takes place in the tube.
+      Uterus — a muscular bag where the fertilised egg implants and the embryo develops.
+      Cervix and vagina — the cervix is the narrow opening of the uterus; the vagina is the passage through which sperm enter and the baby is delivered.
+      Every month the uterus prepares a thick, spongy lining to receive a fertilised egg. If no fertilisation occurs, the lining breaks down and is discharged as blood and mucus through the vagina — this is menstruation. After fertilisation, the embryo is nourished by the mother's blood through the placenta.
+
+Q14. [Long · 5 marks] Discuss “How do Organisms Reproduce?” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Why DNA copying matters. Reproduction produces a new organism from an existing one, and the DNA in the nucleus is copied first. Copying is not perfectly accurate, so variations arise. Small variations help a species survive changing conditions; large ones may be lethal. Reproduction is therefore essential for the species, not for the survival of the individual organism.
+      Marks lens: –3 marks. One asexual reproduction comparison and one question on the human reproductive system or contraception.
+      Method / memory trick: Fission vs fragmentation vs regeneration: one cell splits = fission; body breaks into pieces = fragmentation; a cut part grows into a whole = regeneration.
+      Do not: Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Binary fission in amoeba begins with the division of the: (a) cytoplasm (b) nucleus (c) cell membrane (d) pseudopodia
+    Ans: (b) nucleus. The nucleus divides first, followed by the division of the cytoplasm into two daughter cells.
+
+M2. The anther contains: (a) sepals (b) ovules (c) carpel (d) pollen grains
+    Ans: (d) pollen grains. The anther is the male reproductive part; ovules are inside the ovary.
+
+M3. Which of the following is a barrier method of contraception? (a) oral pill (b) copper-T (c) condom (d) vasectomy
+    Ans: (c) condom. It physically prevents the sperm from meeting the egg and also reduces the risk of sexually transmitted diseases.
+
+M4. The most exam-ready way to revise “How do Organisms Reproduce?” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Asexual modes, the human reproductive system, and reproductive health.
+
+M5. A 3-mark answer on “How do Organisms Reproduce?” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. Which of these is an asexual mode of reproduction? (a) budding in yeast  (b) pollination  (c) fertilisation  (d) seed germination
+    Ans: (a) budding in yeast. Asexual modes include budding, binary fission, fragmentation, spore formation and vegetative propagation.
+
+M7. Sperms are produced in the: (a) penis  (b) testes  (c) vas deferens  (d) seminal vesicles
+    Ans: (b) testes. They are formed in the seminiferous tubules, where the temperature is about 2–3 °C below body temperature.
+
+M8. Sterilisation in human beings means: (a) preventing ovulation with pills  (b) surgically blocking the gamete ducts  (c) killing germs  (d) using a condom
+    Ans: (b) surgically blocking the gamete ducts. Vasectomy in males and tubectomy in females prevent gametes from meeting.
+
+========================================================================
+CHAPTER 8 · Heredity
+Unit: II · World of Living
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?
+    Ans: XY; the gene (a segment of DNA on a chromosome).
+
+Q2. [Short · 2 marks] A man with blood group A marries a woman with blood group O and their daughter has blood group O. Is this enough to tell which trait is dominant? Why?
+    Ans: No. From one family we cannot tell. If A were dominant, the father could be heterozygous (IAi) and the daughter could inherit i from both parents; but a single observation does not establish dominance, which requires studying many such crosses.
+
+Q3. [Short · 2 marks] Distinguish between acquired and inherited traits, with one example of each.
+    Ans: An acquired trait develops during an organism's lifetime due to experience or environment and is not passed on — for example, a wrestler's well-developed muscles or a pierced ear. An inherited trait is present from birth and is passed on through the DNA of germ cells — for example, the colour of eyes or free ear lobes.
+
+Q4. [Short · 2 marks] Distinguish between genotype and phenotype with an example.
+    Ans: Genotype is the genetic constitution of an organism (for example Tt), while phenotype is the observable character it produces (for example a tall plant). Because the tall allele is dominant, the genotypes TT and Tt both give the tall phenotype.
+
+Q5. [Short · 3 marks] Explain Mendel's monohybrid cross with a Punnett square.
+    Ans:
+      Pure tall (TT) × pure dwarf (tt). Gametes: T and t. F1: all Tt — tall, because tall is dominant and dwarf is recessive.
+      Selfing F1 (Tt × Tt) gives gametes T and t from each parent. Punnett square → TT, Tt, Tt, tt.
+      Phenotype: 3 tall : 1 dwarf. Genotype: 1 TT : 2 Tt : 1 tt. The dwarf character was only masked in F1, not lost.
+
+Q6. [Short · 3 marks] How is the sex of a child determined in human beings? Show diagrammatically.
+    Ans:
+      Mother (XX) produces only X-bearing eggs; father (XY) produces X-bearing and Y-bearing sperms in equal numbers.
+      X egg + X sperm → XX = girl; X egg + Y sperm → XY = boy.
+      The probability of either is 50%, so the sex of the child is decided by chance and not by either parent's wish or action.
+
+Q7. [Application · 3 marks] Riya is revising “Heredity” (Mendel's monohybrid and dihybrid crosses, and sex determination). A classmate lost marks by doing this: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.
+      Why the mistake costs marks: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Heredity”: “What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Mendel's monohybrid and dihybrid crosses, and sex determination.
+      XY; the gene (a segment of DNA on a chromosome).
+
+Q9. [Short · 3 marks] A tall pea plant (Tt) is crossed with a dwarf plant (tt). What proportion of the progeny will be tall?
+    Ans:
+      The tall parent produces two kinds of gametes, T and t; the dwarf parent produces only t.
+      Combining them gives Tt, Tt, tt and tt.
+      So half the progeny are Tt (tall) and half are tt (dwarf) — a 1 : 1 ratio. This cross with a recessive parent is called a test cross.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Heredity”. Their note says: The basis of heredity. Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the gene, a segment of DNA on a chromosome. Each character has a pair of alleles, one from each parent. A dominant allele expresses itself in the F1 generation; the rece
+    
+    The chapter is described as: Mendel's monohybrid and dihybrid crosses, and sex determination.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Mendel's monohybrid and dihybrid crosses, and sex determination.
+      (b) –3 marks. A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.
+      (c) Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) XY; the gene (a segment of DNA on a chromosome).
+      (c) 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.
+
+Q12. [Application · 4 marks] A family blames the mother whenever a daughter is born. Using what you know about sex determination, write the reply you would give them.
+    Ans:
+      Human females have two X chromosomes, so every egg carries an X chromosome.
+      Human males have one X and one Y, so half their sperm carry X and half carry Y.
+      An X-bearing sperm fertilising the egg gives XX, a girl; a Y-bearing sperm gives XY, a boy. The egg always contributes an X, so it is the sperm — that is, the father — that decides the sex of the child.
+      Repeated daughters in a family are a matter of chance, exactly like repeated tails when a coin is tossed; there is no biological basis for blaming the mother.
+
+Q13. [Long · 5 marks] Describe Mendel's dihybrid cross and state the conclusion drawn from it.
+    Ans:
+      He crossed pea plants with round-yellow seeds (RRYY) with plants having wrinkled-green seeds (rryy).
+      F1: all plants had round-yellow seeds (RrYy) — round and yellow are dominant.
+      On self-pollinating F1, F2 gave four phenotypes: 9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green (16 combinations in the 4×4 Punnett square).
+      Conclusion: the two pairs of characters are inherited independently of each other, which is why new combinations (round-green and wrinkled-green) appear in F2 that were absent in the parents. This is the law of independent assortment.
+
+Q14. [Long · 5 marks] Discuss “Heredity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      The basis of heredity. Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the gene, a segment of DNA on a chromosome. Each character has a pair of alleles, one from each parent. A dominant allele expresses itself in the F1 generation; the recessive allele is masked and reappears in F2. Genotype is the genetic make-up (TT, Tt, tt); phenotype is what appears (tal.
+      Marks lens: –3 marks. A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.
+      Method / memory trick: 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.
+      Do not: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. In a monohybrid cross between a tall (TT) and a dwarf (tt) pea plant, the F2 phenotypic ratio is: (a) 1:1 (b) 3:1 (c) 9:3:3:1 (d) 1:2:1
+    Ans: (b) 3 tall : 1 dwarf. 1:2:1 is the genotypic ratio of the same cross.
+
+M2. The sex of a human child is determined by: (a) the mother's egg (b) the father's sperm (c) both parents equally (d) the diet of the mother
+    Ans: (b) the father's sperm. Eggs always carry X; a sperm carrying Y produces a boy and one carrying X produces a girl.
+
+M3. A cross between F1 hybrid tall plants (Tt × Tt) gives dwarf plants in F2. The expected ratio of tall to dwarf is: (a) 1:3 (b) 3:1 (c) 1:1 (d) 2:2
+    Ans: (b) 3:1 — 25% of F2 are homozygous dwarf (tt).
+
+M4. The most exam-ready way to revise “Heredity” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Mendel's monohybrid and dihybrid crosses, and sex determination.
+
+M5. A 3-mark answer on “Heredity” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The phenotypic ratio obtained in a dihybrid cross between two F₁ hybrids is: (a) 3 : 1  (b) 9 : 3 : 3 : 1  (c) 1 : 1  (d) 1 : 2 : 1
+    Ans: (b) 9 : 3 : 3 : 1. Mendel obtained this for two independently assorting traits, such as seed shape and seed colour.
+
+M7. Which of these traits can be inherited? (a) the cut tail of a mouse  (b) large muscles built by exercise  (c) eye colour  (d) a scar
+    Ans: (c) eye colour. Only changes in the DNA of reproductive cells are passed to the next generation; acquired changes in body cells are not.
+
+M8. The number of chromosomes in a human zygote is: (a) 23  (b) 46  (c) 92  (d) 22
+    Ans: (b) 46. Each gamete carries 23 chromosomes and their fusion restores the 23 pairs.
+
+========================================================================
+CHAPTER 9 · Light — Reflection and Refraction
+Unit: III · Natural Phenomena
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] State the mirror formula and the SI unit of the power of a lens.
+    Ans: 1/v + 1/u = 1/f. The SI unit of power is the dioptre (D), equal to 1 m⁻¹.
+
+Q2. [Short · 2 marks] Why is a convex mirror preferred as a rear-view mirror in vehicles?
+    Ans: Because it always gives an erect, virtual and diminished image, and it has a wider field of view than a plane mirror, so the driver can see a much larger area of the traffic behind.
+
+Q3. [Short · 2 marks] A lens of power −4.0 D is placed in the path of light. Find its focal length and identify it.
+    Ans: P = 1/f, so f = 1/(−4.0) = −0.25 m = −25 cm. Negative focal length means it is a concave (diverging) lens.
+
+Q4. [Short · 2 marks] Define the principal focus of a concave mirror and relate it to the radius of curvature.
+    Ans: The principal focus is the point on the principal axis where rays parallel to the axis meet (or appear to meet) after reflection. For a spherical mirror the focus lies midway between the pole and the centre of curvature, so f = R/2.
+
+Q5. [Short · 3 marks] An object 4 cm high is placed 25 cm in front of a concave mirror of focal length 15 cm. Find the position, nature and size of the image.
+    Ans:
+      u = −25 cm, f = −15 cm. Using 1/v + 1/u = 1/f: 1/v = 1/(−15) − 1/(−25) = (−5 + 3)/75 = −2/75.
+      So v = −37.5 cm — the image forms 37.5 cm in front of the mirror, hence real and inverted.
+      m = −v/u = −(−37.5)/(−25) = −1.5, so h' = −1.5 × 4 = −6 cm: the image is 6 cm tall, inverted, and magnified.
+
+Q6. [Short · 3 marks] Draw a ray diagram for an object placed between C and F of a concave mirror and state the nature of the image.
+    Ans:
+      Draw the principal axis with P, F and C marked. Place the object (an arrow) between C and F.
+      Ray 1: parallel to the axis, reflected through F. Ray 2: through F, reflected parallel to the axis. (A third ray through C retraces its path.)
+      The rays meet beyond C, so the image is real, inverted and magnified. This is the arrangement used in a shaving or makeup mirror when the object is close.
+
+Q7. [Application · 3 marks] Riya is revising “Light — Reflection and Refraction” (Ray diagrams, mirror and lens formulas, magnification and power). A classmate lost marks by doing this: Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Sign convention: distances measured against the direction of the incident light (to the left of the pole) are negative. Object distance u is always negative. For a concave mirror f is negative; for a convex mirror and a convex lens f is positive; a concave lens has negative f.
+      Why the mistake costs marks: Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Light — Reflection and Refraction”: “State the mirror formula and the SI unit of the power of a lens.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Ray diagrams, mirror and lens formulas, magnification and power.
+      /v + 1/u = 1/f. The SI unit of power is the dioptre (D), equal to 1 m⁻¹.
+
+Q9. [Short · 3 marks] An object 5 cm tall is placed 30 cm from a convex lens of focal length 20 cm. Find the position, size and nature of the image.
+    Ans:
+      Using the lens formula 1/f = 1/v − 1/u with f = +20 cm and u = −30 cm:
+      1/v = 1/20 − 1/30 = (3 − 2)/60 = 1/60, so v = 60 cm.
+      Magnification m = v/u = 60/(−30) = −2, so h₂ = m × h₁ = −2 × 5 = −10 cm.
+      The image is real, inverted and twice the size, formed 60 cm on the other side of the lens.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Light — Reflection and Refraction”. Their note says: Reflection. Light travelling in a straight line bounces back on striking a polished surface. Laws of reflection: the angle of incidence equals the angle of reflection, and the incident ray, reflected ray and normal at the point of incidence all lie in the same plane. A plane mirror always forms a vi
+    
+    The chapter is described as: Ray diagrams, mirror and lens formulas, magnification and power.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Ray diagrams, mirror and lens formulas, magnification and power.
+      (b) –4 marks. One ray diagram, one numerical on the mirror or lens formula, and one question on magnification or power.
+      (c) Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “State the mirror formula and the SI unit of the power of a lens.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) /v + 1/u = 1/f. The SI unit of power is the dioptre (D), equal to 1 m⁻¹.
+      (c) Sign convention: distances measured against the direction of the incident light (to the left of the pole) are negative. Object distance u is always negative. For a concave mirror f is negative; for a convex mirror and a convex lens f is positive; a concave lens has negative f.
+
+Q12. [Long · 4 marks] State the sign convention used for spherical mirrors and lenses, and apply it to a concave mirror.
+    Ans:
+      All distances are measured from the pole (mirror) or the optical centre (lens).
+      Distances measured in the direction of the incident light are positive and those against it are negative; heights above the principal axis are positive and those below are negative.
+      In practice the object distance u is always negative, the focal length of a concave mirror and of a concave lens is negative, and that of a convex mirror and a convex lens is positive.
+
+Q13. [Long · 5 marks] State the laws of refraction and solve: light enters from air into glass (n = 1.5) with an angle of incidence of 30°. Find the angle of refraction and the speed of light in glass.
+    Ans:
+      Laws: (i) the incident ray, the refracted ray and the normal at the point of incidence lie in the same plane; (ii) for a given pair of media and a given colour, sin i / sin r is constant (Snell's law).
+      Angle of refraction: sin r = sin i / n = 0.5/1.5 = 0.3333, so r ≈ 19.5° — the ray bends toward the normal.
+      Speed in glass: v = c/n = (3 × 10⁸)/1.5 = 2 × 10⁸ m/s.
+
+Q14. [Long · 5 marks] Discuss “Light — Reflection and Refraction” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Reflection. Light travelling in a straight line bounces back on striking a polished surface. Laws of reflection: the angle of incidence equals the angle of reflection, and the incident ray, reflected ray and normal at the point of incidence all lie in the same plane. A plane mirror always forms a virtual, erect image, the same size as the object, at the same distance behind the mirror, and laterally inverted.
+      Marks lens: –4 marks. One ray diagram, one numerical on the mirror or lens formula, and one question on magnification or power.
+      Method / memory trick: Sign convention: distances measured against the direction of the incident light (to the left of the pole) are negative. Object distance u is always negative. For a concave mirror f is negative; for a convex mirror and a convex lens f is positive; a concave lens has negative f.
+      Do not: Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The magnification produced by a rear-view mirror fitted in vehicles is: (a) less than one (b) more than one (c) equal to one (d) more than one or less than one depending on the position of the object
+    Ans: (a) less than one. A convex mirror always forms a diminished, virtual and erect image.
+
+M2. Where should an object be placed in front of a convex lens to get a real image of the same size? (a) at F (b) at 2F (c) at infinity (d) between F and 2F
+    Ans: (b) at 2F — the image forms at 2F on the other side, real, inverted and of the same size.
+
+M3. The refractive index of water is 1.33. The speed of light in water is: (a) 3 × 10⁸ m/s (b) 2.26 × 10⁸ m/s (c) 1.33 × 10⁸ m/s (d) 4 × 10⁸ m/s
+    Ans: (b) 2.26 × 10⁸ m/s. v = c/n = (3 × 10⁸)/1.33.
+
+M4. The most exam-ready way to revise “Light — Reflection and Refraction” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Ray diagrams, mirror and lens formulas, magnification and power.
+
+M5. A 3-mark answer on “Light — Reflection and Refraction” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The power of a convex lens of focal length 50 cm is: (a) +2 D  (b) −2 D  (c) +0.5 D  (d) −0.5 D
+    Ans: (a) +2 D. P = 1/f in metres = 1/0.5 = +2 D; a converging lens always has positive power.
+
+M7. Which mirror always forms an erect and diminished image? (a) plane  (b) concave  (c) convex  (d) parabolic
+    Ans: (c) convex. Its image is always virtual, erect and smaller, which is why it is used as a rear-view mirror.
+
+M8. When a ray of light goes from glass into air, it: (a) bends towards the normal  (b) bends away from the normal  (c) does not bend  (d) is totally absorbed
+    Ans: (b) bends away from the normal. Moving from a denser to a rarer medium, the ray speeds up and bends away from the normal.
+
+M9. An object is placed 20 cm in front of a concave mirror of focal length 10 cm. The image is formed: (a) 10 cm in front of the mirror  (b) 20 cm in front of the mirror  (c) 20 cm behind the mirror  (d) at infinity
+    Ans: (b) 20 cm in front of the mirror. The object is at C (2f = 20 cm), so the image is also at C, real, inverted and the same size. Mirror formula: 1/v = 1/f − 1/u = −1/10 + 1/20 = −1/20, v = −20 cm.
+
+M10. A ray of light enters a denser medium along the normal (angle of incidence 0°). It: (a) bends towards the normal  (b) bends away from the normal  (c) passes undeviated  (d) is totally reflected
+    Ans: (c) passes undeviated. Refraction changes the speed but there is no bending when the ray is along the normal, because sin 0° = 0 on both sides of Snell's law.
+
+M11. The image formed by a concave lens of a real object is always: (a) real and inverted  (b) virtual, erect and diminished  (c) virtual, erect and magnified  (d) real and magnified
+    Ans: (b) virtual, erect and diminished. A diverging lens forms the image between F₁ and the optical centre on the same side as the object, whatever the object distance.
+
+========================================================================
+CHAPTER 10 · The Human Eye and the Colourful World
+Unit: III · Natural Phenomena
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Name the part of the eye that controls the amount of light entering it, and the least distance of distinct vision for a normal eye.
+    Ans: The iris (which adjusts the size of the pupil); 25 cm.
+
+Q2. [Short · 2 marks] Why do stars twinkle but planets do not?
+    Ans: Starlight passes through layers of air of changing refractive index, so its path keeps changing slightly and the apparent brightness and position fluctuate — the star twinkles. Planets are much nearer and behave as a collection of many point sources, so the fluctuations from different parts cancel out and the total light remains steady.
+
+Q3. [Short · 2 marks] Why does the sun appear reddish early in the morning?
+    Ans: Because near the horizon sunlight travels through a much thicker layer of air. The shorter blue wavelengths are scattered away, and mainly the longer red wavelengths reach our eyes, so the sun looks red. At noon the path is short, little blue light is scattered, and the sun looks white.
+
+Q4. [Short · 2 marks] What is the power of accommodation of the eye?
+    Ans: It is the ability of the eye lens to change its focal length — by the action of the ciliary muscles — so that both near and distant objects are focused sharply on the retina. In a normal eye the near point is about 25 cm and the far point is infinity.
+
+Q5. [Short · 3 marks] What is myopia? State its two causes and its correction.
+    Ans:
+      Myopia (short-sightedness) is the defect in which a person can see nearby objects clearly but cannot see distant objects distinctly; the image of a distant object forms in front of the retina.
+      Causes: (i) excessive curvature of the eye lens, (ii) elongation of the eyeball.
+      Correction: a concave lens of suitable power, which diverges the light so that the image is formed exactly on the retina.
+
+Q6. [Short · 3 marks] Explain the formation of a rainbow in the sky.
+    Ans:
+      After rain, tiny water droplets remain suspended in the air and act as small glass prisms.
+      Sunlight entering a droplet is first refracted and dispersed into its constituent colours, then undergoes total internal reflection at the inner surface of the droplet, and is refracted again as it leaves.
+      Because different colours emerge at slightly different angles, the observer sees a coloured arc — a rainbow — with the sun always behind them.
+
+Q7. [Application · 3 marks] Riya is revising “The Human Eye and the Colourful World” (Defects of vision, dispersion, atmospheric refraction and scattering). A classmate lost marks by doing this: Drawing the corrective lens on the wrong side of the eye diagram, or labelling the image position incorrectly (in front for myopia, behind for hypermetropia). Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Myopia = image in front = concave lens. 'My-o-pia → My oh, I can't see far → Concave.'
+      Why the mistake costs marks: Drawing the corrective lens on the wrong side of the eye diagram, or labelling the image position incorrectly (in front for myopia, behind for hypermetropia).
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “The Human Eye and the Colourful World”: “Name the part of the eye that controls the amount of light entering it, and the least distance of distinct vision for a normal eye.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Defects of vision, dispersion, atmospheric refraction and scattering.
+      The iris (which adjusts the size of the pupil); 25 cm.
+
+Q9. [Short · 3 marks] What is presbyopia? State its cause and how it is corrected.
+    Ans:
+      Presbyopia is the loss of the eye's power of accommodation with age: the ciliary muscles weaken and the lens becomes less flexible.
+      As a result the near point recedes and reading or threading a needle becomes difficult.
+      It is corrected with converging (convex) spectacles; when a person has both myopia and presbyopia, bifocal lenses are used.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “The Human Eye and the Colourful World”. Their note says: The eye as a camera. Cornea — most of the refraction happens here. Iris — the dark muscular diaphragm that controls the size of the pupil and hence the amount of light entering. Crystalline lens — a convex lens of adjustable focal length; ciliary muscles change its curvature, so a clear image is for
+    
+    The chapter is described as: Defects of vision, dispersion, atmospheric refraction and scattering.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Defects of vision, dispersion, atmospheric refraction and scattering.
+      (b) –3 marks. Myopia/hypermetropia with a labelled diagram is the single most repeated question in Physics.
+      (c) Drawing the corrective lens on the wrong side of the eye diagram, or labelling the image position incorrectly (in front for myopia, behind for hypermetropia).
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Name the part of the eye that controls the amount of light entering it, and the least distance of distinct vision for a normal eye.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) The iris (which adjusts the size of the pupil); 25 cm.
+      (c) Myopia = image in front = concave lens. 'My-o-pia → My oh, I can't see far → Concave.'
+
+Q12. [Application · 4 marks] Explain why the sky looks blue and the sun looks white at noon but red at sunrise.
+    Ans:
+      Air molecules and fine particles scatter light of short wavelength much more strongly than long wavelength light (scattering ∝ 1/λ⁴).
+      Blue light is scattered the most, so light reaching the eye from all parts of the sky is rich in blue.
+      At noon the sun is overhead and its light crosses the shortest possible path, so very little blue is removed and the sun looks white.
+      Near sunrise and sunset the path through the atmosphere is much longer, most of the blue is scattered away, and the remaining direct light looks red.
+
+Q13. [Long · 5 marks] Explain atmospheric refraction and describe any three phenomena based on it.
+    Ans:
+      Atmospheric refraction is the bending of light as it passes through layers of air of different densities; the refractive index of air decreases as we go up, so light from a celestial body bends gradually toward the normal.
+      (1) Twinkling of stars: the continuously changing refractive index makes the apparent position and brightness of a star fluctuate.
+      (2) Advance of sunrise and delay of sunset: light from the sun below the horizon is refracted toward the earth, so the sun becomes visible about two minutes before actual sunrise and remains visible about two minutes after sunset — the day is lengthened by about 4 minutes.
+      (3) Apparent flattening of the sun's disc at sunrise and sunset, and stars appearing slightly higher than their true position, are also caused by the same refraction.
+
+Q14. [Long · 5 marks] Discuss “The Human Eye and the Colourful World” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      The eye as a camera. Cornea — most of the refraction happens here. Iris — the dark muscular diaphragm that controls the size of the pupil and hence the amount of light entering. Crystalline lens — a convex lens of adjustable focal length; ciliary muscles change its curvature, so a clear image is formed on the retina for objects at all distances. This is the power of accommodation. The image on the retina is real and.
+      Marks lens: –3 marks. Myopia/hypermetropia with a labelled diagram is the single most repeated question in Physics.
+      Method / memory trick: Myopia = image in front = concave lens. 'My-o-pia → My oh, I can't see far → Concave.'
+      Do not: Drawing the corrective lens on the wrong side of the eye diagram, or labelling the image position incorrectly (in front for myopia, behind for hypermetropia).
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The change in focal length of the eye lens is caused by the action of the: (a) pupil (b) retina (c) ciliary muscles (d) iris
+    Ans: (c) ciliary muscles — they change the curvature of the crystalline lens, giving the eye its power of accommodation.
+
+M2. The danger signals installed at the top of tall buildings are red because red light: (a) is scattered the most by smoke or fog (b) is scattered the least by smoke or fog (c) is absorbed the most (d) moves fastest in air
+    Ans: (b) is scattered the least — being of the longest wavelength, so it can be seen from a greater distance through fog or smoke.
+
+M3. A person cannot read a newspaper without glasses. He is probably suffering from: (a) myopia (b) hypermetropia (c) astigmatism (d) night blindness
+    Ans: (b) hypermetropia — difficulty in seeing near objects clearly, corrected with a convex lens.
+
+M4. The most exam-ready way to revise “The Human Eye and the Colourful World” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Defects of vision, dispersion, atmospheric refraction and scattering.
+
+M5. A 3-mark answer on “The Human Eye and the Colourful World” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The eye defect in which the far point is nearer than infinity is: (a) hypermetropia  (b) myopia  (c) presbyopia  (d) cataract
+    Ans: (b) myopia. Short-sightedness is corrected with a diverging (concave) lens.
+
+M7. The splitting of white light into its component colours is called: (a) scattering  (b) dispersion  (c) total internal reflection  (d) polarisation
+    Ans: (b) dispersion. Different wavelengths bend by different amounts inside a prism, so the colours separate.
+
+M8. Stars twinkle mainly because of: (a) atmospheric refraction  (b) dispersion  (c) reflection from clouds  (d) their own flickering
+    Ans: (a) atmospheric refraction. Moving layers of air of changing density bend the starlight by varying amounts, so its apparent position shifts rapidly.
+
+M9. The least distance of distinct vision for a young adult with normal vision is about: (a) 2.5 cm  (b) 25 cm  (c) 25 m  (d) infinity
+    Ans: (b) 25 cm. This is the near point; the far point of a normal eye is at infinity.
+
+M10. The clear sky appears blue because: (a) blue light is absorbed the most  (b) shorter wavelengths are scattered more by air molecules  (c) the sea reflects blue light upwards  (d) the atmosphere refracts blue light towards the eye
+    Ans: (b) shorter wavelengths are scattered more by air molecules. Fine particles scatter blue light far more than red, so scattered blue reaches the eye from every direction.
+
+M11. A student with myopia is prescribed a lens of power −2.0 D. The lens is: (a) convex, focal length 50 cm  (b) concave, focal length 50 cm  (c) concave, focal length 2 m  (d) convex, focal length 2 m
+    Ans: (b) concave, focal length 50 cm. f = 1/P = 1/(−2) m = −0.5 m; the negative sign means a concave (diverging) lens, which corrects myopia.
+
+========================================================================
+CHAPTER 11 · Electricity
+Unit: IV · Effects of Current
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Define one ohm and name the device used to measure potential difference.
+    Ans: One ohm is the resistance of a conductor when a potential difference of 1 volt across its ends produces a current of 1 ampere through it. Potential difference is measured with a voltmeter, connected in parallel.
+
+Q2. [Short · 2 marks] Why are the coils of electric toasters and electric irons made of an alloy rather than a pure metal?
+    Ans: Because alloys have higher resistivity than the pure metals, so they produce more heat for the same current, and they do not oxidise (burn) readily at high temperatures.
+
+Q3. [Short · 2 marks] An electric iron of rating 750 W, 220 V is used for 2 hours daily. Calculate the cost of using it for 30 days at ₹5 per unit.
+    Ans:
+      Energy per day = P × t = 750 W × 2 h = 1500 Wh = 1.5 kWh.
+      Energy for 30 days = 1.5 × 30 = 45 kWh = 45 units.
+      Cost = 45 × ₹5 = ₹225.
+
+Q4. [Short · 2 marks] Why are household appliances connected in parallel and not in series?
+    Ans: In a parallel circuit every appliance gets the full supply voltage and works independently, so switching one off does not affect the others and a fault in one branch does not stop the rest — none of which is possible in a series circuit.
+
+Q5. [Short · 3 marks] State Ohm's law and draw the V–I graph for an ohmic conductor.
+    Ans:
+      At constant temperature, the current flowing through a conductor is directly proportional to the potential difference across its ends: V = IR, where R is the resistance.
+      The graph of V against I is a straight line passing through the origin; its slope (V/I) gives the resistance of the conductor.
+
+Q6. [Short · 3 marks] Three resistors of 2 Ω, 3 Ω and 6 Ω are connected in parallel. Find the equivalent resistance.
+    Ans:
+      1/Rp = 1/2 + 1/3 + 1/6 = (3 + 2 + 1)/6 = 6/6 = 1.
+      So Rp = 1 Ω — less than the smallest resistor (2 Ω), as expected for a parallel combination.
+
+Q7. [Application · 3 marks] Riya is revising “Electricity” (Ohm's law, series and parallel circuits, heating effect and power). A classmate lost marks by doing this: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.
+      Why the mistake costs marks: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Electricity”: “Define one ohm and name the device used to measure potential difference.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Ohm's law, series and parallel circuits, heating effect and power.
+      One ohm is the resistance of a conductor when a potential difference of 1 volt across its ends produces a current of 1 ampere through it. Potential difference is measured with a voltmeter, connected in parallel.
+
+Q9. [Short · 3 marks] Resistors of 4 Ω and 12 Ω are connected in parallel and the combination is joined to a 6 V battery. Find the equivalent resistance and the current drawn from the battery.
+    Ans:
+      1/Rₚ = 1/4 + 1/12 = (3 + 1)/12 = 4/12, so Rₚ = 3 Ω.
+      Current I = V/R = 6/3 = 2 A.
+      Check: the branch currents are 6/4 = 1.5 A and 6/12 = 0.5 A, which add to 2 A. Note the equivalent resistance is less than the smaller resistor.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Electricity”. Their note says: Electric current and potential difference. Current I = Q/t, measured in amperes with an ammeter connected in series. Potential difference V = W/Q, measured in volts with a voltmeter connected in parallel; 1 volt = 1 joule per coulomb. By convention current flows from the positive to the negative ter
+    
+    The chapter is described as: Ohm's law, series and parallel circuits, heating effect and power.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Ohm's law, series and parallel circuits, heating effect and power.
+      (b) –4 marks. A series or parallel circuit numerical is almost certain, plus one question on the heating effect or on power rating.
+      (c) Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Define one ohm and name the device used to measure potential difference.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) One ohm is the resistance of a conductor when a potential difference of 1 volt across its ends produces a current of 1 ampere through it. Potential difference is measured with a voltmeter, connected in parallel.
+      (c) Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.
+
+Q12. [Application · 4 marks] A 100 W bulb and a 60 W bulb are both rated at 220 V. Which has the higher resistance, and what current does each draw?
+    Ans:
+      Using R = V²/P: R₁₀₀ = 220²/100 = 484 Ω and R₆₀ = 220²/60 ≈ 806.7 Ω.
+      So the 60 W bulb has the higher resistance — the lower-power bulb resists the current more.
+      Currents: I = P/V, so the 100 W bulb draws 100/220 ≈ 0.45 A and the 60 W bulb draws 60/220 ≈ 0.27 A.
+
+Q13. [Long · 5 marks] A 4 Ω resistor and a 6 Ω resistor are connected in series with a 20 V battery. Find the total resistance, the current, the potential difference across each resistor, and the heat produced in the 4 Ω resistor in 1 minute.
+    Ans:
+      Total resistance Rs = 4 + 6 = 10 Ω.
+      Current I = V/R = 20/10 = 2 A — the same through both resistors.
+      Potential differences: across 4 Ω, V = 2 × 4 = 8 V; across 6 Ω, V = 2 × 6 = 12 V. (8 + 12 = 20 V ✓)
+      Heat in the 4 Ω resistor H = I²Rt = (2)² × 4 × 60 = 960 J.
+
+Q14. [Long · 5 marks] Discuss “Electricity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Electric current and potential difference. Current I = Q/t, measured in amperes with an ammeter connected in series. Potential difference V = W/Q, measured in volts with a voltmeter connected in parallel; 1 volt = 1 joule per coulomb. By convention current flows from the positive to the negative terminal, opposite to the flow of electrons. A cell maintains the potential difference that drives the charge.
+      Marks lens: –4 marks. A series or parallel circuit numerical is almost certain, plus one question on the heating effect or on power rating.
+      Method / memory trick: Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.
+      Do not: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The least resistance that can be obtained by combining 2 Ω, 4 Ω, 1 Ω and 100 Ω is: (a) more than 100 Ω (b) less than 1 Ω (c) 107 Ω (d) between 2 Ω and 100 Ω
+    Ans: (b) less than 1 Ω. Connecting all four in parallel gives an equivalent resistance smaller than the smallest individual resistance, 1 Ω.
+
+M2. Two wires of the same material and length but different cross-sectional areas are compared. The thicker wire has: (a) more resistance (b) less resistance (c) the same resistance (d) no resistance
+    Ans: (b) less resistance, since R = ρl/A and a larger area of cross-section reduces the resistance.
+
+M3. The commercial unit of electrical energy is: (a) joule (b) watt (c) kilowatt-hour (d) volt
+    Ans: (c) kilowatt-hour (kWh), equal to 3.6 × 10⁶ J, and commonly called a 'unit'.
+
+M4. The most exam-ready way to revise “Electricity” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Ohm's law, series and parallel circuits, heating effect and power.
+
+M5. A 3-mark answer on “Electricity” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The resistance of a wire doubles when: (a) its length is doubled  (b) its area of cross-section is doubled  (c) its length is halved  (d) its diameter is doubled
+    Ans: (a) its length is doubled. R ∝ l/A; doubling the area halves R, doubling the diameter reduces R to a quarter.
+
+M7. One kilowatt hour equals: (a) 3.6 × 10⁶ J  (b) 3.6 × 10³ J  (c) 360 J  (d) 6 × 10µ J
+    Ans: (a) 3.6 × 10⁶ J. 1 kWh = 1000 W × 3600 s = 3,600,000 J.
+
+M8. An ammeter is connected in a circuit: (a) in series  (b) in parallel  (c) across the supply  (d) either way
+    Ans: (a) in series. It has very low resistance so it does not change the current; a voltmeter is connected in parallel.
+
+M9. A 12 V battery drives a current of 2 A through a resistor. The resistance of the resistor is: (a) 24 Ω  (b) 6 Ω  (c) 0.17 Ω  (d) 14 Ω
+    Ans: (b) 6 Ω. Ohm's law: R = V/I = 12/2 = 6 Ω.
+
+M10. Three 6 Ω resistors are connected in parallel. Their equivalent resistance is: (a) 18 Ω  (b) 6 Ω  (c) 2 Ω  (d) 3 Ω
+    Ans: (c) 2 Ω. 1/R = 1/6 + 1/6 + 1/6 = 3/6, so R = 2 Ω — equal resistors in parallel give R/n.
+
+M11. A 100 W bulb is used for 10 hours every day. The electrical energy it consumes in 30 days is: (a) 3 kWh  (b) 30 kWh  (c) 300 kWh  (d) 3000 kWh
+    Ans: (b) 30 kWh. Energy = power × time = 0.1 kW × 10 h × 30 = 30 kWh, i.e. 30 units.
+
+========================================================================
+CHAPTER 12 · Magnetic Effects of Electric Current
+Unit: IV · Effects of Current
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] State Fleming's right-hand rule.
+    Ans: Stretch the thumb, forefinger and middle finger of the right hand so that they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the thumb in the direction of motion of the conductor, the middle finger gives the direction of the induced current.
+
+Q2. [Short · 2 marks] Why do two magnetic field lines never intersect each other?
+    Ans: Because at the point of intersection there would be two directions of the magnetic field for a single point, which is impossible — a compass needle placed there could not point in two directions at once.
+
+Q3. [Short · 2 marks] Differentiate between an AC generator and a DC generator.
+    Ans: An AC generator uses two complete slip rings, and the current it produces reverses direction periodically (50 Hz in India). A DC generator uses a split-ring commutator, so although the current in the coil reverses, the current in the external circuit always flows in one direction.
+
+Q4. [Short · 2 marks] State the rule used to find the direction of the magnetic field around a straight current-carrying conductor.
+    Ans: Right-hand thumb rule: imagine holding the conductor in your right hand with the thumb pointing along the current; the direction in which your fingers curl around the conductor is the direction of the magnetic field lines, which are concentric circles around the wire.
+
+Q5. [Short · 3 marks] Explain the principle and working of an electric motor.
+    Ans:
+      Principle: a current-carrying conductor placed in a magnetic field experiences a force, given by Fleming's left-hand rule.
+      Working: a rectangular coil ABCD is placed between the poles of a magnet. When current flows, one arm is pushed up and the other down, so the coil rotates.
+      The split-ring commutator reverses the direction of current in the coil after every half rotation, so the coil keeps rotating in the same direction.
+      Uses: electric fans, mixers, washing machines and pumps.
+
+Q6. [Short · 3 marks] What is electromagnetic induction? Describe an activity to demonstrate it.
+    Ans:
+      When the magnetic field linked with a coil changes, a current is induced in the coil — this is electromagnetic induction.
+      Activity: connect a galvanometer to a coil. Push a bar magnet's north pole into the coil and the galvanometer needle deflects momentarily in one direction; pull it out and it deflects in the opposite direction; hold it still inside and there is no deflection.
+      The deflection shows that a current is induced only when the magnetic flux through the coil is changing, i.e. only while the magnet is in relative motion.
+
+Q7. [Application · 3 marks] Riya is revising “Magnetic Effects of Electric Current” (Field patterns, the three hand rules, the motor and the generator). A classmate lost marks by doing this: Saying field lines run from south to north outside a magnet. Outside it is north to south. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Left hand = Motor, Right hand = Generator. 'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.
+      Why the mistake costs marks: Saying field lines run from south to north outside a magnet. Outside it is north to south.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Magnetic Effects of Electric Current”: “State Fleming's right-hand rule.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Field patterns, the three hand rules, the motor and the generator.
+      Stretch the thumb, forefinger and middle finger of the right hand so that they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the thumb in the direction of motion of the conductor, the middle finger gives the direction of the induced current.
+
+Q9. [Short · 3 marks] How does the strength of the magnetic field at the centre of a current-carrying circular coil depend on the current, the number of turns and the radius of the coil?
+    Ans:
+      It is directly proportional to the current flowing through the coil.
+      It is directly proportional to the number of turns, because the field of each turn adds up.
+      It is inversely proportional to the radius of the coil, so a smaller coil gives a stronger field. This is the principle behind electromagnets and solenoids.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Magnetic Effects of Electric Current”. Their note says: Magnetic field and field lines. A magnetic field is the region around a magnet in which its force can be detected. Field lines are closed continuous curves — outside a bar magnet they run from the north to the south pole and inside from south to north. Two field lines never intersect (that would mea
+    
+    The chapter is described as: Field patterns, the three hand rules, the motor and the generator.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Field patterns, the three hand rules, the motor and the generator.
+      (b) –3 marks. Fleming's left-hand and right-hand rules and the difference between AC and DC are asked repeatedly.
+      (c) Saying field lines run from south to north outside a magnet. Outside it is north to south.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “State Fleming's right-hand rule.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Stretch the thumb, forefinger and middle finger of the right hand so that they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the thumb in the direction of motion of the conductor, the middle finger gives the direction of the induced current.
+      (c) Left hand = Motor, Right hand = Generator. 'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.
+
+Q12. [Application · 4 marks] Explain the working of an electric generator, including the role of slip rings and the commutator.
+    Ans:
+      A coil is rotated mechanically in a magnetic field, so the magnetic flux linked with it keeps changing and an induced current is produced (electromagnetic induction).
+      The direction of the induced current reverses every half rotation, which is found by Fleming's right-hand rule.
+      In an AC generator two slip rings keep the coil connected to the external circuit without reversing the connections, so the output is alternating current.
+      A DC generator replaces them with a split-ring commutator, which reverses the connection to the external circuit every half turn so the output flows in one direction.
+
+Q13. [Long · 5 marks] Describe a domestic electric circuit and explain the function of the earth wire and the fuse.
+    Ans:
+      The supply has three wires: live (red, at about 220 V), neutral (black, at zero potential) and earth (green).
+      Appliances are connected in parallel so that each receives the full supply voltage, each has its own switch, and the failure of one does not affect the others. Separate 15 A and 5 A circuits are provided for heavy and light appliances.
+      Earth wire: the metallic body of an appliance is connected to a metal plate buried in the earth, so if the live wire touches the body the leakage current flows safely into the ground instead of through a person — preventing a fatal shock.
+      Fuse: a short piece of wire of low melting point connected in series with the appliance. If the current exceeds the safe value, the fuse wire melts and breaks the circuit, protecting the appliance from damage due to overloading or short circuiting.
+
+Q14. [Long · 5 marks] Discuss “Magnetic Effects of Electric Current” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Magnetic field and field lines. A magnetic field is the region around a magnet in which its force can be detected. Field lines are closed continuous curves — outside a bar magnet they run from the north to the south pole and inside from south to north. Two field lines never intersect (that would mean two directions of force at one point). The relative strength is shown by how close the lines are.
+      Marks lens: –3 marks. Fleming's left-hand and right-hand rules and the difference between AC and DC are asked repeatedly.
+      Method / memory trick: Left hand = Motor, Right hand = Generator. 'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.
+      Do not: Saying field lines run from south to north outside a magnet. Outside it is north to south.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The direction of the magnetic field produced by a straight current-carrying wire is given by: (a) Fleming's left-hand rule (b) Fleming's right-hand rule (c) the right-hand thumb rule (d) Lenz's law
+    Ans: (c) the right-hand thumb rule — hold the wire in the right hand with the thumb along the current; the curled fingers give the direction of the field lines.
+
+M2. The essential difference between an AC generator and a DC generator is: (a) AC generator has an electromagnet (b) DC generator has a commutator (c) AC generator has slip rings while DC generator has a commutator (d) AC generator produces more power
+    Ans: (c). The slip rings of an AC generator allow the output to reverse, while the split-ring commutator of a DC generator keeps the external current in one direction.
+
+M3. The frequency of AC supply in India is 50 Hz. The direction of the current changes: (a) 50 times per second (b) 100 times per second (c) 25 times per second (d) 200 times per second
+    Ans: (b) 100 times per second — the direction reverses twice in each cycle.
+
+M4. The most exam-ready way to revise “Magnetic Effects of Electric Current” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Field patterns, the three hand rules, the motor and the generator.
+
+M5. A 3-mark answer on “Magnetic Effects of Electric Current” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The magnetic field lines inside a long current-carrying solenoid are: (a) concentric circles  (b) parallel straight lines  (c) diverging curves  (d) absent
+    Ans: (b) parallel straight lines. The field inside a solenoid is nearly uniform, like the field inside a bar magnet.
+
+M7. An electric motor converts: (a) electrical energy into mechanical energy  (b) mechanical energy into electrical energy  (c) heat into light  (d) chemical energy into sound
+    Ans: (a) electrical energy into mechanical energy. A generator does the reverse conversion.
+
+M8. The insulation on the earth wire in a domestic circuit is: (a) red  (b) black  (c) green  (d) blue
+    Ans: (c) green. Live is red or brown, neutral is black or blue, and earth is green or green-yellow.
+
+M9. The magnetic field at a point near a long straight current-carrying wire: (a) increases as you move away from the wire  (b) decreases as you move away from the wire  (c) does not depend on the current  (d) is zero everywhere around the wire
+    Ans: (b) decreases as you move away from the wire. The concentric field lines get farther apart with distance; the field is stronger for a larger current and closer to the wire.
+
+M10. Fleming's left-hand rule gives the direction of the: (a) induced current in a coil  (b) magnetic field due to a current  (c) force on a current-carrying conductor in a magnetic field  (d) current produced by a generator
+    Ans: (c) force on a current-carrying conductor in a magnetic field. Forefinger = field, middle finger = current, thumb = force (motor). The right-hand rule is for generators.
+
+M11. The production of a current in a closed coil by a changing magnetic field is called: (a) electromagnetic induction  (b) magnetic effect of current  (c) electrolysis  (d) electrostatic induction
+    Ans: (a) electromagnetic induction. Faraday's discovery — the basis of the electric generator; the induced current direction is given by Fleming's right-hand rule.
+
+========================================================================
+CHAPTER 13 · Our Environment
+Unit: V · Natural Resources
+========================================================================
+
+A. WRITTEN QUESTIONS (13)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Name the organisms that always occupy the first trophic level of a food chain, and define an ecosystem.
+    Ans: Green plants and blue-green algae (producers). An ecosystem is a self-sustaining system in which all the living organisms of an area interact with each other and with the non-living (abiotic) components such as soil, water and air.
+
+Q2. [Short · 2 marks] Why are some substances biodegradable and some non-biodegradable?
+    Ans: Because micro-organisms such as bacteria and fungi produce enzymes that can break down only certain substances like paper, wood and vegetable waste. Substances such as plastic, glass and DDT cannot be acted upon by these enzymes, so they remain in the environment for a very long time and are called non-biodegradable.
+
+Q3. [Application · 2 marks] Suggest two ways to reduce the problem of waste disposal.
+    Ans: Segregate waste at the source and send biodegradable waste for composting or vermicomposting; and practise the 5 R's — refuse what is unnecessary, reduce consumption, reuse containers, repurpose items, and recycle paper, plastic, glass and metal.
+
+Q4. [Short · 2 marks] Distinguish between a food chain and a food web.
+    Ans: A food chain is a single linear sequence showing who eats whom, for example grass → grasshopper → frog → snake. A food web is a network of many interconnected food chains in an ecosystem; because each organism can feed at more than one level, the web is far more stable than a single chain.
+
+Q5. [Short · 3 marks] In a food chain, if 10,000 joules of solar energy is available to the producers, how much energy will be available to the secondary consumer?
+    Ans:
+      Producers convert about 1% of the solar energy into food energy, but taking 10,000 J as the energy in the producers: primary consumer receives 10% = 1,000 J.
+      Secondary consumer receives 10% of 1,000 J = 100 J.
+
+Q6. [Short · 3 marks] What is ozone? How is it formed, and why is damage to the ozone layer a cause for concern?
+    Ans:
+      Ozone is a molecule of oxygen with three atoms, O3, found in the upper atmosphere.
+      Formation: ultraviolet radiation splits an oxygen molecule into free oxygen atoms, O2 →(UV) 2O; each free atom combines with an oxygen molecule to form ozone, O + O2 → O3.
+      Concern: the ozone layer absorbs harmful ultraviolet radiation from the sun. Its depletion, caused mainly by CFCs from refrigerators, air conditioners and aerosols, allows more UV to reach the earth, causing skin cancer, damage to the eyes, reduced crop yields and harm to marine organisms. The Montreal Protocol of 1987 froze CFC production to protect it.
+
+Q7. [Application · 3 marks] Riya is revising “Our Environment” (Food chains, the 10% law, ozone depletion and waste management). A classmate lost marks by doing this: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: 10% calculation: move the decimal one place to the left at each level going up, and one place to the right going down.
+      Why the mistake costs marks: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Short · 3 marks] Explain the role of decomposers in an ecosystem.
+    Ans:
+      Decomposers such as bacteria and fungi break down the dead bodies of plants and animals and their wastes into simple inorganic substances.
+      These substances — mineral salts, carbon dioxide and water — go back into the soil and air and are reused by the producers.
+      They also clean up the environment. Without decomposers nutrients would stay locked in dead matter and the cycling of matter would stop.
+
+Q9. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Our Environment”. Their note says: Ecosystem. All the living organisms (biotic) in an area together with the non-living (abiotic) components — temperature, rainfall, wind, soil and minerals — form an ecosystem. Producers (green plants and blue-green algae) make their own food; consumers depend on them (herbivores, carnivores, omnivor
+    
+    The chapter is described as: Food chains, the 10% law, ozone depletion and waste management.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Food chains, the 10% law, ozone depletion and waste management.
+      (b) –5 marks. A food-chain question with the 10% energy calculation, one on ozone depletion, and one on biodegradable waste or the two environmental problems.
+      (c) Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Name the organisms that always occupy the first trophic level of a food chain, and define an ecosystem.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Green plants and blue-green algae (producers). An ecosystem is a self-sustaining system in which all the living organisms of an area interact with each other and with the non-living (abiotic) components such as soil, water and air.
+      (c) 10% calculation: move the decimal one place to the left at each level going up, and one place to the right going down.
+
+Q11. [Competency · 4 marks] A village panchayat plans to burn its collected plastic waste in the open. Advise them, giving reasons from what you have studied about ecosystems.
+    Ans:
+      Open burning of plastic releases poisonous gases such as hydrogen chloride and dioxins into the air, harming people, animals and crops.
+      Plastics are non-biodegradable, so if they are buried or dumped they persist in the soil for decades and choke drains and the guts of animals.
+      Better: segregate waste at source, send recyclable plastic for recycling, compost the biodegradable fraction, and replace single-use plastic with cloth or paper bags.
+      This keeps harmful chemicals out of the soil and water, so they cannot enter food chains and build up by biological magnification.
+
+Q12. [Long · 5 marks] What is biological magnification? Will the level of magnification be different at different levels of the ecosystem?
+    Ans:
+      Biological magnification is the progressive increase in the concentration of non-biodegradable harmful chemicals at successive trophic levels of a food chain.
+      Yes, the level differs. Because these chemicals are not metabolised or excreted, they pass on to the next level, and the amount of food consumed at each level is large, so the concentration keeps increasing.
+      Example: DDT sprayed on crops is absorbed by plants; grasshoppers eating many plants accumulate more; frogs eating many grasshoppers more still; and hawks at the top accumulate the highest concentration. Human beings, being at the top of many food chains, are among the most affected.
+
+Q13. [Long · 5 marks] Discuss “Our Environment” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Ecosystem. All the living organisms (biotic) in an area together with the non-living (abiotic) components — temperature, rainfall, wind, soil and minerals — form an ecosystem. Producers (green plants and blue-green algae) make their own food; consumers depend on them (herbivores, carnivores, omnivores, parasites); decomposers (bacteria and fungi) break down dead organic matter and return nutrients to the soil. A pond.
+      Marks lens: –5 marks. A food-chain question with the 10% energy calculation, one on ozone depletion, and one on biodegradable waste or the two environmental problems.
+      Method / memory trick: 10% calculation: move the decimal one place to the left at each level going up, and one place to the right going down.
+      Do not: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. In the food chain Grass → Deer → Lion, if 10,000 J of energy is available to the grass, the energy available to the lion is: (a) 1000 J (b) 100 J (c) 10 J (d) 1 J
+    Ans: (b) 100 J. Grass 10,000 J → deer 1,000 J → lion 100 J (10% at each transfer).
+
+M2. The depletion of the ozone layer is mainly caused by: (a) CO2 (b) CFCs (c) methane (d) SO2
+    Ans: (b) CFCs — chlorofluorocarbons from refrigerators, air conditioners and fire extinguishers destroy ozone molecules.
+
+M3. Which of the following groups contains only biodegradable substances? (a) paper, plastic, wood (b) vegetable peels, paper, lime juice (c) glass, wood, plastic (d) lime juice, grass, aluminium foil
+    Ans: (b) — all three are broken down by the action of micro-organisms.
+
+M4. The most exam-ready way to revise “Our Environment” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Food chains, the 10% law, ozone depletion and waste management.
+
+M5. A 3-mark answer on “Our Environment” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The ‘10% law’ in an ecosystem describes the transfer of: (a) energy  (b) water  (c) minerals  (d) oxygen
+    Ans: (a) energy. Only about 10% of the energy at one trophic level is stored in the next; the rest is lost as heat and in life processes.
+
+M7. Which of these is a renewable resource? (a) coal  (b) petroleum  (c) sunlight  (d) natural gas
+    Ans: (c) sunlight. Coal, petroleum and natural gas are fossil fuels that take millions of years to form.
+
+M8. The ozone layer is being depleted mainly by: (a) CFCs  (b) methane  (c) nitrogen fertilisers  (d) carbon monoxide
+    Ans: (a) CFCs. Chlorofluorocarbons from refrigerants and aerosol sprays release chlorine atoms that destroy ozone molecules.

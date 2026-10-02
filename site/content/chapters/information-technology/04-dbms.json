@@ -64,7 +64,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Introduction to DBMS” (Data vs information, database, DBMS advantages, keys and types of database.). A classmate lost marks by doing this: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Introduction to DBMS” (Data vs information, database, DBMS advantages, keys and types of database). A classmate lost marks by doing this: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Primary key = unique + not empty. Roll number works; student name does not.",
           "Why the mistake costs marks: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course.",
@@ -111,7 +111,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Introduction to DBMS”. Their note says: Data are raw facts (Ravi, 78). Information is processed, useful data (“Ravi scored 78 in IT”).\n\nThe chapter is described as: Data vs information, database, DBMS advantages, keys and types of database..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Introduction to DBMS”. Their note says: Data are raw facts (Ravi, 78). Information is processed, useful data (“Ravi scored 78 in IT”).\n\nThe chapter is described as: Data vs information, database, DBMS advantages, keys and types of database.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Data vs information, database, DBMS advantages, keys and types of database.",
           "(b) Data vs information, advantages of DBMS, primary key — the opening trio.",
@@ -149,7 +149,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Introduction to DBMS” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Data vs information, database, DBMS advantages, keys and types of database.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Data vs information, database, DBMS advantages, keys and types of database."
       },
       {
         "q": "A 3-mark answer on “Introduction to DBMS” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -260,7 +260,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Tables in LibreOffice Base” (Create tables in Design View, data types, primary key, field properties.). A classmate lost marks by doing this: Forgetting to set the primary key — Base warns, some students click No. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Tables in LibreOffice Base” (Create tables in Design View, data types, primary key, field properties). A classmate lost marks by doing this: Forgetting to set the primary key — Base warns, some students click No. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Phone numbers are Text, not Integer — or you lose leading 0.",
           "Why the mistake costs marks: Forgetting to set the primary key — Base warns, some students click No.",
@@ -307,7 +307,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Tables in LibreOffice Base”. Their note says: Ways to create a table: Design View (exam method), Wizard, View/SQL. Use Design View.\n\nThe chapter is described as: Create tables in Design View, data types, primary key, field properties..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Tables in LibreOffice Base”. Their note says: Ways to create a table: Design View (exam method), Wizard, View/SQL. Use Design View.\n\nThe chapter is described as: Create tables in Design View, data types, primary key, field properties.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Create tables in Design View, data types, primary key, field properties.",
           "(b) Create a table with four fields, correct types, PK set.",
@@ -345,7 +345,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Tables in LibreOffice Base” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Create tables in Design View, data types, primary key, field properties.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Create tables in Design View, data types, primary key, field properties."
       },
       {
         "q": "A 3-mark answer on “Tables in LibreOffice Base” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -449,7 +449,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Relationships and Multiple Tables” (One-to-one, one-to-many, many-to-many; referential integrity.). A classmate lost marks by doing this: Drawing the relationship backwards (PK on the many side). Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Relationships and Multiple Tables” (One-to-one, one-to-many, many-to-many; referential integrity). A classmate lost marks by doing this: Drawing the relationship backwards (PK on the many side). Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: FK type must match PK type (both Integer, or both VARCHAR).",
           "Why the mistake costs marks: Drawing the relationship backwards (PK on the many side).",
@@ -495,7 +495,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Relationships and Multiple Tables”. Their note says: Why multiple tables: store each fact once. Student details in Student; issues in Issue; link by AdmNo.\n\nThe chapter is described as: One-to-one, one-to-many, many-to-many; referential integrity..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Relationships and Multiple Tables”. Their note says: Why multiple tables: store each fact once. Student details in Student; issues in Issue; link by AdmNo.\n\nThe chapter is described as: One-to-one, one-to-many, many-to-many; referential integrity.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) One-to-one, one-to-many, many-to-many; referential integrity.",
           "(b) Draw one-to-many (Student–Issue) with referential integrity.",
@@ -533,7 +533,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Relationships and Multiple Tables” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is One-to-one, one-to-many, many-to-many; referential integrity.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is One-to-one, one-to-many, many-to-many; referential integrity."
       },
       {
         "q": "A 3-mark answer on “Relationships and Multiple Tables” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -646,7 +646,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Queries in Base” (Design View queries, criteria, sorting, aliases and related-table queries.). A classmate lost marks by doing this: Editing query results and expecting the table design to change. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Queries in Base” (Design View queries, criteria, sorting, aliases and related-table queries). A classmate lost marks by doing this: Editing query results and expecting the table design to change. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Text criteria need quotes in some modes; in the grid Delhi is often enough — follow what the lab build accepts.",
           "Why the mistake costs marks: Editing query results and expecting the table design to change.",
@@ -692,7 +692,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Queries in Base”. Their note says: Query = a saved question: which fields, from which tables, matching which criteria, in which order.\n\nThe chapter is described as: Design View queries, criteria, sorting, aliases and related-table queries..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Queries in Base”. Their note says: Query = a saved question: which fields, from which tables, matching which criteria, in which order.\n\nThe chapter is described as: Design View queries, criteria, sorting, aliases and related-table queries.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Design View queries, criteria, sorting, aliases and related-table queries.",
           "(b) Practical: query with two criteria and a sort.",
@@ -730,7 +730,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Queries in Base” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Design View queries, criteria, sorting, aliases and related-table queries.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Design View queries, criteria, sorting, aliases and related-table queries."
       },
       {
         "q": "A 3-mark answer on “Queries in Base” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -825,7 +825,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Forms and Reports” (Data-entry forms and printable reports from tables or queries.). A classmate lost marks by doing this: Building a report on the whole table when the question said “students with marks > 80”. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Forms and Reports” (Data-entry forms and printable reports from tables or queries). A classmate lost marks by doing this: Building a report on the whole table when the question said “students with marks > 80”. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: If the report is empty, the query returned zero rows — fix criteria first.",
           "Why the mistake costs marks: Building a report on the whole table when the question said “students with marks > 80”.",
@@ -871,7 +871,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Forms and Reports”. Their note says: Form: on-screen layout for entering and editing records, one at a time, with labels and controls. Safer than raw datasheet (validation, no extra columns).\n\nThe chapter is described as: Data-entry forms and printable reports from tables or queries..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Forms and Reports”. Their note says: Form: on-screen layout for entering and editing records, one at a time, with labels and controls. Safer than raw datasheet (validation, no extra columns).\n\nThe chapter is described as: Data-entry forms and printable reports from tables or queries.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Data-entry forms and printable reports from tables or queries.",
           "(b) Practical often: form on Student + report from a query.",
@@ -909,7 +909,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Forms and Reports” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Data-entry forms and printable reports from tables or queries.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Data-entry forms and printable reports from tables or queries."
       },
       {
         "q": "A 3-mark answer on “Forms and Reports” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",

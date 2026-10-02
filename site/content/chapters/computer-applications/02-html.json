@@ -102,7 +102,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “HTML I — Introduction & Basic Tags” (What HTML is, the skeleton of a document, and the tags you use on every page.). A classmate lost marks by doing this: Putting <title> inside <body>. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “HTML I — Introduction & Basic Tags” (What HTML is, the skeleton of a document, and the tags you use on every page). A classmate lost marks by doing this: Putting <title> inside <body>. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: <title> lives in <head>, not <body>. This single fact is worth a mark in most papers.",
           "Why the mistake costs marks: Putting <title> inside <body>.",
@@ -114,7 +114,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “HTML I — Introduction & Basic Tags”: “Write an HTML page that displays the heading 'My School' and a paragraph about it.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: What HTML is, the skeleton of a document, and the tags you use on every page..",
+          "Idea: What HTML is, the skeleton of a document, and the tags you use on every page.",
           "<html> <head> <title>My School</title> </head> <body> <h1>My School</h1> <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p> </body> </html> The <title> sits inside <head> and names the browser tab; everything visible is inside <body>."
         ]
       },
@@ -132,7 +132,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML I — Introduction & Basic Tags”. Their note says: What HTML is. HTML stands for HyperText Markup Language. It is *not* a programming language — it has no variables, conditions or loops. It is a markup language: you surround content with tags that describe what the content *is*, and the browser decides how to display it. HTML files are saved with a \n\nThe chapter is described as: What HTML is, the skeleton of a document, and the tags you use on every page..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML I — Introduction & Basic Tags”. Their note says: What HTML is. HTML stands for HyperText Markup Language. It is *not* a programming language — it has no variables, conditions or loops. It is a markup language: you surround content with tags that describe what the content *is*, and the browser decides how to display it. HTML files are saved with a \n\nThe chapter is described as: What HTML is, the skeleton of a document, and the tags you use on every page.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) What HTML is, the skeleton of a document, and the tags you use on every page.",
           "(b) Write a complete HTML page by hand; give the purpose of a tag; predict the output of a snippet.",
@@ -180,7 +180,7 @@
       },
       {
         "q": "The most exam-ready way to revise “HTML I — Introduction & Basic Tags” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is What HTML is, the skeleton of a document, and the tags you use on every page.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is What HTML is, the skeleton of a document, and the tags you use on every page."
       },
       {
         "q": "A 3-mark answer on “HTML I — Introduction & Basic Tags” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -307,7 +307,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “HTML II — Text Formatting & Lists” (Bold, italic, alignment, colour — plus ordered, unordered and definition lists.). A classmate lost marks by doing this: Using <ul> when the output clearly shows numbers. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “HTML II — Text Formatting & Lists” (Bold, italic, alignment, colour — plus ordered, unordered and definition lists). A classmate lost marks by doing this: Using <ul> when the output clearly shows numbers. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: <ul> = bullets, <ol> = numbers. Both use <li>.",
           "Why the mistake costs marks: Using <ul> when the output clearly shows numbers.",
@@ -319,7 +319,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “HTML II — Text Formatting & Lists”: “Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Bold, italic, alignment, colour — plus ordered, unordered and definition lists..",
+          "Idea: Bold, italic, alignment, colour — plus ordered, unordered and definition lists.",
           "<html> <body> <ol type='I' start='3'> <li>Mathematics</li> <li>Science</li> <li>Social Science</li> <li>English</li> </ol> </body> </html> The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III."
         ]
       },
@@ -337,7 +337,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML II — Text Formatting & Lists”. Their note says: Style tags. <b> makes text bold, <i> makes it *italic*, <u> underlines it, <tt> shows typewriter text, <strike> draws a line through it. <sub> lowers text for chemical formulas like H<sub>2</sub>O, and <sup> raises it for powers like x<sup>2</sup>. <center> centres a block of content.\n\nThe chapter is described as: Bold, italic, alignment, colour — plus ordered, unordered and definition lists..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML II — Text Formatting & Lists”. Their note says: Style tags. <b> makes text bold, <i> makes it *italic*, <u> underlines it, <tt> shows typewriter text, <strike> draws a line through it. <sub> lowers text for chemical formulas like H<sub>2</sub>O, and <sup> raises it for powers like x<sup>2</sup>. <center> centres a block of content.\n\nThe chapter is described as: Bold, italic, alignment, colour — plus ordered, unordered and definition lists.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Bold, italic, alignment, colour — plus ordered, unordered and definition lists.",
           "(b) Produce a given visual output as HTML; name the attribute that does a given job.",
@@ -506,7 +506,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “HTML III — Links & Images” (The <a> tag, href, anchors, and the <img> tag with its attributes.). A classmate lost marks by doing this: Writing <img href=...> instead of <img src=...>. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “HTML III — Links & Images” (The <a> tag, href, anchors, and the <img> tag with its attributes). A classmate lost marks by doing this: Writing <img href=...> instead of <img src=...>. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: href for links, src for sources. <a href>, <img src>, <script src>.",
           "Why the mistake costs marks: Writing <img href=...> instead of <img src=...>.",
@@ -518,7 +518,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “HTML III — Links & Images”: “Write HTML to create a link to the CBSE website that opens in a new tab, and a link that emails the principal.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: The <a> tag, href, anchors, and the <img> tag with its attributes..",
+          "Idea: The <a> tag, href, anchors, and the <img> tag with its attributes.",
           "<a href='https://www.cbse.gov.in' target='_blank'>Visit CBSE</a> <br> <a href='mailto:principal@school.edu'>Email the Principal</a> The first uses an absolute URL and target='_blank' so it opens in a new tab. The second uses the mailto: prefix, which makes the browser open the user's email program with the address already filled in."
         ]
       },
@@ -536,7 +536,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML III — Links & Images”. Their note says: The anchor tag. <a href='destination'>text</a> creates a hyperlink. href (hypertext reference) holds the address of the destination. The destination can be another page on the same site, a page on another site, an email address using mailto:, or a place further down the same page.\n\nThe chapter is described as: The <a> tag, href, anchors, and the <img> tag with its attributes..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML III — Links & Images”. Their note says: The anchor tag. <a href='destination'>text</a> creates a hyperlink. href (hypertext reference) holds the address of the destination. The destination can be another page on the same site, a page on another site, an email address using mailto:, or a place further down the same page.\n\nThe chapter is described as: The <a> tag, href, anchors, and the <img> tag with its attributes.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) The <a> tag, href, anchors, and the <img> tag with its attributes.",
           "(b) Write a working link or image tag; explain the difference between absolute and relative paths.",
@@ -701,7 +701,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “HTML Tables” (<table>, <tr>, <td>, borders, and the two attributes that merge cells.). A classmate lost marks by doing this: Putting <td> directly inside <table> without a <tr>. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “HTML Tables” (<table>, <tr>, <td>, borders, and the two attributes that merge cells). A classmate lost marks by doing this: Putting <td> directly inside <table> without a <tr>. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: <tr> = row, <td> = cell. Rows contain cells, never the other way round.",
           "Why the mistake costs marks: Putting <td> directly inside <table> without a <tr>.",
@@ -713,7 +713,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “HTML Tables”: “Write HTML for a table with a merged title cell across two columns, a header row and one data row.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: <table>, <tr>, <td>, borders, and the two attributes that merge cells..",
+          "Idea: <table>, <tr>, <td>, borders, and the two attributes that merge cells.",
           "<table border='1' width='300'> <tr><th colspan='2'>Student Report</th></tr> <tr><th>Name</th><th>Marks</th></tr> <tr><td>Asha</td><td>88</td></tr> </table> The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two."
         ]
       },
@@ -744,7 +744,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML Tables”. Their note says: The structure. A table is built from three nested levels. <table> is the whole grid. Each <tr> is one row (think *t*able *r*ow). Each <td> is one cell or data column inside that row (think *t*able *d*ata). A table with three rows and two columns needs three <tr> blocks, each containing two <td> cell\n\nThe chapter is described as: <table>, <tr>, <td>, borders, and the two attributes that merge cells..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML Tables”. Their note says: The structure. A table is built from three nested levels. <table> is the whole grid. Each <tr> is one row (think *t*able *r*ow). Each <td> is one cell or data column inside that row (think *t*able *d*ata). A table with three rows and two columns needs three <tr> blocks, each containing two <td> cell\n\nThe chapter is described as: <table>, <tr>, <td>, borders, and the two attributes that merge cells.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) <table>, <tr>, <td>, borders, and the two attributes that merge cells.",
           "(b) Convert a drawn table into HTML and vice versa; explain rowspan and colspan.",
@@ -903,7 +903,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “HTML Forms” (<form>, every <input> type, <textarea>, <select> and the buttons.). A classmate lost marks by doing this: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “HTML Forms” (<form>, every <input> type, <textarea>, <select> and the buttons). A classmate lost marks by doing this: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Radios share a name; checkboxes do not. That one rule separates the two.",
           "Why the mistake costs marks: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose.",
@@ -915,7 +915,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “HTML Forms”: “Write an HTML form with a name field, a password field, two radio buttons for gender, a hobbies checkbox group, and submit and reset buttons.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: <form>, every <input> type, <textarea>, <select> and the buttons..",
+          "Idea: <form>, every <input> type, <textarea>, <select> and the buttons.",
           "<form action='/submit' method='post'> Name: <input type='text' name='uname'><br> Password: <input type='password' name='upass'><br> Gender: <input type='radio' name='gender' value='male'> Male <input type='radio' name='gender' value='female'> Female<br> Hobbies: <input type='checkbox' name='hobby' value='reading'> Reading <input type='checkbox' name='hobby' value='music'> Music<br> <input type='submit' value='Send'> <input type='reset' value='Clear'> </form> Both radio buttons share the name gender, so only one can be chosen; the two checkboxes are independent, so both can be ticked."
         ]
       },
@@ -953,7 +953,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML Forms”. Their note says: The form tag. <form> wraps every control. Its two important attributes are action, the URL that receives the data, and method, which is either get or post. GET appends the data to the URL as a query string, so it is visible, short and can be bookmarked — suitable for searches. POST sends the data in\n\nThe chapter is described as: <form>, every <input> type, <textarea>, <select> and the buttons..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML Forms”. Their note says: The form tag. <form> wraps every control. Its two important attributes are action, the URL that receives the data, and method, which is either get or post. GET appends the data to the URL as a query string, so it is visible, short and can be bookmarked — suitable for searches. POST sends the data in\n\nThe chapter is described as: <form>, every <input> type, <textarea>, <select> and the buttons.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) <form>, every <input> type, <textarea>, <select> and the buttons.",
           "(b) Write a complete form; name the input type for a given control; explain method and action.",

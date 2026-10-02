@@ -1,0 +1,116 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 18 · Health, Safety and Security at the Workplace · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 18 · Health, Safety and Security at the Workplace
+Unit: Part B · Healthy, Safe and Secure Working Environment
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Differentiate a hazard and an accident with an IT-lab example.
+    Ans: A hazard is a potential source of harm (a loose cable across the aisle). An accident is the event (a student trips and the monitor falls).
+
+Q2. [Short · 2 marks] List four electrical safety rules for a computer lab.
+    Ans: Dry hands; earthed plugs; no overloaded boards; don’t open the power supply; report frayed wires; use a surge protector.
+
+Q3. [Short · 2 marks] What is a hazard? Give two examples from a computer laboratory.
+    Ans: A hazard is anything in the workplace that can cause injury or ill health. In a computer laboratory the hazards include a trailing cable that can trip someone, a socket or adapter that is overloaded and can start a fire, a wet floor, and a chair with a broken back that can cause a fall.
+
+Q4. [Short · 2 marks] What is the difference between a hazard and a risk? Give one IT-lab example of each.
+    Ans:
+      A hazard is anything that can cause harm — for example, a trailing cable across the lab floor.
+      Risk is the chance that the harm actually happens — for example, the high risk that someone hurrying between PCs trips over that cable.
+      Safety work removes hazards first, then reduces the remaining risk with guards, rules and training.
+
+Q5. [Application · 3 marks] A student pours water on a sparking socket. Two mistakes and the correct actions.
+    Ans: Water on electrical fire; staying next to a live spark. Instead: don’t touch, switch off mains if safe, alert staff, use CO2/powder extinguisher, evacuate.
+
+Q6. [Application · 3 marks] Riya is revising “Health, Safety and Security at the Workplace” (Hazards, occupational health, electrical and fire safety, security of data). A classmate lost marks by doing this: Writing “be careful” with no concrete precaution. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Water on an electrical fire is the classic wrong answer.
+      Why the mistake costs marks: Writing “be careful” with no concrete precaution.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Short · 3 marks] List four fire safety rules for a workplace.
+    Ans:
+      Keep every fire exit and aisle clear of boxes, cables and furniture, and make sure the exit signs are lit.
+      Check that fire extinguishers are in place, visible and within their expiry date, and know which type to use for an electrical fire.
+      Switch off and unplug equipment at the end of the day, and never overload a socket with adapters.
+      If a fire starts, raise the alarm, cut off the power if it is safe to do so, leave by the marked route without using the lift, and go to the assembly point.
+
+Q8. [Short · 3 marks] List four data-security measures for a school computer lab and explain the purpose of each.
+    Ans:
+      Unique passwords per user — so every action can be traced to its author.
+      Authorised access only — outsiders cannot reach student records or exam files.
+      Regular backups — a failed disk or ransomware cannot destroy the only copy of practical files.
+      Locked server and storeroom — physical theft of drives is blocked at the door.
+
+Q9. [Long · 4 marks] Explain four types of workplace hazard with one IT-lab example each.
+    Ans: Physical — trailing cables; electrical — open socket; ergonomic — low screen causing neck pain; psychosocial — long hours without a break. Control each: cable covers, close sockets, raise the monitor, timetable breaks.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Lab PCs face a window, chairs don’t adjust, passwords are on sticky notes.
+    
+    (a) Name three hazard/security issues.
+    (b) One control for each.
+    (c) Who should you report this to?
+    Ans:
+      (a) Glare (ergonomic), poor posture, password leak (security).
+      (b) Blinds/position screens, adjustable chairs, unique passwords stored in a password manager / teacher vault — never sticky notes.
+      (c) Lab teacher / system admin / safety in-charge.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Health, Safety and Security at the Workplace”. Their note says: Hazard = anything that can cause harm. Risk = chance that the harm will occur.
+    
+    The chapter is described as: Hazards, occupational health, electrical and fire safety, security of data.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Hazards, occupational health, electrical and fire safety, security of data.
+      (b) marks with the rest of Unit 4. Hazard types + two precautions each.
+      (c) Writing “be careful” with no concrete precaution.
+
+Q12. [Long · 5 marks] Discuss “Health, Safety and Security at the Workplace” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Hazard = anything that can cause harm. Risk = chance that the harm will occur.
+      Marks lens: marks with the rest of Unit 4. Hazard types + two precautions each.
+      Method / memory trick: Water on an electrical fire is the classic wrong answer.
+      Do not: Writing “be careful” with no concrete precaution.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. A trailing cable is mainly a: (a) 7 C (b) physical hazard (c) query (d) style
+    Ans: (b) physical hazard.
+
+M2. On an electrical fire you should not use: (a) CO2 (b) dry powder (c) water (d) the alarm
+    Ans: (c) water.
+
+M3. RSI in a data-entry job is mostly: (a) a green job (b) an ergonomic/occupational health issue (c) a primary key (d) mail merge
+    Ans: (b).
+
+M4. A sticky note under the keyboard with the password is a failure of: (a) ToC (b) data security (c) Goal Seek (d) grouping
+    Ans: (b) data security.
+
+M5. The most exam-ready way to revise “Health, Safety and Security at the Workplace” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Hazards, occupational health, electrical and fire safety, security of data.
+
+M6. A 3-mark answer on “Health, Safety and Security at the Workplace” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The first thing to do when a fire is discovered is to: (a) raise the alarm and leave by the marked exit  (b) collect your belongings  (c) use the lift  (d) finish the work you are doing
+    Ans: (a) raise the alarm and leave by the marked exit. Never use a lift in a fire.
+
+M8. PPE stands for: (a) Personal Protective Equipment  (b) Public Protection Exercise  (c) Power Protection Equipment  (d) Personal Programme Entry
+    Ans: (a) Personal Protective Equipment. Gloves, goggles, helmets and safety shoes are examples.

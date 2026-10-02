@@ -1,0 +1,122 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 1 · Real Numbers · session 2026–27
+
+1 chapter · 13 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 1 · Real Numbers
+Unit: I · Number Systems
+========================================================================
+
+A. WRITTEN QUESTIONS (13)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] State Euclid’s division lemma.
+    Ans: Given positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.
+
+Q2. [Short · 2 marks] Without performing long division, state whether 13/3125 will have a terminating decimal expansion.
+    Ans: 3125 = 5⁵, which is of the form 2ᵐ × 5ⁿ with m = 0, n = 5. The fraction is already in lowest terms, so yes — it terminates.
+
+Q3. [Short · 2 marks] Prove that 5 − √3 is irrational.
+    Ans: Assume 5 − √3 is rational and equals r. Then √3 = 5 − r, which is rational because it is the difference of two rationals. That contradicts the fact that √3 is irrational, so 5 − √3 must be irrational.
+
+Q4. [Short · 3 marks] Prove that √3 is irrational.
+    Ans:
+      Assume √3 is rational. Then √3 = p/q where p, q are coprime integers and q ≠ 0.
+      Squaring: 3 = p²/q², so p² = 3q². Hence 3 divides p², and since 3 is prime, 3 divides p.
+      Write p = 3k. Then 9k² = 3q², so q² = 3k². Hence 3 divides q², so 3 divides q.
+      So 3 divides both p and q, contradicting that they are coprime.
+      Therefore √3 is irrational.
+
+Q5. [Short · 3 marks] The HCF of 96 and 404 is 4. Find their LCM.
+    Ans: For any two positive integers, HCF × LCM = product of the numbers. So LCM = (96 × 404) ÷ 4 = 38784 ÷ 4 = 9696. It is worth checking the result: 9696 ÷ 96 = 101 and 9696 ÷ 404 = 24, and 101 and 24 share no factor, so 9696 really is the least common multiple.
+
+Q6. [Application · 3 marks] Riya is revising “Real Numbers” (HCF/LCM, irrationality proofs, terminating decimals). A classmate lost marks by doing this: Using HCF × LCM = product for three numbers. It fails. Factorise instead. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.
+      Why the mistake costs marks: Using HCF × LCM = product for three numbers. It fails. Factorise instead.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Application · 3 marks] Amit is given this exam-style task from “Real Numbers”: “State Euclid’s division lemma.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: HCF/LCM, irrationality proofs, terminating decimals.
+      Given positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.
+
+Q8. [Short · 3 marks] Use Euclid’s division algorithm to find the HCF of 867 and 255.
+    Ans:
+      867 = 255 × 3 + 102
+      255 = 102 × 2 + 51
+      102 = 51 × 2 + 0
+      The remainder is now 0, so the divisor at that step, 51, is the HCF. Always stop at a zero remainder and take the previous divisor.
+
+Q9. [Long · 4 marks] An army contingent of 616 members marches behind an army band of 32 members. Both groups must march in the same number of columns. What is the maximum number of columns?
+    Ans:
+      Maximum columns = HCF(616, 32).
+      616 = 2³ × 7 × 11 and 32 = 2⁵.
+      HCF = 2³ = 8, so the maximum is 8 columns.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Real Numbers”. Their note says: Euclid’s Division Lemma. Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 ≤ r < b. It is the basis of the HCF algorithm: divide, then repeat with (b, r) until the remainder is 0. The last non-zero divisor is the HCF.
+    
+    The chapter is described as: HCF/LCM, irrationality proofs, terminating decimals.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) HCF/LCM, irrationality proofs, terminating decimals.
+      (b) marks, always procedural. Expect one HCF/LCM word problem (2–3 marks), one irrationality proof (3 marks), and one terminating-decimal question (1 mark).
+      (c) Using HCF × LCM = product for three numbers. It fails. Factorise instead.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “State Euclid’s division lemma.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Given positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.
+      (c) Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.
+
+Q12. [Long · 4 marks] Can 6ⁿ end with the digit 0 for any natural number n? Give a reason.
+    Ans: No. If 6ⁿ ended in 0 it would be divisible by 10 = 2 × 5, so 5 would have to be a prime factor of 6ⁿ. But 6ⁿ = (2 × 3)ⁿ = 2ⁿ × 3ⁿ and, by the Fundamental Theorem of Arithmetic, its only prime factors are 2 and 3. Since 5 never appears, 6ⁿ cannot end in 0 for any n.
+
+Q13. [Long · 5 marks] Discuss “Real Numbers” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Euclid’s Division Lemma. Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 ≤ r < b. It is the basis of the HCF algorithm: divide, then repeat with (b, r) until the remainder is 0. The last non-zero divisor is the HCF.
+      Marks lens: marks, always procedural. Expect one HCF/LCM word problem (2–3 marks), one irrationality proof (3 marks), and one terminating-decimal question (1 mark).
+      Method / memory trick: Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.
+      Do not: Using HCF × LCM = product for three numbers. It fails. Factorise instead.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The HCF of 8 and 12 is: (a) 2  (b) 4  (c) 8  (d) 24
+    Ans: (b) 4. 8 = 2³, 12 = 2² × 3; the lowest power of the common prime 2 is 2² = 4.
+
+M2. Which has a terminating decimal expansion? (a) 7/24  (b) 5/13  (c) 9/40  (d) 11/21
+    Ans: (c) 9/40. 40 = 2³ × 5, of the form 2ᵐ × 5ⁿ. The others have denominators with other primes.
+
+M3. If the HCF of two numbers is 6 and their LCM is 60, one number being 12, the other is: (a) 20  (b) 30  (c) 40  (d) 60
+    Ans: (b) 30. Other number = (6 × 60)/12 = 30.
+
+M4. The most exam-ready way to revise “Real Numbers” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is HCF/LCM, irrationality proofs, terminating decimals.
+
+M5. A 3-mark answer on “Real Numbers” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The decimal expansion of 23/(2³ × 5²) terminates after: (a) 2 places  (b) 3 places  (c) 4 places  (d) 5 places
+    Ans: (b) 3 places. 23/200 = 115/1000 = 0.115. The number of decimal places is the larger exponent, max(3, 2) = 3.
+
+M7. Which of these is irrational? (a) √(16/9)  (b) √12  (c) 0.444…  (d) 22/7
+    Ans: (b) √12. √12 = 2√3 and √3 is irrational. √(16/9) = 4/3, 0.444… = 4/9 and 22/7 are all rational.
+
+M8. The HCF of the smallest prime number and the smallest composite number is: (a) 1  (b) 2  (c) 4  (d) 6
+    Ans: (b) 2. Smallest prime = 2, smallest composite = 4, and HCF(2, 4) = 2.

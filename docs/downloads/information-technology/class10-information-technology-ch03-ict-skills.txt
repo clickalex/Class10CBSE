@@ -1,0 +1,114 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 3 · ICT Skills–II · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 3 · ICT Skills–II
+Unit: Part A · Employability Skills
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] What is an operating system? Give two examples.
+    Ans: System software that manages hardware and runs programs. Examples: Windows, Linux, Android.
+
+Q2. [Short · 2 marks] Differentiate a file and a folder with one example each.
+    Ans: A file stores data (marks.ods). A folder stores files and other folders (Class10/IT/).
+
+Q3. [Short · 2 marks] What is an operating system? Name two examples.
+    Ans: An operating system is the system software that manages the computer's memory, processor, disks and devices and lets the user run application programs. Examples are Windows, Linux, macOS and Android.
+
+Q4. [Short · 2 marks] What is the Recycle Bin, and how is restoring a file different from deleting it permanently?
+    Ans: The Recycle Bin is a holding area where deleted files wait until it is emptied. Restoring returns the file to its original folder, so nothing is lost. Deleting permanently (emptying the Bin, or Shift + Delete) removes the file beyond easy recovery — which is why important files should be backed up before the Bin is emptied.
+
+Q5. [Short · 2 marks] List four basic care rules that protect a computer from physical damage and data loss.
+    Ans:
+      Keep the machine dust-free and away from food and drink, which damage keyboards and circuits.
+      Use a surge protector so voltage spikes do not harm the hardware.
+      Shut down through the OS command instead of pulling the plug, which can corrupt files.
+      Run updated antivirus software and keep a backup of important work.
+
+Q6. [Application · 3 marks] Amit eats chips over the keyboard and never shuts the PC down. List three risks and three care steps.
+    Ans: Risks: crumbs jam keys, oil damage, overheating, data loss. Care: no food/drink, proper shutdown, dust-free vents, surge protector, backups.
+
+Q7. [Application · 3 marks] Riya is revising “ICT Skills–II” (Operating system, files and folders, and basic care of a computer). A classmate lost marks by doing this: Calling Writer an operating system. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: File has an extension; a folder does not need one.
+      Why the mistake costs marks: Calling Writer an operating system.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Short · 3 marks] How would you organise files and folders so that your work is always easy to find?
+    Ans:
+      Make one folder for each subject or project, and inside it one folder per term or per type of work.
+      Give every file a short, descriptive name with the date, such as maths_notes_2026-08-12.
+      Keep the folder tree shallow — no more than two or three levels — and delete or archive old versions.
+      Keep a backup copy on an external drive or in the cloud, and run an antivirus scan on anything you download.
+
+Q9. [Short · 3 marks] Why should files be given clear names and kept in subject-wise folders? Illustrate with a school-project example.
+    Ans:
+      Clear names and folders make work findable: a file named aaa.odt on a crowded Desktop is easily lost or overwritten.
+      Example — a project split as Project/notes.odt, Project/images/, Project/final-report.odt lets any part be found in seconds.
+      Good organisation also protects against loss: one folder is easy to back up, scattered files are not.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Meera’s project file vanished after a power cut. She had saved only on the Desktop as aaa.odt.
+    
+    (a) Two file-management mistakes.
+    (b) Two care/maintenance steps that would have helped.
+    Ans:
+      (a) No backup; a meaningless file name; Desktop-only copy.
+      (b) Surge protector / UPS; Save As into a named folder; weekly backup on a pen drive or cloud.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “ICT Skills–II”. Their note says: ICT is Information and Communication Technology — hardware, software and networks used to create, store and share information.
+    
+    The chapter is described as: Operating system, files and folders, and basic care of a computer.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Operating system, files and folders, and basic care of a computer.
+      (b) mark. Definitions and “which of the following” items.
+      (c) Calling Writer an operating system.
+
+Q12. [Long · 5 marks] Discuss “ICT Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      ICT is Information and Communication Technology — hardware, software and networks used to create, store and share information.
+      Marks lens: mark. Definitions and “which of the following” items.
+      Method / memory trick: File has an extension; a folder does not need one.
+      Do not: Calling Writer an operating system.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which is an OS? (a) LibreOffice Writer (b) Chrome (c) Linux (d) Calc
+    Ans: (c) Linux.
+
+M2. .ods is usually: (a) a Writer file (b) a Calc spreadsheet (c) a Base database (d) an image
+    Ans: (b) a Calc spreadsheet.
+
+M3. The Recycle Bin is used to: (a) speed up RAM (b) store deleted files until emptied (c) install an OS (d) scan viruses
+    Ans: (b).
+
+M4. A computer should be shut down: (a) by pulling the plug (b) using the OS shutdown command (c) by holding the monitor button (d) never
+    Ans: (b).
+
+M5. The most exam-ready way to revise “ICT Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Operating system, files and folders, and basic care of a computer.
+
+M6. A 3-mark answer on “ICT Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. Which of these is an operating system? (a) Linux  (b) MS Word  (c) Chrome  (d) HDMI
+    Ans: (a) Linux. Word and Chrome are application programs and HDMI is a port.
+
+M8. The keyboard shortcut used to copy a selected file is: (a) Ctrl + C  (b) Ctrl + V  (c) Ctrl + X  (d) Ctrl + P
+    Ans: (a) Ctrl + C. Ctrl + V pastes, Ctrl + X cuts and Ctrl + P prints.

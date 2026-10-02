@@ -695,3 +695,62 @@ details.qans[open] > summary { margin-bottom: 8px; }
   padding: 2px 7px;
   border-radius: 6px;
 }
+
+/* ---------- downloads: official papers, question-bank files ---------- */
+.sr-only {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap;
+}
+.dl { margin: 22px 0 8px; }
+.dl > h2 { margin-top: 0; }
+.dl h3 { margin: 22px 0 6px; }
+.dl-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 14px; margin: 12px 0; align-items: start;
+}
+.dl-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px 18px; box-shadow: var(--shadow);
+}
+.dl .dl-card h3, .dl .dl-card h4 { margin: 0 0 6px; font-size: 16px; }
+.dl-card p { margin: 6px 0; }
+.dl-card .btnrow { margin: 10px 0 4px; }
+.dl-list { margin: 8px 0; padding: 0; list-style: none; }
+.dl-list li { margin: 8px 0; }
+.dl-meta { color: var(--ink-soft); font-size: 13px; }
+.dl-table th, .dl-table td { vertical-align: middle; }
+.dl-table tbody th { white-space: nowrap; }
+.dl-table td { min-width: 150px; }
+.dl-sub { display: block; font-size: 12px; font-weight: 400; color: var(--ink-soft); }
+.dl-none { color: var(--ink-soft); font-size: 13px; }
+.btn.dl-btn { padding: 5px 12px; font-size: 13px; margin: 2px 6px 2px 0; white-space: nowrap; cursor: pointer; }
+.dl-btn::before { content: "\2193"; margin-right: 6px; font-weight: 800; }
+.dl-row { margin: 4px 0 8px; font-size: 13.5px; color: var(--ink-soft); }
+.linkbtn {
+  background: none; border: 0; padding: 0; font: inherit; color: var(--brand);
+  text-decoration: underline; cursor: pointer;
+}
+.linkbtn:hover { color: var(--brand-dark); }
+
+/* ---------- print: bank, drill, practice and chapter pages save cleanly as a PDF ----------
+   Mock-test pages keep their own rules above (body.mock-page); everything else
+   loses the site chrome and prints as one clean column. theme/js/print.js opens
+   the answers and sets body[data-print] / body[data-print-scope]. */
+@media print {
+  body:not(.mock-page) { background: #fff; color: #000; font-size: 11pt; }
+  body:not(.mock-page) .sidebar, body:not(.mock-page) .menu-btn, body:not(.mock-page) .backdrop,
+  body:not(.mock-page) .skip, body:not(.mock-page) .crumbs, body:not(.mock-page) .foot-subj,
+  body:not(.mock-page) .totop, body:not(.mock-page) .qbar, body:not(.mock-page) .chips, body:not(.mock-page) .btnrow,
+  body:not(.mock-page) .chapnav, body:not(.mock-page) .dl, body:not(.mock-page) .no-print,
+  body:not(.mock-page) .qblock .btn, body:not(.mock-page) details.qans > summary { display: none !important; }
+  body:not(.mock-page) .app { display: block; }
+  body:not(.mock-page) main { padding: 0; }
+  body:not(.mock-page) .wrap { max-width: none; padding: 0; }
+  body:not(.mock-page) .qcard { box-shadow: none; border-color: #999; break-inside: avoid; page-break-inside: avoid; }
+  body:not(.mock-page) h1, body:not(.mock-page) h2, body:not(.mock-page) h3 { break-after: avoid; page-break-after: avoid; }
+  body:not(.mock-page) a { color: inherit; text-decoration: none; }
+  /* the footer stays: its "not official CBSE papers" line and the credit belong on every printout */
+  body:not(.mock-page) .foot { margin-top: 16px; padding-top: 8px; border-top: 1px solid #999; font-size: 9pt; color: #444; }
+  body[data-print="questions"] .qans { display: none !important; }
+  body[data-print-scope] .qblock:not(.is-print-scope) { display: none !important; }
+}

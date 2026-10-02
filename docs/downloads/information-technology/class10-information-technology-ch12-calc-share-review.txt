@@ -1,0 +1,112 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 12 · Share and Review a Spreadsheet · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 12 · Share and Review a Spreadsheet
+Unit: Part B · Electronic Spreadsheet (Advanced)
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] How do you share a Calc spreadsheet?
+    Ans: Tools → Share Spreadsheet → enable sharing. Save on a network location the team can open.
+
+Q2. [Short · 2 marks] Why add a comment to a cell instead of changing the value?
+    Ans: A comment suggests or questions without overwriting data; the original number stays until someone decides.
+
+Q3. [Short · 2 marks] What does recording changes do when a spreadsheet is shared?
+    Ans: Edit → Track Changes → Record logs every edit with the author's name, the time and the old value. Each change can then be reviewed, accepted or rejected from Edit → Track Changes → Manage, so a team can work on one file without losing track of who changed what.
+
+Q4. [Short · 2 marks] What is the difference between accepting and rejecting a recorded change? Where is each done?
+    Ans: Accepting keeps the edited value as the final content; rejecting discards the edit and restores the original value. Both are done in the Manage Changes dialogue (Edit → Track Changes → Manage), which lists every change with its author and time so each can be judged separately.
+
+Q5. [Application · 3 marks] Three lab partners type in three copies of stock.ods and the totals disagree. What should they have used?
+    Ans: One shared spreadsheet (or one file with Record Changes + merge), not three independent copies.
+
+Q6. [Application · 3 marks] Riya is revising “Share and Review a Spreadsheet” (Sharing, recording changes, adding comments, comparing and merging sheets). A classmate lost marks by doing this: Protecting the sheet with no password written in the practical file — you cannot demo it. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Sharing is for one file, many users; emailing five copies is how totals diverge.
+      Why the mistake costs marks: Protecting the sheet with no password written in the practical file — you cannot demo it.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Short · 3 marks] How do you compare two versions of a document in LibreOffice?
+    Ans:
+      Open the newer copy and choose Edit → Track Changes → Compare Document.
+      Select the older copy in the file dialog and click Insert; LibreOffice shows the differences as tracked changes.
+      Review each one with Next and Previous, then accept or reject it from the Manage dialog.
+      This works in both Writer and Calc and is the safest way to merge two people's work.
+
+Q8. [Short · 3 marks] What is ‘Protect Sheet’, and why must input cells be unlocked before it is applied?
+    Ans:
+      Protect Sheet (Tools → Protect Sheet) locks the sheet so that only permitted actions — usually editing unlocked cells — are possible.
+      By default every cell is locked, so protecting first would freeze the whole sheet including the inputs.
+      Correct order — select the input cells, uncheck Protected in Format → Cells → Protection, then protect the sheet; formulas stay safe while inputs stay editable.
+
+Q9. [Long · 4 marks] Explain recording, showing and accepting changes in Calc.
+    Ans: Turn Record on before editing. Each changed cell is marked. Show lists author, date and old/new value. Accept keeps the new value; Reject restores the old. Compare Document does this against a saved copy.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A teacher wants students to fill only column B, not the formulas in C.
+    
+    (a) Which tool?
+    (b) Steps.
+    (c) How can the teacher see who changed B5?
+    Ans:
+      (a) Protect Sheet (unlock B first).
+      (b) Select B → unprotect cells; Tools → Protect Sheet; set password.
+      (c) Record / Show Changes — author and date on B5.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Share and Review a Spreadsheet”. Their note says: Share spreadsheet: Tools → Share Spreadsheet. Several people can open it (on a network). Conflicts are resolved when saving.
+    
+    The chapter is described as: Sharing, recording changes, adding comments, comparing and merging sheets.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Sharing, recording changes, adding comments, comparing and merging sheets.
+      (b) Share spreadsheet + record changes is the pair.
+      (c) Protecting the sheet with no password written in the practical file — you cannot demo it.
+
+Q12. [Long · 5 marks] Discuss “Share and Review a Spreadsheet” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Share spreadsheet: Tools → Share Spreadsheet. Several people can open it (on a network). Conflicts are resolved when saving.
+      Marks lens: Share spreadsheet + record changes is the pair.
+      Method / memory trick: Sharing is for one file, many users; emailing five copies is how totals diverge.
+      Do not: Protecting the sheet with no password written in the practical file — you cannot demo it.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Share Spreadsheet is under: (a) Insert (b) Tools (c) Format (d) Data
+    Ans: (b) Tools.
+
+M2. A cell comment is for: (a) hiding formulas forever (b) notes without changing the value (c) Goal Seek (d) styles
+    Ans: (b).
+
+M3. To allow editing only some cells: (a) Group (b) Protect Sheet after unlocking inputs (c) Consolidate (d) Mail Merge
+    Ans: (b).
+
+M4. Compare Document is useful when: (a) you have an older copy to diff (b) you need a chart (c) you insert an image (d) you write a ToC
+    Ans: (a).
+
+M5. The most exam-ready way to revise “Share and Review a Spreadsheet” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Sharing, recording changes, adding comments, comparing and merging sheets.
+
+M6. A 3-mark answer on “Share and Review a Spreadsheet” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. Sharing a sheet while protecting it from changes is done from: (a) Tools → Protect Sheet  (b) File → Print  (c) Insert → Comment  (d) Format → Cells
+    Ans: (a) Tools → Protect Sheet. You can also allow selected users to edit certain ranges.
+
+M8. Comments in a spreadsheet are used to: (a) ask a question or explain a cell without changing its value  (b) delete the cell  (c) sort the data  (d) create a chart
+    Ans: (a) ask a question or explain a cell without changing its value. The cell keeps its formula.

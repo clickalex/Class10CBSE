@@ -69,7 +69,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Internet Basics” (What the internet is, how it started and what it is built out of.). A classmate lost marks by doing this: Calling the World Wide Web the same thing as the internet — the web is a service on it. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Internet Basics” (What the internet is, how it started and what it is built out of). A classmate lost marks by doing this: Calling the World Wide Web the same thing as the internet — the web is a service on it. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: ARPANET 1969, Berners-Lee 1989, India 1995. Three dates, three marks.",
           "Why the mistake costs marks: Calling the World Wide Web the same thing as the internet — the web is a service on it.",
@@ -81,7 +81,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Internet Basics”: “What is the internet? Give two of its features.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: What the internet is, how it started and what it is built out of..",
+          "Idea: What the internet is, how it started and what it is built out of.",
           "The internet is a worldwide network of networks in which millions of smaller networks are interconnected, allowing any computer to communicate with any other. Two of its features are: it has no single owner or central control, running instead on shared protocols; and it provides many services at once — the World Wide Web, email, file transfer and video calls all travel over the same infrastructure."
         ]
       },
@@ -99,7 +99,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Internet Basics”. Their note says: What the internet is. The internet is a worldwide network of networks — millions of smaller networks joined together so that any computer can reach any other. It is not owned by any single organisation; it runs on shared standards called protocols.\n\nThe chapter is described as: What the internet is, how it started and what it is built out of..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Internet Basics”. Their note says: What the internet is. The internet is a worldwide network of networks — millions of smaller networks joined together so that any computer can reach any other. It is not owned by any single organisation; it runs on shared standards called protocols.\n\nThe chapter is described as: What the internet is, how it started and what it is built out of.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) What the internet is, how it started and what it is built out of.",
           "(b) Definitions, one-mark factual questions and the history of the internet.",
@@ -147,7 +147,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Internet Basics” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is What the internet is, how it started and what it is built out of.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is What the internet is, how it started and what it is built out of."
       },
       {
         "q": "A 3-mark answer on “Internet Basics” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -306,7 +306,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Internet Services & Protocols” (WWW, email, FTP, chat — and the protocol behind each one.). A classmate lost marks by doing this: Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Internet Services & Protocols” (WWW, email, FTP, chat — and the protocol behind each one). A classmate lost marks by doing this: Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: SMTP Sends, POP Pulls, IMAP Keeps. That one sentence settles every email-protocol question.",
           "Why the mistake costs marks: Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP.",
@@ -318,7 +318,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Internet Services & Protocols”: “What is the difference between HTTP and HTTPS?” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: WWW, email, FTP, chat — and the protocol behind each one..",
+          "Idea: WWW, email, FTP, chat — and the protocol behind each one.",
           "HTTP (HyperText Transfer Protocol) is the protocol used to fetch web pages, and it sends everything in plain text on port 80. HTTPS is the same protocol wrapped in encryption using TLS/SSL, on port 443. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it."
         ]
       },
@@ -336,7 +336,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Internet Services & Protocols”. Their note says: The protocol stack. Data on the internet is layered. HTTP/HTTPS carries web pages, TCP makes sure every part of a message arrives and in the right order, and IP handles addressing and routing. Together they are written TCP/IP. UDP is TCP's faster, less careful cousin, used for streaming and calls wh\n\nThe chapter is described as: WWW, email, FTP, chat — and the protocol behind each one..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Internet Services & Protocols”. Their note says: The protocol stack. Data on the internet is layered. HTTP/HTTPS carries web pages, TCP makes sure every part of a message arrives and in the right order, and IP handles addressing and routing. Together they are written TCP/IP. UDP is TCP's faster, less careful cousin, used for streaming and calls wh\n\nThe chapter is described as: WWW, email, FTP, chat — and the protocol behind each one.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) WWW, email, FTP, chat — and the protocol behind each one.",
           "(b) Match the service to its protocol; explain what each service does.",
@@ -384,7 +384,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Internet Services & Protocols” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is WWW, email, FTP, chat — and the protocol behind each one.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is WWW, email, FTP, chat — and the protocol behind each one."
       },
       {
         "q": "A 3-mark answer on “Internet Services & Protocols” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -488,7 +488,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Network Types, Topologies & Devices” (LAN to WAN, star to ring, and the boxes in between.). A classmate lost marks by doing this: Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Network Types, Topologies & Devices” (LAN to WAN, star to ring, and the boxes in between). A classmate lost marks by doing this: Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: PAN < LAN < MAN < WAN. Smallest to largest.",
           "Why the mistake costs marks: Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one.",
@@ -500,7 +500,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Network Types, Topologies & Devices”: “Explain star topology with its advantages and disadvantages.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: LAN to WAN, star to ring, and the boxes in between..",
+          "Idea: LAN to WAN, star to ring, and the boxes in between.",
           "In star topology every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its advantages are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its disadvantages are that it needs more cable than a bus, and the central device is a single point of failure — if the switch dies, the whole network stops."
         ]
       },
@@ -518,7 +518,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Network Types, Topologies & Devices”. Their note says: Networks by size. A LAN (Local Area Network) covers a room or a building — a school lab. A MAN (Metropolitan Area Network) covers a city — a cable TV network. A WAN (Wide Area Network) covers countries or the world; the internet is the largest WAN. A PAN (Personal Area Network) is the smallest, join\n\nThe chapter is described as: LAN to WAN, star to ring, and the boxes in between..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Network Types, Topologies & Devices”. Their note says: Networks by size. A LAN (Local Area Network) covers a room or a building — a school lab. A MAN (Metropolitan Area Network) covers a city — a cable TV network. A WAN (Wide Area Network) covers countries or the world; the internet is the largest WAN. A PAN (Personal Area Network) is the smallest, join\n\nThe chapter is described as: LAN to WAN, star to ring, and the boxes in between.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) LAN to WAN, star to ring, and the boxes in between.",
           "(b) Classify a network by its size, identify a topology from a description, name a device's job.",
@@ -566,7 +566,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Network Types, Topologies & Devices” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is LAN to WAN, star to ring, and the boxes in between.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is LAN to WAN, star to ring, and the boxes in between."
       },
       {
         "q": "A 3-mark answer on “Network Types, Topologies & Devices” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -714,7 +714,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Mobile & Wireless Technology” (Generations from 1G to 5G, plus the short-range wireless around you.). A classmate lost marks by doing this: Saying 4G is faster *only* — it is also all-IP, which is the point. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Mobile & Wireless Technology” (Generations from 1G to 5G, plus the short-range wireless around you). A classmate lost marks by doing this: Saying 4G is faster *only* — it is also all-IP, which is the point. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations.",
           "Why the mistake costs marks: Saying 4G is faster *only* — it is also all-IP, which is the point.",
@@ -726,7 +726,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Mobile & Wireless Technology”: “Compare 3G, 4G and 5G.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Generations from 1G to 5G, plus the short-range wireless around you..",
+          "Idea: Generations from 1G to 5G, plus the short-range wireless around you.",
           "G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures."
         ]
       },
@@ -754,7 +754,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Mobile & Wireless Technology”. Their note says: Mobile generations. 1G was analog and voice-only. 2G went digital and added SMS and basic data through GPRS. 3G made mobile internet genuinely usable — video calls and browsing at a few Mbps. 4G/LTE is all-IP and built for data, giving tens of Mbps and making video streaming normal. 5G targets speed\n\nThe chapter is described as: Generations from 1G to 5G, plus the short-range wireless around you..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Mobile & Wireless Technology”. Their note says: Mobile generations. 1G was analog and voice-only. 2G went digital and added SMS and basic data through GPRS. 3G made mobile internet genuinely usable — video calls and browsing at a few Mbps. 4G/LTE is all-IP and built for data, giving tens of Mbps and making video streaming normal. 5G targets speed\n\nThe chapter is described as: Generations from 1G to 5G, plus the short-range wireless around you.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Generations from 1G to 5G, plus the short-range wireless around you.",
           "(b) Compare generations, name short-range technologies and their uses.",
@@ -802,7 +802,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Mobile & Wireless Technology” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Generations from 1G to 5G, plus the short-range wireless around you.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Generations from 1G to 5G, plus the short-range wireless around you."
       },
       {
         "q": "A 3-mark answer on “Mobile & Wireless Technology” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -904,7 +904,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Web Browsers, Search & Web Concepts” (Browsers, search engines, cookies, caching and the difference between a web page and a website.). A classmate lost marks by doing this: Calling Google a browser — it is a search engine, a website. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Web Browsers, Search & Web Concepts” (Browsers, search engines, cookies, caching and the difference between a web page and a website). A classmate lost marks by doing this: Calling Google a browser — it is a search engine, a website. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Browser is on your machine; search engine is on the web.",
           "Why the mistake costs marks: Calling Google a browser — it is a search engine, a website.",
@@ -916,7 +916,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Web Browsers, Search & Web Concepts”: “Differentiate between a web browser and a search engine.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Browsers, search engines, cookies, caching and the difference between a web page and a website..",
+          "Idea: Browsers, search engines, cookies, caching and the difference between a web page and a website.",
           "A web browser is software installed on your computer or phone — Chrome, Firefox, Edge or Safari — that sends requests for pages and renders the HTML it receives into the page you see. A search engine such as Google is itself a website whose job is to index other websites and return a ranked list of results for your query. You need a browser in order to open a search engine, so they work together rather than as alternatives."
         ]
       },
@@ -934,7 +934,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Web Browsers, Search & Web Concepts”. Their note says: Browser versus search engine. A web browser (Chrome, Firefox, Edge, Safari) is *software on your device* that requests and displays pages. A search engine (Google, Bing) is *a website* that indexes other websites so you can find them. You use a browser to reach a search engine — they are not alterna\n\nThe chapter is described as: Browsers, search engines, cookies, caching and the difference between a web page and a website..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Web Browsers, Search & Web Concepts”. Their note says: Browser versus search engine. A web browser (Chrome, Firefox, Edge, Safari) is *software on your device* that requests and displays pages. A search engine (Google, Bing) is *a website* that indexes other websites so you can find them. You use a browser to reach a search engine — they are not alterna\n\nThe chapter is described as: Browsers, search engines, cookies, caching and the difference between a web page and a website.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Browsers, search engines, cookies, caching and the difference between a web page and a website.",
           "(b) Define terms, compare browsers with search engines, explain cookies and caching.",
@@ -982,7 +982,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Web Browsers, Search & Web Concepts” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Browsers, search engines, cookies, caching and the difference between a web page and a website.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Browsers, search engines, cookies, caching and the difference between a web page and a website."
       },
       {
         "q": "A 3-mark answer on “Web Browsers, Search & Web Concepts” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",

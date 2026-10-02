@@ -1,0 +1,140 @@
+﻿CLASS 10 CBSE · SCIENCE (Subject Code 086)
+Chapter 12 · Magnetic Effects of Electric Current · session 2026–27
+
+1 chapter · 14 written Q&A · 11 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/science/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 12 · Magnetic Effects of Electric Current
+Unit: IV · Effects of Current
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] State Fleming's right-hand rule.
+    Ans: Stretch the thumb, forefinger and middle finger of the right hand so that they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the thumb in the direction of motion of the conductor, the middle finger gives the direction of the induced current.
+
+Q2. [Short · 2 marks] Why do two magnetic field lines never intersect each other?
+    Ans: Because at the point of intersection there would be two directions of the magnetic field for a single point, which is impossible — a compass needle placed there could not point in two directions at once.
+
+Q3. [Short · 2 marks] Differentiate between an AC generator and a DC generator.
+    Ans: An AC generator uses two complete slip rings, and the current it produces reverses direction periodically (50 Hz in India). A DC generator uses a split-ring commutator, so although the current in the coil reverses, the current in the external circuit always flows in one direction.
+
+Q4. [Short · 2 marks] State the rule used to find the direction of the magnetic field around a straight current-carrying conductor.
+    Ans: Right-hand thumb rule: imagine holding the conductor in your right hand with the thumb pointing along the current; the direction in which your fingers curl around the conductor is the direction of the magnetic field lines, which are concentric circles around the wire.
+
+Q5. [Short · 3 marks] Explain the principle and working of an electric motor.
+    Ans:
+      Principle: a current-carrying conductor placed in a magnetic field experiences a force, given by Fleming's left-hand rule.
+      Working: a rectangular coil ABCD is placed between the poles of a magnet. When current flows, one arm is pushed up and the other down, so the coil rotates.
+      The split-ring commutator reverses the direction of current in the coil after every half rotation, so the coil keeps rotating in the same direction.
+      Uses: electric fans, mixers, washing machines and pumps.
+
+Q6. [Short · 3 marks] What is electromagnetic induction? Describe an activity to demonstrate it.
+    Ans:
+      When the magnetic field linked with a coil changes, a current is induced in the coil — this is electromagnetic induction.
+      Activity: connect a galvanometer to a coil. Push a bar magnet's north pole into the coil and the galvanometer needle deflects momentarily in one direction; pull it out and it deflects in the opposite direction; hold it still inside and there is no deflection.
+      The deflection shows that a current is induced only when the magnetic flux through the coil is changing, i.e. only while the magnet is in relative motion.
+
+Q7. [Application · 3 marks] Riya is revising “Magnetic Effects of Electric Current” (Field patterns, the three hand rules, the motor and the generator). A classmate lost marks by doing this: Saying field lines run from south to north outside a magnet. Outside it is north to south. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Left hand = Motor, Right hand = Generator. 'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.
+      Why the mistake costs marks: Saying field lines run from south to north outside a magnet. Outside it is north to south.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Magnetic Effects of Electric Current”: “State Fleming's right-hand rule.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Field patterns, the three hand rules, the motor and the generator.
+      Stretch the thumb, forefinger and middle finger of the right hand so that they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the thumb in the direction of motion of the conductor, the middle finger gives the direction of the induced current.
+
+Q9. [Short · 3 marks] How does the strength of the magnetic field at the centre of a current-carrying circular coil depend on the current, the number of turns and the radius of the coil?
+    Ans:
+      It is directly proportional to the current flowing through the coil.
+      It is directly proportional to the number of turns, because the field of each turn adds up.
+      It is inversely proportional to the radius of the coil, so a smaller coil gives a stronger field. This is the principle behind electromagnets and solenoids.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Magnetic Effects of Electric Current”. Their note says: Magnetic field and field lines. A magnetic field is the region around a magnet in which its force can be detected. Field lines are closed continuous curves — outside a bar magnet they run from the north to the south pole and inside from south to north. Two field lines never intersect (that would mea
+    
+    The chapter is described as: Field patterns, the three hand rules, the motor and the generator.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Field patterns, the three hand rules, the motor and the generator.
+      (b) –3 marks. Fleming's left-hand and right-hand rules and the difference between AC and DC are asked repeatedly.
+      (c) Saying field lines run from south to north outside a magnet. Outside it is north to south.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “State Fleming's right-hand rule.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Stretch the thumb, forefinger and middle finger of the right hand so that they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the thumb in the direction of motion of the conductor, the middle finger gives the direction of the induced current.
+      (c) Left hand = Motor, Right hand = Generator. 'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.
+
+Q12. [Application · 4 marks] Explain the working of an electric generator, including the role of slip rings and the commutator.
+    Ans:
+      A coil is rotated mechanically in a magnetic field, so the magnetic flux linked with it keeps changing and an induced current is produced (electromagnetic induction).
+      The direction of the induced current reverses every half rotation, which is found by Fleming's right-hand rule.
+      In an AC generator two slip rings keep the coil connected to the external circuit without reversing the connections, so the output is alternating current.
+      A DC generator replaces them with a split-ring commutator, which reverses the connection to the external circuit every half turn so the output flows in one direction.
+
+Q13. [Long · 5 marks] Describe a domestic electric circuit and explain the function of the earth wire and the fuse.
+    Ans:
+      The supply has three wires: live (red, at about 220 V), neutral (black, at zero potential) and earth (green).
+      Appliances are connected in parallel so that each receives the full supply voltage, each has its own switch, and the failure of one does not affect the others. Separate 15 A and 5 A circuits are provided for heavy and light appliances.
+      Earth wire: the metallic body of an appliance is connected to a metal plate buried in the earth, so if the live wire touches the body the leakage current flows safely into the ground instead of through a person — preventing a fatal shock.
+      Fuse: a short piece of wire of low melting point connected in series with the appliance. If the current exceeds the safe value, the fuse wire melts and breaks the circuit, protecting the appliance from damage due to overloading or short circuiting.
+
+Q14. [Long · 5 marks] Discuss “Magnetic Effects of Electric Current” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Magnetic field and field lines. A magnetic field is the region around a magnet in which its force can be detected. Field lines are closed continuous curves — outside a bar magnet they run from the north to the south pole and inside from south to north. Two field lines never intersect (that would mean two directions of force at one point). The relative strength is shown by how close the lines are.
+      Marks lens: –3 marks. Fleming's left-hand and right-hand rules and the difference between AC and DC are asked repeatedly.
+      Method / memory trick: Left hand = Motor, Right hand = Generator. 'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.
+      Do not: Saying field lines run from south to north outside a magnet. Outside it is north to south.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The direction of the magnetic field produced by a straight current-carrying wire is given by: (a) Fleming's left-hand rule (b) Fleming's right-hand rule (c) the right-hand thumb rule (d) Lenz's law
+    Ans: (c) the right-hand thumb rule — hold the wire in the right hand with the thumb along the current; the curled fingers give the direction of the field lines.
+
+M2. The essential difference between an AC generator and a DC generator is: (a) AC generator has an electromagnet (b) DC generator has a commutator (c) AC generator has slip rings while DC generator has a commutator (d) AC generator produces more power
+    Ans: (c). The slip rings of an AC generator allow the output to reverse, while the split-ring commutator of a DC generator keeps the external current in one direction.
+
+M3. The frequency of AC supply in India is 50 Hz. The direction of the current changes: (a) 50 times per second (b) 100 times per second (c) 25 times per second (d) 200 times per second
+    Ans: (b) 100 times per second — the direction reverses twice in each cycle.
+
+M4. The most exam-ready way to revise “Magnetic Effects of Electric Current” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Field patterns, the three hand rules, the motor and the generator.
+
+M5. A 3-mark answer on “Magnetic Effects of Electric Current” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The magnetic field lines inside a long current-carrying solenoid are: (a) concentric circles  (b) parallel straight lines  (c) diverging curves  (d) absent
+    Ans: (b) parallel straight lines. The field inside a solenoid is nearly uniform, like the field inside a bar magnet.
+
+M7. An electric motor converts: (a) electrical energy into mechanical energy  (b) mechanical energy into electrical energy  (c) heat into light  (d) chemical energy into sound
+    Ans: (a) electrical energy into mechanical energy. A generator does the reverse conversion.
+
+M8. The insulation on the earth wire in a domestic circuit is: (a) red  (b) black  (c) green  (d) blue
+    Ans: (c) green. Live is red or brown, neutral is black or blue, and earth is green or green-yellow.
+
+M9. The magnetic field at a point near a long straight current-carrying wire: (a) increases as you move away from the wire  (b) decreases as you move away from the wire  (c) does not depend on the current  (d) is zero everywhere around the wire
+    Ans: (b) decreases as you move away from the wire. The concentric field lines get farther apart with distance; the field is stronger for a larger current and closer to the wire.
+
+M10. Fleming's left-hand rule gives the direction of the: (a) induced current in a coil  (b) magnetic field due to a current  (c) force on a current-carrying conductor in a magnetic field  (d) current produced by a generator
+    Ans: (c) force on a current-carrying conductor in a magnetic field. Forefinger = field, middle finger = current, thumb = force (motor). The right-hand rule is for generators.
+
+M11. The production of a current in a closed coil by a changing magnetic field is called: (a) electromagnetic induction  (b) magnetic effect of current  (c) electrolysis  (d) electrostatic induction
+    Ans: (a) electromagnetic induction. Faraday's discovery — the basis of the electric generator; the induced current direction is given by Fleming's right-hand rule.

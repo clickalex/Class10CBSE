@@ -101,7 +101,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Chemical Reactions and Equations” (Balancing, the five reaction types, corrosion and rancidity.). A classmate lost marks by doing this: Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Chemical Reactions and Equations” (Balancing, the five reaction types, corrosion and rancidity). A classmate lost marks by doing this: Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Balancing order: start with the element that appears in the largest number of atoms, leave free elements (O2, H2) for last, then re-check oxygen.",
           "Why the mistake costs marks: Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed.",
@@ -113,7 +113,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Chemical Reactions and Equations”: “Why must a chemical equation be balanced?” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Balancing, the five reaction types, corrosion and rancidity..",
+          "Idea: Balancing, the five reaction types, corrosion and rancidity.",
           "Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction."
         ]
       },
@@ -136,7 +136,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Chemical Reactions and Equations”. Their note says: Recognising a chemical reaction. Four observable clues: change of state, change of colour, evolution of a gas, and change in temperature. If a new substance with new properties forms, a chemical reaction has taken place.\n\nThe chapter is described as: Balancing, the five reaction types, corrosion and rancidity..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Chemical Reactions and Equations”. Their note says: Recognising a chemical reaction. Four observable clues: change of state, change of colour, evolution of a gas, and change in temperature. If a new substance with new properties forms, a chemical reaction has taken place.\n\nThe chapter is described as: Balancing, the five reaction types, corrosion and rancidity.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Balancing, the five reaction types, corrosion and rancidity.",
           "(b) –4 marks every year, usually as one balancing question, one reaction-type identification and one reasoning question on corrosion or rancidity.",
@@ -186,7 +186,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Chemical Reactions and Equations” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Balancing, the five reaction types, corrosion and rancidity.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Balancing, the five reaction types, corrosion and rancidity."
       },
       {
         "q": "A 3-mark answer on “Chemical Reactions and Equations” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -354,7 +354,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Acids, Bases and Salts” (pH scale, indicators, and the four commercially important salts.). A classmate lost marks by doing this: Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Acids, Bases and Salts” (pH scale, indicators, and the four commercially important salts). A classmate lost marks by doing this: Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: pH memory: the scale counts *down* as acidity goes *up*. pH 2 is a hundred times more acidic than pH 4 (each unit is a factor of ten).",
           "Why the mistake costs marks: Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic.",
@@ -366,7 +366,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Acids, Bases and Salts”: “Why does dry HCl gas not change the colour of dry litmus paper?” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: pH scale, indicators, and the four commercially important salts..",
+          "Idea: pH scale, indicators, and the four commercially important salts.",
           "Because acidic behaviour requires the formation of H+(aq) ions, which needs water. Dry HCl gas has no water, so it does not ionise and cannot affect dry litmus."
         ]
       },
@@ -383,7 +383,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Acids, Bases and Salts”. Their note says: What makes an acid an acid. Acids produce H+(aq) ions in water; bases produce OH−(aq) ions. Distillation water does not conduct electricity, but adding an acid or base makes it conduct, because the ions are the charge carriers. Note: dry HCl gas does not turn dry blue litmus red — water is needed fo\n\nThe chapter is described as: pH scale, indicators, and the four commercially important salts..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Acids, Bases and Salts”. Their note says: What makes an acid an acid. Acids produce H+(aq) ions in water; bases produce OH−(aq) ions. Distillation water does not conduct electricity, but adding an acid or base makes it conduct, because the ions are the charge carriers. Note: dry HCl gas does not turn dry blue litmus red — water is needed fo\n\nThe chapter is described as: pH scale, indicators, and the four commercially important salts.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) pH scale, indicators, and the four commercially important salts.",
           "(b) –5 marks. A pH/reasoning question (2), a salt-family question such as bleaching powder or plaster of Paris (2–3), and one indicator or neutralisation question.",
@@ -449,7 +449,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Acids, Bases and Salts” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is pH scale, indicators, and the four commercially important salts.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is pH scale, indicators, and the four commercially important salts."
       },
       {
         "q": "A 3-mark answer on “Acids, Bases and Salts” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -580,7 +580,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Metals and Non-metals” (Physical properties, the reactivity series and extraction of metals.). A classmate lost marks by doing this: Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Metals and Non-metals” (Physical properties, the reactivity series and extraction of metals). A classmate lost marks by doing this: Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Reactivity series mnemonic: *Please Send Charlie's Monkey And Zebra Into Lions' Pens, Come Home Monkeys, All Safe And sound* (K Na Ca Mg Al Zn Fe Pb H Cu Hg Ag Au).",
           "Why the mistake costs marks: Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water.",
@@ -592,7 +592,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Metals and Non-metals”: “Name a metal that is liquid at room temperature and a non-metal that is lustrous.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Physical properties, the reactivity series and extraction of metals..",
+          "Idea: Physical properties, the reactivity series and extraction of metals.",
           "Mercury (metal, liquid at room temperature) and iodine (non-metal, lustrous)."
         ]
       },
@@ -609,7 +609,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Metals and Non-metals”. Their note says: Physical properties. Metals are lustrous, malleable, ductile, sonorous and good conductors of heat and electricity; sodium and potassium are soft enough to cut with a knife, mercury is the only liquid metal, gallium and caesium melt in your palm. Non-metals are the opposite: dull, brittle, poor cond\n\nThe chapter is described as: Physical properties, the reactivity series and extraction of metals..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Metals and Non-metals”. Their note says: Physical properties. Metals are lustrous, malleable, ductile, sonorous and good conductors of heat and electricity; sodium and potassium are soft enough to cut with a knife, mercury is the only liquid metal, gallium and caesium melt in your palm. Non-metals are the opposite: dull, brittle, poor cond\n\nThe chapter is described as: Physical properties, the reactivity series and extraction of metals.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Physical properties, the reactivity series and extraction of metals.",
           "(b) –4 marks. The reactivity series and displacement reactions are asked every year; ionic bond formation and the extraction of a metal (usually copper or zinc) fill the 3-mark slot.",
@@ -673,7 +673,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Metals and Non-metals” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Physical properties, the reactivity series and extraction of metals.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Physical properties, the reactivity series and extraction of metals."
       },
       {
         "q": "A 3-mark answer on “Metals and Non-metals” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -809,7 +809,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Carbon and its Compounds” (Covalent bonding, homologous series, and ethanol and ethanoic acid.). A classmate lost marks by doing this: Writing the general formula of alkenes as CnH2n+2. Check by counting ethene: C2H4 fits CnH2n. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Carbon and its Compounds” (Covalent bonding, homologous series, and ethanol and ethanoic acid). A classmate lost marks by doing this: Writing the general formula of alkenes as CnH2n+2. Check by counting ethene: C2H4 fits CnH2n. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Carbon counts: *Meth*-1, *Eth*-2, *Prop*-3, *But*-4, *Pent*-5, *Hex*-6. The suffix gives the bond: *-ane* single, *-ene* double, *-yne* triple.",
           "Why the mistake costs marks: Writing the general formula of alkenes as CnH2n+2. Check by counting ethene: C2H4 fits CnH2n.",
@@ -821,7 +821,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Carbon and its Compounds”: “Why do covalent compounds generally have low melting and boiling points?” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Covalent bonding, homologous series, and ethanol and ethanoic acid..",
+          "Idea: Covalent bonding, homologous series, and ethanol and ethanoic acid.",
           "Because the forces of attraction *between* their molecules are weak, even though the covalent bonds within a molecule are strong. Little energy is needed to separate the molecules."
         ]
       },
@@ -838,7 +838,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Carbon and its Compounds”. Their note says: Why carbon is special. Carbon has four valence electrons; gaining or losing four electrons is energetically impossible, so it shares electrons and forms covalent bonds. Two properties make it unique: catenation (bonding to itself in long chains, branches and rings) and tetravalency. Covalent compoun\n\nThe chapter is described as: Covalent bonding, homologous series, and ethanol and ethanoic acid..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Carbon and its Compounds”. Their note says: Why carbon is special. Carbon has four valence electrons; gaining or losing four electrons is energetically impossible, so it shares electrons and forms covalent bonds. Two properties make it unique: catenation (bonding to itself in long chains, branches and rings) and tetravalency. Covalent compoun\n\nThe chapter is described as: Covalent bonding, homologous series, and ethanol and ethanoic acid.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Covalent bonding, homologous series, and ethanol and ethanoic acid.",
           "(b) –5 marks. One naming question (IUPAC name or structure), one comparison of soap and detergent or of ethanol and ethanoic acid, and one reaction of carbon compounds.",
@@ -903,7 +903,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Carbon and its Compounds” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Covalent bonding, homologous series, and ethanol and ethanoic acid.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Covalent bonding, homologous series, and ethanol and ethanoic acid."
       },
       {
         "q": "A 3-mark answer on “Carbon and its Compounds” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",

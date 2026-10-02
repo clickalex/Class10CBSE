@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 13 · Cybercrime, IPR & Open Source · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 13 · Cybercrime, IPR & Open Source
+Unit: Unit III · Cyber Ethics
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is plagiarism and how can it be avoided?
+    Ans: Plagiarism is presenting someone else's words, ideas, data or code as if they were your own, without giving credit. It is an ethical offence even when no money changes hands. It is avoided by always citing the source, using quotation marks around copied text, paraphrasing genuinely rather than swapping a few words, and keeping a record of every source consulted while working.
+
+Q2. [Short · 2 marks] What is software piracy?
+    Ans: Software piracy is the unauthorised copying, distribution or use of software without a valid licence. It includes installing one licensed copy on many machines, downloading cracked versions, and selling counterfeit discs. It deprives developers of income and often exposes the user to malware, since pirated copies are frequently bundled with it.
+
+Q3. [Short · 2 marks] Distinguish between freeware and shareware.
+    Ans: Freeware can be used free of charge indefinitely, but its source code is usually closed and it cannot be modified or sold — an example is Skype. Shareware is distributed free only as a trial, either for a limited period or with reduced features, and the user must pay to continue using it after the trial ends.
+
+Q4. [Short · 2 marks] What is plagiarism and how is it different from quoting?
+    Ans: Plagiarism is using someone else's words, ideas, images or code and presenting them as your own, even if you change a few words or do not name the source. Quoting keeps the original wording inside quotation marks and names the author and the work, so the reader knows whose words they are; that is allowed and expected in school work.
+
+Q5. [Short · 3 marks] What is IPR? Name and explain its four main types.
+    Ans: IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business information such as a formula or a method.
+
+Q6. [Short · 3 marks] Differentiate between free and open source software and proprietary software, with examples.
+    Ans: FOSS makes the source code available, so anyone may use, study, modify and redistribute the program; examples are Linux, Firefox and LibreOffice. Here 'free' refers to freedom rather than price. Proprietary software keeps its source code secret and grants only a licence to use it, forbidding copying, modification or redistribution; examples are Microsoft Windows and Adobe Photoshop. The practical difference is that with FOSS you can fix or extend the software yourself, while with proprietary software you depend entirely on the vendor.
+
+Q7. [Application · 3 marks] Riya is revising “Cybercrime, IPR & Open Source” (Cybercrime, intellectual property rights, plagiarism, and free versus open source software). A classmate lost marks by doing this: Confusing copyright and patent — copyright covers creative works, patent covers inventions. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.
+      Why the mistake costs marks: Confusing copyright and patent — copyright covers creative works, patent covers inventions.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Cybercrime, IPR & Open Source”: “What is IPR? Name and explain its four main types.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Cybercrime, intellectual property rights, plagiarism, and free versus open source software.
+      IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business information such as a formula or a method.
+
+Q9. [Short · 3 marks] Explain the four main kinds of intellectual property.
+    Ans:
+      Copyright protects original literary, musical, artistic and software works, and lasts for the life of the author plus sixty years in India.
+      A patent protects a new invention for twenty years, and lets the owner stop others from making or selling it.
+      A trademark protects a name, logo or symbol that identifies a business or product, such as a brand name or a jingle.
+      A design right protects the shape, pattern or look of a manufactured article, and trade secrets protect information kept confidential by a business.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Cybercrime, IPR & Open Source”. Their note says: Cybercrime. A cybercrime is any illegal act in which a computer or network is used as a tool, a target, or a place to store evidence. Examples are hacking, spreading malware, online fraud, identity theft, publishing obscene material, and attacking a website so that it stops working.
+    
+    The chapter is described as: Cybercrime, intellectual property rights, plagiarism, and free versus open source software.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Cybercrime, intellectual property rights, plagiarism, and free versus open source software.
+      (b) Define IPR and its types, explain plagiarism and software piracy, distinguish FOSS from proprietary software.
+      (c) Confusing copyright and patent — copyright covers creative works, patent covers inventions.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “What is IPR? Name and explain its four main types.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business informati
+      (c) Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.
+
+Q12. [Long · 5 marks] Discuss “Cybercrime, IPR & Open Source” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Cybercrime. A cybercrime is any illegal act in which a computer or network is used as a tool, a target, or a place to store evidence. Examples are hacking, spreading malware, online fraud, identity theft, publishing obscene material, and attacking a website so that it stops working.
+      Marks lens: Define IPR and its types, explain plagiarism and software piracy, distinguish FOSS from proprietary software.
+      Method / memory trick: Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.
+      Do not: Confusing copyright and patent — copyright covers creative works, patent covers inventions.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which IPR protects a brand logo? (a) copyright (b) patent (c) trademark (d) trade secret
+    Ans: (c) trademark.
+
+M2. Which IPR protects an invention? (a) copyright (b) patent (c) trademark (d) licence
+    Ans: (b) patent.
+
+M3. Which of these is open source? (a) MS Windows (b) Adobe Photoshop (c) Linux (d) Skype
+    Ans: (c) Linux.
+
+M4. Presenting someone else's work as your own is — (a) piracy (b) plagiarism (c) phishing (d) hacking
+    Ans: (b) plagiarism.
+
+M5. Software free to use but closed in source is called — (a) shareware (b) freeware (c) FOSS (d) malware
+    Ans: (b) freeware.
+
+M6. Copying a paid program and selling it without the owner's permission is: (a) software piracy  (b) fair use  (c) open source  (d) shareware
+    Ans: (a) software piracy. It is a criminal offence under the Copyright Act.
+
+M7. Open source software is software that: (a) lets users study, change and share the source code  (b) is always free of cost  (c) cannot be copied  (d) runs only on mobile phones
+    Ans: (a) lets users study, change and share the source code. Free refers to freedom, not necessarily to price.
+
+M8. Software distributed as a paid trial is called: (a) shareware (b) freeware (c) FOSS (d) malware
+    Ans: (a) shareware. Try first, pay later; freeware is free but closed, FOSS is open in source.

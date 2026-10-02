@@ -1,0 +1,125 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 2 · Polynomials · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 2 · Polynomials
+Unit: II · Algebra
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the zeroes of x² − 2x − 8 and verify the relationship with the coefficients.
+    Ans:
+      x² − 2x − 8 = (x − 4)(x + 2), so the zeroes are 4 and −2.
+      Sum = 4 + (−2) = 2 = −(−2)/1 = −b/a ✓
+      Product = 4 × (−2) = −8 = c/a ✓
+
+Q2. [Short · 2 marks] If α and β are the zeroes of 6x² − 3x − 7, find 1/α + 1/β.
+    Ans:
+      α + β = 3/6 = 1/2 and αβ = −7/6.
+      1/α + 1/β = (α + β)/(αβ) = (1/2)/(−7/6) = −3/7.
+
+Q3. [Short · 3 marks] Find a quadratic polynomial whose zeroes have sum 1/4 and product −1.
+    Ans: A quadratic with zeroes whose sum is S and product is P is k[x² − Sx + P]. Here S = 1/4 and P = −1, so p(x) = k[x² − (1/4)x − 1]. Taking k = 4 to clear the fraction gives 4x² − x − 4. Any non-zero value of k is accepted, since multiplying a polynomial by a constant does not change its zeroes.
+
+Q4. [Short · 3 marks] If one zero of (k² − 1)x² − 3x + 2 is the reciprocal of the other, find k.
+    Ans:
+      Product of zeroes = c/a = 2/(k² − 1).
+      Reciprocal zeroes ⇒ product = 1, so 2/(k² − 1) = 1.
+      k² − 1 = 2, k² = 3, so k = ±√3.
+
+Q5. [Application · 3 marks] Riya is revising “Polynomials” (Zeroes of a quadratic and their relation to coefficients). A classmate lost marks by doing this: Writing the sum as +b/a. It is −b/a. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Sign trap: the sum is minus b/a. Almost every wrong answer here has the wrong sign.
+      Why the mistake costs marks: Writing the sum as +b/a. It is −b/a.
+      Write the definition or formula first, then the working or example.
+
+Q6. [Application · 3 marks] Amit is given this exam-style task from “Polynomials”: “Find the zeroes of x² − 2x − 8 and verify the relationship with the coefficients.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Zeroes of a quadratic and their relation to coefficients.
+      x² − 2x − 8 = (x − 4)(x + 2), so the zeroes are 4 and −2. Sum = 4 + (−2) = 2 = −(−2)/1 = −b/a ✓ Product = 4 × (−2) = −8 = c/a ✓
+
+Q7. [Short · 3 marks] If α and β are the zeroes of x² − 6x + k and 3α + 2β = 20, find k.
+    Ans:
+      α + β = 6 (sum of zeroes) and 3α + 2β = 20.
+      Subtract twice the first equation from the second: α = 20 − 12 = 8, so β = −2.
+      Product αβ = 8(−2) = −16, and product = c/a = k, so k = −16.
+
+Q8. [Short · 3 marks] Divide 3x³ + x² + 2x + 5 by x² + 2x + 1 and verify the division algorithm.
+    Ans:
+      Quotient = 3x − 5, remainder = 9x + 10.
+      Check: (x² + 2x + 1)(3x − 5) + 9x + 10
+      = 3x³ + 6x² + 3x − 5x² − 10x − 5 + 9x + 10
+      = 3x³ + x² + 2x + 5, which is the dividend — so dividend = divisor × quotient + remainder.
+
+Q9. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Polynomials”. Their note says: Zeroes of a polynomial. A zero of p(x) is a value of x for which p(x) = 0. Geometrically it is where the graph cuts or touches the x-axis.
+    
+    The chapter is described as: Zeroes of a quadratic and their relation to coefficients.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Zeroes of a quadratic and their relation to coefficients.
+      (b) Usually one 2-mark question plus part of an objective question.
+      (c) Writing the sum as +b/a. It is −b/a.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Find the zeroes of x² − 2x − 8 and verify the relationship with the coefficients.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) x² − 2x − 8 = (x − 4)(x + 2), so the zeroes are 4 and −2. Sum = 4 + (−2) = 2 = −(−2)/1 = −b/a ✓ Product = 4 × (−2) = −8 = c/a ✓
+      (c) Sign trap: the sum is minus b/a. Almost every wrong answer here has the wrong sign.
+
+Q11. [Application · 4 marks] A quadratic polynomial cuts the x-axis at −2 and 3 and its graph passes through (0, 6). Find the polynomial.
+    Ans:
+      With zeroes −2 and 3, p(x) = a(x + 2)(x − 3).
+      It passes through (0, 6), so 6 = a(2)(−3) = −6a, giving a = −1.
+      Hence p(x) = −(x + 2)(x − 3) = −x² + x + 6.
+
+Q12. [Long · 5 marks] Discuss “Polynomials” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Zeroes of a polynomial. A zero of p(x) is a value of x for which p(x) = 0. Geometrically it is where the graph cuts or touches the x-axis.
+      Marks lens: Usually one 2-mark question plus part of an objective question.
+      Method / memory trick: Sign trap: the sum is minus b/a. Almost every wrong answer here has the wrong sign.
+      Do not: Writing the sum as +b/a. It is −b/a.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The zeroes of x² + 7x + 10 are: (a) 2, 5  (b) −2, −5  (c) 2, −5  (d) −2, 5
+    Ans: (b) −2, −5. Sum = −7, product = 10, so both zeroes are negative.
+
+M2. If α, β are zeroes of x² − 5x + 6, then α + β = ? (a) 6  (b) 5  (c) −5  (d) 1
+    Ans: (b) 5. Sum = −b/a = 5.
+
+M3. A quadratic polynomial whose zeroes are 3 and −3 is: (a) x² − 9  (b) x² + 9  (c) x² − 6x + 9  (d) x² − 3
+    Ans: (a) x² − 9. Sum = 0 and product = −9.
+
+M4. The most exam-ready way to revise “Polynomials” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Zeroes of a quadratic and their relation to coefficients.
+
+M5. A 3-mark answer on “Polynomials” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. A polynomial of degree 3 is called: (a) linear  (b) quadratic  (c) cubic  (d) biquadratic
+    Ans: (c) cubic. Degree 1 is linear, 2 is quadratic, 3 is cubic and 4 is biquadratic.
+
+M7. If one zero of x² − 4x + 1 is 2 + √3, the other zero is: (a) 2 − √3  (b) −2 − √3  (c) √3 − 2  (d) −√3
+    Ans: (a) 2 − √3. Sum of zeroes = 4, so the other zero = 4 − (2 + √3) = 2 − √3.
+
+M8. A quadratic polynomial can have at most: (a) 0 zeroes  (b) 1 zero  (c) 2 zeroes  (d) 3 zeroes
+    Ans: (c) 2 zeroes. A polynomial of degree n has at most n zeroes, so degree 2 gives at most two.

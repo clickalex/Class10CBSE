@@ -16,8 +16,10 @@ are in is always visible:
 - **All subjects** — one entry per subject with its board code as a badge;
   subjects whose chapter content is not written yet are plain text marked
   *in progress*.
+- **Downloads** — one entry, *Papers & question banks*, right under the
+  subjects (see [Downloads](#downloads) below).
 - **This subject** — only when you are inside a subject: its eight pages
-  (Overview, Chapters, Syllabus, Question bank, PYQ, Revision, Drill,
+  (Overview, Chapters, Syllabus, Q&A bank, PYQ papers, Revision, Drill,
   Practical).
 - **Chapters** — grouped by unit, each chapter numbered; the page you are on is
   highlighted and scrolled into view automatically.
@@ -57,6 +59,7 @@ site/
 ├── layout.py                 the page shell + reusable components; renders partials/
 ├── mocktest.py               builds the mock-test pools and pages (called by build.py)
 ├── admissions.py, nsat.py    the after-10th and PW NSAT hub pages
+├── downloads.py              official-paper links, the Downloads page, question-bank .txt exports
 ├── partials/                 the shared HTML, one file per component
 │   ├── page.html             document shell: doctype, <html>, sidebar/main grid
 │   ├── head.html             charset, title, description, favicon, canonical, OG
@@ -67,15 +70,57 @@ site/
 │   └── notfound.html         the self-contained 404 page
 ├── theme/
 │   ├── css/style.css         the whole design, one stylesheet
-│   └── js/app.js, mock.js    drawer + progress bar; the mock-test engine
+│   └── js/app.js, mock.js, print.js   drawer + progress bar; the mock-test engine; save-as-PDF helper
 ├── content/
 │   ├── subjects.json         one entry per subject: units, marks, study order
 │   ├── chapters/<slug>/      chapter content, split into small JSON files
 │   ├── mock-tests.json       one blueprint per exam: mocks, time, marking, sections → pools
+│   ├── downloads.json        every official CBSE file URL (papers, sample papers, question banks)
 │   └── banks/                extra MCQ banks used only by mock tests (mental-ability.json)
 docs/                         generated site — GitHub Pages serves this folder
 assets/images/  (repo root)   favicon.svg, logo.svg + generated icon-*.png → docs/assets/img/
 ```
+
+### Downloads
+
+`downloads.py` owns everything about the download buttons; `build.py` only calls it.
+
+- **`content/downloads.json`** is the single list of official files. `sittings`
+  (board exams, newest first) and `sessions` (sample-paper sessions) name the rows;
+  each subject has `courses` (Maths Standard/Basic, Hindi A/B, one for the rest) with
+  a `pyq` map `{sitting: {url, size}}` and an `sqp` map `{session: {sqp, ms}}`, plus
+  optional `qb` (CBSE question-bank PDFs) and `apq` (additional practice questions).
+  `lists` holds CBSE's own listing pages the URLs were copied from, shown as
+  "full list" links and probed by the link checker. A file CBSE does not list is
+  simply absent and rendered as "Not listed by CBSE". Two courses that share one
+  file (Maths 2026) render as one merged cell.
+- **Validation** runs on every build (`downloads.validate`): https only, host must be
+  `www.cbse.gov.in` or `cbseacademic.nic.in`, `.pdf`/`.zip` only, every subject
+  covered, every sitting/session known. A bad manifest fails the build before any
+  page is written. `tests/test_downloads.py` also pins CBSE's directory scheme, so a
+  paper filed under the wrong year cannot ship.
+- **Pages.** Each subject's PYQ page opens with the board-paper and sample-paper
+  tables; its Q&A-bank page opens with the download panel and a *Save this
+  chapter* row under every chapter heading; the Drill and chapter practice pages
+  carry a *Save* row. `downloads/index.html` shows every subject on one page.
+- **Text exports.** `downloads.export_files()` writes `docs/downloads/<slug>/
+  class10-<slug>-question-bank.txt` and one `class10-<slug>-<chapter-id>.txt` per
+  chapter: UTF-8 with a BOM (so old Windows Notepad reads Devanagari), every written Q&A
+  and MCQ once, inline markup stripped by the same rules as `build.inline()` (a test
+  compares the two on every content string). Plain text on purpose — `.gitignore`
+  ignores `*.pdf`/`*.zip`, a stdlib PDF cannot shape Devanagari, and a compressed
+  `.docx` is not byte-stable across zlib builds, which would break the `docs/` drift check.
+- **Save as PDF.** `theme/js/print.js` (loaded on any page that contains
+  click-to-reveal answers) opens the answers for a print and closes them again;
+  buttons carry `data-save-pdf="answers|questions"` and an optional
+  `data-scope="<section id>"`. The layout is the `@media print` block at the end of
+  `style.css`, scoped to `body:not(.mock-page)` so the mock-test print rules are
+  untouched. Print hides the site chrome but keeps the footer's "not official CBSE
+  papers" line and the credit, so a saved PDF carries both.
+- **Keeping links alive.** `python3 scripts/check_downloads.py` probes every URL
+  (HEAD, then a one-byte GET; an HTML page served for a `.pdf` counts as broken)
+  and exits 0 / 1 (broken) / 2 (no server reachable). The build itself never
+  touches the network.
 
 ### Reusable components (partials)
 
@@ -168,14 +213,14 @@ practice page for a chapter always has something to attempt.
 
 ### What every chapter contains
 
-An audit of all 174 chapters (2026-09) found gaps in the optional sections
+An audit of all 175 chapters (2026-09) found gaps in the optional sections
 and uneven ordering, and closed them:
 
 | Section | Coverage |
 |---|---|
-| Marks lens, Deep concepts, Memory tricks, Mistakes, Exam Q&A, Hands-on task | 174 / 174 |
-| Method, step by step | 174 / 174 |
-| Formulas to memorise | 74 / 174 — every maths, science, IT and computer-applications chapter, the five economics chapters and the three Sanskrit grammar chapters; literature chapters do not carry one |
+| Marks lens, Deep concepts, Memory tricks, Mistakes, Exam Q&A, Hands-on task | 175 / 175 |
+| Method, step by step | 175 / 175 |
+| Formulas to memorise | 67 / 175 — every maths, science, IT and computer-applications chapter (60), the four economics chapters and the three Sanskrit grammar chapters; literature chapters do not carry one |
 | Concepts per chapter | maths 5, science 6, social science 7, IT 7, computer-applications 4, english 3, hindi 5, sanskrit 5 |
 
 Median content per chapter now runs from 7,308 characters (hindi poems and

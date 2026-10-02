@@ -1,0 +1,125 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 9 · Some Applications of Trigonometry · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 9 · Some Applications of Trigonometry
+Unit: V · Trigonometry
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 3 marks] The angle of elevation of the top of a tower from a point 30 m from its foot is 60°. Find the height of the tower.
+    Ans: In the right triangle, tan 60° = height ÷ distance, so √3 = h/30 and h = 30√3 m ≈ 51.96 m. Draw the triangle first — the tower is the perpendicular, the 30 m ground distance is the base, and the angle of elevation is at the foot. Unless asked for a decimal, 30√3 m is the exact answer and is preferred.
+
+Q2. [Short · 3 marks] From the top of a 75 m high lighthouse, the angles of depression of two ships on the same side are 30° and 45°. Find the distance between the ships.
+    Ans:
+      For the ship at 45°: tan 45° = 75/x, so x = 75 m.
+      For the ship at 30°: tan 30° = 75/y, so y = 75√3 m.
+      Distance = 75√3 − 75 = 75(√3 − 1) ≈ 54.9 m.
+
+Q3. [Application · 3 marks] Riya is revising “Some Applications of Trigonometry” (Heights and distances — angle of elevation and depression). A classmate lost marks by doing this: Measuring the angle of depression from the vertical. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Angle of depression equals the angle of elevation from the other end (alternate angles). So a depression problem becomes an elevation problem on a mirrored triangle.
+      Why the mistake costs marks: Measuring the angle of depression from the vertical.
+      Write the definition or formula first, then the working or example.
+
+Q4. [Application · 3 marks] Amit is given this exam-style task from “Some Applications of Trigonometry”: “The angle of elevation of the top of a tower from a point 30 m from its foot is 60°. Find the height of the tower.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Heights and distances — angle of elevation and depression.
+      tan 60° = h/30, so √3 = h/30. h = 30√3 m ≈ 51.96 m.
+
+Q5. [Short · 3 marks] The shadow of a tower is 20 m longer when the sun’s elevation is 30° than when it is 60°. Find the height of the tower.
+    Ans:
+      Let the height be h. Shadow at 60° = h/tan 60° = h/√3; shadow at 30° = h/tan 30° = h√3.
+      h√3 − h/√3 = 20 ⇒ h(3 − 1)/√3 = 20 ⇒ 2h = 20√3.
+      So h = 10√3 m ≈ 17.3 m.
+
+Q6. [Application · 3 marks] Two poles of heights 6 m and 11 m stand upright on level ground with their feet 12 m apart. Find the distance between their tops.
+    Ans:
+      The difference in height is 11 − 6 = 5 m and the horizontal gap is 12 m.
+      Distance between the tops = √(5² + 12²) = √169 = 13 m.
+
+Q7. [Short · 3 marks] A kite flies with 100 m of string out so that its height above the ground is 50 m. If the string is taut, find the angle of elevation of the kite.
+    Ans:
+      Let the angle of elevation be θ. The string is the hypotenuse (100 m) and the height is the opposite side (50 m).
+      So sin θ = 50/100 = 1/2.
+      Therefore θ = 30°. The angle of elevation of the kite is 30°.
+
+Q8. [Long · 4 marks] A person on the bank of a river sees the top of a tree on the opposite bank at an angle of elevation of 60°. Walking 20 m away from the bank, the angle becomes 30°. Find the height of the tree and the width of the river.
+    Ans:
+      Let the height be h and the width x.
+      From the nearer point: h = x√3. From the farther point: h = (x + 20)/√3.
+      Equating: x√3 = (x + 20)/√3, so 3x = x + 20 and x = 10 m.
+      Therefore h = 10√3 ≈ 17.32 m and the river is 10 m wide.
+
+Q9. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Some Applications of Trigonometry”. Their note says: Line of sight is the line from the observer’s eye to the object being observed.
+    
+    The chapter is described as: Heights and distances — angle of elevation and depression.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Heights and distances — angle of elevation and depression.
+      (b) The remaining 4–5 marks of the 12-mark Trigonometry unit.
+      (c) Measuring the angle of depression from the vertical.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “The angle of elevation of the top of a tower from a point 30 m from its foot is 60°. Find the height of the tower.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) tan 60° = h/30, so √3 = h/30. h = 30√3 m ≈ 51.96 m.
+      (c) Angle of depression equals the angle of elevation from the other end (alternate angles). So a depression problem becomes an elevation problem on a mirrored triangle.
+
+Q11. [Application · 4 marks] From a point 40 m from the foot of a tower the angle of elevation of its top is 30°. After hoisting a flag on top, the angle of elevation of the top of the flag is 45°. Find the height of the flag.
+    Ans:
+      Height of the tower = 40 tan 30° = 40/√3 ≈ 23.1 m.
+      Height of tower + flag = 40 tan 45° = 40 m.
+      Height of the flag = 40 − 40/√3 = 40(1 − 1/√3) ≈ 16.9 m.
+
+Q12. [Long · 5 marks] Discuss “Some Applications of Trigonometry” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Line of sight is the line from the observer’s eye to the object being observed.
+      Marks lens: The remaining 4–5 marks of the 12-mark Trigonometry unit.
+      Method / memory trick: Angle of depression equals the angle of elevation from the other end (alternate angles). So a depression problem becomes an elevation problem on a mirrored triangle.
+      Do not: Measuring the angle of depression from the vertical.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The angle of depression is always measured from: (a) the vertical  (b) the horizontal  (c) the object  (d) the ground below
+    Ans: (b) The horizontal at the observer’s end.
+
+M2. If the angle of elevation of the sun is 45°, the length of the shadow of a pole equals: (a) half its height  (b) its height  (c) twice its height  (d) √3 times its height
+    Ans: (b) Its height. tan 45° = 1.
+
+M3. From the top of a tower the angle of depression of an object on the ground is 30°. The angle of elevation of the top from that object is: (a) 30°  (b) 45°  (c) 60°  (d) 90°
+    Ans: (a) 30°. Alternate angles between parallel horizontals.
+
+M4. The most exam-ready way to revise “Some Applications of Trigonometry” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Heights and distances — angle of elevation and depression.
+
+M5. A 3-mark answer on “Some Applications of Trigonometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. When the shadow of a pole equals its height, the sun’s angle of elevation is: (a) 30°  (b) 45°  (c) 60°  (d) 90°
+    Ans: (b) 45°. tan θ = height/shadow = 1, so θ = 45°.
+
+M7. The angle made by the line of sight with the horizontal when the object is below the observer is the angle of: (a) elevation  (b) depression  (c) reflection  (d) inclination
+    Ans: (b) depression. Elevation looks up; depression looks down.
+
+M8. A 10 m ladder reaches a window 8 m above the ground. Its foot is from the wall at a distance of: (a) 4 m  (b) 6 m  (c) 7 m  (d) 9 m
+    Ans: (b) 6 m. By Pythagoras, √(100 − 64) = √36 = 6 m.

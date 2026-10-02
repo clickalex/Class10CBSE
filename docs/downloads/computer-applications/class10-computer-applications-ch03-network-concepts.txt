@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 3 · Network Types, Topologies & Devices · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 3 · Network Types, Topologies & Devices
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Which IEEE standard defines Wi-Fi?
+    Ans: IEEE 802.11 defines Wi-Fi. The IEEE 802.3 standard, by contrast, defines wired Ethernet.
+
+Q2. [Short · 2 marks] Why is optical fibre preferred over copper cable for long distances?
+    Ans: Optical fibre carries data as pulses of light through glass, so it suffers almost no signal loss over long distances and is immune to electrical interference from motors, power lines and lightning. It also has a far higher bandwidth than copper. Its drawbacks are that it is more expensive and more fragile to install, which is why copper still dominates the last few metres.
+
+Q3. [Short · 2 marks] What is the difference between a MAC address and an IP address?
+    Ans: A MAC address is a 48-bit hardware address burnt into the network card; it never changes and identifies the physical device. An IP address is assigned logically for the network the device is on, so it changes when the device moves to a different network. MAC works within one local network, while IP works across the whole internet.
+
+Q4. [Short · 2 marks] Distinguish between a LAN and a WAN.
+    Ans: A LAN covers a small area such as a room, a building or a campus, is owned by one organisation, uses switches and cables or Wi-Fi, and is fast. A WAN covers a city, a country or the world, links LANs over leased telephone lines, fibre or satellites, and is slower and shared among many organisations.
+
+Q5. [Short · 3 marks] Explain star topology with its advantages and disadvantages.
+    Ans: In star topology every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its advantages are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its disadvantages are that it needs more cable than a bus, and the central device is a single point of failure — if the switch dies, the whole network stops.
+
+Q6. [Short · 3 marks] Differentiate between a hub, a switch and a router.
+    Ans: A hub works at the physical layer and repeats an incoming signal out of every port, so all devices see all traffic and collisions are common. A switch works at the data-link layer, learns the MAC address on each port and forwards a frame only to the intended port, which makes it far faster and more secure. A router works at the network layer and connects different networks, using IP addresses to choose the best path between them — it is what links your LAN to the internet.
+
+Q7. [Application · 3 marks] Riya is revising “Network Types, Topologies & Devices” (LAN to WAN, star to ring, and the boxes in between). A classmate lost marks by doing this: Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: PAN < LAN < MAN < WAN. Smallest to largest.
+      Why the mistake costs marks: Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Network Types, Topologies & Devices”: “Explain star topology with its advantages and disadvantages.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: LAN to WAN, star to ring, and the boxes in between.
+      In star topology every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its advantages are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its disadvantages are that it needs more cable than a bus, and the central device is a single point of failure — if the switch dies, the whole network stops.
+
+Q9. [Short · 3 marks] Compare the star and bus topologies and name one advantage of each.
+    Ans:
+      In a star topology every computer is connected to a central switch or hub; a fault in one cable affects only that computer, and new computers can be added easily.
+      In a bus topology all computers share one main cable with terminators at each end; it is cheap and needs less cable.
+      Star costs more because of the switch and the extra cable, while bus is slow when many computers share the cable and stops working if the main cable breaks.
+      Star is the topology used in almost every modern office network.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Network Types, Topologies & Devices”. Their note says: Networks by size. A LAN (Local Area Network) covers a room or a building — a school lab. A MAN (Metropolitan Area Network) covers a city — a cable TV network. A WAN (Wide Area Network) covers countries or the world; the internet is the largest WAN. A PAN (Personal Area Network) is the smallest, join
+    
+    The chapter is described as: LAN to WAN, star to ring, and the boxes in between.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) LAN to WAN, star to ring, and the boxes in between.
+      (b) Classify a network by its size, identify a topology from a description, name a device's job.
+      (c) Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Explain star topology with its advantages and disadvantages.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) In star topology every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its advantages are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its disadvantages are that it needs more cable than a bus, and the central device is a single point of failure — if the switch dies, the whole network stops.
+      (c) PAN < LAN < MAN < WAN. Smallest to largest.
+
+Q12. [Long · 5 marks] Discuss “Network Types, Topologies & Devices” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Networks by size. A LAN (Local Area Network) covers a room or a building — a school lab. A MAN (Metropolitan Area Network) covers a city — a cable TV network. A WAN (Wide Area Network) covers countries or the world; the internet is the largest WAN. A PAN (Personal Area Network) is the smallest, joining devices around one person, usually by Bluetooth.
+      Marks lens: Classify a network by its size, identify a topology from a description, name a device's job.
+      Method / memory trick: PAN < LAN < MAN < WAN. Smallest to largest.
+      Do not: Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which network covers a whole city? (a) LAN (b) MAN (c) WAN (d) PAN
+    Ans: (b) MAN — Metropolitan Area Network.
+
+M2. Which topology has a single point of failure at its centre? (a) Mesh (b) Bus (c) Star (d) Ring
+    Ans: (c) Star — the hub or switch is the single point of failure.
+
+M3. A device that joins two different networks and picks the best path is a — (a) hub (b) switch (c) repeater (d) router
+    Ans: (d) router.
+
+M4. Which medium is immune to electrical interference? (a) twisted pair (b) coaxial (c) optical fibre (d) infrared
+    Ans: (c) optical fibre — it carries light, not electricity.
+
+M5. The most exam-ready way to revise “Network Types, Topologies & Devices” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is LAN to WAN, star to ring, and the boxes in between.
+
+M6. A 3-mark answer on “Network Types, Topologies & Devices” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The device that connects two different networks and chooses the best path is a: (a) router  (b) switch  (c) hub  (d) repeater
+    Ans: (a) router. A switch connects computers within one network; a repeater only strengthens the signal.
+
+M8. The topology in which every computer is connected to every other computer is the: (a) mesh topology  (b) star topology  (c) bus topology  (d) ring topology
+    Ans: (a) mesh topology. It is the most reliable and the most expensive to cable.

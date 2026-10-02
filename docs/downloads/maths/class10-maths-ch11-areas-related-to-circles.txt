@@ -1,0 +1,119 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 11 · Areas Related to Circles · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 11 · Areas Related to Circles
+Unit: VI · Mensuration
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the length of an arc of a sector with radius 21 cm and central angle 120°.
+    Ans: Arc length = (θ/360°) × 2πr = (120/360) × 2 × (22/7) × 21 = (1/3) × 132 = 44 cm. Use 22/7 for π whenever the radius is a multiple of 7, as it is here — the sevens cancel and the arithmetic stays exact.
+
+Q2. [Short · 2 marks] The circumference of a circle exceeds its diameter by 30 cm. Find the radius (take π = 22/7).
+    Ans: 2πr − 2r = 30 ⇒ 2r(22/7 − 1) = 30 ⇒ 2r(15/7) = 30 ⇒ r = 7 cm. Check: circumference 44 cm, diameter 14 cm, difference 30 cm.
+
+Q3. [Short · 3 marks] Find the area of a sector of radius 6 cm with a central angle of 60° (take π = 3.14).
+    Ans: Area of sector = (θ/360°) × πr² = (60/360) × 3.14 × 36 = (1/6) × 113.04 = 18.84 cm². Here the radius is not a multiple of 7, so π = 3.14 as the question directs, and the unit is cm² because this is an area, not a length.
+
+Q4. [Short · 3 marks] Find the perimeter of a sector with radius 14 cm and central angle 90°.
+    Ans:
+      Arc = (90/360) × 2 × (22/7) × 14 = (1/4) × 88 = 22 cm.
+      Perimeter = 2(14) + 22 = 50 cm.
+
+Q5. [Application · 3 marks] Riya is revising “Areas Related to Circles” (Sectors, segments and combined figures). A classmate lost marks by doing this: Forgetting to add the two radii to the perimeter of a sector. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Perimeter of a sector is 2r + arc, not just the arc. Missing the two radii is the most common error here.
+      Why the mistake costs marks: Forgetting to add the two radii to the perimeter of a sector.
+      Write the definition or formula first, then the working or example.
+
+Q6. [Application · 3 marks] Amit is given this exam-style task from “Areas Related to Circles”: “Find the length of an arc of a sector with radius 21 cm and central angle 120°.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Sectors, segments and combined figures.
+      Arc = (120/360) × 2 × (22/7) × 21 = (1/3) × 132 = 44 cm.
+
+Q7. [Short · 3 marks] Find the area of the minor segment of a circle of radius 14 cm whose central angle is 90° (π = 22/7).
+    Ans:
+      Area of sector = (90/360) × (22/7) × 14² = ¼ × 616 = 154 cm².
+      Area of the right triangle formed by the two radii = ½ × 14 × 14 = 98 cm².
+      Area of the minor segment = 154 − 98 = 56 cm².
+
+Q8. [Long · 4 marks] A square of side 14 cm has a circle inscribed in it. Find the area between the square and the circle.
+    Ans:
+      The inscribed circle has diameter 14 cm, so radius 7 cm.
+      Area of square = 196 cm². Area of circle = (22/7) × 49 = 154 cm².
+      Required area = 196 − 154 = 42 cm².
+
+Q9. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Areas Related to Circles”. Their note says: Sector. The region between two radii and the arc joining their endpoints. The angle at the centre is θ.
+    
+    The chapter is described as: Sectors, segments and combined figures.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Sectors, segments and combined figures.
+      (b) Part of the 10-mark Mensuration unit, roughly 4–5 marks.
+      (c) Forgetting to add the two radii to the perimeter of a sector.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Find the length of an arc of a sector with radius 21 cm and central angle 120°.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Arc = (120/360) × 2 × (22/7) × 21 = (1/3) × 132 = 44 cm.
+      (c) Perimeter of a sector is 2r + arc, not just the arc. Missing the two radii is the most common error here.
+
+Q11. [Application · 4 marks] Two circles touch externally. The sum of their areas is 130π cm² and the distance between their centres is 14 cm. Find their radii.
+    Ans:
+      Let the radii be r₁ and r₂. Since they touch externally, r₁ + r₂ = 14.
+      πr₁² + πr₂² = 130π ⇒ r₁² + r₂² = 130.
+      (r₁ + r₂)² = r₁² + r₂² + 2r₁r₂ ⇒ 196 = 130 + 2r₁r₂ ⇒ r₁r₂ = 33.
+      So r₁ and r₂ are roots of t² − 14t + 33 = 0, giving 11 cm and 3 cm.
+
+Q12. [Long · 5 marks] Discuss “Areas Related to Circles” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Sector. The region between two radii and the arc joining their endpoints. The angle at the centre is θ.
+      Marks lens: Part of the 10-mark Mensuration unit, roughly 4–5 marks.
+      Method / memory trick: Perimeter of a sector is 2r + arc, not just the arc. Missing the two radii is the most common error here.
+      Do not: Forgetting to add the two radii to the perimeter of a sector.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The area of a quadrant of a circle of radius r is: (a) πr²/2  (b) πr²/4  (c) 2πr  (d) πr²
+    Ans: (b) πr²/4.
+
+M2. The perimeter of a sector includes: (a) only the arc  (b) the arc and one radius  (c) the arc and two radii  (d) the chord and the arc
+    Ans: (c) The arc and two radii.
+
+M3. The area of a segment is found by: (a) sector − triangle  (b) sector + triangle  (c) circle − sector  (d) triangle − sector
+    Ans: (a) Sector − triangle.
+
+M4. The most exam-ready way to revise “Areas Related to Circles” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Sectors, segments and combined figures.
+
+M5. A 3-mark answer on “Areas Related to Circles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The area of a circle whose circumference is 44 cm is: (a) 77 cm²  (b) 154 cm²  (c) 308 cm²  (d) 616 cm²
+    Ans: (b) 154 cm². 2πr = 44 gives r = 7 cm, so the area is πr² = 154 cm².
+
+M7. If the radius of a circle is doubled, its area becomes: (a) 2 times  (b) 4 times  (c) 8 times  (d) unchanged
+    Ans: (b) 4 times. Area ∝ r², so doubling r multiplies the area by 2² = 4.
+
+M8. The area of a semicircle of radius r is: (a) πr²  (b) πr²/2  (c) 2πr  (d) πr²/4
+    Ans: (b) πr²/2. A semicircle is half of a full circle.

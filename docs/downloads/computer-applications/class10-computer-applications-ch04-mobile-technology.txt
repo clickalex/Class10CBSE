@@ -1,0 +1,114 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 4 · Mobile & Wireless Technology · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 4 · Mobile & Wireless Technology
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is the difference between Bluetooth and NFC?
+    Ans: Bluetooth works over a range of a few metres and is used for continuous connections such as headphones, speakers and keyboards. NFC (Near Field Communication) works only within a few centimetres and is used for a single quick exchange — contactless payments, transit cards, pairing by tapping. Bluetooth needs pairing; NFC works by simply bringing two devices together.
+
+Q2. [Short · 2 marks] What is a cell and what is handover?
+    Ans: A cell is the geographic area covered by one mobile tower. A whole city is divided into many cells, which is why mobile networks are called cellular. Handover is the automatic process of moving an ongoing call or data session from one cell's tower to the next as the user travels, so the connection does not drop.
+
+Q3. [Short · 2 marks] Why does infrared need line of sight but Wi-Fi does not?
+    Ans: Infrared uses light waves, which cannot pass through solid objects, so the transmitter and receiver must see each other directly — that is why a TV remote only works when pointed at the TV. Wi-Fi uses radio waves, which pass through walls and furniture, so it works throughout a building without a direct line of sight.
+
+Q4. [Short · 2 marks] What does 4G mean and how is it better than 3G?
+    Ans: 4G is the fourth generation of mobile network technology, designed for data rather than voice, with download speeds of up to about 100 Mbps, smooth video streaming and low delay. 3G was built mainly to improve voice calls and gave only modest data speeds, so tasks such as video calling were slow or impossible.
+
+Q5. [Short · 3 marks] Compare 3G, 4G and 5G.
+    Ans: 3G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures.
+
+Q6. [Application · 3 marks] Riya is revising “Mobile & Wireless Technology” (Generations from 1G to 5G, plus the short-range wireless around you). A classmate lost marks by doing this: Saying 4G is faster only — it is also all-IP, which is the point. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations.
+      Why the mistake costs marks: Saying 4G is faster only — it is also all-IP, which is the point.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Application · 3 marks] Amit is given this exam-style task from “Mobile & Wireless Technology”: “Compare 3G, 4G and 5G.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Generations from 1G to 5G, plus the short-range wireless around you.
+      G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures.
+
+Q8. [Short · 3 marks] Name four short-range wireless technologies and give one use of each.
+    Ans:
+      Bluetooth connects a phone to wireless earphones, a keyboard or a speaker within about ten metres.
+      Wi-Fi connects devices to a local network and through it to the internet, at home, in school or in a cafe.
+      NFC allows contactless payments and data exchange when two devices are touched or held a few centimetres apart.
+      Infrared needs a direct line of sight and is still used in television remote controls.
+
+Q9. [Short · 3 marks] Why is 5G described as ‘for machines’ rather than just ‘faster phones’? Explain with reference to IoT and latency.
+    Ans:
+      Speed alone would only improve video on phones, which 4G already handles well.
+      5G's real change is low latency plus massive device density: millions of sensors, vehicles and appliances can talk to each other in milliseconds.
+      That is what the Internet of Things needs — a driverless car or a factory robot cannot wait for a slow round-trip. Hence: 1 voice, 2 text, 3 web, 4 video, 5 machines.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Mobile & Wireless Technology”. Their note says: Mobile generations. 1G was analog and voice-only. 2G went digital and added SMS and basic data through GPRS. 3G made mobile internet genuinely usable — video calls and browsing at a few Mbps. 4G/LTE is all-IP and built for data, giving tens of Mbps and making video streaming normal. 5G targets speed
+    
+    The chapter is described as: Generations from 1G to 5G, plus the short-range wireless around you.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Generations from 1G to 5G, plus the short-range wireless around you.
+      (b) Compare generations, name short-range technologies and their uses.
+      (c) Saying 4G is faster only — it is also all-IP, which is the point.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Compare 3G, 4G and 5G.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures.
+      (c) 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations.
+
+Q12. [Long · 5 marks] Discuss “Mobile & Wireless Technology” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Mobile generations. 1G was analog and voice-only. 2G went digital and added SMS and basic data through GPRS. 3G made mobile internet genuinely usable — video calls and browsing at a few Mbps. 4G/LTE is all-IP and built for data, giving tens of Mbps and making video streaming normal. 5G targets speeds up to around 20 Gbps with latency under a millisecond, which is what makes remote surgery, autonomous vehicles and den.
+      Marks lens: Compare generations, name short-range technologies and their uses.
+      Method / memory trick: 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations.
+      Do not: Saying 4G is faster only — it is also all-IP, which is the point.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which generation first made video calling practical? (a) 2G (b) 3G (c) 4G (d) 1G
+    Ans: (b) 3G, with speeds up to about 2 Mbps.
+
+M2. NFC works over a range of — (a) metres (b) kilometres (c) centimetres (d) it has no limit
+    Ans: (c) centimetres — which is why you tap.
+
+M3. Which standard family defines Wi-Fi? (a) IEEE 802.3 (b) IEEE 802.11 (c) IEEE 802.15 (d) IEEE 802.16
+    Ans: (b) IEEE 802.11. 802.3 is wired Ethernet.
+
+M4. 4G networks are described as — (a) analog (b) circuit-switched (c) all-IP (d) infrared-based
+    Ans: (c) all-IP.
+
+M5. The most exam-ready way to revise “Mobile & Wireless Technology” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Generations from 1G to 5G, plus the short-range wireless around you.
+
+M6. A 3-mark answer on “Mobile & Wireless Technology” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The generation of mobile technology that first made mobile internet practical was: (a) 3G  (b) 1G  (c) 2G  (d) 5G
+    Ans: (a) 3G. 1G was analogue voice, 2G added digital voice and SMS, and 5G is the current high-speed standard.
+
+M8. NFC works only when the two devices are: (a) a few centimetres apart  (b) in the same building  (c) on the same Wi-Fi network  (d) several metres apart
+    Ans: (a) a few centimetres apart. The short range is what makes contactless payment safe.

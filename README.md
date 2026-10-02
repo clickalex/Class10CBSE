@@ -21,10 +21,11 @@ Class10CBSE/
 │   ├── 09-After-10th/        Class XI admissions, official links, 9 PM IST tracker
 │   └── 10-PW-NSAT/           PW scholarship test: syllabus, practice, registration
 ├── assets/                   brand imagery: favicon.svg, logo.svg, generated icon-*.png
-├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · make_icons.py
+├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · check_admissions.py ·
+│                             check_downloads.py · make_icons.py
 ├── site/                     the site's source: content/, partials/, theme/, generators
 ├── tests/                    offline unit tests (run all via scripts/check_all.sh)
-├── project-info/             notes about the repo itself (whole-repo audit)
+├── project-info/             notes about the repo itself (whole-repo audits)
 └── docs/                     the generated study hub — this is what GitHub Pages serves
 ```
 
@@ -56,6 +57,42 @@ plus a formula list in the subjects that have formulas. See
 [What every chapter contains](site/README.md#what-every-chapter-contains).
 
 See [Deploying the site](#deploying-the-site) below.
+
+## Direct downloads — previous-year papers and question banks
+
+The [Downloads page](https://clickalex.github.io/Class10CBSE/downloads/) (also the
+**PDF** entry in the sidebar, and the *PYQ papers* and *Q&A bank* pages of every
+subject) puts the files one tap away. Two kinds, kept honest about who owns them:
+
+- **Official CBSE files are linked, never copied.** Per subject and course
+  (Maths Standard/Basic, Hindi A/B): the Class X board papers for 2026, the 2026
+  second board exam, 2025, the 2025 compartment and 2024 (CBSE publishes these as
+  ZIPs of every set); the 2026–27 and 2025–26 sample papers with marking schemes;
+  and CBSE's question bank and additional practice questions where it published
+  them (Maths, Science, English; practice questions for six subjects). Every URL
+  lives in `site/content/downloads.json`, copied from CBSE's own listing pages on
+  the date the file records, and the build refuses any URL that is not https on
+  `www.cbse.gov.in` or `cbseacademic.nic.in`. Files CBSE does not list are shown as
+  "Not listed by CBSE" rather than skipped.
+- **This hub's own question bank is downloadable too.** One UTF-8 text file per
+  subject and per chapter (written Q&A and MCQs, answers included) under
+  `docs/downloads/<subject>/`, generated at build time by `site/downloads.py`; and
+  every page that holds questions saves as a clean **PDF** through the browser's
+  print dialog — with answers or questions only, the whole bank or one chapter
+  (`site/theme/js/print.js` plus the print rules in `style.css`).
+
+CBSE renames and moves files without notice, so the build never fetches them.
+Check the links from a machine with internet access:
+
+```
+python3 scripts/check_downloads.py              # probe every official URL (exit 1 if one is broken)
+python3 scripts/check_downloads.py --offline    # validate downloads.json only
+python3 scripts/check_downloads.py --subject maths
+```
+
+To add next year's papers, add the sitting to `sittings` and each file under the
+course's `pyq` in `downloads.json`, then rebuild. Files you download for your own
+use belong in `study/<subject>/07-Previous-Year-Questions/` (git-ignored by design).
 
 ## Mock tests — check your own score online
 
@@ -215,7 +252,7 @@ scripts/check_all.sh            # every check in the repo, site built to a scrat
 - `docs/.nojekyll` tells Pages to serve the folder as-is instead of running
   Jekyll over it; `docs/404.html` is the not-found page for the live site.
 - The published folder is organised by type, like any static site:
-  `docs/assets/css/` (stylesheet), `docs/assets/js/` (drawer + mock engine),
+  `docs/assets/css/` (stylesheet), `docs/assets/js/` (drawer, mock engine, print helper),
   `docs/assets/img/` (favicon and icons copied from `assets/images/`), plus
   `sitemap.xml` and `robots.txt`, which the build writes from the page list so
   search engines can crawl all ~500 pages. Every page also carries its
@@ -250,6 +287,11 @@ material stays on your machine. If you do want to commit PDFs, delete the
 The one exception is `docs/`, the generated site: it is tracked on purpose,
 because that folder is what the live site is served from. It is build output,
 so edit `site/content/` and rebuild rather than editing it by hand.
+
+Because of those ignore rules the site never ships a `.pdf` or `.zip` of its own:
+official CBSE papers are linked from CBSE's servers, and the question-bank
+downloads in `docs/downloads/` are plain `.txt` files, which are tracked and
+rebuild byte-for-byte.
 
 ## Sources
 

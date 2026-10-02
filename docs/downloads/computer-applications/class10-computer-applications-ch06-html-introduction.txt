@@ -1,0 +1,121 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 6 · HTML I — Introduction & Basic Tags · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 6 · HTML I — Introduction & Basic Tags
+Unit: Unit II · HTML
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] What is the difference between <br> and <p>?
+    Ans: <br> inserts a single line break inside existing text without any spacing, while <p> starts a new paragraph, which the browser surrounds with vertical space before and after.
+
+Q2. [Short · 2 marks] What is the difference between a tag and an element?
+    Ans: A tag is the marker itself, written in angle brackets — for example <p> or </p>. An element is the complete unit made of the opening tag, the content and the closing tag — <p>This is a paragraph.</p>. So tags are the parts and the element is the whole thing they enclose.
+
+Q3. [Short · 2 marks] What are empty tags? Give two examples.
+    Ans: Empty tags, also called void tags, are tags that carry no content and therefore have no closing partner. They do their work on their own. Two examples are <br>, which inserts a line break, and <hr>, which draws a horizontal rule. <img> and <input> are other common empty tags.
+
+Q4. [Short · 2 marks] What is the purpose of the <head> section?
+    Ans: The <head> section holds information about the page rather than content shown on it. It contains the <title>, which appears on the browser tab and in search results, and can hold links to stylesheets, scripts and metadata. None of what is inside <head> is displayed in the page body.
+
+Q5. [Short · 2 marks] What is HTML and what is the basic structure of an HTML document?
+    Ans: HTML is the markup language in which web pages are written, using tags to describe the structure and meaning of the content. A document starts with <!DOCTYPE html>, then an <html> element containing a <head> with the <title>, and a <body> with everything the visitor sees.
+
+Q6. [Short · 3 marks] Write an HTML page that displays the heading 'My School' and a paragraph about it.
+    Ans:
+      <html>
+        <head>
+          <title>My School</title>
+        </head>
+        <body>
+          <h1>My School</h1>
+          <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p>
+        </body>
+      </html>
+      The <title> sits inside <head> and names the browser tab; everything visible is inside <body>.
+
+Q7. [Application · 3 marks] Riya is revising “HTML I — Introduction & Basic Tags” (What HTML is, the skeleton of a document, and the tags you use on every page). A classmate lost marks by doing this: Putting <title> inside <body>. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: <title> lives in <head>, not <body>. This single fact is worth a mark in most papers.
+      Why the mistake costs marks: Putting <title> inside <body>.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “HTML I — Introduction & Basic Tags”: “Write an HTML page that displays the heading 'My School' and a paragraph about it.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: What HTML is, the skeleton of a document, and the tags you use on every page.
+      <html> <head> <title>My School</title> </head> <body> <h1>My School</h1> <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p> </body> </html> The <title> sits inside <head> and names the browser tab; everything visible is inside <body>.
+
+Q9. [Short · 3 marks] Write the HTML for a page titled ‘My School' with one heading and one paragraph.
+    Ans:
+      Start with <!DOCTYPE html> so that the browser knows this is HTML5.
+      <html> wraps the whole document, <head> holds <title>My School</title>.
+      <body> holds <h1>My School</h1> for the main heading and <p>My school has thirty classrooms and a large library.</p> for the text.
+      Close with </body></html>; every opening tag must have a matching closing tag.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “HTML I — Introduction & Basic Tags”. Their note says: What HTML is. HTML stands for HyperText Markup Language. It is not a programming language — it has no variables, conditions or loops. It is a markup language: you surround content with tags that describe what the content is, and the browser decides how to display it. HTML files are saved with a 
+    
+    The chapter is described as: What HTML is, the skeleton of a document, and the tags you use on every page.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) What HTML is, the skeleton of a document, and the tags you use on every page.
+      (b) Write a complete HTML page by hand; give the purpose of a tag; predict the output of a snippet.
+      (c) Putting <title> inside <body>.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Write an HTML page that displays the heading 'My School' and a paragraph about it.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) <html> <head> <title>My School</title> </head> <body> <h1>My School</h1> <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p> </body> </html> The <title> sits inside <head> and names the browser tab; everything visible is inside <body>.
+      (c) <title> lives in <head>, not <body>. This single fact is worth a mark in most papers.
+
+Q12. [Long · 5 marks] Discuss “HTML I — Introduction & Basic Tags” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      What HTML is. HTML stands for HyperText Markup Language. It is not a programming language — it has no variables, conditions or loops. It is a markup language: you surround content with tags that describe what the content is, and the browser decides how to display it. HTML files are saved with a .html or .htm extension and are plain text.
+      Marks lens: Write a complete HTML page by hand; give the purpose of a tag; predict the output of a snippet.
+      Method / memory trick: <title> lives in <head>, not <body>. This single fact is worth a mark in most papers.
+      Do not: Putting <title> inside <body>.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. HTML stands for — (a) HighText Machine Language (b) HyperText Markup Language (c) HyperTool Markup Language (d) Home Tool Markup Language
+    Ans: (b) HyperText Markup Language.
+
+M2. Which tag goes inside <head>? (a) <body> (b) <h1> (c) <title> (d) <p>
+    Ans: (c) <title>.
+
+M3. The smallest heading tag is — (a) <h1> (b) <h3> (c) <h6> (d) <head>
+    Ans: (c) <h6>.
+
+M4. Which of these is an empty tag? (a) <p> (b) <br> (c) <h1> (d) <title>
+    Ans: (b) <br> — it has no closing partner.
+
+M5. The most exam-ready way to revise “HTML I — Introduction & Basic Tags” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is What HTML is, the skeleton of a document, and the tags you use on every page.
+
+M6. A 3-mark answer on “HTML I — Introduction & Basic Tags” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The tag that sets the text shown in the browser's title bar is: (a) <title>  (b) <head>  (c) <h1>  (d) <body>
+    Ans: (a) <title>. It is placed inside the <head> section.
+
+M8. The tag used for the most important heading is: (a) <h1>  (b) <h6>  (c) <p>  (d) <b>
+    Ans: (a) <h1>. Headings run from <h1>, the largest, down to <h6>, the smallest.

@@ -1,0 +1,119 @@
+﻿CLASS 10 CBSE · SCIENCE (Subject Code 086)
+Chapter 1 · Chemical Reactions and Equations · session 2026–27
+
+1 chapter · 12 written Q&A · 11 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/science/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 1 · Chemical Reactions and Equations
+Unit: I · Chemical Substances
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Why must a chemical equation be balanced?
+    Ans: Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction.
+
+Q2. [Short · 2 marks] Balance: HNO3 + Ca(OH)2 → Ca(NO3)2 + H2O
+    Ans: 2HNO3 + Ca(OH)2 → Ca(NO3)2 + 2H2O. This is also a neutralisation, hence a double displacement reaction.
+
+Q3. [Short · 2 marks] What is a precipitation reaction? Give one example with a balanced equation.
+    Ans: A precipitation reaction forms an insoluble solid (the precipitate) when two aqueous solutions are mixed. Example: Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s)↓ + 2NaCl(aq), where the white precipitate is barium sulphate.
+
+Q4. [Short · 3 marks] Why is nitrogen flushed into bags of potato chips?
+    Ans: Nitrogen is an unreactive (inert) gas. It displaces oxygen from the packet, so the fats and oils cannot be oxidised, which prevents rancidity and keeps the chips from changing smell and taste.
+
+Q5. [Application · 3 marks] Riya is revising “Chemical Reactions and Equations” (Balancing, the five reaction types, corrosion and rancidity). A classmate lost marks by doing this: Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Balancing order: start with the element that appears in the largest number of atoms, leave free elements (O2, H2) for last, then re-check oxygen.
+      Why the mistake costs marks: Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed.
+      Write the definition or formula first, then the working or example.
+
+Q6. [Application · 3 marks] Amit is given this exam-style task from “Chemical Reactions and Equations”: “Why must a chemical equation be balanced?” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Balancing, the five reaction types, corrosion and rancidity.
+      Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction.
+
+Q7. [Short · 3 marks] Balance this equation and name the type of reaction: FeSO₄(s) → Fe₂O₃(s) + SO₂(g) + SO₃(g).
+    Ans:
+      Balanced: 2FeSO₄(s) → Fe₂O₃(s) + SO₂(g) + SO₃(g).
+      It is a thermal decomposition reaction — one substance breaks into three on heating.
+      It is also a redox reaction: Fe²⁺ is oxidised while part of the sulphur is reduced.
+
+Q8. [Long · 4 marks] In the reaction ZnO + C → Zn + CO, identify the substance oxidised and the substance reduced.
+    Ans: Carbon is oxidised (it gains oxygen to form CO) and zinc oxide is reduced (it loses oxygen to form Zn). Carbon is the reducing agent; ZnO is the oxidising agent.
+
+Q9. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Chemical Reactions and Equations”. Their note says: Recognising a chemical reaction. Four observable clues: change of state, change of colour, evolution of a gas, and change in temperature. If a new substance with new properties forms, a chemical reaction has taken place.
+    
+    The chapter is described as: Balancing, the five reaction types, corrosion and rancidity.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Balancing, the five reaction types, corrosion and rancidity.
+      (b) –4 marks every year, usually as one balancing question, one reaction-type identification and one reasoning question on corrosion or rancidity.
+      (c) Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Why must a chemical equation be balanced?” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction.
+      (c) Balancing order: start with the element that appears in the largest number of atoms, leave free elements (O2, H2) for last, then re-check oxygen.
+
+Q11. [Application · 4 marks] Describe an activity to show that a chemical reaction is accompanied by the evolution of a gas, and how you would identify the gas.
+    Ans:
+      Take a few zinc granules in a conical flask and add dilute sulphuric acid; fit a cork with a delivery tube.
+      Bubbles appear on the surface of the zinc, showing that a gas is being evolved.
+      Bring a burning splint near the mouth of the tube: the gas burns with a pop sound, which identifies it as hydrogen.
+      Equation: Zn + H₂SO₄ → ZnSO₄ + H₂↑.
+
+Q12. [Long · 5 marks] A white salt on heating decomposes to give brown fumes and a residue. Name the salt and write the equation.
+    Ans: Lead nitrate. The brown fumes are nitrogen dioxide. 2Pb(NO3)2 → 2PbO + 4NO2↑ + O2↑ — a thermal decomposition reaction.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The reaction Fe2O3 + 2Al → Al2O3 + 2Fe is an example of: (a) combination (b) decomposition (c) displacement (d) double displacement
+    Ans: (c) displacement. Aluminium, being more reactive, displaces iron from its oxide. It is also a redox and a highly exothermic (thermite) reaction.
+
+M2. Which of the following is an endothermic process? (a) respiration (b) decomposition of vegetable matter into compost (c) process of decomposition of ferrous sulphate (d) quicklime + water
+    Ans: (c). Decomposition always needs energy, so heating ferrous sulphate is endothermic. The other three release heat.
+
+M3. The green coating on copper and the black coating on silver are respectively: (a) basic copper carbonate and Ag2S (b) CuO and Ag2O (c) CuCO3 and AgS2 (d) Cu(OH)2 and AgO
+    Ans: (a). Copper forms basic copper carbonate CuCO3·Cu(OH)2 (green); silver forms silver sulphide Ag2S (black).
+
+M4. The most exam-ready way to revise “Chemical Reactions and Equations” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Balancing, the five reaction types, corrosion and rancidity.
+
+M5. A 3-mark answer on “Chemical Reactions and Equations” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. Which of these is a combination reaction? (a) CaO + H₂O → Ca(OH)₂  (b) 2H₂O → 2H₂ + O₂  (c) Zn + CuSO₄ → ZnSO₄ + Cu  (d) AgNO₃ + NaCl → AgCl + NaNO₃
+    Ans: (a) CaO + H₂O → Ca(OH)₂. Two reactants combine to form a single product; (b) is decomposition, (c) displacement and (d) double displacement.
+
+M7. The brown fumes evolved when lead nitrate is heated are of: (a) NO₂  (b) O₂  (c) NO  (d) PbO
+    Ans: (a) NO₂. 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂; nitrogen dioxide is brown, the residue lead oxide is yellow.
+
+M8. Rancidity of fat-containing food is prevented by: (a) storing it in the open  (b) adding antioxidants and flushing with nitrogen  (c) adding oxidising agents  (d) heating it repeatedly
+    Ans: (b) adding antioxidants and flushing with nitrogen. Both slow down the oxidation of fats that causes the stale smell and taste.
+
+M9. When the equation Fe + H₂O → Fe₃O₄ + H₂ is balanced, the coefficient of steam (H₂O) is: (a) 2  (b) 3  (c) 4  (d) 6
+    Ans: (c) 4. 3Fe + 4H₂O → Fe₃O₄ + 4H₂ — three iron atoms need four oxygen atoms, which come from four water molecules.
+
+M10. A shiny brown element X becomes black when heated in air. X and the black compound are: (a) Cu and CuO  (b) Fe and Fe₂O₃  (c) Ag and Ag₂S  (d) Al and Al₂O₃
+    Ans: (a) Cu and CuO. Copper is reddish-brown and forms black copper(II) oxide on heating: 2Cu + O₂ → 2CuO.
+
+M11. The reaction 2AgBr → 2Ag + Br₂ used in black-and-white photography is a: (a) thermal decomposition  (b) photochemical decomposition  (c) displacement  (d) combination reaction
+    Ans: (b) photochemical decomposition. Light, not heat, splits silver bromide into silver and bromine; the grey silver darkens the film.

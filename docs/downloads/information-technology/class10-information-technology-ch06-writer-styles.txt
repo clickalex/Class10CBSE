@@ -1,0 +1,113 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 6 · Introduction to Styles (Writer) · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 6 · Introduction to Styles (Writer)
+Unit: Part B · Digital Documentation (Advanced)
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is a style in Writer? Name any four categories.
+    Ans: A named set of formatting that can be reused. Categories: Paragraph, Character, Page, Frame, List, Table.
+
+Q2. [Short · 2 marks] What is Fill Format mode?
+    Ans: A Styles-window tool that copies the selected style onto each paragraph (or object) you click, like a format paintbrush.
+
+Q3. [Short · 2 marks] Why are styles better than formatting each heading by hand?
+    Ans: A style stores the whole set of formatting — font, size, spacing, alignment — in one named item. Change the style once and every paragraph using it changes, the document stays consistent, and headings styled with Heading 1, 2 and 3 can be collected automatically into a table of contents.
+
+Q4. [Short · 2 marks] What is the difference between a paragraph style and a character style? Give one example of each.
+    Ans:
+      A paragraph style formats a whole paragraph at once — for example, Heading 1 sets the font, size and spacing of every chapter title.
+      A character style formats only selected words inside a paragraph — for example, an Emphasis style that italicises a single term without touching the rest of the line.
+
+Q5. [Application · 3 marks] A 20-page report uses Bold 16 pt for titles. The examiner wants Heading 1 in navy. What should the student do instead of selecting each title?
+    Ans: Create or modify Heading 1 (navy, size, spacing), then Fill Format / select each title and apply Heading 1. Later, one modify updates all.
+
+Q6. [Application · 3 marks] Riya is revising “Introduction to Styles (Writer)” (Page, paragraph, character, frame, list and table styles in LibreOffice Writer). A classmate lost marks by doing this: Building a ToC from manually bolded text. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Headings must use Heading styles, not just Bold 16 pt — otherwise ToC will be empty.
+      Why the mistake costs marks: Building a ToC from manually bolded text.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Short · 3 marks] Describe how to create and then apply a paragraph style in LibreOffice Writer.
+    Ans:
+      Format one paragraph exactly as you want it, then open the Styles window with F11 and click the New Style from Selection button.
+      Give the style a name such as ‘MyBodyText' and click OK.
+      To apply it, click anywhere in the paragraph you want to change and double-click the style name under Paragraph Styles.
+      To change the whole document, right-click the style, choose Modify and set the font, size and spacing once.
+
+Q8. [Short · 3 marks] What is ‘Update Style’? Describe a situation in which it saves more time than re-applying a style.
+    Ans:
+      Update Style takes the manual formatting of the current paragraph and writes it back into the style definition, so every paragraph using that style changes at once.
+      Situation — a report has forty Heading 2 titles in black; the teacher wants them navy. Format one title navy, click Update Style, and all forty change in one step instead of forty.
+
+Q9. [Long · 4 marks] Why should a long report use styles instead of manual formatting?
+    Ans: One change updates every heading; ToC can be generated; the look stays consistent; less chance of mixed fonts; templates become reusable.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Neha’s ToC is empty even though titles look big and bold.
+    
+    (a) Why?
+    (b) Steps to fix it.
+    (c) How will this help next time she changes the colour of all headings?
+    Ans:
+      (a) Titles used direct formatting, not Heading styles.
+      (b) Apply Heading 1/2, then Insert → Table of Contents.
+      (c) Modify Heading 1 once — every heading and the ToC pick up the new colour.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Introduction to Styles (Writer)”. Their note says: A style is a named collection of formatting. Change the style once, every place it is used updates.
+    
+    The chapter is described as: Page, paragraph, character, frame, list and table styles in LibreOffice Writer.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Page, paragraph, character, frame, list and table styles in LibreOffice Writer.
+      (b) Theory asks types of styles and why styles beat manual formatting.
+      (c) Building a ToC from manually bolded text.
+
+Q12. [Long · 5 marks] Discuss “Introduction to Styles (Writer)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      A style is a named collection of formatting. Change the style once, every place it is used updates.
+      Marks lens: Theory asks types of styles and why styles beat manual formatting.
+      Method / memory trick: Headings must use Heading styles, not just Bold 16 pt — otherwise ToC will be empty.
+      Do not: Building a ToC from manually bolded text.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Shortcut for the Styles window is usually: (a) F1 (b) F5 (c) F11 (d) F12
+    Ans: (c) F11.
+
+M2. Which style changes a few words inside a paragraph? (a) Page (b) Character (c) Frame (d) Table
+    Ans: (b) Character.
+
+M3. Fill Format is used to: (a) insert images (b) paint a style onto many paragraphs (c) mail merge (d) record a macro
+    Ans: (b).
+
+M4. ToC in Writer is built from: (a) bold text (b) Heading styles (c) page numbers only (d) hyperlinks only
+    Ans: (b) Heading styles.
+
+M5. The most exam-ready way to revise “Introduction to Styles (Writer)” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Page, paragraph, character, frame, list and table styles in LibreOffice Writer.
+
+M6. A 3-mark answer on “Introduction to Styles (Writer)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The Styles window in Writer is opened with: (a) F11  (b) Ctrl + S  (c) F7  (d) Ctrl + P
+    Ans: (a) F11. F7 opens the spell-check and Ctrl + S saves the document.
+
+M8. Heading 1, Heading 2 and Heading 3 are examples of: (a) paragraph styles  (b) character styles  (c) page styles  (d) frame styles
+    Ans: (a) paragraph styles. They format a whole paragraph and are used to build a table of contents.

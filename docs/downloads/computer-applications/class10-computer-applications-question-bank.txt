@@ -1,0 +1,1406 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Question bank · session 2026–27
+
+13 chapters · 156 written Q&A · 104 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 1 · Internet Basics
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] When did India first get internet access, and through which provider?
+    Ans: India got internet access on 15 August 1995, through VSNL (Videsh Sanchar Nigam Limited).
+
+Q2. [Short · 2 marks] What is the internet? Give two of its features.
+    Ans: The internet is a worldwide network of networks in which millions of smaller networks are interconnected, allowing any computer to communicate with any other. Two of its features are: it has no single owner or central control, running instead on shared protocols; and it provides many services at once — the World Wide Web, email, file transfer and video calls all travel over the same infrastructure.
+
+Q3. [Short · 2 marks] What was ARPANET and why is it important?
+    Ans: ARPANET (Advanced Research Projects Agency Network) was started in 1969 by the US Department of Defense's research agency. It is important because it was the first packet-switched network and the direct ancestor of today's internet — its first connection ran between UCLA and Stanford Research Institute.
+
+Q4. [Short · 2 marks] What is the role of DNS?
+    Ans: DNS (Domain Name System) translates human-readable domain names such as clickalex.github.io into the numeric IP addresses that computers actually use to find each other. Without it, users would have to memorise numbers like 140.82.121.4 to reach any website. DNS works like a distributed phone book for the internet.
+
+Q5. [Short · 2 marks] What is the internet and how did it begin?
+    Ans: The internet is a worldwide network of networks that links millions of computers using the TCP/IP family of protocols. It began in 1969 as ARPANET, a project of the US Department of Defense that linked four university computers, and grew into the public network we use after the World Wide Web was invented in 1989.
+
+Q6. [Short · 3 marks] Distinguish between IPv4 and IPv6.
+    Ans: IPv4 uses 32-bit addresses, giving roughly 4.3 billion possible addresses — written as four numbers separated by dots, such as 192.168.1.5. IPv6 uses 128-bit addresses, written in hexadecimal groups such as 2001:0db8:85a3::8a2e:0370:7334. IPv6 was created because the supply of IPv4 addresses was exhausted by the growth in connected devices; it also has better built-in support for security and automatic configuration.
+
+Q7. [Application · 3 marks] Riya is revising “Internet Basics” (What the internet is, how it started and what it is built out of). A classmate lost marks by doing this: Calling the World Wide Web the same thing as the internet — the web is a service on it. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: ARPANET 1969, Berners-Lee 1989, India 1995. Three dates, three marks.
+      Why the mistake costs marks: Calling the World Wide Web the same thing as the internet — the web is a service on it.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Internet Basics”: “What is the internet? Give two of its features.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: What the internet is, how it started and what it is built out of.
+      The internet is a worldwide network of networks in which millions of smaller networks are interconnected, allowing any computer to communicate with any other. Two of its features are: it has no single owner or central control, running instead on shared protocols; and it provides many services at once — the World Wide Web, email, file transfer and video calls all travel over the same infrastructure.
+
+Q9. [Short · 3 marks] Explain the terms World Wide Web, webpage, website and homepage.
+    Ans:
+      The World Wide Web is the collection of linked documents and resources reached over the internet, invented by Tim Berners-Lee.
+      A webpage is a single document, written in HTML, that a browser displays.
+      A website is a group of related webpages stored under one domain name, such as a school's site with pages for admissions, results and contact.
+      The homepage is the first page that opens when you visit a website, from which the other pages are reached.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Internet Basics”. Their note says: What the internet is. The internet is a worldwide network of networks — millions of smaller networks joined together so that any computer can reach any other. It is not owned by any single organisation; it runs on shared standards called protocols.
+    
+    The chapter is described as: What the internet is, how it started and what it is built out of.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) What the internet is, how it started and what it is built out of.
+      (b) Definitions, one-mark factual questions and the history of the internet.
+      (c) Calling the World Wide Web the same thing as the internet — the web is a service on it.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “What is the internet? Give two of its features.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) The internet is a worldwide network of networks in which millions of smaller networks are interconnected, allowing any computer to communicate with any other. Two of its features are: it has no single owner or central control, running instead on shared protocols; and it provides many services at once — the World Wide Web, email, file transfer and video calls all travel over the same infrastructure.
+      (c) ARPANET 1969, Berners-Lee 1989, India 1995. Three dates, three marks.
+
+Q12. [Long · 5 marks] Discuss “Internet Basics” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      What the internet is. The internet is a worldwide network of networks — millions of smaller networks joined together so that any computer can reach any other. It is not owned by any single organisation; it runs on shared standards called protocols.
+      Marks lens: Definitions, one-mark factual questions and the history of the internet.
+      Method / memory trick: ARPANET 1969, Berners-Lee 1989, India 1995. Three dates, three marks.
+      Do not: Calling the World Wide Web the same thing as the internet — the web is a service on it.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. ARPANET was developed in — (a) 1959 (b) 1969 (c) 1989 (d) 1995
+    Ans: (b) 1969, by the US Department of Defense's research agency.
+
+M2. Who invented the World Wide Web? (a) Vint Cerf (b) Tim Berners-Lee (c) Bill Gates (d) Charles Babbage
+    Ans: (b) Tim Berners-Lee, in 1989.
+
+M3. How many bits are in an IPv6 address? (a) 32 (b) 64 (c) 128 (d) 256
+    Ans: (c) 128 bits. IPv4 uses 32.
+
+M4. DNS stands for — (a) Dynamic Name Service (b) Domain Name System (c) Data Network Server (d) Digital Naming Standard
+    Ans: (b) Domain Name System.
+
+M5. The most exam-ready way to revise “Internet Basics” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is What the internet is, how it started and what it is built out of.
+
+M6. A 3-mark answer on “Internet Basics” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The World Wide Web was invented by: (a) Tim Berners-Lee  (b) Bill Gates  (c) Vint Cerf  (d) Steve Jobs
+    Ans: (a) Tim Berners-Lee. He proposed it in 1989 while working at CERN.
+
+M8. URL stands for: (a) Uniform Resource Locator  (b) Universal Resource Link  (c) United Resource Locator  (d) Uniform Resource Link
+    Ans: (a) Uniform Resource Locator. It is the address of a page on the web.
+
+========================================================================
+CHAPTER 2 · Internet Services & Protocols
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Give the full form of FTP and its default port.
+    Ans: FTP stands for File Transfer Protocol, and its default port is 21. It is used to upload and download files between a client and a server.
+
+Q2. [Short · 2 marks] What is the difference between HTTP and HTTPS?
+    Ans: HTTP (HyperText Transfer Protocol) is the protocol used to fetch web pages, and it sends everything in plain text on port 80. HTTPS is the same protocol wrapped in encryption using TLS/SSL, on port 443. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it.
+
+Q3. [Short · 2 marks] Explain the difference between POP3 and IMAP.
+    Ans: Both protocols receive email, but they handle storage differently. POP3 downloads messages to your device and normally deletes them from the server, so the mail is only on that one machine. IMAP leaves messages on the server and synchronises, so the same mailbox looks identical on a phone, a laptop and a web browser. IMAP needs a constant connection and server space; POP3 works offline once downloaded.
+
+Q4. [Short · 2 marks] What is the difference between TCP and UDP?
+    Ans: TCP (Transmission Control Protocol) is connection-oriented: it checks that every packet arrived and reorders them, so delivery is guaranteed but slightly slower. UDP (User Datagram Protocol) simply sends packets without checking, so it is faster but some data may be lost. TCP is used for web pages and email, where a missing piece breaks the result; UDP is used for live video, VoIP and gaming, where a small loss is better than a delay.
+
+Q5. [Short · 2 marks] Match each service with the protocol it uses: browsing the web, sending email, reading email, transferring files.
+    Ans: Browsing uses HTTP or HTTPS; sending email uses SMTP; reading email uses POP3 or IMAP; transferring files uses FTP. DNS is not a service but the system that converts a domain name into an IP address so that the service can find the right computer.
+
+Q6. [Short · 3 marks] Break down the parts of this URL: https://clickalex.github.io/IT-402-/index.html.
+    Ans: The URL has three parts. https:// is the protocol — it says the page will be fetched securely over HTTPS on port 443. clickalex.github.io is the domain name, which DNS resolves into an IP address. /IT-402-/index.html is the path, pointing to a specific file inside the IT-402- folder on that server.
+
+Q7. [Application · 3 marks] Riya is revising “Internet Services & Protocols” (WWW, email, FTP, chat — and the protocol behind each one). A classmate lost marks by doing this: Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: SMTP Sends, POP Pulls, IMAP Keeps. That one sentence settles every email-protocol question.
+      Why the mistake costs marks: Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Internet Services & Protocols”: “What is the difference between HTTP and HTTPS?” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: WWW, email, FTP, chat — and the protocol behind each one.
+      HTTP (HyperText Transfer Protocol) is the protocol used to fetch web pages, and it sends everything in plain text on port 80. HTTPS is the same protocol wrapped in encryption using TLS/SSL, on port 443. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it.
+
+Q9. [Short · 3 marks] Describe what happens when you send an email.
+    Ans:
+      Your mail program hands the message to your mail server using SMTP.
+      That server asks DNS for the mail server of the recipient's domain, such as gmail.com, and passes the message to it.
+      The receiving server stores the message in the recipient's mailbox.
+      The recipient's program collects it with POP3, which usually downloads and deletes it, or with IMAP, which leaves it on the server and synchronises folders.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Internet Services & Protocols”. Their note says: The protocol stack. Data on the internet is layered. HTTP/HTTPS carries web pages, TCP makes sure every part of a message arrives and in the right order, and IP handles addressing and routing. Together they are written TCP/IP. UDP is TCP's faster, less careful cousin, used for streaming and calls wh
+    
+    The chapter is described as: WWW, email, FTP, chat — and the protocol behind each one.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) WWW, email, FTP, chat — and the protocol behind each one.
+      (b) Match the service to its protocol; explain what each service does.
+      (c) Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “What is the difference between HTTP and HTTPS?” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) HTTP (HyperText Transfer Protocol) is the protocol used to fetch web pages, and it sends everything in plain text on port 80. HTTPS is the same protocol wrapped in encryption using TLS/SSL, on port 443. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it.
+      (c) SMTP Sends, POP Pulls, IMAP Keeps. That one sentence settles every email-protocol question.
+
+Q12. [Long · 5 marks] Discuss “Internet Services & Protocols” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      The protocol stack. Data on the internet is layered. HTTP/HTTPS carries web pages, TCP makes sure every part of a message arrives and in the right order, and IP handles addressing and routing. Together they are written TCP/IP. UDP is TCP's faster, less careful cousin, used for streaming and calls where a lost packet matters less than a delay.
+      Marks lens: Match the service to its protocol; explain what each service does.
+      Method / memory trick: SMTP Sends, POP Pulls, IMAP Keeps. That one sentence settles every email-protocol question.
+      Do not: Writing that SMTP receives email — it only sends. Receiving is POP3 or IMAP.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which protocol is used to send email? (a) POP3 (b) IMAP (c) SMTP (d) FTP
+    Ans: (c) SMTP — Simple Mail Transfer Protocol.
+
+M2. The default port for HTTPS is — (a) 21 (b) 23 (c) 80 (d) 443
+    Ans: (d) 443. Port 80 is plain HTTP.
+
+M3. Which protocol keeps mail on the server? (a) POP3 (b) IMAP (c) SMTP (d) Telnet
+    Ans: (b) IMAP — it synchronises instead of downloading.
+
+M4. In https://example.com/page.html, example.com is the — (a) protocol (b) domain (c) path (d) port
+    Ans: (b) domain.
+
+M5. The most exam-ready way to revise “Internet Services & Protocols” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is WWW, email, FTP, chat — and the protocol behind each one.
+
+M6. A 3-mark answer on “Internet Services & Protocols” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The protocol used to send an email is: (a) SMTP  (b) POP3  (c) IMAP  (d) FTP
+    Ans: (a) SMTP. POP3 and IMAP are used to receive mail and FTP to transfer files.
+
+M8. HTTPS is safer than HTTP because it: (a) encrypts the data sent between the browser and the site  (b) is faster  (c) is free  (d) needs no server
+    Ans: (a) encrypts the data. The S stands for secure, which is why a padlock appears in the address bar.
+
+========================================================================
+CHAPTER 3 · Network Types, Topologies & Devices
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Which IEEE standard defines Wi-Fi?
+    Ans: IEEE 802.11 defines Wi-Fi. The IEEE 802.3 standard, by contrast, defines wired Ethernet.
+
+Q2. [Short · 2 marks] Why is optical fibre preferred over copper cable for long distances?
+    Ans: Optical fibre carries data as pulses of light through glass, so it suffers almost no signal loss over long distances and is immune to electrical interference from motors, power lines and lightning. It also has a far higher bandwidth than copper. Its drawbacks are that it is more expensive and more fragile to install, which is why copper still dominates the last few metres.
+
+Q3. [Short · 2 marks] What is the difference between a MAC address and an IP address?
+    Ans: A MAC address is a 48-bit hardware address burnt into the network card; it never changes and identifies the physical device. An IP address is assigned logically for the network the device is on, so it changes when the device moves to a different network. MAC works within one local network, while IP works across the whole internet.
+
+Q4. [Short · 2 marks] Distinguish between a LAN and a WAN.
+    Ans: A LAN covers a small area such as a room, a building or a campus, is owned by one organisation, uses switches and cables or Wi-Fi, and is fast. A WAN covers a city, a country or the world, links LANs over leased telephone lines, fibre or satellites, and is slower and shared among many organisations.
+
+Q5. [Short · 3 marks] Explain star topology with its advantages and disadvantages.
+    Ans: In star topology every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its advantages are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its disadvantages are that it needs more cable than a bus, and the central device is a single point of failure — if the switch dies, the whole network stops.
+
+Q6. [Short · 3 marks] Differentiate between a hub, a switch and a router.
+    Ans: A hub works at the physical layer and repeats an incoming signal out of every port, so all devices see all traffic and collisions are common. A switch works at the data-link layer, learns the MAC address on each port and forwards a frame only to the intended port, which makes it far faster and more secure. A router works at the network layer and connects different networks, using IP addresses to choose the best path between them — it is what links your LAN to the internet.
+
+Q7. [Application · 3 marks] Riya is revising “Network Types, Topologies & Devices” (LAN to WAN, star to ring, and the boxes in between). A classmate lost marks by doing this: Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: PAN < LAN < MAN < WAN. Smallest to largest.
+      Why the mistake costs marks: Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Network Types, Topologies & Devices”: “Explain star topology with its advantages and disadvantages.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: LAN to WAN, star to ring, and the boxes in between.
+      In star topology every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its advantages are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its disadvantages are that it needs more cable than a bus, and the central device is a single point of failure — if the switch dies, the whole network stops.
+
+Q9. [Short · 3 marks] Compare the star and bus topologies and name one advantage of each.
+    Ans:
+      In a star topology every computer is connected to a central switch or hub; a fault in one cable affects only that computer, and new computers can be added easily.
+      In a bus topology all computers share one main cable with terminators at each end; it is cheap and needs less cable.
+      Star costs more because of the switch and the extra cable, while bus is slow when many computers share the cable and stops working if the main cable breaks.
+      Star is the topology used in almost every modern office network.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Network Types, Topologies & Devices”. Their note says: Networks by size. A LAN (Local Area Network) covers a room or a building — a school lab. A MAN (Metropolitan Area Network) covers a city — a cable TV network. A WAN (Wide Area Network) covers countries or the world; the internet is the largest WAN. A PAN (Personal Area Network) is the smallest, join
+    
+    The chapter is described as: LAN to WAN, star to ring, and the boxes in between.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) LAN to WAN, star to ring, and the boxes in between.
+      (b) Classify a network by its size, identify a topology from a description, name a device's job.
+      (c) Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Explain star topology with its advantages and disadvantages.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) In star topology every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its advantages are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its disadvantages are that it needs more cable than a bus, and the central device is a single point of failure — if the switch dies, the whole network stops.
+      (c) PAN < LAN < MAN < WAN. Smallest to largest.
+
+Q12. [Long · 5 marks] Discuss “Network Types, Topologies & Devices” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Networks by size. A LAN (Local Area Network) covers a room or a building — a school lab. A MAN (Metropolitan Area Network) covers a city — a cable TV network. A WAN (Wide Area Network) covers countries or the world; the internet is the largest WAN. A PAN (Personal Area Network) is the smallest, joining devices around one person, usually by Bluetooth.
+      Marks lens: Classify a network by its size, identify a topology from a description, name a device's job.
+      Method / memory trick: PAN < LAN < MAN < WAN. Smallest to largest.
+      Do not: Confusing hub and switch — a hub broadcasts to all ports, a switch sends only to the intended one.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which network covers a whole city? (a) LAN (b) MAN (c) WAN (d) PAN
+    Ans: (b) MAN — Metropolitan Area Network.
+
+M2. Which topology has a single point of failure at its centre? (a) Mesh (b) Bus (c) Star (d) Ring
+    Ans: (c) Star — the hub or switch is the single point of failure.
+
+M3. A device that joins two different networks and picks the best path is a — (a) hub (b) switch (c) repeater (d) router
+    Ans: (d) router.
+
+M4. Which medium is immune to electrical interference? (a) twisted pair (b) coaxial (c) optical fibre (d) infrared
+    Ans: (c) optical fibre — it carries light, not electricity.
+
+M5. The most exam-ready way to revise “Network Types, Topologies & Devices” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is LAN to WAN, star to ring, and the boxes in between.
+
+M6. A 3-mark answer on “Network Types, Topologies & Devices” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The device that connects two different networks and chooses the best path is a: (a) router  (b) switch  (c) hub  (d) repeater
+    Ans: (a) router. A switch connects computers within one network; a repeater only strengthens the signal.
+
+M8. The topology in which every computer is connected to every other computer is the: (a) mesh topology  (b) star topology  (c) bus topology  (d) ring topology
+    Ans: (a) mesh topology. It is the most reliable and the most expensive to cable.
+
+========================================================================
+CHAPTER 4 · Mobile & Wireless Technology
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is the difference between Bluetooth and NFC?
+    Ans: Bluetooth works over a range of a few metres and is used for continuous connections such as headphones, speakers and keyboards. NFC (Near Field Communication) works only within a few centimetres and is used for a single quick exchange — contactless payments, transit cards, pairing by tapping. Bluetooth needs pairing; NFC works by simply bringing two devices together.
+
+Q2. [Short · 2 marks] What is a cell and what is handover?
+    Ans: A cell is the geographic area covered by one mobile tower. A whole city is divided into many cells, which is why mobile networks are called cellular. Handover is the automatic process of moving an ongoing call or data session from one cell's tower to the next as the user travels, so the connection does not drop.
+
+Q3. [Short · 2 marks] Why does infrared need line of sight but Wi-Fi does not?
+    Ans: Infrared uses light waves, which cannot pass through solid objects, so the transmitter and receiver must see each other directly — that is why a TV remote only works when pointed at the TV. Wi-Fi uses radio waves, which pass through walls and furniture, so it works throughout a building without a direct line of sight.
+
+Q4. [Short · 2 marks] What does 4G mean and how is it better than 3G?
+    Ans: 4G is the fourth generation of mobile network technology, designed for data rather than voice, with download speeds of up to about 100 Mbps, smooth video streaming and low delay. 3G was built mainly to improve voice calls and gave only modest data speeds, so tasks such as video calling were slow or impossible.
+
+Q5. [Short · 3 marks] Compare 3G, 4G and 5G.
+    Ans: 3G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures.
+
+Q6. [Application · 3 marks] Riya is revising “Mobile & Wireless Technology” (Generations from 1G to 5G, plus the short-range wireless around you). A classmate lost marks by doing this: Saying 4G is faster only — it is also all-IP, which is the point. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations.
+      Why the mistake costs marks: Saying 4G is faster only — it is also all-IP, which is the point.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Application · 3 marks] Amit is given this exam-style task from “Mobile & Wireless Technology”: “Compare 3G, 4G and 5G.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Generations from 1G to 5G, plus the short-range wireless around you.
+      G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures.
+
+Q8. [Short · 3 marks] Name four short-range wireless technologies and give one use of each.
+    Ans:
+      Bluetooth connects a phone to wireless earphones, a keyboard or a speaker within about ten metres.
+      Wi-Fi connects devices to a local network and through it to the internet, at home, in school or in a cafe.
+      NFC allows contactless payments and data exchange when two devices are touched or held a few centimetres apart.
+      Infrared needs a direct line of sight and is still used in television remote controls.
+
+Q9. [Short · 3 marks] Why is 5G described as ‘for machines’ rather than just ‘faster phones’? Explain with reference to IoT and latency.
+    Ans:
+      Speed alone would only improve video on phones, which 4G already handles well.
+      5G's real change is low latency plus massive device density: millions of sensors, vehicles and appliances can talk to each other in milliseconds.
+      That is what the Internet of Things needs — a driverless car or a factory robot cannot wait for a slow round-trip. Hence: 1 voice, 2 text, 3 web, 4 video, 5 machines.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Mobile & Wireless Technology”. Their note says: Mobile generations. 1G was analog and voice-only. 2G went digital and added SMS and basic data through GPRS. 3G made mobile internet genuinely usable — video calls and browsing at a few Mbps. 4G/LTE is all-IP and built for data, giving tens of Mbps and making video streaming normal. 5G targets speed
+    
+    The chapter is described as: Generations from 1G to 5G, plus the short-range wireless around you.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Generations from 1G to 5G, plus the short-range wireless around you.
+      (b) Compare generations, name short-range technologies and their uses.
+      (c) Saying 4G is faster only — it is also all-IP, which is the point.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Compare 3G, 4G and 5G.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures.
+      (c) 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations.
+
+Q12. [Long · 5 marks] Discuss “Mobile & Wireless Technology” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Mobile generations. 1G was analog and voice-only. 2G went digital and added SMS and basic data through GPRS. 3G made mobile internet genuinely usable — video calls and browsing at a few Mbps. 4G/LTE is all-IP and built for data, giving tens of Mbps and making video streaming normal. 5G targets speeds up to around 20 Gbps with latency under a millisecond, which is what makes remote surgery, autonomous vehicles and den.
+      Marks lens: Compare generations, name short-range technologies and their uses.
+      Method / memory trick: 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations.
+      Do not: Saying 4G is faster only — it is also all-IP, which is the point.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which generation first made video calling practical? (a) 2G (b) 3G (c) 4G (d) 1G
+    Ans: (b) 3G, with speeds up to about 2 Mbps.
+
+M2. NFC works over a range of — (a) metres (b) kilometres (c) centimetres (d) it has no limit
+    Ans: (c) centimetres — which is why you tap.
+
+M3. Which standard family defines Wi-Fi? (a) IEEE 802.3 (b) IEEE 802.11 (c) IEEE 802.15 (d) IEEE 802.16
+    Ans: (b) IEEE 802.11. 802.3 is wired Ethernet.
+
+M4. 4G networks are described as — (a) analog (b) circuit-switched (c) all-IP (d) infrared-based
+    Ans: (c) all-IP.
+
+M5. The most exam-ready way to revise “Mobile & Wireless Technology” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Generations from 1G to 5G, plus the short-range wireless around you.
+
+M6. A 3-mark answer on “Mobile & Wireless Technology” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The generation of mobile technology that first made mobile internet practical was: (a) 3G  (b) 1G  (c) 2G  (d) 5G
+    Ans: (a) 3G. 1G was analogue voice, 2G added digital voice and SMS, and 5G is the current high-speed standard.
+
+M8. NFC works only when the two devices are: (a) a few centimetres apart  (b) in the same building  (c) on the same Wi-Fi network  (d) several metres apart
+    Ans: (a) a few centimetres apart. The short range is what makes contactless payment safe.
+
+========================================================================
+CHAPTER 5 · Web Browsers, Search & Web Concepts
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Name any three web browsers.
+    Ans: Google Chrome, Mozilla Firefox and Microsoft Edge. Apple's Safari and Opera are other common examples.
+
+Q2. [Short · 2 marks] Differentiate between a web browser and a search engine.
+    Ans: A web browser is software installed on your computer or phone — Chrome, Firefox, Edge or Safari — that sends requests for pages and renders the HTML it receives into the page you see. A search engine such as Google is itself a website whose job is to index other websites and return a ranked list of results for your query. You need a browser in order to open a search engine, so they work together rather than as alternatives.
+
+Q3. [Short · 2 marks] What are cookies and why are they used?
+    Ans: A cookie is a small piece of data that a website stores in the user's browser. Websites use cookies to remember something about the user between visits — whether they are logged in, which language they chose, or what is in their shopping cart. Without cookies, every page request would be treated as a brand-new visitor. Because cookies can also be used to track browsing behaviour, browsers offer private modes that discard them when the window closes.
+
+Q4. [Short · 2 marks] What is caching and what is its benefit?
+    Ans: Caching means keeping a local copy of a resource — a page, an image or a stylesheet — so that it does not have to be downloaded again. The benefits are that pages load faster and use less bandwidth, which matters most on slow or metered connections. The trade-off is that a cached copy can be out of date, which is why a forced refresh sometimes shows a different page.
+
+Q5. [Short · 2 marks] How does a search engine find and rank pages?
+    Ans: A search engine uses a crawler — also called a spider — that automatically visits web pages and follows the links on them to discover more. What it finds is stored in an index, a huge searchable catalogue. When you type a query, a ranking algorithm scores the matching pages by relevance, authority and quality, and returns them in order.
+
+Q6. [Short · 2 marks] What is the difference between a web browser and a search engine?
+    Ans: A browser is the program that requests, receives and displays web pages — Chrome, Firefox, Edge or Safari. A search engine is a website, such as Google or Bing, that keeps an index of pages and returns a list of results for your query. The browser is the tool you use; the search engine is a site you visit with it.
+
+Q7. [Application · 3 marks] Riya is revising “Web Browsers, Search & Web Concepts” (Browsers, search engines, cookies, caching and the difference between a web page and a website). A classmate lost marks by doing this: Calling Google a browser — it is a search engine, a website. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Browser is on your machine; search engine is on the web.
+      Why the mistake costs marks: Calling Google a browser — it is a search engine, a website.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Web Browsers, Search & Web Concepts”: “Differentiate between a web browser and a search engine.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Browsers, search engines, cookies, caching and the difference between a web page and a website.
+      A web browser is software installed on your computer or phone — Chrome, Firefox, Edge or Safari — that sends requests for pages and renders the HTML it receives into the page you see. A search engine such as Google is itself a website whose job is to index other websites and return a ranked list of results for your query. You need a browser in order to open a search engine, so they work together rather than as alternatives.
+
+Q9. [Short · 3 marks] What are cookies and cache, and why should you clear them sometimes?
+    Ans:
+      Cookies are small files a website stores on your computer to remember who you are, what is in your basket and what your preferences are.
+      The cache stores copies of images, scripts and pages so that a site loads faster the next time you visit it.
+      Clearing them removes old or corrupted files that can make a site load wrongly, frees disk space, logs you out of accounts and limits tracking.
+      The cost is that you have to sign in again and the first visit to a site is slower.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Web Browsers, Search & Web Concepts”. Their note says: Browser versus search engine. A web browser (Chrome, Firefox, Edge, Safari) is software on your device that requests and displays pages. A search engine (Google, Bing) is a website that indexes other websites so you can find them. You use a browser to reach a search engine — they are not alterna
+    
+    The chapter is described as: Browsers, search engines, cookies, caching and the difference between a web page and a website.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Browsers, search engines, cookies, caching and the difference between a web page and a website.
+      (b) Define terms, compare browsers with search engines, explain cookies and caching.
+      (c) Calling Google a browser — it is a search engine, a website.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Differentiate between a web browser and a search engine.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) A web browser is software installed on your computer or phone — Chrome, Firefox, Edge or Safari — that sends requests for pages and renders the HTML it receives into the page you see. A search engine such as Google is itself a website whose job is to index other websites and return a ranked list of results for your query. You need a browser in order to open a search engine, so they work together rather than as alternatives.
+      (c) Browser is on your machine; search engine is on the web.
+
+Q12. [Long · 5 marks] Discuss “Web Browsers, Search & Web Concepts” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Browser versus search engine. A web browser (Chrome, Firefox, Edge, Safari) is software on your device that requests and displays pages. A search engine (Google, Bing) is a website that indexes other websites so you can find them. You use a browser to reach a search engine — they are not alternatives to each other.
+      Marks lens: Define terms, compare browsers with search engines, explain cookies and caching.
+      Method / memory trick: Browser is on your machine; search engine is on the web.
+      Do not: Calling Google a browser — it is a search engine, a website.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Google is an example of a — (a) browser (b) search engine (c) protocol (d) server operating system
+    Ans: (b) search engine.
+
+M2. Which stores a local copy of a page to speed up loading? (a) cookie (b) bookmark (c) cache (d) portal
+    Ans: (c) cache.
+
+M3. The entry page of a website is called the — (a) portal (b) home page (c) cache (d) feed
+    Ans: (b) home page, usually index.html.
+
+M4. The program that automatically visits and indexes web pages is called a — (a) router (b) crawler (c) modem (d) gateway
+    Ans: (b) crawler or spider.
+
+M5. The most exam-ready way to revise “Web Browsers, Search & Web Concepts” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Browsers, search engines, cookies, caching and the difference between a web page and a website.
+
+M6. A 3-mark answer on “Web Browsers, Search & Web Concepts” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The address bar of a browser shows the: (a) URL of the page you are on  (b) IP address of your own computer  (c) size of the page  (d) number of visitors to the site
+    Ans: (a) URL of the page you are on. You can also type an address there to go to a site.
+
+M8. A padlock symbol in the address bar means the page: (a) is served over an encrypted HTTPS connection  (b) is free  (c) is saved offline  (d) belongs to the government
+    Ans: (a) is served over an encrypted HTTPS connection. It does not prove that the site itself is honest.
+
+========================================================================
+CHAPTER 6 · HTML I — Introduction & Basic Tags
+Unit: Unit II · HTML
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] What is the difference between <br> and <p>?
+    Ans: <br> inserts a single line break inside existing text without any spacing, while <p> starts a new paragraph, which the browser surrounds with vertical space before and after.
+
+Q2. [Short · 2 marks] What is the difference between a tag and an element?
+    Ans: A tag is the marker itself, written in angle brackets — for example <p> or </p>. An element is the complete unit made of the opening tag, the content and the closing tag — <p>This is a paragraph.</p>. So tags are the parts and the element is the whole thing they enclose.
+
+Q3. [Short · 2 marks] What are empty tags? Give two examples.
+    Ans: Empty tags, also called void tags, are tags that carry no content and therefore have no closing partner. They do their work on their own. Two examples are <br>, which inserts a line break, and <hr>, which draws a horizontal rule. <img> and <input> are other common empty tags.
+
+Q4. [Short · 2 marks] What is the purpose of the <head> section?
+    Ans: The <head> section holds information about the page rather than content shown on it. It contains the <title>, which appears on the browser tab and in search results, and can hold links to stylesheets, scripts and metadata. None of what is inside <head> is displayed in the page body.
+
+Q5. [Short · 2 marks] What is HTML and what is the basic structure of an HTML document?
+    Ans: HTML is the markup language in which web pages are written, using tags to describe the structure and meaning of the content. A document starts with <!DOCTYPE html>, then an <html> element containing a <head> with the <title>, and a <body> with everything the visitor sees.
+
+Q6. [Short · 3 marks] Write an HTML page that displays the heading 'My School' and a paragraph about it.
+    Ans:
+      <html>
+        <head>
+          <title>My School</title>
+        </head>
+        <body>
+          <h1>My School</h1>
+          <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p>
+        </body>
+      </html>
+      The <title> sits inside <head> and names the browser tab; everything visible is inside <body>.
+
+Q7. [Application · 3 marks] Riya is revising “HTML I — Introduction & Basic Tags” (What HTML is, the skeleton of a document, and the tags you use on every page). A classmate lost marks by doing this: Putting <title> inside <body>. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: <title> lives in <head>, not <body>. This single fact is worth a mark in most papers.
+      Why the mistake costs marks: Putting <title> inside <body>.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “HTML I — Introduction & Basic Tags”: “Write an HTML page that displays the heading 'My School' and a paragraph about it.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: What HTML is, the skeleton of a document, and the tags you use on every page.
+      <html> <head> <title>My School</title> </head> <body> <h1>My School</h1> <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p> </body> </html> The <title> sits inside <head> and names the browser tab; everything visible is inside <body>.
+
+Q9. [Short · 3 marks] Write the HTML for a page titled ‘My School' with one heading and one paragraph.
+    Ans:
+      Start with <!DOCTYPE html> so that the browser knows this is HTML5.
+      <html> wraps the whole document, <head> holds <title>My School</title>.
+      <body> holds <h1>My School</h1> for the main heading and <p>My school has thirty classrooms and a large library.</p> for the text.
+      Close with </body></html>; every opening tag must have a matching closing tag.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “HTML I — Introduction & Basic Tags”. Their note says: What HTML is. HTML stands for HyperText Markup Language. It is not a programming language — it has no variables, conditions or loops. It is a markup language: you surround content with tags that describe what the content is, and the browser decides how to display it. HTML files are saved with a 
+    
+    The chapter is described as: What HTML is, the skeleton of a document, and the tags you use on every page.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) What HTML is, the skeleton of a document, and the tags you use on every page.
+      (b) Write a complete HTML page by hand; give the purpose of a tag; predict the output of a snippet.
+      (c) Putting <title> inside <body>.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Write an HTML page that displays the heading 'My School' and a paragraph about it.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) <html> <head> <title>My School</title> </head> <body> <h1>My School</h1> <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p> </body> </html> The <title> sits inside <head> and names the browser tab; everything visible is inside <body>.
+      (c) <title> lives in <head>, not <body>. This single fact is worth a mark in most papers.
+
+Q12. [Long · 5 marks] Discuss “HTML I — Introduction & Basic Tags” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      What HTML is. HTML stands for HyperText Markup Language. It is not a programming language — it has no variables, conditions or loops. It is a markup language: you surround content with tags that describe what the content is, and the browser decides how to display it. HTML files are saved with a .html or .htm extension and are plain text.
+      Marks lens: Write a complete HTML page by hand; give the purpose of a tag; predict the output of a snippet.
+      Method / memory trick: <title> lives in <head>, not <body>. This single fact is worth a mark in most papers.
+      Do not: Putting <title> inside <body>.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. HTML stands for — (a) HighText Machine Language (b) HyperText Markup Language (c) HyperTool Markup Language (d) Home Tool Markup Language
+    Ans: (b) HyperText Markup Language.
+
+M2. Which tag goes inside <head>? (a) <body> (b) <h1> (c) <title> (d) <p>
+    Ans: (c) <title>.
+
+M3. The smallest heading tag is — (a) <h1> (b) <h3> (c) <h6> (d) <head>
+    Ans: (c) <h6>.
+
+M4. Which of these is an empty tag? (a) <p> (b) <br> (c) <h1> (d) <title>
+    Ans: (b) <br> — it has no closing partner.
+
+M5. The most exam-ready way to revise “HTML I — Introduction & Basic Tags” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is What HTML is, the skeleton of a document, and the tags you use on every page.
+
+M6. A 3-mark answer on “HTML I — Introduction & Basic Tags” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The tag that sets the text shown in the browser's title bar is: (a) <title>  (b) <head>  (c) <h1>  (d) <body>
+    Ans: (a) <title>. It is placed inside the <head> section.
+
+M8. The tag used for the most important heading is: (a) <h1>  (b) <h6>  (c) <p>  (d) <b>
+    Ans: (a) <h1>. Headings run from <h1>, the largest, down to <h6>, the smallest.
+
+========================================================================
+CHAPTER 7 · HTML II — Text Formatting & Lists
+Unit: Unit II · HTML
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Write the HTML to display the text 'Water' with the 2 as a subscript.
+    Ans:
+      <p>Water is written as H<sub>2</sub>O.</p>
+      The <sub> tag lowers the character it wraps, producing H₂O. Its opposite is <sup>, which raises text — used for powers such as x<sup>2</sup>.
+
+Q2. [Short · 2 marks] Differentiate between <ul> and <ol>.
+    Ans: <ul> creates an unordered list, where each item is marked with a bullet and the order does not matter. <ol> creates an ordered list, where each item is numbered and the sequence is meaningful. Both use <li> for the individual items, and both can be nested inside another list to create sub-levels.
+
+Q3. [Short · 2 marks] Write HTML for a horizontal line, 5 pixels thick, covering half the page width, in red.
+    Ans:
+      <hr size='5' width='50%' color='red'>
+      <hr> is an empty tag, so it has no closing partner. size sets the thickness in pixels, width can be a percentage or a pixel value, and color sets the line colour.
+
+Q4. [Short · 2 marks] Which tags make text bold, italic and underlined? Which should you prefer and why?
+    Ans: <b> makes text bold and <i> makes it italic, while <u> underlines it. <strong> and <em> also make text bold and italic, but they carry meaning: they tell search engines and screen readers that the words are important or stressed, which is better for accessibility.
+
+Q5. [Short · 3 marks] Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.
+    Ans:
+      <html>
+        <body>
+          <ol type='I' start='3'>
+            <li>Mathematics</li>
+            <li>Science</li>
+            <li>Social Science</li>
+            <li>English</li>
+          </ol>
+        </body>
+      </html>
+      The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III.
+
+Q6. [Short · 3 marks] Explain the <font> tag with its attributes.
+    Ans: The <font> tag changes how a piece of text looks. It takes three attributes. face sets the typeface, for example face='Arial'. size sets the size on a scale of 1 to 7, for example size='5'. color sets the colour, either by name such as color='red' or by hexadecimal code such as color='#FF0000'. An example is <font face='Arial' size='5' color='blue'>Hello</font>.
+
+Q7. [Application · 3 marks] Riya is revising “HTML II — Text Formatting & Lists” (Bold, italic, alignment, colour — plus ordered, unordered and definition lists). A classmate lost marks by doing this: Using <ul> when the output clearly shows numbers. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: <ul> = bullets, <ol> = numbers. Both use <li>.
+      Why the mistake costs marks: Using <ul> when the output clearly shows numbers.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “HTML II — Text Formatting & Lists”: “Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Bold, italic, alignment, colour — plus ordered, unordered and definition lists.
+      <html> <body> <ol type='I' start='3'> <li>Mathematics</li> <li>Science</li> <li>Social Science</li> <li>English</li> </ol> </body> </html> The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III.
+
+Q9. [Short · 3 marks] Write the HTML for an ordered list of three steps and an unordered list of two items.
+    Ans:
+      Ordered list: <ol> then <li>Open the file</li>, <li>Edit the text</li>, <li>Save the page</li>, then </ol>.
+      The browser numbers the items automatically, so adding or removing an item renumbers the rest.
+      Unordered list: <ul> then <li>Notebook</li>, <li>Pen</li>, then </ul>, which shows bullets instead of numbers.
+      Lists may be nested: put a <ul> inside an <li> to make a sub-list.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “HTML II — Text Formatting & Lists”. Their note says: Style tags. <b> makes text bold, <i> makes it italic, <u> underlines it, <tt> shows typewriter text, <strike> draws a line through it. <sub> lowers text for chemical formulas like H<sub>2</sub>O, and <sup> raises it for powers like x<sup>2</sup>. <center> centres a block of content.
+    
+    The chapter is described as: Bold, italic, alignment, colour — plus ordered, unordered and definition lists.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Bold, italic, alignment, colour — plus ordered, unordered and definition lists.
+      (b) Produce a given visual output as HTML; name the attribute that does a given job.
+      (c) Using <ul> when the output clearly shows numbers.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) <html> <body> <ol type='I' start='3'> <li>Mathematics</li> <li>Science</li> <li>Social Science</li> <li>English</li> </ol> </body> </html> The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III.
+      (c) <ul> = bullets, <ol> = numbers. Both use <li>.
+
+Q12. [Long · 5 marks] Discuss “HTML II — Text Formatting & Lists” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Style tags. <b> makes text bold, <i> makes it italic, <u> underlines it, <tt> shows typewriter text, <strike> draws a line through it. <sub> lowers text for chemical formulas like H<sub>2</sub>O, and <sup> raises it for powers like x<sup>2</sup>. <center> centres a block of content.
+      Marks lens: Produce a given visual output as HTML; name the attribute that does a given job.
+      Method / memory trick: <ul> = bullets, <ol> = numbers. Both use <li>.
+      Do not: Using <ul> when the output clearly shows numbers.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which attribute of <font> sets the typeface? (a) size (b) color (c) face (d) style
+    Ans: (c) face.
+
+M2. Which tag creates a bulleted list? (a) <ol> (b) <ul> (c) <dl> (d) <li>
+    Ans: (b) <ul>. <li> marks the items inside it.
+
+M3. <ol type='a'> numbers the items as — (a) 1,2,3 (b) A,B,C (c) a,b,c (d) i,ii,iii
+    Ans: (c) a, b, c — lowercase letters.
+
+M4. To write x² in HTML you use — (a) <sub> (b) <sup> (c) <u> (d) <tt>
+    Ans: (b) <sup> for superscript.
+
+M5. The valid values of the align attribute are — (a) left, middle, right (b) left, center, right (c) start, center, end (d) top, middle, bottom
+    Ans: (b) left, center, right.
+
+M6. The tag that starts a new line without starting a new paragraph is: (a) <br>  (b) <hr>  (c) <p>  (d) <lb>
+    Ans: (a) <br>. It is an empty tag and has no closing tag.
+
+M7. The tag that draws a horizontal rule across the page is: (a) <hr>  (b) <br>  (c) <line>  (d) <rule>
+    Ans: (a) <hr>. It is used to separate sections of a page.
+
+M8. <ul type='square'> shows bullets as: (a) discs (b) squares (c) circles (d) numbers
+    Ans: (b) squares. The type values for <ul> are disc (default), circle and square.
+
+========================================================================
+CHAPTER 8 · HTML III — Links & Images
+Unit: Unit II · HTML
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] What does the alt attribute do?
+    Ans: The alt attribute supplies alternative text for an image. It is displayed when the image cannot be loaded and is read aloud by screen readers for visually impaired users, which is why it should always be included.
+
+Q2. [Short · 2 marks] What is the difference between an absolute and a relative path?
+    Ans: An absolute path gives the complete address of a resource starting from the protocol, such as https://example.com/images/logo.png. It works from anywhere on the internet. A relative path is written relative to the location of the current file, such as images/logo.png for a subfolder or ../index.html to go up one level first. Relative paths are shorter and keep working if the whole site is moved, but they only work within the same site.
+
+Q3. [Short · 2 marks] How do you create a link that jumps to the top of the same page?
+    Ans: First give the target element an id — for example <h1 id='top'>Title</h1>. Then link to it using a hash followed by that id: <a href='#top'>Back to top</a>. Clicking the link scrolls the page to the element carrying that id, without loading anything new.
+
+Q4. [Short · 2 marks] What is the difference between an absolute and a relative URL in a link?
+    Ans: An absolute URL gives the complete address, such as https://www.example.com/notes/unit1.html, and works no matter where the linking page is stored. A relative URL gives the path from the page you are on, such as notes/unit1.html or ../images/logo.png, and stops working if the folder structure changes.
+
+Q5. [Short · 3 marks] Write HTML to create a link to the CBSE website that opens in a new tab, and a link that emails the principal.
+    Ans:
+      <a href='https://www.cbse.gov.in' target='_blank'>Visit CBSE</a>
+      <br>
+      <a href='mailto:principal@school.edu'>Email the Principal</a>
+      The first uses an absolute URL and target='_blank' so it opens in a new tab. The second uses the mailto: prefix, which makes the browser open the user's email program with the address already filled in.
+
+Q6. [Short · 3 marks] Explain the <img> tag with any four of its attributes.
+    Ans: The <img> tag inserts an image into a page and is an empty tag, so it has no closing partner. src gives the location of the image file and is compulsory — without it nothing displays. alt provides alternative text shown when the image fails to load and read by screen readers. width and height set the displayed size in pixels or as a percentage of the container. align controls how the image sits beside surrounding text, and border draws a frame around it. An example is <img src='logo.png' alt='School logo' width='200' height='100'>.
+
+Q7. [Application · 3 marks] Riya is revising “HTML III — Links & Images” (The <a> tag, href, anchors, and the <img> tag with its attributes). A classmate lost marks by doing this: Writing <img href=...> instead of <img src=...>. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: href for links, src for sources. <a href>, <img src>, <script src>.
+      Why the mistake costs marks: Writing <img href=...> instead of <img src=...>.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “HTML III — Links & Images”: “Write HTML to create a link to the CBSE website that opens in a new tab, and a link that emails the principal.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: The <a> tag, href, anchors, and the <img> tag with its attributes.
+      <a href='https://www.cbse.gov.in' target='_blank'>Visit CBSE</a> <br> <a href='mailto:principal@school.edu'>Email the Principal</a> The first uses an absolute URL and target='_blank' so it opens in a new tab. The second uses the mailto: prefix, which makes the browser open the user's email program with the address already filled in.
+
+Q9. [Short · 3 marks] Write HTML to display the image logo.png at 200 by 100 pixels and make it a link to home.html.
+    Ans:
+      Put the image inside the anchor: <a href='home.html'>, then the image tag, then </a>.
+      The image tag is <img src="logo.png" width="200" height="100" alt="School logo">.
+      The src attribute gives the file, width and height set the size in pixels, and alt gives the text shown if the image cannot load or is read aloud.
+      Because the <img> tag sits inside the <a> tag, clicking the picture opens the page named in href.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “HTML III — Links & Images”. Their note says: The anchor tag. <a href='destination'>text</a> creates a hyperlink. href (hypertext reference) holds the address of the destination. The destination can be another page on the same site, a page on another site, an email address using mailto:, or a place further down the same page.
+    
+    The chapter is described as: The <a> tag, href, anchors, and the <img> tag with its attributes.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) The <a> tag, href, anchors, and the <img> tag with its attributes.
+      (b) Write a working link or image tag; explain the difference between absolute and relative paths.
+      (c) Writing <img href=...> instead of <img src=...>.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Write HTML to create a link to the CBSE website that opens in a new tab, and a link that emails the principal.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) <a href='https://www.cbse.gov.in' target='_blank'>Visit CBSE</a> <br> <a href='mailto:principal@school.edu'>Email the Principal</a> The first uses an absolute URL and target='_blank' so it opens in a new tab. The second uses the mailto: prefix, which makes the browser open the user's email program with the address already filled in.
+      (c) href for links, src for sources. <a href>, <img src>, <script src>.
+
+Q12. [Long · 5 marks] Discuss “HTML III — Links & Images” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      The anchor tag. <a href='destination'>text</a> creates a hyperlink. href (hypertext reference) holds the address of the destination. The destination can be another page on the same site, a page on another site, an email address using mailto:, or a place further down the same page.
+      Marks lens: Write a working link or image tag; explain the difference between absolute and relative paths.
+      Method / memory trick: href for links, src for sources. <a href>, <img src>, <script src>.
+      Do not: Writing <img href=...> instead of <img src=...>.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which attribute of <a> gives the destination address? (a) src (b) href (c) link (d) target
+    Ans: (b) href.
+
+M2. Which opens a link in a new tab? (a) target='_new' (b) target='_blank' (c) new='true' (d) href='_blank'
+    Ans: (b) target='_blank'.
+
+M3. <img> is — (a) a paired tag (b) an empty tag (c) a heading tag (d) not a valid tag
+    Ans: (b) an empty tag — it has no closing partner.
+
+M4. To link to a file in the parent folder you write — (a) /index.html (b) ./index.html (c) ../index.html (d) index.html
+    Ans: (c) ../index.html.
+
+M5. mailto: is used to — (a) download mail (b) open the email program (c) create a table (d) send an image
+    Ans: (b) open the email program with the address filled in.
+
+M6. The attribute of the <a> tag that holds the destination address is: (a) href  (b) src  (c) link  (d) target
+    Ans: (a) href. The target attribute only decides where the page opens.
+
+M7. The attribute of <img> that shows text if the picture cannot be displayed is: (a) alt  (b) src  (c) title  (d) name
+    Ans: (a) alt. It is also read aloud by screen readers for blind users.
+
+M8. An in-page link to a section with id='top' is written as: (a) <a href='#top'> (b) <a src='top'> (c) <a link='top'> (d) <a href='top.html'>
+    Ans: (a) <a href='#top'>. The #id form jumps within the page; the target carries the matching id.
+
+========================================================================
+CHAPTER 9 · HTML Tables
+Unit: Unit II · HTML
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] What does <caption> do in a table?
+    Ans: <caption> gives the table a title. It is placed immediately after the opening <table> tag and is displayed above the table by default.
+
+Q2. [Short · 2 marks] What is the difference between <td> and <th>?
+    Ans: <td> is an ordinary data cell and displays its content left-aligned in normal weight. <th> is a header cell: the browser automatically shows its text bold and centred, and it tells assistive technology that the cell labels a column or row. <th> is normally used in the first row of a table.
+
+Q3. [Short · 2 marks] Differentiate between cellpadding and cellspacing.
+    Ans: cellpadding is the space between the content of a cell and that cell's own border — it makes the text sit further inside the box. cellspacing is the gap between one cell's border and the next cell's border — it widens the grid lines themselves. Both are set on the <table> tag.
+
+Q4. [Short · 2 marks] Name the tags used to build a table and say what each does.
+    Ans: <table> begins the table; <tr> makes one row; <td> makes one data cell; <th> makes a heading cell, which is bold and centred by default; and <caption> puts a title above the table. Rows always contain cells, never the other way round.
+
+Q5. [Short · 3 marks] Explain colspan and rowspan with an example.
+    Ans: colspan='n' makes a single cell stretch across n columns. For example <td colspan='3'>Heading</td> occupies the width of three columns, so that row needs three fewer <td> tags than a normal row. rowspan='n' makes a cell stretch down n rows. For example, a <td rowspan='2'>Science</td> in the first of two rows covers both rows, so the second row must not include a cell in that position. Using them incorrectly is what makes a table look misaligned.
+
+Q6. [Application · 3 marks] Riya is revising “HTML Tables” (<table>, <tr>, <td>, borders, and the two attributes that merge cells). A classmate lost marks by doing this: Putting <td> directly inside <table> without a <tr>. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: <tr> = row, <td> = cell. Rows contain cells, never the other way round.
+      Why the mistake costs marks: Putting <td> directly inside <table> without a <tr>.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Application · 3 marks] Amit is given this exam-style task from “HTML Tables”: “Write HTML for a table with a merged title cell across two columns, a header row and one data row.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: <table>, <tr>, <td>, borders, and the two attributes that merge cells.
+      <table border='1' width='300'> <tr><th colspan='2'>Student Report</th></tr> <tr><th>Name</th><th>Marks</th></tr> <tr><td>Asha</td><td>88</td></tr> </table> The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two.
+
+Q8. [Short · 3 marks] Explain colspan and rowspan with an example of each.
+    Ans:
+      colspan makes a cell spread across two or more columns, so <td colspan="2">Total</td> covers both columns of a two-column table.
+      rowspan makes a cell spread down two or more rows, so one label can stand beside several entries without being repeated.
+      Both are written inside the tag of the cell that is being stretched.
+      After using them, the stretched cells are not written again in the rows they cover.
+
+Q9. [Long · 4 marks] Write HTML for a table with a merged title cell across two columns, a header row and one data row.
+    Ans:
+      <table border='1' width='300'>
+        <tr><th colspan='2'>Student Report</th></tr>
+        <tr><th>Name</th><th>Marks</th></tr>
+        <tr><td>Asha</td><td>88</td></tr>
+      </table>
+      The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “HTML Tables”. Their note says: The structure. A table is built from three nested levels. <table> is the whole grid. Each <tr> is one row (think table row). Each <td> is one cell or data column inside that row (think table data). A table with three rows and two columns needs three <tr> blocks, each containing two <td> cell
+    
+    The chapter is described as: <table>, <tr>, <td>, borders, and the two attributes that merge cells.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) <table>, <tr>, <td>, borders, and the two attributes that merge cells.
+      (b) Convert a drawn table into HTML and vice versa; explain rowspan and colspan.
+      (c) Putting <td> directly inside <table> without a <tr>.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Write HTML for a table with a merged title cell across two columns, a header row and one data row.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) <table border='1' width='300'> <tr><th colspan='2'>Student Report</th></tr> <tr><th>Name</th><th>Marks</th></tr> <tr><td>Asha</td><td>88</td></tr> </table> The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two.
+      (c) <tr> = row, <td> = cell. Rows contain cells, never the other way round.
+
+Q12. [Long · 5 marks] Discuss “HTML Tables” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      The structure. A table is built from three nested levels. <table> is the whole grid. Each <tr> is one row (think table row). Each <td> is one cell or data column inside that row (think table data). A table with three rows and two columns needs three <tr> blocks, each containing two <td> cells.
+      Marks lens: Convert a drawn table into HTML and vice versa; explain rowspan and colspan.
+      Method / memory trick: <tr> = row, <td> = cell. Rows contain cells, never the other way round.
+      Do not: Putting <td> directly inside <table> without a <tr>.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which tag defines a table row? (a) <td> (b) <tr> (c) <th> (d) <table>
+    Ans: (b) <tr>.
+
+M2. To merge a cell across three columns you use — (a) rowspan='3' (b) colspan='3' (c) span='3' (d) merge='3'
+    Ans: (b) colspan='3'.
+
+M3. cellspacing controls — (a) space inside a cell (b) space between cells (c) the border thickness (d) the table width
+    Ans: (b) the space between cells.
+
+M4. A header cell is written with — (a) <td> (b) <th> (c) <head> (d) <caption>
+    Ans: (b) <th>.
+
+M5. How many <tr> tags does a 4-row table need? (a) 1 (b) 2 (c) 4 (d) 8
+    Ans: (c) 4 — one per row.
+
+M6. The attribute that adds a visible border around a table is: (a) border  (b) cellspacing  (c) cellpadding  (d) width
+    Ans: (a) border. cellspacing sets the gap between cells and cellpadding the gap inside them.
+
+M7. The tag used for a cell that holds a column heading is: (a) <th>  (b) <td>  (c) <tr>  (d) <caption>
+    Ans: (a) <th>. Its text is bold and centred by default.
+
+M8. cellpadding controls: (a) space inside each cell (b) space between cells (c) the border thickness (d) the table width
+    Ans: (a) space inside each cell. Padding is inside, spacing is between — cellspacing does the other job.
+
+========================================================================
+CHAPTER 10 · HTML Forms
+Unit: Unit II · HTML
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is the difference between radio buttons and checkboxes?
+    Ans: Radio buttons allow the user to choose only one option from a group, and all buttons in that group must share the same name attribute. Checkboxes allow any number of options to be selected at once, including none or all. Visually, radios are round and checkboxes are square.
+
+Q2. [Short · 2 marks] Why is the name attribute important in a form?
+    Ans: The name attribute is the identifier used for a field when the form data is sent to the server — the server reads name=value pairs. If a control has no name, it is not submitted at all, even if the user filled it in. Radio buttons additionally rely on a shared name to behave as a single group.
+
+Q3. [Short · 2 marks] Write the HTML for a drop-down list of three subjects with Science pre-selected.
+    Ans:
+      <select name='subject'>
+        <option>Mathematics</option>
+        <option selected>Science</option>
+        <option>Social Science</option>
+      </select>
+      <select> is a paired tag containing <option> children. The selected attribute on the Science option makes it the default choice shown when the page loads.
+
+Q4. [Short · 2 marks] What do the action and method attributes of the <form> tag do?
+    Ans: action gives the URL of the page or program that will receive and process the data, for example action="save.php". method says how the data is sent: GET appends it to the URL, which is fine for short, public searches, and POST sends it in the body of the request, which is needed for passwords, long text and file uploads.
+
+Q5. [Short · 3 marks] What is the difference between the GET and POST methods?
+    Ans: GET appends the form data to the URL as a query string, such as search.html?q=physics. The data is visible in the address bar, is limited in length, and can be bookmarked or shared — which makes GET suitable for searches. POST places the data in the body of the HTTP request, so it does not appear in the URL, has no practical size limit, and can carry files. POST is therefore used for logins, registrations and any form carrying sensitive or large data.
+
+Q6. [Application · 3 marks] Riya is revising “HTML Forms” (<form>, every <input> type, <textarea>, <select> and the buttons). A classmate lost marks by doing this: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Radios share a name; checkboxes do not. That one rule separates the two.
+      Why the mistake costs marks: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Application · 3 marks] Amit is given this exam-style task from “HTML Forms”: “Write an HTML form with a name field, a password field, two radio buttons for gender, a hobbies checkbox group, and submit and reset buttons.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: <form>, every <input> type, <textarea>, <select> and the buttons.
+      <form action='/submit' method='post'> Name: <input type='text' name='uname'><br> Password: <input type='password' name='upass'><br> Gender: <input type='radio' name='gender' value='male'> Male <input type='radio' name='gender' value='female'> Female<br> Hobbies: <input type='checkbox' name='hobby' value='reading'> Reading <input type='checkbox' name='hobby' value='music'> Music<br> <input type='submit' value='Send'> <input type='reset' value='Clear'> </form> Both radio buttons share the name gender, so only one can be chosen; the two checkboxes are independent, so both can be ticked.
+
+Q8. [Short · 3 marks] Write the HTML for a form with a text box for a name, two radio buttons for gender, a checkbox for a hobby and a submit button.
+    Ans:
+      Open the form with <form action="save.php" method="post">.
+      Name: <input type="text" name="name"> and then <br> for a new line.
+      Gender: <input type="radio" name="gender" value="f"> Female and <input type="radio" name="gender" value="m"> Male; radio buttons with the same name allow only one choice.
+      Hobby: <input type="checkbox" name="hobby" value="music"> Music, then <input type="submit" value="Send"> and close with </form>.
+
+Q9. [Long · 4 marks] Write an HTML form with a name field, a password field, two radio buttons for gender, a hobbies checkbox group, and submit and reset buttons.
+    Ans:
+      <form action='/submit' method='post'>
+        Name: <input type='text' name='uname'><br>
+        Password: <input type='password' name='upass'><br>
+        Gender:
+        <input type='radio' name='gender' value='male'> Male
+        <input type='radio' name='gender' value='female'> Female<br>
+        Hobbies:
+        <input type='checkbox' name='hobby' value='reading'> Reading
+        <input type='checkbox' name='hobby' value='music'> Music<br>
+        <input type='submit' value='Send'>
+        <input type='reset' value='Clear'>
+      </form>
+      Both radio buttons share the name gender, so only one can be chosen; the two checkboxes are independent, so both can be ticked.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “HTML Forms”. Their note says: The form tag. <form> wraps every control. Its two important attributes are action, the URL that receives the data, and method, which is either get or post. GET appends the data to the URL as a query string, so it is visible, short and can be bookmarked — suitable for searches. POST sends the data in
+    
+    The chapter is described as: <form>, every <input> type, <textarea>, <select> and the buttons.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) <form>, every <input> type, <textarea>, <select> and the buttons.
+      (b) Write a complete form; name the input type for a given control; explain method and action.
+      (c) Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Write an HTML form with a name field, a password field, two radio buttons for gender, a hobbies checkbox group, and submit and reset buttons.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) <form action='/submit' method='post'> Name: <input type='text' name='uname'><br> Password: <input type='password' name='upass'><br> Gender: <input type='radio' name='gender' value='male'> Male <input type='radio' name='gender' value='female'> Female<br> Hobbies: <input type='checkbox' name='hobby' value='reading'> Reading <input type='checkbox' name='hobby' value='music'> Music<br> <input type='submit' value='Send'> <input type='reset' value='Clear'> </form> Both radio buttons share the name gen
+      (c) Radios share a name; checkboxes do not. That one rule separates the two.
+
+Q12. [Long · 5 marks] Discuss “HTML Forms” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      The form tag. <form> wraps every control. Its two important attributes are action, the URL that receives the data, and method, which is either get or post. GET appends the data to the URL as a query string, so it is visible, short and can be bookmarked — suitable for searches. POST sends the data in the body of the request, so it is not shown in the address bar and has no practical size limit — used for logins and fo.
+      Marks lens: Write a complete form; name the input type for a given control; explain method and action.
+      Method / memory trick: Radios share a name; checkboxes do not. That one rule separates the two.
+      Do not: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which input type hides the characters typed? (a) text (b) hidden (c) password (d) secure
+    Ans: (c) password.
+
+M2. Radio buttons in one group must share the same — (a) value (b) name (c) id (d) size
+    Ans: (b) name.
+
+M3. Which method sends data in the request body? (a) GET (b) POST (c) SEND (d) PUT
+    Ans: (b) POST.
+
+M4. Which of these is a paired tag? (a) <input> (b) <textarea> (c) <img> (d) <br>
+    Ans: (b) <textarea>.
+
+M5. To pre-select a radio button you use the attribute — (a) selected (b) checked (c) default (d) value
+    Ans: (b) checked. selected is used on <option>.
+
+M6. The input type that hides the characters as they are typed is: (a) password  (b) text  (c) hidden  (d) email
+    Ans: (a) password. It masks the characters but does not encrypt them, so the form should still use POST.
+
+M7. The tag that creates a box for several lines of text is: (a) <textarea>  (b) <input type="text">  (c) <select>  (d) <option>
+    Ans: (a) <textarea>. rows and columns are set with the rows and cols attributes.
+
+M8. In <select>, the option shown by default is marked with: (a) selected (b) checked (c) default (d) value
+    Ans: (a) selected. checked is the equivalent for radio buttons and checkboxes.
+
+========================================================================
+CHAPTER 11 · CSS and Multimedia
+Unit: Unit II · HTML
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is CSS? State two advantages of using CSS with an HTML page.
+    Ans: CSS (Cascading Style Sheets) is the language that controls how a page looks — colours, fonts, borders and spacing — while HTML keeps only the content. Two advantages: (1) one rule styles every matching element, so all headings can be recoloured with a single edit; (2) content and presentation stay separate, so the design can be changed without touching the text.
+
+Q2. [Short · 2 marks] What do the CSS properties color and background-color control? Give one example of each.
+    Ans: color sets the colour of the text itself, e.g. p { color: green; }. background-color sets the colour of the box behind the text, e.g. body { background-color: #FFFFCC; }, which paints the whole page pale yellow. Values may be colour names or hex codes.
+
+Q3. [Short · 2 marks] Explain border-style with any two values. How is outline different from a border?
+    Ans: border-style draws the edge of an element’s box; values include solid (a continuous line) and dashed (a broken line), besides dotted, double and none. outline draws a second line just outside the border (e.g. outline: solid blue;) and is often used to highlight the field a visitor is typing in.
+
+Q4. [Short · 2 marks] What do height, width and margin do in CSS? Give one example.
+    Ans: height and width fix how big an element’s box is, e.g. img { width: 200px; height: 150px; }. margin is the empty space outside the border that pushes neighbouring elements away, e.g. p { margin: 15px; } leaves a 15-pixel gap around every paragraph.
+
+Q5. [Short · 3 marks] Explain the three font properties in the syllabus with one example that uses all three.
+    Ans: The three font properties are font-family (the typeface, e.g. Arial), font-size (how big the text is, e.g. 24px) and font-style (usually normal or italic). Together: h2 { font-family: Arial; font-size: 24px; font-style: italic; } — every second-level heading becomes large, Arial and italic.
+
+Q6. [Short · 3 marks] How is the float property used to place an image beside a paragraph? Write the CSS.
+    Ans: float pushes an element to one side (left or right) so that the following text wraps around it. To float a picture left of a paragraph with a small gap: img { float: left; margin: 10px; }. The margin keeps the text from touching the picture.
+
+Q7. [Short · 3 marks] Explain the <audio> tag with its attributes.
+    Ans: The <audio> tag embeds a sound file in a page. src gives the location of the audio file. controls displays the play, pause and volume buttons — without it the player is invisible and the user cannot control playback. autoplay starts the sound as soon as the page loads, loop repeats it endlessly, and muted starts it silently. An example is <audio src='song.mp3' controls loop>.
+
+Q8. [Short · 3 marks] Write HTML to embed a video with the browser’s own controls. Name the attributes you used.
+    Ans:
+      <video src="lesson.mp4" width="320" height="240" controls></video> embeds the video with play, pause and volume controls.
+      src gives the video file, width and height fix the size of the picture, and controls shows the browser’s own buttons.
+      <audio src="song.mp3" controls></audio> does the same job for sound, using the same controls idea.
+
+Q9. [Application · 3 marks] A school page needs this design: all <h2> headings navy blue and centred; every paragraph in 16px Arial; pictures 200px wide, floated left. Write the CSS.
+    Ans:
+      h2 { color: navy; text-align: center; } — navy ink, centred line.
+      p { font-family: Arial; font-size: 16px; } — the three-F rule for the body text.
+      img { width: 200px; float: left; margin: 10px; } — small pictures wrapped by text with a gap.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A student wrote this CSS for a class page:
+    
+    `
+    p { font-color: green; margin: 20px }
+    img { float: middle; width: 300 }
+    `
+    
+    (a) Name the two property errors.
+    (b) Write the corrected rules.
+    Ans:
+      (a) font-color is not a CSS property — text colour is just color. float: middle is invalid — float accepts only left or right (and widths need a unit like px).
+      (b) p { color: green; margin: 20px; } and img { float: left; width: 300px; }.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    A project page must play a welcome song on loop and show a 320×240 demo video with play buttons.
+    
+    (a) Write the <audio> tag.
+    (b) Write the <video> tag.
+    (c) What goes wrong if controls is left out of both?
+    Ans:
+      (a) <audio src="welcome.mp3" controls loop> — loop repeats the song.
+      (b) <video src="demo.mp4" width="320" height="240" controls></video>.
+      (c) Without controls both players are invisible and unusable — the visitor gets no play, pause or volume buttons.
+
+Q12. [Long · 5 marks] CSS gives a web author full control of a page’s look. Explain any five CSS properties from the syllabus, with one example each.
+    Ans:
+      color — colour of the text: h1 { color: blue; }.
+      background-color — colour behind the text: body { background-color: #FFFFCC; }.
+      font-size — size of the letters: p { font-size: 16px; }.
+      border-style — the edge of the box: div { border-style: dashed; }.
+      margin — empty space outside the border: p { margin: 15px; }.
+      Together with font-family, font-style, outline, height, width, align and float, these properties style a whole page from a few short rules.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. To make paragraph text red you write — (a) p { font-color: red; } (b) p { color: red; } (c) p { text: red; } (d) p { ink: red; }
+    Ans: (b) p { color: red; }. The property is color; font-color does not exist.
+
+M2. Which of these is a valid border-style value? (a) striped (b) dashed (c) glowing (d) thick
+    Ans: (b) dashed. Valid values include solid, dashed, dotted, double and none.
+
+M3. The space OUTSIDE an element’s border is controlled by — (a) padding (b) margin (c) outline (d) float
+    Ans: (b) margin. Margin pushes neighbouring elements away from the box.
+
+M4. To set a picture 200 px wide with text wrapping on its right, use — (a) img { align: left; } (b) img { float: left; width: 200px; } (c) img { margin: left; } (d) img { size: 200px; }
+    Ans: (b) img { float: left; width: 200px; }. Float pulls the picture aside so text wraps around it.
+
+M5. Which rule makes all <h2> headings italic? (a) h2 { font: italic; } (b) h2 { style: italic; } (c) h2 { font-style: italic; } (d) h2 { text: italic; }
+    Ans: (c) h2 { font-style: italic; }. Font has three properties: family, size and style.
+
+M6. The attribute that makes the browser show play, pause and volume buttons is: (a) controls  (b) autoplay  (c) loop  (d) src
+    Ans: (a) controls. Without it the video or audio cannot be started by the visitor.
+
+M7. Which tag embeds a film in a page? (a) <movie> (b) <media> (c) <video> (d) <film>
+    Ans: (c) <video>. Example: <video src="lesson.mp4" controls></video>.
+
+M8. outline differs from border because it — (a) sits inside the text (b) is drawn outside the border (c) only works on images (d) needs no style value
+    Ans: (b) is drawn outside the border. It is often used to highlight the active field.
+
+========================================================================
+CHAPTER 12 · Netiquette, E-Commerce & Digital Divide
+Unit: Unit III · Cyber Ethics
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is netiquette? List any four netiquette rules.
+    Ans: Netiquette (network + etiquette) is the code of polite, responsible behaviour on the internet. Four rules: (1) write courteous messages and respect others’ privacy; (2) do not type in ALL CAPS — it reads as shouting; (3) do not forward rumours, chain messages or spam; (4) give credit for others’ work instead of copying it.
+
+Q2. [Short · 2 marks] What is e-commerce? Give two examples from the syllabus.
+    Ans: E-commerce means carrying out trade — buying, selling, paying and banking — over the internet. Two syllabus examples: e-shopping (ordering goods on a website) and e-banking (transferring money or paying bills through a bank’s site or app). e-reservation and online bill payment are two more.
+
+Q3. [Short · 2 marks] Why is privacy the biggest concern in e-commerce? State two precautions a buyer should take.
+    Ans: Every e-commerce transaction moves money plus personal data (name, address, card number, OTP), which thieves can misuse. Two precautions: (1) shop only on known, reputed sites showing https:// and the padlock; (2) never share passwords or OTPs with anyone, and check what data an app collects before installing it.
+
+Q4. [Short · 2 marks] What is the digital divide?
+    Ans: The digital divide is the gap between people who have access to computers, smartphones and the internet — and those who do not. It is caused by poverty, remote villages with no network, lack of digital skills, age, disability and language barriers, and it locks the excluded out of online schooling, banking and services.
+
+Q5. [Short · 3 marks] Explain online fraud in e-commerce with two examples. How can a buyer avoid each?
+    Ans: Online fraud is cheating a buyer or seller over the internet. Example 1: fake shops that take payment and never deliver — avoid by buying only from known sites and checking reviews. Example 2: phishing messages that pose as a bank and steal passwords — avoid by never clicking such links and never sharing OTPs.
+
+Q6. [Short · 3 marks] How is data kept secure during transmission? Explain any three methods.
+    Ans: Three methods: (1) Encryption — scrambling the data so only the intended receiver can read it. (2) https:// — HTTP over a secure channel (the browser padlock); plain http sends everything as readable text. (3) OTPs — one-time passwords sent to the buyer’s phone that prove the transaction is really theirs.
+
+Q7. [Short · 3 marks] What is freedom of information? How does e-governance support it?
+    Ans: Freedom of information is the principle that citizens have the right to access information held by public authorities. E-governance supports it by putting records, results, forms and services online — certificates, exam results, land records — so people can see, question and use them without middlemen or secrecy.
+
+Q8. [Short · 3 marks] State three consequences of the digital divide and three ways to bridge it.
+    Ans: Consequences: students miss online classes, citizens miss digital banking and certificates, and job-seekers miss online opportunities. Bridging it: (1) cheap smartphones and low-cost data; (2) mobile networks and public Wi-Fi in villages; (3) services and training in regional languages so language is no barrier.
+
+Q9. [Application · 3 marks] A friend forwards every “forward to 10 people” message, types angry replies in CAPS, and posts a classmate’s photo without asking. Which three netiquette rules is being broken, and what should be done instead?
+    Ans:
+      Chain forwards break the no spam/rumours rule — verify before forwarding, or delete.
+      ALL-CAPS replies break the no shouting rule — use normal case and polite words.
+      Posting the photo breaks respect for privacy — always take permission before sharing someone’s picture or number.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Meera finds a phone 40% cheaper on an unknown site. The site uses http://, asks for full payment by bank transfer, and a “seller” on chat asks for her OTP to “confirm the order”.
+    
+    (a) Name three fraud/danger signals.
+    (b) What should Meera do?
+    Ans:
+      (a) An unknown site with an unbelievable discount; http:// with no padlock, so data travels unencrypted; and advance bank transfer plus an OTP demand — no genuine seller ever asks for an OTP.
+      (b) Close the site, buy only from a reputed https:// shop, never pay strangers in advance, and never share the OTP with anyone.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    A village gets a mobile tower but students still cannot attend online classes: families share one old phone, the signal is weak indoors, and the learning app is English-only.
+    
+    (a) Which problem is this an example of?
+    (b) Identify three barriers shown here.
+    (c) Suggest one fix for each.
+    Ans:
+      (a) This is the digital divide — access on paper, exclusion in practice.
+      (b) Shared/old devices, weak connectivity, and a language barrier.
+      (c) Device: a shared tablet corner at school; connectivity: classes or downloads from a spot with signal; language: apps and help in the regional language.
+
+Q12. [Long · 5 marks] Responsible use of the internet needs good manners, safe transactions and access for all. Discuss netiquette, e-commerce safety and the digital divide.
+    Ans:
+      Netiquette — polite messages, no CAPS shouting, no spam or rumours, respect privacy, give credit.
+      E-commerce safety — shop on reputed https:// sites, guard privacy (no OTP/password sharing), recognise fraud (fake shops, phishing, prize scams), and rely on secure transmission (encryption, OTPs).
+      Digital divide — the gap between the connected and the unconnected, caused by cost, coverage, skills and language; bridged by cheap devices, village networks, public Wi-Fi and regional-language services.
+      Together the three ideas make one point: use the net politely, transact on it safely, and carry everyone along.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Typing a message in ALL CAPS is bad netiquette because it — (a) saves time (b) reads as shouting (c) looks stylish (d) avoids spam
+    Ans: (b) reads as shouting. Netiquette asks for normal case and polite words.
+
+M2. Which of these is an e-commerce activity? (a) reading a blog (b) paying an electricity bill on a bank app (c) watching a video (d) typing a document
+    Ans: (b) paying an electricity bill on a bank app. E-commerce = trade, payment and banking online.
+
+M3. A safe shopping site must show — (a) http:// (b) https:// with a padlock (c) flashing ads (d) pop-up prizes
+    Ans: (b) https:// with a padlock. The s means the data is encrypted in transit.
+
+M4. Someone calls “from the bank” and asks for your OTP. You should — (a) share it quickly (b) share half of it (c) refuse and cut the call (d) ask for a bigger limit
+    Ans: (c) refuse and cut the call. No genuine caller ever asks for an OTP.
+
+M5. Phishing is an example of — (a) netiquette (b) online fraud (c) e-governance (d) encryption
+    Ans: (b) online fraud. Fake messages steal passwords and money.
+
+M6. The digital divide is the gap between — (a) boys and girls (b) the connected and the unconnected (c) cities (d) phones and laptops
+    Ans: (b) the connected and the unconnected. Cost, coverage, skills and language cause it.
+
+M7. Publishing exam results and certificates online is an example of — (a) e-governance supporting freedom of information (b) phishing (c) netiquette (d) malware
+    Ans: (a) e-governance supporting freedom of information. Citizens can see and use public records directly.
+
+M8. Which step does NOT bridge the digital divide? (a) village mobile networks (b) regional-language apps (c) English-only services (d) low-cost data
+    Ans: (c) English-only services. Services in regional languages include more people, not fewer.
+
+========================================================================
+CHAPTER 13 · Cybercrime, IPR & Open Source
+Unit: Unit III · Cyber Ethics
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is plagiarism and how can it be avoided?
+    Ans: Plagiarism is presenting someone else's words, ideas, data or code as if they were your own, without giving credit. It is an ethical offence even when no money changes hands. It is avoided by always citing the source, using quotation marks around copied text, paraphrasing genuinely rather than swapping a few words, and keeping a record of every source consulted while working.
+
+Q2. [Short · 2 marks] What is software piracy?
+    Ans: Software piracy is the unauthorised copying, distribution or use of software without a valid licence. It includes installing one licensed copy on many machines, downloading cracked versions, and selling counterfeit discs. It deprives developers of income and often exposes the user to malware, since pirated copies are frequently bundled with it.
+
+Q3. [Short · 2 marks] Distinguish between freeware and shareware.
+    Ans: Freeware can be used free of charge indefinitely, but its source code is usually closed and it cannot be modified or sold — an example is Skype. Shareware is distributed free only as a trial, either for a limited period or with reduced features, and the user must pay to continue using it after the trial ends.
+
+Q4. [Short · 2 marks] What is plagiarism and how is it different from quoting?
+    Ans: Plagiarism is using someone else's words, ideas, images or code and presenting them as your own, even if you change a few words or do not name the source. Quoting keeps the original wording inside quotation marks and names the author and the work, so the reader knows whose words they are; that is allowed and expected in school work.
+
+Q5. [Short · 3 marks] What is IPR? Name and explain its four main types.
+    Ans: IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business information such as a formula or a method.
+
+Q6. [Short · 3 marks] Differentiate between free and open source software and proprietary software, with examples.
+    Ans: FOSS makes the source code available, so anyone may use, study, modify and redistribute the program; examples are Linux, Firefox and LibreOffice. Here 'free' refers to freedom rather than price. Proprietary software keeps its source code secret and grants only a licence to use it, forbidding copying, modification or redistribution; examples are Microsoft Windows and Adobe Photoshop. The practical difference is that with FOSS you can fix or extend the software yourself, while with proprietary software you depend entirely on the vendor.
+
+Q7. [Application · 3 marks] Riya is revising “Cybercrime, IPR & Open Source” (Cybercrime, intellectual property rights, plagiarism, and free versus open source software). A classmate lost marks by doing this: Confusing copyright and patent — copyright covers creative works, patent covers inventions. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.
+      Why the mistake costs marks: Confusing copyright and patent — copyright covers creative works, patent covers inventions.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Cybercrime, IPR & Open Source”: “What is IPR? Name and explain its four main types.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Cybercrime, intellectual property rights, plagiarism, and free versus open source software.
+      IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business information such as a formula or a method.
+
+Q9. [Short · 3 marks] Explain the four main kinds of intellectual property.
+    Ans:
+      Copyright protects original literary, musical, artistic and software works, and lasts for the life of the author plus sixty years in India.
+      A patent protects a new invention for twenty years, and lets the owner stop others from making or selling it.
+      A trademark protects a name, logo or symbol that identifies a business or product, such as a brand name or a jingle.
+      A design right protects the shape, pattern or look of a manufactured article, and trade secrets protect information kept confidential by a business.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Cybercrime, IPR & Open Source”. Their note says: Cybercrime. A cybercrime is any illegal act in which a computer or network is used as a tool, a target, or a place to store evidence. Examples are hacking, spreading malware, online fraud, identity theft, publishing obscene material, and attacking a website so that it stops working.
+    
+    The chapter is described as: Cybercrime, intellectual property rights, plagiarism, and free versus open source software.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Cybercrime, intellectual property rights, plagiarism, and free versus open source software.
+      (b) Define IPR and its types, explain plagiarism and software piracy, distinguish FOSS from proprietary software.
+      (c) Confusing copyright and patent — copyright covers creative works, patent covers inventions.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “What is IPR? Name and explain its four main types.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business informati
+      (c) Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.
+
+Q12. [Long · 5 marks] Discuss “Cybercrime, IPR & Open Source” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Cybercrime. A cybercrime is any illegal act in which a computer or network is used as a tool, a target, or a place to store evidence. Examples are hacking, spreading malware, online fraud, identity theft, publishing obscene material, and attacking a website so that it stops working.
+      Marks lens: Define IPR and its types, explain plagiarism and software piracy, distinguish FOSS from proprietary software.
+      Method / memory trick: Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.
+      Do not: Confusing copyright and patent — copyright covers creative works, patent covers inventions.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which IPR protects a brand logo? (a) copyright (b) patent (c) trademark (d) trade secret
+    Ans: (c) trademark.
+
+M2. Which IPR protects an invention? (a) copyright (b) patent (c) trademark (d) licence
+    Ans: (b) patent.
+
+M3. Which of these is open source? (a) MS Windows (b) Adobe Photoshop (c) Linux (d) Skype
+    Ans: (c) Linux.
+
+M4. Presenting someone else's work as your own is — (a) piracy (b) plagiarism (c) phishing (d) hacking
+    Ans: (b) plagiarism.
+
+M5. Software free to use but closed in source is called — (a) shareware (b) freeware (c) FOSS (d) malware
+    Ans: (b) freeware.
+
+M6. Copying a paid program and selling it without the owner's permission is: (a) software piracy  (b) fair use  (c) open source  (d) shareware
+    Ans: (a) software piracy. It is a criminal offence under the Copyright Act.
+
+M7. Open source software is software that: (a) lets users study, change and share the source code  (b) is always free of cost  (c) cannot be copied  (d) runs only on mobile phones
+    Ans: (a) lets users study, change and share the source code. Free refers to freedom, not necessarily to price.
+
+M8. Software distributed as a paid trial is called: (a) shareware (b) freeware (c) FOSS (d) malware
+    Ans: (a) shareware. Try first, pay later; freeware is free but closed, FOSS is open in source.

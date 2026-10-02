@@ -286,7 +286,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Cybercrime, IPR & Open Source” (Cybercrime, intellectual property rights, plagiarism, and free versus open source software.). A classmate lost marks by doing this: Confusing copyright and patent — copyright covers creative works, patent covers inventions. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Cybercrime, IPR & Open Source” (Cybercrime, intellectual property rights, plagiarism, and free versus open source software). A classmate lost marks by doing this: Confusing copyright and patent — copyright covers creative works, patent covers inventions. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.",
           "Why the mistake costs marks: Confusing copyright and patent — copyright covers creative works, patent covers inventions.",
@@ -298,7 +298,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Cybercrime, IPR & Open Source”: “What is IPR? Name and explain its four main types.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Cybercrime, intellectual property rights, plagiarism, and free versus open source software..",
+          "Idea: Cybercrime, intellectual property rights, plagiarism, and free versus open source software.",
           "IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business information such as a formula or a method."
         ]
       },
@@ -316,7 +316,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Cybercrime, IPR & Open Source”. Their note says: Cybercrime. A cybercrime is any illegal act in which a computer or network is used as a tool, a target, or a place to store evidence. Examples are hacking, spreading malware, online fraud, identity theft, publishing obscene material, and attacking a website so that it stops working.\n\nThe chapter is described as: Cybercrime, intellectual property rights, plagiarism, and free versus open source software..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Cybercrime, IPR & Open Source”. Their note says: Cybercrime. A cybercrime is any illegal act in which a computer or network is used as a tool, a target, or a place to store evidence. Examples are hacking, spreading malware, online fraud, identity theft, publishing obscene material, and attacking a website so that it stops working.\n\nThe chapter is described as: Cybercrime, intellectual property rights, plagiarism, and free versus open source software.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Cybercrime, intellectual property rights, plagiarism, and free versus open source software.",
           "(b) Define IPR and its types, explain plagiarism and software piracy, distinguish FOSS from proprietary software.",

@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 17 · Forms and Reports · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 17 · Forms and Reports
+Unit: Part B · Database Management System
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Differentiate a form and a report.
+    Ans: A form is for entering/editing records on screen. A report is a formatted, usually read-only printout or PDF of selected data.
+
+Q2. [Short · 2 marks] Why create a report from a query rather than from a whole table?
+    Ans: The query filters and sorts first (e.g. only unpaid fees), so the report prints exactly the needed rows.
+
+Q3. [Short · 2 marks] Why is a form better than the table grid for entering data?
+    Ans: A form shows one record at a time in a clean layout, can carry instructions, drop-down lists, buttons and field labels, and prevents the common mistakes of typing into the wrong column or the wrong row. It is designed for the person who uses the database, while the table grid is designed for the person who built it.
+
+Q4. [Short · 2 marks] What is grouping in a report? Give one example with a suitable total.
+    Ans: Grouping collects report rows by a shared field and prints sub-headings and subtotals for each group. Example — a fee-dues report grouped by Section, with each section's list followed by that section's total dues, and a grand total at the end.
+
+Q5. [Application · 3 marks] The office wants a printed list of Class 10 students owing more than ₹500, grouped by section. Form or report? What sits underneath?
+    Ans: A report. Underneath: a query with Class=10, Fees>500, then group by section in the report wizard.
+
+Q6. [Application · 3 marks] Riya is revising “Forms and Reports” (Data-entry forms and printable reports from tables or queries). A classmate lost marks by doing this: Building a report on the whole table when the question said “students with marks > 80”. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: If the report is empty, the query returned zero rows — fix criteria first.
+      Why the mistake costs marks: Building a report on the whole table when the question said “students with marks > 80”.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Short · 3 marks] Describe how to create a report in LibreOffice Base.
+    Ans:
+      Choose Reports, then Use Wizard to Create Report, and select the table or query that holds the data.
+      Pick the fields to show, choose a grouping level if you want subtotals, set the sort order and the layout.
+      Give the report a title, choose whether it is a columnar or a tabular report, and finish; the wizard opens it for preview.
+      The report can then be edited in Design View, and printed or exported as a PDF for distribution.
+
+Q8. [Short · 3 marks] Name two form controls suited to different field types, and explain the match in each case.
+    Ans:
+      Check box ↔ Yes/No field — a tick directly means true and an empty box means false, so no typing is needed.
+      List box ↔ a field with fixed options — showing Class as 9/10/11/12 prevents spellings like ‘ten’ or ‘X’ that would corrupt queries.
+
+Q9. [Long · 4 marks] Write steps to create a data-entry form for the Student table in Base.
+    Ans: Forms → Use Wizard → table Student → select fields → choose layout (columnar) → set to display all data / data entry → style → name frmStudent → finish. Test by adding one record.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Data-entry staff keep typing in Datasheet and accidentally delete a column.
+    
+    (a) Which object reduces that risk?
+    (b) Two reasons.
+    (c) How should monthly printouts be produced?
+    Ans:
+      (a) A form with only the needed controls.
+      (b) No access to Design View; labels guide the operator; validation.
+      (c) A report (from a query), not a screenshot of the datasheet.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Forms and Reports”. Their note says: Form: on-screen layout for entering and editing records, one at a time, with labels and controls. Safer than raw datasheet (validation, no extra columns).
+    
+    The chapter is described as: Data-entry forms and printable reports from tables or queries.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Data-entry forms and printable reports from tables or queries.
+      (b) Practical often: form on Student + report from a query.
+      (c) Building a report on the whole table when the question said “students with marks > 80”.
+
+Q12. [Long · 5 marks] Discuss “Forms and Reports” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Form: on-screen layout for entering and editing records, one at a time, with labels and controls. Safer than raw datasheet (validation, no extra columns).
+      Marks lens: Practical often: form on Student + report from a query.
+      Method / memory trick: If the report is empty, the query returned zero rows — fix criteria first.
+      Do not: Building a report on the whole table when the question said “students with marks > 80”.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. A form is mainly for: (a) printing totals (b) entering and editing records (c) recording macros (d) 7 Cs
+    Ans: (b).
+
+M2. A report is mainly for: (a) typing new rows (b) formatted output/print (c) setting OS password (d) wrapping images
+    Ans: (b).
+
+M3. The best source for a filtered report is: (a) a query (b) a random image (c) Track Changes (d) a template .ott
+    Ans: (a) a query.
+
+M4. A check box on a form suits a: (a) Yes/No field (b) photo of the school (c) Goal Seek cell (d) Heading 1 style
+    Ans: (a) Yes/No field.
+
+M5. The most exam-ready way to revise “Forms and Reports” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Data-entry forms and printable reports from tables or queries.
+
+M6. A 3-mark answer on “Forms and Reports” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. A report is mainly used to: (a) print or present data in a formatted way  (b) enter new records  (c) store the data  (d) delete old records
+    Ans: (a) print or present data in a formatted way. Data entry is done through a form.
+
+M8. The Report Wizard in Base is started from: (a) Reports → Use Wizard to Create Report  (b) Tables → Create Table in Design View  (c) Queries → Design View  (d) Tools → Options
+    Ans: (a) Reports → Use Wizard to Create Report. It steps you through fields, grouping and layout.

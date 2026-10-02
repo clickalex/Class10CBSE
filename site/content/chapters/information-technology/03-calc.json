@@ -79,7 +79,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Scenarios and Goal Seek (Calc)” (Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.). A classmate lost marks by doing this: Mixing up Goal Seek (one input) with Solver (many inputs + constraints). Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Scenarios and Goal Seek (Calc)” (Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver). A classmate lost marks by doing this: Mixing up Goal Seek (one input) with Solver (many inputs + constraints). Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Goal Seek needs a formula in the set cell. Typing a number there will fail.",
           "Why the mistake costs marks: Mixing up Goal Seek (one input) with Solver (many inputs + constraints).",
@@ -126,7 +126,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Scenarios and Goal Seek (Calc)”. Their note says: Consolidate: Data → Consolidate. Combines the same layout from several sheets (e.g. four term marks) using Sum/Average. Tick “Link to source data” to auto-update.\n\nThe chapter is described as: Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Scenarios and Goal Seek (Calc)”. Their note says: Consolidate: Data → Consolidate. Combines the same layout from several sheets (e.g. four term marks) using Sum/Average. Tick “Link to source data” to auto-update.\n\nThe chapter is described as: Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.",
           "(b) Goal Seek and Scenarios are the theory + practical pair.",
@@ -164,7 +164,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Scenarios and Goal Seek (Calc)” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver."
       },
       {
         "q": "A 3-mark answer on “Scenarios and Goal Seek (Calc)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -261,7 +261,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Macros in Spreadsheet” (Record, run, and use macros as functions; when not to use them.). A classmate lost marks by doing this: Recording a macro that depends on a specific cell when you needed a relative range. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Macros in Spreadsheet” (Record, run, and use macros as functions; when not to use them). A classmate lost marks by doing this: Recording a macro that depends on a specific cell when you needed a relative range. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Plan the clicks before you press Record — extra clicks get recorded too.",
           "Why the mistake costs marks: Recording a macro that depends on a specific cell when you needed a relative range.",
@@ -308,7 +308,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Macros in Spreadsheet”. Their note says: A macro is a recorded sequence of commands. Play it back to repeat the work.\n\nThe chapter is described as: Record, run, and use macros as functions; when not to use them..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Macros in Spreadsheet”. Their note says: A macro is a recorded sequence of commands. Play it back to repeat the work.\n\nThe chapter is described as: Record, run, and use macros as functions; when not to use them.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Record, run, and use macros as functions; when not to use them.",
           "(b) Steps to record and run a macro, plus one use-case (repeating a format or a formula block).",
@@ -346,7 +346,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Macros in Spreadsheet” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Record, run, and use macros as functions; when not to use them.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Record, run, and use macros as functions; when not to use them."
       },
       {
         "q": "A 3-mark answer on “Macros in Spreadsheet” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -450,7 +450,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Linking Spreadsheet Data” (Sheet links, hyperlinks, linking to external files and data from the web.). A classmate lost marks by doing this: Renaming a sheet after writing formulas without checking — some links break. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Linking Spreadsheet Data” (Sheet links, hyperlinks, linking to external files and data from the web). A classmate lost marks by doing this: Renaming a sheet after writing formulas without checking — some links break. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Sheet names with spaces need single quotes: 'Term 1'.A1.",
           "Why the mistake costs marks: Renaming a sheet after writing formulas without checking — some links break.",
@@ -496,7 +496,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Linking Spreadsheet Data”. Their note says: Same-file sheet link: =Sheet2.B3 or ='Term 1'.B3 if the sheet name has a space.\n\nThe chapter is described as: Sheet links, hyperlinks, linking to external files and data from the web..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Linking Spreadsheet Data”. Their note says: Same-file sheet link: =Sheet2.B3 or ='Term 1'.B3 if the sheet name has a space.\n\nThe chapter is described as: Sheet links, hyperlinks, linking to external files and data from the web.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Sheet links, hyperlinks, linking to external files and data from the web.",
           "(b) Syntax of a sheet reference and Insert → Hyperlink.",
@@ -534,7 +534,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Linking Spreadsheet Data” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Sheet links, hyperlinks, linking to external files and data from the web.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Sheet links, hyperlinks, linking to external files and data from the web."
       },
       {
         "q": "A 3-mark answer on “Linking Spreadsheet Data” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -631,7 +631,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Share and Review a Spreadsheet” (Sharing, recording changes, adding comments, comparing and merging sheets.). A classmate lost marks by doing this: Protecting the sheet with no password written in the practical file — you cannot demo it. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Share and Review a Spreadsheet” (Sharing, recording changes, adding comments, comparing and merging sheets). A classmate lost marks by doing this: Protecting the sheet with no password written in the practical file — you cannot demo it. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Sharing is for one file, many users; emailing five copies is how totals diverge.",
           "Why the mistake costs marks: Protecting the sheet with no password written in the practical file — you cannot demo it.",
@@ -678,7 +678,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Share and Review a Spreadsheet”. Their note says: Share spreadsheet: Tools → Share Spreadsheet. Several people can open it (on a network). Conflicts are resolved when saving.\n\nThe chapter is described as: Sharing, recording changes, adding comments, comparing and merging sheets..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Share and Review a Spreadsheet”. Their note says: Share spreadsheet: Tools → Share Spreadsheet. Several people can open it (on a network). Conflicts are resolved when saving.\n\nThe chapter is described as: Sharing, recording changes, adding comments, comparing and merging sheets.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Sharing, recording changes, adding comments, comparing and merging sheets.",
           "(b) Share spreadsheet + record changes is the pair.",
@@ -716,7 +716,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Share and Review a Spreadsheet” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Sharing, recording changes, adding comments, comparing and merging sheets.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Sharing, recording changes, adding comments, comparing and merging sheets."
       },
       {
         "q": "A 3-mark answer on “Share and Review a Spreadsheet” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",

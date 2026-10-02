@@ -1,0 +1,112 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 13 · Introduction to DBMS · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 13 · Introduction to DBMS
+Unit: Part B · Database Management System
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Differentiate data and information with an example.
+    Ans: Data are raw facts (42, “Neha”). Information is processed and meaningful (“Neha’s attendance is 42 days”).
+
+Q2. [Short · 2 marks] What is a primary key? Give one example.
+    Ans: A field (or set of fields) that uniquely identifies each record and cannot be empty. Example: AdmissionNo in a Student table.
+
+Q3. [Short · 2 marks] Distinguish between data and information with an example.
+    Ans: Data are raw, unprocessed facts, such as the marks obtained by each student in each subject. Information is data that has been processed and given meaning, such as the class average, the highest mark or a list of students who passed. A database stores data; queries and reports turn it into information.
+
+Q4. [Short · 2 marks] What is a foreign key? Explain with a Student–Library example how it links two tables.
+    Ans: A foreign key is a field in one table that refers to the primary key of another table. Example — the Issue table stores RollNo as a foreign key pointing to the Student table's RollNo primary key, so each issued book is tied to exactly one student without retyping the student's name and class.
+
+Q5. [Application · 3 marks] A school stores students in one sheet with teacher phone numbers typed against every student. Two problems, and the DBMS idea that fixes them.
+    Ans: Redundancy (phone typed 40 times) and inconsistency (one row has the old number). Split into Student and Teacher tables with a foreign key.
+
+Q6. [Application · 3 marks] Riya is revising “Introduction to DBMS” (Data vs information, database, DBMS advantages, keys and types of database). A classmate lost marks by doing this: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Primary key = unique + not empty. Roll number works; student name does not.
+      Why the mistake costs marks: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Short · 3 marks] List any four advantages of a DBMS over a simple file system.
+    Ans:
+      It removes duplication, so the same fact is stored once and every user sees the same value.
+      It keeps the data consistent and lets the designer set rules, so that wrong data cannot easily be entered.
+      It allows many users to work at the same time without overwriting each other's work.
+      It gives security through passwords and permissions, and fast searching, sorting and reporting through queries.
+
+Q8. [Short · 3 marks] Define field, record and table with reference to a school database.
+    Ans:
+      Field — one attribute, such as Name or Class; a column of the table.
+      Record — all the fields for one item, such as one student's complete row.
+      Table — the full set of records of one kind, such as the Student table holding every student's row.
+
+Q9. [Long · 4 marks] List four advantages of a DBMS over a paper register or a single Calc sheet.
+    Ans: Less duplication; one correction updates all uses; password/security; backup and recovery; many users; validation (integrity). A Calc sheet is easy to duplicate and hard to relate as tables grow.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A clinic keeps patient names in a diary. Two staff write different spellings; a page is lost.
+    
+    (a) Two problems of this system.
+    (b) Two DBMS advantages that help.
+    (c) Suggest a primary key.
+    Ans:
+      (a) Inconsistency, no backup, slow search, redundancy.
+      (b) Central consistent data, backup/recovery, validation, sharing.
+      (c) PatientID or a unique registration number — not the name.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Introduction to DBMS”. Their note says: Data are raw facts (Ravi, 78). Information is processed, useful data (“Ravi scored 78 in IT”).
+    
+    The chapter is described as: Data vs information, database, DBMS advantages, keys and types of database.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Data vs information, database, DBMS advantages, keys and types of database.
+      (b) Data vs information, advantages of DBMS, primary key — the opening trio.
+      (c) Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course.
+
+Q12. [Long · 5 marks] Discuss “Introduction to DBMS” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Data are raw facts (Ravi, 78). Information is processed, useful data (“Ravi scored 78 in IT”).
+      Marks lens: Data vs information, advantages of DBMS, primary key — the opening trio.
+      Method / memory trick: Primary key = unique + not empty. Roll number works; student name does not.
+      Do not: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which is information, not raw data? (a) 36 (b) “Amit” (c) “Amit’s temperature is 36 °C” (d) a blank cell
+    Ans: (c).
+
+M2. LibreOffice Base is: (a) a DBMS (b) an OS (c) a browser (d) a style
+    Ans: (a) a DBMS.
+
+M3. A good primary key for books is: (a) Title (b) Author (c) ISBN (d) Colour
+    Ans: (c) ISBN.
+
+M4. A foreign key: (a) deletes the database (b) refers to a primary key in another table (c) is always a picture (d) is a macro
+    Ans: (b).
+
+M5. The most exam-ready way to revise “Introduction to DBMS” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Data vs information, database, DBMS advantages, keys and types of database.
+
+M6. A 3-mark answer on “Introduction to DBMS” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The field that uniquely identifies each record in a table is the: (a) primary key  (b) foreign key  (c) index  (d) alias
+    Ans: (a) primary key. It must be unique and cannot be empty.
+
+M8. Which of these is DBMS software? (a) LibreOffice Base  (b) MS Word  (c) Google Chrome  (d) VLC player
+    Ans: (a) LibreOffice Base. MySQL, PostgreSQL and Oracle are other examples.

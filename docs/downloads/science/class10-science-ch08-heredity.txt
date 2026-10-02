@@ -1,0 +1,130 @@
+﻿CLASS 10 CBSE · SCIENCE (Subject Code 086)
+Chapter 8 · Heredity · session 2026–27
+
+1 chapter · 14 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/science/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 8 · Heredity
+Unit: II · World of Living
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?
+    Ans: XY; the gene (a segment of DNA on a chromosome).
+
+Q2. [Short · 2 marks] A man with blood group A marries a woman with blood group O and their daughter has blood group O. Is this enough to tell which trait is dominant? Why?
+    Ans: No. From one family we cannot tell. If A were dominant, the father could be heterozygous (IAi) and the daughter could inherit i from both parents; but a single observation does not establish dominance, which requires studying many such crosses.
+
+Q3. [Short · 2 marks] Distinguish between acquired and inherited traits, with one example of each.
+    Ans: An acquired trait develops during an organism's lifetime due to experience or environment and is not passed on — for example, a wrestler's well-developed muscles or a pierced ear. An inherited trait is present from birth and is passed on through the DNA of germ cells — for example, the colour of eyes or free ear lobes.
+
+Q4. [Short · 2 marks] Distinguish between genotype and phenotype with an example.
+    Ans: Genotype is the genetic constitution of an organism (for example Tt), while phenotype is the observable character it produces (for example a tall plant). Because the tall allele is dominant, the genotypes TT and Tt both give the tall phenotype.
+
+Q5. [Short · 3 marks] Explain Mendel's monohybrid cross with a Punnett square.
+    Ans:
+      Pure tall (TT) × pure dwarf (tt). Gametes: T and t. F1: all Tt — tall, because tall is dominant and dwarf is recessive.
+      Selfing F1 (Tt × Tt) gives gametes T and t from each parent. Punnett square → TT, Tt, Tt, tt.
+      Phenotype: 3 tall : 1 dwarf. Genotype: 1 TT : 2 Tt : 1 tt. The dwarf character was only masked in F1, not lost.
+
+Q6. [Short · 3 marks] How is the sex of a child determined in human beings? Show diagrammatically.
+    Ans:
+      Mother (XX) produces only X-bearing eggs; father (XY) produces X-bearing and Y-bearing sperms in equal numbers.
+      X egg + X sperm → XX = girl; X egg + Y sperm → XY = boy.
+      The probability of either is 50%, so the sex of the child is decided by chance and not by either parent's wish or action.
+
+Q7. [Application · 3 marks] Riya is revising “Heredity” (Mendel's monohybrid and dihybrid crosses, and sex determination). A classmate lost marks by doing this: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.
+      Why the mistake costs marks: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Heredity”: “What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Mendel's monohybrid and dihybrid crosses, and sex determination.
+      XY; the gene (a segment of DNA on a chromosome).
+
+Q9. [Short · 3 marks] A tall pea plant (Tt) is crossed with a dwarf plant (tt). What proportion of the progeny will be tall?
+    Ans:
+      The tall parent produces two kinds of gametes, T and t; the dwarf parent produces only t.
+      Combining them gives Tt, Tt, tt and tt.
+      So half the progeny are Tt (tall) and half are tt (dwarf) — a 1 : 1 ratio. This cross with a recessive parent is called a test cross.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Heredity”. Their note says: The basis of heredity. Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the gene, a segment of DNA on a chromosome. Each character has a pair of alleles, one from each parent. A dominant allele expresses itself in the F1 generation; the rece
+    
+    The chapter is described as: Mendel's monohybrid and dihybrid crosses, and sex determination.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Mendel's monohybrid and dihybrid crosses, and sex determination.
+      (b) –3 marks. A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.
+      (c) Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) XY; the gene (a segment of DNA on a chromosome).
+      (c) 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.
+
+Q12. [Application · 4 marks] A family blames the mother whenever a daughter is born. Using what you know about sex determination, write the reply you would give them.
+    Ans:
+      Human females have two X chromosomes, so every egg carries an X chromosome.
+      Human males have one X and one Y, so half their sperm carry X and half carry Y.
+      An X-bearing sperm fertilising the egg gives XX, a girl; a Y-bearing sperm gives XY, a boy. The egg always contributes an X, so it is the sperm — that is, the father — that decides the sex of the child.
+      Repeated daughters in a family are a matter of chance, exactly like repeated tails when a coin is tossed; there is no biological basis for blaming the mother.
+
+Q13. [Long · 5 marks] Describe Mendel's dihybrid cross and state the conclusion drawn from it.
+    Ans:
+      He crossed pea plants with round-yellow seeds (RRYY) with plants having wrinkled-green seeds (rryy).
+      F1: all plants had round-yellow seeds (RrYy) — round and yellow are dominant.
+      On self-pollinating F1, F2 gave four phenotypes: 9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green (16 combinations in the 4×4 Punnett square).
+      Conclusion: the two pairs of characters are inherited independently of each other, which is why new combinations (round-green and wrinkled-green) appear in F2 that were absent in the parents. This is the law of independent assortment.
+
+Q14. [Long · 5 marks] Discuss “Heredity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      The basis of heredity. Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the gene, a segment of DNA on a chromosome. Each character has a pair of alleles, one from each parent. A dominant allele expresses itself in the F1 generation; the recessive allele is masked and reappears in F2. Genotype is the genetic make-up (TT, Tt, tt); phenotype is what appears (tal.
+      Marks lens: –3 marks. A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.
+      Method / memory trick: 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.
+      Do not: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. In a monohybrid cross between a tall (TT) and a dwarf (tt) pea plant, the F2 phenotypic ratio is: (a) 1:1 (b) 3:1 (c) 9:3:3:1 (d) 1:2:1
+    Ans: (b) 3 tall : 1 dwarf. 1:2:1 is the genotypic ratio of the same cross.
+
+M2. The sex of a human child is determined by: (a) the mother's egg (b) the father's sperm (c) both parents equally (d) the diet of the mother
+    Ans: (b) the father's sperm. Eggs always carry X; a sperm carrying Y produces a boy and one carrying X produces a girl.
+
+M3. A cross between F1 hybrid tall plants (Tt × Tt) gives dwarf plants in F2. The expected ratio of tall to dwarf is: (a) 1:3 (b) 3:1 (c) 1:1 (d) 2:2
+    Ans: (b) 3:1 — 25% of F2 are homozygous dwarf (tt).
+
+M4. The most exam-ready way to revise “Heredity” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Mendel's monohybrid and dihybrid crosses, and sex determination.
+
+M5. A 3-mark answer on “Heredity” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The phenotypic ratio obtained in a dihybrid cross between two F₁ hybrids is: (a) 3 : 1  (b) 9 : 3 : 3 : 1  (c) 1 : 1  (d) 1 : 2 : 1
+    Ans: (b) 9 : 3 : 3 : 1. Mendel obtained this for two independently assorting traits, such as seed shape and seed colour.
+
+M7. Which of these traits can be inherited? (a) the cut tail of a mouse  (b) large muscles built by exercise  (c) eye colour  (d) a scar
+    Ans: (c) eye colour. Only changes in the DNA of reproductive cells are passed to the next generation; acquired changes in body cells are not.
+
+M8. The number of chromosomes in a human zygote is: (a) 23  (b) 46  (c) 92  (d) 22
+    Ans: (b) 46. Each gamete carries 23 chromosomes and their fusion restores the 23 pairs.

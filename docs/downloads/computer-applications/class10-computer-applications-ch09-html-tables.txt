@@ -1,0 +1,117 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 9 · HTML Tables · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 9 · HTML Tables
+Unit: Unit II · HTML
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] What does <caption> do in a table?
+    Ans: <caption> gives the table a title. It is placed immediately after the opening <table> tag and is displayed above the table by default.
+
+Q2. [Short · 2 marks] What is the difference between <td> and <th>?
+    Ans: <td> is an ordinary data cell and displays its content left-aligned in normal weight. <th> is a header cell: the browser automatically shows its text bold and centred, and it tells assistive technology that the cell labels a column or row. <th> is normally used in the first row of a table.
+
+Q3. [Short · 2 marks] Differentiate between cellpadding and cellspacing.
+    Ans: cellpadding is the space between the content of a cell and that cell's own border — it makes the text sit further inside the box. cellspacing is the gap between one cell's border and the next cell's border — it widens the grid lines themselves. Both are set on the <table> tag.
+
+Q4. [Short · 2 marks] Name the tags used to build a table and say what each does.
+    Ans: <table> begins the table; <tr> makes one row; <td> makes one data cell; <th> makes a heading cell, which is bold and centred by default; and <caption> puts a title above the table. Rows always contain cells, never the other way round.
+
+Q5. [Short · 3 marks] Explain colspan and rowspan with an example.
+    Ans: colspan='n' makes a single cell stretch across n columns. For example <td colspan='3'>Heading</td> occupies the width of three columns, so that row needs three fewer <td> tags than a normal row. rowspan='n' makes a cell stretch down n rows. For example, a <td rowspan='2'>Science</td> in the first of two rows covers both rows, so the second row must not include a cell in that position. Using them incorrectly is what makes a table look misaligned.
+
+Q6. [Application · 3 marks] Riya is revising “HTML Tables” (<table>, <tr>, <td>, borders, and the two attributes that merge cells). A classmate lost marks by doing this: Putting <td> directly inside <table> without a <tr>. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: <tr> = row, <td> = cell. Rows contain cells, never the other way round.
+      Why the mistake costs marks: Putting <td> directly inside <table> without a <tr>.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Application · 3 marks] Amit is given this exam-style task from “HTML Tables”: “Write HTML for a table with a merged title cell across two columns, a header row and one data row.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: <table>, <tr>, <td>, borders, and the two attributes that merge cells.
+      <table border='1' width='300'> <tr><th colspan='2'>Student Report</th></tr> <tr><th>Name</th><th>Marks</th></tr> <tr><td>Asha</td><td>88</td></tr> </table> The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two.
+
+Q8. [Short · 3 marks] Explain colspan and rowspan with an example of each.
+    Ans:
+      colspan makes a cell spread across two or more columns, so <td colspan="2">Total</td> covers both columns of a two-column table.
+      rowspan makes a cell spread down two or more rows, so one label can stand beside several entries without being repeated.
+      Both are written inside the tag of the cell that is being stretched.
+      After using them, the stretched cells are not written again in the rows they cover.
+
+Q9. [Long · 4 marks] Write HTML for a table with a merged title cell across two columns, a header row and one data row.
+    Ans:
+      <table border='1' width='300'>
+        <tr><th colspan='2'>Student Report</th></tr>
+        <tr><th>Name</th><th>Marks</th></tr>
+        <tr><td>Asha</td><td>88</td></tr>
+      </table>
+      The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “HTML Tables”. Their note says: The structure. A table is built from three nested levels. <table> is the whole grid. Each <tr> is one row (think table row). Each <td> is one cell or data column inside that row (think table data). A table with three rows and two columns needs three <tr> blocks, each containing two <td> cell
+    
+    The chapter is described as: <table>, <tr>, <td>, borders, and the two attributes that merge cells.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) <table>, <tr>, <td>, borders, and the two attributes that merge cells.
+      (b) Convert a drawn table into HTML and vice versa; explain rowspan and colspan.
+      (c) Putting <td> directly inside <table> without a <tr>.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Write HTML for a table with a merged title cell across two columns, a header row and one data row.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) <table border='1' width='300'> <tr><th colspan='2'>Student Report</th></tr> <tr><th>Name</th><th>Marks</th></tr> <tr><td>Asha</td><td>88</td></tr> </table> The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two.
+      (c) <tr> = row, <td> = cell. Rows contain cells, never the other way round.
+
+Q12. [Long · 5 marks] Discuss “HTML Tables” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      The structure. A table is built from three nested levels. <table> is the whole grid. Each <tr> is one row (think table row). Each <td> is one cell or data column inside that row (think table data). A table with three rows and two columns needs three <tr> blocks, each containing two <td> cells.
+      Marks lens: Convert a drawn table into HTML and vice versa; explain rowspan and colspan.
+      Method / memory trick: <tr> = row, <td> = cell. Rows contain cells, never the other way round.
+      Do not: Putting <td> directly inside <table> without a <tr>.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which tag defines a table row? (a) <td> (b) <tr> (c) <th> (d) <table>
+    Ans: (b) <tr>.
+
+M2. To merge a cell across three columns you use — (a) rowspan='3' (b) colspan='3' (c) span='3' (d) merge='3'
+    Ans: (b) colspan='3'.
+
+M3. cellspacing controls — (a) space inside a cell (b) space between cells (c) the border thickness (d) the table width
+    Ans: (b) the space between cells.
+
+M4. A header cell is written with — (a) <td> (b) <th> (c) <head> (d) <caption>
+    Ans: (b) <th>.
+
+M5. How many <tr> tags does a 4-row table need? (a) 1 (b) 2 (c) 4 (d) 8
+    Ans: (c) 4 — one per row.
+
+M6. The attribute that adds a visible border around a table is: (a) border  (b) cellspacing  (c) cellpadding  (d) width
+    Ans: (a) border. cellspacing sets the gap between cells and cellpadding the gap inside them.
+
+M7. The tag used for a cell that holds a column heading is: (a) <th>  (b) <td>  (c) <tr>  (d) <caption>
+    Ans: (a) <th>. Its text is bold and centred by default.
+
+M8. cellpadding controls: (a) space inside each cell (b) space between cells (c) the border thickness (d) the table width
+    Ans: (a) space inside each cell. Padding is inside, spacing is between — cellspacing does the other job.

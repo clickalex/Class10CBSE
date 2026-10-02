@@ -1,0 +1,125 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 4 · Quadratic Equations · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 4 · Quadratic Equations
+Unit: II · Algebra
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the nature of the roots of 2x² − 6x + 3 = 0.
+    Ans:
+      D = (−6)² − 4(2)(3) = 36 − 24 = 12.
+      D > 0 but 12 is not a perfect square, so the roots are real, distinct and irrational.
+
+Q2. [Short · 2 marks] For what values of k does x² + kx + 16 = 0 have equal roots?
+    Ans: Equal roots means the discriminant is zero: k² − 4(1)(16) = 0, so k² = 64 and k = ±8. For k = 8 the root is −4; for k = −8 the root is 4.
+
+Q3. [Short · 3 marks] Find the value of k for which 2x² + kx + 3 = 0 has two equal roots.
+    Ans: Equal roots means the discriminant is zero: D = b² − 4ac = 0. Here k² − 4(2)(3) = 0, so k² = 24 and k = ±2√6. Both signs are needed — (+2√6)² and (−2√6)² are both 24, so each value gives a perfect square with a double root.
+
+Q4. [Short · 3 marks] Solve 6x² − x − 2 = 0 by factorisation.
+    Ans:
+      Split −x using numbers with product 6 × (−2) = −12 and sum −1: these are −4 and 3.
+      6x² − 4x + 3x − 2 = 2x(3x − 2) + 1(3x − 2) = (3x − 2)(2x + 1).
+      So x = 2/3 or x = −1/2.
+
+Q5. [Application · 3 marks] Riya is revising “Quadratic Equations” (Factorisation, the quadratic formula, discriminant and nature of roots). A classmate lost marks by doing this: Dropping the sign of b when writing −b in the formula. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Splitting the middle term: you need two numbers with product a × c (not just c) and sum b. Forgetting the a is the most common error when a ≠ 1.
+      Why the mistake costs marks: Dropping the sign of b when writing −b in the formula.
+      Write the definition or formula first, then the working or example.
+
+Q6. [Application · 3 marks] Amit is given this exam-style task from “Quadratic Equations”: “Find the nature of the roots of 2x² − 6x + 3 = 0.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Factorisation, the quadratic formula, discriminant and nature of roots.
+      D = (−6)² − 4(2)(3) = 36 − 24 = 12. D > 0 but 12 is not a perfect square, so the roots are real, distinct and irrational.
+
+Q7. [Short · 3 marks] Solve x² + 5x + 6 = 0 by completing the square.
+    Ans:
+      x² + 5x = −6.
+      Add (5/2)² to both sides: x² + 5x + 25/4 = −6 + 25/4 = 1/4.
+      (x + 5/2)² = 1/4, so x + 5/2 = ±1/2.
+      Hence x = −2 or x = −3.
+
+Q8. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Quadratic Equations”. Their note says: Standard form. ax² + bx + c = 0, with a ≠ 0.
+    
+    The chapter is described as: Factorisation, the quadratic formula, discriminant and nature of roots.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Factorisation, the quadratic formula, discriminant and nature of roots.
+      (b) –7 marks. A nature-of-roots question (2–3 marks) and a word problem (4–5 marks).
+      (c) Dropping the sign of b when writing −b in the formula.
+
+Q9. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Find the nature of the roots of 2x² − 6x + 3 = 0.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) D = (−6)² − 4(2)(3) = 36 − 24 = 12. D > 0 but 12 is not a perfect square, so the roots are real, distinct and irrational.
+      (c) Splitting the middle term: you need two numbers with product a × c (not just c) and sum b. Forgetting the a is the most common error when a ≠ 1.
+
+Q10. [Application · 4 marks] A train travels 360 km at a uniform speed. If the speed were 5 km/h more, it would take 1 hour less. Find the speed of the train.
+    Ans:
+      Let the speed be v km/h. Time difference: 360/v − 360/(v + 5) = 1.
+      ⇒ 360[5/(v(v + 5))] = 1 ⇒ v² + 5v − 1800 = 0.
+      ⇒ (v + 45)(v − 40) = 0, so v = 40 (speed cannot be negative).
+      The train travels at 40 km/h; check: 360/40 = 9 h and 360/45 = 8 h.
+
+Q11. [Long · 5 marks] The sum of the areas of two squares is 468 m². If the difference of their perimeters is 24 m, find the sides of the two squares.
+    Ans:
+      Let the sides be x and y with x > y. Then x² + y² = 468 and 4x − 4y = 24, so x − y = 6.
+      Substituting y = x − 6: x² + (x − 6)² = 468 ⇒ 2x² − 12x + 36 = 468.
+      2x² − 12x − 432 = 0, so x² − 6x − 216 = 0.
+      (x − 18)(x + 12) = 0, so x = 18 (rejecting −12) and y = 12.
+      The sides are 18 m and 12 m.
+
+Q12. [Long · 5 marks] Discuss “Quadratic Equations” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Standard form. ax² + bx + c = 0, with a ≠ 0.
+      Marks lens: –7 marks. A nature-of-roots question (2–3 marks) and a word problem (4–5 marks).
+      Method / memory trick: Splitting the middle term: you need two numbers with product a × c (not just c) and sum b. Forgetting the a is the most common error when a ≠ 1.
+      Do not: Dropping the sign of b when writing −b in the formula.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The roots of x² − 5x + 6 = 0 are: (a) 2, 3  (b) −2, −3  (c) 1, 6  (d) −1, −6
+    Ans: (a) 2, 3. Product 6 and sum 5, both positive.
+
+M2. If the discriminant of a quadratic is zero, the roots are: (a) real and distinct  (b) real and equal  (c) not real  (d) always integers
+    Ans: (b) Real and equal.
+
+M3. For x² + 4x + k = 0 to have real roots, k must satisfy: (a) k ≤ 4  (b) k ≥ 4  (c) k ≤ −4  (d) k = 4
+    Ans: (a) k ≤ 4. D = 16 − 4k ≥ 0 gives k ≤ 4.
+
+M4. The most exam-ready way to revise “Quadratic Equations” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Factorisation, the quadratic formula, discriminant and nature of roots.
+
+M5. A 3-mark answer on “Quadratic Equations” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3/2  (b) 7/2 and 3  (c) −7/2 and 3/2  (d) 7/2 and −3/2
+    Ans: (a) 7/2 and 3/2. Sum = −b/a = 7/2 and product = c/a = 3/2.
+
+M7. Which one is NOT a quadratic equation? (a) x² + 3x + 2 = 0  (b) (x + 1)² = 2(x − 3)  (c) x³ − x² + 1 = 0  (d) 2x² = 8
+    Ans: (c) x³ − x² + 1 = 0. Its degree is 3, so it is a cubic; the others reduce to degree 2.
+
+M8. If the roots of x² − 8x + k = 0 are equal, then k = : (a) 8  (b) 16  (c) −16  (d) 64
+    Ans: (b) 16. D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16.

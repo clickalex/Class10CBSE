@@ -63,6 +63,7 @@ class SourceLayoutTests(unittest.TestCase):
         self.assertTrue((SITE / "theme" / "css" / "style.css").is_file())
         self.assertTrue((SITE / "theme" / "js" / "app.js").is_file())
         self.assertTrue((SITE / "theme" / "js" / "mock.js").is_file())
+        self.assertTrue((SITE / "theme" / "js" / "print.js").is_file())
         loose = [p.name for p in (SITE / "theme").iterdir() if p.is_file()]
         self.assertEqual(loose, [], "theme/ should only hold css/ and js/")
 
@@ -206,7 +207,7 @@ class GeneratedOutputTests(unittest.TestCase):
 
     def test_published_asset_bundle_is_typed(self):
         for rel in ("assets/css/style.css", "assets/js/app.js",
-                    "assets/js/mock.js", "assets/img/favicon.svg",
+                    "assets/js/mock.js", "assets/js/print.js", "assets/img/favicon.svg",
                     "assets/img/icon-192.png"):
             self.assertTrue((self.tmp / rel).is_file(), rel)
 

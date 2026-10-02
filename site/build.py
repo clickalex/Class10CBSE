@@ -25,6 +25,7 @@ import re
 import shutil
 import sys
 
+import downloads
 from admissions import admissions_body, load_watch_state, report_body
 from nsat import nsat_body
 import layout
@@ -60,7 +61,10 @@ BASE = layout.BASE
 # --------------------------------------------------------------------------
 def inline(text: str) -> str:
     text = html.escape(str(text), quote=False)
-    text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+    # A bold run closes on the LAST pair of a run of asterisks, so bold-italic
+    # (***x***) and bold-around-italic (**a *b***) nest properly. Without the
+    # lookahead they crossed: <strong><em>x</strong></em>, which is invalid HTML.
+    text = re.sub(r"\*\*(.+?)\*\*(?!\*)", r"<strong>\1</strong>", text)
     text = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", text)
     text = re.sub(r"`(.+?)`", r"<code>\1</code>", text)
     return text
@@ -108,6 +112,27 @@ def blocks(items) -> str:
             para.append(s)
     flush()
     return "\n".join(out)
+
+
+def formula_list(formulas) -> str:
+    """The 'formulas' list of a chapter: strings become list items, table
+    objects become real tables. (A table object passed through inline() was
+    printed as a Python dict on eight pages.)"""
+    parts, items = [], []
+
+    def flush():
+        if items:
+            parts.append('<ul class="formula">' + "".join(items) + "</ul>")
+            items.clear()
+
+    for f in formulas:
+        if isinstance(f, dict) and f.get("table"):
+            flush()
+            parts.append(blocks([f]))
+        else:
+            items.append(f"<li>{inline(f)}</li>")
+    flush()
+    return "".join(parts)
 
 
 def card_grid(cards, cls="cards"):
@@ -340,7 +365,7 @@ def chapters_body(subj, chapters):
 <p class="lede">{len(chapters)} chapters in study order, with <strong>{total_qa} written Q&amp;As</strong>
 and <strong>{total_mcq} MCQs</strong>. Open a chapter to read it, or go straight to
 <em>Practise</em> for its questions with hidden answers.</p>
-<p class="chips">{chips}</p>
+{chips}
 {"".join(secs)}
 <p class="hint">Looking for unit-wise marks instead? See the
 <a href="syllabus.html">syllabus page</a>, or the
@@ -415,8 +440,7 @@ def chapter_body(subj, ch, idx, total, chapters):
 
     if ch.get("formulas"):
         parts.append('<h2 id="formulas">\U0001f9ee Formulas to memorise</h2>')
-        parts.append('<ul class="formula">' + "".join(
-            f"<li>{inline(f)}</li>" for f in ch["formulas"]) + "</ul>")
+        parts.append(formula_list(ch["formulas"]))
 
     if ch.get("steps"):
         parts.append('<h2 id="steps">\U0001f6e0\ufe0f Method, step by step</h2>')
@@ -516,11 +540,12 @@ def hub_body(subj, chapters):
         ("practical.html", "\U0001f9ea", cards_meta.get("practical", "Practical lab"),
          "Activities, diagrams, viva questions."),
         ("question-bank.html", "\u2753", cards_meta.get("questions", "Question bank"),
-         f"{n_qa} written Q&As — Short, Long, Application, Competency. Click to reveal."),
+         f"{n_qa} written Q&As — Short, Long, Application, Competency. Click to reveal; "
+         "save as PDF or text."),
         ("drill.html", "\U0001f3af", "Drill MCQs",
          f"{n_mcq} MCQs. Attempt first, then Show Answer."),
-        ("pyq.html", "\U0001f4dd", cards_meta.get("pyq", "PYQ practice"),
-         "Past-paper trends by chapter."),
+        ("pyq.html", "\U0001f4dd", cards_meta.get("pyq", "Previous-year papers"),
+         "Download CBSE board papers, sample papers and marking schemes; past-paper trends by chapter."),
         ("revision.html", "\U0001f9e0", cards_meta.get("revision", "Exam morning"),
          "Formulas, definitions and answer frames."),
     ]
@@ -628,11 +653,7 @@ def revision_body(subj, chapters):
     for ch in chapters:
         items = []
         if ch.get("formulas"):
-            items.append(
-                '<p class="rhead">Formulas</p><ul class="formula">'
-                + "".join(f"<li>{inline(f)}</li>" for f in ch["formulas"])
-                + "</ul>"
-            )
+            items.append('<p class="rhead">Formulas</p>' + formula_list(ch["formulas"]))
         if ch.get("onepager"):
             items.append(blocks(ch["onepager"]))
         if not items:
@@ -663,6 +684,7 @@ def question_bank_body(subj, chapters):
             f'<section class="qblock" id="{ch["id"]}">'
             f'<h2 class="sect">Ch {ch["num"]} \u00b7 {html.escape(ch["title"])} '
             f'<span class="hint">({len(items)})</span></h2>'
+            f'{downloads.chapter_row(subj["slug"], ch)}'
             f'<div class="qstack">{cards or "<p class=hint>No questions filed yet.</p>"}</div>'
             f'<p>{button("practice/" + ch["id"] + ".html", "Chapter practice (MCQs + written) →")}</p>'
             "</section>"
@@ -676,8 +698,9 @@ def question_bank_body(subj, chapters):
 <h1>{html.escape(subj["title"])} \u2014 Question bank</h1>
 <p class="lede">Book-style Q&amp;As: Short + Long + Application + Competency.
 Answers stay hidden until you click <strong>Show Answer</strong>. Write 15–20 a day in a notebook, then self-mark.</p>
+{downloads.qbank_panel(subj, chapters)}
 {qbar_html(n["S"], n["L"], n["A"], n["C"])}
-<p class="chips">{toc}</p>
+{toc}
 {"".join(secs)}
 """
     return [("Home", "../index.html"), (subj["title"], "index.html"), ("Question bank", None)], body
@@ -694,9 +717,12 @@ def pyq_body(subj, chapters):
         )
     body = f"""
 <p class="kicker">{html.escape(subj["kicker"])}</p>
-<h1>{html.escape(subj["title"])} \u2014 PYQ trends</h1>
-<p class="lede">Where past papers keep returning, chapter by chapter. Use it to decide
-revision order \u2014 not to guess the paper.</p>
+<h1>{html.escape(subj["title"])} \u2014 Previous-year papers &amp; trends</h1>
+<p class="lede">Download CBSE\u2019s own board papers, sample papers and marking schemes, then see where
+past papers keep returning, chapter by chapter.</p>
+{downloads.pyq_panel(subj["slug"], subj["title"])}
+<h2>What past papers ask, chapter by chapter</h2>
+<p class="lede">Use it to decide revision order \u2014 not to guess the paper.</p>
 {callout("Trend notes below are an original reading of publicly available past "
 "papers and sample papers. They are <strong>not</strong> official CBSE predictions.")}
 <div class="tablewrap"><table><thead><tr><th>Chapter</th><th>Title</th><th>What past papers ask</th></tr></thead>
@@ -750,6 +776,7 @@ def practice_body(subj, ch, chapters):
 <p class="lede">Cover the grey answer box, write in a notebook, then <strong>Show Answer</strong>.
 Short · Long · Application · Competency plus MCQs — the same tone as the IT bank.</p>
 {qbar_html(n["S"], n["L"], n["A"], n["C"], n["M"])}
+{downloads.practice_row(subj["slug"], ch)}
 <h2>MCQs · Drill</h2>
 <div class="qstack">{mcq_html or '<p class="hint">MCQs for this chapter are not written yet.</p>'}</div>
 <h2>Written questions · Write</h2>
@@ -786,7 +813,8 @@ def drill_body(subj, chapters):
 <p class="lede">{n_mcq} MCQs across {len(chapters)} chapters. Pick an option in your head,
 then Show Answer. Filter does not score you — this is self-check, not a test.</p>
 {qbar_html(0, 0, 0, 0, n_mcq)}
-<p class="chips">{toc}</p>
+{downloads.drill_row(subj["slug"])}
+{toc}
 {"".join(cards)}
 """
     return [("Home", "../index.html"), (subj["title"], "index.html"), ("Drill", None)], body
@@ -864,6 +892,15 @@ built in here, not on a separate site. Each chapter has concepts, formulas, tric
 and exam Q&amp;A in four tones: <strong>Short, Long, Application, Competency</strong>. Answers stay hidden
 until you click Show Answer.</p>
 {card_grid(cards, "subjects")}
+<h2>Download papers &amp; question banks</h2>
+<div class="subjects">
+<a class="subject-card" href="downloads/index.html">
+<span class="sc-code">DIRECT DOWNLOADS · PYQ · QUESTION BANK</span>
+<strong>Previous-year papers &amp; question banks</strong>
+<span class="sc-desc">One tap to CBSE's own board papers, sample papers with marking schemes and the CBSE question bank
+for every subject — plus this hub's own question bank as a PDF or text file.</span>
+<span class="sc-meta">Official PDF and ZIP links · TXT · print to PDF</span></a>
+</div>
 <h2>Test yourself</h2>
 <div class="subjects">
 <a class="subject-card" href="mock-test/index.html">
@@ -938,6 +975,17 @@ def build(check_only=False):
         mock_exams=mock_exams,
     )
 
+    # Official download links (validated here so a typo cannot reach docs/) and
+    # the hub's own question-bank text files; every page links to both.
+    download_data = downloads.load()
+    problems = downloads.validate(
+        download_data, [s["slug"] for s in subjects if s["slug"] not in pending_slugs])
+    if problems:
+        raise ValueError("site/content/downloads.json: " + "; ".join(problems))
+    exports = downloads.export_files(
+        subjects, all_chapters, lambda q: TYPE_META[infer_qa_type(q)][1])
+    downloads.configure(download_data, exports)
+
     if DIST.exists():
         shutil.rmtree(DIST)
     for folder in ("assets/css", "assets/js", "assets/img"):
@@ -947,6 +995,7 @@ def build(check_only=False):
     shutil.copy(THEME / "css" / "style.css", DIST / "assets" / "css" / "style.css")
     shutil.copy(THEME / "js" / "app.js", DIST / "assets" / "js" / "app.js")
     shutil.copy(THEME / "js" / "mock.js", DIST / "assets" / "js" / "mock.js")
+    shutil.copy(THEME / "js" / "print.js", DIST / "assets" / "js" / "print.js")
     # Brand imagery from the repository-level assets/ folder.
     for image in sorted(IMAGES.iterdir()):
         shutil.copy(image, DIST / "assets" / "img" / image.name)
@@ -1005,14 +1054,17 @@ def build(check_only=False):
             ("question-bank.html", question_bank_body, "Question bank", "bank"),
             ("drill.html", drill_body, "MCQ drill", "drill"),
             ("revision.html", revision_body, "Revision", "revision"),
-            ("pyq.html", pyq_body, "PYQ trends", "pyq"),
+            ("pyq.html", pyq_body, "PYQ papers & trends", "pyq"),
         ):
             crumbs, body = fn_body(subj, chapters)
             out(DIST / sid / fn, f"{subj['title']} \u2014 {title}", crumbs, body, "..", active)
             written.append(f"{sid}/{fn}")
 
         crumbs, body = practical_body(subj)
-        out(DIST / sid / "practical.html", "Practical &amp; internal assessment",
+        # page() escapes the title itself, so pass it raw (a pre-escaped "&amp;"
+        # was escaped twice) and name the subject like every other subject page.
+        out(DIST / sid / "practical.html",
+            f"{subj['title']} \u2014 Practical & internal assessment",
             crumbs, body, "..", "practical")
         written.append(f"{sid}/practical.html")
 
@@ -1033,6 +1085,17 @@ def build(check_only=False):
                 "chapters", chapter_id=ch["id"])
             written.append(f"{sid}/chapters/{ch['id']}.html")
             written.append(f"{sid}/practice/{ch['id']}.html")
+
+    crumbs, body = downloads.hub_body(subjects, all_chapters)
+    write(DIST / "downloads" / "index.html", page(
+        "Papers & question banks — direct downloads", crumbs, body, "..",
+        active="downloads", path="downloads/index.html",
+        description=("Direct download links to CBSE Class 10 previous-year board papers, sample papers "
+                     "with marking schemes and the CBSE question bank, plus this hub's own question "
+                     "bank as PDF or text for every subject.")))
+    written.append("downloads/index.html")
+    for rel, text in sorted(exports.items()):
+        write(DIST / "downloads" / rel, text)
 
     mock_ids = {e["admission_id"]: e["id"] for e in mock_exams if e.get("admission_id")}
     write(DIST / "after-10th" / "index.html", page(

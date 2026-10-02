@@ -1,0 +1,113 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 11 · Linking Spreadsheet Data · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 11 · Linking Spreadsheet Data
+Unit: Part B · Electronic Spreadsheet (Advanced)
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Write a formula that shows cell B4 of sheet Fees on sheet Summary.
+    Ans: =Fees.B4 — or, if the sheet name contains spaces or punctuation, quote it: ='Fees'.B4. The sheet name comes first, then a full stop, then the cell address; Calc fills this in for you if you type = and then click the cell on the Fees sheet.
+
+Q2. [Short · 2 marks] What is a hyperlink in Calc?
+    Ans: A clickable link to a web page, file, email or a location in the document, inserted via Insert → Hyperlink.
+
+Q3. [Short · 2 marks] What is meant by linking spreadsheet data?
+    Ans: Linking makes one cell take its value from another cell, sheet or file, so that the value is not typed twice. When the source changes, every linked cell updates automatically, which keeps reports consistent and saves the work of retyping.
+
+Q4. [Short · 2 marks] What is the difference between a hyperlink and a sheet-link formula? Give one example of each.
+    Ans:
+      A hyperlink jumps the reader somewhere when clicked — for example, Insert → Hyperlink to https://cbseacademic.nic.in opens the CBSE site.
+      A sheet-link formula pulls a live value into a cell — for example, =Term1.G20 shows Term1's total inside the Summary sheet and updates whenever Term1 changes.
+
+Q5. [Application · 3 marks] Summary sheet must show Total from three term sheets named Term1, Term2, Term3, each total in G20. Write the formula.
+    Ans: =Term1.G20+Term2.G20+Term3.G20 — one reference per term sheet, added together. Linking this way means each term file can be updated on its own and the Summary total follows automatically, with no retyping and no copy-paste errors.
+
+Q6. [Application · 3 marks] Riya is revising “Linking Spreadsheet Data” (Sheet links, hyperlinks, linking to external files and data from the web). A classmate lost marks by doing this: Renaming a sheet after writing formulas without checking — some links break. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Sheet names with spaces need single quotes: 'Term 1'.A1.
+      Why the mistake costs marks: Renaming a sheet after writing formulas without checking — some links break.
+      Write the definition or formula first, then the working or example.
+
+Q7. [Short · 3 marks] How do you link a cell to another sheet and to a file outside the workbook?
+    Ans:
+      Within the workbook: type = in the target cell, click the sheet tab, click the source cell and press Enter; the formula reads =Sheet2.B3.
+      To an external file: open both files, copy the source cell, click the target cell and choose Edit → Paste Special → Paste Link.
+      The formula then contains the full path, for example ='file:///home/user/accounts.ods'#$Sheet1.A1, and you can refresh the links when the source file changes.
+
+Q8. [Short · 3 marks] Why should linked files be kept in one folder? Describe what breaks when a source file is moved or renamed.
+    Ans:
+      Calc stores external links as paths; keeping all files in one folder keeps those paths short and portable.
+      If the source file moves or is renamed, the link cannot be resolved: the dependent cells show errors or stale values instead of live data.
+      Fix — keep the set together from the start, and if a move is unavoidable, re-point the links through Edit → Links to External Files.
+
+Q9. [Long · 4 marks] Why is linking sheets better than copy-pasting values for a yearly total?
+    Ans: A link stays live: when a term sheet changes, the year sheet updates. Copy-paste values go stale, cause mismatch, and make auditing harder.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A student pastes last month’s numbers into the annual sheet. The teacher later corrects the January file; the annual sheet does not change.
+    
+    (a) What did the student do wrong?
+    (b) How should the cells have been pasted?
+    (c) One risk of live links.
+    Ans:
+      (a) Pasted values, not links.
+      (b) Paste Special → Link, or a formula to the January sheet.
+      (c) If the source file is moved/renamed, the link breaks — keep files together.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Linking Spreadsheet Data”. Their note says: Same-file sheet link: =Sheet2.B3 or ='Term 1'.B3 if the sheet name has a space.
+    
+    The chapter is described as: Sheet links, hyperlinks, linking to external files and data from the web.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Sheet links, hyperlinks, linking to external files and data from the web.
+      (b) Syntax of a sheet reference and Insert → Hyperlink.
+      (c) Renaming a sheet after writing formulas without checking — some links break.
+
+Q12. [Long · 5 marks] Discuss “Linking Spreadsheet Data” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Same-file sheet link: =Sheet2.B3 or ='Term 1'.B3 if the sheet name has a space.
+      Marks lens: Syntax of a sheet reference and Insert → Hyperlink.
+      Method / memory trick: Sheet names with spaces need single quotes: 'Term 1'.A1.
+      Do not: Renaming a sheet after writing formulas without checking — some links break.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. A sheet name with a space is written as: (a) Term 1.A1 (b) 'Term 1'.A1 (c) Term_only (d) (Term1)A1
+    Ans: (b) 'Term 1'.A1.
+
+M2. Insert → Hyperlink can open: (a) only images (b) a web page or a file (c) Goal Seek (d) a style
+    Ans: (b).
+
+M3. Live totals that update when a source sheet changes need: (a) a screenshot (b) a formula/link (c) Track Changes (d) a caption
+    Ans: (b).
+
+M4. Paste Special → Link is used to: (a) break a file (b) keep a live connection to copied cells (c) record a macro (d) group shapes
+    Ans: (b).
+
+M5. The most exam-ready way to revise “Linking Spreadsheet Data” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Sheet links, hyperlinks, linking to external files and data from the web.
+
+M6. A 3-mark answer on “Linking Spreadsheet Data” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. Linked data in a spreadsheet: (a) updates when the source value changes  (b) is frozen at the time of linking  (c) must be typed again  (d) cannot be used in a formula
+    Ans: (a) updates when the source value changes. That is the whole point of linking.
+
+M8. A hyperlink in a sheet can point to: (a) a web page, an email address or a place in the same document  (b) only a web page  (c) only a file on the desktop  (d) only a printer
+    Ans: (a) a web page, an email address or a place in the same document. Insert → Hyperlink sets any of these.

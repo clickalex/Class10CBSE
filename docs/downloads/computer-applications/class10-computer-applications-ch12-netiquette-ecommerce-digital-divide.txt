@@ -1,0 +1,101 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 12 · Netiquette, E-Commerce & Digital Divide · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 12 · Netiquette, E-Commerce & Digital Divide
+Unit: Unit III · Cyber Ethics
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is netiquette? List any four netiquette rules.
+    Ans: Netiquette (network + etiquette) is the code of polite, responsible behaviour on the internet. Four rules: (1) write courteous messages and respect others’ privacy; (2) do not type in ALL CAPS — it reads as shouting; (3) do not forward rumours, chain messages or spam; (4) give credit for others’ work instead of copying it.
+
+Q2. [Short · 2 marks] What is e-commerce? Give two examples from the syllabus.
+    Ans: E-commerce means carrying out trade — buying, selling, paying and banking — over the internet. Two syllabus examples: e-shopping (ordering goods on a website) and e-banking (transferring money or paying bills through a bank’s site or app). e-reservation and online bill payment are two more.
+
+Q3. [Short · 2 marks] Why is privacy the biggest concern in e-commerce? State two precautions a buyer should take.
+    Ans: Every e-commerce transaction moves money plus personal data (name, address, card number, OTP), which thieves can misuse. Two precautions: (1) shop only on known, reputed sites showing https:// and the padlock; (2) never share passwords or OTPs with anyone, and check what data an app collects before installing it.
+
+Q4. [Short · 2 marks] What is the digital divide?
+    Ans: The digital divide is the gap between people who have access to computers, smartphones and the internet — and those who do not. It is caused by poverty, remote villages with no network, lack of digital skills, age, disability and language barriers, and it locks the excluded out of online schooling, banking and services.
+
+Q5. [Short · 3 marks] Explain online fraud in e-commerce with two examples. How can a buyer avoid each?
+    Ans: Online fraud is cheating a buyer or seller over the internet. Example 1: fake shops that take payment and never deliver — avoid by buying only from known sites and checking reviews. Example 2: phishing messages that pose as a bank and steal passwords — avoid by never clicking such links and never sharing OTPs.
+
+Q6. [Short · 3 marks] How is data kept secure during transmission? Explain any three methods.
+    Ans: Three methods: (1) Encryption — scrambling the data so only the intended receiver can read it. (2) https:// — HTTP over a secure channel (the browser padlock); plain http sends everything as readable text. (3) OTPs — one-time passwords sent to the buyer’s phone that prove the transaction is really theirs.
+
+Q7. [Short · 3 marks] What is freedom of information? How does e-governance support it?
+    Ans: Freedom of information is the principle that citizens have the right to access information held by public authorities. E-governance supports it by putting records, results, forms and services online — certificates, exam results, land records — so people can see, question and use them without middlemen or secrecy.
+
+Q8. [Short · 3 marks] State three consequences of the digital divide and three ways to bridge it.
+    Ans: Consequences: students miss online classes, citizens miss digital banking and certificates, and job-seekers miss online opportunities. Bridging it: (1) cheap smartphones and low-cost data; (2) mobile networks and public Wi-Fi in villages; (3) services and training in regional languages so language is no barrier.
+
+Q9. [Application · 3 marks] A friend forwards every “forward to 10 people” message, types angry replies in CAPS, and posts a classmate’s photo without asking. Which three netiquette rules is being broken, and what should be done instead?
+    Ans:
+      Chain forwards break the no spam/rumours rule — verify before forwarding, or delete.
+      ALL-CAPS replies break the no shouting rule — use normal case and polite words.
+      Posting the photo breaks respect for privacy — always take permission before sharing someone’s picture or number.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    Meera finds a phone 40% cheaper on an unknown site. The site uses http://, asks for full payment by bank transfer, and a “seller” on chat asks for her OTP to “confirm the order”.
+    
+    (a) Name three fraud/danger signals.
+    (b) What should Meera do?
+    Ans:
+      (a) An unknown site with an unbelievable discount; http:// with no padlock, so data travels unencrypted; and advance bank transfer plus an OTP demand — no genuine seller ever asks for an OTP.
+      (b) Close the site, buy only from a reputed https:// shop, never pay strangers in advance, and never share the OTP with anyone.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    A village gets a mobile tower but students still cannot attend online classes: families share one old phone, the signal is weak indoors, and the learning app is English-only.
+    
+    (a) Which problem is this an example of?
+    (b) Identify three barriers shown here.
+    (c) Suggest one fix for each.
+    Ans:
+      (a) This is the digital divide — access on paper, exclusion in practice.
+      (b) Shared/old devices, weak connectivity, and a language barrier.
+      (c) Device: a shared tablet corner at school; connectivity: classes or downloads from a spot with signal; language: apps and help in the regional language.
+
+Q12. [Long · 5 marks] Responsible use of the internet needs good manners, safe transactions and access for all. Discuss netiquette, e-commerce safety and the digital divide.
+    Ans:
+      Netiquette — polite messages, no CAPS shouting, no spam or rumours, respect privacy, give credit.
+      E-commerce safety — shop on reputed https:// sites, guard privacy (no OTP/password sharing), recognise fraud (fake shops, phishing, prize scams), and rely on secure transmission (encryption, OTPs).
+      Digital divide — the gap between the connected and the unconnected, caused by cost, coverage, skills and language; bridged by cheap devices, village networks, public Wi-Fi and regional-language services.
+      Together the three ideas make one point: use the net politely, transact on it safely, and carry everyone along.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Typing a message in ALL CAPS is bad netiquette because it — (a) saves time (b) reads as shouting (c) looks stylish (d) avoids spam
+    Ans: (b) reads as shouting. Netiquette asks for normal case and polite words.
+
+M2. Which of these is an e-commerce activity? (a) reading a blog (b) paying an electricity bill on a bank app (c) watching a video (d) typing a document
+    Ans: (b) paying an electricity bill on a bank app. E-commerce = trade, payment and banking online.
+
+M3. A safe shopping site must show — (a) http:// (b) https:// with a padlock (c) flashing ads (d) pop-up prizes
+    Ans: (b) https:// with a padlock. The s means the data is encrypted in transit.
+
+M4. Someone calls “from the bank” and asks for your OTP. You should — (a) share it quickly (b) share half of it (c) refuse and cut the call (d) ask for a bigger limit
+    Ans: (c) refuse and cut the call. No genuine caller ever asks for an OTP.
+
+M5. Phishing is an example of — (a) netiquette (b) online fraud (c) e-governance (d) encryption
+    Ans: (b) online fraud. Fake messages steal passwords and money.
+
+M6. The digital divide is the gap between — (a) boys and girls (b) the connected and the unconnected (c) cities (d) phones and laptops
+    Ans: (b) the connected and the unconnected. Cost, coverage, skills and language cause it.
+
+M7. Publishing exam results and certificates online is an example of — (a) e-governance supporting freedom of information (b) phishing (c) netiquette (d) malware
+    Ans: (a) e-governance supporting freedom of information. Citizens can see and use public records directly.
+
+M8. Which step does NOT bridge the digital divide? (a) village mobile networks (b) regional-language apps (c) English-only services (d) low-cost data
+    Ans: (c) English-only services. Services in regional languages include more people, not fewer.

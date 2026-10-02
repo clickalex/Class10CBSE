@@ -79,7 +79,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Coordinate Geometry” (Distance formula, section formula, area of a triangle.). A classmate lost marks by doing this: Mixing up which ratio component multiplies which point in the section formula. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Coordinate Geometry” (Distance formula, section formula, area of a triangle). A classmate lost marks by doing this: Mixing up which ratio component multiplies which point in the section formula. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Section formula cross pattern: m goes with the *second* point’s coordinates and n with the first. Write it out once correctly and reuse it.",
           "Why the mistake costs marks: Mixing up which ratio component multiplies which point in the section formula.",
@@ -91,7 +91,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Coordinate Geometry”: “Find the distance between (−2, 3) and (4, −5).” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Distance formula, section formula, area of a triangle..",
+          "Idea: Distance formula, section formula, area of a triangle.",
           "d = √[(4 − (−2))² + (−5 − 3)²] = √[36 + 64] = √100 = 10 units."
         ]
       },
@@ -108,7 +108,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Coordinate Geometry”. Their note says: Distance formula. The distance between (x₁, y₁) and (x₂, y₂) is √[(x₂ − x₁)² + (y₂ − y₁)²] — just Pythagoras.\n\nThe chapter is described as: Distance formula, section formula, area of a triangle..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Coordinate Geometry”. Their note says: Distance formula. The distance between (x₁, y₁) and (x₂, y₂) is √[(x₂ − x₁)² + (y₂ − y₁)²] — just Pythagoras.\n\nThe chapter is described as: Distance formula, section formula, area of a triangle.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Distance formula, section formula, area of a triangle.",
           "(b) marks, almost always formula substitution.",
@@ -173,7 +173,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Coordinate Geometry” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Distance formula, section formula, area of a triangle.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Distance formula, section formula, area of a triangle."
       },
       {
         "q": "A 3-mark answer on “Coordinate Geometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -329,7 +329,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Introduction to Trigonometry” (Trigonometric ratios, the standard table and identities.). A classmate lost marks by doing this: Writing tan 90° = 0. It is not defined. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Introduction to Trigonometry” (Trigonometric ratios, the standard table and identities). A classmate lost marks by doing this: Writing tan 90° = 0. It is not defined. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Building the sin table: write 0, 1, 2, 3, 4 under 0°, 30°, 45°, 60°, 90°, divide each by 4, then take the square root. The cos row is the sin row read backwards.",
           "Why the mistake costs marks: Writing tan 90° = 0. It is not defined.",
@@ -341,7 +341,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Introduction to Trigonometry”: “Evaluate sin 60° cos 30° + cos 60° sin 30°.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Trigonometric ratios, the standard table and identities..",
+          "Idea: Trigonometric ratios, the standard table and identities.",
           "(√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4 = 1."
         ]
       },
@@ -368,7 +368,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Introduction to Trigonometry”. Their note says: The six ratios. In a right triangle with respect to an acute angle θ: sin = opposite/hypotenuse, cos = adjacent/hypotenuse, tan = opposite/adjacent. The other three are their reciprocals: cosec, sec, cot.\n\nThe chapter is described as: Trigonometric ratios, the standard table and identities..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Introduction to Trigonometry”. Their note says: The six ratios. In a right triangle with respect to an acute angle θ: sin = opposite/hypotenuse, cos = adjacent/hypotenuse, tan = opposite/adjacent. The other three are their reciprocals: cosec, sec, cot.\n\nThe chapter is described as: Trigonometric ratios, the standard table and identities.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Trigonometric ratios, the standard table and identities.",
           "(b) Roughly 7–8 of the 12 Trigonometry marks. Identities are worth 3 marks and are asked as proofs.",
@@ -412,7 +412,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Introduction to Trigonometry” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Trigonometric ratios, the standard table and identities.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Trigonometric ratios, the standard table and identities."
       },
       {
         "q": "A 3-mark answer on “Introduction to Trigonometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -511,7 +511,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Some Applications of Trigonometry” (Heights and distances — angle of elevation and depression.). A classmate lost marks by doing this: Measuring the angle of depression from the vertical. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Some Applications of Trigonometry” (Heights and distances — angle of elevation and depression). A classmate lost marks by doing this: Measuring the angle of depression from the vertical. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Angle of depression equals the angle of elevation from the other end (alternate angles). So a depression problem becomes an elevation problem on a mirrored triangle.",
           "Why the mistake costs marks: Measuring the angle of depression from the vertical.",
@@ -523,7 +523,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Some Applications of Trigonometry”: “The angle of elevation of the top of a tower from a point 30 m from its foot is 60°. Find the height of the tower.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Heights and distances — angle of elevation and depression..",
+          "Idea: Heights and distances — angle of elevation and depression.",
           "tan 60° = h/30, so √3 = h/30. h = 30√3 m ≈ 51.96 m."
         ]
       },
@@ -570,7 +570,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Some Applications of Trigonometry”. Their note says: Line of sight is the line from the observer’s eye to the object being observed.\n\nThe chapter is described as: Heights and distances — angle of elevation and depression..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Some Applications of Trigonometry”. Their note says: Line of sight is the line from the observer’s eye to the object being observed.\n\nThe chapter is described as: Heights and distances — angle of elevation and depression.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Heights and distances — angle of elevation and depression.",
           "(b) The remaining 4–5 marks of the 12-mark Trigonometry unit.",
@@ -624,7 +624,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Some Applications of Trigonometry” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Heights and distances — angle of elevation and depression.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Heights and distances — angle of elevation and depression."
       },
       {
         "q": "A 3-mark answer on “Some Applications of Trigonometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",

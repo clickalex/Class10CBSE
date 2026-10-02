@@ -95,7 +95,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Real Numbers” (HCF/LCM, irrationality proofs, terminating decimals.). A classmate lost marks by doing this: Using HCF × LCM = product for three numbers. It fails. Factorise instead. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Real Numbers” (HCF/LCM, irrationality proofs, terminating decimals). A classmate lost marks by doing this: Using HCF × LCM = product for three numbers. It fails. Factorise instead. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.",
           "Why the mistake costs marks: Using HCF × LCM = product for three numbers. It fails. Factorise instead.",
@@ -107,7 +107,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Real Numbers”: “State Euclid’s division lemma.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: HCF/LCM, irrationality proofs, terminating decimals..",
+          "Idea: HCF/LCM, irrationality proofs, terminating decimals.",
           "Given positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b."
         ]
       },
@@ -135,7 +135,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Real Numbers”. Their note says: Euclid’s Division Lemma. Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 ≤ r < b. It is the basis of the HCF algorithm: divide, then repeat with (b, r) until the remainder is 0. The last non-zero divisor is the HCF.\n\nThe chapter is described as: HCF/LCM, irrationality proofs, terminating decimals..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Real Numbers”. Their note says: Euclid’s Division Lemma. Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 ≤ r < b. It is the basis of the HCF algorithm: divide, then repeat with (b, r) until the remainder is 0. The last non-zero divisor is the HCF.\n\nThe chapter is described as: HCF/LCM, irrationality proofs, terminating decimals.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) HCF/LCM, irrationality proofs, terminating decimals.",
           "(b) marks, always procedural. Expect one HCF/LCM word problem (2–3 marks), one irrationality proof (3 marks), and one terminating-decimal question (1 mark).",
@@ -185,7 +185,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Real Numbers” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is HCF/LCM, irrationality proofs, terminating decimals.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is HCF/LCM, irrationality proofs, terminating decimals."
       },
       {
         "q": "A 3-mark answer on “Real Numbers” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -317,7 +317,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Polynomials” (Zeroes of a quadratic and their relation to coefficients.). A classmate lost marks by doing this: Writing the sum as +b/a. It is −b/a. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Polynomials” (Zeroes of a quadratic and their relation to coefficients). A classmate lost marks by doing this: Writing the sum as +b/a. It is −b/a. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Sign trap: the sum is minus b/a. Almost every wrong answer here has the wrong sign.",
           "Why the mistake costs marks: Writing the sum as +b/a. It is −b/a.",
@@ -329,7 +329,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Polynomials”: “Find the zeroes of x² − 2x − 8 and verify the relationship with the coefficients.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Zeroes of a quadratic and their relation to coefficients..",
+          "Idea: Zeroes of a quadratic and their relation to coefficients.",
           "x² − 2x − 8 = (x − 4)(x + 2), so the zeroes are 4 and −2. Sum = 4 + (−2) = 2 = −(−2)/1 = −b/a ✓ Product = 4 × (−2) = −8 = c/a ✓"
         ]
       },
@@ -357,7 +357,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Polynomials”. Their note says: Zeroes of a polynomial. A zero of p(x) is a value of x for which p(x) = 0. Geometrically it is where the graph cuts or touches the x-axis.\n\nThe chapter is described as: Zeroes of a quadratic and their relation to coefficients..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Polynomials”. Their note says: Zeroes of a polynomial. A zero of p(x) is a value of x for which p(x) = 0. Geometrically it is where the graph cuts or touches the x-axis.\n\nThe chapter is described as: Zeroes of a quadratic and their relation to coefficients.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Zeroes of a quadratic and their relation to coefficients.",
           "(b) Usually one 2-mark question plus part of an objective question.",
@@ -411,7 +411,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Polynomials” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Zeroes of a quadratic and their relation to coefficients.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Zeroes of a quadratic and their relation to coefficients."
       },
       {
         "q": "A 3-mark answer on “Polynomials” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -538,7 +538,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Pair of Linear Equations in Two Variables” (Consistency conditions, three solving methods, word problems.). A classmate lost marks by doing this: Declaring a pair inconsistent when only two of the three ratios are equal. You must check c₁/c₂ as well. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Pair of Linear Equations in Two Variables” (Consistency conditions, three solving methods, word problems). A classmate lost marks by doing this: Declaring a pair inconsistent when only two of the three ratios are equal. You must check c₁/c₂ as well. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Ratio order matters. Compare a with a, b with b, c with c — never a with b.",
           "Why the mistake costs marks: Declaring a pair inconsistent when only two of the three ratios are equal. You must check c₁/c₂ as well.",
@@ -550,7 +550,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Pair of Linear Equations in Two Variables”: “Without solving, tell whether 2x − 3y = 7 and 4x − 6y = 14 have a unique solution.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Consistency conditions, three solving methods, word problems..",
+          "Idea: Consistency conditions, three solving methods, word problems.",
           "a₁/a₂ = 2/4 = 1/2, b₁/b₂ = −3/−6 = 1/2, c₁/c₂ = (−7)/(−14) = 1/2. All three ratios are equal, so the lines are coincident — infinitely many solutions, not a unique one."
         ]
       },
@@ -601,7 +601,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Pair of Linear Equations in Two Variables”. Their note says: Nature of the pair. Compare a₁/a₂, b₁/b₂ and c₁/c₂ for the pair a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0.\n\nThe chapter is described as: Consistency conditions, three solving methods, word problems..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Pair of Linear Equations in Two Variables”. Their note says: Nature of the pair. Compare a₁/a₂, b₁/b₂ and c₁/c₂ for the pair a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0.\n\nThe chapter is described as: Consistency conditions, three solving methods, word problems.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Consistency conditions, three solving methods, word problems.",
           "(b) –6 marks. One consistency/nature question (2 marks) and one word problem (4–5 marks).",
@@ -657,7 +657,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Pair of Linear Equations in Two Variables” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Consistency conditions, three solving methods, word problems.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Consistency conditions, three solving methods, word problems."
       },
       {
         "q": "A 3-mark answer on “Pair of Linear Equations in Two Variables” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",

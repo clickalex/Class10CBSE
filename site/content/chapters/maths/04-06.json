@@ -105,7 +105,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Quadratic Equations” (Factorisation, the quadratic formula, discriminant and nature of roots.). A classmate lost marks by doing this: Dropping the sign of b when writing −b in the formula. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Quadratic Equations” (Factorisation, the quadratic formula, discriminant and nature of roots). A classmate lost marks by doing this: Dropping the sign of b when writing −b in the formula. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Splitting the middle term: you need two numbers with product a × c (not just c) and sum b. Forgetting the a is the most common error when a ≠ 1.",
           "Why the mistake costs marks: Dropping the sign of b when writing −b in the formula.",
@@ -117,7 +117,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Quadratic Equations”: “Find the nature of the roots of 2x² − 6x + 3 = 0.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Factorisation, the quadratic formula, discriminant and nature of roots..",
+          "Idea: Factorisation, the quadratic formula, discriminant and nature of roots.",
           "D = (−6)² − 4(2)(3) = 36 − 24 = 12. D > 0 but 12 is not a perfect square, so the roots are real, distinct and irrational."
         ]
       },
@@ -135,7 +135,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Quadratic Equations”. Their note says: Standard form. ax² + bx + c = 0, with a ≠ 0.\n\nThe chapter is described as: Factorisation, the quadratic formula, discriminant and nature of roots..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Quadratic Equations”. Their note says: Standard form. ax² + bx + c = 0, with a ≠ 0.\n\nThe chapter is described as: Factorisation, the quadratic formula, discriminant and nature of roots.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Factorisation, the quadratic formula, discriminant and nature of roots.",
           "(b) –7 marks. A nature-of-roots question (2–3 marks) and a word problem (4–5 marks).",
@@ -202,7 +202,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Quadratic Equations” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Factorisation, the quadratic formula, discriminant and nature of roots.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Factorisation, the quadratic formula, discriminant and nature of roots."
       },
       {
         "q": "A 3-mark answer on “Quadratic Equations” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -315,7 +315,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Arithmetic Progressions” (nth term, sum of n terms, and word problems.). A classmate lost marks by doing this: Using a + nd instead of a + (n − 1)d. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Arithmetic Progressions” (nth term, sum of n terms, and word problems). A classmate lost marks by doing this: Using a + nd instead of a + (n − 1)d. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: d can be negative. A decreasing AP has a negative d; students lose marks by writing it positive.",
           "Why the mistake costs marks: Using a + nd instead of a + (n − 1)d.",
@@ -327,7 +327,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Arithmetic Progressions”: “Find the 20th term from the last term of the AP 3, 8, 13, …, 253.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: nth term, sum of n terms, and word problems..",
+          "Idea: nth term, sum of n terms, and word problems.",
           "Counting from the end, the AP is 253, 248, 243, … with a = 253 and d = −5. th term = 253 + 19(−5) = 158."
         ]
       },
@@ -344,7 +344,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Arithmetic Progressions”. Their note says: Definition. An AP has a constant common difference d = aₙ₊₁ − aₙ between consecutive terms.\n\nThe chapter is described as: nth term, sum of n terms, and word problems..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Arithmetic Progressions”. Their note says: Definition. An AP has a constant common difference d = aₙ₊₁ − aₙ between consecutive terms.\n\nThe chapter is described as: nth term, sum of n terms, and word problems.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) nth term, sum of n terms, and word problems.",
           "(b) –6 marks. Typically one 3-mark question on finding a term or the number of terms, and one 4–5 mark word problem.",
@@ -409,7 +409,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Arithmetic Progressions” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is nth term, sum of n terms, and word problems.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is nth term, sum of n terms, and word problems."
       },
       {
         "q": "A 3-mark answer on “Arithmetic Progressions” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -540,7 +540,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Triangles” (Similarity criteria, Basic Proportionality Theorem, Pythagoras.). A classmate lost marks by doing this: Writing the area ratio equal to the side ratio, without squaring. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Triangles” (Similarity criteria, Basic Proportionality Theorem, Pythagoras). A classmate lost marks by doing this: Writing the area ratio equal to the side ratio, without squaring. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.",
           "Why the mistake costs marks: Writing the area ratio equal to the side ratio, without squaring.",
@@ -552,7 +552,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Triangles”: “State the Basic Proportionality Theorem.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Similarity criteria, Basic Proportionality Theorem, Pythagoras..",
+          "Idea: Similarity criteria, Basic Proportionality Theorem, Pythagoras.",
           "If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio."
         ]
       },
@@ -568,7 +568,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Triangles”. Their note says: Similar polygons. Corresponding angles are equal and corresponding sides are in the same ratio.\n\nThe chapter is described as: Similarity criteria, Basic Proportionality Theorem, Pythagoras..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Triangles”. Their note says: Similar polygons. Corresponding angles are equal and corresponding sides are in the same ratio.\n\nThe chapter is described as: Similarity criteria, Basic Proportionality Theorem, Pythagoras.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Similarity criteria, Basic Proportionality Theorem, Pythagoras.",
           "(b) Triangles carries most of the 15-mark Geometry unit (Circles is the rest).",
@@ -624,7 +624,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Triangles” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Similarity criteria, Basic Proportionality Theorem, Pythagoras.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Similarity criteria, Basic Proportionality Theorem, Pythagoras."
       },
       {
         "q": "A 3-mark answer on “Triangles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",

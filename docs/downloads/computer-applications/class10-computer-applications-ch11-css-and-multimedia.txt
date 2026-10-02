@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 11 · CSS and Multimedia · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 11 · CSS and Multimedia
+Unit: Unit II · HTML
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is CSS? State two advantages of using CSS with an HTML page.
+    Ans: CSS (Cascading Style Sheets) is the language that controls how a page looks — colours, fonts, borders and spacing — while HTML keeps only the content. Two advantages: (1) one rule styles every matching element, so all headings can be recoloured with a single edit; (2) content and presentation stay separate, so the design can be changed without touching the text.
+
+Q2. [Short · 2 marks] What do the CSS properties color and background-color control? Give one example of each.
+    Ans: color sets the colour of the text itself, e.g. p { color: green; }. background-color sets the colour of the box behind the text, e.g. body { background-color: #FFFFCC; }, which paints the whole page pale yellow. Values may be colour names or hex codes.
+
+Q3. [Short · 2 marks] Explain border-style with any two values. How is outline different from a border?
+    Ans: border-style draws the edge of an element’s box; values include solid (a continuous line) and dashed (a broken line), besides dotted, double and none. outline draws a second line just outside the border (e.g. outline: solid blue;) and is often used to highlight the field a visitor is typing in.
+
+Q4. [Short · 2 marks] What do height, width and margin do in CSS? Give one example.
+    Ans: height and width fix how big an element’s box is, e.g. img { width: 200px; height: 150px; }. margin is the empty space outside the border that pushes neighbouring elements away, e.g. p { margin: 15px; } leaves a 15-pixel gap around every paragraph.
+
+Q5. [Short · 3 marks] Explain the three font properties in the syllabus with one example that uses all three.
+    Ans: The three font properties are font-family (the typeface, e.g. Arial), font-size (how big the text is, e.g. 24px) and font-style (usually normal or italic). Together: h2 { font-family: Arial; font-size: 24px; font-style: italic; } — every second-level heading becomes large, Arial and italic.
+
+Q6. [Short · 3 marks] How is the float property used to place an image beside a paragraph? Write the CSS.
+    Ans: float pushes an element to one side (left or right) so that the following text wraps around it. To float a picture left of a paragraph with a small gap: img { float: left; margin: 10px; }. The margin keeps the text from touching the picture.
+
+Q7. [Short · 3 marks] Explain the <audio> tag with its attributes.
+    Ans: The <audio> tag embeds a sound file in a page. src gives the location of the audio file. controls displays the play, pause and volume buttons — without it the player is invisible and the user cannot control playback. autoplay starts the sound as soon as the page loads, loop repeats it endlessly, and muted starts it silently. An example is <audio src='song.mp3' controls loop>.
+
+Q8. [Short · 3 marks] Write HTML to embed a video with the browser’s own controls. Name the attributes you used.
+    Ans:
+      <video src="lesson.mp4" width="320" height="240" controls></video> embeds the video with play, pause and volume controls.
+      src gives the video file, width and height fix the size of the picture, and controls shows the browser’s own buttons.
+      <audio src="song.mp3" controls></audio> does the same job for sound, using the same controls idea.
+
+Q9. [Application · 3 marks] A school page needs this design: all <h2> headings navy blue and centred; every paragraph in 16px Arial; pictures 200px wide, floated left. Write the CSS.
+    Ans:
+      h2 { color: navy; text-align: center; } — navy ink, centred line.
+      p { font-family: Arial; font-size: 16px; } — the three-F rule for the body text.
+      img { width: 200px; float: left; margin: 10px; } — small pictures wrapped by text with a gap.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A student wrote this CSS for a class page:
+    
+    `
+    p { font-color: green; margin: 20px }
+    img { float: middle; width: 300 }
+    `
+    
+    (a) Name the two property errors.
+    (b) Write the corrected rules.
+    Ans:
+      (a) font-color is not a CSS property — text colour is just color. float: middle is invalid — float accepts only left or right (and widths need a unit like px).
+      (b) p { color: green; margin: 20px; } and img { float: left; width: 300px; }.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    A project page must play a welcome song on loop and show a 320×240 demo video with play buttons.
+    
+    (a) Write the <audio> tag.
+    (b) Write the <video> tag.
+    (c) What goes wrong if controls is left out of both?
+    Ans:
+      (a) <audio src="welcome.mp3" controls loop> — loop repeats the song.
+      (b) <video src="demo.mp4" width="320" height="240" controls></video>.
+      (c) Without controls both players are invisible and unusable — the visitor gets no play, pause or volume buttons.
+
+Q12. [Long · 5 marks] CSS gives a web author full control of a page’s look. Explain any five CSS properties from the syllabus, with one example each.
+    Ans:
+      color — colour of the text: h1 { color: blue; }.
+      background-color — colour behind the text: body { background-color: #FFFFCC; }.
+      font-size — size of the letters: p { font-size: 16px; }.
+      border-style — the edge of the box: div { border-style: dashed; }.
+      margin — empty space outside the border: p { margin: 15px; }.
+      Together with font-family, font-style, outline, height, width, align and float, these properties style a whole page from a few short rules.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. To make paragraph text red you write — (a) p { font-color: red; } (b) p { color: red; } (c) p { text: red; } (d) p { ink: red; }
+    Ans: (b) p { color: red; }. The property is color; font-color does not exist.
+
+M2. Which of these is a valid border-style value? (a) striped (b) dashed (c) glowing (d) thick
+    Ans: (b) dashed. Valid values include solid, dashed, dotted, double and none.
+
+M3. The space OUTSIDE an element’s border is controlled by — (a) padding (b) margin (c) outline (d) float
+    Ans: (b) margin. Margin pushes neighbouring elements away from the box.
+
+M4. To set a picture 200 px wide with text wrapping on its right, use — (a) img { align: left; } (b) img { float: left; width: 200px; } (c) img { margin: left; } (d) img { size: 200px; }
+    Ans: (b) img { float: left; width: 200px; }. Float pulls the picture aside so text wraps around it.
+
+M5. Which rule makes all <h2> headings italic? (a) h2 { font: italic; } (b) h2 { style: italic; } (c) h2 { font-style: italic; } (d) h2 { text: italic; }
+    Ans: (c) h2 { font-style: italic; }. Font has three properties: family, size and style.
+
+M6. The attribute that makes the browser show play, pause and volume buttons is: (a) controls  (b) autoplay  (c) loop  (d) src
+    Ans: (a) controls. Without it the video or audio cannot be started by the visitor.
+
+M7. Which tag embeds a film in a page? (a) <movie> (b) <media> (c) <video> (d) <film>
+    Ans: (c) <video>. Example: <video src="lesson.mp4" controls></video>.
+
+M8. outline differs from border because it — (a) sits inside the text (b) is drawn outside the border (c) only works on images (d) needs no style value
+    Ans: (b) is drawn outside the border. It is often used to highlight the active field.

@@ -1,0 +1,126 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 7 · HTML II — Text Formatting & Lists · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 7 · HTML II — Text Formatting & Lists
+Unit: Unit II · HTML
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Write the HTML to display the text 'Water' with the 2 as a subscript.
+    Ans:
+      <p>Water is written as H<sub>2</sub>O.</p>
+      The <sub> tag lowers the character it wraps, producing H₂O. Its opposite is <sup>, which raises text — used for powers such as x<sup>2</sup>.
+
+Q2. [Short · 2 marks] Differentiate between <ul> and <ol>.
+    Ans: <ul> creates an unordered list, where each item is marked with a bullet and the order does not matter. <ol> creates an ordered list, where each item is numbered and the sequence is meaningful. Both use <li> for the individual items, and both can be nested inside another list to create sub-levels.
+
+Q3. [Short · 2 marks] Write HTML for a horizontal line, 5 pixels thick, covering half the page width, in red.
+    Ans:
+      <hr size='5' width='50%' color='red'>
+      <hr> is an empty tag, so it has no closing partner. size sets the thickness in pixels, width can be a percentage or a pixel value, and color sets the line colour.
+
+Q4. [Short · 2 marks] Which tags make text bold, italic and underlined? Which should you prefer and why?
+    Ans: <b> makes text bold and <i> makes it italic, while <u> underlines it. <strong> and <em> also make text bold and italic, but they carry meaning: they tell search engines and screen readers that the words are important or stressed, which is better for accessibility.
+
+Q5. [Short · 3 marks] Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.
+    Ans:
+      <html>
+        <body>
+          <ol type='I' start='3'>
+            <li>Mathematics</li>
+            <li>Science</li>
+            <li>Social Science</li>
+            <li>English</li>
+          </ol>
+        </body>
+      </html>
+      The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III.
+
+Q6. [Short · 3 marks] Explain the <font> tag with its attributes.
+    Ans: The <font> tag changes how a piece of text looks. It takes three attributes. face sets the typeface, for example face='Arial'. size sets the size on a scale of 1 to 7, for example size='5'. color sets the colour, either by name such as color='red' or by hexadecimal code such as color='#FF0000'. An example is <font face='Arial' size='5' color='blue'>Hello</font>.
+
+Q7. [Application · 3 marks] Riya is revising “HTML II — Text Formatting & Lists” (Bold, italic, alignment, colour — plus ordered, unordered and definition lists). A classmate lost marks by doing this: Using <ul> when the output clearly shows numbers. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: <ul> = bullets, <ol> = numbers. Both use <li>.
+      Why the mistake costs marks: Using <ul> when the output clearly shows numbers.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “HTML II — Text Formatting & Lists”: “Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Bold, italic, alignment, colour — plus ordered, unordered and definition lists.
+      <html> <body> <ol type='I' start='3'> <li>Mathematics</li> <li>Science</li> <li>Social Science</li> <li>English</li> </ol> </body> </html> The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III.
+
+Q9. [Short · 3 marks] Write the HTML for an ordered list of three steps and an unordered list of two items.
+    Ans:
+      Ordered list: <ol> then <li>Open the file</li>, <li>Edit the text</li>, <li>Save the page</li>, then </ol>.
+      The browser numbers the items automatically, so adding or removing an item renumbers the rest.
+      Unordered list: <ul> then <li>Notebook</li>, <li>Pen</li>, then </ul>, which shows bullets instead of numbers.
+      Lists may be nested: put a <ul> inside an <li> to make a sub-list.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “HTML II — Text Formatting & Lists”. Their note says: Style tags. <b> makes text bold, <i> makes it italic, <u> underlines it, <tt> shows typewriter text, <strike> draws a line through it. <sub> lowers text for chemical formulas like H<sub>2</sub>O, and <sup> raises it for powers like x<sup>2</sup>. <center> centres a block of content.
+    
+    The chapter is described as: Bold, italic, alignment, colour — plus ordered, unordered and definition lists.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Bold, italic, alignment, colour — plus ordered, unordered and definition lists.
+      (b) Produce a given visual output as HTML; name the attribute that does a given job.
+      (c) Using <ul> when the output clearly shows numbers.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) <html> <body> <ol type='I' start='3'> <li>Mathematics</li> <li>Science</li> <li>Social Science</li> <li>English</li> </ol> </body> </html> The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III.
+      (c) <ul> = bullets, <ol> = numbers. Both use <li>.
+
+Q12. [Long · 5 marks] Discuss “HTML II — Text Formatting & Lists” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Style tags. <b> makes text bold, <i> makes it italic, <u> underlines it, <tt> shows typewriter text, <strike> draws a line through it. <sub> lowers text for chemical formulas like H<sub>2</sub>O, and <sup> raises it for powers like x<sup>2</sup>. <center> centres a block of content.
+      Marks lens: Produce a given visual output as HTML; name the attribute that does a given job.
+      Method / memory trick: <ul> = bullets, <ol> = numbers. Both use <li>.
+      Do not: Using <ul> when the output clearly shows numbers.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which attribute of <font> sets the typeface? (a) size (b) color (c) face (d) style
+    Ans: (c) face.
+
+M2. Which tag creates a bulleted list? (a) <ol> (b) <ul> (c) <dl> (d) <li>
+    Ans: (b) <ul>. <li> marks the items inside it.
+
+M3. <ol type='a'> numbers the items as — (a) 1,2,3 (b) A,B,C (c) a,b,c (d) i,ii,iii
+    Ans: (c) a, b, c — lowercase letters.
+
+M4. To write x² in HTML you use — (a) <sub> (b) <sup> (c) <u> (d) <tt>
+    Ans: (b) <sup> for superscript.
+
+M5. The valid values of the align attribute are — (a) left, middle, right (b) left, center, right (c) start, center, end (d) top, middle, bottom
+    Ans: (b) left, center, right.
+
+M6. The tag that starts a new line without starting a new paragraph is: (a) <br>  (b) <hr>  (c) <p>  (d) <lb>
+    Ans: (a) <br>. It is an empty tag and has no closing tag.
+
+M7. The tag that draws a horizontal rule across the page is: (a) <hr>  (b) <br>  (c) <line>  (d) <rule>
+    Ans: (a) <hr>. It is used to separate sections of a page.
+
+M8. <ul type='square'> shows bullets as: (a) discs (b) squares (c) circles (d) numbers
+    Ans: (b) squares. The type values for <ul> are disc (default), circle and square.

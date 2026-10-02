@@ -109,7 +109,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Statistics” (Mean, median and mode of grouped data, and ogives.). A classmate lost marks by doing this: Using class limits instead of class marks in the mean. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Statistics” (Mean, median and mode of grouped data, and ogives). A classmate lost marks by doing this: Using class limits instead of class marks in the mean. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Median class vs modal class are different things. Median comes from the cumulative frequency crossing N/2; mode comes from the largest frequency.",
           "Why the mistake costs marks: Using class limits instead of class marks in the mean.",
@@ -121,7 +121,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Statistics”: “Find the class mark of the class 25–35.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Mean, median and mode of grouped data, and ogives..",
+          "Idea: Mean, median and mode of grouped data, and ogives.",
           "Class mark = (25 + 35)/2 = 30."
         ]
       },
@@ -151,7 +151,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Statistics”. Their note says: Grouped data. Data arranged in class intervals with frequencies. For calculations, each class is represented by its class mark xᵢ = (upper limit + lower limit)/2.\n\nThe chapter is described as: Mean, median and mode of grouped data, and ogives..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Statistics”. Their note says: Grouped data. Data arranged in class intervals with frequencies. For calculations, each class is represented by its class mark xᵢ = (upper limit + lower limit)/2.\n\nThe chapter is described as: Mean, median and mode of grouped data, and ogives.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Mean, median and mode of grouped data, and ogives.",
           "(b) Most of the 11-mark Statistics and Probability unit, roughly 7–8 marks.",
@@ -204,7 +204,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Statistics” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Mean, median and mode of grouped data, and ogives.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Mean, median and mode of grouped data, and ogives."
       },
       {
         "q": "A 3-mark answer on “Statistics” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -326,7 +326,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Probability” (Classical probability, complementary events, dice, cards and coins.). A classmate lost marks by doing this: Forgetting that a die has 6 outcomes, not 6 faces times something — and that two dice have 36, not 12. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Probability” (Classical probability, complementary events, dice, cards and coins). A classmate lost marks by doing this: Forgetting that a die has 6 outcomes, not 6 faces times something — and that two dice have 36, not 12. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Always write the total number of outcomes first. Half of all probability errors are wrong totals, not wrong favourable counts.",
           "Why the mistake costs marks: Forgetting that a die has 6 outcomes, not 6 faces times something — and that two dice have 36, not 12.",
@@ -338,7 +338,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Probability”: “A card is drawn from a well-shuffled deck. What is the probability that it is a red king?” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Classical probability, complementary events, dice, cards and coins..",
+          "Idea: Classical probability, complementary events, dice, cards and coins.",
           "There are 2 red kings, so P = 2/52 = 1/26."
         ]
       },
@@ -356,7 +356,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Probability”. Their note says: Classical definition. P(E) = (number of outcomes favourable to E) / (total number of possible outcomes), assuming all outcomes are equally likely.\n\nThe chapter is described as: Classical probability, complementary events, dice, cards and coins..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Probability”. Their note says: Classical definition. P(E) = (number of outcomes favourable to E) / (total number of possible outcomes), assuming all outcomes are equally likely.\n\nThe chapter is described as: Classical probability, complementary events, dice, cards and coins.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Classical probability, complementary events, dice, cards and coins.",
           "(b) The remaining 3–4 marks of the 11-mark unit.",
@@ -410,7 +410,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Probability” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Classical probability, complementary events, dice, cards and coins.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Classical probability, complementary events, dice, cards and coins."
       },
       {
         "q": "A 3-mark answer on “Probability” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",

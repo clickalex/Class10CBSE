@@ -93,7 +93,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Circles” (Tangents to a circle and the number of tangents from a point.). A classmate lost marks by doing this: Forgetting to state that the radius is perpendicular to the tangent — that is a marked step. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Circles” (Tangents to a circle and the number of tangents from a point). A classmate lost marks by doing this: Forgetting to state that the radius is perpendicular to the tangent — that is a marked step. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Always join the centre to the point of contact. That creates the right angle you need, and it is the first line of almost every proof here.",
           "Why the mistake costs marks: Forgetting to state that the radius is perpendicular to the tangent — that is a marked step.",
@@ -105,7 +105,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Circles”: “How many tangents can be drawn from a point inside a circle?” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Tangents to a circle and the number of tangents from a point..",
+          "Idea: Tangents to a circle and the number of tangents from a point.",
           "None. A line through an interior point must cut the circle at two points."
         ]
       },
@@ -145,7 +145,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Circles”. Their note says: Tangent. A line that touches the circle at exactly one point. That point is the point of contact.\n\nThe chapter is described as: Tangents to a circle and the number of tangents from a point..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Circles”. Their note says: Tangent. A line that touches the circle at exactly one point. That point is the point of contact.\n\nThe chapter is described as: Tangents to a circle and the number of tangents from a point.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Tangents to a circle and the number of tangents from a point.",
           "(b) The rest of the 15-mark Geometry unit, roughly 5–6 marks.",
@@ -189,7 +189,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Circles” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Tangents to a circle and the number of tangents from a point.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Tangents to a circle and the number of tangents from a point."
       },
       {
         "q": "A 3-mark answer on “Circles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -320,7 +320,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Areas Related to Circles” (Sectors, segments and combined figures.). A classmate lost marks by doing this: Forgetting to add the two radii to the perimeter of a sector. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Areas Related to Circles” (Sectors, segments and combined figures). A classmate lost marks by doing this: Forgetting to add the two radii to the perimeter of a sector. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Perimeter of a sector is 2r + arc, not just the arc. Missing the two radii is the most common error here.",
           "Why the mistake costs marks: Forgetting to add the two radii to the perimeter of a sector.",
@@ -332,7 +332,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Areas Related to Circles”: “Find the length of an arc of a sector with radius 21 cm and central angle 120°.” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Sectors, segments and combined figures..",
+          "Idea: Sectors, segments and combined figures.",
           "Arc = (120/360) × 2 × (22/7) × 21 = (1/3) × 132 = 44 cm."
         ]
       },
@@ -359,7 +359,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Areas Related to Circles”. Their note says: Sector. The region between two radii and the arc joining their endpoints. The angle at the centre is θ.\n\nThe chapter is described as: Sectors, segments and combined figures..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Areas Related to Circles”. Their note says: Sector. The region between two radii and the arc joining their endpoints. The angle at the centre is θ.\n\nThe chapter is described as: Sectors, segments and combined figures.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Sectors, segments and combined figures.",
           "(b) Part of the 10-mark Mensuration unit, roughly 4–5 marks.",
@@ -414,7 +414,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Areas Related to Circles” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Sectors, segments and combined figures.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Sectors, segments and combined figures."
       },
       {
         "q": "A 3-mark answer on “Areas Related to Circles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
@@ -572,7 +572,7 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Surface Areas and Volumes” (Combinations of solids, conversion of solids, and the frustum.). A classmate lost marks by doing this: Including the joining face in the total surface area. Apply the correct method and rewrite the scoring answer.",
+        "q": "Riya is revising “Surface Areas and Volumes” (Combinations of solids, conversion of solids, and the frustum). A classmate lost marks by doing this: Including the joining face in the total surface area. Apply the correct method and rewrite the scoring answer.",
         "a": [
           "Correct method: Hemisphere on top of a cuboid or cylinder: the flat circular base of the hemisphere is *not* part of the outer surface. Use only its curved area, 2πr².",
           "Why the mistake costs marks: Including the joining face in the total surface area.",
@@ -584,7 +584,7 @@
         "m": "3",
         "q": "Amit is given this exam-style task from “Surface Areas and Volumes”: “A solid consists of a cylinder with a hemisphere on one end and a cone on the other, all of radius 7 cm. The cylinder is 20 cm high, the cone 12 cm high. Find the total surface area (take π = 22/7).” Treat it as an application question. Identify the idea, then write the working in points.",
         "a": [
-          "Idea: Combinations of solids, conversion of solids, and the frustum..",
+          "Idea: Combinations of solids, conversion of solids, and the frustum.",
           "Cylinder CSA = 2 × (22/7) × 7 × 20 = 880 cm². Hemisphere CSA = 2 × (22/7) × 49 = 308 cm². Cone slant height l = √(7² + 12²) = √193 ≈ 13.89 cm, so cone CSA = (22/7) × 7 × 13.89 ≈ 305.6 cm². Total ≈ 880 + 308 + 305.6 = 1493.6 cm². The two circular joining faces are not counted."
         ]
       },
@@ -630,7 +630,7 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Surface Areas and Volumes”. Their note says: Combinations of solids. A solid made of two or more basic solids. Total surface area = sum of the *curved/lateral* surface areas actually exposed. Where two solids join, the joining face is not part of the outer surface.\n\nThe chapter is described as: Combinations of solids, conversion of solids, and the frustum..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA Class 10 student is preparing “Surface Areas and Volumes”. Their note says: Combinations of solids. A solid made of two or more basic solids. Total surface area = sum of the *curved/lateral* surface areas actually exposed. Where two solids join, the joining face is not part of the outer surface.\n\nThe chapter is described as: Combinations of solids, conversion of solids, and the frustum.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
         "a": [
           "(a) Combinations of solids, conversion of solids, and the frustum.",
           "(b) The rest of the 10-mark Mensuration unit, roughly 5–6 marks.",
@@ -673,7 +673,7 @@
       },
       {
         "q": "The most exam-ready way to revise “Surface Areas and Volumes” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Combinations of solids, conversion of solids, and the frustum.."
+        "a": "**(b) learn the key idea plus one example.** The chapter is Combinations of solids, conversion of solids, and the frustum."
       },
       {
         "q": "A 3-mark answer on “Surface Areas and Volumes” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",

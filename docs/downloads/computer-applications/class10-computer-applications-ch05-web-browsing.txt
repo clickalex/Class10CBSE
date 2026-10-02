@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 5 · Web Browsers, Search & Web Concepts · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 5 · Web Browsers, Search & Web Concepts
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Name any three web browsers.
+    Ans: Google Chrome, Mozilla Firefox and Microsoft Edge. Apple's Safari and Opera are other common examples.
+
+Q2. [Short · 2 marks] Differentiate between a web browser and a search engine.
+    Ans: A web browser is software installed on your computer or phone — Chrome, Firefox, Edge or Safari — that sends requests for pages and renders the HTML it receives into the page you see. A search engine such as Google is itself a website whose job is to index other websites and return a ranked list of results for your query. You need a browser in order to open a search engine, so they work together rather than as alternatives.
+
+Q3. [Short · 2 marks] What are cookies and why are they used?
+    Ans: A cookie is a small piece of data that a website stores in the user's browser. Websites use cookies to remember something about the user between visits — whether they are logged in, which language they chose, or what is in their shopping cart. Without cookies, every page request would be treated as a brand-new visitor. Because cookies can also be used to track browsing behaviour, browsers offer private modes that discard them when the window closes.
+
+Q4. [Short · 2 marks] What is caching and what is its benefit?
+    Ans: Caching means keeping a local copy of a resource — a page, an image or a stylesheet — so that it does not have to be downloaded again. The benefits are that pages load faster and use less bandwidth, which matters most on slow or metered connections. The trade-off is that a cached copy can be out of date, which is why a forced refresh sometimes shows a different page.
+
+Q5. [Short · 2 marks] How does a search engine find and rank pages?
+    Ans: A search engine uses a crawler — also called a spider — that automatically visits web pages and follows the links on them to discover more. What it finds is stored in an index, a huge searchable catalogue. When you type a query, a ranking algorithm scores the matching pages by relevance, authority and quality, and returns them in order.
+
+Q6. [Short · 2 marks] What is the difference between a web browser and a search engine?
+    Ans: A browser is the program that requests, receives and displays web pages — Chrome, Firefox, Edge or Safari. A search engine is a website, such as Google or Bing, that keeps an index of pages and returns a list of results for your query. The browser is the tool you use; the search engine is a site you visit with it.
+
+Q7. [Application · 3 marks] Riya is revising “Web Browsers, Search & Web Concepts” (Browsers, search engines, cookies, caching and the difference between a web page and a website). A classmate lost marks by doing this: Calling Google a browser — it is a search engine, a website. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Browser is on your machine; search engine is on the web.
+      Why the mistake costs marks: Calling Google a browser — it is a search engine, a website.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Web Browsers, Search & Web Concepts”: “Differentiate between a web browser and a search engine.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Browsers, search engines, cookies, caching and the difference between a web page and a website.
+      A web browser is software installed on your computer or phone — Chrome, Firefox, Edge or Safari — that sends requests for pages and renders the HTML it receives into the page you see. A search engine such as Google is itself a website whose job is to index other websites and return a ranked list of results for your query. You need a browser in order to open a search engine, so they work together rather than as alternatives.
+
+Q9. [Short · 3 marks] What are cookies and cache, and why should you clear them sometimes?
+    Ans:
+      Cookies are small files a website stores on your computer to remember who you are, what is in your basket and what your preferences are.
+      The cache stores copies of images, scripts and pages so that a site loads faster the next time you visit it.
+      Clearing them removes old or corrupted files that can make a site load wrongly, frees disk space, logs you out of accounts and limits tracking.
+      The cost is that you have to sign in again and the first visit to a site is slower.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Web Browsers, Search & Web Concepts”. Their note says: Browser versus search engine. A web browser (Chrome, Firefox, Edge, Safari) is software on your device that requests and displays pages. A search engine (Google, Bing) is a website that indexes other websites so you can find them. You use a browser to reach a search engine — they are not alterna
+    
+    The chapter is described as: Browsers, search engines, cookies, caching and the difference between a web page and a website.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Browsers, search engines, cookies, caching and the difference between a web page and a website.
+      (b) Define terms, compare browsers with search engines, explain cookies and caching.
+      (c) Calling Google a browser — it is a search engine, a website.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Differentiate between a web browser and a search engine.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) A web browser is software installed on your computer or phone — Chrome, Firefox, Edge or Safari — that sends requests for pages and renders the HTML it receives into the page you see. A search engine such as Google is itself a website whose job is to index other websites and return a ranked list of results for your query. You need a browser in order to open a search engine, so they work together rather than as alternatives.
+      (c) Browser is on your machine; search engine is on the web.
+
+Q12. [Long · 5 marks] Discuss “Web Browsers, Search & Web Concepts” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Browser versus search engine. A web browser (Chrome, Firefox, Edge, Safari) is software on your device that requests and displays pages. A search engine (Google, Bing) is a website that indexes other websites so you can find them. You use a browser to reach a search engine — they are not alternatives to each other.
+      Marks lens: Define terms, compare browsers with search engines, explain cookies and caching.
+      Method / memory trick: Browser is on your machine; search engine is on the web.
+      Do not: Calling Google a browser — it is a search engine, a website.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Google is an example of a — (a) browser (b) search engine (c) protocol (d) server operating system
+    Ans: (b) search engine.
+
+M2. Which stores a local copy of a page to speed up loading? (a) cookie (b) bookmark (c) cache (d) portal
+    Ans: (c) cache.
+
+M3. The entry page of a website is called the — (a) portal (b) home page (c) cache (d) feed
+    Ans: (b) home page, usually index.html.
+
+M4. The program that automatically visits and indexes web pages is called a — (a) router (b) crawler (c) modem (d) gateway
+    Ans: (b) crawler or spider.
+
+M5. The most exam-ready way to revise “Web Browsers, Search & Web Concepts” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Browsers, search engines, cookies, caching and the difference between a web page and a website.
+
+M6. A 3-mark answer on “Web Browsers, Search & Web Concepts” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M7. The address bar of a browser shows the: (a) URL of the page you are on  (b) IP address of your own computer  (c) size of the page  (d) number of visitors to the site
+    Ans: (a) URL of the page you are on. You can also type an address there to go to a site.
+
+M8. A padlock symbol in the address bar means the page: (a) is served over an encrypted HTTPS connection  (b) is free  (c) is saved offline  (d) belongs to the government
+    Ans: (a) is served over an encrypted HTTPS connection. It does not prove that the site itself is honest.

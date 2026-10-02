@@ -1,0 +1,139 @@
+﻿CLASS 10 CBSE · SCIENCE (Subject Code 086)
+Chapter 11 · Electricity · session 2026–27
+
+1 chapter · 14 written Q&A · 11 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/science/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 11 · Electricity
+Unit: IV · Effects of Current
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Define one ohm and name the device used to measure potential difference.
+    Ans: One ohm is the resistance of a conductor when a potential difference of 1 volt across its ends produces a current of 1 ampere through it. Potential difference is measured with a voltmeter, connected in parallel.
+
+Q2. [Short · 2 marks] Why are the coils of electric toasters and electric irons made of an alloy rather than a pure metal?
+    Ans: Because alloys have higher resistivity than the pure metals, so they produce more heat for the same current, and they do not oxidise (burn) readily at high temperatures.
+
+Q3. [Short · 2 marks] An electric iron of rating 750 W, 220 V is used for 2 hours daily. Calculate the cost of using it for 30 days at ₹5 per unit.
+    Ans:
+      Energy per day = P × t = 750 W × 2 h = 1500 Wh = 1.5 kWh.
+      Energy for 30 days = 1.5 × 30 = 45 kWh = 45 units.
+      Cost = 45 × ₹5 = ₹225.
+
+Q4. [Short · 2 marks] Why are household appliances connected in parallel and not in series?
+    Ans: In a parallel circuit every appliance gets the full supply voltage and works independently, so switching one off does not affect the others and a fault in one branch does not stop the rest — none of which is possible in a series circuit.
+
+Q5. [Short · 3 marks] State Ohm's law and draw the V–I graph for an ohmic conductor.
+    Ans:
+      At constant temperature, the current flowing through a conductor is directly proportional to the potential difference across its ends: V = IR, where R is the resistance.
+      The graph of V against I is a straight line passing through the origin; its slope (V/I) gives the resistance of the conductor.
+
+Q6. [Short · 3 marks] Three resistors of 2 Ω, 3 Ω and 6 Ω are connected in parallel. Find the equivalent resistance.
+    Ans:
+      1/Rp = 1/2 + 1/3 + 1/6 = (3 + 2 + 1)/6 = 6/6 = 1.
+      So Rp = 1 Ω — less than the smallest resistor (2 Ω), as expected for a parallel combination.
+
+Q7. [Application · 3 marks] Riya is revising “Electricity” (Ohm's law, series and parallel circuits, heating effect and power). A classmate lost marks by doing this: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.
+      Why the mistake costs marks: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Electricity”: “Define one ohm and name the device used to measure potential difference.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Ohm's law, series and parallel circuits, heating effect and power.
+      One ohm is the resistance of a conductor when a potential difference of 1 volt across its ends produces a current of 1 ampere through it. Potential difference is measured with a voltmeter, connected in parallel.
+
+Q9. [Short · 3 marks] Resistors of 4 Ω and 12 Ω are connected in parallel and the combination is joined to a 6 V battery. Find the equivalent resistance and the current drawn from the battery.
+    Ans:
+      1/Rₚ = 1/4 + 1/12 = (3 + 1)/12 = 4/12, so Rₚ = 3 Ω.
+      Current I = V/R = 6/3 = 2 A.
+      Check: the branch currents are 6/4 = 1.5 A and 6/12 = 0.5 A, which add to 2 A. Note the equivalent resistance is less than the smaller resistor.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Electricity”. Their note says: Electric current and potential difference. Current I = Q/t, measured in amperes with an ammeter connected in series. Potential difference V = W/Q, measured in volts with a voltmeter connected in parallel; 1 volt = 1 joule per coulomb. By convention current flows from the positive to the negative ter
+    
+    The chapter is described as: Ohm's law, series and parallel circuits, heating effect and power.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Ohm's law, series and parallel circuits, heating effect and power.
+      (b) –4 marks. A series or parallel circuit numerical is almost certain, plus one question on the heating effect or on power rating.
+      (c) Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “Define one ohm and name the device used to measure potential difference.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) One ohm is the resistance of a conductor when a potential difference of 1 volt across its ends produces a current of 1 ampere through it. Potential difference is measured with a voltmeter, connected in parallel.
+      (c) Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.
+
+Q12. [Application · 4 marks] A 100 W bulb and a 60 W bulb are both rated at 220 V. Which has the higher resistance, and what current does each draw?
+    Ans:
+      Using R = V²/P: R₁₀₀ = 220²/100 = 484 Ω and R₆₀ = 220²/60 ≈ 806.7 Ω.
+      So the 60 W bulb has the higher resistance — the lower-power bulb resists the current more.
+      Currents: I = P/V, so the 100 W bulb draws 100/220 ≈ 0.45 A and the 60 W bulb draws 60/220 ≈ 0.27 A.
+
+Q13. [Long · 5 marks] A 4 Ω resistor and a 6 Ω resistor are connected in series with a 20 V battery. Find the total resistance, the current, the potential difference across each resistor, and the heat produced in the 4 Ω resistor in 1 minute.
+    Ans:
+      Total resistance Rs = 4 + 6 = 10 Ω.
+      Current I = V/R = 20/10 = 2 A — the same through both resistors.
+      Potential differences: across 4 Ω, V = 2 × 4 = 8 V; across 6 Ω, V = 2 × 6 = 12 V. (8 + 12 = 20 V ✓)
+      Heat in the 4 Ω resistor H = I²Rt = (2)² × 4 × 60 = 960 J.
+
+Q14. [Long · 5 marks] Discuss “Electricity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Electric current and potential difference. Current I = Q/t, measured in amperes with an ammeter connected in series. Potential difference V = W/Q, measured in volts with a voltmeter connected in parallel; 1 volt = 1 joule per coulomb. By convention current flows from the positive to the negative terminal, opposite to the flow of electrons. A cell maintains the potential difference that drives the charge.
+      Marks lens: –4 marks. A series or parallel circuit numerical is almost certain, plus one question on the heating effect or on power rating.
+      Method / memory trick: Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.
+      Do not: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The least resistance that can be obtained by combining 2 Ω, 4 Ω, 1 Ω and 100 Ω is: (a) more than 100 Ω (b) less than 1 Ω (c) 107 Ω (d) between 2 Ω and 100 Ω
+    Ans: (b) less than 1 Ω. Connecting all four in parallel gives an equivalent resistance smaller than the smallest individual resistance, 1 Ω.
+
+M2. Two wires of the same material and length but different cross-sectional areas are compared. The thicker wire has: (a) more resistance (b) less resistance (c) the same resistance (d) no resistance
+    Ans: (b) less resistance, since R = ρl/A and a larger area of cross-section reduces the resistance.
+
+M3. The commercial unit of electrical energy is: (a) joule (b) watt (c) kilowatt-hour (d) volt
+    Ans: (c) kilowatt-hour (kWh), equal to 3.6 × 10⁶ J, and commonly called a 'unit'.
+
+M4. The most exam-ready way to revise “Electricity” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Ohm's law, series and parallel circuits, heating effect and power.
+
+M5. A 3-mark answer on “Electricity” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The resistance of a wire doubles when: (a) its length is doubled  (b) its area of cross-section is doubled  (c) its length is halved  (d) its diameter is doubled
+    Ans: (a) its length is doubled. R ∝ l/A; doubling the area halves R, doubling the diameter reduces R to a quarter.
+
+M7. One kilowatt hour equals: (a) 3.6 × 10⁶ J  (b) 3.6 × 10³ J  (c) 360 J  (d) 6 × 10µ J
+    Ans: (a) 3.6 × 10⁶ J. 1 kWh = 1000 W × 3600 s = 3,600,000 J.
+
+M8. An ammeter is connected in a circuit: (a) in series  (b) in parallel  (c) across the supply  (d) either way
+    Ans: (a) in series. It has very low resistance so it does not change the current; a voltmeter is connected in parallel.
+
+M9. A 12 V battery drives a current of 2 A through a resistor. The resistance of the resistor is: (a) 24 Ω  (b) 6 Ω  (c) 0.17 Ω  (d) 14 Ω
+    Ans: (b) 6 Ω. Ohm's law: R = V/I = 12/2 = 6 Ω.
+
+M10. Three 6 Ω resistors are connected in parallel. Their equivalent resistance is: (a) 18 Ω  (b) 6 Ω  (c) 2 Ω  (d) 3 Ω
+    Ans: (c) 2 Ω. 1/R = 1/6 + 1/6 + 1/6 = 3/6, so R = 2 Ω — equal resistors in parallel give R/n.
+
+M11. A 100 W bulb is used for 10 hours every day. The electrical energy it consumes in 30 days is: (a) 3 kWh  (b) 30 kWh  (c) 300 kWh  (d) 3000 kWh
+    Ans: (b) 30 kWh. Energy = power × time = 0.1 kW × 10 h × 30 = 30 kWh, i.e. 30 units.

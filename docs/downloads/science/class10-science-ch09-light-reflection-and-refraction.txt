@@ -1,0 +1,138 @@
+﻿CLASS 10 CBSE · SCIENCE (Subject Code 086)
+Chapter 9 · Light — Reflection and Refraction · session 2026–27
+
+1 chapter · 14 written Q&A · 11 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/science/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 9 · Light — Reflection and Refraction
+Unit: III · Natural Phenomena
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] State the mirror formula and the SI unit of the power of a lens.
+    Ans: 1/v + 1/u = 1/f. The SI unit of power is the dioptre (D), equal to 1 m⁻¹.
+
+Q2. [Short · 2 marks] Why is a convex mirror preferred as a rear-view mirror in vehicles?
+    Ans: Because it always gives an erect, virtual and diminished image, and it has a wider field of view than a plane mirror, so the driver can see a much larger area of the traffic behind.
+
+Q3. [Short · 2 marks] A lens of power −4.0 D is placed in the path of light. Find its focal length and identify it.
+    Ans: P = 1/f, so f = 1/(−4.0) = −0.25 m = −25 cm. Negative focal length means it is a concave (diverging) lens.
+
+Q4. [Short · 2 marks] Define the principal focus of a concave mirror and relate it to the radius of curvature.
+    Ans: The principal focus is the point on the principal axis where rays parallel to the axis meet (or appear to meet) after reflection. For a spherical mirror the focus lies midway between the pole and the centre of curvature, so f = R/2.
+
+Q5. [Short · 3 marks] An object 4 cm high is placed 25 cm in front of a concave mirror of focal length 15 cm. Find the position, nature and size of the image.
+    Ans:
+      u = −25 cm, f = −15 cm. Using 1/v + 1/u = 1/f: 1/v = 1/(−15) − 1/(−25) = (−5 + 3)/75 = −2/75.
+      So v = −37.5 cm — the image forms 37.5 cm in front of the mirror, hence real and inverted.
+      m = −v/u = −(−37.5)/(−25) = −1.5, so h' = −1.5 × 4 = −6 cm: the image is 6 cm tall, inverted, and magnified.
+
+Q6. [Short · 3 marks] Draw a ray diagram for an object placed between C and F of a concave mirror and state the nature of the image.
+    Ans:
+      Draw the principal axis with P, F and C marked. Place the object (an arrow) between C and F.
+      Ray 1: parallel to the axis, reflected through F. Ray 2: through F, reflected parallel to the axis. (A third ray through C retraces its path.)
+      The rays meet beyond C, so the image is real, inverted and magnified. This is the arrangement used in a shaving or makeup mirror when the object is close.
+
+Q7. [Application · 3 marks] Riya is revising “Light — Reflection and Refraction” (Ray diagrams, mirror and lens formulas, magnification and power). A classmate lost marks by doing this: Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f. Apply the correct method and rewrite the scoring answer.
+    Ans:
+      Correct method: Sign convention: distances measured against the direction of the incident light (to the left of the pole) are negative. Object distance u is always negative. For a concave mirror f is negative; for a convex mirror and a convex lens f is positive; a concave lens has negative f.
+      Why the mistake costs marks: Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f.
+      Write the definition or formula first, then the working or example.
+
+Q8. [Application · 3 marks] Amit is given this exam-style task from “Light — Reflection and Refraction”: “State the mirror formula and the SI unit of the power of a lens.” Treat it as an application question. Identify the idea, then write the working in points.
+    Ans:
+      Idea: Ray diagrams, mirror and lens formulas, magnification and power.
+      /v + 1/u = 1/f. The SI unit of power is the dioptre (D), equal to 1 m⁻¹.
+
+Q9. [Short · 3 marks] An object 5 cm tall is placed 30 cm from a convex lens of focal length 20 cm. Find the position, size and nature of the image.
+    Ans:
+      Using the lens formula 1/f = 1/v − 1/u with f = +20 cm and u = −30 cm:
+      1/v = 1/20 − 1/30 = (3 − 2)/60 = 1/60, so v = 60 cm.
+      Magnification m = v/u = 60/(−30) = −2, so h₂ = m × h₁ = −2 × 5 = −10 cm.
+      The image is real, inverted and twice the size, formed 60 cm on the other side of the lens.
+
+Q10. [Competency · 4 marks] Read and answer:
+    
+    A Class 10 student is preparing “Light — Reflection and Refraction”. Their note says: Reflection. Light travelling in a straight line bounces back on striking a polished surface. Laws of reflection: the angle of incidence equals the angle of reflection, and the incident ray, reflected ray and normal at the point of incidence all lie in the same plane. A plane mirror always forms a vi
+    
+    The chapter is described as: Ray diagrams, mirror and lens formulas, magnification and power.
+    
+    (a) Name the key idea.
+    (b) How is this usually asked in the paper?
+    (c) State one mistake that would cost a mark.
+    Ans:
+      (a) Ray diagrams, mirror and lens formulas, magnification and power.
+      (b) –4 marks. One ray diagram, one numerical on the mirror or lens formula, and one question on magnification or power.
+      (c) Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f.
+
+Q11. [Competency · 4 marks] Read and answer:
+    
+    Two students attempt: “State the mirror formula and the SI unit of the power of a lens.” Student A writes one line. Student B writes points, an example and a check.
+    
+    (a) Which answer frame should you use for full marks?
+    (b) Write the model points.
+    (c) Add one memory trick you would use on exam morning.
+    Ans:
+      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
+      (b) /v + 1/u = 1/f. The SI unit of power is the dioptre (D), equal to 1 m⁻¹.
+      (c) Sign convention: distances measured against the direction of the incident light (to the left of the pole) are negative. Object distance u is always negative. For a concave mirror f is negative; for a convex mirror and a convex lens f is positive; a concave lens has negative f.
+
+Q12. [Long · 4 marks] State the sign convention used for spherical mirrors and lenses, and apply it to a concave mirror.
+    Ans:
+      All distances are measured from the pole (mirror) or the optical centre (lens).
+      Distances measured in the direction of the incident light are positive and those against it are negative; heights above the principal axis are positive and those below are negative.
+      In practice the object distance u is always negative, the focal length of a concave mirror and of a concave lens is negative, and that of a convex mirror and a convex lens is positive.
+
+Q13. [Long · 5 marks] State the laws of refraction and solve: light enters from air into glass (n = 1.5) with an angle of incidence of 30°. Find the angle of refraction and the speed of light in glass.
+    Ans:
+      Laws: (i) the incident ray, the refracted ray and the normal at the point of incidence lie in the same plane; (ii) for a given pair of media and a given colour, sin i / sin r is constant (Snell's law).
+      Angle of refraction: sin r = sin i / n = 0.5/1.5 = 0.3333, so r ≈ 19.5° — the ray bends toward the normal.
+      Speed in glass: v = c/n = (3 × 10⁸)/1.5 = 2 × 10⁸ m/s.
+
+Q14. [Long · 5 marks] Discuss “Light — Reflection and Refraction” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+    Ans:
+      Reflection. Light travelling in a straight line bounces back on striking a polished surface. Laws of reflection: the angle of incidence equals the angle of reflection, and the incident ray, reflected ray and normal at the point of incidence all lie in the same plane. A plane mirror always forms a virtual, erect image, the same size as the object, at the same distance behind the mirror, and laterally inverted.
+      Marks lens: –4 marks. One ray diagram, one numerical on the mirror or lens formula, and one question on magnification or power.
+      Method / memory trick: Sign convention: distances measured against the direction of the incident light (to the left of the pole) are negative. Object distance u is always negative. For a concave mirror f is negative; for a convex mirror and a convex lens f is positive; a concave lens has negative f.
+      Do not: Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The magnification produced by a rear-view mirror fitted in vehicles is: (a) less than one (b) more than one (c) equal to one (d) more than one or less than one depending on the position of the object
+    Ans: (a) less than one. A convex mirror always forms a diminished, virtual and erect image.
+
+M2. Where should an object be placed in front of a convex lens to get a real image of the same size? (a) at F (b) at 2F (c) at infinity (d) between F and 2F
+    Ans: (b) at 2F — the image forms at 2F on the other side, real, inverted and of the same size.
+
+M3. The refractive index of water is 1.33. The speed of light in water is: (a) 3 × 10⁸ m/s (b) 2.26 × 10⁸ m/s (c) 1.33 × 10⁸ m/s (d) 4 × 10⁸ m/s
+    Ans: (b) 2.26 × 10⁸ m/s. v = c/n = (3 × 10⁸)/1.33.
+
+M4. The most exam-ready way to revise “Light — Reflection and Refraction” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
+    Ans: (b) learn the key idea plus one example. The chapter is Ray diagrams, mirror and lens formulas, magnification and power.
+
+M5. A 3-mark answer on “Light — Reflection and Refraction” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
+    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+
+M6. The power of a convex lens of focal length 50 cm is: (a) +2 D  (b) −2 D  (c) +0.5 D  (d) −0.5 D
+    Ans: (a) +2 D. P = 1/f in metres = 1/0.5 = +2 D; a converging lens always has positive power.
+
+M7. Which mirror always forms an erect and diminished image? (a) plane  (b) concave  (c) convex  (d) parabolic
+    Ans: (c) convex. Its image is always virtual, erect and smaller, which is why it is used as a rear-view mirror.
+
+M8. When a ray of light goes from glass into air, it: (a) bends towards the normal  (b) bends away from the normal  (c) does not bend  (d) is totally absorbed
+    Ans: (b) bends away from the normal. Moving from a denser to a rarer medium, the ray speeds up and bends away from the normal.
+
+M9. An object is placed 20 cm in front of a concave mirror of focal length 10 cm. The image is formed: (a) 10 cm in front of the mirror  (b) 20 cm in front of the mirror  (c) 20 cm behind the mirror  (d) at infinity
+    Ans: (b) 20 cm in front of the mirror. The object is at C (2f = 20 cm), so the image is also at C, real, inverted and the same size. Mirror formula: 1/v = 1/f − 1/u = −1/10 + 1/20 = −1/20, v = −20 cm.
+
+M10. A ray of light enters a denser medium along the normal (angle of incidence 0°). It: (a) bends towards the normal  (b) bends away from the normal  (c) passes undeviated  (d) is totally reflected
+    Ans: (c) passes undeviated. Refraction changes the speed but there is no bending when the ray is along the normal, because sin 0° = 0 on both sides of Snell's law.
+
+M11. The image formed by a concave lens of a real object is always: (a) real and inverted  (b) virtual, erect and diminished  (c) virtual, erect and magnified  (d) real and magnified
+    Ans: (b) virtual, erect and diminished. A diverging lens forms the image between F₁ and the optical centre on the same side as the object, whatever the object distance.
