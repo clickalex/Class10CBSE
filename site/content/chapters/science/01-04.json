@@ -101,20 +101,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Chemical Reactions and Equations” (Balancing, the five reaction types, corrosion and rancidity.). A classmate lost marks by doing this: Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed. Apply the correct method and rewrite the scoring answer.",
+        "q": "To balance H₂ + O₂ → H₂O, a student changes the formula of water to H₂O₂ and writes H₂ + O₂ → H₂O₂. Why is this wrong? Give the correct balanced equation with state symbols.",
         "a": [
-          "Correct method: Balancing order: start with the element that appears in the largest number of atoms, leave free elements (O2, H2) for last, then re-check oxygen.",
-          "Why the mistake costs marks: Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed.",
-          "Write the definition or formula first, then the working or example."
+          "Changing a **subscript** changes the substance: H₂O₂ is hydrogen peroxide, not water. Only the coefficient in front of a formula may be changed.",
+          "Balanced equation: 2H₂ + O₂ → 2H₂O (4 H and 2 O atoms on each side).",
+          "With state symbols: 2H₂(g) + O₂(g) → 2H₂O(l)."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Chemical Reactions and Equations”: “Why must a chemical equation be balanced?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "An iron nail is dipped in blue copper sulphate solution for about 20 minutes. State what you observe, write the balanced chemical equation and name the type of reaction.",
         "a": [
-          "Idea: Balancing, the five reaction types, corrosion and rancidity..",
-          "Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction."
+          "The nail becomes coated with a reddish-brown deposit of copper, and the blue colour of the solution fades to light green.",
+          "Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s).",
+          "Iron is more reactive than copper, so it displaces copper from its salt solution: a **displacement** reaction."
         ]
       },
       {
@@ -136,21 +137,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Chemical Reactions and Equations”. Their note says: Recognising a chemical reaction. Four observable clues: change of state, change of colour, evolution of a gas, and change in temperature. If a new substance with new properties forms, a chemical reaction has taken place.\n\nThe chapter is described as: Balancing, the five reaction types, corrosion and rancidity..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA shopkeeper finds that a packet of chips left open for weeks smells and tastes bad, and that the iron gate outside his shop has turned reddish-brown.\n\n(a) Name the two processes.\n(b) Give the chemical formula of the reddish-brown substance on the gate.\n(c) Suggest one way to prevent each process.",
         "a": [
-          "(a) Balancing, the five reaction types, corrosion and rancidity.",
-          "(b) –4 marks every year, usually as one balancing question, one reaction-type identification and one reasoning question on corrosion or rancidity.",
-          "(c) Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed."
+          "(a) The chips have turned **rancid** (oxidation of fats and oils); the gate has **rusted** (corrosion of iron).",
+          "(b) Rust is hydrated iron(III) oxide, Fe₂O₃·xH₂O.",
+          "(c) Rancidity: pack the chips in airtight bags flushed with nitrogen, or add antioxidants. Rusting: paint, oil or galvanise the iron so that air and moisture cannot reach it."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Why must a chemical equation be balanced?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA student rubs a 3 cm magnesium ribbon with sandpaper and then holds it with tongs over a flame. It burns with a dazzling white flame and leaves a white powder.\n\n(a) Why is the ribbon cleaned before burning?\n(b) Name the white powder.\n(c) Write the balanced equation and name the type of reaction.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction.",
-          "(c) Balancing order: start with the element that appears in the largest number of atoms, leave free elements (O2, H2) for last, then re-check oxygen."
+          "(a) Sandpaper removes the dull layer of magnesium oxide that covers the ribbon, so the pure metal can burn.",
+          "(b) The white powder is magnesium oxide, MgO.",
+          "(c) 2Mg + O₂ → 2MgO. Two substances combine to form one product, so it is a **combination** reaction (it is also an oxidation, and exothermic)."
         ]
       },
       {
@@ -173,44 +174,44 @@
     ],
     "mcq": [
       {
-        "q": "The reaction Fe2O3 + 2Al → Al2O3 + 2Fe is an example of: (a) combination (b) decomposition (c) displacement (d) double displacement",
-        "a": "**(c) displacement.** Aluminium, being more reactive, displaces iron from its oxide. It is also a redox and a highly exothermic (thermite) reaction."
+        "q": "The reaction Fe2O3 + 2Al → Al2O3 + 2Fe is an example of: (a) combination (b) decomposition (c) double displacement (d) displacement",
+        "a": "**(d) displacement.** Aluminium, being more reactive, displaces iron from its oxide. It is also a redox and a highly exothermic (thermite) reaction."
       },
       {
-        "q": "Which of the following is an endothermic process? (a) respiration (b) decomposition of vegetable matter into compost (c) process of decomposition of ferrous sulphate (d) quicklime + water",
-        "a": "**(c).** Decomposition always needs energy, so heating ferrous sulphate is endothermic. The other three release heat."
+        "q": "Which of the following is an endothermic process? (a) process of decomposition of ferrous sulphate (b) respiration (c) decomposition of vegetable matter into compost (d) quicklime + water",
+        "a": "**(a).** Decomposition always needs energy, so heating ferrous sulphate is endothermic. The other three release heat."
       },
       {
-        "q": "The green coating on copper and the black coating on silver are respectively: (a) basic copper carbonate and Ag2S (b) CuO and Ag2O (c) CuCO3 and AgS2 (d) Cu(OH)2 and AgO",
-        "a": "**(a).** Copper forms basic copper carbonate CuCO3·Cu(OH)2 (green); silver forms silver sulphide Ag2S (black)."
+        "q": "The green coating on copper and the black coating on silver are respectively: (a) CuO and Ag2O (b) CuCO3 and AgS2 (c) basic copper carbonate and Ag2S (d) Cu(OH)2 and AgO",
+        "a": "**(c).** Copper forms basic copper carbonate CuCO3·Cu(OH)2 (green); silver forms silver sulphide Ag2S (black)."
       },
       {
-        "q": "The most exam-ready way to revise “Chemical Reactions and Equations” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Balancing, the five reaction types, corrosion and rancidity.."
+        "q": "Which of the following is a displacement reaction? (a) CaO + H₂O → Ca(OH)₂  (b) 2H₂O → 2H₂ + O₂  (c) 2Mg + O₂ → 2MgO  (d) Zn + CuSO₄ → ZnSO₄ + Cu",
+        "a": "**(d) Zn + CuSO₄ → ZnSO₄ + Cu.** Zinc, being more reactive, replaces copper from its salt solution. The others are combination, decomposition and combination reactions."
       },
       {
-        "q": "A 3-mark answer on “Chemical Reactions and Equations” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Quicklime reacts vigorously with water to form slaked lime and a lot of heat. This reaction is: (a) endothermic and a combination reaction  (b) exothermic and a combination reaction  (c) exothermic and a decomposition reaction  (d) endothermic and a displacement reaction",
+        "a": "**(b) exothermic and a combination reaction.** CaO + H₂O → Ca(OH)₂ + heat: two substances join to form one product, and heat is released."
       },
       {
         "q": "Which of these is a combination reaction? (a) CaO + H₂O → Ca(OH)₂  (b) 2H₂O → 2H₂ + O₂  (c) Zn + CuSO₄ → ZnSO₄ + Cu  (d) AgNO₃ + NaCl → AgCl + NaNO₃",
         "a": "**(a) CaO + H₂O → Ca(OH)₂.** Two reactants combine to form a single product; (b) is decomposition, (c) displacement and (d) double displacement."
       },
       {
-        "q": "The brown fumes evolved when lead nitrate is heated are of: (a) NO₂  (b) O₂  (c) NO  (d) PbO",
-        "a": "**(a) NO₂.** 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂; nitrogen dioxide is brown, the residue lead oxide is yellow."
+        "q": "The brown fumes evolved when lead nitrate is heated are of: (a) O₂  (b) NO₂  (c) NO  (d) PbO",
+        "a": "**(b) NO₂.** 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂; nitrogen dioxide is brown, the residue lead oxide is yellow."
       },
       {
-        "q": "Rancidity of fat-containing food is prevented by: (a) storing it in the open  (b) adding antioxidants and flushing with nitrogen  (c) adding oxidising agents  (d) heating it repeatedly",
-        "a": "**(b) adding antioxidants and flushing with nitrogen.** Both slow down the oxidation of fats that causes the stale smell and taste."
+        "q": "Rancidity of fat-containing food is prevented by: (a) storing it in the open  (b) adding oxidising agents  (c) heating it repeatedly  (d) adding antioxidants and flushing with nitrogen",
+        "a": "**(d) adding antioxidants and flushing with nitrogen.** Both slow down the oxidation of fats that causes the stale smell and taste."
       },
       {
         "q": "When the equation Fe + H₂O → Fe₃O₄ + H₂ is balanced, the coefficient of steam (H₂O) is: (a) 2  (b) 3  (c) 4  (d) 6",
         "a": "**(c) 4.** 3Fe + 4H₂O → Fe₃O₄ + 4H₂ — three iron atoms need four oxygen atoms, which come from four water molecules."
       },
       {
-        "q": "A shiny brown element X becomes black when heated in air. X and the black compound are: (a) Cu and CuO  (b) Fe and Fe₂O₃  (c) Ag and Ag₂S  (d) Al and Al₂O₃",
-        "a": "**(a) Cu and CuO.** Copper is reddish-brown and forms black copper(II) oxide on heating: 2Cu + O₂ → 2CuO."
+        "q": "A shiny brown element X becomes black when heated in air. X and the black compound are: (a) Fe and Fe₂O₃  (b) Ag and Ag₂S  (c) Cu and CuO  (d) Al and Al₂O₃",
+        "a": "**(c) Cu and CuO.** Copper is reddish-brown and forms black copper(II) oxide on heating: 2Cu + O₂ → 2CuO."
       },
       {
         "q": "The reaction 2AgBr → 2Ag + Br₂ used in black-and-white photography is a: (a) thermal decomposition  (b) photochemical decomposition  (c) displacement  (d) combination reaction",
@@ -354,20 +355,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Acids, Bases and Salts” (pH scale, indicators, and the four commercially important salts.). A classmate lost marks by doing this: Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes: “The setting of plaster of Paris into a hard mass is only a physical change because nothing new is made.” Correct the statement with the chemical equation.",
         "a": [
-          "Correct method: pH memory: the scale counts *down* as acidity goes *up*. pH 2 is a hundred times more acidic than pH 4 (each unit is a factor of ten).",
-          "Why the mistake costs marks: Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic.",
-          "Write the definition or formula first, then the working or example."
+          "Setting is a **chemical** change: plaster of Paris combines with water to form a new compound, gypsum.",
+          "CaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O (gypsum, a hard solid mass).",
+          "This is why POP is stored in moisture-proof containers: damp air would make it set. Its uses include casting for fractured bones and making toys and decorative material."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Acids, Bases and Salts”: “Why does dry HCl gas not change the colour of dry litmus paper?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "The soil in a field has a pH of 5.2. What should the farmer add to it, and why? Name one common material.",
         "a": [
-          "Idea: pH scale, indicators, and the four commercially important salts..",
-          "Because acidic behaviour requires the formation of H+(aq) ions, which needs water. Dry HCl gas has no water, so it does not ionise and cannot affect dry litmus."
+          "A pH of 5.2 means the soil is acidic, while most crops grow best at about pH 6.5–7.5.",
+          "The farmer should add a base such as quicklime (CaO), slaked lime Ca(OH)₂ or chalk (CaCO₃).",
+          "The base neutralises the excess acid (acid + base → salt + water), which raises the pH towards neutral."
         ]
       },
       {
@@ -383,21 +385,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Acids, Bases and Salts”. Their note says: What makes an acid an acid. Acids produce H+(aq) ions in water; bases produce OH−(aq) ions. Distillation water does not conduct electricity, but adding an acid or base makes it conduct, because the ions are the charge carriers. Note: dry HCl gas does not turn dry blue litmus red — water is needed fo\n\nThe chapter is described as: pH scale, indicators, and the four commercially important salts..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nFour solutions P, Q, R and S have pH values 2, 6, 8 and 13 respectively.\n\n(a) Which is the strongest acid and which is the strongest base?\n(b) Which solution would you use to relieve a bee sting, and why not the strongest base?\n(c) How many times greater is the hydrogen-ion concentration of P than that of Q?",
         "a": [
-          "(a) pH scale, indicators, and the four commercially important salts.",
-          "(b) –5 marks. A pH/reasoning question (2), a salt-family question such as bleaching powder or plaster of Paris (2–3), and one indicator or neutralisation question.",
-          "(c) Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic."
+          "(a) P (pH 2) is the strongest acid; S (pH 13) is the strongest base.",
+          "(b) R (pH 8), a mild base like baking-soda solution, neutralises the acid (methanoic acid) of the sting. S would be too strong and would burn the skin.",
+          "(c) Each pH unit is a factor of 10, and P and Q differ by 4 units, so P has 10⁴ = **10,000 times** the hydrogen-ion concentration of Q."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Why does dry HCl gas not change the colour of dry litmus paper?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA student heats a few blue crystals of copper sulphate in a dry test tube. Water droplets appear on the cooler part of the tube and the crystals turn white. When a few drops of water are added to the white powder, the blue colour returns.\n\n(a) Write the formula of the blue crystals.\n(b) Why does the colour change on heating?\n(c) What is this water called?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Because acidic behaviour requires the formation of H+(aq) ions, which needs water. Dry HCl gas has no water, so it does not ionise and cannot affect dry litmus.",
-          "(c) pH memory: the scale counts *down* as acidity goes *up*. pH 2 is a hundred times more acidic than pH 4 (each unit is a factor of ten)."
+          "(a) CuSO₄·5H₂O.",
+          "(b) Heating drives off the water held in the crystals, leaving white anhydrous copper sulphate, CuSO₄.",
+          "(c) It is the **water of crystallisation**: five water molecules per formula unit. Adding water restores it, so the blue colour returns."
         ]
       },
       {
@@ -425,12 +427,12 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Acids, Bases and Salts” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "How is baking soda prepared? What happens when it is heated? Write the equations and give two uses of baking soda and two uses of washing soda.",
         "a": [
-          "What makes an acid an acid. Acids produce H+(aq) ions in water; bases produce OH−(aq) ions. Distillation water does not conduct electricity, but adding an acid or base makes it conduct, because the ions are the charge carriers. Note: dry HCl gas does not turn dry blue litmus red — water is needed for ionisation.",
-          "Marks lens: –5 marks. A pH/reasoning question (2), a salt-family question such as bleaching powder or plaster of Paris (2–3), and one indicator or neutralisation question.",
-          "Method / memory trick: pH memory: the scale counts *down* as acidity goes *up*. pH 2 is a hundred times more acidic than pH 4 (each unit is a factor of ten).",
-          "Do not: Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic."
+          "Preparation: NaCl + H₂O + CO₂ + NH₃ → NH₄Cl + NaHCO₃ (sodium hydrogencarbonate, baking soda).",
+          "On heating: 2NaHCO₃ → Na₂CO₃ + H₂O + CO₂. The sodium carbonate formed gives washing soda, Na₂CO₃·10H₂O, on recrystallisation.",
+          "Uses of baking soda: an antacid; baking powder (with tartaric acid) to make cakes soft and spongy; soda-acid fire extinguishers.",
+          "Uses of washing soda: removing permanent hardness of water; making glass, soap and paper; household cleaning."
         ]
       }
     ],
@@ -440,44 +442,44 @@
         "a": "**(b) HCl.** Egg-shell is CaCO3; CaCO3 + 2HCl → CaCl2 + H2O + CO2. The CO2 turns lime water milky."
       },
       {
-        "q": "Which one is a strong base? (a) NH4OH (b) Mg(OH)2 (c) NaOH (d) Cu(OH)2",
-        "a": "**(c) NaOH.** Alkali metal hydroxides are strong bases and ionise completely; the others are weak."
+        "q": "Which one is a strong base? (a) NaOH (b) NH4OH (c) Mg(OH)2 (d) Cu(OH)2",
+        "a": "**(a) NaOH.** Alkali metal hydroxides are strong bases and ionise completely; the others are weak."
       },
       {
         "q": "The pH of gastric juice released during digestion is: (a) less than 7 (b) more than 7 (c) equal to 7 (d) equal to 0",
         "a": "**(a) less than 7.** The stomach secretes hydrochloric acid, which keeps the gastric juice acidic (roughly pH 1.2–3) so that pepsin can act."
       },
       {
-        "q": "The most exam-ready way to revise “Acids, Bases and Salts” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is pH scale, indicators, and the four commercially important salts.."
+        "q": "Which of the following salts gives a neutral solution (pH about 7) in water? (a) Na₂CO₃  (b) NH₄Cl  (c) NaCl  (d) CH₃COONa",
+        "a": "**(c) NaCl.** NaCl is the salt of a strong acid (HCl) and a strong base (NaOH), so its solution is neutral."
       },
       {
-        "q": "A 3-mark answer on “Acids, Bases and Salts” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "When carbon dioxide is passed through lime water, it turns milky because of the formation of: (a) calcium chloride  (b) calcium carbonate  (c) calcium hydroxide  (d) calcium oxide",
+        "a": "**(b) calcium carbonate.** Ca(OH)₂ + CO₂ → CaCO₃ + H₂O; calcium carbonate is insoluble in water, so the lime water turns milky."
       },
       {
         "q": "A solution turns colourless phenolphthalein pink. Its pH is likely to be: (a) 2  (b) 5  (c) 7  (d) 10",
         "a": "**(d) 10.** Phenolphthalein turns pink only in a basic solution, whose pH is above 7."
       },
       {
-        "q": "The salt used to remove permanent hardness of water is: (a) sodium chloride  (b) sodium carbonate  (c) calcium sulphate  (d) ammonium chloride",
-        "a": "**(b) sodium carbonate.** Washing soda precipitates out the dissolved calcium and magnesium salts that cause hardness."
+        "q": "The salt used to remove permanent hardness of water is: (a) sodium chloride  (b) calcium sulphate  (c) sodium carbonate  (d) ammonium chloride",
+        "a": "**(c) sodium carbonate.** Washing soda precipitates out the dissolved calcium and magnesium salts that cause hardness."
       },
       {
-        "q": "Dilute acid added to an active metal produces: (a) oxygen  (b) hydrogen  (c) carbon dioxide  (d) nitrogen",
-        "a": "**(b) hydrogen.** Metal + dilute acid → salt + H₂, which burns with a pop sound."
+        "q": "Dilute acid added to an active metal produces: (a) hydrogen  (b) oxygen  (c) carbon dioxide  (d) nitrogen",
+        "a": "**(a) hydrogen.** Metal + dilute acid → salt + H₂, which burns with a pop sound."
       },
       {
         "q": "The chemical formula of Plaster of Paris is: (a) CaSO₄·2H₂O  (b) CaSO₄·½H₂O  (c) CaSO₄  (d) CaCO₃",
         "a": "**(b) CaSO₄·½H₂O.** Gypsum (CaSO₄·2H₂O) heated to 373 K loses three-quarters of its water of crystallisation to give the hemihydrate."
       },
       {
-        "q": "Baking soda is: (a) Na₂CO₃·10H₂O  (b) NaHCO₃  (c) NaOH  (d) Na₂CO₃",
-        "a": "**(b) NaHCO₃.** Sodium hydrogencarbonate; it releases CO₂ on heating or with acid, which makes cakes rise and antacids fizz."
+        "q": "Baking soda is: (a) Na₂CO₃·10H₂O  (b) NaOH  (c) Na₂CO₃  (d) NaHCO₃",
+        "a": "**(d) NaHCO₃.** Sodium hydrogencarbonate; it releases CO₂ on heating or with acid, which makes cakes rise and antacids fizz."
       },
       {
-        "q": "Bleaching powder is manufactured by passing chlorine gas over: (a) dry slaked lime  (b) quicklime  (c) limestone  (d) gypsum",
-        "a": "**(a) dry slaked lime.** Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O. Quicklime is CaO, limestone is CaCO₃, gypsum is a sulphate."
+        "q": "Bleaching powder is manufactured by passing chlorine gas over: (a) quicklime  (b) limestone  (c) dry slaked lime  (d) gypsum",
+        "a": "**(c) dry slaked lime.** Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O. Quicklime is CaO, limestone is CaCO₃, gypsum is a sulphate."
       }
     ],
     "trend": "The four salts — bleaching powder, baking soda, washing soda, plaster of Paris — rotate through the 3-mark slot every year, and the pH scale almost always appears as a case-based or diagram question.",
@@ -580,20 +582,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Metals and Non-metals” (Physical properties, the reactivity series and extraction of metals.). A classmate lost marks by doing this: Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes: “Zinc carbonate is converted into zinc oxide by roasting in excess air.” Correct the statement and write the equations for converting a carbonate ore and a sulphide ore into oxides.",
         "a": [
-          "Correct method: Reactivity series mnemonic: *Please Send Charlie's Monkey And Zebra Into Lions' Pens, Come Home Monkeys, All Safe And sound* (K Na Ca Mg Al Zn Fe Pb H Cu Hg Ag Au).",
-          "Why the mistake costs marks: Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water.",
-          "Write the definition or formula first, then the working or example."
+          "A carbonate ore is converted into its oxide by **calcination** — heating strongly in a limited supply or absence of air. Roasting is used for sulphide ores, in excess air.",
+          "Calcination: ZnCO₃ → ZnO + CO₂.",
+          "Roasting: 2ZnS + 3O₂ → 2ZnO + 2SO₂."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Metals and Non-metals”: “Name a metal that is liquid at room temperature and a non-metal that is lustrous.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Iron nails are placed in copper sulphate solution, and a copper strip is placed in zinc sulphate solution. In which case will a reaction occur? Justify.",
         "a": [
-          "Idea: Physical properties, the reactivity series and extraction of metals..",
-          "Mercury (metal, liquid at room temperature) and iodine (non-metal, lustrous)."
+          "A more reactive metal displaces a less reactive metal from its salt solution.",
+          "Iron is more reactive than copper, so a reaction occurs: Fe + CuSO₄ → FeSO₄ + Cu.",
+          "Copper is less reactive than zinc, so it cannot displace zinc, and there is no reaction in the second case."
         ]
       },
       {
@@ -609,21 +612,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Metals and Non-metals”. Their note says: Physical properties. Metals are lustrous, malleable, ductile, sonorous and good conductors of heat and electricity; sodium and potassium are soft enough to cut with a knife, mercury is the only liquid metal, gallium and caesium melt in your palm. Non-metals are the opposite: dull, brittle, poor cond\n\nThe chapter is described as: Physical properties, the reactivity series and extraction of metals..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA metal M reacts with dilute hydrochloric acid, giving bubbles of a gas that burns with a pop sound. M does not react with cold water but reacts with steam to form a metal oxide and the same gas.\n\n(a) Name the gas.\n(b) Suggest a metal that could be M.\n(c) Write the equation for the reaction of M with steam.",
         "a": [
-          "(a) Physical properties, the reactivity series and extraction of metals.",
-          "(b) –4 marks. The reactivity series and displacement reactions are asked every year; ionic bond formation and the extraction of a metal (usually copper or zinc) fill the 3-mark slot.",
-          "(c) Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water."
+          "(a) Hydrogen.",
+          "(b) Zinc (iron or aluminium would also fit).",
+          "(c) Zn + H₂O(g) → ZnO + H₂."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Name a metal that is liquid at room temperature and a non-metal that is lustrous.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA student tests three samples. Solid sodium chloride does not conduct electricity, but molten sodium chloride and its aqueous solution do. An aqueous solution of glucose does not conduct either.\n\n(a) Why does solid NaCl not conduct?\n(b) Why does it conduct when molten or dissolved?\n(c) Why does the glucose solution not conduct?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Mercury (metal, liquid at room temperature) and iodine (non-metal, lustrous).",
-          "(c) Reactivity series mnemonic: *Please Send Charlie's Monkey And Zebra Into Lions' Pens, Come Home Monkeys, All Safe And sound* (K Na Ca Mg Al Zn Fe Pb H Cu Hg Ag Au)."
+          "(a) In the solid, the Na⁺ and Cl⁻ ions are held rigidly in the crystal and cannot move.",
+          "(b) Melting or dissolving frees the ions, and moving ions carry the current.",
+          "(c) Glucose is a covalent compound made of neutral molecules; it forms no ions in water, so there are no charge carriers."
         ]
       },
       {
@@ -649,19 +652,20 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Metals and Non-metals” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Explain, with equations, how zinc is extracted from its sulphide ore. Why can sodium not be obtained from its oxide in the same way?",
         "a": [
-          "Physical properties. Metals are lustrous, malleable, ductile, sonorous and good conductors of heat and electricity; sodium and potassium are soft enough to cut with a knife, mercury is the only liquid metal, gallium and caesium melt in your palm. Non-metals are the opposite: dull, brittle, poor conductors — except graphite, which conducts, and iodine, a lustrous non-metal.",
-          "Marks lens: –4 marks. The reactivity series and displacement reactions are asked every year; ionic bond formation and the extraction of a metal (usually copper or zinc) fill the 3-mark slot.",
-          "Method / memory trick: Reactivity series mnemonic: *Please Send Charlie's Monkey And Zebra Into Lions' Pens, Come Home Monkeys, All Safe And sound* (K Na Ca Mg Al Zn Fe Pb H Cu Hg Ag Au).",
-          "Do not: Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water."
+          "Zinc blende (ZnS) is first concentrated, then converted into zinc oxide by roasting: 2ZnS + 3O₂ → 2ZnO + 2SO₂.",
+          "The oxide is reduced to the metal by heating with carbon: ZnO + C → Zn + CO.",
+          "The crude zinc is purified by electrolytic refining.",
+          "Sodium is far above carbon in the reactivity series, so carbon cannot reduce its oxide.",
+          "Highly reactive metals are obtained by electrolysis of their molten chlorides: at the cathode Na⁺ + e⁻ → Na."
         ]
       }
     ],
     "mcq": [
       {
-        "q": "A copper coin placed in silver nitrate solution turns silvery and the solution turns blue. This shows copper is: (a) less reactive than silver (b) more reactive than silver (c) equally reactive (d) an inert metal",
-        "a": "**(b) more reactive than silver.** Cu + 2AgNO3 → Cu(NO3)2 + 2Ag; the blue colour is due to Cu2+ ions."
+        "q": "A copper coin placed in silver nitrate solution turns silvery and the solution turns blue. This shows copper is: (a) less reactive than silver (b) equally reactive (c) an inert metal (d) more reactive than silver",
+        "a": "**(d) more reactive than silver.** Cu + 2AgNO3 → Cu(NO3)2 + 2Ag; the blue colour is due to Cu2+ ions."
       },
       {
         "q": "Which pair is amphoteric? (a) Na2O and CaO (b) Al2O3 and ZnO (c) CO2 and SO2 (d) CuO and FeO",
@@ -672,36 +676,36 @@
         "a": "**(c) electrolytic reduction.** Sodium is above carbon in the reactivity series, so carbon cannot reduce it; the molten chloride is electrolysed."
       },
       {
-        "q": "The most exam-ready way to revise “Metals and Non-metals” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Physical properties, the reactivity series and extraction of metals.."
+        "q": "Which of the following metals will displace copper from copper sulphate solution? (a) Ag  (b) Zn  (c) Hg  (d) Au",
+        "a": "**(b) Zn.** Only a metal above copper in the reactivity series can displace it; zinc is above copper, while silver, mercury and gold are below it."
       },
       {
-        "q": "A 3-mark answer on “Metals and Non-metals” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "An element forms an oxide that is acidic in nature. The element is most likely a: (a) non-metal  (b) metal  (c) alkali metal  (d) alloy",
+        "a": "**(a) non-metal.** Non-metals form acidic (or neutral) oxides, while metals generally form basic oxides."
       },
       {
         "q": "The best conductor of electricity among these is: (a) copper  (b) silver  (c) aluminium  (d) iron",
         "a": "**(b) silver.** Silver conducts best, then copper; silver is too costly for wiring, so copper is used."
       },
       {
-        "q": "Brass is an alloy of: (a) copper and tin  (b) copper and zinc  (c) lead and tin  (d) mercury and zinc",
-        "a": "**(b) copper and zinc.** Bronze is copper and tin, solder is lead and tin, and an amalgam contains mercury."
+        "q": "Brass is an alloy of: (a) copper and zinc  (b) copper and tin  (c) lead and tin  (d) mercury and zinc",
+        "a": "**(a) copper and zinc.** Bronze is copper and tin, solder is lead and tin, and an amalgam contains mercury."
       },
       {
-        "q": "Which metal reacts vigorously with cold water? (a) iron  (b) zinc  (c) sodium  (d) copper",
-        "a": "**(c) sodium.** It reacts violently with cold water; iron and zinc react only with steam, and copper does not react at all."
+        "q": "Which metal reacts vigorously with cold water? (a) iron  (b) zinc  (c) copper  (d) sodium",
+        "a": "**(d) sodium.** It reacts violently with cold water; iron and zinc react only with steam, and copper does not react at all."
       },
       {
-        "q": "The correct decreasing order of reactivity is: (a) Zn > Mg > Cu  (b) Mg > Zn > Cu  (c) Cu > Zn > Mg  (d) Zn > Cu > Mg",
-        "a": "**(b) Mg > Zn > Cu.** In the reactivity series magnesium lies above zinc, and copper lies below hydrogen, so it is the least reactive of the three."
+        "q": "The correct decreasing order of reactivity is: (a) Zn > Mg > Cu  (b) Cu > Zn > Mg  (c) Zn > Cu > Mg  (d) Mg > Zn > Cu",
+        "a": "**(d) Mg > Zn > Cu.** In the reactivity series magnesium lies above zinc, and copper lies below hydrogen, so it is the least reactive of the three."
       },
       {
         "q": "Galvanisation protects iron from rusting by coating it with a thin layer of: (a) tin  (b) chromium  (c) zinc  (d) copper",
         "a": "**(c) zinc.** Zinc is more reactive than iron, so it corrodes in preference to the iron even if the coating is scratched."
       },
       {
-        "q": "Magnesium (2, 8, 2) combines with chlorine (2, 8, 7) to form an ionic compound with the formula: (a) MgCl  (b) MgCl₂  (c) Mg₂Cl  (d) MgCl₃",
-        "a": "**(b) MgCl₂.** Magnesium loses two electrons to become Mg²⁺; each chlorine atom gains one, so two Cl⁻ ions are needed."
+        "q": "Magnesium (2, 8, 2) combines with chlorine (2, 8, 7) to form an ionic compound with the formula: (a) MgCl₂  (b) MgCl  (c) Mg₂Cl  (d) MgCl₃",
+        "a": "**(a) MgCl₂.** Magnesium loses two electrons to become Mg²⁺; each chlorine atom gains one, so two Cl⁻ ions are needed."
       }
     ],
     "trend": "One displacement question from the reactivity series and one reasoning question (kerosene, galvanising, aqua regia or the thermite reaction) appear almost every year; ionic bond formation is the recurring 3-mark answer.",
@@ -809,20 +813,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Carbon and its Compounds” (Covalent bonding, homologous series, and ethanol and ethanoic acid.). A classmate lost marks by doing this: Writing the general formula of alkenes as CnH2n+2. Check by counting ethene: C2H4 fits CnH2n. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes the formula of propene as C₃H₈, saying the general formula of alkenes is CₙH₂ₙ₊₂. Find the error and give the correct formula and structure of propene.",
         "a": [
-          "Correct method: Carbon counts: *Meth*-1, *Eth*-2, *Prop*-3, *But*-4, *Pent*-5, *Hex*-6. The suffix gives the bond: *-ane* single, *-ene* double, *-yne* triple.",
-          "Why the mistake costs marks: Writing the general formula of alkenes as CnH2n+2. Check by counting ethene: C2H4 fits CnH2n.",
-          "Write the definition or formula first, then the working or example."
+          "Error: CₙH₂ₙ₊₂ is the general formula of **alkanes**; alkenes have the general formula CₙH₂ₙ.",
+          "For n = 3, propene is C₃H₆, with the structure CH₃–CH=CH₂ (one C=C double bond).",
+          "C₃H₈ is propane, the saturated hydrocarbon with only single bonds."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Carbon and its Compounds”: “Why do covalent compounds generally have low melting and boiling points?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "How can you distinguish between ethanol and ethanoic acid by adding sodium hydrogencarbonate to each? Write the equation for the reaction that occurs.",
         "a": [
-          "Idea: Covalent bonding, homologous series, and ethanol and ethanoic acid..",
-          "Because the forces of attraction *between* their molecules are weak, even though the covalent bonds within a molecule are strong. Little energy is needed to separate the molecules."
+          "Add a little sodium hydrogencarbonate to a sample of each liquid.",
+          "Ethanoic acid gives a brisk effervescence of carbon dioxide (the gas turns lime water milky); ethanol shows no reaction.",
+          "CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂."
         ]
       },
       {
@@ -838,21 +843,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Carbon and its Compounds”. Their note says: Why carbon is special. Carbon has four valence electrons; gaining or losing four electrons is energetically impossible, so it shares electrons and forms covalent bonds. Two properties make it unique: catenation (bonding to itself in long chains, branches and rings) and tetravalency. Covalent compoun\n\nThe chapter is described as: Covalent bonding, homologous series, and ethanol and ethanoic acid..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nThree compounds are: A = CH₃CH₂OH, B = CH₃COOH and C = CH₃COOCH₂CH₃.\n\n(a) Name A, B and C.\n(b) Which compound has a sweet, fruity smell, and how is it formed?\n(c) Write the equation for its formation.",
         "a": [
-          "(a) Covalent bonding, homologous series, and ethanol and ethanoic acid.",
-          "(b) –5 marks. One naming question (IUPAC name or structure), one comparison of soap and detergent or of ethanol and ethanoic acid, and one reaction of carbon compounds.",
-          "(c) Writing the general formula of alkenes as CnH2n+2. Check by counting ethene: C2H4 fits CnH2n."
+          "(a) A is ethanol, B is ethanoic acid and C is ethyl ethanoate.",
+          "(b) C, the ester. It is formed when ethanol reacts with ethanoic acid in the presence of a few drops of concentrated sulphuric acid — an **esterification** reaction.",
+          "(c) CH₃COOH + CH₃CH₂OH → CH₃COOCH₂CH₃ + H₂O (conc. H₂SO₄ as catalyst)."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Why do covalent compounds generally have low melting and boiling points?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA chemist heats ethanol with excess concentrated sulphuric acid at 443 K and collects a colourless gas that decolourises bromine water. In another test, a small piece of sodium is dropped into ethanol; a gas bubbles out that burns with a pop sound.\n\n(a) Name the two gases.\n(b) Name the type of the first reaction.\n(c) Write the equation for the second reaction.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Because the forces of attraction *between* their molecules are weak, even though the covalent bonds within a molecule are strong. Little energy is needed to separate the molecules.",
-          "(c) Carbon counts: *Meth*-1, *Eth*-2, *Prop*-3, *But*-4, *Pent*-5, *Hex*-6. The suffix gives the bond: *-ane* single, *-ene* double, *-yne* triple."
+          "(a) The first gas is ethene; the second is hydrogen.",
+          "(b) The first reaction is **dehydration** — conc. H₂SO₄ removes a molecule of water from ethanol: CH₃CH₂OH → CH₂=CH₂ + H₂O.",
+          "(c) 2Na + 2CH₃CH₂OH → 2CH₃CH₂ONa + H₂ (sodium ethoxide and hydrogen)."
         ]
       },
       {
@@ -879,12 +884,12 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Carbon and its Compounds” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Why does carbon form covalent compounds? Describe the bonding in methane and in ethene with the help of electron-dot structures, in words.",
         "a": [
-          "Why carbon is special. Carbon has four valence electrons; gaining or losing four electrons is energetically impossible, so it shares electrons and forms covalent bonds. Two properties make it unique: catenation (bonding to itself in long chains, branches and rings) and tetravalency. Covalent compounds have low melting and boiling points (weak intermolecular forces), are usually insoluble in water, and do not conduct.",
-          "Marks lens: –5 marks. One naming question (IUPAC name or structure), one comparison of soap and detergent or of ethanol and ethanoic acid, and one reaction of carbon compounds.",
-          "Method / memory trick: Carbon counts: *Meth*-1, *Eth*-2, *Prop*-3, *But*-4, *Pent*-5, *Hex*-6. The suffix gives the bond: *-ane* single, *-ene* double, *-yne* triple.",
-          "Do not: Writing the general formula of alkenes as CnH2n+2. Check by counting ethene: C2H4 fits CnH2n."
+          "Carbon has four valence electrons. To gain four electrons (C⁴⁻) is difficult because six protons must hold ten electrons, and to lose four (C⁴⁺) needs a very large amount of energy. So carbon **shares** electrons and forms covalent bonds.",
+          "Methane, CH₄: the carbon atom shares one electron with each of four hydrogen atoms, forming four single bonds. Carbon gets an octet and each hydrogen gets a duplet.",
+          "Ethene, C₂H₄: each carbon shares two electrons with the other carbon (a **double bond**, two shared pairs) and one electron with each of two hydrogen atoms.",
+          "Each carbon in ethene has four shared pairs around it, so both carbons have an octet."
         ]
       }
     ],
@@ -894,44 +899,44 @@
         "a": "**(c) 7** — six C–H bonds plus one C–C bond."
       },
       {
-        "q": "Which compound decolorises bromine water? (a) CH4 (b) C2H6 (c) C2H4 (d) C3H8",
-        "a": "**(c) C2H4** (ethene). Only unsaturated compounds with a double bond undergo addition with bromine."
+        "q": "Which compound decolorises bromine water? (a) C2H4 (b) CH4 (c) C2H6 (d) C3H8",
+        "a": "**(a) C2H4** (ethene). Only unsaturated compounds with a double bond undergo addition with bromine."
       },
       {
-        "q": "Vinegar is a solution of: (a) 5–8% ethanoic acid in water (b) 50–80% ethanoic acid (c) pure ethanoic acid (d) ethanoic acid in alcohol",
-        "a": "**(a) 5–8% ethanoic acid in water.** Pure (glacial) acetic acid freezes at 290 K, which is why it is not used directly in kitchens."
+        "q": "Vinegar is a solution of: (a) 50–80% ethanoic acid (b) 5–8% ethanoic acid in water (c) pure ethanoic acid (d) ethanoic acid in alcohol",
+        "a": "**(b) 5–8% ethanoic acid in water.** Pure (glacial) acetic acid freezes at 290 K, which is why it is not used directly in kitchens."
       },
       {
-        "q": "The most exam-ready way to revise “Carbon and its Compounds” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Covalent bonding, homologous series, and ethanol and ethanoic acid.."
+        "q": "The next higher homologue of ethanol, C₂H₅OH, is: (a) C₃H₇OH  (b) C₃H₈  (c) CH₃OH  (d) C₂H₅COOH",
+        "a": "**(a) C₃H₇OH.** Successive members of a homologous series differ by a –CH₂– unit; ethanol → propanol (C₃H₇OH)."
       },
       {
-        "q": "A 3-mark answer on “Carbon and its Compounds” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Which of the following burns with a sooty flame? (a) methane (CH₄)  (b) ethane (C₂H₆)  (c) ethyne (C₂H₂)  (d) ethanol (C₂H₅OH)",
+        "a": "**(c) ethyne (C₂H₂).** Unsaturated hydrocarbons such as ethyne have a high proportion of carbon, which does not burn completely and forms soot."
       },
       {
         "q": "Which compound decolourises alkaline KMnO₄ (Baeyer's reagent)? (a) C₂H₆  (b) C₂H₄  (c) CH₄  (d) C₃H₈",
         "a": "**(b) C₂H₄.** Ethene is unsaturated; only double or triple bonds add on and decolourise the reagent."
       },
       {
-        "q": "The functional group present in an alcohol is: (a) –CHO  (b) –COOH  (c) –OH  (d) –CO–",
-        "a": "**(c) –OH.** –CHO is aldehyde, –COOH is carboxylic acid and –CO– is a ketone group."
+        "q": "The functional group present in an alcohol is: (a) –CHO  (b) –COOH  (c) –CO–  (d) –OH",
+        "a": "**(d) –OH.** –CHO is aldehyde, –COOH is carboxylic acid and –CO– is a ketone group."
       },
       {
-        "q": "The gas evolved when ethanoic acid reacts with sodium carbonate is: (a) H₂  (b) O₂  (c) CO₂  (d) CO",
-        "a": "**(c) CO₂.** 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂; the gas turns lime water milky."
+        "q": "The gas evolved when ethanoic acid reacts with sodium carbonate is: (a) H₂  (b) O₂  (c) CO  (d) CO₂",
+        "a": "**(d) CO₂.** 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂; the gas turns lime water milky."
       },
       {
-        "q": "The IUPAC name of CH₃–CH₂–CHO is: (a) propanol  (b) propanal  (c) propanone  (d) propanoic acid",
-        "a": "**(b) propanal.** Three carbons (prop-) with an aldehyde group –CHO (-al). Propanone is a ketone, propanol an alcohol, propanoic acid a carboxylic acid."
+        "q": "The IUPAC name of CH₃–CH₂–CHO is: (a) propanal  (b) propanol  (c) propanone  (d) propanoic acid",
+        "a": "**(a) propanal.** Three carbons (prop-) with an aldehyde group –CHO (-al). Propanone is a ketone, propanol an alcohol, propanoic acid a carboxylic acid."
       },
       {
-        "q": "Which pair belongs to the same homologous series? (a) CH₄ and C₂H₄  (b) C₂H₆ and C₃H₈  (c) C₂H₄ and C₂H₂  (d) CH₃OH and CH₃COOH",
-        "a": "**(b) C₂H₆ and C₃H₈.** Both are alkanes (CₙH₂ₙ₊₂) differing by one –CH₂– unit. The other pairs have different functional groups or bond types."
+        "q": "Which pair belongs to the same homologous series? (a) CH₄ and C₂H₄  (b) C₂H₄ and C₂H₂  (c) CH₃OH and CH₃COOH  (d) C₂H₆ and C₃H₈",
+        "a": "**(d) C₂H₆ and C₃H₈.** Both are alkanes (CₙH₂ₙ₊₂) differing by one –CH₂– unit. The other pairs have different functional groups or bond types."
       },
       {
-        "q": "Which hydrocarbon undergoes an addition reaction with hydrogen in the presence of a nickel catalyst? (a) C₃H₈  (b) C₂H₆  (c) C₄H₁₀  (d) C₂H₄",
-        "a": "**(d) C₂H₄.** Only an unsaturated hydrocarbon (ethene, with a C=C double bond) can add hydrogen; the other three are saturated alkanes."
+        "q": "Which hydrocarbon undergoes an addition reaction with hydrogen in the presence of a nickel catalyst? (a) C₃H₈  (b) C₂H₆  (c) C₂H₄  (d) C₄H₁₀",
+        "a": "**(c) C₂H₄.** Only an unsaturated hydrocarbon (ethene, with a C=C double bond) can add hydrogen; the other three are saturated alkanes."
       }
     ],
     "trend": "One IUPAC naming or structure question every year, plus either the soap/detergent comparison or an ethanol–ethanoic acid reaction question. Homologous series tables are a favourite case-based format.",

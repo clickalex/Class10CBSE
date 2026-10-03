@@ -1,0 +1,139 @@
+﻿CLASS 10 CBSE · SCIENCE (Subject Code 086)
+Chapter 10 · The Human Eye and the Colourful World · session 2026–27
+
+1 chapter · 14 written Q&A · 11 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/science/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 10 · The Human Eye and the Colourful World
+Unit: III · Natural Phenomena
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Name the part of the eye that controls the amount of light entering it, and the least distance of distinct vision for a normal eye.
+    Ans: The iris (which adjusts the size of the pupil); 25 cm.
+
+Q2. [Short · 2 marks] Why do stars twinkle but planets do not?
+    Ans: Starlight passes through layers of air of changing refractive index, so its path keeps changing slightly and the apparent brightness and position fluctuate — the star twinkles. Planets are much nearer and behave as a collection of many point sources, so the fluctuations from different parts cancel out and the total light remains steady.
+
+Q3. [Short · 2 marks] Why does the sun appear reddish early in the morning?
+    Ans: Because near the horizon sunlight travels through a much thicker layer of air. The shorter blue wavelengths are scattered away, and mainly the longer red wavelengths reach our eyes, so the sun looks red. At noon the path is short, little blue light is scattered, and the sun looks white.
+
+Q4. [Short · 2 marks] What is the power of accommodation of the eye?
+    Ans: It is the ability of the eye lens to change its focal length — by the action of the ciliary muscles — so that both near and distant objects are focused sharply on the retina. In a normal eye the near point is about 25 cm and the far point is infinity.
+
+Q5. [Short · 3 marks] What is myopia? State its two causes and its correction.
+    Ans:
+      Myopia (short-sightedness) is the defect in which a person can see nearby objects clearly but cannot see distant objects distinctly; the image of a distant object forms in front of the retina.
+      Causes: (i) excessive curvature of the eye lens, (ii) elongation of the eyeball.
+      Correction: a concave lens of suitable power, which diverges the light so that the image is formed exactly on the retina.
+
+Q6. [Short · 3 marks] Explain the formation of a rainbow in the sky.
+    Ans:
+      After rain, tiny water droplets remain suspended in the air and act as small glass prisms.
+      Sunlight entering a droplet is first refracted and dispersed into its constituent colours, then undergoes total internal reflection at the inner surface of the droplet, and is refracted again as it leaves.
+      Because different colours emerge at slightly different angles, the observer sees a coloured arc — a rainbow — with the sun always behind them.
+
+Q7. [Application · 3 marks] A student explains the twinkling of stars by saying, “Stars burn unevenly, so their brightness keeps changing.” Correct the explanation and say why planets do not twinkle.
+    Ans:
+      Twinkling is caused by atmospheric refraction, not by the star burning unevenly.
+      Starlight passes through layers of air whose density and refractive index keep changing, so the star’s apparent position wobbles slightly and the amount of light entering the eye fluctuates.
+      A planet is much nearer and acts like a collection of many point sources; the fluctuations average out, so a planet does not twinkle.
+
+Q8. [Application · 3 marks] A student cannot see objects clearly beyond 80 cm. Name the defect, the type of corrective lens required, and calculate its power.
+    Ans:
+      The far point is only 80 cm, so the student is short-sighted (myopic).
+      A concave lens is needed; it must form a virtual image of a distant object at 80 cm, so f = −80 cm = −0.8 m.
+      P = 1/f = 1/(−0.8) = −1.25 D.
+
+Q9. [Short · 3 marks] What is presbyopia? State its cause and how it is corrected.
+    Ans:
+      Presbyopia is the loss of the eye's power of accommodation with age: the ciliary muscles weaken and the lens becomes less flexible.
+      As a result the near point recedes and reading or threading a needle becomes difficult.
+      It is corrected with converging (convex) spectacles; when a person has both myopia and presbyopia, bifocal lenses are used.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    Rahul sees distant objects clearly but cannot read a book held at the normal distance of 25 cm.
+
+    (a) Name the defect.
+    (b) Give two possible causes.
+    (c) Name the corrective lens and explain how it helps.
+    Ans:
+      (a) Hypermetropia (far-sightedness).
+      (b) The focal length of the eye lens is too long, or the eyeball is too short, so the image of a near object forms behind the retina.
+      (c) A convex lens: it converges the rays a little before they enter the eye, so the image forms on the retina.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A narrow beam of white light passes through a glass prism and forms a band of seven colours on a screen. When the same beam passes through a rectangular glass slab, no band of colours appears.
+
+    (a) Name the phenomenon seen with the prism.
+    (b) Which colour bends the most and which the least?
+    (c) Why does the rectangular slab not show it?
+    Ans:
+      (a) Dispersion of white light.
+      (b) Violet bends the most and red the least.
+      (c) The opposite faces of a slab are parallel, so the colours spread on entering are brought back together on leaving, and emerge as white light again.
+
+Q12. [Application · 4 marks] Explain why the sky looks blue and the sun looks white at noon but red at sunrise.
+    Ans:
+      Air molecules and fine particles scatter light of short wavelength much more strongly than long wavelength light (scattering ∝ 1/λ⁴).
+      Blue light is scattered the most, so light reaching the eye from all parts of the sky is rich in blue.
+      At noon the sun is overhead and its light crosses the shortest possible path, so very little blue is removed and the sun looks white.
+      Near sunrise and sunset the path through the atmosphere is much longer, most of the blue is scattered away, and the remaining direct light looks red.
+
+Q13. [Long · 5 marks] Explain atmospheric refraction and describe any three phenomena based on it.
+    Ans:
+      Atmospheric refraction is the bending of light as it passes through layers of air of different densities; the refractive index of air decreases as we go up, so light from a celestial body bends gradually toward the normal.
+      (1) Twinkling of stars: the continuously changing refractive index makes the apparent position and brightness of a star fluctuate.
+      (2) Advance of sunrise and delay of sunset: light from the sun below the horizon is refracted toward the earth, so the sun becomes visible about two minutes before actual sunrise and remains visible about two minutes after sunset — the day is lengthened by about 4 minutes.
+      (3) Apparent flattening of the sun's disc at sunrise and sunset, and stars appearing slightly higher than their true position, are also caused by the same refraction.
+
+Q14. [Long · 5 marks] Describe how the human eye forms an image of an object and how it adjusts to see objects at different distances.
+    Ans:
+      Light enters through the transparent cornea, which does most of the bending of light; the iris controls the size of the pupil and so the amount of light entering.
+      The eye lens focuses the light and forms a real, inverted image on the retina.
+      The retina contains light-sensitive cells that produce electrical signals, which the optic nerve carries to the brain; the brain interprets the image as erect.
+      For different distances, the ciliary muscles change the curvature of the lens, and so its focal length. This is called accommodation.
+      For nearby objects the lens becomes thicker (shorter focal length); for distant objects it becomes thinner.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The change in focal length of the eye lens is caused by the action of the: (a) pupil (b) retina (c) iris (d) ciliary muscles
+    Ans: (d) ciliary muscles — they change the curvature of the crystalline lens, giving the eye its power of accommodation.
+
+M2. The danger signals installed at the top of tall buildings are red because red light: (a) is scattered the most by smoke or fog (b) is scattered the least by smoke or fog (c) is absorbed the most (d) moves fastest in air
+    Ans: (b) is scattered the least — being of the longest wavelength, so it can be seen from a greater distance through fog or smoke.
+
+M3. A person cannot read a newspaper without glasses. He is probably suffering from: (a) myopia (b) astigmatism (c) hypermetropia (d) night blindness
+    Ans: (c) hypermetropia — difficulty in seeing near objects clearly, corrected with a convex lens.
+
+M4. The eye defect hypermetropia is corrected by using a: (a) convex lens  (b) concave lens  (c) cylindrical lens  (d) bifocal lens with a concave upper part
+    Ans: (a) convex lens. In hypermetropia the image forms behind the retina, so a converging (convex) lens is used.
+
+M5. The part of the eye that contains the light-sensitive cells is the: (a) retina  (b) cornea  (c) iris  (d) pupil
+    Ans: (a) retina. The retina holds the rods and cones that convert light into electrical signals.
+
+M6. The eye defect in which the far point is nearer than infinity is: (a) hypermetropia  (b) myopia  (c) presbyopia  (d) cataract
+    Ans: (b) myopia. Short-sightedness is corrected with a diverging (concave) lens.
+
+M7. The splitting of white light into its component colours is called: (a) dispersion  (b) scattering  (c) total internal reflection  (d) polarisation
+    Ans: (a) dispersion. Different wavelengths bend by different amounts inside a prism, so the colours separate.
+
+M8. Stars twinkle mainly because of: (a) dispersion  (b) reflection from clouds  (c) their own flickering  (d) atmospheric refraction
+    Ans: (d) atmospheric refraction. Moving layers of air of changing density bend the starlight by varying amounts, so its apparent position shifts rapidly.
+
+M9. The least distance of distinct vision for a young adult with normal vision is about: (a) 2.5 cm  (b) 25 m  (c) 25 cm  (d) infinity
+    Ans: (c) 25 cm. This is the near point; the far point of a normal eye is at infinity.
+
+M10. The clear sky appears blue because: (a) blue light is absorbed the most  (b) shorter wavelengths are scattered more by air molecules  (c) the sea reflects blue light upwards  (d) the atmosphere refracts blue light towards the eye
+    Ans: (b) shorter wavelengths are scattered more by air molecules. Fine particles scatter blue light far more than red, so scattered blue reaches the eye from every direction.
+
+M11. A student with myopia is prescribed a lens of power −2.0 D. The lens is: (a) convex, focal length 50 cm  (b) concave, focal length 2 m  (c) concave, focal length 50 cm  (d) convex, focal length 2 m
+    Ans: (c) concave, focal length 50 cm. f = 1/P = 1/(−2) m = −0.5 m; the negative sign means a concave (diverging) lens, which corrects myopia.

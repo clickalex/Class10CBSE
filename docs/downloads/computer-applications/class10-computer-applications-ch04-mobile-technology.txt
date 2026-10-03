@@ -1,0 +1,115 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 4 · Mobile & Wireless Technology · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 4 · Mobile & Wireless Technology
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is the difference between Bluetooth and NFC?
+    Ans: Bluetooth works over a range of a few metres and is used for continuous connections such as headphones, speakers and keyboards. NFC (Near Field Communication) works only within a few centimetres and is used for a single quick exchange — contactless payments, transit cards, pairing by tapping. Bluetooth needs pairing; NFC works by simply bringing two devices together.
+
+Q2. [Short · 2 marks] What is a cell and what is handover?
+    Ans: A cell is the geographic area covered by one mobile tower. A whole city is divided into many cells, which is why mobile networks are called cellular. Handover is the automatic process of moving an ongoing call or data session from one cell's tower to the next as the user travels, so the connection does not drop.
+
+Q3. [Short · 2 marks] Why does infrared need line of sight but Wi-Fi does not?
+    Ans: Infrared uses light waves, which cannot pass through solid objects, so the transmitter and receiver must see each other directly — that is why a TV remote only works when pointed at the TV. Wi-Fi uses radio waves, which pass through walls and furniture, so it works throughout a building without a direct line of sight.
+
+Q4. [Short · 2 marks] What does 4G mean and how is it better than 3G?
+    Ans: 4G is the fourth generation of mobile network technology, designed for data rather than voice, with download speeds of up to about 100 Mbps, smooth video streaming and low delay. 3G was built mainly to improve voice calls and gave only modest data speeds, so tasks such as video calling were slow or impossible.
+
+Q5. [Short · 3 marks] Compare 3G, 4G and 5G.
+    Ans: 3G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures.
+
+Q6. [Application · 3 marks] A student writes: “4G is simply a faster version of 3G.” Correct the statement.
+    Ans:
+      4G is faster, but speed is not the main change.
+      The key difference is that 4G is all-IP: both voice and data travel as packets over an IP network, while earlier generations carried voice separately.
+      This is what makes HD video streaming, video calls and mobile gaming practical on a phone.
+
+Q7. [Application · 3 marks] Choose the most suitable wireless technology and justify it: (i) paying at a shop by tapping a phone, (ii) sending photos to a friend sitting next to you, (iii) changing channels with a TV remote, (iv) joining a laptop to home broadband without a cable.
+    Ans:
+      (i) NFC: it works only at a few centimetres, which is safe for payments.
+      (ii) Bluetooth: a short-range link of a few metres that needs no router.
+      (iii) Infrared: a cheap short-range signal that needs a clear line of sight to the TV.
+      (iv) Wi-Fi: a wireless local network that gives broadband-speed access through a router.
+
+Q8. [Short · 3 marks] Name four short-range wireless technologies and give one use of each.
+    Ans:
+      Bluetooth connects a phone to wireless earphones, a keyboard or a speaker within about ten metres.
+      Wi-Fi connects devices to a local network and through it to the internet, at home, in school or in a cafe.
+      NFC allows contactless payments and data exchange when two devices are touched or held a few centimetres apart.
+      Infrared needs a direct line of sight and is still used in television remote controls.
+
+Q9. [Short · 3 marks] Why is 5G described as ‘for machines’ rather than just ‘faster phones’? Explain with reference to IoT and latency.
+    Ans:
+      Speed alone would only improve video on phones, which 4G already handles well.
+      5G's real change is low latency plus massive device density: millions of sensors, vehicles and appliances can talk to each other in milliseconds.
+      That is what the Internet of Things needs — a driverless car or a factory robot cannot wait for a slow round-trip. Hence: 1 voice, 2 text, 3 web, 4 video, 5 machines.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A phone’s specification sheet lists: 5G, Wi-Fi 6, Bluetooth 5.3, NFC and an infrared blaster.
+
+    (a) Which of these has the shortest range?
+    (b) Which one needs line of sight?
+    (c) Which one connects the phone to the mobile operator’s towers?
+    Ans:
+      (a) NFC, which works over only a few centimetres.
+      (b) Infrared, because it cannot pass around obstacles, unlike Bluetooth and Wi-Fi.
+      (c) 5G, the cellular technology.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A village gets a mobile tower and each family buys a SIM card.
+
+    (a) What is a SIM card for?
+    (b) What does the tower do?
+    (c) What is a “cell”?
+    Ans:
+      (a) It identifies the subscriber to the network and stores the phone number and security details.
+      (b) The tower (base station) sends and receives radio signals to and from the phones around it and connects them to the rest of the network.
+      (c) The area covered by one tower; a mobile network is divided into many such cells, and when a user moves from one to the next, the call is handed over.
+
+Q12. [Long · 5 marks] Trace the evolution of mobile technology from 1G to 5G, stating the main improvement at each step.
+    Ans:
+      1G: analogue voice calls only, with poor quality and no security.
+      2G: digital voice with SMS and better call quality.
+      3G: mobile internet and the first practical video calls.
+      4G: high speed on an all-IP network, which made HD streaming and mobile apps routine.
+      5G: very high speed, very low delay and the ability to connect huge numbers of devices, which suits the Internet of Things.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which generation first made video calling practical? (a) 2G (b) 4G (c) 1G (d) 3G
+    Ans: (d) 3G, with speeds up to about 2 Mbps.
+
+M2. NFC works over a range of — (a) centimetres (b) metres (c) kilometres (d) it has no limit
+    Ans: (a) centimetres — which is why you tap.
+
+M3. Which standard family defines Wi-Fi? (a) IEEE 802.3 (b) IEEE 802.11 (c) IEEE 802.15 (d) IEEE 802.16
+    Ans: (b) IEEE 802.11. 802.3 is wired Ethernet.
+
+M4. 4G networks are described as — (a) analog (b) circuit-switched (c) all-IP (d) infrared-based
+    Ans: (c) all-IP.
+
+M5. Which generation of mobile technology first introduced digital voice and SMS? (a) 1G (b) 3G (c) 4G (d) 2G
+    Ans: (d) 2G. 1G was analogue; 2G made voice digital and added text messaging.
+
+M6. The technology used when a phone is tapped on a terminal to make a contactless payment is: (a) NFC (b) infrared (c) GPS (d) satellite link
+    Ans: (a) NFC. Near Field Communication works over a few centimetres, which is why it is used for payments.
+
+M7. The generation of mobile technology that first made mobile internet practical was: (a) 1G  (b) 3G  (c) 2G  (d) 5G
+    Ans: (b) 3G. 1G was analogue voice, 2G added digital voice and SMS, and 5G is the current high-speed standard.
+
+M8. NFC works only when the two devices are: (a) in the same building  (b) on the same Wi-Fi network  (c) a few centimetres apart  (d) several metres apart
+    Ans: (c) a few centimetres apart. The short range is what makes contactless payment safe.

@@ -1,0 +1,130 @@
+﻿CLASS 10 CBSE · SCIENCE (Subject Code 086)
+Chapter 8 · Heredity · session 2026–27
+
+1 chapter · 14 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/science/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 8 · Heredity
+Unit: II · World of Living
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?
+    Ans: XY; the gene (a segment of DNA on a chromosome).
+
+Q2. [Short · 2 marks] A man with blood group A marries a woman with blood group O and their daughter has blood group O. Is this enough to tell which trait is dominant? Why?
+    Ans: No. From one family we cannot tell. If A were dominant, the father could be heterozygous (IAi) and the daughter could inherit i from both parents; but a single observation does not establish dominance, which requires studying many such crosses.
+
+Q3. [Short · 2 marks] Distinguish between acquired and inherited traits, with one example of each.
+    Ans: An acquired trait develops during an organism's lifetime due to experience or environment and is not passed on — for example, a wrestler's well-developed muscles or a pierced ear. An inherited trait is present from birth and is passed on through the DNA of germ cells — for example, the colour of eyes or free ear lobes.
+
+Q4. [Short · 2 marks] Distinguish between genotype and phenotype with an example.
+    Ans: Genotype is the genetic constitution of an organism (for example Tt), while phenotype is the observable character it produces (for example a tall plant). Because the tall allele is dominant, the genotypes TT and Tt both give the tall phenotype.
+
+Q5. [Short · 3 marks] Explain Mendel's monohybrid cross with a Punnett square.
+    Ans:
+      Pure tall (TT) × pure dwarf (tt). Gametes: T and t. F1: all Tt — tall, because tall is dominant and dwarf is recessive.
+      Selfing F1 (Tt × Tt) gives gametes T and t from each parent. Punnett square → TT, Tt, Tt, tt.
+      Phenotype: 3 tall : 1 dwarf. Genotype: 1 TT : 2 Tt : 1 tt. The dwarf character was only masked in F1, not lost.
+
+Q6. [Short · 3 marks] How is the sex of a child determined in human beings? Show diagrammatically.
+    Ans:
+      Mother (XX) produces only X-bearing eggs; father (XY) produces X-bearing and Y-bearing sperms in equal numbers.
+      X egg + X sperm → XX = girl; X egg + Y sperm → XY = boy.
+      The probability of either is 50%, so the sex of the child is decided by chance and not by either parent's wish or action.
+
+Q7. [Application · 3 marks] In a cross between two F₁ pea plants (Tt × Tt), a student writes: “The ratio of tall to dwarf plants is 1 : 2 : 1.” What is the mistake? Write the correct phenotypic and genotypic ratios.
+    Ans:
+      The ratio 1 : 2 : 1 is the genotypic ratio (TT : Tt : tt), not the ratio of tall to dwarf plants.
+      Both TT and Tt plants look tall, so the phenotypic ratio is tall : dwarf = 3 : 1.
+      Genotype is the gene combination (TT, Tt, tt); phenotype is the visible trait (tall or dwarf).
+
+Q8. [Application · 3 marks] In humans, free earlobes (F) are dominant over attached earlobes (f). A man with free earlobes, whose mother had attached earlobes, marries a woman with attached earlobes. What kinds of earlobes can their children have, and in what proportion?
+    Ans:
+      The man’s mother was ff, so he received f from her; he has free earlobes, so he is Ff. The woman is ff.
+      Cross Ff × ff: gametes F, f from the man and only f from the woman.
+      Children: 1 Ff : 1 ff, i.e. 50% free earlobes and 50% attached earlobes.
+
+Q9. [Short · 3 marks] A tall pea plant (Tt) is crossed with a dwarf plant (tt). What proportion of the progeny will be tall?
+    Ans:
+      The tall parent produces two kinds of gametes, T and t; the dwarf parent produces only t.
+      Combining them gives Tt, Tt, tt and tt.
+      So half the progeny are Tt (tall) and half are tt (dwarf) — a 1 : 1 ratio. This cross with a recessive parent is called a test cross.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A population of red beetles lives on green bushes, and crows easily spot and eat the red beetles. In one reproductive event, a variation appears and a green beetle is born.
+
+    (a) Why is the green beetle more likely to survive?
+    (b) What happens to the colour of the beetle population over several generations?
+    (c) Does this variation help the individual only, or the species? Explain.
+    Ans:
+      (a) Its green colour camouflages it against the green leaves, so crows find it harder to see.
+      (b) Green beetles survive and breed, passing the colour to their offspring, so their number grows each generation while the red beetles decline.
+      (c) It helps the species: because the variation is inherited, it spreads and increases the chance that the population survives the crows.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A student crosses pure tall pea plants with pure dwarf pea plants. All F₁ plants are tall. When the F₁ plants are self-pollinated, the F₂ generation has 600 tall and 200 dwarf plants.
+
+    (a) What is the ratio of tall to dwarf plants in F₂?
+    (b) Which trait is recessive, and why was it not seen in F₁?
+    (c) What does the result show about how traits are inherited?
+    Ans:
+      (a) 600 : 200 = 3 : 1.
+      (b) Dwarfness is recessive. In F₁ every plant is Tt, and the dominant allele T masks t, so all look tall.
+      (c) Each parent passes one copy of the factor for a trait; the factors do not blend, and the recessive trait reappears in F₂ when two copies of it come together.
+
+Q12. [Application · 4 marks] A family blames the mother whenever a daughter is born. Using what you know about sex determination, write the reply you would give them.
+    Ans:
+      Human females have two X chromosomes, so every egg carries an X chromosome.
+      Human males have one X and one Y, so half their sperm carry X and half carry Y.
+      An X-bearing sperm fertilising the egg gives XX, a girl; a Y-bearing sperm gives XY, a boy. The egg always contributes an X, so it is the sperm — that is, the father — that decides the sex of the child.
+      Repeated daughters in a family are a matter of chance, exactly like repeated tails when a coin is tossed; there is no biological basis for blaming the mother.
+
+Q13. [Long · 5 marks] Describe Mendel's dihybrid cross and state the conclusion drawn from it.
+    Ans:
+      He crossed pea plants with round-yellow seeds (RRYY) with plants having wrinkled-green seeds (rryy).
+      F1: all plants had round-yellow seeds (RrYy) — round and yellow are dominant.
+      On self-pollinating F1, F2 gave four phenotypes: 9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green (16 combinations in the 4×4 Punnett square).
+      Conclusion: the two pairs of characters are inherited independently of each other, which is why new combinations (round-green and wrinkled-green) appear in F2 that were absent in the parents. This is the law of independent assortment.
+
+Q14. [Long · 5 marks] How do variations arise in sexually reproducing organisms? Explain with examples why variation is important for the survival of a species.
+    Ans:
+      Copying of DNA during reproduction is never perfectly accurate, so small differences (variations) arise between parent and offspring.
+      In sexual reproduction the DNA of two different parents is combined, which produces much more variation than copying one parent alone.
+      Some variations help an organism in a changed environment. For example, when a heat wave kills most bacteria in a pond, the few heat-tolerant ones survive and multiply.
+      Similarly, a green beetle on green bushes escapes crows and leaves more offspring than a red beetle.
+      A population with no variation could be wiped out by one change in its surroundings, so variation gives a species a chance to survive.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. In a monohybrid cross between a tall (TT) and a dwarf (tt) pea plant, the F2 phenotypic ratio is: (a) 1:1 (b) 9:3:3:1 (c) 3:1 (d) 1:2:1
+    Ans: (c) 3 tall : 1 dwarf. 1:2:1 is the genotypic ratio of the same cross.
+
+M2. The sex of a human child is determined by: (a) the father's sperm (b) the mother's egg (c) both parents equally (d) the diet of the mother
+    Ans: (a) the father's sperm. Eggs always carry X; a sperm carrying Y produces a boy and one carrying X produces a girl.
+
+M3. A cross between F1 hybrid tall plants (Tt × Tt) gives dwarf plants in F2. The expected ratio of tall to dwarf is: (a) 1:3 (b) 3:1 (c) 1:1 (d) 2:2
+    Ans: (b) 3:1 — 25% of F2 are homozygous dwarf (tt).
+
+M4. In a cross between two plants with genotype Tt × Tt, the proportion of the progeny with genotype Tt is: (a) 1/4 (b) 3/4 (c) 1 (d) 1/2
+    Ans: (d) 1/2. The Punnett square gives TT : Tt : tt = 1 : 2 : 1, so Tt makes up 2 of 4, i.e. 1/2.
+
+M5. Mendel chose the garden pea for his experiments mainly because it: (a) has easily visible contrasting traits and a short life cycle (b) has no variation among its plants (c) cannot be self-pollinated (d) produces only one seed per plant
+    Ans: (a) has easily visible contrasting traits and a short life cycle. Pea plants have clear contrasting traits (tall/dwarf, round/wrinkled), grow quickly, and can be both self- and cross-pollinated.
+
+M6. The phenotypic ratio obtained in a dihybrid cross between two F₁ hybrids is: (a) 3 : 1  (b) 9 : 3 : 3 : 1  (c) 1 : 1  (d) 1 : 2 : 1
+    Ans: (b) 9 : 3 : 3 : 1. Mendel obtained this for two independently assorting traits, such as seed shape and seed colour.
+
+M7. Which of these traits can be inherited? (a) the cut tail of a mouse  (b) large muscles built by exercise  (c) eye colour  (d) a scar
+    Ans: (c) eye colour. Only changes in the DNA of reproductive cells are passed to the next generation; acquired changes in body cells are not.
+
+M8. The number of chromosomes in a human zygote is: (a) 23  (b) 92  (c) 22  (d) 46
+    Ans: (d) 46. Each gamete carries 23 chromosomes and their fusion restores the 23 pairs.

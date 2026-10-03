@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 13 · Cybercrime, IPR & Open Source · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 13 · Cybercrime, IPR & Open Source
+Unit: Unit III · Cyber Ethics
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is plagiarism and how can it be avoided?
+    Ans: Plagiarism is presenting someone else's words, ideas, data or code as if they were your own, without giving credit. It is an ethical offence even when no money changes hands. It is avoided by always citing the source, using quotation marks around copied text, paraphrasing genuinely rather than swapping a few words, and keeping a record of every source consulted while working.
+
+Q2. [Short · 2 marks] What is software piracy?
+    Ans: Software piracy is the unauthorised copying, distribution or use of software without a valid licence. It includes installing one licensed copy on many machines, downloading cracked versions, and selling counterfeit discs. It deprives developers of income and often exposes the user to malware, since pirated copies are frequently bundled with it.
+
+Q3. [Short · 2 marks] Distinguish between freeware and shareware.
+    Ans: Freeware can be used free of charge indefinitely, but its source code is usually closed and it cannot be modified or sold — an example is Skype. Shareware is distributed free only as a trial, either for a limited period or with reduced features, and the user must pay to continue using it after the trial ends.
+
+Q4. [Short · 2 marks] What is plagiarism and how is it different from quoting?
+    Ans: Plagiarism is using someone else's words, ideas, images or code and presenting them as your own, even if you change a few words or do not name the source. Quoting keeps the original wording inside quotation marks and names the author and the work, so the reader knows whose words they are; that is allowed and expected in school work.
+
+Q5. [Short · 3 marks] What is IPR? Name and explain its four main types.
+    Ans: IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business information such as a formula or a method.
+
+Q6. [Short · 3 marks] Differentiate between free and open source software and proprietary software, with examples.
+    Ans: FOSS makes the source code available, so anyone may use, study, modify and redistribute the program; examples are Linux, Firefox and LibreOffice. Here 'free' refers to freedom rather than price. Proprietary software keeps its source code secret and grants only a licence to use it, forbidding copying, modification or redistribution; examples are Microsoft Windows and Adobe Photoshop. The practical difference is that with FOSS you can fix or extend the software yourself, while with proprietary software you depend entirely on the vendor.
+
+Q7. [Application · 3 marks] A student says, “I wrote a poem, so I must apply for a patent to protect it.” Correct this and say which kind of IPR protects (i) a poem, (ii) a new invention and (iii) a brand logo.
+    Ans:
+      (i) A poem is a creative work, protected by copyright, which arises automatically when it is created.
+      (ii) A new invention is protected by a patent, which has to be applied for.
+      (iii) A brand name or logo is protected by a trademark.
+
+Q8. [Application · 3 marks] Ravi copies a paragraph from a website into his project without saying where it came from, and his friend buys a pirated copy of a game. Name each offence and say how they differ.
+    Ans:
+      Ravi’s act is plagiarism: presenting someone else’s work as his own.
+      His friend’s act is software piracy: making or using an unlicensed copy of software.
+      Plagiarism is about taking credit; piracy is about using copies without the owner’s permission or payment. Ravi can avoid plagiarism by quoting and acknowledging the source.
+
+Q9. [Short · 3 marks] Explain the four main kinds of intellectual property.
+    Ans:
+      Copyright protects original literary, musical, artistic and software works, and lasts for the life of the author plus sixty years in India.
+      A patent protects a new invention for twenty years, and lets the owner stop others from making or selling it.
+      A trademark protects a name, logo or symbol that identifies a business or product, such as a brand name or a jingle.
+      A design right protects the shape, pattern or look of a manufactured article, and trade secrets protect information kept confidential by a business.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A school installs three programs: LibreOffice, whose source code anyone may study and change; a PDF viewer that is free to use but whose code is secret; and a paid word processor.
+
+    (a) Which is free and open-source software (FOSS)?
+    (b) Which is freeware?
+    (c) Which is proprietary software?
+    Ans:
+      (a) LibreOffice.
+      (b) The PDF viewer: it costs nothing but its source code is closed.
+      (c) The paid word processor.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    Anita gets an e-mail that looks like it is from her bank. It asks her to click a link and enter her card number and OTP “to avoid blocking”.
+
+    (a) Name this cybercrime.
+    (b) Why is it dangerous?
+    (c) State two precautions.
+    Ans:
+      (a) Phishing.
+      (b) The link leads to a fake site that steals her card details and OTP, which can be used to empty her account.
+      (c) Never click links in unexpected messages or share an OTP; check the sender and web address, and go to the bank’s official site or app. Report the message.
+
+Q12. [Long · 5 marks] What is cybercrime? Explain any four types with an example each, and give two ways of protecting yourself.
+    Ans:
+      Cybercrime is an illegal act carried out using a computer, a network or the internet.
+      Hacking: unauthorised access to a computer or account, for example guessing a password to read someone’s mail.
+      Phishing: fake messages or sites that trick people into giving passwords or card details.
+      Identity theft: using someone’s personal data to pose as them, for example to open a bank account; and cyber-bullying: harassing a person online.
+      Protection: use strong, different passwords with updated security software, and do not share OTPs, personal details or click unknown links.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which IPR protects a brand logo? (a) copyright (b) patent (c) trademark (d) trade secret
+    Ans: (c) trademark.
+
+M2. Which IPR protects an invention? (a) copyright (b) trademark (c) patent (d) licence
+    Ans: (c) patent.
+
+M3. Which of these is open source? (a) Linux (b) MS Windows (c) Adobe Photoshop (d) Skype
+    Ans: (a) Linux.
+
+M4. Presenting someone else's work as your own is — (a) piracy (b) phishing (c) hacking (d) plagiarism
+    Ans: (d) plagiarism.
+
+M5. Software free to use but closed in source is called — (a) shareware (b) freeware (c) FOSS (d) malware
+    Ans: (b) freeware.
+
+M6. Copying a paid program and selling it without the owner's permission is: (a) fair use  (b) open source  (c) shareware  (d) software piracy
+    Ans: (d) software piracy. It is a criminal offence under the Copyright Act.
+
+M7. Open source software is software that: (a) lets users study, change and share the source code  (b) is always free of cost  (c) cannot be copied  (d) runs only on mobile phones
+    Ans: (a) lets users study, change and share the source code. Free refers to freedom, not necessarily to price.
+
+M8. Software distributed as a paid trial is called: (a) freeware (b) shareware (c) FOSS (d) malware
+    Ans: (b) shareware. Try first, pay later; freeware is free but closed, FOSS is open in source.

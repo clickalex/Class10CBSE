@@ -1,0 +1,110 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 8 · ToC, Templates and Track Changes · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 8 · ToC, Templates and Track Changes
+Unit: Part B · Digital Documentation (Advanced)
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Write the steps to insert a Table of Contents in Writer.
+    Ans: Apply Heading styles → Insert → Table of Contents and Index → Table of Contents → OK. Right-click → Update Index after changes.
+
+Q2. [Short · 2 marks] What is a document template?
+    Ans: A model file (.ott) that stores styles, headers and boilerplate so new documents start consistent.
+
+Q3. [Short · 2 marks] How is a table of contents generated automatically in Writer?
+    Ans: Apply the Heading 1, Heading 2 and Heading 3 styles to the headings, then choose Insert → Table of Contents and Index → Table of Contents, Index or Bibliography. Writer collects the styled headings with their page numbers; after further edits, refresh it with Tools → Update → Update All.
+
+Q4. [Short · 2 marks] What is the difference between a template (.ott) and an ordinary Writer document (.odt)?
+    Ans: A template is a reusable starting point: it stores styles, margins, headers and layout that every new document based on it inherits. An ordinary document stores one finished piece of work. Editing a template changes all future documents made from it; editing a document changes only that file.
+
+Q5. [Application · 3 marks] A teacher wants 40 identical permission letters with only the parent name changing. Which Writer feature, and what two files does she need?
+    Ans: Mail merge. She needs the main letter and a data source (Calc column ParentName).
+
+Q6. [Application · 3 marks] A student saves her letterhead as letterhead.odt and calls it a template, but it does not appear under File → New → Templates. What is wrong, and how should she have saved it?
+    Ans:
+      An ordinary Writer file has the extension .odt; a template has the extension .ott.
+      She should use File → Templates → Save as Template, or Save As and choose the template file type.
+      Documents created from the template then start as new, untitled copies, and the template itself stays unchanged.
+
+Q7. [Short · 3 marks] Explain what track changes and comments do, and when you would use each.
+    Ans:
+      Track Changes (Edit → Track Changes → Record) marks every insertion and deletion so that a reader can see exactly what has been altered and accept or reject each change from Edit → Track Changes → Manage.
+      Comments (Insert → Comment) let a reviewer write a note or a question beside the text without changing the text itself.
+      Use track changes when several people are editing one document, and comments when you want to suggest an idea or ask a question.
+
+Q8. [Short · 3 marks] After adding two new chapters, a student's ToC shows stale page numbers. What is the exact fix, and why does the problem occur?
+    Ans:
+      Fix — right-click inside the Table of Contents and choose Update Index (or Update Index/Table), then update the whole table.
+      Cause — the ToC is a snapshot taken when it was inserted; Writer does not rebuild it automatically as pages shift.
+      Prevention — the new chapters must use Heading styles, not manual bold, or they will be missing from the rebuilt ToC as well.
+
+Q9. [Long · 4 marks] Explain mail merge and its advantages.
+    Ans: Mail merge combines a main document with a data source to produce personalised letters. Advantages: speed, accuracy of names, one design for many copies, labels/envelopes.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    Two students edit report.odt. One deletes a paragraph; the other does not know what changed.
+
+    (a) Which tool should have been on?
+    (b) How do they accept only some edits?
+    (c) When would a Comment be better than changing the text?
+    Ans:
+      (a) Track Changes → Record.
+      (b) Review each change → Accept or Reject.
+      (c) When suggesting, not rewriting — e.g. “please add the figure here”.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A school wants every teacher to use the same notice format: logo, heading, a date field and a signature line.
+
+    (a) How can the format be shared?
+    (b) Which file extension is used?
+    (c) What happens to the template when a teacher writes a notice?
+    Ans:
+      (a) Create one document with the logo, heading, date field and signature line, and save it as a template for everyone to use for new notices.
+      (b) .ott, the Writer template extension.
+      (c) The template is not changed: a new document based on it opens, and the teacher saves it under its own name.
+
+Q12. [Long · 5 marks] A student must prepare a 30-page project report that a teacher will review. Describe the workflow in five steps, using a template, a table of contents and track changes.
+    Ans:
+      Step 1: start a new document from the school’s report template (.ott), so margins and fonts are already set.
+      Step 2: give chapter titles Heading 1 and sub-titles Heading 2 using styles.
+      Step 3: insert the table of contents (Insert → Table of Contents and Index) and update it after every change.
+      Step 4: the teacher turns on Edit → Track Changes → Record and adds comments; every edit is shown in colour.
+      Step 5: the student reviews the changes, accepts or rejects each one, updates the table of contents and saves the final report.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Writer templates usually use the extension: (a) .ods (b) .odb (c) .ott (d) .jpg
+    Ans: (c) .ott.
+
+M2. ToC is updated by: (a) F11 (b) right-click the ToC → Update Index (c) Goal Seek (d) Group
+    Ans: (b).
+
+M3. Mail merge needs: (a) a main document and a data source (b) only an image (c) only a printer (d) a Base report only
+    Ans: (a).
+
+M4. Recorded deletions in Track Changes usually appear as: (a) a new page (b) a ToC (c) a style (d) strike-out text
+    Ans: (d) strike-out text.
+
+M5. To add a note about a word without changing the text itself, you use a: (a) template (b) page break (c) comment (d) caption
+    Ans: (c) comment. A comment is attached to the text and is shown in the margin, but it is not part of the document text.
+
+M6. In mail merge, the file that holds the names and addresses is called the: (a) data source (b) template (c) style (d) macro
+    Ans: (a) data source. The data source (for example a spreadsheet or database) supplies the values that fill the fields of the letter.
+
+M7. A template is: (a) a picture  (b) a ready-made document with styles, margins and layout already set  (c) a macro  (d) a printer setting
+    Ans: (b) a ready-made document with styles, margins and layout already set. Saving a template saves time on every similar document.
+
+M8. Recorded changes are accepted or rejected from: (a) File → Save  (b) Insert → Comment  (c) View → Zoom  (d) Edit → Track Changes → Manage
+    Ans: (d) Edit → Track Changes → Manage. The Manage dialog lists every change with its author and time.

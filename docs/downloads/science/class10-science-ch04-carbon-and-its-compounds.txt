@@ -1,0 +1,136 @@
+﻿CLASS 10 CBSE · SCIENCE (Subject Code 086)
+Chapter 4 · Carbon and its Compounds · session 2026–27
+
+1 chapter · 14 written Q&A · 11 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/science/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 4 · Carbon and its Compounds
+Unit: I · Chemical Substances
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Why do covalent compounds generally have low melting and boiling points?
+    Ans: Because the forces of attraction between their molecules are weak, even though the covalent bonds within a molecule are strong. Little energy is needed to separate the molecules.
+
+Q2. [Short · 2 marks] Give a chemical test to distinguish between butter and cooking oil.
+    Ans: The bromine water test (or the alkaline KMnO4 test). Cooking oil is unsaturated, so it decolorises bromine water/KMnO4; butter is largely saturated and does not.
+
+Q3. [Short · 2 marks] Why is a mixture of ethyne and pure oxygen used for welding instead of ethyne and air?
+    Ans: In air, ethyne burns incompletely and gives a sooty flame with less heat. In pure oxygen combustion is complete, producing a clean flame at about 3000 °C (the oxy-acetylene flame), which is hot enough for welding.
+
+Q4. [Short · 2 marks] Why is methane called a saturated hydrocarbon? Describe its electron-dot structure in words.
+    Ans: In methane (CH₄) all four valencies of carbon are satisfied by four single covalent bonds with hydrogen atoms, so no more atoms can be added — the molecule is saturated. In the electron-dot structure, carbon sits at the centre and shares one pair of electrons with each of the four hydrogen atoms, giving every atom a stable octet (duplet for hydrogen).
+
+Q5. [Short · 3 marks] What is a homologous series? Write the general formula and the third member of the alkane series.
+    Ans:
+      A homologous series is a group of compounds with the same general formula and similar chemical properties, in which successive members differ by a −CH2− unit (14 u).
+      Alkanes: CnH2n+2. Third member = propane, C3H8.
+
+Q6. [Short · 3 marks] Explain the cleansing action of soap with the help of a diagram description.
+    Ans:
+      A soap molecule has a hydrophilic ionic head and a hydrophobic hydrocarbon tail.
+      In water, the tails attach to the oily dirt while the heads remain in water, forming a spherical cluster called a micelle with the oil trapped inside.
+      The micelle is washed away with the water, taking the dirt with it; agitation helps detach the oil.
+
+Q7. [Application · 3 marks] A student writes the formula of propene as C₃H₈, saying the general formula of alkenes is CₙH₂ₙ₊₂. Find the error and give the correct formula and structure of propene.
+    Ans:
+      Error: CₙH₂ₙ₊₂ is the general formula of alkanes; alkenes have the general formula CₙH₂ₙ.
+      For n = 3, propene is C₃H₆, with the structure CH₃–CH=CH₂ (one C=C double bond).
+      C₃H₈ is propane, the saturated hydrocarbon with only single bonds.
+
+Q8. [Application · 3 marks] How can you distinguish between ethanol and ethanoic acid by adding sodium hydrogencarbonate to each? Write the equation for the reaction that occurs.
+    Ans:
+      Add a little sodium hydrogencarbonate to a sample of each liquid.
+      Ethanoic acid gives a brisk effervescence of carbon dioxide (the gas turns lime water milky); ethanol shows no reaction.
+      CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂.
+
+Q9. [Short · 3 marks] Write the equation for the combustion of ethanol and explain why ethanol burns with a clean blue flame.
+    Ans:
+      C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O + heat and light.
+      Ethanol already contains oxygen and has a low carbon-to-hydrogen ratio, so it burns almost completely.
+      Saturated hydrocarbons contain relatively more carbon and often burn incompletely, depositing unburnt carbon, which gives a sooty yellow flame.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    Three compounds are: A = CH₃CH₂OH, B = CH₃COOH and C = CH₃COOCH₂CH₃.
+
+    (a) Name A, B and C.
+    (b) Which compound has a sweet, fruity smell, and how is it formed?
+    (c) Write the equation for its formation.
+    Ans:
+      (a) A is ethanol, B is ethanoic acid and C is ethyl ethanoate.
+      (b) C, the ester. It is formed when ethanol reacts with ethanoic acid in the presence of a few drops of concentrated sulphuric acid — an esterification reaction.
+      (c) CH₃COOH + CH₃CH₂OH → CH₃COOCH₂CH₃ + H₂O (conc. H₂SO₄ as catalyst).
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A chemist heats ethanol with excess concentrated sulphuric acid at 443 K and collects a colourless gas that decolourises bromine water. In another test, a small piece of sodium is dropped into ethanol; a gas bubbles out that burns with a pop sound.
+
+    (a) Name the two gases.
+    (b) Name the type of the first reaction.
+    (c) Write the equation for the second reaction.
+    Ans:
+      (a) The first gas is ethene; the second is hydrogen.
+      (b) The first reaction is dehydration — conc. H₂SO₄ removes a molecule of water from ethanol: CH₃CH₂OH → CH₂=CH₂ + H₂O.
+      (c) 2Na + 2CH₃CH₂OH → 2CH₃CH₂ONa + H₂ (sodium ethoxide and hydrogen).
+
+Q12. [Application · 4 marks] Why does soap not lather well in hard water, and what is used instead?
+    Ans:
+      Hard water contains dissolved calcium and magnesium salts, which react with soap to form an insoluble sticky precipitate (scum).
+      Soap is therefore wasted and lather forms only after all the Ca²⁺ and Mg²⁺ ions have been precipitated.
+      Detergents are used instead: their molecules are sulphonate or sulphate salts whose calcium and magnesium salts stay dissolved, so they lather even in hard water.
+
+Q13. [Long · 5 marks] With equations, describe three chemical properties of ethanoic acid.
+    Ans:
+      With a base (neutralisation): CH3COOH + NaOH → CH3COONa + H2O.
+      With a metal carbonate: 2CH3COOH + Na2CO3 → 2CH3COONa + H2O + CO2.
+      With a hydrogen carbonate: CH3COOH + NaHCO3 → CH3COONa + H2O + CO2 (brisk effervescence).
+      Esterification (with ethanol, conc. H2SO4): CH3COOH + C2H5OH → CH3COOC2H5 + H2O — a sweet-smelling ester used in perfumes and flavourings.
+
+Q14. [Long · 5 marks] Why does carbon form covalent compounds? Describe the bonding in methane and in ethene with the help of electron-dot structures, in words.
+    Ans:
+      Carbon has four valence electrons. To gain four electrons (C⁴⁻) is difficult because six protons must hold ten electrons, and to lose four (C⁴⁺) needs a very large amount of energy. So carbon shares electrons and forms covalent bonds.
+      Methane, CH₄: the carbon atom shares one electron with each of four hydrogen atoms, forming four single bonds. Carbon gets an octet and each hydrogen gets a duplet.
+      Ethene, C₂H₄: each carbon shares two electrons with the other carbon (a double bond, two shared pairs) and one electron with each of two hydrogen atoms.
+      Each carbon in ethene has four shared pairs around it, so both carbons have an octet.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The number of covalent bonds in a molecule of ethane (C2H6) is: (a) 5 (b) 6 (c) 7 (d) 8
+    Ans: (c) 7 — six C–H bonds plus one C–C bond.
+
+M2. Which compound decolorises bromine water? (a) C2H4 (b) CH4 (c) C2H6 (d) C3H8
+    Ans: (a) C2H4 (ethene). Only unsaturated compounds with a double bond undergo addition with bromine.
+
+M3. Vinegar is a solution of: (a) 50–80% ethanoic acid (b) 5–8% ethanoic acid in water (c) pure ethanoic acid (d) ethanoic acid in alcohol
+    Ans: (b) 5–8% ethanoic acid in water. Pure (glacial) acetic acid freezes at 290 K, which is why it is not used directly in kitchens.
+
+M4. The next higher homologue of ethanol, C₂H₅OH, is: (a) C₃H₇OH  (b) C₃H₈  (c) CH₃OH  (d) C₂H₅COOH
+    Ans: (a) C₃H₇OH. Successive members of a homologous series differ by a –CH₂– unit; ethanol → propanol (C₃H₇OH).
+
+M5. Which of the following burns with a sooty flame? (a) methane (CH₄)  (b) ethane (C₂H₆)  (c) ethyne (C₂H₂)  (d) ethanol (C₂H₅OH)
+    Ans: (c) ethyne (C₂H₂). Unsaturated hydrocarbons such as ethyne have a high proportion of carbon, which does not burn completely and forms soot.
+
+M6. Which compound decolourises alkaline KMnO₄ (Baeyer's reagent)? (a) C₂H₆  (b) C₂H₄  (c) CH₄  (d) C₃H₈
+    Ans: (b) C₂H₄. Ethene is unsaturated; only double or triple bonds add on and decolourise the reagent.
+
+M7. The functional group present in an alcohol is: (a) –CHO  (b) –COOH  (c) –CO–  (d) –OH
+    Ans: (d) –OH. –CHO is aldehyde, –COOH is carboxylic acid and –CO– is a ketone group.
+
+M8. The gas evolved when ethanoic acid reacts with sodium carbonate is: (a) H₂  (b) O₂  (c) CO  (d) CO₂
+    Ans: (d) CO₂. 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂; the gas turns lime water milky.
+
+M9. The IUPAC name of CH₃–CH₂–CHO is: (a) propanal  (b) propanol  (c) propanone  (d) propanoic acid
+    Ans: (a) propanal. Three carbons (prop-) with an aldehyde group –CHO (-al). Propanone is a ketone, propanol an alcohol, propanoic acid a carboxylic acid.
+
+M10. Which pair belongs to the same homologous series? (a) CH₄ and C₂H₄  (b) C₂H₄ and C₂H₂  (c) CH₃OH and CH₃COOH  (d) C₂H₆ and C₃H₈
+    Ans: (d) C₂H₆ and C₃H₈. Both are alkanes (CₙH₂ₙ₊₂) differing by one –CH₂– unit. The other pairs have different functional groups or bond types.
+
+M11. Which hydrocarbon undergoes an addition reaction with hydrogen in the presence of a nickel catalyst? (a) C₃H₈  (b) C₂H₆  (c) C₂H₄  (d) C₄H₁₀
+    Ans: (c) C₂H₄. Only an unsaturated hydrocarbon (ethene, with a C=C double bond) can add hydrogen; the other three are saturated alkanes.

@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 2 · Internet Services & Protocols · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 2 · Internet Services & Protocols
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Give the full form of FTP and its default port.
+    Ans: FTP stands for File Transfer Protocol, and its default port is 21. It is used to upload and download files between a client and a server.
+
+Q2. [Short · 2 marks] What is the difference between HTTP and HTTPS?
+    Ans: HTTP (HyperText Transfer Protocol) is the protocol used to fetch web pages, and it sends everything in plain text on port 80. HTTPS is the same protocol wrapped in encryption using TLS/SSL, on port 443. The practical difference is that with HTTPS a third party watching the network cannot read or alter the data — which is why banking and login pages always use it.
+
+Q3. [Short · 2 marks] Explain the difference between POP3 and IMAP.
+    Ans: Both protocols receive email, but they handle storage differently. POP3 downloads messages to your device and normally deletes them from the server, so the mail is only on that one machine. IMAP leaves messages on the server and synchronises, so the same mailbox looks identical on a phone, a laptop and a web browser. IMAP needs a constant connection and server space; POP3 works offline once downloaded.
+
+Q4. [Short · 2 marks] What is the difference between TCP and UDP?
+    Ans: TCP (Transmission Control Protocol) is connection-oriented: it checks that every packet arrived and reorders them, so delivery is guaranteed but slightly slower. UDP (User Datagram Protocol) simply sends packets without checking, so it is faster but some data may be lost. TCP is used for web pages and email, where a missing piece breaks the result; UDP is used for live video, VoIP and gaming, where a small loss is better than a delay.
+
+Q5. [Short · 2 marks] Match each service with the protocol it uses: browsing the web, sending email, reading email, transferring files.
+    Ans: Browsing uses HTTP or HTTPS; sending email uses SMTP; reading email uses POP3 or IMAP; transferring files uses FTP. DNS is not a service but the system that converts a domain name into an IP address so that the service can find the right computer.
+
+Q6. [Short · 3 marks] Break down the parts of this URL: https://clickalex.github.io/IT-402-/index.html.
+    Ans: The URL has three parts. https:// is the protocol — it says the page will be fetched securely over HTTPS on port 443. clickalex.github.io is the domain name, which DNS resolves into an IP address. /IT-402-/index.html is the path, pointing to a specific file inside the IT-402- folder on that server.
+
+Q7. [Application · 3 marks] A student writes that SMTP is the protocol that delivers e-mail to your inbox. Correct this and name the protocols used for receiving mail.
+    Ans:
+      SMTP only sends mail, from your mail program to the server and from server to server.
+      For receiving, a mail program uses POP3 or IMAP.
+      POP3 downloads messages to the device (usually removing them from the server); IMAP keeps them on the server so that every device shows the same mailbox.
+
+Q8. [Application · 3 marks] Riya reads her mail on her phone, tablet and laptop and wants all three to show the same inbox and folders. Her brother reads mail on one computer, even offline. Which protocol suits each, and why?
+    Ans:
+      Riya needs IMAP: the mail stays on the server, so every device sees the same messages and folders.
+      Her brother can use POP3: it downloads the messages to his computer, where he can read them offline.
+      The difference is where the master copy of the mail is kept: on the server (IMAP) or on the device (POP3).
+
+Q9. [Short · 3 marks] Describe what happens when you send an email.
+    Ans:
+      Your mail program hands the message to your mail server using SMTP.
+      That server asks DNS for the mail server of the recipient's domain, such as gmail.com, and passes the message to it.
+      The receiving server stores the message in the recipient's mailbox.
+      The recipient's program collects it with POP3, which usually downloads and deletes it, or with IMAP, which leaves it on the server and synchronises folders.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A design studio must send a 500 MB video to a client in another city. The e-mail service allows attachments of only 25 MB.
+
+    (a) Which internet service and protocol should the studio use?
+    (b) Why is e-mail unsuitable?
+    (c) What security weakness does plain FTP have, and how can it be reduced?
+    Ans:
+      (a) File transfer using FTP (File Transfer Protocol), which uses port 21 by default.
+      (b) E-mail attachments are limited in size and are not designed for very large files.
+      (c) Plain FTP sends the user name and password unencrypted; using a secure version (SFTP or FTPS) encrypts them.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    Priya chats with Rohan using a messaging app and then switches to a video call.
+
+    (a) What is chat (instant messaging)?
+    (b) What is VoIP?
+    (c) Why does a video call need a better connection than an e-mail?
+    Ans:
+      (a) The exchange of text messages between users in real time over the internet.
+      (b) VoIP (Voice over IP) turns speech into digital packets and sends them over the internet instead of over a telephone line.
+      (c) A call is a continuous real-time stream that must arrive with little delay, while an e-mail can wait a few seconds.
+
+Q12. [Long · 5 marks] Describe any four internet services, naming the protocol each uses and giving one use of each.
+    Ans:
+      Web (WWW): HTTP or HTTPS carries web pages to the browser; used for browsing and online shopping.
+      E-mail: SMTP sends mail and POP3 or IMAP receives it; used for written communication and documents.
+      File transfer: FTP moves files between computers; used to upload a website to its server.
+      Chat and VoIP: real-time protocols carry messages, voice and video; used for online classes and calls.
+      Each service has its own protocol, and the common base for all of them is TCP/IP.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which protocol is used to send email? (a) SMTP (b) POP3 (c) IMAP (d) FTP
+    Ans: (a) SMTP — Simple Mail Transfer Protocol.
+
+M2. The default port for HTTPS is — (a) 21 (b) 23 (c) 80 (d) 443
+    Ans: (d) 443. Port 80 is plain HTTP.
+
+M3. Which protocol keeps mail on the server? (a) POP3 (b) SMTP (c) IMAP (d) Telnet
+    Ans: (c) IMAP — it synchronises instead of downloading.
+
+M4. In https://example.com/page.html, example.com is the — (a) protocol (b) domain (c) path (d) port
+    Ans: (b) domain.
+
+M5. Which protocol carries web pages from a web server to a browser? (a) SMTP (b) FTP (c) POP3 (d) HTTP
+    Ans: (d) HTTP. HTTP (HyperText Transfer Protocol), or HTTPS for the encrypted version, transfers web pages.
+
+M6. Which of the following is a real-time internet service? (a) downloading a file by FTP (b) reading a saved e-mail (c) instant messaging (chat) (d) uploading a web page to a server
+    Ans: (c) instant messaging (chat). Chat is delivered as it is typed; the other activities do not need an immediate two-way exchange.
+
+M7. The protocol used to send an email is: (a) SMTP  (b) POP3  (c) IMAP  (d) FTP
+    Ans: (a) SMTP. POP3 and IMAP are used to receive mail and FTP to transfer files.
+
+M8. HTTPS is safer than HTTP because it: (a) is faster  (b) encrypts the data sent between the browser and the site  (c) is free  (d) needs no server
+    Ans: (b) encrypts the data. The S stands for secure, which is why a padlock appears in the address bar.

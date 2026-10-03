@@ -102,20 +102,23 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “HTML I — Introduction & Basic Tags” (What HTML is, the skeleton of a document, and the tags you use on every page.). A classmate lost marks by doing this: Putting <title> inside <body>. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student says that `<h6>` makes the largest heading and `<h1>` the smallest. Correct this and write the tags for the main heading and the smallest heading of a page.",
         "a": [
-          "Correct method: <title> lives in <head>, not <body>. This single fact is worth a mark in most papers.",
-          "Why the mistake costs marks: Putting <title> inside <body>.",
-          "Write the definition or formula first, then the working or example."
+          "It is the other way round: `<h1>` is the **largest** (most important) heading and `<h6>` the **smallest**.",
+          "Main heading: `<h1>Welcome to Class 10</h1>`",
+          "Smallest heading: `<h6>Last updated today</h6>`"
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “HTML I — Introduction & Basic Tags”: “Write an HTML page that displays the heading 'My School' and a paragraph about it.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Write the HTML for a page body that shows the main heading “Our Class”, a sub-heading “Roll Call”, the paragraph “Attendance is taken daily.” and then a horizontal line.",
         "a": [
-          "Idea: What HTML is, the skeleton of a document, and the tags you use on every page..",
-          "<html> <head> <title>My School</title> </head> <body> <h1>My School</h1> <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p> </body> </html> The <title> sits inside <head> and names the browser tab; everything visible is inside <body>."
+          "`<h1>Our Class</h1>`",
+          "`<h2>Roll Call</h2>`",
+          "`<p>Attendance is taken daily.</p>`",
+          "`<hr>`",
+          "`<h1>` and `<h2>` are paired heading tags; `<hr>` is an empty tag, so it has no closing partner."
         ]
       },
       {
@@ -132,32 +135,43 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML I — Introduction & Basic Tags”. Their note says: What HTML is. HTML stands for HyperText Markup Language. It is *not* a programming language — it has no variables, conditions or loops. It is a markup language: you surround content with tags that describe what the content *is*, and the browser decides how to display it. HTML files are saved with a \n\nThe chapter is described as: What HTML is, the skeleton of a document, and the tags you use on every page..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA student wrote this page:\n\n`<html>`\n`<body>`\n`<title>My Page</title>`\n`<h1>Welcome<h1>`\n`<p>Hello</br>`\n`</body>`\n`</html>`\n\n(a) Find three errors.\n(b) Write the corrected code.",
         "a": [
-          "(a) What HTML is, the skeleton of a document, and the tags you use on every page.",
-          "(b) Write a complete HTML page by hand; give the purpose of a tag; predict the output of a snippet.",
-          "(c) Putting <title> inside <body>."
+          "(a) `<title>` must be in `<head>`, not in `<body>`; the heading is not closed (`</h1>` is missing); `</br>` is wrong because `<br>` is an empty tag; the `<p>` tag is not closed either.",
+          "(b) `<html>`",
+          "`  <head><title>My Page</title></head>`",
+          "`  <body>`",
+          "`    <h1>Welcome</h1>`",
+          "`    <p>Hello<br></p>`",
+          "`  </body>`",
+          "`</html>`"
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Write an HTML page that displays the heading 'My School' and a paragraph about it.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA browser is given this code:\n\n`<h2>Menu</h2>`\n`<p>Tea<br>Coffee<br>Milk</p>`\n`<hr>`\n`<p>Open 9 to 5</p>`\n\n(a) How many lines does the first paragraph show?\n(b) What does `<hr>` do?\n(c) Why are `<br>` and `<hr>` called empty tags?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) <html> <head> <title>My School</title> </head> <body> <h1>My School</h1> <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p> </body> </html> The <title> sits inside <head> and names the browser tab; everything visible is inside <body>.",
-          "(c) <title> lives in <head>, not <body>. This single fact is worth a mark in most papers."
+          "(a) Three lines: Tea, Coffee and Milk, because each `<br>` breaks the line.",
+          "(b) It draws a horizontal line (rule) across the page between the two paragraphs.",
+          "(c) They hold no content between an opening and closing tag, so they need no closing tag."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “HTML I — Introduction & Basic Tags” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Write the HTML for a notice page with the title “Class Notice”, a centred main heading, two paragraphs with a line break inside the second one, and a horizontal line between the paragraphs. Explain each tag you use.",
         "a": [
-          "What HTML is. HTML stands for HyperText Markup Language. It is *not* a programming language — it has no variables, conditions or loops. It is a markup language: you surround content with tags that describe what the content *is*, and the browser decides how to display it. HTML files are saved with a .html or .htm extension and are plain text.",
-          "Marks lens: Write a complete HTML page by hand; give the purpose of a tag; predict the output of a snippet.",
-          "Method / memory trick: <title> lives in <head>, not <body>. This single fact is worth a mark in most papers.",
-          "Do not: Putting <title> inside <body>."
+          "`<html>`",
+          "`  <head><title>Class Notice</title></head>`",
+          "`  <body>`",
+          "`    <h1 align='center'>Notice</h1>`",
+          "`    <p>The sports day is on Friday.</p>`",
+          "`    <hr>`",
+          "`    <p>Reach school by 8 a.m.<br>Wear the sports uniform.</p>`",
+          "`  </body>`",
+          "`</html>`",
+          "`<head>` and `<title>` hold the browser-tab text; `<body>` holds everything visible; `<h1>` is the main heading; `<p>` makes a paragraph; `<br>` breaks a line; `<hr>` draws a line."
         ]
       }
     ],
@@ -175,24 +189,24 @@
         "a": "**(c) `<h6>`.**"
       },
       {
-        "q": "Which of these is an empty tag? (a) `<p>` (b) `<br>` (c) `<h1>` (d) `<title>`",
-        "a": "**(b) `<br>`** — it has no closing partner."
+        "q": "Which of these is an empty tag? (a) `<br>` (b) `<p>` (c) `<h1>` (d) `<title>`",
+        "a": "**(a) `<br>`** — it has no closing partner."
       },
       {
-        "q": "The most exam-ready way to revise “HTML I — Introduction & Basic Tags” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is What HTML is, the skeleton of a document, and the tags you use on every page.."
+        "q": "In an HTML document, the visible content of the page is placed inside the: (a) <body> tag (b) <head> tag (c) <title> tag (d) <html> tag only, outside every other tag",
+        "a": "**(a) <body> tag.** `<body>` holds everything the browser displays; `<head>` holds information such as the title."
       },
       {
-        "q": "A 3-mark answer on “HTML I — Introduction & Basic Tags” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The correct way to write a line break in HTML is: (a) </br> (b) <lb> (c) <break> (d) <br>",
+        "a": "**(d) <br>.** `<br>` is an empty tag, so it has no closing form."
       },
       {
-        "q": "The tag that sets the text shown in the browser's title bar is: (a) <title>  (b) <head>  (c) <h1>  (d) <body>",
-        "a": "**(a) <title>.** It is placed inside the <head> section."
+        "q": "The tag that sets the text shown in the browser's title bar is: (a) <head>  (b) <title>  (c) <h1>  (d) <body>",
+        "a": "**(b) <title>.** It is placed inside the <head> section."
       },
       {
-        "q": "The tag used for the most important heading is: (a) <h1>  (b) <h6>  (c) <p>  (d) <b>",
-        "a": "**(a) <h1>.** Headings run from <h1>, the largest, down to <h6>, the smallest."
+        "q": "The tag used for the most important heading is: (a) <h6>  (b) <p>  (c) <b>  (d) <h1>",
+        "a": "**(d) <h1>.** Headings run from <h1>, the largest, down to <h6>, the smallest."
       }
     ],
     "trend": "Writing a complete page by hand appears in every paper. The `<title>`-in-`<head>` point is a perennial one-marker.",
@@ -307,20 +321,22 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “HTML II — Text Formatting & Lists” (Bold, italic, alignment, colour — plus ordered, unordered and definition lists.). A classmate lost marks by doing this: Using <ul> when the output clearly shows numbers. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes `<p align='middle'>Welcome</p>` to centre a paragraph, but nothing happens. Find the error, correct it and list the valid values of `align`.",
         "a": [
-          "Correct method: <ul> = bullets, <ol> = numbers. Both use <li>.",
-          "Why the mistake costs marks: Using <ul> when the output clearly shows numbers.",
-          "Write the definition or formula first, then the working or example."
+          "`middle` is not a valid value of `align`; the browser ignores it.",
+          "Correct code: `<p align='center'>Welcome</p>`",
+          "The valid values are **left**, **center**, **right** and **justify**."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “HTML II — Text Formatting & Lists”: “Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Write the HTML to display (a) H₂SO₄ with proper subscripts, (b) x² + y² with superscripts and (c) the word Important in bold and italics together.",
         "a": [
-          "Idea: Bold, italic, alignment, colour — plus ordered, unordered and definition lists..",
-          "<html> <body> <ol type='I' start='3'> <li>Mathematics</li> <li>Science</li> <li>Social Science</li> <li>English</li> </ol> </body> </html> The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III."
+          "(a) `H<sub>2</sub>SO<sub>4</sub>`",
+          "(b) `x<sup>2</sup> + y<sup>2</sup>`",
+          "(c) `<b><i>Important</i></b>`",
+          "`<sub>` lowers the text, `<sup>` raises it, and the tags are closed in the reverse of the order they were opened."
         ]
       },
       {
@@ -337,67 +353,77 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML II — Text Formatting & Lists”. Their note says: Style tags. <b> makes text bold, <i> makes it *italic*, <u> underlines it, <tt> shows typewriter text, <strike> draws a line through it. <sub> lowers text for chemical formulas like H<sub>2</sub>O, and <sup> raises it for powers like x<sup>2</sup>. <center> centres a block of content.\n\nThe chapter is described as: Bold, italic, alignment, colour — plus ordered, unordered and definition lists..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA student wants a numbered list of recipe steps and writes:\n\n`<ul>`\n`Boil water`\n`Add tea`\n`</ul>`\n\n(a) State two errors.\n(b) Write the corrected code.\n(c) How would you make the numbering start from 5?",
         "a": [
-          "(a) Bold, italic, alignment, colour — plus ordered, unordered and definition lists.",
-          "(b) Produce a given visual output as HTML; name the attribute that does a given job.",
-          "(c) Using <ul> when the output clearly shows numbers."
+          "(a) `<ul>` makes a bulleted list, but numbers were wanted (`<ol>`); and each item must be placed inside `<li>` tags.",
+          "(b) `<ol>`",
+          "`  <li>Boil water</li>`",
+          "`  <li>Add tea</li>`",
+          "`</ol>`",
+          "(c) Use the start attribute: `<ol start='5'>`."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA glossary page lists the term “HTML” with the meaning “the language used to write web pages”.\n\n(a) Which kind of list suits a glossary?\n(b) Write the code for this one entry.\n(c) How does it differ from `<ul>`?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) <html> <body> <ol type='I' start='3'> <li>Mathematics</li> <li>Science</li> <li>Social Science</li> <li>English</li> </ol> </body> </html> The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III.",
-          "(c) <ul> = bullets, <ol> = numbers. Both use <li>."
+          "(a) A **definition list**, written with `<dl>`.",
+          "(b) `<dl>`",
+          "`  <dt>HTML</dt>`",
+          "`  <dd>The language used to write web pages</dd>`",
+          "`</dl>`",
+          "(c) `<ul>` lists items one after another with bullets, while `<dl>` pairs each term (`<dt>`) with its description (`<dd>`)."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “HTML II — Text Formatting & Lists” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Write the HTML to display a centred heading “Shopping”, an ordered list of three fruits numbered with lower-case Roman numerals, and an unordered list of two vegetables with square bullets. Explain the attributes you used.",
         "a": [
-          "Style tags. <b> makes text bold, <i> makes it *italic*, <u> underlines it, <tt> shows typewriter text, <strike> draws a line through it. <sub> lowers text for chemical formulas like H<sub>2</sub>O, and <sup> raises it for powers like x<sup>2</sup>. <center> centres a block of content.",
-          "Marks lens: Produce a given visual output as HTML; name the attribute that does a given job.",
-          "Method / memory trick: <ul> = bullets, <ol> = numbers. Both use <li>.",
-          "Do not: Using <ul> when the output clearly shows numbers."
+          "`<h2 align='center'>Shopping</h2>`",
+          "`<ol type='i'>`",
+          "`  <li>Apple</li><li>Banana</li><li>Mango</li>`",
+          "`</ol>`",
+          "`<ul type='square'>`",
+          "`  <li>Potato</li><li>Onion</li>`",
+          "`</ul>`",
+          "`align='center'` centres the heading; `type='i'` numbers as i, ii, iii; `type='square'` gives square bullets."
         ]
       }
     ],
     "mcq": [
       {
-        "q": "Which attribute of `<font>` sets the typeface? (a) size (b) color (c) face (d) style",
-        "a": "**(c) face.**"
+        "q": "Which attribute of `<font>` sets the typeface? (a) face (b) size (c) color (d) style",
+        "a": "**(a) face.**"
       },
       {
         "q": "Which tag creates a bulleted list? (a) `<ol>` (b) `<ul>` (c) `<dl>` (d) `<li>`",
         "a": "**(b) `<ul>`.** `<li>` marks the items inside it."
       },
       {
-        "q": "`<ol type='a'>` numbers the items as — (a) 1,2,3 (b) A,B,C (c) a,b,c (d) i,ii,iii",
-        "a": "**(c) a, b, c** — lowercase letters."
+        "q": "`<ol type='a'>` numbers the items as — (a) a,b,c (b) 1,2,3 (c) A,B,C (d) i,ii,iii",
+        "a": "**(a) a, b, c** — lowercase letters."
       },
       {
-        "q": "To write x² in HTML you use — (a) `<sub>` (b) `<sup>` (c) `<u>` (d) `<tt>`",
-        "a": "**(b) `<sup>`** for superscript."
+        "q": "To write x² in HTML you use — (a) `<sub>` (b) `<u>` (c) `<sup>` (d) `<tt>`",
+        "a": "**(c) `<sup>`** for superscript."
       },
       {
-        "q": "The valid values of the `align` attribute are — (a) left, middle, right (b) left, center, right (c) start, center, end (d) top, middle, bottom",
-        "a": "**(b) left, center, right.**"
+        "q": "The valid values of the `align` attribute are — (a) left, middle, right (b) start, center, end (c) top, middle, bottom (d) left, center, right",
+        "a": "**(d) left, center, right.**"
       },
       {
-        "q": "The tag that starts a new line without starting a new paragraph is: (a) <br>  (b) <hr>  (c) <p>  (d) <lb>",
-        "a": "**(a) <br>.** It is an empty tag and has no closing tag."
+        "q": "The tag that starts a new line without starting a new paragraph is: (a) <hr>  (b) <br>  (c) <p>  (d) <lb>",
+        "a": "**(b) <br>.** It is an empty tag and has no closing tag."
       },
       {
-        "q": "The tag that draws a horizontal rule across the page is: (a) <hr>  (b) <br>  (c) <line>  (d) <rule>",
-        "a": "**(a) <hr>.** It is used to separate sections of a page."
+        "q": "The tag that draws a horizontal rule across the page is: (a) <br>  (b) <line>  (c) <hr>  (d) <rule>",
+        "a": "**(c) <hr>.** It is used to separate sections of a page."
       },
       {
-        "q": "`<ul type='square'>` shows bullets as: (a) discs (b) squares (c) circles (d) numbers",
-        "a": "**(b) squares.** The `type` values for `<ul>` are disc (default), circle and square."
+        "q": "`<ul type='square'>` shows bullets as: (a) discs (b) circles (c) numbers (d) squares",
+        "a": "**(d) squares.** The `type` values for `<ul>` are disc (default), circle and square."
       }
     ],
     "trend": "List questions with a specific `type` or `start` value are extremely common, as are output-prediction snippets.",
@@ -506,20 +532,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “HTML III — Links & Images” (The <a> tag, href, anchors, and the <img> tag with its attributes.). A classmate lost marks by doing this: Writing <img href=...> instead of <img src=...>. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes `<img href='logo.png'></img>` to show a picture. Find the two errors and write the correct tag.",
         "a": [
-          "Correct method: href for links, src for sources. <a href>, <img src>, <script src>.",
-          "Why the mistake costs marks: Writing <img href=...> instead of <img src=...>.",
-          "Write the definition or formula first, then the working or example."
+          "The attribute for the file is **src**, not href (href belongs to links).",
+          "`<img>` is an empty tag, so it has no closing `</img>`.",
+          "Correct: `<img src='logo.png' alt='School logo'>`"
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “HTML III — Links & Images”: “Write HTML to create a link to the CBSE website that opens in a new tab, and a link that emails the principal.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A page stored in the folder `pages` needs a link back to `index.html`, which is in the parent folder, and a picture `logo.png` from a sibling folder `images`. Write both tags using relative paths.",
         "a": [
-          "Idea: The <a> tag, href, anchors, and the <img> tag with its attributes..",
-          "<a href='https://www.cbse.gov.in' target='_blank'>Visit CBSE</a> <br> <a href='mailto:principal@school.edu'>Email the Principal</a> The first uses an absolute URL and target='_blank' so it opens in a new tab. The second uses the mailto: prefix, which makes the browser open the user's email program with the address already filled in."
+          "`<a href='../index.html'>Home</a>`",
+          "`<img src='../images/logo.png' alt='Logo'>`",
+          "`../` means “go up one folder”, so the first path reaches `index.html` in the parent folder and the second goes up and then into `images`."
         ]
       },
       {
@@ -536,59 +563,61 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML III — Links & Images”. Their note says: The anchor tag. <a href='destination'>text</a> creates a hyperlink. href (hypertext reference) holds the address of the destination. The destination can be another page on the same site, a page on another site, an email address using mailto:, or a place further down the same page.\n\nThe chapter is described as: The <a> tag, href, anchors, and the <img> tag with its attributes..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA site has these files: `site/index.html`, `site/about/team.html` and `site/img/photo.jpg`. From `team.html` a student writes `<img src='img/photo.jpg'>`, and the picture does not appear.\n\n(a) Why does it fail?\n(b) Write the correct tag.\n(c) What kind of path is this?",
         "a": [
-          "(a) The <a> tag, href, anchors, and the <img> tag with its attributes.",
-          "(b) Write a working link or image tag; explain the difference between absolute and relative paths.",
-          "(c) Writing <img href=...> instead of <img src=...>."
+          "(a) A relative path starts from the folder of the current file, `about`, and there is no `img` folder inside it.",
+          "(b) `<img src='../img/photo.jpg' alt='Team photo'>`",
+          "(c) A **relative** path (measured from the current file); an absolute path would give the full web address."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Write HTML to create a link to the CBSE website that opens in a new tab, and a link that emails the principal.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA blind student uses a screen reader on a page that has `<img src='map.png'>` with no alt text.\n\n(a) What can the screen reader not do?\n(b) Add suitable alt text to the tag.\n(c) Name another situation in which the alt text is shown.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) <a href='https://www.cbse.gov.in' target='_blank'>Visit CBSE</a> <br> <a href='mailto:principal@school.edu'>Email the Principal</a> The first uses an absolute URL and target='_blank' so it opens in a new tab. The second uses the mailto: prefix, which makes the browser open the user's email program with the address already filled in.",
-          "(c) href for links, src for sources. <a href>, <img src>, <script src>."
+          "(a) It cannot tell the student what the picture shows.",
+          "(b) `<img src='map.png' alt='Map showing the route to the school'>`",
+          "(c) When the image cannot load, for example on a slow network or with a wrong file path, or when images are turned off."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “HTML III — Links & Images” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Write the HTML for a page that has a heading, a picture `photo.jpg` 300 pixels wide, a link “Next” to `next.html` that opens in a new tab, and a link “Notes” that jumps to a heading with the id `notes`. Explain the attributes used.",
         "a": [
-          "The anchor tag. <a href='destination'>text</a> creates a hyperlink. href (hypertext reference) holds the address of the destination. The destination can be another page on the same site, a page on another site, an email address using mailto:, or a place further down the same page.",
-          "Marks lens: Write a working link or image tag; explain the difference between absolute and relative paths.",
-          "Method / memory trick: href for links, src for sources. <a href>, <img src>, <script src>.",
-          "Do not: Writing <img href=...> instead of <img src=...>."
+          "`<h1>My Trip</h1>`",
+          "`<img src='photo.jpg' width='300' alt='Trip photo'>`",
+          "`<a href='next.html' target='_blank'>Next</a>`",
+          "`<a href='#notes'>Notes</a>`",
+          "`<h2 id='notes'>Notes</h2>`",
+          "`src` names the picture, `width` sets its size, `href` gives the destination, `target='_blank'` opens a new tab, and `#notes` jumps to the element with that `id`."
         ]
       }
     ],
     "mcq": [
       {
-        "q": "Which attribute of `<a>` gives the destination address? (a) src (b) href (c) link (d) target",
-        "a": "**(b) href.**"
+        "q": "Which attribute of `<a>` gives the destination address? (a) src (b) link (c) href (d) target",
+        "a": "**(c) href.**"
       },
       {
-        "q": "Which opens a link in a new tab? (a) `target='_new'` (b) `target='_blank'` (c) `new='true'` (d) `href='_blank'`",
-        "a": "**(b) `target='_blank'`.**"
+        "q": "Which opens a link in a new tab? (a) `target='_new'` (b) `new='true'` (c) `href='_blank'` (d) `target='_blank'`",
+        "a": "**(d) `target='_blank'`.**"
       },
       {
-        "q": "`<img>` is — (a) a paired tag (b) an empty tag (c) a heading tag (d) not a valid tag",
-        "a": "**(b) an empty tag** — it has no closing partner."
+        "q": "`<img>` is — (a) a paired tag (b) a heading tag (c) not a valid tag (d) an empty tag",
+        "a": "**(d) an empty tag** — it has no closing partner."
       },
       {
-        "q": "To link to a file in the parent folder you write — (a) `/index.html` (b) `./index.html` (c) `../index.html` (d) `index.html`",
-        "a": "**(c) `../index.html`.**"
+        "q": "To link to a file in the parent folder you write — (a) `/index.html` (b) `../index.html` (c) `./index.html` (d) `index.html`",
+        "a": "**(b) `../index.html`.**"
       },
       {
-        "q": "`mailto:` is used to — (a) download mail (b) open the email program (c) create a table (d) send an image",
-        "a": "**(b) open the email program** with the address filled in."
+        "q": "`mailto:` is used to — (a) download mail (b) create a table (c) open the email program (d) send an image",
+        "a": "**(c) open the email program** with the address filled in."
       },
       {
-        "q": "The attribute of the <a> tag that holds the destination address is: (a) href  (b) src  (c) link  (d) target",
-        "a": "**(a) href.** The target attribute only decides where the page opens."
+        "q": "The attribute of the <a> tag that holds the destination address is: (a) src  (b) href  (c) link  (d) target",
+        "a": "**(b) href.** The target attribute only decides where the page opens."
       },
       {
         "q": "The attribute of <img> that shows text if the picture cannot be displayed is: (a) alt  (b) src  (c) title  (d) name",
@@ -701,20 +730,23 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “HTML Tables” (<table>, <tr>, <td>, borders, and the two attributes that merge cells.). A classmate lost marks by doing this: Putting <td> directly inside <table> without a <tr>. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student wants a heading cell that stretches across three columns and writes `<th rowspan='3'>Marks</th>`. What is wrong? Correct it and state what `rowspan` does.",
         "a": [
-          "Correct method: <tr> = row, <td> = cell. Rows contain cells, never the other way round.",
-          "Why the mistake costs marks: Putting <td> directly inside <table> without a <tr>.",
-          "Write the definition or formula first, then the working or example."
+          "`rowspan` merges cells **vertically** across rows; to stretch across columns, `colspan` must be used.",
+          "Correct: `<th colspan='3'>Marks</th>`",
+          "`rowspan='3'` would make the cell three rows tall instead."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “HTML Tables”: “Write HTML for a table with a merged title cell across two columns, a header row and one data row.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Write the HTML for a table with a border and cell padding of 5, with the header row Day, Period 1, Period 2 and one data row Monday, Maths, Science.",
         "a": [
-          "Idea: <table>, <tr>, <td>, borders, and the two attributes that merge cells..",
-          "<table border='1' width='300'> <tr><th colspan='2'>Student Report</th></tr> <tr><th>Name</th><th>Marks</th></tr> <tr><td>Asha</td><td>88</td></tr> </table> The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two."
+          "`<table border='1' cellpadding='5'>`",
+          "`  <tr><th>Day</th><th>Period 1</th><th>Period 2</th></tr>`",
+          "`  <tr><td>Monday</td><td>Maths</td><td>Science</td></tr>`",
+          "`</table>`",
+          "`<th>` is a bold, centred header cell and `<td>` is an ordinary data cell; every row needs its own `<tr>`."
         ]
       },
       {
@@ -744,67 +776,70 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML Tables”. Their note says: The structure. A table is built from three nested levels. <table> is the whole grid. Each <tr> is one row (think *t*able *r*ow). Each <td> is one cell or data column inside that row (think *t*able *d*ata). A table with three rows and two columns needs three <tr> blocks, each containing two <td> cell\n\nThe chapter is described as: <table>, <tr>, <td>, borders, and the two attributes that merge cells..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA student wrote this table, but the first row is wider than the second.\n\n`<table border='1'>`\n`<tr><th colspan='3'>Report</th><th></th><th></th></tr>`\n`<tr><td>A</td><td>B</td><td>C</td></tr>`\n`</table>`\n\n(a) How many columns wide is the first row and the second?\n(b) Correct the first row.\n(c) State the rule about merged cells.",
         "a": [
-          "(a) <table>, <tr>, <td>, borders, and the two attributes that merge cells.",
-          "(b) Convert a drawn table into HTML and vice versa; explain rowspan and colspan.",
-          "(c) Putting <td> directly inside <table> without a <tr>."
+          "(a) The first row is 3 + 1 + 1 = 5 columns wide; the second row is 3 columns wide.",
+          "(b) `<tr><th colspan='3'>Report</th></tr>`",
+          "(c) A merged cell replaces the cells it covers, so the cells it covers must be removed from the row."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Write HTML for a table with a merged title cell across two columns, a header row and one data row.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA table starts with `<table border='0' cellpadding='10' cellspacing='0'>`.\n\n(a) Will a border be visible?\n(b) What does `cellpadding='10'` do?\n(c) What would changing `cellspacing` to 10 do?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) <table border='1' width='300'> <tr><th colspan='2'>Student Report</th></tr> <tr><th>Name</th><th>Marks</th></tr> <tr><td>Asha</td><td>88</td></tr> </table> The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two.",
-          "(c) <tr> = row, <td> = cell. Rows contain cells, never the other way round."
+          "(a) No, because the border width is 0.",
+          "(b) It adds 10 pixels of space between the content of a cell and the cell’s edge.",
+          "(c) It would leave 10 pixels of space between neighbouring cells."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “HTML Tables” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Write the HTML for a table whose first row is a title “Result” spanning three columns, whose second row has the header cells Name, Subject and Marks, and which has two data rows: Asha, Science, 90 and Ravi, Maths, 85.",
         "a": [
-          "The structure. A table is built from three nested levels. <table> is the whole grid. Each <tr> is one row (think *t*able *r*ow). Each <td> is one cell or data column inside that row (think *t*able *d*ata). A table with three rows and two columns needs three <tr> blocks, each containing two <td> cells.",
-          "Marks lens: Convert a drawn table into HTML and vice versa; explain rowspan and colspan.",
-          "Method / memory trick: <tr> = row, <td> = cell. Rows contain cells, never the other way round.",
-          "Do not: Putting <td> directly inside <table> without a <tr>."
+          "`<table border='1'>`",
+          "`  <tr><th colspan='3'>Result</th></tr>`",
+          "`  <tr><th>Name</th><th>Subject</th><th>Marks</th></tr>`",
+          "`  <tr><td>Asha</td><td>Science</td><td>90</td></tr>`",
+          "`  <tr><td>Ravi</td><td>Maths</td><td>85</td></tr>`",
+          "`</table>`",
+          "The title cell uses `colspan='3'`, so that row has one cell; every other row has exactly three cells."
         ]
       }
     ],
     "mcq": [
       {
-        "q": "Which tag defines a table row? (a) `<td>` (b) `<tr>` (c) `<th>` (d) `<table>`",
-        "a": "**(b) `<tr>`.**"
+        "q": "Which tag defines a table row? (a) `<td>` (b) `<th>` (c) `<table>` (d) `<tr>`",
+        "a": "**(d) `<tr>`.**"
       },
       {
-        "q": "To merge a cell across three columns you use — (a) `rowspan='3'` (b) `colspan='3'` (c) `span='3'` (d) `merge='3'`",
-        "a": "**(b) `colspan='3'`.**"
+        "q": "To merge a cell across three columns you use — (a) `colspan='3'` (b) `rowspan='3'` (c) `span='3'` (d) `merge='3'`",
+        "a": "**(a) `colspan='3'`.**"
       },
       {
-        "q": "`cellspacing` controls — (a) space inside a cell (b) space between cells (c) the border thickness (d) the table width",
-        "a": "**(b) the space between cells.**"
+        "q": "`cellspacing` controls — (a) space inside a cell (b) the border thickness (c) space between cells (d) the table width",
+        "a": "**(c) the space between cells.**"
       },
       {
-        "q": "A header cell is written with — (a) `<td>` (b) `<th>` (c) `<head>` (d) `<caption>`",
-        "a": "**(b) `<th>`.**"
+        "q": "A header cell is written with — (a) `<th>` (b) `<td>` (c) `<head>` (d) `<caption>`",
+        "a": "**(a) `<th>`.**"
       },
       {
         "q": "How many `<tr>` tags does a 4-row table need? (a) 1 (b) 2 (c) 4 (d) 8",
         "a": "**(c) 4** — one per row."
       },
       {
-        "q": "The attribute that adds a visible border around a table is: (a) border  (b) cellspacing  (c) cellpadding  (d) width",
-        "a": "**(a) border.** cellspacing sets the gap between cells and cellpadding the gap inside them."
+        "q": "The attribute that adds a visible border around a table is: (a) cellspacing  (b) border  (c) cellpadding  (d) width",
+        "a": "**(b) border.** cellspacing sets the gap between cells and cellpadding the gap inside them."
       },
       {
-        "q": "The tag used for a cell that holds a column heading is: (a) <th>  (b) <td>  (c) <tr>  (d) <caption>",
-        "a": "**(a) <th>.** Its text is bold and centred by default."
+        "q": "The tag used for a cell that holds a column heading is: (a) <td>  (b) <th>  (c) <tr>  (d) <caption>",
+        "a": "**(b) <th>.** Its text is bold and centred by default."
       },
       {
-        "q": "`cellpadding` controls: (a) space inside each cell (b) space between cells (c) the border thickness (d) the table width",
-        "a": "**(a) space inside each cell.** Padding is inside, spacing is between — cellspacing does the other job."
+        "q": "`cellpadding` controls: (a) space between cells (b) the border thickness (c) the table width (d) space inside each cell",
+        "a": "**(d) space inside each cell.** Padding is inside, spacing is between — cellspacing does the other job."
       }
     ],
     "trend": "A table-writing question with at least one merged cell appears in most papers. It is the highest-value single question in Unit II.",
@@ -903,20 +938,24 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “HTML Forms” (<form>, every <input> type, <textarea>, <select> and the buttons.). A classmate lost marks by doing this: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student gives three radio buttons for “Class” the names c1, c2 and c3, and finds that two of them can be selected together. What is the error, and how is it fixed?",
         "a": [
-          "Correct method: Radios share a name; checkboxes do not. That one rule separates the two.",
-          "Why the mistake costs marks: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose.",
-          "Write the definition or formula first, then the working or example."
+          "Radio buttons are meant to be mutually exclusive only when they belong to the same group, and a group is formed by a **shared name**.",
+          "With different names, each button is its own group, so several can be selected.",
+          "Fix: `<input type='radio' name='class' value='X'>` for every button, changing only the value."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “HTML Forms”: “Write an HTML form with a name field, a password field, two radio buttons for gender, a hobbies checkbox group, and submit and reset buttons.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Write the HTML for a login form with a user-name box, a password box and a Submit button that sends the data by POST to `login.php`.",
         "a": [
-          "Idea: <form>, every <input> type, <textarea>, <select> and the buttons..",
-          "<form action='/submit' method='post'> Name: <input type='text' name='uname'><br> Password: <input type='password' name='upass'><br> Gender: <input type='radio' name='gender' value='male'> Male <input type='radio' name='gender' value='female'> Female<br> Hobbies: <input type='checkbox' name='hobby' value='reading'> Reading <input type='checkbox' name='hobby' value='music'> Music<br> <input type='submit' value='Send'> <input type='reset' value='Clear'> </form> Both radio buttons share the name gender, so only one can be chosen; the two checkboxes are independent, so both can be ticked."
+          "`<form action='login.php' method='post'>`",
+          "`  User name: <input type='text' name='user'>`",
+          "`  Password: <input type='password' name='pass'>`",
+          "`  <input type='submit' value='Submit'>`",
+          "`</form>`",
+          "`type='password'` hides the characters typed, and `method='post'` sends the data in the request body, not in the address bar."
         ]
       },
       {
@@ -953,67 +992,72 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “HTML Forms”. Their note says: The form tag. <form> wraps every control. Its two important attributes are action, the URL that receives the data, and method, which is either get or post. GET appends the data to the URL as a query string, so it is visible, short and can be bookmarked — suitable for searches. POST sends the data in\n\nThe chapter is described as: <form>, every <input> type, <textarea>, <select> and the buttons..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA student wrote this form, but the server receives nothing for the text box.\n\n`<form action='save.php' method='get'>`\n`  <input type='text'>`\n`  <input type='submit' value='Send'>`\n`</form>`\n\n(a) Why is nothing received?\n(b) Correct the text box.\n(c) Why is GET unsuitable for passwords?",
         "a": [
-          "(a) <form>, every <input> type, <textarea>, <select> and the buttons.",
-          "(b) Write a complete form; name the input type for a given control; explain method and action.",
-          "(c) Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose."
+          "(a) The text box has no `name` attribute, so its value is not sent.",
+          "(b) `<input type='text' name='username'>`",
+          "(c) GET appends the data to the address, where it is visible in the address bar and the history; POST sends it in the body of the request."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Write an HTML form with a name field, a password field, two radio buttons for gender, a hobbies checkbox group, and submit and reset buttons.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA feedback form needs a box for comments of several lines, a drop-down list of classes IX, X and XI (with X pre-selected) and a checkbox “Subscribe”.\n\n(a) Which tag gives the comments box?\n(b) Write the drop-down list.\n(c) Write the checkbox.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) <form action='/submit' method='post'> Name: <input type='text' name='uname'><br> Password: <input type='password' name='upass'><br> Gender: <input type='radio' name='gender' value='male'> Male <input type='radio' name='gender' value='female'> Female<br> Hobbies: <input type='checkbox' name='hobby' value='reading'> Reading <input type='checkbox' name='hobby' value='music'> Music<br> <input type='submit' value='Send'> <input type='reset' value='Clear'> </form> Both radio buttons share the name gen",
-          "(c) Radios share a name; checkboxes do not. That one rule separates the two."
+          "(a) `<textarea name='comments' rows='4' cols='30'></textarea>`",
+          "(b) `<select name='class'>`",
+          "`  <option>IX</option>`",
+          "`  <option selected>X</option>`",
+          "`  <option>XI</option>`",
+          "`</select>`",
+          "(c) `<input type='checkbox' name='subscribe' value='yes'> Subscribe`"
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “HTML Forms” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Explain any five values of the `type` attribute of the `<input>` tag, with one use of each.",
         "a": [
-          "The form tag. <form> wraps every control. Its two important attributes are action, the URL that receives the data, and method, which is either get or post. GET appends the data to the URL as a query string, so it is visible, short and can be bookmarked — suitable for searches. POST sends the data in the body of the request, so it is not shown in the address bar and has no practical size limit — used for logins and fo.",
-          "Marks lens: Write a complete form; name the input type for a given control; explain method and action.",
-          "Method / memory trick: Radios share a name; checkboxes do not. That one rule separates the two.",
-          "Do not: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose."
+          "`text`: a single-line box, for a name.",
+          "`password`: hides the characters typed, for a password.",
+          "`radio`: one choice from a group that shares a name, for gender.",
+          "`checkbox`: any number of choices can be ticked, for hobbies.",
+          "`submit` sends the form to the server and `reset` clears all the fields to their starting values."
         ]
       }
     ],
     "mcq": [
       {
-        "q": "Which input type hides the characters typed? (a) text (b) hidden (c) password (d) secure",
-        "a": "**(c) password.**"
+        "q": "Which input type hides the characters typed? (a) password (b) text (c) hidden (d) secure",
+        "a": "**(a) password.**"
       },
       {
-        "q": "Radio buttons in one group must share the same — (a) value (b) name (c) id (d) size",
-        "a": "**(b) name.**"
+        "q": "Radio buttons in one group must share the same — (a) value (b) id (c) size (d) name",
+        "a": "**(d) name.**"
       },
       {
-        "q": "Which method sends data in the request body? (a) GET (b) POST (c) SEND (d) PUT",
-        "a": "**(b) POST.**"
+        "q": "Which method sends data in the request body? (a) GET (b) SEND (c) PUT (d) POST",
+        "a": "**(d) POST.**"
       },
       {
         "q": "Which of these is a paired tag? (a) `<input>` (b) `<textarea>` (c) `<img>` (d) `<br>`",
         "a": "**(b) `<textarea>`.**"
       },
       {
-        "q": "To pre-select a radio button you use the attribute — (a) selected (b) checked (c) default (d) value",
-        "a": "**(b) checked.** `selected` is used on `<option>`."
+        "q": "To pre-select a radio button you use the attribute — (a) checked (b) selected (c) default (d) value",
+        "a": "**(a) checked.** `selected` is used on `<option>`."
       },
       {
-        "q": "The input type that hides the characters as they are typed is: (a) password  (b) text  (c) hidden  (d) email",
-        "a": "**(a) password.** It masks the characters but does not encrypt them, so the form should still use POST."
+        "q": "The input type that hides the characters as they are typed is: (a) text  (b) password  (c) hidden  (d) email",
+        "a": "**(b) password.** It masks the characters but does not encrypt them, so the form should still use POST."
       },
       {
-        "q": "The tag that creates a box for several lines of text is: (a) <textarea>  (b) <input type=\"text\">  (c) <select>  (d) <option>",
-        "a": "**(a) <textarea>.** rows and columns are set with the rows and cols attributes."
+        "q": "The tag that creates a box for several lines of text is: (a) <input type=\"text\">  (b) <select>  (c) <textarea>  (d) <option>",
+        "a": "**(c) <textarea>.** rows and columns are set with the rows and cols attributes."
       },
       {
-        "q": "In `<select>`, the option shown by default is marked with: (a) selected (b) checked (c) default (d) value",
-        "a": "**(a) selected.** `checked` is the equivalent for radio buttons and checkboxes."
+        "q": "In `<select>`, the option shown by default is marked with: (a) checked (b) default (c) selected (d) value",
+        "a": "**(c) selected.** `checked` is the equivalent for radio buttons and checkboxes."
       }
     ],
     "trend": "A complete form-writing question appears in most papers, usually with radio buttons so the shared-name rule can be tested.",
@@ -1168,36 +1212,36 @@
     ],
     "mcq": [
       {
-        "q": "To make paragraph text red you write — (a) `p { font-color: red; }` (b) `p { color: red; }` (c) `p { text: red; }` (d) `p { ink: red; }`",
-        "a": "**(b) `p { color: red; }`.** The property is `color`; `font-color` does not exist."
+        "q": "To make paragraph text red you write — (a) `p { font-color: red; }` (b) `p { text: red; }` (c) `p { color: red; }` (d) `p { ink: red; }`",
+        "a": "**(c) `p { color: red; }`.** The property is `color`; `font-color` does not exist."
       },
       {
         "q": "Which of these is a valid `border-style` value? (a) striped (b) dashed (c) glowing (d) thick",
         "a": "**(b) dashed.** Valid values include `solid`, `dashed`, `dotted`, `double` and `none`."
       },
       {
-        "q": "The space OUTSIDE an element’s border is controlled by — (a) padding (b) margin (c) outline (d) float",
-        "a": "**(b) margin.** Margin pushes neighbouring elements away from the box."
+        "q": "The space OUTSIDE an element’s border is controlled by — (a) padding (b) outline (c) float (d) margin",
+        "a": "**(d) margin.** Margin pushes neighbouring elements away from the box."
       },
       {
-        "q": "To set a picture 200 px wide with text wrapping on its right, use — (a) `img { align: left; }` (b) `img { float: left; width: 200px; }` (c) `img { margin: left; }` (d) `img { size: 200px; }`",
-        "a": "**(b) `img { float: left; width: 200px; }`.** Float pulls the picture aside so text wraps around it."
+        "q": "To set a picture 200 px wide with text wrapping on its right, use — (a) `img { align: left; }` (b) `img { margin: left; }` (c) `img { float: left; width: 200px; }` (d) `img { size: 200px; }`",
+        "a": "**(c) `img { float: left; width: 200px; }`.** Float pulls the picture aside so text wraps around it."
       },
       {
-        "q": "Which rule makes all `<h2>` headings italic? (a) `h2 { font: italic; }` (b) `h2 { style: italic; }` (c) `h2 { font-style: italic; }` (d) `h2 { text: italic; }`",
-        "a": "**(c) `h2 { font-style: italic; }`.** Font has three properties: family, size and style."
+        "q": "Which rule makes all `<h2>` headings italic? (a) `h2 { font: italic; }` (b) `h2 { font-style: italic; }` (c) `h2 { style: italic; }` (d) `h2 { text: italic; }`",
+        "a": "**(b) `h2 { font-style: italic; }`.** Font has three properties: family, size and style."
       },
       {
-        "q": "The attribute that makes the browser show play, pause and volume buttons is: (a) controls  (b) autoplay  (c) loop  (d) src",
-        "a": "**(a) controls.** Without it the video or audio cannot be started by the visitor."
+        "q": "The attribute that makes the browser show play, pause and volume buttons is: (a) autoplay  (b) loop  (c) src  (d) controls",
+        "a": "**(d) controls.** Without it the video or audio cannot be started by the visitor."
       },
       {
-        "q": "Which tag embeds a film in a page? (a) `<movie>` (b) `<media>` (c) `<video>` (d) `<film>`",
-        "a": "**(c) `<video>`.** Example: `<video src=\"lesson.mp4\" controls></video>`."
+        "q": "Which tag embeds a film in a page? (a) `<video>` (b) `<movie>` (c) `<media>` (d) `<film>`",
+        "a": "**(a) `<video>`.** Example: `<video src=\"lesson.mp4\" controls></video>`."
       },
       {
-        "q": "`outline` differs from `border` because it — (a) sits inside the text (b) is drawn outside the border (c) only works on images (d) needs no style value",
-        "a": "**(b) is drawn outside the border.** It is often used to highlight the active field."
+        "q": "`outline` differs from `border` because it — (a) is drawn outside the border (b) sits inside the text (c) only works on images (d) needs no style value",
+        "a": "**(a) is drawn outside the border.** It is often used to highlight the active field."
       }
     ],
     "trend": "One short CSS question (name the property / write one rule) plus audio-video tags — the closing marks of Unit II.",

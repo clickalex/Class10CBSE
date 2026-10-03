@@ -1,0 +1,125 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 10 · Circles · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 10 · Circles
+Unit: IV · Geometry
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] How many tangents can be drawn from a point inside a circle?
+    Ans: None. A line through an interior point must cut the circle at two points.
+
+Q2. [Short · 2 marks] From a point 13 cm from the centre of a circle of radius 5 cm, a tangent is drawn. Find its length.
+    Ans:
+      The tangent is perpendicular to the radius at the point of contact, so the three lengths form a right triangle.
+      Length = √(13² − 5²) = √144 = 12 cm.
+
+Q3. [Short · 2 marks] Two tangents TP and TQ are drawn to a circle with centre O from an external point T. If ∠POQ = 110°, find ∠PTQ.
+    Ans: The radius is perpendicular to the tangent at the point of contact, so ∠OPT = ∠OQT = 90°. In quadrilateral POQT: ∠PTQ = 360° − (90° + 90° + 110°) = 70°.
+
+Q4. [Short · 3 marks] Prove that the lengths of tangents drawn from an external point to a circle are equal.
+    Ans:
+      Let P be the external point and PA, PB the tangents with points of contact A and B.
+      Join OA, OB and OP.
+      In ΔOAP and ΔOBP: OA = OB (radii), OP is common, and ∠OAP = ∠OBP = 90° (tangent ⊥ radius).
+      By RHS congruence, ΔOAP ≅ ΔOBP, so PA = PB.
+
+Q5. [Application · 3 marks] A student says, “From every point P in the plane, exactly two equal tangents can be drawn to a given circle.” Test the claim for a point outside the circle, on the circle and inside the circle.
+    Ans:
+      P outside the circle: exactly two tangents can be drawn, and their lengths are equal.
+      P on the circle: exactly one tangent can be drawn (at P itself); there is no pair of tangents.
+      P inside the circle: no tangent exists, since every line through P cuts the circle in two points. So the claim holds only for an external point.
+
+Q6. [Application · 3 marks] The tangent at a point P of a circle of radius 5 cm meets a line through the centre O at Q, where OQ = 12 cm. Find the length PQ.
+    Ans:
+      The tangent at P is perpendicular to the radius OP, so ∠OPQ = 90°.
+      In the right triangle OPQ: PQ² = OQ² − OP² = 144 − 25 = 119.
+      PQ = √119 cm ≈ 10.9 cm.
+
+Q7. [Short · 3 marks] Prove that a chord of the larger of two concentric circles which touches the smaller circle is bisected at the point of contact.
+    Ans:
+      Let the chord AB of the larger circle touch the smaller circle at P; O is the common centre.
+      OP is a radius of the smaller circle and AB is a tangent to it, so OP ⊥ AB.
+      In the larger circle, the perpendicular drawn from the centre to a chord bisects the chord.
+      Hence AP = PB: the chord is bisected at the point of contact.
+
+Q8. [Long · 3 marks] Prove that the angle between two tangents drawn from an external point to a circle is supplementary to the angle subtended by the line joining the points of contact at the centre.
+    Ans:
+      Let TP and TQ be tangents from T, touching the circle at P and Q.
+      ∠OPT = ∠OQT = 90° because a radius is perpendicular to the tangent at the point of contact.
+      In quadrilateral POQT the angles sum to 360°, so ∠PTQ + ∠POQ = 360° − 180° = 180°.
+      Therefore the two angles are supplementary.
+
+Q9. [Long · 4 marks] A quadrilateral ABCD circumscribes a circle. Prove that AB + CD = AD + BC.
+    Ans:
+      Let the tangent segments from A, B, C, D be p, q, r, s respectively.
+      Then AB = p + q, BC = q + r, CD = r + s and AD = p + s.
+      AB + CD = p + q + r + s and AD + BC = p + s + q + r.
+      The two sums are identical, so AB + CD = AD + BC.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    From an external point T, two tangents TP and TQ are drawn to a circle with centre O. It is given that ∠PTQ = 70°.
+
+    (a) State why ∠OPT = 90°.
+    (b) Find ∠POQ.
+    (c) Find ∠OPQ.
+    Ans:
+      (a) The tangent at a point is perpendicular to the radius through the point of contact.
+      (b) In quadrilateral OPTQ, ∠OPT = ∠OQT = 90°, so ∠POQ = 360° − 90° − 90° − 70° = 110°.
+      (c) TP = TQ, so in ΔTPQ, ∠TPQ = (180° − 70°)/2 = 55°. Then ∠OPQ = ∠OPT − ∠TPQ = 90° − 55° = 35°.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A circle is inscribed in ΔABC and touches the sides BC, CA and AB at D, E and F respectively. AB = 12 cm, BC = 8 cm and CA = 10 cm.
+
+    (a) Which tangent lengths are equal?
+    (b) Find AF, BD and CE.
+    (c) Verify your answers against the three given sides.
+    Ans:
+      (a) Tangents from one point are equal: AF = AE, BF = BD and CD = CE.
+      (b) Let AF = x, BD = y, CE = z. Then x + y = 12, y + z = 8, z + x = 10, so x + y + z = 15. Hence AF = 7 cm, BD = 5 cm, CE = 3 cm.
+      (c) AB = AF + FB = 7 + 5 = 12 ✓; BC = BD + DC = 5 + 3 = 8 ✓; CA = CE + EA = 3 + 7 = 10 ✓.
+
+Q12. [Long · 5 marks] Prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact.
+    Ans:
+      Given: a circle with centre O and a tangent XY touching it at P. To prove: OP ⊥ XY.
+      Take any other point Q on XY and join OQ.
+      The tangent meets the circle only at P, so Q lies outside the circle. Hence OQ is longer than the radius: OQ > OP.
+      This is true for every point Q other than P on XY, so OP is the shortest distance from O to the line XY.
+      The shortest distance from a point to a line is the perpendicular, so OP ⊥ XY. ∎
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The number of tangents from a point on the circle is: (a) 0  (b) 1  (c) 2  (d) infinite
+    Ans: (b) 1.
+
+M2. The angle between a tangent and the radius at the point of contact is: (a) 45°  (b) 60°  (c) 90°  (d) 180°
+    Ans: (c) 90°.
+
+M3. Two tangents from an external point to a circle are: (a) unequal  (b) always perpendicular  (c) parallel  (d) equal
+    Ans: (d) Equal.
+
+M4. A tangent to a circle meets the circle in: (a) exactly one point  (b) no point  (c) exactly two points  (d) infinitely many points
+    Ans: (a) exactly one point. By definition, a tangent touches the circle at exactly one point, the point of contact.
+
+M5. If the angle between two tangents drawn from an external point P to a circle of radius a and centre O is 60°, then OP = (a) a√3  (b) a√2  (c) a/2  (d) 2a
+    Ans: (d) 2a. ∠APB = 60° gives ∠APO = 30° and, in right triangle OAP, OA = OP sin 30°, so OP = a/(1/2) = 2a.
+
+M6. The number of tangents that can be drawn from a point outside a circle is: (a) 1  (b) 2  (c) 3  (d) infinite
+    Ans: (b) 2. Exactly two, and they are equal in length.
+
+M7. A line that cuts a circle in two distinct points is called a: (a) secant  (b) tangent  (c) chord  (d) diameter
+    Ans: (a) secant. A tangent meets the circle at one point; a chord is the segment joining the two points.
+
+M8. A tangent of length 24 cm is drawn from a point 25 cm from the centre. The radius is: (a) 24 cm  (b) 12 cm  (c) 7 cm  (d) 5 cm
+    Ans: (c) 7 cm. r² + 24² = 25², so r = √49 = 7 cm.

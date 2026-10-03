@@ -40,7 +40,7 @@ SECTIONS = (
     ("bank", "Q&A bank", "question-bank.html"),
     ("drill", "MCQ drill", "drill.html"),
     ("revision", "Revision", "revision.html"),
-    ("pyq", "PYQ", "pyq.html"),
+    ("pyq", "PYQ papers", "pyq.html"),
     ("practical", "Practical", "practical.html"),
 )
 
@@ -266,6 +266,14 @@ def sidebar(root, subject=None, active=None, chapters=None, chapter_id=None,
             f'<span class="toc-num">{code}</span>{html.escape(s["title"])}</a>'
         )
 
+    on_dl = " is-on" if active == "downloads" else ""
+    cur_dl = ' aria-current="page"' if active == "downloads" else ""
+    bits.append('<div class="toc-group">Downloads</div>')
+    bits.append(
+        f'<a class="toc-item{on_dl}" href="{href_to(root, "downloads/index.html")}"{cur_dl}>'
+        '<span class="toc-num">PDF</span>Papers &amp; question banks</a>'
+    )
+
     on_centre = " is-on" if (active == "mock" and not mock_exam) else ""
     cur_centre = ' aria-current="page"' if (active == "mock" and not mock_exam) else ""
     bits.append('<div class="toc-group">Mock tests</div>')
@@ -447,6 +455,7 @@ def footer(root):
         f'<nav class="foot-subj foot-mocks" aria-label="Mock tests">'
         f'<a href="{href_to(root, "mock-test/index.html")}"><strong>Mock tests:</strong></a> '
         f'{mock_links} '
+        f'<a href="{href_to(root, "downloads/index.html")}">Downloads</a> '
         f'<a href="{href_to(root, "after-10th/index.html")}">Admissions &amp; scholarships</a> '
         f'<a href="{href_to(root, "pw-nsat/index.html")}">PW NSAT</a></nav>'
     )
@@ -459,16 +468,18 @@ def footer(root):
 # --------------------------------------------------------------------------
 def page(title, crumbs, body, root="..", subject=None, active=None,
          chapters=None, chapter_id=None, mock_exam=None, active_mock=None,
-         subactive=None, lang="en", path=None):
+         subactive=None, lang="en", path=None, description=None):
     """Assemble one page from the partials in site/partials/.
 
     `path` is the page's site-relative output path (e.g. "maths/index.html");
     it drives the canonical and Open Graph URLs. `lang` is the BCP-47 language
-    of the content.
+    of the content. `description` overrides the generic meta description for
+    pages that are not chapter material.
     """
     esc_title = html.escape(title)
     description = html.escape(
-        f"CBSE Class 10 {title} \u2014 chapter notes, formulas, exam Q&A and revision.")
+        description
+        or f"CBSE Class 10 {title} \u2014 chapter notes, formulas, exam Q&A and revision.")
     canonical = f"{SITE_URL}/{path}" if path else f"{SITE_URL}/"
     head = render("head.html", TITLE=esc_title, DESCRIPTION=description,
                   ROOT=root, CANONICAL=canonical, SITE_URL=SITE_URL)
@@ -479,6 +490,10 @@ def page(title, crumbs, body, root="..", subject=None, active=None,
     navigation = sidebar(root, subject, active, chapters, chapter_id,
                          mock_exam, active_mock, subactive)
     scripts = f'<script src="{href_to(root, "assets/js/app.js")}"></script>'
+    if 'class="qans"' in body:
+        # Pages with click-to-reveal answers also need the print helper, so a
+        # saved PDF carries the answers instead of the collapsed "Show Answer".
+        scripts += f'\n<script src="{href_to(root, "assets/js/print.js")}"></script>'
     return render(
         "page.html",
         LANG=lang,

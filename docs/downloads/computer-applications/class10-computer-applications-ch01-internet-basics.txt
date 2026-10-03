@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 1 · Internet Basics · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 1 · Internet Basics
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] When did India first get internet access, and through which provider?
+    Ans: India got internet access on 15 August 1995, through VSNL (Videsh Sanchar Nigam Limited).
+
+Q2. [Short · 2 marks] What is the internet? Give two of its features.
+    Ans: The internet is a worldwide network of networks in which millions of smaller networks are interconnected, allowing any computer to communicate with any other. Two of its features are: it has no single owner or central control, running instead on shared protocols; and it provides many services at once — the World Wide Web, email, file transfer and video calls all travel over the same infrastructure.
+
+Q3. [Short · 2 marks] What was ARPANET and why is it important?
+    Ans: ARPANET (Advanced Research Projects Agency Network) was started in 1969 by the US Department of Defense's research agency. It is important because it was the first packet-switched network and the direct ancestor of today's internet — its first connection ran between UCLA and Stanford Research Institute.
+
+Q4. [Short · 2 marks] What is the role of DNS?
+    Ans: DNS (Domain Name System) translates human-readable domain names such as clickalex.github.io into the numeric IP addresses that computers actually use to find each other. Without it, users would have to memorise numbers like 140.82.121.4 to reach any website. DNS works like a distributed phone book for the internet.
+
+Q5. [Short · 2 marks] What is the internet and how did it begin?
+    Ans: The internet is a worldwide network of networks that links millions of computers using the TCP/IP family of protocols. It began in 1969 as ARPANET, a project of the US Department of Defense that linked four university computers, and grew into the public network we use after the World Wide Web was invented in 1989.
+
+Q6. [Short · 3 marks] Distinguish between IPv4 and IPv6.
+    Ans: IPv4 uses 32-bit addresses, giving roughly 4.3 billion possible addresses — written as four numbers separated by dots, such as 192.168.1.5. IPv6 uses 128-bit addresses, written in hexadecimal groups such as 2001:0db8:85a3::8a2e:0370:7334. IPv6 was created because the supply of IPv4 addresses was exhausted by the growth in connected devices; it also has better built-in support for security and automatic configuration.
+
+Q7. [Application · 3 marks] A student writes: “The internet and the World Wide Web are the same thing, and the internet is owned by Google.” Correct both claims.
+    Ans:
+      The internet is the global network of networks (cables, routers and protocols). The World Wide Web is only one service that runs on it: linked web pages fetched with HTTP. E-mail and file transfer use the internet but are not the web.
+      The internet has no single owner or central controller; thousands of independent networks cooperate by following common protocols.
+      Organisations such as ICANN and the IETF only coordinate names, addresses and standards.
+
+Q8. [Application · 3 marks] Sunita has a 100 Mbps broadband plan, yet her video calls lag and freeze. Her brother says the problem is high latency, not low bandwidth. Explain the difference and how each affects a video call.
+    Ans:
+      Bandwidth is how much data the connection can carry per second; latency is how long a packet takes to travel to the other end and back.
+      A large bandwidth helps with big downloads and HD streaming, but a call is a real-time exchange of many small packets.
+      If latency is high, the voice and video arrive late even though the connection is “fast”, so the call lags.
+
+Q9. [Short · 3 marks] Explain the terms World Wide Web, webpage, website and homepage.
+    Ans:
+      The World Wide Web is the collection of linked documents and resources reached over the internet, invented by Tim Berners-Lee.
+      A webpage is a single document, written in HTML, that a browser displays.
+      A website is a group of related webpages stored under one domain name, such as a school's site with pages for admissions, results and contact.
+      The homepage is the first page that opens when you visit a website, from which the other pages are reached.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    In a new school lab, 30 computers are connected to a router, which is connected to an Internet Service Provider (ISP).
+
+    (a) What is the role of the ISP?
+    (b) What does the router do?
+    (c) What gives each computer a unique address on the network?
+    Ans:
+      (a) The ISP gives the lab access to the internet; it is the company or organisation whose network the school’s network joins (in India, VSNL gave the first public access in 1995).
+      (b) The router connects the lab’s network to the internet and forwards data packets towards the right destination.
+      (c) Each device is given an IP address.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A student reads: “ARPANET started in 1969, and Tim Berners-Lee proposed the World Wide Web at CERN in 1989.”
+
+    (a) How many years separate the two events?
+    (b) Which came first, and does the web run on the internet?
+    (c) Name the three technologies on which the web is built.
+    Ans:
+      (a) 1989 − 1969 = 20 years.
+      (b) ARPANET (the ancestor of the internet) came first; the web is a service that runs on top of the internet.
+      (c) HTML (to write pages), HTTP (to transfer them) and URLs (to address them).
+
+Q12. [Long · 5 marks] Describe, step by step, what happens from the moment you type a web address into a browser until the page appears.
+    Ans:
+      Step 1: you type a URL, for example www.example.org, into the browser.
+      Step 2: the browser asks a DNS server to translate the domain name into the numeric IP address of the web server.
+      Step 3: using that IP address, the browser sends an HTTP request for the page to the web server.
+      Step 4: the server sends back the page (HTML, images and other files), split into small data packets that may travel by different routes.
+      Step 5: the packets are reassembled and the browser displays the page.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. ARPANET was developed in — (a) 1959 (b) 1969 (c) 1989 (d) 1995
+    Ans: (b) 1969, by the US Department of Defense's research agency.
+
+M2. Who invented the World Wide Web? (a) Tim Berners-Lee (b) Vint Cerf (c) Bill Gates (d) Charles Babbage
+    Ans: (a) Tim Berners-Lee, in 1989.
+
+M3. How many bits are in an IPv6 address? (a) 32 (b) 64 (c) 128 (d) 256
+    Ans: (c) 128 bits. IPv4 uses 32.
+
+M4. DNS stands for — (a) Dynamic Name Service (b) Data Network Server (c) Digital Naming Standard (d) Domain Name System
+    Ans: (d) Domain Name System.
+
+M5. An IPv4 address is made up of: (a) 64 bits, written as eight hexadecimal numbers (b) 32 bits, written as four numbers from 0 to 255 (c) 128 bits, written as eight hexadecimal groups (d) 16 bits, written as two numbers
+    Ans: (b) 32 bits, written as four numbers from 0 to 255. IPv4 uses 32 bits, shown as four decimal numbers separated by dots, for example 192.168.1.1; IPv6 uses 128 bits.
+
+M6. The amount of data that a connection can carry per second is called its: (a) bandwidth (b) latency (c) protocol (d) domain
+    Ans: (a) bandwidth. Bandwidth measures capacity; latency measures delay.
+
+M7. The World Wide Web was invented by: (a) Bill Gates  (b) Vint Cerf  (c) Tim Berners-Lee  (d) Steve Jobs
+    Ans: (c) Tim Berners-Lee. He proposed it in 1989 while working at CERN.
+
+M8. URL stands for: (a) Universal Resource Link  (b) United Resource Locator  (c) Uniform Resource Link  (d) Uniform Resource Locator
+    Ans: (d) Uniform Resource Locator. It is the address of a page on the web.

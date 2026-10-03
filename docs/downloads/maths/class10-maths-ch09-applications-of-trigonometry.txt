@@ -1,0 +1,125 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 9 · Some Applications of Trigonometry · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 9 · Some Applications of Trigonometry
+Unit: V · Trigonometry
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 3 marks] The angle of elevation of the top of a tower from a point 30 m from its foot is 60°. Find the height of the tower.
+    Ans: In the right triangle, tan 60° = height ÷ distance, so √3 = h/30 and h = 30√3 m ≈ 51.96 m. Draw the triangle first — the tower is the perpendicular, the 30 m ground distance is the base, and the angle of elevation is at the foot. Unless asked for a decimal, 30√3 m is the exact answer and is preferred.
+
+Q2. [Short · 3 marks] From the top of a 75 m high lighthouse, the angles of depression of two ships on the same side are 30° and 45°. Find the distance between the ships.
+    Ans:
+      For the ship at 45°: tan 45° = 75/x, so x = 75 m.
+      For the ship at 30°: tan 30° = 75/y, so y = 75√3 m.
+      Distance = 75√3 − 75 = 75(√3 − 1) ≈ 54.9 m.
+
+Q3. [Application · 3 marks] A boy whose eyes are 1.5 m above the ground stands 20√3 m from a tower and sees its top at an angle of elevation of 30°. He calculates the height as 20√3 × tan 30° = 20 m and stops. What is missing? Give the correct height.
+    Ans:
+      The calculation gives only the height of the tower above his eye level; the 1.5 m from the ground to his eyes must be added back.
+      Height above eye level = 20√3 × (1/√3) = 20 m.
+      Height of the tower = 20 + 1.5 = 21.5 m.
+
+Q4. [Application · 3 marks] A 20 m long ladder leans against a wall and makes an angle of 60° with the ground. How high up the wall does it reach, and how far is its foot from the wall? (Take √3 = 1.73.)
+    Ans:
+      In the right triangle, the ladder is the hypotenuse: height = 20 sin 60° = 20 × √3/2 = 10√3.
+      Height = 10 × 1.73 = 17.3 m.
+      Distance of the foot from the wall = 20 cos 60° = 20 × 1/2 = 10 m.
+
+Q5. [Short · 3 marks] The shadow of a tower is 20 m longer when the sun’s elevation is 30° than when it is 60°. Find the height of the tower.
+    Ans:
+      Let the height be h. Shadow at 60° = h/tan 60° = h/√3; shadow at 30° = h/tan 30° = h√3.
+      h√3 − h/√3 = 20 ⇒ h(3 − 1)/√3 = 20 ⇒ 2h = 20√3.
+      So h = 10√3 m ≈ 17.3 m.
+
+Q6. [Application · 3 marks] Two poles of heights 6 m and 11 m stand upright on level ground with their feet 12 m apart. Find the distance between their tops.
+    Ans:
+      The difference in height is 11 − 6 = 5 m and the horizontal gap is 12 m.
+      Distance between the tops = √(5² + 12²) = √169 = 13 m.
+
+Q7. [Short · 3 marks] A kite flies with 100 m of string out so that its height above the ground is 50 m. If the string is taut, find the angle of elevation of the kite.
+    Ans:
+      Let the angle of elevation be θ. The string is the hypotenuse (100 m) and the height is the opposite side (50 m).
+      So sin θ = 50/100 = 1/2.
+      Therefore θ = 30°. The angle of elevation of the kite is 30°.
+
+Q8. [Long · 4 marks] A person on the bank of a river sees the top of a tree on the opposite bank at an angle of elevation of 60°. Walking 20 m away from the bank, the angle becomes 30°. Find the height of the tree and the width of the river.
+    Ans:
+      Let the height be h and the width x.
+      From the nearer point: h = x√3. From the farther point: h = (x + 20)/√3.
+      Equating: x√3 = (x + 20)/√3, so 3x = x + 20 and x = 10 m.
+      Therefore h = 10√3 ≈ 17.32 m and the river is 10 m wide.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    From the top of a 12 m high building, the angle of elevation of the top of a cable tower is 60° and the angle of depression of its foot is 30°.
+
+    (a) Find the horizontal distance between the building and the tower.
+    (b) Find the height of the tower.
+    (c) Which of the two given angles is measured below the horizontal?
+    Ans:
+      (a) Angle of depression of the foot is 30°: tan 30° = 12/d, so d = 12√3 m ≈ 20.8 m.
+      (b) Above the building’s top: tan 60° = (H − 12)/d, so H − 12 = √3 × 12√3 = 36 and H = 48 m.
+      (c) The 30° angle of depression, measured below the horizontal through the observer’s eye.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A drone hovers 60 m above a straight road. Two observers A and B stand on the road on opposite sides of the point directly below the drone. They see it at angles of elevation 30° and 60° respectively.
+
+    (a) How far is A from the point below the drone?
+    (b) How far is B from that point?
+    (c) What is the distance AB? (Take √3 = 1.73.)
+    Ans:
+      (a) tan 30° = 60/AO, so AO = 60√3 ≈ 103.8 m.
+      (b) tan 60° = 60/BO, so BO = 60/√3 = 20√3 ≈ 34.6 m.
+      (c) AB = AO + BO = 80√3 ≈ 138.4 m.
+
+Q11. [Application · 4 marks] From a point 40 m from the foot of a tower the angle of elevation of its top is 30°. After hoisting a flag on top, the angle of elevation of the top of the flag is 45°. Find the height of the flag.
+    Ans:
+      Height of the tower = 40 tan 30° = 40/√3 ≈ 23.1 m.
+      Height of tower + flag = 40 tan 45° = 40 m.
+      Height of the flag = 40 − 40/√3 = 40(1 − 1/√3) ≈ 16.9 m.
+
+Q12. [Long · 5 marks] The angles of elevation of the top of a tower from two points at distances 4 m and 9 m from its base, on the same straight line with the base, are complementary. Prove that the height of the tower is 6 m.
+    Ans:
+      Let the tower be h m high. Let the angle of elevation from the point 4 m away be θ; from the point 9 m away it is (90° − θ).
+      From the nearer point: tan θ = h/4.
+      From the farther point: tan(90° − θ) = cot θ = h/9.
+      Multiply: tan θ × cot θ = (h/4)(h/9), so 1 = h²/36.
+      Hence h² = 36 and h = 6 m. ∎
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The angle of depression is always measured from: (a) the vertical  (b) the object  (c) the ground below  (d) the horizontal
+    Ans: (d) The horizontal at the observer’s end.
+
+M2. If the angle of elevation of the sun is 45°, the length of the shadow of a pole equals: (a) half its height  (b) twice its height  (c) its height  (d) √3 times its height
+    Ans: (c) Its height. tan 45° = 1.
+
+M3. From the top of a tower the angle of depression of an object on the ground is 30°. The angle of elevation of the top from that object is: (a) 90°  (b) 60°  (c) 45°  (d) 30°
+    Ans: (d) 30°. Alternate angles between parallel horizontals.
+
+M4. If the angle of elevation of the top of a pole from a point 10 m from its foot is 60°, the height of the pole is: (a) 10/√3 m  (b) 10√3 m  (c) 10 m  (d) 20 m
+    Ans: (b) 10√3 m. height = 10 × tan 60° = 10√3 m.
+
+M5. As an observer walks towards the foot of a tower, the angle of elevation of its top: (a) increases  (b) decreases  (c) stays the same  (d) becomes zero
+    Ans: (a) increases. The horizontal distance falls while the height stays fixed, so tan of the angle (height ÷ distance) grows and the angle increases.
+
+M6. When the shadow of a pole equals its height, the sun’s angle of elevation is: (a) 90°  (b) 60°  (c) 45°  (d) 30°
+    Ans: (c) 45°. tan θ = height/shadow = 1, so θ = 45°.
+
+M7. The angle made by the line of sight with the horizontal when the object is below the observer is the angle of: (a) depression  (b) elevation  (c) reflection  (d) inclination
+    Ans: (a) depression. Elevation looks up; depression looks down.
+
+M8. A 10 m ladder reaches a window 8 m above the ground. Its foot is from the wall at a distance of: (a) 4 m  (b) 6 m  (c) 7 m  (d) 9 m
+    Ans: (b) 6 m. By Pythagoras, √(100 − 64) = √36 = 6 m.

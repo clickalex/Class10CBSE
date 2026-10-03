@@ -1,0 +1,132 @@
+﻿CLASS 10 CBSE · SCIENCE (Subject Code 086)
+Chapter 2 · Acids, Bases and Salts · session 2026–27
+
+1 chapter · 14 written Q&A · 11 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/science/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 2 · Acids, Bases and Salts
+Unit: I · Chemical Substances
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Why does dry HCl gas not change the colour of dry litmus paper?
+    Ans: Because acidic behaviour requires the formation of H+(aq) ions, which needs water. Dry HCl gas has no water, so it does not ionise and cannot affect dry litmus.
+
+Q2. [Short · 2 marks] A solution turns red litmus blue. Its pH is likely to be: 1, 4, 7 or 10. Justify.
+    Ans: 10. Turning red litmus blue shows the solution is basic, and only pH 10 among the options is on the basic side of 7.
+
+Q3. [Short · 2 marks] Fresh milk has a pH of 6. Explain why the pH falls as it turns into curd.
+    Ans: Bacteria convert lactose into lactic acid. The acid increases the H+ ion concentration, so the pH drops below 6 and the milk proteins coagulate into curd.
+
+Q4. [Short · 2 marks] What happens when a base reacts with a non-metal oxide? Give an equation and state what it tells you about non-metal oxides.
+    Ans: A salt and water are formed, just as in neutralisation: Ca(OH)₂ + CO₂ → CaCO₃ + H₂O. It shows that non-metal oxides are acidic in nature.
+
+Q5. [Short · 3 marks] Why is plaster of Paris written as CaSO4·½H2O? Is it possible to have half a water molecule?
+    Ans: The formula is written per formula unit of CaSO4. One molecule of water is shared between two CaSO4 units, so each unit effectively holds half a water molecule. Heating gypsum at 373 K drives out 1½ molecules of water.
+
+Q6. [Short · 3 marks] A milkman adds a very small amount of baking soda to fresh milk. Why does the milk take longer to set as curd?
+    Ans: The baking soda makes the milk slightly alkaline, so the lactic acid produced by bacteria is first neutralised before the pH can fall low enough to coagulate the casein. Setting is therefore delayed.
+
+Q7. [Application · 3 marks] A student writes: “The setting of plaster of Paris into a hard mass is only a physical change because nothing new is made.” Correct the statement with the chemical equation.
+    Ans:
+      Setting is a chemical change: plaster of Paris combines with water to form a new compound, gypsum.
+      CaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O (gypsum, a hard solid mass).
+      This is why POP is stored in moisture-proof containers: damp air would make it set. Its uses include casting for fractured bones and making toys and decorative material.
+
+Q8. [Application · 3 marks] The soil in a field has a pH of 5.2. What should the farmer add to it, and why? Name one common material.
+    Ans:
+      A pH of 5.2 means the soil is acidic, while most crops grow best at about pH 6.5–7.5.
+      The farmer should add a base such as quicklime (CaO), slaked lime Ca(OH)₂ or chalk (CaCO₃).
+      The base neutralises the excess acid (acid + base → salt + water), which raises the pH towards neutral.
+
+Q9. [Short · 3 marks] How is bleaching powder prepared? Write the equation and two uses.
+    Ans:
+      Bleaching powder is prepared by the action of chlorine gas on dry slaked lime: Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O.
+      Uses: bleaching cotton and linen in the textile industry and wood pulp in paper factories.
+      It is also used as an oxidising agent in chemical industries and to disinfect drinking water.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    Four solutions P, Q, R and S have pH values 2, 6, 8 and 13 respectively.
+
+    (a) Which is the strongest acid and which is the strongest base?
+    (b) Which solution would you use to relieve a bee sting, and why not the strongest base?
+    (c) How many times greater is the hydrogen-ion concentration of P than that of Q?
+    Ans:
+      (a) P (pH 2) is the strongest acid; S (pH 13) is the strongest base.
+      (b) R (pH 8), a mild base like baking-soda solution, neutralises the acid (methanoic acid) of the sting. S would be too strong and would burn the skin.
+      (c) Each pH unit is a factor of 10, and P and Q differ by 4 units, so P has 10⁴ = 10,000 times the hydrogen-ion concentration of Q.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A student heats a few blue crystals of copper sulphate in a dry test tube. Water droplets appear on the cooler part of the tube and the crystals turn white. When a few drops of water are added to the white powder, the blue colour returns.
+
+    (a) Write the formula of the blue crystals.
+    (b) Why does the colour change on heating?
+    (c) What is this water called?
+    Ans:
+      (a) CuSO₄·5H₂O.
+      (b) Heating drives off the water held in the crystals, leaving white anhydrous copper sulphate, CuSO₄.
+      (c) It is the water of crystallisation: five water molecules per formula unit. Adding water restores it, so the blue colour returns.
+
+Q12. [Application · 4 marks] Three unlabelled bottles contain an acidic, a basic and a neutral solution. How would you identify all three using only red and blue litmus paper?
+    Ans:
+      Dip a strip of red litmus into each solution: the one that turns it blue is the basic solution.
+      Now dip a strip of blue litmus into the two remaining solutions: the one that turns it red is the acidic solution.
+      The solution that changes neither paper is neutral (pH ≈ 7).
+      Note that a single indicator is not enough — you must use both papers, because neutral and acidic solutions both leave red litmus unchanged.
+
+Q13. [Long · 5 marks] Explain the chlor-alkali process with an equation, and give two uses each of the products.
+    Ans:
+      Electrolysis of concentrated aqueous sodium chloride (brine) gives sodium hydroxide, chlorine and hydrogen: 2NaCl(aq) + 2H2O(l) → 2NaOH(aq) + Cl2(g) + H2(g).
+      Sodium hydroxide — making soaps and detergents, and in the paper industry.
+      Chlorine — disinfecting drinking water and making bleaching powder/PVC.
+      Hydrogen — as a fuel and in the manufacture of ammonia and margarine (hydrogenation of oils).
+
+Q14. [Long · 5 marks] How is baking soda prepared? What happens when it is heated? Write the equations and give two uses of baking soda and two uses of washing soda.
+    Ans:
+      Preparation: NaCl + H₂O + CO₂ + NH₃ → NH₄Cl + NaHCO₃ (sodium hydrogencarbonate, baking soda).
+      On heating: 2NaHCO₃ → Na₂CO₃ + H₂O + CO₂. The sodium carbonate formed gives washing soda, Na₂CO₃·10H₂O, on recrystallisation.
+      Uses of baking soda: an antacid; baking powder (with tartaric acid) to make cakes soft and spongy; soda-acid fire extinguishers.
+      Uses of washing soda: removing permanent hardness of water; making glass, soap and paper; household cleaning.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. A solution reacts with crushed egg-shell to give a gas that turns lime water milky. The solution contains: (a) NaCl (b) HCl (c) LiCl (d) KCl
+    Ans: (b) HCl. Egg-shell is CaCO3; CaCO3 + 2HCl → CaCl2 + H2O + CO2. The CO2 turns lime water milky.
+
+M2. Which one is a strong base? (a) NaOH (b) NH4OH (c) Mg(OH)2 (d) Cu(OH)2
+    Ans: (a) NaOH. Alkali metal hydroxides are strong bases and ionise completely; the others are weak.
+
+M3. The pH of gastric juice released during digestion is: (a) less than 7 (b) more than 7 (c) equal to 7 (d) equal to 0
+    Ans: (a) less than 7. The stomach secretes hydrochloric acid, which keeps the gastric juice acidic (roughly pH 1.2–3) so that pepsin can act.
+
+M4. Which of the following salts gives a neutral solution (pH about 7) in water? (a) Na₂CO₃  (b) NH₄Cl  (c) NaCl  (d) CH₃COONa
+    Ans: (c) NaCl. NaCl is the salt of a strong acid (HCl) and a strong base (NaOH), so its solution is neutral.
+
+M5. When carbon dioxide is passed through lime water, it turns milky because of the formation of: (a) calcium chloride  (b) calcium carbonate  (c) calcium hydroxide  (d) calcium oxide
+    Ans: (b) calcium carbonate. Ca(OH)₂ + CO₂ → CaCO₃ + H₂O; calcium carbonate is insoluble in water, so the lime water turns milky.
+
+M6. A solution turns colourless phenolphthalein pink. Its pH is likely to be: (a) 2  (b) 5  (c) 7  (d) 10
+    Ans: (d) 10. Phenolphthalein turns pink only in a basic solution, whose pH is above 7.
+
+M7. The salt used to remove permanent hardness of water is: (a) sodium chloride  (b) calcium sulphate  (c) sodium carbonate  (d) ammonium chloride
+    Ans: (c) sodium carbonate. Washing soda precipitates out the dissolved calcium and magnesium salts that cause hardness.
+
+M8. Dilute acid added to an active metal produces: (a) hydrogen  (b) oxygen  (c) carbon dioxide  (d) nitrogen
+    Ans: (a) hydrogen. Metal + dilute acid → salt + H₂, which burns with a pop sound.
+
+M9. The chemical formula of Plaster of Paris is: (a) CaSO₄·2H₂O  (b) CaSO₄·½H₂O  (c) CaSO₄  (d) CaCO₃
+    Ans: (b) CaSO₄·½H₂O. Gypsum (CaSO₄·2H₂O) heated to 373 K loses three-quarters of its water of crystallisation to give the hemihydrate.
+
+M10. Baking soda is: (a) Na₂CO₃·10H₂O  (b) NaOH  (c) Na₂CO₃  (d) NaHCO₃
+    Ans: (d) NaHCO₃. Sodium hydrogencarbonate; it releases CO₂ on heating or with acid, which makes cakes rise and antacids fizz.
+
+M11. Bleaching powder is manufactured by passing chlorine gas over: (a) quicklime  (b) limestone  (c) dry slaked lime  (d) gypsum
+    Ans: (c) dry slaked lime. Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O. Quicklime is CaO, limestone is CaCO₃, gypsum is a sulphate.

@@ -1,0 +1,126 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 7 · Coordinate Geometry · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 7 · Coordinate Geometry
+Unit: III · Coordinate Geometry
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the distance between (−2, 3) and (4, −5).
+    Ans: Using the distance formula d = √[(x₂ − x₁)² + (y₂ − y₁)²]: d = √[(4 − (−2))² + (−5 − 3)²] = √[36 + 64] = √100 = 10 units. Note the signs: subtracting a negative coordinate becomes an addition, and both differences are squared, so it does not matter which point is taken first.
+
+Q2. [Short · 2 marks] Find the point that divides the segment joining (−1, 7) and (4, −3) in the ratio 2:3.
+    Ans:
+      x = (2(4) + 3(−1))/5 = (8 − 3)/5 = 1.
+      y = (2(−3) + 3(7))/5 = (−6 + 21)/5 = 3.
+      The point is (1, 3).
+
+Q3. [Short · 3 marks] Find a relation between x and y if the point (x, y) is equidistant from (3, 6) and (−3, 4).
+    Ans:
+      Set the squared distances equal: (x−3)² + (y−6)² = (x+3)² + (y−4)².
+      Expanding and cancelling x² and y²: −6x − 12y + 45 = 6x − 8y + 25.
+      So 12x + 4y = 20, that is 3x + y = 5.
+
+Q4. [Short · 3 marks] Find the area of the triangle with vertices (1, −1), (−4, 2k) and (−k, 5) if the area is 24/2 square units.
+    Ans:
+      Area = ½|1(2k − 5) + (−4)(5 − (−1)) + (−k)(−1 − 2k)|
+      = ½|2k − 5 − 24 + k + 2k²| = ½|2k² + 3k − 29| = 12.
+      So 2k² + 3k − 29 = ±24, giving 2k² + 3k − 53 = 0 or 2k² + 3k − 5 = 0.
+      The second factorises as (2k + 5)(k − 1) = 0, so k = 1 or k = −5/2. Always keep both the + and − cases because of the modulus.
+
+Q5. [Application · 3 marks] A student finds the distance between A(−3, 2) and B(5, −4) as √[(5 − 3)² + (−4 − 2)²] = √40. Find the error and give the correct distance.
+    Ans:
+      Error: x₂ − x₁ = 5 − (−3) = 5 + 3 = 8, not 2. The negative sign of x₁ was dropped.
+      Correct: AB = √[8² + (−6)²] = √(64 + 36).
+      AB = √100 = 10 units.
+
+Q6. [Application · 3 marks] A petrol station is to be built on the road along the x-axis so that it is equidistant from two villages at P(2, −5) and Q(−2, 9). Find the coordinates of the station.
+    Ans:
+      Let the station be S(x, 0). Then SP = SQ, so SP² = SQ².
+      (x − 2)² + 25 = (x + 2)² + 81, which gives −4x + 29 = 4x + 85.
+      So −8x = 56 and x = −7. The station is at (−7, 0).
+
+Q7. [Short · 3 marks] Find the ratio in which the point (−1, 6) divides the line segment joining (−3, 10) and (6, −8).
+    Ans:
+      Let the ratio be k : 1. Using the section formula on x: −1 = (6k − 3)/(k + 1).
+      ⇒ −k − 1 = 6k − 3 ⇒ 7k = 2 ⇒ k = 2/7, so the ratio is 2 : 7.
+      Verify with y: (−8(2/7) + 10)/(9/7) = (54/7) × (7/9) = 6, which matches.
+
+Q8. [Competency · 4 marks] Read and answer:
+
+    On a grid map, a school is at S(−2, 1) and a library is at L(6, 7). A bus stop M is to be placed exactly midway between them, and a park is at P(2, −2).
+
+    (a) Find the distance SL.
+    (b) Find the coordinates of M.
+    (c) Find the distance MP.
+    Ans:
+      (a) SL = √[(6 + 2)² + (7 − 1)²] = √(64 + 36) = 10 units.
+      (b) M = ((−2 + 6)/2, (1 + 7)/2) = (2, 4).
+      (c) MP = √[(2 − 2)² + (−2 − 4)²] = 6 units.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    Three vertices of a parallelogram ABCD, taken in order, are A(1, 2), B(4, 3) and C(6, 6).
+
+    (a) Find the coordinates of D.
+    (b) Verify your answer using the diagonals.
+    (c) Which property of a parallelogram did you use?
+    Ans:
+      (a) The diagonals AC and BD bisect each other. Midpoint of AC = (7/2, 4). If D = (x, y), midpoint of BD = ((4 + x)/2, (3 + y)/2) = (7/2, 4), so x = 3 and y = 5. D = (3, 5).
+      (b) Check: vector AB = (3, 1) and vector DC = (6 − 3, 6 − 5) = (3, 1), so AB and DC are equal and parallel ✓.
+      (c) The diagonals of a parallelogram bisect each other, so they share the same midpoint.
+
+Q10. [Long · 4 marks] Find the area of the quadrilateral with vertices (−4, −2), (−3, −5), (3, −2) and (2, 3), taken in order.
+    Ans:
+      Split it along the diagonal AC into ΔABC and ΔACD.
+      ar(ABC) = ½|(−4)(−5 + 2) + (−3)(−2 + 2) + 3(−2 + 5)| = ½|12 + 0 + 9| = 10.5 sq units.
+      ar(ACD) = ½|(−4)(−2 − 3) + 3(3 + 2) + 2(−2 + 2)| = ½|20 + 15 + 0| = 17.5 sq units.
+      Total area = 10.5 + 17.5 = 28 sq units.
+
+Q11. [Long · 4 marks] Show that the points (1, 7), (4, 2), (−1, −1) and (−4, 4) are the vertices of a square.
+    Ans:
+      Each side: AB = √(9 + 25) = √34, BC = √(25 + 9) = √34, CD = √(9 + 25) = √34, DA = √(25 + 9) = √34 — all equal.
+      Diagonals: AC = √(4 + 64) = √68 and BD = √(64 + 4) = √68 — equal.
+      A quadrilateral with all four sides equal and equal diagonals is a square.
+
+Q12. [Long · 5 marks] Find the ratio in which the y-axis divides the line segment joining A(5, −6) and B(−1, −4). Also find the point of division.
+    Ans:
+      A point on the y-axis has x = 0. Let it divide AB in the ratio k : 1.
+      x = (k × (−1) + 1 × 5)/(k + 1) = 0, so −k + 5 = 0 and k = 5. The ratio is 5 : 1.
+      y = (5 × (−4) + 1 × (−6))/(5 + 1) = −26/6 = −13/3.
+      The y-axis meets AB at (0, −13/3).
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The distance of the point (3, 4) from the origin is: (a) 5  (b) 7  (c) 25  (d) 12
+    Ans: (a) 5. √(9 + 16) = 5.
+
+M2. The midpoint of (2, −3) and (−6, 5) is: (a) (2, −1)  (b) (−2, 1)  (c) (−4, 2)  (d) (4, −8)
+    Ans: (b) (−2, 1). ((2−6)/2, (−3+5)/2).
+
+M3. Three points are collinear if the area of the triangle they form is: (a) 1  (b) maximum  (c) negative  (d) 0
+    Ans: (d) 0.
+
+M4. The coordinates of the point that divides the line segment joining (0, 0) and (6, 9) internally in the ratio 1 : 2 are: (a) (3, 9/2)  (b) (4, 6)  (c) (1, 3/2)  (d) (2, 3)
+    Ans: (d) (2, 3). x = (1 × 6 + 2 × 0)/3 = 2 and y = (1 × 9 + 2 × 0)/3 = 3.
+
+M5. The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is: (a) 12 square units  (b) 6 square units  (c) 7 square units  (d) 3.5 square units
+    Ans: (b) 6 square units. It is right-angled at the origin, so the area is ½ × 4 × 3 = 6 square units.
+
+M6. The point (−3, 0) lies on: (a) the y-axis  (b) the line y = x  (c) the x-axis  (d) the origin
+    Ans: (c) the x-axis. Every point whose y-coordinate is 0 lies on the x-axis.
+
+M7. The distance of (a cos θ, a sin θ) from the origin is: (a) a  (b) a²  (c) 1  (d) 2a
+    Ans: (a) a. Distance = √(a²cos²θ + a²sin²θ) = √(a²) = a.
+
+M8. The centroid of the triangle with vertices (2, 3), (−4, 7) and (2, −4) is: (a) (0, 0)  (b) (2, 2)  (c) (0, 2)  (d) (0, 3)
+    Ans: (c) (0, 2). x = (2 − 4 + 2)/3 = 0 and y = (3 + 7 − 4)/3 = 2.

@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 14 · Tables in LibreOffice Base · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 14 · Tables in LibreOffice Base
+Unit: Part B · Database Management System
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Name four data types in Base and one use each.
+    Ans: VARCHAR for names, Integer for roll number, Date for DOB, Decimal for fees, Yes/No for paid flag.
+
+Q2. [Short · 2 marks] How do you set a primary key in Design View?
+    Ans: Right-click the field row → Primary Key so the key icon appears, then save the table.
+
+Q3. [Short · 2 marks] Describe how to create a table in LibreOffice Base.
+    Ans: Open the database, choose Tables, then Create Table in Design View. For each field type the field name and choose a data type such as Text, Integer, Decimal or Date. Right-click the field you want as the primary key and choose Primary Key, then save the table with a clear name and close the design window.
+
+Q4. [Short · 2 marks] What is the difference between Datasheet View and Design View in Base?
+    Ans: Design View defines structure — field names, data types, lengths and the primary key. Datasheet View holds content — the actual records typed row by row. You build the table in Design View first, then enter data in Datasheet View; changing structure later can endanger existing records.
+
+Q5. [Application · 3 marks] A student stores mobile numbers as Integer and 098… becomes 98. Why, and what type should be used?
+    Ans: Integer drops leading zeros and is not a “number you calculate with”. Use Text/VARCHAR.
+
+Q6. [Application · 3 marks] While saving a new table, Base asks whether to create a primary key, and a student clicks No. What problems can follow?
+    Ans:
+      Without a primary key, rows cannot be identified uniquely, so duplicate records can be entered.
+      Base may not allow the data of the table to be edited in the normal way.
+      Relationships to other tables cannot be built, since a relationship needs a primary key on one side.
+
+Q7. [Short · 3 marks] Choose the data type for a name, a roll number, a date of birth and a fee amount, giving a reason for each.
+    Ans:
+      Name — Text (VARCHAR), because it contains letters and its length varies.
+      Roll number — Integer, so that records sort correctly and no space is wasted.
+      Date of birth — Date, so that the database can sort dates properly and calculate ages.
+      Fee amount — Decimal with two decimal places, so that money can be added up exactly.
+
+Q8. [Short · 3 marks] What are the field properties ‘Required’, ‘Length’ and ‘Default’? Give one example of each.
+    Ans:
+      Required — the field cannot be left empty; for example, RollNo must always be filled.
+      Length — the maximum characters a text field holds; for example, Name limited to 40 characters.
+      Default — the value filled in automatically; for example, Class defaulting to ‘10’ for a Class 10 table.
+
+Q9. [Long · 4 marks] Write field names, types and keys for a table Book.
+    Ans: ISBN VARCHAR PK; Title VARCHAR; Author VARCHAR; Price DECIMAL; Available YES/NO. ISBN uniquely identifies a book; Available is Boolean.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    Table Marks has fields Name, Marks, Marks, Date.
+
+    (a) Three design faults.
+    (b) Redesign with types and a PK.
+    (c) Which view to use in the practical.
+    Ans:
+      (a) Duplicate field name; no PK; Name is a weak key; Date of what?
+      (b) StudentID INTEGER PK; Name VARCHAR; Marks INTEGER; ExamDate DATE.
+      (c) Design View to build, Datasheet to enter records.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A clerk wants the field StudentID to number new records 1, 2, 3, … automatically.
+
+    (a) Which field property does this?
+    (b) What type of field must it be?
+    (c) Give one advantage.
+    Ans:
+      (a) The AutoValue property, set to Yes.
+      (b) A numeric field, such as Integer.
+      (c) Every record gets a different number automatically, which saves typing and avoids duplicates, so the field is suitable as a primary key.
+
+Q12. [Long · 5 marks] Describe the steps to create a table Employee with the fields EmpID (primary key), Name, JoinDate and Salary in LibreOffice Base.
+    Ans:
+      Step 1: in the Database pane click Tables, then choose Create Table in Design View.
+      Step 2: in the Field Name column type EmpID, Name, JoinDate and Salary, one on each row.
+      Step 3: choose the data types: Integer for EmpID, Text [VARCHAR] for Name, Date for JoinDate and Decimal for Salary.
+      Step 4: right-click the row selector of EmpID and choose Primary Key.
+      Step 5: save the table with the name Employee and close the design window.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The exam-preferred way to create a table is: (a) Design View (b) Wizard only (c) Mail Merge (d) Goal Seek
+    Ans: (a) Design View.
+
+M2. DOB should be stored as: (a) Integer (b) Yes/No (c) Date (d) Image
+    Ans: (c) Date.
+
+M3. A primary key field should be: (a) empty often (b) a photo (c) unique and not null (d) duplicated
+    Ans: (c).
+
+M4. Datasheet view is for: (a) setting data types (b) recording macros (c) wrapping images (d) entering records
+    Ans: (d) entering records.
+
+M5. In Base, the view in which you define field names and data types is the: (a) Datasheet View (b) Design View (c) Print Preview (d) Report View
+    Ans: (b) Design View. Design View is where the structure of the table is defined; Datasheet View is for entering and viewing the data.
+
+M6. The most suitable data type for a field that stores a date of birth is: (a) Text (b) Date (c) Yes/No (d) Image
+    Ans: (b) Date. A Date field stores dates properly, so they can be sorted and used in calculations.
+
+M7. In Design View, the property that limits how many characters a text field can hold is: (a) Format  (b) Default Value  (c) Caption  (d) Field Length
+    Ans: (d) Field Length. Default Value fills in a value automatically when nothing is typed.
+
+M8. A primary key must: (a) be unique and never empty  (b) contain only numbers  (c) be the first field of the table  (d) change every day
+    Ans: (a) be unique and never empty. A table can have only one primary key.

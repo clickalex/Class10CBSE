@@ -105,20 +105,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Quadratic Equations” (Factorisation, the quadratic formula, discriminant and nature of roots.). A classmate lost marks by doing this: Dropping the sign of b when writing −b in the formula. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student solves 2x² − 7x + 3 = 0 with the formula and writes x = (−7 ± √(49 − 24))/4 = (−7 ± 5)/4, so x = −1/2 or x = −3. Find the mistake and give the correct roots.",
         "a": [
-          "Correct method: Splitting the middle term: you need two numbers with product a × c (not just c) and sum b. Forgetting the a is the most common error when a ≠ 1.",
-          "Why the mistake costs marks: Dropping the sign of b when writing −b in the formula.",
-          "Write the definition or formula first, then the working or example."
+          "Mistake: here b = −7, so −b = **+7**. The student used −7.",
+          "Correct: x = (7 ± √(49 − 24))/4 = (7 ± 5)/4, so x = 12/4 = **3** or x = 2/4 = **1/2**.",
+          "Check by factorising: (2x − 1)(x − 3) = 2x² − 7x + 3 ✓."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Quadratic Equations”: “Find the nature of the roots of 2x² − 6x + 3 = 0.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "The length of a rectangular field is 3 m more than twice its breadth and its area is 65 m². Find its dimensions.",
         "a": [
-          "Idea: Factorisation, the quadratic formula, discriminant and nature of roots..",
-          "D = (−6)² − 4(2)(3) = 36 − 24 = 12. D > 0 but 12 is not a perfect square, so the roots are real, distinct and irrational."
+          "Let the breadth be x m; the length is (2x + 3) m. Area: x(2x + 3) = 65, so 2x² + 3x − 65 = 0.",
+          "Factorise: (2x + 13)(x − 5) = 0, so x = 5 or x = −13/2. A length cannot be negative, so x = 5.",
+          "The field is **5 m × 13 m** (area 5 × 13 = 65 m² ✓)."
         ]
       },
       {
@@ -135,21 +136,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Quadratic Equations”. Their note says: Standard form. ax² + bx + c = 0, with a ≠ 0.\n\nThe chapter is described as: Factorisation, the quadratic formula, discriminant and nature of roots..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nAman studies the equation x² − 6x + k = 0 for different values of k.\n\n(a) For which values of k are the roots real and distinct?\n(b) Find k for equal roots, and the root.\n(c) Show that there is no real root when k = 10.",
         "a": [
-          "(a) Factorisation, the quadratic formula, discriminant and nature of roots.",
-          "(b) –7 marks. A nature-of-roots question (2–3 marks) and a word problem (4–5 marks).",
-          "(c) Dropping the sign of b when writing −b in the formula."
+          "(a) D = 36 − 4k. Real and distinct roots need D > 0, so **k < 9**.",
+          "(b) Equal roots need D = 0, so k = 9 and the equation becomes (x − 3)² = 0 with the repeated root x = 3.",
+          "(c) For k = 10, D = 36 − 40 = −4 < 0, so the equation has no real roots."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Find the nature of the roots of 2x² − 6x + 3 = 0.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nTwo water taps together fill a tank in 9⅜ hours (75/8 h). The tap of larger diameter alone takes 10 hours less than the smaller one.\n\n(a) If the smaller tap alone takes x hours, form the quadratic equation.\n(b) Solve it.\n(c) Why is one root rejected?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) D = (−6)² − 4(2)(3) = 36 − 24 = 12. D > 0 but 12 is not a perfect square, so the roots are real, distinct and irrational.",
-          "(c) Splitting the middle term: you need two numbers with product a × c (not just c) and sum b. Forgetting the a is the most common error when a ≠ 1."
+          "(a) 1/x + 1/(x − 10) = 8/75, which simplifies to 4x² − 115x + 375 = 0.",
+          "(b) (4x − 15)(x − 25) = 0, so x = 25 or x = 15/4.",
+          "(c) For x = 15/4 = 3.75 the larger tap would need 3.75 − 10 < 0 hours, which is impossible. So the smaller tap takes **25 hours** and the larger **15 hours**."
         ]
       },
       {
@@ -178,19 +179,19 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Quadratic Equations” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Solve for x: 1/(x + 4) − 1/(x − 7) = 11/30, where x ≠ −4, 7.",
         "a": [
-          "Standard form. ax² + bx + c = 0, with a ≠ 0.",
-          "Marks lens: –7 marks. A nature-of-roots question (2–3 marks) and a word problem (4–5 marks).",
-          "Method / memory trick: Splitting the middle term: you need two numbers with product a × c (not just c) and sum b. Forgetting the a is the most common error when a ≠ 1.",
-          "Do not: Dropping the sign of b when writing −b in the formula."
+          "Combine the left side: [(x − 7) − (x + 4)]/[(x + 4)(x − 7)] = −11/[(x + 4)(x − 7)].",
+          "So −11/[(x + 4)(x − 7)] = 11/30, which gives (x + 4)(x − 7) = −30.",
+          "Expand: x² − 3x − 28 = −30, so x² − 3x + 2 = 0, i.e. (x − 1)(x − 2) = 0.",
+          "Hence x = **1** or x = **2**. Check x = 1: 1/5 + 1/6 = 11/30 ✓; x = 2: 1/6 + 1/5 = 11/30 ✓."
         ]
       }
     ],
     "mcq": [
       {
-        "q": "The roots of x² − 5x + 6 = 0 are: (a) 2, 3  (b) −2, −3  (c) 1, 6  (d) −1, −6",
-        "a": "**(a) 2, 3.** Product 6 and sum 5, both positive."
+        "q": "The roots of x² − 5x + 6 = 0 are: (a) −2, −3  (b) 1, 6  (c) 2, 3  (d) −1, −6",
+        "a": "**(c) 2, 3.** Product 6 and sum 5, both positive."
       },
       {
         "q": "If the discriminant of a quadratic is zero, the roots are: (a) real and distinct  (b) real and equal  (c) not real  (d) always integers",
@@ -201,24 +202,24 @@
         "a": "**(a) k ≤ 4.** D = 16 − 4k ≥ 0 gives k ≤ 4."
       },
       {
-        "q": "The most exam-ready way to revise “Quadratic Equations” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Factorisation, the quadratic formula, discriminant and nature of roots.."
+        "q": "The quadratic equation 2x² − √5 x + 1 = 0 has: (a) two distinct real roots  (b) two equal real roots  (c) more than two real roots  (d) no real roots",
+        "a": "**(d) no real roots.** D = (√5)² − 4(2)(1) = 5 − 8 = −3 < 0, so there is no real root."
       },
       {
-        "q": "A 3-mark answer on “Quadratic Equations” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The equation ax² + bx + c = 0 (a ≠ 0) has real roots only if: (a) b² − 4ac < 0  (b) b² − 4ac = 0 only  (c) b² + 4ac ≥ 0  (d) b² − 4ac ≥ 0",
+        "a": "**(d) b² − 4ac ≥ 0.** The roots contain √(b² − 4ac), which is real exactly when the discriminant is zero or positive."
       },
       {
-        "q": "The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3/2  (b) 7/2 and 3  (c) −7/2 and 3/2  (d) 7/2 and −3/2",
-        "a": "**(a) 7/2 and 3/2.** Sum = −b/a = 7/2 and product = c/a = 3/2."
+        "q": "The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3  (b) 7/2 and 3/2  (c) −7/2 and 3/2  (d) 7/2 and −3/2",
+        "a": "**(b) 7/2 and 3/2.** Sum = −b/a = 7/2 and product = c/a = 3/2."
       },
       {
         "q": "Which one is NOT a quadratic equation? (a) x² + 3x + 2 = 0  (b) (x + 1)² = 2(x − 3)  (c) x³ − x² + 1 = 0  (d) 2x² = 8",
         "a": "**(c) x³ − x² + 1 = 0.** Its degree is 3, so it is a cubic; the others reduce to degree 2."
       },
       {
-        "q": "If the roots of x² − 8x + k = 0 are equal, then k = : (a) 8  (b) 16  (c) −16  (d) 64",
-        "a": "**(b) 16.** D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16."
+        "q": "If the roots of x² − 8x + k = 0 are equal, then k = : (a) 16  (b) 8  (c) −16  (d) 64",
+        "a": "**(a) 16.** D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16."
       }
     ],
     "trend": "“Find k for equal roots” is asked almost every year, plus one 4–5 mark word problem on areas or consecutive integers.",
@@ -315,20 +316,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Arithmetic Progressions” (nth term, sum of n terms, and word problems.). A classmate lost marks by doing this: Using a + nd instead of a + (n − 1)d. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student finds the 12th term of the AP 5, 9, 13, … as 5 + 12 × 4 = 53. Find the error and give the correct term, with a quick check.",
         "a": [
-          "Correct method: d can be negative. A decreasing AP has a negative d; students lose marks by writing it positive.",
-          "Why the mistake costs marks: Using a + nd instead of a + (n − 1)d.",
-          "Write the definition or formula first, then the working or example."
+          "Error: the formula is aₙ = a + **(n − 1)**d, not a + nd. The student counted 12 differences instead of 11.",
+          "Correct: a₁₂ = 5 + 11 × 4 = **49**.",
+          "Check by listing: 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49 — the 12th term is 49 ✓."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Arithmetic Progressions”: “Find the 20th term from the last term of the AP 3, 8, 13, …, 253.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A taxi charges Rs 15 for the first kilometre and Rs 8 for every additional kilometre. Show that the fares for 1 km, 2 km, 3 km, … form an AP and find the fare for 12 km.",
         "a": [
-          "Idea: nth term, sum of n terms, and word problems..",
-          "Counting from the end, the AP is 253, 248, 243, … with a = 253 and d = −5. th term = 253 + 19(−5) = 158."
+          "Fares: 15, 23, 31, … — each is Rs 8 more than the previous, so they form an AP with a = 15 and d = 8.",
+          "The fare for n km is aₙ = 15 + (n − 1) × 8.",
+          "For 12 km: a₁₂ = 15 + 11 × 8 = **Rs 103**."
         ]
       },
       {
@@ -344,21 +346,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Arithmetic Progressions”. Their note says: Definition. An AP has a constant common difference d = aₙ₊₁ − aₙ between consecutive terms.\n\nThe chapter is described as: nth term, sum of n terms, and word problems..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nRohan saves Rs 500 in the first month and increases his saving by Rs 50 every month.\n\n(a) Write the first three terms of the AP formed by his monthly savings.\n(b) How much does he save in the 12th month?\n(c) How much has he saved in 12 months altogether?",
         "a": [
-          "(a) nth term, sum of n terms, and word problems.",
-          "(b) –6 marks. Typically one 3-mark question on finding a term or the number of terms, and one 4–5 mark word problem.",
-          "(c) Using a + nd instead of a + (n − 1)d."
+          "(a) 500, 550, 600, … with a = 500 and d = 50.",
+          "(b) a₁₂ = 500 + 11 × 50 = **Rs 1050**.",
+          "(c) S₁₂ = (12/2)(500 + 1050) = 6 × 1550 = **Rs 9300**."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Find the 20th term from the last term of the AP 3, 8, 13, …, 253.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA hall has 20 rows of seats. The first row has 18 seats and every next row has 2 more seats than the one before.\n\n(a) How many seats are in the last row?\n(b) How many seats are there in all?\n(c) How much is collected from a full house at Rs 100 per seat?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Counting from the end, the AP is 253, 248, 243, … with a = 253 and d = −5. th term = 253 + 19(−5) = 158.",
-          "(c) d can be negative. A decreasing AP has a negative d; students lose marks by writing it positive."
+          "(a) a₂₀ = 18 + 19 × 2 = **56** seats.",
+          "(b) S₂₀ = (20/2)(18 + 56) = 10 × 74 = **740** seats.",
+          "(c) 740 × 100 = **Rs 74,000**."
         ]
       },
       {
@@ -385,47 +387,47 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Arithmetic Progressions” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "The sum of the 4th and 8th terms of an AP is 24 and the sum of its 6th and 10th terms is 44. Find the first three terms of the AP.",
         "a": [
-          "Definition. An AP has a constant common difference d = aₙ₊₁ − aₙ between consecutive terms.",
-          "Marks lens: –6 marks. Typically one 3-mark question on finding a term or the number of terms, and one 4–5 mark word problem.",
-          "Method / memory trick: d can be negative. A decreasing AP has a negative d; students lose marks by writing it positive.",
-          "Do not: Using a + nd instead of a + (n − 1)d."
+          "(a + 3d) + (a + 7d) = 24, so a + 5d = 12 … (1)",
+          "(a + 5d) + (a + 9d) = 44, so a + 7d = 22 … (2)",
+          "Subtracting (1) from (2): 2d = 10, so d = 5. Then a = 12 − 25 = −13.",
+          "The first three terms are **−13, −8, −3**. Check: a₄ + a₈ = 2 + 22 = 24 ✓ and a₆ + a₁₀ = 12 + 32 = 44 ✓."
         ]
       }
     ],
     "mcq": [
       {
-        "q": "The 10th term of the AP 2, 7, 12, … is: (a) 45  (b) 47  (c) 50  (d) 52",
-        "a": "**(b) 47.** a₁₀ = 2 + 9(5)."
+        "q": "The 10th term of the AP 2, 7, 12, … is: (a) 52  (b) 50  (c) 47  (d) 45",
+        "a": "**(c) 47.** a₁₀ = 2 + 9(5)."
       },
       {
-        "q": "The sum of the first 10 natural numbers is: (a) 45  (b) 50  (c) 55  (d) 100",
-        "a": "**(c) 55.** n(n+1)/2 = 10 × 11/2."
+        "q": "The sum of the first 10 natural numbers is: (a) 100  (b) 55  (c) 50  (d) 45",
+        "a": "**(b) 55.** n(n+1)/2 = 10 × 11/2."
       },
       {
         "q": "S₅ − S₄ equals: (a) the 5th term  (b) the 4th term  (c) the 9th term  (d) zero",
         "a": "**(a) The 5th term.** That is what aₙ = Sₙ − Sₙ₋₁ means."
       },
       {
-        "q": "The most exam-ready way to revise “Arithmetic Progressions” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is nth term, sum of n terms, and word problems.."
+        "q": "Which of the following is NOT an AP? (a) 2, 5, 8, 11, …  (b) 1, 4, 9, 16, …  (c) −3, −1, 1, 3, …  (d) 7, 7, 7, 7, …",
+        "a": "**(b) 1, 4, 9, 16, ….** The differences 3, 5, 7 are not equal, so 1, 4, 9, 16 has no common difference. The others have d = 3, 2 and 0."
       },
       {
-        "q": "A 3-mark answer on “Arithmetic Progressions” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The sum of the first n odd natural numbers 1, 3, 5, … is: (a) n(n + 1)/2  (b) 2n  (c) n²  (d) n(n + 1)",
+        "a": "**(c) n².** Here a = 1, d = 2, so Sₙ = (n/2)[2 + (n − 1)2] = n²."
       },
       {
-        "q": "The common difference of the AP whose nth term is 3n + 5 is: (a) 3  (b) 5  (c) 8  (d) 2",
-        "a": "**(a) 3.** a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n."
+        "q": "The common difference of the AP whose nth term is 3n + 5 is: (a) 5  (b) 8  (c) 2  (d) 3",
+        "a": "**(d) 3.** a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n."
       },
       {
-        "q": "If the 3rd term of an AP is 4 and the 9th term is −8, its first term is: (a) 8  (b) 6  (c) 4  (d) 2",
-        "a": "**(a) 8.** a + 2d = 4 and a + 8d = −8 give 6d = −12, so d = −2 and a = 8."
+        "q": "If the 3rd term of an AP is 4 and the 9th term is −8, its first term is: (a) 2  (b) 4  (c) 6  (d) 8",
+        "a": "**(d) 8.** a + 2d = 4 and a + 8d = −8 give 6d = −12, so d = −2 and a = 8."
       },
       {
-        "q": "The sum of the first 100 natural numbers is: (a) 5000  (b) 5050  (c) 4950  (d) 5100",
-        "a": "**(b) 5050.** S = 100 × 101/2 = 5050."
+        "q": "The sum of the first 100 natural numbers is: (a) 5050  (b) 5000  (c) 4950  (d) 5100",
+        "a": "**(a) 5050.** S = 100 × 101/2 = 5050."
       }
     ],
     "trend": "One 4–5 mark word problem (prize distribution, seating, savings) appears in most papers, plus a 2–3 mark term question.",
@@ -540,20 +542,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Triangles” (Similarity criteria, Basic Proportionality Theorem, Pythagoras.). A classmate lost marks by doing this: Writing the area ratio equal to the side ratio, without squaring. Apply the correct method and rewrite the scoring answer.",
+        "q": "Two similar triangles have corresponding sides 6 cm and 9 cm. A student says the ratio of their areas is 6 : 9 = 2 : 3. Correct the error, and find the area of the larger triangle if the smaller has area 40 cm².",
         "a": [
-          "Correct method: Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.",
-          "Why the mistake costs marks: Writing the area ratio equal to the side ratio, without squaring.",
-          "Write the definition or formula first, then the working or example."
+          "Error: the areas of similar triangles are in the ratio of the **squares** of corresponding sides.",
+          "Area ratio = (6/9)² = 4/9.",
+          "Area of the larger triangle = 40 × 9/4 = **90 cm²**."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Triangles”: “State the Basic Proportionality Theorem.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A 6 m tall pole casts a shadow 4 m long. At the same moment a tower casts a shadow 30 m long. Name the similarity criterion used and find the height of the tower.",
         "a": [
-          "Idea: Similarity criteria, Basic Proportionality Theorem, Pythagoras..",
-          "If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio."
+          "The sun’s rays make the same angle with the ground, and both pole and tower are vertical: two angles match, so the two triangles are similar by the **AA** criterion.",
+          "Corresponding sides are proportional: height of tower/6 = 30/4.",
+          "Height of tower = 6 × 30/4 = **45 m**."
         ]
       },
       {
@@ -568,21 +571,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Triangles”. Their note says: Similar polygons. Corresponding angles are equal and corresponding sides are in the same ratio.\n\nThe chapter is described as: Similarity criteria, Basic Proportionality Theorem, Pythagoras..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA 10 m long ladder leans against a vertical wall and reaches a window 8 m above the ground.\n\n(a) How far is the foot of the ladder from the wall?\n(b) The foot is moved until the ladder reaches only 6 m up the wall. How far does the foot move?\n(c) Name the theorem used.",
         "a": [
-          "(a) Similarity criteria, Basic Proportionality Theorem, Pythagoras.",
-          "(b) Triangles carries most of the 15-mark Geometry unit (Circles is the rest).",
-          "(c) Writing the area ratio equal to the side ratio, without squaring."
+          "(a) Distance = √(10² − 8²) = √36 = **6 m**.",
+          "(b) New distance = √(10² − 6²) = √64 = 8 m, so the foot moves 8 − 6 = **2 m** away from the wall.",
+          "(c) The Pythagoras theorem in the right-angled triangle formed by ladder, wall and ground."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “State the Basic Proportionality Theorem.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nIn a triangular park ABC, a path DE is laid parallel to the side BC, with D on AB and E on AC. AD = 4 m, DB = 6 m, AC = 15 m and BC = 20 m.\n\n(a) Find AE.\n(b) Find DE.\n(c) Find the ratio of the areas of ΔADE and ΔABC.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio.",
-          "(c) Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error."
+          "(a) By BPT, AD/AB = AE/AC, so 4/10 = AE/15 and AE = **6 m**.",
+          "(b) ΔADE ~ ΔABC, so DE/BC = AD/AB = 2/5 and DE = **8 m**.",
+          "(c) Area ratio = (2/5)² = **4 : 25**."
         ]
       },
       {
@@ -600,47 +603,48 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Triangles” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Prove that if a line is drawn parallel to one side of a triangle to intersect the other two sides at distinct points, it divides the two sides in the same ratio.",
         "a": [
-          "Similar polygons. Corresponding angles are equal and corresponding sides are in the same ratio.",
-          "Marks lens: Triangles carries most of the 15-mark Geometry unit (Circles is the rest).",
-          "Method / memory trick: Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.",
-          "Do not: Writing the area ratio equal to the side ratio, without squaring."
+          "Given: ΔABC with DE ∥ BC, D on AB and E on AC. To prove: AD/DB = AE/EC.",
+          "Construction: join BE and CD; draw EM ⊥ AB and DN ⊥ AC.",
+          "ar(ADE) = ½ × AD × EM and ar(BDE) = ½ × DB × EM, so ar(ADE)/ar(BDE) = AD/DB. Similarly ar(ADE)/ar(CDE) = AE/EC.",
+          "ΔBDE and ΔCDE stand on the same base DE and lie between the same parallels DE and BC, so ar(BDE) = ar(CDE).",
+          "Therefore AD/DB = AE/EC. ∎"
         ]
       }
     ],
     "mcq": [
       {
-        "q": "Two triangles are similar if their corresponding sides are: (a) equal  (b) proportional  (c) perpendicular  (d) parallel",
-        "a": "**(b) Proportional.** That is the SSS similarity criterion."
+        "q": "Two triangles are similar if their corresponding sides are: (a) proportional  (b) equal  (c) perpendicular  (d) parallel",
+        "a": "**(a) Proportional.** That is the SSS similarity criterion."
       },
       {
         "q": "The ratio of the areas of two similar triangles is 25:49. The ratio of their corresponding sides is: (a) 25:49  (b) 5:7  (c) 7:5  (d) 49:25",
         "a": "**(b) 5:7.** Square root of the area ratio."
       },
       {
-        "q": "In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 10 cm  (b) 12 cm  (c) 14 cm  (d) 9 cm",
-        "a": "**(a) 10 cm.** √(36 + 64) = 10."
+        "q": "In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 12 cm  (b) 14 cm  (c) 10 cm  (d) 9 cm",
+        "a": "**(c) 10 cm.** √(36 + 64) = 10."
       },
       {
-        "q": "The most exam-ready way to revise “Triangles” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Similarity criteria, Basic Proportionality Theorem, Pythagoras.."
+        "q": "If ΔABC ~ ΔPQR, ∠A = 50° and ∠Q = 60°, then ∠C equals: (a) 60°  (b) 70°  (c) 50°  (d) 80°",
+        "a": "**(b) 70°.** ∠B = ∠Q = 60° because corresponding angles of similar triangles are equal, so ∠C = 180° − 50° − 60° = 70°."
       },
       {
-        "q": "A 3-mark answer on “Triangles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "A triangle has sides 7 cm, 24 cm and 25 cm. It is: (a) acute-angled  (b) obtuse-angled  (c) equilateral  (d) right-angled",
+        "a": "**(d) right-angled.** 7² + 24² = 49 + 576 = 625 = 25², so by the converse of the Pythagoras theorem the triangle is right-angled."
       },
       {
-        "q": "Two triangles are similar if their corresponding angles are: (a) equal  (b) supplementary  (c) complementary  (d) proportional",
-        "a": "**(a) equal.** Equiangular triangles are similar — the AAA similarity criterion."
+        "q": "Two triangles are similar if their corresponding angles are: (a) supplementary  (b) complementary  (c) proportional  (d) equal",
+        "a": "**(d) equal.** Equiangular triangles are similar — the AAA similarity criterion."
       },
       {
-        "q": "In ΔABC, DE ∥ BC with AD = 4 cm, DB = 6 cm and AE = 5 cm. Then EC = : (a) 6.5 cm  (b) 7.5 cm  (c) 8 cm  (d) 9 cm",
-        "a": "**(b) 7.5 cm.** AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm."
+        "q": "In ΔABC, DE ∥ BC with AD = 4 cm, DB = 6 cm and AE = 5 cm. Then EC = : (a) 9 cm  (b) 8 cm  (c) 7.5 cm  (d) 6.5 cm",
+        "a": "**(c) 7.5 cm.** AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm."
       },
       {
-        "q": "If the corresponding sides of two similar triangles are in the ratio 4 : 9, their areas are in the ratio: (a) 4 : 9  (b) 2 : 3  (c) 16 : 81  (d) 8 : 27",
-        "a": "**(c) 16 : 81.** The area ratio of similar triangles is the square of the side ratio."
+        "q": "If the corresponding sides of two similar triangles are in the ratio 4 : 9, their areas are in the ratio: (a) 16 : 81  (b) 4 : 9  (c) 2 : 3  (d) 8 : 27",
+        "a": "**(a) 16 : 81.** The area ratio of similar triangles is the square of the side ratio."
       }
     ],
     "trend": "One BPT or Pythagoras proof almost every year, plus one similarity numerical. Objective questions on the criteria are constant.",

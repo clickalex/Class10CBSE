@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 10 · Macros in Spreadsheet · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 10 · Macros in Spreadsheet
+Unit: Part B · Electronic Spreadsheet (Advanced)
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is a macro? Give one use in Calc.
+    Ans: A saved list of commands that can be replayed. Use: apply the same marksheet formatting every term.
+
+Q2. [Short · 2 marks] Write the menu path to record a macro in Calc.
+    Ans: Tools → Macros → Record Macro, perform the steps, Stop Recording, name the macro.
+
+Q3. [Short · 2 marks] What is a macro and why is it used?
+    Ans: A macro is a recorded sequence of commands that can be replayed with one click or one shortcut. It saves time on work you repeat often — formatting a daily report, cleaning imported data, or applying the same page setup to many sheets — and removes the risk of forgetting a step.
+
+Q4. [Short · 2 marks] What is LibreOffice Basic, and how is it connected with macros?
+    Ans: LibreOffice Basic is the programming language in which Calc macros are stored. When you record a macro, Calc translates your clicks and keystrokes into Basic code; running the macro replays that code. You never need to read the code for the exam, but knowing where it lives explains why a macro file can carry a virus.
+
+Q5. [Application · 3 marks] Every Monday you set print area A1:G40, landscape, header “Weekly Sales”. How does a macro help?
+    Ans: Record those page-setup steps once. Each Monday, Run Macro — one click instead of eight menu steps, fewer missed settings.
+
+Q6. [Application · 3 marks] A student starts recording a macro, then clicks around to find the menu and clicks a few wrong cells before doing the task. When the macro is replayed, it does odd things. Why, and how can this be avoided?
+    Ans:
+      The recorder copies every action, including the wrong clicks, so replaying the macro repeats them.
+      Plan the exact steps before pressing Record; rehearse them once without recording.
+      Record only what is needed (Tools → Macros → Record Macro … Stop Recording); if a mistake is recorded, delete the macro and record it again.
+
+Q7. [Short · 3 marks] When should you not use a macro? Give three situations.
+    Ans:
+      Do not record a macro for a task you will do only once; learning the steps takes longer than doing the job.
+      Avoid macros for work that changes each time and cannot be reduced to fixed steps.
+      Never open macros in a file from an unknown sender: macro viruses can damage files and spread to other documents.
+      Where a built-in formula, style or tool does the job, use it instead — it is easier for others to check.
+
+Q8. [Short · 3 marks] Describe the steps to run a recorded macro and to delete one you no longer need.
+    Ans:
+      To run — Tools → Macros → Run Macro, select the library and module where the macro was saved, choose its name, and press Run.
+      To delete — Tools → Macros → Organise Macros → LibreOffice Basic, select the macro, and press Delete.
+      Tip — save practice macros inside the document (not in My Macros) so they travel with the file to the examiner's machine.
+
+Q9. [Long · 4 marks] Explain macro security levels and a safe practice for students.
+    Ans: Very High / High / Medium / Low control whether unsigned macros run. Students should keep High or Medium, enable macros only on their own practical files, and never open a macro-enabled sheet from an unknown chat.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A classmate sends marks.ods that auto-runs a macro on open.
+
+    (a) What should you do first?
+    (b) When is a macro a good idea in your own file?
+    (c) One limitation of recorded macros.
+    Ans:
+      (a) Do not enable macros until you trust the source; check Security level.
+      (b) When the same clicks are repeated often on your own data.
+      (c) They record extra clicks; they may break if the sheet layout changes.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    Every Friday a clerk makes the header row of a report bold, sets the font to 12 pt and adds a heading “Weekly Report”.
+
+    (a) Which feature can automate this?
+    (b) How is it recorded?
+    (c) Name one situation in which a macro should not be used.
+    Ans:
+      (a) A macro, a recorded sequence of commands that can be played back to repeat the work.
+      (b) Choose Tools → Macros → Record Macro, do the steps once, click Stop Recording, then give the macro a name and save it in the document or in My Macros.
+      (c) When the task is done only once, or when the steps change every time, since recording would waste time.
+
+Q12. [Long · 5 marks] Discuss the advantages and the risks of using macros in a spreadsheet.
+    Ans:
+      Advantage 1: a macro automates repeated work, so it saves time.
+      Advantage 2: it repeats the steps exactly, so results are consistent and fewer errors occur.
+      Risk 1: a macro in a file from an unknown source can contain harmful code and damage files or steal data.
+      Risk 2: a wrongly recorded macro can change data in the wrong cells.
+      Precautions: set the macro security level to Medium or High (Tools → Options → Security → Macro Security), run macros only from trusted people, and keep a backup before running one.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Macros in Calc are started from: (a) Insert → Image (b) Tools → Macros (c) Data → Sort (d) Format → Cells
+    Ans: (b).
+
+M2. A macro is: (a) a recorded command sequence (b) a virus always (c) a Heading style (d) a primary key
+    Ans: (a).
+
+M3. Unknown file asks to enable macros. You should: (a) always click Enable (b) delete LibreOffice (c) turn security to Low forever (d) enable only if you trust the source
+    Ans: (d).
+
+M4. Best use of a macro: (a) one-time typing of a name (b) repeating a long format every week (c) drawing a circle once (d) writing an essay
+    Ans: (b).
+
+M5. A recorded macro can be kept so that it is available in all documents if it is saved in: (a) the current document only (b) the Recycle Bin (c) My Macros (d) the clipboard
+    Ans: (c) My Macros. Macros saved in My Macros belong to the user profile and can be run from any document.
+
+M6. The main danger in enabling macros from a file sent by an unknown person is that they: (a) will make the file larger (b) will change the font (c) will slow the printer (d) may contain harmful code
+    Ans: (d) may contain harmful code. A macro can run commands automatically, so a malicious macro can do real damage.
+
+M7. Recording a macro in LibreOffice starts from: (a) Tools → Macros → Record Macro  (b) Insert → Macro  (c) Format → Macro  (d) Data → Macro
+    Ans: (a) Tools → Macros → Record Macro. Stop the recording with the same menu and then save the macro.
+
+M8. Macros in LibreOffice are commonly stored and written in: (a) HTML  (b) SQL only  (c) LibreOffice Basic  (d) CSS
+    Ans: (c) LibreOffice Basic. Python, BeanShell and JavaScript are also supported.

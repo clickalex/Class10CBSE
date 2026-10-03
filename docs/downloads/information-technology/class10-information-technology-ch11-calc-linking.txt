@@ -1,0 +1,112 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 11 · Linking Spreadsheet Data · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 11 · Linking Spreadsheet Data
+Unit: Part B · Electronic Spreadsheet (Advanced)
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Write a formula that shows cell B4 of sheet Fees on sheet Summary.
+    Ans: =Fees.B4 — or, if the sheet name contains spaces or punctuation, quote it: ='Fees'.B4. The sheet name comes first, then a full stop, then the cell address; Calc fills this in for you if you type = and then click the cell on the Fees sheet.
+
+Q2. [Short · 2 marks] What is a hyperlink in Calc?
+    Ans: A clickable link to a web page, file, email or a location in the document, inserted via Insert → Hyperlink.
+
+Q3. [Short · 2 marks] What is meant by linking spreadsheet data?
+    Ans: Linking makes one cell take its value from another cell, sheet or file, so that the value is not typed twice. When the source changes, every linked cell updates automatically, which keeps reports consistent and saves the work of retyping.
+
+Q4. [Short · 2 marks] What is the difference between a hyperlink and a sheet-link formula? Give one example of each.
+    Ans:
+      A hyperlink jumps the reader somewhere when clicked — for example, Insert → Hyperlink to https://cbseacademic.nic.in opens the CBSE site.
+      A sheet-link formula pulls a live value into a cell — for example, =Term1.G20 shows Term1's total inside the Summary sheet and updates whenever Term1 changes.
+
+Q5. [Application · 3 marks] Summary sheet must show Total from three term sheets named Term1, Term2, Term3, each total in G20. Write the formula.
+    Ans: =Term1.G20+Term2.G20+Term3.G20 — one reference per term sheet, added together. Linking this way means each term file can be updated on its own and the Summary total follows automatically, with no retyping and no copy-paste errors.
+
+Q6. [Application · 3 marks] A student e-mails only summary.ods to her teacher. When the teacher opens it, the linked cells show errors or old values. Explain why this happens and how to avoid it.
+    Ans:
+      summary.ods does not contain the data itself: its cells link to values in another file, data.ods, stored on the lab computer.
+      On the teacher’s computer the source file is missing, so the link cannot be updated.
+      Send both files and keep them in one folder, or, before sending, convert the linked cells to plain values (or break the link from Edit → Links to External Files).
+
+Q7. [Short · 3 marks] How do you link a cell to another sheet and to a file outside the workbook?
+    Ans:
+      Within the workbook: type = in the target cell, click the sheet tab, click the source cell and press Enter; the formula reads =Sheet2.B3.
+      To an external file: open both files, copy the source cell, click the target cell and choose Edit → Paste Special → Paste Link.
+      The formula then contains the full path, for example ='file:///home/user/accounts.ods'#$Sheet1.A1, and you can refresh the links when the source file changes.
+
+Q8. [Short · 3 marks] Why should linked files be kept in one folder? Describe what breaks when a source file is moved or renamed.
+    Ans:
+      Calc stores external links as paths; keeping all files in one folder keeps those paths short and portable.
+      If the source file moves or is renamed, the link cannot be resolved: the dependent cells show errors or stale values instead of live data.
+      Fix — keep the set together from the start, and if a move is unavoidable, re-point the links through Edit → Links to External Files.
+
+Q9. [Long · 4 marks] Why is linking sheets better than copy-pasting values for a yearly total?
+    Ans: A link stays live: when a term sheet changes, the year sheet updates. Copy-paste values go stale, cause mismatch, and make auditing harder.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A student pastes last month’s numbers into the annual sheet. The teacher later corrects the January file; the annual sheet does not change.
+
+    (a) What did the student do wrong?
+    (b) How should the cells have been pasted?
+    (c) One risk of live links.
+    Ans:
+      (a) Pasted values, not links.
+      (b) Paste Special → Link, or a formula to the January sheet.
+      (c) If the source file is moved/renamed, the link breaks — keep files together.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    On an “Index” sheet, a student wants one cell that opens the file marks.ods when clicked, and another cell that opens the school website.
+
+    (a) Which feature does she use, and how does she insert it?
+    (b) Name two other things a hyperlink in Calc can point to.
+    (c) How is a hyperlink different from a formula that links to another sheet?
+    Ans:
+      (a) A hyperlink: select the cell and choose Insert → Hyperlink, then enter the file name or the web address.
+      (b) An e-mail address and a target inside the same document, such as a named cell.
+      (c) A hyperlink only opens something when clicked; a sheet-link formula brings a value from another sheet into the cell, and it updates when the source changes.
+
+Q12. [Long · 5 marks] Explain the steps to bring a table from a web page into a Calc sheet so that it can be refreshed, and give two precautions.
+    Ans:
+      Step 1: place the cursor in the cell where the table should start.
+      Step 2: choose Insert → Link to External Data (in newer versions it is under the Sheet menu).
+      Step 3: type the web address in the URL box and press Enter; select the table or range that you want in the list.
+      Step 4: click OK; later, refresh the data from Edit → Links to External Files.
+      Precautions: an internet connection is needed to refresh, and the table may change its layout or disappear if the web page is changed.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. A sheet name with a space is written as: (a) Term 1.A1 (b) 'Term 1'.A1 (c) Term_only (d) (Term1)A1
+    Ans: (b) 'Term 1'.A1.
+
+M2. Insert → Hyperlink can open: (a) only images (b) Goal Seek (c) a web page or a file (d) a style
+    Ans: (c).
+
+M3. Live totals that update when a source sheet changes need: (a) a screenshot (b) Track Changes (c) a caption (d) a formula/link
+    Ans: (d).
+
+M4. Paste Special → Link is used to: (a) keep a live connection to copied cells (b) break a file (c) record a macro (d) group shapes
+    Ans: (a).
+
+M5. A hyperlink in Calc can point to: (a) only another cell in the same sheet (b) a web page, an e-mail address, a file or a place in the same document (c) only a picture (d) only a macro
+    Ans: (b) a web page, an e-mail address, a file or a place in the same document. Insert → Hyperlink offers an internet link, a mail link, a document link and a link to a target in the current document.
+
+M6. If the source file of a linked cell is moved to another folder, the linked cell will probably: (a) show an error or an old value (b) update itself automatically (c) turn into a hyperlink (d) delete the source file
+    Ans: (a) show an error or an old value. The link remembers the old location, so Calc cannot find the source unless the link is repaired.
+
+M7. Linked data in a spreadsheet: (a) is frozen at the time of linking  (b) must be typed again  (c) cannot be used in a formula  (d) updates when the source value changes
+    Ans: (d) updates when the source value changes. That is the whole point of linking.
+
+M8. A hyperlink in a sheet can point to: (a) only a web page  (b) only a file on the desktop  (c) a web page, an email address or a place in the same document  (d) only a printer
+    Ans: (c) a web page, an email address or a place in the same document. Insert → Hyperlink sets any of these.

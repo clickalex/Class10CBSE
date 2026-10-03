@@ -1,0 +1,120 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 8 · Introduction to Trigonometry · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 8 · Introduction to Trigonometry
+Unit: V · Trigonometry
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Evaluate sin 60° cos 30° + cos 60° sin 30°.
+    Ans: (√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4 = 1.
+
+Q2. [Short · 2 marks] If sin A = 3/5, find cos A and tan A (A is acute).
+    Ans:
+      Draw the right triangle: opposite = 3, hypotenuse = 5, so adjacent = √(25 − 9) = 4.
+      cos A = 4/5 and tan A = 3/4.
+
+Q3. [Short · 2 marks] If tan θ = 5/12, find sin θ and cos θ.
+    Ans: Take the perpendicular as 5k and the base as 12k, so the hypotenuse is √(25 + 144)k = 13k. Hence sin θ = 5/13 and cos θ = 12/13.
+
+Q4. [Short · 3 marks] Prove that (1 + tan²A)/(1 + cot²A) = tan²A.
+    Ans:
+      Start from the left-hand side.
+      1 + tan²A = sec²A and 1 + cot²A = cosec²A.
+      So LHS = sec²A / cosec²A = (1/cos²A) ÷ (1/sin²A) = sin²A/cos²A = tan²A = RHS.
+
+Q5. [Short · 3 marks] If tan(A + B) = √3 and tan(A − B) = 1/√3, with 0° < A + B ≤ 90° and A > B, find A and B.
+    Ans:
+      tan(A + B) = √3 gives A + B = 60°.
+      tan(A − B) = 1/√3 gives A − B = 30°.
+      Adding: 2A = 90°, so A = 45° and B = 15°.
+
+Q6. [Application · 3 marks] A student simplifies sin(90° − 30°) as sin 90° − sin 30° = 1 − 1/2 = 1/2. What is wrong? Give the correct value and check it a second way.
+    Ans:
+      sin(A − B) is not sin A − sin B; sine does not distribute over a bracket. The angle inside the brackets must be simplified first.
+      sin(90° − 30°) = sin 60° = √3/2.
+      Check with the complementary-angle identity: sin(90° − A) = cos A, so sin 60° = cos 30° = √3/2 ✓.
+
+Q7. [Application · 3 marks] If 7 sin²θ + 3 cos²θ = 4 and θ is acute, show that tan θ = 1/√3.
+    Ans:
+      Write 7 sin²θ + 3 cos²θ = 3(sin²θ + cos²θ) + 4 sin²θ = 3 + 4 sin²θ.
+      So 3 + 4 sin²θ = 4, which gives sin²θ = 1/4 and sin θ = 1/2 (θ acute), so θ = 30°.
+      Hence tan θ = tan 30° = 1/√3.
+
+Q8. [Short · 3 marks] Prove that (cosec A − sin A)(sec A − cos A) = 1/(tan A + cot A).
+    Ans:
+      LHS = (1/sin A − sin A)(1/cos A − cos A) = [(1 − sin²A)/sin A] × [(1 − cos²A)/cos A]
+      = (cos²A/sin A) × (sin²A/cos A) = sin A cos A.
+      RHS = 1/[(sin A/cos A) + (cos A/sin A)] = 1/[(sin²A + cos²A)/(sin A cos A)] = sin A cos A.
+      LHS = RHS, so the identity is proved.
+
+Q9. [Long · 3 marks] Prove that √[(1 + sin A)/(1 − sin A)] = sec A + tan A.
+    Ans:
+      Multiply inside the root by (1 + sin A)/(1 + sin A): √[(1 + sin A)²/(1 − sin²A)] = √[(1 + sin A)²/cos²A].
+      = (1 + sin A)/cos A = 1/cos A + sin A/cos A = sec A + tan A.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    Riya notices from the standard table that sin 30° = cos 60° = 1/2, sin 45° = cos 45° = 1/√2 and sin 60° = cos 30° = √3/2.
+
+    (a) Which relation connects each pair of values?
+    (b) Use it to evaluate sin 65° ÷ cos 25° and tan 35° × tan 55°.
+    (c) Why does the table not list a value for tan 90°?
+    Ans:
+      (a) The angles in each pair are complementary: sin(90° − θ) = cos θ.
+      (b) sin 65° = sin(90° − 25°) = cos 25°, so the ratio is 1. tan 55° = cot 35°, so tan 35° × tan 55° = tan 35° × cot 35° = 1.
+      (c) tan 90° = sin 90°/cos 90° = 1/0, which is not defined.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    Meera claims that sin²θ + cos²θ = 1 is true for every angle and that 1 + tan²θ = sec²θ is true for every angle too.
+
+    (a) For which angle from 0° to 90° is her second claim meaningless?
+    (b) Derive 1 + tan²θ = sec²θ from sin²θ + cos²θ = 1.
+    (c) If sec θ = 5/3 and θ is acute, find tan θ.
+    Ans:
+      (a) At θ = 90°, where cos θ = 0, tan θ and sec θ are not defined.
+      (b) Divide sin²θ + cos²θ = 1 by cos²θ (cos θ ≠ 0): tan²θ + 1 = sec²θ.
+      (c) tan²θ = sec²θ − 1 = 25/9 − 1 = 16/9, so tan θ = 4/3.
+
+Q12. [Long · 5 marks] Prove that (sin θ + cosec θ)² + (cos θ + sec θ)² = 7 + tan²θ + cot²θ.
+    Ans:
+      LHS = sin²θ + cosec²θ + 2 sin θ cosec θ + cos²θ + sec²θ + 2 cos θ sec θ.
+      Since sin θ cosec θ = 1 and cos θ sec θ = 1, the two middle terms give 2 + 2 = 4.
+      So LHS = (sin²θ + cos²θ) + 4 + cosec²θ + sec²θ = 1 + 4 + (1 + cot²θ) + (1 + tan²θ).
+      = 7 + tan²θ + cot²θ = RHS. ∎
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The value of cos 60° is: (a) √3/2  (b) 1/2  (c) 1/√2  (d) 1
+    Ans: (b) 1/2.
+
+M2. sin²30° + cos²30° equals: (a) 1  (b) 0  (c) 1/2  (d) 3/4
+    Ans: (a) 1. That is the fundamental identity.
+
+M3. tan 45° × cot 45° is: (a) 0  (b) 1  (c) 2  (d) undefined
+    Ans: (b) 1. tan and cot are reciprocals.
+
+M4. If cos A = 4/5 and A is acute, then tan A is: (a) 3/4  (b) 4/3  (c) 3/5  (d) 5/3
+    Ans: (a) 3/4. sin A = √(1 − 16/25) = 3/5, so tan A = sin A/cos A = (3/5)/(4/5) = 3/4.
+
+M5. Which of the following is NOT defined? (a) sin 90°  (b) cos 0°  (c) cot 90°  (d) tan 90°
+    Ans: (d) tan 90°. tan 90° = sin 90°/cos 90° = 1/0. The others are 1, 1 and 0.
+
+M6. The value of sin²60° + 2 tan²45° − cos²30° is: (a) 9/4  (b) 5/4  (c) 2  (d) 1
+    Ans: (c) 2. 3/4 + 2(1) − 3/4 = 2.
+
+M7. If sin θ = cos θ, then θ = : (a) 0°  (b) 30°  (c) 45°  (d) 90°
+    Ans: (c) 45°. sin 45° = cos 45° = 1/√2.
+
+M8. sec²A − tan²A equals: (a) 0  (b) −1  (c) sin²A  (d) 1
+    Ans: (d) 1. It follows directly from 1 + tan²A = sec²A.

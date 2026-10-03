@@ -1,0 +1,114 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 9 · Scenarios and Goal Seek (Calc) · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 9 · Scenarios and Goal Seek (Calc)
+Unit: Part B · Electronic Spreadsheet (Advanced)
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is Goal Seek in Calc?
+    Ans: A what-if tool: you set the result you want in a formula cell and Calc finds the input value that produces it.
+
+Q2. [Short · 2 marks] What is a scenario?
+    Ans: A named set of values for specified cells so you can switch between cases (best/worst) without retyping.
+
+Q3. [Short · 2 marks] What is the difference between a scenario and Goal Seek?
+    Ans: A scenario is a named set of input values that you save and switch between to compare outcomes, such as best case, worst case and expected case. Goal Seek works the other way: you state the result you want and Calc finds the single input value that produces it.
+
+Q4. [Short · 2 marks] What is Solver in Calc, and how does it differ from Goal Seek?
+    Ans: Solver finds input values that produce a target result, like Goal Seek — but it can change many cells at once and respect constraints (for example, quantities that must stay whole numbers). Goal Seek changes exactly one cell with no constraints. Use Goal Seek for one unknown, Solver for many.
+
+Q5. [Application · 3 marks] A shop wants profit of ₹8,000. Profit is =B2*B3-B4 (price × qty − cost). Which tool, and which cell is “By changing” if qty and cost are fixed?
+    Ans:
+      Use Goal Seek (Tools → Goal Seek). Set cell = the profit cell, To value = 8000, and By changing cell = the price cell B2.
+      Goal Seek works backwards: instead of asking what the profit is, it asks what input would produce the profit you want, and it tries values until the formula cell reaches 8000.
+      Only one input cell can be changed, so the quantity and the cost must stay fixed while the price is adjusted.
+
+Q6. [Application · 3 marks] A student tries to use Goal Seek to find the best mix of three products under limits on labour hours and material, and Calc cannot do it. What is wrong, and which tool should she use?
+    Ans:
+      Goal Seek changes one input cell until one formula cell reaches a target value.
+      Finding the best mix of several variables under limits (constraints) needs Solver.
+      So she should use Solver, setting the target cell, the variable cells and the constraints.
+
+Q7. [Short · 3 marks] Describe how to use Goal Seek in Calc, with an example.
+    Ans:
+      Build the sheet so that the result cell contains a formula, for example the EMI for a loan in B5.
+      Choose Tools → Goal Seek and fill in the dialog: Formula Cell B5, Target Value 8000, Variable Cell B2 (the interest rate or the loan amount).
+      Click OK; Calc changes the variable cell step by step until the formula gives the target, and reports whether it succeeded.
+      This is quicker than trial and error when only one input is unknown.
+
+Q8. [Short · 3 marks] What is the ‘Group’ feature in Calc? Explain with a monthly-expense sheet example.
+    Ans:
+      Group (Data → Define Range → Group) bundles rows or columns so they can be collapsed to a single line or expanded again with one click.
+      Example — a yearly sheet with twelve monthly blocks: group each month's daily rows, collapse all twelve, and only the monthly totals stay visible for review.
+      Unlike hiding, grouping shows a clear plus/minus control, so hidden detail is never forgotten.
+
+Q9. [Long · 4 marks] Differentiate Consolidate and Subtotals.
+    Ans: Consolidate combines several ranges/sheets into one summary (often another sheet). Subtotals insert summary rows inside one sorted list (sum of each group). Consolidate is across blocks; Subtotals is inside a table.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    Four quarterly sheets have the same layout of expenses. The owner wants one yearly total that updates if a quarter changes.
+
+    (a) Which tool?
+    (b) Two settings to tick/choose.
+    (c) Why not just type the four totals by hand?
+    Ans:
+      (a) Data → Consolidate.
+      (b) Function Sum; add each range; Link to source data.
+      (c) Manual totals go stale; a link updates and reduces typing errors.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A school fest committee plans ticket sales in three situations. Best case: price Rs 100, 500 tickets. Normal case: Rs 80, 400 tickets. Worst case: Rs 60, 250 tickets. Revenue = price × tickets.
+
+    (a) Find the revenue in each case.
+    (b) Which Calc feature stores the three sets of inputs?
+    (c) Why should each be given a name?
+    Ans:
+      (a) Best: 100 × 500 = Rs 50,000; Normal: 80 × 400 = Rs 32,000; Worst: 60 × 250 = Rs 15,000.
+      (b) Scenarios: each is a named set of input values that can be shown on the sheet.
+      (c) The names let the committee switch between the cases quickly and see how the output changes.
+
+Q12. [Long · 5 marks] A teacher has the marks of 30 students with columns Name, Section and Marks. Describe how to use Subtotals to get the average marks of each section.
+    Ans:
+      Step 1: sort the data by the Section column (Data → Sort), so that students of one section are together.
+      Step 2: select the data range and choose Data → Subtotals.
+      Step 3: on the “1st Group” tab, group by Section, tick Marks under “Calculate subtotals for” and choose the function Average.
+      Step 4: click OK; a subtotal row appears after each section, and the outline buttons at the left show or hide the details.
+      Sorting first is essential: if the section values are not together, Subtotals gives wrong groups.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Goal Seek is on the menu: (a) Insert (b) Tools (c) Format (d) Window
+    Ans: (b) Tools.
+
+M2. Before Subtotals you must: (a) insert a chart (b) record a macro (c) sort the group column (d) protect the sheet
+    Ans: (c) sort.
+
+M3. A named best-case / worst-case set of inputs is a: (a) style (b) query (c) template (d) scenario
+    Ans: (d) scenario.
+
+M4. Consolidate is best when data is: (a) a single cell (b) on several similar sheets (c) an image (d) a Writer ToC
+    Ans: (b).
+
+M5. Solver is used when a problem has: (a) only one input to change (b) only text data (c) no formulas (d) many variables and constraints
+    Ans: (d) many variables and constraints. Goal Seek handles one variable; Solver can handle several variables with limits.
+
+M6. Which of the following is a what-if analysis tool in Calc? (a) Spell check (b) Print preview (c) Goal Seek (d) Freeze rows
+    Ans: (c) Goal Seek. What-if tools change inputs to see the effect on a result; Scenarios, Goal Seek and Solver are the three studied.
+
+M7. Subtotals in Calc are created from: (a) Data → Subtotals  (b) Tools → Subtotals  (c) Insert → Subtotals  (d) Format → Subtotals
+    Ans: (a) Data → Subtotals. Calc groups the rows and inserts the subtotal formula for you.
+
+M8. Consolidating data means: (a) combining data from several sheets or ranges into one summary  (b) deleting duplicate rows  (c) sorting a column  (d) filtering rows
+    Ans: (a) combining data from several sheets or ranges into one summary. It is useful when each branch sends its own sheet.

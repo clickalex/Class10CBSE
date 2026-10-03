@@ -21,10 +21,11 @@ Class10CBSE/
 │   ├── 09-After-10th/        Class XI admissions, official links, 9 PM IST tracker
 │   └── 10-PW-NSAT/           PW scholarship test: syllabus, practice, registration
 ├── assets/                   brand imagery: favicon.svg, logo.svg, generated icon-*.png
-├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · make_icons.py
+├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · check_admissions.py ·
+│                             check_downloads.py · balance_mcq.py · make_icons.py
 ├── site/                     the site's source: content/, partials/, theme/, generators
 ├── tests/                    offline unit tests (run all via scripts/check_all.sh)
-├── project-info/             notes about the repo itself (whole-repo audit)
+├── project-info/             notes about the repo itself (whole-repo audits)
 └── docs/                     the generated study hub — this is what GitHub Pages serves
 ```
 
@@ -57,6 +58,49 @@ plus a formula list in the subjects that have formulas. See
 
 See [Deploying the site](#deploying-the-site) below.
 
+## Direct downloads — previous-year papers and question banks
+
+The [Downloads page](https://clickalex.github.io/Class10CBSE/downloads/) (also the
+**PDF** entry in the sidebar, and the *PYQ papers* and *Q&A bank* pages of every
+subject) puts the files one tap away. Two kinds, kept honest about who owns them:
+
+- **Official CBSE files are linked, never copied.** Per subject and course
+  (Maths Standard/Basic, Hindi A/B): the Class X board papers for ten sittings —
+  2026, the 2026 second board exam, and 2025, 2024, 2023 and 2022, each with its
+  compartment sitting (CBSE publishes these as ZIPs of every set; its own listing
+  goes back to 2022); sample papers with marking schemes for 2026–27 back to
+  2021–22 (both terms); and CBSE's question banks where it published them: the
+  Class X question bank, the competency-based test items and the CBE item bank
+  (Maths, Science, English) plus additional practice questions for six subjects
+  (2023–24, 2022–23, 2021–22). Every URL lives in `site/content/downloads.json`,
+  copied from CBSE's own listing pages on the dates the file records — none is
+  built from a naming pattern — and the build refuses any URL that is not https on
+  `www.cbse.gov.in` or `cbseacademic.nic.in`. Files CBSE does not list (for
+  example no Computer Application or IT paper for the 2024 compartment) are shown
+  as "Not listed by CBSE" rather than skipped. Information Technology is a
+  skill subject, so CBSE lists its sample papers on a separate page; the hub links
+  that page and its archive.
+- **This hub's own question bank is downloadable too.** One UTF-8 text file per
+  subject and per chapter (written Q&A and MCQs, answers included) under
+  `docs/downloads/<subject>/`, generated at build time by `site/downloads.py`; and
+  every page that holds questions saves as a clean **PDF** through the browser's
+  print dialog — with answers or questions only, the whole bank or one chapter
+  (`site/theme/js/print.js` plus the print rules in `style.css`).
+
+CBSE renames and moves files without notice, so the build never fetches them.
+Check the links from a machine with internet access:
+
+```
+python3 scripts/check_downloads.py              # probe every official URL (exit 1 if one is broken)
+python3 scripts/check_downloads.py --offline    # validate downloads.json only
+python3 scripts/check_downloads.py --subject maths
+```
+
+To add next year's papers, add the sitting to `sittings` and each file under the
+course's `pyq` in `downloads.json` (copying the file name from CBSE's page), update
+`checked_on`, then rebuild. Files you download for your own
+use belong in `study/<subject>/07-Previous-Year-Questions/` (git-ignored by design).
+
 ## Mock tests — check your own score online
 
 The [mock test centre](https://clickalex.github.io/Class10CBSE/mock-test/)
@@ -71,10 +115,14 @@ polytechnic) are listed on the same page with a note instead of a test.
 
 - **A live question generator** — every mock is generated in the browser when
   you click it: each section draws its questions at random from the exam's
-  pool (1,197 MCQs across the banks) and avoids the questions you were already
+  pool (1,497 MCQs across the banks) and avoids the questions you were already
   served on that device, so **every attempt is a different paper** until the
   pool cycles. Ten numbered mocks per exam, and a chapter-wise mock for every
   chapter that has MCQs (from that chapter's practice page or the exam page).
+- **An even answer key** — the right option is (a), (b), (c) or (d) about a quarter
+  of the time in every subject, and no chapter leans on one letter, so "always (b)"
+  is not a strategy. `python3 scripts/balance_mcq.py` keeps it that way after you
+  add or edit MCQs (`--check` only reports); a test fails if the key drifts.
 - **Online screen** — timer, question palette, mark-for-review, keyboard
   shortcuts, auto-submit at zero; the generated paper and your answers survive
   an accidental reload. A *New questions* button reshuffles before you start.
@@ -215,7 +263,7 @@ scripts/check_all.sh            # every check in the repo, site built to a scrat
 - `docs/.nojekyll` tells Pages to serve the folder as-is instead of running
   Jekyll over it; `docs/404.html` is the not-found page for the live site.
 - The published folder is organised by type, like any static site:
-  `docs/assets/css/` (stylesheet), `docs/assets/js/` (drawer + mock engine),
+  `docs/assets/css/` (stylesheet), `docs/assets/js/` (drawer, mock engine, print helper),
   `docs/assets/img/` (favicon and icons copied from `assets/images/`), plus
   `sitemap.xml` and `robots.txt`, which the build writes from the page list so
   search engines can crawl all ~500 pages. Every page also carries its
@@ -250,6 +298,11 @@ material stays on your machine. If you do want to commit PDFs, delete the
 The one exception is `docs/`, the generated site: it is tracked on purpose,
 because that folder is what the live site is served from. It is build output,
 so edit `site/content/` and rebuild rather than editing it by hand.
+
+Because of those ignore rules the site never ships a `.pdf` or `.zip` of its own:
+official CBSE papers are linked from CBSE's servers, and the question-bank
+downloads in `docs/downloads/` are plain `.txt` files, which are tracked and
+rebuild byte-for-byte.
 
 ## Sources
 

@@ -1,0 +1,141 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 7 · HTML II — Text Formatting & Lists · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 7 · HTML II — Text Formatting & Lists
+Unit: Unit II · HTML
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Write the HTML to display the text 'Water' with the 2 as a subscript.
+    Ans:
+      <p>Water is written as H<sub>2</sub>O.</p>
+      The <sub> tag lowers the character it wraps, producing H₂O. Its opposite is <sup>, which raises text — used for powers such as x<sup>2</sup>.
+
+Q2. [Short · 2 marks] Differentiate between <ul> and <ol>.
+    Ans: <ul> creates an unordered list, where each item is marked with a bullet and the order does not matter. <ol> creates an ordered list, where each item is numbered and the sequence is meaningful. Both use <li> for the individual items, and both can be nested inside another list to create sub-levels.
+
+Q3. [Short · 2 marks] Write HTML for a horizontal line, 5 pixels thick, covering half the page width, in red.
+    Ans:
+      <hr size='5' width='50%' color='red'>
+      <hr> is an empty tag, so it has no closing partner. size sets the thickness in pixels, width can be a percentage or a pixel value, and color sets the line colour.
+
+Q4. [Short · 2 marks] Which tags make text bold, italic and underlined? Which should you prefer and why?
+    Ans: <b> makes text bold and <i> makes it italic, while <u> underlines it. <strong> and <em> also make text bold and italic, but they carry meaning: they tell search engines and screen readers that the words are important or stressed, which is better for accessibility.
+
+Q5. [Short · 3 marks] Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.
+    Ans:
+      <html>
+        <body>
+          <ol type='I' start='3'>
+            <li>Mathematics</li>
+            <li>Science</li>
+            <li>Social Science</li>
+            <li>English</li>
+          </ol>
+        </body>
+      </html>
+      The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III.
+
+Q6. [Short · 3 marks] Explain the <font> tag with its attributes.
+    Ans: The <font> tag changes how a piece of text looks. It takes three attributes. face sets the typeface, for example face='Arial'. size sets the size on a scale of 1 to 7, for example size='5'. color sets the colour, either by name such as color='red' or by hexadecimal code such as color='#FF0000'. An example is <font face='Arial' size='5' color='blue'>Hello</font>.
+
+Q7. [Application · 3 marks] A student writes <p align='middle'>Welcome</p> to centre a paragraph, but nothing happens. Find the error, correct it and list the valid values of align.
+    Ans:
+      middle is not a valid value of align; the browser ignores it.
+      Correct code: <p align='center'>Welcome</p>
+      The valid values are left, center, right and justify.
+
+Q8. [Application · 3 marks] Write the HTML to display (a) H₂SO₄ with proper subscripts, (b) x² + y² with superscripts and (c) the word Important in bold and italics together.
+    Ans:
+      (a) H<sub>2</sub>SO<sub>4</sub>
+      (b) x<sup>2</sup> + y<sup>2</sup>
+      (c) <b><i>Important</i></b>
+      <sub> lowers the text, <sup> raises it, and the tags are closed in the reverse of the order they were opened.
+
+Q9. [Short · 3 marks] Write the HTML for an ordered list of three steps and an unordered list of two items.
+    Ans:
+      Ordered list: <ol> then <li>Open the file</li>, <li>Edit the text</li>, <li>Save the page</li>, then </ol>.
+      The browser numbers the items automatically, so adding or removing an item renumbers the rest.
+      Unordered list: <ul> then <li>Notebook</li>, <li>Pen</li>, then </ul>, which shows bullets instead of numbers.
+      Lists may be nested: put a <ul> inside an <li> to make a sub-list.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A student wants a numbered list of recipe steps and writes:
+
+    <ul>
+    Boil water
+    Add tea
+    </ul>
+
+    (a) State two errors.
+    (b) Write the corrected code.
+    (c) How would you make the numbering start from 5?
+    Ans:
+      (a) <ul> makes a bulleted list, but numbers were wanted (<ol>); and each item must be placed inside <li> tags.
+      (b) <ol>
+        <li>Boil water</li>
+        <li>Add tea</li>
+      </ol>
+      (c) Use the start attribute: <ol start='5'>.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A glossary page lists the term “HTML” with the meaning “the language used to write web pages”.
+
+    (a) Which kind of list suits a glossary?
+    (b) Write the code for this one entry.
+    (c) How does it differ from <ul>?
+    Ans:
+      (a) A definition list, written with <dl>.
+      (b) <dl>
+        <dt>HTML</dt>
+        <dd>The language used to write web pages</dd>
+      </dl>
+      (c) <ul> lists items one after another with bullets, while <dl> pairs each term (<dt>) with its description (<dd>).
+
+Q12. [Long · 5 marks] Write the HTML to display a centred heading “Shopping”, an ordered list of three fruits numbered with lower-case Roman numerals, and an unordered list of two vegetables with square bullets. Explain the attributes you used.
+    Ans:
+      <h2 align='center'>Shopping</h2>
+      <ol type='i'>
+        <li>Apple</li><li>Banana</li><li>Mango</li>
+      </ol>
+      <ul type='square'>
+        <li>Potato</li><li>Onion</li>
+      </ul>
+      align='center' centres the heading; type='i' numbers as i, ii, iii; type='square' gives square bullets.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which attribute of <font> sets the typeface? (a) face (b) size (c) color (d) style
+    Ans: (a) face.
+
+M2. Which tag creates a bulleted list? (a) <ol> (b) <ul> (c) <dl> (d) <li>
+    Ans: (b) <ul>. <li> marks the items inside it.
+
+M3. <ol type='a'> numbers the items as — (a) a,b,c (b) 1,2,3 (c) A,B,C (d) i,ii,iii
+    Ans: (a) a, b, c — lowercase letters.
+
+M4. To write x² in HTML you use — (a) <sub> (b) <u> (c) <sup> (d) <tt>
+    Ans: (c) <sup> for superscript.
+
+M5. The valid values of the align attribute are — (a) left, middle, right (b) start, center, end (c) top, middle, bottom (d) left, center, right
+    Ans: (d) left, center, right.
+
+M6. The tag that starts a new line without starting a new paragraph is: (a) <hr>  (b) <br>  (c) <p>  (d) <lb>
+    Ans: (b) <br>. It is an empty tag and has no closing tag.
+
+M7. The tag that draws a horizontal rule across the page is: (a) <br>  (b) <line>  (c) <hr>  (d) <rule>
+    Ans: (c) <hr>. It is used to separate sections of a page.
+
+M8. <ul type='square'> shows bullets as: (a) discs (b) circles (c) numbers (d) squares
+    Ans: (d) squares. The type values for <ul> are disc (default), circle and square.

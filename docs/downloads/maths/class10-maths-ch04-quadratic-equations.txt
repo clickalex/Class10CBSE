@@ -1,0 +1,124 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 4 · Quadratic Equations · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 4 · Quadratic Equations
+Unit: II · Algebra
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the nature of the roots of 2x² − 6x + 3 = 0.
+    Ans:
+      D = (−6)² − 4(2)(3) = 36 − 24 = 12.
+      D > 0 but 12 is not a perfect square, so the roots are real, distinct and irrational.
+
+Q2. [Short · 2 marks] For what values of k does x² + kx + 16 = 0 have equal roots?
+    Ans: Equal roots means the discriminant is zero: k² − 4(1)(16) = 0, so k² = 64 and k = ±8. For k = 8 the root is −4; for k = −8 the root is 4.
+
+Q3. [Short · 3 marks] Find the value of k for which 2x² + kx + 3 = 0 has two equal roots.
+    Ans: Equal roots means the discriminant is zero: D = b² − 4ac = 0. Here k² − 4(2)(3) = 0, so k² = 24 and k = ±2√6. Both signs are needed — (+2√6)² and (−2√6)² are both 24, so each value gives a perfect square with a double root.
+
+Q4. [Short · 3 marks] Solve 6x² − x − 2 = 0 by factorisation.
+    Ans:
+      Split −x using numbers with product 6 × (−2) = −12 and sum −1: these are −4 and 3.
+      6x² − 4x + 3x − 2 = 2x(3x − 2) + 1(3x − 2) = (3x − 2)(2x + 1).
+      So x = 2/3 or x = −1/2.
+
+Q5. [Application · 3 marks] A student solves 2x² − 7x + 3 = 0 with the formula and writes x = (−7 ± √(49 − 24))/4 = (−7 ± 5)/4, so x = −1/2 or x = −3. Find the mistake and give the correct roots.
+    Ans:
+      Mistake: here b = −7, so −b = +7. The student used −7.
+      Correct: x = (7 ± √(49 − 24))/4 = (7 ± 5)/4, so x = 12/4 = 3 or x = 2/4 = 1/2.
+      Check by factorising: (2x − 1)(x − 3) = 2x² − 7x + 3 ✓.
+
+Q6. [Application · 3 marks] The length of a rectangular field is 3 m more than twice its breadth and its area is 65 m². Find its dimensions.
+    Ans:
+      Let the breadth be x m; the length is (2x + 3) m. Area: x(2x + 3) = 65, so 2x² + 3x − 65 = 0.
+      Factorise: (2x + 13)(x − 5) = 0, so x = 5 or x = −13/2. A length cannot be negative, so x = 5.
+      The field is 5 m × 13 m (area 5 × 13 = 65 m² ✓).
+
+Q7. [Short · 3 marks] Solve x² + 5x + 6 = 0 by completing the square.
+    Ans:
+      x² + 5x = −6.
+      Add (5/2)² to both sides: x² + 5x + 25/4 = −6 + 25/4 = 1/4.
+      (x + 5/2)² = 1/4, so x + 5/2 = ±1/2.
+      Hence x = −2 or x = −3.
+
+Q8. [Competency · 4 marks] Read and answer:
+
+    Aman studies the equation x² − 6x + k = 0 for different values of k.
+
+    (a) For which values of k are the roots real and distinct?
+    (b) Find k for equal roots, and the root.
+    (c) Show that there is no real root when k = 10.
+    Ans:
+      (a) D = 36 − 4k. Real and distinct roots need D > 0, so k < 9.
+      (b) Equal roots need D = 0, so k = 9 and the equation becomes (x − 3)² = 0 with the repeated root x = 3.
+      (c) For k = 10, D = 36 − 40 = −4 < 0, so the equation has no real roots.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    Two water taps together fill a tank in 9⅜ hours (75/8 h). The tap of larger diameter alone takes 10 hours less than the smaller one.
+
+    (a) If the smaller tap alone takes x hours, form the quadratic equation.
+    (b) Solve it.
+    (c) Why is one root rejected?
+    Ans:
+      (a) 1/x + 1/(x − 10) = 8/75, which simplifies to 4x² − 115x + 375 = 0.
+      (b) (4x − 15)(x − 25) = 0, so x = 25 or x = 15/4.
+      (c) For x = 15/4 = 3.75 the larger tap would need 3.75 − 10 < 0 hours, which is impossible. So the smaller tap takes 25 hours and the larger 15 hours.
+
+Q10. [Application · 4 marks] A train travels 360 km at a uniform speed. If the speed were 5 km/h more, it would take 1 hour less. Find the speed of the train.
+    Ans:
+      Let the speed be v km/h. Time difference: 360/v − 360/(v + 5) = 1.
+      ⇒ 360[5/(v(v + 5))] = 1 ⇒ v² + 5v − 1800 = 0.
+      ⇒ (v + 45)(v − 40) = 0, so v = 40 (speed cannot be negative).
+      The train travels at 40 km/h; check: 360/40 = 9 h and 360/45 = 8 h.
+
+Q11. [Long · 5 marks] The sum of the areas of two squares is 468 m². If the difference of their perimeters is 24 m, find the sides of the two squares.
+    Ans:
+      Let the sides be x and y with x > y. Then x² + y² = 468 and 4x − 4y = 24, so x − y = 6.
+      Substituting y = x − 6: x² + (x − 6)² = 468 ⇒ 2x² − 12x + 36 = 468.
+      2x² − 12x − 432 = 0, so x² − 6x − 216 = 0.
+      (x − 18)(x + 12) = 0, so x = 18 (rejecting −12) and y = 12.
+      The sides are 18 m and 12 m.
+
+Q12. [Long · 5 marks] Solve for x: 1/(x + 4) − 1/(x − 7) = 11/30, where x ≠ −4, 7.
+    Ans:
+      Combine the left side: [(x − 7) − (x + 4)]/[(x + 4)(x − 7)] = −11/[(x + 4)(x − 7)].
+      So −11/[(x + 4)(x − 7)] = 11/30, which gives (x + 4)(x − 7) = −30.
+      Expand: x² − 3x − 28 = −30, so x² − 3x + 2 = 0, i.e. (x − 1)(x − 2) = 0.
+      Hence x = 1 or x = 2. Check x = 1: 1/5 + 1/6 = 11/30 ✓; x = 2: 1/6 + 1/5 = 11/30 ✓.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The roots of x² − 5x + 6 = 0 are: (a) −2, −3  (b) 1, 6  (c) 2, 3  (d) −1, −6
+    Ans: (c) 2, 3. Product 6 and sum 5, both positive.
+
+M2. If the discriminant of a quadratic is zero, the roots are: (a) real and distinct  (b) real and equal  (c) not real  (d) always integers
+    Ans: (b) Real and equal.
+
+M3. For x² + 4x + k = 0 to have real roots, k must satisfy: (a) k ≤ 4  (b) k ≥ 4  (c) k ≤ −4  (d) k = 4
+    Ans: (a) k ≤ 4. D = 16 − 4k ≥ 0 gives k ≤ 4.
+
+M4. The quadratic equation 2x² − √5 x + 1 = 0 has: (a) two distinct real roots  (b) two equal real roots  (c) more than two real roots  (d) no real roots
+    Ans: (d) no real roots. D = (√5)² − 4(2)(1) = 5 − 8 = −3 < 0, so there is no real root.
+
+M5. The equation ax² + bx + c = 0 (a ≠ 0) has real roots only if: (a) b² − 4ac < 0  (b) b² − 4ac = 0 only  (c) b² + 4ac ≥ 0  (d) b² − 4ac ≥ 0
+    Ans: (d) b² − 4ac ≥ 0. The roots contain √(b² − 4ac), which is real exactly when the discriminant is zero or positive.
+
+M6. The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3  (b) 7/2 and 3/2  (c) −7/2 and 3/2  (d) 7/2 and −3/2
+    Ans: (b) 7/2 and 3/2. Sum = −b/a = 7/2 and product = c/a = 3/2.
+
+M7. Which one is NOT a quadratic equation? (a) x² + 3x + 2 = 0  (b) (x + 1)² = 2(x − 3)  (c) x³ − x² + 1 = 0  (d) 2x² = 8
+    Ans: (c) x³ − x² + 1 = 0. Its degree is 3, so it is a cubic; the others reduce to degree 2.
+
+M8. If the roots of x² − 8x + k = 0 are equal, then k = : (a) 16  (b) 8  (c) −16  (d) 64
+    Ans: (a) 16. D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16.

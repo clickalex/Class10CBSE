@@ -1,0 +1,118 @@
+﻿CLASS 10 CBSE · SCIENCE (Subject Code 086)
+Chapter 1 · Chemical Reactions and Equations · session 2026–27
+
+1 chapter · 12 written Q&A · 11 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/science/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 1 · Chemical Reactions and Equations
+Unit: I · Chemical Substances
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Why must a chemical equation be balanced?
+    Ans: Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction.
+
+Q2. [Short · 2 marks] Balance: HNO3 + Ca(OH)2 → Ca(NO3)2 + H2O
+    Ans: 2HNO3 + Ca(OH)2 → Ca(NO3)2 + 2H2O. This is also a neutralisation, hence a double displacement reaction.
+
+Q3. [Short · 2 marks] What is a precipitation reaction? Give one example with a balanced equation.
+    Ans: A precipitation reaction forms an insoluble solid (the precipitate) when two aqueous solutions are mixed. Example: Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s)↓ + 2NaCl(aq), where the white precipitate is barium sulphate.
+
+Q4. [Short · 3 marks] Why is nitrogen flushed into bags of potato chips?
+    Ans: Nitrogen is an unreactive (inert) gas. It displaces oxygen from the packet, so the fats and oils cannot be oxidised, which prevents rancidity and keeps the chips from changing smell and taste.
+
+Q5. [Application · 3 marks] To balance H₂ + O₂ → H₂O, a student changes the formula of water to H₂O₂ and writes H₂ + O₂ → H₂O₂. Why is this wrong? Give the correct balanced equation with state symbols.
+    Ans:
+      Changing a subscript changes the substance: H₂O₂ is hydrogen peroxide, not water. Only the coefficient in front of a formula may be changed.
+      Balanced equation: 2H₂ + O₂ → 2H₂O (4 H and 2 O atoms on each side).
+      With state symbols: 2H₂(g) + O₂(g) → 2H₂O(l).
+
+Q6. [Application · 3 marks] An iron nail is dipped in blue copper sulphate solution for about 20 minutes. State what you observe, write the balanced chemical equation and name the type of reaction.
+    Ans:
+      The nail becomes coated with a reddish-brown deposit of copper, and the blue colour of the solution fades to light green.
+      Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s).
+      Iron is more reactive than copper, so it displaces copper from its salt solution: a displacement reaction.
+
+Q7. [Short · 3 marks] Balance this equation and name the type of reaction: FeSO₄(s) → Fe₂O₃(s) + SO₂(g) + SO₃(g).
+    Ans:
+      Balanced: 2FeSO₄(s) → Fe₂O₃(s) + SO₂(g) + SO₃(g).
+      It is a thermal decomposition reaction — one substance breaks into three on heating.
+      It is also a redox reaction: Fe²⁺ is oxidised while part of the sulphur is reduced.
+
+Q8. [Long · 4 marks] In the reaction ZnO + C → Zn + CO, identify the substance oxidised and the substance reduced.
+    Ans: Carbon is oxidised (it gains oxygen to form CO) and zinc oxide is reduced (it loses oxygen to form Zn). Carbon is the reducing agent; ZnO is the oxidising agent.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    A shopkeeper finds that a packet of chips left open for weeks smells and tastes bad, and that the iron gate outside his shop has turned reddish-brown.
+
+    (a) Name the two processes.
+    (b) Give the chemical formula of the reddish-brown substance on the gate.
+    (c) Suggest one way to prevent each process.
+    Ans:
+      (a) The chips have turned rancid (oxidation of fats and oils); the gate has rusted (corrosion of iron).
+      (b) Rust is hydrated iron(III) oxide, Fe₂O₃·xH₂O.
+      (c) Rancidity: pack the chips in airtight bags flushed with nitrogen, or add antioxidants. Rusting: paint, oil or galvanise the iron so that air and moisture cannot reach it.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A student rubs a 3 cm magnesium ribbon with sandpaper and then holds it with tongs over a flame. It burns with a dazzling white flame and leaves a white powder.
+
+    (a) Why is the ribbon cleaned before burning?
+    (b) Name the white powder.
+    (c) Write the balanced equation and name the type of reaction.
+    Ans:
+      (a) Sandpaper removes the dull layer of magnesium oxide that covers the ribbon, so the pure metal can burn.
+      (b) The white powder is magnesium oxide, MgO.
+      (c) 2Mg + O₂ → 2MgO. Two substances combine to form one product, so it is a combination reaction (it is also an oxidation, and exothermic).
+
+Q11. [Application · 4 marks] Describe an activity to show that a chemical reaction is accompanied by the evolution of a gas, and how you would identify the gas.
+    Ans:
+      Take a few zinc granules in a conical flask and add dilute sulphuric acid; fit a cork with a delivery tube.
+      Bubbles appear on the surface of the zinc, showing that a gas is being evolved.
+      Bring a burning splint near the mouth of the tube: the gas burns with a pop sound, which identifies it as hydrogen.
+      Equation: Zn + H₂SO₄ → ZnSO₄ + H₂↑.
+
+Q12. [Long · 5 marks] A white salt on heating decomposes to give brown fumes and a residue. Name the salt and write the equation.
+    Ans: Lead nitrate. The brown fumes are nitrogen dioxide. 2Pb(NO3)2 → 2PbO + 4NO2↑ + O2↑ — a thermal decomposition reaction.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. The reaction Fe2O3 + 2Al → Al2O3 + 2Fe is an example of: (a) combination (b) decomposition (c) double displacement (d) displacement
+    Ans: (d) displacement. Aluminium, being more reactive, displaces iron from its oxide. It is also a redox and a highly exothermic (thermite) reaction.
+
+M2. Which of the following is an endothermic process? (a) process of decomposition of ferrous sulphate (b) respiration (c) decomposition of vegetable matter into compost (d) quicklime + water
+    Ans: (a). Decomposition always needs energy, so heating ferrous sulphate is endothermic. The other three release heat.
+
+M3. The green coating on copper and the black coating on silver are respectively: (a) CuO and Ag2O (b) CuCO3 and AgS2 (c) basic copper carbonate and Ag2S (d) Cu(OH)2 and AgO
+    Ans: (c). Copper forms basic copper carbonate CuCO3·Cu(OH)2 (green); silver forms silver sulphide Ag2S (black).
+
+M4. Which of the following is a displacement reaction? (a) CaO + H₂O → Ca(OH)₂  (b) 2H₂O → 2H₂ + O₂  (c) 2Mg + O₂ → 2MgO  (d) Zn + CuSO₄ → ZnSO₄ + Cu
+    Ans: (d) Zn + CuSO₄ → ZnSO₄ + Cu. Zinc, being more reactive, replaces copper from its salt solution. The others are combination, decomposition and combination reactions.
+
+M5. Quicklime reacts vigorously with water to form slaked lime and a lot of heat. This reaction is: (a) endothermic and a combination reaction  (b) exothermic and a combination reaction  (c) exothermic and a decomposition reaction  (d) endothermic and a displacement reaction
+    Ans: (b) exothermic and a combination reaction. CaO + H₂O → Ca(OH)₂ + heat: two substances join to form one product, and heat is released.
+
+M6. Which of these is a combination reaction? (a) CaO + H₂O → Ca(OH)₂  (b) 2H₂O → 2H₂ + O₂  (c) Zn + CuSO₄ → ZnSO₄ + Cu  (d) AgNO₃ + NaCl → AgCl + NaNO₃
+    Ans: (a) CaO + H₂O → Ca(OH)₂. Two reactants combine to form a single product; (b) is decomposition, (c) displacement and (d) double displacement.
+
+M7. The brown fumes evolved when lead nitrate is heated are of: (a) O₂  (b) NO₂  (c) NO  (d) PbO
+    Ans: (b) NO₂. 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂; nitrogen dioxide is brown, the residue lead oxide is yellow.
+
+M8. Rancidity of fat-containing food is prevented by: (a) storing it in the open  (b) adding oxidising agents  (c) heating it repeatedly  (d) adding antioxidants and flushing with nitrogen
+    Ans: (d) adding antioxidants and flushing with nitrogen. Both slow down the oxidation of fats that causes the stale smell and taste.
+
+M9. When the equation Fe + H₂O → Fe₃O₄ + H₂ is balanced, the coefficient of steam (H₂O) is: (a) 2  (b) 3  (c) 4  (d) 6
+    Ans: (c) 4. 3Fe + 4H₂O → Fe₃O₄ + 4H₂ — three iron atoms need four oxygen atoms, which come from four water molecules.
+
+M10. A shiny brown element X becomes black when heated in air. X and the black compound are: (a) Fe and Fe₂O₃  (b) Ag and Ag₂S  (c) Cu and CuO  (d) Al and Al₂O₃
+    Ans: (c) Cu and CuO. Copper is reddish-brown and forms black copper(II) oxide on heating: 2Cu + O₂ → 2CuO.
+
+M11. The reaction 2AgBr → 2Ag + Br₂ used in black-and-white photography is a: (a) thermal decomposition  (b) photochemical decomposition  (c) displacement  (d) combination reaction
+    Ans: (b) photochemical decomposition. Light, not heat, splits silver bromide into silver and bromine; the grey silver darkens the film.

@@ -1,0 +1,133 @@
+﻿CLASS 10 CBSE · SCIENCE (Subject Code 086)
+Chapter 3 · Metals and Non-metals · session 2026–27
+
+1 chapter · 14 written Q&A · 11 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/science/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 3 · Metals and Non-metals
+Unit: I · Chemical Substances
+========================================================================
+
+A. WRITTEN QUESTIONS (14)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Name a metal that is liquid at room temperature and a non-metal that is lustrous.
+    Ans: Mercury (metal, liquid at room temperature) and iodine (non-metal, lustrous).
+
+Q2. [Short · 2 marks] Why is sodium kept immersed in kerosene oil?
+    Ans: Sodium is so reactive that it reacts vigorously with oxygen, moisture and carbon dioxide in air, catching fire. Kerosene cuts off air and moisture, so the metal stays unreacted.
+
+Q3. [Short · 2 marks] Why does aluminium not corrode easily even though it is a reactive metal?
+    Ans: It reacts with oxygen to form a thin, tightly adhering layer of aluminium oxide on its surface. This layer prevents further reaction with air or moisture, so the metal below is protected.
+
+Q4. [Short · 2 marks] Give a reason why ionic compounds have high melting and boiling points.
+    Ans: Oppositely charged ions in an ionic compound are held together by strong electrostatic forces in a crystal lattice, and a large amount of energy is needed to break these forces, so melting and boiling points are high.
+
+Q5. [Short · 3 marks] Why are food cans coated with tin and not with zinc?
+    Ans: Zinc is more reactive than tin and would itself react with the acidic contents of the food, contaminating it. Tin is less reactive, so it protects the can without reacting.
+
+Q6. [Short · 3 marks] Show the formation of MgCl2 by the transfer of electrons, and state two properties of the compound formed.
+    Ans:
+      Mg (2,8,2) loses 2 electrons → Mg2+; each Cl (2,8,7) gains one electron → Cl−. Mg2+ + 2Cl− → MgCl2, held by strong electrostatic force.
+      Properties: it is a hard crystalline solid with a high melting point, and it conducts electricity when molten or dissolved in water.
+
+Q7. [Application · 3 marks] A student writes: “Zinc carbonate is converted into zinc oxide by roasting in excess air.” Correct the statement and write the equations for converting a carbonate ore and a sulphide ore into oxides.
+    Ans:
+      A carbonate ore is converted into its oxide by calcination — heating strongly in a limited supply or absence of air. Roasting is used for sulphide ores, in excess air.
+      Calcination: ZnCO₃ → ZnO + CO₂.
+      Roasting: 2ZnS + 3O₂ → 2ZnO + 2SO₂.
+
+Q8. [Application · 3 marks] Iron nails are placed in copper sulphate solution, and a copper strip is placed in zinc sulphate solution. In which case will a reaction occur? Justify.
+    Ans:
+      A more reactive metal displaces a less reactive metal from its salt solution.
+      Iron is more reactive than copper, so a reaction occurs: Fe + CuSO₄ → FeSO₄ + Cu.
+      Copper is less reactive than zinc, so it cannot displace zinc, and there is no reaction in the second case.
+
+Q9. [Short · 3 marks] How are metals low in the reactivity series extracted from their ores? Give equations.
+    Ans:
+      Metals low in the series (such as mercury and copper) are obtained by heating their ores alone — reduction with carbon is not needed.
+      Cinnabar (HgS) is first roasted in air: 2HgS + 3O₂ → 2HgO + 2SO₂, then heated: 2HgO → 2Hg + O₂.
+      Copper from its sulphide ore: Cu₂S + 3O₂ → 2Cu₂O + 2SO₂, then 2Cu₂O + Cu₂S → 6Cu + SO₂.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A metal M reacts with dilute hydrochloric acid, giving bubbles of a gas that burns with a pop sound. M does not react with cold water but reacts with steam to form a metal oxide and the same gas.
+
+    (a) Name the gas.
+    (b) Suggest a metal that could be M.
+    (c) Write the equation for the reaction of M with steam.
+    Ans:
+      (a) Hydrogen.
+      (b) Zinc (iron or aluminium would also fit).
+      (c) Zn + H₂O(g) → ZnO + H₂.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A student tests three samples. Solid sodium chloride does not conduct electricity, but molten sodium chloride and its aqueous solution do. An aqueous solution of glucose does not conduct either.
+
+    (a) Why does solid NaCl not conduct?
+    (b) Why does it conduct when molten or dissolved?
+    (c) Why does the glucose solution not conduct?
+    Ans:
+      (a) In the solid, the Na⁺ and Cl⁻ ions are held rigidly in the crystal and cannot move.
+      (b) Melting or dissolving frees the ions, and moving ions carry the current.
+      (c) Glucose is a covalent compound made of neutral molecules; it forms no ions in water, so there are no charge carriers.
+
+Q12. [Application · 4 marks] Describe the thermite reaction and give its use.
+    Ans:
+      The thermite reaction: Fe₂O₃ + 2Al → Al₂O₃ + 2Fe + heat.
+      Aluminium is more reactive than iron, so it reduces iron(III) oxide to molten iron and a large amount of heat is released.
+      The molten iron produced is used to weld railway tracks and cracked machine parts without dismantling them.
+
+Q13. [Long · 5 marks] Explain electrolytic refining of copper.
+    Ans:
+      The impure copper is made the anode and a thin strip of pure copper the cathode, both dipped in acidified copper sulphate solution.
+      On passing current, copper from the anode dissolves as Cu2+ and an equal amount deposits on the cathode.
+      Soluble impurities go into the solution; insoluble impurities settle below the anode as anode mud (which contains the precious metals).
+
+Q14. [Long · 5 marks] Explain, with equations, how zinc is extracted from its sulphide ore. Why can sodium not be obtained from its oxide in the same way?
+    Ans:
+      Zinc blende (ZnS) is first concentrated, then converted into zinc oxide by roasting: 2ZnS + 3O₂ → 2ZnO + 2SO₂.
+      The oxide is reduced to the metal by heating with carbon: ZnO + C → Zn + CO.
+      The crude zinc is purified by electrolytic refining.
+      Sodium is far above carbon in the reactivity series, so carbon cannot reduce its oxide.
+      Highly reactive metals are obtained by electrolysis of their molten chlorides: at the cathode Na⁺ + e⁻ → Na.
+
+B. MCQs (11)
+------------------------------------------------------------------------
+
+M1. A copper coin placed in silver nitrate solution turns silvery and the solution turns blue. This shows copper is: (a) less reactive than silver (b) equally reactive (c) an inert metal (d) more reactive than silver
+    Ans: (d) more reactive than silver. Cu + 2AgNO3 → Cu(NO3)2 + 2Ag; the blue colour is due to Cu2+ ions.
+
+M2. Which pair is amphoteric? (a) Na2O and CaO (b) Al2O3 and ZnO (c) CO2 and SO2 (d) CuO and FeO
+    Ans: (b) Al2O3 and ZnO — they react with both acids and bases to form salt and water.
+
+M3. The method used to extract sodium from molten NaCl is: (a) reduction with carbon (b) self reduction (c) electrolytic reduction (d) roasting
+    Ans: (c) electrolytic reduction. Sodium is above carbon in the reactivity series, so carbon cannot reduce it; the molten chloride is electrolysed.
+
+M4. Which of the following metals will displace copper from copper sulphate solution? (a) Ag  (b) Zn  (c) Hg  (d) Au
+    Ans: (b) Zn. Only a metal above copper in the reactivity series can displace it; zinc is above copper, while silver, mercury and gold are below it.
+
+M5. An element forms an oxide that is acidic in nature. The element is most likely a: (a) non-metal  (b) metal  (c) alkali metal  (d) alloy
+    Ans: (a) non-metal. Non-metals form acidic (or neutral) oxides, while metals generally form basic oxides.
+
+M6. The best conductor of electricity among these is: (a) copper  (b) silver  (c) aluminium  (d) iron
+    Ans: (b) silver. Silver conducts best, then copper; silver is too costly for wiring, so copper is used.
+
+M7. Brass is an alloy of: (a) copper and zinc  (b) copper and tin  (c) lead and tin  (d) mercury and zinc
+    Ans: (a) copper and zinc. Bronze is copper and tin, solder is lead and tin, and an amalgam contains mercury.
+
+M8. Which metal reacts vigorously with cold water? (a) iron  (b) zinc  (c) copper  (d) sodium
+    Ans: (d) sodium. It reacts violently with cold water; iron and zinc react only with steam, and copper does not react at all.
+
+M9. The correct decreasing order of reactivity is: (a) Zn > Mg > Cu  (b) Cu > Zn > Mg  (c) Zn > Cu > Mg  (d) Mg > Zn > Cu
+    Ans: (d) Mg > Zn > Cu. In the reactivity series magnesium lies above zinc, and copper lies below hydrogen, so it is the least reactive of the three.
+
+M10. Galvanisation protects iron from rusting by coating it with a thin layer of: (a) tin  (b) chromium  (c) zinc  (d) copper
+    Ans: (c) zinc. Zinc is more reactive than iron, so it corrodes in preference to the iron even if the coating is scratched.
+
+M11. Magnesium (2, 8, 2) combines with chlorine (2, 8, 7) to form an ionic compound with the formula: (a) MgCl₂  (b) MgCl  (c) Mg₂Cl  (d) MgCl₃
+    Ans: (a) MgCl₂. Magnesium loses two electrons to become Mg²⁺; each chlorine atom gains one, so two Cl⁻ ions are needed.

@@ -1,0 +1,110 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 15 · Relationships and Multiple Tables · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 15 · Relationships and Multiple Tables
+Unit: Part B · Database Management System
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is a one-to-many relationship? Give an example.
+    Ans: One record in table A matches many in table B. One student, many library issues. The Issue table stores AdmNo as FK.
+
+Q2. [Short · 2 marks] What is referential integrity?
+    Ans: A rule that every foreign-key value must match an existing primary key, so you cannot create orphan records.
+
+Q3. [Short · 2 marks] What is referential integrity and why is it useful?
+    Ans: Referential integrity is the rule that every value of a foreign key must match a value of the primary key in the related table, or be empty. It prevents ‘orphan' records — for example, a fee record belonging to a student who is not in the student table — and keeps the database reliable.
+
+Q4. [Short · 2 marks] What is a many-to-many relationship? Explain why it needs a junction table, with an example.
+    Ans: Many-to-many means rows on both sides link to many rows on the other — for example, each student borrows many books and each book is borrowed by many students. Neither table can hold the other's key directly, so a junction table (Issue: IssueID, RollNo, BookID, Date) stores each pairing as its own record.
+
+Q5. [Application · 3 marks] A shop has Customer and Order tables. Where does CustomerID go, and what relationship is this?
+    Ans: CustomerID is PK in Customer and FK in Order. One-to-many (one customer, many orders).
+
+Q6. [Application · 3 marks] A student relates the tables Customer and Order by making OrderID in Order the primary key and also making CustomerID in Customer the foreign key. What is wrong?
+    Ans:
+      The foreign key goes on the many side. One customer can place many orders, so Order must contain the CustomerID.
+      Correct design: CustomerID is the primary key of Customer, and CustomerID in Order is the foreign key that refers to it.
+      The primary key and the foreign key must also have the same data type, or Base will refuse the link.
+
+Q7. [Short · 3 marks] Explain the three types of relationship with an example of each.
+    Ans:
+      One-to-one: one record in the first table matches one in the second, for example one student and one library card.
+      One-to-many: one record in the first table matches many in the second, for example one class has many students.
+      Many-to-many: records on both sides match many on the other, for example students and subjects; this is usually split into two one-to-many relationships through a third table.
+
+Q8. [Short · 3 marks] What is ‘cascade delete’? Describe one situation where it is useful and one where it is dangerous.
+    Ans:
+      Cascade delete automatically deletes child records when their parent is deleted.
+      Useful — removing a passed-out batch's students together with their old fee rows in one step.
+      Dangerous — deleting one supplier and silently wiping years of purchase history that accounts still needs. Prefer blocking the delete (referential integrity) unless you are certain the children are disposable.
+
+Q9. [Long · 4 marks] Explain how to relate Student and Issue in Base.
+    Ans: AdmNo PK in Student; AdmNo FK in Issue (same type). Tools → Relationships, drag PK to FK, enable referential integrity. Then an issue cannot use a missing admission number.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    Deleting student 12 failed because “existing related records”.
+
+    (a) What rule is firing?
+    (b) Two safe ways to proceed.
+    (c) When would cascade delete be wrong?
+    Ans:
+      (a) Referential integrity — Issue rows still point to 12.
+      (b) Delete or reassign the issue rows first; or (if asked) enable cascade delete.
+      (c) When those issues are history you must keep — never cascade-delete library history by accident.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    In a school, each student has exactly one library card and each card belongs to exactly one student.
+
+    (a) What type of relationship is this?
+    (b) How can it be set up in Base?
+    (c) Why are the data often kept in one table instead?
+    Ans:
+      (a) A one-to-one relationship.
+      (b) The primary key of one table is also used (as a unique key) in the other, and the two are linked in Tools → Relationships.
+      (c) Because each row matches exactly one row of the other table, the fields can be placed in a single table; separate tables are used only when some data is rarely needed or must be kept apart.
+
+Q12. [Long · 5 marks] A shop has customers, products and orders. Design the tables with their primary and foreign keys, and name the relationships.
+    Ans:
+      Customer (CustomerID — primary key, Name, Phone).
+      Product (ProductID — primary key, ProductName, Price).
+      Order (OrderID — primary key, CustomerID — foreign key, ProductID — foreign key, Quantity, OrderDate).
+      Customer to Order is one-to-many, and Product to Order is also one-to-many.
+      Between Customer and Product the relationship is many-to-many, which is why the Order table acts as the linking (junction) table.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The foreign key is stored on the: (a) many side (b) one side always (c) report (d) form title
+    Ans: (a) many side.
+
+M2. Referential integrity prevents: (a) styles (b) Goal Seek (c) orphan FK values (d) macros
+    Ans: (c).
+
+M3. Student–Issue is typically: (a) one-to-one (b) many-to-many without a junction (c) no relation (d) one-to-many
+    Ans: (d) one-to-many.
+
+M4. Relationships window is opened from: (a) Insert → Image (b) Tools → Relationships (c) Format → Page (d) Data → Sort
+    Ans: (b).
+
+M5. In a one-to-many relationship, the foreign key is placed in the table on the: (a) “one” side (b) side with fewer records (c) “many” side (d) side with the longer name
+    Ans: (c) “many” side. Each record on the “many” side stores the key of the one record it belongs to.
+
+M6. Referential integrity ensures that: (a) a foreign key value must match an existing primary key value in the related table (b) every field has a default value (c) a table has at least ten records (d) a query is always sorted
+    Ans: (a) a foreign key value must match an existing primary key value in the related table. It prevents records that point to something that does not exist, such as an order for a missing customer.
+
+M7. The relationship between one customer and the many orders placed by that customer is: (a) one-to-one  (b) one-to-many  (c) many-to-many  (d) not possible
+    Ans: (b) one-to-many. The customer is the parent record and the orders are the child records.
+
+M8. In a relationship, the field in the child table that matches the primary key of the parent table is the: (a) primary key  (b) index  (c) alias  (d) foreign key
+    Ans: (d) foreign key. It is what holds the relationship together.

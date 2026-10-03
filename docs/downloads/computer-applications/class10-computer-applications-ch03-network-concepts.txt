@@ -1,0 +1,111 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 3 · Network Types, Topologies & Devices · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 3 · Network Types, Topologies & Devices
+Unit: Unit I · Networking
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Which IEEE standard defines Wi-Fi?
+    Ans: IEEE 802.11 defines Wi-Fi. The IEEE 802.3 standard, by contrast, defines wired Ethernet.
+
+Q2. [Short · 2 marks] Why is optical fibre preferred over copper cable for long distances?
+    Ans: Optical fibre carries data as pulses of light through glass, so it suffers almost no signal loss over long distances and is immune to electrical interference from motors, power lines and lightning. It also has a far higher bandwidth than copper. Its drawbacks are that it is more expensive and more fragile to install, which is why copper still dominates the last few metres.
+
+Q3. [Short · 2 marks] What is the difference between a MAC address and an IP address?
+    Ans: A MAC address is a 48-bit hardware address burnt into the network card; it never changes and identifies the physical device. An IP address is assigned logically for the network the device is on, so it changes when the device moves to a different network. MAC works within one local network, while IP works across the whole internet.
+
+Q4. [Short · 2 marks] Distinguish between a LAN and a WAN.
+    Ans: A LAN covers a small area such as a room, a building or a campus, is owned by one organisation, uses switches and cables or Wi-Fi, and is fast. A WAN covers a city, a country or the world, links LANs over leased telephone lines, fibre or satellites, and is slower and shared among many organisations.
+
+Q5. [Short · 3 marks] Explain star topology with its advantages and disadvantages.
+    Ans: In star topology every node is connected by its own cable to a central device — a hub or a switch. All communication passes through that centre. Its advantages are that a cable failure affects only the one node attached to it, nodes can be added or removed without disturbing the rest, and faults are easy to locate. Its disadvantages are that it needs more cable than a bus, and the central device is a single point of failure — if the switch dies, the whole network stops.
+
+Q6. [Short · 3 marks] Differentiate between a hub, a switch and a router.
+    Ans: A hub works at the physical layer and repeats an incoming signal out of every port, so all devices see all traffic and collisions are common. A switch works at the data-link layer, learns the MAC address on each port and forwards a frame only to the intended port, which makes it far faster and more secure. A router works at the network layer and connects different networks, using IP addresses to choose the best path between them — it is what links your LAN to the internet.
+
+Q7. [Application · 3 marks] A student says a hub and a switch are the same because both connect many computers. Correct this and say which is better for a busy school lab.
+    Ans:
+      A hub sends every incoming signal to all its ports (it broadcasts), so every computer receives data meant for one.
+      A switch learns the address of the device on each port and sends data only to the intended port.
+      So a switch reduces traffic and collisions and improves speed and privacy; it is the better choice for a busy lab.
+
+Q8. [Application · 3 marks] A school has two computer labs on different floors and wants every computer to share a printer and reach the internet. List the devices needed and the job of each.
+    Ans:
+      A switch in each lab connects its computers and the printer into a local network.
+      A router joins the lab network to the internet through the Internet Service Provider and directs the traffic.
+      A modem converts the signal between the ISP’s line and the digital signal the router uses (it is often built into the router); a wireless access point can add Wi-Fi.
+
+Q9. [Short · 3 marks] Compare the star and bus topologies and name one advantage of each.
+    Ans:
+      In a star topology every computer is connected to a central switch or hub; a fault in one cable affects only that computer, and new computers can be added easily.
+      In a bus topology all computers share one main cable with terminators at each end; it is cheap and needs less cable.
+      Star costs more because of the switch and the extra cable, while bus is slow when many computers share the cable and stops working if the main cable breaks.
+      Star is the topology used in almost every modern office network.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    In an old computer lab, all the computers were attached to one long common cable with a terminator at each end. One day the main cable broke and the whole lab went offline.
+
+    (a) Name the topology.
+    (b) State one advantage of it.
+    (c) Why was a single break so serious?
+    Ans:
+      (a) Bus topology.
+      (b) It is cheap and simple to install and needs less cable than a star.
+      (c) Every computer depends on the single backbone cable, so a break stops communication for all of them; performance also falls as more devices share it.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A laptop has the MAC address 00:1A:2B:3C:4D:5E printed in its hardware. At school it gets the IP address 192.168.1.15 and at home it gets 192.168.0.7.
+
+    (a) Which address stays the same wherever the laptop goes?
+    (b) Which one changes with the network?
+    (c) Who or what assigns the IP address?
+    Ans:
+      (a) The MAC address: it is fixed in the network hardware.
+      (b) The IP address, which depends on the network the laptop joins.
+      (c) The network itself, usually the router, using DHCP.
+
+Q12. [Long · 5 marks] Differentiate between PAN, LAN, MAN and WAN, giving the area covered and an example of each.
+    Ans:
+      PAN (Personal Area Network): a few metres around one person, for example a phone linked to earphones by Bluetooth.
+      LAN (Local Area Network): a room, building or campus, for example a school computer lab.
+      MAN (Metropolitan Area Network): a whole city, for example a cable-TV or city-wide broadband network.
+      WAN (Wide Area Network): countries or continents, for example the internet or a bank’s network linking branches.
+      As the area grows, so do the cost and the number of devices, while the speed per user usually falls.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Which network covers a whole city? (a) MAN (b) LAN (c) WAN (d) PAN
+    Ans: (a) MAN — Metropolitan Area Network.
+
+M2. Which topology has a single point of failure at its centre? (a) Star (b) Mesh (c) Bus (d) Ring
+    Ans: (a) Star — the hub or switch is the single point of failure.
+
+M3. A device that joins two different networks and picks the best path is a — (a) hub (b) switch (c) router (d) repeater
+    Ans: (c) router.
+
+M4. Which medium is immune to electrical interference? (a) twisted pair (b) optical fibre (c) coaxial (d) infrared
+    Ans: (b) optical fibre — it carries light, not electricity.
+
+M5. A network that is confined to a single building or campus is called a: (a) MAN (b) LAN (c) WAN (d) PAN
+    Ans: (b) LAN. LAN stands for Local Area Network; MAN covers a city and WAN covers countries.
+
+M6. The device that converts digital signals to analogue signals and back for transmission over a telephone line is a: (a) switch (b) hub (c) modem (d) repeater
+    Ans: (c) modem. “Modem” comes from modulator–demodulator, which describes its two conversions.
+
+M7. The device that connects two different networks and chooses the best path is a: (a) switch  (b) hub  (c) repeater  (d) router
+    Ans: (d) router. A switch connects computers within one network; a repeater only strengthens the signal.
+
+M8. The topology in which every computer is connected to every other computer is the: (a) star topology  (b) bus topology  (c) ring topology  (d) mesh topology
+    Ans: (d) mesh topology. It is the most reliable and the most expensive to cable.

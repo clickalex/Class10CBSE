@@ -1,0 +1,145 @@
+﻿CLASS 10 CBSE · COMPUTER APPLICATIONS (Subject Code 165)
+Chapter 6 · HTML I — Introduction & Basic Tags · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/computer-applications/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 6 · HTML I — Introduction & Basic Tags
+Unit: Unit II · HTML
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] What is the difference between <br> and <p>?
+    Ans: <br> inserts a single line break inside existing text without any spacing, while <p> starts a new paragraph, which the browser surrounds with vertical space before and after.
+
+Q2. [Short · 2 marks] What is the difference between a tag and an element?
+    Ans: A tag is the marker itself, written in angle brackets — for example <p> or </p>. An element is the complete unit made of the opening tag, the content and the closing tag — <p>This is a paragraph.</p>. So tags are the parts and the element is the whole thing they enclose.
+
+Q3. [Short · 2 marks] What are empty tags? Give two examples.
+    Ans: Empty tags, also called void tags, are tags that carry no content and therefore have no closing partner. They do their work on their own. Two examples are <br>, which inserts a line break, and <hr>, which draws a horizontal rule. <img> and <input> are other common empty tags.
+
+Q4. [Short · 2 marks] What is the purpose of the <head> section?
+    Ans: The <head> section holds information about the page rather than content shown on it. It contains the <title>, which appears on the browser tab and in search results, and can hold links to stylesheets, scripts and metadata. None of what is inside <head> is displayed in the page body.
+
+Q5. [Short · 2 marks] What is HTML and what is the basic structure of an HTML document?
+    Ans: HTML is the markup language in which web pages are written, using tags to describe the structure and meaning of the content. A document starts with <!DOCTYPE html>, then an <html> element containing a <head> with the <title>, and a <body> with everything the visitor sees.
+
+Q6. [Short · 3 marks] Write an HTML page that displays the heading 'My School' and a paragraph about it.
+    Ans:
+      <html>
+        <head>
+          <title>My School</title>
+        </head>
+        <body>
+          <h1>My School</h1>
+          <p>My school is located in the centre of the city and has a large playground, a library and a computer laboratory.</p>
+        </body>
+      </html>
+      The <title> sits inside <head> and names the browser tab; everything visible is inside <body>.
+
+Q7. [Application · 3 marks] A student says that <h6> makes the largest heading and <h1> the smallest. Correct this and write the tags for the main heading and the smallest heading of a page.
+    Ans:
+      It is the other way round: <h1> is the largest (most important) heading and <h6> the smallest.
+      Main heading: <h1>Welcome to Class 10</h1>
+      Smallest heading: <h6>Last updated today</h6>
+
+Q8. [Application · 3 marks] Write the HTML for a page body that shows the main heading “Our Class”, a sub-heading “Roll Call”, the paragraph “Attendance is taken daily.” and then a horizontal line.
+    Ans:
+      <h1>Our Class</h1>
+      <h2>Roll Call</h2>
+      <p>Attendance is taken daily.</p>
+      <hr>
+      <h1> and <h2> are paired heading tags; <hr> is an empty tag, so it has no closing partner.
+
+Q9. [Short · 3 marks] Write the HTML for a page titled ‘My School' with one heading and one paragraph.
+    Ans:
+      Start with <!DOCTYPE html> so that the browser knows this is HTML5.
+      <html> wraps the whole document, <head> holds <title>My School</title>.
+      <body> holds <h1>My School</h1> for the main heading and <p>My school has thirty classrooms and a large library.</p> for the text.
+      Close with </body></html>; every opening tag must have a matching closing tag.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A student wrote this page:
+
+    <html>
+    <body>
+    <title>My Page</title>
+    <h1>Welcome<h1>
+    <p>Hello</br>
+    </body>
+    </html>
+
+    (a) Find three errors.
+    (b) Write the corrected code.
+    Ans:
+      (a) <title> must be in <head>, not in <body>; the heading is not closed (</h1> is missing); </br> is wrong because <br> is an empty tag; the <p> tag is not closed either.
+      (b) <html>
+        <head><title>My Page</title></head>
+        <body>
+          <h1>Welcome</h1>
+          <p>Hello<br></p>
+        </body>
+      </html>
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A browser is given this code:
+
+    <h2>Menu</h2>
+    <p>Tea<br>Coffee<br>Milk</p>
+    <hr>
+    <p>Open 9 to 5</p>
+
+    (a) How many lines does the first paragraph show?
+    (b) What does <hr> do?
+    (c) Why are <br> and <hr> called empty tags?
+    Ans:
+      (a) Three lines: Tea, Coffee and Milk, because each <br> breaks the line.
+      (b) It draws a horizontal line (rule) across the page between the two paragraphs.
+      (c) They hold no content between an opening and closing tag, so they need no closing tag.
+
+Q12. [Long · 5 marks] Write the HTML for a notice page with the title “Class Notice”, a centred main heading, two paragraphs with a line break inside the second one, and a horizontal line between the paragraphs. Explain each tag you use.
+    Ans:
+      <html>
+        <head><title>Class Notice</title></head>
+        <body>
+          <h1 align='center'>Notice</h1>
+          <p>The sports day is on Friday.</p>
+          <hr>
+          <p>Reach school by 8 a.m.<br>Wear the sports uniform.</p>
+        </body>
+      </html>
+      <head> and <title> hold the browser-tab text; <body> holds everything visible; <h1> is the main heading; <p> makes a paragraph; <br> breaks a line; <hr> draws a line.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. HTML stands for — (a) HighText Machine Language (b) HyperText Markup Language (c) HyperTool Markup Language (d) Home Tool Markup Language
+    Ans: (b) HyperText Markup Language.
+
+M2. Which tag goes inside <head>? (a) <body> (b) <h1> (c) <title> (d) <p>
+    Ans: (c) <title>.
+
+M3. The smallest heading tag is — (a) <h1> (b) <h3> (c) <h6> (d) <head>
+    Ans: (c) <h6>.
+
+M4. Which of these is an empty tag? (a) <br> (b) <p> (c) <h1> (d) <title>
+    Ans: (a) <br> — it has no closing partner.
+
+M5. In an HTML document, the visible content of the page is placed inside the: (a) <body> tag (b) <head> tag (c) <title> tag (d) <html> tag only, outside every other tag
+    Ans: (a) <body> tag. <body> holds everything the browser displays; <head> holds information such as the title.
+
+M6. The correct way to write a line break in HTML is: (a) </br> (b) <lb> (c) <break> (d) <br>
+    Ans: (d) <br>. <br> is an empty tag, so it has no closing form.
+
+M7. The tag that sets the text shown in the browser's title bar is: (a) <head>  (b) <title>  (c) <h1>  (d) <body>
+    Ans: (b) <title>. It is placed inside the <head> section.
+
+M8. The tag used for the most important heading is: (a) <h6>  (b) <p>  (c) <b>  (d) <h1>
+    Ans: (d) <h1>. Headings run from <h1>, the largest, down to <h6>, the smallest.

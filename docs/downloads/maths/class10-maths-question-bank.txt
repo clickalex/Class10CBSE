@@ -1,0 +1,1640 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Question bank · session 2026–27
+
+14 chapters · 170 written Q&A · 112 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 1 · Real Numbers
+Unit: I · Number Systems
+========================================================================
+
+A. WRITTEN QUESTIONS (13)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] State Euclid’s division lemma.
+    Ans: Given positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.
+
+Q2. [Short · 2 marks] Without performing long division, state whether 13/3125 will have a terminating decimal expansion.
+    Ans: 3125 = 5⁵, which is of the form 2ᵐ × 5ⁿ with m = 0, n = 5. The fraction is already in lowest terms, so yes — it terminates.
+
+Q3. [Short · 2 marks] Prove that 5 − √3 is irrational.
+    Ans: Assume 5 − √3 is rational and equals r. Then √3 = 5 − r, which is rational because it is the difference of two rationals. That contradicts the fact that √3 is irrational, so 5 − √3 must be irrational.
+
+Q4. [Short · 3 marks] Prove that √3 is irrational.
+    Ans:
+      Assume √3 is rational. Then √3 = p/q where p, q are coprime integers and q ≠ 0.
+      Squaring: 3 = p²/q², so p² = 3q². Hence 3 divides p², and since 3 is prime, 3 divides p.
+      Write p = 3k. Then 9k² = 3q², so q² = 3k². Hence 3 divides q², so 3 divides q.
+      So 3 divides both p and q, contradicting that they are coprime.
+      Therefore √3 is irrational.
+
+Q5. [Short · 3 marks] The HCF of 96 and 404 is 4. Find their LCM.
+    Ans: For any two positive integers, HCF × LCM = product of the numbers. So LCM = (96 × 404) ÷ 4 = 38784 ÷ 4 = 9696. It is worth checking the result: 9696 ÷ 96 = 101 and 9696 ÷ 404 = 24, and 101 and 24 share no factor, so 9696 really is the least common multiple.
+
+Q6. [Application · 3 marks] A student finds the LCM of 12, 18 and 30 by writing LCM = (12 × 18 × 30) ÷ HCF = 6480 ÷ 6 = 1080, using “HCF × LCM = product of the numbers”. Find the error and give the correct LCM.
+    Ans:
+      The relation HCF × LCM = product holds only for two numbers. For three numbers it fails, so 1080 is wrong.
+      Use prime factorisation: 12 = 2² × 3, 18 = 2 × 3², 30 = 2 × 3 × 5.
+      LCM = product of the highest powers of every prime = 2² × 3² × 5 = 180.
+
+Q7. [Application · 3 marks] Find the largest number that divides 1251, 9377 and 15628 leaving remainders 1, 2 and 3 respectively.
+    Ans:
+      If the number leaves remainders 1, 2, 3, it divides 1251 − 1 = 1250, 9377 − 2 = 9375 and 15628 − 3 = 15625 exactly.
+      1250 = 2 × 5⁴, 9375 = 3 × 5⁵, 15625 = 5⁶.
+      The largest such number is the HCF = 5⁴ = 625.
+
+Q8. [Short · 3 marks] Use Euclid’s division algorithm to find the HCF of 867 and 255.
+    Ans:
+      867 = 255 × 3 + 102
+      255 = 102 × 2 + 51
+      102 = 51 × 2 + 0
+      The remainder is now 0, so the divisor at that step, 51, is the HCF. Always stop at a zero remainder and take the previous divisor.
+
+Q9. [Long · 4 marks] An army contingent of 616 members marches behind an army band of 32 members. Both groups must march in the same number of columns. What is the maximum number of columns?
+    Ans:
+      Maximum columns = HCF(616, 32).
+      616 = 2³ × 7 × 11 and 32 = 2⁵.
+      HCF = 2³ = 8, so the maximum is 8 columns.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A calculator displays these decimal forms: 7/80 = 0.0875, 11/30 = 0.3666…, 13/125 = 0.104 and 17/60 = 0.28333…
+
+    (a) Which fractions have terminating decimals and which do not?
+    (b) Using the prime factors of the denominator, explain why 7/80 terminates but 11/30 does not.
+    (c) After how many decimal places does 13/125 terminate, and why?
+    Ans:
+      (a) 7/80 and 13/125 terminate; 11/30 and 17/60 do not.
+      (b) 80 = 2⁴ × 5 has only the prime factors 2 and 5, so 7/80 terminates. 30 = 2 × 3 × 5 contains the prime 3 (and 11/30 is already in lowest terms), so 11/30 never terminates.
+      (c) 125 = 5³, so 13/125 = 13 × 2³/(2³ × 5³) = 104/1000 = 0.104. It terminates after 3 places, the larger of the powers of 2 and 5 in the denominator.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    Three traffic lights change after every 48 s, 72 s and 108 s. They all change together at 8:00:00 a.m.
+
+    (a) After how many seconds will they change together again?
+    (b) At what time will that be?
+    (c) Which concept from this chapter did you use?
+    Ans:
+      (a) The interval is the LCM of 48, 72 and 108: 48 = 2⁴ × 3, 72 = 2³ × 3², 108 = 2² × 3³, so LCM = 2⁴ × 3³ = 432 s.
+      (b) 432 s = 7 min 12 s, so they change together at 8:07:12 a.m.
+      (c) Prime factorisation and the LCM (the smallest common multiple of all three times).
+
+Q12. [Long · 4 marks] Can 6ⁿ end with the digit 0 for any natural number n? Give a reason.
+    Ans: No. If 6ⁿ ended in 0 it would be divisible by 10 = 2 × 5, so 5 would have to be a prime factor of 6ⁿ. But 6ⁿ = (2 × 3)ⁿ = 2ⁿ × 3ⁿ and, by the Fundamental Theorem of Arithmetic, its only prime factors are 2 and 3. Since 5 never appears, 6ⁿ cannot end in 0 for any n.
+
+Q13. [Long · 5 marks] Prove that √5 is irrational. Hence show that 3 + 2√5 is irrational.
+    Ans:
+      Assume √5 is rational, so √5 = p/q with p and q coprime integers and q ≠ 0.
+      Squaring: 5q² = p², so 5 divides p². Since 5 is prime, 5 divides p. Write p = 5m.
+      Then 5q² = 25m², so q² = 5m², hence 5 divides q² and so 5 divides q.
+      Now 5 is a common factor of p and q, which contradicts that they are coprime. So √5 is irrational.
+      Next, suppose 3 + 2√5 = r is rational. Then √5 = (r − 3)/2 would be rational, contradicting the result above. Hence 3 + 2√5 is irrational.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The HCF of 8 and 12 is: (a) 24  (b) 8  (c) 4  (d) 2
+    Ans: (c) 4. 8 = 2³, 12 = 2² × 3; the lowest power of the common prime 2 is 2² = 4.
+
+M2. Which has a terminating decimal expansion? (a) 7/24  (b) 5/13  (c) 11/21  (d) 9/40
+    Ans: (d) 9/40. 40 = 2³ × 5, of the form 2ᵐ × 5ⁿ. The others have denominators with other primes.
+
+M3. If the HCF of two numbers is 6 and their LCM is 60, one number being 12, the other is: (a) 20  (b) 30  (c) 40  (d) 60
+    Ans: (b) 30. Other number = (6 × 60)/12 = 30.
+
+M4. The product of a non-zero rational number and an irrational number is: (a) always rational  (b) sometimes an integer  (c) always zero  (d) always irrational
+    Ans: (d) always irrational. If r × x were rational with r ≠ 0, then x = (r × x)/r would be rational — a contradiction.
+
+M5. The LCM of two co-prime numbers a and b is: (a) ab  (b) a + b  (c) a ÷ b  (d) 1
+    Ans: (a) ab. Co-prime numbers have HCF 1, and HCF × LCM = a × b, so the LCM is ab.
+
+M6. The decimal expansion of 23/(2³ × 5²) terminates after: (a) 5 places  (b) 4 places  (c) 3 places  (d) 2 places
+    Ans: (c) 3 places. 23/200 = 115/1000 = 0.115. The number of decimal places is the larger exponent, max(3, 2) = 3.
+
+M7. Which of these is irrational? (a) √12  (b) √(16/9)  (c) 0.444…  (d) 22/7
+    Ans: (a) √12. √12 = 2√3 and √3 is irrational. √(16/9) = 4/3, 0.444… = 4/9 and 22/7 are all rational.
+
+M8. The HCF of the smallest prime number and the smallest composite number is: (a) 1  (b) 2  (c) 4  (d) 6
+    Ans: (b) 2. Smallest prime = 2, smallest composite = 4, and HCF(2, 4) = 2.
+
+========================================================================
+CHAPTER 2 · Polynomials
+Unit: II · Algebra
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the zeroes of x² − 2x − 8 and verify the relationship with the coefficients.
+    Ans:
+      x² − 2x − 8 = (x − 4)(x + 2), so the zeroes are 4 and −2.
+      Sum = 4 + (−2) = 2 = −(−2)/1 = −b/a ✓
+      Product = 4 × (−2) = −8 = c/a ✓
+
+Q2. [Short · 2 marks] If α and β are the zeroes of 6x² − 3x − 7, find 1/α + 1/β.
+    Ans:
+      α + β = 3/6 = 1/2 and αβ = −7/6.
+      1/α + 1/β = (α + β)/(αβ) = (1/2)/(−7/6) = −3/7.
+
+Q3. [Short · 3 marks] Find a quadratic polynomial whose zeroes have sum 1/4 and product −1.
+    Ans: A quadratic with zeroes whose sum is S and product is P is k[x² − Sx + P]. Here S = 1/4 and P = −1, so p(x) = k[x² − (1/4)x − 1]. Taking k = 4 to clear the fraction gives 4x² − x − 4. Any non-zero value of k is accepted, since multiplying a polynomial by a constant does not change its zeroes.
+
+Q4. [Short · 3 marks] If one zero of (k² − 1)x² − 3x + 2 is the reciprocal of the other, find k.
+    Ans:
+      Product of zeroes = c/a = 2/(k² − 1).
+      Reciprocal zeroes ⇒ product = 1, so 2/(k² − 1) = 1.
+      k² − 1 = 2, k² = 3, so k = ±√3.
+
+Q5. [Application · 3 marks] A student writes: “For 2x² − 5x + 3, the sum of the zeroes is b/a = −5/2 and the product is c/a = 3/2.” Find the error, then give the correct sum and verify it with the actual zeroes.
+    Ans:
+      Error: the sum of the zeroes is −b/a, not b/a. Here −b/a = −(−5)/2 = 5/2. (The product c/a = 3/2 is correct.)
+      Factorise: 2x² − 5x + 3 = (2x − 3)(x − 1), so the zeroes are 3/2 and 1.
+      Check: 3/2 + 1 = 5/2 ✓ and (3/2) × 1 = 3/2 ✓.
+
+Q6. [Application · 3 marks] The area of a rectangular plot is (x² + 7x + 12) square metres and its length is (x + 4) metres. Find its breadth and the zeroes of the area polynomial.
+    Ans:
+      Breadth = area ÷ length = (x² + 7x + 12) ÷ (x + 4).
+      x² + 7x + 12 = (x + 3)(x + 4), so the breadth is (x + 3) metres.
+      The zeroes come from (x + 3)(x + 4) = 0, so x = −3 and x = −4.
+
+Q7. [Short · 3 marks] If α and β are the zeroes of x² − 6x + k and 3α + 2β = 20, find k.
+    Ans:
+      α + β = 6 (sum of zeroes) and 3α + 2β = 20.
+      Subtract twice the first equation from the second: α = 20 − 12 = 8, so β = −2.
+      Product αβ = 8(−2) = −16, and product = c/a = k, so k = −16.
+
+Q8. [Short · 3 marks] Divide 3x³ + x² + 2x + 5 by x² + 2x + 1 and verify the division algorithm.
+    Ans:
+      Quotient = 3x − 5, remainder = 9x + 10.
+      Check: (x² + 2x + 1)(3x − 5) + 9x + 10
+      = 3x³ + 6x² + 3x − 5x² − 10x − 5 + 9x + 10
+      = 3x³ + x² + 2x + 5, which is the dividend — so dividend = divisor × quotient + remainder.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    The graph of y = p(x), where p(x) is a quadratic polynomial with leading coefficient 1, is a parabola opening upward that cuts the x-axis at (−1, 0) and (4, 0).
+
+    (a) How many zeroes does p(x) have, and what are they?
+    (b) Find the sum and the product of the zeroes.
+    (c) Write p(x).
+    Ans:
+      (a) Two zeroes, −1 and 4 — the x-coordinates of the points where the graph meets the x-axis.
+      (b) Sum = −1 + 4 = 3 and product = (−1)(4) = −4.
+      (c) p(x) = x² − (sum)x + product = x² − 3x − 4.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A toy company models its profit (in thousands of rupees) from selling x thousand toys as P(x) = x² − 7x + 10.
+
+    (a) For which numbers of toys does the profit become zero?
+    (b) Verify the relation between the zeroes and the coefficients.
+    (c) Give an example of a quadratic polynomial whose graph touches the x-axis at only one point.
+    Ans:
+      (a) x² − 7x + 10 = (x − 2)(x − 5) = 0, so the profit is zero at x = 2 and x = 5 thousand toys.
+      (b) Sum = 2 + 5 = 7 = −(−7)/1 ✓; product = 2 × 5 = 10 = 10/1 ✓.
+      (c) x² − 4x + 4 = (x − 2)²: its two zeroes coincide, so the parabola just touches the x-axis at (2, 0).
+
+Q11. [Application · 4 marks] A quadratic polynomial cuts the x-axis at −2 and 3 and its graph passes through (0, 6). Find the polynomial.
+    Ans:
+      With zeroes −2 and 3, p(x) = a(x + 2)(x − 3).
+      It passes through (0, 6), so 6 = a(2)(−3) = −6a, giving a = −1.
+      Hence p(x) = −(x + 2)(x − 3) = −x² + x + 6.
+
+Q12. [Long · 5 marks] If α and β are the zeroes of x² − 4x + 1, find (i) α² + β², (ii) 1/α + 1/β, and (iii) a quadratic polynomial whose zeroes are α² and β².
+    Ans:
+      From the polynomial: α + β = 4 and αβ = 1.
+      (i) α² + β² = (α + β)² − 2αβ = 16 − 2 = 14.
+      (ii) 1/α + 1/β = (α + β)/αβ = 4/1 = 4.
+      (iii) Sum of the new zeroes = α² + β² = 14; product = (αβ)² = 1.
+      Required polynomial: x² − 14x + 1.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The zeroes of x² + 7x + 10 are: (a) 2, 5  (b) 2, −5  (c) −2, −5  (d) −2, 5
+    Ans: (c) −2, −5. Sum = −7, product = 10, so both zeroes are negative.
+
+M2. If α, β are zeroes of x² − 5x + 6, then α + β = ? (a) 6  (b) 5  (c) −5  (d) 1
+    Ans: (b) 5. Sum = −b/a = 5.
+
+M3. A quadratic polynomial whose zeroes are 3 and −3 is: (a) x² − 9  (b) x² + 9  (c) x² − 6x + 9  (d) x² − 3
+    Ans: (a) x² − 9. Sum = 0 and product = −9.
+
+M4. If the zeroes of a quadratic polynomial ax² + bx + c are equal in magnitude but opposite in sign, then: (a) a = 0  (b) b = 0  (c) c = 0  (d) a + c = 0
+    Ans: (b) b = 0. Zeroes α and −α have sum 0, and the sum is −b/a, so b = 0.
+
+M5. The graph of a quadratic polynomial lies entirely above the x-axis. The number of real zeroes it has is: (a) one  (b) two  (c) infinitely many  (d) none
+    Ans: (d) none. Zeroes are the x-coordinates of the points where the graph meets the x-axis; a graph that never meets it has no real zero.
+
+M6. A polynomial of degree 3 is called: (a) linear  (b) quadratic  (c) biquadratic  (d) cubic
+    Ans: (d) cubic. Degree 1 is linear, 2 is quadratic, 3 is cubic and 4 is biquadratic.
+
+M7. If one zero of x² − 4x + 1 is 2 + √3, the other zero is: (a) 2 − √3  (b) −2 − √3  (c) √3 − 2  (d) −√3
+    Ans: (a) 2 − √3. Sum of zeroes = 4, so the other zero = 4 − (2 + √3) = 2 − √3.
+
+M8. A quadratic polynomial can have at most: (a) 0 zeroes  (b) 1 zero  (c) 2 zeroes  (d) 3 zeroes
+    Ans: (c) 2 zeroes. A polynomial of degree n has at most n zeroes, so degree 2 gives at most two.
+
+========================================================================
+CHAPTER 3 · Pair of Linear Equations in Two Variables
+Unit: II · Algebra
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Without solving, tell whether 2x − 3y = 7 and 4x − 6y = 14 have a unique solution.
+    Ans:
+      a₁/a₂ = 2/4 = 1/2, b₁/b₂ = −3/−6 = 1/2, c₁/c₂ = (−7)/(−14) = 1/2.
+      All three ratios are equal, so the lines are coincident — infinitely many solutions, not a unique one.
+
+Q2. [Short · 3 marks] Solve by elimination: 3x + 4y = 10 and 2x − 3y = 1.
+    Ans:
+      Multiply the first by 3 and the second by 4: 9x + 12y = 30 and 8x − 12y = 4.
+      Adding: 17x = 34, so x = 2.
+      Substituting in the first: 6 + 4y = 10, so y = 1.
+
+Q3. [Application · 3 marks] To solve 2/x + 3/y = 13 and 5/x − 4/y = −2, a student puts u = 1/x and v = 1/y, finds u = 2 and v = 3 and writes “x = 2, y = 3”. What is wrong? Give the correct solution.
+    Ans:
+      The student stopped at the substituted variables. Since u = 1/x and v = 1/y, the answer must be converted back: x = 1/u = 1/2 and y = 1/v = 1/3.
+      (Solving 2u + 3v = 13 and 5u − 4v = −2 does give u = 2, v = 3.)
+      Check: 2 ÷ (1/2) + 3 ÷ (1/3) = 4 + 9 = 13 ✓ and 5 ÷ (1/2) − 4 ÷ (1/3) = 10 − 12 = −2 ✓.
+
+Q4. [Application · 3 marks] Two notebooks and three pens cost Rs 90, while three notebooks and two pens cost Rs 85. Find the price of one notebook and one pen.
+    Ans:
+      Let a notebook cost Rs x and a pen Rs y: 2x + 3y = 90 and 3x + 2y = 85.
+      Adding: 5x + 5y = 175, so x + y = 35. Subtracting the first from the second: x − y = −5.
+      Solving: x = 15 and y = 20. A notebook costs Rs 15 and a pen Rs 20. Check: 2(15) + 3(20) = 90 ✓.
+
+Q5. [Short · 3 marks] For what value of k does the pair 3x + y = 1 and (2k − 1)x + (k − 1)y = 2k + 1 have no solution?
+    Ans:
+      For no solution the lines must be parallel: a₁/a₂ = b₁/b₂ ≠ c₁/c₂.
+      3/(2k − 1) = 1/(k − 1) ⇒ 3k − 3 = 2k − 1 ⇒ k = 2.
+      Check: at k = 2 the equations become 3x + y = 1 and 3x + y = 5, which are parallel and distinct — so no solution.
+
+Q6. [Short · 3 marks] Solve by cross-multiplication: 2x + 3y = 46 and 3x + 5y = 74.
+    Ans:
+      Write as 2x + 3y − 46 = 0 and 3x + 5y − 74 = 0.
+      x/(3(−74) − 5(−46)) = y/(−46(3) − (−74)(2)) = 1/(2(5) − 3(3))
+      x/(−222 + 230) = y/(−138 + 148) = 1/1, so x = 8 and y = 10.
+      Check: 2(8) + 3(10) = 46 and 3(8) + 5(10) = 74.
+
+Q7. [Short · 3 marks] Solve by substitution: x + 3y = 16 and 2x − y = 4.
+    Ans:
+      From the second equation, y = 2x − 4.
+      Substituting in the first: x + 3(2x − 4) = 16, so x + 6x − 12 = 16.
+      Hence 7x = 28, giving x = 4 and y = 2(4) − 4 = 4.
+      Check: 4 + 12 = 16 and 8 − 4 = 4. The solution is x = 4, y = 4.
+
+Q8. [Long · 4 marks] Five years ago, Nuri was thrice as old as Sonu. Ten years later, Nuri will be twice as old as Sonu. How old are they?
+    Ans:
+      Let Nuri be x and Sonu be y now.
+      x − 5 = 3(y − 5) ⇒ x − 3y = −10.
+      x + 10 = 2(y + 10) ⇒ x − 2y = 10.
+      Subtracting: −y = −20, so y = 20 and x = 50.
+      Nuri is 50 and Sonu is 20.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    Two taxi companies charge a fixed fee plus a rate per km. Company A charges Rs 40 plus Rs 10 per km; Company B charges Rs 100 plus Rs 5 per km. A student draws the lines y = 10x + 40 and y = 5x + 100, where x is the distance in km and y is the fare in rupees.
+
+    (a) Write the pair in the form ax + by + c = 0.
+    (b) At what distance do both companies charge the same fare, and what is it?
+    (c) Which company is cheaper for a 20 km trip?
+    Ans:
+      (a) 10x − y + 40 = 0 and 5x − y + 100 = 0.
+      (b) 10x + 40 = 5x + 100 gives x = 12. The fares are equal at 12 km, where each charges Rs 160 — the point (12, 160) where the lines intersect.
+      (c) For 20 km: A = Rs 240, B = Rs 200, so Company B is cheaper.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A student plots the lines 3x + 2y = 12 and 6x + 4y = k on graph paper for different values of k.
+
+    (a) For which value of k do the lines coincide?
+    (b) For which values of k are they parallel?
+    (c) Can this pair ever have exactly one solution? Explain.
+    Ans:
+      (a) a₁/a₂ = 1/2 and b₁/b₂ = 1/2, and c₁/c₂ = 12/k. The lines coincide when 12/k = 1/2, i.e. k = 24.
+      (b) They are parallel (no solution) when k ≠ 24.
+      (c) No. Because a₁/a₂ = b₁/b₂ for every k, the lines are never intersecting: the pair has either no solution or infinitely many.
+
+Q11. [Application · 4 marks] A fraction becomes 1/3 when 1 is subtracted from its numerator, and becomes 1/4 when 8 is added to its denominator. Find the fraction.
+    Ans:
+      Let the fraction be x/y.
+      (x − 1)/y = 1/3 ⇒ y = 3x − 3. And x/(y + 8) = 1/4 ⇒ 4x = y + 8.
+      Substituting: 4x = 3x − 3 + 8 ⇒ x = 5, so y = 12.
+      The fraction is 5/12. Check: (5 − 1)/12 = 1/3 and 5/20 = 1/4.
+
+Q12. [Long · 5 marks] A boat goes 30 km upstream and 44 km downstream in 10 hours. In 13 hours it can go 40 km upstream and 55 km downstream. Find the speed of the stream and of the boat in still water.
+    Ans:
+      Let the still-water speed be x km/h and the stream’s speed be y km/h.
+      Put u = 1/(x − y) and v = 1/(x + y).
+      30u + 44v = 10 and 40u + 55v = 13.
+      Solving gives u = 1/8 and v = 1/11, so x − y = 8 and x + y = 11.
+      Therefore x = 9.5 km/h and y = 1.5 km/h.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The pair x + y = 5 and 2x + 2y = 10 represents: (a) intersecting lines  (b) parallel lines  (c) coincident lines  (d) none
+    Ans: (c) Coincident lines. All three ratios equal 1/2.
+
+M2. For what value of k does kx + 3y = 7 and 2x + 6y = 14 have infinitely many solutions? (a) 1  (b) −1  (c) 2  (d) 1/2
+    Ans: (a) 1. We need k/2 = 3/6 = 7/14, and 3/6 = 1/2, so k = 1.
+
+M3. If a boat’s downstream speed is 12 km/h and upstream speed is 8 km/h, its still-water speed is: (a) 4  (b) 2  (c) 20 km/h  (d) 10
+    Ans: (d) 10 km/h. Still-water speed = (downstream + upstream)/2.
+
+M4. If the graphs of a pair of linear equations in two variables are two lines that coincide, the pair has: (a) infinitely many solutions  (b) no solution  (c) exactly one solution  (d) exactly two solutions
+    Ans: (a) infinitely many solutions. Every point of a line is a solution of both equations when the lines coincide, so the solutions are infinite.
+
+M5. The pair of equations x = 2 and y = 3 represents two lines that: (a) are parallel  (b) coincide  (c) meet only on the y-axis  (d) intersect at the point (2, 3)
+    Ans: (d) intersect at the point (2, 3). x = 2 is a vertical line and y = 3 is a horizontal line; they cross at (2, 3).
+
+M6. The pair 6x − 3y + 10 = 0 and 2x − y + 9 = 0 has: (a) one solution  (b) no solution  (c) two solutions  (d) infinitely many solutions
+    Ans: (b) no solution. 6/2 = 3 and (−3)/(−1) = 3 but 10/9 ≠ 3, so the lines are parallel and distinct.
+
+M7. If x + 2y = 5 and 3x + ky = 15 are coincident lines, then k = : (a) 15  (b) 6  (c) 3  (d) 2
+    Ans: (b) 6. Coincident lines need 1/3 = 2/k = 5/15, and 2/k = 1/3 gives k = 6.
+
+M8. The solution of x + y = 14 and x − y = 4 is: (a) x = 5, y = 9  (b) x = 10, y = 4  (c) x = 9, y = 5  (d) x = 8, y = 6
+    Ans: (c) x = 9, y = 5. Adding the equations gives 2x = 18, so x = 9 and then y = 5.
+
+========================================================================
+CHAPTER 4 · Quadratic Equations
+Unit: II · Algebra
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the nature of the roots of 2x² − 6x + 3 = 0.
+    Ans:
+      D = (−6)² − 4(2)(3) = 36 − 24 = 12.
+      D > 0 but 12 is not a perfect square, so the roots are real, distinct and irrational.
+
+Q2. [Short · 2 marks] For what values of k does x² + kx + 16 = 0 have equal roots?
+    Ans: Equal roots means the discriminant is zero: k² − 4(1)(16) = 0, so k² = 64 and k = ±8. For k = 8 the root is −4; for k = −8 the root is 4.
+
+Q3. [Short · 3 marks] Find the value of k for which 2x² + kx + 3 = 0 has two equal roots.
+    Ans: Equal roots means the discriminant is zero: D = b² − 4ac = 0. Here k² − 4(2)(3) = 0, so k² = 24 and k = ±2√6. Both signs are needed — (+2√6)² and (−2√6)² are both 24, so each value gives a perfect square with a double root.
+
+Q4. [Short · 3 marks] Solve 6x² − x − 2 = 0 by factorisation.
+    Ans:
+      Split −x using numbers with product 6 × (−2) = −12 and sum −1: these are −4 and 3.
+      6x² − 4x + 3x − 2 = 2x(3x − 2) + 1(3x − 2) = (3x − 2)(2x + 1).
+      So x = 2/3 or x = −1/2.
+
+Q5. [Application · 3 marks] A student solves 2x² − 7x + 3 = 0 with the formula and writes x = (−7 ± √(49 − 24))/4 = (−7 ± 5)/4, so x = −1/2 or x = −3. Find the mistake and give the correct roots.
+    Ans:
+      Mistake: here b = −7, so −b = +7. The student used −7.
+      Correct: x = (7 ± √(49 − 24))/4 = (7 ± 5)/4, so x = 12/4 = 3 or x = 2/4 = 1/2.
+      Check by factorising: (2x − 1)(x − 3) = 2x² − 7x + 3 ✓.
+
+Q6. [Application · 3 marks] The length of a rectangular field is 3 m more than twice its breadth and its area is 65 m². Find its dimensions.
+    Ans:
+      Let the breadth be x m; the length is (2x + 3) m. Area: x(2x + 3) = 65, so 2x² + 3x − 65 = 0.
+      Factorise: (2x + 13)(x − 5) = 0, so x = 5 or x = −13/2. A length cannot be negative, so x = 5.
+      The field is 5 m × 13 m (area 5 × 13 = 65 m² ✓).
+
+Q7. [Short · 3 marks] Solve x² + 5x + 6 = 0 by completing the square.
+    Ans:
+      x² + 5x = −6.
+      Add (5/2)² to both sides: x² + 5x + 25/4 = −6 + 25/4 = 1/4.
+      (x + 5/2)² = 1/4, so x + 5/2 = ±1/2.
+      Hence x = −2 or x = −3.
+
+Q8. [Competency · 4 marks] Read and answer:
+
+    Aman studies the equation x² − 6x + k = 0 for different values of k.
+
+    (a) For which values of k are the roots real and distinct?
+    (b) Find k for equal roots, and the root.
+    (c) Show that there is no real root when k = 10.
+    Ans:
+      (a) D = 36 − 4k. Real and distinct roots need D > 0, so k < 9.
+      (b) Equal roots need D = 0, so k = 9 and the equation becomes (x − 3)² = 0 with the repeated root x = 3.
+      (c) For k = 10, D = 36 − 40 = −4 < 0, so the equation has no real roots.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    Two water taps together fill a tank in 9⅜ hours (75/8 h). The tap of larger diameter alone takes 10 hours less than the smaller one.
+
+    (a) If the smaller tap alone takes x hours, form the quadratic equation.
+    (b) Solve it.
+    (c) Why is one root rejected?
+    Ans:
+      (a) 1/x + 1/(x − 10) = 8/75, which simplifies to 4x² − 115x + 375 = 0.
+      (b) (4x − 15)(x − 25) = 0, so x = 25 or x = 15/4.
+      (c) For x = 15/4 = 3.75 the larger tap would need 3.75 − 10 < 0 hours, which is impossible. So the smaller tap takes 25 hours and the larger 15 hours.
+
+Q10. [Application · 4 marks] A train travels 360 km at a uniform speed. If the speed were 5 km/h more, it would take 1 hour less. Find the speed of the train.
+    Ans:
+      Let the speed be v km/h. Time difference: 360/v − 360/(v + 5) = 1.
+      ⇒ 360[5/(v(v + 5))] = 1 ⇒ v² + 5v − 1800 = 0.
+      ⇒ (v + 45)(v − 40) = 0, so v = 40 (speed cannot be negative).
+      The train travels at 40 km/h; check: 360/40 = 9 h and 360/45 = 8 h.
+
+Q11. [Long · 5 marks] The sum of the areas of two squares is 468 m². If the difference of their perimeters is 24 m, find the sides of the two squares.
+    Ans:
+      Let the sides be x and y with x > y. Then x² + y² = 468 and 4x − 4y = 24, so x − y = 6.
+      Substituting y = x − 6: x² + (x − 6)² = 468 ⇒ 2x² − 12x + 36 = 468.
+      2x² − 12x − 432 = 0, so x² − 6x − 216 = 0.
+      (x − 18)(x + 12) = 0, so x = 18 (rejecting −12) and y = 12.
+      The sides are 18 m and 12 m.
+
+Q12. [Long · 5 marks] Solve for x: 1/(x + 4) − 1/(x − 7) = 11/30, where x ≠ −4, 7.
+    Ans:
+      Combine the left side: [(x − 7) − (x + 4)]/[(x + 4)(x − 7)] = −11/[(x + 4)(x − 7)].
+      So −11/[(x + 4)(x − 7)] = 11/30, which gives (x + 4)(x − 7) = −30.
+      Expand: x² − 3x − 28 = −30, so x² − 3x + 2 = 0, i.e. (x − 1)(x − 2) = 0.
+      Hence x = 1 or x = 2. Check x = 1: 1/5 + 1/6 = 11/30 ✓; x = 2: 1/6 + 1/5 = 11/30 ✓.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The roots of x² − 5x + 6 = 0 are: (a) −2, −3  (b) 1, 6  (c) 2, 3  (d) −1, −6
+    Ans: (c) 2, 3. Product 6 and sum 5, both positive.
+
+M2. If the discriminant of a quadratic is zero, the roots are: (a) real and distinct  (b) real and equal  (c) not real  (d) always integers
+    Ans: (b) Real and equal.
+
+M3. For x² + 4x + k = 0 to have real roots, k must satisfy: (a) k ≤ 4  (b) k ≥ 4  (c) k ≤ −4  (d) k = 4
+    Ans: (a) k ≤ 4. D = 16 − 4k ≥ 0 gives k ≤ 4.
+
+M4. The quadratic equation 2x² − √5 x + 1 = 0 has: (a) two distinct real roots  (b) two equal real roots  (c) more than two real roots  (d) no real roots
+    Ans: (d) no real roots. D = (√5)² − 4(2)(1) = 5 − 8 = −3 < 0, so there is no real root.
+
+M5. The equation ax² + bx + c = 0 (a ≠ 0) has real roots only if: (a) b² − 4ac < 0  (b) b² − 4ac = 0 only  (c) b² + 4ac ≥ 0  (d) b² − 4ac ≥ 0
+    Ans: (d) b² − 4ac ≥ 0. The roots contain √(b² − 4ac), which is real exactly when the discriminant is zero or positive.
+
+M6. The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3  (b) 7/2 and 3/2  (c) −7/2 and 3/2  (d) 7/2 and −3/2
+    Ans: (b) 7/2 and 3/2. Sum = −b/a = 7/2 and product = c/a = 3/2.
+
+M7. Which one is NOT a quadratic equation? (a) x² + 3x + 2 = 0  (b) (x + 1)² = 2(x − 3)  (c) x³ − x² + 1 = 0  (d) 2x² = 8
+    Ans: (c) x³ − x² + 1 = 0. Its degree is 3, so it is a cubic; the others reduce to degree 2.
+
+M8. If the roots of x² − 8x + k = 0 are equal, then k = : (a) 16  (b) 8  (c) −16  (d) 64
+    Ans: (a) 16. D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16.
+
+========================================================================
+CHAPTER 5 · Arithmetic Progressions
+Unit: II · Algebra
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the 20th term from the last term of the AP 3, 8, 13, …, 253.
+    Ans:
+      Counting from the end, the AP is 253, 248, 243, … with a = 253 and d = −5.
+      20th term = 253 + 19(−5) = 158.
+
+Q2. [Short · 2 marks] Find the sum of the first 20 terms of the AP 7, 10, 13, …
+    Ans: Here a = 7, d = 3 and n = 20. S₂₀ = (20/2)[2(7) + 19(3)] = 10(14 + 57) = 10 × 71 = 710.
+
+Q3. [Short · 3 marks] Which term of the AP 3, 15, 27, 39, … will be 132 more than its 54th term?
+    Ans:
+      54th term = 3 + 53(12) = 639.
+      Required term = 639 + 132 = 771.
+      3 + (n − 1)12 = 771 gives (n − 1)12 = 768, so n = 65.
+
+Q4. [Short · 3 marks] If the sum of the first n terms of an AP is 3n² + 5n, find its 10th term.
+    Ans:
+      aₙ = Sₙ − Sₙ₋₁.
+      S₁₀ = 300 + 50 = 350 and S₉ = 243 + 45 = 288.
+      a₁₀ = 350 − 288 = 62.
+
+Q5. [Application · 3 marks] A student finds the 12th term of the AP 5, 9, 13, … as 5 + 12 × 4 = 53. Find the error and give the correct term, with a quick check.
+    Ans:
+      Error: the formula is aₙ = a + (n − 1)d, not a + nd. The student counted 12 differences instead of 11.
+      Correct: a₁₂ = 5 + 11 × 4 = 49.
+      Check by listing: 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49 — the 12th term is 49 ✓.
+
+Q6. [Application · 3 marks] A taxi charges Rs 15 for the first kilometre and Rs 8 for every additional kilometre. Show that the fares for 1 km, 2 km, 3 km, … form an AP and find the fare for 12 km.
+    Ans:
+      Fares: 15, 23, 31, … — each is Rs 8 more than the previous, so they form an AP with a = 15 and d = 8.
+      The fare for n km is aₙ = 15 + (n − 1) × 8.
+      For 12 km: a₁₂ = 15 + 11 × 8 = Rs 103.
+
+Q7. [Short · 3 marks] How many terms of the AP 24, 21, 18, … must be taken to give a sum of 78? Explain the two answers.
+    Ans:
+      Sₙ = (n/2)[2(24) + (n − 1)(−3)] = n(51 − 3n)/2 = 78.
+      ⇒ 3n² − 51n + 156 = 0 ⇒ n² − 17n + 52 = 0 ⇒ (n − 4)(n − 13) = 0.
+      So n = 4 or n = 13. Both are valid: the terms from the 5th to the 13th are negative and cancel out the extra positive terms.
+
+Q8. [Competency · 4 marks] Read and answer:
+
+    Rohan saves Rs 500 in the first month and increases his saving by Rs 50 every month.
+
+    (a) Write the first three terms of the AP formed by his monthly savings.
+    (b) How much does he save in the 12th month?
+    (c) How much has he saved in 12 months altogether?
+    Ans:
+      (a) 500, 550, 600, … with a = 500 and d = 50.
+      (b) a₁₂ = 500 + 11 × 50 = Rs 1050.
+      (c) S₁₂ = (12/2)(500 + 1050) = 6 × 1550 = Rs 9300.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    A hall has 20 rows of seats. The first row has 18 seats and every next row has 2 more seats than the one before.
+
+    (a) How many seats are in the last row?
+    (b) How many seats are there in all?
+    (c) How much is collected from a full house at Rs 100 per seat?
+    Ans:
+      (a) a₂₀ = 18 + 19 × 2 = 56 seats.
+      (b) S₂₀ = (20/2)(18 + 56) = 10 × 74 = 740 seats.
+      (c) 740 × 100 = Rs 74,000.
+
+Q10. [Long · 4 marks] The first term of an AP is 5, the last term is 45 and the sum of all terms is 400. Find the number of terms and the common difference.
+    Ans:
+      Sₙ = (n/2)(a + l) ⇒ 400 = (n/2)(5 + 45) = 25n ⇒ n = 16.
+      l = a + (n − 1)d ⇒ 45 = 5 + 15d ⇒ d = 40/15 = 8/3.
+      So there are 16 terms with common difference 8/3.
+
+Q11. [Long · 5 marks] A sum of Rs 700 is to be used to give seven cash prizes, each prize being Rs 20 less than its preceding prize. Find the value of each prize.
+    Ans:
+      Seven prizes in AP with d = −20 and S₇ = 700.
+      700 = (7/2)[2a + 6(−20)] = (7/2)(2a − 120).
+      200 = 2a − 120, so a = 160.
+      The prizes are Rs 160, 140, 120, 100, 80, 60 and 40.
+
+Q12. [Long · 5 marks] The sum of the 4th and 8th terms of an AP is 24 and the sum of its 6th and 10th terms is 44. Find the first three terms of the AP.
+    Ans:
+      (a + 3d) + (a + 7d) = 24, so a + 5d = 12 … (1)
+      (a + 5d) + (a + 9d) = 44, so a + 7d = 22 … (2)
+      Subtracting (1) from (2): 2d = 10, so d = 5. Then a = 12 − 25 = −13.
+      The first three terms are −13, −8, −3. Check: a₄ + a₈ = 2 + 22 = 24 ✓ and a₆ + a₁₀ = 12 + 32 = 44 ✓.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The 10th term of the AP 2, 7, 12, … is: (a) 52  (b) 50  (c) 47  (d) 45
+    Ans: (c) 47. a₁₀ = 2 + 9(5).
+
+M2. The sum of the first 10 natural numbers is: (a) 100  (b) 55  (c) 50  (d) 45
+    Ans: (b) 55. n(n+1)/2 = 10 × 11/2.
+
+M3. S₅ − S₄ equals: (a) the 5th term  (b) the 4th term  (c) the 9th term  (d) zero
+    Ans: (a) The 5th term. That is what aₙ = Sₙ − Sₙ₋₁ means.
+
+M4. Which of the following is NOT an AP? (a) 2, 5, 8, 11, …  (b) 1, 4, 9, 16, …  (c) −3, −1, 1, 3, …  (d) 7, 7, 7, 7, …
+    Ans: (b) 1, 4, 9, 16, …. The differences 3, 5, 7 are not equal, so 1, 4, 9, 16 has no common difference. The others have d = 3, 2 and 0.
+
+M5. The sum of the first n odd natural numbers 1, 3, 5, … is: (a) n(n + 1)/2  (b) 2n  (c) n²  (d) n(n + 1)
+    Ans: (c) n². Here a = 1, d = 2, so Sₙ = (n/2)[2 + (n − 1)2] = n².
+
+M6. The common difference of the AP whose nth term is 3n + 5 is: (a) 5  (b) 8  (c) 2  (d) 3
+    Ans: (d) 3. a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n.
+
+M7. If the 3rd term of an AP is 4 and the 9th term is −8, its first term is: (a) 2  (b) 4  (c) 6  (d) 8
+    Ans: (d) 8. a + 2d = 4 and a + 8d = −8 give 6d = −12, so d = −2 and a = 8.
+
+M8. The sum of the first 100 natural numbers is: (a) 5050  (b) 5000  (c) 4950  (d) 5100
+    Ans: (a) 5050. S = 100 × 101/2 = 5050.
+
+========================================================================
+CHAPTER 6 · Triangles
+Unit: IV · Geometry
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] State the Basic Proportionality Theorem.
+    Ans: If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio.
+
+Q2. [Short · 2 marks] In ΔABC, DE ∥ BC with AD = 1.5 cm, DB = 3 cm, AE = 1 cm. Find EC.
+    Ans: By the Basic Proportionality Theorem, a line parallel to one side of a triangle divides the other two sides in the same ratio: AD/DB = AE/EC. So 1.5/3 = 1/EC, giving EC = (3 × 1)/1.5 = 2 cm. The theorem only applies because DE ∥ BC is given — without that, the ratio cannot be used.
+
+Q3. [Short · 2 marks] State the converse of the Basic Proportionality Theorem.
+    Ans: If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side. In ΔABC, if a line through D on AB and E on AC satisfies AD/DB = AE/EC, then DE ∥ BC.
+
+Q4. [Short · 3 marks] The areas of two similar triangles are in the ratio 9:16. If one side of the smaller triangle is 4.5 cm, find the corresponding side of the larger.
+    Ans:
+      Area ratio = square of side ratio, so 9/16 = (4.5/x)².
+      Taking square roots: 3/4 = 4.5/x, so x = 6 cm.
+
+Q5. [Short · 3 marks] Prove that in a right triangle, the square on the hypotenuse equals the sum of the squares on the other two sides.
+    Ans:
+      In right ΔABC, right-angled at B, draw BD ⊥ AC.
+      ΔADB ∼ ΔABC (AA), so AD/AB = AB/AC, giving AB² = AD × AC.
+      ΔBDC ∼ ΔABC (AA), so DC/BC = BC/AC, giving BC² = DC × AC.
+      Adding: AB² + BC² = (AD + DC) × AC = AC².
+
+Q6. [Application · 3 marks] Two similar triangles have corresponding sides 6 cm and 9 cm. A student says the ratio of their areas is 6 : 9 = 2 : 3. Correct the error, and find the area of the larger triangle if the smaller has area 40 cm².
+    Ans:
+      Error: the areas of similar triangles are in the ratio of the squares of corresponding sides.
+      Area ratio = (6/9)² = 4/9.
+      Area of the larger triangle = 40 × 9/4 = 90 cm².
+
+Q7. [Application · 3 marks] A 6 m tall pole casts a shadow 4 m long. At the same moment a tower casts a shadow 30 m long. Name the similarity criterion used and find the height of the tower.
+    Ans:
+      The sun’s rays make the same angle with the ground, and both pole and tower are vertical: two angles match, so the two triangles are similar by the AA criterion.
+      Corresponding sides are proportional: height of tower/6 = 30/4.
+      Height of tower = 6 × 30/4 = 45 m.
+
+Q8. [Short · 3 marks] In ΔABC, D and E lie on AB and AC with AD = 5.7 cm, DB = 9.5 cm, AE = 4.8 cm and EC = 8 cm. Is DE parallel to BC?
+    Ans:
+      AD/DB = 5.7/9.5 = 0.6 and AE/EC = 4.8/8 = 0.6.
+      The two ratios are equal, so by the converse of the Basic Proportionality Theorem DE ∥ BC.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    A 10 m long ladder leans against a vertical wall and reaches a window 8 m above the ground.
+
+    (a) How far is the foot of the ladder from the wall?
+    (b) The foot is moved until the ladder reaches only 6 m up the wall. How far does the foot move?
+    (c) Name the theorem used.
+    Ans:
+      (a) Distance = √(10² − 8²) = √36 = 6 m.
+      (b) New distance = √(10² − 6²) = √64 = 8 m, so the foot moves 8 − 6 = 2 m away from the wall.
+      (c) The Pythagoras theorem in the right-angled triangle formed by ladder, wall and ground.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    In a triangular park ABC, a path DE is laid parallel to the side BC, with D on AB and E on AC. AD = 4 m, DB = 6 m, AC = 15 m and BC = 20 m.
+
+    (a) Find AE.
+    (b) Find DE.
+    (c) Find the ratio of the areas of ΔADE and ΔABC.
+    Ans:
+      (a) By BPT, AD/AB = AE/AC, so 4/10 = AE/15 and AE = 6 m.
+      (b) ΔADE ~ ΔABC, so DE/BC = AD/AB = 2/5 and DE = 8 m.
+      (c) Area ratio = (2/5)² = 4 : 25.
+
+Q11. [Long · 4 marks] Prove that the ratio of the areas of two similar triangles equals the square of the ratio of their corresponding medians.
+    Ans:
+      Let ΔABC ~ ΔPQR with medians AD and PS to the sides BC and QR.
+      Since the triangles are similar, AB/PQ = BC/QR and ∠B = ∠Q.
+      D and S are midpoints, so BD = BC/2 and QS = QR/2, giving BD/QS = BC/QR = AB/PQ.
+      With the included angles equal, ΔABD ~ ΔPQS (SAS), so AD/PS = AB/PQ.
+      Therefore ar(ABC)/ar(PQR) = (AB/PQ)² = (AD/PS)².
+
+Q12. [Long · 5 marks] Prove that if a line is drawn parallel to one side of a triangle to intersect the other two sides at distinct points, it divides the two sides in the same ratio.
+    Ans:
+      Given: ΔABC with DE ∥ BC, D on AB and E on AC. To prove: AD/DB = AE/EC.
+      Construction: join BE and CD; draw EM ⊥ AB and DN ⊥ AC.
+      ar(ADE) = ½ × AD × EM and ar(BDE) = ½ × DB × EM, so ar(ADE)/ar(BDE) = AD/DB. Similarly ar(ADE)/ar(CDE) = AE/EC.
+      ΔBDE and ΔCDE stand on the same base DE and lie between the same parallels DE and BC, so ar(BDE) = ar(CDE).
+      Therefore AD/DB = AE/EC. ∎
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Two triangles are similar if their corresponding sides are: (a) proportional  (b) equal  (c) perpendicular  (d) parallel
+    Ans: (a) Proportional. That is the SSS similarity criterion.
+
+M2. The ratio of the areas of two similar triangles is 25:49. The ratio of their corresponding sides is: (a) 25:49  (b) 5:7  (c) 7:5  (d) 49:25
+    Ans: (b) 5:7. Square root of the area ratio.
+
+M3. In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 12 cm  (b) 14 cm  (c) 10 cm  (d) 9 cm
+    Ans: (c) 10 cm. √(36 + 64) = 10.
+
+M4. If ΔABC ~ ΔPQR, ∠A = 50° and ∠Q = 60°, then ∠C equals: (a) 60°  (b) 70°  (c) 50°  (d) 80°
+    Ans: (b) 70°. ∠B = ∠Q = 60° because corresponding angles of similar triangles are equal, so ∠C = 180° − 50° − 60° = 70°.
+
+M5. A triangle has sides 7 cm, 24 cm and 25 cm. It is: (a) acute-angled  (b) obtuse-angled  (c) equilateral  (d) right-angled
+    Ans: (d) right-angled. 7² + 24² = 49 + 576 = 625 = 25², so by the converse of the Pythagoras theorem the triangle is right-angled.
+
+M6. Two triangles are similar if their corresponding angles are: (a) supplementary  (b) complementary  (c) proportional  (d) equal
+    Ans: (d) equal. Equiangular triangles are similar — the AAA similarity criterion.
+
+M7. In ΔABC, DE ∥ BC with AD = 4 cm, DB = 6 cm and AE = 5 cm. Then EC = : (a) 9 cm  (b) 8 cm  (c) 7.5 cm  (d) 6.5 cm
+    Ans: (c) 7.5 cm. AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm.
+
+M8. If the corresponding sides of two similar triangles are in the ratio 4 : 9, their areas are in the ratio: (a) 16 : 81  (b) 4 : 9  (c) 2 : 3  (d) 8 : 27
+    Ans: (a) 16 : 81. The area ratio of similar triangles is the square of the side ratio.
+
+========================================================================
+CHAPTER 7 · Coordinate Geometry
+Unit: III · Coordinate Geometry
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the distance between (−2, 3) and (4, −5).
+    Ans: Using the distance formula d = √[(x₂ − x₁)² + (y₂ − y₁)²]: d = √[(4 − (−2))² + (−5 − 3)²] = √[36 + 64] = √100 = 10 units. Note the signs: subtracting a negative coordinate becomes an addition, and both differences are squared, so it does not matter which point is taken first.
+
+Q2. [Short · 2 marks] Find the point that divides the segment joining (−1, 7) and (4, −3) in the ratio 2:3.
+    Ans:
+      x = (2(4) + 3(−1))/5 = (8 − 3)/5 = 1.
+      y = (2(−3) + 3(7))/5 = (−6 + 21)/5 = 3.
+      The point is (1, 3).
+
+Q3. [Short · 3 marks] Find a relation between x and y if the point (x, y) is equidistant from (3, 6) and (−3, 4).
+    Ans:
+      Set the squared distances equal: (x−3)² + (y−6)² = (x+3)² + (y−4)².
+      Expanding and cancelling x² and y²: −6x − 12y + 45 = 6x − 8y + 25.
+      So 12x + 4y = 20, that is 3x + y = 5.
+
+Q4. [Short · 3 marks] Find the area of the triangle with vertices (1, −1), (−4, 2k) and (−k, 5) if the area is 24/2 square units.
+    Ans:
+      Area = ½|1(2k − 5) + (−4)(5 − (−1)) + (−k)(−1 − 2k)|
+      = ½|2k − 5 − 24 + k + 2k²| = ½|2k² + 3k − 29| = 12.
+      So 2k² + 3k − 29 = ±24, giving 2k² + 3k − 53 = 0 or 2k² + 3k − 5 = 0.
+      The second factorises as (2k + 5)(k − 1) = 0, so k = 1 or k = −5/2. Always keep both the + and − cases because of the modulus.
+
+Q5. [Application · 3 marks] A student finds the distance between A(−3, 2) and B(5, −4) as √[(5 − 3)² + (−4 − 2)²] = √40. Find the error and give the correct distance.
+    Ans:
+      Error: x₂ − x₁ = 5 − (−3) = 5 + 3 = 8, not 2. The negative sign of x₁ was dropped.
+      Correct: AB = √[8² + (−6)²] = √(64 + 36).
+      AB = √100 = 10 units.
+
+Q6. [Application · 3 marks] A petrol station is to be built on the road along the x-axis so that it is equidistant from two villages at P(2, −5) and Q(−2, 9). Find the coordinates of the station.
+    Ans:
+      Let the station be S(x, 0). Then SP = SQ, so SP² = SQ².
+      (x − 2)² + 25 = (x + 2)² + 81, which gives −4x + 29 = 4x + 85.
+      So −8x = 56 and x = −7. The station is at (−7, 0).
+
+Q7. [Short · 3 marks] Find the ratio in which the point (−1, 6) divides the line segment joining (−3, 10) and (6, −8).
+    Ans:
+      Let the ratio be k : 1. Using the section formula on x: −1 = (6k − 3)/(k + 1).
+      ⇒ −k − 1 = 6k − 3 ⇒ 7k = 2 ⇒ k = 2/7, so the ratio is 2 : 7.
+      Verify with y: (−8(2/7) + 10)/(9/7) = (54/7) × (7/9) = 6, which matches.
+
+Q8. [Competency · 4 marks] Read and answer:
+
+    On a grid map, a school is at S(−2, 1) and a library is at L(6, 7). A bus stop M is to be placed exactly midway between them, and a park is at P(2, −2).
+
+    (a) Find the distance SL.
+    (b) Find the coordinates of M.
+    (c) Find the distance MP.
+    Ans:
+      (a) SL = √[(6 + 2)² + (7 − 1)²] = √(64 + 36) = 10 units.
+      (b) M = ((−2 + 6)/2, (1 + 7)/2) = (2, 4).
+      (c) MP = √[(2 − 2)² + (−2 − 4)²] = 6 units.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    Three vertices of a parallelogram ABCD, taken in order, are A(1, 2), B(4, 3) and C(6, 6).
+
+    (a) Find the coordinates of D.
+    (b) Verify your answer using the diagonals.
+    (c) Which property of a parallelogram did you use?
+    Ans:
+      (a) The diagonals AC and BD bisect each other. Midpoint of AC = (7/2, 4). If D = (x, y), midpoint of BD = ((4 + x)/2, (3 + y)/2) = (7/2, 4), so x = 3 and y = 5. D = (3, 5).
+      (b) Check: vector AB = (3, 1) and vector DC = (6 − 3, 6 − 5) = (3, 1), so AB and DC are equal and parallel ✓.
+      (c) The diagonals of a parallelogram bisect each other, so they share the same midpoint.
+
+Q10. [Long · 4 marks] Find the area of the quadrilateral with vertices (−4, −2), (−3, −5), (3, −2) and (2, 3), taken in order.
+    Ans:
+      Split it along the diagonal AC into ΔABC and ΔACD.
+      ar(ABC) = ½|(−4)(−5 + 2) + (−3)(−2 + 2) + 3(−2 + 5)| = ½|12 + 0 + 9| = 10.5 sq units.
+      ar(ACD) = ½|(−4)(−2 − 3) + 3(3 + 2) + 2(−2 + 2)| = ½|20 + 15 + 0| = 17.5 sq units.
+      Total area = 10.5 + 17.5 = 28 sq units.
+
+Q11. [Long · 4 marks] Show that the points (1, 7), (4, 2), (−1, −1) and (−4, 4) are the vertices of a square.
+    Ans:
+      Each side: AB = √(9 + 25) = √34, BC = √(25 + 9) = √34, CD = √(9 + 25) = √34, DA = √(25 + 9) = √34 — all equal.
+      Diagonals: AC = √(4 + 64) = √68 and BD = √(64 + 4) = √68 — equal.
+      A quadrilateral with all four sides equal and equal diagonals is a square.
+
+Q12. [Long · 5 marks] Find the ratio in which the y-axis divides the line segment joining A(5, −6) and B(−1, −4). Also find the point of division.
+    Ans:
+      A point on the y-axis has x = 0. Let it divide AB in the ratio k : 1.
+      x = (k × (−1) + 1 × 5)/(k + 1) = 0, so −k + 5 = 0 and k = 5. The ratio is 5 : 1.
+      y = (5 × (−4) + 1 × (−6))/(5 + 1) = −26/6 = −13/3.
+      The y-axis meets AB at (0, −13/3).
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The distance of the point (3, 4) from the origin is: (a) 5  (b) 7  (c) 25  (d) 12
+    Ans: (a) 5. √(9 + 16) = 5.
+
+M2. The midpoint of (2, −3) and (−6, 5) is: (a) (2, −1)  (b) (−2, 1)  (c) (−4, 2)  (d) (4, −8)
+    Ans: (b) (−2, 1). ((2−6)/2, (−3+5)/2).
+
+M3. Three points are collinear if the area of the triangle they form is: (a) 1  (b) maximum  (c) negative  (d) 0
+    Ans: (d) 0.
+
+M4. The coordinates of the point that divides the line segment joining (0, 0) and (6, 9) internally in the ratio 1 : 2 are: (a) (3, 9/2)  (b) (4, 6)  (c) (1, 3/2)  (d) (2, 3)
+    Ans: (d) (2, 3). x = (1 × 6 + 2 × 0)/3 = 2 and y = (1 × 9 + 2 × 0)/3 = 3.
+
+M5. The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is: (a) 12 square units  (b) 6 square units  (c) 7 square units  (d) 3.5 square units
+    Ans: (b) 6 square units. It is right-angled at the origin, so the area is ½ × 4 × 3 = 6 square units.
+
+M6. The point (−3, 0) lies on: (a) the y-axis  (b) the line y = x  (c) the x-axis  (d) the origin
+    Ans: (c) the x-axis. Every point whose y-coordinate is 0 lies on the x-axis.
+
+M7. The distance of (a cos θ, a sin θ) from the origin is: (a) a  (b) a²  (c) 1  (d) 2a
+    Ans: (a) a. Distance = √(a²cos²θ + a²sin²θ) = √(a²) = a.
+
+M8. The centroid of the triangle with vertices (2, 3), (−4, 7) and (2, −4) is: (a) (0, 0)  (b) (2, 2)  (c) (0, 2)  (d) (0, 3)
+    Ans: (c) (0, 2). x = (2 − 4 + 2)/3 = 0 and y = (3 + 7 − 4)/3 = 2.
+
+========================================================================
+CHAPTER 8 · Introduction to Trigonometry
+Unit: V · Trigonometry
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] Evaluate sin 60° cos 30° + cos 60° sin 30°.
+    Ans: (√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4 = 1.
+
+Q2. [Short · 2 marks] If sin A = 3/5, find cos A and tan A (A is acute).
+    Ans:
+      Draw the right triangle: opposite = 3, hypotenuse = 5, so adjacent = √(25 − 9) = 4.
+      cos A = 4/5 and tan A = 3/4.
+
+Q3. [Short · 2 marks] If tan θ = 5/12, find sin θ and cos θ.
+    Ans: Take the perpendicular as 5k and the base as 12k, so the hypotenuse is √(25 + 144)k = 13k. Hence sin θ = 5/13 and cos θ = 12/13.
+
+Q4. [Short · 3 marks] Prove that (1 + tan²A)/(1 + cot²A) = tan²A.
+    Ans:
+      Start from the left-hand side.
+      1 + tan²A = sec²A and 1 + cot²A = cosec²A.
+      So LHS = sec²A / cosec²A = (1/cos²A) ÷ (1/sin²A) = sin²A/cos²A = tan²A = RHS.
+
+Q5. [Short · 3 marks] If tan(A + B) = √3 and tan(A − B) = 1/√3, with 0° < A + B ≤ 90° and A > B, find A and B.
+    Ans:
+      tan(A + B) = √3 gives A + B = 60°.
+      tan(A − B) = 1/√3 gives A − B = 30°.
+      Adding: 2A = 90°, so A = 45° and B = 15°.
+
+Q6. [Application · 3 marks] A student simplifies sin(90° − 30°) as sin 90° − sin 30° = 1 − 1/2 = 1/2. What is wrong? Give the correct value and check it a second way.
+    Ans:
+      sin(A − B) is not sin A − sin B; sine does not distribute over a bracket. The angle inside the brackets must be simplified first.
+      sin(90° − 30°) = sin 60° = √3/2.
+      Check with the complementary-angle identity: sin(90° − A) = cos A, so sin 60° = cos 30° = √3/2 ✓.
+
+Q7. [Application · 3 marks] If 7 sin²θ + 3 cos²θ = 4 and θ is acute, show that tan θ = 1/√3.
+    Ans:
+      Write 7 sin²θ + 3 cos²θ = 3(sin²θ + cos²θ) + 4 sin²θ = 3 + 4 sin²θ.
+      So 3 + 4 sin²θ = 4, which gives sin²θ = 1/4 and sin θ = 1/2 (θ acute), so θ = 30°.
+      Hence tan θ = tan 30° = 1/√3.
+
+Q8. [Short · 3 marks] Prove that (cosec A − sin A)(sec A − cos A) = 1/(tan A + cot A).
+    Ans:
+      LHS = (1/sin A − sin A)(1/cos A − cos A) = [(1 − sin²A)/sin A] × [(1 − cos²A)/cos A]
+      = (cos²A/sin A) × (sin²A/cos A) = sin A cos A.
+      RHS = 1/[(sin A/cos A) + (cos A/sin A)] = 1/[(sin²A + cos²A)/(sin A cos A)] = sin A cos A.
+      LHS = RHS, so the identity is proved.
+
+Q9. [Long · 3 marks] Prove that √[(1 + sin A)/(1 − sin A)] = sec A + tan A.
+    Ans:
+      Multiply inside the root by (1 + sin A)/(1 + sin A): √[(1 + sin A)²/(1 − sin²A)] = √[(1 + sin A)²/cos²A].
+      = (1 + sin A)/cos A = 1/cos A + sin A/cos A = sec A + tan A.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    Riya notices from the standard table that sin 30° = cos 60° = 1/2, sin 45° = cos 45° = 1/√2 and sin 60° = cos 30° = √3/2.
+
+    (a) Which relation connects each pair of values?
+    (b) Use it to evaluate sin 65° ÷ cos 25° and tan 35° × tan 55°.
+    (c) Why does the table not list a value for tan 90°?
+    Ans:
+      (a) The angles in each pair are complementary: sin(90° − θ) = cos θ.
+      (b) sin 65° = sin(90° − 25°) = cos 25°, so the ratio is 1. tan 55° = cot 35°, so tan 35° × tan 55° = tan 35° × cot 35° = 1.
+      (c) tan 90° = sin 90°/cos 90° = 1/0, which is not defined.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    Meera claims that sin²θ + cos²θ = 1 is true for every angle and that 1 + tan²θ = sec²θ is true for every angle too.
+
+    (a) For which angle from 0° to 90° is her second claim meaningless?
+    (b) Derive 1 + tan²θ = sec²θ from sin²θ + cos²θ = 1.
+    (c) If sec θ = 5/3 and θ is acute, find tan θ.
+    Ans:
+      (a) At θ = 90°, where cos θ = 0, tan θ and sec θ are not defined.
+      (b) Divide sin²θ + cos²θ = 1 by cos²θ (cos θ ≠ 0): tan²θ + 1 = sec²θ.
+      (c) tan²θ = sec²θ − 1 = 25/9 − 1 = 16/9, so tan θ = 4/3.
+
+Q12. [Long · 5 marks] Prove that (sin θ + cosec θ)² + (cos θ + sec θ)² = 7 + tan²θ + cot²θ.
+    Ans:
+      LHS = sin²θ + cosec²θ + 2 sin θ cosec θ + cos²θ + sec²θ + 2 cos θ sec θ.
+      Since sin θ cosec θ = 1 and cos θ sec θ = 1, the two middle terms give 2 + 2 = 4.
+      So LHS = (sin²θ + cos²θ) + 4 + cosec²θ + sec²θ = 1 + 4 + (1 + cot²θ) + (1 + tan²θ).
+      = 7 + tan²θ + cot²θ = RHS. ∎
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The value of cos 60° is: (a) √3/2  (b) 1/2  (c) 1/√2  (d) 1
+    Ans: (b) 1/2.
+
+M2. sin²30° + cos²30° equals: (a) 1  (b) 0  (c) 1/2  (d) 3/4
+    Ans: (a) 1. That is the fundamental identity.
+
+M3. tan 45° × cot 45° is: (a) 0  (b) 1  (c) 2  (d) undefined
+    Ans: (b) 1. tan and cot are reciprocals.
+
+M4. If cos A = 4/5 and A is acute, then tan A is: (a) 3/4  (b) 4/3  (c) 3/5  (d) 5/3
+    Ans: (a) 3/4. sin A = √(1 − 16/25) = 3/5, so tan A = sin A/cos A = (3/5)/(4/5) = 3/4.
+
+M5. Which of the following is NOT defined? (a) sin 90°  (b) cos 0°  (c) cot 90°  (d) tan 90°
+    Ans: (d) tan 90°. tan 90° = sin 90°/cos 90° = 1/0. The others are 1, 1 and 0.
+
+M6. The value of sin²60° + 2 tan²45° − cos²30° is: (a) 9/4  (b) 5/4  (c) 2  (d) 1
+    Ans: (c) 2. 3/4 + 2(1) − 3/4 = 2.
+
+M7. If sin θ = cos θ, then θ = : (a) 0°  (b) 30°  (c) 45°  (d) 90°
+    Ans: (c) 45°. sin 45° = cos 45° = 1/√2.
+
+M8. sec²A − tan²A equals: (a) 0  (b) −1  (c) sin²A  (d) 1
+    Ans: (d) 1. It follows directly from 1 + tan²A = sec²A.
+
+========================================================================
+CHAPTER 9 · Some Applications of Trigonometry
+Unit: V · Trigonometry
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 3 marks] The angle of elevation of the top of a tower from a point 30 m from its foot is 60°. Find the height of the tower.
+    Ans: In the right triangle, tan 60° = height ÷ distance, so √3 = h/30 and h = 30√3 m ≈ 51.96 m. Draw the triangle first — the tower is the perpendicular, the 30 m ground distance is the base, and the angle of elevation is at the foot. Unless asked for a decimal, 30√3 m is the exact answer and is preferred.
+
+Q2. [Short · 3 marks] From the top of a 75 m high lighthouse, the angles of depression of two ships on the same side are 30° and 45°. Find the distance between the ships.
+    Ans:
+      For the ship at 45°: tan 45° = 75/x, so x = 75 m.
+      For the ship at 30°: tan 30° = 75/y, so y = 75√3 m.
+      Distance = 75√3 − 75 = 75(√3 − 1) ≈ 54.9 m.
+
+Q3. [Application · 3 marks] A boy whose eyes are 1.5 m above the ground stands 20√3 m from a tower and sees its top at an angle of elevation of 30°. He calculates the height as 20√3 × tan 30° = 20 m and stops. What is missing? Give the correct height.
+    Ans:
+      The calculation gives only the height of the tower above his eye level; the 1.5 m from the ground to his eyes must be added back.
+      Height above eye level = 20√3 × (1/√3) = 20 m.
+      Height of the tower = 20 + 1.5 = 21.5 m.
+
+Q4. [Application · 3 marks] A 20 m long ladder leans against a wall and makes an angle of 60° with the ground. How high up the wall does it reach, and how far is its foot from the wall? (Take √3 = 1.73.)
+    Ans:
+      In the right triangle, the ladder is the hypotenuse: height = 20 sin 60° = 20 × √3/2 = 10√3.
+      Height = 10 × 1.73 = 17.3 m.
+      Distance of the foot from the wall = 20 cos 60° = 20 × 1/2 = 10 m.
+
+Q5. [Short · 3 marks] The shadow of a tower is 20 m longer when the sun’s elevation is 30° than when it is 60°. Find the height of the tower.
+    Ans:
+      Let the height be h. Shadow at 60° = h/tan 60° = h/√3; shadow at 30° = h/tan 30° = h√3.
+      h√3 − h/√3 = 20 ⇒ h(3 − 1)/√3 = 20 ⇒ 2h = 20√3.
+      So h = 10√3 m ≈ 17.3 m.
+
+Q6. [Application · 3 marks] Two poles of heights 6 m and 11 m stand upright on level ground with their feet 12 m apart. Find the distance between their tops.
+    Ans:
+      The difference in height is 11 − 6 = 5 m and the horizontal gap is 12 m.
+      Distance between the tops = √(5² + 12²) = √169 = 13 m.
+
+Q7. [Short · 3 marks] A kite flies with 100 m of string out so that its height above the ground is 50 m. If the string is taut, find the angle of elevation of the kite.
+    Ans:
+      Let the angle of elevation be θ. The string is the hypotenuse (100 m) and the height is the opposite side (50 m).
+      So sin θ = 50/100 = 1/2.
+      Therefore θ = 30°. The angle of elevation of the kite is 30°.
+
+Q8. [Long · 4 marks] A person on the bank of a river sees the top of a tree on the opposite bank at an angle of elevation of 60°. Walking 20 m away from the bank, the angle becomes 30°. Find the height of the tree and the width of the river.
+    Ans:
+      Let the height be h and the width x.
+      From the nearer point: h = x√3. From the farther point: h = (x + 20)/√3.
+      Equating: x√3 = (x + 20)/√3, so 3x = x + 20 and x = 10 m.
+      Therefore h = 10√3 ≈ 17.32 m and the river is 10 m wide.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    From the top of a 12 m high building, the angle of elevation of the top of a cable tower is 60° and the angle of depression of its foot is 30°.
+
+    (a) Find the horizontal distance between the building and the tower.
+    (b) Find the height of the tower.
+    (c) Which of the two given angles is measured below the horizontal?
+    Ans:
+      (a) Angle of depression of the foot is 30°: tan 30° = 12/d, so d = 12√3 m ≈ 20.8 m.
+      (b) Above the building’s top: tan 60° = (H − 12)/d, so H − 12 = √3 × 12√3 = 36 and H = 48 m.
+      (c) The 30° angle of depression, measured below the horizontal through the observer’s eye.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A drone hovers 60 m above a straight road. Two observers A and B stand on the road on opposite sides of the point directly below the drone. They see it at angles of elevation 30° and 60° respectively.
+
+    (a) How far is A from the point below the drone?
+    (b) How far is B from that point?
+    (c) What is the distance AB? (Take √3 = 1.73.)
+    Ans:
+      (a) tan 30° = 60/AO, so AO = 60√3 ≈ 103.8 m.
+      (b) tan 60° = 60/BO, so BO = 60/√3 = 20√3 ≈ 34.6 m.
+      (c) AB = AO + BO = 80√3 ≈ 138.4 m.
+
+Q11. [Application · 4 marks] From a point 40 m from the foot of a tower the angle of elevation of its top is 30°. After hoisting a flag on top, the angle of elevation of the top of the flag is 45°. Find the height of the flag.
+    Ans:
+      Height of the tower = 40 tan 30° = 40/√3 ≈ 23.1 m.
+      Height of tower + flag = 40 tan 45° = 40 m.
+      Height of the flag = 40 − 40/√3 = 40(1 − 1/√3) ≈ 16.9 m.
+
+Q12. [Long · 5 marks] The angles of elevation of the top of a tower from two points at distances 4 m and 9 m from its base, on the same straight line with the base, are complementary. Prove that the height of the tower is 6 m.
+    Ans:
+      Let the tower be h m high. Let the angle of elevation from the point 4 m away be θ; from the point 9 m away it is (90° − θ).
+      From the nearer point: tan θ = h/4.
+      From the farther point: tan(90° − θ) = cot θ = h/9.
+      Multiply: tan θ × cot θ = (h/4)(h/9), so 1 = h²/36.
+      Hence h² = 36 and h = 6 m. ∎
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The angle of depression is always measured from: (a) the vertical  (b) the object  (c) the ground below  (d) the horizontal
+    Ans: (d) The horizontal at the observer’s end.
+
+M2. If the angle of elevation of the sun is 45°, the length of the shadow of a pole equals: (a) half its height  (b) twice its height  (c) its height  (d) √3 times its height
+    Ans: (c) Its height. tan 45° = 1.
+
+M3. From the top of a tower the angle of depression of an object on the ground is 30°. The angle of elevation of the top from that object is: (a) 90°  (b) 60°  (c) 45°  (d) 30°
+    Ans: (d) 30°. Alternate angles between parallel horizontals.
+
+M4. If the angle of elevation of the top of a pole from a point 10 m from its foot is 60°, the height of the pole is: (a) 10/√3 m  (b) 10√3 m  (c) 10 m  (d) 20 m
+    Ans: (b) 10√3 m. height = 10 × tan 60° = 10√3 m.
+
+M5. As an observer walks towards the foot of a tower, the angle of elevation of its top: (a) increases  (b) decreases  (c) stays the same  (d) becomes zero
+    Ans: (a) increases. The horizontal distance falls while the height stays fixed, so tan of the angle (height ÷ distance) grows and the angle increases.
+
+M6. When the shadow of a pole equals its height, the sun’s angle of elevation is: (a) 90°  (b) 60°  (c) 45°  (d) 30°
+    Ans: (c) 45°. tan θ = height/shadow = 1, so θ = 45°.
+
+M7. The angle made by the line of sight with the horizontal when the object is below the observer is the angle of: (a) depression  (b) elevation  (c) reflection  (d) inclination
+    Ans: (a) depression. Elevation looks up; depression looks down.
+
+M8. A 10 m ladder reaches a window 8 m above the ground. Its foot is from the wall at a distance of: (a) 4 m  (b) 6 m  (c) 7 m  (d) 9 m
+    Ans: (b) 6 m. By Pythagoras, √(100 − 64) = √36 = 6 m.
+
+========================================================================
+CHAPTER 10 · Circles
+Unit: IV · Geometry
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] How many tangents can be drawn from a point inside a circle?
+    Ans: None. A line through an interior point must cut the circle at two points.
+
+Q2. [Short · 2 marks] From a point 13 cm from the centre of a circle of radius 5 cm, a tangent is drawn. Find its length.
+    Ans:
+      The tangent is perpendicular to the radius at the point of contact, so the three lengths form a right triangle.
+      Length = √(13² − 5²) = √144 = 12 cm.
+
+Q3. [Short · 2 marks] Two tangents TP and TQ are drawn to a circle with centre O from an external point T. If ∠POQ = 110°, find ∠PTQ.
+    Ans: The radius is perpendicular to the tangent at the point of contact, so ∠OPT = ∠OQT = 90°. In quadrilateral POQT: ∠PTQ = 360° − (90° + 90° + 110°) = 70°.
+
+Q4. [Short · 3 marks] Prove that the lengths of tangents drawn from an external point to a circle are equal.
+    Ans:
+      Let P be the external point and PA, PB the tangents with points of contact A and B.
+      Join OA, OB and OP.
+      In ΔOAP and ΔOBP: OA = OB (radii), OP is common, and ∠OAP = ∠OBP = 90° (tangent ⊥ radius).
+      By RHS congruence, ΔOAP ≅ ΔOBP, so PA = PB.
+
+Q5. [Application · 3 marks] A student says, “From every point P in the plane, exactly two equal tangents can be drawn to a given circle.” Test the claim for a point outside the circle, on the circle and inside the circle.
+    Ans:
+      P outside the circle: exactly two tangents can be drawn, and their lengths are equal.
+      P on the circle: exactly one tangent can be drawn (at P itself); there is no pair of tangents.
+      P inside the circle: no tangent exists, since every line through P cuts the circle in two points. So the claim holds only for an external point.
+
+Q6. [Application · 3 marks] The tangent at a point P of a circle of radius 5 cm meets a line through the centre O at Q, where OQ = 12 cm. Find the length PQ.
+    Ans:
+      The tangent at P is perpendicular to the radius OP, so ∠OPQ = 90°.
+      In the right triangle OPQ: PQ² = OQ² − OP² = 144 − 25 = 119.
+      PQ = √119 cm ≈ 10.9 cm.
+
+Q7. [Short · 3 marks] Prove that a chord of the larger of two concentric circles which touches the smaller circle is bisected at the point of contact.
+    Ans:
+      Let the chord AB of the larger circle touch the smaller circle at P; O is the common centre.
+      OP is a radius of the smaller circle and AB is a tangent to it, so OP ⊥ AB.
+      In the larger circle, the perpendicular drawn from the centre to a chord bisects the chord.
+      Hence AP = PB: the chord is bisected at the point of contact.
+
+Q8. [Long · 3 marks] Prove that the angle between two tangents drawn from an external point to a circle is supplementary to the angle subtended by the line joining the points of contact at the centre.
+    Ans:
+      Let TP and TQ be tangents from T, touching the circle at P and Q.
+      ∠OPT = ∠OQT = 90° because a radius is perpendicular to the tangent at the point of contact.
+      In quadrilateral POQT the angles sum to 360°, so ∠PTQ + ∠POQ = 360° − 180° = 180°.
+      Therefore the two angles are supplementary.
+
+Q9. [Long · 4 marks] A quadrilateral ABCD circumscribes a circle. Prove that AB + CD = AD + BC.
+    Ans:
+      Let the tangent segments from A, B, C, D be p, q, r, s respectively.
+      Then AB = p + q, BC = q + r, CD = r + s and AD = p + s.
+      AB + CD = p + q + r + s and AD + BC = p + s + q + r.
+      The two sums are identical, so AB + CD = AD + BC.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    From an external point T, two tangents TP and TQ are drawn to a circle with centre O. It is given that ∠PTQ = 70°.
+
+    (a) State why ∠OPT = 90°.
+    (b) Find ∠POQ.
+    (c) Find ∠OPQ.
+    Ans:
+      (a) The tangent at a point is perpendicular to the radius through the point of contact.
+      (b) In quadrilateral OPTQ, ∠OPT = ∠OQT = 90°, so ∠POQ = 360° − 90° − 90° − 70° = 110°.
+      (c) TP = TQ, so in ΔTPQ, ∠TPQ = (180° − 70°)/2 = 55°. Then ∠OPQ = ∠OPT − ∠TPQ = 90° − 55° = 35°.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A circle is inscribed in ΔABC and touches the sides BC, CA and AB at D, E and F respectively. AB = 12 cm, BC = 8 cm and CA = 10 cm.
+
+    (a) Which tangent lengths are equal?
+    (b) Find AF, BD and CE.
+    (c) Verify your answers against the three given sides.
+    Ans:
+      (a) Tangents from one point are equal: AF = AE, BF = BD and CD = CE.
+      (b) Let AF = x, BD = y, CE = z. Then x + y = 12, y + z = 8, z + x = 10, so x + y + z = 15. Hence AF = 7 cm, BD = 5 cm, CE = 3 cm.
+      (c) AB = AF + FB = 7 + 5 = 12 ✓; BC = BD + DC = 5 + 3 = 8 ✓; CA = CE + EA = 3 + 7 = 10 ✓.
+
+Q12. [Long · 5 marks] Prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact.
+    Ans:
+      Given: a circle with centre O and a tangent XY touching it at P. To prove: OP ⊥ XY.
+      Take any other point Q on XY and join OQ.
+      The tangent meets the circle only at P, so Q lies outside the circle. Hence OQ is longer than the radius: OQ > OP.
+      This is true for every point Q other than P on XY, so OP is the shortest distance from O to the line XY.
+      The shortest distance from a point to a line is the perpendicular, so OP ⊥ XY. ∎
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The number of tangents from a point on the circle is: (a) 0  (b) 1  (c) 2  (d) infinite
+    Ans: (b) 1.
+
+M2. The angle between a tangent and the radius at the point of contact is: (a) 45°  (b) 60°  (c) 90°  (d) 180°
+    Ans: (c) 90°.
+
+M3. Two tangents from an external point to a circle are: (a) unequal  (b) always perpendicular  (c) parallel  (d) equal
+    Ans: (d) Equal.
+
+M4. A tangent to a circle meets the circle in: (a) exactly one point  (b) no point  (c) exactly two points  (d) infinitely many points
+    Ans: (a) exactly one point. By definition, a tangent touches the circle at exactly one point, the point of contact.
+
+M5. If the angle between two tangents drawn from an external point P to a circle of radius a and centre O is 60°, then OP = (a) a√3  (b) a√2  (c) a/2  (d) 2a
+    Ans: (d) 2a. ∠APB = 60° gives ∠APO = 30° and, in right triangle OAP, OA = OP sin 30°, so OP = a/(1/2) = 2a.
+
+M6. The number of tangents that can be drawn from a point outside a circle is: (a) 1  (b) 2  (c) 3  (d) infinite
+    Ans: (b) 2. Exactly two, and they are equal in length.
+
+M7. A line that cuts a circle in two distinct points is called a: (a) secant  (b) tangent  (c) chord  (d) diameter
+    Ans: (a) secant. A tangent meets the circle at one point; a chord is the segment joining the two points.
+
+M8. A tangent of length 24 cm is drawn from a point 25 cm from the centre. The radius is: (a) 24 cm  (b) 12 cm  (c) 7 cm  (d) 5 cm
+    Ans: (c) 7 cm. r² + 24² = 25², so r = √49 = 7 cm.
+
+========================================================================
+CHAPTER 11 · Areas Related to Circles
+Unit: VI · Mensuration
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the length of an arc of a sector with radius 21 cm and central angle 120°.
+    Ans: Arc length = (θ/360°) × 2πr = (120/360) × 2 × (22/7) × 21 = (1/3) × 132 = 44 cm. Use 22/7 for π whenever the radius is a multiple of 7, as it is here — the sevens cancel and the arithmetic stays exact.
+
+Q2. [Short · 2 marks] The circumference of a circle exceeds its diameter by 30 cm. Find the radius (take π = 22/7).
+    Ans: 2πr − 2r = 30 ⇒ 2r(22/7 − 1) = 30 ⇒ 2r(15/7) = 30 ⇒ r = 7 cm. Check: circumference 44 cm, diameter 14 cm, difference 30 cm.
+
+Q3. [Short · 3 marks] Find the area of a sector of radius 6 cm with a central angle of 60° (take π = 3.14).
+    Ans: Area of sector = (θ/360°) × πr² = (60/360) × 3.14 × 36 = (1/6) × 113.04 = 18.84 cm². Here the radius is not a multiple of 7, so π = 3.14 as the question directs, and the unit is cm² because this is an area, not a length.
+
+Q4. [Short · 3 marks] Find the perimeter of a sector with radius 14 cm and central angle 90°.
+    Ans:
+      Arc = (90/360) × 2 × (22/7) × 14 = (1/4) × 88 = 22 cm.
+      Perimeter = 2(14) + 22 = 50 cm.
+
+Q5. [Application · 3 marks] A student finds the area of a circular pond of diameter 28 m as (22/7) × 28² = 2464 m². Identify the error and give the correct area.
+    Ans:
+      Error: the formula πr² needs the radius, but the student substituted the diameter 28 m.
+      Radius = 28 ÷ 2 = 14 m.
+      Area = (22/7) × 14² = (22/7) × 196 = 616 m² (one-fourth of the wrong value).
+
+Q6. [Application · 3 marks] A horse is tied to a peg at one corner of a square field of side 15 m by a rope 5 m long. Find the area of the field over which the horse can graze. (Take π = 3.14.)
+    Ans:
+      The horse can reach points within 5 m of the corner, but only inside the field, which spans a 90° angle at that corner.
+      So the grazing region is a quadrant (sector of 90°) of radius 5 m.
+      Area = (90/360) × 3.14 × 5² = ¼ × 78.5 = 19.625 m².
+
+Q7. [Short · 3 marks] Find the area of the minor segment of a circle of radius 14 cm whose central angle is 90° (π = 22/7).
+    Ans:
+      Area of sector = (90/360) × (22/7) × 14² = ¼ × 616 = 154 cm².
+      Area of the right triangle formed by the two radii = ½ × 14 × 14 = 98 cm².
+      Area of the minor segment = 154 − 98 = 56 cm².
+
+Q8. [Long · 4 marks] A square of side 14 cm has a circle inscribed in it. Find the area between the square and the circle.
+    Ans:
+      The inscribed circle has diameter 14 cm, so radius 7 cm.
+      Area of square = 196 cm². Area of circle = (22/7) × 49 = 154 cm².
+      Required area = 196 − 154 = 42 cm².
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    A pizza of radius 14 cm is cut into 8 equal slices. (Take π = 22/7.)
+
+    (a) What is the central angle of each slice?
+    (b) What is the area of one slice?
+    (c) What is the perimeter of one slice, counting both straight edges?
+    Ans:
+      (a) 360° ÷ 8 = 45°.
+      (b) Area = (45/360) × (22/7) × 14² = ⅛ × 616 = 77 cm².
+      (c) Arc length = (45/360) × 2 × (22/7) × 14 = ⅛ × 88 = 11 cm. Perimeter = 11 + 14 + 14 = 39 cm.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A circular park of radius 14 m is surrounded by a path 7 m wide. (Take π = 22/7.)
+
+    (a) What is the outer radius of the path?
+    (b) What is the area of the path?
+    (c) What is the cost of paving it at Rs 40 per m²?
+    Ans:
+      (a) Outer radius = 14 + 7 = 21 m.
+      (b) Area of path = π(21² − 14²) = (22/7)(441 − 196) = (22/7) × 245 = 770 m².
+      (c) Cost = 770 × 40 = Rs 30,800.
+
+Q11. [Application · 4 marks] Two circles touch externally. The sum of their areas is 130π cm² and the distance between their centres is 14 cm. Find their radii.
+    Ans:
+      Let the radii be r₁ and r₂. Since they touch externally, r₁ + r₂ = 14.
+      πr₁² + πr₂² = 130π ⇒ r₁² + r₂² = 130.
+      (r₁ + r₂)² = r₁² + r₂² + 2r₁r₂ ⇒ 196 = 130 + 2r₁r₂ ⇒ r₁r₂ = 33.
+      So r₁ and r₂ are roots of t² − 14t + 33 = 0, giving 11 cm and 3 cm.
+
+Q12. [Long · 5 marks] The minute hand of a clock is 14 cm long. Find (i) the angle it turns in 10 minutes, (ii) the distance moved by its tip in that time and (iii) the area swept by the hand. (Take π = 22/7.)
+    Ans:
+      (i) The minute hand turns 360° in 60 minutes, so in 10 minutes it turns 60°.
+      (ii) The tip moves along an arc of a circle of radius 14 cm: arc = (60/360) × 2 × (22/7) × 14 = ⅙ × 88 = 44/3 cm ≈ 14.67 cm.
+      (iii) The hand sweeps a sector of angle 60°: area = (60/360) × (22/7) × 14² = ⅙ × 616 = 308/3 cm² ≈ 102.67 cm².
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The area of a quadrant of a circle of radius r is: (a) πr²/2  (b) 2πr  (c) πr²  (d) πr²/4
+    Ans: (d) πr²/4.
+
+M2. The perimeter of a sector includes: (a) only the arc  (b) the arc and one radius  (c) the arc and two radii  (d) the chord and the arc
+    Ans: (c) The arc and two radii.
+
+M3. The area of a segment is found by: (a) sector − triangle  (b) sector + triangle  (c) circle − sector  (d) triangle − sector
+    Ans: (a) Sector − triangle.
+
+M4. The length of the arc of a sector of angle θ in a circle of radius r is: (a) (θ/360°) × πr²  (b) (θ/180°) × πr²  (c) (θ/360°) × 2r  (d) (θ/360°) × 2πr
+    Ans: (d) (θ/360°) × 2πr. The arc is the fraction θ/360° of the whole circumference 2πr.
+
+M5. The area of a sector of a circle of radius 7 cm with central angle 90° is (π = 22/7): (a) 77 cm²  (b) 38.5 cm²  (c) 154 cm²  (d) 19.25 cm²
+    Ans: (b) 38.5 cm². Area = (90/360) × (22/7) × 7² = ¼ × 154 = 38.5 cm².
+
+M6. The area of a circle whose circumference is 44 cm is: (a) 616 cm²  (b) 308 cm²  (c) 154 cm²  (d) 77 cm²
+    Ans: (c) 154 cm². 2πr = 44 gives r = 7 cm, so the area is πr² = 154 cm².
+
+M7. If the radius of a circle is doubled, its area becomes: (a) 2 times  (b) 4 times  (c) 8 times  (d) unchanged
+    Ans: (b) 4 times. Area ∝ r², so doubling r multiplies the area by 2² = 4.
+
+M8. The area of a semicircle of radius r is: (a) πr²/2  (b) πr²  (c) 2πr  (d) πr²/4
+    Ans: (a) πr²/2. A semicircle is half of a full circle.
+
+========================================================================
+CHAPTER 12 · Surface Areas and Volumes
+Unit: VI · Mensuration
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the total surface area of a solid hemisphere of radius 7 cm (π = 22/7).
+    Ans: Total surface area of a solid hemisphere = 3πr² = 3 × (22/7) × 49 = 462 cm² (curved 308 + flat circular face 154).
+
+Q2. [Short · 3 marks] A solid consists of a cylinder with a hemisphere on one end and a cone on the other, all of radius 7 cm. The cylinder is 20 cm high, the cone 12 cm high. Find the total surface area (take π = 22/7).
+    Ans:
+      Cylinder CSA = 2 × (22/7) × 7 × 20 = 880 cm².
+      Hemisphere CSA = 2 × (22/7) × 49 = 308 cm².
+      Cone slant height l = √(7² + 12²) = √193 ≈ 13.89 cm, so cone CSA = (22/7) × 7 × 13.89 ≈ 305.6 cm².
+      Total ≈ 880 + 308 + 305.6 = 1493.6 cm². The two circular joining faces are not counted.
+
+Q3. [Short · 3 marks] A solid metallic sphere of radius 4.2 cm is melted and recast into a cylinder of radius 6 cm. Find the height of the cylinder.
+    Ans:
+      Volume of sphere = volume of cylinder.
+      (4/3)π(4.2)³ = π(6)²h.
+      h = (4 × 74.088)/(3 × 36) = 296.352/108 ≈ 2.74 cm.
+
+Q4. [Application · 3 marks] A student finds the volume of a cone with r = 7 cm and h = 12 cm as (22/7) × 7² × 12 = 1848 cm³. Identify the error and give the correct volume.
+    Ans:
+      Error: that is the volume of the cylinder of the same base and height. A cone holds one-third of it.
+      Correct formula: V = ⅓πr²h.
+      V = ⅓ × 1848 = 616 cm³.
+
+Q5. [Application · 3 marks] A toy is a cone mounted on a hemisphere of the same base radius 3.5 cm. The total height of the toy is 15.5 cm. Find its total surface area. (Take π = 22/7.)
+    Ans:
+      Height of the cone = 15.5 − 3.5 = 12 cm, so slant height l = √(3.5² + 12²) = √156.25 = 12.5 cm.
+      Curved surface of the cone = πrl = (22/7) × 3.5 × 12.5 = 137.5 cm²; curved surface of the hemisphere = 2πr² = 77 cm².
+      Total surface area = 137.5 + 77 = 214.5 cm². (The joining circle is inside, so it is not counted.)
+
+Q6. [Short · 3 marks] A cylindrical bucket 32 cm high with base radius 18 cm is emptied to form a conical heap of sand 24 cm high. Find the radius of the heap.
+    Ans:
+      Volumes are equal: π(18)²(32) = (1/3)πr²(24).
+      ⇒ 324 × 32 = 8r² ⇒ r² = 10368/8 = 1296.
+      So r = 36 cm. (The height of the heap is ¼ of the cylinder’s, but the radius works out larger.)
+
+Q7. [Short · 3 marks] A cylindrical vessel of radius 6 cm and height 12 cm is full of water. How many conical cups of radius 2 cm and height 6 cm can be filled from it?
+    Ans:
+      Volume of the vessel = π × 6² × 12 = 432π cm³.
+      Volume of one cup = (1/3)π × 2² × 6 = 8π cm³.
+      Number of cups = 432π ÷ 8π = 54.
+      So 54 conical cups can be filled.
+
+Q8. [Long · 4 marks] 100 solid iron spheres, each of radius 1 cm, are melted to form one solid sphere. Find its radius.
+    Ans:
+      Total volume is conserved: 100 × (4/3)π(1)³ = (4/3)πR³.
+      Cancelling (4/3)π: R³ = 100, so R = ∛100 ≈ 4.64 cm.
+
+Q9. [Long · 4 marks] A frustum of a cone has radii 14 cm and 7 cm and height 24 cm. Find its slant height and curved surface area (take π = 22/7).
+    Ans:
+      l = √[24² + (14 − 7)²] = √(576 + 49) = √625 = 25 cm.
+      CSA = π(R + r)l = (22/7) × (14 + 7) × 25 = (22/7) × 21 × 25 = 1650 cm².
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A cylindrical water tank has a diameter of 4 m and a height of 7 m. (Take π = 22/7.)
+
+    (a) Find its volume in m³.
+    (b) How many litres can it hold? (1 m³ = 1000 litres)
+    (c) A family uses 400 litres a day. For how many days will a full tank last?
+    Ans:
+      (a) r = 2 m, so V = πr²h = (22/7) × 4 × 7 = 88 m³.
+      (b) 88 × 1000 = 88,000 litres.
+      (c) 88,000 ÷ 400 = 220 days.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A metal cuboid of dimensions 44 cm × 21 cm × 12 cm is melted and recast into a solid cylinder of radius 7 cm. (Take π = 22/7.)
+
+    (a) Find the volume of the cuboid.
+    (b) Find the height of the cylinder.
+    (c) Why is the volume, and not the surface area, equated?
+    Ans:
+      (a) V = 44 × 21 × 12 = 11,088 cm³.
+      (b) πr²h = 11,088, so (22/7) × 49 × h = 11,088, i.e. 154h = 11,088 and h = 72 cm.
+      (c) Melting and recasting changes the shape but not the amount of metal, so the volume is conserved; the surface area changes.
+
+Q12. [Application · 4 marks] A drinking glass is shaped like a frustum of a cone with height 14 cm and end diameters 4 cm and 2 cm. Find its capacity.
+    Ans:
+      R = 2 cm, r = 1 cm, h = 14 cm.
+      Volume = (πh/3)(R² + r² + Rr) = (π × 14/3)(4 + 1 + 2) = (14π/3)(7).
+      = 98π/3 = (98/3)(22/7) = 308/3 ≈ 102.7 cm³.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The volume of a cone of radius r and height h is: (a) πr²h  (b) πr²h/3  (c) 2πr²h  (d) πrh
+    Ans: (b) πr²h/3.
+
+M2. When a solid is melted and recast into another shape, which quantity is conserved? (a) surface area  (b) volume  (c) both  (d) neither
+    Ans: (b) Volume. Surface area almost always changes.
+
+M3. The slant height of a frustum with radii R and r and height h is: (a) √[h² + (R − r)²]  (b) √[h² + (R + r)²]  (c) h + R + r  (d) √(R² − r²)
+    Ans: (a) √[h² + (R − r)²].
+
+M4. The total surface area of a solid hemisphere of radius r is: (a) 2πr²  (b) 4πr²  (c) 3πr²  (d) πr²
+    Ans: (c) 3πr². Curved surface 2πr² plus the flat circular face πr² gives 3πr².
+
+M5. If the radius of a sphere is doubled, its volume becomes: (a) 2 times  (b) 4 times  (c) 6 times  (d) 8 times
+    Ans: (d) 8 times. V = (4/3)πr³, so doubling r multiplies the volume by 2³ = 8.
+
+M6. The curved surface area of a cylinder of radius r and height h is: (a) πr²h  (b) 2πr(r + h)  (c) 2πrh  (d) πrl
+    Ans: (c) 2πrh. 2πr(r + h) is the total surface area and πr²h is the volume.
+
+M7. The volume of a sphere of radius r is: (a) (4/3)πr³  (b) 4πr²  (c) (2/3)πr³  (d) πr³
+    Ans: (a) (4/3)πr³. 4πr² is the surface area of the sphere.
+
+M8. A cone, a hemisphere and a cylinder have equal bases and equal heights. The ratio of their volumes is: (a) 2 : 3 : 1  (b) 3 : 1 : 2  (c) 1 : 3 : 2  (d) 1 : 2 : 3
+    Ans: (d) 1 : 2 : 3. With radius = height = r: πr³/3 : 2πr³/3 : πr³.
+
+========================================================================
+CHAPTER 13 · Statistics
+Unit: VII · Statistics and Probability
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Find the class mark of the class 25–35.
+    Ans: The class mark is the midpoint of the class: (lower limit + upper limit) ÷ 2 = (25 + 35)/2 = 30. It stands in for every value in that interval when a mean is calculated from grouped data, which is why it is also called the mid-value.
+
+Q2. [Short · 2 marks] Write the formula for the mode of grouped data and explain each symbol.
+    Ans: Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, where l is the lower limit of the modal class, f₁ its frequency, f₀ the frequency of the class before it, f₂ the frequency of the class after it, and h the class size. The modal class is the class with the highest frequency.
+
+Q3. [Short · 3 marks] Find the mean of the data: class intervals 0–10, 10–20, 20–30, 30–40 with frequencies 3, 5, 7, 5.
+    Ans:
+      Class marks: 5, 15, 25, 35. Σfᵢ = 20.
+      Σfᵢxᵢ = 3(5) + 5(15) + 7(25) + 5(35) = 15 + 75 + 175 + 175 = 440.
+      Mean = 440/20 = 22.
+
+Q4. [Short · 3 marks] Find the mode of the data: 10–20 (f = 3), 20–30 (f = 12), 30–40 (f = 9).
+    Ans:
+      Modal class is 20–30 (highest frequency 12).
+      l = 20, f₁ = 12, f₀ = 3, f₂ = 9, h = 10.
+      Mode = 20 + [(12 − 3)/(24 − 3 − 9)] × 10 = 20 + (9/12) × 10 = 20 + 7.5 = 27.5.
+
+Q5. [Application · 3 marks] A student finds the mean of the data 0–10 (f = 4) and 10–20 (f = 6) using the upper limits 10 and 20 as x. Find the error, and give the correct mean.
+    Ans:
+      Error: for grouped data, x must be the class mark (the midpoint of the class), not a class limit.
+      Class marks are 5 and 15, so the mean = (4 × 5 + 6 × 15)/(4 + 6) = (20 + 90)/10.
+      Mean = 11. The upper-limit method would have wrongly given (40 + 120)/10 = 16.
+
+Q6. [Application · 3 marks] The daily wages of 40 workers are: Rs 100–200: 8, 200–300: 12, 300–400: 10, 400–500: 6, 500–600: 4. Form the “more than” cumulative frequency table and find how many workers earn Rs 400 or more.
+    Ans:
+      A “more than” table lists the number of workers with wages at or above each lower limit.
+      More than 100: 40; more than 200: 32; more than 300: 20; more than 400: 10; more than 500: 4.
+      Workers earning Rs 400 or more: 10 (6 + 4).
+
+Q7. [Long · 4 marks] Find the median of the distribution: 0–10 (f = 4), 10–20 (f = 6), 20–30 (f = 10), 30–40 (f = 8), 40–50 (f = 2).
+    Ans:
+      Cumulative frequencies: 4, 10, 20, 28, 30. So N = 30 and N/2 = 15.
+      The first cf greater than 15 is 20, so the median class is 20–30.
+      l = 20, cf = 10, f = 10, h = 10.
+      Median = 20 + [((15 − 10)/10) × 10] = 20 + 5 = 25.
+
+Q8. [Long · 4 marks] The mean of the distribution 0–10 (f = 5), 10–20 (f = f), 20–30 (f = 8), 30–40 (f = 7) is 20.5. Find f.
+    Ans:
+      Class marks: 5, 15, 25, 35.
+      Σfᵢ = 5 + f + 8 + 7 = f + 20.
+      Σfᵢxᵢ = 25 + 15f + 200 + 245 = 15f + 470.
+      Mean = (15f + 470)/(f + 20) = 20.5.
+      15f + 470 = 20.5f + 410, so 5.5f = 60 and f ≈ 10.9. Check your reading of the data — frequencies must be whole numbers, so re-check the given mean before answering.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    The weekly hours of study of 40 students are: 0–10: 5 students, 10–20: 8, 20–30: 14, 30–40: 9, 40–50: 4.
+
+    (a) Write the class marks.
+    (b) Find the mean.
+    (c) Which is the modal class, and why?
+    Ans:
+      (a) 5, 15, 25, 35, 45.
+      (b) Σfx = 5×5 + 8×15 + 14×25 + 9×35 + 4×45 = 25 + 120 + 350 + 315 + 180 = 990, so mean = 990/40 = 24.75 hours.
+      (c) The modal class is 20–30, because it has the highest frequency (14).
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    In a survey, the mean daily screen time of students is 3.4 hours and the median is 3.2 hours.
+
+    (a) Find the mode using the empirical relation.
+    (b) What does the order mean > median > mode suggest about the data?
+    (c) Which measure would you report if a few students have extremely long screen times, and why?
+    Ans:
+      (a) Mode = 3 × median − 2 × mean = 3(3.2) − 2(3.4) = 9.6 − 6.8 = 2.8 hours.
+      (b) The data are skewed to the right: a few large values pull the mean above the median and mode.
+      (c) The median, because it is not affected by extreme values, while the mean is.
+
+Q11. [Long · 4 marks] Find the mean of this data by the step-deviation method: 0–20 (f = 7), 20–40 (f = 12), 40–60 (f = 16), 60–80 (f = 13), 80–100 (f = 12).
+    Ans:
+      Class marks: 10, 30, 50, 70, 90. Take A = 50 and h = 20, so u = −2, −1, 0, 1, 2.
+      Σf = 60 and Σfu = 7(−2) + 12(−1) + 16(0) + 13(1) + 12(2) = −14 − 12 + 13 + 24 = 11.
+      Mean = A + h(Σfu/Σf) = 50 + 20(11/60) = 50 + 3.67 = 53.67.
+
+Q12. [Application · 4 marks] For the distribution 0–10 (5), 10–20 (8), 20–30 (12), 30–40 (7), 40–50 (3), write the less-than cumulative frequencies, name the median class and find the median.
+    Ans:
+      Less-than cumulative frequencies: 5, 13, 25, 32, 35. N = 35, so N/2 = 17.5.
+      The cumulative frequency first crosses 17.5 in the class 20–30, so that is the median class.
+      Median = l + [(N/2 − cf)/f] × h = 20 + [(17.5 − 13)/12] × 10 = 20 + 3.75 = 23.75.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The class mark of the class 15–25 is: (a) 15  (b) 25  (c) 10  (d) 20
+    Ans: (d) 20. (15 + 25)/2.
+
+M2. The median class is the class whose cumulative frequency is: (a) the first one greater than N/2  (b) equal to N/2  (c) the largest  (d) the smallest
+    Ans: (a) The first one greater than N/2.
+
+M3. If mean = 20 and mode = 26, then by the empirical relation the median is: (a) 22  (b) 22.67  (c) 23  (d) 24
+    Ans: (a) 22. 3 Median = 26 + 2(20) = 66, so Median = 22.
+
+M4. In grouped data, the mean is calculated using the class marks because: (a) the class limits are never known  (b) it always makes the mean larger  (c) the frequencies are not required  (d) every observation of a class is assumed to lie at its midpoint
+    Ans: (d) every observation of a class is assumed to lie at its midpoint. The individual values inside a class are unknown, so each is represented by the class mark.
+
+M5. In the mode formula l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, the symbol f₁ stands for: (a) the frequency of the class before the modal class  (b) the frequency of the class after the modal class  (c) the frequency of the modal class  (d) the total of all frequencies
+    Ans: (c) the frequency of the modal class. f₁ is the frequency of the modal class; f₀ and f₂ are those of the classes just before and just after it.
+
+M6. The mode of 3, 5, 7, 5, 9, 5, 8 is: (a) 3  (b) 5  (c) 7  (d) 9
+    Ans: (b) 5. It occurs three times, more than any other value.
+
+M7. The class mark of the class 45–55 is: (a) 100  (b) 55  (c) 50  (d) 45
+    Ans: (c) 50. Class mark = (lower limit + upper limit)/2 = 50.
+
+M8. The empirical relation connecting the three measures of central tendency is: (a) Median = 3 Mode − 2 Mean  (b) Mode = 3 Median − 2 Mean  (c) Mean = 3 Median − 2 Mode  (d) Mode = 2 Median − Mean
+    Ans: (b) Mode = 3 Median − 2 Mean. Equivalently, 3 Median = Mode + 2 Mean.
+
+========================================================================
+CHAPTER 14 · Probability
+Unit: VII · Statistics and Probability
+========================================================================
+
+A. WRITTEN QUESTIONS (13)
+------------------------------------------------------------------------
+
+Q1. [Short · 1 mark] A card is drawn from a well-shuffled deck. What is the probability that it is a red king?
+    Ans: There are 2 red kings, so P = 2/52 = 1/26.
+
+Q2. [Short · 2 marks] A die is thrown once. Find the probability of getting (i) a prime number, (ii) a number greater than 4.
+    Ans:
+      Primes on a die are 2, 3, 5, so P = 3/6 = 1/2.
+      Numbers greater than 4 are 5 and 6, so P = 2/6 = 1/3.
+
+Q3. [Short · 2 marks] A bag contains 5 red and 3 green balls. One ball is drawn at random. Find the probability that it is not red.
+    Ans: Total outcomes = 5 + 3 = 8. Not red means green, so P(not red) = 3/8. Equivalently, using the complement rule: P(not red) = 1 − P(red) = 1 − 5/8 = 3/8. The complement route is quicker when the event you are asked about has more outcomes than the one you are not.
+
+Q4. [Short · 2 marks] A bag contains 4 red, 5 blue and 3 green balls. Find the probability of drawing a ball that is not green.
+    Ans: Total balls = 12. Balls that are not green = 4 + 5 = 9. So P(not green) = 9/12 = 3/4.
+
+Q5. [Short · 3 marks] Two dice are thrown together. Find the probability that the sum is 9.
+    Ans:
+      Total outcomes = 36.
+      Favourable pairs: (3,6), (4,5), (5,4), (6,3) — 4 outcomes.
+      P = 4/36 = 1/9.
+
+Q6. [Short · 3 marks] A card is drawn at random from a well-shuffled deck. Find the probability that it is (i) a face card, (ii) neither a king nor a red card.
+    Ans:
+      (i) There are 12 face cards, so P = 12/52 = 3/13.
+      (ii) Red cards are 26, of which 2 are kings. Neither a king nor red means a black card that is not a king: 26 − 2 = 24.
+      P = 24/52 = 6/13.
+
+Q7. [Application · 3 marks] A student says, “Two dice are thrown, so there are 6 + 6 = 12 outcomes and P(sum = 7) = 6/12 = 1/2.” Find the error and give the correct probability.
+    Ans:
+      Error: each die has 6 outcomes, so two dice have 6 × 6 = 36 outcomes, not 12.
+      Favourable outcomes for a sum of 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — 6 outcomes.
+      P(sum = 7) = 6/36 = 1/6.
+
+Q8. [Application · 3 marks] A die has the letters A, B, C, D, E, A on its six faces. It is thrown once. Find the probability of getting (i) the letter A and (ii) the letter D.
+    Ans:
+      There are 6 equally likely outcomes.
+      (i) The letter A appears on 2 faces, so P(A) = 2/6 = 1/3.
+      (ii) The letter D appears on 1 face, so P(D) = 1/6.
+
+Q9. [Short · 3 marks] Two coins are tossed together. Find the probability of getting (i) two heads, (ii) at least one tail, (iii) at most one head.
+    Ans:
+      Sample space = {HH, HT, TH, TT}: 4 equally likely outcomes.
+      (i) Two heads: only HH, so P = 1/4.
+      (ii) At least one tail: HT, TH, TT, so P = 3/4.
+      (iii) At most one head: HT, TH, TT, so P = 3/4.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A bag contains 5 red, 8 white and 7 black balls. One ball is drawn at random.
+
+    (a) Find the probability that it is red.
+    (b) Find the probability that it is not white.
+    (c) Find the probability that it is black or white.
+    Ans:
+      (a) Total balls = 20, so P(red) = 5/20 = 1/4.
+      (b) P(not white) = 1 − 8/20 = 12/20 = 3/5.
+      (c) P(black or white) = (7 + 8)/20 = 15/20 = 3/4.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    In a school raffle, 200 tickets numbered 1 to 200 are sold and one ticket is drawn at random.
+
+    (a) What is the probability that the number is a multiple of 10?
+    (b) What is the probability that it is a perfect square?
+    (c) What is the probability that it is not a multiple of 5?
+    Ans:
+      (a) Multiples of 10 up to 200: 20, so P = 20/200 = 1/10.
+      (b) Perfect squares up to 200: 1², 2², …, 14² (14² = 196), so 14 of them and P = 14/200 = 7/100.
+      (c) Multiples of 5: 40, so P(not a multiple of 5) = 1 − 40/200 = 4/5.
+
+Q12. [Application · 4 marks] A box contains 90 discs numbered 1 to 90. One disc is drawn at random. Find the probability that it bears (i) a two-digit number, (ii) a number divisible by 5, (iii) a perfect square number.
+    Ans:
+      (i) Two-digit numbers are 10 to 90, i.e. 81 discs, so P = 81/90 = 9/10.
+      (ii) Multiples of 5 from 5 to 90: 18 numbers, so P = 18/90 = 1/5.
+      (iii) Perfect squares: 1, 4, 9, 16, 25, 36, 49, 64, 81 — nine numbers, so P = 9/90 = 1/10.
+
+Q13. [Long · 5 marks] Two dice are thrown together. Find the probability that (i) the sum is less than 5, (ii) the product of the numbers is 12, (iii) a doublet is obtained, (iv) the sum is a prime number.
+    Ans:
+      The sample space has 6 × 6 = 36 equally likely outcomes.
+      (i) Sum 2, 3 or 4: 1 + 2 + 3 = 6 outcomes, so P = 6/36 = 1/6.
+      (ii) Product 12: (2,6), (3,4), (4,3), (6,2) — 4 outcomes, so P = 4/36 = 1/9.
+      (iii) Doublets (1,1) … (6,6): 6 outcomes, so P = 6/36 = 1/6.
+      (iv) Prime sums 2, 3, 5, 7, 11 occur 1 + 2 + 4 + 6 + 2 = 15 times, so P = 15/36 = 5/12.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The probability of an impossible event is: (a) 1  (b) 0  (c) 1/2  (d) undefined
+    Ans: (b) 0.
+
+M2. Two dice are thrown together. The total number of outcomes is: (a) 36  (b) 6  (c) 12  (d) 24
+    Ans: (a) 36.
+
+M3. The number of face cards in a deck of 52 cards is: (a) 8  (b) 16  (c) 12  (d) 4
+    Ans: (c) 12. Jacks, queens and kings of four suits.
+
+M4. A bag has 4 red and 6 blue balls. The probability that a ball drawn at random is not red is: (a) 2/5  (b) 4/6  (c) 1/6  (d) 3/5
+    Ans: (d) 3/5. Blue balls = 6 out of 10, so P(not red) = 6/10 = 3/5.
+
+M5. The probability of getting an even prime number in one throw of a die is: (a) 1/6  (b) 1/2  (c) 1/3  (d) 0
+    Ans: (a) 1/6. The only even prime is 2, which is one of the six equally likely outcomes.
+
+M6. In one throw of a die, the probability of getting a number less than 7 is: (a) 0  (b) 1/6  (c) 5/6  (d) 1
+    Ans: (d) 1. Every outcome 1–6 is less than 7, so it is a sure event.
+
+M7. If P(E) = 0.37, then P(not E) = : (a) 0.37  (b) 1  (c) 0.63  (d) 0.53
+    Ans: (c) 0.63. P(not E) = 1 − P(E) = 1 − 0.37 = 0.63.
+
+M8. One card is drawn from a well-shuffled deck. The probability of a black queen is: (a) 1/52  (b) 1/26  (c) 1/13  (d) 2/13
+    Ans: (b) 1/26. Two black queens out of 52 cards gives 2/52 = 1/26.

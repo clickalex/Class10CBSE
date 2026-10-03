@@ -124,16 +124,16 @@
     ],
     "mcq": [
       {
-        "q": "Typing a message in ALL CAPS is bad netiquette because it — (a) saves time (b) reads as shouting (c) looks stylish (d) avoids spam",
-        "a": "**(b) reads as shouting.** Netiquette asks for normal case and polite words."
+        "q": "Typing a message in ALL CAPS is bad netiquette because it — (a) saves time (b) looks stylish (c) avoids spam (d) reads as shouting",
+        "a": "**(d) reads as shouting.** Netiquette asks for normal case and polite words."
       },
       {
-        "q": "Which of these is an e-commerce activity? (a) reading a blog (b) paying an electricity bill on a bank app (c) watching a video (d) typing a document",
-        "a": "**(b) paying an electricity bill on a bank app.** E-commerce = trade, payment and banking online."
+        "q": "Which of these is an e-commerce activity? (a) paying an electricity bill on a bank app (b) reading a blog (c) watching a video (d) typing a document",
+        "a": "**(a) paying an electricity bill on a bank app.** E-commerce = trade, payment and banking online."
       },
       {
-        "q": "A safe shopping site must show — (a) `http://` (b) `https://` with a padlock (c) flashing ads (d) pop-up prizes",
-        "a": "**(b) `https://` with a padlock.** The *s* means the data is encrypted in transit."
+        "q": "A safe shopping site must show — (a) `https://` with a padlock (b) `http://` (c) flashing ads (d) pop-up prizes",
+        "a": "**(a) `https://` with a padlock.** The *s* means the data is encrypted in transit."
       },
       {
         "q": "Someone calls “from the bank” and asks for your OTP. You should — (a) share it quickly (b) share half of it (c) refuse and cut the call (d) ask for a bigger limit",
@@ -148,8 +148,8 @@
         "a": "**(b) the connected and the unconnected.** Cost, coverage, skills and language cause it."
       },
       {
-        "q": "Publishing exam results and certificates online is an example of — (a) e-governance supporting freedom of information (b) phishing (c) netiquette (d) malware",
-        "a": "**(a) e-governance supporting freedom of information.** Citizens can see and use public records directly."
+        "q": "Publishing exam results and certificates online is an example of — (a) phishing (b) netiquette (c) malware (d) e-governance supporting freedom of information",
+        "a": "**(d) e-governance supporting freedom of information.** Citizens can see and use public records directly."
       },
       {
         "q": "Which step does NOT bridge the digital divide? (a) village mobile networks (b) regional-language apps (c) English-only services (d) low-cost data",
@@ -286,20 +286,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Cybercrime, IPR & Open Source” (Cybercrime, intellectual property rights, plagiarism, and free versus open source software.). A classmate lost marks by doing this: Confusing copyright and patent — copyright covers creative works, patent covers inventions. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student says, “I wrote a poem, so I must apply for a patent to protect it.” Correct this and say which kind of IPR protects (i) a poem, (ii) a new invention and (iii) a brand logo.",
         "a": [
-          "Correct method: Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.",
-          "Why the mistake costs marks: Confusing copyright and patent — copyright covers creative works, patent covers inventions.",
-          "Write the definition or formula first, then the working or example."
+          "(i) A poem is a creative work, protected by **copyright**, which arises automatically when it is created.",
+          "(ii) A new invention is protected by a **patent**, which has to be applied for.",
+          "(iii) A brand name or logo is protected by a **trademark**."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Cybercrime, IPR & Open Source”: “What is IPR? Name and explain its four main types.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Ravi copies a paragraph from a website into his project without saying where it came from, and his friend buys a pirated copy of a game. Name each offence and say how they differ.",
         "a": [
-          "Idea: Cybercrime, intellectual property rights, plagiarism, and free versus open source software..",
-          "IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business information such as a formula or a method."
+          "Ravi’s act is **plagiarism**: presenting someone else’s work as his own.",
+          "His friend’s act is **software piracy**: making or using an unlicensed copy of software.",
+          "Plagiarism is about taking credit; piracy is about using copies without the owner’s permission or payment. Ravi can avoid plagiarism by quoting and acknowledging the source."
         ]
       },
       {
@@ -316,32 +317,33 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Cybercrime, IPR & Open Source”. Their note says: Cybercrime. A cybercrime is any illegal act in which a computer or network is used as a tool, a target, or a place to store evidence. Examples are hacking, spreading malware, online fraud, identity theft, publishing obscene material, and attacking a website so that it stops working.\n\nThe chapter is described as: Cybercrime, intellectual property rights, plagiarism, and free versus open source software..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA school installs three programs: LibreOffice, whose source code anyone may study and change; a PDF viewer that is free to use but whose code is secret; and a paid word processor.\n\n(a) Which is free and open-source software (FOSS)?\n(b) Which is freeware?\n(c) Which is proprietary software?",
         "a": [
-          "(a) Cybercrime, intellectual property rights, plagiarism, and free versus open source software.",
-          "(b) Define IPR and its types, explain plagiarism and software piracy, distinguish FOSS from proprietary software.",
-          "(c) Confusing copyright and patent — copyright covers creative works, patent covers inventions."
+          "(a) LibreOffice.",
+          "(b) The PDF viewer: it costs nothing but its source code is closed.",
+          "(c) The paid word processor."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “What is IPR? Name and explain its four main types.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nAnita gets an e-mail that looks like it is from her bank. It asks her to click a link and enter her card number and OTP “to avoid blocking”.\n\n(a) Name this cybercrime.\n(b) Why is it dangerous?\n(c) State two precautions.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business informati",
-          "(c) Copyright = works, patent = inventions, trademark = brands, trade secret = secrets."
+          "(a) **Phishing**.",
+          "(b) The link leads to a fake site that steals her card details and OTP, which can be used to empty her account.",
+          "(c) Never click links in unexpected messages or share an OTP; check the sender and web address, and go to the bank’s official site or app. Report the message."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Cybercrime, IPR & Open Source” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "What is cybercrime? Explain any four types with an example each, and give two ways of protecting yourself.",
         "a": [
-          "Cybercrime. A cybercrime is any illegal act in which a computer or network is used as a tool, a target, or a place to store evidence. Examples are hacking, spreading malware, online fraud, identity theft, publishing obscene material, and attacking a website so that it stops working.",
-          "Marks lens: Define IPR and its types, explain plagiarism and software piracy, distinguish FOSS from proprietary software.",
-          "Method / memory trick: Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.",
-          "Do not: Confusing copyright and patent — copyright covers creative works, patent covers inventions."
+          "Cybercrime is an illegal act carried out using a computer, a network or the internet.",
+          "Hacking: unauthorised access to a computer or account, for example guessing a password to read someone’s mail.",
+          "Phishing: fake messages or sites that trick people into giving passwords or card details.",
+          "Identity theft: using someone’s personal data to pose as them, for example to open a bank account; and cyber-bullying: harassing a person online.",
+          "Protection: use strong, different passwords with updated security software, and do not share OTPs, personal details or click unknown links."
         ]
       }
     ],
@@ -351,32 +353,32 @@
         "a": "**(c) trademark.**"
       },
       {
-        "q": "Which IPR protects an invention? (a) copyright (b) patent (c) trademark (d) licence",
-        "a": "**(b) patent.**"
+        "q": "Which IPR protects an invention? (a) copyright (b) trademark (c) patent (d) licence",
+        "a": "**(c) patent.**"
       },
       {
-        "q": "Which of these is open source? (a) MS Windows (b) Adobe Photoshop (c) Linux (d) Skype",
-        "a": "**(c) Linux.**"
+        "q": "Which of these is open source? (a) Linux (b) MS Windows (c) Adobe Photoshop (d) Skype",
+        "a": "**(a) Linux.**"
       },
       {
-        "q": "Presenting someone else's work as your own is — (a) piracy (b) plagiarism (c) phishing (d) hacking",
-        "a": "**(b) plagiarism.**"
+        "q": "Presenting someone else's work as your own is — (a) piracy (b) phishing (c) hacking (d) plagiarism",
+        "a": "**(d) plagiarism.**"
       },
       {
         "q": "Software free to use but closed in source is called — (a) shareware (b) freeware (c) FOSS (d) malware",
         "a": "**(b) freeware.**"
       },
       {
-        "q": "Copying a paid program and selling it without the owner's permission is: (a) software piracy  (b) fair use  (c) open source  (d) shareware",
-        "a": "**(a) software piracy.** It is a criminal offence under the Copyright Act."
+        "q": "Copying a paid program and selling it without the owner's permission is: (a) fair use  (b) open source  (c) shareware  (d) software piracy",
+        "a": "**(d) software piracy.** It is a criminal offence under the Copyright Act."
       },
       {
         "q": "Open source software is software that: (a) lets users study, change and share the source code  (b) is always free of cost  (c) cannot be copied  (d) runs only on mobile phones",
         "a": "**(a) lets users study, change and share the source code.** Free refers to freedom, not necessarily to price."
       },
       {
-        "q": "Software distributed as a paid trial is called: (a) shareware (b) freeware (c) FOSS (d) malware",
-        "a": "**(a) shareware.** Try first, pay later; freeware is free but closed, FOSS is open in source."
+        "q": "Software distributed as a paid trial is called: (a) freeware (b) shareware (c) FOSS (d) malware",
+        "a": "**(b) shareware.** Try first, pay later; freeware is free but closed, FOSS is open in source."
       }
     ],
     "trend": "One IPR question and one FOSS-versus-proprietary question appear in most papers.",

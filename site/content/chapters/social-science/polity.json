@@ -60,20 +60,22 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Power Sharing” (Belgium and Sri Lanka, and the four forms of power sharing.). A classmate lost marks by doing this: Giving Belgium's language shares the wrong way round. 59% Flemish (Dutch), 40% Walloon (French), 1% German. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes that 59% of Belgium’s people speak French and 40% speak Dutch. Correct this, and say why the figures mattered in Belgian politics.",
         "a": [
-          "Correct method: Belgium accommodated, Sri Lanka imposed. Those two words are the entire comparison — then add three details for each.",
-          "Why the mistake costs marks: Giving Belgium's language shares the wrong way round. 59% Flemish (Dutch), 40% Walloon (French), 1% German.",
-          "Write the definition or formula first, then the working or example."
+          "In Belgium, **59%** live in the Flemish region and speak Dutch, **40%** live in the Wallonia region and speak French, and about 1% speak German.",
+          "In the capital Brussels, about 80% speak French and 20% speak Dutch.",
+          "The Dutch-speaking majority had been the poorer community, while the French-speaking minority was richer and more powerful; this created tension, especially over Brussels."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Power Sharing”: “What is the difference between prudential and moral reasons for power sharing?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Identify the form of power sharing in each case: (i) the Constitution divides powers among the legislature, the executive and the judiciary; (ii) the Union, the states and the local governments each have their own powers; (iii) Belgium’s central government must have equal numbers of Dutch- and French-speaking ministers; (iv) several parties together form a government.",
         "a": [
-          "Idea: Belgium and Sri Lanka, and the four forms of power sharing..",
-          "Prudential reasons stress the good consequences of power sharing — it reduces conflict between social groups, ensures the stability of political order and prevents violence and political instability. Moral reasons stress the intrinsic worth of power sharing — that people have a right to be consulted on how they are to be governed, and that a legitimate government is one in which citizens acquire a stake in the system through participation. Prudential reasons are about outcomes; moral reasons are about principles."
+          "(i) **Horizontal** power sharing: power is shared among different organs of government at the same level.",
+          "(ii) **Vertical** power sharing (federal division): power is shared among governments at different levels.",
+          "(iii) Power shared among **social groups**, such as religious and linguistic communities.",
+          "(iv) Power shared among **political parties**, as in a coalition government."
         ]
       },
       {
@@ -89,21 +91,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Power Sharing”. Their note says: The case of Belgium. Belgium is a small country in Europe, smaller in area than Haryana, with a population just over one crore. It has a complex ethnic composition: 59% live in the Flemish region and speak Dutch, 40% in the Wallonia region and speak French, and 1% speak German. In the capital Brusse\n\nThe chapter is described as: Belgium and Sri Lanka, and the four forms of power sharing..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nIn a country, 70% of the citizens belong to Group A, 25% to Group B and 5% to Group C. The government is formed only by Group A and passes laws favouring A’s language and religion.\n\n(a) What is this policy called?\n(b) State one likely consequence.\n(c) Suggest one power-sharing arrangement that could help.",
         "a": [
-          "(a) Belgium and Sri Lanka, and the four forms of power sharing.",
-          "(b) –5 marks. The Belgium and Sri Lanka comparison and the forms of power sharing are the set questions.",
-          "(c) Giving Belgium's language shares the wrong way round. 59% Flemish (Dutch), 40% Walloon (French), 1% German."
+          "(a) Majoritarianism.",
+          "(b) Groups B and C feel alienated and ignored, which can lead to protest, conflict and a threat to the country’s unity, as happened in Sri Lanka.",
+          "(c) Share power with minorities, for example through a coalition government, reserved representation or equal language rights."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “What is the difference between prudential and moral reasons for power sharing?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nIn a country, trade unions, farmers’ groups and business associations influence the government’s policies, and several parties together run the government.\n\n(a) Which forms of power sharing are seen here?\n(b) How does each help?\n(c) Why is it desirable not to concentrate all power in one place?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Prudential reasons stress the good consequences of power sharing — it reduces conflict between social groups, ensures the stability of political order and prevents violence and political instability. Moral reasons stress the intrinsic worth of power sharing — that people have a right to be consulted on how they are to be governed, and that a legitimate government is one in which citizens acquire a stake in the system through participation. Prudential reasons are about outcomes; moral reasons are",
-          "(c) Belgium accommodated, Sri Lanka imposed. Those two words are the entire comparison — then add three details for each."
+          "(a) Power shared among political parties (coalition government) and among pressure groups and movements.",
+          "(b) Parties compete and cooperate, so no single party dominates; pressure groups voice the interests of citizens and keep the government answerable.",
+          "(c) Concentrated power can be misused and ignores minorities; sharing power makes government accountable and stable."
         ]
       },
       {
@@ -143,36 +145,36 @@
     ],
     "mcq": [
       {
-        "q": "In Belgium, the community government is elected by: (a) all citizens of the country (b) people belonging to one language group, wherever they live (c) the residents of Brussels only (d) the Flemish region only",
-        "a": "**(b)** — people belonging to one language group, Dutch, French or German-speaking, irrespective of where they live; it has power over culture, education and language."
+        "q": "In Belgium, the community government is elected by: (a) people belonging to one language group, wherever they live (b) all citizens of the country (c) the residents of Brussels only (d) the Flemish region only",
+        "a": "**(a)** — people belonging to one language group, Dutch, French or German-speaking, irrespective of where they live; it has power over culture, education and language."
       },
       {
-        "q": "The 1956 act in Sri Lanka recognised which language as the only official language? (a) Tamil (b) English (c) Sinhala (d) Sinhala and Tamil",
-        "a": "**(c) Sinhala**, disregarding Tamil and setting off a long conflict."
+        "q": "The 1956 act in Sri Lanka recognised which language as the only official language? (a) Tamil (b) English (c) Sinhala and Tamil (d) Sinhala",
+        "a": "**(d) Sinhala**, disregarding Tamil and setting off a long conflict."
       },
       {
-        "q": "Power sharing among the legislature, executive and judiciary is an example of: (a) vertical power sharing (b) horizontal power sharing (c) community power sharing (d) coalition government",
-        "a": "**(b) horizontal power sharing**, since the organs are placed at the same level and each checks the others."
+        "q": "Power sharing among the legislature, executive and judiciary is an example of: (a) vertical power sharing (b) community power sharing (c) horizontal power sharing (d) coalition government",
+        "a": "**(c) horizontal power sharing**, since the organs are placed at the same level and each checks the others."
       },
       {
-        "q": "The most exam-ready way to revise “Power Sharing” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Belgium and Sri Lanka, and the four forms of power sharing.."
+        "q": "Which of the following is a prudential reason for power sharing? (a) It is the very spirit of democracy. (b) It gives the majority total control. (c) It makes elections unnecessary. (d) It reduces the possibility of conflict between social groups.",
+        "a": "**(d) It reduces the possibility of conflict between social groups.** Prudential reasons stress the practical gain: power sharing lessens conflict and so keeps the country stable. Moral reasons stress its value in itself."
       },
       {
-        "q": "A 3-mark answer on “Power Sharing” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "In Sri Lanka, the largest community is the: (a) Sinhala-speaking community (b) Sri Lankan Tamils (c) Muslims (d) Indian Tamils",
+        "a": "**(a) Sinhala-speaking community.** About three-fourths of Sri Lankans speak Sinhala; Tamils and Muslims are the main minorities."
       },
       {
-        "q": "Which of these was a majoritarian measure in Sri Lanka? (a) making Sinhala the only official language in 1956  (b) power sharing  (c) federalism  (d) proportional representation",
-        "a": "**(a) making Sinhala the only official language in 1956.** It disregarded the Tamil-speaking minority and deepened the conflict."
+        "q": "Which of these was a majoritarian measure in Sri Lanka? (a) power sharing  (b) making Sinhala the only official language in 1956  (c) federalism  (d) proportional representation",
+        "a": "**(b) making Sinhala the only official language in 1956.** It disregarded the Tamil-speaking minority and deepened the conflict."
       },
       {
         "q": "In Belgium's central government, the number of Dutch-speaking and French-speaking ministers must be: (a) unequal  (b) equal  (c) decided by the King  (d) decided by the majority",
         "a": "**(b) equal.** This special arrangement balances the two main linguistic communities."
       },
       {
-        "q": "Horizontal distribution of power means sharing power among: (a) different levels of government  (b) the legislature, executive and judiciary  (c) social groups  (d) political parties only",
-        "a": "**(b) the legislature, executive and judiciary.** It creates a system of checks and balances between the organs of government."
+        "q": "Horizontal distribution of power means sharing power among: (a) different levels of government  (b) social groups  (c) the legislature, executive and judiciary  (d) political parties only",
+        "a": "**(c) the legislature, executive and judiciary.** It creates a system of checks and balances between the organs of government."
       }
     ],
     "trend": "The Belgium–Sri Lanka comparison and the four forms of power sharing alternate as the set long answer; prudential versus moral reasons is a frequent 3-mark question.",
@@ -253,20 +255,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Federalism” (Coming together and holding together, the three lists, and decentralisation.). A classmate lost marks by doing this: Saying the Indian constitution uses the word 'federation'. It does not; the Indian Union is based on federal principles. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes that education is a State List subject. Correct this, and give two examples each of the Union, State and Concurrent Lists.",
         "a": [
-          "Correct method: Union List = national, State List = local, Concurrent = both. If a subject matters to the whole country (defence, currency) it is Union; if it is local (police, agriculture) it is State.",
-          "Why the mistake costs marks: Saying the Indian constitution uses the word 'federation'. It does not; the Indian Union is based on federal principles.",
-          "Write the definition or formula first, then the working or example."
+          "Education was moved from the State List to the **Concurrent List** by the 42nd Amendment in 1976.",
+          "Union List: defence, foreign affairs, banking, currency. State List: police, agriculture, trade, irrigation.",
+          "Concurrent List: education, forests, marriage and adoption, trade unions. If a state law and a Union law on a Concurrent subject conflict, the Union law prevails."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Federalism”: “Distinguish between 'coming together' and 'holding together' federations with two examples each.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Computer software and the Internet were not known when the Constitution was drafted. Which government can make laws on them, and why? What are residuary subjects?",
         "a": [
-          "Idea: Coming together and holding together, the three lists, and decentralisation..",
-          "In a coming-together federation, independent states come together on their own to form a bigger unit, pooling sovereignty while retaining their identity — the USA, Switzerland and Australia. In a holding-together federation, a large country divides power between the constituent states and the national government, and the centre tends to be more powerful — India, Spain and Belgium."
+          "Residuary subjects are those that came up after the Constitution was made and so appear in none of the three lists.",
+          "The Constitution gives the **Union government** the power to legislate on them.",
+          "So the Union government makes laws on computer software, while states legislate on State List subjects."
         ]
       },
       {
@@ -283,21 +286,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Federalism”. Their note says: What is federalism? A system of government in which power is divided between a central authority and various constituent units of the country. Usually a federation has two levels of government: one for the entire country, responsible for subjects of common interest, and governments at the level of p\n\nThe chapter is described as: Coming together and holding together, the three lists, and decentralisation..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nIndia has many languages, and the Constitution did not name any one language as the “national language”.\n\n(a) Which language is the official language of the Union?\n(b) How many languages are listed in the Eighth Schedule?\n(c) How does this arrangement support federalism?",
         "a": [
-          "(a) Coming together and holding together, the three lists, and decentralisation.",
-          "(b) –5 marks. The Union List, State List and Concurrent List with subjects is a set question; decentralisation through the 1992 amendment is the other.",
-          "(c) Saying the Indian constitution uses the word 'federation'. It does not; the Indian Union is based on federal principles."
+          "(a) Hindi, though only about 40% of Indians speak it as their mother tongue; English is also used for official purposes.",
+          "(b) Twenty-two languages are listed as scheduled languages.",
+          "(c) States have their own official languages and the Union recognises many languages, so no group’s language is imposed on others and diversity is respected."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Distinguish between 'coming together' and 'holding together' federations with two examples each.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nTwo neighbouring states quarrel over the sharing of river water, and the Union government and a state disagree over which of them may make a law on a subject.\n\n(a) Who decides such disputes?\n(b) Why is such a body needed in a federal system?\n(c) Name two features of Indian federalism.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) In a coming-together federation, independent states come together on their own to form a bigger unit, pooling sovereignty while retaining their identity — the USA, Switzerland and Australia. In a holding-together federation, a large country divides power between the constituent states and the national government, and the centre tends to be more powerful — India, Spain and Belgium.",
-          "(c) Union List = national, State List = local, Concurrent = both. If a subject matters to the whole country (defence, currency) it is Union; if it is local (police, agriculture) it is State."
+          "(a) The judiciary: the Supreme Court and High Courts, which interpret the Constitution.",
+          "(b) Power is divided between levels of government, so an independent umpire is needed to see that each stays within its limits.",
+          "(c) Two (or three) levels of government with separate jurisdictions listed in the Constitution; a written constitution that cannot be changed by one level alone; an independent judiciary; revenue sources for each level."
         ]
       },
       {
@@ -338,8 +341,8 @@
     ],
     "mcq": [
       {
-        "q": "Which of the following subjects falls in the Concurrent List? (a) police (b) defence (c) education (d) banking",
-        "a": "**(c) education** — moved to the Concurrent List in 1976; police is in the State List, defence and banking in the Union List."
+        "q": "Which of the following subjects falls in the Concurrent List? (a) education (b) police (c) defence (d) banking",
+        "a": "**(a) education** — moved to the Concurrent List in 1976; police is in the State List, defence and banking in the Union List."
       },
       {
         "q": "India is an example of a: (a) coming together federation (b) holding together federation (c) unitary state (d) confederation",
@@ -350,20 +353,20 @@
         "a": "**(b) the amendment of 1992 (the 73rd and 74th Amendments)**, which created the third tier of democracy."
       },
       {
-        "q": "The most exam-ready way to revise “Federalism” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Coming together and holding together, the three lists, and decentralisation.."
+        "q": "In India, subjects that are not in any of the three lists (residuary subjects) belong to the: (a) State governments (b) Local governments (c) Union government (d) Supreme Court",
+        "a": "**(c) Union government.** The Constitution gives the Union government the power to legislate on residuary subjects."
       },
       {
-        "q": "A 3-mark answer on “Federalism” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The elected council at the village level in India is called the: (a) Zila Parishad (b) Municipal Corporation (c) Gram Panchayat (d) Panchayat Samiti",
+        "a": "**(c) Gram Panchayat.** The Gram Panchayat is the elected local government of a village, headed by the sarpanch."
       },
       {
-        "q": "Which of these subjects is in the State List? (a) defence  (b) police  (c) banking  (d) foreign affairs",
-        "a": "**(b) police.** Defence, banking and foreign affairs are Union List subjects."
+        "q": "Which of these subjects is in the State List? (a) police  (b) defence  (c) banking  (d) foreign affairs",
+        "a": "**(a) police.** Defence, banking and foreign affairs are Union List subjects."
       },
       {
-        "q": "The 73rd Constitutional Amendment Act is concerned with: (a) Panchayati Raj  (b) municipalities  (c) GST  (d) the right to education",
-        "a": "**(a) Panchayati Raj.** The 74th Amendment deals with municipalities, that is, urban local bodies."
+        "q": "The 73rd Constitutional Amendment Act is concerned with: (a) municipalities  (b) GST  (c) the right to education  (d) Panchayati Raj",
+        "a": "**(d) Panchayati Raj.** The 74th Amendment deals with municipalities, that is, urban local bodies."
       },
       {
         "q": "Which of these is not a language listed in the Eighth Schedule of the Indian Constitution? (a) Sindhi  (b) Nepali  (c) Maithili  (d) English",
@@ -457,20 +460,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Gender, Religion and Caste” (Gender inequality in politics, communalism, and the caste–politics relationship.). A classmate lost marks by doing this: Calling the Indian state anti-religious. Secularism here is a principled distance: the state can and does intervene in religion to end inequality. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes: “India is a secular state, so the government is against all religions.” Correct the statement and give two features of Indian secularism.",
         "a": [
-          "Correct method: Three sections, three lists: gender (work, wages, seats), religion (communalism and secularism), caste (caste in politics, politics in caste).",
-          "Why the mistake costs marks: Calling the Indian state anti-religious. Secularism here is a principled distance: the state can and does intervene in religion to end inequality.",
-          "Write the definition or formula first, then the working or example."
+          "A secular state is **not anti-religious**. It has no official religion and treats all religions equally.",
+          "Every citizen is free to practise, profess and propagate any religion, and the state does not discriminate on the ground of religion.",
+          "The state can still intervene in religious matters to ensure equality, for example by banning untouchability."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Gender, Religion and Caste”: “What is the sexual division of labour and how does it lead to gender inequality?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Women labourers at a construction site are paid less than men for the same work. Which Act does this violate, what does the Act provide, and what is this an example of?",
         "a": [
-          "Idea: Gender inequality in politics, communalism, and the caste–politics relationship..",
-          "The sexual division of labour is the arrangement in which women do the housework, cook and look after children while men work outside the home for wages. It rests on social expectation, not on biology. Because paid work outside is treated as real work while the unpaid work at home is not counted at all, women's contribution is undervalued. That is where gender inequality begins: it keeps women out of the public sphere and out of better-paid, higher-status work."
+          "It violates the **Equal Remuneration Act, 1976**.",
+          "The Act provides for equal wages for equal work for men and women.",
+          "This is an example of gender discrimination, which comes from patriarchy and the sexual division of labour."
         ]
       },
       {
@@ -487,21 +491,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Gender, Religion and Caste”. Their note says: Gender and the sexual division of labour. Girls and boys are brought up differently: women do the housework and look after children, men work outside the home for wages. This division of work is based on social expectation, not on biology, and it is where gender inequality begins. Because work outsi\n\nThe chapter is described as: Gender inequality in politics, communalism, and the caste–politics relationship..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nIn some regions, the number of girls per 1000 boys in the age group 0–6 is far below the national average.\n\n(a) What is this ratio called?\n(b) Which practice has contributed to it?\n(c) State one measure to address the problem.",
         "a": [
-          "(a) Gender inequality in politics, communalism, and the caste–politics relationship.",
-          "(b) Among the surest marks in Political Science. The definition of communalism and the two faces of the caste–politics relationship are asked almost every year.",
-          "(c) Calling the Indian state anti-religious. Secularism here is a principled distance: the state can and does intervene in religion to end inequality."
+          "(a) The child sex ratio.",
+          "(b) Sex-selective abortion, arising from a preference for sons in a patriarchal society.",
+          "(c) Laws against sex-determination tests, awareness campaigns, and promoting girls’ education and equal opportunities."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “What is the sexual division of labour and how does it lead to gender inequality?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nIn a constituency, voters belong to many castes and no single caste has a majority. A candidate says, “Vote for me because I belong to your caste.”\n\n(a) Can a candidate win on caste appeal alone?\n(b) Why not?\n(c) Is the effect of caste politics only negative? Explain.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) The sexual division of labour is the arrangement in which women do the housework, cook and look after children while men work outside the home for wages. It rests on social expectation, not on biology. Because paid work outside is treated as real work while the unpaid work at home is not counted at all, women's contribution is undervalued. That is where gender inequality begins: it keeps women out of the public sphere and out of better-paid, higher-status work.",
-          "(c) Three sections, three lists: gender (work, wages, seats), religion (communalism and secularism), caste (caste in politics, politics in caste)."
+          "(a) No.",
+          "(b) No constituency has a clear majority of one caste, so every party needs the support of more than one caste or community; voters also judge candidates and governments on performance, not caste alone.",
+          "(c) No. It has given disadvantaged castes a voice and a share in power, but when caste dominates politics it can distract from issues of poverty and development and cause tension."
         ]
       },
       {
@@ -545,32 +549,32 @@
         "a": "**(b) 1976.**"
       },
       {
-        "q": "Seats reserved for women in panchayats and municipalities are: (a) one-half (b) one-third (c) one-fourth (d) one-fifth",
-        "a": "**(b) one-third**, which several states have since raised to one-half."
+        "q": "Seats reserved for women in panchayats and municipalities are: (a) one-half (b) one-fourth (c) one-third (d) one-fifth",
+        "a": "**(c) one-third**, which several states have since raised to one-half."
       },
       {
-        "q": "Communalism means: (a) being a religious person (b) treating one's religion as the basis of political community and of rival interests (c) keeping religion out of public life (d) the state supporting one religion",
-        "a": "**(b)** — the belief that the followers of one religion share common secular interests while different religions have opposed interests."
+        "q": "Communalism means: (a) being a religious person (b) keeping religion out of public life (c) the state supporting one religion (d) treating one's religion as the basis of political community and of rival interests",
+        "a": "**(d)** — the belief that the followers of one religion share common secular interests while different religions have opposed interests."
       },
       {
-        "q": "The most exam-ready way to revise “Gender, Religion and Caste” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Gender inequality in politics, communalism, and the caste–politics relationship.."
+        "q": "Patriarchy is a social system in which: (a) women dominate men (b) both sexes have equal authority (c) elders are not respected (d) men dominate and women are given lesser value",
+        "a": "**(d) men dominate and women are given lesser value.** Patriarchy means male dominance; women have fewer opportunities and rights as a result."
       },
       {
-        "q": "A 3-mark answer on “Gender, Religion and Caste” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "A secular state is one that: (a) has no official religion and treats all religions equally (b) promotes the majority religion (c) bans all religions (d) allows only one religion in public life",
+        "a": "**(a) has no official religion and treats all religions equally.** Secularism in India means equal respect for all religions and no official state religion."
       },
       {
-        "q": "Compared with men, women in India have: (a) a higher literacy rate  (b) the same literacy rate  (c) a lower literacy rate  (d) over 95% literacy",
-        "a": "**(c) a lower literacy rate.** The gap is also visible in wage rates, the child sex ratio and workforce participation."
+        "q": "Compared with men, women in India have: (a) a higher literacy rate  (b) a lower literacy rate  (c) the same literacy rate  (d) over 95% literacy",
+        "a": "**(b) a lower literacy rate.** The gap is also visible in wage rates, the child sex ratio and workforce participation."
       },
       {
-        "q": "Which of these is an expression of communalism? (a) respect for all religions  (b) a religious procession accompanied by violence against another community  (c) celebrating festivals together  (d) inter-faith marriage",
-        "a": "**(b) a religious procession accompanied by violence against another community.** Communalism turns religious difference into political confrontation and fear."
+        "q": "Which of these is an expression of communalism? (a) respect for all religions  (b) celebrating festivals together  (c) a religious procession accompanied by violence against another community  (d) inter-faith marriage",
+        "a": "**(c) a religious procession accompanied by violence against another community.** Communalism turns religious difference into political confrontation and fear."
       },
       {
-        "q": "The Women's Reservation Act, 2023 reserves what share of seats in the Lok Sabha for women? (a) 10%  (b) 33%  (c) 50%  (d) 25%",
-        "a": "**(b) 33%.** The 106th Amendment provides for one-third of the seats in the Lok Sabha and in the state assemblies."
+        "q": "The Women's Reservation Act, 2023 reserves what share of seats in the Lok Sabha for women? (a) 33%  (b) 10%  (c) 50%  (d) 25%",
+        "a": "**(a) 33%.** The 106th Amendment provides for one-third of the seats in the Lok Sabha and in the state assemblies."
       }
     ],
     "trend": "One 3-mark or 5-mark question from one of the three sections — the definition of communalism, the two faces of the caste–politics relationship, or the reasons for women's low representation. Answers lifted almost word for word from the book score full marks here, so keep the wording of communalism and of 'caste in politics' and 'politics in caste' exact.",
@@ -704,20 +708,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Political Parties” (Functions of parties, national parties, and reforms.). A classmate lost marks by doing this: Giving the BSP symbol as the elephant with a howdah or naming a party that is only a state party. Stick to the EC's recognised national party list. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes that the anti-defection law completely stops legislators from changing parties. Correct this and mention one criticism of it.",
         "a": [
-          "Correct method: National party test: 6% of votes in four states + 4 Lok Sabha seats. State party: 6% + 2 Assembly seats. *'Four for national, two for state.'*",
-          "Why the mistake costs marks: Giving the BSP symbol as the elephant with a howdah or naming a party that is only a state party. Stick to the EC's recognised national party list.",
-          "Write the definition or formula first, then the working or example."
+          "A legislator who leaves the party on whose ticket he or she was elected can lose the seat; the 2003 amendment also bars defectors from holding ministerial posts.",
+          "The law has **reduced** defection but has not ended it; parties have found other ways around it.",
+          "Critics say it makes dissent within a party difficult, since legislators must follow the party leaders’ decisions."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Political Parties”: “What is the criterion for a party to be recognised as a national party?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "In an election to a state Assembly, Party X wins 7% of the votes and 3 seats. In the Lok Sabha elections it wins 3% of the votes nationally and 2 seats. Which type of party can it be recognised as? State the Election Commission’s rules.",
         "a": [
-          "Idea: Functions of parties, national parties, and reforms..",
-          "A party is recognised as a national party by the Election Commission if it secures at least six per cent of the total votes in Lok Sabha elections or Assembly elections in four states, and wins at least four seats in the Lok Sabha. State parties need at least six per cent of the votes in the state Assembly elections and at least two seats."
+          "State party: at least 6% of the votes in the Assembly election and at least two seats.",
+          "National party: at least 6% of the votes in Lok Sabha or Assembly elections in four states and at least four Lok Sabha seats.",
+          "Party X meets the first rule (7% and 3 seats), so it is a **state party**. It does not meet the national-party rule."
         ]
       },
       {
@@ -733,21 +738,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Political Parties”. Their note says: What is a political party? A group of people who come together to contest elections and hold power in the government. A party agrees on some policies and programmes for the society with a view to promoting the collective good, decides what policies to pursue once in power, and reflects fundamental p\n\nThe chapter is described as: Functions of parties, national parties, and reforms..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA party in power receives huge donations from a few rich businessmen, while another party depends on small contributions from many ordinary people. Some candidates in the state have criminal cases against them.\n\n(a) Which challenge to political parties is shown?\n(b) How does it harm voters and elections?\n(c) Name one reform that the courts or the Election Commission introduced.",
         "a": [
-          "(a) Functions of parties, national parties, and reforms.",
-          "(b) –5 marks. The functions of political parties and the challenges they face are asked almost every year.",
-          "(c) Giving the BSP symbol as the elephant with a howdah or naming a party that is only a state party. Stick to the EC's recognised national party list."
+          "(a) The growing role of money and muscle power in politics.",
+          "(b) Rich donors and criminals can gain influence, honest candidates and poor voters are at a disadvantage, and voters’ real choice is reduced.",
+          "(c) The Supreme Court made it compulsory for candidates to file an affidavit giving details of their property and criminal cases; the Election Commission also required parties to hold organisational elections and file income-tax returns."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “What is the criterion for a party to be recognised as a national party?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nIn country P only one party is allowed to contest elections. In country Q two main parties alternate in power. In country R many parties compete and often form alliances.\n\n(a) Name each party system.\n(b) Which of these is not suitable for democracy, and why?\n(c) Which system exists in India?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) A party is recognised as a national party by the Election Commission if it secures at least six per cent of the total votes in Lok Sabha elections or Assembly elections in four states, and wins at least four seats in the Lok Sabha. State parties need at least six per cent of the votes in the state Assembly elections and at least two seats.",
-          "(c) National party test: 6% of votes in four states + 4 Lok Sabha seats. State party: 6% + 2 Assembly seats. *'Four for national, two for state.'*"
+          "(a) One-party system (P), two-party system (Q) and multi-party system (R).",
+          "(b) The one-party system, because voters have no choice and there is no free competition, which democracy needs.",
+          "(c) A multi-party system, in which parties often form alliances to contest elections and run governments."
         ]
       },
       {
@@ -787,24 +792,24 @@
     ],
     "mcq": [
       {
-        "q": "Which party was founded in 1984 and uses the elephant as its symbol? (a) BJP (b) BSP (c) CPI-M (d) NCP",
-        "a": "**(b) Bahujan Samaj Party**, founded by Kanshi Ram in 1984."
+        "q": "Which party was founded in 1984 and uses the elephant as its symbol? (a) BSP (b) BJP (c) CPI-M (d) NCP",
+        "a": "**(a) Bahujan Samaj Party**, founded by Kanshi Ram in 1984."
       },
       {
-        "q": "The anti-defection provision was introduced to prevent elected representatives from: (a) voting against the party (b) changing parties for cash or ministerial reward (c) contesting as independents (d) resigning from the legislature",
-        "a": "**(b)** — the constitution was amended so that an elected representative cannot change parties to become a minister or for cash reward."
+        "q": "The anti-defection provision was introduced to prevent elected representatives from: (a) voting against the party (b) contesting as independents (c) resigning from the legislature (d) changing parties for cash or ministerial reward",
+        "a": "**(d)** — the constitution was amended so that an elected representative cannot change parties to become a minister or for cash reward."
       },
       {
         "q": "A party is recognised as a state party if it secures at least 6% of votes in the state Assembly elections and wins at least: (a) one seat (b) two seats (c) four seats (d) six seats",
         "a": "**(b) two seats.**"
       },
       {
-        "q": "The most exam-ready way to revise “Political Parties” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Functions of parties, national parties, and reforms.."
+        "q": "Which of the following is NOT a function of a political party? (a) contesting elections (b) forming and running governments (c) shaping public opinion (d) interpreting the Constitution",
+        "a": "**(d) interpreting the Constitution.** Interpreting the Constitution is the work of the judiciary, not of political parties."
       },
       {
-        "q": "A 3-mark answer on “Political Parties” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "In a multi-party system, when no single party wins a majority, parties usually form a: (a) coalition government (b) dictatorship (c) one-party government (d) caretaker army rule",
+        "a": "**(a) coalition government.** Several parties join together to get a majority and run the government as a coalition."
       },
       {
         "q": "A party is recognised as a national party if it secures at least what percentage of the votes polled in four or more states? (a) 4%  (b) 6%  (c) 8%  (d) 10%",
@@ -815,8 +820,8 @@
         "a": "**(c) more than 2,000, counting registered unrecognised parties.** India has six to eight national parties and several dozen state parties among them."
       },
       {
-        "q": "The Election Commission of India was set up in: (a) 1947  (b) 1950  (c) 1952  (d) 1949",
-        "a": "**(b) 1950.** It conducts elections to the Lok Sabha, Rajya Sabha, state legislatures and the offices of the President and Vice-President."
+        "q": "The Election Commission of India was set up in: (a) 1947  (b) 1952  (c) 1950  (d) 1949",
+        "a": "**(c) 1950.** It conducts elections to the Lok Sabha, Rajya Sabha, state legislatures and the offices of the President and Vice-President."
       }
     ],
     "trend": "The functions of political parties and the challenges with reforms alternate as the set 5-mark answer; recognised national parties with symbols and the anti-defection/affidavit reforms recur as short questions.",
@@ -898,20 +903,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Outcomes of Democracy” (Accountability, economic growth, dignity and the case against dictatorship.). A classmate lost marks by doing this: Saying democracies always grow faster. The evidence is that dictatorships had a slightly higher average rate; the difference is small. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes: “Democracies always grow faster than dictatorships.” Correct this using the evidence studied.",
         "a": [
-          "Correct method: Three words for assessment: accountable, responsive, legitimate. Any 5-mark answer can be organised around them.",
-          "Why the mistake costs marks: Saying democracies always grow faster. The evidence is that dictatorships had a slightly higher average rate; the difference is small.",
-          "Write the definition or formula first, then the working or example."
+          "The evidence shows that dictatorships had a **slightly higher** average rate of economic growth than democracies over the period studied.",
+          "The difference is small and is mainly due to poor democracies; among countries at the same level of development, the difference is negligible.",
+          "So the right claim is that democracy does not guarantee faster growth, but it is not a reason to prefer dictatorship, since democracy secures other things such as freedom and accountability."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Outcomes of Democracy”: “Why is a democratic government regarded as legitimate?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Explain how the Right to Information Act, 2005 makes the government more accountable. Give one example of how a citizen can use it.",
         "a": [
-          "Idea: Accountability, economic growth, dignity and the case against dictatorship..",
-          "Because it is the people's own government, chosen by them through regular, free and fair elections. Even where democracy performs poorly or is slow, it cannot be dismissed as illegitimate, because the authority to govern comes from the consent of the governed. A dictatorship may be more efficient, but it is never the people's own government."
+          "The Act gives citizens the right to seek information from government offices about their working, such as files, bills, contracts and the records of public works.",
+          "This makes officials answerable and helps to reduce corruption, because decisions and spending can be examined.",
+          "Example: villagers can ask for the list of workers and payments for a road built in their village to check whether the money was properly spent."
         ]
       },
       {
@@ -927,21 +933,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Outcomes of Democracy”. Their note says: How to assess democracy. People's expectations from democracy are enormous, which makes the assessment difficult. The standard test: a democratic government must be accountable, responsive and legitimate. Accountability means citizens have the right to examine how decisions are made, so democracy mu\n\nThe chapter is described as: Accountability, economic growth, dignity and the case against dictatorship..\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nIn country P, the richest 20% of the people receive 55% of the national income and the poorest 20% receive only 4% (illustrative figures).\n\n(a) Is income distributed equally?\n(b) What does this show about the economic outcomes of democracy?\n(c) Why is democracy still preferred?",
         "a": [
-          "(a) Accountability, economic growth, dignity and the case against dictatorship.",
-          "(b) –5 marks. 'Democracy is better than dictatorship because…' and the outcomes on economic growth and dignity are the set questions.",
-          "(c) Saying democracies always grow faster. The evidence is that dictatorships had a slightly higher average rate; the difference is small."
+          "(a) No; income is very unequal.",
+          "(b) Democracy does not automatically remove economic inequality; many democracies still have large gaps between rich and poor.",
+          "(c) Because it makes inequality visible and allows the poor to vote, protest and demand change, which other forms of government usually forbid."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Why is a democratic government regarded as legitimate?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nIn a village, women and Dalits who were once not allowed to speak at the gram sabha now vote and some have been elected to the panchayat.\n\n(a) Which outcome of democracy does this show?\n(b) Why is the dignity of citizens important for a government?\n(c) Why is democracy better than other systems at securing dignity?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Because it is the people's own government, chosen by them through regular, free and fair elections. Even where democracy performs poorly or is slow, it cannot be dismissed as illegitimate, because the authority to govern comes from the consent of the governed. A dictatorship may be more efficient, but it is never the people's own government.",
-          "(c) Three words for assessment: accountable, responsive, legitimate. Any 5-mark answer can be organised around them."
+          "(a) Democracy promotes equality and dignity: every adult has one equal vote, and weaker sections can claim their rights.",
+          "(b) A government that respects its people’s dignity earns their trust, so its rule is seen as legitimate.",
+          "(c) In a democracy equal rights are recognised in law and struggles by women and disadvantaged groups for respect have been able to succeed."
         ]
       },
       {
@@ -981,32 +987,32 @@
     ],
     "mcq": [
       {
-        "q": "Which of the following is the most fundamental outcome of democracy? (a) faster economic growth (b) promotion of the dignity and freedom of the citizen (c) efficient decision-making (d) absence of conflict",
-        "a": "**(b) promotion of the dignity and freedom of the citizen** — democracy is based on recognising the equal worth of all citizens."
+        "q": "Which of the following is the most fundamental outcome of democracy? (a) promotion of the dignity and freedom of the citizen (b) faster economic growth (c) efficient decision-making (d) absence of conflict",
+        "a": "**(a) promotion of the dignity and freedom of the citizen** — democracy is based on recognising the equal worth of all citizens."
       },
       {
         "q": "Democracy is better than dictatorship mainly because it: (a) takes decisions faster (b) is more efficient (c) is accountable, responsive and legitimate (d) has no opposition",
         "a": "**(c)** — accountability, responsiveness and legitimacy are the standard tests of a democratic government."
       },
       {
-        "q": "Criticism of the functioning of democracy by citizens is: (a) a sign of its weakness (b) a sign of its strength and of people's rising expectations (c) proof that democracy fails (d) irrelevant",
-        "a": "**(b)** — only democracy can be publicly criticised, and complaint shows that people expect more of it."
+        "q": "Criticism of the functioning of democracy by citizens is: (a) a sign of its weakness (b) proof that democracy fails (c) irrelevant (d) a sign of its strength and of people's rising expectations",
+        "a": "**(d)** — only democracy can be publicly criticised, and complaint shows that people expect more of it."
       },
       {
-        "q": "The most exam-ready way to revise “Outcomes of Democracy” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Accountability, economic growth, dignity and the case against dictatorship.."
+        "q": "The Right to Information Act enables citizens to: (a) seek information about the working of government offices (b) change any law they dislike (c) remove a judge from office (d) avoid paying taxes",
+        "a": "**(a) seek information about the working of government offices.** It gives people the right to ask for records, so decisions of government can be examined."
       },
       {
-        "q": "A 3-mark answer on “Outcomes of Democracy” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "In democracies, economic inequalities: (a) are always completely removed (b) cannot be discussed in public (c) can persist, but citizens can openly debate and demand reform (d) are decided by a single ruler",
+        "a": "**(c) can persist, but citizens can openly debate and demand reform.** Democracy does not guarantee equal incomes, but it allows citizens to voice demands and press for change."
       },
       {
-        "q": "Which of these supports the dignity of citizens in a democracy? (a) universal adult franchise  (b) censorship of the press  (c) hereditary rule  (d) one-party rule",
-        "a": "**(a) universal adult franchise.** It makes every adult an equal citizen, regardless of caste, class, religion or gender."
+        "q": "Which of these supports the dignity of citizens in a democracy? (a) censorship of the press  (b) universal adult franchise  (c) hereditary rule  (d) one-party rule",
+        "a": "**(b) universal adult franchise.** It makes every adult an equal citizen, regardless of caste, class, religion or gender."
       },
       {
-        "q": "Democracy is described as ‘rule by discussion and persuasion' because: (a) it relies on consultation  (b) it relies on force  (c) it bans debate  (d) the army decides",
-        "a": "**(a) it relies on consultation.** Decisions are publicly debated and have to be justified to the people."
+        "q": "Democracy is described as ‘rule by discussion and persuasion' because: (a) it relies on force  (b) it bans debate  (c) the army decides  (d) it relies on consultation",
+        "a": "**(d) it relies on consultation.** Decisions are publicly debated and have to be justified to the people."
       },
       {
         "q": "Transparency in a democracy means: (a) the government may withhold all information  (b) citizens have the right to know and to examine the process of decision-making  (c) only leaders know the rules  (d) elections are unnecessary",

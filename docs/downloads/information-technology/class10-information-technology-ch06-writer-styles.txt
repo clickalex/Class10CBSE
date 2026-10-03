@@ -1,0 +1,112 @@
+﻿CLASS 10 CBSE · INFORMATION TECHNOLOGY (Subject Code 402)
+Chapter 6 · Introduction to Styles (Writer) · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/information-technology/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 6 · Introduction to Styles (Writer)
+Unit: Part B · Digital Documentation (Advanced)
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] What is a style in Writer? Name any four categories.
+    Ans: A named set of formatting that can be reused. Categories: Paragraph, Character, Page, Frame, List, Table.
+
+Q2. [Short · 2 marks] What is Fill Format mode?
+    Ans: A Styles-window tool that copies the selected style onto each paragraph (or object) you click, like a format paintbrush.
+
+Q3. [Short · 2 marks] Why are styles better than formatting each heading by hand?
+    Ans: A style stores the whole set of formatting — font, size, spacing, alignment — in one named item. Change the style once and every paragraph using it changes, the document stays consistent, and headings styled with Heading 1, 2 and 3 can be collected automatically into a table of contents.
+
+Q4. [Short · 2 marks] What is the difference between a paragraph style and a character style? Give one example of each.
+    Ans:
+      A paragraph style formats a whole paragraph at once — for example, Heading 1 sets the font, size and spacing of every chapter title.
+      A character style formats only selected words inside a paragraph — for example, an Emphasis style that italicises a single term without touching the rest of the line.
+
+Q5. [Application · 3 marks] A 20-page report uses Bold 16 pt for titles. The examiner wants Heading 1 in navy. What should the student do instead of selecting each title?
+    Ans: Create or modify Heading 1 (navy, size, spacing), then Fill Format / select each title and apply Heading 1. Later, one modify updates all.
+
+Q6. [Application · 3 marks] A student wants one heading in a 30-page report to be red, so she changes the colour in the style “Heading 1”. Every heading in the report turns red. Why did this happen, and how could she have changed only one?
+    Ans:
+      A style is a stored set of formatting applied to all paragraphs that use it; changing the style changes every paragraph in that style.
+      To change only one heading, select it and apply the colour as direct formatting (or give that heading its own new style).
+      Use “Update Style” or Modify only when you want a change to apply across the whole document.
+
+Q7. [Short · 3 marks] Describe how to create and then apply a paragraph style in LibreOffice Writer.
+    Ans:
+      Format one paragraph exactly as you want it, then open the Styles window with F11 and click the New Style from Selection button.
+      Give the style a name such as ‘MyBodyText' and click OK.
+      To apply it, click anywhere in the paragraph you want to change and double-click the style name under Paragraph Styles.
+      To change the whole document, right-click the style, choose Modify and set the font, size and spacing once.
+
+Q8. [Short · 3 marks] What is ‘Update Style’? Describe a situation in which it saves more time than re-applying a style.
+    Ans:
+      Update Style takes the manual formatting of the current paragraph and writes it back into the style definition, so every paragraph using that style changes at once.
+      Situation — a report has forty Heading 2 titles in black; the teacher wants them navy. Format one title navy, click Update Style, and all forty change in one step instead of forty.
+
+Q9. [Long · 4 marks] Why should a long report use styles instead of manual formatting?
+    Ans: One change updates every heading; ToC can be generated; the look stays consistent; less chance of mixed fonts; templates become reusable.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    Neha’s ToC is empty even though titles look big and bold.
+
+    (a) Why?
+    (b) Steps to fix it.
+    (c) How will this help next time she changes the colour of all headings?
+    Ans:
+      (a) Titles used direct formatting, not Heading styles.
+      (b) Apply Heading 1/2, then Insert → Table of Contents.
+      (c) Modify Heading 1 once — every heading and the ToC pick up the new colour.
+
+Q11. [Competency · 4 marks] Read and answer:
+
+    A report has a title, three chapters and sub-sections. The student wants chapter titles in Heading 1, sub-sections in Heading 2, and body text in a style of 12 pt, justified, with 1.5 line spacing.
+
+    (a) Which category of style is used for each?
+    (b) How can she create the body-text style?
+    (c) Why is this better than formatting by hand?
+    Ans:
+      (a) All three are paragraph styles, because they format whole paragraphs.
+      (b) Format a paragraph as wanted, open the Styles sidebar (F11) and choose New Style from Selection, then give it a name such as Body.
+      (c) Changing a style once updates every paragraph using it, and Heading styles can be used to build the table of contents automatically.
+
+Q12. [Long · 5 marks] Explain how to set the page margins, add a header and insert page numbers in a Writer document using styles.
+    Ans:
+      Margins and header belong to the page style: open Format → Page Style (or the Page Style in the Styles sidebar).
+      On the Page tab, set the left, right, top and bottom margins.
+      On the Header tab, switch the header on, then click inside the header area on the page and type the text, for example “Annual Report”.
+      For page numbers, click in the header or footer and choose Insert → Field → Page Number.
+      Since this is part of the page style, it applies to every page that uses that style.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. Shortcut for the Styles window is usually: (a) F1 (b) F5 (c) F11 (d) F12
+    Ans: (c) F11.
+
+M2. Which style changes a few words inside a paragraph? (a) Page (b) Frame (c) Character (d) Table
+    Ans: (c) Character.
+
+M3. Fill Format is used to: (a) insert images (b) mail merge (c) record a macro (d) paint a style onto many paragraphs
+    Ans: (d).
+
+M4. ToC in Writer is built from: (a) Heading styles (b) bold text (c) page numbers only (d) hyperlinks only
+    Ans: (a) Heading styles.
+
+M5. To change the colour of all headings of a certain level at once, you should: (a) modify the heading’s paragraph style (b) format each heading by hand (c) use the Fill Format tool on one word (d) change the page margins
+    Ans: (a) modify the heading’s paragraph style. Headings use paragraph styles, and modifying the style updates all of them.
+
+M6. A style that controls margins, headers and footers belongs to the category of: (a) character styles (b) page styles (c) frame styles (d) list styles
+    Ans: (b) page styles. Page styles describe the layout of the page, including margins, headers and footers.
+
+M7. The Styles window in Writer is opened with: (a) Ctrl + S  (b) F7  (c) Ctrl + P  (d) F11
+    Ans: (d) F11. F7 opens the spell-check and Ctrl + S saves the document.
+
+M8. Heading 1, Heading 2 and Heading 3 are examples of: (a) character styles  (b) paragraph styles  (c) page styles  (d) frame styles
+    Ans: (b) paragraph styles. They format a whole paragraph and are used to build a table of contents.

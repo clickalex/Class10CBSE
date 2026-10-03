@@ -1,0 +1,132 @@
+﻿CLASS 10 CBSE · MATHEMATICS (Subject Code 041 / 241)
+Chapter 3 · Pair of Linear Equations in Two Variables · session 2026–27
+
+1 chapter · 12 written Q&A · 8 MCQs. The answer follows each question.
+Original practice material for revision — not official CBSE papers.
+Online: https://clickalex.github.io/Class10CBSE/maths/question-bank.html
+Created by Mohammad Umair
+
+========================================================================
+CHAPTER 3 · Pair of Linear Equations in Two Variables
+Unit: II · Algebra
+========================================================================
+
+A. WRITTEN QUESTIONS (12)
+------------------------------------------------------------------------
+
+Q1. [Short · 2 marks] Without solving, tell whether 2x − 3y = 7 and 4x − 6y = 14 have a unique solution.
+    Ans:
+      a₁/a₂ = 2/4 = 1/2, b₁/b₂ = −3/−6 = 1/2, c₁/c₂ = (−7)/(−14) = 1/2.
+      All three ratios are equal, so the lines are coincident — infinitely many solutions, not a unique one.
+
+Q2. [Short · 3 marks] Solve by elimination: 3x + 4y = 10 and 2x − 3y = 1.
+    Ans:
+      Multiply the first by 3 and the second by 4: 9x + 12y = 30 and 8x − 12y = 4.
+      Adding: 17x = 34, so x = 2.
+      Substituting in the first: 6 + 4y = 10, so y = 1.
+
+Q3. [Application · 3 marks] To solve 2/x + 3/y = 13 and 5/x − 4/y = −2, a student puts u = 1/x and v = 1/y, finds u = 2 and v = 3 and writes “x = 2, y = 3”. What is wrong? Give the correct solution.
+    Ans:
+      The student stopped at the substituted variables. Since u = 1/x and v = 1/y, the answer must be converted back: x = 1/u = 1/2 and y = 1/v = 1/3.
+      (Solving 2u + 3v = 13 and 5u − 4v = −2 does give u = 2, v = 3.)
+      Check: 2 ÷ (1/2) + 3 ÷ (1/3) = 4 + 9 = 13 ✓ and 5 ÷ (1/2) − 4 ÷ (1/3) = 10 − 12 = −2 ✓.
+
+Q4. [Application · 3 marks] Two notebooks and three pens cost Rs 90, while three notebooks and two pens cost Rs 85. Find the price of one notebook and one pen.
+    Ans:
+      Let a notebook cost Rs x and a pen Rs y: 2x + 3y = 90 and 3x + 2y = 85.
+      Adding: 5x + 5y = 175, so x + y = 35. Subtracting the first from the second: x − y = −5.
+      Solving: x = 15 and y = 20. A notebook costs Rs 15 and a pen Rs 20. Check: 2(15) + 3(20) = 90 ✓.
+
+Q5. [Short · 3 marks] For what value of k does the pair 3x + y = 1 and (2k − 1)x + (k − 1)y = 2k + 1 have no solution?
+    Ans:
+      For no solution the lines must be parallel: a₁/a₂ = b₁/b₂ ≠ c₁/c₂.
+      3/(2k − 1) = 1/(k − 1) ⇒ 3k − 3 = 2k − 1 ⇒ k = 2.
+      Check: at k = 2 the equations become 3x + y = 1 and 3x + y = 5, which are parallel and distinct — so no solution.
+
+Q6. [Short · 3 marks] Solve by cross-multiplication: 2x + 3y = 46 and 3x + 5y = 74.
+    Ans:
+      Write as 2x + 3y − 46 = 0 and 3x + 5y − 74 = 0.
+      x/(3(−74) − 5(−46)) = y/(−46(3) − (−74)(2)) = 1/(2(5) − 3(3))
+      x/(−222 + 230) = y/(−138 + 148) = 1/1, so x = 8 and y = 10.
+      Check: 2(8) + 3(10) = 46 and 3(8) + 5(10) = 74.
+
+Q7. [Short · 3 marks] Solve by substitution: x + 3y = 16 and 2x − y = 4.
+    Ans:
+      From the second equation, y = 2x − 4.
+      Substituting in the first: x + 3(2x − 4) = 16, so x + 6x − 12 = 16.
+      Hence 7x = 28, giving x = 4 and y = 2(4) − 4 = 4.
+      Check: 4 + 12 = 16 and 8 − 4 = 4. The solution is x = 4, y = 4.
+
+Q8. [Long · 4 marks] Five years ago, Nuri was thrice as old as Sonu. Ten years later, Nuri will be twice as old as Sonu. How old are they?
+    Ans:
+      Let Nuri be x and Sonu be y now.
+      x − 5 = 3(y − 5) ⇒ x − 3y = −10.
+      x + 10 = 2(y + 10) ⇒ x − 2y = 10.
+      Subtracting: −y = −20, so y = 20 and x = 50.
+      Nuri is 50 and Sonu is 20.
+
+Q9. [Competency · 4 marks] Read and answer:
+
+    Two taxi companies charge a fixed fee plus a rate per km. Company A charges Rs 40 plus Rs 10 per km; Company B charges Rs 100 plus Rs 5 per km. A student draws the lines y = 10x + 40 and y = 5x + 100, where x is the distance in km and y is the fare in rupees.
+
+    (a) Write the pair in the form ax + by + c = 0.
+    (b) At what distance do both companies charge the same fare, and what is it?
+    (c) Which company is cheaper for a 20 km trip?
+    Ans:
+      (a) 10x − y + 40 = 0 and 5x − y + 100 = 0.
+      (b) 10x + 40 = 5x + 100 gives x = 12. The fares are equal at 12 km, where each charges Rs 160 — the point (12, 160) where the lines intersect.
+      (c) For 20 km: A = Rs 240, B = Rs 200, so Company B is cheaper.
+
+Q10. [Competency · 4 marks] Read and answer:
+
+    A student plots the lines 3x + 2y = 12 and 6x + 4y = k on graph paper for different values of k.
+
+    (a) For which value of k do the lines coincide?
+    (b) For which values of k are they parallel?
+    (c) Can this pair ever have exactly one solution? Explain.
+    Ans:
+      (a) a₁/a₂ = 1/2 and b₁/b₂ = 1/2, and c₁/c₂ = 12/k. The lines coincide when 12/k = 1/2, i.e. k = 24.
+      (b) They are parallel (no solution) when k ≠ 24.
+      (c) No. Because a₁/a₂ = b₁/b₂ for every k, the lines are never intersecting: the pair has either no solution or infinitely many.
+
+Q11. [Application · 4 marks] A fraction becomes 1/3 when 1 is subtracted from its numerator, and becomes 1/4 when 8 is added to its denominator. Find the fraction.
+    Ans:
+      Let the fraction be x/y.
+      (x − 1)/y = 1/3 ⇒ y = 3x − 3. And x/(y + 8) = 1/4 ⇒ 4x = y + 8.
+      Substituting: 4x = 3x − 3 + 8 ⇒ x = 5, so y = 12.
+      The fraction is 5/12. Check: (5 − 1)/12 = 1/3 and 5/20 = 1/4.
+
+Q12. [Long · 5 marks] A boat goes 30 km upstream and 44 km downstream in 10 hours. In 13 hours it can go 40 km upstream and 55 km downstream. Find the speed of the stream and of the boat in still water.
+    Ans:
+      Let the still-water speed be x km/h and the stream’s speed be y km/h.
+      Put u = 1/(x − y) and v = 1/(x + y).
+      30u + 44v = 10 and 40u + 55v = 13.
+      Solving gives u = 1/8 and v = 1/11, so x − y = 8 and x + y = 11.
+      Therefore x = 9.5 km/h and y = 1.5 km/h.
+
+B. MCQs (8)
+------------------------------------------------------------------------
+
+M1. The pair x + y = 5 and 2x + 2y = 10 represents: (a) intersecting lines  (b) parallel lines  (c) coincident lines  (d) none
+    Ans: (c) Coincident lines. All three ratios equal 1/2.
+
+M2. For what value of k does kx + 3y = 7 and 2x + 6y = 14 have infinitely many solutions? (a) 1  (b) −1  (c) 2  (d) 1/2
+    Ans: (a) 1. We need k/2 = 3/6 = 7/14, and 3/6 = 1/2, so k = 1.
+
+M3. If a boat’s downstream speed is 12 km/h and upstream speed is 8 km/h, its still-water speed is: (a) 4  (b) 2  (c) 20 km/h  (d) 10
+    Ans: (d) 10 km/h. Still-water speed = (downstream + upstream)/2.
+
+M4. If the graphs of a pair of linear equations in two variables are two lines that coincide, the pair has: (a) infinitely many solutions  (b) no solution  (c) exactly one solution  (d) exactly two solutions
+    Ans: (a) infinitely many solutions. Every point of a line is a solution of both equations when the lines coincide, so the solutions are infinite.
+
+M5. The pair of equations x = 2 and y = 3 represents two lines that: (a) are parallel  (b) coincide  (c) meet only on the y-axis  (d) intersect at the point (2, 3)
+    Ans: (d) intersect at the point (2, 3). x = 2 is a vertical line and y = 3 is a horizontal line; they cross at (2, 3).
+
+M6. The pair 6x − 3y + 10 = 0 and 2x − y + 9 = 0 has: (a) one solution  (b) no solution  (c) two solutions  (d) infinitely many solutions
+    Ans: (b) no solution. 6/2 = 3 and (−3)/(−1) = 3 but 10/9 ≠ 3, so the lines are parallel and distinct.
+
+M7. If x + 2y = 5 and 3x + ky = 15 are coincident lines, then k = : (a) 15  (b) 6  (c) 3  (d) 2
+    Ans: (b) 6. Coincident lines need 1/3 = 2/k = 5/15, and 2/k = 1/3 gives k = 6.
+
+M8. The solution of x + y = 14 and x − y = 4 is: (a) x = 5, y = 9  (b) x = 10, y = 4  (c) x = 9, y = 5  (d) x = 8, y = 6
+    Ans: (c) x = 9, y = 5. Adding the equations gives 2x = 18, so x = 9 and then y = 5.
