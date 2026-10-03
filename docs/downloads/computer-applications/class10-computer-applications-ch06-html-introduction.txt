@@ -129,17 +129,17 @@ M2. Which tag goes inside <head>? (a) <body> (b) <h1> (c) <title> (d) <p>
 M3. The smallest heading tag is — (a) <h1> (b) <h3> (c) <h6> (d) <head>
     Ans: (c) <h6>.
 
-M4. Which of these is an empty tag? (a) <p> (b) <br> (c) <h1> (d) <title>
-    Ans: (b) <br> — it has no closing partner.
+M4. Which of these is an empty tag? (a) <br> (b) <p> (c) <h1> (d) <title>
+    Ans: (a) <br> — it has no closing partner.
 
-M5. In an HTML document, the visible content of the page is placed inside the: (a) <head> tag (b) <body> tag (c) <title> tag (d) <html> tag only, outside every other tag
-    Ans: (b) <body> tag. <body> holds everything the browser displays; <head> holds information such as the title.
+M5. In an HTML document, the visible content of the page is placed inside the: (a) <body> tag (b) <head> tag (c) <title> tag (d) <html> tag only, outside every other tag
+    Ans: (a) <body> tag. <body> holds everything the browser displays; <head> holds information such as the title.
 
-M6. The correct way to write a line break in HTML is: (a) </br> (b) <br> (c) <lb> (d) <break>
-    Ans: (b) <br>. <br> is an empty tag, so it has no closing form.
+M6. The correct way to write a line break in HTML is: (a) </br> (b) <lb> (c) <break> (d) <br>
+    Ans: (d) <br>. <br> is an empty tag, so it has no closing form.
 
-M7. The tag that sets the text shown in the browser's title bar is: (a) <title>  (b) <head>  (c) <h1>  (d) <body>
-    Ans: (a) <title>. It is placed inside the <head> section.
+M7. The tag that sets the text shown in the browser's title bar is: (a) <head>  (b) <title>  (c) <h1>  (d) <body>
+    Ans: (b) <title>. It is placed inside the <head> section.
 
-M8. The tag used for the most important heading is: (a) <h1>  (b) <h6>  (c) <p>  (d) <b>
-    Ans: (a) <h1>. Headings run from <h1>, the largest, down to <h6>, the smallest.
+M8. The tag used for the most important heading is: (a) <h6>  (b) <p>  (c) <b>  (d) <h1>
+    Ans: (d) <h1>. Headings run from <h1>, the largest, down to <h6>, the smallest.

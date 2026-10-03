@@ -190,8 +190,8 @@
     ],
     "mcq": [
       {
-        "q": "The roots of x² − 5x + 6 = 0 are: (a) 2, 3  (b) −2, −3  (c) 1, 6  (d) −1, −6",
-        "a": "**(a) 2, 3.** Product 6 and sum 5, both positive."
+        "q": "The roots of x² − 5x + 6 = 0 are: (a) −2, −3  (b) 1, 6  (c) 2, 3  (d) −1, −6",
+        "a": "**(c) 2, 3.** Product 6 and sum 5, both positive."
       },
       {
         "q": "If the discriminant of a quadratic is zero, the roots are: (a) real and distinct  (b) real and equal  (c) not real  (d) always integers",
@@ -202,24 +202,24 @@
         "a": "**(a) k ≤ 4.** D = 16 − 4k ≥ 0 gives k ≤ 4."
       },
       {
-        "q": "The quadratic equation 2x² − √5 x + 1 = 0 has: (a) two distinct real roots  (b) no real roots  (c) two equal real roots  (d) more than two real roots",
-        "a": "**(b) no real roots.** D = (√5)² − 4(2)(1) = 5 − 8 = −3 < 0, so there is no real root."
+        "q": "The quadratic equation 2x² − √5 x + 1 = 0 has: (a) two distinct real roots  (b) two equal real roots  (c) more than two real roots  (d) no real roots",
+        "a": "**(d) no real roots.** D = (√5)² − 4(2)(1) = 5 − 8 = −3 < 0, so there is no real root."
       },
       {
-        "q": "The equation ax² + bx + c = 0 (a ≠ 0) has real roots only if: (a) b² − 4ac < 0  (b) b² − 4ac ≥ 0  (c) b² − 4ac = 0 only  (d) b² + 4ac ≥ 0",
-        "a": "**(b) b² − 4ac ≥ 0.** The roots contain √(b² − 4ac), which is real exactly when the discriminant is zero or positive."
+        "q": "The equation ax² + bx + c = 0 (a ≠ 0) has real roots only if: (a) b² − 4ac < 0  (b) b² − 4ac = 0 only  (c) b² + 4ac ≥ 0  (d) b² − 4ac ≥ 0",
+        "a": "**(d) b² − 4ac ≥ 0.** The roots contain √(b² − 4ac), which is real exactly when the discriminant is zero or positive."
       },
       {
-        "q": "The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3/2  (b) 7/2 and 3  (c) −7/2 and 3/2  (d) 7/2 and −3/2",
-        "a": "**(a) 7/2 and 3/2.** Sum = −b/a = 7/2 and product = c/a = 3/2."
+        "q": "The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3  (b) 7/2 and 3/2  (c) −7/2 and 3/2  (d) 7/2 and −3/2",
+        "a": "**(b) 7/2 and 3/2.** Sum = −b/a = 7/2 and product = c/a = 3/2."
       },
       {
         "q": "Which one is NOT a quadratic equation? (a) x² + 3x + 2 = 0  (b) (x + 1)² = 2(x − 3)  (c) x³ − x² + 1 = 0  (d) 2x² = 8",
         "a": "**(c) x³ − x² + 1 = 0.** Its degree is 3, so it is a cubic; the others reduce to degree 2."
       },
       {
-        "q": "If the roots of x² − 8x + k = 0 are equal, then k = : (a) 8  (b) 16  (c) −16  (d) 64",
-        "a": "**(b) 16.** D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16."
+        "q": "If the roots of x² − 8x + k = 0 are equal, then k = : (a) 16  (b) 8  (c) −16  (d) 64",
+        "a": "**(a) 16.** D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16."
       }
     ],
     "trend": "“Find k for equal roots” is asked almost every year, plus one 4–5 mark word problem on areas or consecutive integers.",
@@ -398,12 +398,12 @@
     ],
     "mcq": [
       {
-        "q": "The 10th term of the AP 2, 7, 12, … is: (a) 45  (b) 47  (c) 50  (d) 52",
-        "a": "**(b) 47.** a₁₀ = 2 + 9(5)."
+        "q": "The 10th term of the AP 2, 7, 12, … is: (a) 52  (b) 50  (c) 47  (d) 45",
+        "a": "**(c) 47.** a₁₀ = 2 + 9(5)."
       },
       {
-        "q": "The sum of the first 10 natural numbers is: (a) 45  (b) 50  (c) 55  (d) 100",
-        "a": "**(c) 55.** n(n+1)/2 = 10 × 11/2."
+        "q": "The sum of the first 10 natural numbers is: (a) 100  (b) 55  (c) 50  (d) 45",
+        "a": "**(b) 55.** n(n+1)/2 = 10 × 11/2."
       },
       {
         "q": "S₅ − S₄ equals: (a) the 5th term  (b) the 4th term  (c) the 9th term  (d) zero",
@@ -414,20 +414,20 @@
         "a": "**(b) 1, 4, 9, 16, ….** The differences 3, 5, 7 are not equal, so 1, 4, 9, 16 has no common difference. The others have d = 3, 2 and 0."
       },
       {
-        "q": "The sum of the first n odd natural numbers 1, 3, 5, … is: (a) n(n + 1)/2  (b) 2n  (c) n(n + 1)  (d) n²",
-        "a": "**(d) n².** Here a = 1, d = 2, so Sₙ = (n/2)[2 + (n − 1)2] = n²."
+        "q": "The sum of the first n odd natural numbers 1, 3, 5, … is: (a) n(n + 1)/2  (b) 2n  (c) n²  (d) n(n + 1)",
+        "a": "**(c) n².** Here a = 1, d = 2, so Sₙ = (n/2)[2 + (n − 1)2] = n²."
       },
       {
-        "q": "The common difference of the AP whose nth term is 3n + 5 is: (a) 3  (b) 5  (c) 8  (d) 2",
-        "a": "**(a) 3.** a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n."
+        "q": "The common difference of the AP whose nth term is 3n + 5 is: (a) 5  (b) 8  (c) 2  (d) 3",
+        "a": "**(d) 3.** a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n."
       },
       {
-        "q": "If the 3rd term of an AP is 4 and the 9th term is −8, its first term is: (a) 8  (b) 6  (c) 4  (d) 2",
-        "a": "**(a) 8.** a + 2d = 4 and a + 8d = −8 give 6d = −12, so d = −2 and a = 8."
+        "q": "If the 3rd term of an AP is 4 and the 9th term is −8, its first term is: (a) 2  (b) 4  (c) 6  (d) 8",
+        "a": "**(d) 8.** a + 2d = 4 and a + 8d = −8 give 6d = −12, so d = −2 and a = 8."
       },
       {
-        "q": "The sum of the first 100 natural numbers is: (a) 5000  (b) 5050  (c) 4950  (d) 5100",
-        "a": "**(b) 5050.** S = 100 × 101/2 = 5050."
+        "q": "The sum of the first 100 natural numbers is: (a) 5050  (b) 5000  (c) 4950  (d) 5100",
+        "a": "**(a) 5050.** S = 100 × 101/2 = 5050."
       }
     ],
     "trend": "One 4–5 mark word problem (prize distribution, seating, savings) appears in most papers, plus a 2–3 mark term question.",
@@ -615,36 +615,36 @@
     ],
     "mcq": [
       {
-        "q": "Two triangles are similar if their corresponding sides are: (a) equal  (b) proportional  (c) perpendicular  (d) parallel",
-        "a": "**(b) Proportional.** That is the SSS similarity criterion."
+        "q": "Two triangles are similar if their corresponding sides are: (a) proportional  (b) equal  (c) perpendicular  (d) parallel",
+        "a": "**(a) Proportional.** That is the SSS similarity criterion."
       },
       {
         "q": "The ratio of the areas of two similar triangles is 25:49. The ratio of their corresponding sides is: (a) 25:49  (b) 5:7  (c) 7:5  (d) 49:25",
         "a": "**(b) 5:7.** Square root of the area ratio."
       },
       {
-        "q": "In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 10 cm  (b) 12 cm  (c) 14 cm  (d) 9 cm",
-        "a": "**(a) 10 cm.** √(36 + 64) = 10."
+        "q": "In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 12 cm  (b) 14 cm  (c) 10 cm  (d) 9 cm",
+        "a": "**(c) 10 cm.** √(36 + 64) = 10."
       },
       {
-        "q": "If ΔABC ~ ΔPQR, ∠A = 50° and ∠Q = 60°, then ∠C equals: (a) 60°  (b) 50°  (c) 80°  (d) 70°",
-        "a": "**(d) 70°.** ∠B = ∠Q = 60° because corresponding angles of similar triangles are equal, so ∠C = 180° − 50° − 60° = 70°."
+        "q": "If ΔABC ~ ΔPQR, ∠A = 50° and ∠Q = 60°, then ∠C equals: (a) 60°  (b) 70°  (c) 50°  (d) 80°",
+        "a": "**(b) 70°.** ∠B = ∠Q = 60° because corresponding angles of similar triangles are equal, so ∠C = 180° − 50° − 60° = 70°."
       },
       {
-        "q": "A triangle has sides 7 cm, 24 cm and 25 cm. It is: (a) acute-angled  (b) obtuse-angled  (c) right-angled  (d) equilateral",
-        "a": "**(c) right-angled.** 7² + 24² = 49 + 576 = 625 = 25², so by the converse of the Pythagoras theorem the triangle is right-angled."
+        "q": "A triangle has sides 7 cm, 24 cm and 25 cm. It is: (a) acute-angled  (b) obtuse-angled  (c) equilateral  (d) right-angled",
+        "a": "**(d) right-angled.** 7² + 24² = 49 + 576 = 625 = 25², so by the converse of the Pythagoras theorem the triangle is right-angled."
       },
       {
-        "q": "Two triangles are similar if their corresponding angles are: (a) equal  (b) supplementary  (c) complementary  (d) proportional",
-        "a": "**(a) equal.** Equiangular triangles are similar — the AAA similarity criterion."
+        "q": "Two triangles are similar if their corresponding angles are: (a) supplementary  (b) complementary  (c) proportional  (d) equal",
+        "a": "**(d) equal.** Equiangular triangles are similar — the AAA similarity criterion."
       },
       {
-        "q": "In ΔABC, DE ∥ BC with AD = 4 cm, DB = 6 cm and AE = 5 cm. Then EC = : (a) 6.5 cm  (b) 7.5 cm  (c) 8 cm  (d) 9 cm",
-        "a": "**(b) 7.5 cm.** AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm."
+        "q": "In ΔABC, DE ∥ BC with AD = 4 cm, DB = 6 cm and AE = 5 cm. Then EC = : (a) 9 cm  (b) 8 cm  (c) 7.5 cm  (d) 6.5 cm",
+        "a": "**(c) 7.5 cm.** AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm."
       },
       {
-        "q": "If the corresponding sides of two similar triangles are in the ratio 4 : 9, their areas are in the ratio: (a) 4 : 9  (b) 2 : 3  (c) 16 : 81  (d) 8 : 27",
-        "a": "**(c) 16 : 81.** The area ratio of similar triangles is the square of the side ratio."
+        "q": "If the corresponding sides of two similar triangles are in the ratio 4 : 9, their areas are in the ratio: (a) 16 : 81  (b) 4 : 9  (c) 2 : 3  (d) 8 : 27",
+        "a": "**(a) 16 : 81.** The area ratio of similar triangles is the square of the side ratio."
       }
     ],
     "trend": "One BPT or Pythagoras proof almost every year, plus one similarity numerical. Objective questions on the criteria are constant.",

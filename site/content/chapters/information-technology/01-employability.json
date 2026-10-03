@@ -180,28 +180,28 @@
     ],
     "mcq": [
       {
-        "q": "Which part of communication converts an idea into words or signs? (a) Receiving (b) Encoding (c) Decoding (d) Feedback",
-        "a": "**(b) Encoding.** Encoding prepares the sender's idea as a message; decoding interprets it."
+        "q": "Which part of communication converts an idea into words or signs? (a) Encoding (b) Receiving (c) Decoding (d) Feedback",
+        "a": "**(a) Encoding.** Encoding prepares the sender's idea as a message; decoding interprets it."
       },
       {
-        "q": "A loud generator prevents a worker from hearing instructions. The barrier is: (a) linguistic (b) cultural (c) physical (d) emotional",
-        "a": "**(c) Physical** — environmental noise blocks the message."
+        "q": "A loud generator prevents a worker from hearing instructions. The barrier is: (a) physical (b) linguistic (c) cultural (d) emotional",
+        "a": "**(a) Physical** — environmental noise blocks the message."
       },
       {
         "q": "Which of the 7 Cs means “to the point, no extra words”? (a) Clear (b) Concise (c) Concrete (d) Courteous",
         "a": "**(b) Concise.**"
       },
       {
-        "q": "“An honest boy” takes which article? (a) a (b) an (c) the (d) no article",
-        "a": "**(b) an** — use *an* before a vowel **sound**; h is silent in honest."
+        "q": "“An honest boy” takes which article? (a) a (b) the (c) no article (d) an",
+        "a": "**(d) an** — use *an* before a vowel **sound**; h is silent in honest."
       },
       {
-        "q": "A student's puzzled expression after an explanation is: (a) written encoding (b) non-verbal feedback (c) a channel (d) a language rule",
-        "a": "**(b) Non-verbal feedback.**"
+        "q": "A student's puzzled expression after an explanation is: (a) non-verbal feedback (b) written encoding (c) a channel (d) a language rule",
+        "a": "**(a) Non-verbal feedback.**"
       },
       {
-        "q": "Which sentence is complete? (a) Do that work. (b) The form is important. (c) Submit the signed form to Room 4 by Friday noon. (d) Submit it soon.",
-        "a": "**(c)** — task, place and deadline are all present."
+        "q": "Which sentence is complete? (a) Do that work. (b) Submit the signed form to Room 4 by Friday noon. (c) The form is important. (d) Submit it soon.",
+        "a": "**(b)** — task, place and deadline are all present."
       },
       {
         "q": "Paralanguage refers to: (a) body posture only (b) charts and maps (c) tone, pitch and speed of voice (d) grammar rules",
@@ -212,12 +212,12 @@
         "a": "**(c) Non-verbal** — needs no literacy."
       },
       {
-        "q": "The communication process is complete only when: (a) the receiver gives feedback  (b) the message is written  (c) the sender speaks  (d) the channel is chosen",
-        "a": "**(a) the receiver gives feedback.** Feedback tells the sender whether the message was understood."
+        "q": "The communication process is complete only when: (a) the message is written  (b) the receiver gives feedback  (c) the sender speaks  (d) the channel is chosen",
+        "a": "**(b) the receiver gives feedback.** Feedback tells the sender whether the message was understood."
       },
       {
-        "q": "Which method of communication carries no body language or tone of voice? (a) written communication  (b) face-to-face talk  (c) video call  (d) group discussion",
-        "a": "**(a) written communication.** That is why written messages must be especially clear."
+        "q": "Which method of communication carries no body language or tone of voice? (a) face-to-face talk  (b) video call  (c) group discussion  (d) written communication",
+        "a": "**(d) written communication.** That is why written messages must be especially clear."
       }
     ],
     "trend": "One 2-mark on methods, 7 Cs or feedback, plus 1-mark MCQs on barriers and articles.",
@@ -376,8 +376,8 @@
     ],
     "mcq": [
       {
-        "q": "SMART: the M stands for: (a) Magical (b) Measurable (c) Maximum (d) Monthly",
-        "a": "**(b) Measurable.**"
+        "q": "SMART: the M stands for: (a) Magical (b) Maximum (c) Monthly (d) Measurable",
+        "a": "**(d) Measurable.**"
       },
       {
         "q": "A hobby after study is mainly: (a) a waste (b) a stress-management method (c) self-employment (d) a barrier",
@@ -388,24 +388,24 @@
         "a": "**(a) self-awareness.**"
       },
       {
-        "q": "Which goal is SMART? (a) I will study more (b) I will type 40 correct rows in Calc by 3 pm (c) I will become famous (d) I will try",
-        "a": "**(b).**"
+        "q": "Which goal is SMART? (a) I will study more (b) I will become famous (c) I will type 40 correct rows in Calc by 3 pm (d) I will try",
+        "a": "**(c).**"
       },
       {
         "q": "Which of the following is an example of self-regulation? (a) Feeling angry at a remark but waiting and replying politely later (b) Setting a goal to score 90% in the exam (c) Listing one’s strengths and weaknesses (d) Being able to see the cause of someone else’s stress",
         "a": "**(a) Feeling angry at a remark but waiting and replying politely later.** Self-regulation means controlling one’s emotions and actions; the other options show self-motivation and self-awareness."
       },
       {
-        "q": "A task that is important but not urgent should be: (a) scheduled for a fixed time (b) done at once, before anything else (c) given to somebody else (d) dropped from the list",
-        "a": "**(a) scheduled for a fixed time.** In the urgent/important method, important but not urgent tasks are planned for later so that they do not become urgent."
+        "q": "A task that is important but not urgent should be: (a) done at once, before anything else (b) given to somebody else (c) scheduled for a fixed time (d) dropped from the list",
+        "a": "**(c) scheduled for a fixed time.** In the urgent/important method, important but not urgent tasks are planned for later so that they do not become urgent."
       },
       {
-        "q": "Self-awareness means: (a) knowing your own strengths, weaknesses and feelings  (b) only knowing other people  (c) working without help  (d) following orders",
-        "a": "**(a) knowing your own strengths, weaknesses and feelings.** It is the first step of self-management."
+        "q": "Self-awareness means: (a) only knowing other people  (b) working without help  (c) following orders  (d) knowing your own strengths, weaknesses and feelings",
+        "a": "**(d) knowing your own strengths, weaknesses and feelings.** It is the first step of self-management."
       },
       {
-        "q": "The useful stress that pushes you to perform better is called: (a) eustress  (b) distress  (c) burnout  (d) depression",
-        "a": "**(a) eustress.** Distress is the harmful kind that lowers performance and health."
+        "q": "The useful stress that pushes you to perform better is called: (a) distress  (b) eustress  (c) burnout  (d) depression",
+        "a": "**(b) eustress.** Distress is the harmful kind that lowers performance and health."
       }
     ],
     "trend": "SMART expansion and two stress-management methods appear almost every sample paper.",
@@ -567,32 +567,32 @@
     ],
     "mcq": [
       {
-        "q": "Which is an OS? (a) LibreOffice Writer (b) Chrome (c) Linux (d) Calc",
-        "a": "**(c) Linux.**"
+        "q": "Which is an OS? (a) LibreOffice Writer (b) Chrome (c) Calc (d) Linux",
+        "a": "**(d) Linux.**"
       },
       {
         "q": "`.ods` is usually: (a) a Writer file (b) a Calc spreadsheet (c) a Base database (d) an image",
         "a": "**(b) a Calc spreadsheet.**"
       },
       {
-        "q": "The Recycle Bin is used to: (a) speed up RAM (b) store deleted files until emptied (c) install an OS (d) scan viruses",
-        "a": "**(b).**"
+        "q": "The Recycle Bin is used to: (a) speed up RAM (b) install an OS (c) scan viruses (d) store deleted files until emptied",
+        "a": "**(d).**"
       },
       {
         "q": "A computer should be shut down: (a) by pulling the plug (b) using the OS shutdown command (c) by holding the monitor button (d) never",
         "a": "**(b).**"
       },
       {
-        "q": "Which of the following is application software? (a) Windows (b) Linux (c) Android (d) LibreOffice Writer",
-        "a": "**(d) LibreOffice Writer.** Writer is a program for a task (word processing); the others are operating systems."
+        "q": "Which of the following is application software? (a) LibreOffice Writer (b) Windows (c) Linux (d) Android",
+        "a": "**(a) LibreOffice Writer.** Writer is a program for a task (word processing); the others are operating systems."
       },
       {
-        "q": "A folder that is stored inside another folder is called a: (a) shortcut (b) sub-folder (c) file extension (d) drive",
-        "a": "**(b) sub-folder.** Folders can be nested, and a folder within a folder is a sub-folder."
+        "q": "A folder that is stored inside another folder is called a: (a) shortcut (b) file extension (c) sub-folder (d) drive",
+        "a": "**(c) sub-folder.** Folders can be nested, and a folder within a folder is a sub-folder."
       },
       {
-        "q": "Which of these is an operating system? (a) Linux  (b) MS Word  (c) Chrome  (d) HDMI",
-        "a": "**(a) Linux.** Word and Chrome are application programs and HDMI is a port."
+        "q": "Which of these is an operating system? (a) MS Word  (b) Chrome  (c) Linux  (d) HDMI",
+        "a": "**(c) Linux.** Word and Chrome are application programs and HDMI is a port."
       },
       {
         "q": "The keyboard shortcut used to copy a selected file is: (a) Ctrl + C  (b) Ctrl + V  (c) Ctrl + X  (d) Ctrl + P",
@@ -755,36 +755,36 @@
     ],
     "mcq": [
       {
-        "q": "An entrepreneur primarily: (a) avoids all risk (b) takes calculated risk to create value (c) only works for a salary (d) copies without a customer",
-        "a": "**(b).**"
+        "q": "An entrepreneur primarily: (a) avoids all risk (b) only works for a salary (c) takes calculated risk to create value (d) copies without a customer",
+        "a": "**(c).**"
       },
       {
-        "q": "Which is a quality, not a function? (a) arranging capital (b) perseverance (c) hiring staff (d) marketing",
-        "a": "**(b) perseverance.**"
+        "q": "Which is a quality, not a function? (a) perseverance (b) arranging capital (c) hiring staff (d) marketing",
+        "a": "**(a) perseverance.**"
       },
       {
-        "q": "A social entrepreneur mainly aims to: (a) ignore people (b) solve a social problem, not only maximise profit (c) avoid accounts (d) work without a product",
-        "a": "**(b).**"
+        "q": "A social entrepreneur mainly aims to: (a) ignore people (b) avoid accounts (c) work without a product (d) solve a social problem, not only maximise profit",
+        "a": "**(d).**"
       },
       {
-        "q": "“Entrepreneurs are born, not made” is: (a) a fact (b) a myth (c) a 7 C (d) an OS function",
-        "a": "**(b) a myth.**"
+        "q": "“Entrepreneurs are born, not made” is: (a) a fact (b) a 7 C (c) a myth (d) an OS function",
+        "a": "**(c) a myth.**"
       },
       {
-        "q": "The first step in starting an enterprise is usually to: (a) register the business (b) hire employees (c) find and evaluate a business idea (d) print the visiting cards",
-        "a": "**(c) find and evaluate a business idea.** Everything else depends on having an idea that meets a need and can make a profit."
+        "q": "The first step in starting an enterprise is usually to: (a) register the business (b) find and evaluate a business idea (c) hire employees (d) print the visiting cards",
+        "a": "**(b) find and evaluate a business idea.** Everything else depends on having an idea that meets a need and can make a profit."
       },
       {
-        "q": "The money needed to start and run a business is called: (a) profit (b) revenue (c) tax (d) capital",
-        "a": "**(d) capital.** Capital is the funds an entrepreneur invests in the enterprise; profit is what remains after costs."
+        "q": "The money needed to start and run a business is called: (a) capital (b) profit (c) revenue (d) tax",
+        "a": "**(a) capital.** Capital is the funds an entrepreneur invests in the enterprise; profit is what remains after costs."
       },
       {
-        "q": "A person who starts a business, organises it and bears its risks is a/an: (a) entrepreneur  (b) manager  (c) employee  (d) customer",
-        "a": "**(a) entrepreneur.** A manager runs someone else's business for a salary."
+        "q": "A person who starts a business, organises it and bears its risks is a/an: (a) manager  (b) employee  (c) customer  (d) entrepreneur",
+        "a": "**(d) entrepreneur.** A manager runs someone else's business for a salary."
       },
       {
-        "q": "Which of these is a myth about entrepreneurs? (a) they are born, not made  (b) they take risks  (c) they work hard  (d) they need capital",
-        "a": "**(a) they are born, not made.** Entrepreneurial skills such as planning, selling and record-keeping can be learned."
+        "q": "Which of these is a myth about entrepreneurs? (a) they take risks  (b) they are born, not made  (c) they work hard  (d) they need capital",
+        "a": "**(b) they are born, not made.** Entrepreneurial skills such as planning, selling and record-keeping can be learned."
       }
     ],
     "trend": "Qualities + one myth, or role of entrepreneurship in society.",
@@ -946,36 +946,36 @@
     ],
     "mcq": [
       {
-        "q": "Sustainable development looks after: (a) only the present (b) only the future (c) present without harming the future (d) only factories",
-        "a": "**(c).**"
+        "q": "Sustainable development looks after: (a) present without harming the future (b) only the present (c) only the future (d) only factories",
+        "a": "**(a).**"
       },
       {
         "q": "The best of the 3 Rs is: (a) Recycle (b) Reuse (c) Reduce (d) Refuse nothing",
         "a": "**(c) Reduce** — don't create the waste."
       },
       {
-        "q": "A solar-panel technician is: (a) a linguistic barrier (b) a green job (c) an OS (d) a myth",
-        "a": "**(b) a green job.**"
+        "q": "A solar-panel technician is: (a) a linguistic barrier (b) an OS (c) a myth (d) a green job",
+        "a": "**(d) a green job.**"
       },
       {
-        "q": "Leaving a PC on overnight mainly wastes: (a) paper (b) electricity (c) toner only (d) nothing",
-        "a": "**(b) electricity.**"
+        "q": "Leaving a PC on overnight mainly wastes: (a) paper (b) toner only (c) nothing (d) electricity",
+        "a": "**(d) electricity.**"
       },
       {
         "q": "E-waste mainly refers to: (a) kitchen waste (b) discarded electronic and electrical equipment (c) waste paper (d) plastic bottles only",
         "a": "**(b) discarded electronic and electrical equipment.** E-waste includes old computers, phones, batteries and cables, and needs special disposal."
       },
       {
-        "q": "Which of the following is a renewable source of energy? (a) coal (b) petroleum (c) natural gas (d) solar energy",
-        "a": "**(d) solar energy.** Sunlight is not used up when it is used; coal, petroleum and natural gas are fossil fuels."
+        "q": "Which of the following is a renewable source of energy? (a) solar energy (b) coal (c) petroleum (d) natural gas",
+        "a": "**(a) solar energy.** Sunlight is not used up when it is used; coal, petroleum and natural gas are fossil fuels."
       },
       {
-        "q": "A green economy is one that: (a) improves human well-being while reducing environmental risks  (b) produces the most goods  (c) bans all industry  (d) depends only on coal",
-        "a": "**(a) improves human well-being while reducing environmental risks.** It is low-carbon and resource-efficient."
+        "q": "A green economy is one that: (a) produces the most goods  (b) bans all industry  (c) improves human well-being while reducing environmental risks  (d) depends only on coal",
+        "a": "**(c) improves human well-being while reducing environmental risks.** It is low-carbon and resource-efficient."
       },
       {
-        "q": "Which of these is a green skill? (a) segregating waste at source  (b) leaving taps running  (c) burning dry leaves  (d) using a plastic bag every day",
-        "a": "**(a) segregating waste at source.** It makes recycling possible and cuts the load on landfills."
+        "q": "Which of these is a green skill? (a) leaving taps running  (b) segregating waste at source  (c) burning dry leaves  (d) using a plastic bag every day",
+        "a": "**(b) segregating waste at source.** It makes recycling possible and cuts the load on landfills."
       }
     ],
     "trend": "Definition of sustainable development, or one green practice / green job.",

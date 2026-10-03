@@ -165,32 +165,32 @@
         "a": "**(a) 5.** √(9 + 16) = 5."
       },
       {
-        "q": "The midpoint of (2, −3) and (−6, 5) is: (a) (−2, 1)  (b) (2, −1)  (c) (−4, 2)  (d) (4, −8)",
-        "a": "**(a) (−2, 1).** ((2−6)/2, (−3+5)/2)."
+        "q": "The midpoint of (2, −3) and (−6, 5) is: (a) (2, −1)  (b) (−2, 1)  (c) (−4, 2)  (d) (4, −8)",
+        "a": "**(b) (−2, 1).** ((2−6)/2, (−3+5)/2)."
       },
       {
-        "q": "Three points are collinear if the area of the triangle they form is: (a) 1  (b) maximum  (c) 0  (d) negative",
-        "a": "**(c) 0.**"
+        "q": "Three points are collinear if the area of the triangle they form is: (a) 1  (b) maximum  (c) negative  (d) 0",
+        "a": "**(d) 0.**"
       },
       {
-        "q": "The coordinates of the point that divides the line segment joining (0, 0) and (6, 9) internally in the ratio 1 : 2 are: (a) (3, 9/2)  (b) (4, 6)  (c) (2, 3)  (d) (1, 3/2)",
-        "a": "**(c) (2, 3).** x = (1 × 6 + 2 × 0)/3 = 2 and y = (1 × 9 + 2 × 0)/3 = 3."
+        "q": "The coordinates of the point that divides the line segment joining (0, 0) and (6, 9) internally in the ratio 1 : 2 are: (a) (3, 9/2)  (b) (4, 6)  (c) (1, 3/2)  (d) (2, 3)",
+        "a": "**(d) (2, 3).** x = (1 × 6 + 2 × 0)/3 = 2 and y = (1 × 9 + 2 × 0)/3 = 3."
       },
       {
-        "q": "The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is: (a) 6 square units  (b) 12 square units  (c) 7 square units  (d) 3.5 square units",
-        "a": "**(a) 6 square units.** It is right-angled at the origin, so the area is ½ × 4 × 3 = 6 square units."
+        "q": "The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is: (a) 12 square units  (b) 6 square units  (c) 7 square units  (d) 3.5 square units",
+        "a": "**(b) 6 square units.** It is right-angled at the origin, so the area is ½ × 4 × 3 = 6 square units."
       },
       {
-        "q": "The point (−3, 0) lies on: (a) the x-axis  (b) the y-axis  (c) the line y = x  (d) the origin",
-        "a": "**(a) the x-axis.** Every point whose y-coordinate is 0 lies on the x-axis."
+        "q": "The point (−3, 0) lies on: (a) the y-axis  (b) the line y = x  (c) the x-axis  (d) the origin",
+        "a": "**(c) the x-axis.** Every point whose y-coordinate is 0 lies on the x-axis."
       },
       {
         "q": "The distance of (a cos θ, a sin θ) from the origin is: (a) a  (b) a²  (c) 1  (d) 2a",
         "a": "**(a) a.** Distance = √(a²cos²θ + a²sin²θ) = √(a²) = a."
       },
       {
-        "q": "The centroid of the triangle with vertices (2, 3), (−4, 7) and (2, −4) is: (a) (0, 2)  (b) (0, 0)  (c) (2, 2)  (d) (0, 3)",
-        "a": "**(a) (0, 2).** x = (2 − 4 + 2)/3 = 0 and y = (3 + 7 − 4)/3 = 2."
+        "q": "The centroid of the triangle with vertices (2, 3), (−4, 7) and (2, −4) is: (a) (0, 0)  (b) (2, 2)  (c) (0, 2)  (d) (0, 3)",
+        "a": "**(c) (0, 2).** x = (2 − 4 + 2)/3 = 0 and y = (3 + 7 − 4)/3 = 2."
       }
     ],
     "trend": "One 3-mark question on the section formula or an equidistant relation, plus objective questions on distance and midpoint.",
@@ -401,12 +401,12 @@
     ],
     "mcq": [
       {
-        "q": "The value of cos 60° is: (a) 1/2  (b) √3/2  (c) 1/√2  (d) 1",
-        "a": "**(a) 1/2.**"
+        "q": "The value of cos 60° is: (a) √3/2  (b) 1/2  (c) 1/√2  (d) 1",
+        "a": "**(b) 1/2.**"
       },
       {
-        "q": "sin²30° + cos²30° equals: (a) 0  (b) 1/2  (c) 1  (d) 3/4",
-        "a": "**(c) 1.** That is the fundamental identity."
+        "q": "sin²30° + cos²30° equals: (a) 1  (b) 0  (c) 1/2  (d) 3/4",
+        "a": "**(a) 1.** That is the fundamental identity."
       },
       {
         "q": "tan 45° × cot 45° is: (a) 0  (b) 1  (c) 2  (d) undefined",
@@ -417,20 +417,20 @@
         "a": "**(a) 3/4.** sin A = √(1 − 16/25) = 3/5, so tan A = sin A/cos A = (3/5)/(4/5) = 3/4."
       },
       {
-        "q": "Which of the following is NOT defined? (a) tan 90°  (b) sin 90°  (c) cos 0°  (d) cot 90°",
-        "a": "**(a) tan 90°.** tan 90° = sin 90°/cos 90° = 1/0. The others are 1, 1 and 0."
+        "q": "Which of the following is NOT defined? (a) sin 90°  (b) cos 0°  (c) cot 90°  (d) tan 90°",
+        "a": "**(d) tan 90°.** tan 90° = sin 90°/cos 90° = 1/0. The others are 1, 1 and 0."
       },
       {
-        "q": "The value of sin²60° + 2 tan²45° − cos²30° is: (a) 1  (b) 2  (c) 5/4  (d) 9/4",
-        "a": "**(b) 2.** 3/4 + 2(1) − 3/4 = 2."
+        "q": "The value of sin²60° + 2 tan²45° − cos²30° is: (a) 9/4  (b) 5/4  (c) 2  (d) 1",
+        "a": "**(c) 2.** 3/4 + 2(1) − 3/4 = 2."
       },
       {
         "q": "If sin θ = cos θ, then θ = : (a) 0°  (b) 30°  (c) 45°  (d) 90°",
         "a": "**(c) 45°.** sin 45° = cos 45° = 1/√2."
       },
       {
-        "q": "sec²A − tan²A equals: (a) 0  (b) 1  (c) −1  (d) sin²A",
-        "a": "**(b) 1.** It follows directly from 1 + tan²A = sec²A."
+        "q": "sec²A − tan²A equals: (a) 0  (b) −1  (c) sin²A  (d) 1",
+        "a": "**(d) 1.** It follows directly from 1 + tan²A = sec²A."
       }
     ],
     "trend": "One identity proof (3 marks) most years, plus objective questions on standard values and complementary angles.",
@@ -615,32 +615,32 @@
     ],
     "mcq": [
       {
-        "q": "The angle of depression is always measured from: (a) the vertical  (b) the horizontal  (c) the object  (d) the ground below",
-        "a": "**(b) The horizontal** at the observer’s end."
+        "q": "The angle of depression is always measured from: (a) the vertical  (b) the object  (c) the ground below  (d) the horizontal",
+        "a": "**(d) The horizontal** at the observer’s end."
       },
       {
-        "q": "If the angle of elevation of the sun is 45°, the length of the shadow of a pole equals: (a) half its height  (b) its height  (c) twice its height  (d) √3 times its height",
-        "a": "**(b) Its height.** tan 45° = 1."
+        "q": "If the angle of elevation of the sun is 45°, the length of the shadow of a pole equals: (a) half its height  (b) twice its height  (c) its height  (d) √3 times its height",
+        "a": "**(c) Its height.** tan 45° = 1."
       },
       {
-        "q": "From the top of a tower the angle of depression of an object on the ground is 30°. The angle of elevation of the top from that object is: (a) 30°  (b) 45°  (c) 60°  (d) 90°",
-        "a": "**(a) 30°.** Alternate angles between parallel horizontals."
+        "q": "From the top of a tower the angle of depression of an object on the ground is 30°. The angle of elevation of the top from that object is: (a) 90°  (b) 60°  (c) 45°  (d) 30°",
+        "a": "**(d) 30°.** Alternate angles between parallel horizontals."
       },
       {
-        "q": "If the angle of elevation of the top of a pole from a point 10 m from its foot is 60°, the height of the pole is: (a) 10/√3 m  (b) 10 m  (c) 10√3 m  (d) 20 m",
-        "a": "**(c) 10√3 m.** height = 10 × tan 60° = 10√3 m."
+        "q": "If the angle of elevation of the top of a pole from a point 10 m from its foot is 60°, the height of the pole is: (a) 10/√3 m  (b) 10√3 m  (c) 10 m  (d) 20 m",
+        "a": "**(b) 10√3 m.** height = 10 × tan 60° = 10√3 m."
       },
       {
-        "q": "As an observer walks towards the foot of a tower, the angle of elevation of its top: (a) decreases  (b) stays the same  (c) becomes zero  (d) increases",
-        "a": "**(d) increases.** The horizontal distance falls while the height stays fixed, so tan of the angle (height ÷ distance) grows and the angle increases."
+        "q": "As an observer walks towards the foot of a tower, the angle of elevation of its top: (a) increases  (b) decreases  (c) stays the same  (d) becomes zero",
+        "a": "**(a) increases.** The horizontal distance falls while the height stays fixed, so tan of the angle (height ÷ distance) grows and the angle increases."
       },
       {
-        "q": "When the shadow of a pole equals its height, the sun’s angle of elevation is: (a) 30°  (b) 45°  (c) 60°  (d) 90°",
-        "a": "**(b) 45°.** tan θ = height/shadow = 1, so θ = 45°."
+        "q": "When the shadow of a pole equals its height, the sun’s angle of elevation is: (a) 90°  (b) 60°  (c) 45°  (d) 30°",
+        "a": "**(c) 45°.** tan θ = height/shadow = 1, so θ = 45°."
       },
       {
-        "q": "The angle made by the line of sight with the horizontal when the object is below the observer is the angle of: (a) elevation  (b) depression  (c) reflection  (d) inclination",
-        "a": "**(b) depression.** Elevation looks up; depression looks down."
+        "q": "The angle made by the line of sight with the horizontal when the object is below the observer is the angle of: (a) depression  (b) elevation  (c) reflection  (d) inclination",
+        "a": "**(a) depression.** Elevation looks up; depression looks down."
       },
       {
         "q": "A 10 m ladder reaches a window 8 m above the ground. Its foot is from the wall at a distance of: (a) 4 m  (b) 6 m  (c) 7 m  (d) 9 m",

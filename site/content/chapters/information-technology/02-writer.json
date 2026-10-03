@@ -146,32 +146,32 @@
         "a": "**(c) F11.**"
       },
       {
-        "q": "Which style changes a few words inside a paragraph? (a) Page (b) Character (c) Frame (d) Table",
-        "a": "**(b) Character.**"
+        "q": "Which style changes a few words inside a paragraph? (a) Page (b) Frame (c) Character (d) Table",
+        "a": "**(c) Character.**"
       },
       {
-        "q": "Fill Format is used to: (a) insert images (b) paint a style onto many paragraphs (c) mail merge (d) record a macro",
-        "a": "**(b).**"
+        "q": "Fill Format is used to: (a) insert images (b) mail merge (c) record a macro (d) paint a style onto many paragraphs",
+        "a": "**(d).**"
       },
       {
-        "q": "ToC in Writer is built from: (a) bold text (b) Heading styles (c) page numbers only (d) hyperlinks only",
-        "a": "**(b) Heading styles.**"
+        "q": "ToC in Writer is built from: (a) Heading styles (b) bold text (c) page numbers only (d) hyperlinks only",
+        "a": "**(a) Heading styles.**"
       },
       {
         "q": "To change the colour of all headings of a certain level at once, you should: (a) modify the heading’s paragraph style (b) format each heading by hand (c) use the Fill Format tool on one word (d) change the page margins",
         "a": "**(a) modify the heading’s paragraph style.** Headings use paragraph styles, and modifying the style updates all of them."
       },
       {
-        "q": "A style that controls margins, headers and footers belongs to the category of: (a) page styles (b) character styles (c) frame styles (d) list styles",
-        "a": "**(a) page styles.** Page styles describe the layout of the page, including margins, headers and footers."
+        "q": "A style that controls margins, headers and footers belongs to the category of: (a) character styles (b) page styles (c) frame styles (d) list styles",
+        "a": "**(b) page styles.** Page styles describe the layout of the page, including margins, headers and footers."
       },
       {
-        "q": "The Styles window in Writer is opened with: (a) F11  (b) Ctrl + S  (c) F7  (d) Ctrl + P",
-        "a": "**(a) F11.** F7 opens the spell-check and Ctrl + S saves the document."
+        "q": "The Styles window in Writer is opened with: (a) Ctrl + S  (b) F7  (c) Ctrl + P  (d) F11",
+        "a": "**(d) F11.** F7 opens the spell-check and Ctrl + S saves the document."
       },
       {
-        "q": "Heading 1, Heading 2 and Heading 3 are examples of: (a) paragraph styles  (b) character styles  (c) page styles  (d) frame styles",
-        "a": "**(a) paragraph styles.** They format a whole paragraph and are used to build a table of contents."
+        "q": "Heading 1, Heading 2 and Heading 3 are examples of: (a) character styles  (b) paragraph styles  (c) page styles  (d) frame styles",
+        "a": "**(b) paragraph styles.** They format a whole paragraph and are used to build a table of contents."
       }
     ],
     "trend": "Types of styles + advantage of styles; practical is Heading styles + Fill Format.",
@@ -332,36 +332,36 @@
     ],
     "mcq": [
       {
-        "q": "Optimal wrap means: (a) image hidden (b) text flows in the best way around the image (c) image deleted (d) no caption",
-        "a": "**(b).**"
+        "q": "Optimal wrap means: (a) image hidden (b) image deleted (c) no caption (d) text flows in the best way around the image",
+        "a": "**(d).**"
       },
       {
-        "q": "To move several shapes together: (a) Mail Merge (b) Group (c) Goal Seek (d) Styles F11",
-        "a": "**(b) Group.**"
+        "q": "To move several shapes together: (a) Mail Merge (b) Goal Seek (c) Styles F11 (d) Group",
+        "a": "**(d) Group.**"
       },
       {
         "q": "Inserting a caption is done by: (a) File → New (b) right-click image → Insert Caption (c) Tools → Macros (d) Data → Sort",
         "a": "**(b).**"
       },
       {
-        "q": "Anchor “As Character” treats the image: (a) as a page background (b) like a character in the line (c) as a hidden file (d) as a style",
-        "a": "**(b).**"
+        "q": "Anchor “As Character” treats the image: (a) as a page background (b) as a hidden file (c) like a character in the line (d) as a style",
+        "a": "**(c).**"
       },
       {
-        "q": "To resize a picture proportionally using the mouse, you drag a corner handle while holding down the: (a) Alt key only (b) Tab key (c) Caps Lock key (d) Shift key",
-        "a": "**(d) Shift key.** Holding Shift with a corner handle keeps the width-to-height ratio unchanged."
+        "q": "To resize a picture proportionally using the mouse, you drag a corner handle while holding down the: (a) Alt key only (b) Tab key (c) Shift key (d) Caps Lock key",
+        "a": "**(c) Shift key.** Holding Shift with a corner handle keeps the width-to-height ratio unchanged."
       },
       {
-        "q": "Anchoring an image “To Page” means that it: (a) moves with the paragraph it is next to (b) behaves like a character in a line (c) is hidden when the document is printed (d) stays at a fixed position on the page even if the text above changes",
-        "a": "**(d) stays at a fixed position on the page even if the text above changes.** A “To Page” anchor ties the picture to a spot on the page, whereas “To Paragraph” makes it move with the text."
+        "q": "Anchoring an image “To Page” means that it: (a) stays at a fixed position on the page even if the text above changes (b) moves with the paragraph it is next to (c) behaves like a character in a line (d) is hidden when the document is printed",
+        "a": "**(a) stays at a fixed position on the page even if the text above changes.** A “To Page” anchor ties the picture to a spot on the page, whereas “To Paragraph” makes it move with the text."
       },
       {
         "q": "To make two drawing objects move together you should: (a) group them  (b) crop them  (c) wrap them  (d) delete one of them",
         "a": "**(a) group them.** Grouping treats the objects as one; ungrouping reverses it."
       },
       {
-        "q": "The tool used to remove unwanted parts of a picture is the: (a) Crop tool  (b) Wrap tool  (c) Rotate tool  (d) Fill tool",
-        "a": "**(a) Crop tool.** Cropping cuts the picture without changing the rest of the page."
+        "q": "The tool used to remove unwanted parts of a picture is the: (a) Wrap tool  (b) Crop tool  (c) Rotate tool  (d) Fill tool",
+        "a": "**(b) Crop tool.** Cropping cuts the picture without changing the rest of the page."
       }
     ],
     "trend": "Wrap + anchor, or steps to insert and caption an image.",
@@ -520,36 +520,36 @@
     ],
     "mcq": [
       {
-        "q": "Writer templates usually use the extension: (a) .ods (b) .ott (c) .odb (d) .jpg",
-        "a": "**(b) .ott.**"
+        "q": "Writer templates usually use the extension: (a) .ods (b) .odb (c) .ott (d) .jpg",
+        "a": "**(c) .ott.**"
       },
       {
         "q": "ToC is updated by: (a) F11 (b) right-click the ToC → Update Index (c) Goal Seek (d) Group",
         "a": "**(b).**"
       },
       {
-        "q": "Mail merge needs: (a) only an image (b) a main document and a data source (c) only a printer (d) a Base report only",
-        "a": "**(b).**"
+        "q": "Mail merge needs: (a) a main document and a data source (b) only an image (c) only a printer (d) a Base report only",
+        "a": "**(a).**"
       },
       {
-        "q": "Recorded deletions in Track Changes usually appear as: (a) a new page (b) strike-out text (c) a ToC (d) a style",
-        "a": "**(b) strike-out text.**"
+        "q": "Recorded deletions in Track Changes usually appear as: (a) a new page (b) a ToC (c) a style (d) strike-out text",
+        "a": "**(d) strike-out text.**"
       },
       {
-        "q": "To add a note about a word without changing the text itself, you use a: (a) comment (b) template (c) page break (d) caption",
-        "a": "**(a) comment.** A comment is attached to the text and is shown in the margin, but it is not part of the document text."
+        "q": "To add a note about a word without changing the text itself, you use a: (a) template (b) page break (c) comment (d) caption",
+        "a": "**(c) comment.** A comment is attached to the text and is shown in the margin, but it is not part of the document text."
       },
       {
-        "q": "In mail merge, the file that holds the names and addresses is called the: (a) template (b) data source (c) style (d) macro",
-        "a": "**(b) data source.** The data source (for example a spreadsheet or database) supplies the values that fill the fields of the letter."
+        "q": "In mail merge, the file that holds the names and addresses is called the: (a) data source (b) template (c) style (d) macro",
+        "a": "**(a) data source.** The data source (for example a spreadsheet or database) supplies the values that fill the fields of the letter."
       },
       {
-        "q": "A template is: (a) a ready-made document with styles, margins and layout already set  (b) a picture  (c) a macro  (d) a printer setting",
-        "a": "**(a) a ready-made document with styles, margins and layout already set.** Saving a template saves time on every similar document."
+        "q": "A template is: (a) a picture  (b) a ready-made document with styles, margins and layout already set  (c) a macro  (d) a printer setting",
+        "a": "**(b) a ready-made document with styles, margins and layout already set.** Saving a template saves time on every similar document."
       },
       {
-        "q": "Recorded changes are accepted or rejected from: (a) Edit → Track Changes → Manage  (b) File → Save  (c) Insert → Comment  (d) View → Zoom",
-        "a": "**(a) Edit → Track Changes → Manage.** The Manage dialog lists every change with its author and time."
+        "q": "Recorded changes are accepted or rejected from: (a) File → Save  (b) Insert → Comment  (c) View → Zoom  (d) Edit → Track Changes → Manage",
+        "a": "**(d) Edit → Track Changes → Manage.** The Manage dialog lists every change with its author and time."
       }
     ],
     "trend": "ToC steps, template definition, or mail-merge advantages.",

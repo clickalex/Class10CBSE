@@ -104,23 +104,23 @@ B. MCQs (8)
 M1. The distance of the point (3, 4) from the origin is: (a) 5  (b) 7  (c) 25  (d) 12
     Ans: (a) 5. √(9 + 16) = 5.
 
-M2. The midpoint of (2, −3) and (−6, 5) is: (a) (−2, 1)  (b) (2, −1)  (c) (−4, 2)  (d) (4, −8)
-    Ans: (a) (−2, 1). ((2−6)/2, (−3+5)/2).
+M2. The midpoint of (2, −3) and (−6, 5) is: (a) (2, −1)  (b) (−2, 1)  (c) (−4, 2)  (d) (4, −8)
+    Ans: (b) (−2, 1). ((2−6)/2, (−3+5)/2).
 
-M3. Three points are collinear if the area of the triangle they form is: (a) 1  (b) maximum  (c) 0  (d) negative
-    Ans: (c) 0.
+M3. Three points are collinear if the area of the triangle they form is: (a) 1  (b) maximum  (c) negative  (d) 0
+    Ans: (d) 0.
 
-M4. The coordinates of the point that divides the line segment joining (0, 0) and (6, 9) internally in the ratio 1 : 2 are: (a) (3, 9/2)  (b) (4, 6)  (c) (2, 3)  (d) (1, 3/2)
-    Ans: (c) (2, 3). x = (1 × 6 + 2 × 0)/3 = 2 and y = (1 × 9 + 2 × 0)/3 = 3.
+M4. The coordinates of the point that divides the line segment joining (0, 0) and (6, 9) internally in the ratio 1 : 2 are: (a) (3, 9/2)  (b) (4, 6)  (c) (1, 3/2)  (d) (2, 3)
+    Ans: (d) (2, 3). x = (1 × 6 + 2 × 0)/3 = 2 and y = (1 × 9 + 2 × 0)/3 = 3.
 
-M5. The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is: (a) 6 square units  (b) 12 square units  (c) 7 square units  (d) 3.5 square units
-    Ans: (a) 6 square units. It is right-angled at the origin, so the area is ½ × 4 × 3 = 6 square units.
+M5. The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is: (a) 12 square units  (b) 6 square units  (c) 7 square units  (d) 3.5 square units
+    Ans: (b) 6 square units. It is right-angled at the origin, so the area is ½ × 4 × 3 = 6 square units.
 
-M6. The point (−3, 0) lies on: (a) the x-axis  (b) the y-axis  (c) the line y = x  (d) the origin
-    Ans: (a) the x-axis. Every point whose y-coordinate is 0 lies on the x-axis.
+M6. The point (−3, 0) lies on: (a) the y-axis  (b) the line y = x  (c) the x-axis  (d) the origin
+    Ans: (c) the x-axis. Every point whose y-coordinate is 0 lies on the x-axis.
 
 M7. The distance of (a cos θ, a sin θ) from the origin is: (a) a  (b) a²  (c) 1  (d) 2a
     Ans: (a) a. Distance = √(a²cos²θ + a²sin²θ) = √(a²) = a.
 
-M8. The centroid of the triangle with vertices (2, 3), (−4, 7) and (2, −4) is: (a) (0, 2)  (b) (0, 0)  (c) (2, 2)  (d) (0, 3)
-    Ans: (a) (0, 2). x = (2 − 4 + 2)/3 = 0 and y = (3 + 7 − 4)/3 = 2.
+M8. The centroid of the triangle with vertices (2, 3), (−4, 7) and (2, −4) is: (a) (0, 0)  (b) (2, 2)  (c) (0, 2)  (d) (0, 3)
+    Ans: (c) (0, 2). x = (2 − 4 + 2)/3 = 0 and y = (3 + 7 − 4)/3 = 2.

@@ -104,8 +104,8 @@ M1. The volume of a cone of radius r and height h is: (a) πr²h  (b) πr²h/3  
 M2. When a solid is melted and recast into another shape, which quantity is conserved? (a) surface area  (b) volume  (c) both  (d) neither
     Ans: (b) Volume. Surface area almost always changes.
 
-M3. The slant height of a frustum with radii R and r and height h is: (a) √[h² + (R + r)²]  (b) √[h² + (R − r)²]  (c) h + R + r  (d) √(R² − r²)
-    Ans: (b) √[h² + (R − r)²].
+M3. The slant height of a frustum with radii R and r and height h is: (a) √[h² + (R − r)²]  (b) √[h² + (R + r)²]  (c) h + R + r  (d) √(R² − r²)
+    Ans: (a) √[h² + (R − r)²].
 
 M4. The total surface area of a solid hemisphere of radius r is: (a) 2πr²  (b) 4πr²  (c) 3πr²  (d) πr²
     Ans: (c) 3πr². Curved surface 2πr² plus the flat circular face πr² gives 3πr².
@@ -113,11 +113,11 @@ M4. The total surface area of a solid hemisphere of radius r is: (a) 2πr²  (b)
 M5. If the radius of a sphere is doubled, its volume becomes: (a) 2 times  (b) 4 times  (c) 6 times  (d) 8 times
     Ans: (d) 8 times. V = (4/3)πr³, so doubling r multiplies the volume by 2³ = 8.
 
-M6. The curved surface area of a cylinder of radius r and height h is: (a) 2πrh  (b) πr²h  (c) 2πr(r + h)  (d) πrl
-    Ans: (a) 2πrh. 2πr(r + h) is the total surface area and πr²h is the volume.
+M6. The curved surface area of a cylinder of radius r and height h is: (a) πr²h  (b) 2πr(r + h)  (c) 2πrh  (d) πrl
+    Ans: (c) 2πrh. 2πr(r + h) is the total surface area and πr²h is the volume.
 
 M7. The volume of a sphere of radius r is: (a) (4/3)πr³  (b) 4πr²  (c) (2/3)πr³  (d) πr³
     Ans: (a) (4/3)πr³. 4πr² is the surface area of the sphere.
 
-M8. A cone, a hemisphere and a cylinder have equal bases and equal heights. The ratio of their volumes is: (a) 1 : 2 : 3  (b) 2 : 3 : 1  (c) 3 : 1 : 2  (d) 1 : 3 : 2
-    Ans: (a) 1 : 2 : 3. With radius = height = r: πr³/3 : 2πr³/3 : πr³.
+M8. A cone, a hemisphere and a cylinder have equal bases and equal heights. The ratio of their volumes is: (a) 2 : 3 : 1  (b) 3 : 1 : 2  (c) 1 : 3 : 2  (d) 1 : 2 : 3
+    Ans: (d) 1 : 2 : 3. With radius = height = r: πr³/3 : 2πr³/3 : πr³.

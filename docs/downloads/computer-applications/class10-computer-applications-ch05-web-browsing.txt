@@ -92,20 +92,20 @@ M1. Google is an example of a — (a) browser (b) search engine (c) protocol (d)
 M2. Which stores a local copy of a page to speed up loading? (a) cookie (b) bookmark (c) cache (d) portal
     Ans: (c) cache.
 
-M3. The entry page of a website is called the — (a) portal (b) home page (c) cache (d) feed
-    Ans: (b) home page, usually index.html.
+M3. The entry page of a website is called the — (a) portal (b) cache (c) home page (d) feed
+    Ans: (c) home page, usually index.html.
 
-M4. The program that automatically visits and indexes web pages is called a — (a) router (b) crawler (c) modem (d) gateway
-    Ans: (b) crawler or spider.
+M4. The program that automatically visits and indexes web pages is called a — (a) router (b) modem (c) gateway (d) crawler
+    Ans: (d) crawler or spider.
 
 M5. A bookmark in a web browser is used to: (a) save the address of a page for quick access later (b) download the whole website (c) block pop-up windows (d) speed up the internet connection
     Ans: (a) save the address of a page for quick access later. Bookmarks store web addresses so that you can reopen a page with one click.
 
-M6. Cookies are small files that: (a) a browser deletes after every page (b) speed up the router (c) a website stores on your device to remember you (d) protect the computer from viruses
-    Ans: (c) a website stores on your device to remember you. Cookies let sites recognise returning visitors and keep information such as a login or a shopping cart.
+M6. Cookies are small files that: (a) a website stores on your device to remember you (b) a browser deletes after every page (c) speed up the router (d) protect the computer from viruses
+    Ans: (a) a website stores on your device to remember you. Cookies let sites recognise returning visitors and keep information such as a login or a shopping cart.
 
-M7. The address bar of a browser shows the: (a) URL of the page you are on  (b) IP address of your own computer  (c) size of the page  (d) number of visitors to the site
-    Ans: (a) URL of the page you are on. You can also type an address there to go to a site.
+M7. The address bar of a browser shows the: (a) IP address of your own computer  (b) URL of the page you are on  (c) size of the page  (d) number of visitors to the site
+    Ans: (b) URL of the page you are on. You can also type an address there to go to a site.
 
-M8. A padlock symbol in the address bar means the page: (a) is served over an encrypted HTTPS connection  (b) is free  (c) is saved offline  (d) belongs to the government
-    Ans: (a) is served over an encrypted HTTPS connection. It does not prove that the site itself is honest.
+M8. A padlock symbol in the address bar means the page: (a) is free  (b) is saved offline  (c) belongs to the government  (d) is served over an encrypted HTTPS connection
+    Ans: (d) is served over an encrypted HTTPS connection. It does not prove that the site itself is honest.

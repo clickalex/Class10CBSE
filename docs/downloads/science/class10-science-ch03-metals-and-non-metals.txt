@@ -99,8 +99,8 @@ Q14. [Long · 5 marks] Explain, with equations, how zinc is extracted from its s
 B. MCQs (11)
 ------------------------------------------------------------------------
 
-M1. A copper coin placed in silver nitrate solution turns silvery and the solution turns blue. This shows copper is: (a) less reactive than silver (b) more reactive than silver (c) equally reactive (d) an inert metal
-    Ans: (b) more reactive than silver. Cu + 2AgNO3 → Cu(NO3)2 + 2Ag; the blue colour is due to Cu2+ ions.
+M1. A copper coin placed in silver nitrate solution turns silvery and the solution turns blue. This shows copper is: (a) less reactive than silver (b) equally reactive (c) an inert metal (d) more reactive than silver
+    Ans: (d) more reactive than silver. Cu + 2AgNO3 → Cu(NO3)2 + 2Ag; the blue colour is due to Cu2+ ions.
 
 M2. Which pair is amphoteric? (a) Na2O and CaO (b) Al2O3 and ZnO (c) CO2 and SO2 (d) CuO and FeO
     Ans: (b) Al2O3 and ZnO — they react with both acids and bases to form salt and water.
@@ -111,23 +111,23 @@ M3. The method used to extract sodium from molten NaCl is: (a) reduction with ca
 M4. Which of the following metals will displace copper from copper sulphate solution? (a) Ag  (b) Zn  (c) Hg  (d) Au
     Ans: (b) Zn. Only a metal above copper in the reactivity series can displace it; zinc is above copper, while silver, mercury and gold are below it.
 
-M5. An element forms an oxide that is acidic in nature. The element is most likely a: (a) metal  (b) alkali metal  (c) non-metal  (d) alloy
-    Ans: (c) non-metal. Non-metals form acidic (or neutral) oxides, while metals generally form basic oxides.
+M5. An element forms an oxide that is acidic in nature. The element is most likely a: (a) non-metal  (b) metal  (c) alkali metal  (d) alloy
+    Ans: (a) non-metal. Non-metals form acidic (or neutral) oxides, while metals generally form basic oxides.
 
 M6. The best conductor of electricity among these is: (a) copper  (b) silver  (c) aluminium  (d) iron
     Ans: (b) silver. Silver conducts best, then copper; silver is too costly for wiring, so copper is used.
 
-M7. Brass is an alloy of: (a) copper and tin  (b) copper and zinc  (c) lead and tin  (d) mercury and zinc
-    Ans: (b) copper and zinc. Bronze is copper and tin, solder is lead and tin, and an amalgam contains mercury.
+M7. Brass is an alloy of: (a) copper and zinc  (b) copper and tin  (c) lead and tin  (d) mercury and zinc
+    Ans: (a) copper and zinc. Bronze is copper and tin, solder is lead and tin, and an amalgam contains mercury.
 
-M8. Which metal reacts vigorously with cold water? (a) iron  (b) zinc  (c) sodium  (d) copper
-    Ans: (c) sodium. It reacts violently with cold water; iron and zinc react only with steam, and copper does not react at all.
+M8. Which metal reacts vigorously with cold water? (a) iron  (b) zinc  (c) copper  (d) sodium
+    Ans: (d) sodium. It reacts violently with cold water; iron and zinc react only with steam, and copper does not react at all.
 
-M9. The correct decreasing order of reactivity is: (a) Zn > Mg > Cu  (b) Mg > Zn > Cu  (c) Cu > Zn > Mg  (d) Zn > Cu > Mg
-    Ans: (b) Mg > Zn > Cu. In the reactivity series magnesium lies above zinc, and copper lies below hydrogen, so it is the least reactive of the three.
+M9. The correct decreasing order of reactivity is: (a) Zn > Mg > Cu  (b) Cu > Zn > Mg  (c) Zn > Cu > Mg  (d) Mg > Zn > Cu
+    Ans: (d) Mg > Zn > Cu. In the reactivity series magnesium lies above zinc, and copper lies below hydrogen, so it is the least reactive of the three.
 
 M10. Galvanisation protects iron from rusting by coating it with a thin layer of: (a) tin  (b) chromium  (c) zinc  (d) copper
     Ans: (c) zinc. Zinc is more reactive than iron, so it corrodes in preference to the iron even if the coating is scratched.
 
-M11. Magnesium (2, 8, 2) combines with chlorine (2, 8, 7) to form an ionic compound with the formula: (a) MgCl  (b) MgCl₂  (c) Mg₂Cl  (d) MgCl₃
-    Ans: (b) MgCl₂. Magnesium loses two electrons to become Mg²⁺; each chlorine atom gains one, so two Cl⁻ ions are needed.
+M11. Magnesium (2, 8, 2) combines with chlorine (2, 8, 7) to form an ionic compound with the formula: (a) MgCl₂  (b) MgCl  (c) Mg₂Cl  (d) MgCl₃
+    Ans: (a) MgCl₂. Magnesium loses two electrons to become Mg²⁺; each chlorine atom gains one, so two Cl⁻ ions are needed.

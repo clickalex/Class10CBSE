@@ -101,26 +101,26 @@ Q12. [Long · 5 marks] Write the HTML for a table whose first row is a title “
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which tag defines a table row? (a) <td> (b) <tr> (c) <th> (d) <table>
-    Ans: (b) <tr>.
+M1. Which tag defines a table row? (a) <td> (b) <th> (c) <table> (d) <tr>
+    Ans: (d) <tr>.
 
-M2. To merge a cell across three columns you use — (a) rowspan='3' (b) colspan='3' (c) span='3' (d) merge='3'
-    Ans: (b) colspan='3'.
+M2. To merge a cell across three columns you use — (a) colspan='3' (b) rowspan='3' (c) span='3' (d) merge='3'
+    Ans: (a) colspan='3'.
 
-M3. cellspacing controls — (a) space inside a cell (b) space between cells (c) the border thickness (d) the table width
-    Ans: (b) the space between cells.
+M3. cellspacing controls — (a) space inside a cell (b) the border thickness (c) space between cells (d) the table width
+    Ans: (c) the space between cells.
 
-M4. A header cell is written with — (a) <td> (b) <th> (c) <head> (d) <caption>
-    Ans: (b) <th>.
+M4. A header cell is written with — (a) <th> (b) <td> (c) <head> (d) <caption>
+    Ans: (a) <th>.
 
 M5. How many <tr> tags does a 4-row table need? (a) 1 (b) 2 (c) 4 (d) 8
     Ans: (c) 4 — one per row.
 
-M6. The attribute that adds a visible border around a table is: (a) border  (b) cellspacing  (c) cellpadding  (d) width
-    Ans: (a) border. cellspacing sets the gap between cells and cellpadding the gap inside them.
+M6. The attribute that adds a visible border around a table is: (a) cellspacing  (b) border  (c) cellpadding  (d) width
+    Ans: (b) border. cellspacing sets the gap between cells and cellpadding the gap inside them.
 
-M7. The tag used for a cell that holds a column heading is: (a) <th>  (b) <td>  (c) <tr>  (d) <caption>
-    Ans: (a) <th>. Its text is bold and centred by default.
+M7. The tag used for a cell that holds a column heading is: (a) <td>  (b) <th>  (c) <tr>  (d) <caption>
+    Ans: (b) <th>. Its text is bold and centred by default.
 
-M8. cellpadding controls: (a) space inside each cell (b) space between cells (c) the border thickness (d) the table width
-    Ans: (a) space inside each cell. Padding is inside, spacing is between — cellspacing does the other job.
+M8. cellpadding controls: (a) space between cells (b) the border thickness (c) the table width (d) space inside each cell
+    Ans: (d) space inside each cell. Padding is inside, spacing is between — cellspacing does the other job.

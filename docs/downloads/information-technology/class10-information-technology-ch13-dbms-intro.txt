@@ -86,11 +86,11 @@ Q12. [Long · 5 marks] Compare a flat-file database and a relational database on
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which is information, not raw data? (a) 36 (b) “Amit” (c) “Amit’s temperature is 36 °C” (d) a blank cell
-    Ans: (c).
+M1. Which is information, not raw data? (a) 36 (b) “Amit’s temperature is 36 °C” (c) “Amit” (d) a blank cell
+    Ans: (b).
 
-M2. LibreOffice Base is: (a) a DBMS (b) an OS (c) a browser (d) a style
-    Ans: (a) a DBMS.
+M2. LibreOffice Base is: (a) an OS (b) a browser (c) a DBMS (d) a style
+    Ans: (c) a DBMS.
 
 M3. A good primary key for books is: (a) Title (b) Author (c) ISBN (d) Colour
     Ans: (c) ISBN.
@@ -98,14 +98,14 @@ M3. A good primary key for books is: (a) Title (b) Author (c) ISBN (d) Colour
 M4. A foreign key: (a) deletes the database (b) refers to a primary key in another table (c) is always a picture (d) is a macro
     Ans: (b).
 
-M5. Which of the following is a DBMS? (a) LibreOffice Calc (b) LibreOffice Writer (c) LibreOffice Base (d) LibreOffice Impress
-    Ans: (c) LibreOffice Base. Base is the database program; Calc is a spreadsheet, Writer a word processor and Impress a presentation program.
+M5. Which of the following is a DBMS? (a) LibreOffice Calc (b) LibreOffice Writer (c) LibreOffice Impress (d) LibreOffice Base
+    Ans: (d) LibreOffice Base. Base is the database program; Calc is a spreadsheet, Writer a word processor and Impress a presentation program.
 
-M6. A field that uniquely identifies each record in a table is called the: (a) foreign key (b) alias (c) query (d) primary key
-    Ans: (d) primary key. A primary key has a different value in every record, so that no two records can be confused.
+M6. A field that uniquely identifies each record in a table is called the: (a) primary key (b) foreign key (c) alias (d) query
+    Ans: (a) primary key. A primary key has a different value in every record, so that no two records can be confused.
 
-M7. The field that uniquely identifies each record in a table is the: (a) primary key  (b) foreign key  (c) index  (d) alias
-    Ans: (a) primary key. It must be unique and cannot be empty.
+M7. The field that uniquely identifies each record in a table is the: (a) foreign key  (b) index  (c) alias  (d) primary key
+    Ans: (d) primary key. It must be unique and cannot be empty.
 
 M8. Which of these is DBMS software? (a) LibreOffice Base  (b) MS Word  (c) Google Chrome  (d) VLC player
     Ans: (a) LibreOffice Base. MySQL, PostgreSQL and Oracle are other examples.

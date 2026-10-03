@@ -91,23 +91,23 @@ Q12. [Long · 5 marks] Write the HTML for a page that has a heading, a picture p
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which attribute of <a> gives the destination address? (a) src (b) href (c) link (d) target
-    Ans: (b) href.
+M1. Which attribute of <a> gives the destination address? (a) src (b) link (c) href (d) target
+    Ans: (c) href.
 
-M2. Which opens a link in a new tab? (a) target='_new' (b) target='_blank' (c) new='true' (d) href='_blank'
-    Ans: (b) target='_blank'.
+M2. Which opens a link in a new tab? (a) target='_new' (b) new='true' (c) href='_blank' (d) target='_blank'
+    Ans: (d) target='_blank'.
 
-M3. <img> is — (a) a paired tag (b) an empty tag (c) a heading tag (d) not a valid tag
-    Ans: (b) an empty tag — it has no closing partner.
+M3. <img> is — (a) a paired tag (b) a heading tag (c) not a valid tag (d) an empty tag
+    Ans: (d) an empty tag — it has no closing partner.
 
-M4. To link to a file in the parent folder you write — (a) /index.html (b) ./index.html (c) ../index.html (d) index.html
-    Ans: (c) ../index.html.
+M4. To link to a file in the parent folder you write — (a) /index.html (b) ../index.html (c) ./index.html (d) index.html
+    Ans: (b) ../index.html.
 
-M5. mailto: is used to — (a) download mail (b) open the email program (c) create a table (d) send an image
-    Ans: (b) open the email program with the address filled in.
+M5. mailto: is used to — (a) download mail (b) create a table (c) open the email program (d) send an image
+    Ans: (c) open the email program with the address filled in.
 
-M6. The attribute of the <a> tag that holds the destination address is: (a) href  (b) src  (c) link  (d) target
-    Ans: (a) href. The target attribute only decides where the page opens.
+M6. The attribute of the <a> tag that holds the destination address is: (a) src  (b) href  (c) link  (d) target
+    Ans: (b) href. The target attribute only decides where the page opens.
 
 M7. The attribute of <img> that shows text if the picture cannot be displayed is: (a) alt  (b) src  (c) title  (d) name
     Ans: (a) alt. It is also read aloud by screen readers for blind users.

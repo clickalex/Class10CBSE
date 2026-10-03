@@ -22,7 +22,7 @@ Class10CBSE/
 │   └── 10-PW-NSAT/           PW scholarship test: syllabus, practice, registration
 ├── assets/                   brand imagery: favicon.svg, logo.svg, generated icon-*.png
 ├── scripts/                  build_structure.sh · verify_structure.sh · check_all.sh · check_admissions.py ·
-│                             check_downloads.py · make_icons.py
+│                             check_downloads.py · balance_mcq.py · make_icons.py
 ├── site/                     the site's source: content/, partials/, theme/, generators
 ├── tests/                    offline unit tests (run all via scripts/check_all.sh)
 ├── project-info/             notes about the repo itself (whole-repo audits)
@@ -119,6 +119,10 @@ polytechnic) are listed on the same page with a note instead of a test.
   served on that device, so **every attempt is a different paper** until the
   pool cycles. Ten numbered mocks per exam, and a chapter-wise mock for every
   chapter that has MCQs (from that chapter's practice page or the exam page).
+- **An even answer key** — the right option is (a), (b), (c) or (d) about a quarter
+  of the time in every subject, and no chapter leans on one letter, so "always (b)"
+  is not a strategy. `python3 scripts/balance_mcq.py` keeps it that way after you
+  add or edit MCQs (`--check` only reports); a test fails if the key drifts.
 - **Online screen** — timer, question palette, mark-for-review, keyboard
   shortcuts, auto-submit at zero; the generated paper and your answers survive
   an accidental reload. A *New questions* button reshuffles before you start.

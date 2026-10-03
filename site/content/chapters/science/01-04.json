@@ -174,20 +174,20 @@
     ],
     "mcq": [
       {
-        "q": "The reaction Fe2O3 + 2Al → Al2O3 + 2Fe is an example of: (a) combination (b) decomposition (c) displacement (d) double displacement",
-        "a": "**(c) displacement.** Aluminium, being more reactive, displaces iron from its oxide. It is also a redox and a highly exothermic (thermite) reaction."
+        "q": "The reaction Fe2O3 + 2Al → Al2O3 + 2Fe is an example of: (a) combination (b) decomposition (c) double displacement (d) displacement",
+        "a": "**(d) displacement.** Aluminium, being more reactive, displaces iron from its oxide. It is also a redox and a highly exothermic (thermite) reaction."
       },
       {
-        "q": "Which of the following is an endothermic process? (a) respiration (b) decomposition of vegetable matter into compost (c) process of decomposition of ferrous sulphate (d) quicklime + water",
-        "a": "**(c).** Decomposition always needs energy, so heating ferrous sulphate is endothermic. The other three release heat."
+        "q": "Which of the following is an endothermic process? (a) process of decomposition of ferrous sulphate (b) respiration (c) decomposition of vegetable matter into compost (d) quicklime + water",
+        "a": "**(a).** Decomposition always needs energy, so heating ferrous sulphate is endothermic. The other three release heat."
       },
       {
-        "q": "The green coating on copper and the black coating on silver are respectively: (a) basic copper carbonate and Ag2S (b) CuO and Ag2O (c) CuCO3 and AgS2 (d) Cu(OH)2 and AgO",
-        "a": "**(a).** Copper forms basic copper carbonate CuCO3·Cu(OH)2 (green); silver forms silver sulphide Ag2S (black)."
+        "q": "The green coating on copper and the black coating on silver are respectively: (a) CuO and Ag2O (b) CuCO3 and AgS2 (c) basic copper carbonate and Ag2S (d) Cu(OH)2 and AgO",
+        "a": "**(c).** Copper forms basic copper carbonate CuCO3·Cu(OH)2 (green); silver forms silver sulphide Ag2S (black)."
       },
       {
-        "q": "Which of the following is a displacement reaction? (a) CaO + H₂O → Ca(OH)₂  (b) 2H₂O → 2H₂ + O₂  (c) Zn + CuSO₄ → ZnSO₄ + Cu  (d) 2Mg + O₂ → 2MgO",
-        "a": "**(c) Zn + CuSO₄ → ZnSO₄ + Cu.** Zinc, being more reactive, replaces copper from its salt solution. The others are combination, decomposition and combination reactions."
+        "q": "Which of the following is a displacement reaction? (a) CaO + H₂O → Ca(OH)₂  (b) 2H₂O → 2H₂ + O₂  (c) 2Mg + O₂ → 2MgO  (d) Zn + CuSO₄ → ZnSO₄ + Cu",
+        "a": "**(d) Zn + CuSO₄ → ZnSO₄ + Cu.** Zinc, being more reactive, replaces copper from its salt solution. The others are combination, decomposition and combination reactions."
       },
       {
         "q": "Quicklime reacts vigorously with water to form slaked lime and a lot of heat. This reaction is: (a) endothermic and a combination reaction  (b) exothermic and a combination reaction  (c) exothermic and a decomposition reaction  (d) endothermic and a displacement reaction",
@@ -198,20 +198,20 @@
         "a": "**(a) CaO + H₂O → Ca(OH)₂.** Two reactants combine to form a single product; (b) is decomposition, (c) displacement and (d) double displacement."
       },
       {
-        "q": "The brown fumes evolved when lead nitrate is heated are of: (a) NO₂  (b) O₂  (c) NO  (d) PbO",
-        "a": "**(a) NO₂.** 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂; nitrogen dioxide is brown, the residue lead oxide is yellow."
+        "q": "The brown fumes evolved when lead nitrate is heated are of: (a) O₂  (b) NO₂  (c) NO  (d) PbO",
+        "a": "**(b) NO₂.** 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂; nitrogen dioxide is brown, the residue lead oxide is yellow."
       },
       {
-        "q": "Rancidity of fat-containing food is prevented by: (a) storing it in the open  (b) adding antioxidants and flushing with nitrogen  (c) adding oxidising agents  (d) heating it repeatedly",
-        "a": "**(b) adding antioxidants and flushing with nitrogen.** Both slow down the oxidation of fats that causes the stale smell and taste."
+        "q": "Rancidity of fat-containing food is prevented by: (a) storing it in the open  (b) adding oxidising agents  (c) heating it repeatedly  (d) adding antioxidants and flushing with nitrogen",
+        "a": "**(d) adding antioxidants and flushing with nitrogen.** Both slow down the oxidation of fats that causes the stale smell and taste."
       },
       {
         "q": "When the equation Fe + H₂O → Fe₃O₄ + H₂ is balanced, the coefficient of steam (H₂O) is: (a) 2  (b) 3  (c) 4  (d) 6",
         "a": "**(c) 4.** 3Fe + 4H₂O → Fe₃O₄ + 4H₂ — three iron atoms need four oxygen atoms, which come from four water molecules."
       },
       {
-        "q": "A shiny brown element X becomes black when heated in air. X and the black compound are: (a) Cu and CuO  (b) Fe and Fe₂O₃  (c) Ag and Ag₂S  (d) Al and Al₂O₃",
-        "a": "**(a) Cu and CuO.** Copper is reddish-brown and forms black copper(II) oxide on heating: 2Cu + O₂ → 2CuO."
+        "q": "A shiny brown element X becomes black when heated in air. X and the black compound are: (a) Fe and Fe₂O₃  (b) Ag and Ag₂S  (c) Cu and CuO  (d) Al and Al₂O₃",
+        "a": "**(c) Cu and CuO.** Copper is reddish-brown and forms black copper(II) oxide on heating: 2Cu + O₂ → 2CuO."
       },
       {
         "q": "The reaction 2AgBr → 2Ag + Br₂ used in black-and-white photography is a: (a) thermal decomposition  (b) photochemical decomposition  (c) displacement  (d) combination reaction",
@@ -442,44 +442,44 @@
         "a": "**(b) HCl.** Egg-shell is CaCO3; CaCO3 + 2HCl → CaCl2 + H2O + CO2. The CO2 turns lime water milky."
       },
       {
-        "q": "Which one is a strong base? (a) NH4OH (b) Mg(OH)2 (c) NaOH (d) Cu(OH)2",
-        "a": "**(c) NaOH.** Alkali metal hydroxides are strong bases and ionise completely; the others are weak."
+        "q": "Which one is a strong base? (a) NaOH (b) NH4OH (c) Mg(OH)2 (d) Cu(OH)2",
+        "a": "**(a) NaOH.** Alkali metal hydroxides are strong bases and ionise completely; the others are weak."
       },
       {
         "q": "The pH of gastric juice released during digestion is: (a) less than 7 (b) more than 7 (c) equal to 7 (d) equal to 0",
         "a": "**(a) less than 7.** The stomach secretes hydrochloric acid, which keeps the gastric juice acidic (roughly pH 1.2–3) so that pepsin can act."
       },
       {
-        "q": "Which of the following salts gives a neutral solution (pH about 7) in water? (a) NaCl  (b) Na₂CO₃  (c) NH₄Cl  (d) CH₃COONa",
-        "a": "**(a) NaCl.** NaCl is the salt of a strong acid (HCl) and a strong base (NaOH), so its solution is neutral."
+        "q": "Which of the following salts gives a neutral solution (pH about 7) in water? (a) Na₂CO₃  (b) NH₄Cl  (c) NaCl  (d) CH₃COONa",
+        "a": "**(c) NaCl.** NaCl is the salt of a strong acid (HCl) and a strong base (NaOH), so its solution is neutral."
       },
       {
-        "q": "When carbon dioxide is passed through lime water, it turns milky because of the formation of: (a) calcium chloride  (b) calcium hydroxide  (c) calcium carbonate  (d) calcium oxide",
-        "a": "**(c) calcium carbonate.** Ca(OH)₂ + CO₂ → CaCO₃ + H₂O; calcium carbonate is insoluble in water, so the lime water turns milky."
+        "q": "When carbon dioxide is passed through lime water, it turns milky because of the formation of: (a) calcium chloride  (b) calcium carbonate  (c) calcium hydroxide  (d) calcium oxide",
+        "a": "**(b) calcium carbonate.** Ca(OH)₂ + CO₂ → CaCO₃ + H₂O; calcium carbonate is insoluble in water, so the lime water turns milky."
       },
       {
         "q": "A solution turns colourless phenolphthalein pink. Its pH is likely to be: (a) 2  (b) 5  (c) 7  (d) 10",
         "a": "**(d) 10.** Phenolphthalein turns pink only in a basic solution, whose pH is above 7."
       },
       {
-        "q": "The salt used to remove permanent hardness of water is: (a) sodium chloride  (b) sodium carbonate  (c) calcium sulphate  (d) ammonium chloride",
-        "a": "**(b) sodium carbonate.** Washing soda precipitates out the dissolved calcium and magnesium salts that cause hardness."
+        "q": "The salt used to remove permanent hardness of water is: (a) sodium chloride  (b) calcium sulphate  (c) sodium carbonate  (d) ammonium chloride",
+        "a": "**(c) sodium carbonate.** Washing soda precipitates out the dissolved calcium and magnesium salts that cause hardness."
       },
       {
-        "q": "Dilute acid added to an active metal produces: (a) oxygen  (b) hydrogen  (c) carbon dioxide  (d) nitrogen",
-        "a": "**(b) hydrogen.** Metal + dilute acid → salt + H₂, which burns with a pop sound."
+        "q": "Dilute acid added to an active metal produces: (a) hydrogen  (b) oxygen  (c) carbon dioxide  (d) nitrogen",
+        "a": "**(a) hydrogen.** Metal + dilute acid → salt + H₂, which burns with a pop sound."
       },
       {
         "q": "The chemical formula of Plaster of Paris is: (a) CaSO₄·2H₂O  (b) CaSO₄·½H₂O  (c) CaSO₄  (d) CaCO₃",
         "a": "**(b) CaSO₄·½H₂O.** Gypsum (CaSO₄·2H₂O) heated to 373 K loses three-quarters of its water of crystallisation to give the hemihydrate."
       },
       {
-        "q": "Baking soda is: (a) Na₂CO₃·10H₂O  (b) NaHCO₃  (c) NaOH  (d) Na₂CO₃",
-        "a": "**(b) NaHCO₃.** Sodium hydrogencarbonate; it releases CO₂ on heating or with acid, which makes cakes rise and antacids fizz."
+        "q": "Baking soda is: (a) Na₂CO₃·10H₂O  (b) NaOH  (c) Na₂CO₃  (d) NaHCO₃",
+        "a": "**(d) NaHCO₃.** Sodium hydrogencarbonate; it releases CO₂ on heating or with acid, which makes cakes rise and antacids fizz."
       },
       {
-        "q": "Bleaching powder is manufactured by passing chlorine gas over: (a) dry slaked lime  (b) quicklime  (c) limestone  (d) gypsum",
-        "a": "**(a) dry slaked lime.** Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O. Quicklime is CaO, limestone is CaCO₃, gypsum is a sulphate."
+        "q": "Bleaching powder is manufactured by passing chlorine gas over: (a) quicklime  (b) limestone  (c) dry slaked lime  (d) gypsum",
+        "a": "**(c) dry slaked lime.** Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O. Quicklime is CaO, limestone is CaCO₃, gypsum is a sulphate."
       }
     ],
     "trend": "The four salts — bleaching powder, baking soda, washing soda, plaster of Paris — rotate through the 3-mark slot every year, and the pH scale almost always appears as a case-based or diagram question.",
@@ -664,8 +664,8 @@
     ],
     "mcq": [
       {
-        "q": "A copper coin placed in silver nitrate solution turns silvery and the solution turns blue. This shows copper is: (a) less reactive than silver (b) more reactive than silver (c) equally reactive (d) an inert metal",
-        "a": "**(b) more reactive than silver.** Cu + 2AgNO3 → Cu(NO3)2 + 2Ag; the blue colour is due to Cu2+ ions."
+        "q": "A copper coin placed in silver nitrate solution turns silvery and the solution turns blue. This shows copper is: (a) less reactive than silver (b) equally reactive (c) an inert metal (d) more reactive than silver",
+        "a": "**(d) more reactive than silver.** Cu + 2AgNO3 → Cu(NO3)2 + 2Ag; the blue colour is due to Cu2+ ions."
       },
       {
         "q": "Which pair is amphoteric? (a) Na2O and CaO (b) Al2O3 and ZnO (c) CO2 and SO2 (d) CuO and FeO",
@@ -680,32 +680,32 @@
         "a": "**(b) Zn.** Only a metal above copper in the reactivity series can displace it; zinc is above copper, while silver, mercury and gold are below it."
       },
       {
-        "q": "An element forms an oxide that is acidic in nature. The element is most likely a: (a) metal  (b) alkali metal  (c) non-metal  (d) alloy",
-        "a": "**(c) non-metal.** Non-metals form acidic (or neutral) oxides, while metals generally form basic oxides."
+        "q": "An element forms an oxide that is acidic in nature. The element is most likely a: (a) non-metal  (b) metal  (c) alkali metal  (d) alloy",
+        "a": "**(a) non-metal.** Non-metals form acidic (or neutral) oxides, while metals generally form basic oxides."
       },
       {
         "q": "The best conductor of electricity among these is: (a) copper  (b) silver  (c) aluminium  (d) iron",
         "a": "**(b) silver.** Silver conducts best, then copper; silver is too costly for wiring, so copper is used."
       },
       {
-        "q": "Brass is an alloy of: (a) copper and tin  (b) copper and zinc  (c) lead and tin  (d) mercury and zinc",
-        "a": "**(b) copper and zinc.** Bronze is copper and tin, solder is lead and tin, and an amalgam contains mercury."
+        "q": "Brass is an alloy of: (a) copper and zinc  (b) copper and tin  (c) lead and tin  (d) mercury and zinc",
+        "a": "**(a) copper and zinc.** Bronze is copper and tin, solder is lead and tin, and an amalgam contains mercury."
       },
       {
-        "q": "Which metal reacts vigorously with cold water? (a) iron  (b) zinc  (c) sodium  (d) copper",
-        "a": "**(c) sodium.** It reacts violently with cold water; iron and zinc react only with steam, and copper does not react at all."
+        "q": "Which metal reacts vigorously with cold water? (a) iron  (b) zinc  (c) copper  (d) sodium",
+        "a": "**(d) sodium.** It reacts violently with cold water; iron and zinc react only with steam, and copper does not react at all."
       },
       {
-        "q": "The correct decreasing order of reactivity is: (a) Zn > Mg > Cu  (b) Mg > Zn > Cu  (c) Cu > Zn > Mg  (d) Zn > Cu > Mg",
-        "a": "**(b) Mg > Zn > Cu.** In the reactivity series magnesium lies above zinc, and copper lies below hydrogen, so it is the least reactive of the three."
+        "q": "The correct decreasing order of reactivity is: (a) Zn > Mg > Cu  (b) Cu > Zn > Mg  (c) Zn > Cu > Mg  (d) Mg > Zn > Cu",
+        "a": "**(d) Mg > Zn > Cu.** In the reactivity series magnesium lies above zinc, and copper lies below hydrogen, so it is the least reactive of the three."
       },
       {
         "q": "Galvanisation protects iron from rusting by coating it with a thin layer of: (a) tin  (b) chromium  (c) zinc  (d) copper",
         "a": "**(c) zinc.** Zinc is more reactive than iron, so it corrodes in preference to the iron even if the coating is scratched."
       },
       {
-        "q": "Magnesium (2, 8, 2) combines with chlorine (2, 8, 7) to form an ionic compound with the formula: (a) MgCl  (b) MgCl₂  (c) Mg₂Cl  (d) MgCl₃",
-        "a": "**(b) MgCl₂.** Magnesium loses two electrons to become Mg²⁺; each chlorine atom gains one, so two Cl⁻ ions are needed."
+        "q": "Magnesium (2, 8, 2) combines with chlorine (2, 8, 7) to form an ionic compound with the formula: (a) MgCl₂  (b) MgCl  (c) Mg₂Cl  (d) MgCl₃",
+        "a": "**(a) MgCl₂.** Magnesium loses two electrons to become Mg²⁺; each chlorine atom gains one, so two Cl⁻ ions are needed."
       }
     ],
     "trend": "One displacement question from the reactivity series and one reasoning question (kerosene, galvanising, aqua regia or the thermite reaction) appear almost every year; ionic bond formation is the recurring 3-mark answer.",
@@ -899,44 +899,44 @@
         "a": "**(c) 7** — six C–H bonds plus one C–C bond."
       },
       {
-        "q": "Which compound decolorises bromine water? (a) CH4 (b) C2H6 (c) C2H4 (d) C3H8",
-        "a": "**(c) C2H4** (ethene). Only unsaturated compounds with a double bond undergo addition with bromine."
+        "q": "Which compound decolorises bromine water? (a) C2H4 (b) CH4 (c) C2H6 (d) C3H8",
+        "a": "**(a) C2H4** (ethene). Only unsaturated compounds with a double bond undergo addition with bromine."
       },
       {
-        "q": "Vinegar is a solution of: (a) 5–8% ethanoic acid in water (b) 50–80% ethanoic acid (c) pure ethanoic acid (d) ethanoic acid in alcohol",
-        "a": "**(a) 5–8% ethanoic acid in water.** Pure (glacial) acetic acid freezes at 290 K, which is why it is not used directly in kitchens."
+        "q": "Vinegar is a solution of: (a) 50–80% ethanoic acid (b) 5–8% ethanoic acid in water (c) pure ethanoic acid (d) ethanoic acid in alcohol",
+        "a": "**(b) 5–8% ethanoic acid in water.** Pure (glacial) acetic acid freezes at 290 K, which is why it is not used directly in kitchens."
       },
       {
-        "q": "The next higher homologue of ethanol, C₂H₅OH, is: (a) C₃H₈  (b) C₃H₇OH  (c) CH₃OH  (d) C₂H₅COOH",
-        "a": "**(b) C₃H₇OH.** Successive members of a homologous series differ by a –CH₂– unit; ethanol → propanol (C₃H₇OH)."
+        "q": "The next higher homologue of ethanol, C₂H₅OH, is: (a) C₃H₇OH  (b) C₃H₈  (c) CH₃OH  (d) C₂H₅COOH",
+        "a": "**(a) C₃H₇OH.** Successive members of a homologous series differ by a –CH₂– unit; ethanol → propanol (C₃H₇OH)."
       },
       {
-        "q": "Which of the following burns with a sooty flame? (a) ethyne (C₂H₂)  (b) methane (CH₄)  (c) ethane (C₂H₆)  (d) ethanol (C₂H₅OH)",
-        "a": "**(a) ethyne (C₂H₂).** Unsaturated hydrocarbons such as ethyne have a high proportion of carbon, which does not burn completely and forms soot."
+        "q": "Which of the following burns with a sooty flame? (a) methane (CH₄)  (b) ethane (C₂H₆)  (c) ethyne (C₂H₂)  (d) ethanol (C₂H₅OH)",
+        "a": "**(c) ethyne (C₂H₂).** Unsaturated hydrocarbons such as ethyne have a high proportion of carbon, which does not burn completely and forms soot."
       },
       {
         "q": "Which compound decolourises alkaline KMnO₄ (Baeyer's reagent)? (a) C₂H₆  (b) C₂H₄  (c) CH₄  (d) C₃H₈",
         "a": "**(b) C₂H₄.** Ethene is unsaturated; only double or triple bonds add on and decolourise the reagent."
       },
       {
-        "q": "The functional group present in an alcohol is: (a) –CHO  (b) –COOH  (c) –OH  (d) –CO–",
-        "a": "**(c) –OH.** –CHO is aldehyde, –COOH is carboxylic acid and –CO– is a ketone group."
+        "q": "The functional group present in an alcohol is: (a) –CHO  (b) –COOH  (c) –CO–  (d) –OH",
+        "a": "**(d) –OH.** –CHO is aldehyde, –COOH is carboxylic acid and –CO– is a ketone group."
       },
       {
-        "q": "The gas evolved when ethanoic acid reacts with sodium carbonate is: (a) H₂  (b) O₂  (c) CO₂  (d) CO",
-        "a": "**(c) CO₂.** 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂; the gas turns lime water milky."
+        "q": "The gas evolved when ethanoic acid reacts with sodium carbonate is: (a) H₂  (b) O₂  (c) CO  (d) CO₂",
+        "a": "**(d) CO₂.** 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂; the gas turns lime water milky."
       },
       {
-        "q": "The IUPAC name of CH₃–CH₂–CHO is: (a) propanol  (b) propanal  (c) propanone  (d) propanoic acid",
-        "a": "**(b) propanal.** Three carbons (prop-) with an aldehyde group –CHO (-al). Propanone is a ketone, propanol an alcohol, propanoic acid a carboxylic acid."
+        "q": "The IUPAC name of CH₃–CH₂–CHO is: (a) propanal  (b) propanol  (c) propanone  (d) propanoic acid",
+        "a": "**(a) propanal.** Three carbons (prop-) with an aldehyde group –CHO (-al). Propanone is a ketone, propanol an alcohol, propanoic acid a carboxylic acid."
       },
       {
-        "q": "Which pair belongs to the same homologous series? (a) CH₄ and C₂H₄  (b) C₂H₆ and C₃H₈  (c) C₂H₄ and C₂H₂  (d) CH₃OH and CH₃COOH",
-        "a": "**(b) C₂H₆ and C₃H₈.** Both are alkanes (CₙH₂ₙ₊₂) differing by one –CH₂– unit. The other pairs have different functional groups or bond types."
+        "q": "Which pair belongs to the same homologous series? (a) CH₄ and C₂H₄  (b) C₂H₄ and C₂H₂  (c) CH₃OH and CH₃COOH  (d) C₂H₆ and C₃H₈",
+        "a": "**(d) C₂H₆ and C₃H₈.** Both are alkanes (CₙH₂ₙ₊₂) differing by one –CH₂– unit. The other pairs have different functional groups or bond types."
       },
       {
-        "q": "Which hydrocarbon undergoes an addition reaction with hydrogen in the presence of a nickel catalyst? (a) C₃H₈  (b) C₂H₆  (c) C₄H₁₀  (d) C₂H₄",
-        "a": "**(d) C₂H₄.** Only an unsaturated hydrocarbon (ethene, with a C=C double bond) can add hydrogen; the other three are saturated alkanes."
+        "q": "Which hydrocarbon undergoes an addition reaction with hydrogen in the presence of a nickel catalyst? (a) C₃H₈  (b) C₂H₆  (c) C₂H₄  (d) C₄H₁₀",
+        "a": "**(c) C₂H₄.** Only an unsaturated hydrocarbon (ethene, with a C=C double bond) can add hydrogen; the other three are saturated alkanes."
       }
     ],
     "trend": "One IUPAC naming or structure question every year, plus either the soap/detergent comparison or an ethanol–ethanoic acid reaction question. Homologous series tables are a favourite case-based format.",

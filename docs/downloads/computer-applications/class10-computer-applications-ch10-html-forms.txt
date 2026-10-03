@@ -117,26 +117,26 @@ Q12. [Long · 5 marks] Explain any five values of the type attribute of the <inp
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which input type hides the characters typed? (a) text (b) hidden (c) password (d) secure
-    Ans: (c) password.
+M1. Which input type hides the characters typed? (a) password (b) text (c) hidden (d) secure
+    Ans: (a) password.
 
-M2. Radio buttons in one group must share the same — (a) value (b) name (c) id (d) size
-    Ans: (b) name.
+M2. Radio buttons in one group must share the same — (a) value (b) id (c) size (d) name
+    Ans: (d) name.
 
-M3. Which method sends data in the request body? (a) GET (b) POST (c) SEND (d) PUT
-    Ans: (b) POST.
+M3. Which method sends data in the request body? (a) GET (b) SEND (c) PUT (d) POST
+    Ans: (d) POST.
 
 M4. Which of these is a paired tag? (a) <input> (b) <textarea> (c) <img> (d) <br>
     Ans: (b) <textarea>.
 
-M5. To pre-select a radio button you use the attribute — (a) selected (b) checked (c) default (d) value
-    Ans: (b) checked. selected is used on <option>.
+M5. To pre-select a radio button you use the attribute — (a) checked (b) selected (c) default (d) value
+    Ans: (a) checked. selected is used on <option>.
 
-M6. The input type that hides the characters as they are typed is: (a) password  (b) text  (c) hidden  (d) email
-    Ans: (a) password. It masks the characters but does not encrypt them, so the form should still use POST.
+M6. The input type that hides the characters as they are typed is: (a) text  (b) password  (c) hidden  (d) email
+    Ans: (b) password. It masks the characters but does not encrypt them, so the form should still use POST.
 
-M7. The tag that creates a box for several lines of text is: (a) <textarea>  (b) <input type="text">  (c) <select>  (d) <option>
-    Ans: (a) <textarea>. rows and columns are set with the rows and cols attributes.
+M7. The tag that creates a box for several lines of text is: (a) <input type="text">  (b) <select>  (c) <textarea>  (d) <option>
+    Ans: (c) <textarea>. rows and columns are set with the rows and cols attributes.
 
-M8. In <select>, the option shown by default is marked with: (a) selected (b) checked (c) default (d) value
-    Ans: (a) selected. checked is the equivalent for radio buttons and checkboxes.
+M8. In <select>, the option shown by default is marked with: (a) checked (b) default (c) selected (d) value
+    Ans: (c) selected. checked is the equivalent for radio buttons and checkboxes.

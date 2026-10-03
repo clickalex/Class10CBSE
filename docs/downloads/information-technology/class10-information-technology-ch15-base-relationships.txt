@@ -85,26 +85,26 @@ Q12. [Long · 5 marks] A shop has customers, products and orders. Design the tab
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The foreign key is stored on the: (a) one side always (b) many side (c) report (d) form title
-    Ans: (b) many side.
+M1. The foreign key is stored on the: (a) many side (b) one side always (c) report (d) form title
+    Ans: (a) many side.
 
-M2. Referential integrity prevents: (a) styles (b) orphan FK values (c) Goal Seek (d) macros
+M2. Referential integrity prevents: (a) styles (b) Goal Seek (c) orphan FK values (d) macros
+    Ans: (c).
+
+M3. Student–Issue is typically: (a) one-to-one (b) many-to-many without a junction (c) no relation (d) one-to-many
+    Ans: (d) one-to-many.
+
+M4. Relationships window is opened from: (a) Insert → Image (b) Tools → Relationships (c) Format → Page (d) Data → Sort
     Ans: (b).
 
-M3. Student–Issue is typically: (a) one-to-one (b) one-to-many (c) many-to-many without a junction (d) no relation
-    Ans: (b) one-to-many.
+M5. In a one-to-many relationship, the foreign key is placed in the table on the: (a) “one” side (b) side with fewer records (c) “many” side (d) side with the longer name
+    Ans: (c) “many” side. Each record on the “many” side stores the key of the one record it belongs to.
 
-M4. Relationships window is opened from: (a) Tools → Relationships (b) Insert → Image (c) Format → Page (d) Data → Sort
-    Ans: (a).
+M6. Referential integrity ensures that: (a) a foreign key value must match an existing primary key value in the related table (b) every field has a default value (c) a table has at least ten records (d) a query is always sorted
+    Ans: (a) a foreign key value must match an existing primary key value in the related table. It prevents records that point to something that does not exist, such as an order for a missing customer.
 
-M5. In a one-to-many relationship, the foreign key is placed in the table on the: (a) “one” side (b) “many” side (c) side with fewer records (d) side with the longer name
-    Ans: (b) “many” side. Each record on the “many” side stores the key of the one record it belongs to.
+M7. The relationship between one customer and the many orders placed by that customer is: (a) one-to-one  (b) one-to-many  (c) many-to-many  (d) not possible
+    Ans: (b) one-to-many. The customer is the parent record and the orders are the child records.
 
-M6. Referential integrity ensures that: (a) every field has a default value (b) a table has at least ten records (c) a query is always sorted (d) a foreign key value must match an existing primary key value in the related table
-    Ans: (d) a foreign key value must match an existing primary key value in the related table. It prevents records that point to something that does not exist, such as an order for a missing customer.
-
-M7. The relationship between one customer and the many orders placed by that customer is: (a) one-to-many  (b) one-to-one  (c) many-to-many  (d) not possible
-    Ans: (a) one-to-many. The customer is the parent record and the orders are the child records.
-
-M8. In a relationship, the field in the child table that matches the primary key of the parent table is the: (a) foreign key  (b) primary key  (c) index  (d) alias
-    Ans: (a) foreign key. It is what holds the relationship together.
+M8. In a relationship, the field in the child table that matches the primary key of the parent table is the: (a) primary key  (b) index  (c) alias  (d) foreign key
+    Ans: (d) foreign key. It is what holds the relationship together.

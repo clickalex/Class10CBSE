@@ -95,26 +95,26 @@ Q12. [Long · 5 marks] Prove that if a line is drawn parallel to one side of a t
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Two triangles are similar if their corresponding sides are: (a) equal  (b) proportional  (c) perpendicular  (d) parallel
-    Ans: (b) Proportional. That is the SSS similarity criterion.
+M1. Two triangles are similar if their corresponding sides are: (a) proportional  (b) equal  (c) perpendicular  (d) parallel
+    Ans: (a) Proportional. That is the SSS similarity criterion.
 
 M2. The ratio of the areas of two similar triangles is 25:49. The ratio of their corresponding sides is: (a) 25:49  (b) 5:7  (c) 7:5  (d) 49:25
     Ans: (b) 5:7. Square root of the area ratio.
 
-M3. In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 10 cm  (b) 12 cm  (c) 14 cm  (d) 9 cm
-    Ans: (a) 10 cm. √(36 + 64) = 10.
+M3. In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 12 cm  (b) 14 cm  (c) 10 cm  (d) 9 cm
+    Ans: (c) 10 cm. √(36 + 64) = 10.
 
-M4. If ΔABC ~ ΔPQR, ∠A = 50° and ∠Q = 60°, then ∠C equals: (a) 60°  (b) 50°  (c) 80°  (d) 70°
-    Ans: (d) 70°. ∠B = ∠Q = 60° because corresponding angles of similar triangles are equal, so ∠C = 180° − 50° − 60° = 70°.
+M4. If ΔABC ~ ΔPQR, ∠A = 50° and ∠Q = 60°, then ∠C equals: (a) 60°  (b) 70°  (c) 50°  (d) 80°
+    Ans: (b) 70°. ∠B = ∠Q = 60° because corresponding angles of similar triangles are equal, so ∠C = 180° − 50° − 60° = 70°.
 
-M5. A triangle has sides 7 cm, 24 cm and 25 cm. It is: (a) acute-angled  (b) obtuse-angled  (c) right-angled  (d) equilateral
-    Ans: (c) right-angled. 7² + 24² = 49 + 576 = 625 = 25², so by the converse of the Pythagoras theorem the triangle is right-angled.
+M5. A triangle has sides 7 cm, 24 cm and 25 cm. It is: (a) acute-angled  (b) obtuse-angled  (c) equilateral  (d) right-angled
+    Ans: (d) right-angled. 7² + 24² = 49 + 576 = 625 = 25², so by the converse of the Pythagoras theorem the triangle is right-angled.
 
-M6. Two triangles are similar if their corresponding angles are: (a) equal  (b) supplementary  (c) complementary  (d) proportional
-    Ans: (a) equal. Equiangular triangles are similar — the AAA similarity criterion.
+M6. Two triangles are similar if their corresponding angles are: (a) supplementary  (b) complementary  (c) proportional  (d) equal
+    Ans: (d) equal. Equiangular triangles are similar — the AAA similarity criterion.
 
-M7. In ΔABC, DE ∥ BC with AD = 4 cm, DB = 6 cm and AE = 5 cm. Then EC = : (a) 6.5 cm  (b) 7.5 cm  (c) 8 cm  (d) 9 cm
-    Ans: (b) 7.5 cm. AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm.
+M7. In ΔABC, DE ∥ BC with AD = 4 cm, DB = 6 cm and AE = 5 cm. Then EC = : (a) 9 cm  (b) 8 cm  (c) 7.5 cm  (d) 6.5 cm
+    Ans: (c) 7.5 cm. AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm.
 
-M8. If the corresponding sides of two similar triangles are in the ratio 4 : 9, their areas are in the ratio: (a) 4 : 9  (b) 2 : 3  (c) 16 : 81  (d) 8 : 27
-    Ans: (c) 16 : 81. The area ratio of similar triangles is the square of the side ratio.
+M8. If the corresponding sides of two similar triangles are in the ratio 4 : 9, their areas are in the ratio: (a) 16 : 81  (b) 4 : 9  (c) 2 : 3  (d) 8 : 27
+    Ans: (a) 16 : 81. The area ratio of similar triangles is the square of the side ratio.

@@ -99,8 +99,8 @@ Q12. [Long · 5 marks] Solve for x: 1/(x + 4) − 1/(x − 7) = 11/30, where x �
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The roots of x² − 5x + 6 = 0 are: (a) 2, 3  (b) −2, −3  (c) 1, 6  (d) −1, −6
-    Ans: (a) 2, 3. Product 6 and sum 5, both positive.
+M1. The roots of x² − 5x + 6 = 0 are: (a) −2, −3  (b) 1, 6  (c) 2, 3  (d) −1, −6
+    Ans: (c) 2, 3. Product 6 and sum 5, both positive.
 
 M2. If the discriminant of a quadratic is zero, the roots are: (a) real and distinct  (b) real and equal  (c) not real  (d) always integers
     Ans: (b) Real and equal.
@@ -108,17 +108,17 @@ M2. If the discriminant of a quadratic is zero, the roots are: (a) real and dist
 M3. For x² + 4x + k = 0 to have real roots, k must satisfy: (a) k ≤ 4  (b) k ≥ 4  (c) k ≤ −4  (d) k = 4
     Ans: (a) k ≤ 4. D = 16 − 4k ≥ 0 gives k ≤ 4.
 
-M4. The quadratic equation 2x² − √5 x + 1 = 0 has: (a) two distinct real roots  (b) no real roots  (c) two equal real roots  (d) more than two real roots
-    Ans: (b) no real roots. D = (√5)² − 4(2)(1) = 5 − 8 = −3 < 0, so there is no real root.
+M4. The quadratic equation 2x² − √5 x + 1 = 0 has: (a) two distinct real roots  (b) two equal real roots  (c) more than two real roots  (d) no real roots
+    Ans: (d) no real roots. D = (√5)² − 4(2)(1) = 5 − 8 = −3 < 0, so there is no real root.
 
-M5. The equation ax² + bx + c = 0 (a ≠ 0) has real roots only if: (a) b² − 4ac < 0  (b) b² − 4ac ≥ 0  (c) b² − 4ac = 0 only  (d) b² + 4ac ≥ 0
-    Ans: (b) b² − 4ac ≥ 0. The roots contain √(b² − 4ac), which is real exactly when the discriminant is zero or positive.
+M5. The equation ax² + bx + c = 0 (a ≠ 0) has real roots only if: (a) b² − 4ac < 0  (b) b² − 4ac = 0 only  (c) b² + 4ac ≥ 0  (d) b² − 4ac ≥ 0
+    Ans: (d) b² − 4ac ≥ 0. The roots contain √(b² − 4ac), which is real exactly when the discriminant is zero or positive.
 
-M6. The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3/2  (b) 7/2 and 3  (c) −7/2 and 3/2  (d) 7/2 and −3/2
-    Ans: (a) 7/2 and 3/2. Sum = −b/a = 7/2 and product = c/a = 3/2.
+M6. The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3  (b) 7/2 and 3/2  (c) −7/2 and 3/2  (d) 7/2 and −3/2
+    Ans: (b) 7/2 and 3/2. Sum = −b/a = 7/2 and product = c/a = 3/2.
 
 M7. Which one is NOT a quadratic equation? (a) x² + 3x + 2 = 0  (b) (x + 1)² = 2(x − 3)  (c) x³ − x² + 1 = 0  (d) 2x² = 8
     Ans: (c) x³ − x² + 1 = 0. Its degree is 3, so it is a cubic; the others reduce to degree 2.
 
-M8. If the roots of x² − 8x + k = 0 are equal, then k = : (a) 8  (b) 16  (c) −16  (d) 64
-    Ans: (b) 16. D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16.
+M8. If the roots of x² − 8x + k = 0 are equal, then k = : (a) 16  (b) 8  (c) −16  (d) 64
+    Ans: (a) 16. D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16.

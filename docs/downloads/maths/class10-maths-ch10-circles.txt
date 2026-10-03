@@ -106,20 +106,20 @@ M1. The number of tangents from a point on the circle is: (a) 0  (b) 1  (c) 2  (
 M2. The angle between a tangent and the radius at the point of contact is: (a) 45°  (b) 60°  (c) 90°  (d) 180°
     Ans: (c) 90°.
 
-M3. Two tangents from an external point to a circle are: (a) unequal  (b) equal  (c) always perpendicular  (d) parallel
-    Ans: (b) Equal.
+M3. Two tangents from an external point to a circle are: (a) unequal  (b) always perpendicular  (c) parallel  (d) equal
+    Ans: (d) Equal.
 
-M4. A tangent to a circle meets the circle in: (a) no point  (b) exactly one point  (c) exactly two points  (d) infinitely many points
-    Ans: (b) exactly one point. By definition, a tangent touches the circle at exactly one point, the point of contact.
+M4. A tangent to a circle meets the circle in: (a) exactly one point  (b) no point  (c) exactly two points  (d) infinitely many points
+    Ans: (a) exactly one point. By definition, a tangent touches the circle at exactly one point, the point of contact.
 
-M5. If the angle between two tangents drawn from an external point P to a circle of radius a and centre O is 60°, then OP = (a) 2a  (b) a√3  (c) a√2  (d) a/2
-    Ans: (a) 2a. ∠APB = 60° gives ∠APO = 30° and, in right triangle OAP, OA = OP sin 30°, so OP = a/(1/2) = 2a.
+M5. If the angle between two tangents drawn from an external point P to a circle of radius a and centre O is 60°, then OP = (a) a√3  (b) a√2  (c) a/2  (d) 2a
+    Ans: (d) 2a. ∠APB = 60° gives ∠APO = 30° and, in right triangle OAP, OA = OP sin 30°, so OP = a/(1/2) = 2a.
 
 M6. The number of tangents that can be drawn from a point outside a circle is: (a) 1  (b) 2  (c) 3  (d) infinite
     Ans: (b) 2. Exactly two, and they are equal in length.
 
-M7. A line that cuts a circle in two distinct points is called a: (a) tangent  (b) secant  (c) chord  (d) diameter
-    Ans: (b) secant. A tangent meets the circle at one point; a chord is the segment joining the two points.
+M7. A line that cuts a circle in two distinct points is called a: (a) secant  (b) tangent  (c) chord  (d) diameter
+    Ans: (a) secant. A tangent meets the circle at one point; a chord is the segment joining the two points.
 
-M8. A tangent of length 24 cm is drawn from a point 25 cm from the centre. The radius is: (a) 5 cm  (b) 7 cm  (c) 12 cm  (d) 24 cm
-    Ans: (b) 7 cm. r² + 24² = 25², so r = √49 = 7 cm.
+M8. A tangent of length 24 cm is drawn from a point 25 cm from the centre. The radius is: (a) 24 cm  (b) 12 cm  (c) 7 cm  (d) 5 cm
+    Ans: (c) 7 cm. r² + 24² = 25², so r = √49 = 7 cm.

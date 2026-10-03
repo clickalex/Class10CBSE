@@ -90,11 +90,11 @@ Q12. [Long · 5 marks] Trace the evolution of mobile technology from 1G to 5G, s
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which generation first made video calling practical? (a) 2G (b) 3G (c) 4G (d) 1G
-    Ans: (b) 3G, with speeds up to about 2 Mbps.
+M1. Which generation first made video calling practical? (a) 2G (b) 4G (c) 1G (d) 3G
+    Ans: (d) 3G, with speeds up to about 2 Mbps.
 
-M2. NFC works over a range of — (a) metres (b) kilometres (c) centimetres (d) it has no limit
-    Ans: (c) centimetres — which is why you tap.
+M2. NFC works over a range of — (a) centimetres (b) metres (c) kilometres (d) it has no limit
+    Ans: (a) centimetres — which is why you tap.
 
 M3. Which standard family defines Wi-Fi? (a) IEEE 802.3 (b) IEEE 802.11 (c) IEEE 802.15 (d) IEEE 802.16
     Ans: (b) IEEE 802.11. 802.3 is wired Ethernet.
@@ -102,14 +102,14 @@ M3. Which standard family defines Wi-Fi? (a) IEEE 802.3 (b) IEEE 802.11 (c) IEEE
 M4. 4G networks are described as — (a) analog (b) circuit-switched (c) all-IP (d) infrared-based
     Ans: (c) all-IP.
 
-M5. Which generation of mobile technology first introduced digital voice and SMS? (a) 2G (b) 1G (c) 3G (d) 4G
-    Ans: (a) 2G. 1G was analogue; 2G made voice digital and added text messaging.
+M5. Which generation of mobile technology first introduced digital voice and SMS? (a) 1G (b) 3G (c) 4G (d) 2G
+    Ans: (d) 2G. 1G was analogue; 2G made voice digital and added text messaging.
 
-M6. The technology used when a phone is tapped on a terminal to make a contactless payment is: (a) infrared (b) GPS (c) NFC (d) satellite link
-    Ans: (c) NFC. Near Field Communication works over a few centimetres, which is why it is used for payments.
+M6. The technology used when a phone is tapped on a terminal to make a contactless payment is: (a) NFC (b) infrared (c) GPS (d) satellite link
+    Ans: (a) NFC. Near Field Communication works over a few centimetres, which is why it is used for payments.
 
-M7. The generation of mobile technology that first made mobile internet practical was: (a) 3G  (b) 1G  (c) 2G  (d) 5G
-    Ans: (a) 3G. 1G was analogue voice, 2G added digital voice and SMS, and 5G is the current high-speed standard.
+M7. The generation of mobile technology that first made mobile internet practical was: (a) 1G  (b) 3G  (c) 2G  (d) 5G
+    Ans: (b) 3G. 1G was analogue voice, 2G added digital voice and SMS, and 5G is the current high-speed standard.
 
-M8. NFC works only when the two devices are: (a) a few centimetres apart  (b) in the same building  (c) on the same Wi-Fi network  (d) several metres apart
-    Ans: (a) a few centimetres apart. The short range is what makes contactless payment safe.
+M8. NFC works only when the two devices are: (a) in the same building  (b) on the same Wi-Fi network  (c) a few centimetres apart  (d) several metres apart
+    Ans: (c) a few centimetres apart. The short range is what makes contactless payment safe.

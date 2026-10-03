@@ -234,6 +234,18 @@ grammar) to 18,419 (social science). Written Q&A are ordered by marks
 ascending in every chapter, and MCQ options use one label style per chapter
 — Devanagari (क ख ग घ) throughout hindi and sanskrit, Latin elsewhere.
 
+**The answer key is balanced by a script, not by hand.** After you add or edit
+MCQs run `python3 scripts/balance_mcq.py` (add `--check` to only report). It moves
+the right option inside each question — rewriting just the `q` option order and the
+key letter in `a` — so every letter is right about a quarter of the time per
+subject and per chapter, with no three equal answers in a row. Wrong options keep
+their relative order; questions that rely on position are left alone ("all of the
+above", "both", "none", कोई नहीं, an explanation that cites a letter, a number list
+mixed with a word); a list of four sorted numbers may only be turned round
+(rising ↔ falling). The result depends only on the questions, so a second run
+changes nothing, and `tests/test_balance_mcq.py` fails if the key drifts. Rebuild
+afterwards (`python3 site/build.py`).
+
 A useful sanity check before committing, because `build.py` does not name the
 file when a JSON file fails to parse:
 

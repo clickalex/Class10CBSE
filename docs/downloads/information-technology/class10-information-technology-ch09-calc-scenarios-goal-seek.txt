@@ -92,17 +92,17 @@ B. MCQs (8)
 M1. Goal Seek is on the menu: (a) Insert (b) Tools (c) Format (d) Window
     Ans: (b) Tools.
 
-M2. Before Subtotals you must: (a) insert a chart (b) sort the group column (c) record a macro (d) protect the sheet
-    Ans: (b) sort.
+M2. Before Subtotals you must: (a) insert a chart (b) record a macro (c) sort the group column (d) protect the sheet
+    Ans: (c) sort.
 
-M3. A named best-case / worst-case set of inputs is a: (a) style (b) scenario (c) query (d) template
-    Ans: (b) scenario.
+M3. A named best-case / worst-case set of inputs is a: (a) style (b) query (c) template (d) scenario
+    Ans: (d) scenario.
 
-M4. Consolidate is best when data is: (a) on several similar sheets (b) a single cell (c) an image (d) a Writer ToC
-    Ans: (a).
+M4. Consolidate is best when data is: (a) a single cell (b) on several similar sheets (c) an image (d) a Writer ToC
+    Ans: (b).
 
-M5. Solver is used when a problem has: (a) many variables and constraints (b) only one input to change (c) only text data (d) no formulas
-    Ans: (a) many variables and constraints. Goal Seek handles one variable; Solver can handle several variables with limits.
+M5. Solver is used when a problem has: (a) only one input to change (b) only text data (c) no formulas (d) many variables and constraints
+    Ans: (d) many variables and constraints. Goal Seek handles one variable; Solver can handle several variables with limits.
 
 M6. Which of the following is a what-if analysis tool in Calc? (a) Spell check (b) Print preview (c) Goal Seek (d) Freeze rows
     Ans: (c) Goal Seek. What-if tools change inputs to see the effect on a result; Scenarios, Goal Seek and Solver are the three studied.

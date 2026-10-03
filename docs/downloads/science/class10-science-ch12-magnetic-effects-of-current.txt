@@ -106,20 +106,20 @@ Q14. [Long · 5 marks] Describe the magnetic field produced by a current-carryin
 B. MCQs (11)
 ------------------------------------------------------------------------
 
-M1. The direction of the magnetic field produced by a straight current-carrying wire is given by: (a) Fleming's left-hand rule (b) Fleming's right-hand rule (c) the right-hand thumb rule (d) Lenz's law
-    Ans: (c) the right-hand thumb rule — hold the wire in the right hand with the thumb along the current; the curled fingers give the direction of the field lines.
+M1. The direction of the magnetic field produced by a straight current-carrying wire is given by: (a) Fleming's left-hand rule (b) Fleming's right-hand rule (c) Lenz's law (d) the right-hand thumb rule
+    Ans: (d) the right-hand thumb rule — hold the wire in the right hand with the thumb along the current; the curled fingers give the direction of the field lines.
 
 M2. The essential difference between an AC generator and a DC generator is: (a) AC generator has an electromagnet (b) DC generator has a commutator (c) AC generator has slip rings while DC generator has a commutator (d) AC generator produces more power
     Ans: (c). The slip rings of an AC generator allow the output to reverse, while the split-ring commutator of a DC generator keeps the external current in one direction.
 
-M3. The frequency of AC supply in India is 50 Hz. The direction of the current changes: (a) 50 times per second (b) 100 times per second (c) 25 times per second (d) 200 times per second
-    Ans: (b) 100 times per second — the direction reverses twice in each cycle.
+M3. The frequency of AC supply in India is 50 Hz. The direction of the current changes: (a) 50 times per second (b) 25 times per second (c) 200 times per second (d) 100 times per second
+    Ans: (d) 100 times per second — the direction reverses twice in each cycle.
 
 M4. Outside a bar magnet, the magnetic field lines run: (a) from the south pole to the north pole  (b) in straight lines parallel to the axis only  (c) from the centre to both poles  (d) from the north pole to the south pole
     Ans: (d) from the north pole to the south pole. By convention the field lines emerge from the north pole and enter the south pole outside the magnet, and continue from south to north inside it.
 
-M5. A straight conductor carrying current is placed in a magnetic field. The force on it is greatest when the current is: (a) parallel to the field  (b) at 45° to the field  (c) zero  (d) perpendicular to the field
-    Ans: (d) perpendicular to the field. The force F = BIl sin θ is maximum at θ = 90°, and zero when the conductor is parallel to the field.
+M5. A straight conductor carrying current is placed in a magnetic field. The force on it is greatest when the current is: (a) parallel to the field  (b) at 45° to the field  (c) perpendicular to the field  (d) zero
+    Ans: (c) perpendicular to the field. The force F = BIl sin θ is maximum at θ = 90°, and zero when the conductor is parallel to the field.
 
 M6. The magnetic field lines inside a long current-carrying solenoid are: (a) concentric circles  (b) parallel straight lines  (c) diverging curves  (d) absent
     Ans: (b) parallel straight lines. The field inside a solenoid is nearly uniform, like the field inside a bar magnet.
@@ -127,14 +127,14 @@ M6. The magnetic field lines inside a long current-carrying solenoid are: (a) co
 M7. An electric motor converts: (a) electrical energy into mechanical energy  (b) mechanical energy into electrical energy  (c) heat into light  (d) chemical energy into sound
     Ans: (a) electrical energy into mechanical energy. A generator does the reverse conversion.
 
-M8. The insulation on the earth wire in a domestic circuit is: (a) red  (b) black  (c) green  (d) blue
-    Ans: (c) green. Live is red or brown, neutral is black or blue, and earth is green or green-yellow.
+M8. The insulation on the earth wire in a domestic circuit is: (a) green  (b) red  (c) black  (d) blue
+    Ans: (a) green. Live is red or brown, neutral is black or blue, and earth is green or green-yellow.
 
-M9. The magnetic field at a point near a long straight current-carrying wire: (a) increases as you move away from the wire  (b) decreases as you move away from the wire  (c) does not depend on the current  (d) is zero everywhere around the wire
-    Ans: (b) decreases as you move away from the wire. The concentric field lines get farther apart with distance; the field is stronger for a larger current and closer to the wire.
+M9. The magnetic field at a point near a long straight current-carrying wire: (a) increases as you move away from the wire  (b) does not depend on the current  (c) decreases as you move away from the wire  (d) is zero everywhere around the wire
+    Ans: (c) decreases as you move away from the wire. The concentric field lines get farther apart with distance; the field is stronger for a larger current and closer to the wire.
 
-M10. Fleming's left-hand rule gives the direction of the: (a) induced current in a coil  (b) magnetic field due to a current  (c) force on a current-carrying conductor in a magnetic field  (d) current produced by a generator
-    Ans: (c) force on a current-carrying conductor in a magnetic field. Forefinger = field, middle finger = current, thumb = force (motor). The right-hand rule is for generators.
+M10. Fleming's left-hand rule gives the direction of the: (a) induced current in a coil  (b) force on a current-carrying conductor in a magnetic field  (c) magnetic field due to a current  (d) current produced by a generator
+    Ans: (b) force on a current-carrying conductor in a magnetic field. Forefinger = field, middle finger = current, thumb = force (motor). The right-hand rule is for generators.
 
 M11. The production of a current in a closed coil by a changing magnetic field is called: (a) electromagnetic induction  (b) magnetic effect of current  (c) electrolysis  (d) electrostatic induction
     Ans: (a) electromagnetic induction. Faraday's discovery — the basis of the electric generator; the induced current direction is given by Fleming's right-hand rule.

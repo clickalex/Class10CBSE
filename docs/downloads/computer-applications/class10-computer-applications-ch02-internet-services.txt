@@ -86,20 +86,20 @@ Q12. [Long · 5 marks] Describe any four internet services, naming the protocol 
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which protocol is used to send email? (a) POP3 (b) IMAP (c) SMTP (d) FTP
-    Ans: (c) SMTP — Simple Mail Transfer Protocol.
+M1. Which protocol is used to send email? (a) SMTP (b) POP3 (c) IMAP (d) FTP
+    Ans: (a) SMTP — Simple Mail Transfer Protocol.
 
 M2. The default port for HTTPS is — (a) 21 (b) 23 (c) 80 (d) 443
     Ans: (d) 443. Port 80 is plain HTTP.
 
-M3. Which protocol keeps mail on the server? (a) POP3 (b) IMAP (c) SMTP (d) Telnet
-    Ans: (b) IMAP — it synchronises instead of downloading.
+M3. Which protocol keeps mail on the server? (a) POP3 (b) SMTP (c) IMAP (d) Telnet
+    Ans: (c) IMAP — it synchronises instead of downloading.
 
 M4. In https://example.com/page.html, example.com is the — (a) protocol (b) domain (c) path (d) port
     Ans: (b) domain.
 
-M5. Which protocol carries web pages from a web server to a browser? (a) SMTP (b) HTTP (c) FTP (d) POP3
-    Ans: (b) HTTP. HTTP (HyperText Transfer Protocol), or HTTPS for the encrypted version, transfers web pages.
+M5. Which protocol carries web pages from a web server to a browser? (a) SMTP (b) FTP (c) POP3 (d) HTTP
+    Ans: (d) HTTP. HTTP (HyperText Transfer Protocol), or HTTPS for the encrypted version, transfers web pages.
 
 M6. Which of the following is a real-time internet service? (a) downloading a file by FTP (b) reading a saved e-mail (c) instant messaging (chat) (d) uploading a web page to a server
     Ans: (c) instant messaging (chat). Chat is delivered as it is typed; the other activities do not need an immediate two-way exchange.
@@ -107,5 +107,5 @@ M6. Which of the following is a real-time internet service? (a) downloading a fi
 M7. The protocol used to send an email is: (a) SMTP  (b) POP3  (c) IMAP  (d) FTP
     Ans: (a) SMTP. POP3 and IMAP are used to receive mail and FTP to transfer files.
 
-M8. HTTPS is safer than HTTP because it: (a) encrypts the data sent between the browser and the site  (b) is faster  (c) is free  (d) needs no server
-    Ans: (a) encrypts the data. The S stands for secure, which is why a padlock appears in the address bar.
+M8. HTTPS is safer than HTTP because it: (a) is faster  (b) encrypts the data sent between the browser and the site  (c) is free  (d) needs no server
+    Ans: (b) encrypts the data. The S stands for secure, which is why a padlock appears in the address bar.

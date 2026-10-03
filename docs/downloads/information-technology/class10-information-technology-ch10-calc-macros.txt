@@ -89,23 +89,23 @@ B. MCQs (8)
 M1. Macros in Calc are started from: (a) Insert → Image (b) Tools → Macros (c) Data → Sort (d) Format → Cells
     Ans: (b).
 
-M2. A macro is: (a) a virus always (b) a recorded command sequence (c) a Heading style (d) a primary key
-    Ans: (b).
+M2. A macro is: (a) a recorded command sequence (b) a virus always (c) a Heading style (d) a primary key
+    Ans: (a).
 
-M3. Unknown file asks to enable macros. You should: (a) always click Enable (b) enable only if you trust the source (c) delete LibreOffice (d) turn security to Low forever
-    Ans: (b).
+M3. Unknown file asks to enable macros. You should: (a) always click Enable (b) delete LibreOffice (c) turn security to Low forever (d) enable only if you trust the source
+    Ans: (d).
 
 M4. Best use of a macro: (a) one-time typing of a name (b) repeating a long format every week (c) drawing a circle once (d) writing an essay
     Ans: (b).
 
-M5. A recorded macro can be kept so that it is available in all documents if it is saved in: (a) the current document only (b) the Recycle Bin (c) the clipboard (d) My Macros
-    Ans: (d) My Macros. Macros saved in My Macros belong to the user profile and can be run from any document.
+M5. A recorded macro can be kept so that it is available in all documents if it is saved in: (a) the current document only (b) the Recycle Bin (c) My Macros (d) the clipboard
+    Ans: (c) My Macros. Macros saved in My Macros belong to the user profile and can be run from any document.
 
-M6. The main danger in enabling macros from a file sent by an unknown person is that they: (a) will make the file larger (b) will change the font (c) may contain harmful code (d) will slow the printer
-    Ans: (c) may contain harmful code. A macro can run commands automatically, so a malicious macro can do real damage.
+M6. The main danger in enabling macros from a file sent by an unknown person is that they: (a) will make the file larger (b) will change the font (c) will slow the printer (d) may contain harmful code
+    Ans: (d) may contain harmful code. A macro can run commands automatically, so a malicious macro can do real damage.
 
 M7. Recording a macro in LibreOffice starts from: (a) Tools → Macros → Record Macro  (b) Insert → Macro  (c) Format → Macro  (d) Data → Macro
     Ans: (a) Tools → Macros → Record Macro. Stop the recording with the same menu and then save the macro.
 
-M8. Macros in LibreOffice are commonly stored and written in: (a) LibreOffice Basic  (b) HTML  (c) SQL only  (d) CSS
-    Ans: (a) LibreOffice Basic. Python, BeanShell and JavaScript are also supported.
+M8. Macros in LibreOffice are commonly stored and written in: (a) HTML  (b) SQL only  (c) LibreOffice Basic  (d) CSS
+    Ans: (c) LibreOffice Basic. Python, BeanShell and JavaScript are also supported.

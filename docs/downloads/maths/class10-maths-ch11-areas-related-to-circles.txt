@@ -92,8 +92,8 @@ Q12. [Long · 5 marks] The minute hand of a clock is 14 cm long. Find (i) the an
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The area of a quadrant of a circle of radius r is: (a) πr²/2  (b) πr²/4  (c) 2πr  (d) πr²
-    Ans: (b) πr²/4.
+M1. The area of a quadrant of a circle of radius r is: (a) πr²/2  (b) 2πr  (c) πr²  (d) πr²/4
+    Ans: (d) πr²/4.
 
 M2. The perimeter of a sector includes: (a) only the arc  (b) the arc and one radius  (c) the arc and two radii  (d) the chord and the arc
     Ans: (c) The arc and two radii.
@@ -101,17 +101,17 @@ M2. The perimeter of a sector includes: (a) only the arc  (b) the arc and one ra
 M3. The area of a segment is found by: (a) sector − triangle  (b) sector + triangle  (c) circle − sector  (d) triangle − sector
     Ans: (a) Sector − triangle.
 
-M4. The length of the arc of a sector of angle θ in a circle of radius r is: (a) (θ/360°) × πr²  (b) (θ/180°) × πr²  (c) (θ/360°) × 2πr  (d) (θ/360°) × 2r
-    Ans: (c) (θ/360°) × 2πr. The arc is the fraction θ/360° of the whole circumference 2πr.
+M4. The length of the arc of a sector of angle θ in a circle of radius r is: (a) (θ/360°) × πr²  (b) (θ/180°) × πr²  (c) (θ/360°) × 2r  (d) (θ/360°) × 2πr
+    Ans: (d) (θ/360°) × 2πr. The arc is the fraction θ/360° of the whole circumference 2πr.
 
-M5. The area of a sector of a circle of radius 7 cm with central angle 90° is (π = 22/7): (a) 77 cm²  (b) 154 cm²  (c) 19.25 cm²  (d) 38.5 cm²
-    Ans: (d) 38.5 cm². Area = (90/360) × (22/7) × 7² = ¼ × 154 = 38.5 cm².
+M5. The area of a sector of a circle of radius 7 cm with central angle 90° is (π = 22/7): (a) 77 cm²  (b) 38.5 cm²  (c) 154 cm²  (d) 19.25 cm²
+    Ans: (b) 38.5 cm². Area = (90/360) × (22/7) × 7² = ¼ × 154 = 38.5 cm².
 
-M6. The area of a circle whose circumference is 44 cm is: (a) 77 cm²  (b) 154 cm²  (c) 308 cm²  (d) 616 cm²
-    Ans: (b) 154 cm². 2πr = 44 gives r = 7 cm, so the area is πr² = 154 cm².
+M6. The area of a circle whose circumference is 44 cm is: (a) 616 cm²  (b) 308 cm²  (c) 154 cm²  (d) 77 cm²
+    Ans: (c) 154 cm². 2πr = 44 gives r = 7 cm, so the area is πr² = 154 cm².
 
 M7. If the radius of a circle is doubled, its area becomes: (a) 2 times  (b) 4 times  (c) 8 times  (d) unchanged
     Ans: (b) 4 times. Area ∝ r², so doubling r multiplies the area by 2² = 4.
 
-M8. The area of a semicircle of radius r is: (a) πr²  (b) πr²/2  (c) 2πr  (d) πr²/4
-    Ans: (b) πr²/2. A semicircle is half of a full circle.
+M8. The area of a semicircle of radius r is: (a) πr²/2  (b) πr²  (c) 2πr  (d) πr²/4
+    Ans: (a) πr²/2. A semicircle is half of a full circle.

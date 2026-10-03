@@ -116,26 +116,26 @@ Q12. [Long · 5 marks] Write the HTML to display a centred heading “Shopping�
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which attribute of <font> sets the typeface? (a) size (b) color (c) face (d) style
-    Ans: (c) face.
+M1. Which attribute of <font> sets the typeface? (a) face (b) size (c) color (d) style
+    Ans: (a) face.
 
 M2. Which tag creates a bulleted list? (a) <ol> (b) <ul> (c) <dl> (d) <li>
     Ans: (b) <ul>. <li> marks the items inside it.
 
-M3. <ol type='a'> numbers the items as — (a) 1,2,3 (b) A,B,C (c) a,b,c (d) i,ii,iii
-    Ans: (c) a, b, c — lowercase letters.
+M3. <ol type='a'> numbers the items as — (a) a,b,c (b) 1,2,3 (c) A,B,C (d) i,ii,iii
+    Ans: (a) a, b, c — lowercase letters.
 
-M4. To write x² in HTML you use — (a) <sub> (b) <sup> (c) <u> (d) <tt>
-    Ans: (b) <sup> for superscript.
+M4. To write x² in HTML you use — (a) <sub> (b) <u> (c) <sup> (d) <tt>
+    Ans: (c) <sup> for superscript.
 
-M5. The valid values of the align attribute are — (a) left, middle, right (b) left, center, right (c) start, center, end (d) top, middle, bottom
-    Ans: (b) left, center, right.
+M5. The valid values of the align attribute are — (a) left, middle, right (b) start, center, end (c) top, middle, bottom (d) left, center, right
+    Ans: (d) left, center, right.
 
-M6. The tag that starts a new line without starting a new paragraph is: (a) <br>  (b) <hr>  (c) <p>  (d) <lb>
-    Ans: (a) <br>. It is an empty tag and has no closing tag.
+M6. The tag that starts a new line without starting a new paragraph is: (a) <hr>  (b) <br>  (c) <p>  (d) <lb>
+    Ans: (b) <br>. It is an empty tag and has no closing tag.
 
-M7. The tag that draws a horizontal rule across the page is: (a) <hr>  (b) <br>  (c) <line>  (d) <rule>
-    Ans: (a) <hr>. It is used to separate sections of a page.
+M7. The tag that draws a horizontal rule across the page is: (a) <br>  (b) <line>  (c) <hr>  (d) <rule>
+    Ans: (c) <hr>. It is used to separate sections of a page.
 
-M8. <ul type='square'> shows bullets as: (a) discs (b) squares (c) circles (d) numbers
-    Ans: (b) squares. The type values for <ul> are disc (default), circle and square.
+M8. <ul type='square'> shows bullets as: (a) discs (b) circles (c) numbers (d) squares
+    Ans: (d) squares. The type values for <ul> are disc (default), circle and square.

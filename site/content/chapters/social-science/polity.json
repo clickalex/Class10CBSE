@@ -145,16 +145,16 @@
     ],
     "mcq": [
       {
-        "q": "In Belgium, the community government is elected by: (a) all citizens of the country (b) people belonging to one language group, wherever they live (c) the residents of Brussels only (d) the Flemish region only",
-        "a": "**(b)** — people belonging to one language group, Dutch, French or German-speaking, irrespective of where they live; it has power over culture, education and language."
+        "q": "In Belgium, the community government is elected by: (a) people belonging to one language group, wherever they live (b) all citizens of the country (c) the residents of Brussels only (d) the Flemish region only",
+        "a": "**(a)** — people belonging to one language group, Dutch, French or German-speaking, irrespective of where they live; it has power over culture, education and language."
       },
       {
-        "q": "The 1956 act in Sri Lanka recognised which language as the only official language? (a) Tamil (b) English (c) Sinhala (d) Sinhala and Tamil",
-        "a": "**(c) Sinhala**, disregarding Tamil and setting off a long conflict."
+        "q": "The 1956 act in Sri Lanka recognised which language as the only official language? (a) Tamil (b) English (c) Sinhala and Tamil (d) Sinhala",
+        "a": "**(d) Sinhala**, disregarding Tamil and setting off a long conflict."
       },
       {
-        "q": "Power sharing among the legislature, executive and judiciary is an example of: (a) vertical power sharing (b) horizontal power sharing (c) community power sharing (d) coalition government",
-        "a": "**(b) horizontal power sharing**, since the organs are placed at the same level and each checks the others."
+        "q": "Power sharing among the legislature, executive and judiciary is an example of: (a) vertical power sharing (b) community power sharing (c) horizontal power sharing (d) coalition government",
+        "a": "**(c) horizontal power sharing**, since the organs are placed at the same level and each checks the others."
       },
       {
         "q": "Which of the following is a prudential reason for power sharing? (a) It is the very spirit of democracy. (b) It gives the majority total control. (c) It makes elections unnecessary. (d) It reduces the possibility of conflict between social groups.",
@@ -165,16 +165,16 @@
         "a": "**(a) Sinhala-speaking community.** About three-fourths of Sri Lankans speak Sinhala; Tamils and Muslims are the main minorities."
       },
       {
-        "q": "Which of these was a majoritarian measure in Sri Lanka? (a) making Sinhala the only official language in 1956  (b) power sharing  (c) federalism  (d) proportional representation",
-        "a": "**(a) making Sinhala the only official language in 1956.** It disregarded the Tamil-speaking minority and deepened the conflict."
+        "q": "Which of these was a majoritarian measure in Sri Lanka? (a) power sharing  (b) making Sinhala the only official language in 1956  (c) federalism  (d) proportional representation",
+        "a": "**(b) making Sinhala the only official language in 1956.** It disregarded the Tamil-speaking minority and deepened the conflict."
       },
       {
         "q": "In Belgium's central government, the number of Dutch-speaking and French-speaking ministers must be: (a) unequal  (b) equal  (c) decided by the King  (d) decided by the majority",
         "a": "**(b) equal.** This special arrangement balances the two main linguistic communities."
       },
       {
-        "q": "Horizontal distribution of power means sharing power among: (a) different levels of government  (b) the legislature, executive and judiciary  (c) social groups  (d) political parties only",
-        "a": "**(b) the legislature, executive and judiciary.** It creates a system of checks and balances between the organs of government."
+        "q": "Horizontal distribution of power means sharing power among: (a) different levels of government  (b) social groups  (c) the legislature, executive and judiciary  (d) political parties only",
+        "a": "**(c) the legislature, executive and judiciary.** It creates a system of checks and balances between the organs of government."
       }
     ],
     "trend": "The Belgium–Sri Lanka comparison and the four forms of power sharing alternate as the set long answer; prudential versus moral reasons is a frequent 3-mark question.",
@@ -341,8 +341,8 @@
     ],
     "mcq": [
       {
-        "q": "Which of the following subjects falls in the Concurrent List? (a) police (b) defence (c) education (d) banking",
-        "a": "**(c) education** — moved to the Concurrent List in 1976; police is in the State List, defence and banking in the Union List."
+        "q": "Which of the following subjects falls in the Concurrent List? (a) education (b) police (c) defence (d) banking",
+        "a": "**(a) education** — moved to the Concurrent List in 1976; police is in the State List, defence and banking in the Union List."
       },
       {
         "q": "India is an example of a: (a) coming together federation (b) holding together federation (c) unitary state (d) confederation",
@@ -357,16 +357,16 @@
         "a": "**(c) Union government.** The Constitution gives the Union government the power to legislate on residuary subjects."
       },
       {
-        "q": "The elected council at the village level in India is called the: (a) Zila Parishad (b) Municipal Corporation (c) Panchayat Samiti (d) Gram Panchayat",
-        "a": "**(d) Gram Panchayat.** The Gram Panchayat is the elected local government of a village, headed by the sarpanch."
+        "q": "The elected council at the village level in India is called the: (a) Zila Parishad (b) Municipal Corporation (c) Gram Panchayat (d) Panchayat Samiti",
+        "a": "**(c) Gram Panchayat.** The Gram Panchayat is the elected local government of a village, headed by the sarpanch."
       },
       {
-        "q": "Which of these subjects is in the State List? (a) defence  (b) police  (c) banking  (d) foreign affairs",
-        "a": "**(b) police.** Defence, banking and foreign affairs are Union List subjects."
+        "q": "Which of these subjects is in the State List? (a) police  (b) defence  (c) banking  (d) foreign affairs",
+        "a": "**(a) police.** Defence, banking and foreign affairs are Union List subjects."
       },
       {
-        "q": "The 73rd Constitutional Amendment Act is concerned with: (a) Panchayati Raj  (b) municipalities  (c) GST  (d) the right to education",
-        "a": "**(a) Panchayati Raj.** The 74th Amendment deals with municipalities, that is, urban local bodies."
+        "q": "The 73rd Constitutional Amendment Act is concerned with: (a) municipalities  (b) GST  (c) the right to education  (d) Panchayati Raj",
+        "a": "**(d) Panchayati Raj.** The 74th Amendment deals with municipalities, that is, urban local bodies."
       },
       {
         "q": "Which of these is not a language listed in the Eighth Schedule of the Indian Constitution? (a) Sindhi  (b) Nepali  (c) Maithili  (d) English",
@@ -549,32 +549,32 @@
         "a": "**(b) 1976.**"
       },
       {
-        "q": "Seats reserved for women in panchayats and municipalities are: (a) one-half (b) one-third (c) one-fourth (d) one-fifth",
-        "a": "**(b) one-third**, which several states have since raised to one-half."
+        "q": "Seats reserved for women in panchayats and municipalities are: (a) one-half (b) one-fourth (c) one-third (d) one-fifth",
+        "a": "**(c) one-third**, which several states have since raised to one-half."
       },
       {
-        "q": "Communalism means: (a) being a religious person (b) treating one's religion as the basis of political community and of rival interests (c) keeping religion out of public life (d) the state supporting one religion",
-        "a": "**(b)** — the belief that the followers of one religion share common secular interests while different religions have opposed interests."
+        "q": "Communalism means: (a) being a religious person (b) keeping religion out of public life (c) the state supporting one religion (d) treating one's religion as the basis of political community and of rival interests",
+        "a": "**(d)** — the belief that the followers of one religion share common secular interests while different religions have opposed interests."
       },
       {
         "q": "Patriarchy is a social system in which: (a) women dominate men (b) both sexes have equal authority (c) elders are not respected (d) men dominate and women are given lesser value",
         "a": "**(d) men dominate and women are given lesser value.** Patriarchy means male dominance; women have fewer opportunities and rights as a result."
       },
       {
-        "q": "A secular state is one that: (a) promotes the majority religion (b) bans all religions (c) has no official religion and treats all religions equally (d) allows only one religion in public life",
-        "a": "**(c) has no official religion and treats all religions equally.** Secularism in India means equal respect for all religions and no official state religion."
+        "q": "A secular state is one that: (a) has no official religion and treats all religions equally (b) promotes the majority religion (c) bans all religions (d) allows only one religion in public life",
+        "a": "**(a) has no official religion and treats all religions equally.** Secularism in India means equal respect for all religions and no official state religion."
       },
       {
-        "q": "Compared with men, women in India have: (a) a higher literacy rate  (b) the same literacy rate  (c) a lower literacy rate  (d) over 95% literacy",
-        "a": "**(c) a lower literacy rate.** The gap is also visible in wage rates, the child sex ratio and workforce participation."
+        "q": "Compared with men, women in India have: (a) a higher literacy rate  (b) a lower literacy rate  (c) the same literacy rate  (d) over 95% literacy",
+        "a": "**(b) a lower literacy rate.** The gap is also visible in wage rates, the child sex ratio and workforce participation."
       },
       {
-        "q": "Which of these is an expression of communalism? (a) respect for all religions  (b) a religious procession accompanied by violence against another community  (c) celebrating festivals together  (d) inter-faith marriage",
-        "a": "**(b) a religious procession accompanied by violence against another community.** Communalism turns religious difference into political confrontation and fear."
+        "q": "Which of these is an expression of communalism? (a) respect for all religions  (b) celebrating festivals together  (c) a religious procession accompanied by violence against another community  (d) inter-faith marriage",
+        "a": "**(c) a religious procession accompanied by violence against another community.** Communalism turns religious difference into political confrontation and fear."
       },
       {
-        "q": "The Women's Reservation Act, 2023 reserves what share of seats in the Lok Sabha for women? (a) 10%  (b) 33%  (c) 50%  (d) 25%",
-        "a": "**(b) 33%.** The 106th Amendment provides for one-third of the seats in the Lok Sabha and in the state assemblies."
+        "q": "The Women's Reservation Act, 2023 reserves what share of seats in the Lok Sabha for women? (a) 33%  (b) 10%  (c) 50%  (d) 25%",
+        "a": "**(a) 33%.** The 106th Amendment provides for one-third of the seats in the Lok Sabha and in the state assemblies."
       }
     ],
     "trend": "One 3-mark or 5-mark question from one of the three sections — the definition of communalism, the two faces of the caste–politics relationship, or the reasons for women's low representation. Answers lifted almost word for word from the book score full marks here, so keep the wording of communalism and of 'caste in politics' and 'politics in caste' exact.",
@@ -792,24 +792,24 @@
     ],
     "mcq": [
       {
-        "q": "Which party was founded in 1984 and uses the elephant as its symbol? (a) BJP (b) BSP (c) CPI-M (d) NCP",
-        "a": "**(b) Bahujan Samaj Party**, founded by Kanshi Ram in 1984."
+        "q": "Which party was founded in 1984 and uses the elephant as its symbol? (a) BSP (b) BJP (c) CPI-M (d) NCP",
+        "a": "**(a) Bahujan Samaj Party**, founded by Kanshi Ram in 1984."
       },
       {
-        "q": "The anti-defection provision was introduced to prevent elected representatives from: (a) voting against the party (b) changing parties for cash or ministerial reward (c) contesting as independents (d) resigning from the legislature",
-        "a": "**(b)** — the constitution was amended so that an elected representative cannot change parties to become a minister or for cash reward."
+        "q": "The anti-defection provision was introduced to prevent elected representatives from: (a) voting against the party (b) contesting as independents (c) resigning from the legislature (d) changing parties for cash or ministerial reward",
+        "a": "**(d)** — the constitution was amended so that an elected representative cannot change parties to become a minister or for cash reward."
       },
       {
         "q": "A party is recognised as a state party if it secures at least 6% of votes in the state Assembly elections and wins at least: (a) one seat (b) two seats (c) four seats (d) six seats",
         "a": "**(b) two seats.**"
       },
       {
-        "q": "Which of the following is NOT a function of a political party? (a) contesting elections (b) forming and running governments (c) interpreting the Constitution (d) shaping public opinion",
-        "a": "**(c) interpreting the Constitution.** Interpreting the Constitution is the work of the judiciary, not of political parties."
+        "q": "Which of the following is NOT a function of a political party? (a) contesting elections (b) forming and running governments (c) shaping public opinion (d) interpreting the Constitution",
+        "a": "**(d) interpreting the Constitution.** Interpreting the Constitution is the work of the judiciary, not of political parties."
       },
       {
-        "q": "In a multi-party system, when no single party wins a majority, parties usually form a: (a) dictatorship (b) one-party government (c) coalition government (d) caretaker army rule",
-        "a": "**(c) coalition government.** Several parties join together to get a majority and run the government as a coalition."
+        "q": "In a multi-party system, when no single party wins a majority, parties usually form a: (a) coalition government (b) dictatorship (c) one-party government (d) caretaker army rule",
+        "a": "**(a) coalition government.** Several parties join together to get a majority and run the government as a coalition."
       },
       {
         "q": "A party is recognised as a national party if it secures at least what percentage of the votes polled in four or more states? (a) 4%  (b) 6%  (c) 8%  (d) 10%",
@@ -820,8 +820,8 @@
         "a": "**(c) more than 2,000, counting registered unrecognised parties.** India has six to eight national parties and several dozen state parties among them."
       },
       {
-        "q": "The Election Commission of India was set up in: (a) 1947  (b) 1950  (c) 1952  (d) 1949",
-        "a": "**(b) 1950.** It conducts elections to the Lok Sabha, Rajya Sabha, state legislatures and the offices of the President and Vice-President."
+        "q": "The Election Commission of India was set up in: (a) 1947  (b) 1952  (c) 1950  (d) 1949",
+        "a": "**(c) 1950.** It conducts elections to the Lok Sabha, Rajya Sabha, state legislatures and the offices of the President and Vice-President."
       }
     ],
     "trend": "The functions of political parties and the challenges with reforms alternate as the set 5-mark answer; recognised national parties with symbols and the anti-defection/affidavit reforms recur as short questions.",
@@ -987,32 +987,32 @@
     ],
     "mcq": [
       {
-        "q": "Which of the following is the most fundamental outcome of democracy? (a) faster economic growth (b) promotion of the dignity and freedom of the citizen (c) efficient decision-making (d) absence of conflict",
-        "a": "**(b) promotion of the dignity and freedom of the citizen** — democracy is based on recognising the equal worth of all citizens."
+        "q": "Which of the following is the most fundamental outcome of democracy? (a) promotion of the dignity and freedom of the citizen (b) faster economic growth (c) efficient decision-making (d) absence of conflict",
+        "a": "**(a) promotion of the dignity and freedom of the citizen** — democracy is based on recognising the equal worth of all citizens."
       },
       {
         "q": "Democracy is better than dictatorship mainly because it: (a) takes decisions faster (b) is more efficient (c) is accountable, responsive and legitimate (d) has no opposition",
         "a": "**(c)** — accountability, responsiveness and legitimacy are the standard tests of a democratic government."
       },
       {
-        "q": "Criticism of the functioning of democracy by citizens is: (a) a sign of its weakness (b) a sign of its strength and of people's rising expectations (c) proof that democracy fails (d) irrelevant",
-        "a": "**(b)** — only democracy can be publicly criticised, and complaint shows that people expect more of it."
+        "q": "Criticism of the functioning of democracy by citizens is: (a) a sign of its weakness (b) proof that democracy fails (c) irrelevant (d) a sign of its strength and of people's rising expectations",
+        "a": "**(d)** — only democracy can be publicly criticised, and complaint shows that people expect more of it."
       },
       {
-        "q": "The Right to Information Act enables citizens to: (a) change any law they dislike (b) seek information about the working of government offices (c) remove a judge from office (d) avoid paying taxes",
-        "a": "**(b) seek information about the working of government offices.** It gives people the right to ask for records, so decisions of government can be examined."
+        "q": "The Right to Information Act enables citizens to: (a) seek information about the working of government offices (b) change any law they dislike (c) remove a judge from office (d) avoid paying taxes",
+        "a": "**(a) seek information about the working of government offices.** It gives people the right to ask for records, so decisions of government can be examined."
       },
       {
-        "q": "In democracies, economic inequalities: (a) are always completely removed (b) can persist, but citizens can openly debate and demand reform (c) cannot be discussed in public (d) are decided by a single ruler",
-        "a": "**(b) can persist, but citizens can openly debate and demand reform.** Democracy does not guarantee equal incomes, but it allows citizens to voice demands and press for change."
+        "q": "In democracies, economic inequalities: (a) are always completely removed (b) cannot be discussed in public (c) can persist, but citizens can openly debate and demand reform (d) are decided by a single ruler",
+        "a": "**(c) can persist, but citizens can openly debate and demand reform.** Democracy does not guarantee equal incomes, but it allows citizens to voice demands and press for change."
       },
       {
-        "q": "Which of these supports the dignity of citizens in a democracy? (a) universal adult franchise  (b) censorship of the press  (c) hereditary rule  (d) one-party rule",
-        "a": "**(a) universal adult franchise.** It makes every adult an equal citizen, regardless of caste, class, religion or gender."
+        "q": "Which of these supports the dignity of citizens in a democracy? (a) censorship of the press  (b) universal adult franchise  (c) hereditary rule  (d) one-party rule",
+        "a": "**(b) universal adult franchise.** It makes every adult an equal citizen, regardless of caste, class, religion or gender."
       },
       {
-        "q": "Democracy is described as ‘rule by discussion and persuasion' because: (a) it relies on consultation  (b) it relies on force  (c) it bans debate  (d) the army decides",
-        "a": "**(a) it relies on consultation.** Decisions are publicly debated and have to be justified to the people."
+        "q": "Democracy is described as ‘rule by discussion and persuasion' because: (a) it relies on force  (b) it bans debate  (c) the army decides  (d) it relies on consultation",
+        "a": "**(d) it relies on consultation.** Decisions are publicly debated and have to be justified to the people."
       },
       {
         "q": "Transparency in a democracy means: (a) the government may withhold all information  (b) citizens have the right to know and to examine the process of decision-making  (c) only leaders know the rules  (d) elections are unnecessary",

@@ -220,44 +220,44 @@
         "a": "**(a) less than one.** A convex mirror always forms a diminished, virtual and erect image."
       },
       {
-        "q": "Where should an object be placed in front of a convex lens to get a real image of the same size? (a) at F (b) at 2F (c) at infinity (d) between F and 2F",
-        "a": "**(b) at 2F** — the image forms at 2F on the other side, real, inverted and of the same size."
+        "q": "Where should an object be placed in front of a convex lens to get a real image of the same size? (a) at F (b) at infinity (c) at 2F (d) between F and 2F",
+        "a": "**(c) at 2F** — the image forms at 2F on the other side, real, inverted and of the same size."
       },
       {
-        "q": "The refractive index of water is 1.33. The speed of light in water is: (a) 3 × 10⁸ m/s (b) 2.26 × 10⁸ m/s (c) 1.33 × 10⁸ m/s (d) 4 × 10⁸ m/s",
-        "a": "**(b) 2.26 × 10⁸ m/s.** v = c/n = (3 × 10⁸)/1.33."
+        "q": "The refractive index of water is 1.33. The speed of light in water is: (a) 3 × 10⁸ m/s (b) 1.33 × 10⁸ m/s (c) 4 × 10⁸ m/s (d) 2.26 × 10⁸ m/s",
+        "a": "**(d) 2.26 × 10⁸ m/s.** v = c/n = (3 × 10⁸)/1.33."
       },
       {
         "q": "A concave mirror of focal length 15 cm forms a real image of the same size as the object. The object is placed at: (a) 15 cm from the mirror  (b) 30 cm from the mirror  (c) 45 cm from the mirror  (d) 7.5 cm from the mirror",
         "a": "**(b) 30 cm from the mirror.** A real image of the same size is formed when the object is at the centre of curvature, C = 2f = 30 cm."
       },
       {
-        "q": "The lens formula is: (a) 1/v + 1/u = 1/f  (b) 1/v − 1/u = 1/f  (c) 1/u − 1/v = 1/f  (d) v − u = f",
-        "a": "**(b) 1/v − 1/u = 1/f.** With the Cartesian sign convention, the lens formula is 1/v − 1/u = 1/f; the mirror formula has + between 1/v and 1/u."
+        "q": "The lens formula is: (a) 1/v + 1/u = 1/f  (b) 1/u − 1/v = 1/f  (c) v − u = f  (d) 1/v − 1/u = 1/f",
+        "a": "**(d) 1/v − 1/u = 1/f.** With the Cartesian sign convention, the lens formula is 1/v − 1/u = 1/f; the mirror formula has + between 1/v and 1/u."
       },
       {
-        "q": "The power of a convex lens of focal length 50 cm is: (a) +2 D  (b) −2 D  (c) +0.5 D  (d) −0.5 D",
-        "a": "**(a) +2 D.** P = 1/f in metres = 1/0.5 = +2 D; a converging lens always has positive power."
+        "q": "The power of a convex lens of focal length 50 cm is: (a) −2 D  (b) +2 D  (c) +0.5 D  (d) −0.5 D",
+        "a": "**(b) +2 D.** P = 1/f in metres = 1/0.5 = +2 D; a converging lens always has positive power."
       },
       {
-        "q": "Which mirror always forms an erect and diminished image? (a) plane  (b) concave  (c) convex  (d) parabolic",
-        "a": "**(c) convex.** Its image is always virtual, erect and smaller, which is why it is used as a rear-view mirror."
+        "q": "Which mirror always forms an erect and diminished image? (a) plane  (b) concave  (c) parabolic  (d) convex",
+        "a": "**(d) convex.** Its image is always virtual, erect and smaller, which is why it is used as a rear-view mirror."
       },
       {
         "q": "When a ray of light goes from glass into air, it: (a) bends towards the normal  (b) bends away from the normal  (c) does not bend  (d) is totally absorbed",
         "a": "**(b) bends away from the normal.** Moving from a denser to a rarer medium, the ray speeds up and bends away from the normal."
       },
       {
-        "q": "An object is placed 20 cm in front of a concave mirror of focal length 10 cm. The image is formed: (a) 10 cm in front of the mirror  (b) 20 cm in front of the mirror  (c) 20 cm behind the mirror  (d) at infinity",
-        "a": "**(b) 20 cm in front of the mirror.** The object is at C (2f = 20 cm), so the image is also at C, real, inverted and the same size. Mirror formula: 1/v = 1/f − 1/u = −1/10 + 1/20 = −1/20, v = −20 cm."
+        "q": "An object is placed 20 cm in front of a concave mirror of focal length 10 cm. The image is formed: (a) 10 cm in front of the mirror  (b) 20 cm behind the mirror  (c) 20 cm in front of the mirror  (d) at infinity",
+        "a": "**(c) 20 cm in front of the mirror.** The object is at C (2f = 20 cm), so the image is also at C, real, inverted and the same size. Mirror formula: 1/v = 1/f − 1/u = −1/10 + 1/20 = −1/20, v = −20 cm."
       },
       {
-        "q": "A ray of light enters a denser medium along the normal (angle of incidence 0°). It: (a) bends towards the normal  (b) bends away from the normal  (c) passes undeviated  (d) is totally reflected",
-        "a": "**(c) passes undeviated.** Refraction changes the speed but there is no bending when the ray is along the normal, because sin 0° = 0 on both sides of Snell's law."
+        "q": "A ray of light enters a denser medium along the normal (angle of incidence 0°). It: (a) passes undeviated  (b) bends towards the normal  (c) bends away from the normal  (d) is totally reflected",
+        "a": "**(a) passes undeviated.** Refraction changes the speed but there is no bending when the ray is along the normal, because sin 0° = 0 on both sides of Snell's law."
       },
       {
-        "q": "The image formed by a concave lens of a real object is always: (a) real and inverted  (b) virtual, erect and diminished  (c) virtual, erect and magnified  (d) real and magnified",
-        "a": "**(b) virtual, erect and diminished.** A diverging lens forms the image between F₁ and the optical centre on the same side as the object, whatever the object distance."
+        "q": "The image formed by a concave lens of a real object is always: (a) real and inverted  (b) virtual, erect and magnified  (c) virtual, erect and diminished  (d) real and magnified",
+        "a": "**(c) virtual, erect and diminished.** A diverging lens forms the image between F₁ and the optical centre on the same side as the object, whatever the object distance."
       }
     ],
     "trend": "One ray diagram (concave mirror or convex lens) and one numerical using the mirror/lens formula with the magnification appear nearly every year; power and the sign of the focal length are common 1-mark items.",
@@ -448,48 +448,48 @@
     ],
     "mcq": [
       {
-        "q": "The change in focal length of the eye lens is caused by the action of the: (a) pupil (b) retina (c) ciliary muscles (d) iris",
-        "a": "**(c) ciliary muscles** — they change the curvature of the crystalline lens, giving the eye its power of accommodation."
+        "q": "The change in focal length of the eye lens is caused by the action of the: (a) pupil (b) retina (c) iris (d) ciliary muscles",
+        "a": "**(d) ciliary muscles** — they change the curvature of the crystalline lens, giving the eye its power of accommodation."
       },
       {
         "q": "The danger signals installed at the top of tall buildings are red because red light: (a) is scattered the most by smoke or fog (b) is scattered the least by smoke or fog (c) is absorbed the most (d) moves fastest in air",
         "a": "**(b) is scattered the least** — being of the longest wavelength, so it can be seen from a greater distance through fog or smoke."
       },
       {
-        "q": "A person cannot read a newspaper without glasses. He is probably suffering from: (a) myopia (b) hypermetropia (c) astigmatism (d) night blindness",
-        "a": "**(b) hypermetropia** — difficulty in seeing near objects clearly, corrected with a convex lens."
+        "q": "A person cannot read a newspaper without glasses. He is probably suffering from: (a) myopia (b) astigmatism (c) hypermetropia (d) night blindness",
+        "a": "**(c) hypermetropia** — difficulty in seeing near objects clearly, corrected with a convex lens."
       },
       {
-        "q": "The eye defect hypermetropia is corrected by using a: (a) concave lens  (b) cylindrical lens  (c) convex lens  (d) bifocal lens with a concave upper part",
-        "a": "**(c) convex lens.** In hypermetropia the image forms behind the retina, so a converging (convex) lens is used."
+        "q": "The eye defect hypermetropia is corrected by using a: (a) convex lens  (b) concave lens  (c) cylindrical lens  (d) bifocal lens with a concave upper part",
+        "a": "**(a) convex lens.** In hypermetropia the image forms behind the retina, so a converging (convex) lens is used."
       },
       {
-        "q": "The part of the eye that contains the light-sensitive cells is the: (a) cornea  (b) iris  (c) retina  (d) pupil",
-        "a": "**(c) retina.** The retina holds the rods and cones that convert light into electrical signals."
+        "q": "The part of the eye that contains the light-sensitive cells is the: (a) retina  (b) cornea  (c) iris  (d) pupil",
+        "a": "**(a) retina.** The retina holds the rods and cones that convert light into electrical signals."
       },
       {
         "q": "The eye defect in which the far point is nearer than infinity is: (a) hypermetropia  (b) myopia  (c) presbyopia  (d) cataract",
         "a": "**(b) myopia.** Short-sightedness is corrected with a diverging (concave) lens."
       },
       {
-        "q": "The splitting of white light into its component colours is called: (a) scattering  (b) dispersion  (c) total internal reflection  (d) polarisation",
-        "a": "**(b) dispersion.** Different wavelengths bend by different amounts inside a prism, so the colours separate."
+        "q": "The splitting of white light into its component colours is called: (a) dispersion  (b) scattering  (c) total internal reflection  (d) polarisation",
+        "a": "**(a) dispersion.** Different wavelengths bend by different amounts inside a prism, so the colours separate."
       },
       {
-        "q": "Stars twinkle mainly because of: (a) atmospheric refraction  (b) dispersion  (c) reflection from clouds  (d) their own flickering",
-        "a": "**(a) atmospheric refraction.** Moving layers of air of changing density bend the starlight by varying amounts, so its apparent position shifts rapidly."
+        "q": "Stars twinkle mainly because of: (a) dispersion  (b) reflection from clouds  (c) their own flickering  (d) atmospheric refraction",
+        "a": "**(d) atmospheric refraction.** Moving layers of air of changing density bend the starlight by varying amounts, so its apparent position shifts rapidly."
       },
       {
-        "q": "The least distance of distinct vision for a young adult with normal vision is about: (a) 2.5 cm  (b) 25 cm  (c) 25 m  (d) infinity",
-        "a": "**(b) 25 cm.** This is the near point; the far point of a normal eye is at infinity."
+        "q": "The least distance of distinct vision for a young adult with normal vision is about: (a) 2.5 cm  (b) 25 m  (c) 25 cm  (d) infinity",
+        "a": "**(c) 25 cm.** This is the near point; the far point of a normal eye is at infinity."
       },
       {
         "q": "The clear sky appears blue because: (a) blue light is absorbed the most  (b) shorter wavelengths are scattered more by air molecules  (c) the sea reflects blue light upwards  (d) the atmosphere refracts blue light towards the eye",
         "a": "**(b) shorter wavelengths are scattered more by air molecules.** Fine particles scatter blue light far more than red, so scattered blue reaches the eye from every direction."
       },
       {
-        "q": "A student with myopia is prescribed a lens of power −2.0 D. The lens is: (a) convex, focal length 50 cm  (b) concave, focal length 50 cm  (c) concave, focal length 2 m  (d) convex, focal length 2 m",
-        "a": "**(b) concave, focal length 50 cm.** f = 1/P = 1/(−2) m = −0.5 m; the negative sign means a concave (diverging) lens, which corrects myopia."
+        "q": "A student with myopia is prescribed a lens of power −2.0 D. The lens is: (a) convex, focal length 50 cm  (b) concave, focal length 2 m  (c) concave, focal length 50 cm  (d) convex, focal length 2 m",
+        "a": "**(c) concave, focal length 50 cm.** f = 1/P = 1/(−2) m = −0.5 m; the negative sign means a concave (diverging) lens, which corrects myopia."
       }
     ],
     "trend": "One defect of vision with a labelled diagram is asked almost every year; the sky-blue / red-sunrise reasoning and the rainbow are the next most common.",
@@ -685,36 +685,36 @@
         "a": "**(b) less than 1 Ω.** Connecting all four in parallel gives an equivalent resistance smaller than the smallest individual resistance, 1 Ω."
       },
       {
-        "q": "Two wires of the same material and length but different cross-sectional areas are compared. The thicker wire has: (a) more resistance (b) less resistance (c) the same resistance (d) no resistance",
-        "a": "**(b) less resistance**, since R = ρl/A and a larger area of cross-section reduces the resistance."
+        "q": "Two wires of the same material and length but different cross-sectional areas are compared. The thicker wire has: (a) more resistance (b) the same resistance (c) less resistance (d) no resistance",
+        "a": "**(c) less resistance**, since R = ρl/A and a larger area of cross-section reduces the resistance."
       },
       {
-        "q": "The commercial unit of electrical energy is: (a) joule (b) watt (c) kilowatt-hour (d) volt",
-        "a": "**(c) kilowatt-hour (kWh)**, equal to 3.6 × 10⁶ J, and commonly called a 'unit'."
+        "q": "The commercial unit of electrical energy is: (a) joule (b) watt (c) volt (d) kilowatt-hour",
+        "a": "**(d) kilowatt-hour (kWh)**, equal to 3.6 × 10⁶ J, and commonly called a 'unit'."
       },
       {
         "q": "The electric power consumed by a resistor R connected to a potential difference V is given by: (a) P = V²/R  (b) P = VR²  (c) P = R/V²  (d) P = V/R²",
         "a": "**(a) P = V²/R.** P = VI and I = V/R, so P = V × (V/R) = V²/R."
       },
       {
-        "q": "The SI unit of resistivity is: (a) ohm (Ω)  (b) ohm metre (Ω m)  (c) ohm per metre (Ω/m)  (d) siemens (S)",
-        "a": "**(b) ohm metre (Ω m).** From R = ρl/A, ρ = RA/l, whose unit is Ω × m²/m = Ω m."
+        "q": "The SI unit of resistivity is: (a) ohm (Ω)  (b) ohm per metre (Ω/m)  (c) siemens (S)  (d) ohm metre (Ω m)",
+        "a": "**(d) ohm metre (Ω m).** From R = ρl/A, ρ = RA/l, whose unit is Ω × m²/m = Ω m."
       },
       {
-        "q": "The resistance of a wire doubles when: (a) its length is doubled  (b) its area of cross-section is doubled  (c) its length is halved  (d) its diameter is doubled",
-        "a": "**(a) its length is doubled.** R ∝ l/A; doubling the area halves R, doubling the diameter reduces R to a quarter."
+        "q": "The resistance of a wire doubles when: (a) its area of cross-section is doubled  (b) its length is doubled  (c) its length is halved  (d) its diameter is doubled",
+        "a": "**(b) its length is doubled.** R ∝ l/A; doubling the area halves R, doubling the diameter reduces R to a quarter."
       },
       {
-        "q": "One kilowatt hour equals: (a) 3.6 × 10⁶ J  (b) 3.6 × 10³ J  (c) 360 J  (d) 6 × 10µ J",
-        "a": "**(a) 3.6 × 10⁶ J.** 1 kWh = 1000 W × 3600 s = 3,600,000 J."
+        "q": "One kilowatt hour equals: (a) 3.6 × 10³ J  (b) 360 J  (c) 6 × 10µ J  (d) 3.6 × 10⁶ J",
+        "a": "**(d) 3.6 × 10⁶ J.** 1 kWh = 1000 W × 3600 s = 3,600,000 J."
       },
       {
         "q": "An ammeter is connected in a circuit: (a) in series  (b) in parallel  (c) across the supply  (d) either way",
         "a": "**(a) in series.** It has very low resistance so it does not change the current; a voltmeter is connected in parallel."
       },
       {
-        "q": "A 12 V battery drives a current of 2 A through a resistor. The resistance of the resistor is: (a) 24 Ω  (b) 6 Ω  (c) 0.17 Ω  (d) 14 Ω",
-        "a": "**(b) 6 Ω.** Ohm's law: R = V/I = 12/2 = 6 Ω."
+        "q": "A 12 V battery drives a current of 2 A through a resistor. The resistance of the resistor is: (a) 6 Ω  (b) 24 Ω  (c) 0.17 Ω  (d) 14 Ω",
+        "a": "**(a) 6 Ω.** Ohm's law: R = V/I = 12/2 = 6 Ω."
       },
       {
         "q": "Three 6 Ω resistors are connected in parallel. Their equivalent resistance is: (a) 18 Ω  (b) 6 Ω  (c) 2 Ω  (d) 3 Ω",
@@ -915,24 +915,24 @@
     ],
     "mcq": [
       {
-        "q": "The direction of the magnetic field produced by a straight current-carrying wire is given by: (a) Fleming's left-hand rule (b) Fleming's right-hand rule (c) the right-hand thumb rule (d) Lenz's law",
-        "a": "**(c) the right-hand thumb rule** — hold the wire in the right hand with the thumb along the current; the curled fingers give the direction of the field lines."
+        "q": "The direction of the magnetic field produced by a straight current-carrying wire is given by: (a) Fleming's left-hand rule (b) Fleming's right-hand rule (c) Lenz's law (d) the right-hand thumb rule",
+        "a": "**(d) the right-hand thumb rule** — hold the wire in the right hand with the thumb along the current; the curled fingers give the direction of the field lines."
       },
       {
         "q": "The essential difference between an AC generator and a DC generator is: (a) AC generator has an electromagnet (b) DC generator has a commutator (c) AC generator has slip rings while DC generator has a commutator (d) AC generator produces more power",
         "a": "**(c).** The slip rings of an AC generator allow the output to reverse, while the split-ring commutator of a DC generator keeps the external current in one direction."
       },
       {
-        "q": "The frequency of AC supply in India is 50 Hz. The direction of the current changes: (a) 50 times per second (b) 100 times per second (c) 25 times per second (d) 200 times per second",
-        "a": "**(b) 100 times per second** — the direction reverses twice in each cycle."
+        "q": "The frequency of AC supply in India is 50 Hz. The direction of the current changes: (a) 50 times per second (b) 25 times per second (c) 200 times per second (d) 100 times per second",
+        "a": "**(d) 100 times per second** — the direction reverses twice in each cycle."
       },
       {
         "q": "Outside a bar magnet, the magnetic field lines run: (a) from the south pole to the north pole  (b) in straight lines parallel to the axis only  (c) from the centre to both poles  (d) from the north pole to the south pole",
         "a": "**(d) from the north pole to the south pole.** By convention the field lines emerge from the north pole and enter the south pole outside the magnet, and continue from south to north inside it."
       },
       {
-        "q": "A straight conductor carrying current is placed in a magnetic field. The force on it is greatest when the current is: (a) parallel to the field  (b) at 45° to the field  (c) zero  (d) perpendicular to the field",
-        "a": "**(d) perpendicular to the field.** The force F = BIl sin θ is maximum at θ = 90°, and zero when the conductor is parallel to the field."
+        "q": "A straight conductor carrying current is placed in a magnetic field. The force on it is greatest when the current is: (a) parallel to the field  (b) at 45° to the field  (c) perpendicular to the field  (d) zero",
+        "a": "**(c) perpendicular to the field.** The force F = BIl sin θ is maximum at θ = 90°, and zero when the conductor is parallel to the field."
       },
       {
         "q": "The magnetic field lines inside a long current-carrying solenoid are: (a) concentric circles  (b) parallel straight lines  (c) diverging curves  (d) absent",
@@ -943,16 +943,16 @@
         "a": "**(a) electrical energy into mechanical energy.** A generator does the reverse conversion."
       },
       {
-        "q": "The insulation on the earth wire in a domestic circuit is: (a) red  (b) black  (c) green  (d) blue",
-        "a": "**(c) green.** Live is red or brown, neutral is black or blue, and earth is green or green-yellow."
+        "q": "The insulation on the earth wire in a domestic circuit is: (a) green  (b) red  (c) black  (d) blue",
+        "a": "**(a) green.** Live is red or brown, neutral is black or blue, and earth is green or green-yellow."
       },
       {
-        "q": "The magnetic field at a point near a long straight current-carrying wire: (a) increases as you move away from the wire  (b) decreases as you move away from the wire  (c) does not depend on the current  (d) is zero everywhere around the wire",
-        "a": "**(b) decreases as you move away from the wire.** The concentric field lines get farther apart with distance; the field is stronger for a larger current and closer to the wire."
+        "q": "The magnetic field at a point near a long straight current-carrying wire: (a) increases as you move away from the wire  (b) does not depend on the current  (c) decreases as you move away from the wire  (d) is zero everywhere around the wire",
+        "a": "**(c) decreases as you move away from the wire.** The concentric field lines get farther apart with distance; the field is stronger for a larger current and closer to the wire."
       },
       {
-        "q": "Fleming's left-hand rule gives the direction of the: (a) induced current in a coil  (b) magnetic field due to a current  (c) force on a current-carrying conductor in a magnetic field  (d) current produced by a generator",
-        "a": "**(c) force on a current-carrying conductor in a magnetic field.** Forefinger = field, middle finger = current, thumb = force (motor). The right-hand rule is for generators."
+        "q": "Fleming's left-hand rule gives the direction of the: (a) induced current in a coil  (b) force on a current-carrying conductor in a magnetic field  (c) magnetic field due to a current  (d) current produced by a generator",
+        "a": "**(b) force on a current-carrying conductor in a magnetic field.** Forefinger = field, middle finger = current, thumb = force (motor). The right-hand rule is for generators."
       },
       {
         "q": "The production of a current in a closed coil by a changing magnetic field is called: (a) electromagnetic induction  (b) magnetic effect of current  (c) electrolysis  (d) electrostatic induction",
@@ -1136,20 +1136,20 @@
         "a": "**(b) 100 J.** Grass 10,000 J → deer 1,000 J → lion 100 J (10% at each transfer)."
       },
       {
-        "q": "The depletion of the ozone layer is mainly caused by: (a) CO2 (b) CFCs (c) methane (d) SO2",
-        "a": "**(b) CFCs** — chlorofluorocarbons from refrigerators, air conditioners and fire extinguishers destroy ozone molecules."
+        "q": "The depletion of the ozone layer is mainly caused by: (a) CFCs (b) CO2 (c) methane (d) SO2",
+        "a": "**(a) CFCs** — chlorofluorocarbons from refrigerators, air conditioners and fire extinguishers destroy ozone molecules."
       },
       {
-        "q": "Which of the following groups contains only biodegradable substances? (a) paper, plastic, wood (b) vegetable peels, paper, lime juice (c) glass, wood, plastic (d) lime juice, grass, aluminium foil",
-        "a": "**(b)** — all three are broken down by the action of micro-organisms."
+        "q": "Which of the following groups contains only biodegradable substances? (a) paper, plastic, wood (b) glass, wood, plastic (c) lime juice, grass, aluminium foil (d) vegetable peels, paper, lime juice",
+        "a": "**(d)** — all three are broken down by the action of micro-organisms."
       },
       {
-        "q": "Which of the following is a non-biodegradable waste? (a) a plastic bag (b) vegetable peelings (c) a paper bag (d) a cotton cloth",
-        "a": "**(a) a plastic bag.** Microorganisms cannot break down plastics, so they persist in the environment for a very long time."
+        "q": "Which of the following is a non-biodegradable waste? (a) vegetable peelings (b) a plastic bag (c) a paper bag (d) a cotton cloth",
+        "a": "**(b) a plastic bag.** Microorganisms cannot break down plastics, so they persist in the environment for a very long time."
       },
       {
-        "q": "In the food chain Plant → Grasshopper → Frog → Snake, the secondary consumer is the: (a) grasshopper (b) snake (c) plant (d) frog",
-        "a": "**(d) frog.** The grasshopper is the primary consumer and the frog, which eats it, is the secondary consumer."
+        "q": "In the food chain Plant → Grasshopper → Frog → Snake, the secondary consumer is the: (a) grasshopper (b) snake (c) frog (d) plant",
+        "a": "**(c) frog.** The grasshopper is the primary consumer and the frog, which eats it, is the secondary consumer."
       },
       {
         "q": "The ‘10% law’ in an ecosystem describes the transfer of: (a) energy  (b) water  (c) minerals  (d) oxygen",
@@ -1160,8 +1160,8 @@
         "a": "**(c) sunlight.** Coal, petroleum and natural gas are fossil fuels that take millions of years to form."
       },
       {
-        "q": "The ozone layer is being depleted mainly by: (a) CFCs  (b) methane  (c) nitrogen fertilisers  (d) carbon monoxide",
-        "a": "**(a) CFCs.** Chlorofluorocarbons from refrigerants and aerosol sprays release chlorine atoms that destroy ozone molecules."
+        "q": "The ozone layer is being depleted mainly by: (a) methane  (b) nitrogen fertilisers  (c) carbon monoxide  (d) CFCs",
+        "a": "**(d) CFCs.** Chlorofluorocarbons from refrigerants and aerosol sprays release chlorine atoms that destroy ozone molecules."
       }
     ],
     "trend": "One food chain with a 10% energy calculation is asked almost every year, alternating with ozone depletion or biodegradable vs non-biodegradable waste.",

@@ -138,36 +138,36 @@
     ],
     "mcq": [
       {
-        "q": "A trailing cable is mainly a: (a) 7 C (b) physical hazard (c) query (d) style",
-        "a": "**(b) physical hazard.**"
+        "q": "A trailing cable is mainly a: (a) 7 C (b) query (c) style (d) physical hazard",
+        "a": "**(d) physical hazard.**"
       },
       {
-        "q": "On an electrical fire you should not use: (a) CO2 (b) dry powder (c) water (d) the alarm",
-        "a": "**(c) water.**"
+        "q": "On an electrical fire you should not use: (a) water (b) CO2 (c) dry powder (d) the alarm",
+        "a": "**(a) water.**"
       },
       {
         "q": "RSI in a data-entry job is mostly: (a) a green job (b) an ergonomic/occupational health issue (c) a primary key (d) mail merge",
         "a": "**(b).**"
       },
       {
-        "q": "A sticky note under the keyboard with the password is a failure of: (a) ToC (b) data security (c) Goal Seek (d) grouping",
-        "a": "**(b) data security.**"
+        "q": "A sticky note under the keyboard with the password is a failure of: (a) ToC (b) Goal Seek (c) grouping (d) data security",
+        "a": "**(d) data security.**"
       },
       {
-        "q": "For an electrical fire in a computer lab, the most suitable extinguisher is: (a) water (b) carbon dioxide (CO₂) (c) foam (d) a bucket of sand and water",
-        "a": "**(b) carbon dioxide (CO₂).** CO₂ does not conduct electricity and leaves no residue on the equipment."
+        "q": "For an electrical fire in a computer lab, the most suitable extinguisher is: (a) water (b) foam (c) carbon dioxide (CO₂) (d) a bucket of sand and water",
+        "a": "**(c) carbon dioxide (CO₂).** CO₂ does not conduct electricity and leaves no residue on the equipment."
       },
       {
-        "q": "On seeing a damaged electrical cable in the lab, the first thing to do is to: (a) touch it to check whether it is live (b) wrap it with a wet cloth (c) keep away, switch off the supply if safe, and report it (d) ignore it until the next practical",
-        "a": "**(c) keep away, switch off the supply if safe, and report it.** A damaged cable can give a shock or start a fire, so the supply should be cut off and the fault reported."
+        "q": "On seeing a damaged electrical cable in the lab, the first thing to do is to: (a) touch it to check whether it is live (b) keep away, switch off the supply if safe, and report it (c) wrap it with a wet cloth (d) ignore it until the next practical",
+        "a": "**(b) keep away, switch off the supply if safe, and report it.** A damaged cable can give a shock or start a fire, so the supply should be cut off and the fault reported."
       },
       {
         "q": "The first thing to do when a fire is discovered is to: (a) raise the alarm and leave by the marked exit  (b) collect your belongings  (c) use the lift  (d) finish the work you are doing",
         "a": "**(a) raise the alarm and leave by the marked exit.** Never use a lift in a fire."
       },
       {
-        "q": "PPE stands for: (a) Personal Protective Equipment  (b) Public Protection Exercise  (c) Power Protection Equipment  (d) Personal Programme Entry",
-        "a": "**(a) Personal Protective Equipment.** Gloves, goggles, helmets and safety shoes are examples."
+        "q": "PPE stands for: (a) Public Protection Exercise  (b) Power Protection Equipment  (c) Personal Protective Equipment  (d) Personal Programme Entry",
+        "a": "**(c) Personal Protective Equipment.** Gloves, goggles, helmets and safety shoes are examples."
       }
     ],
     "trend": "Hazard types, electrical/fire rules, or password/backup security.",
@@ -335,36 +335,36 @@
     ],
     "mcq": [
       {
-        "q": "The first S in 5S is: (a) Shine (b) Sort (c) Sustain (d) Speed",
-        "a": "**(b) Sort.**"
+        "q": "The first S in 5S is: (a) Shine (b) Sustain (c) Speed (d) Sort",
+        "a": "**(d) Sort.**"
       },
       {
-        "q": "Screen top should be: (a) at knee level (b) at eye level (c) behind you (d) on the floor",
-        "a": "**(b) at eye level.**"
+        "q": "Screen top should be: (a) at eye level (b) at knee level (c) behind you (d) on the floor",
+        "a": "**(a) at eye level.**"
       },
       {
-        "q": "20-20-20 is for: (a) macros (b) eye strain (c) primary keys (d) mail merge",
-        "a": "**(b) eye strain.**"
+        "q": "20-20-20 is for: (a) macros (b) primary keys (c) mail merge (d) eye strain",
+        "a": "**(d) eye strain.**"
       },
       {
         "q": "Quality in data entry mainly means: (a) speed only (b) accuracy and completeness as well as speed (c) colourful fonts (d) loud music",
         "a": "**(b).**"
       },
       {
-        "q": "Ergonomics is the study of: (a) writing computer programs (b) repairing electronic circuits (c) storing data in a database (d) designing workplaces and equipment to suit the user, for comfort, safety and efficiency",
-        "a": "**(d) designing workplaces and equipment to suit the user, for comfort, safety and efficiency.** Good ergonomics reduces strain and injury and helps people work better."
+        "q": "Ergonomics is the study of: (a) designing workplaces and equipment to suit the user, for comfort, safety and efficiency (b) writing computer programs (c) repairing electronic circuits (d) storing data in a database",
+        "a": "**(a) designing workplaces and equipment to suit the user, for comfort, safety and efficiency.** Good ergonomics reduces strain and injury and helps people work better."
       },
       {
-        "q": "For correct posture, the top of the computer screen should be: (a) well above the head (b) on the floor (c) at the level of the keyboard (d) at or slightly below eye level",
-        "a": "**(d) at or slightly below eye level.** This lets the user look slightly down without bending the neck."
+        "q": "For correct posture, the top of the computer screen should be: (a) well above the head (b) at or slightly below eye level (c) on the floor (d) at the level of the keyboard",
+        "a": "**(b) at or slightly below eye level.** This lets the user look slightly down without bending the neck."
       },
       {
-        "q": "The 5S workplace method consists of: (a) Sort, Set in order, Shine, Standardise, Sustain  (b) Sit, See, Save, Stop, Start  (c) Safety, Speed, Size, Skill, System  (d) Scan, Send, Store, Sell, Sort",
-        "a": "**(a) Sort, Set in order, Shine, Standardise, Sustain.** It comes from Japanese workplace practice."
+        "q": "The 5S workplace method consists of: (a) Sit, See, Save, Stop, Start  (b) Safety, Speed, Size, Skill, System  (c) Sort, Set in order, Shine, Standardise, Sustain  (d) Scan, Send, Store, Sell, Sort",
+        "a": "**(c) Sort, Set in order, Shine, Standardise, Sustain.** It comes from Japanese workplace practice."
       },
       {
-        "q": "Repetitive Strain Injury is caused mainly by: (a) repeating the same small movement for long periods  (b) a single heavy fall  (c) loud noise  (d) cold weather",
-        "a": "**(a) repeating the same small movement for long periods.** Typing and mouse work without breaks are common causes."
+        "q": "Repetitive Strain Injury is caused mainly by: (a) a single heavy fall  (b) loud noise  (c) repeating the same small movement for long periods  (d) cold weather",
+        "a": "**(c) repeating the same small movement for long periods.** Typing and mouse work without breaks are common causes."
       }
     ],
     "trend": "5S list or workstation posture; sometimes 20-20-20.",
@@ -526,36 +526,36 @@
     ],
     "mcq": [
       {
-        "q": "During a fire, do not: (a) use stairs (b) go to the assembly point (c) use the lift (d) follow the teacher",
-        "a": "**(c) use the lift.**"
+        "q": "During a fire, do not: (a) use the lift (b) use stairs (c) go to the assembly point (d) follow the teacher",
+        "a": "**(a) use the lift.**"
       },
       {
-        "q": "For electric shock, first: (a) grab the person (b) switch off power (c) pour water (d) apply toothpaste",
-        "a": "**(b) switch off power.**"
+        "q": "For electric shock, first: (a) grab the person (b) pour water (c) apply toothpaste (d) switch off power",
+        "a": "**(d) switch off power.**"
       },
       {
         "q": "A near-miss should be: (a) ignored (b) reported (c) punished always (d) posted on social media",
         "a": "**(b) reported.**"
       },
       {
-        "q": "A minor burn is cooled with: (a) ice cubes rubbed hard (b) running water (c) toothpaste (d) cotton oil",
-        "a": "**(b) running water.**"
+        "q": "A minor burn is cooled with: (a) running water (b) ice cubes rubbed hard (c) toothpaste (d) cotton oil",
+        "a": "**(a) running water.**"
       },
       {
-        "q": "In India, the single national emergency number is: (a) 108 only (b) 112 (c) 1800 (d) 911",
-        "a": "**(b) 112.** 112 is the all-in-one emergency number; 101 is for fire, 100 for police and 102 for ambulance."
+        "q": "In India, the single national emergency number is: (a) 108 only (b) 1800 (c) 112 (d) 911",
+        "a": "**(c) 112.** 112 is the all-in-one emergency number; 101 is for fire, 100 for police and 102 for ambulance."
       },
       {
         "q": "During a fire drill, people should leave the building using the: (a) lift (b) windows (c) back of the lab (d) stairs",
         "a": "**(d) stairs.** Lifts may stop working or trap people in a fire, so the stairs are used."
       },
       {
-        "q": "The single all-India emergency number for police, fire and ambulance is: (a) 112  (b) 100  (c) 101  (d) 108",
-        "a": "**(a) 112.** 100 is police, 101 is fire and 108 is the ambulance service in most states."
+        "q": "The single all-India emergency number for police, fire and ambulance is: (a) 100  (b) 112  (c) 101  (d) 108",
+        "a": "**(b) 112.** 100 is police, 101 is fire and 108 is the ambulance service in most states."
       },
       {
-        "q": "During an evacuation you should: (a) walk quickly to the assembly point without using the lift  (b) run and push past others  (c) use the lift to leave faster  (d) go back for your bag",
-        "a": "**(a) walk quickly to the assembly point without using the lift.** Report to the assembly point so that everyone can be counted."
+        "q": "During an evacuation you should: (a) run and push past others  (b) use the lift to leave faster  (c) walk quickly to the assembly point without using the lift  (d) go back for your bag",
+        "a": "**(c) walk quickly to the assembly point without using the lift.** Report to the assembly point so that everyone can be counted."
       }
     ],
     "trend": "Evacuation steps or electric-shock first aid; near-miss as a value item.",

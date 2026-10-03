@@ -124,16 +124,16 @@
     ],
     "mcq": [
       {
-        "q": "Typing a message in ALL CAPS is bad netiquette because it — (a) saves time (b) reads as shouting (c) looks stylish (d) avoids spam",
-        "a": "**(b) reads as shouting.** Netiquette asks for normal case and polite words."
+        "q": "Typing a message in ALL CAPS is bad netiquette because it — (a) saves time (b) looks stylish (c) avoids spam (d) reads as shouting",
+        "a": "**(d) reads as shouting.** Netiquette asks for normal case and polite words."
       },
       {
-        "q": "Which of these is an e-commerce activity? (a) reading a blog (b) paying an electricity bill on a bank app (c) watching a video (d) typing a document",
-        "a": "**(b) paying an electricity bill on a bank app.** E-commerce = trade, payment and banking online."
+        "q": "Which of these is an e-commerce activity? (a) paying an electricity bill on a bank app (b) reading a blog (c) watching a video (d) typing a document",
+        "a": "**(a) paying an electricity bill on a bank app.** E-commerce = trade, payment and banking online."
       },
       {
-        "q": "A safe shopping site must show — (a) `http://` (b) `https://` with a padlock (c) flashing ads (d) pop-up prizes",
-        "a": "**(b) `https://` with a padlock.** The *s* means the data is encrypted in transit."
+        "q": "A safe shopping site must show — (a) `https://` with a padlock (b) `http://` (c) flashing ads (d) pop-up prizes",
+        "a": "**(a) `https://` with a padlock.** The *s* means the data is encrypted in transit."
       },
       {
         "q": "Someone calls “from the bank” and asks for your OTP. You should — (a) share it quickly (b) share half of it (c) refuse and cut the call (d) ask for a bigger limit",
@@ -148,8 +148,8 @@
         "a": "**(b) the connected and the unconnected.** Cost, coverage, skills and language cause it."
       },
       {
-        "q": "Publishing exam results and certificates online is an example of — (a) e-governance supporting freedom of information (b) phishing (c) netiquette (d) malware",
-        "a": "**(a) e-governance supporting freedom of information.** Citizens can see and use public records directly."
+        "q": "Publishing exam results and certificates online is an example of — (a) phishing (b) netiquette (c) malware (d) e-governance supporting freedom of information",
+        "a": "**(d) e-governance supporting freedom of information.** Citizens can see and use public records directly."
       },
       {
         "q": "Which step does NOT bridge the digital divide? (a) village mobile networks (b) regional-language apps (c) English-only services (d) low-cost data",
@@ -353,32 +353,32 @@
         "a": "**(c) trademark.**"
       },
       {
-        "q": "Which IPR protects an invention? (a) copyright (b) patent (c) trademark (d) licence",
-        "a": "**(b) patent.**"
+        "q": "Which IPR protects an invention? (a) copyright (b) trademark (c) patent (d) licence",
+        "a": "**(c) patent.**"
       },
       {
-        "q": "Which of these is open source? (a) MS Windows (b) Adobe Photoshop (c) Linux (d) Skype",
-        "a": "**(c) Linux.**"
+        "q": "Which of these is open source? (a) Linux (b) MS Windows (c) Adobe Photoshop (d) Skype",
+        "a": "**(a) Linux.**"
       },
       {
-        "q": "Presenting someone else's work as your own is — (a) piracy (b) plagiarism (c) phishing (d) hacking",
-        "a": "**(b) plagiarism.**"
+        "q": "Presenting someone else's work as your own is — (a) piracy (b) phishing (c) hacking (d) plagiarism",
+        "a": "**(d) plagiarism.**"
       },
       {
         "q": "Software free to use but closed in source is called — (a) shareware (b) freeware (c) FOSS (d) malware",
         "a": "**(b) freeware.**"
       },
       {
-        "q": "Copying a paid program and selling it without the owner's permission is: (a) software piracy  (b) fair use  (c) open source  (d) shareware",
-        "a": "**(a) software piracy.** It is a criminal offence under the Copyright Act."
+        "q": "Copying a paid program and selling it without the owner's permission is: (a) fair use  (b) open source  (c) shareware  (d) software piracy",
+        "a": "**(d) software piracy.** It is a criminal offence under the Copyright Act."
       },
       {
         "q": "Open source software is software that: (a) lets users study, change and share the source code  (b) is always free of cost  (c) cannot be copied  (d) runs only on mobile phones",
         "a": "**(a) lets users study, change and share the source code.** Free refers to freedom, not necessarily to price."
       },
       {
-        "q": "Software distributed as a paid trial is called: (a) shareware (b) freeware (c) FOSS (d) malware",
-        "a": "**(a) shareware.** Try first, pay later; freeware is free but closed, FOSS is open in source."
+        "q": "Software distributed as a paid trial is called: (a) freeware (b) shareware (c) FOSS (d) malware",
+        "a": "**(b) shareware.** Try first, pay later; freeware is free but closed, FOSS is open in source."
       }
     ],
     "trend": "One IPR question and one FOSS-versus-proprietary question appear in most papers.",

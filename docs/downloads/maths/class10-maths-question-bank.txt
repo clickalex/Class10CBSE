@@ -97,26 +97,26 @@ Q13. [Long · 5 marks] Prove that √5 is irrational. Hence show that 3 + 2√5 
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The HCF of 8 and 12 is: (a) 2  (b) 4  (c) 8  (d) 24
-    Ans: (b) 4. 8 = 2³, 12 = 2² × 3; the lowest power of the common prime 2 is 2² = 4.
+M1. The HCF of 8 and 12 is: (a) 24  (b) 8  (c) 4  (d) 2
+    Ans: (c) 4. 8 = 2³, 12 = 2² × 3; the lowest power of the common prime 2 is 2² = 4.
 
-M2. Which has a terminating decimal expansion? (a) 7/24  (b) 5/13  (c) 9/40  (d) 11/21
-    Ans: (c) 9/40. 40 = 2³ × 5, of the form 2ᵐ × 5ⁿ. The others have denominators with other primes.
+M2. Which has a terminating decimal expansion? (a) 7/24  (b) 5/13  (c) 11/21  (d) 9/40
+    Ans: (d) 9/40. 40 = 2³ × 5, of the form 2ᵐ × 5ⁿ. The others have denominators with other primes.
 
 M3. If the HCF of two numbers is 6 and their LCM is 60, one number being 12, the other is: (a) 20  (b) 30  (c) 40  (d) 60
     Ans: (b) 30. Other number = (6 × 60)/12 = 30.
 
-M4. The product of a non-zero rational number and an irrational number is: (a) always rational  (b) always irrational  (c) sometimes an integer  (d) always zero
-    Ans: (b) always irrational. If r × x were rational with r ≠ 0, then x = (r × x)/r would be rational — a contradiction.
+M4. The product of a non-zero rational number and an irrational number is: (a) always rational  (b) sometimes an integer  (c) always zero  (d) always irrational
+    Ans: (d) always irrational. If r × x were rational with r ≠ 0, then x = (r × x)/r would be rational — a contradiction.
 
 M5. The LCM of two co-prime numbers a and b is: (a) ab  (b) a + b  (c) a ÷ b  (d) 1
     Ans: (a) ab. Co-prime numbers have HCF 1, and HCF × LCM = a × b, so the LCM is ab.
 
-M6. The decimal expansion of 23/(2³ × 5²) terminates after: (a) 2 places  (b) 3 places  (c) 4 places  (d) 5 places
-    Ans: (b) 3 places. 23/200 = 115/1000 = 0.115. The number of decimal places is the larger exponent, max(3, 2) = 3.
+M6. The decimal expansion of 23/(2³ × 5²) terminates after: (a) 5 places  (b) 4 places  (c) 3 places  (d) 2 places
+    Ans: (c) 3 places. 23/200 = 115/1000 = 0.115. The number of decimal places is the larger exponent, max(3, 2) = 3.
 
-M7. Which of these is irrational? (a) √(16/9)  (b) √12  (c) 0.444…  (d) 22/7
-    Ans: (b) √12. √12 = 2√3 and √3 is irrational. √(16/9) = 4/3, 0.444… = 4/9 and 22/7 are all rational.
+M7. Which of these is irrational? (a) √12  (b) √(16/9)  (c) 0.444…  (d) 22/7
+    Ans: (a) √12. √12 = 2√3 and √3 is irrational. √(16/9) = 4/3, 0.444… = 4/9 and 22/7 are all rational.
 
 M8. The HCF of the smallest prime number and the smallest composite number is: (a) 1  (b) 2  (c) 4  (d) 6
     Ans: (b) 2. Smallest prime = 2, smallest composite = 4, and HCF(2, 4) = 2.
@@ -215,8 +215,8 @@ Q12. [Long · 5 marks] If α and β are the zeroes of x² − 4x + 1, find (i) �
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The zeroes of x² + 7x + 10 are: (a) 2, 5  (b) −2, −5  (c) 2, −5  (d) −2, 5
-    Ans: (b) −2, −5. Sum = −7, product = 10, so both zeroes are negative.
+M1. The zeroes of x² + 7x + 10 are: (a) 2, 5  (b) 2, −5  (c) −2, −5  (d) −2, 5
+    Ans: (c) −2, −5. Sum = −7, product = 10, so both zeroes are negative.
 
 M2. If α, β are zeroes of x² − 5x + 6, then α + β = ? (a) 6  (b) 5  (c) −5  (d) 1
     Ans: (b) 5. Sum = −b/a = 5.
@@ -224,14 +224,14 @@ M2. If α, β are zeroes of x² − 5x + 6, then α + β = ? (a) 6  (b) 5  (c) �
 M3. A quadratic polynomial whose zeroes are 3 and −3 is: (a) x² − 9  (b) x² + 9  (c) x² − 6x + 9  (d) x² − 3
     Ans: (a) x² − 9. Sum = 0 and product = −9.
 
-M4. If the zeroes of a quadratic polynomial ax² + bx + c are equal in magnitude but opposite in sign, then: (a) b = 0  (b) a = 0  (c) c = 0  (d) a + c = 0
-    Ans: (a) b = 0. Zeroes α and −α have sum 0, and the sum is −b/a, so b = 0.
+M4. If the zeroes of a quadratic polynomial ax² + bx + c are equal in magnitude but opposite in sign, then: (a) a = 0  (b) b = 0  (c) c = 0  (d) a + c = 0
+    Ans: (b) b = 0. Zeroes α and −α have sum 0, and the sum is −b/a, so b = 0.
 
 M5. The graph of a quadratic polynomial lies entirely above the x-axis. The number of real zeroes it has is: (a) one  (b) two  (c) infinitely many  (d) none
     Ans: (d) none. Zeroes are the x-coordinates of the points where the graph meets the x-axis; a graph that never meets it has no real zero.
 
-M6. A polynomial of degree 3 is called: (a) linear  (b) quadratic  (c) cubic  (d) biquadratic
-    Ans: (c) cubic. Degree 1 is linear, 2 is quadratic, 3 is cubic and 4 is biquadratic.
+M6. A polynomial of degree 3 is called: (a) linear  (b) quadratic  (c) biquadratic  (d) cubic
+    Ans: (d) cubic. Degree 1 is linear, 2 is quadratic, 3 is cubic and 4 is biquadratic.
 
 M7. If one zero of x² − 4x + 1 is 2 + √3, the other zero is: (a) 2 − √3  (b) −2 − √3  (c) √3 − 2  (d) −√3
     Ans: (a) 2 − √3. Sum of zeroes = 4, so the other zero = 4 − (2 + √3) = 2 − √3.
@@ -346,23 +346,23 @@ M1. The pair x + y = 5 and 2x + 2y = 10 represents: (a) intersecting lines  (b) 
 M2. For what value of k does kx + 3y = 7 and 2x + 6y = 14 have infinitely many solutions? (a) 1  (b) −1  (c) 2  (d) 1/2
     Ans: (a) 1. We need k/2 = 3/6 = 7/14, and 3/6 = 1/2, so k = 1.
 
-M3. If a boat’s downstream speed is 12 km/h and upstream speed is 8 km/h, its still-water speed is: (a) 10  (b) 4  (c) 2  (d) 20 km/h
-    Ans: (a) 10 km/h. Still-water speed = (downstream + upstream)/2.
+M3. If a boat’s downstream speed is 12 km/h and upstream speed is 8 km/h, its still-water speed is: (a) 4  (b) 2  (c) 20 km/h  (d) 10
+    Ans: (d) 10 km/h. Still-water speed = (downstream + upstream)/2.
 
-M4. If the graphs of a pair of linear equations in two variables are two lines that coincide, the pair has: (a) no solution  (b) exactly one solution  (c) exactly two solutions  (d) infinitely many solutions
-    Ans: (d) infinitely many solutions. Every point of a line is a solution of both equations when the lines coincide, so the solutions are infinite.
+M4. If the graphs of a pair of linear equations in two variables are two lines that coincide, the pair has: (a) infinitely many solutions  (b) no solution  (c) exactly one solution  (d) exactly two solutions
+    Ans: (a) infinitely many solutions. Every point of a line is a solution of both equations when the lines coincide, so the solutions are infinite.
 
-M5. The pair of equations x = 2 and y = 3 represents two lines that: (a) intersect at the point (2, 3)  (b) are parallel  (c) coincide  (d) meet only on the y-axis
-    Ans: (a) intersect at the point (2, 3). x = 2 is a vertical line and y = 3 is a horizontal line; they cross at (2, 3).
+M5. The pair of equations x = 2 and y = 3 represents two lines that: (a) are parallel  (b) coincide  (c) meet only on the y-axis  (d) intersect at the point (2, 3)
+    Ans: (d) intersect at the point (2, 3). x = 2 is a vertical line and y = 3 is a horizontal line; they cross at (2, 3).
 
-M6. The pair 6x − 3y + 10 = 0 and 2x − y + 9 = 0 has: (a) one solution  (b) two solutions  (c) infinitely many solutions  (d) no solution
-    Ans: (d) no solution. 6/2 = 3 and (−3)/(−1) = 3 but 10/9 ≠ 3, so the lines are parallel and distinct.
+M6. The pair 6x − 3y + 10 = 0 and 2x − y + 9 = 0 has: (a) one solution  (b) no solution  (c) two solutions  (d) infinitely many solutions
+    Ans: (b) no solution. 6/2 = 3 and (−3)/(−1) = 3 but 10/9 ≠ 3, so the lines are parallel and distinct.
 
-M7. If x + 2y = 5 and 3x + ky = 15 are coincident lines, then k = : (a) 2  (b) 3  (c) 6  (d) 15
-    Ans: (c) 6. Coincident lines need 1/3 = 2/k = 5/15, and 2/k = 1/3 gives k = 6.
+M7. If x + 2y = 5 and 3x + ky = 15 are coincident lines, then k = : (a) 15  (b) 6  (c) 3  (d) 2
+    Ans: (b) 6. Coincident lines need 1/3 = 2/k = 5/15, and 2/k = 1/3 gives k = 6.
 
-M8. The solution of x + y = 14 and x − y = 4 is: (a) x = 9, y = 5  (b) x = 5, y = 9  (c) x = 10, y = 4  (d) x = 8, y = 6
-    Ans: (a) x = 9, y = 5. Adding the equations gives 2x = 18, so x = 9 and then y = 5.
+M8. The solution of x + y = 14 and x − y = 4 is: (a) x = 5, y = 9  (b) x = 10, y = 4  (c) x = 9, y = 5  (d) x = 8, y = 6
+    Ans: (c) x = 9, y = 5. Adding the equations gives 2x = 18, so x = 9 and then y = 5.
 
 ========================================================================
 CHAPTER 4 · Quadratic Equations
@@ -457,8 +457,8 @@ Q12. [Long · 5 marks] Solve for x: 1/(x + 4) − 1/(x − 7) = 11/30, where x �
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The roots of x² − 5x + 6 = 0 are: (a) 2, 3  (b) −2, −3  (c) 1, 6  (d) −1, −6
-    Ans: (a) 2, 3. Product 6 and sum 5, both positive.
+M1. The roots of x² − 5x + 6 = 0 are: (a) −2, −3  (b) 1, 6  (c) 2, 3  (d) −1, −6
+    Ans: (c) 2, 3. Product 6 and sum 5, both positive.
 
 M2. If the discriminant of a quadratic is zero, the roots are: (a) real and distinct  (b) real and equal  (c) not real  (d) always integers
     Ans: (b) Real and equal.
@@ -466,20 +466,20 @@ M2. If the discriminant of a quadratic is zero, the roots are: (a) real and dist
 M3. For x² + 4x + k = 0 to have real roots, k must satisfy: (a) k ≤ 4  (b) k ≥ 4  (c) k ≤ −4  (d) k = 4
     Ans: (a) k ≤ 4. D = 16 − 4k ≥ 0 gives k ≤ 4.
 
-M4. The quadratic equation 2x² − √5 x + 1 = 0 has: (a) two distinct real roots  (b) no real roots  (c) two equal real roots  (d) more than two real roots
-    Ans: (b) no real roots. D = (√5)² − 4(2)(1) = 5 − 8 = −3 < 0, so there is no real root.
+M4. The quadratic equation 2x² − √5 x + 1 = 0 has: (a) two distinct real roots  (b) two equal real roots  (c) more than two real roots  (d) no real roots
+    Ans: (d) no real roots. D = (√5)² − 4(2)(1) = 5 − 8 = −3 < 0, so there is no real root.
 
-M5. The equation ax² + bx + c = 0 (a ≠ 0) has real roots only if: (a) b² − 4ac < 0  (b) b² − 4ac ≥ 0  (c) b² − 4ac = 0 only  (d) b² + 4ac ≥ 0
-    Ans: (b) b² − 4ac ≥ 0. The roots contain √(b² − 4ac), which is real exactly when the discriminant is zero or positive.
+M5. The equation ax² + bx + c = 0 (a ≠ 0) has real roots only if: (a) b² − 4ac < 0  (b) b² − 4ac = 0 only  (c) b² + 4ac ≥ 0  (d) b² − 4ac ≥ 0
+    Ans: (d) b² − 4ac ≥ 0. The roots contain √(b² − 4ac), which is real exactly when the discriminant is zero or positive.
 
-M6. The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3/2  (b) 7/2 and 3  (c) −7/2 and 3/2  (d) 7/2 and −3/2
-    Ans: (a) 7/2 and 3/2. Sum = −b/a = 7/2 and product = c/a = 3/2.
+M6. The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3  (b) 7/2 and 3/2  (c) −7/2 and 3/2  (d) 7/2 and −3/2
+    Ans: (b) 7/2 and 3/2. Sum = −b/a = 7/2 and product = c/a = 3/2.
 
 M7. Which one is NOT a quadratic equation? (a) x² + 3x + 2 = 0  (b) (x + 1)² = 2(x − 3)  (c) x³ − x² + 1 = 0  (d) 2x² = 8
     Ans: (c) x³ − x² + 1 = 0. Its degree is 3, so it is a cubic; the others reduce to degree 2.
 
-M8. If the roots of x² − 8x + k = 0 are equal, then k = : (a) 8  (b) 16  (c) −16  (d) 64
-    Ans: (b) 16. D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16.
+M8. If the roots of x² − 8x + k = 0 are equal, then k = : (a) 16  (b) 8  (c) −16  (d) 64
+    Ans: (a) 16. D = 0 ⇒ 64 − 4k = 0 ⇒ k = 16.
 
 ========================================================================
 CHAPTER 5 · Arithmetic Progressions
@@ -574,11 +574,11 @@ Q12. [Long · 5 marks] The sum of the 4th and 8th terms of an AP is 24 and the s
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The 10th term of the AP 2, 7, 12, … is: (a) 45  (b) 47  (c) 50  (d) 52
-    Ans: (b) 47. a₁₀ = 2 + 9(5).
+M1. The 10th term of the AP 2, 7, 12, … is: (a) 52  (b) 50  (c) 47  (d) 45
+    Ans: (c) 47. a₁₀ = 2 + 9(5).
 
-M2. The sum of the first 10 natural numbers is: (a) 45  (b) 50  (c) 55  (d) 100
-    Ans: (c) 55. n(n+1)/2 = 10 × 11/2.
+M2. The sum of the first 10 natural numbers is: (a) 100  (b) 55  (c) 50  (d) 45
+    Ans: (b) 55. n(n+1)/2 = 10 × 11/2.
 
 M3. S₅ − S₄ equals: (a) the 5th term  (b) the 4th term  (c) the 9th term  (d) zero
     Ans: (a) The 5th term. That is what aₙ = Sₙ − Sₙ₋₁ means.
@@ -586,17 +586,17 @@ M3. S₅ − S₄ equals: (a) the 5th term  (b) the 4th term  (c) the 9th term  
 M4. Which of the following is NOT an AP? (a) 2, 5, 8, 11, …  (b) 1, 4, 9, 16, …  (c) −3, −1, 1, 3, …  (d) 7, 7, 7, 7, …
     Ans: (b) 1, 4, 9, 16, …. The differences 3, 5, 7 are not equal, so 1, 4, 9, 16 has no common difference. The others have d = 3, 2 and 0.
 
-M5. The sum of the first n odd natural numbers 1, 3, 5, … is: (a) n(n + 1)/2  (b) 2n  (c) n(n + 1)  (d) n²
-    Ans: (d) n². Here a = 1, d = 2, so Sₙ = (n/2)[2 + (n − 1)2] = n².
+M5. The sum of the first n odd natural numbers 1, 3, 5, … is: (a) n(n + 1)/2  (b) 2n  (c) n²  (d) n(n + 1)
+    Ans: (c) n². Here a = 1, d = 2, so Sₙ = (n/2)[2 + (n − 1)2] = n².
 
-M6. The common difference of the AP whose nth term is 3n + 5 is: (a) 3  (b) 5  (c) 8  (d) 2
-    Ans: (a) 3. a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n.
+M6. The common difference of the AP whose nth term is 3n + 5 is: (a) 5  (b) 8  (c) 2  (d) 3
+    Ans: (d) 3. a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n.
 
-M7. If the 3rd term of an AP is 4 and the 9th term is −8, its first term is: (a) 8  (b) 6  (c) 4  (d) 2
-    Ans: (a) 8. a + 2d = 4 and a + 8d = −8 give 6d = −12, so d = −2 and a = 8.
+M7. If the 3rd term of an AP is 4 and the 9th term is −8, its first term is: (a) 2  (b) 4  (c) 6  (d) 8
+    Ans: (d) 8. a + 2d = 4 and a + 8d = −8 give 6d = −12, so d = −2 and a = 8.
 
-M8. The sum of the first 100 natural numbers is: (a) 5000  (b) 5050  (c) 4950  (d) 5100
-    Ans: (b) 5050. S = 100 × 101/2 = 5050.
+M8. The sum of the first 100 natural numbers is: (a) 5050  (b) 5000  (c) 4950  (d) 5100
+    Ans: (a) 5050. S = 100 × 101/2 = 5050.
 
 ========================================================================
 CHAPTER 6 · Triangles
@@ -687,29 +687,29 @@ Q12. [Long · 5 marks] Prove that if a line is drawn parallel to one side of a t
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Two triangles are similar if their corresponding sides are: (a) equal  (b) proportional  (c) perpendicular  (d) parallel
-    Ans: (b) Proportional. That is the SSS similarity criterion.
+M1. Two triangles are similar if their corresponding sides are: (a) proportional  (b) equal  (c) perpendicular  (d) parallel
+    Ans: (a) Proportional. That is the SSS similarity criterion.
 
 M2. The ratio of the areas of two similar triangles is 25:49. The ratio of their corresponding sides is: (a) 25:49  (b) 5:7  (c) 7:5  (d) 49:25
     Ans: (b) 5:7. Square root of the area ratio.
 
-M3. In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 10 cm  (b) 12 cm  (c) 14 cm  (d) 9 cm
-    Ans: (a) 10 cm. √(36 + 64) = 10.
+M3. In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 12 cm  (b) 14 cm  (c) 10 cm  (d) 9 cm
+    Ans: (c) 10 cm. √(36 + 64) = 10.
 
-M4. If ΔABC ~ ΔPQR, ∠A = 50° and ∠Q = 60°, then ∠C equals: (a) 60°  (b) 50°  (c) 80°  (d) 70°
-    Ans: (d) 70°. ∠B = ∠Q = 60° because corresponding angles of similar triangles are equal, so ∠C = 180° − 50° − 60° = 70°.
+M4. If ΔABC ~ ΔPQR, ∠A = 50° and ∠Q = 60°, then ∠C equals: (a) 60°  (b) 70°  (c) 50°  (d) 80°
+    Ans: (b) 70°. ∠B = ∠Q = 60° because corresponding angles of similar triangles are equal, so ∠C = 180° − 50° − 60° = 70°.
 
-M5. A triangle has sides 7 cm, 24 cm and 25 cm. It is: (a) acute-angled  (b) obtuse-angled  (c) right-angled  (d) equilateral
-    Ans: (c) right-angled. 7² + 24² = 49 + 576 = 625 = 25², so by the converse of the Pythagoras theorem the triangle is right-angled.
+M5. A triangle has sides 7 cm, 24 cm and 25 cm. It is: (a) acute-angled  (b) obtuse-angled  (c) equilateral  (d) right-angled
+    Ans: (d) right-angled. 7² + 24² = 49 + 576 = 625 = 25², so by the converse of the Pythagoras theorem the triangle is right-angled.
 
-M6. Two triangles are similar if their corresponding angles are: (a) equal  (b) supplementary  (c) complementary  (d) proportional
-    Ans: (a) equal. Equiangular triangles are similar — the AAA similarity criterion.
+M6. Two triangles are similar if their corresponding angles are: (a) supplementary  (b) complementary  (c) proportional  (d) equal
+    Ans: (d) equal. Equiangular triangles are similar — the AAA similarity criterion.
 
-M7. In ΔABC, DE ∥ BC with AD = 4 cm, DB = 6 cm and AE = 5 cm. Then EC = : (a) 6.5 cm  (b) 7.5 cm  (c) 8 cm  (d) 9 cm
-    Ans: (b) 7.5 cm. AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm.
+M7. In ΔABC, DE ∥ BC with AD = 4 cm, DB = 6 cm and AE = 5 cm. Then EC = : (a) 9 cm  (b) 8 cm  (c) 7.5 cm  (d) 6.5 cm
+    Ans: (c) 7.5 cm. AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = 7.5 cm.
 
-M8. If the corresponding sides of two similar triangles are in the ratio 4 : 9, their areas are in the ratio: (a) 4 : 9  (b) 2 : 3  (c) 16 : 81  (d) 8 : 27
-    Ans: (c) 16 : 81. The area ratio of similar triangles is the square of the side ratio.
+M8. If the corresponding sides of two similar triangles are in the ratio 4 : 9, their areas are in the ratio: (a) 16 : 81  (b) 4 : 9  (c) 2 : 3  (d) 8 : 27
+    Ans: (a) 16 : 81. The area ratio of similar triangles is the square of the side ratio.
 
 ========================================================================
 CHAPTER 7 · Coordinate Geometry
@@ -809,26 +809,26 @@ B. MCQs (8)
 M1. The distance of the point (3, 4) from the origin is: (a) 5  (b) 7  (c) 25  (d) 12
     Ans: (a) 5. √(9 + 16) = 5.
 
-M2. The midpoint of (2, −3) and (−6, 5) is: (a) (−2, 1)  (b) (2, −1)  (c) (−4, 2)  (d) (4, −8)
-    Ans: (a) (−2, 1). ((2−6)/2, (−3+5)/2).
+M2. The midpoint of (2, −3) and (−6, 5) is: (a) (2, −1)  (b) (−2, 1)  (c) (−4, 2)  (d) (4, −8)
+    Ans: (b) (−2, 1). ((2−6)/2, (−3+5)/2).
 
-M3. Three points are collinear if the area of the triangle they form is: (a) 1  (b) maximum  (c) 0  (d) negative
-    Ans: (c) 0.
+M3. Three points are collinear if the area of the triangle they form is: (a) 1  (b) maximum  (c) negative  (d) 0
+    Ans: (d) 0.
 
-M4. The coordinates of the point that divides the line segment joining (0, 0) and (6, 9) internally in the ratio 1 : 2 are: (a) (3, 9/2)  (b) (4, 6)  (c) (2, 3)  (d) (1, 3/2)
-    Ans: (c) (2, 3). x = (1 × 6 + 2 × 0)/3 = 2 and y = (1 × 9 + 2 × 0)/3 = 3.
+M4. The coordinates of the point that divides the line segment joining (0, 0) and (6, 9) internally in the ratio 1 : 2 are: (a) (3, 9/2)  (b) (4, 6)  (c) (1, 3/2)  (d) (2, 3)
+    Ans: (d) (2, 3). x = (1 × 6 + 2 × 0)/3 = 2 and y = (1 × 9 + 2 × 0)/3 = 3.
 
-M5. The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is: (a) 6 square units  (b) 12 square units  (c) 7 square units  (d) 3.5 square units
-    Ans: (a) 6 square units. It is right-angled at the origin, so the area is ½ × 4 × 3 = 6 square units.
+M5. The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is: (a) 12 square units  (b) 6 square units  (c) 7 square units  (d) 3.5 square units
+    Ans: (b) 6 square units. It is right-angled at the origin, so the area is ½ × 4 × 3 = 6 square units.
 
-M6. The point (−3, 0) lies on: (a) the x-axis  (b) the y-axis  (c) the line y = x  (d) the origin
-    Ans: (a) the x-axis. Every point whose y-coordinate is 0 lies on the x-axis.
+M6. The point (−3, 0) lies on: (a) the y-axis  (b) the line y = x  (c) the x-axis  (d) the origin
+    Ans: (c) the x-axis. Every point whose y-coordinate is 0 lies on the x-axis.
 
 M7. The distance of (a cos θ, a sin θ) from the origin is: (a) a  (b) a²  (c) 1  (d) 2a
     Ans: (a) a. Distance = √(a²cos²θ + a²sin²θ) = √(a²) = a.
 
-M8. The centroid of the triangle with vertices (2, 3), (−4, 7) and (2, −4) is: (a) (0, 2)  (b) (0, 0)  (c) (2, 2)  (d) (0, 3)
-    Ans: (a) (0, 2). x = (2 − 4 + 2)/3 = 0 and y = (3 + 7 − 4)/3 = 2.
+M8. The centroid of the triangle with vertices (2, 3), (−4, 7) and (2, −4) is: (a) (0, 0)  (b) (2, 2)  (c) (0, 2)  (d) (0, 3)
+    Ans: (c) (0, 2). x = (2 − 4 + 2)/3 = 0 and y = (3 + 7 − 4)/3 = 2.
 
 ========================================================================
 CHAPTER 8 · Introduction to Trigonometry
@@ -919,11 +919,11 @@ Q12. [Long · 5 marks] Prove that (sin θ + cosec θ)² + (cos θ + sec θ)² = 
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The value of cos 60° is: (a) 1/2  (b) √3/2  (c) 1/√2  (d) 1
-    Ans: (a) 1/2.
+M1. The value of cos 60° is: (a) √3/2  (b) 1/2  (c) 1/√2  (d) 1
+    Ans: (b) 1/2.
 
-M2. sin²30° + cos²30° equals: (a) 0  (b) 1/2  (c) 1  (d) 3/4
-    Ans: (c) 1. That is the fundamental identity.
+M2. sin²30° + cos²30° equals: (a) 1  (b) 0  (c) 1/2  (d) 3/4
+    Ans: (a) 1. That is the fundamental identity.
 
 M3. tan 45° × cot 45° is: (a) 0  (b) 1  (c) 2  (d) undefined
     Ans: (b) 1. tan and cot are reciprocals.
@@ -931,17 +931,17 @@ M3. tan 45° × cot 45° is: (a) 0  (b) 1  (c) 2  (d) undefined
 M4. If cos A = 4/5 and A is acute, then tan A is: (a) 3/4  (b) 4/3  (c) 3/5  (d) 5/3
     Ans: (a) 3/4. sin A = √(1 − 16/25) = 3/5, so tan A = sin A/cos A = (3/5)/(4/5) = 3/4.
 
-M5. Which of the following is NOT defined? (a) tan 90°  (b) sin 90°  (c) cos 0°  (d) cot 90°
-    Ans: (a) tan 90°. tan 90° = sin 90°/cos 90° = 1/0. The others are 1, 1 and 0.
+M5. Which of the following is NOT defined? (a) sin 90°  (b) cos 0°  (c) cot 90°  (d) tan 90°
+    Ans: (d) tan 90°. tan 90° = sin 90°/cos 90° = 1/0. The others are 1, 1 and 0.
 
-M6. The value of sin²60° + 2 tan²45° − cos²30° is: (a) 1  (b) 2  (c) 5/4  (d) 9/4
-    Ans: (b) 2. 3/4 + 2(1) − 3/4 = 2.
+M6. The value of sin²60° + 2 tan²45° − cos²30° is: (a) 9/4  (b) 5/4  (c) 2  (d) 1
+    Ans: (c) 2. 3/4 + 2(1) − 3/4 = 2.
 
 M7. If sin θ = cos θ, then θ = : (a) 0°  (b) 30°  (c) 45°  (d) 90°
     Ans: (c) 45°. sin 45° = cos 45° = 1/√2.
 
-M8. sec²A − tan²A equals: (a) 0  (b) 1  (c) −1  (d) sin²A
-    Ans: (b) 1. It follows directly from 1 + tan²A = sec²A.
+M8. sec²A − tan²A equals: (a) 0  (b) −1  (c) sin²A  (d) 1
+    Ans: (d) 1. It follows directly from 1 + tan²A = sec²A.
 
 ========================================================================
 CHAPTER 9 · Some Applications of Trigonometry
@@ -1037,26 +1037,26 @@ Q12. [Long · 5 marks] The angles of elevation of the top of a tower from two po
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The angle of depression is always measured from: (a) the vertical  (b) the horizontal  (c) the object  (d) the ground below
-    Ans: (b) The horizontal at the observer’s end.
+M1. The angle of depression is always measured from: (a) the vertical  (b) the object  (c) the ground below  (d) the horizontal
+    Ans: (d) The horizontal at the observer’s end.
 
-M2. If the angle of elevation of the sun is 45°, the length of the shadow of a pole equals: (a) half its height  (b) its height  (c) twice its height  (d) √3 times its height
-    Ans: (b) Its height. tan 45° = 1.
+M2. If the angle of elevation of the sun is 45°, the length of the shadow of a pole equals: (a) half its height  (b) twice its height  (c) its height  (d) √3 times its height
+    Ans: (c) Its height. tan 45° = 1.
 
-M3. From the top of a tower the angle of depression of an object on the ground is 30°. The angle of elevation of the top from that object is: (a) 30°  (b) 45°  (c) 60°  (d) 90°
-    Ans: (a) 30°. Alternate angles between parallel horizontals.
+M3. From the top of a tower the angle of depression of an object on the ground is 30°. The angle of elevation of the top from that object is: (a) 90°  (b) 60°  (c) 45°  (d) 30°
+    Ans: (d) 30°. Alternate angles between parallel horizontals.
 
-M4. If the angle of elevation of the top of a pole from a point 10 m from its foot is 60°, the height of the pole is: (a) 10/√3 m  (b) 10 m  (c) 10√3 m  (d) 20 m
-    Ans: (c) 10√3 m. height = 10 × tan 60° = 10√3 m.
+M4. If the angle of elevation of the top of a pole from a point 10 m from its foot is 60°, the height of the pole is: (a) 10/√3 m  (b) 10√3 m  (c) 10 m  (d) 20 m
+    Ans: (b) 10√3 m. height = 10 × tan 60° = 10√3 m.
 
-M5. As an observer walks towards the foot of a tower, the angle of elevation of its top: (a) decreases  (b) stays the same  (c) becomes zero  (d) increases
-    Ans: (d) increases. The horizontal distance falls while the height stays fixed, so tan of the angle (height ÷ distance) grows and the angle increases.
+M5. As an observer walks towards the foot of a tower, the angle of elevation of its top: (a) increases  (b) decreases  (c) stays the same  (d) becomes zero
+    Ans: (a) increases. The horizontal distance falls while the height stays fixed, so tan of the angle (height ÷ distance) grows and the angle increases.
 
-M6. When the shadow of a pole equals its height, the sun’s angle of elevation is: (a) 30°  (b) 45°  (c) 60°  (d) 90°
-    Ans: (b) 45°. tan θ = height/shadow = 1, so θ = 45°.
+M6. When the shadow of a pole equals its height, the sun’s angle of elevation is: (a) 90°  (b) 60°  (c) 45°  (d) 30°
+    Ans: (c) 45°. tan θ = height/shadow = 1, so θ = 45°.
 
-M7. The angle made by the line of sight with the horizontal when the object is below the observer is the angle of: (a) elevation  (b) depression  (c) reflection  (d) inclination
-    Ans: (b) depression. Elevation looks up; depression looks down.
+M7. The angle made by the line of sight with the horizontal when the object is below the observer is the angle of: (a) depression  (b) elevation  (c) reflection  (d) inclination
+    Ans: (a) depression. Elevation looks up; depression looks down.
 
 M8. A 10 m ladder reaches a window 8 m above the ground. Its foot is from the wall at a distance of: (a) 4 m  (b) 6 m  (c) 7 m  (d) 9 m
     Ans: (b) 6 m. By Pythagoras, √(100 − 64) = √36 = 6 m.
@@ -1161,23 +1161,23 @@ M1. The number of tangents from a point on the circle is: (a) 0  (b) 1  (c) 2  (
 M2. The angle between a tangent and the radius at the point of contact is: (a) 45°  (b) 60°  (c) 90°  (d) 180°
     Ans: (c) 90°.
 
-M3. Two tangents from an external point to a circle are: (a) unequal  (b) equal  (c) always perpendicular  (d) parallel
-    Ans: (b) Equal.
+M3. Two tangents from an external point to a circle are: (a) unequal  (b) always perpendicular  (c) parallel  (d) equal
+    Ans: (d) Equal.
 
-M4. A tangent to a circle meets the circle in: (a) no point  (b) exactly one point  (c) exactly two points  (d) infinitely many points
-    Ans: (b) exactly one point. By definition, a tangent touches the circle at exactly one point, the point of contact.
+M4. A tangent to a circle meets the circle in: (a) exactly one point  (b) no point  (c) exactly two points  (d) infinitely many points
+    Ans: (a) exactly one point. By definition, a tangent touches the circle at exactly one point, the point of contact.
 
-M5. If the angle between two tangents drawn from an external point P to a circle of radius a and centre O is 60°, then OP = (a) 2a  (b) a√3  (c) a√2  (d) a/2
-    Ans: (a) 2a. ∠APB = 60° gives ∠APO = 30° and, in right triangle OAP, OA = OP sin 30°, so OP = a/(1/2) = 2a.
+M5. If the angle between two tangents drawn from an external point P to a circle of radius a and centre O is 60°, then OP = (a) a√3  (b) a√2  (c) a/2  (d) 2a
+    Ans: (d) 2a. ∠APB = 60° gives ∠APO = 30° and, in right triangle OAP, OA = OP sin 30°, so OP = a/(1/2) = 2a.
 
 M6. The number of tangents that can be drawn from a point outside a circle is: (a) 1  (b) 2  (c) 3  (d) infinite
     Ans: (b) 2. Exactly two, and they are equal in length.
 
-M7. A line that cuts a circle in two distinct points is called a: (a) tangent  (b) secant  (c) chord  (d) diameter
-    Ans: (b) secant. A tangent meets the circle at one point; a chord is the segment joining the two points.
+M7. A line that cuts a circle in two distinct points is called a: (a) secant  (b) tangent  (c) chord  (d) diameter
+    Ans: (a) secant. A tangent meets the circle at one point; a chord is the segment joining the two points.
 
-M8. A tangent of length 24 cm is drawn from a point 25 cm from the centre. The radius is: (a) 5 cm  (b) 7 cm  (c) 12 cm  (d) 24 cm
-    Ans: (b) 7 cm. r² + 24² = 25², so r = √49 = 7 cm.
+M8. A tangent of length 24 cm is drawn from a point 25 cm from the centre. The radius is: (a) 24 cm  (b) 12 cm  (c) 7 cm  (d) 5 cm
+    Ans: (c) 7 cm. r² + 24² = 25², so r = √49 = 7 cm.
 
 ========================================================================
 CHAPTER 11 · Areas Related to Circles
@@ -1265,8 +1265,8 @@ Q12. [Long · 5 marks] The minute hand of a clock is 14 cm long. Find (i) the an
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The area of a quadrant of a circle of radius r is: (a) πr²/2  (b) πr²/4  (c) 2πr  (d) πr²
-    Ans: (b) πr²/4.
+M1. The area of a quadrant of a circle of radius r is: (a) πr²/2  (b) 2πr  (c) πr²  (d) πr²/4
+    Ans: (d) πr²/4.
 
 M2. The perimeter of a sector includes: (a) only the arc  (b) the arc and one radius  (c) the arc and two radii  (d) the chord and the arc
     Ans: (c) The arc and two radii.
@@ -1274,20 +1274,20 @@ M2. The perimeter of a sector includes: (a) only the arc  (b) the arc and one ra
 M3. The area of a segment is found by: (a) sector − triangle  (b) sector + triangle  (c) circle − sector  (d) triangle − sector
     Ans: (a) Sector − triangle.
 
-M4. The length of the arc of a sector of angle θ in a circle of radius r is: (a) (θ/360°) × πr²  (b) (θ/180°) × πr²  (c) (θ/360°) × 2πr  (d) (θ/360°) × 2r
-    Ans: (c) (θ/360°) × 2πr. The arc is the fraction θ/360° of the whole circumference 2πr.
+M4. The length of the arc of a sector of angle θ in a circle of radius r is: (a) (θ/360°) × πr²  (b) (θ/180°) × πr²  (c) (θ/360°) × 2r  (d) (θ/360°) × 2πr
+    Ans: (d) (θ/360°) × 2πr. The arc is the fraction θ/360° of the whole circumference 2πr.
 
-M5. The area of a sector of a circle of radius 7 cm with central angle 90° is (π = 22/7): (a) 77 cm²  (b) 154 cm²  (c) 19.25 cm²  (d) 38.5 cm²
-    Ans: (d) 38.5 cm². Area = (90/360) × (22/7) × 7² = ¼ × 154 = 38.5 cm².
+M5. The area of a sector of a circle of radius 7 cm with central angle 90° is (π = 22/7): (a) 77 cm²  (b) 38.5 cm²  (c) 154 cm²  (d) 19.25 cm²
+    Ans: (b) 38.5 cm². Area = (90/360) × (22/7) × 7² = ¼ × 154 = 38.5 cm².
 
-M6. The area of a circle whose circumference is 44 cm is: (a) 77 cm²  (b) 154 cm²  (c) 308 cm²  (d) 616 cm²
-    Ans: (b) 154 cm². 2πr = 44 gives r = 7 cm, so the area is πr² = 154 cm².
+M6. The area of a circle whose circumference is 44 cm is: (a) 616 cm²  (b) 308 cm²  (c) 154 cm²  (d) 77 cm²
+    Ans: (c) 154 cm². 2πr = 44 gives r = 7 cm, so the area is πr² = 154 cm².
 
 M7. If the radius of a circle is doubled, its area becomes: (a) 2 times  (b) 4 times  (c) 8 times  (d) unchanged
     Ans: (b) 4 times. Area ∝ r², so doubling r multiplies the area by 2² = 4.
 
-M8. The area of a semicircle of radius r is: (a) πr²  (b) πr²/2  (c) 2πr  (d) πr²/4
-    Ans: (b) πr²/2. A semicircle is half of a full circle.
+M8. The area of a semicircle of radius r is: (a) πr²/2  (b) πr²  (c) 2πr  (d) πr²/4
+    Ans: (a) πr²/2. A semicircle is half of a full circle.
 
 ========================================================================
 CHAPTER 12 · Surface Areas and Volumes
@@ -1387,8 +1387,8 @@ M1. The volume of a cone of radius r and height h is: (a) πr²h  (b) πr²h/3  
 M2. When a solid is melted and recast into another shape, which quantity is conserved? (a) surface area  (b) volume  (c) both  (d) neither
     Ans: (b) Volume. Surface area almost always changes.
 
-M3. The slant height of a frustum with radii R and r and height h is: (a) √[h² + (R + r)²]  (b) √[h² + (R − r)²]  (c) h + R + r  (d) √(R² − r²)
-    Ans: (b) √[h² + (R − r)²].
+M3. The slant height of a frustum with radii R and r and height h is: (a) √[h² + (R − r)²]  (b) √[h² + (R + r)²]  (c) h + R + r  (d) √(R² − r²)
+    Ans: (a) √[h² + (R − r)²].
 
 M4. The total surface area of a solid hemisphere of radius r is: (a) 2πr²  (b) 4πr²  (c) 3πr²  (d) πr²
     Ans: (c) 3πr². Curved surface 2πr² plus the flat circular face πr² gives 3πr².
@@ -1396,14 +1396,14 @@ M4. The total surface area of a solid hemisphere of radius r is: (a) 2πr²  (b)
 M5. If the radius of a sphere is doubled, its volume becomes: (a) 2 times  (b) 4 times  (c) 6 times  (d) 8 times
     Ans: (d) 8 times. V = (4/3)πr³, so doubling r multiplies the volume by 2³ = 8.
 
-M6. The curved surface area of a cylinder of radius r and height h is: (a) 2πrh  (b) πr²h  (c) 2πr(r + h)  (d) πrl
-    Ans: (a) 2πrh. 2πr(r + h) is the total surface area and πr²h is the volume.
+M6. The curved surface area of a cylinder of radius r and height h is: (a) πr²h  (b) 2πr(r + h)  (c) 2πrh  (d) πrl
+    Ans: (c) 2πrh. 2πr(r + h) is the total surface area and πr²h is the volume.
 
 M7. The volume of a sphere of radius r is: (a) (4/3)πr³  (b) 4πr²  (c) (2/3)πr³  (d) πr³
     Ans: (a) (4/3)πr³. 4πr² is the surface area of the sphere.
 
-M8. A cone, a hemisphere and a cylinder have equal bases and equal heights. The ratio of their volumes is: (a) 1 : 2 : 3  (b) 2 : 3 : 1  (c) 3 : 1 : 2  (d) 1 : 3 : 2
-    Ans: (a) 1 : 2 : 3. With radius = height = r: πr³/3 : 2πr³/3 : πr³.
+M8. A cone, a hemisphere and a cylinder have equal bases and equal heights. The ratio of their volumes is: (a) 2 : 3 : 1  (b) 3 : 1 : 2  (c) 1 : 3 : 2  (d) 1 : 2 : 3
+    Ans: (d) 1 : 2 : 3. With radius = height = r: πr³/3 : 2πr³/3 : πr³.
 
 ========================================================================
 CHAPTER 13 · Statistics
@@ -1497,29 +1497,29 @@ Q12. [Application · 4 marks] For the distribution 0–10 (5), 10–20 (8), 20�
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The class mark of the class 15–25 is: (a) 15  (b) 20  (c) 25  (d) 10
-    Ans: (b) 20. (15 + 25)/2.
+M1. The class mark of the class 15–25 is: (a) 15  (b) 25  (c) 10  (d) 20
+    Ans: (d) 20. (15 + 25)/2.
 
-M2. The median class is the class whose cumulative frequency is: (a) equal to N/2  (b) the first one greater than N/2  (c) the largest  (d) the smallest
-    Ans: (b) The first one greater than N/2.
+M2. The median class is the class whose cumulative frequency is: (a) the first one greater than N/2  (b) equal to N/2  (c) the largest  (d) the smallest
+    Ans: (a) The first one greater than N/2.
 
 M3. If mean = 20 and mode = 26, then by the empirical relation the median is: (a) 22  (b) 22.67  (c) 23  (d) 24
     Ans: (a) 22. 3 Median = 26 + 2(20) = 66, so Median = 22.
 
-M4. In grouped data, the mean is calculated using the class marks because: (a) the class limits are never known  (b) every observation of a class is assumed to lie at its midpoint  (c) it always makes the mean larger  (d) the frequencies are not required
-    Ans: (b) every observation of a class is assumed to lie at its midpoint. The individual values inside a class are unknown, so each is represented by the class mark.
+M4. In grouped data, the mean is calculated using the class marks because: (a) the class limits are never known  (b) it always makes the mean larger  (c) the frequencies are not required  (d) every observation of a class is assumed to lie at its midpoint
+    Ans: (d) every observation of a class is assumed to lie at its midpoint. The individual values inside a class are unknown, so each is represented by the class mark.
 
-M5. In the mode formula l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, the symbol f₁ stands for: (a) the frequency of the modal class  (b) the frequency of the class before the modal class  (c) the frequency of the class after the modal class  (d) the total of all frequencies
-    Ans: (a) the frequency of the modal class. f₁ is the frequency of the modal class; f₀ and f₂ are those of the classes just before and just after it.
+M5. In the mode formula l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, the symbol f₁ stands for: (a) the frequency of the class before the modal class  (b) the frequency of the class after the modal class  (c) the frequency of the modal class  (d) the total of all frequencies
+    Ans: (c) the frequency of the modal class. f₁ is the frequency of the modal class; f₀ and f₂ are those of the classes just before and just after it.
 
 M6. The mode of 3, 5, 7, 5, 9, 5, 8 is: (a) 3  (b) 5  (c) 7  (d) 9
     Ans: (b) 5. It occurs three times, more than any other value.
 
-M7. The class mark of the class 45–55 is: (a) 45  (b) 50  (c) 55  (d) 100
-    Ans: (b) 50. Class mark = (lower limit + upper limit)/2 = 50.
+M7. The class mark of the class 45–55 is: (a) 100  (b) 55  (c) 50  (d) 45
+    Ans: (c) 50. Class mark = (lower limit + upper limit)/2 = 50.
 
-M8. The empirical relation connecting the three measures of central tendency is: (a) Mode = 3 Median − 2 Mean  (b) Median = 3 Mode − 2 Mean  (c) Mean = 3 Median − 2 Mode  (d) Mode = 2 Median − Mean
-    Ans: (a) Mode = 3 Median − 2 Mean. Equivalently, 3 Median = Mode + 2 Mean.
+M8. The empirical relation connecting the three measures of central tendency is: (a) Median = 3 Mode − 2 Mean  (b) Mode = 3 Median − 2 Mean  (c) Mean = 3 Median − 2 Mode  (d) Mode = 2 Median − Mean
+    Ans: (b) Mode = 3 Median − 2 Mean. Equivalently, 3 Median = Mode + 2 Mean.
 
 ========================================================================
 CHAPTER 14 · Probability
@@ -1618,23 +1618,23 @@ B. MCQs (8)
 M1. The probability of an impossible event is: (a) 1  (b) 0  (c) 1/2  (d) undefined
     Ans: (b) 0.
 
-M2. Two dice are thrown together. The total number of outcomes is: (a) 6  (b) 12  (c) 36  (d) 24
-    Ans: (c) 36.
+M2. Two dice are thrown together. The total number of outcomes is: (a) 36  (b) 6  (c) 12  (d) 24
+    Ans: (a) 36.
 
-M3. The number of face cards in a deck of 52 cards is: (a) 8  (b) 12  (c) 16  (d) 4
-    Ans: (b) 12. Jacks, queens and kings of four suits.
+M3. The number of face cards in a deck of 52 cards is: (a) 8  (b) 16  (c) 12  (d) 4
+    Ans: (c) 12. Jacks, queens and kings of four suits.
 
-M4. A bag has 4 red and 6 blue balls. The probability that a ball drawn at random is not red is: (a) 2/5  (b) 3/5  (c) 4/6  (d) 1/6
-    Ans: (b) 3/5. Blue balls = 6 out of 10, so P(not red) = 6/10 = 3/5.
+M4. A bag has 4 red and 6 blue balls. The probability that a ball drawn at random is not red is: (a) 2/5  (b) 4/6  (c) 1/6  (d) 3/5
+    Ans: (d) 3/5. Blue balls = 6 out of 10, so P(not red) = 6/10 = 3/5.
 
-M5. The probability of getting an even prime number in one throw of a die is: (a) 1/2  (b) 1/3  (c) 0  (d) 1/6
-    Ans: (d) 1/6. The only even prime is 2, which is one of the six equally likely outcomes.
+M5. The probability of getting an even prime number in one throw of a die is: (a) 1/6  (b) 1/2  (c) 1/3  (d) 0
+    Ans: (a) 1/6. The only even prime is 2, which is one of the six equally likely outcomes.
 
 M6. In one throw of a die, the probability of getting a number less than 7 is: (a) 0  (b) 1/6  (c) 5/6  (d) 1
     Ans: (d) 1. Every outcome 1–6 is less than 7, so it is a sure event.
 
-M7. If P(E) = 0.37, then P(not E) = : (a) 0.37  (b) 0.63  (c) 1  (d) 0.53
-    Ans: (b) 0.63. P(not E) = 1 − P(E) = 1 − 0.37 = 0.63.
+M7. If P(E) = 0.37, then P(not E) = : (a) 0.37  (b) 1  (c) 0.63  (d) 0.53
+    Ans: (c) 0.63. P(not E) = 1 − P(E) = 1 − 0.37 = 0.63.
 
 M8. One card is drawn from a well-shuffled deck. The probability of a black queen is: (a) 1/52  (b) 1/26  (c) 1/13  (d) 2/13
     Ans: (b) 1/26. Two black queens out of 52 cards gives 2/52 = 1/26.

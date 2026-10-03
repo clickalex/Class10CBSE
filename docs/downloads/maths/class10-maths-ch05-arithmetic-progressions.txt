@@ -99,11 +99,11 @@ Q12. [Long · 5 marks] The sum of the 4th and 8th terms of an AP is 24 and the s
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The 10th term of the AP 2, 7, 12, … is: (a) 45  (b) 47  (c) 50  (d) 52
-    Ans: (b) 47. a₁₀ = 2 + 9(5).
+M1. The 10th term of the AP 2, 7, 12, … is: (a) 52  (b) 50  (c) 47  (d) 45
+    Ans: (c) 47. a₁₀ = 2 + 9(5).
 
-M2. The sum of the first 10 natural numbers is: (a) 45  (b) 50  (c) 55  (d) 100
-    Ans: (c) 55. n(n+1)/2 = 10 × 11/2.
+M2. The sum of the first 10 natural numbers is: (a) 100  (b) 55  (c) 50  (d) 45
+    Ans: (b) 55. n(n+1)/2 = 10 × 11/2.
 
 M3. S₅ − S₄ equals: (a) the 5th term  (b) the 4th term  (c) the 9th term  (d) zero
     Ans: (a) The 5th term. That is what aₙ = Sₙ − Sₙ₋₁ means.
@@ -111,14 +111,14 @@ M3. S₅ − S₄ equals: (a) the 5th term  (b) the 4th term  (c) the 9th term  
 M4. Which of the following is NOT an AP? (a) 2, 5, 8, 11, …  (b) 1, 4, 9, 16, …  (c) −3, −1, 1, 3, …  (d) 7, 7, 7, 7, …
     Ans: (b) 1, 4, 9, 16, …. The differences 3, 5, 7 are not equal, so 1, 4, 9, 16 has no common difference. The others have d = 3, 2 and 0.
 
-M5. The sum of the first n odd natural numbers 1, 3, 5, … is: (a) n(n + 1)/2  (b) 2n  (c) n(n + 1)  (d) n²
-    Ans: (d) n². Here a = 1, d = 2, so Sₙ = (n/2)[2 + (n − 1)2] = n².
+M5. The sum of the first n odd natural numbers 1, 3, 5, … is: (a) n(n + 1)/2  (b) 2n  (c) n²  (d) n(n + 1)
+    Ans: (c) n². Here a = 1, d = 2, so Sₙ = (n/2)[2 + (n − 1)2] = n².
 
-M6. The common difference of the AP whose nth term is 3n + 5 is: (a) 3  (b) 5  (c) 8  (d) 2
-    Ans: (a) 3. a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n.
+M6. The common difference of the AP whose nth term is 3n + 5 is: (a) 5  (b) 8  (c) 2  (d) 3
+    Ans: (d) 3. a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n.
 
-M7. If the 3rd term of an AP is 4 and the 9th term is −8, its first term is: (a) 8  (b) 6  (c) 4  (d) 2
-    Ans: (a) 8. a + 2d = 4 and a + 8d = −8 give 6d = −12, so d = −2 and a = 8.
+M7. If the 3rd term of an AP is 4 and the 9th term is −8, its first term is: (a) 2  (b) 4  (c) 6  (d) 8
+    Ans: (d) 8. a + 2d = 4 and a + 8d = −8 give 6d = −12, so d = −2 and a = 8.
 
-M8. The sum of the first 100 natural numbers is: (a) 5000  (b) 5050  (c) 4950  (d) 5100
-    Ans: (b) 5050. S = 100 × 101/2 = 5050.
+M8. The sum of the first 100 natural numbers is: (a) 5050  (b) 5000  (c) 4950  (d) 5100
+    Ans: (a) 5050. S = 100 × 101/2 = 5050.

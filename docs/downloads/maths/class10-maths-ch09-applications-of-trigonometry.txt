@@ -100,26 +100,26 @@ Q12. [Long · 5 marks] The angles of elevation of the top of a tower from two po
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The angle of depression is always measured from: (a) the vertical  (b) the horizontal  (c) the object  (d) the ground below
-    Ans: (b) The horizontal at the observer’s end.
+M1. The angle of depression is always measured from: (a) the vertical  (b) the object  (c) the ground below  (d) the horizontal
+    Ans: (d) The horizontal at the observer’s end.
 
-M2. If the angle of elevation of the sun is 45°, the length of the shadow of a pole equals: (a) half its height  (b) its height  (c) twice its height  (d) √3 times its height
-    Ans: (b) Its height. tan 45° = 1.
+M2. If the angle of elevation of the sun is 45°, the length of the shadow of a pole equals: (a) half its height  (b) twice its height  (c) its height  (d) √3 times its height
+    Ans: (c) Its height. tan 45° = 1.
 
-M3. From the top of a tower the angle of depression of an object on the ground is 30°. The angle of elevation of the top from that object is: (a) 30°  (b) 45°  (c) 60°  (d) 90°
-    Ans: (a) 30°. Alternate angles between parallel horizontals.
+M3. From the top of a tower the angle of depression of an object on the ground is 30°. The angle of elevation of the top from that object is: (a) 90°  (b) 60°  (c) 45°  (d) 30°
+    Ans: (d) 30°. Alternate angles between parallel horizontals.
 
-M4. If the angle of elevation of the top of a pole from a point 10 m from its foot is 60°, the height of the pole is: (a) 10/√3 m  (b) 10 m  (c) 10√3 m  (d) 20 m
-    Ans: (c) 10√3 m. height = 10 × tan 60° = 10√3 m.
+M4. If the angle of elevation of the top of a pole from a point 10 m from its foot is 60°, the height of the pole is: (a) 10/√3 m  (b) 10√3 m  (c) 10 m  (d) 20 m
+    Ans: (b) 10√3 m. height = 10 × tan 60° = 10√3 m.
 
-M5. As an observer walks towards the foot of a tower, the angle of elevation of its top: (a) decreases  (b) stays the same  (c) becomes zero  (d) increases
-    Ans: (d) increases. The horizontal distance falls while the height stays fixed, so tan of the angle (height ÷ distance) grows and the angle increases.
+M5. As an observer walks towards the foot of a tower, the angle of elevation of its top: (a) increases  (b) decreases  (c) stays the same  (d) becomes zero
+    Ans: (a) increases. The horizontal distance falls while the height stays fixed, so tan of the angle (height ÷ distance) grows and the angle increases.
 
-M6. When the shadow of a pole equals its height, the sun’s angle of elevation is: (a) 30°  (b) 45°  (c) 60°  (d) 90°
-    Ans: (b) 45°. tan θ = height/shadow = 1, so θ = 45°.
+M6. When the shadow of a pole equals its height, the sun’s angle of elevation is: (a) 90°  (b) 60°  (c) 45°  (d) 30°
+    Ans: (c) 45°. tan θ = height/shadow = 1, so θ = 45°.
 
-M7. The angle made by the line of sight with the horizontal when the object is below the observer is the angle of: (a) elevation  (b) depression  (c) reflection  (d) inclination
-    Ans: (b) depression. Elevation looks up; depression looks down.
+M7. The angle made by the line of sight with the horizontal when the object is below the observer is the angle of: (a) depression  (b) elevation  (c) reflection  (d) inclination
+    Ans: (a) depression. Elevation looks up; depression looks down.
 
 M8. A 10 m ladder reaches a window 8 m above the ground. Its foot is from the wall at a distance of: (a) 4 m  (b) 6 m  (c) 7 m  (d) 9 m
     Ans: (b) 6 m. By Pythagoras, √(100 − 64) = √36 = 6 m.

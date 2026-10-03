@@ -90,23 +90,23 @@ B. MCQs (8)
 M1. A query stores: (a) a second full copy of all data always (b) the question (fields, criteria) (c) a Writer template (d) an OS
     Ans: (b).
 
-M2. Names starting with R use: (a) Like 'R*' (b) = R (c) Group (d) F11
-    Ans: (a) Like 'R*'.
+M2. Names starting with R use: (a) = R (b) Group (c) F11 (d) Like 'R*'
+    Ans: (d) Like 'R*'.
 
-M3. Two criteria on the same row mean: (a) OR (b) AND (c) XOR (d) NOT a query
-    Ans: (b) AND.
+M3. Two criteria on the same row mean: (a) OR (b) XOR (c) AND (d) NOT a query
+    Ans: (c) AND.
 
-M4. To sort marks highest first: (a) Sort Ascending (b) Sort Descending on Marks (c) Primary key (d) Wrap Optimal
-    Ans: (b).
+M4. To sort marks highest first: (a) Sort Descending on Marks (b) Sort Ascending (c) Primary key (d) Wrap Optimal
+    Ans: (a).
 
-M5. In the query design grid, the row that is used to hide a field from the result is: (a) Alias (b) Visible (c) Sort (d) Function
-    Ans: (b) Visible. Unticking Visible keeps the field available for criteria but does not show it in the result.
+M5. In the query design grid, the row that is used to hide a field from the result is: (a) Alias (b) Sort (c) Visible (d) Function
+    Ans: (c) Visible. Unticking Visible keeps the field available for criteria but does not show it in the result.
 
-M6. The criterion >500 placed under the Fees field will show only the records where: (a) Fees is greater than 500 (b) Fees is exactly 500 (c) Fees is less than 500 (d) Fees is blank
-    Ans: (a) Fees is greater than 500. The symbol > means “greater than”, so only the larger amounts are shown.
+M6. The criterion >500 placed under the Fees field will show only the records where: (a) Fees is exactly 500 (b) Fees is less than 500 (c) Fees is blank (d) Fees is greater than 500
+    Ans: (d) Fees is greater than 500. The symbol > means “greater than”, so only the larger amounts are shown.
 
 M7. To show only the students of Class 10 in a query you would: (a) type a criterion in the Class field  (b) sort the Class field  (c) rename the field  (d) delete the other rows
     Ans: (a) type a criterion in the Class field. Criteria filter the records; sorting only reorders them.
 
-M8. Sorting a query result in descending order arranges the values: (a) from largest to smallest  (b) from A to Z  (c) oldest first  (d) in the order they were entered
-    Ans: (a) from largest to smallest. For text, Z to A.
+M8. Sorting a query result in descending order arranges the values: (a) from A to Z  (b) from largest to smallest  (c) oldest first  (d) in the order they were entered
+    Ans: (b) from largest to smallest. For text, Z to A.

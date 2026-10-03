@@ -152,20 +152,20 @@
         "a": "**(b) Tools.**"
       },
       {
-        "q": "Before Subtotals you must: (a) insert a chart (b) sort the group column (c) record a macro (d) protect the sheet",
-        "a": "**(b) sort.**"
+        "q": "Before Subtotals you must: (a) insert a chart (b) record a macro (c) sort the group column (d) protect the sheet",
+        "a": "**(c) sort.**"
       },
       {
-        "q": "A named best-case / worst-case set of inputs is a: (a) style (b) scenario (c) query (d) template",
-        "a": "**(b) scenario.**"
+        "q": "A named best-case / worst-case set of inputs is a: (a) style (b) query (c) template (d) scenario",
+        "a": "**(d) scenario.**"
       },
       {
-        "q": "Consolidate is best when data is: (a) on several similar sheets (b) a single cell (c) an image (d) a Writer ToC",
-        "a": "**(a).**"
+        "q": "Consolidate is best when data is: (a) a single cell (b) on several similar sheets (c) an image (d) a Writer ToC",
+        "a": "**(b).**"
       },
       {
-        "q": "Solver is used when a problem has: (a) many variables and constraints (b) only one input to change (c) only text data (d) no formulas",
-        "a": "**(a) many variables and constraints.** Goal Seek handles one variable; Solver can handle several variables with limits."
+        "q": "Solver is used when a problem has: (a) only one input to change (b) only text data (c) no formulas (d) many variables and constraints",
+        "a": "**(d) many variables and constraints.** Goal Seek handles one variable; Solver can handle several variables with limits."
       },
       {
         "q": "Which of the following is a what-if analysis tool in Calc? (a) Spell check (b) Print preview (c) Goal Seek (d) Freeze rows",
@@ -335,32 +335,32 @@
         "a": "**(b).**"
       },
       {
-        "q": "A macro is: (a) a virus always (b) a recorded command sequence (c) a Heading style (d) a primary key",
-        "a": "**(b).**"
+        "q": "A macro is: (a) a recorded command sequence (b) a virus always (c) a Heading style (d) a primary key",
+        "a": "**(a).**"
       },
       {
-        "q": "Unknown file asks to enable macros. You should: (a) always click Enable (b) enable only if you trust the source (c) delete LibreOffice (d) turn security to Low forever",
-        "a": "**(b).**"
+        "q": "Unknown file asks to enable macros. You should: (a) always click Enable (b) delete LibreOffice (c) turn security to Low forever (d) enable only if you trust the source",
+        "a": "**(d).**"
       },
       {
         "q": "Best use of a macro: (a) one-time typing of a name (b) repeating a long format every week (c) drawing a circle once (d) writing an essay",
         "a": "**(b).**"
       },
       {
-        "q": "A recorded macro can be kept so that it is available in all documents if it is saved in: (a) the current document only (b) the Recycle Bin (c) the clipboard (d) My Macros",
-        "a": "**(d) My Macros.** Macros saved in My Macros belong to the user profile and can be run from any document."
+        "q": "A recorded macro can be kept so that it is available in all documents if it is saved in: (a) the current document only (b) the Recycle Bin (c) My Macros (d) the clipboard",
+        "a": "**(c) My Macros.** Macros saved in My Macros belong to the user profile and can be run from any document."
       },
       {
-        "q": "The main danger in enabling macros from a file sent by an unknown person is that they: (a) will make the file larger (b) will change the font (c) may contain harmful code (d) will slow the printer",
-        "a": "**(c) may contain harmful code.** A macro can run commands automatically, so a malicious macro can do real damage."
+        "q": "The main danger in enabling macros from a file sent by an unknown person is that they: (a) will make the file larger (b) will change the font (c) will slow the printer (d) may contain harmful code",
+        "a": "**(d) may contain harmful code.** A macro can run commands automatically, so a malicious macro can do real damage."
       },
       {
         "q": "Recording a macro in LibreOffice starts from: (a) Tools → Macros → Record Macro  (b) Insert → Macro  (c) Format → Macro  (d) Data → Macro",
         "a": "**(a) Tools → Macros → Record Macro.** Stop the recording with the same menu and then save the macro."
       },
       {
-        "q": "Macros in LibreOffice are commonly stored and written in: (a) LibreOffice Basic  (b) HTML  (c) SQL only  (d) CSS",
-        "a": "**(a) LibreOffice Basic.** Python, BeanShell and JavaScript are also supported."
+        "q": "Macros in LibreOffice are commonly stored and written in: (a) HTML  (b) SQL only  (c) LibreOffice Basic  (d) CSS",
+        "a": "**(c) LibreOffice Basic.** Python, BeanShell and JavaScript are also supported."
       }
     ],
     "trend": "Record-macro steps and one advantage; security as a 1-mark.",
@@ -524,32 +524,32 @@
         "a": "**(b) 'Term 1'.A1.**"
       },
       {
-        "q": "Insert → Hyperlink can open: (a) only images (b) a web page or a file (c) Goal Seek (d) a style",
-        "a": "**(b).**"
+        "q": "Insert → Hyperlink can open: (a) only images (b) Goal Seek (c) a web page or a file (d) a style",
+        "a": "**(c).**"
       },
       {
-        "q": "Live totals that update when a source sheet changes need: (a) a screenshot (b) a formula/link (c) Track Changes (d) a caption",
-        "a": "**(b).**"
+        "q": "Live totals that update when a source sheet changes need: (a) a screenshot (b) Track Changes (c) a caption (d) a formula/link",
+        "a": "**(d).**"
       },
       {
-        "q": "Paste Special → Link is used to: (a) break a file (b) keep a live connection to copied cells (c) record a macro (d) group shapes",
-        "a": "**(b).**"
+        "q": "Paste Special → Link is used to: (a) keep a live connection to copied cells (b) break a file (c) record a macro (d) group shapes",
+        "a": "**(a).**"
       },
       {
-        "q": "A hyperlink in Calc can point to: (a) a web page, an e-mail address, a file or a place in the same document (b) only another cell in the same sheet (c) only a picture (d) only a macro",
-        "a": "**(a) a web page, an e-mail address, a file or a place in the same document.** Insert → Hyperlink offers an internet link, a mail link, a document link and a link to a target in the current document."
+        "q": "A hyperlink in Calc can point to: (a) only another cell in the same sheet (b) a web page, an e-mail address, a file or a place in the same document (c) only a picture (d) only a macro",
+        "a": "**(b) a web page, an e-mail address, a file or a place in the same document.** Insert → Hyperlink offers an internet link, a mail link, a document link and a link to a target in the current document."
       },
       {
-        "q": "If the source file of a linked cell is moved to another folder, the linked cell will probably: (a) update itself automatically (b) turn into a hyperlink (c) show an error or an old value (d) delete the source file",
-        "a": "**(c) show an error or an old value.** The link remembers the old location, so Calc cannot find the source unless the link is repaired."
+        "q": "If the source file of a linked cell is moved to another folder, the linked cell will probably: (a) show an error or an old value (b) update itself automatically (c) turn into a hyperlink (d) delete the source file",
+        "a": "**(a) show an error or an old value.** The link remembers the old location, so Calc cannot find the source unless the link is repaired."
       },
       {
-        "q": "Linked data in a spreadsheet: (a) updates when the source value changes  (b) is frozen at the time of linking  (c) must be typed again  (d) cannot be used in a formula",
-        "a": "**(a) updates when the source value changes.** That is the whole point of linking."
+        "q": "Linked data in a spreadsheet: (a) is frozen at the time of linking  (b) must be typed again  (c) cannot be used in a formula  (d) updates when the source value changes",
+        "a": "**(d) updates when the source value changes.** That is the whole point of linking."
       },
       {
-        "q": "A hyperlink in a sheet can point to: (a) a web page, an email address or a place in the same document  (b) only a web page  (c) only a file on the desktop  (d) only a printer",
-        "a": "**(a) a web page, an email address or a place in the same document.** Insert → Hyperlink sets any of these."
+        "q": "A hyperlink in a sheet can point to: (a) only a web page  (b) only a file on the desktop  (c) a web page, an email address or a place in the same document  (d) only a printer",
+        "a": "**(c) a web page, an email address or a place in the same document.** Insert → Hyperlink sets any of these."
       }
     ],
     "trend": "Write a cross-sheet formula, or advantage of linking vs paste.",
@@ -703,36 +703,36 @@
     ],
     "mcq": [
       {
-        "q": "Share Spreadsheet is under: (a) Insert (b) Tools (c) Format (d) Data",
-        "a": "**(b) Tools.**"
+        "q": "Share Spreadsheet is under: (a) Insert (b) Format (c) Tools (d) Data",
+        "a": "**(c) Tools.**"
       },
       {
-        "q": "A cell comment is for: (a) hiding formulas forever (b) notes without changing the value (c) Goal Seek (d) styles",
-        "a": "**(b).**"
-      },
-      {
-        "q": "To allow editing only some cells: (a) Group (b) Protect Sheet after unlocking inputs (c) Consolidate (d) Mail Merge",
-        "a": "**(b).**"
-      },
-      {
-        "q": "Compare Document is useful when: (a) you have an older copy to diff (b) you need a chart (c) you insert an image (d) you write a ToC",
+        "q": "A cell comment is for: (a) notes without changing the value (b) hiding formulas forever (c) Goal Seek (d) styles",
         "a": "**(a).**"
       },
       {
-        "q": "The feature that locks cells so that formulas cannot be changed by mistake is: (a) Protect Sheet (b) Freeze Rows (c) Goal Seek (d) Fill Series",
-        "a": "**(a) Protect Sheet.** Protect Sheet (with the input cells left unlocked) stops people from editing the locked cells."
+        "q": "To allow editing only some cells: (a) Group (b) Consolidate (c) Mail Merge (d) Protect Sheet after unlocking inputs",
+        "a": "**(d).**"
       },
       {
-        "q": "Bringing another user’s copy of a spreadsheet back into the shared original is called: (a) consolidating (b) subtotalling (c) merging (d) formatting",
-        "a": "**(c) merging.** Merging combines the changes made in another copy with the original document."
+        "q": "Compare Document is useful when: (a) you need a chart (b) you have an older copy to diff (c) you insert an image (d) you write a ToC",
+        "a": "**(b).**"
+      },
+      {
+        "q": "The feature that locks cells so that formulas cannot be changed by mistake is: (a) Freeze Rows (b) Goal Seek (c) Fill Series (d) Protect Sheet",
+        "a": "**(d) Protect Sheet.** Protect Sheet (with the input cells left unlocked) stops people from editing the locked cells."
+      },
+      {
+        "q": "Bringing another user’s copy of a spreadsheet back into the shared original is called: (a) consolidating (b) merging (c) subtotalling (d) formatting",
+        "a": "**(b) merging.** Merging combines the changes made in another copy with the original document."
       },
       {
         "q": "Sharing a sheet while protecting it from changes is done from: (a) Tools → Protect Sheet  (b) File → Print  (c) Insert → Comment  (d) Format → Cells",
         "a": "**(a) Tools → Protect Sheet.** You can also allow selected users to edit certain ranges."
       },
       {
-        "q": "Comments in a spreadsheet are used to: (a) ask a question or explain a cell without changing its value  (b) delete the cell  (c) sort the data  (d) create a chart",
-        "a": "**(a) ask a question or explain a cell without changing its value.** The cell keeps its formula."
+        "q": "Comments in a spreadsheet are used to: (a) delete the cell  (b) sort the data  (c) ask a question or explain a cell without changing its value  (d) create a chart",
+        "a": "**(c) ask a question or explain a cell without changing its value.** The cell keeps its formula."
       }
     ],
     "trend": "Share vs record changes, or protect sheet steps.",

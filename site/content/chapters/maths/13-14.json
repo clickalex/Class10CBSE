@@ -192,36 +192,36 @@
     ],
     "mcq": [
       {
-        "q": "The class mark of the class 15–25 is: (a) 15  (b) 20  (c) 25  (d) 10",
-        "a": "**(b) 20.** (15 + 25)/2."
+        "q": "The class mark of the class 15–25 is: (a) 15  (b) 25  (c) 10  (d) 20",
+        "a": "**(d) 20.** (15 + 25)/2."
       },
       {
-        "q": "The median class is the class whose cumulative frequency is: (a) equal to N/2  (b) the first one greater than N/2  (c) the largest  (d) the smallest",
-        "a": "**(b) The first one greater than N/2.**"
+        "q": "The median class is the class whose cumulative frequency is: (a) the first one greater than N/2  (b) equal to N/2  (c) the largest  (d) the smallest",
+        "a": "**(a) The first one greater than N/2.**"
       },
       {
         "q": "If mean = 20 and mode = 26, then by the empirical relation the median is: (a) 22  (b) 22.67  (c) 23  (d) 24",
         "a": "**(a) 22.** 3 Median = 26 + 2(20) = 66, so Median = 22."
       },
       {
-        "q": "In grouped data, the mean is calculated using the class marks because: (a) the class limits are never known  (b) every observation of a class is assumed to lie at its midpoint  (c) it always makes the mean larger  (d) the frequencies are not required",
-        "a": "**(b) every observation of a class is assumed to lie at its midpoint.** The individual values inside a class are unknown, so each is represented by the class mark."
+        "q": "In grouped data, the mean is calculated using the class marks because: (a) the class limits are never known  (b) it always makes the mean larger  (c) the frequencies are not required  (d) every observation of a class is assumed to lie at its midpoint",
+        "a": "**(d) every observation of a class is assumed to lie at its midpoint.** The individual values inside a class are unknown, so each is represented by the class mark."
       },
       {
-        "q": "In the mode formula l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, the symbol f₁ stands for: (a) the frequency of the modal class  (b) the frequency of the class before the modal class  (c) the frequency of the class after the modal class  (d) the total of all frequencies",
-        "a": "**(a) the frequency of the modal class.** f₁ is the frequency of the modal class; f₀ and f₂ are those of the classes just before and just after it."
+        "q": "In the mode formula l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, the symbol f₁ stands for: (a) the frequency of the class before the modal class  (b) the frequency of the class after the modal class  (c) the frequency of the modal class  (d) the total of all frequencies",
+        "a": "**(c) the frequency of the modal class.** f₁ is the frequency of the modal class; f₀ and f₂ are those of the classes just before and just after it."
       },
       {
         "q": "The mode of 3, 5, 7, 5, 9, 5, 8 is: (a) 3  (b) 5  (c) 7  (d) 9",
         "a": "**(b) 5.** It occurs three times, more than any other value."
       },
       {
-        "q": "The class mark of the class 45–55 is: (a) 45  (b) 50  (c) 55  (d) 100",
-        "a": "**(b) 50.** Class mark = (lower limit + upper limit)/2 = 50."
+        "q": "The class mark of the class 45–55 is: (a) 100  (b) 55  (c) 50  (d) 45",
+        "a": "**(c) 50.** Class mark = (lower limit + upper limit)/2 = 50."
       },
       {
-        "q": "The empirical relation connecting the three measures of central tendency is: (a) Mode = 3 Median − 2 Mean  (b) Median = 3 Mode − 2 Mean  (c) Mean = 3 Median − 2 Mode  (d) Mode = 2 Median − Mean",
-        "a": "**(a) Mode = 3 Median − 2 Mean.** Equivalently, 3 Median = Mode + 2 Mean."
+        "q": "The empirical relation connecting the three measures of central tendency is: (a) Median = 3 Mode − 2 Mean  (b) Mode = 3 Median − 2 Mean  (c) Mean = 3 Median − 2 Mode  (d) Mode = 2 Median − Mean",
+        "a": "**(b) Mode = 3 Median − 2 Mean.** Equivalently, 3 Median = Mode + 2 Mean."
       }
     ],
     "trend": "One 4–5 mark grouped-data question every year — mean, median, mode or a missing frequency. Ogive drawing is asked less often now but still appears in sample papers.",
@@ -404,28 +404,28 @@
         "a": "**(b) 0.**"
       },
       {
-        "q": "Two dice are thrown together. The total number of outcomes is: (a) 6  (b) 12  (c) 36  (d) 24",
-        "a": "**(c) 36.**"
+        "q": "Two dice are thrown together. The total number of outcomes is: (a) 36  (b) 6  (c) 12  (d) 24",
+        "a": "**(a) 36.**"
       },
       {
-        "q": "The number of face cards in a deck of 52 cards is: (a) 8  (b) 12  (c) 16  (d) 4",
-        "a": "**(b) 12.** Jacks, queens and kings of four suits."
+        "q": "The number of face cards in a deck of 52 cards is: (a) 8  (b) 16  (c) 12  (d) 4",
+        "a": "**(c) 12.** Jacks, queens and kings of four suits."
       },
       {
-        "q": "A bag has 4 red and 6 blue balls. The probability that a ball drawn at random is not red is: (a) 2/5  (b) 3/5  (c) 4/6  (d) 1/6",
-        "a": "**(b) 3/5.** Blue balls = 6 out of 10, so P(not red) = 6/10 = 3/5."
+        "q": "A bag has 4 red and 6 blue balls. The probability that a ball drawn at random is not red is: (a) 2/5  (b) 4/6  (c) 1/6  (d) 3/5",
+        "a": "**(d) 3/5.** Blue balls = 6 out of 10, so P(not red) = 6/10 = 3/5."
       },
       {
-        "q": "The probability of getting an even prime number in one throw of a die is: (a) 1/2  (b) 1/3  (c) 0  (d) 1/6",
-        "a": "**(d) 1/6.** The only even prime is 2, which is one of the six equally likely outcomes."
+        "q": "The probability of getting an even prime number in one throw of a die is: (a) 1/6  (b) 1/2  (c) 1/3  (d) 0",
+        "a": "**(a) 1/6.** The only even prime is 2, which is one of the six equally likely outcomes."
       },
       {
         "q": "In one throw of a die, the probability of getting a number less than 7 is: (a) 0  (b) 1/6  (c) 5/6  (d) 1",
         "a": "**(d) 1.** Every outcome 1–6 is less than 7, so it is a sure event."
       },
       {
-        "q": "If P(E) = 0.37, then P(not E) = : (a) 0.37  (b) 0.63  (c) 1  (d) 0.53",
-        "a": "**(b) 0.63.** P(not E) = 1 − P(E) = 1 − 0.37 = 0.63."
+        "q": "If P(E) = 0.37, then P(not E) = : (a) 0.37  (b) 1  (c) 0.63  (d) 0.53",
+        "a": "**(c) 0.63.** P(not E) = 1 − P(E) = 1 − 0.37 = 0.63."
       },
       {
         "q": "One card is drawn from a well-shuffled deck. The probability of a black queen is: (a) 1/52  (b) 1/26  (c) 1/13  (d) 2/13",

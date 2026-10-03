@@ -83,26 +83,26 @@ Q12. [Long · 5 marks] Describe the steps to produce a printed report of student
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. A form is mainly for: (a) printing totals (b) entering and editing records (c) recording macros (d) 7 Cs
-    Ans: (b).
+M1. A form is mainly for: (a) printing totals (b) recording macros (c) entering and editing records (d) 7 Cs
+    Ans: (c).
 
-M2. A report is mainly for: (a) typing new rows (b) formatted output/print (c) setting OS password (d) wrapping images
-    Ans: (b).
+M2. A report is mainly for: (a) typing new rows (b) setting OS password (c) wrapping images (d) formatted output/print
+    Ans: (d).
 
 M3. The best source for a filtered report is: (a) a query (b) a random image (c) Track Changes (d) a template .ott
     Ans: (a) a query.
 
-M4. A check box on a form suits a: (a) Yes/No field (b) photo of the school (c) Goal Seek cell (d) Heading 1 style
-    Ans: (a) Yes/No field.
+M4. A check box on a form suits a: (a) photo of the school (b) Goal Seek cell (c) Yes/No field (d) Heading 1 style
+    Ans: (c) Yes/No field.
 
-M5. The Base object designed mainly for printing information is the: (a) report (b) table (c) form (d) relationship
-    Ans: (a) report. A report lays out data with headings, groups and totals for printing.
+M5. The Base object designed mainly for printing information is the: (a) table (b) report (c) form (d) relationship
+    Ans: (b) report. A report lays out data with headings, groups and totals for printing.
 
-M6. A form is mainly used to: (a) enter, view and edit records conveniently (b) print large lists (c) store the data permanently (d) join two databases
-    Ans: (a) enter, view and edit records conveniently. A form presents the fields of a record in a convenient screen layout, and the data are stored in the tables.
+M6. A form is mainly used to: (a) print large lists (b) store the data permanently (c) join two databases (d) enter, view and edit records conveniently
+    Ans: (d) enter, view and edit records conveniently. A form presents the fields of a record in a convenient screen layout, and the data are stored in the tables.
 
 M7. A report is mainly used to: (a) print or present data in a formatted way  (b) enter new records  (c) store the data  (d) delete old records
     Ans: (a) print or present data in a formatted way. Data entry is done through a form.
 
-M8. The Report Wizard in Base is started from: (a) Reports → Use Wizard to Create Report  (b) Tables → Create Table in Design View  (c) Queries → Design View  (d) Tools → Options
-    Ans: (a) Reports → Use Wizard to Create Report. It steps you through fields, grouping and layout.
+M8. The Report Wizard in Base is started from: (a) Tables → Create Table in Design View  (b) Reports → Use Wizard to Create Report  (c) Queries → Design View  (d) Tools → Options
+    Ans: (b) Reports → Use Wizard to Create Report. It steps you through fields, grouping and layout.

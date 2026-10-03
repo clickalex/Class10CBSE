@@ -189,24 +189,24 @@
         "a": "**(c) `<h6>`.**"
       },
       {
-        "q": "Which of these is an empty tag? (a) `<p>` (b) `<br>` (c) `<h1>` (d) `<title>`",
-        "a": "**(b) `<br>`** — it has no closing partner."
+        "q": "Which of these is an empty tag? (a) `<br>` (b) `<p>` (c) `<h1>` (d) `<title>`",
+        "a": "**(a) `<br>`** — it has no closing partner."
       },
       {
-        "q": "In an HTML document, the visible content of the page is placed inside the: (a) <head> tag (b) <body> tag (c) <title> tag (d) <html> tag only, outside every other tag",
-        "a": "**(b) <body> tag.** `<body>` holds everything the browser displays; `<head>` holds information such as the title."
+        "q": "In an HTML document, the visible content of the page is placed inside the: (a) <body> tag (b) <head> tag (c) <title> tag (d) <html> tag only, outside every other tag",
+        "a": "**(a) <body> tag.** `<body>` holds everything the browser displays; `<head>` holds information such as the title."
       },
       {
-        "q": "The correct way to write a line break in HTML is: (a) </br> (b) <br> (c) <lb> (d) <break>",
-        "a": "**(b) <br>.** `<br>` is an empty tag, so it has no closing form."
+        "q": "The correct way to write a line break in HTML is: (a) </br> (b) <lb> (c) <break> (d) <br>",
+        "a": "**(d) <br>.** `<br>` is an empty tag, so it has no closing form."
       },
       {
-        "q": "The tag that sets the text shown in the browser's title bar is: (a) <title>  (b) <head>  (c) <h1>  (d) <body>",
-        "a": "**(a) <title>.** It is placed inside the <head> section."
+        "q": "The tag that sets the text shown in the browser's title bar is: (a) <head>  (b) <title>  (c) <h1>  (d) <body>",
+        "a": "**(b) <title>.** It is placed inside the <head> section."
       },
       {
-        "q": "The tag used for the most important heading is: (a) <h1>  (b) <h6>  (c) <p>  (d) <b>",
-        "a": "**(a) <h1>.** Headings run from <h1>, the largest, down to <h6>, the smallest."
+        "q": "The tag used for the most important heading is: (a) <h6>  (b) <p>  (c) <b>  (d) <h1>",
+        "a": "**(d) <h1>.** Headings run from <h1>, the largest, down to <h6>, the smallest."
       }
     ],
     "trend": "Writing a complete page by hand appears in every paper. The `<title>`-in-`<head>` point is a perennial one-marker.",
@@ -394,36 +394,36 @@
     ],
     "mcq": [
       {
-        "q": "Which attribute of `<font>` sets the typeface? (a) size (b) color (c) face (d) style",
-        "a": "**(c) face.**"
+        "q": "Which attribute of `<font>` sets the typeface? (a) face (b) size (c) color (d) style",
+        "a": "**(a) face.**"
       },
       {
         "q": "Which tag creates a bulleted list? (a) `<ol>` (b) `<ul>` (c) `<dl>` (d) `<li>`",
         "a": "**(b) `<ul>`.** `<li>` marks the items inside it."
       },
       {
-        "q": "`<ol type='a'>` numbers the items as — (a) 1,2,3 (b) A,B,C (c) a,b,c (d) i,ii,iii",
-        "a": "**(c) a, b, c** — lowercase letters."
+        "q": "`<ol type='a'>` numbers the items as — (a) a,b,c (b) 1,2,3 (c) A,B,C (d) i,ii,iii",
+        "a": "**(a) a, b, c** — lowercase letters."
       },
       {
-        "q": "To write x² in HTML you use — (a) `<sub>` (b) `<sup>` (c) `<u>` (d) `<tt>`",
-        "a": "**(b) `<sup>`** for superscript."
+        "q": "To write x² in HTML you use — (a) `<sub>` (b) `<u>` (c) `<sup>` (d) `<tt>`",
+        "a": "**(c) `<sup>`** for superscript."
       },
       {
-        "q": "The valid values of the `align` attribute are — (a) left, middle, right (b) left, center, right (c) start, center, end (d) top, middle, bottom",
-        "a": "**(b) left, center, right.**"
+        "q": "The valid values of the `align` attribute are — (a) left, middle, right (b) start, center, end (c) top, middle, bottom (d) left, center, right",
+        "a": "**(d) left, center, right.**"
       },
       {
-        "q": "The tag that starts a new line without starting a new paragraph is: (a) <br>  (b) <hr>  (c) <p>  (d) <lb>",
-        "a": "**(a) <br>.** It is an empty tag and has no closing tag."
+        "q": "The tag that starts a new line without starting a new paragraph is: (a) <hr>  (b) <br>  (c) <p>  (d) <lb>",
+        "a": "**(b) <br>.** It is an empty tag and has no closing tag."
       },
       {
-        "q": "The tag that draws a horizontal rule across the page is: (a) <hr>  (b) <br>  (c) <line>  (d) <rule>",
-        "a": "**(a) <hr>.** It is used to separate sections of a page."
+        "q": "The tag that draws a horizontal rule across the page is: (a) <br>  (b) <line>  (c) <hr>  (d) <rule>",
+        "a": "**(c) <hr>.** It is used to separate sections of a page."
       },
       {
-        "q": "`<ul type='square'>` shows bullets as: (a) discs (b) squares (c) circles (d) numbers",
-        "a": "**(b) squares.** The `type` values for `<ul>` are disc (default), circle and square."
+        "q": "`<ul type='square'>` shows bullets as: (a) discs (b) circles (c) numbers (d) squares",
+        "a": "**(d) squares.** The `type` values for `<ul>` are disc (default), circle and square."
       }
     ],
     "trend": "List questions with a specific `type` or `start` value are extremely common, as are output-prediction snippets.",
@@ -596,28 +596,28 @@
     ],
     "mcq": [
       {
-        "q": "Which attribute of `<a>` gives the destination address? (a) src (b) href (c) link (d) target",
-        "a": "**(b) href.**"
+        "q": "Which attribute of `<a>` gives the destination address? (a) src (b) link (c) href (d) target",
+        "a": "**(c) href.**"
       },
       {
-        "q": "Which opens a link in a new tab? (a) `target='_new'` (b) `target='_blank'` (c) `new='true'` (d) `href='_blank'`",
-        "a": "**(b) `target='_blank'`.**"
+        "q": "Which opens a link in a new tab? (a) `target='_new'` (b) `new='true'` (c) `href='_blank'` (d) `target='_blank'`",
+        "a": "**(d) `target='_blank'`.**"
       },
       {
-        "q": "`<img>` is — (a) a paired tag (b) an empty tag (c) a heading tag (d) not a valid tag",
-        "a": "**(b) an empty tag** — it has no closing partner."
+        "q": "`<img>` is — (a) a paired tag (b) a heading tag (c) not a valid tag (d) an empty tag",
+        "a": "**(d) an empty tag** — it has no closing partner."
       },
       {
-        "q": "To link to a file in the parent folder you write — (a) `/index.html` (b) `./index.html` (c) `../index.html` (d) `index.html`",
-        "a": "**(c) `../index.html`.**"
+        "q": "To link to a file in the parent folder you write — (a) `/index.html` (b) `../index.html` (c) `./index.html` (d) `index.html`",
+        "a": "**(b) `../index.html`.**"
       },
       {
-        "q": "`mailto:` is used to — (a) download mail (b) open the email program (c) create a table (d) send an image",
-        "a": "**(b) open the email program** with the address filled in."
+        "q": "`mailto:` is used to — (a) download mail (b) create a table (c) open the email program (d) send an image",
+        "a": "**(c) open the email program** with the address filled in."
       },
       {
-        "q": "The attribute of the <a> tag that holds the destination address is: (a) href  (b) src  (c) link  (d) target",
-        "a": "**(a) href.** The target attribute only decides where the page opens."
+        "q": "The attribute of the <a> tag that holds the destination address is: (a) src  (b) href  (c) link  (d) target",
+        "a": "**(b) href.** The target attribute only decides where the page opens."
       },
       {
         "q": "The attribute of <img> that shows text if the picture cannot be displayed is: (a) alt  (b) src  (c) title  (d) name",
@@ -810,36 +810,36 @@
     ],
     "mcq": [
       {
-        "q": "Which tag defines a table row? (a) `<td>` (b) `<tr>` (c) `<th>` (d) `<table>`",
-        "a": "**(b) `<tr>`.**"
+        "q": "Which tag defines a table row? (a) `<td>` (b) `<th>` (c) `<table>` (d) `<tr>`",
+        "a": "**(d) `<tr>`.**"
       },
       {
-        "q": "To merge a cell across three columns you use — (a) `rowspan='3'` (b) `colspan='3'` (c) `span='3'` (d) `merge='3'`",
-        "a": "**(b) `colspan='3'`.**"
+        "q": "To merge a cell across three columns you use — (a) `colspan='3'` (b) `rowspan='3'` (c) `span='3'` (d) `merge='3'`",
+        "a": "**(a) `colspan='3'`.**"
       },
       {
-        "q": "`cellspacing` controls — (a) space inside a cell (b) space between cells (c) the border thickness (d) the table width",
-        "a": "**(b) the space between cells.**"
+        "q": "`cellspacing` controls — (a) space inside a cell (b) the border thickness (c) space between cells (d) the table width",
+        "a": "**(c) the space between cells.**"
       },
       {
-        "q": "A header cell is written with — (a) `<td>` (b) `<th>` (c) `<head>` (d) `<caption>`",
-        "a": "**(b) `<th>`.**"
+        "q": "A header cell is written with — (a) `<th>` (b) `<td>` (c) `<head>` (d) `<caption>`",
+        "a": "**(a) `<th>`.**"
       },
       {
         "q": "How many `<tr>` tags does a 4-row table need? (a) 1 (b) 2 (c) 4 (d) 8",
         "a": "**(c) 4** — one per row."
       },
       {
-        "q": "The attribute that adds a visible border around a table is: (a) border  (b) cellspacing  (c) cellpadding  (d) width",
-        "a": "**(a) border.** cellspacing sets the gap between cells and cellpadding the gap inside them."
+        "q": "The attribute that adds a visible border around a table is: (a) cellspacing  (b) border  (c) cellpadding  (d) width",
+        "a": "**(b) border.** cellspacing sets the gap between cells and cellpadding the gap inside them."
       },
       {
-        "q": "The tag used for a cell that holds a column heading is: (a) <th>  (b) <td>  (c) <tr>  (d) <caption>",
-        "a": "**(a) <th>.** Its text is bold and centred by default."
+        "q": "The tag used for a cell that holds a column heading is: (a) <td>  (b) <th>  (c) <tr>  (d) <caption>",
+        "a": "**(b) <th>.** Its text is bold and centred by default."
       },
       {
-        "q": "`cellpadding` controls: (a) space inside each cell (b) space between cells (c) the border thickness (d) the table width",
-        "a": "**(a) space inside each cell.** Padding is inside, spacing is between — cellspacing does the other job."
+        "q": "`cellpadding` controls: (a) space between cells (b) the border thickness (c) the table width (d) space inside each cell",
+        "a": "**(d) space inside each cell.** Padding is inside, spacing is between — cellspacing does the other job."
       }
     ],
     "trend": "A table-writing question with at least one merged cell appears in most papers. It is the highest-value single question in Unit II.",
@@ -1028,36 +1028,36 @@
     ],
     "mcq": [
       {
-        "q": "Which input type hides the characters typed? (a) text (b) hidden (c) password (d) secure",
-        "a": "**(c) password.**"
+        "q": "Which input type hides the characters typed? (a) password (b) text (c) hidden (d) secure",
+        "a": "**(a) password.**"
       },
       {
-        "q": "Radio buttons in one group must share the same — (a) value (b) name (c) id (d) size",
-        "a": "**(b) name.**"
+        "q": "Radio buttons in one group must share the same — (a) value (b) id (c) size (d) name",
+        "a": "**(d) name.**"
       },
       {
-        "q": "Which method sends data in the request body? (a) GET (b) POST (c) SEND (d) PUT",
-        "a": "**(b) POST.**"
+        "q": "Which method sends data in the request body? (a) GET (b) SEND (c) PUT (d) POST",
+        "a": "**(d) POST.**"
       },
       {
         "q": "Which of these is a paired tag? (a) `<input>` (b) `<textarea>` (c) `<img>` (d) `<br>`",
         "a": "**(b) `<textarea>`.**"
       },
       {
-        "q": "To pre-select a radio button you use the attribute — (a) selected (b) checked (c) default (d) value",
-        "a": "**(b) checked.** `selected` is used on `<option>`."
+        "q": "To pre-select a radio button you use the attribute — (a) checked (b) selected (c) default (d) value",
+        "a": "**(a) checked.** `selected` is used on `<option>`."
       },
       {
-        "q": "The input type that hides the characters as they are typed is: (a) password  (b) text  (c) hidden  (d) email",
-        "a": "**(a) password.** It masks the characters but does not encrypt them, so the form should still use POST."
+        "q": "The input type that hides the characters as they are typed is: (a) text  (b) password  (c) hidden  (d) email",
+        "a": "**(b) password.** It masks the characters but does not encrypt them, so the form should still use POST."
       },
       {
-        "q": "The tag that creates a box for several lines of text is: (a) <textarea>  (b) <input type=\"text\">  (c) <select>  (d) <option>",
-        "a": "**(a) <textarea>.** rows and columns are set with the rows and cols attributes."
+        "q": "The tag that creates a box for several lines of text is: (a) <input type=\"text\">  (b) <select>  (c) <textarea>  (d) <option>",
+        "a": "**(c) <textarea>.** rows and columns are set with the rows and cols attributes."
       },
       {
-        "q": "In `<select>`, the option shown by default is marked with: (a) selected (b) checked (c) default (d) value",
-        "a": "**(a) selected.** `checked` is the equivalent for radio buttons and checkboxes."
+        "q": "In `<select>`, the option shown by default is marked with: (a) checked (b) default (c) selected (d) value",
+        "a": "**(c) selected.** `checked` is the equivalent for radio buttons and checkboxes."
       }
     ],
     "trend": "A complete form-writing question appears in most papers, usually with radio buttons so the shared-name rule can be tested.",
@@ -1212,36 +1212,36 @@
     ],
     "mcq": [
       {
-        "q": "To make paragraph text red you write — (a) `p { font-color: red; }` (b) `p { color: red; }` (c) `p { text: red; }` (d) `p { ink: red; }`",
-        "a": "**(b) `p { color: red; }`.** The property is `color`; `font-color` does not exist."
+        "q": "To make paragraph text red you write — (a) `p { font-color: red; }` (b) `p { text: red; }` (c) `p { color: red; }` (d) `p { ink: red; }`",
+        "a": "**(c) `p { color: red; }`.** The property is `color`; `font-color` does not exist."
       },
       {
         "q": "Which of these is a valid `border-style` value? (a) striped (b) dashed (c) glowing (d) thick",
         "a": "**(b) dashed.** Valid values include `solid`, `dashed`, `dotted`, `double` and `none`."
       },
       {
-        "q": "The space OUTSIDE an element’s border is controlled by — (a) padding (b) margin (c) outline (d) float",
-        "a": "**(b) margin.** Margin pushes neighbouring elements away from the box."
+        "q": "The space OUTSIDE an element’s border is controlled by — (a) padding (b) outline (c) float (d) margin",
+        "a": "**(d) margin.** Margin pushes neighbouring elements away from the box."
       },
       {
-        "q": "To set a picture 200 px wide with text wrapping on its right, use — (a) `img { align: left; }` (b) `img { float: left; width: 200px; }` (c) `img { margin: left; }` (d) `img { size: 200px; }`",
-        "a": "**(b) `img { float: left; width: 200px; }`.** Float pulls the picture aside so text wraps around it."
+        "q": "To set a picture 200 px wide with text wrapping on its right, use — (a) `img { align: left; }` (b) `img { margin: left; }` (c) `img { float: left; width: 200px; }` (d) `img { size: 200px; }`",
+        "a": "**(c) `img { float: left; width: 200px; }`.** Float pulls the picture aside so text wraps around it."
       },
       {
-        "q": "Which rule makes all `<h2>` headings italic? (a) `h2 { font: italic; }` (b) `h2 { style: italic; }` (c) `h2 { font-style: italic; }` (d) `h2 { text: italic; }`",
-        "a": "**(c) `h2 { font-style: italic; }`.** Font has three properties: family, size and style."
+        "q": "Which rule makes all `<h2>` headings italic? (a) `h2 { font: italic; }` (b) `h2 { font-style: italic; }` (c) `h2 { style: italic; }` (d) `h2 { text: italic; }`",
+        "a": "**(b) `h2 { font-style: italic; }`.** Font has three properties: family, size and style."
       },
       {
-        "q": "The attribute that makes the browser show play, pause and volume buttons is: (a) controls  (b) autoplay  (c) loop  (d) src",
-        "a": "**(a) controls.** Without it the video or audio cannot be started by the visitor."
+        "q": "The attribute that makes the browser show play, pause and volume buttons is: (a) autoplay  (b) loop  (c) src  (d) controls",
+        "a": "**(d) controls.** Without it the video or audio cannot be started by the visitor."
       },
       {
-        "q": "Which tag embeds a film in a page? (a) `<movie>` (b) `<media>` (c) `<video>` (d) `<film>`",
-        "a": "**(c) `<video>`.** Example: `<video src=\"lesson.mp4\" controls></video>`."
+        "q": "Which tag embeds a film in a page? (a) `<video>` (b) `<movie>` (c) `<media>` (d) `<film>`",
+        "a": "**(a) `<video>`.** Example: `<video src=\"lesson.mp4\" controls></video>`."
       },
       {
-        "q": "`outline` differs from `border` because it — (a) sits inside the text (b) is drawn outside the border (c) only works on images (d) needs no style value",
-        "a": "**(b) is drawn outside the border.** It is often used to highlight the active field."
+        "q": "`outline` differs from `border` because it — (a) is drawn outside the border (b) sits inside the text (c) only works on images (d) needs no style value",
+        "a": "**(a) is drawn outside the border.** It is often used to highlight the active field."
       }
     ],
     "trend": "One short CSS question (name the property / write one rule) plus audio-video tags — the closing marks of Unit II.",

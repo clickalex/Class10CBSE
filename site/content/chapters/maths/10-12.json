@@ -186,28 +186,28 @@
         "a": "**(c) 90°.**"
       },
       {
-        "q": "Two tangents from an external point to a circle are: (a) unequal  (b) equal  (c) always perpendicular  (d) parallel",
-        "a": "**(b) Equal.**"
+        "q": "Two tangents from an external point to a circle are: (a) unequal  (b) always perpendicular  (c) parallel  (d) equal",
+        "a": "**(d) Equal.**"
       },
       {
-        "q": "A tangent to a circle meets the circle in: (a) no point  (b) exactly one point  (c) exactly two points  (d) infinitely many points",
-        "a": "**(b) exactly one point.** By definition, a tangent touches the circle at exactly one point, the point of contact."
+        "q": "A tangent to a circle meets the circle in: (a) exactly one point  (b) no point  (c) exactly two points  (d) infinitely many points",
+        "a": "**(a) exactly one point.** By definition, a tangent touches the circle at exactly one point, the point of contact."
       },
       {
-        "q": "If the angle between two tangents drawn from an external point P to a circle of radius a and centre O is 60°, then OP = (a) 2a  (b) a√3  (c) a√2  (d) a/2",
-        "a": "**(a) 2a.** ∠APB = 60° gives ∠APO = 30° and, in right triangle OAP, OA = OP sin 30°, so OP = a/(1/2) = 2a."
+        "q": "If the angle between two tangents drawn from an external point P to a circle of radius a and centre O is 60°, then OP = (a) a√3  (b) a√2  (c) a/2  (d) 2a",
+        "a": "**(d) 2a.** ∠APB = 60° gives ∠APO = 30° and, in right triangle OAP, OA = OP sin 30°, so OP = a/(1/2) = 2a."
       },
       {
         "q": "The number of tangents that can be drawn from a point outside a circle is: (a) 1  (b) 2  (c) 3  (d) infinite",
         "a": "**(b) 2.** Exactly two, and they are equal in length."
       },
       {
-        "q": "A line that cuts a circle in two distinct points is called a: (a) tangent  (b) secant  (c) chord  (d) diameter",
-        "a": "**(b) secant.** A tangent meets the circle at one point; a chord is the segment joining the two points."
+        "q": "A line that cuts a circle in two distinct points is called a: (a) secant  (b) tangent  (c) chord  (d) diameter",
+        "a": "**(a) secant.** A tangent meets the circle at one point; a chord is the segment joining the two points."
       },
       {
-        "q": "A tangent of length 24 cm is drawn from a point 25 cm from the centre. The radius is: (a) 5 cm  (b) 7 cm  (c) 12 cm  (d) 24 cm",
-        "a": "**(b) 7 cm.** r² + 24² = 25², so r = √49 = 7 cm."
+        "q": "A tangent of length 24 cm is drawn from a point 25 cm from the centre. The radius is: (a) 24 cm  (b) 12 cm  (c) 7 cm  (d) 5 cm",
+        "a": "**(c) 7 cm.** r² + 24² = 25², so r = √49 = 7 cm."
       }
     ],
     "trend": "One tangent-length proof or numerical (3 marks) and objective questions on the number of tangents.",
@@ -403,8 +403,8 @@
     ],
     "mcq": [
       {
-        "q": "The area of a quadrant of a circle of radius r is: (a) πr²/2  (b) πr²/4  (c) 2πr  (d) πr²",
-        "a": "**(b) πr²/4.**"
+        "q": "The area of a quadrant of a circle of radius r is: (a) πr²/2  (b) 2πr  (c) πr²  (d) πr²/4",
+        "a": "**(d) πr²/4.**"
       },
       {
         "q": "The perimeter of a sector includes: (a) only the arc  (b) the arc and one radius  (c) the arc and two radii  (d) the chord and the arc",
@@ -415,24 +415,24 @@
         "a": "**(a) Sector − triangle.**"
       },
       {
-        "q": "The length of the arc of a sector of angle θ in a circle of radius r is: (a) (θ/360°) × πr²  (b) (θ/180°) × πr²  (c) (θ/360°) × 2πr  (d) (θ/360°) × 2r",
-        "a": "**(c) (θ/360°) × 2πr.** The arc is the fraction θ/360° of the whole circumference 2πr."
+        "q": "The length of the arc of a sector of angle θ in a circle of radius r is: (a) (θ/360°) × πr²  (b) (θ/180°) × πr²  (c) (θ/360°) × 2r  (d) (θ/360°) × 2πr",
+        "a": "**(d) (θ/360°) × 2πr.** The arc is the fraction θ/360° of the whole circumference 2πr."
       },
       {
-        "q": "The area of a sector of a circle of radius 7 cm with central angle 90° is (π = 22/7): (a) 77 cm²  (b) 154 cm²  (c) 19.25 cm²  (d) 38.5 cm²",
-        "a": "**(d) 38.5 cm².** Area = (90/360) × (22/7) × 7² = ¼ × 154 = 38.5 cm²."
+        "q": "The area of a sector of a circle of radius 7 cm with central angle 90° is (π = 22/7): (a) 77 cm²  (b) 38.5 cm²  (c) 154 cm²  (d) 19.25 cm²",
+        "a": "**(b) 38.5 cm².** Area = (90/360) × (22/7) × 7² = ¼ × 154 = 38.5 cm²."
       },
       {
-        "q": "The area of a circle whose circumference is 44 cm is: (a) 77 cm²  (b) 154 cm²  (c) 308 cm²  (d) 616 cm²",
-        "a": "**(b) 154 cm².** 2πr = 44 gives r = 7 cm, so the area is πr² = 154 cm²."
+        "q": "The area of a circle whose circumference is 44 cm is: (a) 616 cm²  (b) 308 cm²  (c) 154 cm²  (d) 77 cm²",
+        "a": "**(c) 154 cm².** 2πr = 44 gives r = 7 cm, so the area is πr² = 154 cm²."
       },
       {
         "q": "If the radius of a circle is doubled, its area becomes: (a) 2 times  (b) 4 times  (c) 8 times  (d) unchanged",
         "a": "**(b) 4 times.** Area ∝ r², so doubling r multiplies the area by 2² = 4."
       },
       {
-        "q": "The area of a semicircle of radius r is: (a) πr²  (b) πr²/2  (c) 2πr  (d) πr²/4",
-        "a": "**(b) πr²/2.** A semicircle is half of a full circle."
+        "q": "The area of a semicircle of radius r is: (a) πr²/2  (b) πr²  (c) 2πr  (d) πr²/4",
+        "a": "**(a) πr²/2.** A semicircle is half of a full circle."
       }
     ],
     "trend": "One sector perimeter/area question and one combined-figure question. Quadrant corners cut from a square is the classic combined figure.",
@@ -671,8 +671,8 @@
         "a": "**(b) Volume.** Surface area almost always changes."
       },
       {
-        "q": "The slant height of a frustum with radii R and r and height h is: (a) √[h² + (R + r)²]  (b) √[h² + (R − r)²]  (c) h + R + r  (d) √(R² − r²)",
-        "a": "**(b) √[h² + (R − r)²].**"
+        "q": "The slant height of a frustum with radii R and r and height h is: (a) √[h² + (R − r)²]  (b) √[h² + (R + r)²]  (c) h + R + r  (d) √(R² − r²)",
+        "a": "**(a) √[h² + (R − r)²].**"
       },
       {
         "q": "The total surface area of a solid hemisphere of radius r is: (a) 2πr²  (b) 4πr²  (c) 3πr²  (d) πr²",
@@ -683,16 +683,16 @@
         "a": "**(d) 8 times.** V = (4/3)πr³, so doubling r multiplies the volume by 2³ = 8."
       },
       {
-        "q": "The curved surface area of a cylinder of radius r and height h is: (a) 2πrh  (b) πr²h  (c) 2πr(r + h)  (d) πrl",
-        "a": "**(a) 2πrh.** 2πr(r + h) is the total surface area and πr²h is the volume."
+        "q": "The curved surface area of a cylinder of radius r and height h is: (a) πr²h  (b) 2πr(r + h)  (c) 2πrh  (d) πrl",
+        "a": "**(c) 2πrh.** 2πr(r + h) is the total surface area and πr²h is the volume."
       },
       {
         "q": "The volume of a sphere of radius r is: (a) (4/3)πr³  (b) 4πr²  (c) (2/3)πr³  (d) πr³",
         "a": "**(a) (4/3)πr³.** 4πr² is the surface area of the sphere."
       },
       {
-        "q": "A cone, a hemisphere and a cylinder have equal bases and equal heights. The ratio of their volumes is: (a) 1 : 2 : 3  (b) 2 : 3 : 1  (c) 3 : 1 : 2  (d) 1 : 3 : 2",
-        "a": "**(a) 1 : 2 : 3.** With radius = height = r: πr³/3 : 2πr³/3 : πr³."
+        "q": "A cone, a hemisphere and a cylinder have equal bases and equal heights. The ratio of their volumes is: (a) 2 : 3 : 1  (b) 3 : 1 : 2  (c) 1 : 3 : 2  (d) 1 : 2 : 3",
+        "a": "**(d) 1 : 2 : 3.** With radius = height = r: πr³/3 : 2πr³/3 : πr³."
       }
     ],
     "trend": "One combination-of-solids surface area question and one conversion or frustum question appear most years. The frustum has been asked repeatedly since it was retained in the syllabus.",

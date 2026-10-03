@@ -89,26 +89,26 @@ B. MCQs (8)
 M1. ARPANET was developed in — (a) 1959 (b) 1969 (c) 1989 (d) 1995
     Ans: (b) 1969, by the US Department of Defense's research agency.
 
-M2. Who invented the World Wide Web? (a) Vint Cerf (b) Tim Berners-Lee (c) Bill Gates (d) Charles Babbage
-    Ans: (b) Tim Berners-Lee, in 1989.
+M2. Who invented the World Wide Web? (a) Tim Berners-Lee (b) Vint Cerf (c) Bill Gates (d) Charles Babbage
+    Ans: (a) Tim Berners-Lee, in 1989.
 
 M3. How many bits are in an IPv6 address? (a) 32 (b) 64 (c) 128 (d) 256
     Ans: (c) 128 bits. IPv4 uses 32.
 
-M4. DNS stands for — (a) Dynamic Name Service (b) Domain Name System (c) Data Network Server (d) Digital Naming Standard
-    Ans: (b) Domain Name System.
+M4. DNS stands for — (a) Dynamic Name Service (b) Data Network Server (c) Digital Naming Standard (d) Domain Name System
+    Ans: (d) Domain Name System.
 
-M5. An IPv4 address is made up of: (a) 64 bits, written as eight hexadecimal numbers (b) 128 bits, written as eight hexadecimal groups (c) 32 bits, written as four numbers from 0 to 255 (d) 16 bits, written as two numbers
-    Ans: (c) 32 bits, written as four numbers from 0 to 255. IPv4 uses 32 bits, shown as four decimal numbers separated by dots, for example 192.168.1.1; IPv6 uses 128 bits.
+M5. An IPv4 address is made up of: (a) 64 bits, written as eight hexadecimal numbers (b) 32 bits, written as four numbers from 0 to 255 (c) 128 bits, written as eight hexadecimal groups (d) 16 bits, written as two numbers
+    Ans: (b) 32 bits, written as four numbers from 0 to 255. IPv4 uses 32 bits, shown as four decimal numbers separated by dots, for example 192.168.1.1; IPv6 uses 128 bits.
 
-M6. The amount of data that a connection can carry per second is called its: (a) latency (b) bandwidth (c) protocol (d) domain
-    Ans: (b) bandwidth. Bandwidth measures capacity; latency measures delay.
+M6. The amount of data that a connection can carry per second is called its: (a) bandwidth (b) latency (c) protocol (d) domain
+    Ans: (a) bandwidth. Bandwidth measures capacity; latency measures delay.
 
-M7. The World Wide Web was invented by: (a) Tim Berners-Lee  (b) Bill Gates  (c) Vint Cerf  (d) Steve Jobs
-    Ans: (a) Tim Berners-Lee. He proposed it in 1989 while working at CERN.
+M7. The World Wide Web was invented by: (a) Bill Gates  (b) Vint Cerf  (c) Tim Berners-Lee  (d) Steve Jobs
+    Ans: (c) Tim Berners-Lee. He proposed it in 1989 while working at CERN.
 
-M8. URL stands for: (a) Uniform Resource Locator  (b) Universal Resource Link  (c) United Resource Locator  (d) Uniform Resource Link
-    Ans: (a) Uniform Resource Locator. It is the address of a page on the web.
+M8. URL stands for: (a) Universal Resource Link  (b) United Resource Locator  (c) Uniform Resource Link  (d) Uniform Resource Locator
+    Ans: (d) Uniform Resource Locator. It is the address of a page on the web.
 
 ========================================================================
 CHAPTER 2 · Internet Services & Protocols
@@ -190,20 +190,20 @@ Q12. [Long · 5 marks] Describe any four internet services, naming the protocol 
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which protocol is used to send email? (a) POP3 (b) IMAP (c) SMTP (d) FTP
-    Ans: (c) SMTP — Simple Mail Transfer Protocol.
+M1. Which protocol is used to send email? (a) SMTP (b) POP3 (c) IMAP (d) FTP
+    Ans: (a) SMTP — Simple Mail Transfer Protocol.
 
 M2. The default port for HTTPS is — (a) 21 (b) 23 (c) 80 (d) 443
     Ans: (d) 443. Port 80 is plain HTTP.
 
-M3. Which protocol keeps mail on the server? (a) POP3 (b) IMAP (c) SMTP (d) Telnet
-    Ans: (b) IMAP — it synchronises instead of downloading.
+M3. Which protocol keeps mail on the server? (a) POP3 (b) SMTP (c) IMAP (d) Telnet
+    Ans: (c) IMAP — it synchronises instead of downloading.
 
 M4. In https://example.com/page.html, example.com is the — (a) protocol (b) domain (c) path (d) port
     Ans: (b) domain.
 
-M5. Which protocol carries web pages from a web server to a browser? (a) SMTP (b) HTTP (c) FTP (d) POP3
-    Ans: (b) HTTP. HTTP (HyperText Transfer Protocol), or HTTPS for the encrypted version, transfers web pages.
+M5. Which protocol carries web pages from a web server to a browser? (a) SMTP (b) FTP (c) POP3 (d) HTTP
+    Ans: (d) HTTP. HTTP (HyperText Transfer Protocol), or HTTPS for the encrypted version, transfers web pages.
 
 M6. Which of the following is a real-time internet service? (a) downloading a file by FTP (b) reading a saved e-mail (c) instant messaging (chat) (d) uploading a web page to a server
     Ans: (c) instant messaging (chat). Chat is delivered as it is typed; the other activities do not need an immediate two-way exchange.
@@ -211,8 +211,8 @@ M6. Which of the following is a real-time internet service? (a) downloading a fi
 M7. The protocol used to send an email is: (a) SMTP  (b) POP3  (c) IMAP  (d) FTP
     Ans: (a) SMTP. POP3 and IMAP are used to receive mail and FTP to transfer files.
 
-M8. HTTPS is safer than HTTP because it: (a) encrypts the data sent between the browser and the site  (b) is faster  (c) is free  (d) needs no server
-    Ans: (a) encrypts the data. The S stands for secure, which is why a padlock appears in the address bar.
+M8. HTTPS is safer than HTTP because it: (a) is faster  (b) encrypts the data sent between the browser and the site  (c) is free  (d) needs no server
+    Ans: (b) encrypts the data. The S stands for secure, which is why a padlock appears in the address bar.
 
 ========================================================================
 CHAPTER 3 · Network Types, Topologies & Devices
@@ -294,29 +294,29 @@ Q12. [Long · 5 marks] Differentiate between PAN, LAN, MAN and WAN, giving the a
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which network covers a whole city? (a) LAN (b) MAN (c) WAN (d) PAN
-    Ans: (b) MAN — Metropolitan Area Network.
+M1. Which network covers a whole city? (a) MAN (b) LAN (c) WAN (d) PAN
+    Ans: (a) MAN — Metropolitan Area Network.
 
-M2. Which topology has a single point of failure at its centre? (a) Mesh (b) Bus (c) Star (d) Ring
-    Ans: (c) Star — the hub or switch is the single point of failure.
+M2. Which topology has a single point of failure at its centre? (a) Star (b) Mesh (c) Bus (d) Ring
+    Ans: (a) Star — the hub or switch is the single point of failure.
 
-M3. A device that joins two different networks and picks the best path is a — (a) hub (b) switch (c) repeater (d) router
-    Ans: (d) router.
+M3. A device that joins two different networks and picks the best path is a — (a) hub (b) switch (c) router (d) repeater
+    Ans: (c) router.
 
-M4. Which medium is immune to electrical interference? (a) twisted pair (b) coaxial (c) optical fibre (d) infrared
-    Ans: (c) optical fibre — it carries light, not electricity.
+M4. Which medium is immune to electrical interference? (a) twisted pair (b) optical fibre (c) coaxial (d) infrared
+    Ans: (b) optical fibre — it carries light, not electricity.
 
-M5. A network that is confined to a single building or campus is called a: (a) LAN (b) MAN (c) WAN (d) PAN
-    Ans: (a) LAN. LAN stands for Local Area Network; MAN covers a city and WAN covers countries.
+M5. A network that is confined to a single building or campus is called a: (a) MAN (b) LAN (c) WAN (d) PAN
+    Ans: (b) LAN. LAN stands for Local Area Network; MAN covers a city and WAN covers countries.
 
-M6. The device that converts digital signals to analogue signals and back for transmission over a telephone line is a: (a) switch (b) modem (c) hub (d) repeater
-    Ans: (b) modem. “Modem” comes from modulator–demodulator, which describes its two conversions.
+M6. The device that converts digital signals to analogue signals and back for transmission over a telephone line is a: (a) switch (b) hub (c) modem (d) repeater
+    Ans: (c) modem. “Modem” comes from modulator–demodulator, which describes its two conversions.
 
-M7. The device that connects two different networks and chooses the best path is a: (a) router  (b) switch  (c) hub  (d) repeater
-    Ans: (a) router. A switch connects computers within one network; a repeater only strengthens the signal.
+M7. The device that connects two different networks and chooses the best path is a: (a) switch  (b) hub  (c) repeater  (d) router
+    Ans: (d) router. A switch connects computers within one network; a repeater only strengthens the signal.
 
-M8. The topology in which every computer is connected to every other computer is the: (a) mesh topology  (b) star topology  (c) bus topology  (d) ring topology
-    Ans: (a) mesh topology. It is the most reliable and the most expensive to cable.
+M8. The topology in which every computer is connected to every other computer is the: (a) star topology  (b) bus topology  (c) ring topology  (d) mesh topology
+    Ans: (d) mesh topology. It is the most reliable and the most expensive to cable.
 
 ========================================================================
 CHAPTER 4 · Mobile & Wireless Technology
@@ -402,11 +402,11 @@ Q12. [Long · 5 marks] Trace the evolution of mobile technology from 1G to 5G, s
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which generation first made video calling practical? (a) 2G (b) 3G (c) 4G (d) 1G
-    Ans: (b) 3G, with speeds up to about 2 Mbps.
+M1. Which generation first made video calling practical? (a) 2G (b) 4G (c) 1G (d) 3G
+    Ans: (d) 3G, with speeds up to about 2 Mbps.
 
-M2. NFC works over a range of — (a) metres (b) kilometres (c) centimetres (d) it has no limit
-    Ans: (c) centimetres — which is why you tap.
+M2. NFC works over a range of — (a) centimetres (b) metres (c) kilometres (d) it has no limit
+    Ans: (a) centimetres — which is why you tap.
 
 M3. Which standard family defines Wi-Fi? (a) IEEE 802.3 (b) IEEE 802.11 (c) IEEE 802.15 (d) IEEE 802.16
     Ans: (b) IEEE 802.11. 802.3 is wired Ethernet.
@@ -414,17 +414,17 @@ M3. Which standard family defines Wi-Fi? (a) IEEE 802.3 (b) IEEE 802.11 (c) IEEE
 M4. 4G networks are described as — (a) analog (b) circuit-switched (c) all-IP (d) infrared-based
     Ans: (c) all-IP.
 
-M5. Which generation of mobile technology first introduced digital voice and SMS? (a) 2G (b) 1G (c) 3G (d) 4G
-    Ans: (a) 2G. 1G was analogue; 2G made voice digital and added text messaging.
+M5. Which generation of mobile technology first introduced digital voice and SMS? (a) 1G (b) 3G (c) 4G (d) 2G
+    Ans: (d) 2G. 1G was analogue; 2G made voice digital and added text messaging.
 
-M6. The technology used when a phone is tapped on a terminal to make a contactless payment is: (a) infrared (b) GPS (c) NFC (d) satellite link
-    Ans: (c) NFC. Near Field Communication works over a few centimetres, which is why it is used for payments.
+M6. The technology used when a phone is tapped on a terminal to make a contactless payment is: (a) NFC (b) infrared (c) GPS (d) satellite link
+    Ans: (a) NFC. Near Field Communication works over a few centimetres, which is why it is used for payments.
 
-M7. The generation of mobile technology that first made mobile internet practical was: (a) 3G  (b) 1G  (c) 2G  (d) 5G
-    Ans: (a) 3G. 1G was analogue voice, 2G added digital voice and SMS, and 5G is the current high-speed standard.
+M7. The generation of mobile technology that first made mobile internet practical was: (a) 1G  (b) 3G  (c) 2G  (d) 5G
+    Ans: (b) 3G. 1G was analogue voice, 2G added digital voice and SMS, and 5G is the current high-speed standard.
 
-M8. NFC works only when the two devices are: (a) a few centimetres apart  (b) in the same building  (c) on the same Wi-Fi network  (d) several metres apart
-    Ans: (a) a few centimetres apart. The short range is what makes contactless payment safe.
+M8. NFC works only when the two devices are: (a) in the same building  (b) on the same Wi-Fi network  (c) a few centimetres apart  (d) several metres apart
+    Ans: (c) a few centimetres apart. The short range is what makes contactless payment safe.
 
 ========================================================================
 CHAPTER 5 · Web Browsers, Search & Web Concepts
@@ -512,23 +512,23 @@ M1. Google is an example of a — (a) browser (b) search engine (c) protocol (d)
 M2. Which stores a local copy of a page to speed up loading? (a) cookie (b) bookmark (c) cache (d) portal
     Ans: (c) cache.
 
-M3. The entry page of a website is called the — (a) portal (b) home page (c) cache (d) feed
-    Ans: (b) home page, usually index.html.
+M3. The entry page of a website is called the — (a) portal (b) cache (c) home page (d) feed
+    Ans: (c) home page, usually index.html.
 
-M4. The program that automatically visits and indexes web pages is called a — (a) router (b) crawler (c) modem (d) gateway
-    Ans: (b) crawler or spider.
+M4. The program that automatically visits and indexes web pages is called a — (a) router (b) modem (c) gateway (d) crawler
+    Ans: (d) crawler or spider.
 
 M5. A bookmark in a web browser is used to: (a) save the address of a page for quick access later (b) download the whole website (c) block pop-up windows (d) speed up the internet connection
     Ans: (a) save the address of a page for quick access later. Bookmarks store web addresses so that you can reopen a page with one click.
 
-M6. Cookies are small files that: (a) a browser deletes after every page (b) speed up the router (c) a website stores on your device to remember you (d) protect the computer from viruses
-    Ans: (c) a website stores on your device to remember you. Cookies let sites recognise returning visitors and keep information such as a login or a shopping cart.
+M6. Cookies are small files that: (a) a website stores on your device to remember you (b) a browser deletes after every page (c) speed up the router (d) protect the computer from viruses
+    Ans: (a) a website stores on your device to remember you. Cookies let sites recognise returning visitors and keep information such as a login or a shopping cart.
 
-M7. The address bar of a browser shows the: (a) URL of the page you are on  (b) IP address of your own computer  (c) size of the page  (d) number of visitors to the site
-    Ans: (a) URL of the page you are on. You can also type an address there to go to a site.
+M7. The address bar of a browser shows the: (a) IP address of your own computer  (b) URL of the page you are on  (c) size of the page  (d) number of visitors to the site
+    Ans: (b) URL of the page you are on. You can also type an address there to go to a site.
 
-M8. A padlock symbol in the address bar means the page: (a) is served over an encrypted HTTPS connection  (b) is free  (c) is saved offline  (d) belongs to the government
-    Ans: (a) is served over an encrypted HTTPS connection. It does not prove that the site itself is honest.
+M8. A padlock symbol in the address bar means the page: (a) is free  (b) is saved offline  (c) belongs to the government  (d) is served over an encrypted HTTPS connection
+    Ans: (d) is served over an encrypted HTTPS connection. It does not prove that the site itself is honest.
 
 ========================================================================
 CHAPTER 6 · HTML I — Introduction & Basic Tags
@@ -653,20 +653,20 @@ M2. Which tag goes inside <head>? (a) <body> (b) <h1> (c) <title> (d) <p>
 M3. The smallest heading tag is — (a) <h1> (b) <h3> (c) <h6> (d) <head>
     Ans: (c) <h6>.
 
-M4. Which of these is an empty tag? (a) <p> (b) <br> (c) <h1> (d) <title>
-    Ans: (b) <br> — it has no closing partner.
+M4. Which of these is an empty tag? (a) <br> (b) <p> (c) <h1> (d) <title>
+    Ans: (a) <br> — it has no closing partner.
 
-M5. In an HTML document, the visible content of the page is placed inside the: (a) <head> tag (b) <body> tag (c) <title> tag (d) <html> tag only, outside every other tag
-    Ans: (b) <body> tag. <body> holds everything the browser displays; <head> holds information such as the title.
+M5. In an HTML document, the visible content of the page is placed inside the: (a) <body> tag (b) <head> tag (c) <title> tag (d) <html> tag only, outside every other tag
+    Ans: (a) <body> tag. <body> holds everything the browser displays; <head> holds information such as the title.
 
-M6. The correct way to write a line break in HTML is: (a) </br> (b) <br> (c) <lb> (d) <break>
-    Ans: (b) <br>. <br> is an empty tag, so it has no closing form.
+M6. The correct way to write a line break in HTML is: (a) </br> (b) <lb> (c) <break> (d) <br>
+    Ans: (d) <br>. <br> is an empty tag, so it has no closing form.
 
-M7. The tag that sets the text shown in the browser's title bar is: (a) <title>  (b) <head>  (c) <h1>  (d) <body>
-    Ans: (a) <title>. It is placed inside the <head> section.
+M7. The tag that sets the text shown in the browser's title bar is: (a) <head>  (b) <title>  (c) <h1>  (d) <body>
+    Ans: (b) <title>. It is placed inside the <head> section.
 
-M8. The tag used for the most important heading is: (a) <h1>  (b) <h6>  (c) <p>  (d) <b>
-    Ans: (a) <h1>. Headings run from <h1>, the largest, down to <h6>, the smallest.
+M8. The tag used for the most important heading is: (a) <h6>  (b) <p>  (c) <b>  (d) <h1>
+    Ans: (d) <h1>. Headings run from <h1>, the largest, down to <h6>, the smallest.
 
 ========================================================================
 CHAPTER 7 · HTML II — Text Formatting & Lists
@@ -778,29 +778,29 @@ Q12. [Long · 5 marks] Write the HTML to display a centred heading “Shopping�
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which attribute of <font> sets the typeface? (a) size (b) color (c) face (d) style
-    Ans: (c) face.
+M1. Which attribute of <font> sets the typeface? (a) face (b) size (c) color (d) style
+    Ans: (a) face.
 
 M2. Which tag creates a bulleted list? (a) <ol> (b) <ul> (c) <dl> (d) <li>
     Ans: (b) <ul>. <li> marks the items inside it.
 
-M3. <ol type='a'> numbers the items as — (a) 1,2,3 (b) A,B,C (c) a,b,c (d) i,ii,iii
-    Ans: (c) a, b, c — lowercase letters.
+M3. <ol type='a'> numbers the items as — (a) a,b,c (b) 1,2,3 (c) A,B,C (d) i,ii,iii
+    Ans: (a) a, b, c — lowercase letters.
 
-M4. To write x² in HTML you use — (a) <sub> (b) <sup> (c) <u> (d) <tt>
-    Ans: (b) <sup> for superscript.
+M4. To write x² in HTML you use — (a) <sub> (b) <u> (c) <sup> (d) <tt>
+    Ans: (c) <sup> for superscript.
 
-M5. The valid values of the align attribute are — (a) left, middle, right (b) left, center, right (c) start, center, end (d) top, middle, bottom
-    Ans: (b) left, center, right.
+M5. The valid values of the align attribute are — (a) left, middle, right (b) start, center, end (c) top, middle, bottom (d) left, center, right
+    Ans: (d) left, center, right.
 
-M6. The tag that starts a new line without starting a new paragraph is: (a) <br>  (b) <hr>  (c) <p>  (d) <lb>
-    Ans: (a) <br>. It is an empty tag and has no closing tag.
+M6. The tag that starts a new line without starting a new paragraph is: (a) <hr>  (b) <br>  (c) <p>  (d) <lb>
+    Ans: (b) <br>. It is an empty tag and has no closing tag.
 
-M7. The tag that draws a horizontal rule across the page is: (a) <hr>  (b) <br>  (c) <line>  (d) <rule>
-    Ans: (a) <hr>. It is used to separate sections of a page.
+M7. The tag that draws a horizontal rule across the page is: (a) <br>  (b) <line>  (c) <hr>  (d) <rule>
+    Ans: (c) <hr>. It is used to separate sections of a page.
 
-M8. <ul type='square'> shows bullets as: (a) discs (b) squares (c) circles (d) numbers
-    Ans: (b) squares. The type values for <ul> are disc (default), circle and square.
+M8. <ul type='square'> shows bullets as: (a) discs (b) circles (c) numbers (d) squares
+    Ans: (d) squares. The type values for <ul> are disc (default), circle and square.
 
 ========================================================================
 CHAPTER 8 · HTML III — Links & Images
@@ -887,23 +887,23 @@ Q12. [Long · 5 marks] Write the HTML for a page that has a heading, a picture p
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which attribute of <a> gives the destination address? (a) src (b) href (c) link (d) target
-    Ans: (b) href.
+M1. Which attribute of <a> gives the destination address? (a) src (b) link (c) href (d) target
+    Ans: (c) href.
 
-M2. Which opens a link in a new tab? (a) target='_new' (b) target='_blank' (c) new='true' (d) href='_blank'
-    Ans: (b) target='_blank'.
+M2. Which opens a link in a new tab? (a) target='_new' (b) new='true' (c) href='_blank' (d) target='_blank'
+    Ans: (d) target='_blank'.
 
-M3. <img> is — (a) a paired tag (b) an empty tag (c) a heading tag (d) not a valid tag
-    Ans: (b) an empty tag — it has no closing partner.
+M3. <img> is — (a) a paired tag (b) a heading tag (c) not a valid tag (d) an empty tag
+    Ans: (d) an empty tag — it has no closing partner.
 
-M4. To link to a file in the parent folder you write — (a) /index.html (b) ./index.html (c) ../index.html (d) index.html
-    Ans: (c) ../index.html.
+M4. To link to a file in the parent folder you write — (a) /index.html (b) ../index.html (c) ./index.html (d) index.html
+    Ans: (b) ../index.html.
 
-M5. mailto: is used to — (a) download mail (b) open the email program (c) create a table (d) send an image
-    Ans: (b) open the email program with the address filled in.
+M5. mailto: is used to — (a) download mail (b) create a table (c) open the email program (d) send an image
+    Ans: (c) open the email program with the address filled in.
 
-M6. The attribute of the <a> tag that holds the destination address is: (a) href  (b) src  (c) link  (d) target
-    Ans: (a) href. The target attribute only decides where the page opens.
+M6. The attribute of the <a> tag that holds the destination address is: (a) src  (b) href  (c) link  (d) target
+    Ans: (b) href. The target attribute only decides where the page opens.
 
 M7. The attribute of <img> that shows text if the picture cannot be displayed is: (a) alt  (b) src  (c) title  (d) name
     Ans: (a) alt. It is also read aloud by screen readers for blind users.
@@ -1006,29 +1006,29 @@ Q12. [Long · 5 marks] Write the HTML for a table whose first row is a title “
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which tag defines a table row? (a) <td> (b) <tr> (c) <th> (d) <table>
-    Ans: (b) <tr>.
+M1. Which tag defines a table row? (a) <td> (b) <th> (c) <table> (d) <tr>
+    Ans: (d) <tr>.
 
-M2. To merge a cell across three columns you use — (a) rowspan='3' (b) colspan='3' (c) span='3' (d) merge='3'
-    Ans: (b) colspan='3'.
+M2. To merge a cell across three columns you use — (a) colspan='3' (b) rowspan='3' (c) span='3' (d) merge='3'
+    Ans: (a) colspan='3'.
 
-M3. cellspacing controls — (a) space inside a cell (b) space between cells (c) the border thickness (d) the table width
-    Ans: (b) the space between cells.
+M3. cellspacing controls — (a) space inside a cell (b) the border thickness (c) space between cells (d) the table width
+    Ans: (c) the space between cells.
 
-M4. A header cell is written with — (a) <td> (b) <th> (c) <head> (d) <caption>
-    Ans: (b) <th>.
+M4. A header cell is written with — (a) <th> (b) <td> (c) <head> (d) <caption>
+    Ans: (a) <th>.
 
 M5. How many <tr> tags does a 4-row table need? (a) 1 (b) 2 (c) 4 (d) 8
     Ans: (c) 4 — one per row.
 
-M6. The attribute that adds a visible border around a table is: (a) border  (b) cellspacing  (c) cellpadding  (d) width
-    Ans: (a) border. cellspacing sets the gap between cells and cellpadding the gap inside them.
+M6. The attribute that adds a visible border around a table is: (a) cellspacing  (b) border  (c) cellpadding  (d) width
+    Ans: (b) border. cellspacing sets the gap between cells and cellpadding the gap inside them.
 
-M7. The tag used for a cell that holds a column heading is: (a) <th>  (b) <td>  (c) <tr>  (d) <caption>
-    Ans: (a) <th>. Its text is bold and centred by default.
+M7. The tag used for a cell that holds a column heading is: (a) <td>  (b) <th>  (c) <tr>  (d) <caption>
+    Ans: (b) <th>. Its text is bold and centred by default.
 
-M8. cellpadding controls: (a) space inside each cell (b) space between cells (c) the border thickness (d) the table width
-    Ans: (a) space inside each cell. Padding is inside, spacing is between — cellspacing does the other job.
+M8. cellpadding controls: (a) space between cells (b) the border thickness (c) the table width (d) space inside each cell
+    Ans: (d) space inside each cell. Padding is inside, spacing is between — cellspacing does the other job.
 
 ========================================================================
 CHAPTER 10 · HTML Forms
@@ -1141,29 +1141,29 @@ Q12. [Long · 5 marks] Explain any five values of the type attribute of the <inp
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Which input type hides the characters typed? (a) text (b) hidden (c) password (d) secure
-    Ans: (c) password.
+M1. Which input type hides the characters typed? (a) password (b) text (c) hidden (d) secure
+    Ans: (a) password.
 
-M2. Radio buttons in one group must share the same — (a) value (b) name (c) id (d) size
-    Ans: (b) name.
+M2. Radio buttons in one group must share the same — (a) value (b) id (c) size (d) name
+    Ans: (d) name.
 
-M3. Which method sends data in the request body? (a) GET (b) POST (c) SEND (d) PUT
-    Ans: (b) POST.
+M3. Which method sends data in the request body? (a) GET (b) SEND (c) PUT (d) POST
+    Ans: (d) POST.
 
 M4. Which of these is a paired tag? (a) <input> (b) <textarea> (c) <img> (d) <br>
     Ans: (b) <textarea>.
 
-M5. To pre-select a radio button you use the attribute — (a) selected (b) checked (c) default (d) value
-    Ans: (b) checked. selected is used on <option>.
+M5. To pre-select a radio button you use the attribute — (a) checked (b) selected (c) default (d) value
+    Ans: (a) checked. selected is used on <option>.
 
-M6. The input type that hides the characters as they are typed is: (a) password  (b) text  (c) hidden  (d) email
-    Ans: (a) password. It masks the characters but does not encrypt them, so the form should still use POST.
+M6. The input type that hides the characters as they are typed is: (a) text  (b) password  (c) hidden  (d) email
+    Ans: (b) password. It masks the characters but does not encrypt them, so the form should still use POST.
 
-M7. The tag that creates a box for several lines of text is: (a) <textarea>  (b) <input type="text">  (c) <select>  (d) <option>
-    Ans: (a) <textarea>. rows and columns are set with the rows and cols attributes.
+M7. The tag that creates a box for several lines of text is: (a) <input type="text">  (b) <select>  (c) <textarea>  (d) <option>
+    Ans: (c) <textarea>. rows and columns are set with the rows and cols attributes.
 
-M8. In <select>, the option shown by default is marked with: (a) selected (b) checked (c) default (d) value
-    Ans: (a) selected. checked is the equivalent for radio buttons and checkboxes.
+M8. In <select>, the option shown by default is marked with: (a) checked (b) default (c) selected (d) value
+    Ans: (c) selected. checked is the equivalent for radio buttons and checkboxes.
 
 ========================================================================
 CHAPTER 11 · CSS and Multimedia
@@ -1245,29 +1245,29 @@ Q12. [Long · 5 marks] CSS gives a web author full control of a page’s look. E
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. To make paragraph text red you write — (a) p { font-color: red; } (b) p { color: red; } (c) p { text: red; } (d) p { ink: red; }
-    Ans: (b) p { color: red; }. The property is color; font-color does not exist.
+M1. To make paragraph text red you write — (a) p { font-color: red; } (b) p { text: red; } (c) p { color: red; } (d) p { ink: red; }
+    Ans: (c) p { color: red; }. The property is color; font-color does not exist.
 
 M2. Which of these is a valid border-style value? (a) striped (b) dashed (c) glowing (d) thick
     Ans: (b) dashed. Valid values include solid, dashed, dotted, double and none.
 
-M3. The space OUTSIDE an element’s border is controlled by — (a) padding (b) margin (c) outline (d) float
-    Ans: (b) margin. Margin pushes neighbouring elements away from the box.
+M3. The space OUTSIDE an element’s border is controlled by — (a) padding (b) outline (c) float (d) margin
+    Ans: (d) margin. Margin pushes neighbouring elements away from the box.
 
-M4. To set a picture 200 px wide with text wrapping on its right, use — (a) img { align: left; } (b) img { float: left; width: 200px; } (c) img { margin: left; } (d) img { size: 200px; }
-    Ans: (b) img { float: left; width: 200px; }. Float pulls the picture aside so text wraps around it.
+M4. To set a picture 200 px wide with text wrapping on its right, use — (a) img { align: left; } (b) img { margin: left; } (c) img { float: left; width: 200px; } (d) img { size: 200px; }
+    Ans: (c) img { float: left; width: 200px; }. Float pulls the picture aside so text wraps around it.
 
-M5. Which rule makes all <h2> headings italic? (a) h2 { font: italic; } (b) h2 { style: italic; } (c) h2 { font-style: italic; } (d) h2 { text: italic; }
-    Ans: (c) h2 { font-style: italic; }. Font has three properties: family, size and style.
+M5. Which rule makes all <h2> headings italic? (a) h2 { font: italic; } (b) h2 { font-style: italic; } (c) h2 { style: italic; } (d) h2 { text: italic; }
+    Ans: (b) h2 { font-style: italic; }. Font has three properties: family, size and style.
 
-M6. The attribute that makes the browser show play, pause and volume buttons is: (a) controls  (b) autoplay  (c) loop  (d) src
-    Ans: (a) controls. Without it the video or audio cannot be started by the visitor.
+M6. The attribute that makes the browser show play, pause and volume buttons is: (a) autoplay  (b) loop  (c) src  (d) controls
+    Ans: (d) controls. Without it the video or audio cannot be started by the visitor.
 
-M7. Which tag embeds a film in a page? (a) <movie> (b) <media> (c) <video> (d) <film>
-    Ans: (c) <video>. Example: <video src="lesson.mp4" controls></video>.
+M7. Which tag embeds a film in a page? (a) <video> (b) <movie> (c) <media> (d) <film>
+    Ans: (a) <video>. Example: <video src="lesson.mp4" controls></video>.
 
-M8. outline differs from border because it — (a) sits inside the text (b) is drawn outside the border (c) only works on images (d) needs no style value
-    Ans: (b) is drawn outside the border. It is often used to highlight the active field.
+M8. outline differs from border because it — (a) is drawn outside the border (b) sits inside the text (c) only works on images (d) needs no style value
+    Ans: (a) is drawn outside the border. It is often used to highlight the active field.
 
 ========================================================================
 CHAPTER 12 · Netiquette, E-Commerce & Digital Divide
@@ -1339,14 +1339,14 @@ Q12. [Long · 5 marks] Responsible use of the internet needs good manners, safe 
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Typing a message in ALL CAPS is bad netiquette because it — (a) saves time (b) reads as shouting (c) looks stylish (d) avoids spam
-    Ans: (b) reads as shouting. Netiquette asks for normal case and polite words.
+M1. Typing a message in ALL CAPS is bad netiquette because it — (a) saves time (b) looks stylish (c) avoids spam (d) reads as shouting
+    Ans: (d) reads as shouting. Netiquette asks for normal case and polite words.
 
-M2. Which of these is an e-commerce activity? (a) reading a blog (b) paying an electricity bill on a bank app (c) watching a video (d) typing a document
-    Ans: (b) paying an electricity bill on a bank app. E-commerce = trade, payment and banking online.
+M2. Which of these is an e-commerce activity? (a) paying an electricity bill on a bank app (b) reading a blog (c) watching a video (d) typing a document
+    Ans: (a) paying an electricity bill on a bank app. E-commerce = trade, payment and banking online.
 
-M3. A safe shopping site must show — (a) http:// (b) https:// with a padlock (c) flashing ads (d) pop-up prizes
-    Ans: (b) https:// with a padlock. The s means the data is encrypted in transit.
+M3. A safe shopping site must show — (a) https:// with a padlock (b) http:// (c) flashing ads (d) pop-up prizes
+    Ans: (a) https:// with a padlock. The s means the data is encrypted in transit.
 
 M4. Someone calls “from the bank” and asks for your OTP. You should — (a) share it quickly (b) share half of it (c) refuse and cut the call (d) ask for a bigger limit
     Ans: (c) refuse and cut the call. No genuine caller ever asks for an OTP.
@@ -1357,8 +1357,8 @@ M5. Phishing is an example of — (a) netiquette (b) online fraud (c) e-governan
 M6. The digital divide is the gap between — (a) boys and girls (b) the connected and the unconnected (c) cities (d) phones and laptops
     Ans: (b) the connected and the unconnected. Cost, coverage, skills and language cause it.
 
-M7. Publishing exam results and certificates online is an example of — (a) e-governance supporting freedom of information (b) phishing (c) netiquette (d) malware
-    Ans: (a) e-governance supporting freedom of information. Citizens can see and use public records directly.
+M7. Publishing exam results and certificates online is an example of — (a) phishing (b) netiquette (c) malware (d) e-governance supporting freedom of information
+    Ans: (d) e-governance supporting freedom of information. Citizens can see and use public records directly.
 
 M8. Which step does NOT bridge the digital divide? (a) village mobile networks (b) regional-language apps (c) English-only services (d) low-cost data
     Ans: (c) English-only services. Services in regional languages include more people, not fewer.
@@ -1446,23 +1446,23 @@ B. MCQs (8)
 M1. Which IPR protects a brand logo? (a) copyright (b) patent (c) trademark (d) trade secret
     Ans: (c) trademark.
 
-M2. Which IPR protects an invention? (a) copyright (b) patent (c) trademark (d) licence
-    Ans: (b) patent.
+M2. Which IPR protects an invention? (a) copyright (b) trademark (c) patent (d) licence
+    Ans: (c) patent.
 
-M3. Which of these is open source? (a) MS Windows (b) Adobe Photoshop (c) Linux (d) Skype
-    Ans: (c) Linux.
+M3. Which of these is open source? (a) Linux (b) MS Windows (c) Adobe Photoshop (d) Skype
+    Ans: (a) Linux.
 
-M4. Presenting someone else's work as your own is — (a) piracy (b) plagiarism (c) phishing (d) hacking
-    Ans: (b) plagiarism.
+M4. Presenting someone else's work as your own is — (a) piracy (b) phishing (c) hacking (d) plagiarism
+    Ans: (d) plagiarism.
 
 M5. Software free to use but closed in source is called — (a) shareware (b) freeware (c) FOSS (d) malware
     Ans: (b) freeware.
 
-M6. Copying a paid program and selling it without the owner's permission is: (a) software piracy  (b) fair use  (c) open source  (d) shareware
-    Ans: (a) software piracy. It is a criminal offence under the Copyright Act.
+M6. Copying a paid program and selling it without the owner's permission is: (a) fair use  (b) open source  (c) shareware  (d) software piracy
+    Ans: (d) software piracy. It is a criminal offence under the Copyright Act.
 
 M7. Open source software is software that: (a) lets users study, change and share the source code  (b) is always free of cost  (c) cannot be copied  (d) runs only on mobile phones
     Ans: (a) lets users study, change and share the source code. Free refers to freedom, not necessarily to price.
 
-M8. Software distributed as a paid trial is called: (a) shareware (b) freeware (c) FOSS (d) malware
-    Ans: (a) shareware. Try first, pay later; freeware is free but closed, FOSS is open in source.
+M8. Software distributed as a paid trial is called: (a) freeware (b) shareware (c) FOSS (d) malware
+    Ans: (b) shareware. Try first, pay later; freeware is free but closed, FOSS is open in source.

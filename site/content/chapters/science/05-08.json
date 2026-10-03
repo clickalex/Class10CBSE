@@ -170,24 +170,24 @@
     ],
     "mcq": [
       {
-        "q": "The kidneys in human beings are a part of the system for: (a) nutrition (b) respiration (c) excretion (d) transportation",
-        "a": "**(c) excretion** — they remove nitrogenous waste (urea and uric acid) from the blood."
+        "q": "The kidneys in human beings are a part of the system for: (a) excretion (b) nutrition (c) respiration (d) transportation",
+        "a": "**(a) excretion** — they remove nitrogenous waste (urea and uric acid) from the blood."
       },
       {
         "q": "Which of the following is not a function of the stomach? (a) killing bacteria (b) digestion of protein (c) absorption of digested food (d) protection of the stomach wall by mucus",
         "a": "**(c).** Absorption of digested food occurs mainly in the small intestine through the villi."
       },
       {
-        "q": "The breakdown of pyruvate to give CO2, water and energy takes place in the: (a) cytoplasm (b) mitochondria (c) chloroplast (d) nucleus",
-        "a": "**(b) mitochondria.** Glycolysis (glucose → pyruvate) occurs in the cytoplasm; the further oxidation of pyruvate is mitochondrial."
+        "q": "The breakdown of pyruvate to give CO2, water and energy takes place in the: (a) mitochondria (b) cytoplasm (c) chloroplast (d) nucleus",
+        "a": "**(a) mitochondria.** Glycolysis (glucose → pyruvate) occurs in the cytoplasm; the further oxidation of pyruvate is mitochondrial."
       },
       {
         "q": "Which of the following gives the correct path of food in the human alimentary canal? (a) mouth → stomach → oesophagus → small intestine → large intestine (b) mouth → oesophagus → small intestine → stomach → large intestine (c) mouth → oesophagus → stomach → large intestine → small intestine (d) mouth → oesophagus → stomach → small intestine → large intestine",
         "a": "**(d) mouth → oesophagus → stomach → small intestine → large intestine.** Food is swallowed into the oesophagus, digested in the stomach, absorbed in the small intestine, and the undigested part passes to the large intestine."
       },
       {
-        "q": "The opening and closing of stomata is controlled by: (a) epidermal cells (b) mesophyll cells (c) guard cells (d) xylem vessels",
-        "a": "**(c) guard cells.** Guard cells swell or shrink with water, changing the size of the stomatal pore."
+        "q": "The opening and closing of stomata is controlled by: (a) epidermal cells (b) mesophyll cells (c) xylem vessels (d) guard cells",
+        "a": "**(d) guard cells.** Guard cells swell or shrink with water, changing the size of the stomatal pore."
       },
       {
         "q": "Photosynthesis in a leaf takes place inside the: (a) mitochondria  (b) chloroplast  (c) ribosome  (d) vacuole",
@@ -388,32 +388,32 @@
     ],
     "mcq": [
       {
-        "q": "The gap between two neurons is called: (a) dendrite (b) synapse (c) axon (d) impulse",
-        "a": "**(b) synapse** — the junction where a neurotransmitter carries the signal across."
+        "q": "The gap between two neurons is called: (a) synapse (b) dendrite (c) axon (d) impulse",
+        "a": "**(a) synapse** — the junction where a neurotransmitter carries the signal across."
       },
       {
         "q": "Which plant hormone is a growth inhibitor? (a) auxin (b) gibberellin (c) cytokinin (d) abscisic acid",
         "a": "**(d) abscisic acid** — it inhibits growth and causes wilting of leaves and the closing of stomata."
       },
       {
-        "q": "The part of the brain that maintains the posture and balance of the body is: (a) cerebrum (b) cerebellum (c) pons (d) medulla",
-        "a": "**(b) cerebellum.** It also makes voluntary movements precise; alcohol affects it, which is why a drunk person staggers."
+        "q": "The part of the brain that maintains the posture and balance of the body is: (a) cerebrum (b) pons (c) cerebellum (d) medulla",
+        "a": "**(c) cerebellum.** It also makes voluntary movements precise; alcohol affects it, which is why a drunk person staggers."
       },
       {
         "q": "Which part of the brain controls involuntary actions such as blood pressure, salivation and vomiting? (a) cerebrum (b) cerebellum (c) pituitary (d) medulla",
         "a": "**(d) medulla.** The medulla in the hindbrain controls involuntary actions; the cerebellum controls posture and balance."
       },
       {
-        "q": "The hormone that prepares the body for “fight or flight” is: (a) insulin (b) thyroxin (c) adrenaline (d) growth hormone",
-        "a": "**(c) adrenaline.** Adrenaline from the adrenal gland raises heart rate and breathing rate and diverts blood to the muscles."
+        "q": "The hormone that prepares the body for “fight or flight” is: (a) insulin (b) adrenaline (c) thyroxin (d) growth hormone",
+        "a": "**(b) adrenaline.** Adrenaline from the adrenal gland raises heart rate and breathing rate and diverts blood to the muscles."
       },
       {
-        "q": "The hormone that regulates the body's metabolic rate is: (a) insulin  (b) thyroxine  (c) growth hormone  (d) adrenaline",
-        "a": "**(b) thyroxine.** Secreted by the thyroid gland; iodine is needed to make it, and its deficiency causes goitre."
+        "q": "The hormone that regulates the body's metabolic rate is: (a) thyroxine  (b) insulin  (c) growth hormone  (d) adrenaline",
+        "a": "**(a) thyroxine.** Secreted by the thyroid gland; iodine is needed to make it, and its deficiency causes goitre."
       },
       {
-        "q": "The part of a neuron that receives the impulse is the: (a) axon  (b) dendrite  (c) cell body  (d) myelin sheath",
-        "a": "**(b) dendrite.** Dendrites receive signals; the axon carries the impulse away towards the next neuron."
+        "q": "The part of a neuron that receives the impulse is the: (a) axon  (b) cell body  (c) dendrite  (d) myelin sheath",
+        "a": "**(c) dendrite.** Dendrites receive signals; the axon carries the impulse away towards the next neuron."
       },
       {
         "q": "In a reflex action the impulse is processed in the: (a) cerebrum  (b) spinal cord  (c) cerebellum  (d) medulla only",
@@ -606,16 +606,16 @@
     ],
     "mcq": [
       {
-        "q": "Binary fission in amoeba begins with the division of the: (a) cytoplasm (b) nucleus (c) cell membrane (d) pseudopodia",
-        "a": "**(b) nucleus.** The nucleus divides first, followed by the division of the cytoplasm into two daughter cells."
+        "q": "Binary fission in amoeba begins with the division of the: (a) cytoplasm (b) cell membrane (c) nucleus (d) pseudopodia",
+        "a": "**(c) nucleus.** The nucleus divides first, followed by the division of the cytoplasm into two daughter cells."
       },
       {
         "q": "The anther contains: (a) sepals (b) ovules (c) carpel (d) pollen grains",
         "a": "**(d) pollen grains.** The anther is the male reproductive part; ovules are inside the ovary."
       },
       {
-        "q": "Which of the following is a barrier method of contraception? (a) oral pill (b) copper-T (c) condom (d) vasectomy",
-        "a": "**(c) condom.** It physically prevents the sperm from meeting the egg and also reduces the risk of sexually transmitted diseases."
+        "q": "Which of the following is a barrier method of contraception? (a) condom (b) oral pill (c) copper-T (d) vasectomy",
+        "a": "**(a) condom.** It physically prevents the sperm from meeting the egg and also reduces the risk of sexually transmitted diseases."
       },
       {
         "q": "In human females, the embryo implants in the: (a) fallopian tube (b) ovary (c) uterus (d) vagina",
@@ -630,8 +630,8 @@
         "a": "**(a) budding in yeast.** Asexual modes include budding, binary fission, fragmentation, spore formation and vegetative propagation."
       },
       {
-        "q": "Sperms are produced in the: (a) penis  (b) testes  (c) vas deferens  (d) seminal vesicles",
-        "a": "**(b) testes.** They are formed in the seminiferous tubules, where the temperature is about 2–3 °C below body temperature."
+        "q": "Sperms are produced in the: (a) penis  (b) vas deferens  (c) seminal vesicles  (d) testes",
+        "a": "**(d) testes.** They are formed in the seminiferous tubules, where the temperature is about 2–3 °C below body temperature."
       },
       {
         "q": "Sterilisation in human beings means: (a) preventing ovulation with pills  (b) surgically blocking the gamete ducts  (c) killing germs  (d) using a condom",
@@ -824,20 +824,20 @@
     ],
     "mcq": [
       {
-        "q": "In a monohybrid cross between a tall (TT) and a dwarf (tt) pea plant, the F2 phenotypic ratio is: (a) 1:1 (b) 3:1 (c) 9:3:3:1 (d) 1:2:1",
-        "a": "**(b) 3 tall : 1 dwarf.** 1:2:1 is the genotypic ratio of the same cross."
+        "q": "In a monohybrid cross between a tall (TT) and a dwarf (tt) pea plant, the F2 phenotypic ratio is: (a) 1:1 (b) 9:3:3:1 (c) 3:1 (d) 1:2:1",
+        "a": "**(c) 3 tall : 1 dwarf.** 1:2:1 is the genotypic ratio of the same cross."
       },
       {
-        "q": "The sex of a human child is determined by: (a) the mother's egg (b) the father's sperm (c) both parents equally (d) the diet of the mother",
-        "a": "**(b) the father's sperm.** Eggs always carry X; a sperm carrying Y produces a boy and one carrying X produces a girl."
+        "q": "The sex of a human child is determined by: (a) the father's sperm (b) the mother's egg (c) both parents equally (d) the diet of the mother",
+        "a": "**(a) the father's sperm.** Eggs always carry X; a sperm carrying Y produces a boy and one carrying X produces a girl."
       },
       {
         "q": "A cross between F1 hybrid tall plants (Tt × Tt) gives dwarf plants in F2. The expected ratio of tall to dwarf is: (a) 1:3 (b) 3:1 (c) 1:1 (d) 2:2",
         "a": "**(b) 3:1** — 25% of F2 are homozygous dwarf (tt)."
       },
       {
-        "q": "In a cross between two plants with genotype Tt × Tt, the proportion of the progeny with genotype Tt is: (a) 1/4 (b) 3/4 (c) 1/2 (d) 1",
-        "a": "**(c) 1/2.** The Punnett square gives TT : Tt : tt = 1 : 2 : 1, so Tt makes up 2 of 4, i.e. 1/2."
+        "q": "In a cross between two plants with genotype Tt × Tt, the proportion of the progeny with genotype Tt is: (a) 1/4 (b) 3/4 (c) 1 (d) 1/2",
+        "a": "**(d) 1/2.** The Punnett square gives TT : Tt : tt = 1 : 2 : 1, so Tt makes up 2 of 4, i.e. 1/2."
       },
       {
         "q": "Mendel chose the garden pea for his experiments mainly because it: (a) has easily visible contrasting traits and a short life cycle (b) has no variation among its plants (c) cannot be self-pollinated (d) produces only one seed per plant",
@@ -852,8 +852,8 @@
         "a": "**(c) eye colour.** Only changes in the DNA of reproductive cells are passed to the next generation; acquired changes in body cells are not."
       },
       {
-        "q": "The number of chromosomes in a human zygote is: (a) 23  (b) 46  (c) 92  (d) 22",
-        "a": "**(b) 46.** Each gamete carries 23 chromosomes and their fusion restores the 23 pairs."
+        "q": "The number of chromosomes in a human zygote is: (a) 23  (b) 92  (c) 22  (d) 46",
+        "a": "**(d) 46.** Each gamete carries 23 chromosomes and their fusion restores the 23 pairs."
       }
     ],
     "trend": "Either the monohybrid or the dihybrid cross with a Punnett square appears almost every year, along with a short question on sex determination or acquired vs inherited traits.",

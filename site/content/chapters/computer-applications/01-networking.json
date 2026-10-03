@@ -136,32 +136,32 @@
         "a": "**(b) 1969**, by the US Department of Defense's research agency."
       },
       {
-        "q": "Who invented the World Wide Web? (a) Vint Cerf (b) Tim Berners-Lee (c) Bill Gates (d) Charles Babbage",
-        "a": "**(b) Tim Berners-Lee**, in 1989."
+        "q": "Who invented the World Wide Web? (a) Tim Berners-Lee (b) Vint Cerf (c) Bill Gates (d) Charles Babbage",
+        "a": "**(a) Tim Berners-Lee**, in 1989."
       },
       {
         "q": "How many bits are in an IPv6 address? (a) 32 (b) 64 (c) 128 (d) 256",
         "a": "**(c) 128 bits.** IPv4 uses 32."
       },
       {
-        "q": "DNS stands for — (a) Dynamic Name Service (b) Domain Name System (c) Data Network Server (d) Digital Naming Standard",
-        "a": "**(b) Domain Name System.**"
+        "q": "DNS stands for — (a) Dynamic Name Service (b) Data Network Server (c) Digital Naming Standard (d) Domain Name System",
+        "a": "**(d) Domain Name System.**"
       },
       {
-        "q": "An IPv4 address is made up of: (a) 64 bits, written as eight hexadecimal numbers (b) 128 bits, written as eight hexadecimal groups (c) 32 bits, written as four numbers from 0 to 255 (d) 16 bits, written as two numbers",
-        "a": "**(c) 32 bits, written as four numbers from 0 to 255.** IPv4 uses 32 bits, shown as four decimal numbers separated by dots, for example 192.168.1.1; IPv6 uses 128 bits."
+        "q": "An IPv4 address is made up of: (a) 64 bits, written as eight hexadecimal numbers (b) 32 bits, written as four numbers from 0 to 255 (c) 128 bits, written as eight hexadecimal groups (d) 16 bits, written as two numbers",
+        "a": "**(b) 32 bits, written as four numbers from 0 to 255.** IPv4 uses 32 bits, shown as four decimal numbers separated by dots, for example 192.168.1.1; IPv6 uses 128 bits."
       },
       {
-        "q": "The amount of data that a connection can carry per second is called its: (a) latency (b) bandwidth (c) protocol (d) domain",
-        "a": "**(b) bandwidth.** Bandwidth measures capacity; latency measures delay."
+        "q": "The amount of data that a connection can carry per second is called its: (a) bandwidth (b) latency (c) protocol (d) domain",
+        "a": "**(a) bandwidth.** Bandwidth measures capacity; latency measures delay."
       },
       {
-        "q": "The World Wide Web was invented by: (a) Tim Berners-Lee  (b) Bill Gates  (c) Vint Cerf  (d) Steve Jobs",
-        "a": "**(a) Tim Berners-Lee.** He proposed it in 1989 while working at CERN."
+        "q": "The World Wide Web was invented by: (a) Bill Gates  (b) Vint Cerf  (c) Tim Berners-Lee  (d) Steve Jobs",
+        "a": "**(c) Tim Berners-Lee.** He proposed it in 1989 while working at CERN."
       },
       {
-        "q": "URL stands for: (a) Uniform Resource Locator  (b) Universal Resource Link  (c) United Resource Locator  (d) Uniform Resource Link",
-        "a": "**(a) Uniform Resource Locator.** It is the address of a page on the web."
+        "q": "URL stands for: (a) Universal Resource Link  (b) United Resource Locator  (c) Uniform Resource Link  (d) Uniform Resource Locator",
+        "a": "**(d) Uniform Resource Locator.** It is the address of a page on the web."
       }
     ],
     "trend": "One or two definition questions every paper. The ARPANET and IPv6 facts are the most repeated.",
@@ -371,24 +371,24 @@
     ],
     "mcq": [
       {
-        "q": "Which protocol is used to send email? (a) POP3 (b) IMAP (c) SMTP (d) FTP",
-        "a": "**(c) SMTP** — Simple Mail Transfer Protocol."
+        "q": "Which protocol is used to send email? (a) SMTP (b) POP3 (c) IMAP (d) FTP",
+        "a": "**(a) SMTP** — Simple Mail Transfer Protocol."
       },
       {
         "q": "The default port for HTTPS is — (a) 21 (b) 23 (c) 80 (d) 443",
         "a": "**(d) 443.** Port 80 is plain HTTP."
       },
       {
-        "q": "Which protocol keeps mail on the server? (a) POP3 (b) IMAP (c) SMTP (d) Telnet",
-        "a": "**(b) IMAP** — it synchronises instead of downloading."
+        "q": "Which protocol keeps mail on the server? (a) POP3 (b) SMTP (c) IMAP (d) Telnet",
+        "a": "**(c) IMAP** — it synchronises instead of downloading."
       },
       {
         "q": "In `https://example.com/page.html`, `example.com` is the — (a) protocol (b) domain (c) path (d) port",
         "a": "**(b) domain.**"
       },
       {
-        "q": "Which protocol carries web pages from a web server to a browser? (a) SMTP (b) HTTP (c) FTP (d) POP3",
-        "a": "**(b) HTTP.** HTTP (HyperText Transfer Protocol), or HTTPS for the encrypted version, transfers web pages."
+        "q": "Which protocol carries web pages from a web server to a browser? (a) SMTP (b) FTP (c) POP3 (d) HTTP",
+        "a": "**(d) HTTP.** HTTP (HyperText Transfer Protocol), or HTTPS for the encrypted version, transfers web pages."
       },
       {
         "q": "Which of the following is a real-time internet service? (a) downloading a file by FTP (b) reading a saved e-mail (c) instant messaging (chat) (d) uploading a web page to a server",
@@ -399,8 +399,8 @@
         "a": "**(a) SMTP.** POP3 and IMAP are used to receive mail and FTP to transfer files."
       },
       {
-        "q": "HTTPS is safer than HTTP because it: (a) encrypts the data sent between the browser and the site  (b) is faster  (c) is free  (d) needs no server",
-        "a": "**(a) encrypts the data.** The S stands for secure, which is why a padlock appears in the address bar."
+        "q": "HTTPS is safer than HTTP because it: (a) is faster  (b) encrypts the data sent between the browser and the site  (c) is free  (d) needs no server",
+        "a": "**(b) encrypts the data.** The S stands for secure, which is why a padlock appears in the address bar."
       }
     ],
     "trend": "Protocol full forms and port numbers appear in almost every paper. The URL breakdown is a reliable 2-3 marker.",
@@ -555,36 +555,36 @@
     ],
     "mcq": [
       {
-        "q": "Which network covers a whole city? (a) LAN (b) MAN (c) WAN (d) PAN",
-        "a": "**(b) MAN** — Metropolitan Area Network."
+        "q": "Which network covers a whole city? (a) MAN (b) LAN (c) WAN (d) PAN",
+        "a": "**(a) MAN** — Metropolitan Area Network."
       },
       {
-        "q": "Which topology has a single point of failure at its centre? (a) Mesh (b) Bus (c) Star (d) Ring",
-        "a": "**(c) Star** — the hub or switch is the single point of failure."
+        "q": "Which topology has a single point of failure at its centre? (a) Star (b) Mesh (c) Bus (d) Ring",
+        "a": "**(a) Star** — the hub or switch is the single point of failure."
       },
       {
-        "q": "A device that joins two different networks and picks the best path is a — (a) hub (b) switch (c) repeater (d) router",
-        "a": "**(d) router.**"
+        "q": "A device that joins two different networks and picks the best path is a — (a) hub (b) switch (c) router (d) repeater",
+        "a": "**(c) router.**"
       },
       {
-        "q": "Which medium is immune to electrical interference? (a) twisted pair (b) coaxial (c) optical fibre (d) infrared",
-        "a": "**(c) optical fibre** — it carries light, not electricity."
+        "q": "Which medium is immune to electrical interference? (a) twisted pair (b) optical fibre (c) coaxial (d) infrared",
+        "a": "**(b) optical fibre** — it carries light, not electricity."
       },
       {
-        "q": "A network that is confined to a single building or campus is called a: (a) LAN (b) MAN (c) WAN (d) PAN",
-        "a": "**(a) LAN.** LAN stands for Local Area Network; MAN covers a city and WAN covers countries."
+        "q": "A network that is confined to a single building or campus is called a: (a) MAN (b) LAN (c) WAN (d) PAN",
+        "a": "**(b) LAN.** LAN stands for Local Area Network; MAN covers a city and WAN covers countries."
       },
       {
-        "q": "The device that converts digital signals to analogue signals and back for transmission over a telephone line is a: (a) switch (b) modem (c) hub (d) repeater",
-        "a": "**(b) modem.** “Modem” comes from modulator–demodulator, which describes its two conversions."
+        "q": "The device that converts digital signals to analogue signals and back for transmission over a telephone line is a: (a) switch (b) hub (c) modem (d) repeater",
+        "a": "**(c) modem.** “Modem” comes from modulator–demodulator, which describes its two conversions."
       },
       {
-        "q": "The device that connects two different networks and chooses the best path is a: (a) router  (b) switch  (c) hub  (d) repeater",
-        "a": "**(a) router.** A switch connects computers within one network; a repeater only strengthens the signal."
+        "q": "The device that connects two different networks and chooses the best path is a: (a) switch  (b) hub  (c) repeater  (d) router",
+        "a": "**(d) router.** A switch connects computers within one network; a repeater only strengthens the signal."
       },
       {
-        "q": "The topology in which every computer is connected to every other computer is the: (a) mesh topology  (b) star topology  (c) bus topology  (d) ring topology",
-        "a": "**(a) mesh topology.** It is the most reliable and the most expensive to cable."
+        "q": "The topology in which every computer is connected to every other computer is the: (a) star topology  (b) bus topology  (c) ring topology  (d) mesh topology",
+        "a": "**(d) mesh topology.** It is the most reliable and the most expensive to cable."
       }
     ],
     "trend": "One topology question with a diagram, plus a device-comparison question, appears in most papers.",
@@ -794,12 +794,12 @@
     ],
     "mcq": [
       {
-        "q": "Which generation first made video calling practical? (a) 2G (b) 3G (c) 4G (d) 1G",
-        "a": "**(b) 3G**, with speeds up to about 2 Mbps."
+        "q": "Which generation first made video calling practical? (a) 2G (b) 4G (c) 1G (d) 3G",
+        "a": "**(d) 3G**, with speeds up to about 2 Mbps."
       },
       {
-        "q": "NFC works over a range of — (a) metres (b) kilometres (c) centimetres (d) it has no limit",
-        "a": "**(c) centimetres** — which is why you tap."
+        "q": "NFC works over a range of — (a) centimetres (b) metres (c) kilometres (d) it has no limit",
+        "a": "**(a) centimetres** — which is why you tap."
       },
       {
         "q": "Which standard family defines Wi-Fi? (a) IEEE 802.3 (b) IEEE 802.11 (c) IEEE 802.15 (d) IEEE 802.16",
@@ -810,20 +810,20 @@
         "a": "**(c) all-IP.**"
       },
       {
-        "q": "Which generation of mobile technology first introduced digital voice and SMS? (a) 2G (b) 1G (c) 3G (d) 4G",
-        "a": "**(a) 2G.** 1G was analogue; 2G made voice digital and added text messaging."
+        "q": "Which generation of mobile technology first introduced digital voice and SMS? (a) 1G (b) 3G (c) 4G (d) 2G",
+        "a": "**(d) 2G.** 1G was analogue; 2G made voice digital and added text messaging."
       },
       {
-        "q": "The technology used when a phone is tapped on a terminal to make a contactless payment is: (a) infrared (b) GPS (c) NFC (d) satellite link",
-        "a": "**(c) NFC.** Near Field Communication works over a few centimetres, which is why it is used for payments."
+        "q": "The technology used when a phone is tapped on a terminal to make a contactless payment is: (a) NFC (b) infrared (c) GPS (d) satellite link",
+        "a": "**(a) NFC.** Near Field Communication works over a few centimetres, which is why it is used for payments."
       },
       {
-        "q": "The generation of mobile technology that first made mobile internet practical was: (a) 3G  (b) 1G  (c) 2G  (d) 5G",
-        "a": "**(a) 3G.** 1G was analogue voice, 2G added digital voice and SMS, and 5G is the current high-speed standard."
+        "q": "The generation of mobile technology that first made mobile internet practical was: (a) 1G  (b) 3G  (c) 2G  (d) 5G",
+        "a": "**(b) 3G.** 1G was analogue voice, 2G added digital voice and SMS, and 5G is the current high-speed standard."
       },
       {
-        "q": "NFC works only when the two devices are: (a) a few centimetres apart  (b) in the same building  (c) on the same Wi-Fi network  (d) several metres apart",
-        "a": "**(a) a few centimetres apart.** The short range is what makes contactless payment safe."
+        "q": "NFC works only when the two devices are: (a) in the same building  (b) on the same Wi-Fi network  (c) a few centimetres apart  (d) several metres apart",
+        "a": "**(c) a few centimetres apart.** The short range is what makes contactless payment safe."
       }
     ],
     "trend": "A generations table question is very common, and it is fully memorisable.",
@@ -984,28 +984,28 @@
         "a": "**(c) cache.**"
       },
       {
-        "q": "The entry page of a website is called the — (a) portal (b) home page (c) cache (d) feed",
-        "a": "**(b) home page**, usually `index.html`."
+        "q": "The entry page of a website is called the — (a) portal (b) cache (c) home page (d) feed",
+        "a": "**(c) home page**, usually `index.html`."
       },
       {
-        "q": "The program that automatically visits and indexes web pages is called a — (a) router (b) crawler (c) modem (d) gateway",
-        "a": "**(b) crawler** or spider."
+        "q": "The program that automatically visits and indexes web pages is called a — (a) router (b) modem (c) gateway (d) crawler",
+        "a": "**(d) crawler** or spider."
       },
       {
         "q": "A bookmark in a web browser is used to: (a) save the address of a page for quick access later (b) download the whole website (c) block pop-up windows (d) speed up the internet connection",
         "a": "**(a) save the address of a page for quick access later.** Bookmarks store web addresses so that you can reopen a page with one click."
       },
       {
-        "q": "Cookies are small files that: (a) a browser deletes after every page (b) speed up the router (c) a website stores on your device to remember you (d) protect the computer from viruses",
-        "a": "**(c) a website stores on your device to remember you.** Cookies let sites recognise returning visitors and keep information such as a login or a shopping cart."
+        "q": "Cookies are small files that: (a) a website stores on your device to remember you (b) a browser deletes after every page (c) speed up the router (d) protect the computer from viruses",
+        "a": "**(a) a website stores on your device to remember you.** Cookies let sites recognise returning visitors and keep information such as a login or a shopping cart."
       },
       {
-        "q": "The address bar of a browser shows the: (a) URL of the page you are on  (b) IP address of your own computer  (c) size of the page  (d) number of visitors to the site",
-        "a": "**(a) URL of the page you are on.** You can also type an address there to go to a site."
+        "q": "The address bar of a browser shows the: (a) IP address of your own computer  (b) URL of the page you are on  (c) size of the page  (d) number of visitors to the site",
+        "a": "**(b) URL of the page you are on.** You can also type an address there to go to a site."
       },
       {
-        "q": "A padlock symbol in the address bar means the page: (a) is served over an encrypted HTTPS connection  (b) is free  (c) is saved offline  (d) belongs to the government",
-        "a": "**(a) is served over an encrypted HTTPS connection.** It does not prove that the site itself is honest."
+        "q": "A padlock symbol in the address bar means the page: (a) is free  (b) is saved offline  (c) belongs to the government  (d) is served over an encrypted HTTPS connection",
+        "a": "**(d) is served over an encrypted HTTPS connection.** It does not prove that the site itself is honest."
       }
     ],
     "trend": "Browser versus search engine and cookies versus cache are the two most repeated comparisons in Unit I.",

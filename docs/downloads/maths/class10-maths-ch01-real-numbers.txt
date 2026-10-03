@@ -97,26 +97,26 @@ Q13. [Long · 5 marks] Prove that √5 is irrational. Hence show that 3 + 2√5 
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The HCF of 8 and 12 is: (a) 2  (b) 4  (c) 8  (d) 24
-    Ans: (b) 4. 8 = 2³, 12 = 2² × 3; the lowest power of the common prime 2 is 2² = 4.
+M1. The HCF of 8 and 12 is: (a) 24  (b) 8  (c) 4  (d) 2
+    Ans: (c) 4. 8 = 2³, 12 = 2² × 3; the lowest power of the common prime 2 is 2² = 4.
 
-M2. Which has a terminating decimal expansion? (a) 7/24  (b) 5/13  (c) 9/40  (d) 11/21
-    Ans: (c) 9/40. 40 = 2³ × 5, of the form 2ᵐ × 5ⁿ. The others have denominators with other primes.
+M2. Which has a terminating decimal expansion? (a) 7/24  (b) 5/13  (c) 11/21  (d) 9/40
+    Ans: (d) 9/40. 40 = 2³ × 5, of the form 2ᵐ × 5ⁿ. The others have denominators with other primes.
 
 M3. If the HCF of two numbers is 6 and their LCM is 60, one number being 12, the other is: (a) 20  (b) 30  (c) 40  (d) 60
     Ans: (b) 30. Other number = (6 × 60)/12 = 30.
 
-M4. The product of a non-zero rational number and an irrational number is: (a) always rational  (b) always irrational  (c) sometimes an integer  (d) always zero
-    Ans: (b) always irrational. If r × x were rational with r ≠ 0, then x = (r × x)/r would be rational — a contradiction.
+M4. The product of a non-zero rational number and an irrational number is: (a) always rational  (b) sometimes an integer  (c) always zero  (d) always irrational
+    Ans: (d) always irrational. If r × x were rational with r ≠ 0, then x = (r × x)/r would be rational — a contradiction.
 
 M5. The LCM of two co-prime numbers a and b is: (a) ab  (b) a + b  (c) a ÷ b  (d) 1
     Ans: (a) ab. Co-prime numbers have HCF 1, and HCF × LCM = a × b, so the LCM is ab.
 
-M6. The decimal expansion of 23/(2³ × 5²) terminates after: (a) 2 places  (b) 3 places  (c) 4 places  (d) 5 places
-    Ans: (b) 3 places. 23/200 = 115/1000 = 0.115. The number of decimal places is the larger exponent, max(3, 2) = 3.
+M6. The decimal expansion of 23/(2³ × 5²) terminates after: (a) 5 places  (b) 4 places  (c) 3 places  (d) 2 places
+    Ans: (c) 3 places. 23/200 = 115/1000 = 0.115. The number of decimal places is the larger exponent, max(3, 2) = 3.
 
-M7. Which of these is irrational? (a) √(16/9)  (b) √12  (c) 0.444…  (d) 22/7
-    Ans: (b) √12. √12 = 2√3 and √3 is irrational. √(16/9) = 4/3, 0.444… = 4/9 and 22/7 are all rational.
+M7. Which of these is irrational? (a) √12  (b) √(16/9)  (c) 0.444…  (d) 22/7
+    Ans: (a) √12. √12 = 2√3 and √3 is irrational. √(16/9) = 4/3, 0.444… = 4/9 and 22/7 are all rational.
 
 M8. The HCF of the smallest prime number and the smallest composite number is: (a) 1  (b) 2  (c) 4  (d) 6
     Ans: (b) 2. Smallest prime = 2, smallest composite = 4, and HCF(2, 4) = 2.

@@ -133,12 +133,12 @@
     ],
     "mcq": [
       {
-        "q": "Which is information, not raw data? (a) 36 (b) “Amit” (c) “Amit’s temperature is 36 °C” (d) a blank cell",
-        "a": "**(c).**"
+        "q": "Which is information, not raw data? (a) 36 (b) “Amit’s temperature is 36 °C” (c) “Amit” (d) a blank cell",
+        "a": "**(b).**"
       },
       {
-        "q": "LibreOffice Base is: (a) a DBMS (b) an OS (c) a browser (d) a style",
-        "a": "**(a) a DBMS.**"
+        "q": "LibreOffice Base is: (a) an OS (b) a browser (c) a DBMS (d) a style",
+        "a": "**(c) a DBMS.**"
       },
       {
         "q": "A good primary key for books is: (a) Title (b) Author (c) ISBN (d) Colour",
@@ -149,16 +149,16 @@
         "a": "**(b).**"
       },
       {
-        "q": "Which of the following is a DBMS? (a) LibreOffice Calc (b) LibreOffice Writer (c) LibreOffice Base (d) LibreOffice Impress",
-        "a": "**(c) LibreOffice Base.** Base is the database program; Calc is a spreadsheet, Writer a word processor and Impress a presentation program."
+        "q": "Which of the following is a DBMS? (a) LibreOffice Calc (b) LibreOffice Writer (c) LibreOffice Impress (d) LibreOffice Base",
+        "a": "**(d) LibreOffice Base.** Base is the database program; Calc is a spreadsheet, Writer a word processor and Impress a presentation program."
       },
       {
-        "q": "A field that uniquely identifies each record in a table is called the: (a) foreign key (b) alias (c) query (d) primary key",
-        "a": "**(d) primary key.** A primary key has a different value in every record, so that no two records can be confused."
+        "q": "A field that uniquely identifies each record in a table is called the: (a) primary key (b) foreign key (c) alias (d) query",
+        "a": "**(a) primary key.** A primary key has a different value in every record, so that no two records can be confused."
       },
       {
-        "q": "The field that uniquely identifies each record in a table is the: (a) primary key  (b) foreign key  (c) index  (d) alias",
-        "a": "**(a) primary key.** It must be unique and cannot be empty."
+        "q": "The field that uniquely identifies each record in a table is the: (a) foreign key  (b) index  (c) alias  (d) primary key",
+        "a": "**(d) primary key.** It must be unique and cannot be empty."
       },
       {
         "q": "Which of these is DBMS software? (a) LibreOffice Base  (b) MS Word  (c) Google Chrome  (d) VLC player",
@@ -330,32 +330,32 @@
     ],
     "mcq": [
       {
-        "q": "The exam-preferred way to create a table is: (a) Wizard only (b) Design View (c) Mail Merge (d) Goal Seek",
-        "a": "**(b) Design View.**"
+        "q": "The exam-preferred way to create a table is: (a) Design View (b) Wizard only (c) Mail Merge (d) Goal Seek",
+        "a": "**(a) Design View.**"
       },
       {
-        "q": "DOB should be stored as: (a) Integer (b) Date (c) Yes/No (d) Image",
-        "a": "**(b) Date.**"
+        "q": "DOB should be stored as: (a) Integer (b) Yes/No (c) Date (d) Image",
+        "a": "**(c) Date.**"
       },
       {
-        "q": "A primary key field should be: (a) empty often (b) unique and not null (c) a photo (d) duplicated",
-        "a": "**(b).**"
+        "q": "A primary key field should be: (a) empty often (b) a photo (c) unique and not null (d) duplicated",
+        "a": "**(c).**"
       },
       {
-        "q": "Datasheet view is for: (a) setting data types (b) entering records (c) recording macros (d) wrapping images",
-        "a": "**(b) entering records.**"
+        "q": "Datasheet view is for: (a) setting data types (b) recording macros (c) wrapping images (d) entering records",
+        "a": "**(d) entering records.**"
       },
       {
         "q": "In Base, the view in which you define field names and data types is the: (a) Datasheet View (b) Design View (c) Print Preview (d) Report View",
         "a": "**(b) Design View.** Design View is where the structure of the table is defined; Datasheet View is for entering and viewing the data."
       },
       {
-        "q": "The most suitable data type for a field that stores a date of birth is: (a) Date (b) Text (c) Yes/No (d) Image",
-        "a": "**(a) Date.** A Date field stores dates properly, so they can be sorted and used in calculations."
+        "q": "The most suitable data type for a field that stores a date of birth is: (a) Text (b) Date (c) Yes/No (d) Image",
+        "a": "**(b) Date.** A Date field stores dates properly, so they can be sorted and used in calculations."
       },
       {
-        "q": "In Design View, the property that limits how many characters a text field can hold is: (a) Field Length  (b) Format  (c) Default Value  (d) Caption",
-        "a": "**(a) Field Length.** Default Value fills in a value automatically when nothing is typed."
+        "q": "In Design View, the property that limits how many characters a text field can hold is: (a) Format  (b) Default Value  (c) Caption  (d) Field Length",
+        "a": "**(d) Field Length.** Default Value fills in a value automatically when nothing is typed."
       },
       {
         "q": "A primary key must: (a) be unique and never empty  (b) contain only numbers  (c) be the first field of the table  (d) change every day",
@@ -519,36 +519,36 @@
     ],
     "mcq": [
       {
-        "q": "The foreign key is stored on the: (a) one side always (b) many side (c) report (d) form title",
-        "a": "**(b) many side.**"
+        "q": "The foreign key is stored on the: (a) many side (b) one side always (c) report (d) form title",
+        "a": "**(a) many side.**"
       },
       {
-        "q": "Referential integrity prevents: (a) styles (b) orphan FK values (c) Goal Seek (d) macros",
+        "q": "Referential integrity prevents: (a) styles (b) Goal Seek (c) orphan FK values (d) macros",
+        "a": "**(c).**"
+      },
+      {
+        "q": "Student–Issue is typically: (a) one-to-one (b) many-to-many without a junction (c) no relation (d) one-to-many",
+        "a": "**(d) one-to-many.**"
+      },
+      {
+        "q": "Relationships window is opened from: (a) Insert → Image (b) Tools → Relationships (c) Format → Page (d) Data → Sort",
         "a": "**(b).**"
       },
       {
-        "q": "Student–Issue is typically: (a) one-to-one (b) one-to-many (c) many-to-many without a junction (d) no relation",
-        "a": "**(b) one-to-many.**"
+        "q": "In a one-to-many relationship, the foreign key is placed in the table on the: (a) “one” side (b) side with fewer records (c) “many” side (d) side with the longer name",
+        "a": "**(c) “many” side.** Each record on the “many” side stores the key of the one record it belongs to."
       },
       {
-        "q": "Relationships window is opened from: (a) Tools → Relationships (b) Insert → Image (c) Format → Page (d) Data → Sort",
-        "a": "**(a).**"
+        "q": "Referential integrity ensures that: (a) a foreign key value must match an existing primary key value in the related table (b) every field has a default value (c) a table has at least ten records (d) a query is always sorted",
+        "a": "**(a) a foreign key value must match an existing primary key value in the related table.** It prevents records that point to something that does not exist, such as an order for a missing customer."
       },
       {
-        "q": "In a one-to-many relationship, the foreign key is placed in the table on the: (a) “one” side (b) “many” side (c) side with fewer records (d) side with the longer name",
-        "a": "**(b) “many” side.** Each record on the “many” side stores the key of the one record it belongs to."
+        "q": "The relationship between one customer and the many orders placed by that customer is: (a) one-to-one  (b) one-to-many  (c) many-to-many  (d) not possible",
+        "a": "**(b) one-to-many.** The customer is the parent record and the orders are the child records."
       },
       {
-        "q": "Referential integrity ensures that: (a) every field has a default value (b) a table has at least ten records (c) a query is always sorted (d) a foreign key value must match an existing primary key value in the related table",
-        "a": "**(d) a foreign key value must match an existing primary key value in the related table.** It prevents records that point to something that does not exist, such as an order for a missing customer."
-      },
-      {
-        "q": "The relationship between one customer and the many orders placed by that customer is: (a) one-to-many  (b) one-to-one  (c) many-to-many  (d) not possible",
-        "a": "**(a) one-to-many.** The customer is the parent record and the orders are the child records."
-      },
-      {
-        "q": "In a relationship, the field in the child table that matches the primary key of the parent table is the: (a) foreign key  (b) primary key  (c) index  (d) alias",
-        "a": "**(a) foreign key.** It is what holds the relationship together."
+        "q": "In a relationship, the field in the child table that matches the primary key of the parent table is the: (a) primary key  (b) index  (c) alias  (d) foreign key",
+        "a": "**(d) foreign key.** It is what holds the relationship together."
       }
     ],
     "trend": "Define one-to-many + referential integrity; practical is drag-PK-to-FK.",
@@ -721,32 +721,32 @@
         "a": "**(b).**"
       },
       {
-        "q": "Names starting with R use: (a) Like 'R*' (b) = R (c) Group (d) F11",
-        "a": "**(a) Like 'R*'.**"
+        "q": "Names starting with R use: (a) = R (b) Group (c) F11 (d) Like 'R*'",
+        "a": "**(d) Like 'R*'.**"
       },
       {
-        "q": "Two criteria on the same row mean: (a) OR (b) AND (c) XOR (d) NOT a query",
-        "a": "**(b) AND.**"
+        "q": "Two criteria on the same row mean: (a) OR (b) XOR (c) AND (d) NOT a query",
+        "a": "**(c) AND.**"
       },
       {
-        "q": "To sort marks highest first: (a) Sort Ascending (b) Sort Descending on Marks (c) Primary key (d) Wrap Optimal",
-        "a": "**(b).**"
+        "q": "To sort marks highest first: (a) Sort Descending on Marks (b) Sort Ascending (c) Primary key (d) Wrap Optimal",
+        "a": "**(a).**"
       },
       {
-        "q": "In the query design grid, the row that is used to hide a field from the result is: (a) Alias (b) Visible (c) Sort (d) Function",
-        "a": "**(b) Visible.** Unticking Visible keeps the field available for criteria but does not show it in the result."
+        "q": "In the query design grid, the row that is used to hide a field from the result is: (a) Alias (b) Sort (c) Visible (d) Function",
+        "a": "**(c) Visible.** Unticking Visible keeps the field available for criteria but does not show it in the result."
       },
       {
-        "q": "The criterion >500 placed under the Fees field will show only the records where: (a) Fees is greater than 500 (b) Fees is exactly 500 (c) Fees is less than 500 (d) Fees is blank",
-        "a": "**(a) Fees is greater than 500.** The symbol > means “greater than”, so only the larger amounts are shown."
+        "q": "The criterion >500 placed under the Fees field will show only the records where: (a) Fees is exactly 500 (b) Fees is less than 500 (c) Fees is blank (d) Fees is greater than 500",
+        "a": "**(d) Fees is greater than 500.** The symbol > means “greater than”, so only the larger amounts are shown."
       },
       {
         "q": "To show only the students of Class 10 in a query you would: (a) type a criterion in the Class field  (b) sort the Class field  (c) rename the field  (d) delete the other rows",
         "a": "**(a) type a criterion in the Class field.** Criteria filter the records; sorting only reorders them."
       },
       {
-        "q": "Sorting a query result in descending order arranges the values: (a) from largest to smallest  (b) from A to Z  (c) oldest first  (d) in the order they were entered",
-        "a": "**(a) from largest to smallest.** For text, Z to A."
+        "q": "Sorting a query result in descending order arranges the values: (a) from A to Z  (b) from largest to smallest  (c) oldest first  (d) in the order they were entered",
+        "a": "**(b) from largest to smallest.** For text, Z to A."
       }
     ],
     "trend": "Write a criterion, or steps of Design View query.",
@@ -896,36 +896,36 @@
     ],
     "mcq": [
       {
-        "q": "A form is mainly for: (a) printing totals (b) entering and editing records (c) recording macros (d) 7 Cs",
-        "a": "**(b).**"
+        "q": "A form is mainly for: (a) printing totals (b) recording macros (c) entering and editing records (d) 7 Cs",
+        "a": "**(c).**"
       },
       {
-        "q": "A report is mainly for: (a) typing new rows (b) formatted output/print (c) setting OS password (d) wrapping images",
-        "a": "**(b).**"
+        "q": "A report is mainly for: (a) typing new rows (b) setting OS password (c) wrapping images (d) formatted output/print",
+        "a": "**(d).**"
       },
       {
         "q": "The best source for a filtered report is: (a) a query (b) a random image (c) Track Changes (d) a template .ott",
         "a": "**(a) a query.**"
       },
       {
-        "q": "A check box on a form suits a: (a) Yes/No field (b) photo of the school (c) Goal Seek cell (d) Heading 1 style",
-        "a": "**(a) Yes/No field.**"
+        "q": "A check box on a form suits a: (a) photo of the school (b) Goal Seek cell (c) Yes/No field (d) Heading 1 style",
+        "a": "**(c) Yes/No field.**"
       },
       {
-        "q": "The Base object designed mainly for printing information is the: (a) report (b) table (c) form (d) relationship",
-        "a": "**(a) report.** A report lays out data with headings, groups and totals for printing."
+        "q": "The Base object designed mainly for printing information is the: (a) table (b) report (c) form (d) relationship",
+        "a": "**(b) report.** A report lays out data with headings, groups and totals for printing."
       },
       {
-        "q": "A form is mainly used to: (a) enter, view and edit records conveniently (b) print large lists (c) store the data permanently (d) join two databases",
-        "a": "**(a) enter, view and edit records conveniently.** A form presents the fields of a record in a convenient screen layout, and the data are stored in the tables."
+        "q": "A form is mainly used to: (a) print large lists (b) store the data permanently (c) join two databases (d) enter, view and edit records conveniently",
+        "a": "**(d) enter, view and edit records conveniently.** A form presents the fields of a record in a convenient screen layout, and the data are stored in the tables."
       },
       {
         "q": "A report is mainly used to: (a) print or present data in a formatted way  (b) enter new records  (c) store the data  (d) delete old records",
         "a": "**(a) print or present data in a formatted way.** Data entry is done through a form."
       },
       {
-        "q": "The Report Wizard in Base is started from: (a) Reports → Use Wizard to Create Report  (b) Tables → Create Table in Design View  (c) Queries → Design View  (d) Tools → Options",
-        "a": "**(a) Reports → Use Wizard to Create Report.** It steps you through fields, grouping and layout."
+        "q": "The Report Wizard in Base is started from: (a) Tables → Create Table in Design View  (b) Reports → Use Wizard to Create Report  (c) Queries → Design View  (d) Tools → Options",
+        "a": "**(b) Reports → Use Wizard to Create Report.** It steps you through fields, grouping and layout."
       }
     ],
     "trend": "Form vs report, or wizard steps; practical is one of each.",

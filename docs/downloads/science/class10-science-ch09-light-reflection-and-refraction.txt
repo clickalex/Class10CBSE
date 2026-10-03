@@ -107,32 +107,32 @@ B. MCQs (11)
 M1. The magnification produced by a rear-view mirror fitted in vehicles is: (a) less than one (b) more than one (c) equal to one (d) more than one or less than one depending on the position of the object
     Ans: (a) less than one. A convex mirror always forms a diminished, virtual and erect image.
 
-M2. Where should an object be placed in front of a convex lens to get a real image of the same size? (a) at F (b) at 2F (c) at infinity (d) between F and 2F
-    Ans: (b) at 2F — the image forms at 2F on the other side, real, inverted and of the same size.
+M2. Where should an object be placed in front of a convex lens to get a real image of the same size? (a) at F (b) at infinity (c) at 2F (d) between F and 2F
+    Ans: (c) at 2F — the image forms at 2F on the other side, real, inverted and of the same size.
 
-M3. The refractive index of water is 1.33. The speed of light in water is: (a) 3 × 10⁸ m/s (b) 2.26 × 10⁸ m/s (c) 1.33 × 10⁸ m/s (d) 4 × 10⁸ m/s
-    Ans: (b) 2.26 × 10⁸ m/s. v = c/n = (3 × 10⁸)/1.33.
+M3. The refractive index of water is 1.33. The speed of light in water is: (a) 3 × 10⁸ m/s (b) 1.33 × 10⁸ m/s (c) 4 × 10⁸ m/s (d) 2.26 × 10⁸ m/s
+    Ans: (d) 2.26 × 10⁸ m/s. v = c/n = (3 × 10⁸)/1.33.
 
 M4. A concave mirror of focal length 15 cm forms a real image of the same size as the object. The object is placed at: (a) 15 cm from the mirror  (b) 30 cm from the mirror  (c) 45 cm from the mirror  (d) 7.5 cm from the mirror
     Ans: (b) 30 cm from the mirror. A real image of the same size is formed when the object is at the centre of curvature, C = 2f = 30 cm.
 
-M5. The lens formula is: (a) 1/v + 1/u = 1/f  (b) 1/v − 1/u = 1/f  (c) 1/u − 1/v = 1/f  (d) v − u = f
-    Ans: (b) 1/v − 1/u = 1/f. With the Cartesian sign convention, the lens formula is 1/v − 1/u = 1/f; the mirror formula has + between 1/v and 1/u.
+M5. The lens formula is: (a) 1/v + 1/u = 1/f  (b) 1/u − 1/v = 1/f  (c) v − u = f  (d) 1/v − 1/u = 1/f
+    Ans: (d) 1/v − 1/u = 1/f. With the Cartesian sign convention, the lens formula is 1/v − 1/u = 1/f; the mirror formula has + between 1/v and 1/u.
 
-M6. The power of a convex lens of focal length 50 cm is: (a) +2 D  (b) −2 D  (c) +0.5 D  (d) −0.5 D
-    Ans: (a) +2 D. P = 1/f in metres = 1/0.5 = +2 D; a converging lens always has positive power.
+M6. The power of a convex lens of focal length 50 cm is: (a) −2 D  (b) +2 D  (c) +0.5 D  (d) −0.5 D
+    Ans: (b) +2 D. P = 1/f in metres = 1/0.5 = +2 D; a converging lens always has positive power.
 
-M7. Which mirror always forms an erect and diminished image? (a) plane  (b) concave  (c) convex  (d) parabolic
-    Ans: (c) convex. Its image is always virtual, erect and smaller, which is why it is used as a rear-view mirror.
+M7. Which mirror always forms an erect and diminished image? (a) plane  (b) concave  (c) parabolic  (d) convex
+    Ans: (d) convex. Its image is always virtual, erect and smaller, which is why it is used as a rear-view mirror.
 
 M8. When a ray of light goes from glass into air, it: (a) bends towards the normal  (b) bends away from the normal  (c) does not bend  (d) is totally absorbed
     Ans: (b) bends away from the normal. Moving from a denser to a rarer medium, the ray speeds up and bends away from the normal.
 
-M9. An object is placed 20 cm in front of a concave mirror of focal length 10 cm. The image is formed: (a) 10 cm in front of the mirror  (b) 20 cm in front of the mirror  (c) 20 cm behind the mirror  (d) at infinity
-    Ans: (b) 20 cm in front of the mirror. The object is at C (2f = 20 cm), so the image is also at C, real, inverted and the same size. Mirror formula: 1/v = 1/f − 1/u = −1/10 + 1/20 = −1/20, v = −20 cm.
+M9. An object is placed 20 cm in front of a concave mirror of focal length 10 cm. The image is formed: (a) 10 cm in front of the mirror  (b) 20 cm behind the mirror  (c) 20 cm in front of the mirror  (d) at infinity
+    Ans: (c) 20 cm in front of the mirror. The object is at C (2f = 20 cm), so the image is also at C, real, inverted and the same size. Mirror formula: 1/v = 1/f − 1/u = −1/10 + 1/20 = −1/20, v = −20 cm.
 
-M10. A ray of light enters a denser medium along the normal (angle of incidence 0°). It: (a) bends towards the normal  (b) bends away from the normal  (c) passes undeviated  (d) is totally reflected
-    Ans: (c) passes undeviated. Refraction changes the speed but there is no bending when the ray is along the normal, because sin 0° = 0 on both sides of Snell's law.
+M10. A ray of light enters a denser medium along the normal (angle of incidence 0°). It: (a) passes undeviated  (b) bends towards the normal  (c) bends away from the normal  (d) is totally reflected
+    Ans: (a) passes undeviated. Refraction changes the speed but there is no bending when the ray is along the normal, because sin 0° = 0 on both sides of Snell's law.
 
-M11. The image formed by a concave lens of a real object is always: (a) real and inverted  (b) virtual, erect and diminished  (c) virtual, erect and magnified  (d) real and magnified
-    Ans: (b) virtual, erect and diminished. A diverging lens forms the image between F₁ and the optical centre on the same side as the object, whatever the object distance.
+M11. The image formed by a concave lens of a real object is always: (a) real and inverted  (b) virtual, erect and magnified  (c) virtual, erect and diminished  (d) real and magnified
+    Ans: (c) virtual, erect and diminished. A diverging lens forms the image between F₁ and the optical centre on the same side as the object, whatever the object distance.

@@ -100,8 +100,8 @@ Q12. [Long · 5 marks] If α and β are the zeroes of x² − 4x + 1, find (i) �
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The zeroes of x² + 7x + 10 are: (a) 2, 5  (b) −2, −5  (c) 2, −5  (d) −2, 5
-    Ans: (b) −2, −5. Sum = −7, product = 10, so both zeroes are negative.
+M1. The zeroes of x² + 7x + 10 are: (a) 2, 5  (b) 2, −5  (c) −2, −5  (d) −2, 5
+    Ans: (c) −2, −5. Sum = −7, product = 10, so both zeroes are negative.
 
 M2. If α, β are zeroes of x² − 5x + 6, then α + β = ? (a) 6  (b) 5  (c) −5  (d) 1
     Ans: (b) 5. Sum = −b/a = 5.
@@ -109,14 +109,14 @@ M2. If α, β are zeroes of x² − 5x + 6, then α + β = ? (a) 6  (b) 5  (c) �
 M3. A quadratic polynomial whose zeroes are 3 and −3 is: (a) x² − 9  (b) x² + 9  (c) x² − 6x + 9  (d) x² − 3
     Ans: (a) x² − 9. Sum = 0 and product = −9.
 
-M4. If the zeroes of a quadratic polynomial ax² + bx + c are equal in magnitude but opposite in sign, then: (a) b = 0  (b) a = 0  (c) c = 0  (d) a + c = 0
-    Ans: (a) b = 0. Zeroes α and −α have sum 0, and the sum is −b/a, so b = 0.
+M4. If the zeroes of a quadratic polynomial ax² + bx + c are equal in magnitude but opposite in sign, then: (a) a = 0  (b) b = 0  (c) c = 0  (d) a + c = 0
+    Ans: (b) b = 0. Zeroes α and −α have sum 0, and the sum is −b/a, so b = 0.
 
 M5. The graph of a quadratic polynomial lies entirely above the x-axis. The number of real zeroes it has is: (a) one  (b) two  (c) infinitely many  (d) none
     Ans: (d) none. Zeroes are the x-coordinates of the points where the graph meets the x-axis; a graph that never meets it has no real zero.
 
-M6. A polynomial of degree 3 is called: (a) linear  (b) quadratic  (c) cubic  (d) biquadratic
-    Ans: (c) cubic. Degree 1 is linear, 2 is quadratic, 3 is cubic and 4 is biquadratic.
+M6. A polynomial of degree 3 is called: (a) linear  (b) quadratic  (c) biquadratic  (d) cubic
+    Ans: (d) cubic. Degree 1 is linear, 2 is quadratic, 3 is cubic and 4 is biquadratic.
 
 M7. If one zero of x² − 4x + 1 is 2 + √3, the other zero is: (a) 2 − √3  (b) −2 − √3  (c) √3 − 2  (d) −√3
     Ans: (a) 2 − √3. Sum of zeroes = 4, so the other zero = 4 − (2 + √3) = 2 − √3.

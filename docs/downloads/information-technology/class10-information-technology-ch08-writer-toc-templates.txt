@@ -85,26 +85,26 @@ Q12. [Long · 5 marks] A student must prepare a 30-page project report that a te
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Writer templates usually use the extension: (a) .ods (b) .ott (c) .odb (d) .jpg
-    Ans: (b) .ott.
+M1. Writer templates usually use the extension: (a) .ods (b) .odb (c) .ott (d) .jpg
+    Ans: (c) .ott.
 
 M2. ToC is updated by: (a) F11 (b) right-click the ToC → Update Index (c) Goal Seek (d) Group
     Ans: (b).
 
-M3. Mail merge needs: (a) only an image (b) a main document and a data source (c) only a printer (d) a Base report only
-    Ans: (b).
+M3. Mail merge needs: (a) a main document and a data source (b) only an image (c) only a printer (d) a Base report only
+    Ans: (a).
 
-M4. Recorded deletions in Track Changes usually appear as: (a) a new page (b) strike-out text (c) a ToC (d) a style
-    Ans: (b) strike-out text.
+M4. Recorded deletions in Track Changes usually appear as: (a) a new page (b) a ToC (c) a style (d) strike-out text
+    Ans: (d) strike-out text.
 
-M5. To add a note about a word without changing the text itself, you use a: (a) comment (b) template (c) page break (d) caption
-    Ans: (a) comment. A comment is attached to the text and is shown in the margin, but it is not part of the document text.
+M5. To add a note about a word without changing the text itself, you use a: (a) template (b) page break (c) comment (d) caption
+    Ans: (c) comment. A comment is attached to the text and is shown in the margin, but it is not part of the document text.
 
-M6. In mail merge, the file that holds the names and addresses is called the: (a) template (b) data source (c) style (d) macro
-    Ans: (b) data source. The data source (for example a spreadsheet or database) supplies the values that fill the fields of the letter.
+M6. In mail merge, the file that holds the names and addresses is called the: (a) data source (b) template (c) style (d) macro
+    Ans: (a) data source. The data source (for example a spreadsheet or database) supplies the values that fill the fields of the letter.
 
-M7. A template is: (a) a ready-made document with styles, margins and layout already set  (b) a picture  (c) a macro  (d) a printer setting
-    Ans: (a) a ready-made document with styles, margins and layout already set. Saving a template saves time on every similar document.
+M7. A template is: (a) a picture  (b) a ready-made document with styles, margins and layout already set  (c) a macro  (d) a printer setting
+    Ans: (b) a ready-made document with styles, margins and layout already set. Saving a template saves time on every similar document.
 
-M8. Recorded changes are accepted or rejected from: (a) Edit → Track Changes → Manage  (b) File → Save  (c) Insert → Comment  (d) View → Zoom
-    Ans: (a) Edit → Track Changes → Manage. The Manage dialog lists every change with its author and time.
+M8. Recorded changes are accepted or rejected from: (a) File → Save  (b) Insert → Comment  (c) View → Zoom  (d) Edit → Track Changes → Manage
+    Ans: (d) Edit → Track Changes → Manage. The Manage dialog lists every change with its author and time.

@@ -155,24 +155,24 @@
         "a": "**(b) read the questions first**, so that you know what information to look for."
       },
       {
-        "q": "The most exam-ready way to revise “Reading: Unseen and Case-based Passages” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Discursive and factual passages, MCQ-based, with a speed strategy."
+        "q": "The most exam-ready way to revise “Reading: Unseen and Case-based Passages” is: (a) learn the key idea plus one example  (b) read the heading only  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(a) learn the key idea plus one example.** The chapter is Discursive and factual passages, MCQ-based, with a speed strategy."
       },
       {
-        "q": "A 3-mark answer on “Reading: Unseen and Case-based Passages” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "A 3-mark answer on “Reading: Unseen and Case-based Passages” should: (a) be one sentence  (b) copy the whole chapter  (c) leave the example out  (d) start with the idea, then a reason or method",
+        "a": "**(d) start with the idea, then a reason or method.** Step marks follow that frame."
       },
       {
-        "q": "Before writing the answers to an unseen passage you should: (a) read the questions, then read the passage  (b) start writing immediately  (c) copy lines from the passage  (d) skip the passage",
-        "a": "**(a) read the questions, then read the passage.** It saves time and keeps your reading focused."
+        "q": "Before writing the answers to an unseen passage you should: (a) start writing immediately  (b) copy lines from the passage  (c) read the questions, then read the passage  (d) skip the passage",
+        "a": "**(c) read the questions, then read the passage.** It saves time and keeps your reading focused."
       },
       {
         "q": "Answers to an unseen passage should be: (a) in your own words and within the word limit  (b) as long as possible  (c) copied from the passage  (d) written as bullet points only",
         "a": "**(a) in your own words and within the word limit.** Copying whole sentences loses marks."
       },
       {
-        "q": "In a case-based factual passage, the visual input is usually: (a) a chart, table or graph (b) a photograph (c) a map only (d) a cartoon",
-        "a": "**(a) a chart, table or graph.** The questions test whether you can read data, not just prose."
+        "q": "In a case-based factual passage, the visual input is usually: (a) a photograph (b) a map only (c) a cartoon (d) a chart, table or graph",
+        "a": "**(d) a chart, table or graph.** The questions test whether you can read data, not just prose."
       }
     ],
     "trend": "The pattern is stable: one discursive passage and one case-based passage with visual input, all objective. The skill is speed and elimination, not knowledge.",
@@ -332,36 +332,36 @@
     ],
     "mcq": [
       {
-        "q": "Choose the correct sentence: (a) The committee have taken their seats. (b) The committee has taken its seat. (c) The committee have taken its seat. (d) The committee has taken their seats.",
-        "a": "**(b)** — when the collective noun acts as a single unit, the verb and the pronoun are both singular."
+        "q": "Choose the correct sentence: (a) The committee have taken their seats. (b) The committee have taken its seat. (c) The committee has taken their seats. (d) The committee has taken its seat.",
+        "a": "**(d)** — when the collective noun acts as a single unit, the verb and the pronoun are both singular."
       },
       {
-        "q": "Report the sentence: He said, 'I am leaving tomorrow.' (a) He said that he was leaving the next day. (b) He said that he is leaving tomorrow. (c) He said that he left tomorrow. (d) He said that he will leave the next day.",
-        "a": "**(a)** — the tense moves back one step, and 'tomorrow' becomes 'the next day'."
+        "q": "Report the sentence: He said, 'I am leaving tomorrow.' (a) He said that he is leaving tomorrow. (b) He said that he was leaving the next day. (c) He said that he left tomorrow. (d) He said that he will leave the next day.",
+        "a": "**(b)** — the tense moves back one step, and 'tomorrow' becomes 'the next day'."
       },
       {
-        "q": "Fill in the blank: She has been waiting ____ two hours. (a) for (b) since (c) from (d) during",
-        "a": "**(a) for** — 'for' is used with a period of time; 'since' is used with a point in time."
+        "q": "Fill in the blank: She has been waiting ____ two hours. (a) since (b) from (c) for (d) during",
+        "a": "**(c) for** — 'for' is used with a period of time; 'since' is used with a point in time."
       },
       {
         "q": "The most exam-ready way to revise “Grammar in Context” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
         "a": "**(b) learn the key idea plus one example.** The chapter is Tenses, modals, subject-verb agreement, reported speech, determiners."
       },
       {
-        "q": "A 3-mark answer on “Grammar in Context” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "A 3-mark answer on “Grammar in Context” should: (a) start with the idea, then a reason or method  (b) be one sentence  (c) copy the whole chapter  (d) leave the example out",
+        "a": "**(a) start with the idea, then a reason or method.** Step marks follow that frame."
       },
       {
-        "q": "Choose the correct form: Neither of the boys ___ present. (a) were  (b) was  (c) are  (d) have been",
-        "a": "**(b) was.** ‘Neither' and ‘either' are treated as singular in formal English."
+        "q": "Choose the correct form: Neither of the boys ___ present. (a) were  (b) are  (c) was  (d) have been",
+        "a": "**(c) was.** ‘Neither' and ‘either' are treated as singular in formal English."
       },
       {
         "q": "The correct reported form of ‘He said, “I am busy”' is: (a) He said that he was busy  (b) He said that he is busy  (c) He said that I was busy  (d) He says he was busy",
         "a": "**(a) He said that he was busy.** The pronoun changes to he and the tense moves one step back."
       },
       {
-        "q": "Fill in the blank: He asked me ____ I could help him. (a) if (b) that (c) what (d) to",
-        "a": "**(a) if.** A reported yes/no question joins the main clause with if (or whether), never that."
+        "q": "Fill in the blank: He asked me ____ I could help him. (a) that (b) what (c) to (d) if",
+        "a": "**(d) if.** A reported yes/no question joins the main clause with if (or whether), never that."
       }
     ],
     "trend": "The topics are fixed — tenses, modals, subject-verb agreement, reported speech and determiners — and are tested inside a passage or dialogue, so the skill is recognising the pattern in context.",
@@ -535,36 +535,36 @@
     ],
     "mcq": [
       {
-        "q": "In a formal letter, the sender's name is written: (a) at the top with the address (b) at the bottom, under the signature (c) in the subject line (d) after the salutation",
-        "a": "**(b) at the bottom, under the signature** — the address at the top does not include the name."
+        "q": "In a formal letter, the sender's name is written: (a) at the bottom, under the signature (b) at the top with the address (c) in the subject line (d) after the salutation",
+        "a": "**(a) at the bottom, under the signature** — the address at the top does not include the name."
       },
       {
         "q": "The word limit for a formal letter in the board examination is: (a) 50–60 words (b) 100–120 words (c) 150–200 words (d) no limit",
         "a": "**(b) 100–120 words.**"
       },
       {
-        "q": "'Yours faithfully' is used when the letter begins with: (a) Dear Mr Sharma (b) Sir or Madam (c) Respected Principal (d) My dear friend",
-        "a": "**(b) Sir or Madam** — 'Yours sincerely' is used when the recipient is addressed by name."
+        "q": "'Yours faithfully' is used when the letter begins with: (a) Dear Mr Sharma (b) Respected Principal (c) My dear friend (d) Sir or Madam",
+        "a": "**(d) Sir or Madam** — 'Yours sincerely' is used when the recipient is addressed by name."
       },
       {
-        "q": "The most exam-ready way to revise “Formal Letter Writing” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Letters to the editor and letters of order, enquiry, complaint."
+        "q": "The most exam-ready way to revise “Formal Letter Writing” is: (a) learn the key idea plus one example  (b) read the heading only  (c) skip written practice  (d) memorise a random extra topic",
+        "a": "**(a) learn the key idea plus one example.** The chapter is Letters to the editor and letters of order, enquiry, complaint."
       },
       {
-        "q": "A 3-mark answer on “Formal Letter Writing” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "A 3-mark answer on “Formal Letter Writing” should: (a) be one sentence  (b) copy the whole chapter  (c) leave the example out  (d) start with the idea, then a reason or method",
+        "a": "**(d) start with the idea, then a reason or method.** Step marks follow that frame."
       },
       {
-        "q": "A letter to the editor begins with: (a) the sender's address, date, and then ‘The Editor'  (b) the subject line  (c) ‘Dear Sir' alone  (d) a question",
-        "a": "**(a) the sender's address, date, and then ‘The Editor'.** The format marks depend on this order."
+        "q": "A letter to the editor begins with: (a) the subject line  (b) the sender's address, date, and then ‘The Editor'  (c) ‘Dear Sir' alone  (d) a question",
+        "a": "**(b) the sender's address, date, and then ‘The Editor'.** The format marks depend on this order."
       },
       {
-        "q": "In a letter of complaint or order, the subject line should be: (a) short and specific  (b) long and detailed  (c) left out  (d) written as a question",
-        "a": "**(a) short and specific.** It tells the reader at once what the letter is about."
+        "q": "In a letter of complaint or order, the subject line should be: (a) long and detailed  (b) left out  (c) short and specific  (d) written as a question",
+        "a": "**(c) short and specific.** It tells the reader at once what the letter is about."
       },
       {
-        "q": "A letter of enquiry should always ask for: (a) specific details such as price, terms and delivery (b) personal favours (c) a job (d) an autograph",
-        "a": "**(a) specific details such as price, terms and delivery.** Vague enquiries get vague replies — and fewer marks."
+        "q": "A letter of enquiry should always ask for: (a) personal favours (b) a job (c) specific details such as price, terms and delivery (d) an autograph",
+        "a": "**(c) specific details such as price, terms and delivery.** Vague enquiries get vague replies — and fewer marks."
       }
     ],
     "trend": "One formal letter is set every year, alternating between a letter to the editor on a civic issue and a letter of order, enquiry or complaint. The marks lost are format marks and word-limit marks.",
@@ -733,32 +733,32 @@
     ],
     "mcq": [
       {
-        "q": "An analytical paragraph is based on: (a) a story (b) a chart, graph, table or set of clues (c) a poem (d) a personal experience",
-        "a": "**(b) a chart, graph, table, data set, outline or set of clues** provided in the question."
+        "q": "An analytical paragraph is based on: (a) a story (b) a poem (c) a chart, graph, table or set of clues (d) a personal experience",
+        "a": "**(c) a chart, graph, table, data set, outline or set of clues** provided in the question."
       },
       {
         "q": "The word limit for an analytical paragraph is: (a) 50–60 words (b) 100–120 words (c) 150–200 words (d) no limit",
         "a": "**(b) 100–120 words.**"
       },
       {
-        "q": "The concluding sentence of an analytical paragraph should: (a) give a personal opinion (b) state a trend or inference from the data (c) list more figures (d) repeat the introduction",
-        "a": "**(b) state a trend or inference from the data** — not a personal opinion, unless the question asks for one."
+        "q": "The concluding sentence of an analytical paragraph should: (a) state a trend or inference from the data (b) give a personal opinion (c) list more figures (d) repeat the introduction",
+        "a": "**(a) state a trend or inference from the data** — not a personal opinion, unless the question asks for one."
       },
       {
         "q": "The most exam-ready way to revise “Analytical Paragraph” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
         "a": "**(b) learn the key idea plus one example.** The chapter is A data-based paragraph from a chart, graph, table or set of clues."
       },
       {
-        "q": "A 3-mark answer on “Analytical Paragraph” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "A 3-mark answer on “Analytical Paragraph” should: (a) be one sentence  (b) copy the whole chapter  (c) start with the idea, then a reason or method  (d) leave the example out",
+        "a": "**(c) start with the idea, then a reason or method.** Step marks follow that frame."
       },
       {
-        "q": "An analytical paragraph must be based on: (a) the data given in the chart or table  (b) personal opinion only  (c) imaginary facts  (d) a news report",
-        "a": "**(a) the data given in the chart or table.** Your own views are added only as a conclusion."
+        "q": "An analytical paragraph must be based on: (a) personal opinion only  (b) imaginary facts  (c) a news report  (d) the data given in the chart or table",
+        "a": "**(d) the data given in the chart or table.** Your own views are added only as a conclusion."
       },
       {
-        "q": "The usual length of an analytical paragraph in the board paper is: (a) 100 to 120 words  (b) 300 words  (c) 20 words  (d) 500 words",
-        "a": "**(a) 100 to 120 words.** It should cover the trend, the data and one conclusion."
+        "q": "The usual length of an analytical paragraph in the board paper is: (a) 300 words  (b) 20 words  (c) 500 words  (d) 100 to 120 words",
+        "a": "**(d) 100 to 120 words.** It should cover the trend, the data and one conclusion."
       },
       {
         "q": "Figures in an analytical paragraph should be: (a) compared with each other to show a trend (b) listed one by one without comment (c) invented to fill space (d) rounded off to zero",

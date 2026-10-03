@@ -86,26 +86,26 @@ Q12. [Long · 5 marks] CSS gives a web author full control of a page’s look. E
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. To make paragraph text red you write — (a) p { font-color: red; } (b) p { color: red; } (c) p { text: red; } (d) p { ink: red; }
-    Ans: (b) p { color: red; }. The property is color; font-color does not exist.
+M1. To make paragraph text red you write — (a) p { font-color: red; } (b) p { text: red; } (c) p { color: red; } (d) p { ink: red; }
+    Ans: (c) p { color: red; }. The property is color; font-color does not exist.
 
 M2. Which of these is a valid border-style value? (a) striped (b) dashed (c) glowing (d) thick
     Ans: (b) dashed. Valid values include solid, dashed, dotted, double and none.
 
-M3. The space OUTSIDE an element’s border is controlled by — (a) padding (b) margin (c) outline (d) float
-    Ans: (b) margin. Margin pushes neighbouring elements away from the box.
+M3. The space OUTSIDE an element’s border is controlled by — (a) padding (b) outline (c) float (d) margin
+    Ans: (d) margin. Margin pushes neighbouring elements away from the box.
 
-M4. To set a picture 200 px wide with text wrapping on its right, use — (a) img { align: left; } (b) img { float: left; width: 200px; } (c) img { margin: left; } (d) img { size: 200px; }
-    Ans: (b) img { float: left; width: 200px; }. Float pulls the picture aside so text wraps around it.
+M4. To set a picture 200 px wide with text wrapping on its right, use — (a) img { align: left; } (b) img { margin: left; } (c) img { float: left; width: 200px; } (d) img { size: 200px; }
+    Ans: (c) img { float: left; width: 200px; }. Float pulls the picture aside so text wraps around it.
 
-M5. Which rule makes all <h2> headings italic? (a) h2 { font: italic; } (b) h2 { style: italic; } (c) h2 { font-style: italic; } (d) h2 { text: italic; }
-    Ans: (c) h2 { font-style: italic; }. Font has three properties: family, size and style.
+M5. Which rule makes all <h2> headings italic? (a) h2 { font: italic; } (b) h2 { font-style: italic; } (c) h2 { style: italic; } (d) h2 { text: italic; }
+    Ans: (b) h2 { font-style: italic; }. Font has three properties: family, size and style.
 
-M6. The attribute that makes the browser show play, pause and volume buttons is: (a) controls  (b) autoplay  (c) loop  (d) src
-    Ans: (a) controls. Without it the video or audio cannot be started by the visitor.
+M6. The attribute that makes the browser show play, pause and volume buttons is: (a) autoplay  (b) loop  (c) src  (d) controls
+    Ans: (d) controls. Without it the video or audio cannot be started by the visitor.
 
-M7. Which tag embeds a film in a page? (a) <movie> (b) <media> (c) <video> (d) <film>
-    Ans: (c) <video>. Example: <video src="lesson.mp4" controls></video>.
+M7. Which tag embeds a film in a page? (a) <video> (b) <movie> (c) <media> (d) <film>
+    Ans: (a) <video>. Example: <video src="lesson.mp4" controls></video>.
 
-M8. outline differs from border because it — (a) sits inside the text (b) is drawn outside the border (c) only works on images (d) needs no style value
-    Ans: (b) is drawn outside the border. It is often used to highlight the active field.
+M8. outline differs from border because it — (a) is drawn outside the border (b) sits inside the text (c) only works on images (d) needs no style value
+    Ans: (a) is drawn outside the border. It is often used to highlight the active field.

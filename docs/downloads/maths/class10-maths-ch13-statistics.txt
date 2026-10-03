@@ -98,26 +98,26 @@ Q12. [Application · 4 marks] For the distribution 0–10 (5), 10–20 (8), 20�
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The class mark of the class 15–25 is: (a) 15  (b) 20  (c) 25  (d) 10
-    Ans: (b) 20. (15 + 25)/2.
+M1. The class mark of the class 15–25 is: (a) 15  (b) 25  (c) 10  (d) 20
+    Ans: (d) 20. (15 + 25)/2.
 
-M2. The median class is the class whose cumulative frequency is: (a) equal to N/2  (b) the first one greater than N/2  (c) the largest  (d) the smallest
-    Ans: (b) The first one greater than N/2.
+M2. The median class is the class whose cumulative frequency is: (a) the first one greater than N/2  (b) equal to N/2  (c) the largest  (d) the smallest
+    Ans: (a) The first one greater than N/2.
 
 M3. If mean = 20 and mode = 26, then by the empirical relation the median is: (a) 22  (b) 22.67  (c) 23  (d) 24
     Ans: (a) 22. 3 Median = 26 + 2(20) = 66, so Median = 22.
 
-M4. In grouped data, the mean is calculated using the class marks because: (a) the class limits are never known  (b) every observation of a class is assumed to lie at its midpoint  (c) it always makes the mean larger  (d) the frequencies are not required
-    Ans: (b) every observation of a class is assumed to lie at its midpoint. The individual values inside a class are unknown, so each is represented by the class mark.
+M4. In grouped data, the mean is calculated using the class marks because: (a) the class limits are never known  (b) it always makes the mean larger  (c) the frequencies are not required  (d) every observation of a class is assumed to lie at its midpoint
+    Ans: (d) every observation of a class is assumed to lie at its midpoint. The individual values inside a class are unknown, so each is represented by the class mark.
 
-M5. In the mode formula l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, the symbol f₁ stands for: (a) the frequency of the modal class  (b) the frequency of the class before the modal class  (c) the frequency of the class after the modal class  (d) the total of all frequencies
-    Ans: (a) the frequency of the modal class. f₁ is the frequency of the modal class; f₀ and f₂ are those of the classes just before and just after it.
+M5. In the mode formula l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, the symbol f₁ stands for: (a) the frequency of the class before the modal class  (b) the frequency of the class after the modal class  (c) the frequency of the modal class  (d) the total of all frequencies
+    Ans: (c) the frequency of the modal class. f₁ is the frequency of the modal class; f₀ and f₂ are those of the classes just before and just after it.
 
 M6. The mode of 3, 5, 7, 5, 9, 5, 8 is: (a) 3  (b) 5  (c) 7  (d) 9
     Ans: (b) 5. It occurs three times, more than any other value.
 
-M7. The class mark of the class 45–55 is: (a) 45  (b) 50  (c) 55  (d) 100
-    Ans: (b) 50. Class mark = (lower limit + upper limit)/2 = 50.
+M7. The class mark of the class 45–55 is: (a) 100  (b) 55  (c) 50  (d) 45
+    Ans: (c) 50. Class mark = (lower limit + upper limit)/2 = 50.
 
-M8. The empirical relation connecting the three measures of central tendency is: (a) Mode = 3 Median − 2 Mean  (b) Median = 3 Mode − 2 Mean  (c) Mean = 3 Median − 2 Mode  (d) Mode = 2 Median − Mean
-    Ans: (a) Mode = 3 Median − 2 Mean. Equivalently, 3 Median = Mode + 2 Mean.
+M8. The empirical relation connecting the three measures of central tendency is: (a) Median = 3 Mode − 2 Mean  (b) Mode = 3 Median − 2 Mean  (c) Mean = 3 Median − 2 Mode  (d) Mode = 2 Median − Mean
+    Ans: (b) Mode = 3 Median − 2 Mean. Equivalently, 3 Median = Mode + 2 Mean.

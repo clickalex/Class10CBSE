@@ -90,23 +90,23 @@ B. MCQs (8)
 M1. A sheet name with a space is written as: (a) Term 1.A1 (b) 'Term 1'.A1 (c) Term_only (d) (Term1)A1
     Ans: (b) 'Term 1'.A1.
 
-M2. Insert → Hyperlink can open: (a) only images (b) a web page or a file (c) Goal Seek (d) a style
-    Ans: (b).
+M2. Insert → Hyperlink can open: (a) only images (b) Goal Seek (c) a web page or a file (d) a style
+    Ans: (c).
 
-M3. Live totals that update when a source sheet changes need: (a) a screenshot (b) a formula/link (c) Track Changes (d) a caption
-    Ans: (b).
+M3. Live totals that update when a source sheet changes need: (a) a screenshot (b) Track Changes (c) a caption (d) a formula/link
+    Ans: (d).
 
-M4. Paste Special → Link is used to: (a) break a file (b) keep a live connection to copied cells (c) record a macro (d) group shapes
-    Ans: (b).
+M4. Paste Special → Link is used to: (a) keep a live connection to copied cells (b) break a file (c) record a macro (d) group shapes
+    Ans: (a).
 
-M5. A hyperlink in Calc can point to: (a) a web page, an e-mail address, a file or a place in the same document (b) only another cell in the same sheet (c) only a picture (d) only a macro
-    Ans: (a) a web page, an e-mail address, a file or a place in the same document. Insert → Hyperlink offers an internet link, a mail link, a document link and a link to a target in the current document.
+M5. A hyperlink in Calc can point to: (a) only another cell in the same sheet (b) a web page, an e-mail address, a file or a place in the same document (c) only a picture (d) only a macro
+    Ans: (b) a web page, an e-mail address, a file or a place in the same document. Insert → Hyperlink offers an internet link, a mail link, a document link and a link to a target in the current document.
 
-M6. If the source file of a linked cell is moved to another folder, the linked cell will probably: (a) update itself automatically (b) turn into a hyperlink (c) show an error or an old value (d) delete the source file
-    Ans: (c) show an error or an old value. The link remembers the old location, so Calc cannot find the source unless the link is repaired.
+M6. If the source file of a linked cell is moved to another folder, the linked cell will probably: (a) show an error or an old value (b) update itself automatically (c) turn into a hyperlink (d) delete the source file
+    Ans: (a) show an error or an old value. The link remembers the old location, so Calc cannot find the source unless the link is repaired.
 
-M7. Linked data in a spreadsheet: (a) updates when the source value changes  (b) is frozen at the time of linking  (c) must be typed again  (d) cannot be used in a formula
-    Ans: (a) updates when the source value changes. That is the whole point of linking.
+M7. Linked data in a spreadsheet: (a) is frozen at the time of linking  (b) must be typed again  (c) cannot be used in a formula  (d) updates when the source value changes
+    Ans: (d) updates when the source value changes. That is the whole point of linking.
 
-M8. A hyperlink in a sheet can point to: (a) a web page, an email address or a place in the same document  (b) only a web page  (c) only a file on the desktop  (d) only a printer
-    Ans: (a) a web page, an email address or a place in the same document. Insert → Hyperlink sets any of these.
+M8. A hyperlink in a sheet can point to: (a) only a web page  (b) only a file on the desktop  (c) a web page, an email address or a place in the same document  (d) only a printer
+    Ans: (c) a web page, an email address or a place in the same document. Insert → Hyperlink sets any of these.

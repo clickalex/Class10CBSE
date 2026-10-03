@@ -90,23 +90,23 @@ B. MCQs (8)
 M1. Shortcut for the Styles window is usually: (a) F1 (b) F5 (c) F11 (d) F12
     Ans: (c) F11.
 
-M2. Which style changes a few words inside a paragraph? (a) Page (b) Character (c) Frame (d) Table
-    Ans: (b) Character.
+M2. Which style changes a few words inside a paragraph? (a) Page (b) Frame (c) Character (d) Table
+    Ans: (c) Character.
 
-M3. Fill Format is used to: (a) insert images (b) paint a style onto many paragraphs (c) mail merge (d) record a macro
-    Ans: (b).
+M3. Fill Format is used to: (a) insert images (b) mail merge (c) record a macro (d) paint a style onto many paragraphs
+    Ans: (d).
 
-M4. ToC in Writer is built from: (a) bold text (b) Heading styles (c) page numbers only (d) hyperlinks only
-    Ans: (b) Heading styles.
+M4. ToC in Writer is built from: (a) Heading styles (b) bold text (c) page numbers only (d) hyperlinks only
+    Ans: (a) Heading styles.
 
 M5. To change the colour of all headings of a certain level at once, you should: (a) modify the heading’s paragraph style (b) format each heading by hand (c) use the Fill Format tool on one word (d) change the page margins
     Ans: (a) modify the heading’s paragraph style. Headings use paragraph styles, and modifying the style updates all of them.
 
-M6. A style that controls margins, headers and footers belongs to the category of: (a) page styles (b) character styles (c) frame styles (d) list styles
-    Ans: (a) page styles. Page styles describe the layout of the page, including margins, headers and footers.
+M6. A style that controls margins, headers and footers belongs to the category of: (a) character styles (b) page styles (c) frame styles (d) list styles
+    Ans: (b) page styles. Page styles describe the layout of the page, including margins, headers and footers.
 
-M7. The Styles window in Writer is opened with: (a) F11  (b) Ctrl + S  (c) F7  (d) Ctrl + P
-    Ans: (a) F11. F7 opens the spell-check and Ctrl + S saves the document.
+M7. The Styles window in Writer is opened with: (a) Ctrl + S  (b) F7  (c) Ctrl + P  (d) F11
+    Ans: (d) F11. F7 opens the spell-check and Ctrl + S saves the document.
 
-M8. Heading 1, Heading 2 and Heading 3 are examples of: (a) paragraph styles  (b) character styles  (c) page styles  (d) frame styles
-    Ans: (a) paragraph styles. They format a whole paragraph and are used to build a table of contents.
+M8. Heading 1, Heading 2 and Heading 3 are examples of: (a) character styles  (b) paragraph styles  (c) page styles  (d) frame styles
+    Ans: (b) paragraph styles. They format a whole paragraph and are used to build a table of contents.

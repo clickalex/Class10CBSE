@@ -89,23 +89,23 @@ B. MCQs (8)
 M1. ARPANET was developed in — (a) 1959 (b) 1969 (c) 1989 (d) 1995
     Ans: (b) 1969, by the US Department of Defense's research agency.
 
-M2. Who invented the World Wide Web? (a) Vint Cerf (b) Tim Berners-Lee (c) Bill Gates (d) Charles Babbage
-    Ans: (b) Tim Berners-Lee, in 1989.
+M2. Who invented the World Wide Web? (a) Tim Berners-Lee (b) Vint Cerf (c) Bill Gates (d) Charles Babbage
+    Ans: (a) Tim Berners-Lee, in 1989.
 
 M3. How many bits are in an IPv6 address? (a) 32 (b) 64 (c) 128 (d) 256
     Ans: (c) 128 bits. IPv4 uses 32.
 
-M4. DNS stands for — (a) Dynamic Name Service (b) Domain Name System (c) Data Network Server (d) Digital Naming Standard
-    Ans: (b) Domain Name System.
+M4. DNS stands for — (a) Dynamic Name Service (b) Data Network Server (c) Digital Naming Standard (d) Domain Name System
+    Ans: (d) Domain Name System.
 
-M5. An IPv4 address is made up of: (a) 64 bits, written as eight hexadecimal numbers (b) 128 bits, written as eight hexadecimal groups (c) 32 bits, written as four numbers from 0 to 255 (d) 16 bits, written as two numbers
-    Ans: (c) 32 bits, written as four numbers from 0 to 255. IPv4 uses 32 bits, shown as four decimal numbers separated by dots, for example 192.168.1.1; IPv6 uses 128 bits.
+M5. An IPv4 address is made up of: (a) 64 bits, written as eight hexadecimal numbers (b) 32 bits, written as four numbers from 0 to 255 (c) 128 bits, written as eight hexadecimal groups (d) 16 bits, written as two numbers
+    Ans: (b) 32 bits, written as four numbers from 0 to 255. IPv4 uses 32 bits, shown as four decimal numbers separated by dots, for example 192.168.1.1; IPv6 uses 128 bits.
 
-M6. The amount of data that a connection can carry per second is called its: (a) latency (b) bandwidth (c) protocol (d) domain
-    Ans: (b) bandwidth. Bandwidth measures capacity; latency measures delay.
+M6. The amount of data that a connection can carry per second is called its: (a) bandwidth (b) latency (c) protocol (d) domain
+    Ans: (a) bandwidth. Bandwidth measures capacity; latency measures delay.
 
-M7. The World Wide Web was invented by: (a) Tim Berners-Lee  (b) Bill Gates  (c) Vint Cerf  (d) Steve Jobs
-    Ans: (a) Tim Berners-Lee. He proposed it in 1989 while working at CERN.
+M7. The World Wide Web was invented by: (a) Bill Gates  (b) Vint Cerf  (c) Tim Berners-Lee  (d) Steve Jobs
+    Ans: (c) Tim Berners-Lee. He proposed it in 1989 while working at CERN.
 
-M8. URL stands for: (a) Uniform Resource Locator  (b) Universal Resource Link  (c) United Resource Locator  (d) Uniform Resource Link
-    Ans: (a) Uniform Resource Locator. It is the address of a page on the web.
+M8. URL stands for: (a) Universal Resource Link  (b) United Resource Locator  (c) Uniform Resource Link  (d) Uniform Resource Locator
+    Ans: (d) Uniform Resource Locator. It is the address of a page on the web.

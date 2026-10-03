@@ -85,26 +85,26 @@ Q12. [Long · 5 marks] Describe the steps to insert a picture in a Writer docume
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Optimal wrap means: (a) image hidden (b) text flows in the best way around the image (c) image deleted (d) no caption
-    Ans: (b).
+M1. Optimal wrap means: (a) image hidden (b) image deleted (c) no caption (d) text flows in the best way around the image
+    Ans: (d).
 
-M2. To move several shapes together: (a) Mail Merge (b) Group (c) Goal Seek (d) Styles F11
-    Ans: (b) Group.
+M2. To move several shapes together: (a) Mail Merge (b) Goal Seek (c) Styles F11 (d) Group
+    Ans: (d) Group.
 
 M3. Inserting a caption is done by: (a) File → New (b) right-click image → Insert Caption (c) Tools → Macros (d) Data → Sort
     Ans: (b).
 
-M4. Anchor “As Character” treats the image: (a) as a page background (b) like a character in the line (c) as a hidden file (d) as a style
-    Ans: (b).
+M4. Anchor “As Character” treats the image: (a) as a page background (b) as a hidden file (c) like a character in the line (d) as a style
+    Ans: (c).
 
-M5. To resize a picture proportionally using the mouse, you drag a corner handle while holding down the: (a) Alt key only (b) Tab key (c) Caps Lock key (d) Shift key
-    Ans: (d) Shift key. Holding Shift with a corner handle keeps the width-to-height ratio unchanged.
+M5. To resize a picture proportionally using the mouse, you drag a corner handle while holding down the: (a) Alt key only (b) Tab key (c) Shift key (d) Caps Lock key
+    Ans: (c) Shift key. Holding Shift with a corner handle keeps the width-to-height ratio unchanged.
 
-M6. Anchoring an image “To Page” means that it: (a) moves with the paragraph it is next to (b) behaves like a character in a line (c) is hidden when the document is printed (d) stays at a fixed position on the page even if the text above changes
-    Ans: (d) stays at a fixed position on the page even if the text above changes. A “To Page” anchor ties the picture to a spot on the page, whereas “To Paragraph” makes it move with the text.
+M6. Anchoring an image “To Page” means that it: (a) stays at a fixed position on the page even if the text above changes (b) moves with the paragraph it is next to (c) behaves like a character in a line (d) is hidden when the document is printed
+    Ans: (a) stays at a fixed position on the page even if the text above changes. A “To Page” anchor ties the picture to a spot on the page, whereas “To Paragraph” makes it move with the text.
 
 M7. To make two drawing objects move together you should: (a) group them  (b) crop them  (c) wrap them  (d) delete one of them
     Ans: (a) group them. Grouping treats the objects as one; ungrouping reverses it.
 
-M8. The tool used to remove unwanted parts of a picture is the: (a) Crop tool  (b) Wrap tool  (c) Rotate tool  (d) Fill tool
-    Ans: (a) Crop tool. Cropping cuts the picture without changing the rest of the page.
+M8. The tool used to remove unwanted parts of a picture is the: (a) Wrap tool  (b) Crop tool  (c) Rotate tool  (d) Fill tool
+    Ans: (b) Crop tool. Cropping cuts the picture without changing the rest of the page.

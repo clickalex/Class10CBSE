@@ -201,20 +201,20 @@
     ],
     "mcq": [
       {
-        "q": "The Human Development Report is published by: (a) the World Bank (b) the UNDP (c) the IMF (d) the RBI",
-        "a": "**(b) the United Nations Development Programme (UNDP)**, which combines health, education and income into the HDI."
+        "q": "The Human Development Report is published by: (a) the World Bank (b) the IMF (c) the UNDP (d) the RBI",
+        "a": "**(c) the United Nations Development Programme (UNDP)**, which combines health, education and income into the HDI."
       },
       {
-        "q": "A person with a BMI of 17 is: (a) overweight (b) normal (c) undernourished (d) obese",
-        "a": "**(c) undernourished** — a BMI below 18.5 indicates undernourishment; above 25 indicates overweight."
+        "q": "A person with a BMI of 17 is: (a) overweight (b) undernourished (c) normal (d) obese",
+        "a": "**(b) undernourished** — a BMI below 18.5 indicates undernourishment; above 25 indicates overweight."
       },
       {
-        "q": "Which criterion does the World Bank use to classify countries? (a) literacy rate (b) per capita income (c) HDI (d) infant mortality rate",
-        "a": "**(b) per capita income**, as reported in the World Development Report."
+        "q": "Which criterion does the World Bank use to classify countries? (a) literacy rate (b) HDI (c) per capita income (d) infant mortality rate",
+        "a": "**(c) per capita income**, as reported in the World Development Report."
       },
       {
-        "q": "Body Mass Index (BMI) is calculated as: (a) height in metres divided by weight in kilograms (b) weight in kilograms multiplied by height in metres (c) weight in kilograms divided by the square of height in metres (d) weight in kilograms divided by height in metres",
-        "a": "**(c) weight in kilograms divided by the square of height in metres.** BMI = weight (kg) ÷ height² (m²); for example 60 kg and 1.5 m gives about 26.7."
+        "q": "Body Mass Index (BMI) is calculated as: (a) height in metres divided by weight in kilograms (b) weight in kilograms divided by the square of height in metres (c) weight in kilograms multiplied by height in metres (d) weight in kilograms divided by height in metres",
+        "a": "**(b) weight in kilograms divided by the square of height in metres.** BMI = weight (kg) ÷ height² (m²); for example 60 kg and 1.5 m gives about 26.7."
       },
       {
         "q": "The infant mortality rate is the number of children who die before the age of one year per: (a) 100 live births (b) 10,000 people (c) 1 lakh live births (d) 1000 live births",
@@ -225,8 +225,8 @@
         "a": "**(a) life expectancy at birth.** Along with education levels and per capita income."
       },
       {
-        "q": "A country with a high per capita income but poor health and education would be regarded as: (a) fully developed  (b) not necessarily developed  (c) socialist  (d) underdeveloped by definition",
-        "a": "**(b) not necessarily developed.** Development covers health, education and equality along with income."
+        "q": "A country with a high per capita income but poor health and education would be regarded as: (a) fully developed  (b) socialist  (c) underdeveloped by definition  (d) not necessarily developed",
+        "a": "**(d) not necessarily developed.** Development covers health, education and equality along with income."
       },
       {
         "q": "The literacy rate is measured for the population aged: (a) 7 years and above  (b) 18 years and above  (c) 60 years and above  (d) 5 years and above",
@@ -451,20 +451,20 @@
         "a": "**(c) a teacher teaching in a school.** Teaching is a service; farming and mining are primary activities, and making cloth is a secondary activity."
       },
       {
-        "q": "Underemployment occurs when people are: (a) working but could do more work or produce more than they do (b) unwilling to work (c) looking for work but finding none (d) retired from work",
-        "a": "**(a) working but could do more work or produce more than they do.** Underemployed people appear to be employed but work below their capacity; people who want work and find none are unemployed."
+        "q": "Underemployment occurs when people are: (a) unwilling to work (b) looking for work but finding none (c) retired from work (d) working but could do more work or produce more than they do",
+        "a": "**(d) working but could do more work or produce more than they do.** Underemployed people appear to be employed but work below their capacity; people who want work and find none are unemployed."
       },
       {
-        "q": "Disguised unemployment is most commonly found in: (a) the IT sector  (b) Indian agriculture  (c) banking  (d) the railways",
-        "a": "**(b) Indian agriculture.** More people work on the land than are actually needed for the output."
+        "q": "Disguised unemployment is most commonly found in: (a) Indian agriculture  (b) the IT sector  (c) banking  (d) the railways",
+        "a": "**(a) Indian agriculture.** More people work on the land than are actually needed for the output."
       },
       {
-        "q": "Activities that produce goods using natural resources belong to the: (a) primary sector  (b) secondary sector  (c) tertiary sector  (d) quaternary sector",
-        "a": "**(a) primary sector.** Agriculture, fishing, forestry, mining and quarrying are primary activities."
+        "q": "Activities that produce goods using natural resources belong to the: (a) secondary sector  (b) primary sector  (c) tertiary sector  (d) quaternary sector",
+        "a": "**(b) primary sector.** Agriculture, fishing, forestry, mining and quarrying are primary activities."
       },
       {
-        "q": "The public sector in India is owned and managed by: (a) private companies  (b) the government  (c) foreign investors  (d) cooperative societies",
-        "a": "**(b) the government.** Its purpose is public welfare as well as profit, as with the Indian Railways or BHEL."
+        "q": "The public sector in India is owned and managed by: (a) the government  (b) private companies  (c) foreign investors  (d) cooperative societies",
+        "a": "**(a) the government.** Its purpose is public welfare as well as profit, as with the Indian Railways or BHEL."
       }
     ],
     "trend": "Organised versus unorganised sector, disguised unemployment with remedies, and why the tertiary sector has become the most important are the three set 5-mark answers.",
@@ -673,36 +673,36 @@
     ],
     "mcq": [
       {
-        "q": "The institution that issues currency notes in India on behalf of the Central Government is: (a) SBI (b) NABARD (c) the Reserve Bank of India (d) SEBI",
-        "a": "**(c) the Reserve Bank of India** — no other individual or organisation is allowed to issue currency."
+        "q": "The institution that issues currency notes in India on behalf of the Central Government is: (a) the Reserve Bank of India (b) SBI (c) NABARD (d) SEBI",
+        "a": "**(a) the Reserve Bank of India** — no other individual or organisation is allowed to issue currency."
       },
       {
-        "q": "The Grameen Bank, which demonstrated that poor women are reliable borrowers, was set up in: (a) India (b) Bangladesh (c) Sri Lanka (d) Nepal",
-        "a": "**(b) Bangladesh**, by Muhammad Yunus in the 1970s."
+        "q": "The Grameen Bank, which demonstrated that poor women are reliable borrowers, was set up in: (a) India (b) Sri Lanka (c) Nepal (d) Bangladesh",
+        "a": "**(d) Bangladesh**, by Muhammad Yunus in the 1970s."
       },
       {
-        "q": "Collateral is best defined as: (a) the interest on a loan (b) an asset used as a guarantee until the loan is repaid (c) the principal amount (d) the bank's profit margin",
-        "a": "**(b)** — an asset the borrower owns, such as land, a vehicle, livestock or deposits, pledged until the loan is repaid."
+        "q": "Collateral is best defined as: (a) the interest on a loan (b) the principal amount (c) the bank's profit margin (d) an asset used as a guarantee until the loan is repaid",
+        "a": "**(d)** — an asset the borrower owns, such as land, a vehicle, livestock or deposits, pledged until the loan is repaid."
       },
       {
-        "q": "Which of the following is a formal source of credit? (a) a commercial bank (b) a moneylender (c) a landlord (d) a relative or friend",
-        "a": "**(a) a commercial bank.** Formal sources are the banks and cooperatives, supervised by the Reserve Bank of India; moneylenders, landlords and relatives are informal."
+        "q": "Which of the following is a formal source of credit? (a) a moneylender (b) a landlord (c) a commercial bank (d) a relative or friend",
+        "a": "**(c) a commercial bank.** Formal sources are the banks and cooperatives, supervised by the Reserve Bank of India; moneylenders, landlords and relatives are informal."
       },
       {
-        "q": "Rupee notes are accepted as money in India mainly because: (a) the government authorises them as a medium of payment (b) they contain valuable metal (c) they can be exchanged for gold at any bank (d) they are printed on special paper",
-        "a": "**(a) the government authorises them as a medium of payment.** Currency has no intrinsic value; the law authorises it, and no one can refuse to accept it in settlement of a debt."
+        "q": "Rupee notes are accepted as money in India mainly because: (a) they contain valuable metal (b) the government authorises them as a medium of payment (c) they can be exchanged for gold at any bank (d) they are printed on special paper",
+        "a": "**(b) the government authorises them as a medium of payment.** Currency has no intrinsic value; the law authorises it, and no one can refuse to accept it in settlement of a debt."
       },
       {
-        "q": "Which of these is a function of the Reserve Bank of India? (a) accepting deposits from the public  (b) issuing currency notes  (c) lending directly to farmers  (d) selling insurance policies",
-        "a": "**(b) issuing currency notes.** It also supervises the commercial banks and acts as the government's banker."
+        "q": "Which of these is a function of the Reserve Bank of India? (a) accepting deposits from the public  (b) lending directly to farmers  (c) issuing currency notes  (d) selling insurance policies",
+        "a": "**(c) issuing currency notes.** It also supervises the commercial banks and acts as the government's banker."
       },
       {
         "q": "A self-help group generally consists of about: (a) 5 members  (b) 15 to 20 members  (c) 100 members  (d) 500 members",
         "a": "**(b) 15 to 20 members.** Members save regularly, lend to each other at low rates and then qualify for bank loans."
       },
       {
-        "q": "Cheap and affordable credit matters because it: (a) increases dependence on moneylenders  (b) lets borrowers invest and raise their income  (c) raises taxes  (d) reduces savings",
-        "a": "**(b) lets borrowers invest and raise their income.** Formal credit at low interest helps poor households escape the debt trap."
+        "q": "Cheap and affordable credit matters because it: (a) lets borrowers invest and raise their income  (b) increases dependence on moneylenders  (c) raises taxes  (d) reduces savings",
+        "a": "**(a) lets borrowers invest and raise their income.** Formal credit at low interest helps poor households escape the debt trap."
       }
     ],
     "trend": "The Salim–Swapna contrast, formal versus informal credit with reasons, and self-help groups rotate through the 3–5 mark slot every year.",
@@ -883,32 +883,32 @@
         "a": "**(b) 1995**, at the insistence of developed countries, to set the rules for international trade."
       },
       {
-        "q": "Liberalisation means: (a) increasing import duties (b) removing barriers set by the government on trade and foreign investment (c) nationalising industries (d) banning foreign companies",
-        "a": "**(b)** — India liberalised trade and investment in 1991."
+        "q": "Liberalisation means: (a) increasing import duties (b) nationalising industries (c) banning foreign companies (d) removing barriers set by the government on trade and foreign investment",
+        "a": "**(d)** — India liberalised trade and investment in 1991."
       },
       {
-        "q": "Which Indian company acquired the car maker Daewoo Motors India and later bought Jaguar and Land Rover? (a) Maruti (b) Tata Motors (c) Mahindra (d) Sundaram Fasteners",
-        "a": "**(b) Tata Motors** — Indian companies have themselves become multinationals by acquiring foreign companies."
+        "q": "Which Indian company acquired the car maker Daewoo Motors India and later bought Jaguar and Land Rover? (a) Maruti (b) Mahindra (c) Tata Motors (d) Sundaram Fasteners",
+        "a": "**(c) Tata Motors** — Indian companies have themselves become multinationals by acquiring foreign companies."
       },
       {
-        "q": "A tax on imports is an example of a: (a) subsidy (b) foreign investment (c) trade barrier (d) special economic zone",
-        "a": "**(c) trade barrier.** Governments tax imports to make foreign goods costlier and so restrict foreign trade; liberalisation reduced such barriers."
+        "q": "A tax on imports is an example of a: (a) subsidy (b) foreign investment (c) special economic zone (d) trade barrier",
+        "a": "**(d) trade barrier.** Governments tax imports to make foreign goods costlier and so restrict foreign trade; liberalisation reduced such barriers."
       },
       {
-        "q": "Special Economic Zones are set up by the government mainly to: (a) ban imports of all goods (b) provide free food to poor people (c) attract foreign investment by offering world-class facilities (d) protect small producers from competition",
-        "a": "**(c) attract foreign investment by offering world-class facilities.** SEZs offer good roads, power and water, and tax concessions, so that companies, including foreign ones, will produce there."
+        "q": "Special Economic Zones are set up by the government mainly to: (a) attract foreign investment by offering world-class facilities (b) ban imports of all goods (c) provide free food to poor people (d) protect small producers from competition",
+        "a": "**(a) attract foreign investment by offering world-class facilities.** SEZs offer good roads, power and water, and tax concessions, so that companies, including foreign ones, will produce there."
       },
       {
-        "q": "The World Trade Organization was established in: (a) 1947  (b) 1995  (c) 2000  (d) 1991",
-        "a": "**(b) 1995.** It replaced GATT and now has more than 160 member countries."
+        "q": "The World Trade Organization was established in: (a) 1995  (b) 1947  (c) 2000  (d) 1991",
+        "a": "**(a) 1995.** It replaced GATT and now has more than 160 member countries."
       },
       {
         "q": "Which of these is a barrier to foreign trade? (a) free exchange of goods  (b) import duties and quotas  (c) lower transport costs  (d) transfer of technology",
         "a": "**(b) import duties and quotas.** They are imposed to protect domestic producers from foreign competition."
       },
       {
-        "q": "Which Indian company bought the Anglo-Dutch steel maker Corus in 2007? (a) Tata Steel  (b) Reliance Industries  (c) Infosys  (d) Mahindra and Mahindra",
-        "a": "**(a) Tata Steel.** It was one of the largest overseas acquisitions by an Indian company."
+        "q": "Which Indian company bought the Anglo-Dutch steel maker Corus in 2007? (a) Reliance Industries  (b) Infosys  (c) Tata Steel  (d) Mahindra and Mahindra",
+        "a": "**(c) Tata Steel.** It was one of the largest overseas acquisitions by an Indian company."
       }
     ],
     "trend": "MNCs and how they control production, liberalisation of 1991, the WTO and its criticism, and the impact of globalisation on small producers and workers rotate through the 3–5 mark slot.",

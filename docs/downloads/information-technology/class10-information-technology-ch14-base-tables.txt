@@ -86,26 +86,26 @@ Q12. [Long · 5 marks] Describe the steps to create a table Employee with the fi
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. The exam-preferred way to create a table is: (a) Wizard only (b) Design View (c) Mail Merge (d) Goal Seek
-    Ans: (b) Design View.
+M1. The exam-preferred way to create a table is: (a) Design View (b) Wizard only (c) Mail Merge (d) Goal Seek
+    Ans: (a) Design View.
 
-M2. DOB should be stored as: (a) Integer (b) Date (c) Yes/No (d) Image
-    Ans: (b) Date.
+M2. DOB should be stored as: (a) Integer (b) Yes/No (c) Date (d) Image
+    Ans: (c) Date.
 
-M3. A primary key field should be: (a) empty often (b) unique and not null (c) a photo (d) duplicated
-    Ans: (b).
+M3. A primary key field should be: (a) empty often (b) a photo (c) unique and not null (d) duplicated
+    Ans: (c).
 
-M4. Datasheet view is for: (a) setting data types (b) entering records (c) recording macros (d) wrapping images
-    Ans: (b) entering records.
+M4. Datasheet view is for: (a) setting data types (b) recording macros (c) wrapping images (d) entering records
+    Ans: (d) entering records.
 
 M5. In Base, the view in which you define field names and data types is the: (a) Datasheet View (b) Design View (c) Print Preview (d) Report View
     Ans: (b) Design View. Design View is where the structure of the table is defined; Datasheet View is for entering and viewing the data.
 
-M6. The most suitable data type for a field that stores a date of birth is: (a) Date (b) Text (c) Yes/No (d) Image
-    Ans: (a) Date. A Date field stores dates properly, so they can be sorted and used in calculations.
+M6. The most suitable data type for a field that stores a date of birth is: (a) Text (b) Date (c) Yes/No (d) Image
+    Ans: (b) Date. A Date field stores dates properly, so they can be sorted and used in calculations.
 
-M7. In Design View, the property that limits how many characters a text field can hold is: (a) Field Length  (b) Format  (c) Default Value  (d) Caption
-    Ans: (a) Field Length. Default Value fills in a value automatically when nothing is typed.
+M7. In Design View, the property that limits how many characters a text field can hold is: (a) Format  (b) Default Value  (c) Caption  (d) Field Length
+    Ans: (d) Field Length. Default Value fills in a value automatically when nothing is typed.
 
 M8. A primary key must: (a) be unique and never empty  (b) contain only numbers  (c) be the first field of the table  (d) change every day
     Ans: (a) be unique and never empty. A table can have only one primary key.

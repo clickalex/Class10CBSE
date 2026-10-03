@@ -107,29 +107,29 @@ B. MCQs (11)
 M1. The least resistance that can be obtained by combining 2 Ω, 4 Ω, 1 Ω and 100 Ω is: (a) more than 100 Ω (b) less than 1 Ω (c) 107 Ω (d) between 2 Ω and 100 Ω
     Ans: (b) less than 1 Ω. Connecting all four in parallel gives an equivalent resistance smaller than the smallest individual resistance, 1 Ω.
 
-M2. Two wires of the same material and length but different cross-sectional areas are compared. The thicker wire has: (a) more resistance (b) less resistance (c) the same resistance (d) no resistance
-    Ans: (b) less resistance, since R = ρl/A and a larger area of cross-section reduces the resistance.
+M2. Two wires of the same material and length but different cross-sectional areas are compared. The thicker wire has: (a) more resistance (b) the same resistance (c) less resistance (d) no resistance
+    Ans: (c) less resistance, since R = ρl/A and a larger area of cross-section reduces the resistance.
 
-M3. The commercial unit of electrical energy is: (a) joule (b) watt (c) kilowatt-hour (d) volt
-    Ans: (c) kilowatt-hour (kWh), equal to 3.6 × 10⁶ J, and commonly called a 'unit'.
+M3. The commercial unit of electrical energy is: (a) joule (b) watt (c) volt (d) kilowatt-hour
+    Ans: (d) kilowatt-hour (kWh), equal to 3.6 × 10⁶ J, and commonly called a 'unit'.
 
 M4. The electric power consumed by a resistor R connected to a potential difference V is given by: (a) P = V²/R  (b) P = VR²  (c) P = R/V²  (d) P = V/R²
     Ans: (a) P = V²/R. P = VI and I = V/R, so P = V × (V/R) = V²/R.
 
-M5. The SI unit of resistivity is: (a) ohm (Ω)  (b) ohm metre (Ω m)  (c) ohm per metre (Ω/m)  (d) siemens (S)
-    Ans: (b) ohm metre (Ω m). From R = ρl/A, ρ = RA/l, whose unit is Ω × m²/m = Ω m.
+M5. The SI unit of resistivity is: (a) ohm (Ω)  (b) ohm per metre (Ω/m)  (c) siemens (S)  (d) ohm metre (Ω m)
+    Ans: (d) ohm metre (Ω m). From R = ρl/A, ρ = RA/l, whose unit is Ω × m²/m = Ω m.
 
-M6. The resistance of a wire doubles when: (a) its length is doubled  (b) its area of cross-section is doubled  (c) its length is halved  (d) its diameter is doubled
-    Ans: (a) its length is doubled. R ∝ l/A; doubling the area halves R, doubling the diameter reduces R to a quarter.
+M6. The resistance of a wire doubles when: (a) its area of cross-section is doubled  (b) its length is doubled  (c) its length is halved  (d) its diameter is doubled
+    Ans: (b) its length is doubled. R ∝ l/A; doubling the area halves R, doubling the diameter reduces R to a quarter.
 
-M7. One kilowatt hour equals: (a) 3.6 × 10⁶ J  (b) 3.6 × 10³ J  (c) 360 J  (d) 6 × 10µ J
-    Ans: (a) 3.6 × 10⁶ J. 1 kWh = 1000 W × 3600 s = 3,600,000 J.
+M7. One kilowatt hour equals: (a) 3.6 × 10³ J  (b) 360 J  (c) 6 × 10µ J  (d) 3.6 × 10⁶ J
+    Ans: (d) 3.6 × 10⁶ J. 1 kWh = 1000 W × 3600 s = 3,600,000 J.
 
 M8. An ammeter is connected in a circuit: (a) in series  (b) in parallel  (c) across the supply  (d) either way
     Ans: (a) in series. It has very low resistance so it does not change the current; a voltmeter is connected in parallel.
 
-M9. A 12 V battery drives a current of 2 A through a resistor. The resistance of the resistor is: (a) 24 Ω  (b) 6 Ω  (c) 0.17 Ω  (d) 14 Ω
-    Ans: (b) 6 Ω. Ohm's law: R = V/I = 12/2 = 6 Ω.
+M9. A 12 V battery drives a current of 2 A through a resistor. The resistance of the resistor is: (a) 6 Ω  (b) 24 Ω  (c) 0.17 Ω  (d) 14 Ω
+    Ans: (a) 6 Ω. Ohm's law: R = V/I = 12/2 = 6 Ω.
 
 M10. Three 6 Ω resistors are connected in parallel. Their equivalent resistance is: (a) 18 Ω  (b) 6 Ω  (c) 2 Ω  (d) 3 Ω
     Ans: (c) 2 Ω. 1/R = 1/6 + 1/6 + 1/6 = 3/6, so R = 2 Ω — equal resistors in parallel give R/n.

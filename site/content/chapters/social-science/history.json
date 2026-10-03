@@ -151,24 +151,24 @@
     ],
     "mcq": [
       {
-        "q": "The Zollverein, started in 1834, was: (a) a French army (b) a customs union formed at Prussia's initiative (c) the parliament at Frankfurt (d) an Italian secret society",
-        "a": "**(b)** — it abolished tariff barriers, reduced the number of currencies from over thirty to two, and helped bind the Germans economically."
+        "q": "The Zollverein, started in 1834, was: (a) a French army (b) the parliament at Frankfurt (c) a customs union formed at Prussia's initiative (d) an Italian secret society",
+        "a": "**(c)** — it abolished tariff barriers, reduced the number of currencies from over thirty to two, and helped bind the Germans economically."
       },
       {
-        "q": "Who proclaimed the German Empire in 1871? (a) Napoleon Bonaparte (b) Kaiser Wilhelm I (c) Otto von Bismarck (d) Friedrich Wilhelm IV",
-        "a": "**(b) Kaiser Wilhelm I of Prussia**, at Versailles in January 1871, with Bismarck as the architect of the process."
+        "q": "Who proclaimed the German Empire in 1871? (a) Napoleon Bonaparte (b) Otto von Bismarck (c) Friedrich Wilhelm IV (d) Kaiser Wilhelm I",
+        "a": "**(d) Kaiser Wilhelm I of Prussia**, at Versailles in January 1871, with Bismarck as the architect of the process."
       },
       {
-        "q": "The female allegory of the German nation, wearing a crown of oak leaves, was: (a) Marianne (b) Germania (c) Britannia (d) Liberty",
-        "a": "**(b) Germania** — oak leaves stand for heroism."
+        "q": "The female allegory of the German nation, wearing a crown of oak leaves, was: (a) Germania (b) Marianne (c) Britannia (d) Liberty",
+        "a": "**(a) Germania** — oak leaves stand for heroism."
       },
       {
-        "q": "The Treaty of Constantinople of 1832 recognised the independence of: (a) Belgium (b) Italy (c) Poland (d) Greece",
-        "a": "**(d) Greece.** After a long struggle against the Ottoman Empire, Greece was recognised as an independent nation in 1832."
+        "q": "The Treaty of Constantinople of 1832 recognised the independence of: (a) Greece (b) Belgium (c) Italy (d) Poland",
+        "a": "**(a) Greece.** After a long struggle against the Ottoman Empire, Greece was recognised as an independent nation in 1832."
       },
       {
-        "q": "The chief minister of Prussia who led the unification of Germany was: (a) Count Cavour (b) Prince Metternich (c) Otto von Bismarck (d) Giuseppe Garibaldi",
-        "a": "**(c) Otto von Bismarck.** Bismarck used the army and the bureaucracy in wars against Denmark, Austria and France, leading to the German Empire of 1871."
+        "q": "The chief minister of Prussia who led the unification of Germany was: (a) Count Cavour (b) Prince Metternich (c) Giuseppe Garibaldi (d) Otto von Bismarck",
+        "a": "**(d) Otto von Bismarck.** Bismarck used the army and the bureaucracy in wars against Denmark, Austria and France, leading to the German Empire of 1871."
       },
       {
         "q": "The Treaty of Vienna was signed in: (a) 1789  (b) 1815  (c) 1848  (d) 1871",
@@ -179,8 +179,8 @@
         "a": "**(b) Metternich.** Austria's chief minister, who represented the conservative order established at Vienna."
       },
       {
-        "q": "Italy was unified under: (a) Garibaldi alone  (b) Cavour and Victor Emmanuel II, helped by Garibaldi's Red Shirts  (c) Mazzini's Young Italy alone  (d) Bismarck's armies",
-        "a": "**(b) Cavour and Victor Emmanuel II, helped by Garibaldi's Red Shirts.** Diplomacy and popular revolt together completed unification by 1870."
+        "q": "Italy was unified under: (a) Garibaldi alone  (b) Mazzini's Young Italy alone  (c) Cavour and Victor Emmanuel II, helped by Garibaldi's Red Shirts  (d) Bismarck's armies",
+        "a": "**(c) Cavour and Victor Emmanuel II, helped by Garibaldi's Red Shirts.** Diplomacy and popular revolt together completed unification by 1870."
       }
     ],
     "trend": "The unification of Italy (usually as a 5-mark note on Mazzini, Cavour and Garibaldi) and the Frankfurt Parliament of 1848 alternate as the set long answer; allegories of Marianne and Germania recur as short questions.",
@@ -346,36 +346,36 @@
     ],
     "mcq": [
       {
-        "q": "The Lahore session of the Congress (December 1929), presided over by Jawaharlal Nehru, demanded: (a) dominion status (b) Purna Swaraj (c) separate electorates (d) abolition of zamindari",
-        "a": "**(b) Purna Swaraj** — complete independence — and 26 January 1930 was fixed as Independence Day."
+        "q": "The Lahore session of the Congress (December 1929), presided over by Jawaharlal Nehru, demanded: (a) Purna Swaraj (b) dominion status (c) separate electorates (d) abolition of zamindari",
+        "a": "**(a) Purna Swaraj** — complete independence — and 26 January 1930 was fixed as Independence Day."
       },
       {
         "q": "The Swaraj flag designed by Gandhiji in 1921 had in its centre: (a) a lotus (b) a crescent moon (c) a spinning wheel (d) the Ashoka chakra",
         "a": "**(c) a spinning wheel**, representing Gandhi's idea of self-help."
       },
       {
-        "q": "The Poona Pact of September 1932 was signed between Gandhiji and: (a) Muhammad Ali Jinnah (b) Dr B. R. Ambedkar (c) Jawaharlal Nehru (d) Sardar Patel",
-        "a": "**(b) Dr B. R. Ambedkar.** It gave the Depressed Classes reserved seats in provincial and central legislative councils, but they were to be voted in by the general electorate."
+        "q": "The Poona Pact of September 1932 was signed between Gandhiji and: (a) Muhammad Ali Jinnah (b) Jawaharlal Nehru (c) Sardar Patel (d) Dr B. R. Ambedkar",
+        "a": "**(d) Dr B. R. Ambedkar.** It gave the Depressed Classes reserved seats in provincial and central legislative councils, but they were to be voted in by the general electorate."
       },
       {
         "q": "Who wrote the song “Vande Mataram”? (a) Rabindranath Tagore (b) Bankim Chandra Chattopadhyay (c) Abanindranath Tagore (d) Muhammad Iqbal",
         "a": "**(b) Bankim Chandra Chattopadhyay.** Bankim Chandra wrote it in the 1870s; Abanindranath Tagore painted the image of Bharat Mata."
       },
       {
-        "q": "General Dyer ordered his troops to fire on a peaceful gathering on 13 April 1919 at: (a) Chauri Chaura, Gorakhpur (b) Jallianwala Bagh, Amritsar (c) Dandi, Gujarat (d) Lahore",
-        "a": "**(b) Jallianwala Bagh, Amritsar.** The firing at Jallianwala Bagh killed hundreds of people and shocked the country."
+        "q": "General Dyer ordered his troops to fire on a peaceful gathering on 13 April 1919 at: (a) Chauri Chaura, Gorakhpur (b) Dandi, Gujarat (c) Jallianwala Bagh, Amritsar (d) Lahore",
+        "a": "**(c) Jallianwala Bagh, Amritsar.** The firing at Jallianwala Bagh killed hundreds of people and shocked the country."
       },
       {
-        "q": "The Dandi March began on: (a) 12 March 1930  (b) 6 April 1919  (c) 26 January 1930  (d) 8 August 1942",
-        "a": "**(a) 12 March 1930.** Gandhiji walked from Sabarmati to Dandi and broke the salt law there."
+        "q": "The Dandi March began on: (a) 6 April 1919  (b) 26 January 1930  (c) 8 August 1942  (d) 12 March 1930",
+        "a": "**(d) 12 March 1930.** Gandhiji walked from Sabarmati to Dandi and broke the salt law there."
       },
       {
-        "q": "The Simon Commission was boycotted because: (a) it had no Indian member  (b) it recommended partition  (c) it raised land revenue  (d) it banned the Congress",
-        "a": "**(a) it had no Indian member.** All seven members were British, so the cry was ‘Go back Simon'."
+        "q": "The Simon Commission was boycotted because: (a) it recommended partition  (b) it had no Indian member  (c) it raised land revenue  (d) it banned the Congress",
+        "a": "**(b) it had no Indian member.** All seven members were British, so the cry was ‘Go back Simon'."
       },
       {
-        "q": "The Non-Cooperation Movement was called off after: (a) the Jallianwala Bagh massacre  (b) the Chauri Chaura incident  (c) the Rowlatt Act  (d) the Simon Commission",
-        "a": "**(b) the Chauri Chaura incident.** In February 1922 an angry crowd burnt a police station, killing 22 policemen, and Gandhiji withdrew the movement."
+        "q": "The Non-Cooperation Movement was called off after: (a) the Chauri Chaura incident  (b) the Jallianwala Bagh massacre  (c) the Rowlatt Act  (d) the Simon Commission",
+        "a": "**(a) the Chauri Chaura incident.** In February 1922 an angry crowd burnt a police station, killing 22 policemen, and Gandhiji withdrew the movement."
       }
     ],
     "trend": "Non-Cooperation vs Civil Disobedience and the Sense of Collective Belonging are the two set 5-mark answers and one of them appears in almost every paper; Jallianwala Bagh, the Salt March and the Poona Pact recur as 3-mark questions.",
@@ -537,36 +537,36 @@
     ],
     "mcq": [
       {
-        "q": "Which of the following crops reached Europe from the Americas after Columbus's voyages? (a) rice and wheat (b) potato and maize (c) cotton and indigo (d) tea and coffee",
-        "a": "**(b) potato and maize** — along with tomatoes, chillies, soya, groundnuts and sweet potatoes."
+        "q": "Which of the following crops reached Europe from the Americas after Columbus's voyages? (a) rice and wheat (b) cotton and indigo (c) tea and coffee (d) potato and maize",
+        "a": "**(d) potato and maize** — along with tomatoes, chillies, soya, groundnuts and sweet potatoes."
       },
       {
-        "q": "The disease that most helped the Spanish conquer America was: (a) cholera (b) smallpox (c) influenza (d) plague",
-        "a": "**(b) smallpox** — the native population had no immunity to it because of long isolation."
+        "q": "The disease that most helped the Spanish conquer America was: (a) cholera (b) influenza (c) plague (d) smallpox",
+        "a": "**(d) smallpox** — the native population had no immunity to it because of long isolation."
       },
       {
         "q": "The pre-modern trade routes linking Asia with Europe and northern Africa are called: (a) the spice routes (b) the Silk Routes (c) the gold routes (d) the pilgrim routes",
         "a": "**(b) the Silk Routes**, named after Chinese silk which travelled along them."
       },
       {
-        "q": "The Silk Routes got their name from the: (a) silk cloth woven only in India (b) Chinese silk that was carried along them (c) silk cocoons of the Mediterranean (d) silk robes worn by traders",
-        "a": "**(b) Chinese silk that was carried along them.** Chinese silk was a prized item carried westward along the land and sea routes."
+        "q": "The Silk Routes got their name from the: (a) silk cloth woven only in India (b) silk cocoons of the Mediterranean (c) Chinese silk that was carried along them (d) silk robes worn by traders",
+        "a": "**(c) Chinese silk that was carried along them.** Chinese silk was a prized item carried westward along the land and sea routes."
       },
       {
-        "q": "Cowrie shells, used as currency, were carried from the Maldives to: (a) China and East Africa (b) Peru and Mexico (c) Britain and France (d) Australia",
-        "a": "**(a) China and East Africa.** Cowries were widely used as money, and were carried from the Maldives to China and East Africa."
+        "q": "Cowrie shells, used as currency, were carried from the Maldives to: (a) Peru and Mexico (b) Britain and France (c) China and East Africa (d) Australia",
+        "a": "**(c) China and East Africa.** Cowries were widely used as money, and were carried from the Maldives to China and East Africa."
       },
       {
-        "q": "Indentured labourers were recruited mainly from: (a) Africa and Japan  (b) India, China and Africa  (c) Australia and Europe  (d) North America",
-        "a": "**(b) India, China and Africa.** They worked on plantations across the tropical colonies after slavery was abolished."
+        "q": "Indentured labourers were recruited mainly from: (a) India, China and Africa  (b) Africa and Japan  (c) Australia and Europe  (d) North America",
+        "a": "**(a) India, China and Africa.** They worked on plantations across the tropical colonies after slavery was abolished."
       },
       {
         "q": "The Bretton Woods institutions are: (a) the IMF and the World Bank  (b) the WTO and UNICEF  (c) the League of Nations and the UN  (d) UNESCO and WHO",
         "a": "**(a) the IMF and the World Bank.** They were set up in 1944 to manage the post-war international economy."
       },
       {
-        "q": "The Great Depression of the 1930s began with: (a) the Wall Street Crash of 1929  (b) the First World War  (c) the oil shock  (d) the Russian Revolution",
-        "a": "**(a) the Wall Street Crash of 1929.** It spread to the rest of the world through trade and finance."
+        "q": "The Great Depression of the 1930s began with: (a) the First World War  (b) the Wall Street Crash of 1929  (c) the oil shock  (d) the Russian Revolution",
+        "a": "**(b) the Wall Street Crash of 1929.** It spread to the rest of the world through trade and finance."
       }
     ],
     "trend": "Only subtopics 1 to 1.3 are assessed, so questions come from the pre-modern exchanges, the Silk Routes and the Columbian food trades — usually one 3-mark question per paper.",
@@ -744,28 +744,28 @@
         "a": "**(b) AD 868**, after Chinese Buddhist missionaries brought hand printing to Japan around AD 768–770."
       },
       {
-        "q": "The first English newspaper in India, the *Bengal Gazette* (1780), was started by: (a) James Augustus Hicky (b) Raja Rammohun Roy (c) Bal Gangadhar Tilak (d) William Carey",
-        "a": "**(a) James Augustus Hicky**, who described it as 'a commercial paper open to all parties but influenced by none'."
+        "q": "The first English newspaper in India, the *Bengal Gazette* (1780), was started by: (a) Raja Rammohun Roy (b) Bal Gangadhar Tilak (c) James Augustus Hicky (d) William Carey",
+        "a": "**(c) James Augustus Hicky**, who described it as 'a commercial paper open to all parties but influenced by none'."
       },
       {
-        "q": "*Kesari* and *Maratha* were newspapers edited by: (a) Mahatma Gandhi (b) Bal Gangadhar Tilak (c) Raja Rammohun Roy (d) Bharatendu Harishchandra",
-        "a": "**(b) Bal Gangadhar Tilak**, whose imprisonment in 1908 for supporting the Punjab revolutionaries provoked protests across the country."
+        "q": "*Kesari* and *Maratha* were newspapers edited by: (a) Bal Gangadhar Tilak (b) Mahatma Gandhi (c) Raja Rammohun Roy (d) Bharatendu Harishchandra",
+        "a": "**(a) Bal Gangadhar Tilak**, whose imprisonment in 1908 for supporting the Punjab revolutionaries provoked protests across the country."
       },
       {
-        "q": "Johann Gutenberg developed the printing press in the 1430s in: (a) Strasbourg, Germany (b) Venice, Italy (c) Paris, France (d) London, England",
-        "a": "**(a) Strasbourg, Germany.** Gutenberg, a goldsmith, developed the metal-type press at Strasbourg."
+        "q": "Johann Gutenberg developed the printing press in the 1430s in: (a) Venice, Italy (b) Paris, France (c) London, England (d) Strasbourg, Germany",
+        "a": "**(d) Strasbourg, Germany.** Gutenberg, a goldsmith, developed the metal-type press at Strasbourg."
       },
       {
-        "q": "In England, small, cheap books sold by petty pedlars were called chapbooks, and the pedlars were known as: (a) chapmen (b) scribes (c) calligraphers (d) missionaries",
-        "a": "**(a) chapmen.** Penny chapbooks carried by chapmen let even poor people buy printed books."
+        "q": "In England, small, cheap books sold by petty pedlars were called chapbooks, and the pedlars were known as: (a) scribes (b) calligraphers (c) missionaries (d) chapmen",
+        "a": "**(d) chapmen.** Penny chapbooks carried by chapmen let even poor people buy printed books."
       },
       {
-        "q": "The first book printed by Johann Gutenberg was the: (a) Bible  (b) Quran  (c) Mahabharata  (d) Ramcharitmanas",
-        "a": "**(a) Bible.** He printed about 180 copies on parchment and paper around 1455."
+        "q": "The first book printed by Johann Gutenberg was the: (a) Quran  (b) Bible  (c) Mahabharata  (d) Ramcharitmanas",
+        "a": "**(b) Bible.** He printed about 180 copies on parchment and paper around 1455."
       },
       {
-        "q": "The Vernacular Press Act was enacted in: (a) 1857  (b) 1878  (c) 1905  (d) 1919",
-        "a": "**(b) 1878.** It empowered the government to seize the presses and property of critical vernacular newspapers."
+        "q": "The Vernacular Press Act was enacted in: (a) 1919  (b) 1905  (c) 1878  (d) 1857",
+        "a": "**(c) 1878.** It empowered the government to seize the presses and property of critical vernacular newspapers."
       },
       {
         "q": "*Kesari* was edited by: (a) Bal Gangadhar Tilak  (b) Raja Rammohun Roy  (c) Mahatma Gandhi  (d) Jawaharlal Nehru",

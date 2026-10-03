@@ -86,26 +86,26 @@ Q12. [Long · 5 marks] Describe a five-step method for a class to review a sprea
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. Share Spreadsheet is under: (a) Insert (b) Tools (c) Format (d) Data
-    Ans: (b) Tools.
+M1. Share Spreadsheet is under: (a) Insert (b) Format (c) Tools (d) Data
+    Ans: (c) Tools.
 
-M2. A cell comment is for: (a) hiding formulas forever (b) notes without changing the value (c) Goal Seek (d) styles
-    Ans: (b).
-
-M3. To allow editing only some cells: (a) Group (b) Protect Sheet after unlocking inputs (c) Consolidate (d) Mail Merge
-    Ans: (b).
-
-M4. Compare Document is useful when: (a) you have an older copy to diff (b) you need a chart (c) you insert an image (d) you write a ToC
+M2. A cell comment is for: (a) notes without changing the value (b) hiding formulas forever (c) Goal Seek (d) styles
     Ans: (a).
 
-M5. The feature that locks cells so that formulas cannot be changed by mistake is: (a) Protect Sheet (b) Freeze Rows (c) Goal Seek (d) Fill Series
-    Ans: (a) Protect Sheet. Protect Sheet (with the input cells left unlocked) stops people from editing the locked cells.
+M3. To allow editing only some cells: (a) Group (b) Consolidate (c) Mail Merge (d) Protect Sheet after unlocking inputs
+    Ans: (d).
 
-M6. Bringing another user’s copy of a spreadsheet back into the shared original is called: (a) consolidating (b) subtotalling (c) merging (d) formatting
-    Ans: (c) merging. Merging combines the changes made in another copy with the original document.
+M4. Compare Document is useful when: (a) you need a chart (b) you have an older copy to diff (c) you insert an image (d) you write a ToC
+    Ans: (b).
+
+M5. The feature that locks cells so that formulas cannot be changed by mistake is: (a) Freeze Rows (b) Goal Seek (c) Fill Series (d) Protect Sheet
+    Ans: (d) Protect Sheet. Protect Sheet (with the input cells left unlocked) stops people from editing the locked cells.
+
+M6. Bringing another user’s copy of a spreadsheet back into the shared original is called: (a) consolidating (b) merging (c) subtotalling (d) formatting
+    Ans: (b) merging. Merging combines the changes made in another copy with the original document.
 
 M7. Sharing a sheet while protecting it from changes is done from: (a) Tools → Protect Sheet  (b) File → Print  (c) Insert → Comment  (d) Format → Cells
     Ans: (a) Tools → Protect Sheet. You can also allow selected users to edit certain ranges.
 
-M8. Comments in a spreadsheet are used to: (a) ask a question or explain a cell without changing its value  (b) delete the cell  (c) sort the data  (d) create a chart
-    Ans: (a) ask a question or explain a cell without changing its value. The cell keeps its formula.
+M8. Comments in a spreadsheet are used to: (a) delete the cell  (b) sort the data  (c) ask a question or explain a cell without changing its value  (d) create a chart
+    Ans: (c) ask a question or explain a cell without changing its value. The cell keeps its formula.

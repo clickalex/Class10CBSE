@@ -105,17 +105,17 @@ Q14. [Long · 5 marks] How do variations arise in sexually reproducing organisms
 B. MCQs (8)
 ------------------------------------------------------------------------
 
-M1. In a monohybrid cross between a tall (TT) and a dwarf (tt) pea plant, the F2 phenotypic ratio is: (a) 1:1 (b) 3:1 (c) 9:3:3:1 (d) 1:2:1
-    Ans: (b) 3 tall : 1 dwarf. 1:2:1 is the genotypic ratio of the same cross.
+M1. In a monohybrid cross between a tall (TT) and a dwarf (tt) pea plant, the F2 phenotypic ratio is: (a) 1:1 (b) 9:3:3:1 (c) 3:1 (d) 1:2:1
+    Ans: (c) 3 tall : 1 dwarf. 1:2:1 is the genotypic ratio of the same cross.
 
-M2. The sex of a human child is determined by: (a) the mother's egg (b) the father's sperm (c) both parents equally (d) the diet of the mother
-    Ans: (b) the father's sperm. Eggs always carry X; a sperm carrying Y produces a boy and one carrying X produces a girl.
+M2. The sex of a human child is determined by: (a) the father's sperm (b) the mother's egg (c) both parents equally (d) the diet of the mother
+    Ans: (a) the father's sperm. Eggs always carry X; a sperm carrying Y produces a boy and one carrying X produces a girl.
 
 M3. A cross between F1 hybrid tall plants (Tt × Tt) gives dwarf plants in F2. The expected ratio of tall to dwarf is: (a) 1:3 (b) 3:1 (c) 1:1 (d) 2:2
     Ans: (b) 3:1 — 25% of F2 are homozygous dwarf (tt).
 
-M4. In a cross between two plants with genotype Tt × Tt, the proportion of the progeny with genotype Tt is: (a) 1/4 (b) 3/4 (c) 1/2 (d) 1
-    Ans: (c) 1/2. The Punnett square gives TT : Tt : tt = 1 : 2 : 1, so Tt makes up 2 of 4, i.e. 1/2.
+M4. In a cross between two plants with genotype Tt × Tt, the proportion of the progeny with genotype Tt is: (a) 1/4 (b) 3/4 (c) 1 (d) 1/2
+    Ans: (d) 1/2. The Punnett square gives TT : Tt : tt = 1 : 2 : 1, so Tt makes up 2 of 4, i.e. 1/2.
 
 M5. Mendel chose the garden pea for his experiments mainly because it: (a) has easily visible contrasting traits and a short life cycle (b) has no variation among its plants (c) cannot be self-pollinated (d) produces only one seed per plant
     Ans: (a) has easily visible contrasting traits and a short life cycle. Pea plants have clear contrasting traits (tall/dwarf, round/wrinkled), grow quickly, and can be both self- and cross-pollinated.
@@ -126,5 +126,5 @@ M6. The phenotypic ratio obtained in a dihybrid cross between two F₁ hybrids i
 M7. Which of these traits can be inherited? (a) the cut tail of a mouse  (b) large muscles built by exercise  (c) eye colour  (d) a scar
     Ans: (c) eye colour. Only changes in the DNA of reproductive cells are passed to the next generation; acquired changes in body cells are not.
 
-M8. The number of chromosomes in a human zygote is: (a) 23  (b) 46  (c) 92  (d) 22
-    Ans: (b) 46. Each gamete carries 23 chromosomes and their fusion restores the 23 pairs.
+M8. The number of chromosomes in a human zygote is: (a) 23  (b) 92  (c) 22  (d) 46
+    Ans: (d) 46. Each gamete carries 23 chromosomes and their fusion restores the 23 pairs.
