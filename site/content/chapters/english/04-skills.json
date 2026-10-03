@@ -51,20 +51,20 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Reading: Unseen and Case-based Passages” (Discursive and factual passages, MCQ-based, with a speed strategy). A classmate lost marks by doing this: Answering from your own knowledge instead of from the passage. Apply the correct method and rewrite the scoring answer.",
+        "q": "An option in a reading MCQ is factually true in real life but is not supported by the passage. What should a student do, and why?",
         "a": [
-          "Correct method: Questions first, then passage. It saves two or three minutes on a fifteen-mark section.",
-          "Why the mistake costs marks: Answering from your own knowledge instead of from the passage.",
-          "Write the definition or formula first, then the working or example."
+          "Reject it unless the passage provides evidence for it; an unseen-passage answer must be based on the supplied text.",
+          "Locate the relevant line or detail and check whether it actually answers the question, rather than relying on general knowledge.",
+          "This prevents choosing a true but irrelevant distractor and keeps the response evidence-based."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Reading: Unseen and Case-based Passages”: “What is the difference between a discursive and a case-based passage?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A student reads a chart-based passage but gets a comparison question wrong. Give two checks the student should make before choosing an answer.",
         "a": [
-          "Idea: Discursive and factual passages, MCQ-based, with a speed strategy.",
-          "A discursive passage is 400–450 words and argues or discusses an idea, so the questions test inference, interpretation and evaluation. A case-based factual passage is 200–250 words and is supported by visual input such as statistical data or a chart, so the questions test your ability to read the data and connect it to the text."
+          "Read the chart's title and identify the categories and period being compared.",
+          "Check both axes, the units and the scale; then compare the actual values named in the question rather than estimating from the paragraph alone."
         ]
       },
       {
@@ -91,21 +91,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Reading: Unseen and Case-based Passages”. Their note says: What is tested. The questions test inference (what is implied but not stated), analysis (how an argument is built), interpretation (what a word or phrase means in context), evaluation (whether a claim is supported), and vocabulary. Because the questions are multiple choice, the answer is always in t\n\nThe chapter is described as: Discursive and factual passages, MCQ-based, with a speed strategy.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA library records the number of books borrowed by three classes during one month: Class A, 48; Class B, 62; Class C, 40. The librarian says Class B borrowed the most, but does not claim that its students read more books at home or preferred every kind of book.\n\n(a) Which class borrowed the greatest number?\n(b) What is the difference between the highest and lowest figures?\n(c) Which conclusion would go beyond the data?",
         "a": [
-          "(a) Discursive and factual passages, MCQ-based, with a speed strategy.",
-          "(b) About 15 marks. Two passages: a discursive passage of 400–450 words and a case-based factual passage of 200–250 words with visual input such as statistical data or a chart.",
-          "(c) Answering from your own knowledge instead of from the passage."
+          "Class B borrowed the greatest number, with 62 books.",
+          "The difference is 62 − 40 = 22 books.",
+          "It would go beyond the data to claim that every student in Class B reads more; the table records class totals only, not individual habits."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “What is the difference between a discursive and a case-based passage?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA short passage states that a school garden attracted more butterflies after native flowering plants were added. It reports observations from one garden over four weeks, but gives no figures for other schools or seasons.\n\n(a) What change does the passage report?\n(b) Which evidence supports that statement?\n(c) Which broad claim is not justified by this evidence?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) A discursive passage is 400–450 words and argues or discusses an idea, so the questions test inference, interpretation and evaluation. A case-based factual passage is 200–250 words and is supported by visual input such as statistical data or a chart, so the questions test your ability to read the data and connect it to the text.",
-          "(c) Questions first, then passage. It saves two or three minutes on a fifteen-mark section."
+          "The passage reports an increase in butterfly visits to the school garden after native flowers were planted.",
+          "The support is the observed increase during the four-week period described in the passage.",
+          "The evidence does not prove that all gardens or every season will show the same increase; the report covers only one place and period."
         ]
       },
       {
@@ -132,12 +132,12 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Reading: Unseen and Case-based Passages” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "A student spends too long rereading an unseen passage and then guesses at its vocabulary questions. Set out a more effective method that uses the passage as evidence and keeps time under control.",
         "a": [
-          "What is tested. The questions test inference (what is implied but not stated), analysis (how an argument is built), interpretation (what a word or phrase means in context), evaluation (whether a claim is supported), and vocabulary. Because the questions are multiple choice, the answer is always in the passage — never bring in outside knowledge.",
-          "Marks lens: About 15 marks. Two passages: a discursive passage of 400–450 words and a case-based factual passage of 200–250 words with visual input such as statistical data or a chart.",
-          "Method / memory trick: Questions first, then passage. It saves two or three minutes on a fifteen-mark section.",
-          "Do not: Answering from your own knowledge instead of from the passage."
+          "Read the questions first so you know what details, comparisons or words to look for, then read the passage once for its main idea.",
+          "For each question, return to the relevant sentence or data point. For vocabulary, test a possible meaning in that sentence rather than selecting the most familiar dictionary meaning.",
+          "Eliminate options that contradict the text or do not answer the question, and verify the remaining choice against the evidence.",
+          "Set a time limit for each item. Mark a difficult question, move on, and return if time remains instead of sacrificing the rest of the paper."
         ]
       }
     ],
@@ -155,12 +155,12 @@
         "a": "**(b) read the questions first**, so that you know what information to look for."
       },
       {
-        "q": "The most exam-ready way to revise “Reading: Unseen and Case-based Passages” is: (a) learn the key idea plus one example  (b) read the heading only  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(a) learn the key idea plus one example.** The chapter is Discursive and factual passages, MCQ-based, with a speed strategy."
+        "q": "In “After three dry weeks, the reservoir had fallen to a meagre level,” “meagre” most nearly means: (a) Very small (b) Unusually noisy (c) Deep and full (d) Recently repaired",
+        "a": "**(a) Very small.** The dry weeks have left the reservoir with little water, which is the meaning supported by the sentence."
       },
       {
-        "q": "A 3-mark answer on “Reading: Unseen and Case-based Passages” should: (a) be one sentence  (b) copy the whole chapter  (c) leave the example out  (d) start with the idea, then a reason or method",
-        "a": "**(d) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "A bar chart shows 30, 45 and 60 books borrowed in three successive months. Which conclusion is supported? (a) Every student borrowed a book (b) The books were all fiction (c) The rise will continue next year (d) The total rose by 30 books from the first to the third month",
+        "a": "**(d) The total rose by 30 books from the first to the third month.** The chart supports the observed figures, not claims about individual students, genres or the future."
       },
       {
         "q": "Before writing the answers to an unseen passage you should: (a) start writing immediately  (b) copy lines from the passage  (c) read the questions, then read the passage  (d) skip the passage",
@@ -260,20 +260,20 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Grammar in Context” (Tenses, modals, subject-verb agreement, reported speech, determiners). A classmate lost marks by doing this: Using the simple past with 'since'. *Since* requires a perfect tense. Apply the correct method and rewrite the scoring answer.",
+        "q": "Correct the verb in this sentence and explain the agreement: “The list of names are on the noticeboard.”",
         "a": [
-          "Correct method: In a gap-filling passage, look at the other verbs first — the tense of the passage is usually consistent.",
-          "Why the mistake costs marks: Using the simple past with 'since'. *Since* requires a perfect tense.",
-          "Write the definition or formula first, then the working or example."
+          "The correct sentence is: “The list of names **is** on the noticeboard.”",
+          "“List” is the singular subject; the verb agrees with it, not with the nearer plural noun “names”.",
+          "This is why identifying the head noun before choosing the verb prevents a subject–verb agreement error."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Grammar in Context”: “Fill in the blank: Neither of the two candidates ____ (has/have) replied yet.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Complete the sentence with a suitable modal and explain its force: “The sky is very dark; it ____ rain before evening.”",
         "a": [
-          "Idea: Tenses, modals, subject-verb agreement, reported speech, determiners.",
-          "has. 'Neither of' takes a singular verb, because the subject is 'neither', not 'candidates'."
+          "“The sky is very dark; it **may** rain before evening.”",
+          "“May” expresses a possibility based on the evidence, without claiming that rain is certain."
         ]
       },
       {
@@ -290,21 +290,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Grammar in Context”. Their note says: Tenses. The tense must agree with the time marker in the sentence. Since and for take the perfect tenses; yesterday, last year take the simple past; now, at present take the present continuous; tomorrow, next week take the future. In a narrative passage, the tense often shifts only when the time shi\n\nThe chapter is described as: Tenses, modals, subject-verb agreement, reported speech, determiners.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nMira said to Dev, “I have finished the model, and I will bring it here tomorrow.” Dev replied, “Can you show it to us today?”\n\n(a) Report Mira's statement, changing the pronouns and time and place words as needed.\n(b) Report Dev's question using statement word order.\n(c) Which modal changes from “will” in reported speech?",
         "a": [
-          "(a) Tenses, modals, subject-verb agreement, reported speech, determiners.",
-          "(b) About 10 marks, usually as a gap-filling or editing task set within a short passage or dialogue.",
-          "(c) Using the simple past with 'since'. *Since* requires a perfect tense."
+          "Mira said that she had finished the model and would bring it there the next day.",
+          "Dev asked Mira whether she could show it to them that day.",
+          "“Will” changes to “would” when the statement is reported in the past."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Fill in the blank: Neither of the two candidates ____ (has/have) replied yet.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA proofreader finds these sentences in a school notice: “Each of the teams have a captain. The students has submitted their forms yesterday. There is many reasons to join.”\n\n(a) Correct the verb in the first sentence.\n(b) Correct the verb and time expression in the second sentence.\n(c) Correct the subject–verb agreement in the third sentence.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) has. 'Neither of' takes a singular verb, because the subject is 'neither', not 'candidates'.",
-          "(c) In a gap-filling passage, look at the other verbs first — the tense of the passage is usually consistent."
+          "“Each of the teams **has** a captain.” “Each” is singular.",
+          "“The students **submitted** their forms yesterday.” “Yesterday” calls for the simple past.",
+          "“There **are** many reasons to join.” The plural subject “reasons” takes “are”."
         ]
       },
       {
@@ -321,12 +321,12 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Grammar in Context” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "A student edits a report by changing every verb into the past tense and choosing the verb closest to the blank. Explain why both habits cause errors and give a reliable editing method.",
         "a": [
-          "Tenses. The tense must agree with the time marker in the sentence. Since and for take the perfect tenses; yesterday, last year take the simple past; now, at present take the present continuous; tomorrow, next week take the future. In a narrative passage, the tense often shifts only when the time shifts — so keep the tense until a new time marker appears.",
-          "Marks lens: About 10 marks, usually as a gap-filling or editing task set within a short passage or dialogue.",
-          "Method / memory trick: In a gap-filling passage, look at the other verbs first — the tense of the passage is usually consistent.",
-          "Do not: Using the simple past with 'since'. *Since* requires a perfect tense."
+          "Tense should follow the time in the sentence or passage; a narrative may change tense when the time changes, so shifting every verb mechanically can distort the meaning.",
+          "Agreement is with the grammatical subject, not necessarily the nearest noun: in “the list of items”, the subject is “list”.",
+          "First identify the time marker and the subject, then choose the tense and verb form that agree with them.",
+          "Read the sentence again in context to check that the pronouns, time words and reported speech remain consistent."
         ]
       }
     ],
@@ -344,12 +344,12 @@
         "a": "**(c) for** — 'for' is used with a period of time; 'since' is used with a point in time."
       },
       {
-        "q": "The most exam-ready way to revise “Grammar in Context” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Tenses, modals, subject-verb agreement, reported speech, determiners."
+        "q": "Choose the correct form: “By the time the guests arrived, we ____ dinner.” (a) Prepare (b) Had prepared (c) Have prepare (d) Are preparing",
+        "a": "**(b) Had prepared.** The preparation was completed before another past event, so the past perfect is appropriate."
       },
       {
-        "q": "A 3-mark answer on “Grammar in Context” should: (a) start with the idea, then a reason or method  (b) be one sentence  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(a) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Choose the correct determiner: “There is ____ useful information in the notice.” (a) Much (b) Many (c) A few (d) Several",
+        "a": "**(a) Much.** “Information” is an uncountable noun, so “much” is suitable here."
       },
       {
         "q": "Choose the correct form: Neither of the boys ___ present. (a) were  (b) are  (c) was  (d) have been",
@@ -428,20 +428,20 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Formal Letter Writing” (Letters to the editor and letters of order, enquiry, complaint). A classmate lost marks by doing this: Putting your name in the sender's address at the top. It goes at the bottom, under the signature. Apply the correct method and rewrite the scoring answer.",
+        "q": "A formal letter has the sender's name above the address and ends “Yours lovingly”. Identify both problems and state what should replace each.",
         "a": [
-          "Correct method: The subject line is one line only. If it runs to two, shorten it.",
-          "Why the mistake costs marks: Putting your name in the sender's address at the top. It goes at the bottom, under the signature.",
-          "Write the definition or formula first, then the working or example."
+          "The sender's address belongs at the top; the sender's name is written with the signature at the end, not in the address block.",
+          "“Yours lovingly” is informal. A formal letter should close with “Yours faithfully” or “Yours sincerely”, as appropriate.",
+          "The correction gives the letter a conventional layout and maintains a respectful formal tone."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Formal Letter Writing”: “Give the format of a formal letter.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A student is writing to the editor about a blocked drain. Explain what the first, middle and final paragraphs should each do.",
         "a": [
-          "Idea: Letters to the editor and letters of order, enquiry, complaint.",
-          "Sender's address at the top left, without the name; the date in full; the receiver's designation and address; a one-line subject; the salutation Sir or Madam; the body in three short paragraphs; the complimentary close Yours faithfully or Yours sincerely; and the signature, name and designation at the bottom left."
+          "The opening should state the issue and the purpose of writing.",
+          "The middle should give specific evidence, such as the location, duration and effects on residents, without unsupported accusations."
         ]
       },
       {
@@ -468,21 +468,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Formal Letter Writing”. Their note says: The format. (1) Sender's address at the top left, in two or three lines, without the name. (2) Date, written in full — 15 March 2027, not 15/3/27. (3) Receiver's designation and address — The Editor / The Manager, the name of the newspaper or firm, and the city. (4) Subject, in one line, short and s\n\nThe chapter is described as: Letters to the editor and letters of order, enquiry, complaint.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA resident writes to the municipal commissioner about a broken footpath near a school. The draft includes a clear subject, describes children stepping into traffic, asks for a repair, and ends with “Send workers soon.” It has no date and begins, “Hey there”.\n\n(a) What two format or tone changes should be made?\n(b) Which detail in the body supports the request for repair?\n(c) Rewrite the final request in a formal, specific tone.",
         "a": [
-          "(a) Letters to the editor and letters of order, enquiry, complaint.",
-          "(b) marks, 100–120 words. Two kinds are set: a letter to the editor and a letter of order, enquiry or complaint to a firm or an official.",
-          "(c) Putting your name in the sender's address at the top. It goes at the bottom, under the signature."
+          "Add the date after the sender's address, and replace “Hey there” with the formal salutation “Sir/Madam”.",
+          "The detail that children are forced to step into traffic explains the safety risk and supports the request.",
+          "For example: “I request that the damaged footpath be inspected and repaired promptly to ensure the safety of schoolchildren.”"
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Give the format of a formal letter.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA school wants to order 40 laboratory stools. Its letter gives only the item name and ends with “Please send them.” The supplier needs enough information to fulfil the order correctly.\n\n(a) Name two specifications the school should add.\n(b) What delivery information should be included?\n(c) Why should the subject line be brief and specific?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Sender's address at the top left, without the name; the date in full; the receiver's designation and address; a one-line subject; the salutation Sir or Madam; the body in three short paragraphs; the complimentary close Yours faithfully or Yours sincerely; and the signature, name and designation at the bottom left.",
-          "(c) The subject line is one line only. If it runs to two, shorten it."
+          "It should state the required model or material and any size or quality specification, as well as the quantity of 40.",
+          "It should provide the delivery address and a requested delivery date or schedule; payment or price terms should also be stated where applicable.",
+          "A concise subject such as “Order for 40 laboratory stools” immediately tells the recipient what the letter concerns."
         ]
       },
       {
@@ -524,12 +524,12 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Formal Letter Writing” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Explain how a formal letter can be both concise and persuasive. Use the format and paragraph structure of a letter to the editor as an example.",
         "a": [
-          "The format. (1) Sender's address at the top left, in two or three lines, without the name. (2) Date, written in full — 15 March 2027, not 15/3/27. (3) Receiver's designation and address — The Editor / The Manager, the name of the newspaper or firm, and the city. (4) Subject, in one line, short and specific. (5) Salutation — Sir / Madam. (6) Body in three short paragraphs. (7) Complimentary close — Yours faithfully /.",
-          "Marks lens: marks, 100–120 words. Two kinds are set: a letter to the editor and a letter of order, enquiry or complaint to a firm or an official.",
-          "Method / memory trick: The subject line is one line only. If it runs to two, shorten it.",
-          "Do not: Putting your name in the sender's address at the top. It goes at the bottom, under the signature."
+          "Begin with the sender's address and full date, then the receiver's designation and address, a specific subject, and a formal salutation.",
+          "In the opening paragraph, state the civic issue and purpose. In the middle, give two or three concrete details that show its effect without naming or accusing individuals.",
+          "The final paragraph should request a specific action politely and close formally with the writer's name and signature.",
+          "Concision comes from selecting relevant evidence and keeping each paragraph to its job; persuasion comes from clear facts, a respectful tone and a practical request."
         ]
       }
     ],
@@ -547,12 +547,12 @@
         "a": "**(d) Sir or Madam** — 'Yours sincerely' is used when the recipient is addressed by name."
       },
       {
-        "q": "The most exam-ready way to revise “Formal Letter Writing” is: (a) learn the key idea plus one example  (b) read the heading only  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(a) learn the key idea plus one example.** The chapter is Letters to the editor and letters of order, enquiry, complaint."
+        "q": "Which detail is most useful in the body of a formal complaint about damaged goods? (a) The invoice number and a precise description of the damage (b) A long story about the writer's childhood (c) A guess about the seller's intentions (d) A poem about shopping",
+        "a": "**(a) The invoice number and a precise description of the damage.** These details let the recipient identify the purchase and understand the problem."
       },
       {
-        "q": "A 3-mark answer on “Formal Letter Writing” should: (a) be one sentence  (b) copy the whole chapter  (c) leave the example out  (d) start with the idea, then a reason or method",
-        "a": "**(d) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Which subject line is the clearest for a letter placing an order? (a) Hello and thank you (b) A very long account of our school (c) Some things we need (d) Order for 40 laboratory stools",
+        "a": "**(d) Order for 40 laboratory stools.** A short, specific subject tells the recipient exactly what the letter concerns."
       },
       {
         "q": "A letter to the editor begins with: (a) the subject line  (b) the sender's address, date, and then ‘The Editor'  (c) ‘Dear Sir' alone  (d) a question",
@@ -630,20 +630,20 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Analytical Paragraph” (A data-based paragraph from a chart, graph, table or set of clues). A classmate lost marks by doing this: Copying every number from the table. Apply the correct method and rewrite the scoring answer.",
+        "q": "A chart shows that a club's membership rose from 20 to 50 over five years. A student writes, “The club is the best in the city and should receive more funding.” Explain why this is not a suitable analytical conclusion.",
         "a": [
-          "Correct method: Open with what the chart shows, then compare, then conclude. Three moves, one paragraph.",
-          "Why the mistake costs marks: Copying every number from the table.",
-          "Write the definition or formula first, then the working or example."
+          "The figures show a rise in membership, but they do not compare the club with others or give evidence about quality.",
+          "The recommendation for extra funding is an opinion not supported by the chart.",
+          "A suitable conclusion would state only the supported trend, such as “Membership increased over the five-year period.”"
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Analytical Paragraph”: “Describe the structure of an analytical paragraph.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A table gives sales of three products as 120, 90 and 60 units. Explain how to compare the figures accurately without merely listing all three.",
         "a": [
-          "Idea: A data-based paragraph from a chart, graph, table or set of clues.",
-          "The paragraph opens with a sentence introducing the data — what it shows, the period it covers and the units used. The middle sentences describe the main features, selecting the significant figures and comparing them. The final sentence gives a conclusion or a trend inferred from the data. The whole paragraph is within the word limit and contains no opinion."
+          "Identify the highest and lowest figures and compare them directly: sales of the first product are twice those of the third.",
+          "Mention the middle figure only if it helps explain the pattern, and use the same unit for each value."
         ]
       },
       {
@@ -671,21 +671,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Analytical Paragraph”. Their note says: The structure. First sentence: introduce the data — what the chart shows, what period it covers and what units are used. Middle sentences: describe the main features, comparing and contrasting the significant figures. Last sentence: give a conclusion or a trend inferred from the data. Do not list ev\n\nThe chapter is described as: A data-based paragraph from a chart, graph, table or set of clues.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA survey records the percentage of students who travel to school by four methods:\n\nBus — 45%    Cycle — 25%    Walk — 20%    Private car — 10%\n\n(a) Which method is most common?\n(b) How many percentage points separate bus and walking?\n(c) What is one conclusion the figures support without adding an opinion?",
         "a": [
-          "(a) A data-based paragraph from a chart, graph, table or set of clues.",
-          "(b) marks, 100–120 words. Based on a chart, graph, table, data set, outline or set of clues.",
-          "(c) Copying every number from the table."
+          "Bus is the most common method, at 45%.",
+          "The difference is 45 − 20 = 25 percentage points.",
+          "The data show that more students travel by bus than by any other listed method; they do not by themselves explain why."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Describe the structure of an analytical paragraph.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA small table shows a town's park visitors: Monday 120, Tuesday 150, Wednesday 150, Thursday 90. The writer wants to describe the pattern in an analytical paragraph.\n\n(a) On which days is the figure highest?\n(b) What happens between Wednesday and Thursday?\n(c) Which sentence accurately describes the trend?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) The paragraph opens with a sentence introducing the data — what it shows, the period it covers and the units used. The middle sentences describe the main features, selecting the significant figures and comparing them. The final sentence gives a conclusion or a trend inferred from the data. The whole paragraph is within the word limit and contains no opinion.",
-          "(c) Open with what the chart shows, then compare, then conclude. Three moves, one paragraph."
+          "Tuesday and Wednesday tie for the highest number, with 150 visitors each.",
+          "The figure falls from 150 on Wednesday to 90 on Thursday, a decrease of 60.",
+          "“Visitors peaked at 150 on Tuesday and Wednesday, then fell sharply on Thursday” accurately describes the supplied data."
         ]
       },
       {
@@ -722,12 +722,12 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Analytical Paragraph” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Using the park-visitor figures in the case above, describe how you would build an analytical paragraph that reports the pattern without inventing a cause.",
         "a": [
-          "The structure. First sentence: introduce the data — what the chart shows, what period it covers and what units are used. Middle sentences: describe the main features, comparing and contrasting the significant figures. Last sentence: give a conclusion or a trend inferred from the data. Do not list every number — select the two or three that matter.",
-          "Marks lens: marks, 100–120 words. Based on a chart, graph, table, data set, outline or set of clues.",
-          "Method / memory trick: Open with what the chart shows, then compare, then conclude. Three moves, one paragraph.",
-          "Do not: Copying every number from the table."
+          "Introduce the data as a record of visitors from Monday to Thursday, naming the unit if the chart provides one.",
+          "Select the significant figures: 120 on Monday, a peak of 150 on Tuesday and Wednesday, and a fall to 90 on Thursday.",
+          "Use comparative language such as “peaked at”, “remained steady” and “fell sharply”; do not list every number without explaining the pattern.",
+          "Conclude with the overall observed trend, but do not claim why attendance changed unless the source gives a reason."
         ]
       }
     ],
@@ -745,12 +745,12 @@
         "a": "**(a) state a trend or inference from the data** — not a personal opinion, unless the question asks for one."
       },
       {
-        "q": "The most exam-ready way to revise “Analytical Paragraph” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is A data-based paragraph from a chart, graph, table or set of clues."
+        "q": "A chart records attendance as 20, 25, 25 and 15 over four days. Which sentence reports the data accurately? (a) Attendance rose every day (b) Attendance peaked at 25 on the second and third days, then fell (c) The fourth day was the busiest (d) Attendance stayed at 20 throughout",
+        "a": "**(b) Attendance peaked at 25 on the second and third days, then fell.** It reports the tie and the later decline without adding an unsupported cause."
       },
       {
-        "q": "A 3-mark answer on “Analytical Paragraph” should: (a) be one sentence  (b) copy the whole chapter  (c) start with the idea, then a reason or method  (d) leave the example out",
-        "a": "**(c) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Which sentence avoids adding an unsupported cause to a set of figures? (a) “The total fell because the manager was careless” (b) “The change proves that the service is poor” (c) “The total fell from 80 to 60” (d) “The decline will continue next year”",
+        "a": "**(c) “The total fell from 80 to 60.”** It describes the figures without inventing a reason or predicting the future."
       },
       {
         "q": "An analytical paragraph must be based on: (a) personal opinion only  (b) imaginary facts  (c) a news report  (d) the data given in the chart or table",

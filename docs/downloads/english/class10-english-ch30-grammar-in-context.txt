@@ -31,16 +31,16 @@ Q5. [Application · 2 marks] Fill in the blanks with a reason for each: (i) Slow
       (i) wins — ‘slow and steady’ is a single combined idea (one subject), so the verb is singular.
       (ii) is — ‘news’ looks plural but is an uncountable singular noun, so it takes a singular verb.
 
-Q6. [Application · 3 marks] Riya is revising “Grammar in Context” (Tenses, modals, subject-verb agreement, reported speech, determiners). A classmate lost marks by doing this: Using the simple past with 'since'. Since requires a perfect tense. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] Correct the verb in this sentence and explain the agreement: “The list of names are on the noticeboard.”
     Ans:
-      Correct method: In a gap-filling passage, look at the other verbs first — the tense of the passage is usually consistent.
-      Why the mistake costs marks: Using the simple past with 'since'. Since requires a perfect tense.
-      Write the definition or formula first, then the working or example.
+      The correct sentence is: “The list of names is on the noticeboard.”
+      “List” is the singular subject; the verb agrees with it, not with the nearer plural noun “names”.
+      This is why identifying the head noun before choosing the verb prevents a subject–verb agreement error.
 
-Q7. [Application · 3 marks] Amit is given this exam-style task from “Grammar in Context”: “Fill in the blank: Neither of the two candidates ____ (has/have) replied yet.” Treat it as an application question. Identify the idea, then write the working in points.
+Q7. [Application · 3 marks] Complete the sentence with a suitable modal and explain its force: “The sky is very dark; it ____ rain before evening.”
     Ans:
-      Idea: Tenses, modals, subject-verb agreement, reported speech, determiners.
-      has. 'Neither of' takes a singular verb, because the subject is 'neither', not 'candidates'.
+      “The sky is very dark; it may rain before evening.”
+      “May” expresses a possibility based on the evidence, without claiming that rain is certain.
 
 Q8. [Short · 3 marks] How do you change a sentence from direct into indirect speech?
     Ans:
@@ -51,29 +51,27 @@ Q8. [Short · 3 marks] How do you change a sentence from direct into indirect sp
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Grammar in Context”. Their note says: Tenses. The tense must agree with the time marker in the sentence. Since and for take the perfect tenses; yesterday, last year take the simple past; now, at present take the present continuous; tomorrow, next week take the future. In a narrative passage, the tense often shifts only when the time shi
+    Mira said to Dev, “I have finished the model, and I will bring it here tomorrow.” Dev replied, “Can you show it to us today?”
     
-    The chapter is described as: Tenses, modals, subject-verb agreement, reported speech, determiners.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Report Mira's statement, changing the pronouns and time and place words as needed.
+    (b) Report Dev's question using statement word order.
+    (c) Which modal changes from “will” in reported speech?
     Ans:
-      (a) Tenses, modals, subject-verb agreement, reported speech, determiners.
-      (b) About 10 marks, usually as a gap-filling or editing task set within a short passage or dialogue.
-      (c) Using the simple past with 'since'. Since requires a perfect tense.
+      Mira said that she had finished the model and would bring it there the next day.
+      Dev asked Mira whether she could show it to them that day.
+      “Will” changes to “would” when the statement is reported in the past.
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Fill in the blank: Neither of the two candidates ____ (has/have) replied yet.” Student A writes one line. Student B writes points, an example and a check.
+    A proofreader finds these sentences in a school notice: “Each of the teams have a captain. The students has submitted their forms yesterday. There is many reasons to join.”
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Correct the verb in the first sentence.
+    (b) Correct the verb and time expression in the second sentence.
+    (c) Correct the subject–verb agreement in the third sentence.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) has. 'Neither of' takes a singular verb, because the subject is 'neither', not 'candidates'.
-      (c) In a gap-filling passage, look at the other verbs first — the tense of the passage is usually consistent.
+      “Each of the teams has a captain.” “Each” is singular.
+      “The students submitted their forms yesterday.” “Yesterday” calls for the simple past.
+      “There are many reasons to join.” The plural subject “reasons” takes “are”.
 
 Q11. [Application · 4 marks] Correct these sentences and give a reason for each: (i) She don't like mangoes. (ii) He is working since morning. (iii) The teacher said that the earth moved round the sun. (iv) Neither of the boys were present.
     Ans:
@@ -82,12 +80,12 @@ Q11. [Application · 4 marks] Correct these sentences and give a reason for each
       (iii) The teacher said that the earth moves round the sun — a universal truth keeps the present tense even in indirect speech.
       (iv) Neither of the boys was present — ‘neither' is singular, so the verb is was, not were.
 
-Q12. [Long · 5 marks] Discuss “Grammar in Context” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] A student edits a report by changing every verb into the past tense and choosing the verb closest to the blank. Explain why both habits cause errors and give a reliable editing method.
     Ans:
-      Tenses. The tense must agree with the time marker in the sentence. Since and for take the perfect tenses; yesterday, last year take the simple past; now, at present take the present continuous; tomorrow, next week take the future. In a narrative passage, the tense often shifts only when the time shifts — so keep the tense until a new time marker appears.
-      Marks lens: About 10 marks, usually as a gap-filling or editing task set within a short passage or dialogue.
-      Method / memory trick: In a gap-filling passage, look at the other verbs first — the tense of the passage is usually consistent.
-      Do not: Using the simple past with 'since'. Since requires a perfect tense.
+      Tense should follow the time in the sentence or passage; a narrative may change tense when the time changes, so shifting every verb mechanically can distort the meaning.
+      Agreement is with the grammatical subject, not necessarily the nearest noun: in “the list of items”, the subject is “list”.
+      First identify the time marker and the subject, then choose the tense and verb form that agree with them.
+      Read the sentence again in context to check that the pronouns, time words and reported speech remain consistent.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -101,11 +99,11 @@ M2. Report the sentence: He said, 'I am leaving tomorrow.' (a) He said that he i
 M3. Fill in the blank: She has been waiting ____ two hours. (a) since (b) from (c) for (d) during
     Ans: (c) for — 'for' is used with a period of time; 'since' is used with a point in time.
 
-M4. The most exam-ready way to revise “Grammar in Context” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Tenses, modals, subject-verb agreement, reported speech, determiners.
+M4. Choose the correct form: “By the time the guests arrived, we ____ dinner.” (a) Prepare (b) Had prepared (c) Have prepare (d) Are preparing
+    Ans: (b) Had prepared. The preparation was completed before another past event, so the past perfect is appropriate.
 
-M5. A 3-mark answer on “Grammar in Context” should: (a) start with the idea, then a reason or method  (b) be one sentence  (c) copy the whole chapter  (d) leave the example out
-    Ans: (a) start with the idea, then a reason or method. Step marks follow that frame.
+M5. Choose the correct determiner: “There is ____ useful information in the notice.” (a) Much (b) Many (c) A few (d) Several
+    Ans: (a) Much. “Information” is an uncountable noun, so “much” is suitable here.
 
 M6. Choose the correct form: Neither of the boys ___ present. (a) were  (b) are  (c) was  (d) have been
     Ans: (c) was. ‘Neither' and ‘either' are treated as singular in formal English.

@@ -52,11 +52,14 @@ COMPLETED = (
     "science/",
     "social-science/",
     "english/01-prose.json",
+    "english/02-poems.json",
+    "english/03-footprints.json",
+    "english/04-skills.json",
 )
 
 # Templated items still in the repository (3 Oct 2026). Only ever lower these.
-QA_CEILING = 344    # written Q&As matching a template (was 721 of 2,133)
-MCQ_CEILING = 138   # MCQs that mocktest.is_filler excludes (was 300 of 1,426)
+QA_CEILING = 229    # written Q&As matching a template (was 721 of 2,133)
+MCQ_CEILING = 92    # MCQs that mocktest.is_filler excludes (was 300 of 1,426)
 
 
 def _template_of(text):
