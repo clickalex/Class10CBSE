@@ -52,9 +52,9 @@ Q9. [Short · 3 marks] Compare the star and bus topologies and name one advantag
       Star is the topology used in almost every modern office network.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     In an old computer lab, all the computers were attached to one long common cable with a terminator at each end. One day the main cable broke and the whole lab went offline.
-    
+
     (a) Name the topology.
     (b) State one advantage of it.
     (c) Why was a single break so serious?
@@ -64,9 +64,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Every computer depends on the single backbone cable, so a break stops communication for all of them; performance also falls as more devices share it.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A laptop has the MAC address 00:1A:2B:3C:4D:5E printed in its hardware. At school it gets the IP address 192.168.1.15 and at home it gets 192.168.0.7.
-    
+
     (a) Which address stays the same wherever the laptop goes?
     (b) Which one changes with the network?
     (c) Who or what assigns the IP address?

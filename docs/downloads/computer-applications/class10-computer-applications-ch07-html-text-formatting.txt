@@ -68,14 +68,14 @@ Q9. [Short · 3 marks] Write the HTML for an ordered list of three steps and an 
       Lists may be nested: put a <ul> inside an <li> to make a sub-list.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A student wants a numbered list of recipe steps and writes:
-    
+
     <ul>
     Boil water
     Add tea
     </ul>
-    
+
     (a) State two errors.
     (b) Write the corrected code.
     (c) How would you make the numbering start from 5?
@@ -88,9 +88,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Use the start attribute: <ol start='5'>.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A glossary page lists the term “HTML” with the meaning “the language used to write web pages”.
-    
+
     (a) Which kind of list suits a glossary?
     (b) Write the code for this one entry.
     (c) How does it differ from <ul>?

@@ -397,6 +397,15 @@ class ExportTests(unittest.TestCase):
                 leaks.append(f"{rel}: backtick code span")
         self.assertEqual(leaks, [])
 
+    def test_exports_have_no_trailing_whitespace(self):
+        """Blank lines between a case stem and its parts stay blank, not indented."""
+        bad = []
+        for rel, text in self.files.items():
+            for line_no, line in enumerate(text.splitlines(), 1):
+                if line.rstrip(" \t") != line:
+                    bad.append(f"{rel}:{line_no}")
+        self.assertEqual(bad, [], f"trailing whitespace in exports: {bad[:5]}")
+
     def test_plain_text_is_exactly_what_the_page_shows(self):
         """plain() must agree with build.inline() on every string in the content."""
         checked = 0

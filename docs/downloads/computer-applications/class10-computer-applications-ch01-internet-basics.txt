@@ -52,9 +52,9 @@ Q9. [Short · 3 marks] Explain the terms World Wide Web, webpage, website and ho
       The homepage is the first page that opens when you visit a website, from which the other pages are reached.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     In a new school lab, 30 computers are connected to a router, which is connected to an Internet Service Provider (ISP).
-    
+
     (a) What is the role of the ISP?
     (b) What does the router do?
     (c) What gives each computer a unique address on the network?
@@ -64,9 +64,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Each device is given an IP address.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A student reads: “ARPANET started in 1969, and Tim Berners-Lee proposed the World Wide Web at CERN in 1989.”
-    
+
     (a) How many years separate the two events?
     (b) Which came first, and does the web run on the internet?
     (c) Name the three technologies on which the web is built.

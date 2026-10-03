@@ -51,9 +51,9 @@ Q9. [Long · 4 marks] Explain anchoring of images in Writer.
     Ans: Anchor decides what the image sticks to: To Paragraph (moves with the para), To Character, As Character (in the text line), To Page (fixed on that page). Choose To Paragraph + Optimal wrap for reports.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A student’s picture sits in a huge white box and the caption is not numbered.
-    
+
     (a) Two likely causes.
     (b) Steps to insert a proper Figure caption.
     (c) Why captions help in a long file.
@@ -63,9 +63,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Auto numbering and a Table of Figures.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A student inserts a photograph and wants the caption “Figure 1: School library” below it, numbered automatically, with the text flowing around the picture.
-    
+
     (a) How can she add the caption?
     (b) Which setting makes the text flow around the picture?
     (c) What happens to the figure numbers if she inserts another picture before this one?

@@ -51,9 +51,9 @@ Q9. [Long · 4 marks] Write steps to create a data-entry form for the Student ta
     Ans: Forms → Use Wizard → table Student → select fields → choose layout (columnar) → set to display all data / data entry → style → name frmStudent → finish. Test by adding one record.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     Data-entry staff keep typing in Datasheet and accidentally delete a column.
-    
+
     (a) Which object reduces that risk?
     (b) Two reasons.
     (c) How should monthly printouts be produced?
@@ -63,9 +63,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) A report (from a query), not a screenshot of the datasheet.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     The school office needs to (i) store student records, (ii) find the students who owe fees, (iii) type in new admissions comfortably and (iv) print a fee-defaulter list for the principal.
-    
+
     (a) Name the Base object best suited to each task.
     (b) Which of these objects are mainly used for output rather than entry?
     Ans:

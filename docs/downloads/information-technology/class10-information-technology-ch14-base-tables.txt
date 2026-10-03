@@ -52,9 +52,9 @@ Q9. [Long · 4 marks] Write field names, types and keys for a table Book.
     Ans: ISBN VARCHAR PK; Title VARCHAR; Author VARCHAR; Price DECIMAL; Available YES/NO. ISBN uniquely identifies a book; Available is Boolean.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     Table Marks has fields Name, Marks, Marks, Date.
-    
+
     (a) Three design faults.
     (b) Redesign with types and a PK.
     (c) Which view to use in the practical.
@@ -64,9 +64,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Design View to build, Datasheet to enter records.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A clerk wants the field StudentID to number new records 1, 2, 3, … automatically.
-    
+
     (a) Which field property does this?
     (b) What type of field must it be?
     (c) Give one advantage.

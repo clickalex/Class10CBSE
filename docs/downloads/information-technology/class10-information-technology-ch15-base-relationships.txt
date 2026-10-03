@@ -51,9 +51,9 @@ Q9. [Long · 4 marks] Explain how to relate Student and Issue in Base.
     Ans: AdmNo PK in Student; AdmNo FK in Issue (same type). Tools → Relationships, drag PK to FK, enable referential integrity. Then an issue cannot use a missing admission number.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     Deleting student 12 failed because “existing related records”.
-    
+
     (a) What rule is firing?
     (b) Two safe ways to proceed.
     (c) When would cascade delete be wrong?
@@ -63,9 +63,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) When those issues are history you must keep — never cascade-delete library history by accident.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     In a school, each student has exactly one library card and each card belongs to exactly one student.
-    
+
     (a) What type of relationship is this?
     (b) How can it be set up in Base?
     (c) Why are the data often kept in one table instead?

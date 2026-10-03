@@ -64,9 +64,9 @@ Q9. [Short · 3 marks] Write the HTML for a page titled ‘My School' with one h
       Close with </body></html>; every opening tag must have a matching closing tag.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A student wrote this page:
-    
+
     <html>
     <body>
     <title>My Page</title>
@@ -74,7 +74,7 @@ Q10. [Competency · 4 marks] Read and answer:
     <p>Hello</br>
     </body>
     </html>
-    
+
     (a) Find three errors.
     (b) Write the corrected code.
     Ans:
@@ -88,14 +88,14 @@ Q10. [Competency · 4 marks] Read and answer:
       </html>
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A browser is given this code:
-    
+
     <h2>Menu</h2>
     <p>Tea<br>Coffee<br>Milk</p>
     <hr>
     <p>Open 9 to 5</p>
-    
+
     (a) How many lines does the first paragraph show?
     (b) What does <hr> do?
     (c) Why are <br> and <hr> called empty tags?

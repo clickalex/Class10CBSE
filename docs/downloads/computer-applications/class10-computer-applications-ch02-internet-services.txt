@@ -52,9 +52,9 @@ Q9. [Short · 3 marks] Describe what happens when you send an email.
       The recipient's program collects it with POP3, which usually downloads and deletes it, or with IMAP, which leaves it on the server and synchronises folders.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A design studio must send a 500 MB video to a client in another city. The e-mail service allows attachments of only 25 MB.
-    
+
     (a) Which internet service and protocol should the studio use?
     (b) Why is e-mail unsuitable?
     (c) What security weakness does plain FTP have, and how can it be reduced?
@@ -64,9 +64,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Plain FTP sends the user name and password unencrypted; using a secure version (SFTP or FTPS) encrypts them.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     Priya chats with Rohan using a messaging app and then switches to a video call.
-    
+
     (a) What is chat (instant messaging)?
     (b) What is VoIP?
     (c) Why does a video call need a better connection than an e-mail?

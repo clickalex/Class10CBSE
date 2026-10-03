@@ -52,9 +52,9 @@ Q9. [Long · 4 marks] Explain macro security levels and a safe practice for stud
     Ans: Very High / High / Medium / Low control whether unsigned macros run. Students should keep High or Medium, enable macros only on their own practical files, and never open a macro-enabled sheet from an unknown chat.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A classmate sends marks.ods that auto-runs a macro on open.
-    
+
     (a) What should you do first?
     (b) When is a macro a good idea in your own file?
     (c) One limitation of recorded macros.
@@ -64,9 +64,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) They record extra clicks; they may break if the sheet layout changes.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     Every Friday a clerk makes the header row of a report bold, sets the font to 12 pt and adds a heading “Weekly Report”.
-    
+
     (a) Which feature can automate this?
     (b) How is it recorded?
     (c) Name one situation in which a macro should not be used.

@@ -52,9 +52,9 @@ Q9. [Short · 3 marks] What are cookies and cache, and why should you clear them
       The cost is that you have to sign in again and the first visit to a site is slower.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     Neha logs in to her e-mail on a school computer and does not want any trace left on it.
-    
+
     (a) Which browser mode should she use?
     (b) What does that mode not hide?
     (c) What should she do when she finishes?
@@ -64,9 +64,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Log out of her account and close the window; on a shared computer she can also clear the cache and cookies.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A page’s address bar shows a padlock and the address begins with https://.
-    
+
     (a) What does the padlock tell you?
     (b) Does it prove that the site is trustworthy?
     (c) What should you check before typing a password?

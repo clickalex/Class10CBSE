@@ -102,26 +102,16 @@ class BankTests(unittest.TestCase):
         self.assertFalse(mocktest.is_filler({"q": "The HCF of 8 and 12 is: (a) 2 (b) 4 (c) 8 (d) 24"}))
 
     def test_no_templated_mcq_reaches_a_pool(self):
-        """Study-habit prompts are copy-pasted across chapters with identical
-        options. Any option set shared by four or more chapters must be caught
-        by ``is_filler`` — otherwise a new template has slipped into the mocks."""
-        from collections import defaultdict
-        where = defaultdict(set)
-        items = defaultdict(list)
+        """The chapter banks used to contain hundreds of copy-pasted study-habit
+        MCQs. None may regress into a mock pool; known detector frames are pinned
+        separately by ``test_filler_prompts_are_excluded``."""
+        templates = []
         for subj in _subjects():
             for ch in build.load_chapters(subj["slug"]):
                 for m in ch.get("mcq") or []:
-                    parsed = mocktest.parse_mcq(m)
-                    if not parsed:
-                        continue
-                    key = tuple(parsed["options"])
-                    where[key].add(ch["id"])
-                    items[key].append(m)
-        templates = [k for k, chapters in where.items() if len(chapters) >= 4]
-        self.assertTrue(templates, "expected the known study-habit templates to exist")
-        for key in templates:
-            for m in items[key]:
-                self.assertTrue(mocktest.is_filler(m), f"templated MCQ not excluded: {m['q'][:80]}")
+                    if mocktest.is_filler(m):
+                        templates.append((subj["slug"], ch["id"], m["q"][:80]))
+        self.assertEqual(templates, [], f"study-habit MCQs remain eligible for a pool: {templates[:5]}")
 
     def test_parse_mcq_handles_both_label_styles(self):
         q = mocktest.parse_mcq({"q": "Pick one: (a) x (b) y (c) z (d) w", "a": "**(c) z.** because"})

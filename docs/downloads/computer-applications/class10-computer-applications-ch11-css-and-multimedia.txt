@@ -48,14 +48,14 @@ Q9. [Application · 3 marks] A school page needs this design: all <h2> headings 
       img { width: 200px; float: left; margin: 10px; } — small pictures wrapped by text with a gap.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A student wrote this CSS for a class page:
-    
+
     `
     p { font-color: green; margin: 20px }
     img { float: middle; width: 300 }
     `
-    
+
     (a) Name the two property errors.
     (b) Write the corrected rules.
     Ans:
@@ -63,9 +63,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (b) p { color: green; margin: 20px; } and img { float: left; width: 300px; }.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A project page must play a welcome song on loop and show a 320×240 demo video with play buttons.
-    
+
     (a) Write the <audio> tag.
     (b) Write the <video> tag.
     (c) What goes wrong if controls is left out of both?

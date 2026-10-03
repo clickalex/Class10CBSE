@@ -124,12 +124,12 @@ class AnswerKeyBandTests(unittest.TestCase):
 class RuleTests(unittest.TestCase):
     def test_catch_all_options_are_recognised_and_ordinary_ones_are_not(self):
         for text in ("all of the above", "None of these", "Both A and B", "both", "neither", "none", "either way",
-                     "any of the above", "all equally", "Both I and II", "Neither I nor II", "a and b", "(a) and (c)",
+                     "any of the above", "all equally", "all four", "Both I and II", "Neither I nor II", "a and b", "(a) and (c)",
                      "कोई नहीं", "इनमें से कोई नहीं", "उपर्युक्त सभी", "दोनों में", "किसी में नहीं", "किसी से नहीं"):
             self.assertTrue(balance.is_catch_all(text), text)
-        for text in ("avoids all risk", "bans all religions", "all citizens of the country", "respect for all religions",
+        for text in ("avoids all risk", "bans all religions", "all citizens of the country", "respect for all religions", "All night",
                      "7 years and above", "well above the head", "delete one of them", "Only I", "both parents equally",
-                     "कोई प्रदर्शन नहीं", "सर्वेश्वर", "सभी जीवों के प्रति दया का भाव रखना चाहिए"):
+                     "कोई प्रदर्शन नहीं", "सर्वेश्वर", "सभी जीवों के प्रति दया का भाव रखना चाहिए", "सभी पेड़ फलदार हैं", "दोनों पक्षों में प्रेम है"):
             self.assertFalse(balance.is_catch_all(text), text)
 
     def test_number_lists_are_read_the_way_an_author_reads_them(self):

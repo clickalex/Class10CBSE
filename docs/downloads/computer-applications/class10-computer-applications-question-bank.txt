@@ -52,9 +52,9 @@ Q9. [Short · 3 marks] Explain the terms World Wide Web, webpage, website and ho
       The homepage is the first page that opens when you visit a website, from which the other pages are reached.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     In a new school lab, 30 computers are connected to a router, which is connected to an Internet Service Provider (ISP).
-    
+
     (a) What is the role of the ISP?
     (b) What does the router do?
     (c) What gives each computer a unique address on the network?
@@ -64,9 +64,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Each device is given an IP address.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A student reads: “ARPANET started in 1969, and Tim Berners-Lee proposed the World Wide Web at CERN in 1989.”
-    
+
     (a) How many years separate the two events?
     (b) Which came first, and does the web run on the internet?
     (c) Name the three technologies on which the web is built.
@@ -156,9 +156,9 @@ Q9. [Short · 3 marks] Describe what happens when you send an email.
       The recipient's program collects it with POP3, which usually downloads and deletes it, or with IMAP, which leaves it on the server and synchronises folders.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A design studio must send a 500 MB video to a client in another city. The e-mail service allows attachments of only 25 MB.
-    
+
     (a) Which internet service and protocol should the studio use?
     (b) Why is e-mail unsuitable?
     (c) What security weakness does plain FTP have, and how can it be reduced?
@@ -168,9 +168,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Plain FTP sends the user name and password unencrypted; using a secure version (SFTP or FTPS) encrypts them.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     Priya chats with Rohan using a messaging app and then switches to a video call.
-    
+
     (a) What is chat (instant messaging)?
     (b) What is VoIP?
     (c) Why does a video call need a better connection than an e-mail?
@@ -260,9 +260,9 @@ Q9. [Short · 3 marks] Compare the star and bus topologies and name one advantag
       Star is the topology used in almost every modern office network.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     In an old computer lab, all the computers were attached to one long common cable with a terminator at each end. One day the main cable broke and the whole lab went offline.
-    
+
     (a) Name the topology.
     (b) State one advantage of it.
     (c) Why was a single break so serious?
@@ -272,9 +272,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Every computer depends on the single backbone cable, so a break stops communication for all of them; performance also falls as more devices share it.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A laptop has the MAC address 00:1A:2B:3C:4D:5E printed in its hardware. At school it gets the IP address 192.168.1.15 and at home it gets 192.168.0.7.
-    
+
     (a) Which address stays the same wherever the laptop goes?
     (b) Which one changes with the network?
     (c) Who or what assigns the IP address?
@@ -368,9 +368,9 @@ Q9. [Short · 3 marks] Why is 5G described as ‘for machines’ rather than jus
       That is what the Internet of Things needs — a driverless car or a factory robot cannot wait for a slow round-trip. Hence: 1 voice, 2 text, 3 web, 4 video, 5 machines.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A phone’s specification sheet lists: 5G, Wi-Fi 6, Bluetooth 5.3, NFC and an infrared blaster.
-    
+
     (a) Which of these has the shortest range?
     (b) Which one needs line of sight?
     (c) Which one connects the phone to the mobile operator’s towers?
@@ -380,9 +380,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) 5G, the cellular technology.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A village gets a mobile tower and each family buys a SIM card.
-    
+
     (a) What is a SIM card for?
     (b) What does the tower do?
     (c) What is a “cell”?
@@ -472,9 +472,9 @@ Q9. [Short · 3 marks] What are cookies and cache, and why should you clear them
       The cost is that you have to sign in again and the first visit to a site is slower.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     Neha logs in to her e-mail on a school computer and does not want any trace left on it.
-    
+
     (a) Which browser mode should she use?
     (b) What does that mode not hide?
     (c) What should she do when she finishes?
@@ -484,9 +484,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Log out of her account and close the window; on a shared computer she can also clear the cache and cookies.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A page’s address bar shows a padlock and the address begins with https://.
-    
+
     (a) What does the padlock tell you?
     (b) Does it prove that the site is trustworthy?
     (c) What should you check before typing a password?
@@ -588,9 +588,9 @@ Q9. [Short · 3 marks] Write the HTML for a page titled ‘My School' with one h
       Close with </body></html>; every opening tag must have a matching closing tag.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A student wrote this page:
-    
+
     <html>
     <body>
     <title>My Page</title>
@@ -598,7 +598,7 @@ Q10. [Competency · 4 marks] Read and answer:
     <p>Hello</br>
     </body>
     </html>
-    
+
     (a) Find three errors.
     (b) Write the corrected code.
     Ans:
@@ -612,14 +612,14 @@ Q10. [Competency · 4 marks] Read and answer:
       </html>
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A browser is given this code:
-    
+
     <h2>Menu</h2>
     <p>Tea<br>Coffee<br>Milk</p>
     <hr>
     <p>Open 9 to 5</p>
-    
+
     (a) How many lines does the first paragraph show?
     (b) What does <hr> do?
     (c) Why are <br> and <hr> called empty tags?
@@ -730,14 +730,14 @@ Q9. [Short · 3 marks] Write the HTML for an ordered list of three steps and an 
       Lists may be nested: put a <ul> inside an <li> to make a sub-list.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A student wants a numbered list of recipe steps and writes:
-    
+
     <ul>
     Boil water
     Add tea
     </ul>
-    
+
     (a) State two errors.
     (b) Write the corrected code.
     (c) How would you make the numbering start from 5?
@@ -750,9 +750,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Use the start attribute: <ol start='5'>.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A glossary page lists the term “HTML” with the meaning “the language used to write web pages”.
-    
+
     (a) Which kind of list suits a glossary?
     (b) Write the code for this one entry.
     (c) How does it differ from <ul>?
@@ -852,9 +852,9 @@ Q9. [Short · 3 marks] Write HTML to display the image logo.png at 200 by 100 pi
       Because the <img> tag sits inside the <a> tag, clicking the picture opens the page named in href.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A site has these files: site/index.html, site/about/team.html and site/img/photo.jpg. From team.html a student writes <img src='img/photo.jpg'>, and the picture does not appear.
-    
+
     (a) Why does it fail?
     (b) Write the correct tag.
     (c) What kind of path is this?
@@ -864,9 +864,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) A relative path (measured from the current file); an absolute path would give the full web address.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A blind student uses a screen reader on a page that has <img src='map.png'> with no alt text.
-    
+
     (a) What can the screen reader not do?
     (b) Add suitable alt text to the tag.
     (c) Name another situation in which the alt text is shown.
@@ -965,14 +965,14 @@ Q9. [Long · 4 marks] Write HTML for a table with a merged title cell across two
       The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A student wrote this table, but the first row is wider than the second.
-    
+
     <table border='1'>
     <tr><th colspan='3'>Report</th><th></th><th></th></tr>
     <tr><td>A</td><td>B</td><td>C</td></tr>
     </table>
-    
+
     (a) How many columns wide is the first row and the second?
     (b) Correct the first row.
     (c) State the rule about merged cells.
@@ -982,9 +982,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) A merged cell replaces the cells it covers, so the cells it covers must be removed from the row.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A table starts with <table border='0' cellpadding='10' cellspacing='0'>.
-    
+
     (a) Will a border be visible?
     (b) What does cellpadding='10' do?
     (c) What would changing cellspacing to 10 do?
@@ -1098,14 +1098,14 @@ Q9. [Long · 4 marks] Write an HTML form with a name field, a password field, tw
       Both radio buttons share the name gender, so only one can be chosen; the two checkboxes are independent, so both can be ticked.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A student wrote this form, but the server receives nothing for the text box.
-    
+
     <form action='save.php' method='get'>
       <input type='text'>
       <input type='submit' value='Send'>
     </form>
-    
+
     (a) Why is nothing received?
     (b) Correct the text box.
     (c) Why is GET unsuitable for passwords?
@@ -1115,9 +1115,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) GET appends the data to the address, where it is visible in the address bar and the history; POST sends it in the body of the request.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A feedback form needs a box for comments of several lines, a drop-down list of classes IX, X and XI (with X pre-selected) and a checkbox “Subscribe”.
-    
+
     (a) Which tag gives the comments box?
     (b) Write the drop-down list.
     (c) Write the checkbox.
@@ -1207,14 +1207,14 @@ Q9. [Application · 3 marks] A school page needs this design: all <h2> headings 
       img { width: 200px; float: left; margin: 10px; } — small pictures wrapped by text with a gap.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A student wrote this CSS for a class page:
-    
+
     `
     p { font-color: green; margin: 20px }
     img { float: middle; width: 300 }
     `
-    
+
     (a) Name the two property errors.
     (b) Write the corrected rules.
     Ans:
@@ -1222,9 +1222,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (b) p { color: green; margin: 20px; } and img { float: left; width: 300px; }.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A project page must play a welcome song on loop and show a 320×240 demo video with play buttons.
-    
+
     (a) Write the <audio> tag.
     (b) Write the <video> tag.
     (c) What goes wrong if controls is left out of both?
@@ -1308,9 +1308,9 @@ Q9. [Application · 3 marks] A friend forwards every “forward to 10 people” 
       Posting the photo breaks respect for privacy — always take permission before sharing someone’s picture or number.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     Meera finds a phone 40% cheaper on an unknown site. The site uses http://, asks for full payment by bank transfer, and a “seller” on chat asks for her OTP to “confirm the order”.
-    
+
     (a) Name three fraud/danger signals.
     (b) What should Meera do?
     Ans:
@@ -1318,9 +1318,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (b) Close the site, buy only from a reputed https:// shop, never pay strangers in advance, and never share the OTP with anyone.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A village gets a mobile tower but students still cannot attend online classes: families share one old phone, the signal is weak indoors, and the learning app is English-only.
-    
+
     (a) Which problem is this an example of?
     (b) Identify three barriers shown here.
     (c) Suggest one fix for each.
@@ -1409,9 +1409,9 @@ Q9. [Short · 3 marks] Explain the four main kinds of intellectual property.
       A design right protects the shape, pattern or look of a manufactured article, and trade secrets protect information kept confidential by a business.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A school installs three programs: LibreOffice, whose source code anyone may study and change; a PDF viewer that is free to use but whose code is secret; and a paid word processor.
-    
+
     (a) Which is free and open-source software (FOSS)?
     (b) Which is freeware?
     (c) Which is proprietary software?
@@ -1421,9 +1421,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) The paid word processor.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     Anita gets an e-mail that looks like it is from her bank. It asks her to click a link and enter her card number and OTP “to avoid blocking”.
-    
+
     (a) Name this cybercrime.
     (b) Why is it dangerous?
     (c) State two precautions.

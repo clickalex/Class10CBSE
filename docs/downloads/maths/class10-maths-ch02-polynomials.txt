@@ -60,9 +60,9 @@ Q8. [Short · 3 marks] Divide 3x³ + x² + 2x + 5 by x² + 2x + 1 and verify the
       = 3x³ + x² + 2x + 5, which is the dividend — so dividend = divisor × quotient + remainder.
 
 Q9. [Competency · 4 marks] Read and answer:
-    
+
     The graph of y = p(x), where p(x) is a quadratic polynomial with leading coefficient 1, is a parabola opening upward that cuts the x-axis at (−1, 0) and (4, 0).
-    
+
     (a) How many zeroes does p(x) have, and what are they?
     (b) Find the sum and the product of the zeroes.
     (c) Write p(x).
@@ -72,9 +72,9 @@ Q9. [Competency · 4 marks] Read and answer:
       (c) p(x) = x² − (sum)x + product = x² − 3x − 4.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A toy company models its profit (in thousands of rupees) from selling x thousand toys as P(x) = x² − 7x + 10.
-    
+
     (a) For which numbers of toys does the profit become zero?
     (b) Verify the relation between the zeroes and the coefficients.
     (c) Give an example of a quadratic polynomial whose graph touches the x-axis at only one point.

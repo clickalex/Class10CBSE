@@ -66,9 +66,9 @@ Q9. [Long · 4 marks] A quadrilateral ABCD circumscribes a circle. Prove that AB
       The two sums are identical, so AB + CD = AD + BC.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     From an external point T, two tangents TP and TQ are drawn to a circle with centre O. It is given that ∠PTQ = 70°.
-    
+
     (a) State why ∠OPT = 90°.
     (b) Find ∠POQ.
     (c) Find ∠OPQ.
@@ -78,9 +78,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) TP = TQ, so in ΔTPQ, ∠TPQ = (180° − 70°)/2 = 55°. Then ∠OPQ = ∠OPT − ∠TPQ = 90° − 55° = 35°.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A circle is inscribed in ΔABC and touches the sides BC, CA and AB at D, E and F respectively. AB = 12 cm, BC = 8 cm and CA = 10 cm.
-    
+
     (a) Which tangent lengths are equal?
     (b) Find AF, BD and CE.
     (c) Verify your answers against the three given sides.

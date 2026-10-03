@@ -66,9 +66,9 @@ Q9. [Long · 4 marks] A frustum of a cone has radii 14 cm and 7 cm and height 24
       CSA = π(R + r)l = (22/7) × (14 + 7) × 25 = (22/7) × 21 × 25 = 1650 cm².
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A cylindrical water tank has a diameter of 4 m and a height of 7 m. (Take π = 22/7.)
-    
+
     (a) Find its volume in m³.
     (b) How many litres can it hold? (1 m³ = 1000 litres)
     (c) A family uses 400 litres a day. For how many days will a full tank last?
@@ -78,9 +78,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) 88,000 ÷ 400 = 220 days.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A metal cuboid of dimensions 44 cm × 21 cm × 12 cm is melted and recast into a solid cylinder of radius 7 cm. (Take π = 22/7.)
-    
+
     (a) Find the volume of the cuboid.
     (b) Find the height of the cylinder.
     (c) Why is the volume, and not the surface area, equated?

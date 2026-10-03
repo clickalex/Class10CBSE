@@ -60,9 +60,9 @@ Q9. [Short · 3 marks] Two coins are tossed together. Find the probability of ge
       (iii) At most one head: HT, TH, TT, so P = 3/4.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A bag contains 5 red, 8 white and 7 black balls. One ball is drawn at random.
-    
+
     (a) Find the probability that it is red.
     (b) Find the probability that it is not white.
     (c) Find the probability that it is black or white.
@@ -72,9 +72,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) P(black or white) = (7 + 8)/20 = 15/20 = 3/4.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     In a school raffle, 200 tickets numbered 1 to 200 are sold and one ticket is drawn at random.
-    
+
     (a) What is the probability that the number is a multiple of 10?
     (b) What is the probability that it is a perfect square?
     (c) What is the probability that it is not a multiple of 5?

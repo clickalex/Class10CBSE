@@ -500,7 +500,9 @@ def _block_lines(items):
 
 def _question_lines(prefix, text):
     first, *rest = plain(text).split("\n")
-    return [prefix + first] + ["    " + line for line in rest]
+    # Keep blank lines between the prompt and its subquestions blank. Indenting an
+    # empty line produces trailing spaces in the downloadable .txt export.
+    return [prefix + first] + [("    " + line) if line else "" for line in rest]
 
 
 def _answer_lines(answer):

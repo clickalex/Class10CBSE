@@ -51,9 +51,9 @@ Q9. [Long · 4 marks] Explain mail merge and its advantages.
     Ans: Mail merge combines a main document with a data source to produce personalised letters. Advantages: speed, accuracy of names, one design for many copies, labels/envelopes.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     Two students edit report.odt. One deletes a paragraph; the other does not know what changed.
-    
+
     (a) Which tool should have been on?
     (b) How do they accept only some edits?
     (c) When would a Comment be better than changing the text?
@@ -63,9 +63,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) When suggesting, not rewriting — e.g. “please add the figure here”.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A school wants every teacher to use the same notice format: logo, heading, a date field and a signature line.
-    
+
     (a) How can the format be shared?
     (b) Which file extension is used?
     (c) What happens to the template when a teacher writes a notice?

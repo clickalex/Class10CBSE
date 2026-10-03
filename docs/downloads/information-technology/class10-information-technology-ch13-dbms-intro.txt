@@ -52,9 +52,9 @@ Q9. [Long · 4 marks] List four advantages of a DBMS over a paper register or a 
     Ans: Less duplication; one correction updates all uses; password/security; backup and recovery; many users; validation (integrity). A Calc sheet is easy to duplicate and hard to relate as tables grow.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A clinic keeps patient names in a diary. Two staff write different spellings; a page is lost.
-    
+
     (a) Two problems of this system.
     (b) Two DBMS advantages that help.
     (c) Suggest a primary key.
@@ -64,9 +64,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) PatientID or a unique registration number — not the name.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A library keeps three tables: Book (BookID, Title), Member (MemberID, Name) and Issue (IssueID, BookID, MemberID, IssueDate).
-    
+
     (a) Which field is the primary key of each table?
     (b) Which fields in Issue are foreign keys?
     (c) Why is a separate Issue table used?

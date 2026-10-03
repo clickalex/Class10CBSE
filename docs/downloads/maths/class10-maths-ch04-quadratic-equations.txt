@@ -51,9 +51,9 @@ Q7. [Short · 3 marks] Solve x² + 5x + 6 = 0 by completing the square.
       Hence x = −2 or x = −3.
 
 Q8. [Competency · 4 marks] Read and answer:
-    
+
     Aman studies the equation x² − 6x + k = 0 for different values of k.
-    
+
     (a) For which values of k are the roots real and distinct?
     (b) Find k for equal roots, and the root.
     (c) Show that there is no real root when k = 10.
@@ -63,9 +63,9 @@ Q8. [Competency · 4 marks] Read and answer:
       (c) For k = 10, D = 36 − 40 = −4 < 0, so the equation has no real roots.
 
 Q9. [Competency · 4 marks] Read and answer:
-    
+
     Two water taps together fill a tank in 9⅜ hours (75/8 h). The tap of larger diameter alone takes 10 hours less than the smaller one.
-    
+
     (a) If the smaller tap alone takes x hours, form the quadratic equation.
     (b) Solve it.
     (c) Why is one root rejected?

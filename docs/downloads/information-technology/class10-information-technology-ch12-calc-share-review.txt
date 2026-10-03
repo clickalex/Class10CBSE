@@ -52,9 +52,9 @@ Q9. [Long · 4 marks] Explain recording, showing and accepting changes in Calc.
     Ans: Turn Record on before editing. Each changed cell is marked. Show lists author, date and old/new value. Accept keeps the new value; Reject restores the old. Compare Document does this against a saved copy.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A teacher wants students to fill only column B, not the formulas in C.
-    
+
     (a) Which tool?
     (b) Steps.
     (c) How can the teacher see who changed B5?
@@ -64,9 +64,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Record / Show Changes — author and date on B5.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A class keeps stock.ods on the lab server. Two students open it at the same time and both change cell C5.
-    
+
     (a) How can the file be shared so that several people can edit it at once?
     (b) What happens when the two students save?
     (c) Why is it useful to record changes in such a file?

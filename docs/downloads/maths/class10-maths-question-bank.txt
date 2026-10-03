@@ -60,9 +60,9 @@ Q9. [Long · 4 marks] An army contingent of 616 members marches behind an army b
       HCF = 2³ = 8, so the maximum is 8 columns.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A calculator displays these decimal forms: 7/80 = 0.0875, 11/30 = 0.3666…, 13/125 = 0.104 and 17/60 = 0.28333…
-    
+
     (a) Which fractions have terminating decimals and which do not?
     (b) Using the prime factors of the denominator, explain why 7/80 terminates but 11/30 does not.
     (c) After how many decimal places does 13/125 terminate, and why?
@@ -72,9 +72,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) 125 = 5³, so 13/125 = 13 × 2³/(2³ × 5³) = 104/1000 = 0.104. It terminates after 3 places, the larger of the powers of 2 and 5 in the denominator.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     Three traffic lights change after every 48 s, 72 s and 108 s. They all change together at 8:00:00 a.m.
-    
+
     (a) After how many seconds will they change together again?
     (b) At what time will that be?
     (c) Which concept from this chapter did you use?
@@ -175,9 +175,9 @@ Q8. [Short · 3 marks] Divide 3x³ + x² + 2x + 5 by x² + 2x + 1 and verify the
       = 3x³ + x² + 2x + 5, which is the dividend — so dividend = divisor × quotient + remainder.
 
 Q9. [Competency · 4 marks] Read and answer:
-    
+
     The graph of y = p(x), where p(x) is a quadratic polynomial with leading coefficient 1, is a parabola opening upward that cuts the x-axis at (−1, 0) and (4, 0).
-    
+
     (a) How many zeroes does p(x) have, and what are they?
     (b) Find the sum and the product of the zeroes.
     (c) Write p(x).
@@ -187,9 +187,9 @@ Q9. [Competency · 4 marks] Read and answer:
       (c) p(x) = x² − (sum)x + product = x² − 3x − 4.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A toy company models its profit (in thousands of rupees) from selling x thousand toys as P(x) = x² − 7x + 10.
-    
+
     (a) For which numbers of toys does the profit become zero?
     (b) Verify the relation between the zeroes and the coefficients.
     (c) Give an example of a quadratic polynomial whose graph touches the x-axis at only one point.
@@ -299,9 +299,9 @@ Q8. [Long · 4 marks] Five years ago, Nuri was thrice as old as Sonu. Ten years 
       Nuri is 50 and Sonu is 20.
 
 Q9. [Competency · 4 marks] Read and answer:
-    
+
     Two taxi companies charge a fixed fee plus a rate per km. Company A charges Rs 40 plus Rs 10 per km; Company B charges Rs 100 plus Rs 5 per km. A student draws the lines y = 10x + 40 and y = 5x + 100, where x is the distance in km and y is the fare in rupees.
-    
+
     (a) Write the pair in the form ax + by + c = 0.
     (b) At what distance do both companies charge the same fare, and what is it?
     (c) Which company is cheaper for a 20 km trip?
@@ -311,9 +311,9 @@ Q9. [Competency · 4 marks] Read and answer:
       (c) For 20 km: A = Rs 240, B = Rs 200, so Company B is cheaper.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A student plots the lines 3x + 2y = 12 and 6x + 4y = k on graph paper for different values of k.
-    
+
     (a) For which value of k do the lines coincide?
     (b) For which values of k are they parallel?
     (c) Can this pair ever have exactly one solution? Explain.
@@ -409,9 +409,9 @@ Q7. [Short · 3 marks] Solve x² + 5x + 6 = 0 by completing the square.
       Hence x = −2 or x = −3.
 
 Q8. [Competency · 4 marks] Read and answer:
-    
+
     Aman studies the equation x² − 6x + k = 0 for different values of k.
-    
+
     (a) For which values of k are the roots real and distinct?
     (b) Find k for equal roots, and the root.
     (c) Show that there is no real root when k = 10.
@@ -421,9 +421,9 @@ Q8. [Competency · 4 marks] Read and answer:
       (c) For k = 10, D = 36 − 40 = −4 < 0, so the equation has no real roots.
 
 Q9. [Competency · 4 marks] Read and answer:
-    
+
     Two water taps together fill a tank in 9⅜ hours (75/8 h). The tap of larger diameter alone takes 10 hours less than the smaller one.
-    
+
     (a) If the smaller tap alone takes x hours, form the quadratic equation.
     (b) Solve it.
     (c) Why is one root rejected?
@@ -528,9 +528,9 @@ Q7. [Short · 3 marks] How many terms of the AP 24, 21, 18, … must be taken to
       So n = 4 or n = 13. Both are valid: the terms from the 5th to the 13th are negative and cancel out the extra positive terms.
 
 Q8. [Competency · 4 marks] Read and answer:
-    
+
     Rohan saves Rs 500 in the first month and increases his saving by Rs 50 every month.
-    
+
     (a) Write the first three terms of the AP formed by his monthly savings.
     (b) How much does he save in the 12th month?
     (c) How much has he saved in 12 months altogether?
@@ -540,9 +540,9 @@ Q8. [Competency · 4 marks] Read and answer:
       (c) S₁₂ = (12/2)(500 + 1050) = 6 × 1550 = Rs 9300.
 
 Q9. [Competency · 4 marks] Read and answer:
-    
+
     A hall has 20 rows of seats. The first row has 18 seats and every next row has 2 more seats than the one before.
-    
+
     (a) How many seats are in the last row?
     (b) How many seats are there in all?
     (c) How much is collected from a full house at Rs 100 per seat?
@@ -645,9 +645,9 @@ Q8. [Short · 3 marks] In ΔABC, D and E lie on AB and AC with AD = 5.7 cm, DB =
       The two ratios are equal, so by the converse of the Basic Proportionality Theorem DE ∥ BC.
 
 Q9. [Competency · 4 marks] Read and answer:
-    
+
     A 10 m long ladder leans against a vertical wall and reaches a window 8 m above the ground.
-    
+
     (a) How far is the foot of the ladder from the wall?
     (b) The foot is moved until the ladder reaches only 6 m up the wall. How far does the foot move?
     (c) Name the theorem used.
@@ -657,9 +657,9 @@ Q9. [Competency · 4 marks] Read and answer:
       (c) The Pythagoras theorem in the right-angled triangle formed by ladder, wall and ground.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     In a triangular park ABC, a path DE is laid parallel to the side BC, with D on AB and E on AC. AD = 4 m, DB = 6 m, AC = 15 m and BC = 20 m.
-    
+
     (a) Find AE.
     (b) Find DE.
     (c) Find the ratio of the areas of ΔADE and ΔABC.
@@ -760,9 +760,9 @@ Q7. [Short · 3 marks] Find the ratio in which the point (−1, 6) divides the l
       Verify with y: (−8(2/7) + 10)/(9/7) = (54/7) × (7/9) = 6, which matches.
 
 Q8. [Competency · 4 marks] Read and answer:
-    
+
     On a grid map, a school is at S(−2, 1) and a library is at L(6, 7). A bus stop M is to be placed exactly midway between them, and a park is at P(2, −2).
-    
+
     (a) Find the distance SL.
     (b) Find the coordinates of M.
     (c) Find the distance MP.
@@ -772,9 +772,9 @@ Q8. [Competency · 4 marks] Read and answer:
       (c) MP = √[(2 − 2)² + (−2 − 4)²] = 6 units.
 
 Q9. [Competency · 4 marks] Read and answer:
-    
+
     Three vertices of a parallelogram ABCD, taken in order, are A(1, 2), B(4, 3) and C(6, 6).
-    
+
     (a) Find the coordinates of D.
     (b) Verify your answer using the diagonals.
     (c) Which property of a parallelogram did you use?
@@ -886,9 +886,9 @@ Q9. [Long · 3 marks] Prove that √[(1 + sin A)/(1 − sin A)] = sec A + tan A.
       = (1 + sin A)/cos A = 1/cos A + sin A/cos A = sec A + tan A.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     Riya notices from the standard table that sin 30° = cos 60° = 1/2, sin 45° = cos 45° = 1/√2 and sin 60° = cos 30° = √3/2.
-    
+
     (a) Which relation connects each pair of values?
     (b) Use it to evaluate sin 65° ÷ cos 25° and tan 35° × tan 55°.
     (c) Why does the table not list a value for tan 90°?
@@ -898,9 +898,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) tan 90° = sin 90°/cos 90° = 1/0, which is not defined.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     Meera claims that sin²θ + cos²θ = 1 is true for every angle and that 1 + tan²θ = sec²θ is true for every angle too.
-    
+
     (a) For which angle from 0° to 90° is her second claim meaningless?
     (b) Derive 1 + tan²θ = sec²θ from sin²θ + cos²θ = 1.
     (c) If sec θ = 5/3 and θ is acute, find tan θ.
@@ -997,9 +997,9 @@ Q8. [Long · 4 marks] A person on the bank of a river sees the top of a tree on 
       Therefore h = 10√3 ≈ 17.32 m and the river is 10 m wide.
 
 Q9. [Competency · 4 marks] Read and answer:
-    
+
     From the top of a 12 m high building, the angle of elevation of the top of a cable tower is 60° and the angle of depression of its foot is 30°.
-    
+
     (a) Find the horizontal distance between the building and the tower.
     (b) Find the height of the tower.
     (c) Which of the two given angles is measured below the horizontal?
@@ -1009,9 +1009,9 @@ Q9. [Competency · 4 marks] Read and answer:
       (c) The 30° angle of depression, measured below the horizontal through the observer’s eye.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A drone hovers 60 m above a straight road. Two observers A and B stand on the road on opposite sides of the point directly below the drone. They see it at angles of elevation 30° and 60° respectively.
-    
+
     (a) How far is A from the point below the drone?
     (b) How far is B from that point?
     (c) What is the distance AB? (Take √3 = 1.73.)
@@ -1121,9 +1121,9 @@ Q9. [Long · 4 marks] A quadrilateral ABCD circumscribes a circle. Prove that AB
       The two sums are identical, so AB + CD = AD + BC.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     From an external point T, two tangents TP and TQ are drawn to a circle with centre O. It is given that ∠PTQ = 70°.
-    
+
     (a) State why ∠OPT = 90°.
     (b) Find ∠POQ.
     (c) Find ∠OPQ.
@@ -1133,9 +1133,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) TP = TQ, so in ΔTPQ, ∠TPQ = (180° − 70°)/2 = 55°. Then ∠OPQ = ∠OPT − ∠TPQ = 90° − 55° = 35°.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A circle is inscribed in ΔABC and touches the sides BC, CA and AB at D, E and F respectively. AB = 12 cm, BC = 8 cm and CA = 10 cm.
-    
+
     (a) Which tangent lengths are equal?
     (b) Find AF, BD and CE.
     (c) Verify your answers against the three given sides.
@@ -1226,9 +1226,9 @@ Q8. [Long · 4 marks] A square of side 14 cm has a circle inscribed in it. Find 
       Required area = 196 − 154 = 42 cm².
 
 Q9. [Competency · 4 marks] Read and answer:
-    
+
     A pizza of radius 14 cm is cut into 8 equal slices. (Take π = 22/7.)
-    
+
     (a) What is the central angle of each slice?
     (b) What is the area of one slice?
     (c) What is the perimeter of one slice, counting both straight edges?
@@ -1238,9 +1238,9 @@ Q9. [Competency · 4 marks] Read and answer:
       (c) Arc length = (45/360) × 2 × (22/7) × 14 = ⅛ × 88 = 11 cm. Perimeter = 11 + 14 + 14 = 39 cm.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A circular park of radius 14 m is surrounded by a path 7 m wide. (Take π = 22/7.)
-    
+
     (a) What is the outer radius of the path?
     (b) What is the area of the path?
     (c) What is the cost of paving it at Rs 40 per m²?
@@ -1349,9 +1349,9 @@ Q9. [Long · 4 marks] A frustum of a cone has radii 14 cm and 7 cm and height 24
       CSA = π(R + r)l = (22/7) × (14 + 7) × 25 = (22/7) × 21 × 25 = 1650 cm².
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A cylindrical water tank has a diameter of 4 m and a height of 7 m. (Take π = 22/7.)
-    
+
     (a) Find its volume in m³.
     (b) How many litres can it hold? (1 m³ = 1000 litres)
     (c) A family uses 400 litres a day. For how many days will a full tank last?
@@ -1361,9 +1361,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) 88,000 ÷ 400 = 220 days.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A metal cuboid of dimensions 44 cm × 21 cm × 12 cm is melted and recast into a solid cylinder of radius 7 cm. (Take π = 22/7.)
-    
+
     (a) Find the volume of the cuboid.
     (b) Find the height of the cylinder.
     (c) Why is the volume, and not the surface area, equated?
@@ -1459,9 +1459,9 @@ Q8. [Long · 4 marks] The mean of the distribution 0–10 (f = 5), 10–20 (f = 
       15f + 470 = 20.5f + 410, so 5.5f = 60 and f ≈ 10.9. Check your reading of the data — frequencies must be whole numbers, so re-check the given mean before answering.
 
 Q9. [Competency · 4 marks] Read and answer:
-    
+
     The weekly hours of study of 40 students are: 0–10: 5 students, 10–20: 8, 20–30: 14, 30–40: 9, 40–50: 4.
-    
+
     (a) Write the class marks.
     (b) Find the mean.
     (c) Which is the modal class, and why?
@@ -1471,9 +1471,9 @@ Q9. [Competency · 4 marks] Read and answer:
       (c) The modal class is 20–30, because it has the highest frequency (14).
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     In a survey, the mean daily screen time of students is 3.4 hours and the median is 3.2 hours.
-    
+
     (a) Find the mode using the empirical relation.
     (b) What does the order mean > median > mode suggest about the data?
     (c) Which measure would you report if a few students have extremely long screen times, and why?
@@ -1575,9 +1575,9 @@ Q9. [Short · 3 marks] Two coins are tossed together. Find the probability of ge
       (iii) At most one head: HT, TH, TT, so P = 3/4.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A bag contains 5 red, 8 white and 7 black balls. One ball is drawn at random.
-    
+
     (a) Find the probability that it is red.
     (b) Find the probability that it is not white.
     (c) Find the probability that it is black or white.
@@ -1587,9 +1587,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) P(black or white) = (7 + 8)/20 = 15/20 = 3/4.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     In a school raffle, 200 tickets numbered 1 to 200 are sold and one ticket is drawn at random.
-    
+
     (a) What is the probability that the number is a multiple of 10?
     (b) What is the probability that it is a perfect square?
     (c) What is the probability that it is not a multiple of 5?

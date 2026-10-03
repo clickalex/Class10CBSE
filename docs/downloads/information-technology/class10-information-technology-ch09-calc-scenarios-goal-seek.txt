@@ -55,9 +55,9 @@ Q9. [Long · 4 marks] Differentiate Consolidate and Subtotals.
     Ans: Consolidate combines several ranges/sheets into one summary (often another sheet). Subtotals insert summary rows inside one sorted list (sum of each group). Consolidate is across blocks; Subtotals is inside a table.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     Four quarterly sheets have the same layout of expenses. The owner wants one yearly total that updates if a quarter changes.
-    
+
     (a) Which tool?
     (b) Two settings to tick/choose.
     (c) Why not just type the four totals by hand?
@@ -67,9 +67,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Manual totals go stale; a link updates and reduces typing errors.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A school fest committee plans ticket sales in three situations. Best case: price Rs 100, 500 tickets. Normal case: Rs 80, 400 tickets. Worst case: Rs 60, 250 tickets. Revenue = price × tickets.
-    
+
     (a) Find the revenue in each case.
     (b) Which Calc feature stores the three sets of inputs?
     (c) Why should each be given a name?

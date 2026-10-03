@@ -56,9 +56,9 @@ Q9. [Short · 3 marks] Write HTML to display the image logo.png at 200 by 100 pi
       Because the <img> tag sits inside the <a> tag, clicking the picture opens the page named in href.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A site has these files: site/index.html, site/about/team.html and site/img/photo.jpg. From team.html a student writes <img src='img/photo.jpg'>, and the picture does not appear.
-    
+
     (a) Why does it fail?
     (b) Write the correct tag.
     (c) What kind of path is this?
@@ -68,9 +68,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) A relative path (measured from the current file); an absolute path would give the full web address.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A blind student uses a screen reader on a page that has <img src='map.png'> with no alt text.
-    
+
     (a) What can the screen reader not do?
     (b) Add suitable alt text to the tag.
     (c) Name another situation in which the alt text is shown.

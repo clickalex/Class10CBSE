@@ -53,9 +53,9 @@ Q9. [Long · 4 marks] Why is linking sheets better than copy-pasting values for 
     Ans: A link stays live: when a term sheet changes, the year sheet updates. Copy-paste values go stale, cause mismatch, and make auditing harder.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A student pastes last month’s numbers into the annual sheet. The teacher later corrects the January file; the annual sheet does not change.
-    
+
     (a) What did the student do wrong?
     (b) How should the cells have been pasted?
     (c) One risk of live links.
@@ -65,9 +65,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) If the source file is moved/renamed, the link breaks — keep files together.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     On an “Index” sheet, a student wants one cell that opens the file marks.ods when clicked, and another cell that opens the school website.
-    
+
     (a) Which feature does she use, and how does she insert it?
     (b) Name two other things a hyperlink in Calc can point to.
     (c) How is a hyperlink different from a formula that links to another sheet?

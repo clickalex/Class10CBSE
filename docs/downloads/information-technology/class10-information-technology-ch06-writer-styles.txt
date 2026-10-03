@@ -53,9 +53,9 @@ Q9. [Long · 4 marks] Why should a long report use styles instead of manual form
     Ans: One change updates every heading; ToC can be generated; the look stays consistent; less chance of mixed fonts; templates become reusable.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     Neha’s ToC is empty even though titles look big and bold.
-    
+
     (a) Why?
     (b) Steps to fix it.
     (c) How will this help next time she changes the colour of all headings?
@@ -65,9 +65,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Modify Heading 1 once — every heading and the ToC pick up the new colour.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A report has a title, three chapters and sub-sections. The student wants chapter titles in Heading 1, sub-sections in Heading 2, and body text in a style of 12 pt, justified, with 1.5 line spacing.
-    
+
     (a) Which category of style is used for each?
     (b) How can she create the body-text style?
     (c) Why is this better than formatting by hand?

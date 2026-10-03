@@ -74,14 +74,14 @@ Q9. [Long · 4 marks] Write an HTML form with a name field, a password field, tw
       Both radio buttons share the name gender, so only one can be chosen; the two checkboxes are independent, so both can be ticked.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A student wrote this form, but the server receives nothing for the text box.
-    
+
     <form action='save.php' method='get'>
       <input type='text'>
       <input type='submit' value='Send'>
     </form>
-    
+
     (a) Why is nothing received?
     (b) Correct the text box.
     (c) Why is GET unsuitable for passwords?
@@ -91,9 +91,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) GET appends the data to the address, where it is visible in the address bar and the history; POST sends it in the body of the request.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A feedback form needs a box for comments of several lines, a drop-down list of classes IX, X and XI (with X pre-selected) and a checkbox “Subscribe”.
-    
+
     (a) Which tag gives the comments box?
     (b) Write the drop-down list.
     (c) Write the checkbox.

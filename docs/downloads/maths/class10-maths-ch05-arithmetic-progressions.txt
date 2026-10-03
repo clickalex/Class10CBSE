@@ -53,9 +53,9 @@ Q7. [Short · 3 marks] How many terms of the AP 24, 21, 18, … must be taken to
       So n = 4 or n = 13. Both are valid: the terms from the 5th to the 13th are negative and cancel out the extra positive terms.
 
 Q8. [Competency · 4 marks] Read and answer:
-    
+
     Rohan saves Rs 500 in the first month and increases his saving by Rs 50 every month.
-    
+
     (a) Write the first three terms of the AP formed by his monthly savings.
     (b) How much does he save in the 12th month?
     (c) How much has he saved in 12 months altogether?
@@ -65,9 +65,9 @@ Q8. [Competency · 4 marks] Read and answer:
       (c) S₁₂ = (12/2)(500 + 1050) = 6 × 1550 = Rs 9300.
 
 Q9. [Competency · 4 marks] Read and answer:
-    
+
     A hall has 20 rows of seats. The first row has 18 seats and every next row has 2 more seats than the one before.
-    
+
     (a) How many seats are in the last row?
     (b) How many seats are there in all?
     (c) How much is collected from a full house at Rs 100 per seat?

@@ -62,13 +62,18 @@ LETTER_IN_TEXT_RE = re.compile(r"\([a-dकखगघ]\)|\boptions? [a-d]\b", re.I
 # --------------------------------------------------------------------------
 # what must not move
 # --------------------------------------------------------------------------
-_CATCH_FIRST = {"all", "both", "none", "neither", "either"}
 _CATCH_HINT = {"above", "these", "them", "options", "following", "i", "ii", "a", "b", "c", "d"}
 _CATCH_SOME_OF = {"any", "one", "only", "some"}        # "any of the above", "one of these"
 _CATCH_LAST = {"above", "these"}
-# Hindi and Sanskrit are matched as whole words, so सर्वेश्वर is not "सर्वे" and
-# "कोई प्रदर्शन नहीं" (no performance) is not "कोई नहीं" (none of these).
-_CATCH_DEVA = {"सभी", "दोनों", "उपर्युक्त", "उपरोक्त", "उभौ", "उभे", "सर्वे", "सर्वम्", "सर्वाणि"}
+# Whole-word, position-dependent options only. Do not anchor an ordinary phrase such as
+# "all night", "all citizens" or "सभी पेड़ फलदार हैं" merely because it contains "all".
+# Sanskrit/Hindi catch-alls are matched as short, exact phrases so a normal sentence using
+# सर्वे / दोनों is not mistaken for "all of the above".
+_CATCH_DEVA_SINGLE = {"सभी", "दोनों", "उपर्युक्त", "उपरोक्त", "उभौ", "उभे", "सर्वे", "सर्वम्", "सर्वाणि"}
+_CATCH_DEVA_PHRASES = {
+    ("उपर्युक्त", "सभी"), ("उपरोक्त", "सभी"), ("सभी", "उपर्युक्त"), ("सभी", "उपरोक्त"),
+    ("उपर्युक्त", "सभी", "विकल्प"), ("उपरोक्त", "सभी", "विकल्प"), ("दोनों", "में"), ("दोनों", "ही"),
+}
 _CATCH_DEVA_ENDS = (("कोई", "नहीं"), ("कोई", "भी", "नहीं"), ("किसी", "में", "नहीं"), ("किसी", "से", "नहीं"),
                     ("कोऽपि", "न"), ("न", "कोऽपि"), ("इनमें", "से", "कोई"))
 _LETTER_LIST_RE = re.compile(r"^(?:both )?\(?[a-d]\)?(?:,| and | & )\(?[a-d]\)?(?: and \(?[a-d]\)?)?(?: both| only)?$")
@@ -86,12 +91,19 @@ def is_catch_all(option):
     text = " ".join(words)
     if _LETTER_LIST_RE.match(text):
         return True
-    if words[0] in _CATCH_FIRST and (len(words) <= 2 or any(w in _CATCH_HINT for w in words[1:])):
+    first = words[0]
+    if first == "all" and (len(words) == 1 or words[1] in {"of", "equally", "three", "four"}):
         return True
-    if words[0] in _CATCH_SOME_OF and words[-1] in _CATCH_LAST:
+    if first in {"both", "none", "neither", "either"} and (
+        len(words) <= 2 or any(w in _CATCH_HINT for w in words[1:])
+    ):
+        return True
+    if first in _CATCH_SOME_OF and words[-1] in _CATCH_LAST:
         return True
     if len(words) <= 4:
-        if any(w in _CATCH_DEVA for w in words):
+        if len(words) == 1 and words[0] in _CATCH_DEVA_SINGLE:
+            return True
+        if tuple(words) in _CATCH_DEVA_PHRASES:
             return True
         if any(tuple(words[-len(end):]) == end for end in _CATCH_DEVA_ENDS):
             return True

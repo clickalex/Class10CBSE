@@ -53,9 +53,9 @@ Q9. [Long · 4 marks] How do you create a query that shows student name and book
     Ans: Design View → add Student, Issue, Book (related) → fields Name, Title, IssueDate → criterion on IssueDate > {d '2026-04-01'} or the date the lab uses → Run → Save.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A query saved last month still shows old marks after the teacher updates the table.
-    
+
     (a) Is that expected?
     (b) Why?
     (c) When would you use a Wizard instead of Design View?
@@ -65,9 +65,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) Wizard for a simple one-table list; Design View when you need criteria, sorts and two tables.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     A Marks table has the fields Name, Maths and Science. The teacher wants a query that shows each Name and the total of the two subjects under the heading Total, with the highest total first.
-    
+
     (a) What is typed in the Field row for the total?
     (b) How is the heading “Total” set?
     (c) How is the order set?

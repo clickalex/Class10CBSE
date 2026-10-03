@@ -62,9 +62,9 @@ Q9. [Long · 3 marks] Prove that √[(1 + sin A)/(1 − sin A)] = sec A + tan A.
       = (1 + sin A)/cos A = 1/cos A + sin A/cos A = sec A + tan A.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     Riya notices from the standard table that sin 30° = cos 60° = 1/2, sin 45° = cos 45° = 1/√2 and sin 60° = cos 30° = √3/2.
-    
+
     (a) Which relation connects each pair of values?
     (b) Use it to evaluate sin 65° ÷ cos 25° and tan 35° × tan 55°.
     (c) Why does the table not list a value for tan 90°?
@@ -74,9 +74,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) tan 90° = sin 90°/cos 90° = 1/0, which is not defined.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     Meera claims that sin²θ + cos²θ = 1 is true for every angle and that 1 + tan²θ = sec²θ is true for every angle too.
-    
+
     (a) For which angle from 0° to 90° is her second claim meaningless?
     (b) Derive 1 + tan²θ = sec²θ from sin²θ + cos²θ = 1.
     (c) If sec θ = 5/3 and θ is acute, find tan θ.

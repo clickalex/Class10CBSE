@@ -55,11 +55,17 @@ COMPLETED = (
     "english/02-poems.json",
     "english/03-footprints.json",
     "english/04-skills.json",
+    "hindi/01-kshitij.json",
+    "hindi/02-kritika.json",
+    "hindi/03-sparsh.json",
+    "hindi/04-sanchayan.json",
+    "hindi/05-vyakaran.json",
+    "sanskrit/01-shemushi.json",
 )
 
 # Templated items still in the repository (3 Oct 2026). Only ever lower these.
-QA_CEILING = 229    # written Q&As matching a template (was 721 of 2,133)
-MCQ_CEILING = 92    # MCQs that mocktest.is_filler excludes (was 300 of 1,426)
+QA_CEILING = 0      # written Q&As matching a template (was 721 of 2,133)
+MCQ_CEILING = 0     # MCQs that mocktest.is_filler excludes (was 300 of 1,426)
 
 
 def _template_of(text):

@@ -60,9 +60,9 @@ Q9. [Long · 4 marks] An army contingent of 616 members marches behind an army b
       HCF = 2³ = 8, so the maximum is 8 columns.
 
 Q10. [Competency · 4 marks] Read and answer:
-    
+
     A calculator displays these decimal forms: 7/80 = 0.0875, 11/30 = 0.3666…, 13/125 = 0.104 and 17/60 = 0.28333…
-    
+
     (a) Which fractions have terminating decimals and which do not?
     (b) Using the prime factors of the denominator, explain why 7/80 terminates but 11/30 does not.
     (c) After how many decimal places does 13/125 terminate, and why?
@@ -72,9 +72,9 @@ Q10. [Competency · 4 marks] Read and answer:
       (c) 125 = 5³, so 13/125 = 13 × 2³/(2³ × 5³) = 104/1000 = 0.104. It terminates after 3 places, the larger of the powers of 2 and 5 in the denominator.
 
 Q11. [Competency · 4 marks] Read and answer:
-    
+
     Three traffic lights change after every 48 s, 72 s and 108 s. They all change together at 8:00:00 a.m.
-    
+
     (a) After how many seconds will they change together again?
     (b) At what time will that be?
     (c) Which concept from this chapter did you use?
