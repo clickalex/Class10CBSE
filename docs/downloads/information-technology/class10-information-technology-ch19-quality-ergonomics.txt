@@ -33,11 +33,12 @@ Q4. [Short · 2 marks] What are the four features of quality work in IT? Illustr
 Q5. [Application · 3 marks] Amit’s laptop is on a high table, he looks up, and his wrists bend on the edge. Two injuries this invites and two fixes.
     Ans: Neck strain and wrist RSI. Fixes: raise the chair or lower the desk, laptop stand + external keyboard, wrist straight, breaks.
 
-Q6. [Application · 3 marks] Riya is revising “Workplace Quality and Ergonomics” (Quality of work, 5S, housekeeping, ergonomic posture and workstation setup). A classmate lost marks by doing this: Drawing the user hunched over a laptop as “correct posture”. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student draws a person hunched over a laptop on a low sofa and labels it “correct posture”. Correct this, and give four features of a correct sitting posture at a computer.
     Ans:
-      Correct method: Screen top at eye level, not looking down at a laptop on the lap.
-      Why the mistake costs marks: Drawing the user hunched over a laptop as “correct posture”.
-      Write the definition or formula first, then the working or example.
+      It is incorrect: a hunched back and a low screen strain the neck, back and wrists.
+      Feet flat on the floor and the back straight and supported by the chair.
+      Elbows bent at about 90° with the wrists straight, and the top of the screen at or just below eye level.
+      The screen about an arm’s length (50–70 cm) away, with short breaks every 20–30 minutes.
 
 Q7. [Short · 3 marks] Describe a correct workstation arrangement and the working habit that prevents strain.
     Ans:
@@ -71,24 +72,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Workplace Quality and Ergonomics”. Their note says: Quality of work in IT: accurate data, readable documents, meeting time, following the house style, checking before submit.
+    In a computer lab, cables lie tangled on the floor, unused CDs are piled on the desks and folders have no labels.
     
-    The chapter is described as: Quality of work, 5S, housekeeping, ergonomic posture and workstation setup.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which 5S step removes the unused CDs?
+    (b) Which step covers labelling the folders and arranging the cables?
+    (c) Name the remaining steps and say what each means.
     Ans:
-      (a) Quality of work, 5S, housekeeping, ergonomic posture and workstation setup.
-      (b) Ergonomics of a computer workstation is the set diagram/answer.
-      (c) Drawing the user hunched over a laptop as “correct posture”.
+      (a) Sort: remove what is not needed.
+      (b) Set in order: a place for everything, with labels, so that things can be found quickly.
+      (c) Shine (clean the area and equipment regularly), Standardise (make rules so that the same order is kept) and Sustain (make the habit continue).
 
-Q12. [Long · 5 marks] Discuss “Workplace Quality and Ergonomics” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] What is housekeeping? Describe five housekeeping rules for a computer lab and explain how they improve safety and quality of work.
     Ans:
-      Quality of work in IT: accurate data, readable documents, meeting time, following the house style, checking before submit.
-      Marks lens: Ergonomics of a computer workstation is the set diagram/answer.
-      Method / memory trick: Screen top at eye level, not looking down at a laptop on the lap.
-      Do not: Drawing the user hunched over a laptop as “correct posture”.
+      Housekeeping means keeping the workplace clean, tidy and organised.
+      Keep floors and walkways clear and store cables neatly, which prevents trips and falls.
+      Do not eat or drink near the computers, and dust the equipment regularly, which prevents damage and faults.
+      Label folders, media and equipment and put things back in their place, so that work is found easily and not lost.
+      Dispose of waste correctly and report faults at once; a clean, orderly lab lets people work accurately and safely.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -105,11 +105,11 @@ M3. 20-20-20 is for: (a) macros (b) eye strain (c) primary keys (d) mail merge
 M4. Quality in data entry mainly means: (a) speed only (b) accuracy and completeness as well as speed (c) colourful fonts (d) loud music
     Ans: (b).
 
-M5. The most exam-ready way to revise “Workplace Quality and Ergonomics” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Quality of work, 5S, housekeeping, ergonomic posture and workstation setup.
+M5. Ergonomics is the study of: (a) writing computer programs (b) repairing electronic circuits (c) storing data in a database (d) designing workplaces and equipment to suit the user, for comfort, safety and efficiency
+    Ans: (d) designing workplaces and equipment to suit the user, for comfort, safety and efficiency. Good ergonomics reduces strain and injury and helps people work better.
 
-M6. A 3-mark answer on “Workplace Quality and Ergonomics” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. For correct posture, the top of the computer screen should be: (a) well above the head (b) on the floor (c) at the level of the keyboard (d) at or slightly below eye level
+    Ans: (d) at or slightly below eye level. This lets the user look slightly down without bending the neck.
 
 M7. The 5S workplace method consists of: (a) Sort, Set in order, Shine, Standardise, Sustain  (b) Sit, See, Save, Stop, Start  (c) Safety, Speed, Size, Skill, System  (d) Scan, Send, Store, Sell, Sort
     Ans: (a) Sort, Set in order, Shine, Standardise, Sustain. It comes from Japanese workplace practice.

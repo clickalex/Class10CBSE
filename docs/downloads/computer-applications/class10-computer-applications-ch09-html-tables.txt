@@ -29,16 +29,19 @@ Q4. [Short · 2 marks] Name the tags used to build a table and say what each doe
 Q5. [Short · 3 marks] Explain colspan and rowspan with an example.
     Ans: colspan='n' makes a single cell stretch across n columns. For example <td colspan='3'>Heading</td> occupies the width of three columns, so that row needs three fewer <td> tags than a normal row. rowspan='n' makes a cell stretch down n rows. For example, a <td rowspan='2'>Science</td> in the first of two rows covers both rows, so the second row must not include a cell in that position. Using them incorrectly is what makes a table look misaligned.
 
-Q6. [Application · 3 marks] Riya is revising “HTML Tables” (<table>, <tr>, <td>, borders, and the two attributes that merge cells). A classmate lost marks by doing this: Putting <td> directly inside <table> without a <tr>. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student wants a heading cell that stretches across three columns and writes <th rowspan='3'>Marks</th>. What is wrong? Correct it and state what rowspan does.
     Ans:
-      Correct method: <tr> = row, <td> = cell. Rows contain cells, never the other way round.
-      Why the mistake costs marks: Putting <td> directly inside <table> without a <tr>.
-      Write the definition or formula first, then the working or example.
+      rowspan merges cells vertically across rows; to stretch across columns, colspan must be used.
+      Correct: <th colspan='3'>Marks</th>
+      rowspan='3' would make the cell three rows tall instead.
 
-Q7. [Application · 3 marks] Amit is given this exam-style task from “HTML Tables”: “Write HTML for a table with a merged title cell across two columns, a header row and one data row.” Treat it as an application question. Identify the idea, then write the working in points.
+Q7. [Application · 3 marks] Write the HTML for a table with a border and cell padding of 5, with the header row Day, Period 1, Period 2 and one data row Monday, Maths, Science.
     Ans:
-      Idea: <table>, <tr>, <td>, borders, and the two attributes that merge cells.
-      <table border='1' width='300'> <tr><th colspan='2'>Student Report</th></tr> <tr><th>Name</th><th>Marks</th></tr> <tr><td>Asha</td><td>88</td></tr> </table> The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two.
+      <table border='1' cellpadding='5'>
+        <tr><th>Day</th><th>Period 1</th><th>Period 2</th></tr>
+        <tr><td>Monday</td><td>Maths</td><td>Science</td></tr>
+      </table>
+      <th> is a bold, centred header cell and <td> is an ordinary data cell; every row needs its own <tr>.
 
 Q8. [Short · 3 marks] Explain colspan and rowspan with an example of each.
     Ans:
@@ -58,36 +61,42 @@ Q9. [Long · 4 marks] Write HTML for a table with a merged title cell across two
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “HTML Tables”. Their note says: The structure. A table is built from three nested levels. <table> is the whole grid. Each <tr> is one row (think table row). Each <td> is one cell or data column inside that row (think table data). A table with three rows and two columns needs three <tr> blocks, each containing two <td> cell
+    A student wrote this table, but the first row is wider than the second.
     
-    The chapter is described as: <table>, <tr>, <td>, borders, and the two attributes that merge cells.
+    <table border='1'>
+    <tr><th colspan='3'>Report</th><th></th><th></th></tr>
+    <tr><td>A</td><td>B</td><td>C</td></tr>
+    </table>
     
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) How many columns wide is the first row and the second?
+    (b) Correct the first row.
+    (c) State the rule about merged cells.
     Ans:
-      (a) <table>, <tr>, <td>, borders, and the two attributes that merge cells.
-      (b) Convert a drawn table into HTML and vice versa; explain rowspan and colspan.
-      (c) Putting <td> directly inside <table> without a <tr>.
+      (a) The first row is 3 + 1 + 1 = 5 columns wide; the second row is 3 columns wide.
+      (b) <tr><th colspan='3'>Report</th></tr>
+      (c) A merged cell replaces the cells it covers, so the cells it covers must be removed from the row.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Write HTML for a table with a merged title cell across two columns, a header row and one data row.” Student A writes one line. Student B writes points, an example and a check.
+    A table starts with <table border='0' cellpadding='10' cellspacing='0'>.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Will a border be visible?
+    (b) What does cellpadding='10' do?
+    (c) What would changing cellspacing to 10 do?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) <table border='1' width='300'> <tr><th colspan='2'>Student Report</th></tr> <tr><th>Name</th><th>Marks</th></tr> <tr><td>Asha</td><td>88</td></tr> </table> The first row uses colspan='2' so the title stretches across both columns; that row therefore contains only one cell instead of two.
-      (c) <tr> = row, <td> = cell. Rows contain cells, never the other way round.
+      (a) No, because the border width is 0.
+      (b) It adds 10 pixels of space between the content of a cell and the cell’s edge.
+      (c) It would leave 10 pixels of space between neighbouring cells.
 
-Q12. [Long · 5 marks] Discuss “HTML Tables” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Write the HTML for a table whose first row is a title “Result” spanning three columns, whose second row has the header cells Name, Subject and Marks, and which has two data rows: Asha, Science, 90 and Ravi, Maths, 85.
     Ans:
-      The structure. A table is built from three nested levels. <table> is the whole grid. Each <tr> is one row (think table row). Each <td> is one cell or data column inside that row (think table data). A table with three rows and two columns needs three <tr> blocks, each containing two <td> cells.
-      Marks lens: Convert a drawn table into HTML and vice versa; explain rowspan and colspan.
-      Method / memory trick: <tr> = row, <td> = cell. Rows contain cells, never the other way round.
-      Do not: Putting <td> directly inside <table> without a <tr>.
+      <table border='1'>
+        <tr><th colspan='3'>Result</th></tr>
+        <tr><th>Name</th><th>Subject</th><th>Marks</th></tr>
+        <tr><td>Asha</td><td>Science</td><td>90</td></tr>
+        <tr><td>Ravi</td><td>Maths</td><td>85</td></tr>
+      </table>
+      The title cell uses colspan='3', so that row has one cell; every other row has exactly three cells.
 
 B. MCQs (8)
 ------------------------------------------------------------------------

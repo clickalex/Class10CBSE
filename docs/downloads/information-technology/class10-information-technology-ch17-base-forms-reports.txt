@@ -29,11 +29,11 @@ Q4. [Short · 2 marks] What is grouping in a report? Give one example with a sui
 Q5. [Application · 3 marks] The office wants a printed list of Class 10 students owing more than ₹500, grouped by section. Form or report? What sits underneath?
     Ans: A report. Underneath: a query with Class=10, Fees>500, then group by section in the report wizard.
 
-Q6. [Application · 3 marks] Riya is revising “Forms and Reports” (Data-entry forms and printable reports from tables or queries). A classmate lost marks by doing this: Building a report on the whole table when the question said “students with marks > 80”. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student prints 200 rows of student marks from a form and finds it awkward and untidy. Why is a form not suited to this, and what should she have used?
     Ans:
-      Correct method: If the report is empty, the query returned zero rows — fix criteria first.
-      Why the mistake costs marks: Building a report on the whole table when the question said “students with marks > 80”.
-      Write the definition or formula first, then the working or example.
+      A form is meant for entering, viewing and editing one record (or a few) at a time on the screen.
+      A report is designed for printing: it can show many records with headings, grouping, totals and a neat page layout.
+      She should have created a report, based on the table or on a query.
 
 Q7. [Short · 3 marks] Describe how to create a report in LibreOffice Base.
     Ans:
@@ -64,24 +64,21 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Forms and Reports”. Their note says: Form: on-screen layout for entering and editing records, one at a time, with labels and controls. Safer than raw datasheet (validation, no extra columns).
+    The school office needs to (i) store student records, (ii) find the students who owe fees, (iii) type in new admissions comfortably and (iv) print a fee-defaulter list for the principal.
     
-    The chapter is described as: Data-entry forms and printable reports from tables or queries.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Name the Base object best suited to each task.
+    (b) Which of these objects are mainly used for output rather than entry?
     Ans:
-      (a) Data-entry forms and printable reports from tables or queries.
-      (b) Practical often: form on Student + report from a query.
-      (c) Building a report on the whole table when the question said “students with marks > 80”.
+      (a) (i) Table; (ii) Query; (iii) Form; (iv) Report.
+      (b) The report (for printing) and the query (for showing selected results); data are entered through tables or, more conveniently, forms.
 
-Q12. [Long · 5 marks] Discuss “Forms and Reports” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Describe the steps to produce a printed report of students with marks above 80, grouped by section.
     Ans:
-      Form: on-screen layout for entering and editing records, one at a time, with labels and controls. Safer than raw datasheet (validation, no extra columns).
-      Marks lens: Practical often: form on Student + report from a query.
-      Method / memory trick: If the report is empty, the query returned zero rows — fix criteria first.
-      Do not: Building a report on the whole table when the question said “students with marks > 80”.
+      Step 1: create a query that shows Name, Section and Marks with the criterion >80 under Marks, and save it.
+      Step 2: in the Database pane choose Reports, then Use Wizard to Create Report.
+      Step 3: select the query as the source, pick the fields to include and give the field labels.
+      Step 4: in the grouping step add Section, and in the sorting step sort by Marks.
+      Step 5: choose a layout and create the report; it can then be previewed and printed.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -98,11 +95,11 @@ M3. The best source for a filtered report is: (a) a query (b) a random image (c)
 M4. A check box on a form suits a: (a) Yes/No field (b) photo of the school (c) Goal Seek cell (d) Heading 1 style
     Ans: (a) Yes/No field.
 
-M5. The most exam-ready way to revise “Forms and Reports” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Data-entry forms and printable reports from tables or queries.
+M5. The Base object designed mainly for printing information is the: (a) report (b) table (c) form (d) relationship
+    Ans: (a) report. A report lays out data with headings, groups and totals for printing.
 
-M6. A 3-mark answer on “Forms and Reports” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. A form is mainly used to: (a) enter, view and edit records conveniently (b) print large lists (c) store the data permanently (d) join two databases
+    Ans: (a) enter, view and edit records conveniently. A form presents the fields of a record in a convenient screen layout, and the data are stored in the tables.
 
 M7. A report is mainly used to: (a) print or present data in a formatted way  (b) enter new records  (c) store the data  (d) delete old records
     Ans: (a) print or present data in a formatted way. Data entry is done through a form.

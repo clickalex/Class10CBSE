@@ -26,16 +26,17 @@ Q3. [Short · 2 marks] What is a precipitation reaction? Give one example with a
 Q4. [Short · 3 marks] Why is nitrogen flushed into bags of potato chips?
     Ans: Nitrogen is an unreactive (inert) gas. It displaces oxygen from the packet, so the fats and oils cannot be oxidised, which prevents rancidity and keeps the chips from changing smell and taste.
 
-Q5. [Application · 3 marks] Riya is revising “Chemical Reactions and Equations” (Balancing, the five reaction types, corrosion and rancidity). A classmate lost marks by doing this: Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed. Apply the correct method and rewrite the scoring answer.
+Q5. [Application · 3 marks] To balance H₂ + O₂ → H₂O, a student changes the formula of water to H₂O₂ and writes H₂ + O₂ → H₂O₂. Why is this wrong? Give the correct balanced equation with state symbols.
     Ans:
-      Correct method: Balancing order: start with the element that appears in the largest number of atoms, leave free elements (O2, H2) for last, then re-check oxygen.
-      Why the mistake costs marks: Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed.
-      Write the definition or formula first, then the working or example.
+      Changing a subscript changes the substance: H₂O₂ is hydrogen peroxide, not water. Only the coefficient in front of a formula may be changed.
+      Balanced equation: 2H₂ + O₂ → 2H₂O (4 H and 2 O atoms on each side).
+      With state symbols: 2H₂(g) + O₂(g) → 2H₂O(l).
 
-Q6. [Application · 3 marks] Amit is given this exam-style task from “Chemical Reactions and Equations”: “Why must a chemical equation be balanced?” Treat it as an application question. Identify the idea, then write the working in points.
+Q6. [Application · 3 marks] An iron nail is dipped in blue copper sulphate solution for about 20 minutes. State what you observe, write the balanced chemical equation and name the type of reaction.
     Ans:
-      Idea: Balancing, the five reaction types, corrosion and rancidity.
-      Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction.
+      The nail becomes coated with a reddish-brown deposit of copper, and the blue colour of the solution fades to light green.
+      Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s).
+      Iron is more reactive than copper, so it displaces copper from its salt solution: a displacement reaction.
 
 Q7. [Short · 3 marks] Balance this equation and name the type of reaction: FeSO₄(s) → Fe₂O₃(s) + SO₂(g) + SO₃(g).
     Ans:
@@ -48,29 +49,27 @@ Q8. [Long · 4 marks] In the reaction ZnO + C → Zn + CO, identify the substanc
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Chemical Reactions and Equations”. Their note says: Recognising a chemical reaction. Four observable clues: change of state, change of colour, evolution of a gas, and change in temperature. If a new substance with new properties forms, a chemical reaction has taken place.
+    A shopkeeper finds that a packet of chips left open for weeks smells and tastes bad, and that the iron gate outside his shop has turned reddish-brown.
     
-    The chapter is described as: Balancing, the five reaction types, corrosion and rancidity.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Name the two processes.
+    (b) Give the chemical formula of the reddish-brown substance on the gate.
+    (c) Suggest one way to prevent each process.
     Ans:
-      (a) Balancing, the five reaction types, corrosion and rancidity.
-      (b) –4 marks every year, usually as one balancing question, one reaction-type identification and one reasoning question on corrosion or rancidity.
-      (c) Changing a subscript to balance (H2O → H2O2). Only the coefficient in front of a formula may be changed.
+      (a) The chips have turned rancid (oxidation of fats and oils); the gate has rusted (corrosion of iron).
+      (b) Rust is hydrated iron(III) oxide, Fe₂O₃·xH₂O.
+      (c) Rancidity: pack the chips in airtight bags flushed with nitrogen, or add antioxidants. Rusting: paint, oil or galvanise the iron so that air and moisture cannot reach it.
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Why must a chemical equation be balanced?” Student A writes one line. Student B writes points, an example and a check.
+    A student rubs a 3 cm magnesium ribbon with sandpaper and then holds it with tongs over a flame. It burns with a dazzling white flame and leaves a white powder.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Why is the ribbon cleaned before burning?
+    (b) Name the white powder.
+    (c) Write the balanced equation and name the type of reaction.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Because of the law of conservation of mass — the number of atoms of each element must be the same on both sides, since atoms are neither created nor destroyed in a chemical reaction.
-      (c) Balancing order: start with the element that appears in the largest number of atoms, leave free elements (O2, H2) for last, then re-check oxygen.
+      (a) Sandpaper removes the dull layer of magnesium oxide that covers the ribbon, so the pure metal can burn.
+      (b) The white powder is magnesium oxide, MgO.
+      (c) 2Mg + O₂ → 2MgO. Two substances combine to form one product, so it is a combination reaction (it is also an oxidation, and exothermic).
 
 Q11. [Application · 4 marks] Describe an activity to show that a chemical reaction is accompanied by the evolution of a gas, and how you would identify the gas.
     Ans:
@@ -94,11 +93,11 @@ M2. Which of the following is an endothermic process? (a) respiration (b) decomp
 M3. The green coating on copper and the black coating on silver are respectively: (a) basic copper carbonate and Ag2S (b) CuO and Ag2O (c) CuCO3 and AgS2 (d) Cu(OH)2 and AgO
     Ans: (a). Copper forms basic copper carbonate CuCO3·Cu(OH)2 (green); silver forms silver sulphide Ag2S (black).
 
-M4. The most exam-ready way to revise “Chemical Reactions and Equations” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Balancing, the five reaction types, corrosion and rancidity.
+M4. Which of the following is a displacement reaction? (a) CaO + H₂O → Ca(OH)₂  (b) 2H₂O → 2H₂ + O₂  (c) Zn + CuSO₄ → ZnSO₄ + Cu  (d) 2Mg + O₂ → 2MgO
+    Ans: (c) Zn + CuSO₄ → ZnSO₄ + Cu. Zinc, being more reactive, replaces copper from its salt solution. The others are combination, decomposition and combination reactions.
 
-M5. A 3-mark answer on “Chemical Reactions and Equations” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. Quicklime reacts vigorously with water to form slaked lime and a lot of heat. This reaction is: (a) endothermic and a combination reaction  (b) exothermic and a combination reaction  (c) exothermic and a decomposition reaction  (d) endothermic and a displacement reaction
+    Ans: (b) exothermic and a combination reaction. CaO + H₂O → Ca(OH)₂ + heat: two substances join to form one product, and heat is released.
 
 M6. Which of these is a combination reaction? (a) CaO + H₂O → Ca(OH)₂  (b) 2H₂O → 2H₂ + O₂  (c) Zn + CuSO₄ → ZnSO₄ + Cu  (d) AgNO₃ + NaCl → AgCl + NaNO₃
     Ans: (a) CaO + H₂O → Ca(OH)₂. Two reactants combine to form a single product; (b) is decomposition, (c) displacement and (d) double displacement.

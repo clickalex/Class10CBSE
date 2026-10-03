@@ -29,11 +29,11 @@ Q4. [Short · 2 marks] What is a many-to-many relationship? Explain why it needs
 Q5. [Application · 3 marks] A shop has Customer and Order tables. Where does CustomerID go, and what relationship is this?
     Ans: CustomerID is PK in Customer and FK in Order. One-to-many (one customer, many orders).
 
-Q6. [Application · 3 marks] Riya is revising “Relationships and Multiple Tables” (One-to-one, one-to-many, many-to-many; referential integrity). A classmate lost marks by doing this: Drawing the relationship backwards (PK on the many side). Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student relates the tables Customer and Order by making OrderID in Order the primary key and also making CustomerID in Customer the foreign key. What is wrong?
     Ans:
-      Correct method: FK type must match PK type (both Integer, or both VARCHAR).
-      Why the mistake costs marks: Drawing the relationship backwards (PK on the many side).
-      Write the definition or formula first, then the working or example.
+      The foreign key goes on the many side. One customer can place many orders, so Order must contain the CustomerID.
+      Correct design: CustomerID is the primary key of Customer, and CustomerID in Order is the foreign key that refers to it.
+      The primary key and the foreign key must also have the same data type, or Base will refuse the link.
 
 Q7. [Short · 3 marks] Explain the three types of relationship with an example of each.
     Ans:
@@ -64,24 +64,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Relationships and Multiple Tables”. Their note says: Why multiple tables: store each fact once. Student details in Student; issues in Issue; link by AdmNo.
+    In a school, each student has exactly one library card and each card belongs to exactly one student.
     
-    The chapter is described as: One-to-one, one-to-many, many-to-many; referential integrity.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) What type of relationship is this?
+    (b) How can it be set up in Base?
+    (c) Why are the data often kept in one table instead?
     Ans:
-      (a) One-to-one, one-to-many, many-to-many; referential integrity.
-      (b) Draw one-to-many (Student–Issue) with referential integrity.
-      (c) Drawing the relationship backwards (PK on the many side).
+      (a) A one-to-one relationship.
+      (b) The primary key of one table is also used (as a unique key) in the other, and the two are linked in Tools → Relationships.
+      (c) Because each row matches exactly one row of the other table, the fields can be placed in a single table; separate tables are used only when some data is rarely needed or must be kept apart.
 
-Q12. [Long · 5 marks] Discuss “Relationships and Multiple Tables” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] A shop has customers, products and orders. Design the tables with their primary and foreign keys, and name the relationships.
     Ans:
-      Why multiple tables: store each fact once. Student details in Student; issues in Issue; link by AdmNo.
-      Marks lens: Draw one-to-many (Student–Issue) with referential integrity.
-      Method / memory trick: FK type must match PK type (both Integer, or both VARCHAR).
-      Do not: Drawing the relationship backwards (PK on the many side).
+      Customer (CustomerID — primary key, Name, Phone).
+      Product (ProductID — primary key, ProductName, Price).
+      Order (OrderID — primary key, CustomerID — foreign key, ProductID — foreign key, Quantity, OrderDate).
+      Customer to Order is one-to-many, and Product to Order is also one-to-many.
+      Between Customer and Product the relationship is many-to-many, which is why the Order table acts as the linking (junction) table.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -98,11 +97,11 @@ M3. Student–Issue is typically: (a) one-to-one (b) one-to-many (c) many-to-man
 M4. Relationships window is opened from: (a) Tools → Relationships (b) Insert → Image (c) Format → Page (d) Data → Sort
     Ans: (a).
 
-M5. The most exam-ready way to revise “Relationships and Multiple Tables” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is One-to-one, one-to-many, many-to-many; referential integrity.
+M5. In a one-to-many relationship, the foreign key is placed in the table on the: (a) “one” side (b) “many” side (c) side with fewer records (d) side with the longer name
+    Ans: (b) “many” side. Each record on the “many” side stores the key of the one record it belongs to.
 
-M6. A 3-mark answer on “Relationships and Multiple Tables” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. Referential integrity ensures that: (a) every field has a default value (b) a table has at least ten records (c) a query is always sorted (d) a foreign key value must match an existing primary key value in the related table
+    Ans: (d) a foreign key value must match an existing primary key value in the related table. It prevents records that point to something that does not exist, such as an order for a missing customer.
 
 M7. The relationship between one customer and the many orders placed by that customer is: (a) one-to-many  (b) one-to-one  (c) many-to-many  (d) not possible
     Ans: (a) one-to-many. The customer is the parent record and the orders are the child records.

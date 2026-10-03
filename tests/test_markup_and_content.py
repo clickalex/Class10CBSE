@@ -240,6 +240,21 @@ class DocumentedNumbersTests(unittest.TestCase):
         self.assertEqual((self._int(m.group(1)), self._int(m.group(2)), self._int(m.group(3))),
                          (self.n, self.qa, self.mcq))
 
+    def test_root_readme_quotes_the_real_mock_pool(self):
+        """'pool (N MCQs across the banks)' is the number of distinct questions the mocks can draw from.
+
+        It went stale once (1,197 after real MCQs replaced study-habit filler in the pools) with no
+        test noticing, so it is pinned to the number the build prints."""
+        import mocktest
+        data = json.loads((SITE / "content" / "subjects.json").read_text(encoding="utf-8"))
+        subjects = data if isinstance(data, list) else data["subjects"]
+        chapters = {s["slug"]: build.load_chapters(s["slug"]) for s in subjects}
+        _config, exams = mocktest.prepare(subjects, chapters)
+        n = len({q["uid"] for e in exams for q in e["pool_data"].values()})
+        m = re.search(r"pool \(([\d,]+) MCQs across the banks\)", self.readme)
+        self.assertIsNotNone(m, "mock-pool sentence not found in README.md")
+        self.assertEqual(self._int(m.group(1)), n)
+
     def test_site_readme_coverage_table_total(self):
         m = re.search(r"\| \*\*Total\*\* \| \*\*(\d+)\*\* \| \*\*([\d,]+)\*\* \| \*\*([\d,]+)\*\* \|", self.site_readme)
         self.assertIsNotNone(m)

@@ -32,16 +32,17 @@ Q4. [Short · 3 marks] Find the mode of the data: 10–20 (f = 3), 20–30 (f = 
       l = 20, f₁ = 12, f₀ = 3, f₂ = 9, h = 10.
       Mode = 20 + [(12 − 3)/(24 − 3 − 9)] × 10 = 20 + (9/12) × 10 = 20 + 7.5 = 27.5.
 
-Q5. [Application · 3 marks] Riya is revising “Statistics” (Mean, median and mode of grouped data, and ogives). A classmate lost marks by doing this: Using class limits instead of class marks in the mean. Apply the correct method and rewrite the scoring answer.
+Q5. [Application · 3 marks] A student finds the mean of the data 0–10 (f = 4) and 10–20 (f = 6) using the upper limits 10 and 20 as x. Find the error, and give the correct mean.
     Ans:
-      Correct method: Median class vs modal class are different things. Median comes from the cumulative frequency crossing N/2; mode comes from the largest frequency.
-      Why the mistake costs marks: Using class limits instead of class marks in the mean.
-      Write the definition or formula first, then the working or example.
+      Error: for grouped data, x must be the class mark (the midpoint of the class), not a class limit.
+      Class marks are 5 and 15, so the mean = (4 × 5 + 6 × 15)/(4 + 6) = (20 + 90)/10.
+      Mean = 11. The upper-limit method would have wrongly given (40 + 120)/10 = 16.
 
-Q6. [Application · 3 marks] Amit is given this exam-style task from “Statistics”: “Find the class mark of the class 25–35.” Treat it as an application question. Identify the idea, then write the working in points.
+Q6. [Application · 3 marks] The daily wages of 40 workers are: Rs 100–200: 8, 200–300: 12, 300–400: 10, 400–500: 6, 500–600: 4. Form the “more than” cumulative frequency table and find how many workers earn Rs 400 or more.
     Ans:
-      Idea: Mean, median and mode of grouped data, and ogives.
-      Class mark = (25 + 35)/2 = 30.
+      A “more than” table lists the number of workers with wages at or above each lower limit.
+      More than 100: 40; more than 200: 32; more than 300: 20; more than 400: 10; more than 500: 4.
+      Workers earning Rs 400 or more: 10 (6 + 4).
 
 Q7. [Long · 4 marks] Find the median of the distribution: 0–10 (f = 4), 10–20 (f = 6), 20–30 (f = 10), 30–40 (f = 8), 40–50 (f = 2).
     Ans:
@@ -60,29 +61,27 @@ Q8. [Long · 4 marks] The mean of the distribution 0–10 (f = 5), 10–20 (f = 
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Statistics”. Their note says: Grouped data. Data arranged in class intervals with frequencies. For calculations, each class is represented by its class mark xᵢ = (upper limit + lower limit)/2.
+    The weekly hours of study of 40 students are: 0–10: 5 students, 10–20: 8, 20–30: 14, 30–40: 9, 40–50: 4.
     
-    The chapter is described as: Mean, median and mode of grouped data, and ogives.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Write the class marks.
+    (b) Find the mean.
+    (c) Which is the modal class, and why?
     Ans:
-      (a) Mean, median and mode of grouped data, and ogives.
-      (b) Most of the 11-mark Statistics and Probability unit, roughly 7–8 marks.
-      (c) Using class limits instead of class marks in the mean.
+      (a) 5, 15, 25, 35, 45.
+      (b) Σfx = 5×5 + 8×15 + 14×25 + 9×35 + 4×45 = 25 + 120 + 350 + 315 + 180 = 990, so mean = 990/40 = 24.75 hours.
+      (c) The modal class is 20–30, because it has the highest frequency (14).
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Find the class mark of the class 25–35.” Student A writes one line. Student B writes points, an example and a check.
+    In a survey, the mean daily screen time of students is 3.4 hours and the median is 3.2 hours.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Find the mode using the empirical relation.
+    (b) What does the order mean > median > mode suggest about the data?
+    (c) Which measure would you report if a few students have extremely long screen times, and why?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Class mark = (25 + 35)/2 = 30.
-      (c) Median class vs modal class are different things. Median comes from the cumulative frequency crossing N/2; mode comes from the largest frequency.
+      (a) Mode = 3 × median − 2 × mean = 3(3.2) − 2(3.4) = 9.6 − 6.8 = 2.8 hours.
+      (b) The data are skewed to the right: a few large values pull the mean above the median and mode.
+      (c) The median, because it is not affected by extreme values, while the mean is.
 
 Q11. [Long · 4 marks] Find the mean of this data by the step-deviation method: 0–20 (f = 7), 20–40 (f = 12), 40–60 (f = 16), 60–80 (f = 13), 80–100 (f = 12).
     Ans:
@@ -108,11 +107,11 @@ M2. The median class is the class whose cumulative frequency is: (a) equal to N/
 M3. If mean = 20 and mode = 26, then by the empirical relation the median is: (a) 22  (b) 22.67  (c) 23  (d) 24
     Ans: (a) 22. 3 Median = 26 + 2(20) = 66, so Median = 22.
 
-M4. The most exam-ready way to revise “Statistics” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Mean, median and mode of grouped data, and ogives.
+M4. In grouped data, the mean is calculated using the class marks because: (a) the class limits are never known  (b) every observation of a class is assumed to lie at its midpoint  (c) it always makes the mean larger  (d) the frequencies are not required
+    Ans: (b) every observation of a class is assumed to lie at its midpoint. The individual values inside a class are unknown, so each is represented by the class mark.
 
-M5. A 3-mark answer on “Statistics” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. In the mode formula l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, the symbol f₁ stands for: (a) the frequency of the modal class  (b) the frequency of the class before the modal class  (c) the frequency of the class after the modal class  (d) the total of all frequencies
+    Ans: (a) the frequency of the modal class. f₁ is the frequency of the modal class; f₀ and f₂ are those of the classes just before and just after it.
 
 M6. The mode of 3, 5, 7, 5, 9, 5, 8 is: (a) 3  (b) 5  (c) 7  (d) 9
     Ans: (b) 5. It occurs three times, more than any other value.

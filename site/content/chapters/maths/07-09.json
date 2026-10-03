@@ -79,20 +79,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Coordinate Geometry” (Distance formula, section formula, area of a triangle). A classmate lost marks by doing this: Mixing up which ratio component multiplies which point in the section formula. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student finds the distance between A(−3, 2) and B(5, −4) as √[(5 − 3)² + (−4 − 2)²] = √40. Find the error and give the correct distance.",
         "a": [
-          "Correct method: Section formula cross pattern: m goes with the *second* point’s coordinates and n with the first. Write it out once correctly and reuse it.",
-          "Why the mistake costs marks: Mixing up which ratio component multiplies which point in the section formula.",
-          "Write the definition or formula first, then the working or example."
+          "Error: x₂ − x₁ = 5 − (−3) = 5 + 3 = **8**, not 2. The negative sign of x₁ was dropped.",
+          "Correct: AB = √[8² + (−6)²] = √(64 + 36).",
+          "AB = √100 = **10 units**."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Coordinate Geometry”: “Find the distance between (−2, 3) and (4, −5).” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A petrol station is to be built on the road along the x-axis so that it is equidistant from two villages at P(2, −5) and Q(−2, 9). Find the coordinates of the station.",
         "a": [
-          "Idea: Distance formula, section formula, area of a triangle.",
-          "d = √[(4 − (−2))² + (−5 − 3)²] = √[36 + 64] = √100 = 10 units."
+          "Let the station be S(x, 0). Then SP = SQ, so SP² = SQ².",
+          "(x − 2)² + 25 = (x + 2)² + 81, which gives −4x + 29 = 4x + 85.",
+          "So −8x = 56 and x = −7. The station is at **(−7, 0)**."
         ]
       },
       {
@@ -108,21 +109,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Coordinate Geometry”. Their note says: Distance formula. The distance between (x₁, y₁) and (x₂, y₂) is √[(x₂ − x₁)² + (y₂ − y₁)²] — just Pythagoras.\n\nThe chapter is described as: Distance formula, section formula, area of a triangle.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nOn a grid map, a school is at S(−2, 1) and a library is at L(6, 7). A bus stop M is to be placed exactly midway between them, and a park is at P(2, −2).\n\n(a) Find the distance SL.\n(b) Find the coordinates of M.\n(c) Find the distance MP.",
         "a": [
-          "(a) Distance formula, section formula, area of a triangle.",
-          "(b) marks, almost always formula substitution.",
-          "(c) Mixing up which ratio component multiplies which point in the section formula."
+          "(a) SL = √[(6 + 2)² + (7 − 1)²] = √(64 + 36) = **10 units**.",
+          "(b) M = ((−2 + 6)/2, (1 + 7)/2) = **(2, 4)**.",
+          "(c) MP = √[(2 − 2)² + (−2 − 4)²] = **6 units**."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Find the distance between (−2, 3) and (4, −5).” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nThree vertices of a parallelogram ABCD, taken in order, are A(1, 2), B(4, 3) and C(6, 6).\n\n(a) Find the coordinates of D.\n(b) Verify your answer using the diagonals.\n(c) Which property of a parallelogram did you use?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) d = √[(4 − (−2))² + (−5 − 3)²] = √[36 + 64] = √100 = 10 units.",
-          "(c) Section formula cross pattern: m goes with the *second* point’s coordinates and n with the first. Write it out once correctly and reuse it."
+          "(a) The diagonals AC and BD bisect each other. Midpoint of AC = (7/2, 4). If D = (x, y), midpoint of BD = ((4 + x)/2, (3 + y)/2) = (7/2, 4), so x = 3 and y = 5. D = **(3, 5)**.",
+          "(b) Check: vector AB = (3, 1) and vector DC = (6 − 3, 6 − 5) = (3, 1), so AB and DC are equal and parallel ✓.",
+          "(c) The diagonals of a parallelogram bisect each other, so they share the same midpoint."
         ]
       },
       {
@@ -149,12 +150,12 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Coordinate Geometry” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Find the ratio in which the y-axis divides the line segment joining A(5, −6) and B(−1, −4). Also find the point of division.",
         "a": [
-          "Distance formula. The distance between (x₁, y₁) and (x₂, y₂) is √[(x₂ − x₁)² + (y₂ − y₁)²] — just Pythagoras.",
-          "Marks lens: marks, almost always formula substitution.",
-          "Method / memory trick: Section formula cross pattern: m goes with the *second* point’s coordinates and n with the first. Write it out once correctly and reuse it.",
-          "Do not: Mixing up which ratio component multiplies which point in the section formula."
+          "A point on the y-axis has x = 0. Let it divide AB in the ratio k : 1.",
+          "x = (k × (−1) + 1 × 5)/(k + 1) = 0, so −k + 5 = 0 and k = 5. The ratio is **5 : 1**.",
+          "y = (5 × (−4) + 1 × (−6))/(5 + 1) = −26/6 = −13/3.",
+          "The y-axis meets AB at **(0, −13/3)**."
         ]
       }
     ],
@@ -172,12 +173,12 @@
         "a": "**(c) 0.**"
       },
       {
-        "q": "The most exam-ready way to revise “Coordinate Geometry” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Distance formula, section formula, area of a triangle."
+        "q": "The coordinates of the point that divides the line segment joining (0, 0) and (6, 9) internally in the ratio 1 : 2 are: (a) (3, 9/2)  (b) (4, 6)  (c) (2, 3)  (d) (1, 3/2)",
+        "a": "**(c) (2, 3).** x = (1 × 6 + 2 × 0)/3 = 2 and y = (1 × 9 + 2 × 0)/3 = 3."
       },
       {
-        "q": "A 3-mark answer on “Coordinate Geometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is: (a) 6 square units  (b) 12 square units  (c) 7 square units  (d) 3.5 square units",
+        "a": "**(a) 6 square units.** It is right-angled at the origin, so the area is ½ × 4 × 3 = 6 square units."
       },
       {
         "q": "The point (−3, 0) lies on: (a) the x-axis  (b) the y-axis  (c) the line y = x  (d) the origin",
@@ -329,20 +330,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Introduction to Trigonometry” (Trigonometric ratios, the standard table and identities). A classmate lost marks by doing this: Writing tan 90° = 0. It is not defined. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student simplifies sin(90° − 30°) as sin 90° − sin 30° = 1 − 1/2 = 1/2. What is wrong? Give the correct value and check it a second way.",
         "a": [
-          "Correct method: Building the sin table: write 0, 1, 2, 3, 4 under 0°, 30°, 45°, 60°, 90°, divide each by 4, then take the square root. The cos row is the sin row read backwards.",
-          "Why the mistake costs marks: Writing tan 90° = 0. It is not defined.",
-          "Write the definition or formula first, then the working or example."
+          "sin(A − B) is **not** sin A − sin B; sine does not distribute over a bracket. The angle inside the brackets must be simplified first.",
+          "sin(90° − 30°) = sin 60° = **√3/2**.",
+          "Check with the complementary-angle identity: sin(90° − A) = cos A, so sin 60° = cos 30° = √3/2 ✓."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Introduction to Trigonometry”: “Evaluate sin 60° cos 30° + cos 60° sin 30°.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "If 7 sin²θ + 3 cos²θ = 4 and θ is acute, show that tan θ = 1/√3.",
         "a": [
-          "Idea: Trigonometric ratios, the standard table and identities.",
-          "(√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4 = 1."
+          "Write 7 sin²θ + 3 cos²θ = 3(sin²θ + cos²θ) + 4 sin²θ = 3 + 4 sin²θ.",
+          "So 3 + 4 sin²θ = 4, which gives sin²θ = 1/4 and sin θ = 1/2 (θ acute), so θ = 30°.",
+          "Hence tan θ = tan 30° = **1/√3**."
         ]
       },
       {
@@ -368,32 +370,32 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Introduction to Trigonometry”. Their note says: The six ratios. In a right triangle with respect to an acute angle θ: sin = opposite/hypotenuse, cos = adjacent/hypotenuse, tan = opposite/adjacent. The other three are their reciprocals: cosec, sec, cot.\n\nThe chapter is described as: Trigonometric ratios, the standard table and identities.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nRiya notices from the standard table that sin 30° = cos 60° = 1/2, sin 45° = cos 45° = 1/√2 and sin 60° = cos 30° = √3/2.\n\n(a) Which relation connects each pair of values?\n(b) Use it to evaluate sin 65° ÷ cos 25° and tan 35° × tan 55°.\n(c) Why does the table not list a value for tan 90°?",
         "a": [
-          "(a) Trigonometric ratios, the standard table and identities.",
-          "(b) Roughly 7–8 of the 12 Trigonometry marks. Identities are worth 3 marks and are asked as proofs.",
-          "(c) Writing tan 90° = 0. It is not defined."
+          "(a) The angles in each pair are complementary: sin(90° − θ) = cos θ.",
+          "(b) sin 65° = sin(90° − 25°) = cos 25°, so the ratio is **1**. tan 55° = cot 35°, so tan 35° × tan 55° = tan 35° × cot 35° = **1**.",
+          "(c) tan 90° = sin 90°/cos 90° = 1/0, which is not defined."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Evaluate sin 60° cos 30° + cos 60° sin 30°.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nMeera claims that sin²θ + cos²θ = 1 is true for every angle and that 1 + tan²θ = sec²θ is true for every angle too.\n\n(a) For which angle from 0° to 90° is her second claim meaningless?\n(b) Derive 1 + tan²θ = sec²θ from sin²θ + cos²θ = 1.\n(c) If sec θ = 5/3 and θ is acute, find tan θ.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) (√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4 = 1.",
-          "(c) Building the sin table: write 0, 1, 2, 3, 4 under 0°, 30°, 45°, 60°, 90°, divide each by 4, then take the square root. The cos row is the sin row read backwards."
+          "(a) At θ = 90°, where cos θ = 0, tan θ and sec θ are not defined.",
+          "(b) Divide sin²θ + cos²θ = 1 by cos²θ (cos θ ≠ 0): tan²θ + 1 = sec²θ.",
+          "(c) tan²θ = sec²θ − 1 = 25/9 − 1 = 16/9, so tan θ = **4/3**."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Introduction to Trigonometry” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Prove that (sin θ + cosec θ)² + (cos θ + sec θ)² = 7 + tan²θ + cot²θ.",
         "a": [
-          "The six ratios. In a right triangle with respect to an acute angle θ: sin = opposite/hypotenuse, cos = adjacent/hypotenuse, tan = opposite/adjacent. The other three are their reciprocals: cosec, sec, cot.",
-          "Marks lens: Roughly 7–8 of the 12 Trigonometry marks. Identities are worth 3 marks and are asked as proofs.",
-          "Method / memory trick: Building the sin table: write 0, 1, 2, 3, 4 under 0°, 30°, 45°, 60°, 90°, divide each by 4, then take the square root. The cos row is the sin row read backwards.",
-          "Do not: Writing tan 90° = 0. It is not defined."
+          "LHS = sin²θ + cosec²θ + 2 sin θ cosec θ + cos²θ + sec²θ + 2 cos θ sec θ.",
+          "Since sin θ cosec θ = 1 and cos θ sec θ = 1, the two middle terms give 2 + 2 = 4.",
+          "So LHS = (sin²θ + cos²θ) + 4 + cosec²θ + sec²θ = 1 + 4 + (1 + cot²θ) + (1 + tan²θ).",
+          "= 7 + tan²θ + cot²θ = RHS. ∎"
         ]
       }
     ],
@@ -411,12 +413,12 @@
         "a": "**(b) 1.** tan and cot are reciprocals."
       },
       {
-        "q": "The most exam-ready way to revise “Introduction to Trigonometry” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Trigonometric ratios, the standard table and identities."
+        "q": "If cos A = 4/5 and A is acute, then tan A is: (a) 3/4  (b) 4/3  (c) 3/5  (d) 5/3",
+        "a": "**(a) 3/4.** sin A = √(1 − 16/25) = 3/5, so tan A = sin A/cos A = (3/5)/(4/5) = 3/4."
       },
       {
-        "q": "A 3-mark answer on “Introduction to Trigonometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Which of the following is NOT defined? (a) tan 90°  (b) sin 90°  (c) cos 0°  (d) cot 90°",
+        "a": "**(a) tan 90°.** tan 90° = sin 90°/cos 90° = 1/0. The others are 1, 1 and 0."
       },
       {
         "q": "The value of sin²60° + 2 tan²45° − cos²30° is: (a) 1  (b) 2  (c) 5/4  (d) 9/4",
@@ -511,20 +513,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Some Applications of Trigonometry” (Heights and distances — angle of elevation and depression). A classmate lost marks by doing this: Measuring the angle of depression from the vertical. Apply the correct method and rewrite the scoring answer.",
+        "q": "A boy whose eyes are 1.5 m above the ground stands 20√3 m from a tower and sees its top at an angle of elevation of 30°. He calculates the height as 20√3 × tan 30° = 20 m and stops. What is missing? Give the correct height.",
         "a": [
-          "Correct method: Angle of depression equals the angle of elevation from the other end (alternate angles). So a depression problem becomes an elevation problem on a mirrored triangle.",
-          "Why the mistake costs marks: Measuring the angle of depression from the vertical.",
-          "Write the definition or formula first, then the working or example."
+          "The calculation gives only the height of the tower **above his eye level**; the 1.5 m from the ground to his eyes must be added back.",
+          "Height above eye level = 20√3 × (1/√3) = 20 m.",
+          "Height of the tower = 20 + 1.5 = **21.5 m**."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Some Applications of Trigonometry”: “The angle of elevation of the top of a tower from a point 30 m from its foot is 60°. Find the height of the tower.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A 20 m long ladder leans against a wall and makes an angle of 60° with the ground. How high up the wall does it reach, and how far is its foot from the wall? (Take √3 = 1.73.)",
         "a": [
-          "Idea: Heights and distances — angle of elevation and depression.",
-          "tan 60° = h/30, so √3 = h/30. h = 30√3 m ≈ 51.96 m."
+          "In the right triangle, the ladder is the hypotenuse: height = 20 sin 60° = 20 × √3/2 = 10√3.",
+          "Height = 10 × 1.73 = **17.3 m**.",
+          "Distance of the foot from the wall = 20 cos 60° = 20 × 1/2 = **10 m**."
         ]
       },
       {
@@ -570,21 +573,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Some Applications of Trigonometry”. Their note says: Line of sight is the line from the observer’s eye to the object being observed.\n\nThe chapter is described as: Heights and distances — angle of elevation and depression.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nFrom the top of a 12 m high building, the angle of elevation of the top of a cable tower is 60° and the angle of depression of its foot is 30°.\n\n(a) Find the horizontal distance between the building and the tower.\n(b) Find the height of the tower.\n(c) Which of the two given angles is measured below the horizontal?",
         "a": [
-          "(a) Heights and distances — angle of elevation and depression.",
-          "(b) The remaining 4–5 marks of the 12-mark Trigonometry unit.",
-          "(c) Measuring the angle of depression from the vertical."
+          "(a) Angle of depression of the foot is 30°: tan 30° = 12/d, so d = 12√3 m ≈ **20.8 m**.",
+          "(b) Above the building’s top: tan 60° = (H − 12)/d, so H − 12 = √3 × 12√3 = 36 and H = **48 m**.",
+          "(c) The 30° **angle of depression**, measured below the horizontal through the observer’s eye."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “The angle of elevation of the top of a tower from a point 30 m from its foot is 60°. Find the height of the tower.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA drone hovers 60 m above a straight road. Two observers A and B stand on the road on opposite sides of the point directly below the drone. They see it at angles of elevation 30° and 60° respectively.\n\n(a) How far is A from the point below the drone?\n(b) How far is B from that point?\n(c) What is the distance AB? (Take √3 = 1.73.)",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) tan 60° = h/30, so √3 = h/30. h = 30√3 m ≈ 51.96 m.",
-          "(c) Angle of depression equals the angle of elevation from the other end (alternate angles). So a depression problem becomes an elevation problem on a mirrored triangle."
+          "(a) tan 30° = 60/AO, so AO = 60√3 ≈ **103.8 m**.",
+          "(b) tan 60° = 60/BO, so BO = 60/√3 = 20√3 ≈ **34.6 m**.",
+          "(c) AB = AO + BO = 80√3 ≈ **138.4 m**."
         ]
       },
       {
@@ -600,12 +603,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Some Applications of Trigonometry” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "The angles of elevation of the top of a tower from two points at distances 4 m and 9 m from its base, on the same straight line with the base, are complementary. Prove that the height of the tower is 6 m.",
         "a": [
-          "Line of sight is the line from the observer’s eye to the object being observed.",
-          "Marks lens: The remaining 4–5 marks of the 12-mark Trigonometry unit.",
-          "Method / memory trick: Angle of depression equals the angle of elevation from the other end (alternate angles). So a depression problem becomes an elevation problem on a mirrored triangle.",
-          "Do not: Measuring the angle of depression from the vertical."
+          "Let the tower be h m high. Let the angle of elevation from the point 4 m away be θ; from the point 9 m away it is (90° − θ).",
+          "From the nearer point: tan θ = h/4.",
+          "From the farther point: tan(90° − θ) = cot θ = h/9.",
+          "Multiply: tan θ × cot θ = (h/4)(h/9), so 1 = h²/36.",
+          "Hence h² = 36 and h = **6 m**. ∎"
         ]
       }
     ],
@@ -623,12 +627,12 @@
         "a": "**(a) 30°.** Alternate angles between parallel horizontals."
       },
       {
-        "q": "The most exam-ready way to revise “Some Applications of Trigonometry” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Heights and distances — angle of elevation and depression."
+        "q": "If the angle of elevation of the top of a pole from a point 10 m from its foot is 60°, the height of the pole is: (a) 10/√3 m  (b) 10 m  (c) 10√3 m  (d) 20 m",
+        "a": "**(c) 10√3 m.** height = 10 × tan 60° = 10√3 m."
       },
       {
-        "q": "A 3-mark answer on “Some Applications of Trigonometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "As an observer walks towards the foot of a tower, the angle of elevation of its top: (a) decreases  (b) stays the same  (c) becomes zero  (d) increases",
+        "a": "**(d) increases.** The horizontal distance falls while the height stays fixed, so tan of the angle (height ÷ distance) grows and the angle increases."
       },
       {
         "q": "When the shadow of a pole equals its height, the sun’s angle of elevation is: (a) 30°  (b) 45°  (c) 60°  (d) 90°",

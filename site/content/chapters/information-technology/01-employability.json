@@ -307,11 +307,11 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Self-Management Skills–II” (Stress, self-awareness, self-motivation, self-regulation, time and SMART goals). A classmate lost marks by doing this: Writing SMART expansions in the wrong order. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes SMART as “Specific, Achievable, Measurable, Time-bound, Realistic”. Is the order correct? Give the correct expansion and turn “I want to type faster” into a SMART goal.",
         "a": [
-          "Correct method: SMART → Specific Measurable Achievable Realistic Time-bound.",
-          "Why the mistake costs marks: Writing SMART expansions in the wrong order.",
-          "Write the definition or formula first, then the working or example."
+          "The letters must follow the order of the word: **S**pecific, **M**easurable, **A**chievable, **R**ealistic (or Relevant), **T**ime-bound. The student swapped A and M and put T before R.",
+          "“Type faster” is vague: it is not specific, measurable or time-bound.",
+          "SMART version: “Type 35 words per minute with at most 2 errors in a 5-minute test by the end of this month.”"
         ]
       },
       {
@@ -354,22 +354,23 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Self-Management Skills–II”. Their note says: Self-management is the ability to control one's emotions, thoughts and behaviour and to work towards goals without constant supervision.\n\nThe chapter is described as: Stress, self-awareness, self-motivation, self-regulation, time and SMART goals.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nAsha knows she is good at organising events but weak at public speaking, so she joins the debate club. On her first day she feels nervous, but she takes deep breaths and goes on stage anyway.\n\n(a) Which skill does knowing her strengths and weaknesses show?\n(b) How does joining the debate club show self-motivation?\n(c) Which skill is shown when she calms herself and goes on stage?",
         "a": [
-          "(a) Stress, self-awareness, self-motivation, self-regulation, time and SMART goals.",
-          "(b) marks. Stress symptoms, SMART goals and time-management steps are the usual asks.",
-          "(c) Writing SMART expansions in the wrong order."
+          "(a) **Self-awareness**: understanding one’s own strengths, weaknesses, feelings and values.",
+          "(b) She sets herself a goal to improve and acts on it without being told; the drive comes from inside her.",
+          "(c) **Self-regulation**: controlling her emotions and behaviour in a situation."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Self-Management Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Describe five ways in which a student can manage stress, giving an example of each.",
         "a": [
-          "Self-management is the ability to control one's emotions, thoughts and behaviour and to work towards goals without constant supervision.",
-          "Marks lens: marks. Stress symptoms, SMART goals and time-management steps are the usual asks.",
-          "Method / memory trick: SMART → Specific Measurable Achievable Realistic Time-bound.",
-          "Do not: Writing SMART expansions in the wrong order."
+          "Plan and prioritise: make a to-do list and do the important task first, so exam work does not pile up.",
+          "Exercise and breathing: a 20-minute walk, yoga or deep breathing calms the body.",
+          "Sleep and food: sleeping 7–8 hours and eating on time keeps the mind fresh before a test.",
+          "Talk it out: sharing a worry with a friend, parent or counsellor stops it from growing.",
+          "Hobbies and breaks: music or sport after study gives the mind a rest; positive self-talk also helps."
         ]
       }
     ],
@@ -391,12 +392,12 @@
         "a": "**(b).**"
       },
       {
-        "q": "The most exam-ready way to revise “Self-Management Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Stress, self-awareness, self-motivation, self-regulation, time and SMART goals."
+        "q": "Which of the following is an example of self-regulation? (a) Feeling angry at a remark but waiting and replying politely later (b) Setting a goal to score 90% in the exam (c) Listing one’s strengths and weaknesses (d) Being able to see the cause of someone else’s stress",
+        "a": "**(a) Feeling angry at a remark but waiting and replying politely later.** Self-regulation means controlling one’s emotions and actions; the other options show self-motivation and self-awareness."
       },
       {
-        "q": "A 3-mark answer on “Self-Management Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "A task that is important but not urgent should be: (a) scheduled for a fixed time (b) done at once, before anything else (c) given to somebody else (d) dropped from the list",
+        "a": "**(a) scheduled for a fixed time.** In the urgent/important method, important but not urgent tasks are planned for later so that they do not become urgent."
       },
       {
         "q": "Self-awareness means: (a) knowing your own strengths, weaknesses and feelings  (b) only knowing other people  (c) working without help  (d) following orders",
@@ -504,11 +505,11 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “ICT Skills–II” (Operating system, files and folders, and basic care of a computer). A classmate lost marks by doing this: Calling Writer an operating system. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student says, “Windows, Linux and LibreOffice Writer are all operating systems.” Correct the statement.",
         "a": [
-          "Correct method: File has an extension; a folder does not need one.",
-          "Why the mistake costs marks: Calling Writer an operating system.",
-          "Write the definition or formula first, then the working or example."
+          "Windows and Linux are **operating systems**: system software that controls the hardware and lets other programs run.",
+          "LibreOffice Writer is **application software**, a word processor used to create documents; it runs on top of an operating system.",
+          "Other operating systems are macOS and Android; other applications are Calc and a web browser."
         ]
       },
       {
@@ -544,22 +545,23 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “ICT Skills–II”. Their note says: ICT is Information and Communication Technology — hardware, software and networks used to create, store and share information.\n\nThe chapter is described as: Operating system, files and folders, and basic care of a computer.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nRohan creates a letter in Writer, a budget in Calc and a database in Base. He also wants to give his teacher a copy of the letter that opens in Microsoft Word.\n\n(a) Give the default file extension for each of the three files.\n(b) What is the difference between Save and Save As?\n(c) How can he make a Word-compatible copy?",
         "a": [
-          "(a) Operating system, files and folders, and basic care of a computer.",
-          "(b) mark. Definitions and “which of the following” items.",
-          "(c) Calling Writer an operating system."
+          "(a) Writer: **.odt**; Calc: **.ods**; Base: **.odb**.",
+          "(b) Save overwrites the current file; Save As lets you choose a new name, folder or file type and keeps the original.",
+          "(c) Use File → Save As and choose the Word file type (.docx) in the “Save as type” box."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “ICT Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Describe five basic file-management operations in an operating system and give the shortcut or method for each.",
         "a": [
-          "ICT is Information and Communication Technology — hardware, software and networks used to create, store and share information.",
-          "Marks lens: mark. Definitions and “which of the following” items.",
-          "Method / memory trick: File has an extension; a folder does not need one.",
-          "Do not: Calling Writer an operating system."
+          "Create a folder: right-click an empty space and choose New → Folder, then type its name.",
+          "Rename: select the file and press F2 (or right-click → Rename).",
+          "Copy: select the file, press Ctrl + C, open the destination and press Ctrl + V.",
+          "Move: select the file, press Ctrl + X, open the destination and press Ctrl + V (or drag it there).",
+          "Delete: press Delete to send it to the Recycle Bin, from where it can be restored; Shift + Delete removes it permanently."
         ]
       }
     ],
@@ -581,12 +583,12 @@
         "a": "**(b).**"
       },
       {
-        "q": "The most exam-ready way to revise “ICT Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Operating system, files and folders, and basic care of a computer."
+        "q": "Which of the following is application software? (a) Windows (b) Linux (c) Android (d) LibreOffice Writer",
+        "a": "**(d) LibreOffice Writer.** Writer is a program for a task (word processing); the others are operating systems."
       },
       {
-        "q": "A 3-mark answer on “ICT Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "A folder that is stored inside another folder is called a: (a) shortcut (b) sub-folder (c) file extension (d) drive",
+        "a": "**(b) sub-folder.** Folders can be nested, and a folder within a folder is a sub-folder."
       },
       {
         "q": "Which of these is an operating system? (a) Linux  (b) MS Word  (c) Chrome  (d) HDMI",
@@ -684,11 +686,11 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Entrepreneurial Skills–II” (Who an entrepreneur is, qualities, functions, myths and role in society). A classmate lost marks by doing this: Calling every shopkeeper an entrepreneur without the risk/innovation idea. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student says, “Every shopkeeper is an entrepreneur.” Correct this using the ideas of risk and innovation.",
         "a": [
-          "Correct method: Quality vs function: quality is a trait (perseverance); function is a job (arrange capital).",
-          "Why the mistake costs marks: Calling every shopkeeper an entrepreneur without the risk/innovation idea.",
-          "Write the definition or formula first, then the working or example."
+          "An **entrepreneur** starts a new venture, brings something new (a product, service or way of working), organises the resources and bears the risk of loss.",
+          "A shopkeeper who only resells goods in the usual way, with no new idea, is a trader or a small business owner.",
+          "A shopkeeper who starts a new kind of service, such as home delivery that no one offered before, takes a risk and innovates, and so acts as an entrepreneur."
         ]
       },
       {
@@ -731,22 +733,23 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Entrepreneurial Skills–II”. Their note says: Entrepreneur — a person who spots a need, takes a risk, organises resources and starts a business to earn profit and create value.\n\nThe chapter is described as: Who an entrepreneur is, qualities, functions, myths and role in society.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nAmit notices that farmers near his village lose money because vegetables spoil on the way to the city. He buys a van with a cooling unit, collects vegetables directly from farmers, sells them to city shops and hires two local youths.\n\n(a) Which entrepreneurial qualities does Amit show?\n(b) Name two functions he performs as an entrepreneur.\n(c) How does his enterprise help society?",
         "a": [
-          "(a) Who an entrepreneur is, qualities, functions, myths and role in society.",
-          "(b) marks. Qualities of an entrepreneur and “role in society” rotate.",
-          "(c) Calling every shopkeeper an entrepreneur without the risk/innovation idea."
+          "(a) He spots a need (opportunity recognition), is innovative in finding a solution and is willing to take a financial risk.",
+          "(b) He organises resources (the van, workers, suppliers) and bears the risk of the business.",
+          "(c) It creates jobs, reduces food wastage and increases the farmers’ income."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Entrepreneurial Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Describe five steps in setting up a small enterprise.",
         "a": [
-          "Entrepreneur — a person who spots a need, takes a risk, organises resources and starts a business to earn profit and create value.",
-          "Marks lens: marks. Qualities of an entrepreneur and “role in society” rotate.",
-          "Method / memory trick: Quality vs function: quality is a trait (perseverance); function is a job (arrange capital).",
-          "Do not: Calling every shopkeeper an entrepreneur without the risk/innovation idea."
+          "Step 1: generate and evaluate a business idea that meets a real need.",
+          "Step 2: study the market: who the customers are, what they will pay and who the competitors are.",
+          "Step 3: prepare a business plan covering the product, costs, expected sales and profit.",
+          "Step 4: arrange the money (capital) from savings, family or a loan, and choose a suitable location.",
+          "Step 5: complete legal formalities such as registration and licences, then start and review the business regularly."
         ]
       }
     ],
@@ -768,12 +771,12 @@
         "a": "**(b) a myth.**"
       },
       {
-        "q": "The most exam-ready way to revise “Entrepreneurial Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Who an entrepreneur is, qualities, functions, myths and role in society."
+        "q": "The first step in starting an enterprise is usually to: (a) register the business (b) hire employees (c) find and evaluate a business idea (d) print the visiting cards",
+        "a": "**(c) find and evaluate a business idea.** Everything else depends on having an idea that meets a need and can make a profit."
       },
       {
-        "q": "A 3-mark answer on “Entrepreneurial Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The money needed to start and run a business is called: (a) profit (b) revenue (c) tax (d) capital",
+        "a": "**(d) capital.** Capital is the funds an entrepreneur invests in the enterprise; profit is what remains after costs."
       },
       {
         "q": "A person who starts a business, organises it and bears its risks is a/an: (a) entrepreneur  (b) manager  (c) employee  (d) customer",
@@ -881,11 +884,11 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Green Skills–II” (Sustainable development, green economy and green jobs). A classmate lost marks by doing this: Defining sustainable development as “using no resources”. It is wise use, not zero use. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student defines sustainable development as “using no natural resources so that nothing is wasted”. Correct the definition.",
         "a": [
-          "Correct method: Sustainable development = present + future, not only “planting trees”.",
-          "Why the mistake costs marks: Defining sustainable development as “using no resources”. It is wise use, not zero use.",
-          "Write the definition or formula first, then the working or example."
+          "Sustainable development means meeting the needs of the present **without harming the ability of future generations to meet their own needs**.",
+          "It is about wise use of resources, not zero use: we still use water, energy and materials, but carefully.",
+          "Examples are using renewable energy, saving water and recycling."
         ]
       },
       {
@@ -921,22 +924,23 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Green Skills–II”. Their note says: Environment = the surroundings in which we live — air, water, land, plants, animals and humans.\n\nThe chapter is described as: Sustainable development, green economy and green jobs.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA repair shop collects old computers, refurbishes some for sale at low cost and sends the rest to an authorised recycler.\n\n(a) Which of the 3Rs does each activity show?\n(b) Why is it dangerous to throw such equipment into the dustbin?\n(c) Name a green job linked to this work.",
         "a": [
-          "(a) Sustainable development, green economy and green jobs.",
-          "(b) mark. Sustainable development definition is the banker.",
-          "(c) Defining sustainable development as “using no resources”. It is wise use, not zero use."
+          "(a) Refurbishing and reselling is **reuse**; sending the rest to a recycler is **recycle**.",
+          "(b) E-waste contains metals such as lead and mercury, which pollute soil and water and harm health.",
+          "(c) An e-waste recycling technician (or a refurbishing specialist)."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Green Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Describe five green practices that a school computer lab can follow.",
         "a": [
-          "Environment = the surroundings in which we live — air, water, land, plants, animals and humans.",
-          "Marks lens: mark. Sustainable development definition is the banker.",
-          "Method / memory trick: Sustainable development = present + future, not only “planting trees”.",
-          "Do not: Defining sustainable development as “using no resources”. It is wise use, not zero use."
+          "Switch off computers, monitors and lights when not in use, and use energy-saving settings.",
+          "Print only when necessary and print on both sides, and share files digitally.",
+          "Repair and reuse equipment, and give old devices to an authorised e-waste recycler.",
+          "Use rechargeable batteries and energy-efficient (LED) lighting.",
+          "Make students aware of these habits, for example by appointing an “eco-monitor”."
         ]
       }
     ],
@@ -958,12 +962,12 @@
         "a": "**(b) electricity.**"
       },
       {
-        "q": "The most exam-ready way to revise “Green Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Sustainable development, green economy and green jobs."
+        "q": "E-waste mainly refers to: (a) kitchen waste (b) discarded electronic and electrical equipment (c) waste paper (d) plastic bottles only",
+        "a": "**(b) discarded electronic and electrical equipment.** E-waste includes old computers, phones, batteries and cables, and needs special disposal."
       },
       {
-        "q": "A 3-mark answer on “Green Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Which of the following is a renewable source of energy? (a) coal (b) petroleum (c) natural gas (d) solar energy",
+        "a": "**(d) solar energy.** Sunlight is not used up when it is used; coal, petroleum and natural gas are fossil fuels."
       },
       {
         "q": "A green economy is one that: (a) improves human well-being while reducing environmental risks  (b) produces the most goods  (c) bans all industry  (d) depends only on coal",

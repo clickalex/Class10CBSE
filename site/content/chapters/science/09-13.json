@@ -133,20 +133,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Light — Reflection and Refraction” (Ray diagrams, mirror and lens formulas, magnification and power). A classmate lost marks by doing this: Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student finds the power of a lens of focal length 20 cm as P = 1/f = 1/20 = 0.05 D. Find the mistake and give the correct power. What type of lens is it?",
         "a": [
-          "Correct method: Sign convention: distances measured against the direction of the incident light (to the left of the pole) are negative. Object distance u is always negative. For a concave mirror f is negative; for a convex mirror and a convex lens f is positive; a concave lens has negative f.",
-          "Why the mistake costs marks: Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f.",
-          "Write the definition or formula first, then the working or example."
+          "Mistake: the focal length must be in **metres** for power in dioptres. f = 20 cm = 0.2 m.",
+          "P = 1/f = 1/0.2 = **+5 D**.",
+          "The focal length is positive, so the power is positive: it is a **convex** (converging) lens."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Light — Reflection and Refraction”: “State the mirror formula and the SI unit of the power of a lens.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A dentist uses a concave mirror of focal length 2 cm to see an enlarged, erect image of a tooth. At what distance from the mirror should the tooth be held for an image three times as large? Where is the image?",
         "a": [
-          "Idea: Ray diagrams, mirror and lens formulas, magnification and power.",
-          "/v + 1/u = 1/f. The SI unit of power is the dioptre (D), equal to 1 m⁻¹."
+          "An erect, magnified image means m = +3, so v = −3u (with the sign convention).",
+          "Mirror formula: 1/v + 1/u = 1/f gives 1/(−3u) + 1/u = 2/(3u) = 1/(−2), so u = −4/3 cm.",
+          "The tooth must be held about **1.33 cm** in front of the mirror. The image distance is v = −3u = +4 cm: a virtual image 4 cm behind the mirror."
         ]
       },
       {
@@ -163,21 +164,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Light — Reflection and Refraction”. Their note says: Reflection. Light travelling in a straight line bounces back on striking a polished surface. Laws of reflection: the angle of incidence equals the angle of reflection, and the incident ray, reflected ray and normal at the point of incidence all lie in the same plane. A plane mirror always forms a vi\n\nThe chapter is described as: Ray diagrams, mirror and lens formulas, magnification and power.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA student places a candle 40 cm from a convex lens of focal length 20 cm and obtains a sharp image on a screen.\n\n(a) Where is the image formed?\n(b) State its nature and its size relative to the object.\n(c) What is the power of the lens?",
         "a": [
-          "(a) Ray diagrams, mirror and lens formulas, magnification and power.",
-          "(b) –4 marks. One ray diagram, one numerical on the mirror or lens formula, and one question on magnification or power.",
-          "(c) Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f."
+          "(a) Lens formula: 1/v − 1/u = 1/f gives 1/v = 1/20 − 1/40 = 1/40, so v = **+40 cm** (on the other side of the lens).",
+          "(b) m = v/u = 40/(−40) = −1, so the image is real, inverted and **the same size** as the object (the object is at 2F).",
+          "(c) P = 1/f = 1/0.2 m = **+5 D**."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “State the mirror formula and the SI unit of the power of a lens.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA coin lies at the bottom of an empty opaque cup, just out of sight. When water is poured gently into the cup, the coin becomes visible.\n\n(a) Name the phenomenon.\n(b) Explain why the coin becomes visible.\n(c) How does a ray bend as it passes from water into air?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) /v + 1/u = 1/f. The SI unit of power is the dioptre (D), equal to 1 m⁻¹.",
-          "(c) Sign convention: distances measured against the direction of the incident light (to the left of the pole) are negative. Object distance u is always negative. For a concave mirror f is negative; for a convex mirror and a convex lens f is positive; a concave lens has negative f."
+          "(a) Refraction of light.",
+          "(b) Rays from the coin bend as they leave the water for the air, so they now reach the eye over the rim of the cup and the coin appears raised.",
+          "(c) Going from the denser water into the rarer air, the ray bends **away from the normal**."
         ]
       },
       {
@@ -203,12 +204,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Light — Reflection and Refraction” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "An object 5 cm high is placed 20 cm in front of a convex mirror of focal length 10 cm. Find the position, nature and size of the image.",
         "a": [
-          "Reflection. Light travelling in a straight line bounces back on striking a polished surface. Laws of reflection: the angle of incidence equals the angle of reflection, and the incident ray, reflected ray and normal at the point of incidence all lie in the same plane. A plane mirror always forms a virtual, erect image, the same size as the object, at the same distance behind the mirror, and laterally inverted.",
-          "Marks lens: –4 marks. One ray diagram, one numerical on the mirror or lens formula, and one question on magnification or power.",
-          "Method / memory trick: Sign convention: distances measured against the direction of the incident light (to the left of the pole) are negative. Object distance u is always negative. For a concave mirror f is negative; for a convex mirror and a convex lens f is positive; a concave lens has negative f.",
-          "Do not: Using the mirror formula for a lens. Lens formula has −v and +u in the same form: 1/v − 1/u = 1/f."
+          "Sign convention: u = −20 cm and f = +10 cm for a convex mirror.",
+          "Mirror formula: 1/v = 1/f − 1/u = 1/10 + 1/20 = 3/20, so v = **+20/3 ≈ +6.7 cm** (behind the mirror).",
+          "Magnification m = −v/u = −(20/3)/(−20) = +1/3.",
+          "Image height h′ = m × h = (1/3) × 5 ≈ **+1.7 cm**.",
+          "The image is virtual, erect and diminished, formed behind the mirror between the pole and the focus."
         ]
       }
     ],
@@ -226,12 +228,12 @@
         "a": "**(b) 2.26 × 10⁸ m/s.** v = c/n = (3 × 10⁸)/1.33."
       },
       {
-        "q": "The most exam-ready way to revise “Light — Reflection and Refraction” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Ray diagrams, mirror and lens formulas, magnification and power."
+        "q": "A concave mirror of focal length 15 cm forms a real image of the same size as the object. The object is placed at: (a) 15 cm from the mirror  (b) 30 cm from the mirror  (c) 45 cm from the mirror  (d) 7.5 cm from the mirror",
+        "a": "**(b) 30 cm from the mirror.** A real image of the same size is formed when the object is at the centre of curvature, C = 2f = 30 cm."
       },
       {
-        "q": "A 3-mark answer on “Light — Reflection and Refraction” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The lens formula is: (a) 1/v + 1/u = 1/f  (b) 1/v − 1/u = 1/f  (c) 1/u − 1/v = 1/f  (d) v − u = f",
+        "a": "**(b) 1/v − 1/u = 1/f.** With the Cartesian sign convention, the lens formula is 1/v − 1/u = 1/f; the mirror formula has + between 1/v and 1/u."
       },
       {
         "q": "The power of a convex lens of focal length 50 cm is: (a) +2 D  (b) −2 D  (c) +0.5 D  (d) −0.5 D",
@@ -362,20 +364,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “The Human Eye and the Colourful World” (Defects of vision, dispersion, atmospheric refraction and scattering). A classmate lost marks by doing this: Drawing the corrective lens on the wrong side of the eye diagram, or labelling the image position incorrectly (in front for myopia, behind for hypermetropia). Apply the correct method and rewrite the scoring answer.",
+        "q": "A student explains the twinkling of stars by saying, “Stars burn unevenly, so their brightness keeps changing.” Correct the explanation and say why planets do not twinkle.",
         "a": [
-          "Correct method: Myopia = image in front = concave lens. *'My-o-pia → My oh, I can't see far → Concave.'*",
-          "Why the mistake costs marks: Drawing the corrective lens on the wrong side of the eye diagram, or labelling the image position incorrectly (in front for myopia, behind for hypermetropia).",
-          "Write the definition or formula first, then the working or example."
+          "Twinkling is caused by **atmospheric refraction**, not by the star burning unevenly.",
+          "Starlight passes through layers of air whose density and refractive index keep changing, so the star’s apparent position wobbles slightly and the amount of light entering the eye fluctuates.",
+          "A planet is much nearer and acts like a collection of many point sources; the fluctuations average out, so a planet does not twinkle."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “The Human Eye and the Colourful World”: “Name the part of the eye that controls the amount of light entering it, and the least distance of distinct vision for a normal eye.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A student cannot see objects clearly beyond 80 cm. Name the defect, the type of corrective lens required, and calculate its power.",
         "a": [
-          "Idea: Defects of vision, dispersion, atmospheric refraction and scattering.",
-          "The iris (which adjusts the size of the pupil); 25 cm."
+          "The far point is only 80 cm, so the student is **short-sighted (myopic)**.",
+          "A **concave** lens is needed; it must form a virtual image of a distant object at 80 cm, so f = −80 cm = −0.8 m.",
+          "P = 1/f = 1/(−0.8) = **−1.25 D**."
         ]
       },
       {
@@ -391,21 +394,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “The Human Eye and the Colourful World”. Their note says: The eye as a camera. Cornea — most of the refraction happens here. Iris — the dark muscular diaphragm that controls the size of the pupil and hence the amount of light entering. Crystalline lens — a convex lens of adjustable focal length; ciliary muscles change its curvature, so a clear image is for\n\nThe chapter is described as: Defects of vision, dispersion, atmospheric refraction and scattering.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nRahul sees distant objects clearly but cannot read a book held at the normal distance of 25 cm.\n\n(a) Name the defect.\n(b) Give two possible causes.\n(c) Name the corrective lens and explain how it helps.",
         "a": [
-          "(a) Defects of vision, dispersion, atmospheric refraction and scattering.",
-          "(b) –3 marks. Myopia/hypermetropia with a labelled diagram is the single most repeated question in Physics.",
-          "(c) Drawing the corrective lens on the wrong side of the eye diagram, or labelling the image position incorrectly (in front for myopia, behind for hypermetropia)."
+          "(a) Hypermetropia (far-sightedness).",
+          "(b) The focal length of the eye lens is too long, or the eyeball is too short, so the image of a near object forms behind the retina.",
+          "(c) A **convex** lens: it converges the rays a little before they enter the eye, so the image forms on the retina."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Name the part of the eye that controls the amount of light entering it, and the least distance of distinct vision for a normal eye.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA narrow beam of white light passes through a glass prism and forms a band of seven colours on a screen. When the same beam passes through a rectangular glass slab, no band of colours appears.\n\n(a) Name the phenomenon seen with the prism.\n(b) Which colour bends the most and which the least?\n(c) Why does the rectangular slab not show it?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) The iris (which adjusts the size of the pupil); 25 cm.",
-          "(c) Myopia = image in front = concave lens. *'My-o-pia → My oh, I can't see far → Concave.'*"
+          "(a) Dispersion of white light.",
+          "(b) Violet bends the most and red the least.",
+          "(c) The opposite faces of a slab are parallel, so the colours spread on entering are brought back together on leaving, and emerge as white light again."
         ]
       },
       {
@@ -433,12 +436,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “The Human Eye and the Colourful World” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Describe how the human eye forms an image of an object and how it adjusts to see objects at different distances.",
         "a": [
-          "The eye as a camera. Cornea — most of the refraction happens here. Iris — the dark muscular diaphragm that controls the size of the pupil and hence the amount of light entering. Crystalline lens — a convex lens of adjustable focal length; ciliary muscles change its curvature, so a clear image is formed on the retina for objects at all distances. This is the power of accommodation. The image on the retina is real and.",
-          "Marks lens: –3 marks. Myopia/hypermetropia with a labelled diagram is the single most repeated question in Physics.",
-          "Method / memory trick: Myopia = image in front = concave lens. *'My-o-pia → My oh, I can't see far → Concave.'*",
-          "Do not: Drawing the corrective lens on the wrong side of the eye diagram, or labelling the image position incorrectly (in front for myopia, behind for hypermetropia)."
+          "Light enters through the transparent cornea, which does most of the bending of light; the iris controls the size of the pupil and so the amount of light entering.",
+          "The eye lens focuses the light and forms a real, inverted image on the retina.",
+          "The retina contains light-sensitive cells that produce electrical signals, which the optic nerve carries to the brain; the brain interprets the image as erect.",
+          "For different distances, the ciliary muscles change the curvature of the lens, and so its focal length. This is called **accommodation**.",
+          "For nearby objects the lens becomes thicker (shorter focal length); for distant objects it becomes thinner."
         ]
       }
     ],
@@ -456,12 +460,12 @@
         "a": "**(b) hypermetropia** — difficulty in seeing near objects clearly, corrected with a convex lens."
       },
       {
-        "q": "The most exam-ready way to revise “The Human Eye and the Colourful World” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Defects of vision, dispersion, atmospheric refraction and scattering."
+        "q": "The eye defect hypermetropia is corrected by using a: (a) concave lens  (b) cylindrical lens  (c) convex lens  (d) bifocal lens with a concave upper part",
+        "a": "**(c) convex lens.** In hypermetropia the image forms behind the retina, so a converging (convex) lens is used."
       },
       {
-        "q": "A 3-mark answer on “The Human Eye and the Colourful World” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The part of the eye that contains the light-sensitive cells is the: (a) cornea  (b) iris  (c) retina  (d) pupil",
+        "a": "**(c) retina.** The retina holds the rods and cones that convert light into electrical signals."
       },
       {
         "q": "The eye defect in which the far point is nearer than infinity is: (a) hypermetropia  (b) myopia  (c) presbyopia  (d) cataract",
@@ -595,20 +599,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Electricity” (Ohm's law, series and parallel circuits, heating effect and power). A classmate lost marks by doing this: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student finds the equivalent resistance of 6 Ω and 3 Ω connected in parallel as 6 + 3 = 9 Ω. Identify the mistake and find the correct value.",
         "a": [
-          "Correct method: Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.",
-          "Why the mistake costs marks: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error.",
-          "Write the definition or formula first, then the working or example."
+          "Mistake: resistances are added directly only in **series**. In parallel the reciprocals are added.",
+          "1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2.",
+          "R = **2 Ω**, which is smaller than the smallest resistance (3 Ω), as it must be in a parallel combination."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Electricity”: “Define one ohm and name the device used to measure potential difference.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A copper wire has a resistance of 10 Ω. What will be the resistance of a wire of the same material that is twice as long and has half the area of cross-section?",
         "a": [
-          "Idea: Ohm's law, series and parallel circuits, heating effect and power.",
-          "One ohm is the resistance of a conductor when a potential difference of 1 volt across its ends produces a current of 1 ampere through it. Potential difference is measured with a voltmeter, connected in parallel."
+          "Resistance R = ρl/A, so for a given material R is proportional to l/A.",
+          "New length = 2l and new area = A/2, so the new resistance = ρ(2l)/(A/2) = 4 × ρl/A.",
+          "New resistance = 4 × 10 = **40 Ω**."
         ]
       },
       {
@@ -624,21 +629,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Electricity”. Their note says: Electric current and potential difference. Current I = Q/t, measured in amperes with an ammeter connected in series. Potential difference V = W/Q, measured in volts with a voltmeter connected in parallel; 1 volt = 1 joule per coulomb. By convention current flows from the positive to the negative ter\n\nThe chapter is described as: Ohm's law, series and parallel circuits, heating effect and power.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA 12 V battery is connected in series to resistors of 4 Ω and 2 Ω, an ammeter, and a voltmeter across the 4 Ω resistor.\n\n(a) Find the current in the circuit.\n(b) Find the voltmeter reading.\n(c) Find the heat produced in the 2 Ω resistor in 10 s.",
         "a": [
-          "(a) Ohm's law, series and parallel circuits, heating effect and power.",
-          "(b) –4 marks. A series or parallel circuit numerical is almost certain, plus one question on the heating effect or on power rating.",
-          "(c) Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error."
+          "(a) Total resistance = 4 + 2 = 6 Ω, so I = V/R = 12/6 = **2 A**.",
+          "(b) V across 4 Ω = IR = 2 × 4 = **8 V**.",
+          "(c) H = I²Rt = 2² × 2 × 10 = **80 J**."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Define one ohm and name the device used to measure potential difference.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA household uses three 40 W bulbs for 5 hours daily, a 1 kW heater for 2 hours daily and a 100 W fan for 10 hours daily.\n\n(a) Find the electrical energy used per day in kWh.\n(b) How many units are used in 30 days?\n(c) What is the monthly cost at Rs 7 per unit?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) One ohm is the resistance of a conductor when a potential difference of 1 volt across its ends produces a current of 1 ampere through it. Potential difference is measured with a voltmeter, connected in parallel.",
-          "(c) Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question."
+          "(a) Bulbs: 0.12 kW × 5 h = 0.6 kWh; heater: 1 kW × 2 h = 2 kWh; fan: 0.1 kW × 10 h = 1 kWh. Total = **3.6 kWh** per day.",
+          "(b) 3.6 × 30 = **108 units** (1 unit = 1 kWh).",
+          "(c) 108 × Rs 7 = **Rs 756**."
         ]
       },
       {
@@ -665,12 +670,12 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Electricity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "State Joule’s law of heating. Derive the expression H = I²Rt and give three applications of the heating effect of current.",
         "a": [
-          "Electric current and potential difference. Current I = Q/t, measured in amperes with an ammeter connected in series. Potential difference V = W/Q, measured in volts with a voltmeter connected in parallel; 1 volt = 1 joule per coulomb. By convention current flows from the positive to the negative terminal, opposite to the flow of electrons. A cell maintains the potential difference that drives the charge.",
-          "Marks lens: –4 marks. A series or parallel circuit numerical is almost certain, plus one question on the heating effect or on power rating.",
-          "Method / memory trick: Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.",
-          "Do not: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error."
+          "Joule’s law: the heat produced in a resistor is directly proportional to the square of the current, to its resistance and to the time for which the current flows.",
+          "Derivation: charge Q = It flows through potential difference V, so work done (energy converted) W = VQ = VIt.",
+          "By Ohm’s law V = IR, so H = (IR) × I × t = **I²Rt**.",
+          "Applications: electric heater, iron and toaster (coils of high-resistance alloy); the fuse (it melts when the current is too high); the filament of an electric bulb (tungsten glows white-hot)."
         ]
       }
     ],
@@ -688,12 +693,12 @@
         "a": "**(c) kilowatt-hour (kWh)**, equal to 3.6 × 10⁶ J, and commonly called a 'unit'."
       },
       {
-        "q": "The most exam-ready way to revise “Electricity” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Ohm's law, series and parallel circuits, heating effect and power."
+        "q": "The electric power consumed by a resistor R connected to a potential difference V is given by: (a) P = V²/R  (b) P = VR²  (c) P = R/V²  (d) P = V/R²",
+        "a": "**(a) P = V²/R.** P = VI and I = V/R, so P = V × (V/R) = V²/R."
       },
       {
-        "q": "A 3-mark answer on “Electricity” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The SI unit of resistivity is: (a) ohm (Ω)  (b) ohm metre (Ω m)  (c) ohm per metre (Ω/m)  (d) siemens (S)",
+        "a": "**(b) ohm metre (Ω m).** From R = ρl/A, ρ = RA/l, whose unit is Ω × m²/m = Ω m."
       },
       {
         "q": "The resistance of a wire doubles when: (a) its length is doubled  (b) its area of cross-section is doubled  (c) its length is halved  (d) its diameter is doubled",
@@ -826,20 +831,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Magnetic Effects of Electric Current” (Field patterns, the three hand rules, the motor and the generator). A classmate lost marks by doing this: Saying field lines run from south to north *outside* a magnet. Outside it is north to south. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student draws the field lines of a bar magnet as coming out of the south pole and entering the north pole outside the magnet. Correct the statement and state two properties of magnetic field lines.",
         "a": [
-          "Correct method: Left hand = Motor, Right hand = Generator. *'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.*",
-          "Why the mistake costs marks: Saying field lines run from south to north *outside* a magnet. Outside it is north to south.",
-          "Write the definition or formula first, then the working or example."
+          "Outside the magnet, field lines run from the **north pole to the south pole**; inside the magnet they run from south to north, so each line is a closed loop.",
+          "Property 1: the lines are closed curves that never cross one another.",
+          "Property 2: the field is strongest where the lines are closest together, i.e. near the poles."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Magnetic Effects of Electric Current”: “State Fleming's right-hand rule.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A coil of wire is connected to a galvanometer. When a bar magnet is pushed into the coil, the needle deflects. What happens (i) when the magnet is held still inside the coil, (ii) when it is pulled out, and (iii) how can the deflection be increased?",
         "a": [
-          "Idea: Field patterns, the three hand rules, the motor and the generator.",
-          "Stretch the thumb, forefinger and middle finger of the right hand so that they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the thumb in the direction of motion of the conductor, the middle finger gives the direction of the induced current."
+          "(i) No deflection: a current is induced only while the magnetic field linked with the coil is **changing**.",
+          "(ii) The needle deflects in the opposite direction, because the change in the field is reversed.",
+          "(iii) Move the magnet faster, use a stronger magnet or use a coil with more turns. This is electromagnetic induction."
         ]
       },
       {
@@ -855,21 +861,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Magnetic Effects of Electric Current”. Their note says: Magnetic field and field lines. A magnetic field is the region around a magnet in which its force can be detected. Field lines are closed continuous curves — outside a bar magnet they run from the north to the south pole and inside from south to north. Two field lines never intersect (that would mea\n\nThe chapter is described as: Field patterns, the three hand rules, the motor and the generator.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA student winds insulated copper wire round an iron nail and connects the ends to a battery. The nail picks up small iron pins, but drops them when the battery is disconnected.\n\n(a) Name this device.\n(b) Why does it hold the pins only while the current flows?\n(c) State two ways to make it stronger.",
         "a": [
-          "(a) Field patterns, the three hand rules, the motor and the generator.",
-          "(b) –3 marks. Fleming's left-hand and right-hand rules and the difference between AC and DC are asked repeatedly.",
-          "(c) Saying field lines run from south to north *outside* a magnet. Outside it is north to south."
+          "(a) An **electromagnet** (a solenoid with a soft iron core).",
+          "(b) The current-carrying coil magnetises the iron core; soft iron loses its magnetism as soon as the current stops, so the pins fall.",
+          "(c) Increase the number of turns of the coil, or increase the current (a soft iron core also strengthens it)."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “State Fleming's right-hand rule.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA socket in a house is protected by a 5 A fuse, and the supply is 220 V.\n\n(a) Find the current drawn by a 1 kW heater.\n(b) Will the fuse blow if a 2 kW geyser is plugged in instead? Justify.\n(c) State the purpose of the fuse and of the earth wire.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Stretch the thumb, forefinger and middle finger of the right hand so that they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the thumb in the direction of motion of the conductor, the middle finger gives the direction of the induced current.",
-          "(c) Left hand = Motor, Right hand = Generator. *'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.*"
+          "(a) I = P/V = 1000/220 ≈ **4.5 A**, which is below 5 A.",
+          "(b) For the geyser, I = 2000/220 ≈ **9.1 A**, which is above 5 A, so the fuse wire heats up, melts and breaks the circuit.",
+          "(c) The fuse protects appliances and wiring from overloading and short circuits. The earth wire joins the metal body of an appliance to the ground, so any leakage current flows to earth and does not give a shock."
         ]
       },
       {
@@ -897,12 +903,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Magnetic Effects of Electric Current” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Describe the magnetic field produced by a current-carrying solenoid and explain how an electromagnet is made from it.",
         "a": [
-          "Magnetic field and field lines. A magnetic field is the region around a magnet in which its force can be detected. Field lines are closed continuous curves — outside a bar magnet they run from the north to the south pole and inside from south to north. Two field lines never intersect (that would mean two directions of force at one point). The relative strength is shown by how close the lines are.",
-          "Marks lens: –3 marks. Fleming's left-hand and right-hand rules and the difference between AC and DC are asked repeatedly.",
-          "Method / memory trick: Left hand = Motor, Right hand = Generator. *'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.*",
-          "Do not: Saying field lines run from south to north *outside* a magnet. Outside it is north to south."
+          "A solenoid is a coil of many closely wound circular turns of insulated copper wire.",
+          "The field lines inside the solenoid are parallel straight lines, so the field there is uniform; outside, the pattern is like that of a bar magnet.",
+          "One end of the solenoid behaves as a north pole and the other as a south pole.",
+          "If a piece of soft iron is placed inside the coil, the strong field magnetises it, and the combination is an **electromagnet**.",
+          "It is a temporary magnet: it is magnetised only while the current flows. It is used in cranes for lifting iron, in electric bells and in MRI machines."
         ]
       }
     ],
@@ -920,12 +927,12 @@
         "a": "**(b) 100 times per second** — the direction reverses twice in each cycle."
       },
       {
-        "q": "The most exam-ready way to revise “Magnetic Effects of Electric Current” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Field patterns, the three hand rules, the motor and the generator."
+        "q": "Outside a bar magnet, the magnetic field lines run: (a) from the south pole to the north pole  (b) in straight lines parallel to the axis only  (c) from the centre to both poles  (d) from the north pole to the south pole",
+        "a": "**(d) from the north pole to the south pole.** By convention the field lines emerge from the north pole and enter the south pole outside the magnet, and continue from south to north inside it."
       },
       {
-        "q": "A 3-mark answer on “Magnetic Effects of Electric Current” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "A straight conductor carrying current is placed in a magnetic field. The force on it is greatest when the current is: (a) parallel to the field  (b) at 45° to the field  (c) zero  (d) perpendicular to the field",
+        "a": "**(d) perpendicular to the field.** The force F = BIl sin θ is maximum at θ = 90°, and zero when the conductor is parallel to the field."
       },
       {
         "q": "The magnetic field lines inside a long current-carrying solenoid are: (a) concentric circles  (b) parallel straight lines  (c) diverging curves  (d) absent",
@@ -1052,11 +1059,11 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Our Environment” (Food chains, the 10% law, ozone depletion and waste management). A classmate lost marks by doing this: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student draws the food chain as Hawk → Snake → Frog → Grasshopper → Grass. What is wrong? Redraw it correctly and name the trophic levels.",
         "a": [
-          "Correct method: 10% calculation: move the decimal one place to the left at each level going up, and one place to the right going down.",
-          "Why the mistake costs marks: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow.",
-          "Write the definition or formula first, then the working or example."
+          "An arrow shows the direction of energy flow, from the food **to** the organism that eats it. The student’s arrows point from predator to prey.",
+          "Correct chain: Grass → Grasshopper → Frog → Snake → Hawk.",
+          "Trophic levels: grass is the producer (1st); grasshopper the primary consumer (2nd); frog the secondary consumer (3rd); snake the tertiary consumer (4th); hawk the top consumer (5th)."
         ]
       },
       {
@@ -1072,21 +1079,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Our Environment”. Their note says: Ecosystem. All the living organisms (biotic) in an area together with the non-living (abiotic) components — temperature, rainfall, wind, soil and minerals — form an ecosystem. Producers (green plants and blue-green algae) make their own food; consumers depend on them (herbivores, carnivores, omnivor\n\nThe chapter is described as: Food chains, the 10% law, ozone depletion and waste management.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nIn a grassland food chain, the producers capture 20,000 J of energy.\n\n(a) How much energy reaches the herbivores?\n(b) How much energy reaches the carnivores that eat the herbivores?\n(c) Why do food chains rarely have more than four or five trophic levels?",
         "a": [
-          "(a) Food chains, the 10% law, ozone depletion and waste management.",
-          "(b) –5 marks. A food-chain question with the 10% energy calculation, one on ozone depletion, and one on biodegradable waste or the two environmental problems.",
-          "(c) Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow."
+          "(a) By the 10% law, herbivores get 10% of 20,000 J = **2,000 J**.",
+          "(b) The carnivores get 10% of 2,000 J = **200 J**.",
+          "(c) About 90% of the energy at each level is lost as heat in life processes, so very little is left to support more levels."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Name the organisms that always occupy the first trophic level of a food chain, and define an ecosystem.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA sealed glass jar contains water, a few water plants, small fish and snails, and some soil at the bottom. It is kept in sunlight.\n\n(a) Name the producers, consumers and decomposers in the jar.\n(b) What is the role of sunlight?\n(c) What would happen if the jar were kept in the dark for a long time?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Green plants and blue-green algae (producers). An ecosystem is a self-sustaining system in which all the living organisms of an area interact with each other and with the non-living (abiotic) components such as soil, water and air.",
-          "(c) 10% calculation: move the decimal one place to the left at each level going up, and one place to the right going down."
+          "(a) Producers: the water plants (and algae); consumers: the fish and snails; decomposers: the bacteria and fungi in the water and soil.",
+          "(b) Sunlight is the source of energy: the plants use it for photosynthesis, which provides food and oxygen for the other organisms.",
+          "(c) Without light, the plants could not photosynthesise, so food and oxygen would run out and the organisms would die."
         ]
       },
       {
@@ -1113,12 +1120,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Our Environment” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "What is a trophic level? Explain the flow of energy in an ecosystem and why it is unidirectional.",
         "a": [
-          "Ecosystem. All the living organisms (biotic) in an area together with the non-living (abiotic) components — temperature, rainfall, wind, soil and minerals — form an ecosystem. Producers (green plants and blue-green algae) make their own food; consumers depend on them (herbivores, carnivores, omnivores, parasites); decomposers (bacteria and fungi) break down dead organic matter and return nutrients to the soil. A pond.",
-          "Marks lens: –5 marks. A food-chain question with the 10% energy calculation, one on ozone depletion, and one on biodegradable waste or the two environmental problems.",
-          "Method / memory trick: 10% calculation: move the decimal one place to the left at each level going up, and one place to the right going down.",
-          "Do not: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow."
+          "A trophic level is a step in a food chain, for example producers, herbivores and carnivores.",
+          "The ultimate source of energy is the Sun; producers capture it through photosynthesis and pass it on when eaten.",
+          "At each step only about 10% of the energy is passed on to the next level (the 10% law); the rest is lost as heat in respiration and other life processes.",
+          "The energy lost as heat cannot be used again by the producers, so energy flows in **one direction only**, from the Sun to producers to consumers.",
+          "Because so little energy remains, food chains are short, and plants always occupy the first level."
         ]
       }
     ],
@@ -1136,12 +1144,12 @@
         "a": "**(b)** — all three are broken down by the action of micro-organisms."
       },
       {
-        "q": "The most exam-ready way to revise “Our Environment” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Food chains, the 10% law, ozone depletion and waste management."
+        "q": "Which of the following is a non-biodegradable waste? (a) a plastic bag (b) vegetable peelings (c) a paper bag (d) a cotton cloth",
+        "a": "**(a) a plastic bag.** Microorganisms cannot break down plastics, so they persist in the environment for a very long time."
       },
       {
-        "q": "A 3-mark answer on “Our Environment” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "In the food chain Plant → Grasshopper → Frog → Snake, the secondary consumer is the: (a) grasshopper (b) snake (c) plant (d) frog",
+        "a": "**(d) frog.** The grasshopper is the primary consumer and the frog, which eats it, is the secondary consumer."
       },
       {
         "q": "The ‘10% law’ in an ecosystem describes the transfer of: (a) energy  (b) water  (c) minerals  (d) oxygen",

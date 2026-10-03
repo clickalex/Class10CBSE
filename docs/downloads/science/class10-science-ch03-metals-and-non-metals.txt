@@ -34,16 +34,17 @@ Q6. [Short · 3 marks] Show the formation of MgCl2 by the transfer of electrons,
       Mg (2,8,2) loses 2 electrons → Mg2+; each Cl (2,8,7) gains one electron → Cl−. Mg2+ + 2Cl− → MgCl2, held by strong electrostatic force.
       Properties: it is a hard crystalline solid with a high melting point, and it conducts electricity when molten or dissolved in water.
 
-Q7. [Application · 3 marks] Riya is revising “Metals and Non-metals” (Physical properties, the reactivity series and extraction of metals). A classmate lost marks by doing this: Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student writes: “Zinc carbonate is converted into zinc oxide by roasting in excess air.” Correct the statement and write the equations for converting a carbonate ore and a sulphide ore into oxides.
     Ans:
-      Correct method: Reactivity series mnemonic: Please Send Charlie's Monkey And Zebra Into Lions' Pens, Come Home Monkeys, All Safe And sound (K Na Ca Mg Al Zn Fe Pb H Cu Hg Ag Au).
-      Why the mistake costs marks: Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water.
-      Write the definition or formula first, then the working or example.
+      A carbonate ore is converted into its oxide by calcination — heating strongly in a limited supply or absence of air. Roasting is used for sulphide ores, in excess air.
+      Calcination: ZnCO₃ → ZnO + CO₂.
+      Roasting: 2ZnS + 3O₂ → 2ZnO + 2SO₂.
 
-Q8. [Application · 3 marks] Amit is given this exam-style task from “Metals and Non-metals”: “Name a metal that is liquid at room temperature and a non-metal that is lustrous.” Treat it as an application question. Identify the idea, then write the working in points.
+Q8. [Application · 3 marks] Iron nails are placed in copper sulphate solution, and a copper strip is placed in zinc sulphate solution. In which case will a reaction occur? Justify.
     Ans:
-      Idea: Physical properties, the reactivity series and extraction of metals.
-      Mercury (metal, liquid at room temperature) and iodine (non-metal, lustrous).
+      A more reactive metal displaces a less reactive metal from its salt solution.
+      Iron is more reactive than copper, so a reaction occurs: Fe + CuSO₄ → FeSO₄ + Cu.
+      Copper is less reactive than zinc, so it cannot displace zinc, and there is no reaction in the second case.
 
 Q9. [Short · 3 marks] How are metals low in the reactivity series extracted from their ores? Give equations.
     Ans:
@@ -53,29 +54,27 @@ Q9. [Short · 3 marks] How are metals low in the reactivity series extracted fro
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Metals and Non-metals”. Their note says: Physical properties. Metals are lustrous, malleable, ductile, sonorous and good conductors of heat and electricity; sodium and potassium are soft enough to cut with a knife, mercury is the only liquid metal, gallium and caesium melt in your palm. Non-metals are the opposite: dull, brittle, poor cond
+    A metal M reacts with dilute hydrochloric acid, giving bubbles of a gas that burns with a pop sound. M does not react with cold water but reacts with steam to form a metal oxide and the same gas.
     
-    The chapter is described as: Physical properties, the reactivity series and extraction of metals.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Name the gas.
+    (b) Suggest a metal that could be M.
+    (c) Write the equation for the reaction of M with steam.
     Ans:
-      (a) Physical properties, the reactivity series and extraction of metals.
-      (b) –4 marks. The reactivity series and displacement reactions are asked every year; ionic bond formation and the extraction of a metal (usually copper or zinc) fill the 3-mark slot.
-      (c) Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water.
+      (a) Hydrogen.
+      (b) Zinc (iron or aluminium would also fit).
+      (c) Zn + H₂O(g) → ZnO + H₂.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Name a metal that is liquid at room temperature and a non-metal that is lustrous.” Student A writes one line. Student B writes points, an example and a check.
+    A student tests three samples. Solid sodium chloride does not conduct electricity, but molten sodium chloride and its aqueous solution do. An aqueous solution of glucose does not conduct either.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Why does solid NaCl not conduct?
+    (b) Why does it conduct when molten or dissolved?
+    (c) Why does the glucose solution not conduct?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Mercury (metal, liquid at room temperature) and iodine (non-metal, lustrous).
-      (c) Reactivity series mnemonic: Please Send Charlie's Monkey And Zebra Into Lions' Pens, Come Home Monkeys, All Safe And sound (K Na Ca Mg Al Zn Fe Pb H Cu Hg Ag Au).
+      (a) In the solid, the Na⁺ and Cl⁻ ions are held rigidly in the crystal and cannot move.
+      (b) Melting or dissolving frees the ions, and moving ions carry the current.
+      (c) Glucose is a covalent compound made of neutral molecules; it forms no ions in water, so there are no charge carriers.
 
 Q12. [Application · 4 marks] Describe the thermite reaction and give its use.
     Ans:
@@ -89,12 +88,13 @@ Q13. [Long · 5 marks] Explain electrolytic refining of copper.
       On passing current, copper from the anode dissolves as Cu2+ and an equal amount deposits on the cathode.
       Soluble impurities go into the solution; insoluble impurities settle below the anode as anode mud (which contains the precious metals).
 
-Q14. [Long · 5 marks] Discuss “Metals and Non-metals” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q14. [Long · 5 marks] Explain, with equations, how zinc is extracted from its sulphide ore. Why can sodium not be obtained from its oxide in the same way?
     Ans:
-      Physical properties. Metals are lustrous, malleable, ductile, sonorous and good conductors of heat and electricity; sodium and potassium are soft enough to cut with a knife, mercury is the only liquid metal, gallium and caesium melt in your palm. Non-metals are the opposite: dull, brittle, poor conductors — except graphite, which conducts, and iodine, a lustrous non-metal.
-      Marks lens: –4 marks. The reactivity series and displacement reactions are asked every year; ionic bond formation and the extraction of a metal (usually copper or zinc) fill the 3-mark slot.
-      Method / memory trick: Reactivity series mnemonic: Please Send Charlie's Monkey And Zebra Into Lions' Pens, Come Home Monkeys, All Safe And sound (K Na Ca Mg Al Zn Fe Pb H Cu Hg Ag Au).
-      Do not: Saying metals are oxidised by nitric acid to give H2 — HNO3 is an oxidising acid, so it oxidises the H2 formed to water.
+      Zinc blende (ZnS) is first concentrated, then converted into zinc oxide by roasting: 2ZnS + 3O₂ → 2ZnO + 2SO₂.
+      The oxide is reduced to the metal by heating with carbon: ZnO + C → Zn + CO.
+      The crude zinc is purified by electrolytic refining.
+      Sodium is far above carbon in the reactivity series, so carbon cannot reduce its oxide.
+      Highly reactive metals are obtained by electrolysis of their molten chlorides: at the cathode Na⁺ + e⁻ → Na.
 
 B. MCQs (11)
 ------------------------------------------------------------------------
@@ -108,11 +108,11 @@ M2. Which pair is amphoteric? (a) Na2O and CaO (b) Al2O3 and ZnO (c) CO2 and SO2
 M3. The method used to extract sodium from molten NaCl is: (a) reduction with carbon (b) self reduction (c) electrolytic reduction (d) roasting
     Ans: (c) electrolytic reduction. Sodium is above carbon in the reactivity series, so carbon cannot reduce it; the molten chloride is electrolysed.
 
-M4. The most exam-ready way to revise “Metals and Non-metals” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Physical properties, the reactivity series and extraction of metals.
+M4. Which of the following metals will displace copper from copper sulphate solution? (a) Ag  (b) Zn  (c) Hg  (d) Au
+    Ans: (b) Zn. Only a metal above copper in the reactivity series can displace it; zinc is above copper, while silver, mercury and gold are below it.
 
-M5. A 3-mark answer on “Metals and Non-metals” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. An element forms an oxide that is acidic in nature. The element is most likely a: (a) metal  (b) alkali metal  (c) non-metal  (d) alloy
+    Ans: (c) non-metal. Non-metals form acidic (or neutral) oxides, while metals generally form basic oxides.
 
 M6. The best conductor of electricity among these is: (a) copper  (b) silver  (c) aluminium  (d) iron
     Ans: (b) silver. Silver conducts best, then copper; silver is too costly for wiring, so copper is used.

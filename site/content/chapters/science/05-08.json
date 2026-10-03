@@ -85,20 +85,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Life Processes” (Nutrition, respiration, transport and excretion — four systems, four diagrams). A classmate lost marks by doing this: Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes: “Bile juice digests fats because it contains the enzyme lipase.” What is wrong with this? State the real role of bile and name the enzyme that digests fats.",
         "a": [
-          "Correct method: Four systems, four words: Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion).",
-          "Why the mistake costs marks: Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O.",
-          "Write the definition or formula first, then the working or example."
+          "Bile, made in the liver and stored in the gall bladder, contains **no digestive enzyme**.",
+          "Bile salts break large fat globules into tiny droplets (emulsification), giving more surface for enzymes, and make the medium alkaline for the pancreatic enzymes.",
+          "Fats are then digested by the enzyme **lipase** from the pancreatic and intestinal juices."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Life Processes”: “Name the functional unit of the kidney and the pigment that absorbs light energy in plants.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A potted plant is kept in the dark for three days. One of its leaves is then partly covered with black paper and kept in sunlight for six hours. The leaf is boiled in alcohol and tested with iodine solution. Which part turns blue-black, and what does this prove?",
         "a": [
-          "Idea: Nutrition, respiration, transport and excretion — four systems, four diagrams.",
-          "Nephron; chlorophyll."
+          "The leaf is first destarched by keeping the plant in the dark.",
+          "The uncovered part, which received light, turns blue-black with iodine because starch has been made there. The covered part stays brown and contains no starch.",
+          "This shows that **light** is necessary for photosynthesis."
         ]
       },
       {
@@ -114,21 +115,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Life Processes”. Their note says: Maintenance. Living organisms constantly repair and renew their structures using energy from outside. The processes that maintain life are nutrition, respiration, transport and excretion. Growth and movement are *not* by themselves proof of life — a breathing person in a coma is alive; a growing cry\n\nThe chapter is described as: Nutrition, respiration, transport and excretion — four systems, four diagrams.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA runner feels a sharp cramp in her leg muscles at the end of a sprint, when her muscles could not get enough oxygen.\n\n(a) Name the process that supplied energy in her muscle cells and the substance that caused the cramp.\n(b) Write the pathway that begins with glucose.\n(c) How can the cramp be relieved?",
         "a": [
-          "(a) Nutrition, respiration, transport and excretion — four systems, four diagrams.",
-          "(b) –5 marks. Almost always a labelled diagram (human respiratory or excretory system, or the nephron) plus one 3-mark reasoning question.",
-          "(c) Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O."
+          "(a) Anaerobic respiration; the build-up of **lactic acid** caused the cramp.",
+          "(b) Glucose (6-carbon) → pyruvate (3-carbon, in the cytoplasm) → lactic acid (3-carbon) + a small amount of energy.",
+          "(c) Rest, or a hot-water massage, improves blood flow so that more oxygen reaches the muscles and the lactic acid is broken down."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Name the functional unit of the kidney and the pigment that absorbs light energy in plants.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA student examines a model of the human heart and notes that the wall of one lower chamber is much thicker than the others.\n\n(a) Which chamber has the thickest wall, and why?\n(b) Name the vessel that carries oxygenated blood from the heart to the body and the vessel that brings oxygenated blood from the lungs.\n(c) What prevents blood from flowing backwards?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Nephron; chlorophyll.",
-          "(c) Four systems, four words: Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion)."
+          "(a) The **left ventricle**, because it must pump blood at high pressure to the whole body.",
+          "(b) The aorta carries blood to the body; the pulmonary vein brings blood from the lungs to the left atrium.",
+          "(c) Valves between the chambers and in the vessels keep the blood flowing in one direction."
         ]
       },
       {
@@ -157,12 +158,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Life Processes” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Describe the three main events of photosynthesis and explain how stomata help the process.",
         "a": [
-          "Maintenance. Living organisms constantly repair and renew their structures using energy from outside. The processes that maintain life are nutrition, respiration, transport and excretion. Growth and movement are *not* by themselves proof of life — a breathing person in a coma is alive; a growing crystal is not.",
-          "Marks lens: –5 marks. Almost always a labelled diagram (human respiratory or excretory system, or the nephron) plus one 3-mark reasoning question.",
-          "Method / memory trick: Four systems, four words: Eat (nutrition), Burn (respiration), Carry (transport), Throw out (excretion).",
-          "Do not: Writing the photosynthesis equation with 6H2O on the left. NCERT uses 12H2O."
+          "Photosynthesis takes place in the chloroplasts, which contain the green pigment chlorophyll.",
+          "Event 1: chlorophyll absorbs light energy.",
+          "Event 2: light energy is converted into chemical energy and water is split into hydrogen and oxygen.",
+          "Event 3: carbon dioxide is reduced to carbohydrates: 6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O (in sunlight, with chlorophyll).",
+          "Stomata are tiny pores on the leaf surface through which CO₂ enters and O₂ leaves. Guard cells open and close them, and water vapour is also lost through them."
         ]
       }
     ],
@@ -180,12 +182,12 @@
         "a": "**(b) mitochondria.** Glycolysis (glucose → pyruvate) occurs in the cytoplasm; the further oxidation of pyruvate is mitochondrial."
       },
       {
-        "q": "The most exam-ready way to revise “Life Processes” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Nutrition, respiration, transport and excretion — four systems, four diagrams."
+        "q": "Which of the following gives the correct path of food in the human alimentary canal? (a) mouth → stomach → oesophagus → small intestine → large intestine (b) mouth → oesophagus → small intestine → stomach → large intestine (c) mouth → oesophagus → stomach → large intestine → small intestine (d) mouth → oesophagus → stomach → small intestine → large intestine",
+        "a": "**(d) mouth → oesophagus → stomach → small intestine → large intestine.** Food is swallowed into the oesophagus, digested in the stomach, absorbed in the small intestine, and the undigested part passes to the large intestine."
       },
       {
-        "q": "A 3-mark answer on “Life Processes” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The opening and closing of stomata is controlled by: (a) epidermal cells (b) mesophyll cells (c) guard cells (d) xylem vessels",
+        "a": "**(c) guard cells.** Guard cells swell or shrink with water, changing the size of the stomatal pore."
       },
       {
         "q": "Photosynthesis in a leaf takes place inside the: (a) mitochondria  (b) chloroplast  (c) ribosome  (d) vacuole",
@@ -303,20 +305,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Control and Coordination” (Nervous system, reflex arc, plant hormones and animal hormones). A classmate lost marks by doing this: Drawing the reflex arc through the brain. It passes through the spinal cord only. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student draws a reflex action as: receptor → sensory neuron → brain → motor neuron → effector. What is wrong? Give the correct reflex arc and say why the pathway is useful.",
         "a": [
-          "Correct method: Reflex arc order: Receptor → Sensory → (Spine) → Motor → Effector. *'Red Sun Shines More Energetically'.*",
-          "Why the mistake costs marks: Drawing the reflex arc through the brain. It passes through the spinal cord only.",
-          "Write the definition or formula first, then the working or example."
+          "In a reflex action the impulse is processed in the **spinal cord**, not in the brain; the brain is informed afterwards.",
+          "Correct reflex arc: receptor → sensory neuron → spinal cord (relay neuron) → motor neuron → effector.",
+          "Skipping the brain makes the response very fast, which protects the body from harm, for example when a hand touches a hot object."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Control and Coordination”: “Name the largest part of the human brain and the hormone secreted by the pancreas.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "The leaves of a touch-me-not (Mimosa) plant fold when touched, and a pea tendril coils round a support it touches. Classify each movement and name the cause.",
         "a": [
-          "Idea: Nervous system, reflex arc, plant hormones and animal hormones.",
-          "Cerebrum; insulin."
+          "Mimosa: a **nastic** (non-directional) movement. Touch makes cells at the base of the leaf lose water and shrink, so the leaf droops and folds.",
+          "Pea tendril: a **tropic** (directional) movement, called thigmotropism. The side away from the support grows faster, so the tendril coils round it.",
+          "Both are growth or turgor changes caused by a stimulus, but only the tendril’s response depends on the direction of the stimulus."
         ]
       },
       {
@@ -332,21 +335,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Control and Coordination”. Their note says: Two ways of coordinating. Nervous coordination uses electrical impulses and is fast but short-lived and reaches only selected cells; chemical (hormonal) coordination is slower, slower to act but longer-lasting and reaches every cell through the blood. Plants rely mainly on chemical coordination and \n\nThe chapter is described as: Nervous system, reflex arc, plant hormones and animal hormones.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nTwo children of the same age differ greatly in height: one is much taller than normal and the other is much shorter than normal. A doctor finds that this is related to one hormone.\n\n(a) Name the hormone and the gland that secretes it.\n(b) What condition arises from too little or too much of it in childhood?\n(c) Why is this gland called the “master gland”?",
         "a": [
-          "(a) Nervous system, reflex arc, plant hormones and animal hormones.",
-          "(b) –3 marks. Reflex arc and the hormone tables are the recurring questions; a labelled diagram of the neuron or the reflex arc is common.",
-          "(c) Drawing the reflex arc through the brain. It passes through the spinal cord only."
+          "(a) Growth hormone, secreted by the pituitary gland.",
+          "(b) Too little causes dwarfism; too much causes gigantism.",
+          "(c) The pituitary secretes hormones that control other endocrine glands such as the thyroid, adrenal glands and gonads."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Name the largest part of the human brain and the hormone secreted by the pancreas.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nDuring a long dry spell, the stomata of a plant close and its older leaves begin to wilt and fall.\n\n(a) Name the plant hormone mainly responsible.\n(b) State two effects of this hormone.\n(c) Name one plant hormone that promotes growth, working opposite to it.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Cerebrum; insulin.",
-          "(c) Reflex arc order: Receptor → Sensory → (Spine) → Motor → Effector. *'Red Sun Shines More Energetically'.*"
+          "(a) Abscisic acid.",
+          "(b) It inhibits growth, closes the stomata under water stress, and causes wilting and falling of leaves.",
+          "(c) Auxin (or gibberellin, or cytokinin) promotes growth."
         ]
       },
       {
@@ -373,12 +376,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Control and Coordination” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Name five endocrine glands of the human body, the hormone each secretes and one function of each hormone.",
         "a": [
-          "Two ways of coordinating. Nervous coordination uses electrical impulses and is fast but short-lived and reaches only selected cells; chemical (hormonal) coordination is slower, slower to act but longer-lasting and reaches every cell through the blood. Plants rely mainly on chemical coordination and on growth movements.",
-          "Marks lens: –3 marks. Reflex arc and the hormone tables are the recurring questions; a labelled diagram of the neuron or the reflex arc is common.",
-          "Method / memory trick: Reflex arc order: Receptor → Sensory → (Spine) → Motor → Effector. *'Red Sun Shines More Energetically'.*",
-          "Do not: Drawing the reflex arc through the brain. It passes through the spinal cord only."
+          "Pituitary — growth hormone — regulates growth and development.",
+          "Thyroid — thyroxin — regulates the metabolism of carbohydrates, proteins and fats (it needs iodine).",
+          "Pancreas — insulin — lowers the blood sugar level.",
+          "Adrenal gland — adrenaline — prepares the body for “fight or flight” by increasing heart rate and breathing rate.",
+          "Testes — testosterone — brings about changes at puberty in boys. (Ovaries — oestrogen — do the same in girls.)"
         ]
       }
     ],
@@ -396,12 +400,12 @@
         "a": "**(b) cerebellum.** It also makes voluntary movements precise; alcohol affects it, which is why a drunk person staggers."
       },
       {
-        "q": "The most exam-ready way to revise “Control and Coordination” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Nervous system, reflex arc, plant hormones and animal hormones."
+        "q": "Which part of the brain controls involuntary actions such as blood pressure, salivation and vomiting? (a) cerebrum (b) cerebellum (c) pituitary (d) medulla",
+        "a": "**(d) medulla.** The medulla in the hindbrain controls involuntary actions; the cerebellum controls posture and balance."
       },
       {
-        "q": "A 3-mark answer on “Control and Coordination” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The hormone that prepares the body for “fight or flight” is: (a) insulin (b) thyroxin (c) adrenaline (d) growth hormone",
+        "a": "**(c) adrenaline.** Adrenaline from the adrenal gland raises heart rate and breathing rate and diverts blood to the muscles."
       },
       {
         "q": "The hormone that regulates the body's metabolic rate is: (a) insulin  (b) thyroxine  (c) growth hormone  (d) adrenaline",
@@ -518,20 +522,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “How do Organisms Reproduce?” (Asexual modes, the human reproductive system, and reproductive health). A classmate lost marks by doing this: Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes: “The egg is fertilised in the uterus, where the zygote also settles and grows.” Correct the error and state where fertilisation and implantation each occur.",
         "a": [
-          "Correct method: Fission vs fragmentation vs regeneration: one cell splits = fission; body breaks into pieces = fragmentation; a *cut part* grows into a whole = regeneration.",
-          "Why the mistake costs marks: Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus.",
-          "Write the definition or formula first, then the working or example."
+          "Fertilisation occurs in the **fallopian tube (oviduct)**, not in the uterus.",
+          "The zygote divides as it moves down the oviduct and forms a ball of cells.",
+          "This embryo then **implants** in the thick lining of the uterus, where the placenta forms to nourish it."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “How do Organisms Reproduce?”: “Where does fertilisation occur in human beings, and which gland secretes testosterone?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Name the mode of reproduction in (i) Hydra, (ii) Spirogyra, (iii) Rhizopus and (iv) Bryophyllum, and explain how any one of them takes place.",
         "a": [
-          "Idea: Asexual modes, the human reproductive system, and reproductive health.",
-          "Fertilisation occurs in the fallopian tube (oviduct); testosterone is secreted by the testes."
+          "(i) Hydra — budding; (ii) Spirogyra — fragmentation; (iii) Rhizopus — spore formation; (iv) Bryophyllum — vegetative propagation by leaves.",
+          "In Hydra, regenerative cells divide repeatedly to form a bud on the parent’s body.",
+          "The bud grows into a small Hydra with its own mouth and tentacles and then detaches to live independently."
         ]
       },
       {
@@ -547,21 +552,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “How do Organisms Reproduce?”. Their note says: Why DNA copying matters. Reproduction produces a new organism from an existing one, and the DNA in the nucleus is copied first. Copying is not perfectly accurate, so variations arise. Small variations help a species survive changing conditions; large ones may be lethal. Reproduction is therefore ess\n\nThe chapter is described as: Asexual modes, the human reproductive system, and reproductive health.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nAt a health camp, a doctor describes three birth-control methods: a condom, oral pills and the copper-T.\n\n(a) Which method physically stops the sperm from reaching the egg?\n(b) Which method changes the hormonal balance so that eggs are not released?\n(c) Which of these also lowers the risk of sexually transmitted diseases?",
         "a": [
-          "(a) Asexual modes, the human reproductive system, and reproductive health.",
-          "(b) –3 marks. One asexual reproduction comparison and one question on the human reproductive system or contraception.",
-          "(c) Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus."
+          "(a) The condom, a **barrier** method.",
+          "(b) Oral contraceptive pills.",
+          "(c) The condom. (The copper-T prevents implantation but gives no protection against infection.)"
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Where does fertilisation occur in human beings, and which gland secretes testosterone?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA student studies two flowers: a hibiscus, which has both stamens and carpels, and a papaya flower, which has only one of them.\n\n(a) What are bisexual and unisexual flowers?\n(b) Can a papaya flower pollinate itself? Why?\n(c) Which kind of pollination gives more variation?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Fertilisation occurs in the fallopian tube (oviduct); testosterone is secreted by the testes.",
-          "(c) Fission vs fragmentation vs regeneration: one cell splits = fission; body breaks into pieces = fragmentation; a *cut part* grows into a whole = regeneration."
+          "(a) A bisexual flower (hibiscus) has both stamens and carpels; a unisexual flower (papaya) has only stamens or only carpels.",
+          "(b) No. A unisexual flower has only one sex, so pollen must be carried to a flower on another plant: cross-pollination.",
+          "(c) Cross-pollination, because it combines genes from two different plants."
         ]
       },
       {
@@ -589,12 +594,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “How do Organisms Reproduce?” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Describe the human male reproductive system, naming the organs and the function of each.",
         "a": [
-          "Why DNA copying matters. Reproduction produces a new organism from an existing one, and the DNA in the nucleus is copied first. Copying is not perfectly accurate, so variations arise. Small variations help a species survive changing conditions; large ones may be lethal. Reproduction is therefore essential for the *species*, not for the survival of the individual organism.",
-          "Marks lens: –3 marks. One asexual reproduction comparison and one question on the human reproductive system or contraception.",
-          "Method / memory trick: Fission vs fragmentation vs regeneration: one cell splits = fission; body breaks into pieces = fragmentation; a *cut part* grows into a whole = regeneration.",
-          "Do not: Saying fertilisation occurs in the uterus. It occurs in the fallopian tube (oviduct); implantation happens in the uterus."
+          "Testes: lie in the scrotum, outside the abdomen, where the lower temperature suits sperm production; they also secrete testosterone.",
+          "Vas deferens: carries sperms from the testes towards the urethra.",
+          "Seminal vesicles and prostate gland: add fluids to the sperms, which nourish them and make transport easier; together with the sperms this forms semen.",
+          "Urethra: a common passage for semen and urine, which runs through the penis.",
+          "Penis: the organ that delivers sperms into the female body during mating."
         ]
       }
     ],
@@ -612,12 +618,12 @@
         "a": "**(c) condom.** It physically prevents the sperm from meeting the egg and also reduces the risk of sexually transmitted diseases."
       },
       {
-        "q": "The most exam-ready way to revise “How do Organisms Reproduce?” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Asexual modes, the human reproductive system, and reproductive health."
+        "q": "In human females, the embryo implants in the: (a) fallopian tube (b) ovary (c) uterus (d) vagina",
+        "a": "**(c) uterus.** The zygote develops into an embryo that embeds in the thick, blood-rich lining of the uterus."
       },
       {
-        "q": "A 3-mark answer on “How do Organisms Reproduce?” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Spirogyra reproduces asexually by: (a) budding (b) fragmentation (c) spore formation (d) regeneration",
+        "a": "**(b) fragmentation.** A Spirogyra filament breaks into pieces, and each piece grows into a new filament."
       },
       {
         "q": "Which of these is an asexual mode of reproduction? (a) budding in yeast  (b) pollination  (c) fertilisation  (d) seed germination",
@@ -734,20 +740,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Heredity” (Mendel's monohybrid and dihybrid crosses, and sex determination). A classmate lost marks by doing this: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2. Apply the correct method and rewrite the scoring answer.",
+        "q": "In a cross between two F₁ pea plants (Tt × Tt), a student writes: “The ratio of tall to dwarf plants is 1 : 2 : 1.” What is the mistake? Write the correct phenotypic and genotypic ratios.",
         "a": [
-          "Correct method: 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.",
-          "Why the mistake costs marks: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2.",
-          "Write the definition or formula first, then the working or example."
+          "The ratio 1 : 2 : 1 is the **genotypic** ratio (TT : Tt : tt), not the ratio of tall to dwarf plants.",
+          "Both TT and Tt plants look tall, so the **phenotypic** ratio is tall : dwarf = 3 : 1.",
+          "Genotype is the gene combination (TT, Tt, tt); phenotype is the visible trait (tall or dwarf)."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Heredity”: “What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "In humans, free earlobes (F) are dominant over attached earlobes (f). A man with free earlobes, whose mother had attached earlobes, marries a woman with attached earlobes. What kinds of earlobes can their children have, and in what proportion?",
         "a": [
-          "Idea: Mendel's monohybrid and dihybrid crosses, and sex determination.",
-          "XY; the gene (a segment of DNA on a chromosome)."
+          "The man’s mother was ff, so he received f from her; he has free earlobes, so he is **Ff**. The woman is **ff**.",
+          "Cross Ff × ff: gametes F, f from the man and only f from the woman.",
+          "Children: 1 Ff : 1 ff, i.e. 50% free earlobes and 50% attached earlobes."
         ]
       },
       {
@@ -763,21 +770,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Heredity”. Their note says: The basis of heredity. Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the gene, a segment of DNA on a chromosome. Each character has a pair of alleles, one from each parent. A dominant allele expresses itself in the F1 generation; the rece\n\nThe chapter is described as: Mendel's monohybrid and dihybrid crosses, and sex determination.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA population of red beetles lives on green bushes, and crows easily spot and eat the red beetles. In one reproductive event, a variation appears and a green beetle is born.\n\n(a) Why is the green beetle more likely to survive?\n(b) What happens to the colour of the beetle population over several generations?\n(c) Does this variation help the individual only, or the species? Explain.",
         "a": [
-          "(a) Mendel's monohybrid and dihybrid crosses, and sex determination.",
-          "(b) –3 marks. A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.",
-          "(c) Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2."
+          "(a) Its green colour camouflages it against the green leaves, so crows find it harder to see.",
+          "(b) Green beetles survive and breed, passing the colour to their offspring, so their number grows each generation while the red beetles decline.",
+          "(c) It helps the **species**: because the variation is inherited, it spreads and increases the chance that the population survives the crows."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA student crosses pure tall pea plants with pure dwarf pea plants. All F₁ plants are tall. When the F₁ plants are self-pollinated, the F₂ generation has 600 tall and 200 dwarf plants.\n\n(a) What is the ratio of tall to dwarf plants in F₂?\n(b) Which trait is recessive, and why was it not seen in F₁?\n(c) What does the result show about how traits are inherited?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) XY; the gene (a segment of DNA on a chromosome).",
-          "(c) 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1."
+          "(a) 600 : 200 = **3 : 1**.",
+          "(b) Dwarfness is recessive. In F₁ every plant is Tt, and the dominant allele T masks t, so all look tall.",
+          "(c) Each parent passes one copy of the factor for a trait; the factors do not blend, and the recessive trait reappears in F₂ when two copies of it come together."
         ]
       },
       {
@@ -805,12 +812,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Heredity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "How do variations arise in sexually reproducing organisms? Explain with examples why variation is important for the survival of a species.",
         "a": [
-          "The basis of heredity. Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the gene, a segment of DNA on a chromosome. Each character has a pair of alleles, one from each parent. A dominant allele expresses itself in the F1 generation; the recessive allele is masked and reappears in F2. Genotype is the genetic make-up (TT, Tt, tt); phenotype is what appears (tal.",
-          "Marks lens: –3 marks. A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.",
-          "Method / memory trick: 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.",
-          "Do not: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2."
+          "Copying of DNA during reproduction is never perfectly accurate, so small differences (variations) arise between parent and offspring.",
+          "In sexual reproduction the DNA of two different parents is combined, which produces much more variation than copying one parent alone.",
+          "Some variations help an organism in a changed environment. For example, when a heat wave kills most bacteria in a pond, the few heat-tolerant ones survive and multiply.",
+          "Similarly, a green beetle on green bushes escapes crows and leaves more offspring than a red beetle.",
+          "A population with no variation could be wiped out by one change in its surroundings, so variation gives a species a chance to survive."
         ]
       }
     ],
@@ -828,12 +836,12 @@
         "a": "**(b) 3:1** — 25% of F2 are homozygous dwarf (tt)."
       },
       {
-        "q": "The most exam-ready way to revise “Heredity” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Mendel's monohybrid and dihybrid crosses, and sex determination."
+        "q": "In a cross between two plants with genotype Tt × Tt, the proportion of the progeny with genotype Tt is: (a) 1/4 (b) 3/4 (c) 1/2 (d) 1",
+        "a": "**(c) 1/2.** The Punnett square gives TT : Tt : tt = 1 : 2 : 1, so Tt makes up 2 of 4, i.e. 1/2."
       },
       {
-        "q": "A 3-mark answer on “Heredity” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Mendel chose the garden pea for his experiments mainly because it: (a) has easily visible contrasting traits and a short life cycle (b) has no variation among its plants (c) cannot be self-pollinated (d) produces only one seed per plant",
+        "a": "**(a) has easily visible contrasting traits and a short life cycle.** Pea plants have clear contrasting traits (tall/dwarf, round/wrinkled), grow quickly, and can be both self- and cross-pollinated."
       },
       {
         "q": "The phenotypic ratio obtained in a dihybrid cross between two F₁ hybrids is: (a) 3 : 1  (b) 9 : 3 : 3 : 1  (c) 1 : 1  (d) 1 : 2 : 1",

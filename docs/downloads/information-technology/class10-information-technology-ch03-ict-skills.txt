@@ -36,11 +36,11 @@ Q5. [Short · 2 marks] List four basic care rules that protect a computer from p
 Q6. [Application · 3 marks] Amit eats chips over the keyboard and never shuts the PC down. List three risks and three care steps.
     Ans: Risks: crumbs jam keys, oil damage, overheating, data loss. Care: no food/drink, proper shutdown, dust-free vents, surge protector, backups.
 
-Q7. [Application · 3 marks] Riya is revising “ICT Skills–II” (Operating system, files and folders, and basic care of a computer). A classmate lost marks by doing this: Calling Writer an operating system. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student says, “Windows, Linux and LibreOffice Writer are all operating systems.” Correct the statement.
     Ans:
-      Correct method: File has an extension; a folder does not need one.
-      Why the mistake costs marks: Calling Writer an operating system.
-      Write the definition or formula first, then the working or example.
+      Windows and Linux are operating systems: system software that controls the hardware and lets other programs run.
+      LibreOffice Writer is application software, a word processor used to create documents; it runs on top of an operating system.
+      Other operating systems are macOS and Android; other applications are Calc and a web browser.
 
 Q8. [Short · 3 marks] How would you organise files and folders so that your work is always easy to find?
     Ans:
@@ -67,24 +67,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “ICT Skills–II”. Their note says: ICT is Information and Communication Technology — hardware, software and networks used to create, store and share information.
+    Rohan creates a letter in Writer, a budget in Calc and a database in Base. He also wants to give his teacher a copy of the letter that opens in Microsoft Word.
     
-    The chapter is described as: Operating system, files and folders, and basic care of a computer.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Give the default file extension for each of the three files.
+    (b) What is the difference between Save and Save As?
+    (c) How can he make a Word-compatible copy?
     Ans:
-      (a) Operating system, files and folders, and basic care of a computer.
-      (b) mark. Definitions and “which of the following” items.
-      (c) Calling Writer an operating system.
+      (a) Writer: .odt; Calc: .ods; Base: .odb.
+      (b) Save overwrites the current file; Save As lets you choose a new name, folder or file type and keeps the original.
+      (c) Use File → Save As and choose the Word file type (.docx) in the “Save as type” box.
 
-Q12. [Long · 5 marks] Discuss “ICT Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Describe five basic file-management operations in an operating system and give the shortcut or method for each.
     Ans:
-      ICT is Information and Communication Technology — hardware, software and networks used to create, store and share information.
-      Marks lens: mark. Definitions and “which of the following” items.
-      Method / memory trick: File has an extension; a folder does not need one.
-      Do not: Calling Writer an operating system.
+      Create a folder: right-click an empty space and choose New → Folder, then type its name.
+      Rename: select the file and press F2 (or right-click → Rename).
+      Copy: select the file, press Ctrl + C, open the destination and press Ctrl + V.
+      Move: select the file, press Ctrl + X, open the destination and press Ctrl + V (or drag it there).
+      Delete: press Delete to send it to the Recycle Bin, from where it can be restored; Shift + Delete removes it permanently.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -101,11 +100,11 @@ M3. The Recycle Bin is used to: (a) speed up RAM (b) store deleted files until e
 M4. A computer should be shut down: (a) by pulling the plug (b) using the OS shutdown command (c) by holding the monitor button (d) never
     Ans: (b).
 
-M5. The most exam-ready way to revise “ICT Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Operating system, files and folders, and basic care of a computer.
+M5. Which of the following is application software? (a) Windows (b) Linux (c) Android (d) LibreOffice Writer
+    Ans: (d) LibreOffice Writer. Writer is a program for a task (word processing); the others are operating systems.
 
-M6. A 3-mark answer on “ICT Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. A folder that is stored inside another folder is called a: (a) shortcut (b) sub-folder (c) file extension (d) drive
+    Ans: (b) sub-folder. Folders can be nested, and a folder within a folder is a sub-folder.
 
 M7. Which of these is an operating system? (a) Linux  (b) MS Word  (c) Chrome  (d) HDMI
     Ans: (a) Linux. Word and Chrome are application programs and HDMI is a port.

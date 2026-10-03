@@ -31,11 +31,11 @@ Q4. [Short · 2 marks] What is the difference between AND and OR in a query grid
 Q5. [Application · 3 marks] The librarian wants unpaid fees greater than 500, sorted by fees high to low. Which grid settings?
     Ans: Field Fees, criterion >500, Sort Descending; include Name/AdmNo so the rows are identifiable.
 
-Q6. [Application · 3 marks] Riya is revising “Queries in Base” (Design View queries, criteria, sorting, aliases and related-table queries). A classmate lost marks by doing this: Editing query results and expecting the table design to change. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student opens “Create Query in Design View” in Base and finds that there are no fields to choose from. What did she forget, and what should she do?
     Ans:
-      Correct method: Text criteria need quotes in some modes; in the grid Delhi is often enough — follow what the lab build accepts.
-      Why the mistake costs marks: Editing query results and expecting the table design to change.
-      Write the definition or formula first, then the working or example.
+      She did not add the table: the query design window needs the table(s) to be added first.
+      In the Add Table or Query box, select the table (or tables) and click Add, then Close.
+      The table boxes with their fields now appear, and fields can be dragged down to the design grid.
 
 Q7. [Short · 3 marks] Describe how to create a query with a condition in LibreOffice Base.
     Ans:
@@ -66,24 +66,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Queries in Base”. Their note says: Query = a saved question: which fields, from which tables, matching which criteria, in which order.
+    A Marks table has the fields Name, Maths and Science. The teacher wants a query that shows each Name and the total of the two subjects under the heading Total, with the highest total first.
     
-    The chapter is described as: Design View queries, criteria, sorting, aliases and related-table queries.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) What is typed in the Field row for the total?
+    (b) How is the heading “Total” set?
+    (c) How is the order set?
     Ans:
-      (a) Design View queries, criteria, sorting, aliases and related-table queries.
-      (b) Practical: query with two criteria and a sort.
-      (c) Editing query results and expecting the table design to change.
+      (a) The expression "Maths"+"Science" (field names go in double quotes).
+      (b) Type Total in the Alias row of that column.
+      (c) Set the Sort row of that column to Descending.
 
-Q12. [Long · 5 marks] Discuss “Queries in Base” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Name the rows of the query design grid in Base and state the job of each.
     Ans:
-      Query = a saved question: which fields, from which tables, matching which criteria, in which order.
-      Marks lens: Practical: query with two criteria and a sort.
-      Method / memory trick: Text criteria need quotes in some modes; in the grid Delhi is often enough — follow what the lab build accepts.
-      Do not: Editing query results and expecting the table design to change.
+      Field: the field or expression that the column uses; Alias: the heading shown in the result; Table: the table the field comes from.
+      Sort: arranges the result ascending or descending on that field.
+      Visible: a tick shows the column in the result; unticking hides it but still lets it be used for a condition.
+      Function: applies a function such as Count, Sum or Average.
+      Criterion and Or: the conditions for the records to be shown; conditions in one row are joined by AND, and a condition in the Or row is joined by OR.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -100,11 +99,11 @@ M3. Two criteria on the same row mean: (a) OR (b) AND (c) XOR (d) NOT a query
 M4. To sort marks highest first: (a) Sort Ascending (b) Sort Descending on Marks (c) Primary key (d) Wrap Optimal
     Ans: (b).
 
-M5. The most exam-ready way to revise “Queries in Base” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Design View queries, criteria, sorting, aliases and related-table queries.
+M5. In the query design grid, the row that is used to hide a field from the result is: (a) Alias (b) Visible (c) Sort (d) Function
+    Ans: (b) Visible. Unticking Visible keeps the field available for criteria but does not show it in the result.
 
-M6. A 3-mark answer on “Queries in Base” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. The criterion >500 placed under the Fees field will show only the records where: (a) Fees is greater than 500 (b) Fees is exactly 500 (c) Fees is less than 500 (d) Fees is blank
+    Ans: (a) Fees is greater than 500. The symbol > means “greater than”, so only the larger amounts are shown.
 
 M7. To show only the students of Class 10 in a query you would: (a) type a criterion in the Class field  (b) sort the Class field  (c) rename the field  (d) delete the other rows
     Ans: (a) type a criterion in the Class field. Criteria filter the records; sorting only reorders them.

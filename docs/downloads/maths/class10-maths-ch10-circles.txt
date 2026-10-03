@@ -32,16 +32,17 @@ Q4. [Short · 3 marks] Prove that the lengths of tangents drawn from an external
       In ΔOAP and ΔOBP: OA = OB (radii), OP is common, and ∠OAP = ∠OBP = 90° (tangent ⊥ radius).
       By RHS congruence, ΔOAP ≅ ΔOBP, so PA = PB.
 
-Q5. [Application · 3 marks] Riya is revising “Circles” (Tangents to a circle and the number of tangents from a point). A classmate lost marks by doing this: Forgetting to state that the radius is perpendicular to the tangent — that is a marked step. Apply the correct method and rewrite the scoring answer.
+Q5. [Application · 3 marks] A student says, “From every point P in the plane, exactly two equal tangents can be drawn to a given circle.” Test the claim for a point outside the circle, on the circle and inside the circle.
     Ans:
-      Correct method: Always join the centre to the point of contact. That creates the right angle you need, and it is the first line of almost every proof here.
-      Why the mistake costs marks: Forgetting to state that the radius is perpendicular to the tangent — that is a marked step.
-      Write the definition or formula first, then the working or example.
+      P outside the circle: exactly two tangents can be drawn, and their lengths are equal.
+      P on the circle: exactly one tangent can be drawn (at P itself); there is no pair of tangents.
+      P inside the circle: no tangent exists, since every line through P cuts the circle in two points. So the claim holds only for an external point.
 
-Q6. [Application · 3 marks] Amit is given this exam-style task from “Circles”: “How many tangents can be drawn from a point inside a circle?” Treat it as an application question. Identify the idea, then write the working in points.
+Q6. [Application · 3 marks] The tangent at a point P of a circle of radius 5 cm meets a line through the centre O at Q, where OQ = 12 cm. Find the length PQ.
     Ans:
-      Idea: Tangents to a circle and the number of tangents from a point.
-      None. A line through an interior point must cut the circle at two points.
+      The tangent at P is perpendicular to the radius OP, so ∠OPQ = 90°.
+      In the right triangle OPQ: PQ² = OQ² − OP² = 144 − 25 = 119.
+      PQ = √119 cm ≈ 10.9 cm.
 
 Q7. [Short · 3 marks] Prove that a chord of the larger of two concentric circles which touches the smaller circle is bisected at the point of contact.
     Ans:
@@ -66,36 +67,35 @@ Q9. [Long · 4 marks] A quadrilateral ABCD circumscribes a circle. Prove that AB
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Circles”. Their note says: Tangent. A line that touches the circle at exactly one point. That point is the point of contact.
+    From an external point T, two tangents TP and TQ are drawn to a circle with centre O. It is given that ∠PTQ = 70°.
     
-    The chapter is described as: Tangents to a circle and the number of tangents from a point.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) State why ∠OPT = 90°.
+    (b) Find ∠POQ.
+    (c) Find ∠OPQ.
     Ans:
-      (a) Tangents to a circle and the number of tangents from a point.
-      (b) The rest of the 15-mark Geometry unit, roughly 5–6 marks.
-      (c) Forgetting to state that the radius is perpendicular to the tangent — that is a marked step.
+      (a) The tangent at a point is perpendicular to the radius through the point of contact.
+      (b) In quadrilateral OPTQ, ∠OPT = ∠OQT = 90°, so ∠POQ = 360° − 90° − 90° − 70° = 110°.
+      (c) TP = TQ, so in ΔTPQ, ∠TPQ = (180° − 70°)/2 = 55°. Then ∠OPQ = ∠OPT − ∠TPQ = 90° − 55° = 35°.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “How many tangents can be drawn from a point inside a circle?” Student A writes one line. Student B writes points, an example and a check.
+    A circle is inscribed in ΔABC and touches the sides BC, CA and AB at D, E and F respectively. AB = 12 cm, BC = 8 cm and CA = 10 cm.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Which tangent lengths are equal?
+    (b) Find AF, BD and CE.
+    (c) Verify your answers against the three given sides.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) None. A line through an interior point must cut the circle at two points.
-      (c) Always join the centre to the point of contact. That creates the right angle you need, and it is the first line of almost every proof here.
+      (a) Tangents from one point are equal: AF = AE, BF = BD and CD = CE.
+      (b) Let AF = x, BD = y, CE = z. Then x + y = 12, y + z = 8, z + x = 10, so x + y + z = 15. Hence AF = 7 cm, BD = 5 cm, CE = 3 cm.
+      (c) AB = AF + FB = 7 + 5 = 12 ✓; BC = BD + DC = 5 + 3 = 8 ✓; CA = CE + EA = 3 + 7 = 10 ✓.
 
-Q12. [Long · 5 marks] Discuss “Circles” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact.
     Ans:
-      Tangent. A line that touches the circle at exactly one point. That point is the point of contact.
-      Marks lens: The rest of the 15-mark Geometry unit, roughly 5–6 marks.
-      Method / memory trick: Always join the centre to the point of contact. That creates the right angle you need, and it is the first line of almost every proof here.
-      Do not: Forgetting to state that the radius is perpendicular to the tangent — that is a marked step.
+      Given: a circle with centre O and a tangent XY touching it at P. To prove: OP ⊥ XY.
+      Take any other point Q on XY and join OQ.
+      The tangent meets the circle only at P, so Q lies outside the circle. Hence OQ is longer than the radius: OQ > OP.
+      This is true for every point Q other than P on XY, so OP is the shortest distance from O to the line XY.
+      The shortest distance from a point to a line is the perpendicular, so OP ⊥ XY. ∎
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -109,11 +109,11 @@ M2. The angle between a tangent and the radius at the point of contact is: (a) 4
 M3. Two tangents from an external point to a circle are: (a) unequal  (b) equal  (c) always perpendicular  (d) parallel
     Ans: (b) Equal.
 
-M4. The most exam-ready way to revise “Circles” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Tangents to a circle and the number of tangents from a point.
+M4. A tangent to a circle meets the circle in: (a) no point  (b) exactly one point  (c) exactly two points  (d) infinitely many points
+    Ans: (b) exactly one point. By definition, a tangent touches the circle at exactly one point, the point of contact.
 
-M5. A 3-mark answer on “Circles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. If the angle between two tangents drawn from an external point P to a circle of radius a and centre O is 60°, then OP = (a) 2a  (b) a√3  (c) a√2  (d) a/2
+    Ans: (a) 2a. ∠APB = 60° gives ∠APO = 30° and, in right triangle OAP, OA = OP sin 30°, so OP = a/(1/2) = 2a.
 
 M6. The number of tangents that can be drawn from a point outside a circle is: (a) 1  (b) 2  (c) 3  (d) infinite
     Ans: (b) 2. Exactly two, and they are equal in length.

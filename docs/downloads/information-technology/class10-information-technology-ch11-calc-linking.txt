@@ -31,11 +31,11 @@ Q4. [Short · 2 marks] What is the difference between a hyperlink and a sheet-li
 Q5. [Application · 3 marks] Summary sheet must show Total from three term sheets named Term1, Term2, Term3, each total in G20. Write the formula.
     Ans: =Term1.G20+Term2.G20+Term3.G20 — one reference per term sheet, added together. Linking this way means each term file can be updated on its own and the Summary total follows automatically, with no retyping and no copy-paste errors.
 
-Q6. [Application · 3 marks] Riya is revising “Linking Spreadsheet Data” (Sheet links, hyperlinks, linking to external files and data from the web). A classmate lost marks by doing this: Renaming a sheet after writing formulas without checking — some links break. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student e-mails only summary.ods to her teacher. When the teacher opens it, the linked cells show errors or old values. Explain why this happens and how to avoid it.
     Ans:
-      Correct method: Sheet names with spaces need single quotes: 'Term 1'.A1.
-      Why the mistake costs marks: Renaming a sheet after writing formulas without checking — some links break.
-      Write the definition or formula first, then the working or example.
+      summary.ods does not contain the data itself: its cells link to values in another file, data.ods, stored on the lab computer.
+      On the teacher’s computer the source file is missing, so the link cannot be updated.
+      Send both files and keep them in one folder, or, before sending, convert the linked cells to plain values (or break the link from Edit → Links to External Files).
 
 Q7. [Short · 3 marks] How do you link a cell to another sheet and to a file outside the workbook?
     Ans:
@@ -66,24 +66,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Linking Spreadsheet Data”. Their note says: Same-file sheet link: =Sheet2.B3 or ='Term 1'.B3 if the sheet name has a space.
+    On an “Index” sheet, a student wants one cell that opens the file marks.ods when clicked, and another cell that opens the school website.
     
-    The chapter is described as: Sheet links, hyperlinks, linking to external files and data from the web.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which feature does she use, and how does she insert it?
+    (b) Name two other things a hyperlink in Calc can point to.
+    (c) How is a hyperlink different from a formula that links to another sheet?
     Ans:
-      (a) Sheet links, hyperlinks, linking to external files and data from the web.
-      (b) Syntax of a sheet reference and Insert → Hyperlink.
-      (c) Renaming a sheet after writing formulas without checking — some links break.
+      (a) A hyperlink: select the cell and choose Insert → Hyperlink, then enter the file name or the web address.
+      (b) An e-mail address and a target inside the same document, such as a named cell.
+      (c) A hyperlink only opens something when clicked; a sheet-link formula brings a value from another sheet into the cell, and it updates when the source changes.
 
-Q12. [Long · 5 marks] Discuss “Linking Spreadsheet Data” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Explain the steps to bring a table from a web page into a Calc sheet so that it can be refreshed, and give two precautions.
     Ans:
-      Same-file sheet link: =Sheet2.B3 or ='Term 1'.B3 if the sheet name has a space.
-      Marks lens: Syntax of a sheet reference and Insert → Hyperlink.
-      Method / memory trick: Sheet names with spaces need single quotes: 'Term 1'.A1.
-      Do not: Renaming a sheet after writing formulas without checking — some links break.
+      Step 1: place the cursor in the cell where the table should start.
+      Step 2: choose Insert → Link to External Data (in newer versions it is under the Sheet menu).
+      Step 3: type the web address in the URL box and press Enter; select the table or range that you want in the list.
+      Step 4: click OK; later, refresh the data from Edit → Links to External Files.
+      Precautions: an internet connection is needed to refresh, and the table may change its layout or disappear if the web page is changed.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -100,11 +99,11 @@ M3. Live totals that update when a source sheet changes need: (a) a screenshot (
 M4. Paste Special → Link is used to: (a) break a file (b) keep a live connection to copied cells (c) record a macro (d) group shapes
     Ans: (b).
 
-M5. The most exam-ready way to revise “Linking Spreadsheet Data” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Sheet links, hyperlinks, linking to external files and data from the web.
+M5. A hyperlink in Calc can point to: (a) a web page, an e-mail address, a file or a place in the same document (b) only another cell in the same sheet (c) only a picture (d) only a macro
+    Ans: (a) a web page, an e-mail address, a file or a place in the same document. Insert → Hyperlink offers an internet link, a mail link, a document link and a link to a target in the current document.
 
-M6. A 3-mark answer on “Linking Spreadsheet Data” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. If the source file of a linked cell is moved to another folder, the linked cell will probably: (a) update itself automatically (b) turn into a hyperlink (c) show an error or an old value (d) delete the source file
+    Ans: (c) show an error or an old value. The link remembers the old location, so Calc cannot find the source unless the link is repaired.
 
 M7. Linked data in a spreadsheet: (a) updates when the source value changes  (b) is frozen at the time of linking  (c) must be typed again  (d) cannot be used in a formula
     Ans: (a) updates when the source value changes. That is the whole point of linking.

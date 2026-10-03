@@ -34,16 +34,17 @@ Q4. [Short · 3 marks] Prove that √3 is irrational.
 Q5. [Short · 3 marks] The HCF of 96 and 404 is 4. Find their LCM.
     Ans: For any two positive integers, HCF × LCM = product of the numbers. So LCM = (96 × 404) ÷ 4 = 38784 ÷ 4 = 9696. It is worth checking the result: 9696 ÷ 96 = 101 and 9696 ÷ 404 = 24, and 101 and 24 share no factor, so 9696 really is the least common multiple.
 
-Q6. [Application · 3 marks] Riya is revising “Real Numbers” (HCF/LCM, irrationality proofs, terminating decimals). A classmate lost marks by doing this: Using HCF × LCM = product for three numbers. It fails. Factorise instead. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student finds the LCM of 12, 18 and 30 by writing LCM = (12 × 18 × 30) ÷ HCF = 6480 ÷ 6 = 1080, using “HCF × LCM = product of the numbers”. Find the error and give the correct LCM.
     Ans:
-      Correct method: Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.
-      Why the mistake costs marks: Using HCF × LCM = product for three numbers. It fails. Factorise instead.
-      Write the definition or formula first, then the working or example.
+      The relation HCF × LCM = product holds only for two numbers. For three numbers it fails, so 1080 is wrong.
+      Use prime factorisation: 12 = 2² × 3, 18 = 2 × 3², 30 = 2 × 3 × 5.
+      LCM = product of the highest powers of every prime = 2² × 3² × 5 = 180.
 
-Q7. [Application · 3 marks] Amit is given this exam-style task from “Real Numbers”: “State Euclid’s division lemma.” Treat it as an application question. Identify the idea, then write the working in points.
+Q7. [Application · 3 marks] Find the largest number that divides 1251, 9377 and 15628 leaving remainders 1, 2 and 3 respectively.
     Ans:
-      Idea: HCF/LCM, irrationality proofs, terminating decimals.
-      Given positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.
+      If the number leaves remainders 1, 2, 3, it divides 1251 − 1 = 1250, 9377 − 2 = 9375 and 15628 − 3 = 15625 exactly.
+      1250 = 2 × 5⁴, 9375 = 3 × 5⁵, 15625 = 5⁶.
+      The largest such number is the HCF = 5⁴ = 625.
 
 Q8. [Short · 3 marks] Use Euclid’s division algorithm to find the HCF of 867 and 255.
     Ans:
@@ -60,39 +61,38 @@ Q9. [Long · 4 marks] An army contingent of 616 members marches behind an army b
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Real Numbers”. Their note says: Euclid’s Division Lemma. Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 ≤ r < b. It is the basis of the HCF algorithm: divide, then repeat with (b, r) until the remainder is 0. The last non-zero divisor is the HCF.
+    A calculator displays these decimal forms: 7/80 = 0.0875, 11/30 = 0.3666…, 13/125 = 0.104 and 17/60 = 0.28333…
     
-    The chapter is described as: HCF/LCM, irrationality proofs, terminating decimals.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which fractions have terminating decimals and which do not?
+    (b) Using the prime factors of the denominator, explain why 7/80 terminates but 11/30 does not.
+    (c) After how many decimal places does 13/125 terminate, and why?
     Ans:
-      (a) HCF/LCM, irrationality proofs, terminating decimals.
-      (b) marks, always procedural. Expect one HCF/LCM word problem (2–3 marks), one irrationality proof (3 marks), and one terminating-decimal question (1 mark).
-      (c) Using HCF × LCM = product for three numbers. It fails. Factorise instead.
+      (a) 7/80 and 13/125 terminate; 11/30 and 17/60 do not.
+      (b) 80 = 2⁴ × 5 has only the prime factors 2 and 5, so 7/80 terminates. 30 = 2 × 3 × 5 contains the prime 3 (and 11/30 is already in lowest terms), so 11/30 never terminates.
+      (c) 125 = 5³, so 13/125 = 13 × 2³/(2³ × 5³) = 104/1000 = 0.104. It terminates after 3 places, the larger of the powers of 2 and 5 in the denominator.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “State Euclid’s division lemma.” Student A writes one line. Student B writes points, an example and a check.
+    Three traffic lights change after every 48 s, 72 s and 108 s. They all change together at 8:00:00 a.m.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) After how many seconds will they change together again?
+    (b) At what time will that be?
+    (c) Which concept from this chapter did you use?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Given positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.
-      (c) Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.
+      (a) The interval is the LCM of 48, 72 and 108: 48 = 2⁴ × 3, 72 = 2³ × 3², 108 = 2² × 3³, so LCM = 2⁴ × 3³ = 432 s.
+      (b) 432 s = 7 min 12 s, so they change together at 8:07:12 a.m.
+      (c) Prime factorisation and the LCM (the smallest common multiple of all three times).
 
 Q12. [Long · 4 marks] Can 6ⁿ end with the digit 0 for any natural number n? Give a reason.
     Ans: No. If 6ⁿ ended in 0 it would be divisible by 10 = 2 × 5, so 5 would have to be a prime factor of 6ⁿ. But 6ⁿ = (2 × 3)ⁿ = 2ⁿ × 3ⁿ and, by the Fundamental Theorem of Arithmetic, its only prime factors are 2 and 3. Since 5 never appears, 6ⁿ cannot end in 0 for any n.
 
-Q13. [Long · 5 marks] Discuss “Real Numbers” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q13. [Long · 5 marks] Prove that √5 is irrational. Hence show that 3 + 2√5 is irrational.
     Ans:
-      Euclid’s Division Lemma. Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 ≤ r < b. It is the basis of the HCF algorithm: divide, then repeat with (b, r) until the remainder is 0. The last non-zero divisor is the HCF.
-      Marks lens: marks, always procedural. Expect one HCF/LCM word problem (2–3 marks), one irrationality proof (3 marks), and one terminating-decimal question (1 mark).
-      Method / memory trick: Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.
-      Do not: Using HCF × LCM = product for three numbers. It fails. Factorise instead.
+      Assume √5 is rational, so √5 = p/q with p and q coprime integers and q ≠ 0.
+      Squaring: 5q² = p², so 5 divides p². Since 5 is prime, 5 divides p. Write p = 5m.
+      Then 5q² = 25m², so q² = 5m², hence 5 divides q² and so 5 divides q.
+      Now 5 is a common factor of p and q, which contradicts that they are coprime. So √5 is irrational.
+      Next, suppose 3 + 2√5 = r is rational. Then √5 = (r − 3)/2 would be rational, contradicting the result above. Hence 3 + 2√5 is irrational.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -106,11 +106,11 @@ M2. Which has a terminating decimal expansion? (a) 7/24  (b) 5/13  (c) 9/40  (d)
 M3. If the HCF of two numbers is 6 and their LCM is 60, one number being 12, the other is: (a) 20  (b) 30  (c) 40  (d) 60
     Ans: (b) 30. Other number = (6 × 60)/12 = 30.
 
-M4. The most exam-ready way to revise “Real Numbers” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is HCF/LCM, irrationality proofs, terminating decimals.
+M4. The product of a non-zero rational number and an irrational number is: (a) always rational  (b) always irrational  (c) sometimes an integer  (d) always zero
+    Ans: (b) always irrational. If r × x were rational with r ≠ 0, then x = (r × x)/r would be rational — a contradiction.
 
-M5. A 3-mark answer on “Real Numbers” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. The LCM of two co-prime numbers a and b is: (a) ab  (b) a + b  (c) a ÷ b  (d) 1
+    Ans: (a) ab. Co-prime numbers have HCF 1, and HCF × LCM = a × b, so the LCM is ab.
 
 M6. The decimal expansion of 23/(2³ × 5²) terminates after: (a) 2 places  (b) 3 places  (c) 4 places  (d) 5 places
     Ans: (b) 3 places. 23/200 = 115/1000 = 0.115. The number of decimal places is the larger exponent, max(3, 2) = 3.
@@ -149,16 +149,17 @@ Q4. [Short · 3 marks] If one zero of (k² − 1)x² − 3x + 2 is the reciproca
       Reciprocal zeroes ⇒ product = 1, so 2/(k² − 1) = 1.
       k² − 1 = 2, k² = 3, so k = ±√3.
 
-Q5. [Application · 3 marks] Riya is revising “Polynomials” (Zeroes of a quadratic and their relation to coefficients). A classmate lost marks by doing this: Writing the sum as +b/a. It is −b/a. Apply the correct method and rewrite the scoring answer.
+Q5. [Application · 3 marks] A student writes: “For 2x² − 5x + 3, the sum of the zeroes is b/a = −5/2 and the product is c/a = 3/2.” Find the error, then give the correct sum and verify it with the actual zeroes.
     Ans:
-      Correct method: Sign trap: the sum is minus b/a. Almost every wrong answer here has the wrong sign.
-      Why the mistake costs marks: Writing the sum as +b/a. It is −b/a.
-      Write the definition or formula first, then the working or example.
+      Error: the sum of the zeroes is −b/a, not b/a. Here −b/a = −(−5)/2 = 5/2. (The product c/a = 3/2 is correct.)
+      Factorise: 2x² − 5x + 3 = (2x − 3)(x − 1), so the zeroes are 3/2 and 1.
+      Check: 3/2 + 1 = 5/2 ✓ and (3/2) × 1 = 3/2 ✓.
 
-Q6. [Application · 3 marks] Amit is given this exam-style task from “Polynomials”: “Find the zeroes of x² − 2x − 8 and verify the relationship with the coefficients.” Treat it as an application question. Identify the idea, then write the working in points.
+Q6. [Application · 3 marks] The area of a rectangular plot is (x² + 7x + 12) square metres and its length is (x + 4) metres. Find its breadth and the zeroes of the area polynomial.
     Ans:
-      Idea: Zeroes of a quadratic and their relation to coefficients.
-      x² − 2x − 8 = (x − 4)(x + 2), so the zeroes are 4 and −2. Sum = 4 + (−2) = 2 = −(−2)/1 = −b/a ✓ Product = 4 × (−2) = −8 = c/a ✓
+      Breadth = area ÷ length = (x² + 7x + 12) ÷ (x + 4).
+      x² + 7x + 12 = (x + 3)(x + 4), so the breadth is (x + 3) metres.
+      The zeroes come from (x + 3)(x + 4) = 0, so x = −3 and x = −4.
 
 Q7. [Short · 3 marks] If α and β are the zeroes of x² − 6x + k and 3α + 2β = 20, find k.
     Ans:
@@ -175,29 +176,27 @@ Q8. [Short · 3 marks] Divide 3x³ + x² + 2x + 5 by x² + 2x + 1 and verify the
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Polynomials”. Their note says: Zeroes of a polynomial. A zero of p(x) is a value of x for which p(x) = 0. Geometrically it is where the graph cuts or touches the x-axis.
+    The graph of y = p(x), where p(x) is a quadratic polynomial with leading coefficient 1, is a parabola opening upward that cuts the x-axis at (−1, 0) and (4, 0).
     
-    The chapter is described as: Zeroes of a quadratic and their relation to coefficients.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) How many zeroes does p(x) have, and what are they?
+    (b) Find the sum and the product of the zeroes.
+    (c) Write p(x).
     Ans:
-      (a) Zeroes of a quadratic and their relation to coefficients.
-      (b) Usually one 2-mark question plus part of an objective question.
-      (c) Writing the sum as +b/a. It is −b/a.
+      (a) Two zeroes, −1 and 4 — the x-coordinates of the points where the graph meets the x-axis.
+      (b) Sum = −1 + 4 = 3 and product = (−1)(4) = −4.
+      (c) p(x) = x² − (sum)x + product = x² − 3x − 4.
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Find the zeroes of x² − 2x − 8 and verify the relationship with the coefficients.” Student A writes one line. Student B writes points, an example and a check.
+    A toy company models its profit (in thousands of rupees) from selling x thousand toys as P(x) = x² − 7x + 10.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) For which numbers of toys does the profit become zero?
+    (b) Verify the relation between the zeroes and the coefficients.
+    (c) Give an example of a quadratic polynomial whose graph touches the x-axis at only one point.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) x² − 2x − 8 = (x − 4)(x + 2), so the zeroes are 4 and −2. Sum = 4 + (−2) = 2 = −(−2)/1 = −b/a ✓ Product = 4 × (−2) = −8 = c/a ✓
-      (c) Sign trap: the sum is minus b/a. Almost every wrong answer here has the wrong sign.
+      (a) x² − 7x + 10 = (x − 2)(x − 5) = 0, so the profit is zero at x = 2 and x = 5 thousand toys.
+      (b) Sum = 2 + 5 = 7 = −(−7)/1 ✓; product = 2 × 5 = 10 = 10/1 ✓.
+      (c) x² − 4x + 4 = (x − 2)²: its two zeroes coincide, so the parabola just touches the x-axis at (2, 0).
 
 Q11. [Application · 4 marks] A quadratic polynomial cuts the x-axis at −2 and 3 and its graph passes through (0, 6). Find the polynomial.
     Ans:
@@ -205,12 +204,13 @@ Q11. [Application · 4 marks] A quadratic polynomial cuts the x-axis at −2 and
       It passes through (0, 6), so 6 = a(2)(−3) = −6a, giving a = −1.
       Hence p(x) = −(x + 2)(x − 3) = −x² + x + 6.
 
-Q12. [Long · 5 marks] Discuss “Polynomials” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] If α and β are the zeroes of x² − 4x + 1, find (i) α² + β², (ii) 1/α + 1/β, and (iii) a quadratic polynomial whose zeroes are α² and β².
     Ans:
-      Zeroes of a polynomial. A zero of p(x) is a value of x for which p(x) = 0. Geometrically it is where the graph cuts or touches the x-axis.
-      Marks lens: Usually one 2-mark question plus part of an objective question.
-      Method / memory trick: Sign trap: the sum is minus b/a. Almost every wrong answer here has the wrong sign.
-      Do not: Writing the sum as +b/a. It is −b/a.
+      From the polynomial: α + β = 4 and αβ = 1.
+      (i) α² + β² = (α + β)² − 2αβ = 16 − 2 = 14.
+      (ii) 1/α + 1/β = (α + β)/αβ = 4/1 = 4.
+      (iii) Sum of the new zeroes = α² + β² = 14; product = (αβ)² = 1.
+      Required polynomial: x² − 14x + 1.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -224,11 +224,11 @@ M2. If α, β are zeroes of x² − 5x + 6, then α + β = ? (a) 6  (b) 5  (c) �
 M3. A quadratic polynomial whose zeroes are 3 and −3 is: (a) x² − 9  (b) x² + 9  (c) x² − 6x + 9  (d) x² − 3
     Ans: (a) x² − 9. Sum = 0 and product = −9.
 
-M4. The most exam-ready way to revise “Polynomials” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Zeroes of a quadratic and their relation to coefficients.
+M4. If the zeroes of a quadratic polynomial ax² + bx + c are equal in magnitude but opposite in sign, then: (a) b = 0  (b) a = 0  (c) c = 0  (d) a + c = 0
+    Ans: (a) b = 0. Zeroes α and −α have sum 0, and the sum is −b/a, so b = 0.
 
-M5. A 3-mark answer on “Polynomials” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. The graph of a quadratic polynomial lies entirely above the x-axis. The number of real zeroes it has is: (a) one  (b) two  (c) infinitely many  (d) none
+    Ans: (d) none. Zeroes are the x-coordinates of the points where the graph meets the x-axis; a graph that never meets it has no real zero.
 
 M6. A polynomial of degree 3 is called: (a) linear  (b) quadratic  (c) cubic  (d) biquadratic
     Ans: (c) cubic. Degree 1 is linear, 2 is quadratic, 3 is cubic and 4 is biquadratic.
@@ -258,16 +258,17 @@ Q2. [Short · 3 marks] Solve by elimination: 3x + 4y = 10 and 2x − 3y = 1.
       Adding: 17x = 34, so x = 2.
       Substituting in the first: 6 + 4y = 10, so y = 1.
 
-Q3. [Application · 3 marks] Riya is revising “Pair of Linear Equations in Two Variables” (Consistency conditions, three solving methods, word problems). A classmate lost marks by doing this: Declaring a pair inconsistent when only two of the three ratios are equal. You must check c₁/c₂ as well. Apply the correct method and rewrite the scoring answer.
+Q3. [Application · 3 marks] To solve 2/x + 3/y = 13 and 5/x − 4/y = −2, a student puts u = 1/x and v = 1/y, finds u = 2 and v = 3 and writes “x = 2, y = 3”. What is wrong? Give the correct solution.
     Ans:
-      Correct method: Ratio order matters. Compare a with a, b with b, c with c — never a with b.
-      Why the mistake costs marks: Declaring a pair inconsistent when only two of the three ratios are equal. You must check c₁/c₂ as well.
-      Write the definition or formula first, then the working or example.
+      The student stopped at the substituted variables. Since u = 1/x and v = 1/y, the answer must be converted back: x = 1/u = 1/2 and y = 1/v = 1/3.
+      (Solving 2u + 3v = 13 and 5u − 4v = −2 does give u = 2, v = 3.)
+      Check: 2 ÷ (1/2) + 3 ÷ (1/3) = 4 + 9 = 13 ✓ and 5 ÷ (1/2) − 4 ÷ (1/3) = 10 − 12 = −2 ✓.
 
-Q4. [Application · 3 marks] Amit is given this exam-style task from “Pair of Linear Equations in Two Variables”: “Without solving, tell whether 2x − 3y = 7 and 4x − 6y = 14 have a unique solution.” Treat it as an application question. Identify the idea, then write the working in points.
+Q4. [Application · 3 marks] Two notebooks and three pens cost Rs 90, while three notebooks and two pens cost Rs 85. Find the price of one notebook and one pen.
     Ans:
-      Idea: Consistency conditions, three solving methods, word problems.
-      a₁/a₂ = 2/4 = 1/2, b₁/b₂ = −3/−6 = 1/2, c₁/c₂ = (−7)/(−14) = 1/2. All three ratios are equal, so the lines are coincident — infinitely many solutions, not a unique one.
+      Let a notebook cost Rs x and a pen Rs y: 2x + 3y = 90 and 3x + 2y = 85.
+      Adding: 5x + 5y = 175, so x + y = 35. Subtracting the first from the second: x − y = −5.
+      Solving: x = 15 and y = 20. A notebook costs Rs 15 and a pen Rs 20. Check: 2(15) + 3(20) = 90 ✓.
 
 Q5. [Short · 3 marks] For what value of k does the pair 3x + y = 1 and (2k − 1)x + (k − 1)y = 2k + 1 have no solution?
     Ans:
@@ -299,29 +300,27 @@ Q8. [Long · 4 marks] Five years ago, Nuri was thrice as old as Sonu. Ten years 
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Pair of Linear Equations in Two Variables”. Their note says: Nature of the pair. Compare a₁/a₂, b₁/b₂ and c₁/c₂ for the pair a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0.
+    Two taxi companies charge a fixed fee plus a rate per km. Company A charges Rs 40 plus Rs 10 per km; Company B charges Rs 100 plus Rs 5 per km. A student draws the lines y = 10x + 40 and y = 5x + 100, where x is the distance in km and y is the fare in rupees.
     
-    The chapter is described as: Consistency conditions, three solving methods, word problems.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Write the pair in the form ax + by + c = 0.
+    (b) At what distance do both companies charge the same fare, and what is it?
+    (c) Which company is cheaper for a 20 km trip?
     Ans:
-      (a) Consistency conditions, three solving methods, word problems.
-      (b) –6 marks. One consistency/nature question (2 marks) and one word problem (4–5 marks).
-      (c) Declaring a pair inconsistent when only two of the three ratios are equal. You must check c₁/c₂ as well.
+      (a) 10x − y + 40 = 0 and 5x − y + 100 = 0.
+      (b) 10x + 40 = 5x + 100 gives x = 12. The fares are equal at 12 km, where each charges Rs 160 — the point (12, 160) where the lines intersect.
+      (c) For 20 km: A = Rs 240, B = Rs 200, so Company B is cheaper.
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Without solving, tell whether 2x − 3y = 7 and 4x − 6y = 14 have a unique solution.” Student A writes one line. Student B writes points, an example and a check.
+    A student plots the lines 3x + 2y = 12 and 6x + 4y = k on graph paper for different values of k.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) For which value of k do the lines coincide?
+    (b) For which values of k are they parallel?
+    (c) Can this pair ever have exactly one solution? Explain.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) a₁/a₂ = 2/4 = 1/2, b₁/b₂ = −3/−6 = 1/2, c₁/c₂ = (−7)/(−14) = 1/2. All three ratios are equal, so the lines are coincident — infinitely many solutions, not a unique one.
-      (c) Ratio order matters. Compare a with a, b with b, c with c — never a with b.
+      (a) a₁/a₂ = 1/2 and b₁/b₂ = 1/2, and c₁/c₂ = 12/k. The lines coincide when 12/k = 1/2, i.e. k = 24.
+      (b) They are parallel (no solution) when k ≠ 24.
+      (c) No. Because a₁/a₂ = b₁/b₂ for every k, the lines are never intersecting: the pair has either no solution or infinitely many.
 
 Q11. [Application · 4 marks] A fraction becomes 1/3 when 1 is subtracted from its numerator, and becomes 1/4 when 8 is added to its denominator. Find the fraction.
     Ans:
@@ -350,11 +349,11 @@ M2. For what value of k does kx + 3y = 7 and 2x + 6y = 14 have infinitely many s
 M3. If a boat’s downstream speed is 12 km/h and upstream speed is 8 km/h, its still-water speed is: (a) 10  (b) 4  (c) 2  (d) 20 km/h
     Ans: (a) 10 km/h. Still-water speed = (downstream + upstream)/2.
 
-M4. The most exam-ready way to revise “Pair of Linear Equations in Two Variables” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Consistency conditions, three solving methods, word problems.
+M4. If the graphs of a pair of linear equations in two variables are two lines that coincide, the pair has: (a) no solution  (b) exactly one solution  (c) exactly two solutions  (d) infinitely many solutions
+    Ans: (d) infinitely many solutions. Every point of a line is a solution of both equations when the lines coincide, so the solutions are infinite.
 
-M5. A 3-mark answer on “Pair of Linear Equations in Two Variables” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. The pair of equations x = 2 and y = 3 represents two lines that: (a) intersect at the point (2, 3)  (b) are parallel  (c) coincide  (d) meet only on the y-axis
+    Ans: (a) intersect at the point (2, 3). x = 2 is a vertical line and y = 3 is a horizontal line; they cross at (2, 3).
 
 M6. The pair 6x − 3y + 10 = 0 and 2x − y + 9 = 0 has: (a) one solution  (b) two solutions  (c) infinitely many solutions  (d) no solution
     Ans: (d) no solution. 6/2 = 3 and (−3)/(−1) = 3 but 10/9 ≠ 3, so the lines are parallel and distinct.
@@ -390,16 +389,17 @@ Q4. [Short · 3 marks] Solve 6x² − x − 2 = 0 by factorisation.
       6x² − 4x + 3x − 2 = 2x(3x − 2) + 1(3x − 2) = (3x − 2)(2x + 1).
       So x = 2/3 or x = −1/2.
 
-Q5. [Application · 3 marks] Riya is revising “Quadratic Equations” (Factorisation, the quadratic formula, discriminant and nature of roots). A classmate lost marks by doing this: Dropping the sign of b when writing −b in the formula. Apply the correct method and rewrite the scoring answer.
+Q5. [Application · 3 marks] A student solves 2x² − 7x + 3 = 0 with the formula and writes x = (−7 ± √(49 − 24))/4 = (−7 ± 5)/4, so x = −1/2 or x = −3. Find the mistake and give the correct roots.
     Ans:
-      Correct method: Splitting the middle term: you need two numbers with product a × c (not just c) and sum b. Forgetting the a is the most common error when a ≠ 1.
-      Why the mistake costs marks: Dropping the sign of b when writing −b in the formula.
-      Write the definition or formula first, then the working or example.
+      Mistake: here b = −7, so −b = +7. The student used −7.
+      Correct: x = (7 ± √(49 − 24))/4 = (7 ± 5)/4, so x = 12/4 = 3 or x = 2/4 = 1/2.
+      Check by factorising: (2x − 1)(x − 3) = 2x² − 7x + 3 ✓.
 
-Q6. [Application · 3 marks] Amit is given this exam-style task from “Quadratic Equations”: “Find the nature of the roots of 2x² − 6x + 3 = 0.” Treat it as an application question. Identify the idea, then write the working in points.
+Q6. [Application · 3 marks] The length of a rectangular field is 3 m more than twice its breadth and its area is 65 m². Find its dimensions.
     Ans:
-      Idea: Factorisation, the quadratic formula, discriminant and nature of roots.
-      D = (−6)² − 4(2)(3) = 36 − 24 = 12. D > 0 but 12 is not a perfect square, so the roots are real, distinct and irrational.
+      Let the breadth be x m; the length is (2x + 3) m. Area: x(2x + 3) = 65, so 2x² + 3x − 65 = 0.
+      Factorise: (2x + 13)(x − 5) = 0, so x = 5 or x = −13/2. A length cannot be negative, so x = 5.
+      The field is 5 m × 13 m (area 5 × 13 = 65 m² ✓).
 
 Q7. [Short · 3 marks] Solve x² + 5x + 6 = 0 by completing the square.
     Ans:
@@ -410,29 +410,27 @@ Q7. [Short · 3 marks] Solve x² + 5x + 6 = 0 by completing the square.
 
 Q8. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Quadratic Equations”. Their note says: Standard form. ax² + bx + c = 0, with a ≠ 0.
+    Aman studies the equation x² − 6x + k = 0 for different values of k.
     
-    The chapter is described as: Factorisation, the quadratic formula, discriminant and nature of roots.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) For which values of k are the roots real and distinct?
+    (b) Find k for equal roots, and the root.
+    (c) Show that there is no real root when k = 10.
     Ans:
-      (a) Factorisation, the quadratic formula, discriminant and nature of roots.
-      (b) –7 marks. A nature-of-roots question (2–3 marks) and a word problem (4–5 marks).
-      (c) Dropping the sign of b when writing −b in the formula.
+      (a) D = 36 − 4k. Real and distinct roots need D > 0, so k < 9.
+      (b) Equal roots need D = 0, so k = 9 and the equation becomes (x − 3)² = 0 with the repeated root x = 3.
+      (c) For k = 10, D = 36 − 40 = −4 < 0, so the equation has no real roots.
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Find the nature of the roots of 2x² − 6x + 3 = 0.” Student A writes one line. Student B writes points, an example and a check.
+    Two water taps together fill a tank in 9⅜ hours (75/8 h). The tap of larger diameter alone takes 10 hours less than the smaller one.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) If the smaller tap alone takes x hours, form the quadratic equation.
+    (b) Solve it.
+    (c) Why is one root rejected?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) D = (−6)² − 4(2)(3) = 36 − 24 = 12. D > 0 but 12 is not a perfect square, so the roots are real, distinct and irrational.
-      (c) Splitting the middle term: you need two numbers with product a × c (not just c) and sum b. Forgetting the a is the most common error when a ≠ 1.
+      (a) 1/x + 1/(x − 10) = 8/75, which simplifies to 4x² − 115x + 375 = 0.
+      (b) (4x − 15)(x − 25) = 0, so x = 25 or x = 15/4.
+      (c) For x = 15/4 = 3.75 the larger tap would need 3.75 − 10 < 0 hours, which is impossible. So the smaller tap takes 25 hours and the larger 15 hours.
 
 Q10. [Application · 4 marks] A train travels 360 km at a uniform speed. If the speed were 5 km/h more, it would take 1 hour less. Find the speed of the train.
     Ans:
@@ -449,12 +447,12 @@ Q11. [Long · 5 marks] The sum of the areas of two squares is 468 m². If the di
       (x − 18)(x + 12) = 0, so x = 18 (rejecting −12) and y = 12.
       The sides are 18 m and 12 m.
 
-Q12. [Long · 5 marks] Discuss “Quadratic Equations” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Solve for x: 1/(x + 4) − 1/(x − 7) = 11/30, where x ≠ −4, 7.
     Ans:
-      Standard form. ax² + bx + c = 0, with a ≠ 0.
-      Marks lens: –7 marks. A nature-of-roots question (2–3 marks) and a word problem (4–5 marks).
-      Method / memory trick: Splitting the middle term: you need two numbers with product a × c (not just c) and sum b. Forgetting the a is the most common error when a ≠ 1.
-      Do not: Dropping the sign of b when writing −b in the formula.
+      Combine the left side: [(x − 7) − (x + 4)]/[(x + 4)(x − 7)] = −11/[(x + 4)(x − 7)].
+      So −11/[(x + 4)(x − 7)] = 11/30, which gives (x + 4)(x − 7) = −30.
+      Expand: x² − 3x − 28 = −30, so x² − 3x + 2 = 0, i.e. (x − 1)(x − 2) = 0.
+      Hence x = 1 or x = 2. Check x = 1: 1/5 + 1/6 = 11/30 ✓; x = 2: 1/6 + 1/5 = 11/30 ✓.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -468,11 +466,11 @@ M2. If the discriminant of a quadratic is zero, the roots are: (a) real and dist
 M3. For x² + 4x + k = 0 to have real roots, k must satisfy: (a) k ≤ 4  (b) k ≥ 4  (c) k ≤ −4  (d) k = 4
     Ans: (a) k ≤ 4. D = 16 − 4k ≥ 0 gives k ≤ 4.
 
-M4. The most exam-ready way to revise “Quadratic Equations” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Factorisation, the quadratic formula, discriminant and nature of roots.
+M4. The quadratic equation 2x² − √5 x + 1 = 0 has: (a) two distinct real roots  (b) no real roots  (c) two equal real roots  (d) more than two real roots
+    Ans: (b) no real roots. D = (√5)² − 4(2)(1) = 5 − 8 = −3 < 0, so there is no real root.
 
-M5. A 3-mark answer on “Quadratic Equations” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. The equation ax² + bx + c = 0 (a ≠ 0) has real roots only if: (a) b² − 4ac < 0  (b) b² − 4ac ≥ 0  (c) b² − 4ac = 0 only  (d) b² + 4ac ≥ 0
+    Ans: (b) b² − 4ac ≥ 0. The roots contain √(b² − 4ac), which is real exactly when the discriminant is zero or positive.
 
 M6. The sum and product of the roots of 2x² − 7x + 3 = 0 are: (a) 7/2 and 3/2  (b) 7/2 and 3  (c) −7/2 and 3/2  (d) 7/2 and −3/2
     Ans: (a) 7/2 and 3/2. Sum = −b/a = 7/2 and product = c/a = 3/2.
@@ -511,16 +509,17 @@ Q4. [Short · 3 marks] If the sum of the first n terms of an AP is 3n² + 5n, fi
       S₁₀ = 300 + 50 = 350 and S₉ = 243 + 45 = 288.
       a₁₀ = 350 − 288 = 62.
 
-Q5. [Application · 3 marks] Riya is revising “Arithmetic Progressions” (nth term, sum of n terms, and word problems). A classmate lost marks by doing this: Using a + nd instead of a + (n − 1)d. Apply the correct method and rewrite the scoring answer.
+Q5. [Application · 3 marks] A student finds the 12th term of the AP 5, 9, 13, … as 5 + 12 × 4 = 53. Find the error and give the correct term, with a quick check.
     Ans:
-      Correct method: d can be negative. A decreasing AP has a negative d; students lose marks by writing it positive.
-      Why the mistake costs marks: Using a + nd instead of a + (n − 1)d.
-      Write the definition or formula first, then the working or example.
+      Error: the formula is aₙ = a + (n − 1)d, not a + nd. The student counted 12 differences instead of 11.
+      Correct: a₁₂ = 5 + 11 × 4 = 49.
+      Check by listing: 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49 — the 12th term is 49 ✓.
 
-Q6. [Application · 3 marks] Amit is given this exam-style task from “Arithmetic Progressions”: “Find the 20th term from the last term of the AP 3, 8, 13, …, 253.” Treat it as an application question. Identify the idea, then write the working in points.
+Q6. [Application · 3 marks] A taxi charges Rs 15 for the first kilometre and Rs 8 for every additional kilometre. Show that the fares for 1 km, 2 km, 3 km, … form an AP and find the fare for 12 km.
     Ans:
-      Idea: nth term, sum of n terms, and word problems.
-      Counting from the end, the AP is 253, 248, 243, … with a = 253 and d = −5. th term = 253 + 19(−5) = 158.
+      Fares: 15, 23, 31, … — each is Rs 8 more than the previous, so they form an AP with a = 15 and d = 8.
+      The fare for n km is aₙ = 15 + (n − 1) × 8.
+      For 12 km: a₁₂ = 15 + 11 × 8 = Rs 103.
 
 Q7. [Short · 3 marks] How many terms of the AP 24, 21, 18, … must be taken to give a sum of 78? Explain the two answers.
     Ans:
@@ -530,29 +529,27 @@ Q7. [Short · 3 marks] How many terms of the AP 24, 21, 18, … must be taken to
 
 Q8. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Arithmetic Progressions”. Their note says: Definition. An AP has a constant common difference d = aₙ₊₁ − aₙ between consecutive terms.
+    Rohan saves Rs 500 in the first month and increases his saving by Rs 50 every month.
     
-    The chapter is described as: nth term, sum of n terms, and word problems.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Write the first three terms of the AP formed by his monthly savings.
+    (b) How much does he save in the 12th month?
+    (c) How much has he saved in 12 months altogether?
     Ans:
-      (a) nth term, sum of n terms, and word problems.
-      (b) –6 marks. Typically one 3-mark question on finding a term or the number of terms, and one 4–5 mark word problem.
-      (c) Using a + nd instead of a + (n − 1)d.
+      (a) 500, 550, 600, … with a = 500 and d = 50.
+      (b) a₁₂ = 500 + 11 × 50 = Rs 1050.
+      (c) S₁₂ = (12/2)(500 + 1050) = 6 × 1550 = Rs 9300.
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Find the 20th term from the last term of the AP 3, 8, 13, …, 253.” Student A writes one line. Student B writes points, an example and a check.
+    A hall has 20 rows of seats. The first row has 18 seats and every next row has 2 more seats than the one before.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) How many seats are in the last row?
+    (b) How many seats are there in all?
+    (c) How much is collected from a full house at Rs 100 per seat?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Counting from the end, the AP is 253, 248, 243, … with a = 253 and d = −5. th term = 253 + 19(−5) = 158.
-      (c) d can be negative. A decreasing AP has a negative d; students lose marks by writing it positive.
+      (a) a₂₀ = 18 + 19 × 2 = 56 seats.
+      (b) S₂₀ = (20/2)(18 + 56) = 10 × 74 = 740 seats.
+      (c) 740 × 100 = Rs 74,000.
 
 Q10. [Long · 4 marks] The first term of an AP is 5, the last term is 45 and the sum of all terms is 400. Find the number of terms and the common difference.
     Ans:
@@ -567,12 +564,12 @@ Q11. [Long · 5 marks] A sum of Rs 700 is to be used to give seven cash prizes, 
       200 = 2a − 120, so a = 160.
       The prizes are Rs 160, 140, 120, 100, 80, 60 and 40.
 
-Q12. [Long · 5 marks] Discuss “Arithmetic Progressions” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] The sum of the 4th and 8th terms of an AP is 24 and the sum of its 6th and 10th terms is 44. Find the first three terms of the AP.
     Ans:
-      Definition. An AP has a constant common difference d = aₙ₊₁ − aₙ between consecutive terms.
-      Marks lens: –6 marks. Typically one 3-mark question on finding a term or the number of terms, and one 4–5 mark word problem.
-      Method / memory trick: d can be negative. A decreasing AP has a negative d; students lose marks by writing it positive.
-      Do not: Using a + nd instead of a + (n − 1)d.
+      (a + 3d) + (a + 7d) = 24, so a + 5d = 12 … (1)
+      (a + 5d) + (a + 9d) = 44, so a + 7d = 22 … (2)
+      Subtracting (1) from (2): 2d = 10, so d = 5. Then a = 12 − 25 = −13.
+      The first three terms are −13, −8, −3. Check: a₄ + a₈ = 2 + 22 = 24 ✓ and a₆ + a₁₀ = 12 + 32 = 44 ✓.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -586,11 +583,11 @@ M2. The sum of the first 10 natural numbers is: (a) 45  (b) 50  (c) 55  (d) 100
 M3. S₅ − S₄ equals: (a) the 5th term  (b) the 4th term  (c) the 9th term  (d) zero
     Ans: (a) The 5th term. That is what aₙ = Sₙ − Sₙ₋₁ means.
 
-M4. The most exam-ready way to revise “Arithmetic Progressions” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is nth term, sum of n terms, and word problems.
+M4. Which of the following is NOT an AP? (a) 2, 5, 8, 11, …  (b) 1, 4, 9, 16, …  (c) −3, −1, 1, 3, …  (d) 7, 7, 7, 7, …
+    Ans: (b) 1, 4, 9, 16, …. The differences 3, 5, 7 are not equal, so 1, 4, 9, 16 has no common difference. The others have d = 3, 2 and 0.
 
-M5. A 3-mark answer on “Arithmetic Progressions” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. The sum of the first n odd natural numbers 1, 3, 5, … is: (a) n(n + 1)/2  (b) 2n  (c) n(n + 1)  (d) n²
+    Ans: (d) n². Here a = 1, d = 2, so Sₙ = (n/2)[2 + (n − 1)2] = n².
 
 M6. The common difference of the AP whose nth term is 3n + 5 is: (a) 3  (b) 5  (c) 8  (d) 2
     Ans: (a) 3. a₁ = 8 and a₂ = 11, so d = 3 — the coefficient of n.
@@ -630,16 +627,17 @@ Q5. [Short · 3 marks] Prove that in a right triangle, the square on the hypoten
       ΔBDC ∼ ΔABC (AA), so DC/BC = BC/AC, giving BC² = DC × AC.
       Adding: AB² + BC² = (AD + DC) × AC = AC².
 
-Q6. [Application · 3 marks] Riya is revising “Triangles” (Similarity criteria, Basic Proportionality Theorem, Pythagoras). A classmate lost marks by doing this: Writing the area ratio equal to the side ratio, without squaring. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] Two similar triangles have corresponding sides 6 cm and 9 cm. A student says the ratio of their areas is 6 : 9 = 2 : 3. Correct the error, and find the area of the larger triangle if the smaller has area 40 cm².
     Ans:
-      Correct method: Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.
-      Why the mistake costs marks: Writing the area ratio equal to the side ratio, without squaring.
-      Write the definition or formula first, then the working or example.
+      Error: the areas of similar triangles are in the ratio of the squares of corresponding sides.
+      Area ratio = (6/9)² = 4/9.
+      Area of the larger triangle = 40 × 9/4 = 90 cm².
 
-Q7. [Application · 3 marks] Amit is given this exam-style task from “Triangles”: “State the Basic Proportionality Theorem.” Treat it as an application question. Identify the idea, then write the working in points.
+Q7. [Application · 3 marks] A 6 m tall pole casts a shadow 4 m long. At the same moment a tower casts a shadow 30 m long. Name the similarity criterion used and find the height of the tower.
     Ans:
-      Idea: Similarity criteria, Basic Proportionality Theorem, Pythagoras.
-      If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio.
+      The sun’s rays make the same angle with the ground, and both pole and tower are vertical: two angles match, so the two triangles are similar by the AA criterion.
+      Corresponding sides are proportional: height of tower/6 = 30/4.
+      Height of tower = 6 × 30/4 = 45 m.
 
 Q8. [Short · 3 marks] In ΔABC, D and E lie on AB and AC with AD = 5.7 cm, DB = 9.5 cm, AE = 4.8 cm and EC = 8 cm. Is DE parallel to BC?
     Ans:
@@ -648,29 +646,27 @@ Q8. [Short · 3 marks] In ΔABC, D and E lie on AB and AC with AD = 5.7 cm, DB =
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Triangles”. Their note says: Similar polygons. Corresponding angles are equal and corresponding sides are in the same ratio.
+    A 10 m long ladder leans against a vertical wall and reaches a window 8 m above the ground.
     
-    The chapter is described as: Similarity criteria, Basic Proportionality Theorem, Pythagoras.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) How far is the foot of the ladder from the wall?
+    (b) The foot is moved until the ladder reaches only 6 m up the wall. How far does the foot move?
+    (c) Name the theorem used.
     Ans:
-      (a) Similarity criteria, Basic Proportionality Theorem, Pythagoras.
-      (b) Triangles carries most of the 15-mark Geometry unit (Circles is the rest).
-      (c) Writing the area ratio equal to the side ratio, without squaring.
+      (a) Distance = √(10² − 8²) = √36 = 6 m.
+      (b) New distance = √(10² − 6²) = √64 = 8 m, so the foot moves 8 − 6 = 2 m away from the wall.
+      (c) The Pythagoras theorem in the right-angled triangle formed by ladder, wall and ground.
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “State the Basic Proportionality Theorem.” Student A writes one line. Student B writes points, an example and a check.
+    In a triangular park ABC, a path DE is laid parallel to the side BC, with D on AB and E on AC. AD = 4 m, DB = 6 m, AC = 15 m and BC = 20 m.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Find AE.
+    (b) Find DE.
+    (c) Find the ratio of the areas of ΔADE and ΔABC.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio.
-      (c) Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.
+      (a) By BPT, AD/AB = AE/AC, so 4/10 = AE/15 and AE = 6 m.
+      (b) ΔADE ~ ΔABC, so DE/BC = AD/AB = 2/5 and DE = 8 m.
+      (c) Area ratio = (2/5)² = 4 : 25.
 
 Q11. [Long · 4 marks] Prove that the ratio of the areas of two similar triangles equals the square of the ratio of their corresponding medians.
     Ans:
@@ -680,12 +676,13 @@ Q11. [Long · 4 marks] Prove that the ratio of the areas of two similar triangle
       With the included angles equal, ΔABD ~ ΔPQS (SAS), so AD/PS = AB/PQ.
       Therefore ar(ABC)/ar(PQR) = (AB/PQ)² = (AD/PS)².
 
-Q12. [Long · 5 marks] Discuss “Triangles” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Prove that if a line is drawn parallel to one side of a triangle to intersect the other two sides at distinct points, it divides the two sides in the same ratio.
     Ans:
-      Similar polygons. Corresponding angles are equal and corresponding sides are in the same ratio.
-      Marks lens: Triangles carries most of the 15-mark Geometry unit (Circles is the rest).
-      Method / memory trick: Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.
-      Do not: Writing the area ratio equal to the side ratio, without squaring.
+      Given: ΔABC with DE ∥ BC, D on AB and E on AC. To prove: AD/DB = AE/EC.
+      Construction: join BE and CD; draw EM ⊥ AB and DN ⊥ AC.
+      ar(ADE) = ½ × AD × EM and ar(BDE) = ½ × DB × EM, so ar(ADE)/ar(BDE) = AD/DB. Similarly ar(ADE)/ar(CDE) = AE/EC.
+      ΔBDE and ΔCDE stand on the same base DE and lie between the same parallels DE and BC, so ar(BDE) = ar(CDE).
+      Therefore AD/DB = AE/EC. ∎
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -699,11 +696,11 @@ M2. The ratio of the areas of two similar triangles is 25:49. The ratio of their
 M3. In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 10 cm  (b) 12 cm  (c) 14 cm  (d) 9 cm
     Ans: (a) 10 cm. √(36 + 64) = 10.
 
-M4. The most exam-ready way to revise “Triangles” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Similarity criteria, Basic Proportionality Theorem, Pythagoras.
+M4. If ΔABC ~ ΔPQR, ∠A = 50° and ∠Q = 60°, then ∠C equals: (a) 60°  (b) 50°  (c) 80°  (d) 70°
+    Ans: (d) 70°. ∠B = ∠Q = 60° because corresponding angles of similar triangles are equal, so ∠C = 180° − 50° − 60° = 70°.
 
-M5. A 3-mark answer on “Triangles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. A triangle has sides 7 cm, 24 cm and 25 cm. It is: (a) acute-angled  (b) obtuse-angled  (c) right-angled  (d) equilateral
+    Ans: (c) right-angled. 7² + 24² = 49 + 576 = 625 = 25², so by the converse of the Pythagoras theorem the triangle is right-angled.
 
 M6. Two triangles are similar if their corresponding angles are: (a) equal  (b) supplementary  (c) complementary  (d) proportional
     Ans: (a) equal. Equiangular triangles are similar — the AAA similarity criterion.
@@ -744,16 +741,17 @@ Q4. [Short · 3 marks] Find the area of the triangle with vertices (1, −1), (�
       So 2k² + 3k − 29 = ±24, giving 2k² + 3k − 53 = 0 or 2k² + 3k − 5 = 0.
       The second factorises as (2k + 5)(k − 1) = 0, so k = 1 or k = −5/2. Always keep both the + and − cases because of the modulus.
 
-Q5. [Application · 3 marks] Riya is revising “Coordinate Geometry” (Distance formula, section formula, area of a triangle). A classmate lost marks by doing this: Mixing up which ratio component multiplies which point in the section formula. Apply the correct method and rewrite the scoring answer.
+Q5. [Application · 3 marks] A student finds the distance between A(−3, 2) and B(5, −4) as √[(5 − 3)² + (−4 − 2)²] = √40. Find the error and give the correct distance.
     Ans:
-      Correct method: Section formula cross pattern: m goes with the second point’s coordinates and n with the first. Write it out once correctly and reuse it.
-      Why the mistake costs marks: Mixing up which ratio component multiplies which point in the section formula.
-      Write the definition or formula first, then the working or example.
+      Error: x₂ − x₁ = 5 − (−3) = 5 + 3 = 8, not 2. The negative sign of x₁ was dropped.
+      Correct: AB = √[8² + (−6)²] = √(64 + 36).
+      AB = √100 = 10 units.
 
-Q6. [Application · 3 marks] Amit is given this exam-style task from “Coordinate Geometry”: “Find the distance between (−2, 3) and (4, −5).” Treat it as an application question. Identify the idea, then write the working in points.
+Q6. [Application · 3 marks] A petrol station is to be built on the road along the x-axis so that it is equidistant from two villages at P(2, −5) and Q(−2, 9). Find the coordinates of the station.
     Ans:
-      Idea: Distance formula, section formula, area of a triangle.
-      d = √[(4 − (−2))² + (−5 − 3)²] = √[36 + 64] = √100 = 10 units.
+      Let the station be S(x, 0). Then SP = SQ, so SP² = SQ².
+      (x − 2)² + 25 = (x + 2)² + 81, which gives −4x + 29 = 4x + 85.
+      So −8x = 56 and x = −7. The station is at (−7, 0).
 
 Q7. [Short · 3 marks] Find the ratio in which the point (−1, 6) divides the line segment joining (−3, 10) and (6, −8).
     Ans:
@@ -763,29 +761,27 @@ Q7. [Short · 3 marks] Find the ratio in which the point (−1, 6) divides the l
 
 Q8. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Coordinate Geometry”. Their note says: Distance formula. The distance between (x₁, y₁) and (x₂, y₂) is √[(x₂ − x₁)² + (y₂ − y₁)²] — just Pythagoras.
+    On a grid map, a school is at S(−2, 1) and a library is at L(6, 7). A bus stop M is to be placed exactly midway between them, and a park is at P(2, −2).
     
-    The chapter is described as: Distance formula, section formula, area of a triangle.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Find the distance SL.
+    (b) Find the coordinates of M.
+    (c) Find the distance MP.
     Ans:
-      (a) Distance formula, section formula, area of a triangle.
-      (b) marks, almost always formula substitution.
-      (c) Mixing up which ratio component multiplies which point in the section formula.
+      (a) SL = √[(6 + 2)² + (7 − 1)²] = √(64 + 36) = 10 units.
+      (b) M = ((−2 + 6)/2, (1 + 7)/2) = (2, 4).
+      (c) MP = √[(2 − 2)² + (−2 − 4)²] = 6 units.
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Find the distance between (−2, 3) and (4, −5).” Student A writes one line. Student B writes points, an example and a check.
+    Three vertices of a parallelogram ABCD, taken in order, are A(1, 2), B(4, 3) and C(6, 6).
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Find the coordinates of D.
+    (b) Verify your answer using the diagonals.
+    (c) Which property of a parallelogram did you use?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) d = √[(4 − (−2))² + (−5 − 3)²] = √[36 + 64] = √100 = 10 units.
-      (c) Section formula cross pattern: m goes with the second point’s coordinates and n with the first. Write it out once correctly and reuse it.
+      (a) The diagonals AC and BD bisect each other. Midpoint of AC = (7/2, 4). If D = (x, y), midpoint of BD = ((4 + x)/2, (3 + y)/2) = (7/2, 4), so x = 3 and y = 5. D = (3, 5).
+      (b) Check: vector AB = (3, 1) and vector DC = (6 − 3, 6 − 5) = (3, 1), so AB and DC are equal and parallel ✓.
+      (c) The diagonals of a parallelogram bisect each other, so they share the same midpoint.
 
 Q10. [Long · 4 marks] Find the area of the quadrilateral with vertices (−4, −2), (−3, −5), (3, −2) and (2, 3), taken in order.
     Ans:
@@ -800,12 +796,12 @@ Q11. [Long · 4 marks] Show that the points (1, 7), (4, 2), (−1, −1) and (�
       Diagonals: AC = √(4 + 64) = √68 and BD = √(64 + 4) = √68 — equal.
       A quadrilateral with all four sides equal and equal diagonals is a square.
 
-Q12. [Long · 5 marks] Discuss “Coordinate Geometry” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Find the ratio in which the y-axis divides the line segment joining A(5, −6) and B(−1, −4). Also find the point of division.
     Ans:
-      Distance formula. The distance between (x₁, y₁) and (x₂, y₂) is √[(x₂ − x₁)² + (y₂ − y₁)²] — just Pythagoras.
-      Marks lens: marks, almost always formula substitution.
-      Method / memory trick: Section formula cross pattern: m goes with the second point’s coordinates and n with the first. Write it out once correctly and reuse it.
-      Do not: Mixing up which ratio component multiplies which point in the section formula.
+      A point on the y-axis has x = 0. Let it divide AB in the ratio k : 1.
+      x = (k × (−1) + 1 × 5)/(k + 1) = 0, so −k + 5 = 0 and k = 5. The ratio is 5 : 1.
+      y = (5 × (−4) + 1 × (−6))/(5 + 1) = −26/6 = −13/3.
+      The y-axis meets AB at (0, −13/3).
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -819,11 +815,11 @@ M2. The midpoint of (2, −3) and (−6, 5) is: (a) (−2, 1)  (b) (2, −1)  (c
 M3. Three points are collinear if the area of the triangle they form is: (a) 1  (b) maximum  (c) 0  (d) negative
     Ans: (c) 0.
 
-M4. The most exam-ready way to revise “Coordinate Geometry” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Distance formula, section formula, area of a triangle.
+M4. The coordinates of the point that divides the line segment joining (0, 0) and (6, 9) internally in the ratio 1 : 2 are: (a) (3, 9/2)  (b) (4, 6)  (c) (2, 3)  (d) (1, 3/2)
+    Ans: (c) (2, 3). x = (1 × 6 + 2 × 0)/3 = 2 and y = (1 × 9 + 2 × 0)/3 = 3.
 
-M5. A 3-mark answer on “Coordinate Geometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is: (a) 6 square units  (b) 12 square units  (c) 7 square units  (d) 3.5 square units
+    Ans: (a) 6 square units. It is right-angled at the origin, so the area is ½ × 4 × 3 = 6 square units.
 
 M6. The point (−3, 0) lies on: (a) the x-axis  (b) the y-axis  (c) the line y = x  (d) the origin
     Ans: (a) the x-axis. Every point whose y-coordinate is 0 lies on the x-axis.
@@ -865,16 +861,17 @@ Q5. [Short · 3 marks] If tan(A + B) = √3 and tan(A − B) = 1/√3, with 0° 
       tan(A − B) = 1/√3 gives A − B = 30°.
       Adding: 2A = 90°, so A = 45° and B = 15°.
 
-Q6. [Application · 3 marks] Riya is revising “Introduction to Trigonometry” (Trigonometric ratios, the standard table and identities). A classmate lost marks by doing this: Writing tan 90° = 0. It is not defined. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student simplifies sin(90° − 30°) as sin 90° − sin 30° = 1 − 1/2 = 1/2. What is wrong? Give the correct value and check it a second way.
     Ans:
-      Correct method: Building the sin table: write 0, 1, 2, 3, 4 under 0°, 30°, 45°, 60°, 90°, divide each by 4, then take the square root. The cos row is the sin row read backwards.
-      Why the mistake costs marks: Writing tan 90° = 0. It is not defined.
-      Write the definition or formula first, then the working or example.
+      sin(A − B) is not sin A − sin B; sine does not distribute over a bracket. The angle inside the brackets must be simplified first.
+      sin(90° − 30°) = sin 60° = √3/2.
+      Check with the complementary-angle identity: sin(90° − A) = cos A, so sin 60° = cos 30° = √3/2 ✓.
 
-Q7. [Application · 3 marks] Amit is given this exam-style task from “Introduction to Trigonometry”: “Evaluate sin 60° cos 30° + cos 60° sin 30°.” Treat it as an application question. Identify the idea, then write the working in points.
+Q7. [Application · 3 marks] If 7 sin²θ + 3 cos²θ = 4 and θ is acute, show that tan θ = 1/√3.
     Ans:
-      Idea: Trigonometric ratios, the standard table and identities.
-      (√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4 = 1.
+      Write 7 sin²θ + 3 cos²θ = 3(sin²θ + cos²θ) + 4 sin²θ = 3 + 4 sin²θ.
+      So 3 + 4 sin²θ = 4, which gives sin²θ = 1/4 and sin θ = 1/2 (θ acute), so θ = 30°.
+      Hence tan θ = tan 30° = 1/√3.
 
 Q8. [Short · 3 marks] Prove that (cosec A − sin A)(sec A − cos A) = 1/(tan A + cot A).
     Ans:
@@ -890,36 +887,34 @@ Q9. [Long · 3 marks] Prove that √[(1 + sin A)/(1 − sin A)] = sec A + tan A.
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Introduction to Trigonometry”. Their note says: The six ratios. In a right triangle with respect to an acute angle θ: sin = opposite/hypotenuse, cos = adjacent/hypotenuse, tan = opposite/adjacent. The other three are their reciprocals: cosec, sec, cot.
+    Riya notices from the standard table that sin 30° = cos 60° = 1/2, sin 45° = cos 45° = 1/√2 and sin 60° = cos 30° = √3/2.
     
-    The chapter is described as: Trigonometric ratios, the standard table and identities.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which relation connects each pair of values?
+    (b) Use it to evaluate sin 65° ÷ cos 25° and tan 35° × tan 55°.
+    (c) Why does the table not list a value for tan 90°?
     Ans:
-      (a) Trigonometric ratios, the standard table and identities.
-      (b) Roughly 7–8 of the 12 Trigonometry marks. Identities are worth 3 marks and are asked as proofs.
-      (c) Writing tan 90° = 0. It is not defined.
+      (a) The angles in each pair are complementary: sin(90° − θ) = cos θ.
+      (b) sin 65° = sin(90° − 25°) = cos 25°, so the ratio is 1. tan 55° = cot 35°, so tan 35° × tan 55° = tan 35° × cot 35° = 1.
+      (c) tan 90° = sin 90°/cos 90° = 1/0, which is not defined.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Evaluate sin 60° cos 30° + cos 60° sin 30°.” Student A writes one line. Student B writes points, an example and a check.
+    Meera claims that sin²θ + cos²θ = 1 is true for every angle and that 1 + tan²θ = sec²θ is true for every angle too.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) For which angle from 0° to 90° is her second claim meaningless?
+    (b) Derive 1 + tan²θ = sec²θ from sin²θ + cos²θ = 1.
+    (c) If sec θ = 5/3 and θ is acute, find tan θ.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) (√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4 = 1.
-      (c) Building the sin table: write 0, 1, 2, 3, 4 under 0°, 30°, 45°, 60°, 90°, divide each by 4, then take the square root. The cos row is the sin row read backwards.
+      (a) At θ = 90°, where cos θ = 0, tan θ and sec θ are not defined.
+      (b) Divide sin²θ + cos²θ = 1 by cos²θ (cos θ ≠ 0): tan²θ + 1 = sec²θ.
+      (c) tan²θ = sec²θ − 1 = 25/9 − 1 = 16/9, so tan θ = 4/3.
 
-Q12. [Long · 5 marks] Discuss “Introduction to Trigonometry” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Prove that (sin θ + cosec θ)² + (cos θ + sec θ)² = 7 + tan²θ + cot²θ.
     Ans:
-      The six ratios. In a right triangle with respect to an acute angle θ: sin = opposite/hypotenuse, cos = adjacent/hypotenuse, tan = opposite/adjacent. The other three are their reciprocals: cosec, sec, cot.
-      Marks lens: Roughly 7–8 of the 12 Trigonometry marks. Identities are worth 3 marks and are asked as proofs.
-      Method / memory trick: Building the sin table: write 0, 1, 2, 3, 4 under 0°, 30°, 45°, 60°, 90°, divide each by 4, then take the square root. The cos row is the sin row read backwards.
-      Do not: Writing tan 90° = 0. It is not defined.
+      LHS = sin²θ + cosec²θ + 2 sin θ cosec θ + cos²θ + sec²θ + 2 cos θ sec θ.
+      Since sin θ cosec θ = 1 and cos θ sec θ = 1, the two middle terms give 2 + 2 = 4.
+      So LHS = (sin²θ + cos²θ) + 4 + cosec²θ + sec²θ = 1 + 4 + (1 + cot²θ) + (1 + tan²θ).
+      = 7 + tan²θ + cot²θ = RHS. ∎
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -933,11 +928,11 @@ M2. sin²30° + cos²30° equals: (a) 0  (b) 1/2  (c) 1  (d) 3/4
 M3. tan 45° × cot 45° is: (a) 0  (b) 1  (c) 2  (d) undefined
     Ans: (b) 1. tan and cot are reciprocals.
 
-M4. The most exam-ready way to revise “Introduction to Trigonometry” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Trigonometric ratios, the standard table and identities.
+M4. If cos A = 4/5 and A is acute, then tan A is: (a) 3/4  (b) 4/3  (c) 3/5  (d) 5/3
+    Ans: (a) 3/4. sin A = √(1 − 16/25) = 3/5, so tan A = sin A/cos A = (3/5)/(4/5) = 3/4.
 
-M5. A 3-mark answer on “Introduction to Trigonometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. Which of the following is NOT defined? (a) tan 90°  (b) sin 90°  (c) cos 0°  (d) cot 90°
+    Ans: (a) tan 90°. tan 90° = sin 90°/cos 90° = 1/0. The others are 1, 1 and 0.
 
 M6. The value of sin²60° + 2 tan²45° − cos²30° is: (a) 1  (b) 2  (c) 5/4  (d) 9/4
     Ans: (b) 2. 3/4 + 2(1) − 3/4 = 2.
@@ -965,16 +960,17 @@ Q2. [Short · 3 marks] From the top of a 75 m high lighthouse, the angles of dep
       For the ship at 30°: tan 30° = 75/y, so y = 75√3 m.
       Distance = 75√3 − 75 = 75(√3 − 1) ≈ 54.9 m.
 
-Q3. [Application · 3 marks] Riya is revising “Some Applications of Trigonometry” (Heights and distances — angle of elevation and depression). A classmate lost marks by doing this: Measuring the angle of depression from the vertical. Apply the correct method and rewrite the scoring answer.
+Q3. [Application · 3 marks] A boy whose eyes are 1.5 m above the ground stands 20√3 m from a tower and sees its top at an angle of elevation of 30°. He calculates the height as 20√3 × tan 30° = 20 m and stops. What is missing? Give the correct height.
     Ans:
-      Correct method: Angle of depression equals the angle of elevation from the other end (alternate angles). So a depression problem becomes an elevation problem on a mirrored triangle.
-      Why the mistake costs marks: Measuring the angle of depression from the vertical.
-      Write the definition or formula first, then the working or example.
+      The calculation gives only the height of the tower above his eye level; the 1.5 m from the ground to his eyes must be added back.
+      Height above eye level = 20√3 × (1/√3) = 20 m.
+      Height of the tower = 20 + 1.5 = 21.5 m.
 
-Q4. [Application · 3 marks] Amit is given this exam-style task from “Some Applications of Trigonometry”: “The angle of elevation of the top of a tower from a point 30 m from its foot is 60°. Find the height of the tower.” Treat it as an application question. Identify the idea, then write the working in points.
+Q4. [Application · 3 marks] A 20 m long ladder leans against a wall and makes an angle of 60° with the ground. How high up the wall does it reach, and how far is its foot from the wall? (Take √3 = 1.73.)
     Ans:
-      Idea: Heights and distances — angle of elevation and depression.
-      tan 60° = h/30, so √3 = h/30. h = 30√3 m ≈ 51.96 m.
+      In the right triangle, the ladder is the hypotenuse: height = 20 sin 60° = 20 × √3/2 = 10√3.
+      Height = 10 × 1.73 = 17.3 m.
+      Distance of the foot from the wall = 20 cos 60° = 20 × 1/2 = 10 m.
 
 Q5. [Short · 3 marks] The shadow of a tower is 20 m longer when the sun’s elevation is 30° than when it is 60°. Find the height of the tower.
     Ans:
@@ -1002,29 +998,27 @@ Q8. [Long · 4 marks] A person on the bank of a river sees the top of a tree on 
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Some Applications of Trigonometry”. Their note says: Line of sight is the line from the observer’s eye to the object being observed.
+    From the top of a 12 m high building, the angle of elevation of the top of a cable tower is 60° and the angle of depression of its foot is 30°.
     
-    The chapter is described as: Heights and distances — angle of elevation and depression.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Find the horizontal distance between the building and the tower.
+    (b) Find the height of the tower.
+    (c) Which of the two given angles is measured below the horizontal?
     Ans:
-      (a) Heights and distances — angle of elevation and depression.
-      (b) The remaining 4–5 marks of the 12-mark Trigonometry unit.
-      (c) Measuring the angle of depression from the vertical.
+      (a) Angle of depression of the foot is 30°: tan 30° = 12/d, so d = 12√3 m ≈ 20.8 m.
+      (b) Above the building’s top: tan 60° = (H − 12)/d, so H − 12 = √3 × 12√3 = 36 and H = 48 m.
+      (c) The 30° angle of depression, measured below the horizontal through the observer’s eye.
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “The angle of elevation of the top of a tower from a point 30 m from its foot is 60°. Find the height of the tower.” Student A writes one line. Student B writes points, an example and a check.
+    A drone hovers 60 m above a straight road. Two observers A and B stand on the road on opposite sides of the point directly below the drone. They see it at angles of elevation 30° and 60° respectively.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) How far is A from the point below the drone?
+    (b) How far is B from that point?
+    (c) What is the distance AB? (Take √3 = 1.73.)
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) tan 60° = h/30, so √3 = h/30. h = 30√3 m ≈ 51.96 m.
-      (c) Angle of depression equals the angle of elevation from the other end (alternate angles). So a depression problem becomes an elevation problem on a mirrored triangle.
+      (a) tan 30° = 60/AO, so AO = 60√3 ≈ 103.8 m.
+      (b) tan 60° = 60/BO, so BO = 60/√3 = 20√3 ≈ 34.6 m.
+      (c) AB = AO + BO = 80√3 ≈ 138.4 m.
 
 Q11. [Application · 4 marks] From a point 40 m from the foot of a tower the angle of elevation of its top is 30°. After hoisting a flag on top, the angle of elevation of the top of the flag is 45°. Find the height of the flag.
     Ans:
@@ -1032,12 +1026,13 @@ Q11. [Application · 4 marks] From a point 40 m from the foot of a tower the ang
       Height of tower + flag = 40 tan 45° = 40 m.
       Height of the flag = 40 − 40/√3 = 40(1 − 1/√3) ≈ 16.9 m.
 
-Q12. [Long · 5 marks] Discuss “Some Applications of Trigonometry” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] The angles of elevation of the top of a tower from two points at distances 4 m and 9 m from its base, on the same straight line with the base, are complementary. Prove that the height of the tower is 6 m.
     Ans:
-      Line of sight is the line from the observer’s eye to the object being observed.
-      Marks lens: The remaining 4–5 marks of the 12-mark Trigonometry unit.
-      Method / memory trick: Angle of depression equals the angle of elevation from the other end (alternate angles). So a depression problem becomes an elevation problem on a mirrored triangle.
-      Do not: Measuring the angle of depression from the vertical.
+      Let the tower be h m high. Let the angle of elevation from the point 4 m away be θ; from the point 9 m away it is (90° − θ).
+      From the nearer point: tan θ = h/4.
+      From the farther point: tan(90° − θ) = cot θ = h/9.
+      Multiply: tan θ × cot θ = (h/4)(h/9), so 1 = h²/36.
+      Hence h² = 36 and h = 6 m. ∎
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1051,11 +1046,11 @@ M2. If the angle of elevation of the sun is 45°, the length of the shadow of a 
 M3. From the top of a tower the angle of depression of an object on the ground is 30°. The angle of elevation of the top from that object is: (a) 30°  (b) 45°  (c) 60°  (d) 90°
     Ans: (a) 30°. Alternate angles between parallel horizontals.
 
-M4. The most exam-ready way to revise “Some Applications of Trigonometry” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Heights and distances — angle of elevation and depression.
+M4. If the angle of elevation of the top of a pole from a point 10 m from its foot is 60°, the height of the pole is: (a) 10/√3 m  (b) 10 m  (c) 10√3 m  (d) 20 m
+    Ans: (c) 10√3 m. height = 10 × tan 60° = 10√3 m.
 
-M5. A 3-mark answer on “Some Applications of Trigonometry” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. As an observer walks towards the foot of a tower, the angle of elevation of its top: (a) decreases  (b) stays the same  (c) becomes zero  (d) increases
+    Ans: (d) increases. The horizontal distance falls while the height stays fixed, so tan of the angle (height ÷ distance) grows and the angle increases.
 
 M6. When the shadow of a pole equals its height, the sun’s angle of elevation is: (a) 30°  (b) 45°  (c) 60°  (d) 90°
     Ans: (b) 45°. tan θ = height/shadow = 1, so θ = 45°.
@@ -1092,16 +1087,17 @@ Q4. [Short · 3 marks] Prove that the lengths of tangents drawn from an external
       In ΔOAP and ΔOBP: OA = OB (radii), OP is common, and ∠OAP = ∠OBP = 90° (tangent ⊥ radius).
       By RHS congruence, ΔOAP ≅ ΔOBP, so PA = PB.
 
-Q5. [Application · 3 marks] Riya is revising “Circles” (Tangents to a circle and the number of tangents from a point). A classmate lost marks by doing this: Forgetting to state that the radius is perpendicular to the tangent — that is a marked step. Apply the correct method and rewrite the scoring answer.
+Q5. [Application · 3 marks] A student says, “From every point P in the plane, exactly two equal tangents can be drawn to a given circle.” Test the claim for a point outside the circle, on the circle and inside the circle.
     Ans:
-      Correct method: Always join the centre to the point of contact. That creates the right angle you need, and it is the first line of almost every proof here.
-      Why the mistake costs marks: Forgetting to state that the radius is perpendicular to the tangent — that is a marked step.
-      Write the definition or formula first, then the working or example.
+      P outside the circle: exactly two tangents can be drawn, and their lengths are equal.
+      P on the circle: exactly one tangent can be drawn (at P itself); there is no pair of tangents.
+      P inside the circle: no tangent exists, since every line through P cuts the circle in two points. So the claim holds only for an external point.
 
-Q6. [Application · 3 marks] Amit is given this exam-style task from “Circles”: “How many tangents can be drawn from a point inside a circle?” Treat it as an application question. Identify the idea, then write the working in points.
+Q6. [Application · 3 marks] The tangent at a point P of a circle of radius 5 cm meets a line through the centre O at Q, where OQ = 12 cm. Find the length PQ.
     Ans:
-      Idea: Tangents to a circle and the number of tangents from a point.
-      None. A line through an interior point must cut the circle at two points.
+      The tangent at P is perpendicular to the radius OP, so ∠OPQ = 90°.
+      In the right triangle OPQ: PQ² = OQ² − OP² = 144 − 25 = 119.
+      PQ = √119 cm ≈ 10.9 cm.
 
 Q7. [Short · 3 marks] Prove that a chord of the larger of two concentric circles which touches the smaller circle is bisected at the point of contact.
     Ans:
@@ -1126,36 +1122,35 @@ Q9. [Long · 4 marks] A quadrilateral ABCD circumscribes a circle. Prove that AB
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Circles”. Their note says: Tangent. A line that touches the circle at exactly one point. That point is the point of contact.
+    From an external point T, two tangents TP and TQ are drawn to a circle with centre O. It is given that ∠PTQ = 70°.
     
-    The chapter is described as: Tangents to a circle and the number of tangents from a point.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) State why ∠OPT = 90°.
+    (b) Find ∠POQ.
+    (c) Find ∠OPQ.
     Ans:
-      (a) Tangents to a circle and the number of tangents from a point.
-      (b) The rest of the 15-mark Geometry unit, roughly 5–6 marks.
-      (c) Forgetting to state that the radius is perpendicular to the tangent — that is a marked step.
+      (a) The tangent at a point is perpendicular to the radius through the point of contact.
+      (b) In quadrilateral OPTQ, ∠OPT = ∠OQT = 90°, so ∠POQ = 360° − 90° − 90° − 70° = 110°.
+      (c) TP = TQ, so in ΔTPQ, ∠TPQ = (180° − 70°)/2 = 55°. Then ∠OPQ = ∠OPT − ∠TPQ = 90° − 55° = 35°.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “How many tangents can be drawn from a point inside a circle?” Student A writes one line. Student B writes points, an example and a check.
+    A circle is inscribed in ΔABC and touches the sides BC, CA and AB at D, E and F respectively. AB = 12 cm, BC = 8 cm and CA = 10 cm.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Which tangent lengths are equal?
+    (b) Find AF, BD and CE.
+    (c) Verify your answers against the three given sides.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) None. A line through an interior point must cut the circle at two points.
-      (c) Always join the centre to the point of contact. That creates the right angle you need, and it is the first line of almost every proof here.
+      (a) Tangents from one point are equal: AF = AE, BF = BD and CD = CE.
+      (b) Let AF = x, BD = y, CE = z. Then x + y = 12, y + z = 8, z + x = 10, so x + y + z = 15. Hence AF = 7 cm, BD = 5 cm, CE = 3 cm.
+      (c) AB = AF + FB = 7 + 5 = 12 ✓; BC = BD + DC = 5 + 3 = 8 ✓; CA = CE + EA = 3 + 7 = 10 ✓.
 
-Q12. [Long · 5 marks] Discuss “Circles” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact.
     Ans:
-      Tangent. A line that touches the circle at exactly one point. That point is the point of contact.
-      Marks lens: The rest of the 15-mark Geometry unit, roughly 5–6 marks.
-      Method / memory trick: Always join the centre to the point of contact. That creates the right angle you need, and it is the first line of almost every proof here.
-      Do not: Forgetting to state that the radius is perpendicular to the tangent — that is a marked step.
+      Given: a circle with centre O and a tangent XY touching it at P. To prove: OP ⊥ XY.
+      Take any other point Q on XY and join OQ.
+      The tangent meets the circle only at P, so Q lies outside the circle. Hence OQ is longer than the radius: OQ > OP.
+      This is true for every point Q other than P on XY, so OP is the shortest distance from O to the line XY.
+      The shortest distance from a point to a line is the perpendicular, so OP ⊥ XY. ∎
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1169,11 +1164,11 @@ M2. The angle between a tangent and the radius at the point of contact is: (a) 4
 M3. Two tangents from an external point to a circle are: (a) unequal  (b) equal  (c) always perpendicular  (d) parallel
     Ans: (b) Equal.
 
-M4. The most exam-ready way to revise “Circles” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Tangents to a circle and the number of tangents from a point.
+M4. A tangent to a circle meets the circle in: (a) no point  (b) exactly one point  (c) exactly two points  (d) infinitely many points
+    Ans: (b) exactly one point. By definition, a tangent touches the circle at exactly one point, the point of contact.
 
-M5. A 3-mark answer on “Circles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. If the angle between two tangents drawn from an external point P to a circle of radius a and centre O is 60°, then OP = (a) 2a  (b) a√3  (c) a√2  (d) a/2
+    Ans: (a) 2a. ∠APB = 60° gives ∠APO = 30° and, in right triangle OAP, OA = OP sin 30°, so OP = a/(1/2) = 2a.
 
 M6. The number of tangents that can be drawn from a point outside a circle is: (a) 1  (b) 2  (c) 3  (d) infinite
     Ans: (b) 2. Exactly two, and they are equal in length.
@@ -1206,16 +1201,17 @@ Q4. [Short · 3 marks] Find the perimeter of a sector with radius 14 cm and cent
       Arc = (90/360) × 2 × (22/7) × 14 = (1/4) × 88 = 22 cm.
       Perimeter = 2(14) + 22 = 50 cm.
 
-Q5. [Application · 3 marks] Riya is revising “Areas Related to Circles” (Sectors, segments and combined figures). A classmate lost marks by doing this: Forgetting to add the two radii to the perimeter of a sector. Apply the correct method and rewrite the scoring answer.
+Q5. [Application · 3 marks] A student finds the area of a circular pond of diameter 28 m as (22/7) × 28² = 2464 m². Identify the error and give the correct area.
     Ans:
-      Correct method: Perimeter of a sector is 2r + arc, not just the arc. Missing the two radii is the most common error here.
-      Why the mistake costs marks: Forgetting to add the two radii to the perimeter of a sector.
-      Write the definition or formula first, then the working or example.
+      Error: the formula πr² needs the radius, but the student substituted the diameter 28 m.
+      Radius = 28 ÷ 2 = 14 m.
+      Area = (22/7) × 14² = (22/7) × 196 = 616 m² (one-fourth of the wrong value).
 
-Q6. [Application · 3 marks] Amit is given this exam-style task from “Areas Related to Circles”: “Find the length of an arc of a sector with radius 21 cm and central angle 120°.” Treat it as an application question. Identify the idea, then write the working in points.
+Q6. [Application · 3 marks] A horse is tied to a peg at one corner of a square field of side 15 m by a rope 5 m long. Find the area of the field over which the horse can graze. (Take π = 3.14.)
     Ans:
-      Idea: Sectors, segments and combined figures.
-      Arc = (120/360) × 2 × (22/7) × 21 = (1/3) × 132 = 44 cm.
+      The horse can reach points within 5 m of the corner, but only inside the field, which spans a 90° angle at that corner.
+      So the grazing region is a quadrant (sector of 90°) of radius 5 m.
+      Area = (90/360) × 3.14 × 5² = ¼ × 78.5 = 19.625 m².
 
 Q7. [Short · 3 marks] Find the area of the minor segment of a circle of radius 14 cm whose central angle is 90° (π = 22/7).
     Ans:
@@ -1231,29 +1227,27 @@ Q8. [Long · 4 marks] A square of side 14 cm has a circle inscribed in it. Find 
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Areas Related to Circles”. Their note says: Sector. The region between two radii and the arc joining their endpoints. The angle at the centre is θ.
+    A pizza of radius 14 cm is cut into 8 equal slices. (Take π = 22/7.)
     
-    The chapter is described as: Sectors, segments and combined figures.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) What is the central angle of each slice?
+    (b) What is the area of one slice?
+    (c) What is the perimeter of one slice, counting both straight edges?
     Ans:
-      (a) Sectors, segments and combined figures.
-      (b) Part of the 10-mark Mensuration unit, roughly 4–5 marks.
-      (c) Forgetting to add the two radii to the perimeter of a sector.
+      (a) 360° ÷ 8 = 45°.
+      (b) Area = (45/360) × (22/7) × 14² = ⅛ × 616 = 77 cm².
+      (c) Arc length = (45/360) × 2 × (22/7) × 14 = ⅛ × 88 = 11 cm. Perimeter = 11 + 14 + 14 = 39 cm.
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Find the length of an arc of a sector with radius 21 cm and central angle 120°.” Student A writes one line. Student B writes points, an example and a check.
+    A circular park of radius 14 m is surrounded by a path 7 m wide. (Take π = 22/7.)
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) What is the outer radius of the path?
+    (b) What is the area of the path?
+    (c) What is the cost of paving it at Rs 40 per m²?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Arc = (120/360) × 2 × (22/7) × 21 = (1/3) × 132 = 44 cm.
-      (c) Perimeter of a sector is 2r + arc, not just the arc. Missing the two radii is the most common error here.
+      (a) Outer radius = 14 + 7 = 21 m.
+      (b) Area of path = π(21² − 14²) = (22/7)(441 − 196) = (22/7) × 245 = 770 m².
+      (c) Cost = 770 × 40 = Rs 30,800.
 
 Q11. [Application · 4 marks] Two circles touch externally. The sum of their areas is 130π cm² and the distance between their centres is 14 cm. Find their radii.
     Ans:
@@ -1262,12 +1256,11 @@ Q11. [Application · 4 marks] Two circles touch externally. The sum of their are
       (r₁ + r₂)² = r₁² + r₂² + 2r₁r₂ ⇒ 196 = 130 + 2r₁r₂ ⇒ r₁r₂ = 33.
       So r₁ and r₂ are roots of t² − 14t + 33 = 0, giving 11 cm and 3 cm.
 
-Q12. [Long · 5 marks] Discuss “Areas Related to Circles” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] The minute hand of a clock is 14 cm long. Find (i) the angle it turns in 10 minutes, (ii) the distance moved by its tip in that time and (iii) the area swept by the hand. (Take π = 22/7.)
     Ans:
-      Sector. The region between two radii and the arc joining their endpoints. The angle at the centre is θ.
-      Marks lens: Part of the 10-mark Mensuration unit, roughly 4–5 marks.
-      Method / memory trick: Perimeter of a sector is 2r + arc, not just the arc. Missing the two radii is the most common error here.
-      Do not: Forgetting to add the two radii to the perimeter of a sector.
+      (i) The minute hand turns 360° in 60 minutes, so in 10 minutes it turns 60°.
+      (ii) The tip moves along an arc of a circle of radius 14 cm: arc = (60/360) × 2 × (22/7) × 14 = ⅙ × 88 = 44/3 cm ≈ 14.67 cm.
+      (iii) The hand sweeps a sector of angle 60°: area = (60/360) × (22/7) × 14² = ⅙ × 616 = 308/3 cm² ≈ 102.67 cm².
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1281,11 +1274,11 @@ M2. The perimeter of a sector includes: (a) only the arc  (b) the arc and one ra
 M3. The area of a segment is found by: (a) sector − triangle  (b) sector + triangle  (c) circle − sector  (d) triangle − sector
     Ans: (a) Sector − triangle.
 
-M4. The most exam-ready way to revise “Areas Related to Circles” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Sectors, segments and combined figures.
+M4. The length of the arc of a sector of angle θ in a circle of radius r is: (a) (θ/360°) × πr²  (b) (θ/180°) × πr²  (c) (θ/360°) × 2πr  (d) (θ/360°) × 2r
+    Ans: (c) (θ/360°) × 2πr. The arc is the fraction θ/360° of the whole circumference 2πr.
 
-M5. A 3-mark answer on “Areas Related to Circles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. The area of a sector of a circle of radius 7 cm with central angle 90° is (π = 22/7): (a) 77 cm²  (b) 154 cm²  (c) 19.25 cm²  (d) 38.5 cm²
+    Ans: (d) 38.5 cm². Area = (90/360) × (22/7) × 7² = ¼ × 154 = 38.5 cm².
 
 M6. The area of a circle whose circumference is 44 cm is: (a) 77 cm²  (b) 154 cm²  (c) 308 cm²  (d) 616 cm²
     Ans: (b) 154 cm². 2πr = 44 gives r = 7 cm, so the area is πr² = 154 cm².
@@ -1320,16 +1313,17 @@ Q3. [Short · 3 marks] A solid metallic sphere of radius 4.2 cm is melted and re
       (4/3)π(4.2)³ = π(6)²h.
       h = (4 × 74.088)/(3 × 36) = 296.352/108 ≈ 2.74 cm.
 
-Q4. [Application · 3 marks] Riya is revising “Surface Areas and Volumes” (Combinations of solids, conversion of solids, and the frustum). A classmate lost marks by doing this: Including the joining face in the total surface area. Apply the correct method and rewrite the scoring answer.
+Q4. [Application · 3 marks] A student finds the volume of a cone with r = 7 cm and h = 12 cm as (22/7) × 7² × 12 = 1848 cm³. Identify the error and give the correct volume.
     Ans:
-      Correct method: Hemisphere on top of a cuboid or cylinder: the flat circular base of the hemisphere is not part of the outer surface. Use only its curved area, 2πr².
-      Why the mistake costs marks: Including the joining face in the total surface area.
-      Write the definition or formula first, then the working or example.
+      Error: that is the volume of the cylinder of the same base and height. A cone holds one-third of it.
+      Correct formula: V = ⅓πr²h.
+      V = ⅓ × 1848 = 616 cm³.
 
-Q5. [Application · 3 marks] Amit is given this exam-style task from “Surface Areas and Volumes”: “A solid consists of a cylinder with a hemisphere on one end and a cone on the other, all of radius 7 cm. The cylinder is 20 cm high, the cone 12 cm high. Find the total surface area (take π = 22/7).” Treat it as an application question. Identify the idea, then write the working in points.
+Q5. [Application · 3 marks] A toy is a cone mounted on a hemisphere of the same base radius 3.5 cm. The total height of the toy is 15.5 cm. Find its total surface area. (Take π = 22/7.)
     Ans:
-      Idea: Combinations of solids, conversion of solids, and the frustum.
-      Cylinder CSA = 2 × (22/7) × 7 × 20 = 880 cm². Hemisphere CSA = 2 × (22/7) × 49 = 308 cm². Cone slant height l = √(7² + 12²) = √193 ≈ 13.89 cm, so cone CSA = (22/7) × 7 × 13.89 ≈ 305.6 cm². Total ≈ 880 + 308 + 305.6 = 1493.6 cm². The two circular joining faces are not counted.
+      Height of the cone = 15.5 − 3.5 = 12 cm, so slant height l = √(3.5² + 12²) = √156.25 = 12.5 cm.
+      Curved surface of the cone = πrl = (22/7) × 3.5 × 12.5 = 137.5 cm²; curved surface of the hemisphere = 2πr² = 77 cm².
+      Total surface area = 137.5 + 77 = 214.5 cm². (The joining circle is inside, so it is not counted.)
 
 Q6. [Short · 3 marks] A cylindrical bucket 32 cm high with base radius 18 cm is emptied to form a conical heap of sand 24 cm high. Find the radius of the heap.
     Ans:
@@ -1356,29 +1350,27 @@ Q9. [Long · 4 marks] A frustum of a cone has radii 14 cm and 7 cm and height 24
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Surface Areas and Volumes”. Their note says: Combinations of solids. A solid made of two or more basic solids. Total surface area = sum of the curved/lateral surface areas actually exposed. Where two solids join, the joining face is not part of the outer surface.
+    A cylindrical water tank has a diameter of 4 m and a height of 7 m. (Take π = 22/7.)
     
-    The chapter is described as: Combinations of solids, conversion of solids, and the frustum.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Find its volume in m³.
+    (b) How many litres can it hold? (1 m³ = 1000 litres)
+    (c) A family uses 400 litres a day. For how many days will a full tank last?
     Ans:
-      (a) Combinations of solids, conversion of solids, and the frustum.
-      (b) The rest of the 10-mark Mensuration unit, roughly 5–6 marks.
-      (c) Including the joining face in the total surface area.
+      (a) r = 2 m, so V = πr²h = (22/7) × 4 × 7 = 88 m³.
+      (b) 88 × 1000 = 88,000 litres.
+      (c) 88,000 ÷ 400 = 220 days.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “A solid consists of a cylinder with a hemisphere on one end and a cone on the other, all of radius 7 cm. The cylinder is 20 cm high, the cone 12 cm high. Find the total surface area (take π = 22/7).” Student A writes one line. Student B writes points, an example and a check.
+    A metal cuboid of dimensions 44 cm × 21 cm × 12 cm is melted and recast into a solid cylinder of radius 7 cm. (Take π = 22/7.)
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Find the volume of the cuboid.
+    (b) Find the height of the cylinder.
+    (c) Why is the volume, and not the surface area, equated?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Cylinder CSA = 2 × (22/7) × 7 × 20 = 880 cm². Hemisphere CSA = 2 × (22/7) × 49 = 308 cm². Cone slant height l = √(7² + 12²) = √193 ≈ 13.89 cm, so cone CSA = (22/7) × 7 × 13.89 ≈ 305.6 cm². Total ≈ 880 + 308 + 305.6 = 1493.6 cm². The two circular joining faces are not counted.
-      (c) Hemisphere on top of a cuboid or cylinder: the flat circular base of the hemisphere is not part of the outer surface. Use only its curved area, 2πr².
+      (a) V = 44 × 21 × 12 = 11,088 cm³.
+      (b) πr²h = 11,088, so (22/7) × 49 × h = 11,088, i.e. 154h = 11,088 and h = 72 cm.
+      (c) Melting and recasting changes the shape but not the amount of metal, so the volume is conserved; the surface area changes.
 
 Q12. [Application · 4 marks] A drinking glass is shaped like a frustum of a cone with height 14 cm and end diameters 4 cm and 2 cm. Find its capacity.
     Ans:
@@ -1398,11 +1390,11 @@ M2. When a solid is melted and recast into another shape, which quantity is cons
 M3. The slant height of a frustum with radii R and r and height h is: (a) √[h² + (R + r)²]  (b) √[h² + (R − r)²]  (c) h + R + r  (d) √(R² − r²)
     Ans: (b) √[h² + (R − r)²].
 
-M4. The most exam-ready way to revise “Surface Areas and Volumes” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Combinations of solids, conversion of solids, and the frustum.
+M4. The total surface area of a solid hemisphere of radius r is: (a) 2πr²  (b) 4πr²  (c) 3πr²  (d) πr²
+    Ans: (c) 3πr². Curved surface 2πr² plus the flat circular face πr² gives 3πr².
 
-M5. A 3-mark answer on “Surface Areas and Volumes” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. If the radius of a sphere is doubled, its volume becomes: (a) 2 times  (b) 4 times  (c) 6 times  (d) 8 times
+    Ans: (d) 8 times. V = (4/3)πr³, so doubling r multiplies the volume by 2³ = 8.
 
 M6. The curved surface area of a cylinder of radius r and height h is: (a) 2πrh  (b) πr²h  (c) 2πr(r + h)  (d) πrl
     Ans: (a) 2πrh. 2πr(r + h) is the total surface area and πr²h is the volume.
@@ -1439,16 +1431,17 @@ Q4. [Short · 3 marks] Find the mode of the data: 10–20 (f = 3), 20–30 (f = 
       l = 20, f₁ = 12, f₀ = 3, f₂ = 9, h = 10.
       Mode = 20 + [(12 − 3)/(24 − 3 − 9)] × 10 = 20 + (9/12) × 10 = 20 + 7.5 = 27.5.
 
-Q5. [Application · 3 marks] Riya is revising “Statistics” (Mean, median and mode of grouped data, and ogives). A classmate lost marks by doing this: Using class limits instead of class marks in the mean. Apply the correct method and rewrite the scoring answer.
+Q5. [Application · 3 marks] A student finds the mean of the data 0–10 (f = 4) and 10–20 (f = 6) using the upper limits 10 and 20 as x. Find the error, and give the correct mean.
     Ans:
-      Correct method: Median class vs modal class are different things. Median comes from the cumulative frequency crossing N/2; mode comes from the largest frequency.
-      Why the mistake costs marks: Using class limits instead of class marks in the mean.
-      Write the definition or formula first, then the working or example.
+      Error: for grouped data, x must be the class mark (the midpoint of the class), not a class limit.
+      Class marks are 5 and 15, so the mean = (4 × 5 + 6 × 15)/(4 + 6) = (20 + 90)/10.
+      Mean = 11. The upper-limit method would have wrongly given (40 + 120)/10 = 16.
 
-Q6. [Application · 3 marks] Amit is given this exam-style task from “Statistics”: “Find the class mark of the class 25–35.” Treat it as an application question. Identify the idea, then write the working in points.
+Q6. [Application · 3 marks] The daily wages of 40 workers are: Rs 100–200: 8, 200–300: 12, 300–400: 10, 400–500: 6, 500–600: 4. Form the “more than” cumulative frequency table and find how many workers earn Rs 400 or more.
     Ans:
-      Idea: Mean, median and mode of grouped data, and ogives.
-      Class mark = (25 + 35)/2 = 30.
+      A “more than” table lists the number of workers with wages at or above each lower limit.
+      More than 100: 40; more than 200: 32; more than 300: 20; more than 400: 10; more than 500: 4.
+      Workers earning Rs 400 or more: 10 (6 + 4).
 
 Q7. [Long · 4 marks] Find the median of the distribution: 0–10 (f = 4), 10–20 (f = 6), 20–30 (f = 10), 30–40 (f = 8), 40–50 (f = 2).
     Ans:
@@ -1467,29 +1460,27 @@ Q8. [Long · 4 marks] The mean of the distribution 0–10 (f = 5), 10–20 (f = 
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Statistics”. Their note says: Grouped data. Data arranged in class intervals with frequencies. For calculations, each class is represented by its class mark xᵢ = (upper limit + lower limit)/2.
+    The weekly hours of study of 40 students are: 0–10: 5 students, 10–20: 8, 20–30: 14, 30–40: 9, 40–50: 4.
     
-    The chapter is described as: Mean, median and mode of grouped data, and ogives.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Write the class marks.
+    (b) Find the mean.
+    (c) Which is the modal class, and why?
     Ans:
-      (a) Mean, median and mode of grouped data, and ogives.
-      (b) Most of the 11-mark Statistics and Probability unit, roughly 7–8 marks.
-      (c) Using class limits instead of class marks in the mean.
+      (a) 5, 15, 25, 35, 45.
+      (b) Σfx = 5×5 + 8×15 + 14×25 + 9×35 + 4×45 = 25 + 120 + 350 + 315 + 180 = 990, so mean = 990/40 = 24.75 hours.
+      (c) The modal class is 20–30, because it has the highest frequency (14).
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Find the class mark of the class 25–35.” Student A writes one line. Student B writes points, an example and a check.
+    In a survey, the mean daily screen time of students is 3.4 hours and the median is 3.2 hours.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Find the mode using the empirical relation.
+    (b) What does the order mean > median > mode suggest about the data?
+    (c) Which measure would you report if a few students have extremely long screen times, and why?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Class mark = (25 + 35)/2 = 30.
-      (c) Median class vs modal class are different things. Median comes from the cumulative frequency crossing N/2; mode comes from the largest frequency.
+      (a) Mode = 3 × median − 2 × mean = 3(3.2) − 2(3.4) = 9.6 − 6.8 = 2.8 hours.
+      (b) The data are skewed to the right: a few large values pull the mean above the median and mode.
+      (c) The median, because it is not affected by extreme values, while the mean is.
 
 Q11. [Long · 4 marks] Find the mean of this data by the step-deviation method: 0–20 (f = 7), 20–40 (f = 12), 40–60 (f = 16), 60–80 (f = 13), 80–100 (f = 12).
     Ans:
@@ -1515,11 +1506,11 @@ M2. The median class is the class whose cumulative frequency is: (a) equal to N/
 M3. If mean = 20 and mode = 26, then by the empirical relation the median is: (a) 22  (b) 22.67  (c) 23  (d) 24
     Ans: (a) 22. 3 Median = 26 + 2(20) = 66, so Median = 22.
 
-M4. The most exam-ready way to revise “Statistics” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Mean, median and mode of grouped data, and ogives.
+M4. In grouped data, the mean is calculated using the class marks because: (a) the class limits are never known  (b) every observation of a class is assumed to lie at its midpoint  (c) it always makes the mean larger  (d) the frequencies are not required
+    Ans: (b) every observation of a class is assumed to lie at its midpoint. The individual values inside a class are unknown, so each is represented by the class mark.
 
-M5. A 3-mark answer on “Statistics” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. In the mode formula l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, the symbol f₁ stands for: (a) the frequency of the modal class  (b) the frequency of the class before the modal class  (c) the frequency of the class after the modal class  (d) the total of all frequencies
+    Ans: (a) the frequency of the modal class. f₁ is the frequency of the modal class; f₀ and f₂ are those of the classes just before and just after it.
 
 M6. The mode of 3, 5, 7, 5, 9, 5, 8 is: (a) 3  (b) 5  (c) 7  (d) 9
     Ans: (b) 5. It occurs three times, more than any other value.
@@ -1564,16 +1555,17 @@ Q6. [Short · 3 marks] A card is drawn at random from a well-shuffled deck. Find
       (ii) Red cards are 26, of which 2 are kings. Neither a king nor red means a black card that is not a king: 26 − 2 = 24.
       P = 24/52 = 6/13.
 
-Q7. [Application · 3 marks] Riya is revising “Probability” (Classical probability, complementary events, dice, cards and coins). A classmate lost marks by doing this: Forgetting that a die has 6 outcomes, not 6 faces times something — and that two dice have 36, not 12. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student says, “Two dice are thrown, so there are 6 + 6 = 12 outcomes and P(sum = 7) = 6/12 = 1/2.” Find the error and give the correct probability.
     Ans:
-      Correct method: Always write the total number of outcomes first. Half of all probability errors are wrong totals, not wrong favourable counts.
-      Why the mistake costs marks: Forgetting that a die has 6 outcomes, not 6 faces times something — and that two dice have 36, not 12.
-      Write the definition or formula first, then the working or example.
+      Error: each die has 6 outcomes, so two dice have 6 × 6 = 36 outcomes, not 12.
+      Favourable outcomes for a sum of 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — 6 outcomes.
+      P(sum = 7) = 6/36 = 1/6.
 
-Q8. [Application · 3 marks] Amit is given this exam-style task from “Probability”: “A card is drawn from a well-shuffled deck. What is the probability that it is a red king?” Treat it as an application question. Identify the idea, then write the working in points.
+Q8. [Application · 3 marks] A die has the letters A, B, C, D, E, A on its six faces. It is thrown once. Find the probability of getting (i) the letter A and (ii) the letter D.
     Ans:
-      Idea: Classical probability, complementary events, dice, cards and coins.
-      There are 2 red kings, so P = 2/52 = 1/26.
+      There are 6 equally likely outcomes.
+      (i) The letter A appears on 2 faces, so P(A) = 2/6 = 1/3.
+      (ii) The letter D appears on 1 face, so P(D) = 1/6.
 
 Q9. [Short · 3 marks] Two coins are tossed together. Find the probability of getting (i) two heads, (ii) at least one tail, (iii) at most one head.
     Ans:
@@ -1584,29 +1576,27 @@ Q9. [Short · 3 marks] Two coins are tossed together. Find the probability of ge
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Probability”. Their note says: Classical definition. P(E) = (number of outcomes favourable to E) / (total number of possible outcomes), assuming all outcomes are equally likely.
+    A bag contains 5 red, 8 white and 7 black balls. One ball is drawn at random.
     
-    The chapter is described as: Classical probability, complementary events, dice, cards and coins.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Find the probability that it is red.
+    (b) Find the probability that it is not white.
+    (c) Find the probability that it is black or white.
     Ans:
-      (a) Classical probability, complementary events, dice, cards and coins.
-      (b) The remaining 3–4 marks of the 11-mark unit.
-      (c) Forgetting that a die has 6 outcomes, not 6 faces times something — and that two dice have 36, not 12.
+      (a) Total balls = 20, so P(red) = 5/20 = 1/4.
+      (b) P(not white) = 1 − 8/20 = 12/20 = 3/5.
+      (c) P(black or white) = (7 + 8)/20 = 15/20 = 3/4.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “A card is drawn from a well-shuffled deck. What is the probability that it is a red king?” Student A writes one line. Student B writes points, an example and a check.
+    In a school raffle, 200 tickets numbered 1 to 200 are sold and one ticket is drawn at random.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) What is the probability that the number is a multiple of 10?
+    (b) What is the probability that it is a perfect square?
+    (c) What is the probability that it is not a multiple of 5?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) There are 2 red kings, so P = 2/52 = 1/26.
-      (c) Always write the total number of outcomes first. Half of all probability errors are wrong totals, not wrong favourable counts.
+      (a) Multiples of 10 up to 200: 20, so P = 20/200 = 1/10.
+      (b) Perfect squares up to 200: 1², 2², …, 14² (14² = 196), so 14 of them and P = 14/200 = 7/100.
+      (c) Multiples of 5: 40, so P(not a multiple of 5) = 1 − 40/200 = 4/5.
 
 Q12. [Application · 4 marks] A box contains 90 discs numbered 1 to 90. One disc is drawn at random. Find the probability that it bears (i) a two-digit number, (ii) a number divisible by 5, (iii) a perfect square number.
     Ans:
@@ -1614,12 +1604,13 @@ Q12. [Application · 4 marks] A box contains 90 discs numbered 1 to 90. One disc
       (ii) Multiples of 5 from 5 to 90: 18 numbers, so P = 18/90 = 1/5.
       (iii) Perfect squares: 1, 4, 9, 16, 25, 36, 49, 64, 81 — nine numbers, so P = 9/90 = 1/10.
 
-Q13. [Long · 5 marks] Discuss “Probability” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q13. [Long · 5 marks] Two dice are thrown together. Find the probability that (i) the sum is less than 5, (ii) the product of the numbers is 12, (iii) a doublet is obtained, (iv) the sum is a prime number.
     Ans:
-      Classical definition. P(E) = (number of outcomes favourable to E) / (total number of possible outcomes), assuming all outcomes are equally likely.
-      Marks lens: The remaining 3–4 marks of the 11-mark unit.
-      Method / memory trick: Always write the total number of outcomes first. Half of all probability errors are wrong totals, not wrong favourable counts.
-      Do not: Forgetting that a die has 6 outcomes, not 6 faces times something — and that two dice have 36, not 12.
+      The sample space has 6 × 6 = 36 equally likely outcomes.
+      (i) Sum 2, 3 or 4: 1 + 2 + 3 = 6 outcomes, so P = 6/36 = 1/6.
+      (ii) Product 12: (2,6), (3,4), (4,3), (6,2) — 4 outcomes, so P = 4/36 = 1/9.
+      (iii) Doublets (1,1) … (6,6): 6 outcomes, so P = 6/36 = 1/6.
+      (iv) Prime sums 2, 3, 5, 7, 11 occur 1 + 2 + 4 + 6 + 2 = 15 times, so P = 15/36 = 5/12.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1633,11 +1624,11 @@ M2. Two dice are thrown together. The total number of outcomes is: (a) 6  (b) 12
 M3. The number of face cards in a deck of 52 cards is: (a) 8  (b) 12  (c) 16  (d) 4
     Ans: (b) 12. Jacks, queens and kings of four suits.
 
-M4. The most exam-ready way to revise “Probability” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Classical probability, complementary events, dice, cards and coins.
+M4. A bag has 4 red and 6 blue balls. The probability that a ball drawn at random is not red is: (a) 2/5  (b) 3/5  (c) 4/6  (d) 1/6
+    Ans: (b) 3/5. Blue balls = 6 out of 10, so P(not red) = 6/10 = 3/5.
 
-M5. A 3-mark answer on “Probability” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. The probability of getting an even prime number in one throw of a die is: (a) 1/2  (b) 1/3  (c) 0  (d) 1/6
+    Ans: (d) 1/6. The only even prime is 2, which is one of the six equally likely outcomes.
 
 M6. In one throw of a die, the probability of getting a number less than 7 is: (a) 0  (b) 1/6  (c) 5/6  (d) 1
     Ans: (d) 1. Every outcome 1–6 is less than 7, so it is a sure event.

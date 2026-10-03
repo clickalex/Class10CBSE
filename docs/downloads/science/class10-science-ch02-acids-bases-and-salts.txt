@@ -32,16 +32,17 @@ Q5. [Short · 3 marks] Why is plaster of Paris written as CaSO4·½H2O? Is it po
 Q6. [Short · 3 marks] A milkman adds a very small amount of baking soda to fresh milk. Why does the milk take longer to set as curd?
     Ans: The baking soda makes the milk slightly alkaline, so the lactic acid produced by bacteria is first neutralised before the pH can fall low enough to coagulate the casein. Setting is therefore delayed.
 
-Q7. [Application · 3 marks] Riya is revising “Acids, Bases and Salts” (pH scale, indicators, and the four commercially important salts). A classmate lost marks by doing this: Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student writes: “The setting of plaster of Paris into a hard mass is only a physical change because nothing new is made.” Correct the statement with the chemical equation.
     Ans:
-      Correct method: pH memory: the scale counts down as acidity goes up. pH 2 is a hundred times more acidic than pH 4 (each unit is a factor of ten).
-      Why the mistake costs marks: Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic.
-      Write the definition or formula first, then the working or example.
+      Setting is a chemical change: plaster of Paris combines with water to form a new compound, gypsum.
+      CaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O (gypsum, a hard solid mass).
+      This is why POP is stored in moisture-proof containers: damp air would make it set. Its uses include casting for fractured bones and making toys and decorative material.
 
-Q8. [Application · 3 marks] Amit is given this exam-style task from “Acids, Bases and Salts”: “Why does dry HCl gas not change the colour of dry litmus paper?” Treat it as an application question. Identify the idea, then write the working in points.
+Q8. [Application · 3 marks] The soil in a field has a pH of 5.2. What should the farmer add to it, and why? Name one common material.
     Ans:
-      Idea: pH scale, indicators, and the four commercially important salts.
-      Because acidic behaviour requires the formation of H+(aq) ions, which needs water. Dry HCl gas has no water, so it does not ionise and cannot affect dry litmus.
+      A pH of 5.2 means the soil is acidic, while most crops grow best at about pH 6.5–7.5.
+      The farmer should add a base such as quicklime (CaO), slaked lime Ca(OH)₂ or chalk (CaCO₃).
+      The base neutralises the excess acid (acid + base → salt + water), which raises the pH towards neutral.
 
 Q9. [Short · 3 marks] How is bleaching powder prepared? Write the equation and two uses.
     Ans:
@@ -51,29 +52,27 @@ Q9. [Short · 3 marks] How is bleaching powder prepared? Write the equation and 
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Acids, Bases and Salts”. Their note says: What makes an acid an acid. Acids produce H+(aq) ions in water; bases produce OH−(aq) ions. Distillation water does not conduct electricity, but adding an acid or base makes it conduct, because the ions are the charge carriers. Note: dry HCl gas does not turn dry blue litmus red — water is needed fo
+    Four solutions P, Q, R and S have pH values 2, 6, 8 and 13 respectively.
     
-    The chapter is described as: pH scale, indicators, and the four commercially important salts.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which is the strongest acid and which is the strongest base?
+    (b) Which solution would you use to relieve a bee sting, and why not the strongest base?
+    (c) How many times greater is the hydrogen-ion concentration of P than that of Q?
     Ans:
-      (a) pH scale, indicators, and the four commercially important salts.
-      (b) –5 marks. A pH/reasoning question (2), a salt-family question such as bleaching powder or plaster of Paris (2–3), and one indicator or neutralisation question.
-      (c) Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic.
+      (a) P (pH 2) is the strongest acid; S (pH 13) is the strongest base.
+      (b) R (pH 8), a mild base like baking-soda solution, neutralises the acid (methanoic acid) of the sting. S would be too strong and would burn the skin.
+      (c) Each pH unit is a factor of 10, and P and Q differ by 4 units, so P has 10⁴ = 10,000 times the hydrogen-ion concentration of Q.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Why does dry HCl gas not change the colour of dry litmus paper?” Student A writes one line. Student B writes points, an example and a check.
+    A student heats a few blue crystals of copper sulphate in a dry test tube. Water droplets appear on the cooler part of the tube and the crystals turn white. When a few drops of water are added to the white powder, the blue colour returns.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Write the formula of the blue crystals.
+    (b) Why does the colour change on heating?
+    (c) What is this water called?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Because acidic behaviour requires the formation of H+(aq) ions, which needs water. Dry HCl gas has no water, so it does not ionise and cannot affect dry litmus.
-      (c) pH memory: the scale counts down as acidity goes up. pH 2 is a hundred times more acidic than pH 4 (each unit is a factor of ten).
+      (a) CuSO₄·5H₂O.
+      (b) Heating drives off the water held in the crystals, leaving white anhydrous copper sulphate, CuSO₄.
+      (c) It is the water of crystallisation: five water molecules per formula unit. Adding water restores it, so the blue colour returns.
 
 Q12. [Application · 4 marks] Three unlabelled bottles contain an acidic, a basic and a neutral solution. How would you identify all three using only red and blue litmus paper?
     Ans:
@@ -89,12 +88,12 @@ Q13. [Long · 5 marks] Explain the chlor-alkali process with an equation, and gi
       Chlorine — disinfecting drinking water and making bleaching powder/PVC.
       Hydrogen — as a fuel and in the manufacture of ammonia and margarine (hydrogenation of oils).
 
-Q14. [Long · 5 marks] Discuss “Acids, Bases and Salts” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q14. [Long · 5 marks] How is baking soda prepared? What happens when it is heated? Write the equations and give two uses of baking soda and two uses of washing soda.
     Ans:
-      What makes an acid an acid. Acids produce H+(aq) ions in water; bases produce OH−(aq) ions. Distillation water does not conduct electricity, but adding an acid or base makes it conduct, because the ions are the charge carriers. Note: dry HCl gas does not turn dry blue litmus red — water is needed for ionisation.
-      Marks lens: –5 marks. A pH/reasoning question (2), a salt-family question such as bleaching powder or plaster of Paris (2–3), and one indicator or neutralisation question.
-      Method / memory trick: pH memory: the scale counts down as acidity goes up. pH 2 is a hundred times more acidic than pH 4 (each unit is a factor of ten).
-      Do not: Saying 'an acid gives H+ ions' without (aq). Ionisation needs water — dry HCl is not acidic.
+      Preparation: NaCl + H₂O + CO₂ + NH₃ → NH₄Cl + NaHCO₃ (sodium hydrogencarbonate, baking soda).
+      On heating: 2NaHCO₃ → Na₂CO₃ + H₂O + CO₂. The sodium carbonate formed gives washing soda, Na₂CO₃·10H₂O, on recrystallisation.
+      Uses of baking soda: an antacid; baking powder (with tartaric acid) to make cakes soft and spongy; soda-acid fire extinguishers.
+      Uses of washing soda: removing permanent hardness of water; making glass, soap and paper; household cleaning.
 
 B. MCQs (11)
 ------------------------------------------------------------------------
@@ -108,11 +107,11 @@ M2. Which one is a strong base? (a) NH4OH (b) Mg(OH)2 (c) NaOH (d) Cu(OH)2
 M3. The pH of gastric juice released during digestion is: (a) less than 7 (b) more than 7 (c) equal to 7 (d) equal to 0
     Ans: (a) less than 7. The stomach secretes hydrochloric acid, which keeps the gastric juice acidic (roughly pH 1.2–3) so that pepsin can act.
 
-M4. The most exam-ready way to revise “Acids, Bases and Salts” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is pH scale, indicators, and the four commercially important salts.
+M4. Which of the following salts gives a neutral solution (pH about 7) in water? (a) NaCl  (b) Na₂CO₃  (c) NH₄Cl  (d) CH₃COONa
+    Ans: (a) NaCl. NaCl is the salt of a strong acid (HCl) and a strong base (NaOH), so its solution is neutral.
 
-M5. A 3-mark answer on “Acids, Bases and Salts” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. When carbon dioxide is passed through lime water, it turns milky because of the formation of: (a) calcium chloride  (b) calcium hydroxide  (c) calcium carbonate  (d) calcium oxide
+    Ans: (c) calcium carbonate. Ca(OH)₂ + CO₂ → CaCO₃ + H₂O; calcium carbonate is insoluble in water, so the lime water turns milky.
 
 M6. A solution turns colourless phenolphthalein pink. Its pH is likely to be: (a) 2  (b) 5  (c) 7  (d) 10
     Ans: (d) 10. Phenolphthalein turns pink only in a basic solution, whose pH is above 7.

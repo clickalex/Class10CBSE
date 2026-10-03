@@ -35,16 +35,17 @@ Q5. [Short · 3 marks] Prove that in a right triangle, the square on the hypoten
       ΔBDC ∼ ΔABC (AA), so DC/BC = BC/AC, giving BC² = DC × AC.
       Adding: AB² + BC² = (AD + DC) × AC = AC².
 
-Q6. [Application · 3 marks] Riya is revising “Triangles” (Similarity criteria, Basic Proportionality Theorem, Pythagoras). A classmate lost marks by doing this: Writing the area ratio equal to the side ratio, without squaring. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] Two similar triangles have corresponding sides 6 cm and 9 cm. A student says the ratio of their areas is 6 : 9 = 2 : 3. Correct the error, and find the area of the larger triangle if the smaller has area 40 cm².
     Ans:
-      Correct method: Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.
-      Why the mistake costs marks: Writing the area ratio equal to the side ratio, without squaring.
-      Write the definition or formula first, then the working or example.
+      Error: the areas of similar triangles are in the ratio of the squares of corresponding sides.
+      Area ratio = (6/9)² = 4/9.
+      Area of the larger triangle = 40 × 9/4 = 90 cm².
 
-Q7. [Application · 3 marks] Amit is given this exam-style task from “Triangles”: “State the Basic Proportionality Theorem.” Treat it as an application question. Identify the idea, then write the working in points.
+Q7. [Application · 3 marks] A 6 m tall pole casts a shadow 4 m long. At the same moment a tower casts a shadow 30 m long. Name the similarity criterion used and find the height of the tower.
     Ans:
-      Idea: Similarity criteria, Basic Proportionality Theorem, Pythagoras.
-      If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio.
+      The sun’s rays make the same angle with the ground, and both pole and tower are vertical: two angles match, so the two triangles are similar by the AA criterion.
+      Corresponding sides are proportional: height of tower/6 = 30/4.
+      Height of tower = 6 × 30/4 = 45 m.
 
 Q8. [Short · 3 marks] In ΔABC, D and E lie on AB and AC with AD = 5.7 cm, DB = 9.5 cm, AE = 4.8 cm and EC = 8 cm. Is DE parallel to BC?
     Ans:
@@ -53,29 +54,27 @@ Q8. [Short · 3 marks] In ΔABC, D and E lie on AB and AC with AD = 5.7 cm, DB =
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Triangles”. Their note says: Similar polygons. Corresponding angles are equal and corresponding sides are in the same ratio.
+    A 10 m long ladder leans against a vertical wall and reaches a window 8 m above the ground.
     
-    The chapter is described as: Similarity criteria, Basic Proportionality Theorem, Pythagoras.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) How far is the foot of the ladder from the wall?
+    (b) The foot is moved until the ladder reaches only 6 m up the wall. How far does the foot move?
+    (c) Name the theorem used.
     Ans:
-      (a) Similarity criteria, Basic Proportionality Theorem, Pythagoras.
-      (b) Triangles carries most of the 15-mark Geometry unit (Circles is the rest).
-      (c) Writing the area ratio equal to the side ratio, without squaring.
+      (a) Distance = √(10² − 8²) = √36 = 6 m.
+      (b) New distance = √(10² − 6²) = √64 = 8 m, so the foot moves 8 − 6 = 2 m away from the wall.
+      (c) The Pythagoras theorem in the right-angled triangle formed by ladder, wall and ground.
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “State the Basic Proportionality Theorem.” Student A writes one line. Student B writes points, an example and a check.
+    In a triangular park ABC, a path DE is laid parallel to the side BC, with D on AB and E on AC. AD = 4 m, DB = 6 m, AC = 15 m and BC = 20 m.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Find AE.
+    (b) Find DE.
+    (c) Find the ratio of the areas of ΔADE and ΔABC.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio.
-      (c) Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.
+      (a) By BPT, AD/AB = AE/AC, so 4/10 = AE/15 and AE = 6 m.
+      (b) ΔADE ~ ΔABC, so DE/BC = AD/AB = 2/5 and DE = 8 m.
+      (c) Area ratio = (2/5)² = 4 : 25.
 
 Q11. [Long · 4 marks] Prove that the ratio of the areas of two similar triangles equals the square of the ratio of their corresponding medians.
     Ans:
@@ -85,12 +84,13 @@ Q11. [Long · 4 marks] Prove that the ratio of the areas of two similar triangle
       With the included angles equal, ΔABD ~ ΔPQS (SAS), so AD/PS = AB/PQ.
       Therefore ar(ABC)/ar(PQR) = (AB/PQ)² = (AD/PS)².
 
-Q12. [Long · 5 marks] Discuss “Triangles” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Prove that if a line is drawn parallel to one side of a triangle to intersect the other two sides at distinct points, it divides the two sides in the same ratio.
     Ans:
-      Similar polygons. Corresponding angles are equal and corresponding sides are in the same ratio.
-      Marks lens: Triangles carries most of the 15-mark Geometry unit (Circles is the rest).
-      Method / memory trick: Area ratio is the square of the side ratio. Sides in ratio 2:3 means areas in ratio 4:9. Forgetting the square is the classic error.
-      Do not: Writing the area ratio equal to the side ratio, without squaring.
+      Given: ΔABC with DE ∥ BC, D on AB and E on AC. To prove: AD/DB = AE/EC.
+      Construction: join BE and CD; draw EM ⊥ AB and DN ⊥ AC.
+      ar(ADE) = ½ × AD × EM and ar(BDE) = ½ × DB × EM, so ar(ADE)/ar(BDE) = AD/DB. Similarly ar(ADE)/ar(CDE) = AE/EC.
+      ΔBDE and ΔCDE stand on the same base DE and lie between the same parallels DE and BC, so ar(BDE) = ar(CDE).
+      Therefore AD/DB = AE/EC. ∎
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -104,11 +104,11 @@ M2. The ratio of the areas of two similar triangles is 25:49. The ratio of their
 M3. In a right triangle with legs 6 cm and 8 cm, the hypotenuse is: (a) 10 cm  (b) 12 cm  (c) 14 cm  (d) 9 cm
     Ans: (a) 10 cm. √(36 + 64) = 10.
 
-M4. The most exam-ready way to revise “Triangles” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Similarity criteria, Basic Proportionality Theorem, Pythagoras.
+M4. If ΔABC ~ ΔPQR, ∠A = 50° and ∠Q = 60°, then ∠C equals: (a) 60°  (b) 50°  (c) 80°  (d) 70°
+    Ans: (d) 70°. ∠B = ∠Q = 60° because corresponding angles of similar triangles are equal, so ∠C = 180° − 50° − 60° = 70°.
 
-M5. A 3-mark answer on “Triangles” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. A triangle has sides 7 cm, 24 cm and 25 cm. It is: (a) acute-angled  (b) obtuse-angled  (c) right-angled  (d) equilateral
+    Ans: (c) right-angled. 7² + 24² = 49 + 576 = 625 = 25², so by the converse of the Pythagoras theorem the triangle is right-angled.
 
 M6. Two triangles are similar if their corresponding angles are: (a) equal  (b) supplementary  (c) complementary  (d) proportional
     Ans: (a) equal. Equiangular triangles are similar — the AAA similarity criterion.

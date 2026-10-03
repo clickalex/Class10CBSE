@@ -135,11 +135,11 @@ Q4. [Short · 2 marks] What is self-regulation, and how does it differ from self
 Q5. [Application · 3 marks] Meera has three tasks: a 5 pm file, a messy desk, and a social-media reel. Using urgent/important, what should she do first and why?
     Ans: The 5 pm file is urgent and important — do it first. The desk is important but not urgent — schedule it. The reel is neither — drop it until the file is in.
 
-Q6. [Application · 3 marks] Riya is revising “Self-Management Skills–II” (Stress, self-awareness, self-motivation, self-regulation, time and SMART goals). A classmate lost marks by doing this: Writing SMART expansions in the wrong order. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student writes SMART as “Specific, Achievable, Measurable, Time-bound, Realistic”. Is the order correct? Give the correct expansion and turn “I want to type faster” into a SMART goal.
     Ans:
-      Correct method: SMART → Specific Measurable Achievable Realistic Time-bound.
-      Why the mistake costs marks: Writing SMART expansions in the wrong order.
-      Write the definition or formula first, then the working or example.
+      The letters must follow the order of the word: Specific, Measurable, Achievable, Realistic (or Relevant), Time-bound. The student swapped A and M and put T before R.
+      “Type faster” is vague: it is not specific, measurable or time-bound.
+      SMART version: “Type 35 words per minute with at most 2 errors in a 5-minute test by the end of this month.”
 
 Q7. [Short · 3 marks] Suggest three ways of managing stress and building self-motivation.
     Ans:
@@ -171,24 +171,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Self-Management Skills–II”. Their note says: Self-management is the ability to control one's emotions, thoughts and behaviour and to work towards goals without constant supervision.
+    Asha knows she is good at organising events but weak at public speaking, so she joins the debate club. On her first day she feels nervous, but she takes deep breaths and goes on stage anyway.
     
-    The chapter is described as: Stress, self-awareness, self-motivation, self-regulation, time and SMART goals.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which skill does knowing her strengths and weaknesses show?
+    (b) How does joining the debate club show self-motivation?
+    (c) Which skill is shown when she calms herself and goes on stage?
     Ans:
-      (a) Stress, self-awareness, self-motivation, self-regulation, time and SMART goals.
-      (b) marks. Stress symptoms, SMART goals and time-management steps are the usual asks.
-      (c) Writing SMART expansions in the wrong order.
+      (a) Self-awareness: understanding one’s own strengths, weaknesses, feelings and values.
+      (b) She sets herself a goal to improve and acts on it without being told; the drive comes from inside her.
+      (c) Self-regulation: controlling her emotions and behaviour in a situation.
 
-Q12. [Long · 5 marks] Discuss “Self-Management Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Describe five ways in which a student can manage stress, giving an example of each.
     Ans:
-      Self-management is the ability to control one's emotions, thoughts and behaviour and to work towards goals without constant supervision.
-      Marks lens: marks. Stress symptoms, SMART goals and time-management steps are the usual asks.
-      Method / memory trick: SMART → Specific Measurable Achievable Realistic Time-bound.
-      Do not: Writing SMART expansions in the wrong order.
+      Plan and prioritise: make a to-do list and do the important task first, so exam work does not pile up.
+      Exercise and breathing: a 20-minute walk, yoga or deep breathing calms the body.
+      Sleep and food: sleeping 7–8 hours and eating on time keeps the mind fresh before a test.
+      Talk it out: sharing a worry with a friend, parent or counsellor stops it from growing.
+      Hobbies and breaks: music or sport after study gives the mind a rest; positive self-talk also helps.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -205,11 +204,11 @@ M3. Knowing your own strengths is: (a) self-awareness (b) encoding (c) a physica
 M4. Which goal is SMART? (a) I will study more (b) I will type 40 correct rows in Calc by 3 pm (c) I will become famous (d) I will try
     Ans: (b).
 
-M5. The most exam-ready way to revise “Self-Management Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Stress, self-awareness, self-motivation, self-regulation, time and SMART goals.
+M5. Which of the following is an example of self-regulation? (a) Feeling angry at a remark but waiting and replying politely later (b) Setting a goal to score 90% in the exam (c) Listing one’s strengths and weaknesses (d) Being able to see the cause of someone else’s stress
+    Ans: (a) Feeling angry at a remark but waiting and replying politely later. Self-regulation means controlling one’s emotions and actions; the other options show self-motivation and self-awareness.
 
-M6. A 3-mark answer on “Self-Management Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. A task that is important but not urgent should be: (a) scheduled for a fixed time (b) done at once, before anything else (c) given to somebody else (d) dropped from the list
+    Ans: (a) scheduled for a fixed time. In the urgent/important method, important but not urgent tasks are planned for later so that they do not become urgent.
 
 M7. Self-awareness means: (a) knowing your own strengths, weaknesses and feelings  (b) only knowing other people  (c) working without help  (d) following orders
     Ans: (a) knowing your own strengths, weaknesses and feelings. It is the first step of self-management.
@@ -247,11 +246,11 @@ Q5. [Short · 2 marks] List four basic care rules that protect a computer from p
 Q6. [Application · 3 marks] Amit eats chips over the keyboard and never shuts the PC down. List three risks and three care steps.
     Ans: Risks: crumbs jam keys, oil damage, overheating, data loss. Care: no food/drink, proper shutdown, dust-free vents, surge protector, backups.
 
-Q7. [Application · 3 marks] Riya is revising “ICT Skills–II” (Operating system, files and folders, and basic care of a computer). A classmate lost marks by doing this: Calling Writer an operating system. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student says, “Windows, Linux and LibreOffice Writer are all operating systems.” Correct the statement.
     Ans:
-      Correct method: File has an extension; a folder does not need one.
-      Why the mistake costs marks: Calling Writer an operating system.
-      Write the definition or formula first, then the working or example.
+      Windows and Linux are operating systems: system software that controls the hardware and lets other programs run.
+      LibreOffice Writer is application software, a word processor used to create documents; it runs on top of an operating system.
+      Other operating systems are macOS and Android; other applications are Calc and a web browser.
 
 Q8. [Short · 3 marks] How would you organise files and folders so that your work is always easy to find?
     Ans:
@@ -278,24 +277,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “ICT Skills–II”. Their note says: ICT is Information and Communication Technology — hardware, software and networks used to create, store and share information.
+    Rohan creates a letter in Writer, a budget in Calc and a database in Base. He also wants to give his teacher a copy of the letter that opens in Microsoft Word.
     
-    The chapter is described as: Operating system, files and folders, and basic care of a computer.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Give the default file extension for each of the three files.
+    (b) What is the difference between Save and Save As?
+    (c) How can he make a Word-compatible copy?
     Ans:
-      (a) Operating system, files and folders, and basic care of a computer.
-      (b) mark. Definitions and “which of the following” items.
-      (c) Calling Writer an operating system.
+      (a) Writer: .odt; Calc: .ods; Base: .odb.
+      (b) Save overwrites the current file; Save As lets you choose a new name, folder or file type and keeps the original.
+      (c) Use File → Save As and choose the Word file type (.docx) in the “Save as type” box.
 
-Q12. [Long · 5 marks] Discuss “ICT Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Describe five basic file-management operations in an operating system and give the shortcut or method for each.
     Ans:
-      ICT is Information and Communication Technology — hardware, software and networks used to create, store and share information.
-      Marks lens: mark. Definitions and “which of the following” items.
-      Method / memory trick: File has an extension; a folder does not need one.
-      Do not: Calling Writer an operating system.
+      Create a folder: right-click an empty space and choose New → Folder, then type its name.
+      Rename: select the file and press F2 (or right-click → Rename).
+      Copy: select the file, press Ctrl + C, open the destination and press Ctrl + V.
+      Move: select the file, press Ctrl + X, open the destination and press Ctrl + V (or drag it there).
+      Delete: press Delete to send it to the Recycle Bin, from where it can be restored; Shift + Delete removes it permanently.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -312,11 +310,11 @@ M3. The Recycle Bin is used to: (a) speed up RAM (b) store deleted files until e
 M4. A computer should be shut down: (a) by pulling the plug (b) using the OS shutdown command (c) by holding the monitor button (d) never
     Ans: (b).
 
-M5. The most exam-ready way to revise “ICT Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Operating system, files and folders, and basic care of a computer.
+M5. Which of the following is application software? (a) Windows (b) Linux (c) Android (d) LibreOffice Writer
+    Ans: (d) LibreOffice Writer. Writer is a program for a task (word processing); the others are operating systems.
 
-M6. A 3-mark answer on “ICT Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. A folder that is stored inside another folder is called a: (a) shortcut (b) sub-folder (c) file extension (d) drive
+    Ans: (b) sub-folder. Folders can be nested, and a folder within a folder is a sub-folder.
 
 M7. Which of these is an operating system? (a) Linux  (b) MS Word  (c) Chrome  (d) HDMI
     Ans: (a) Linux. Word and Chrome are application programs and HDMI is a port.
@@ -347,11 +345,11 @@ Q4. [Short · 2 marks] What is a social entrepreneur? How does the aim differ fr
 Q5. [Application · 3 marks] Neha notices students waiting 40 minutes for a shared printer. She starts a paid print-and-bind desk. Which entrepreneurial qualities is she using?
     Ans: Opportunity-spotting, initiative, risk-taking (she invests in a printer), problem-solving and customer focus.
 
-Q6. [Application · 3 marks] Riya is revising “Entrepreneurial Skills–II” (Who an entrepreneur is, qualities, functions, myths and role in society). A classmate lost marks by doing this: Calling every shopkeeper an entrepreneur without the risk/innovation idea. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student says, “Every shopkeeper is an entrepreneur.” Correct this using the ideas of risk and innovation.
     Ans:
-      Correct method: Quality vs function: quality is a trait (perseverance); function is a job (arrange capital).
-      Why the mistake costs marks: Calling every shopkeeper an entrepreneur without the risk/innovation idea.
-      Write the definition or formula first, then the working or example.
+      An entrepreneur starts a new venture, brings something new (a product, service or way of working), organises the resources and bears the risk of loss.
+      A shopkeeper who only resells goods in the usual way, with no new idea, is a trader or a small business owner.
+      A shopkeeper who starts a new kind of service, such as home delivery that no one offered before, takes a risk and innovates, and so acts as an entrepreneur.
 
 Q7. [Short · 3 marks] What functions does an entrepreneur perform in running an enterprise?
     Ans:
@@ -383,24 +381,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Entrepreneurial Skills–II”. Their note says: Entrepreneur — a person who spots a need, takes a risk, organises resources and starts a business to earn profit and create value.
+    Amit notices that farmers near his village lose money because vegetables spoil on the way to the city. He buys a van with a cooling unit, collects vegetables directly from farmers, sells them to city shops and hires two local youths.
     
-    The chapter is described as: Who an entrepreneur is, qualities, functions, myths and role in society.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which entrepreneurial qualities does Amit show?
+    (b) Name two functions he performs as an entrepreneur.
+    (c) How does his enterprise help society?
     Ans:
-      (a) Who an entrepreneur is, qualities, functions, myths and role in society.
-      (b) marks. Qualities of an entrepreneur and “role in society” rotate.
-      (c) Calling every shopkeeper an entrepreneur without the risk/innovation idea.
+      (a) He spots a need (opportunity recognition), is innovative in finding a solution and is willing to take a financial risk.
+      (b) He organises resources (the van, workers, suppliers) and bears the risk of the business.
+      (c) It creates jobs, reduces food wastage and increases the farmers’ income.
 
-Q12. [Long · 5 marks] Discuss “Entrepreneurial Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Describe five steps in setting up a small enterprise.
     Ans:
-      Entrepreneur — a person who spots a need, takes a risk, organises resources and starts a business to earn profit and create value.
-      Marks lens: marks. Qualities of an entrepreneur and “role in society” rotate.
-      Method / memory trick: Quality vs function: quality is a trait (perseverance); function is a job (arrange capital).
-      Do not: Calling every shopkeeper an entrepreneur without the risk/innovation idea.
+      Step 1: generate and evaluate a business idea that meets a real need.
+      Step 2: study the market: who the customers are, what they will pay and who the competitors are.
+      Step 3: prepare a business plan covering the product, costs, expected sales and profit.
+      Step 4: arrange the money (capital) from savings, family or a loan, and choose a suitable location.
+      Step 5: complete legal formalities such as registration and licences, then start and review the business regularly.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -417,11 +414,11 @@ M3. A social entrepreneur mainly aims to: (a) ignore people (b) solve a social p
 M4. “Entrepreneurs are born, not made” is: (a) a fact (b) a myth (c) a 7 C (d) an OS function
     Ans: (b) a myth.
 
-M5. The most exam-ready way to revise “Entrepreneurial Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Who an entrepreneur is, qualities, functions, myths and role in society.
+M5. The first step in starting an enterprise is usually to: (a) register the business (b) hire employees (c) find and evaluate a business idea (d) print the visiting cards
+    Ans: (c) find and evaluate a business idea. Everything else depends on having an idea that meets a need and can make a profit.
 
-M6. A 3-mark answer on “Entrepreneurial Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. The money needed to start and run a business is called: (a) profit (b) revenue (c) tax (d) capital
+    Ans: (d) capital. Capital is the funds an entrepreneur invests in the enterprise; profit is what remains after costs.
 
 M7. A person who starts a business, organises it and bears its risks is a/an: (a) entrepreneur  (b) manager  (c) employee  (d) customer
     Ans: (a) entrepreneur. A manager runs someone else's business for a salary.
@@ -458,11 +455,11 @@ Q5. [Short · 2 marks] Arrange Reduce, Reuse, Recycle in order of preference and
 Q6. [Application · 3 marks] A computer lab leaves 20 PCs on overnight. Suggest three green practices and one green skill the lab assistant needs.
     Ans: Shut down PCs, use sleep mode, switch off AC/lights, enable duplex printing. Skill: energy-conservation habit / e-waste handling.
 
-Q7. [Application · 3 marks] Riya is revising “Green Skills–II” (Sustainable development, green economy and green jobs). A classmate lost marks by doing this: Defining sustainable development as “using no resources”. It is wise use, not zero use. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student defines sustainable development as “using no natural resources so that nothing is wasted”. Correct the definition.
     Ans:
-      Correct method: Sustainable development = present + future, not only “planting trees”.
-      Why the mistake costs marks: Defining sustainable development as “using no resources”. It is wise use, not zero use.
-      Write the definition or formula first, then the working or example.
+      Sustainable development means meeting the needs of the present without harming the ability of future generations to meet their own needs.
+      It is about wise use of resources, not zero use: we still use water, energy and materials, but carefully.
+      Examples are using renewable energy, saving water and recycling.
 
 Q8. [Short · 3 marks] Give three examples of green jobs and explain what makes a job green.
     Ans:
@@ -490,24 +487,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Green Skills–II”. Their note says: Environment = the surroundings in which we live — air, water, land, plants, animals and humans.
+    A repair shop collects old computers, refurbishes some for sale at low cost and sends the rest to an authorised recycler.
     
-    The chapter is described as: Sustainable development, green economy and green jobs.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which of the 3Rs does each activity show?
+    (b) Why is it dangerous to throw such equipment into the dustbin?
+    (c) Name a green job linked to this work.
     Ans:
-      (a) Sustainable development, green economy and green jobs.
-      (b) mark. Sustainable development definition is the banker.
-      (c) Defining sustainable development as “using no resources”. It is wise use, not zero use.
+      (a) Refurbishing and reselling is reuse; sending the rest to a recycler is recycle.
+      (b) E-waste contains metals such as lead and mercury, which pollute soil and water and harm health.
+      (c) An e-waste recycling technician (or a refurbishing specialist).
 
-Q12. [Long · 5 marks] Discuss “Green Skills–II” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Describe five green practices that a school computer lab can follow.
     Ans:
-      Environment = the surroundings in which we live — air, water, land, plants, animals and humans.
-      Marks lens: mark. Sustainable development definition is the banker.
-      Method / memory trick: Sustainable development = present + future, not only “planting trees”.
-      Do not: Defining sustainable development as “using no resources”. It is wise use, not zero use.
+      Switch off computers, monitors and lights when not in use, and use energy-saving settings.
+      Print only when necessary and print on both sides, and share files digitally.
+      Repair and reuse equipment, and give old devices to an authorised e-waste recycler.
+      Use rechargeable batteries and energy-efficient (LED) lighting.
+      Make students aware of these habits, for example by appointing an “eco-monitor”.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -524,11 +520,11 @@ M3. A solar-panel technician is: (a) a linguistic barrier (b) a green job (c) an
 M4. Leaving a PC on overnight mainly wastes: (a) paper (b) electricity (c) toner only (d) nothing
     Ans: (b) electricity.
 
-M5. The most exam-ready way to revise “Green Skills–II” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Sustainable development, green economy and green jobs.
+M5. E-waste mainly refers to: (a) kitchen waste (b) discarded electronic and electrical equipment (c) waste paper (d) plastic bottles only
+    Ans: (b) discarded electronic and electrical equipment. E-waste includes old computers, phones, batteries and cables, and needs special disposal.
 
-M6. A 3-mark answer on “Green Skills–II” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. Which of the following is a renewable source of energy? (a) coal (b) petroleum (c) natural gas (d) solar energy
+    Ans: (d) solar energy. Sunlight is not used up when it is used; coal, petroleum and natural gas are fossil fuels.
 
 M7. A green economy is one that: (a) improves human well-being while reducing environmental risks  (b) produces the most goods  (c) bans all industry  (d) depends only on coal
     Ans: (a) improves human well-being while reducing environmental risks. It is low-carbon and resource-efficient.
@@ -561,11 +557,11 @@ Q4. [Short · 2 marks] What is the difference between a paragraph style and a ch
 Q5. [Application · 3 marks] A 20-page report uses Bold 16 pt for titles. The examiner wants Heading 1 in navy. What should the student do instead of selecting each title?
     Ans: Create or modify Heading 1 (navy, size, spacing), then Fill Format / select each title and apply Heading 1. Later, one modify updates all.
 
-Q6. [Application · 3 marks] Riya is revising “Introduction to Styles (Writer)” (Page, paragraph, character, frame, list and table styles in LibreOffice Writer). A classmate lost marks by doing this: Building a ToC from manually bolded text. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student wants one heading in a 30-page report to be red, so she changes the colour in the style “Heading 1”. Every heading in the report turns red. Why did this happen, and how could she have changed only one?
     Ans:
-      Correct method: Headings must use Heading styles, not just Bold 16 pt — otherwise ToC will be empty.
-      Why the mistake costs marks: Building a ToC from manually bolded text.
-      Write the definition or formula first, then the working or example.
+      A style is a stored set of formatting applied to all paragraphs that use it; changing the style changes every paragraph in that style.
+      To change only one heading, select it and apply the colour as direct formatting (or give that heading its own new style).
+      Use “Update Style” or Modify only when you want a change to apply across the whole document.
 
 Q7. [Short · 3 marks] Describe how to create and then apply a paragraph style in LibreOffice Writer.
     Ans:
@@ -596,24 +592,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Introduction to Styles (Writer)”. Their note says: A style is a named collection of formatting. Change the style once, every place it is used updates.
+    A report has a title, three chapters and sub-sections. The student wants chapter titles in Heading 1, sub-sections in Heading 2, and body text in a style of 12 pt, justified, with 1.5 line spacing.
     
-    The chapter is described as: Page, paragraph, character, frame, list and table styles in LibreOffice Writer.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which category of style is used for each?
+    (b) How can she create the body-text style?
+    (c) Why is this better than formatting by hand?
     Ans:
-      (a) Page, paragraph, character, frame, list and table styles in LibreOffice Writer.
-      (b) Theory asks types of styles and why styles beat manual formatting.
-      (c) Building a ToC from manually bolded text.
+      (a) All three are paragraph styles, because they format whole paragraphs.
+      (b) Format a paragraph as wanted, open the Styles sidebar (F11) and choose New Style from Selection, then give it a name such as Body.
+      (c) Changing a style once updates every paragraph using it, and Heading styles can be used to build the table of contents automatically.
 
-Q12. [Long · 5 marks] Discuss “Introduction to Styles (Writer)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Explain how to set the page margins, add a header and insert page numbers in a Writer document using styles.
     Ans:
-      A style is a named collection of formatting. Change the style once, every place it is used updates.
-      Marks lens: Theory asks types of styles and why styles beat manual formatting.
-      Method / memory trick: Headings must use Heading styles, not just Bold 16 pt — otherwise ToC will be empty.
-      Do not: Building a ToC from manually bolded text.
+      Margins and header belong to the page style: open Format → Page Style (or the Page Style in the Styles sidebar).
+      On the Page tab, set the left, right, top and bottom margins.
+      On the Header tab, switch the header on, then click inside the header area on the page and type the text, for example “Annual Report”.
+      For page numbers, click in the header or footer and choose Insert → Field → Page Number.
+      Since this is part of the page style, it applies to every page that uses that style.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -630,11 +625,11 @@ M3. Fill Format is used to: (a) insert images (b) paint a style onto many paragr
 M4. ToC in Writer is built from: (a) bold text (b) Heading styles (c) page numbers only (d) hyperlinks only
     Ans: (b) Heading styles.
 
-M5. The most exam-ready way to revise “Introduction to Styles (Writer)” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Page, paragraph, character, frame, list and table styles in LibreOffice Writer.
+M5. To change the colour of all headings of a certain level at once, you should: (a) modify the heading’s paragraph style (b) format each heading by hand (c) use the Fill Format tool on one word (d) change the page margins
+    Ans: (a) modify the heading’s paragraph style. Headings use paragraph styles, and modifying the style updates all of them.
 
-M6. A 3-mark answer on “Introduction to Styles (Writer)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. A style that controls margins, headers and footers belongs to the category of: (a) page styles (b) character styles (c) frame styles (d) list styles
+    Ans: (a) page styles. Page styles describe the layout of the page, including margins, headers and footers.
 
 M7. The Styles window in Writer is opened with: (a) F11  (b) Ctrl + S  (c) F7  (d) Ctrl + P
     Ans: (a) F11. F7 opens the spell-check and Ctrl + S saves the document.
@@ -665,11 +660,11 @@ Q4. [Short · 2 marks] What is an image caption, and why should figures be capti
 Q5. [Application · 3 marks] An image covers the heading of a report. Which two settings would you change first?
     Ans: Wrap (Optimal or After) and arrangement (Send to Back) or move the anchor to the correct paragraph.
 
-Q6. [Application · 3 marks] Riya is revising “Working with Images (Writer)” (Insert, wrap, arrange, drawing objects, grouping and captions). A classmate lost marks by doing this: Stretching a photo so faces look wide — hold Shift or lock ratio. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student drags the side handle of a photograph, and faces in it look unnaturally wide. What went wrong, and how can the photo be resized without distortion?
     Ans:
-      Correct method: If text jumps wildly, the image is probably As Character — change wrap and anchor.
-      Why the mistake costs marks: Stretching a photo so faces look wide — hold Shift or lock ratio.
-      Write the definition or formula first, then the working or example.
+      Dragging a side handle changes only the width, so the picture is stretched out of proportion.
+      To scale it proportionally, drag a corner handle while holding the Shift key.
+      Alternatively, open Position and Size and tick “Keep ratio” before changing the width or height.
 
 Q7. [Short · 3 marks] List the steps to insert an image and set its position in a Writer document.
     Ans:
@@ -700,24 +695,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Working with Images (Writer)”. Their note says: Insert image: Insert → Image, or drag from a folder, or copy-paste. Keep a copy of the picture with the file if you must move the document.
+    A student inserts a photograph and wants the caption “Figure 1: School library” below it, numbered automatically, with the text flowing around the picture.
     
-    The chapter is described as: Insert, wrap, arrange, drawing objects, grouping and captions.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) How can she add the caption?
+    (b) Which setting makes the text flow around the picture?
+    (c) What happens to the figure numbers if she inserts another picture before this one?
     Ans:
-      (a) Insert, wrap, arrange, drawing objects, grouping and captions.
-      (b) Expect “how to wrap an image” and “difference between anchor types”.
-      (c) Stretching a photo so faces look wide — hold Shift or lock ratio.
+      (a) Right-click the picture and choose Insert Caption (or use Insert → Caption), set the category to Figure and type the text.
+      (b) Text wrapping, for example Page Wrap or Optimal Page Wrap, set from the Wrap options.
+      (c) The figure numbers update automatically because they are fields; she can press F9 or update fields to refresh them.
 
-Q12. [Long · 5 marks] Discuss “Working with Images (Writer)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Describe the steps to insert a picture in a Writer document, resize it, crop it, set the text wrap and add a caption.
     Ans:
-      Insert image: Insert → Image, or drag from a folder, or copy-paste. Keep a copy of the picture with the file if you must move the document.
-      Marks lens: Expect “how to wrap an image” and “difference between anchor types”.
-      Method / memory trick: If text jumps wildly, the image is probably As Character — change wrap and anchor.
-      Do not: Stretching a photo so faces look wide — hold Shift or lock ratio.
+      Insert: place the cursor, then choose Insert → Image and select the file.
+      Resize: drag a corner handle with the Shift key held, so that the proportions are kept.
+      Crop: select the picture and use the Crop tool on the Picture toolbar to remove unwanted parts.
+      Wrap: right-click the picture, choose Wrap and pick an option such as Page Wrap so that the text flows around it.
+      Caption: right-click the picture, choose Insert Caption, and type the text, for example “Figure 2: Science lab”.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -734,11 +728,11 @@ M3. Inserting a caption is done by: (a) File → New (b) right-click image → I
 M4. Anchor “As Character” treats the image: (a) as a page background (b) like a character in the line (c) as a hidden file (d) as a style
     Ans: (b).
 
-M5. The most exam-ready way to revise “Working with Images (Writer)” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Insert, wrap, arrange, drawing objects, grouping and captions.
+M5. To resize a picture proportionally using the mouse, you drag a corner handle while holding down the: (a) Alt key only (b) Tab key (c) Caps Lock key (d) Shift key
+    Ans: (d) Shift key. Holding Shift with a corner handle keeps the width-to-height ratio unchanged.
 
-M6. A 3-mark answer on “Working with Images (Writer)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. Anchoring an image “To Page” means that it: (a) moves with the paragraph it is next to (b) behaves like a character in a line (c) is hidden when the document is printed (d) stays at a fixed position on the page even if the text above changes
+    Ans: (d) stays at a fixed position on the page even if the text above changes. A “To Page” anchor ties the picture to a spot on the page, whereas “To Paragraph” makes it move with the text.
 
 M7. To make two drawing objects move together you should: (a) group them  (b) crop them  (c) wrap them  (d) delete one of them
     Ans: (a) group them. Grouping treats the objects as one; ungrouping reverses it.
@@ -769,11 +763,11 @@ Q4. [Short · 2 marks] What is the difference between a template (.ott) and an o
 Q5. [Application · 3 marks] A teacher wants 40 identical permission letters with only the parent name changing. Which Writer feature, and what two files does she need?
     Ans: Mail merge. She needs the main letter and a data source (Calc column ParentName).
 
-Q6. [Application · 3 marks] Riya is revising “ToC, Templates and Track Changes” (Table of Contents, templates, track changes, comments and mail merge). A classmate lost marks by doing this: Saving a template as .odt instead of .ott. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student saves her letterhead as letterhead.odt and calls it a template, but it does not appear under File → New → Templates. What is wrong, and how should she have saved it?
     Ans:
-      Correct method: Empty ToC ⇒ headings are not Heading styles.
-      Why the mistake costs marks: Saving a template as .odt instead of .ott.
-      Write the definition or formula first, then the working or example.
+      An ordinary Writer file has the extension .odt; a template has the extension .ott.
+      She should use File → Templates → Save as Template, or Save As and choose the template file type.
+      Documents created from the template then start as new, untitled copies, and the template itself stays unchanged.
 
 Q7. [Short · 3 marks] Explain what track changes and comments do, and when you would use each.
     Ans:
@@ -804,24 +798,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “ToC, Templates and Track Changes”. Their note says: Table of Contents: apply Heading 1/2/3 → Insert → Table of Contents and Index → Table of Contents. Update with right-click → Update Index after edits.
+    A school wants every teacher to use the same notice format: logo, heading, a date field and a signature line.
     
-    The chapter is described as: Table of Contents, templates, track changes, comments and mail merge.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) How can the format be shared?
+    (b) Which file extension is used?
+    (c) What happens to the template when a teacher writes a notice?
     Ans:
-      (a) Table of Contents, templates, track changes, comments and mail merge.
-      (b) ToC steps and Track Changes on/off are asked every year.
-      (c) Saving a template as .odt instead of .ott.
+      (a) Create one document with the logo, heading, date field and signature line, and save it as a template for everyone to use for new notices.
+      (b) .ott, the Writer template extension.
+      (c) The template is not changed: a new document based on it opens, and the teacher saves it under its own name.
 
-Q12. [Long · 5 marks] Discuss “ToC, Templates and Track Changes” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] A student must prepare a 30-page project report that a teacher will review. Describe the workflow in five steps, using a template, a table of contents and track changes.
     Ans:
-      Table of Contents: apply Heading 1/2/3 → Insert → Table of Contents and Index → Table of Contents. Update with right-click → Update Index after edits.
-      Marks lens: ToC steps and Track Changes on/off are asked every year.
-      Method / memory trick: Empty ToC ⇒ headings are not Heading styles.
-      Do not: Saving a template as .odt instead of .ott.
+      Step 1: start a new document from the school’s report template (.ott), so margins and fonts are already set.
+      Step 2: give chapter titles Heading 1 and sub-titles Heading 2 using styles.
+      Step 3: insert the table of contents (Insert → Table of Contents and Index) and update it after every change.
+      Step 4: the teacher turns on Edit → Track Changes → Record and adds comments; every edit is shown in colour.
+      Step 5: the student reviews the changes, accepts or rejects each one, updates the table of contents and saves the final report.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -838,11 +831,11 @@ M3. Mail merge needs: (a) only an image (b) a main document and a data source (c
 M4. Recorded deletions in Track Changes usually appear as: (a) a new page (b) strike-out text (c) a ToC (d) a style
     Ans: (b) strike-out text.
 
-M5. The most exam-ready way to revise “ToC, Templates and Track Changes” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Table of Contents, templates, track changes, comments and mail merge.
+M5. To add a note about a word without changing the text itself, you use a: (a) comment (b) template (c) page break (d) caption
+    Ans: (a) comment. A comment is attached to the text and is shown in the margin, but it is not part of the document text.
 
-M6. A 3-mark answer on “ToC, Templates and Track Changes” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. In mail merge, the file that holds the names and addresses is called the: (a) template (b) data source (c) style (d) macro
+    Ans: (b) data source. The data source (for example a spreadsheet or database) supplies the values that fill the fields of the letter.
 
 M7. A template is: (a) a ready-made document with styles, margins and layout already set  (b) a picture  (c) a macro  (d) a printer setting
     Ans: (a) a ready-made document with styles, margins and layout already set. Saving a template saves time on every similar document.
@@ -876,11 +869,11 @@ Q5. [Application · 3 marks] A shop wants profit of ₹8,000. Profit is =B2*B3-B
       Goal Seek works backwards: instead of asking what the profit is, it asks what input would produce the profit you want, and it tries values until the formula cell reaches 8000.
       Only one input cell can be changed, so the quantity and the cost must stay fixed while the price is adjusted.
 
-Q6. [Application · 3 marks] Riya is revising “Scenarios and Goal Seek (Calc)” (Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver). A classmate lost marks by doing this: Mixing up Goal Seek (one input) with Solver (many inputs + constraints). Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student tries to use Goal Seek to find the best mix of three products under limits on labour hours and material, and Calc cannot do it. What is wrong, and which tool should she use?
     Ans:
-      Correct method: Goal Seek needs a formula in the set cell. Typing a number there will fail.
-      Why the mistake costs marks: Mixing up Goal Seek (one input) with Solver (many inputs + constraints).
-      Write the definition or formula first, then the working or example.
+      Goal Seek changes one input cell until one formula cell reaches a target value.
+      Finding the best mix of several variables under limits (constraints) needs Solver.
+      So she should use Solver, setting the target cell, the variable cells and the constraints.
 
 Q7. [Short · 3 marks] Describe how to use Goal Seek in Calc, with an example.
     Ans:
@@ -912,24 +905,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Scenarios and Goal Seek (Calc)”. Their note says: Consolidate: Data → Consolidate. Combines the same layout from several sheets (e.g. four term marks) using Sum/Average. Tick “Link to source data” to auto-update.
+    A school fest committee plans ticket sales in three situations. Best case: price Rs 100, 500 tickets. Normal case: Rs 80, 400 tickets. Worst case: Rs 60, 250 tickets. Revenue = price × tickets.
     
-    The chapter is described as: Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Find the revenue in each case.
+    (b) Which Calc feature stores the three sets of inputs?
+    (c) Why should each be given a name?
     Ans:
-      (a) Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.
-      (b) Goal Seek and Scenarios are the theory + practical pair.
-      (c) Mixing up Goal Seek (one input) with Solver (many inputs + constraints).
+      (a) Best: 100 × 500 = Rs 50,000; Normal: 80 × 400 = Rs 32,000; Worst: 60 × 250 = Rs 15,000.
+      (b) Scenarios: each is a named set of input values that can be shown on the sheet.
+      (c) The names let the committee switch between the cases quickly and see how the output changes.
 
-Q12. [Long · 5 marks] Discuss “Scenarios and Goal Seek (Calc)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] A teacher has the marks of 30 students with columns Name, Section and Marks. Describe how to use Subtotals to get the average marks of each section.
     Ans:
-      Consolidate: Data → Consolidate. Combines the same layout from several sheets (e.g. four term marks) using Sum/Average. Tick “Link to source data” to auto-update.
-      Marks lens: Goal Seek and Scenarios are the theory + practical pair.
-      Method / memory trick: Goal Seek needs a formula in the set cell. Typing a number there will fail.
-      Do not: Mixing up Goal Seek (one input) with Solver (many inputs + constraints).
+      Step 1: sort the data by the Section column (Data → Sort), so that students of one section are together.
+      Step 2: select the data range and choose Data → Subtotals.
+      Step 3: on the “1st Group” tab, group by Section, tick Marks under “Calculate subtotals for” and choose the function Average.
+      Step 4: click OK; a subtotal row appears after each section, and the outline buttons at the left show or hide the details.
+      Sorting first is essential: if the section values are not together, Subtotals gives wrong groups.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -946,11 +938,11 @@ M3. A named best-case / worst-case set of inputs is a: (a) style (b) scenario (c
 M4. Consolidate is best when data is: (a) on several similar sheets (b) a single cell (c) an image (d) a Writer ToC
     Ans: (a).
 
-M5. The most exam-ready way to revise “Scenarios and Goal Seek (Calc)” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.
+M5. Solver is used when a problem has: (a) many variables and constraints (b) only one input to change (c) only text data (d) no formulas
+    Ans: (a) many variables and constraints. Goal Seek handles one variable; Solver can handle several variables with limits.
 
-M6. A 3-mark answer on “Scenarios and Goal Seek (Calc)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. Which of the following is a what-if analysis tool in Calc? (a) Spell check (b) Print preview (c) Goal Seek (d) Freeze rows
+    Ans: (c) Goal Seek. What-if tools change inputs to see the effect on a result; Scenarios, Goal Seek and Solver are the three studied.
 
 M7. Subtotals in Calc are created from: (a) Data → Subtotals  (b) Tools → Subtotals  (c) Insert → Subtotals  (d) Format → Subtotals
     Ans: (a) Data → Subtotals. Calc groups the rows and inserts the subtotal formula for you.
@@ -981,11 +973,11 @@ Q4. [Short · 2 marks] What is LibreOffice Basic, and how is it connected with m
 Q5. [Application · 3 marks] Every Monday you set print area A1:G40, landscape, header “Weekly Sales”. How does a macro help?
     Ans: Record those page-setup steps once. Each Monday, Run Macro — one click instead of eight menu steps, fewer missed settings.
 
-Q6. [Application · 3 marks] Riya is revising “Macros in Spreadsheet” (Record, run, and use macros as functions; when not to use them). A classmate lost marks by doing this: Recording a macro that depends on a specific cell when you needed a relative range. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student starts recording a macro, then clicks around to find the menu and clicks a few wrong cells before doing the task. When the macro is replayed, it does odd things. Why, and how can this be avoided?
     Ans:
-      Correct method: Plan the clicks before you press Record — extra clicks get recorded too.
-      Why the mistake costs marks: Recording a macro that depends on a specific cell when you needed a relative range.
-      Write the definition or formula first, then the working or example.
+      The recorder copies every action, including the wrong clicks, so replaying the macro repeats them.
+      Plan the exact steps before pressing Record; rehearse them once without recording.
+      Record only what is needed (Tools → Macros → Record Macro … Stop Recording); if a mistake is recorded, delete the macro and record it again.
 
 Q7. [Short · 3 marks] When should you not use a macro? Give three situations.
     Ans:
@@ -1017,24 +1009,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Macros in Spreadsheet”. Their note says: A macro is a recorded sequence of commands. Play it back to repeat the work.
+    Every Friday a clerk makes the header row of a report bold, sets the font to 12 pt and adds a heading “Weekly Report”.
     
-    The chapter is described as: Record, run, and use macros as functions; when not to use them.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which feature can automate this?
+    (b) How is it recorded?
+    (c) Name one situation in which a macro should not be used.
     Ans:
-      (a) Record, run, and use macros as functions; when not to use them.
-      (b) Steps to record and run a macro, plus one use-case (repeating a format or a formula block).
-      (c) Recording a macro that depends on a specific cell when you needed a relative range.
+      (a) A macro, a recorded sequence of commands that can be played back to repeat the work.
+      (b) Choose Tools → Macros → Record Macro, do the steps once, click Stop Recording, then give the macro a name and save it in the document or in My Macros.
+      (c) When the task is done only once, or when the steps change every time, since recording would waste time.
 
-Q12. [Long · 5 marks] Discuss “Macros in Spreadsheet” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Discuss the advantages and the risks of using macros in a spreadsheet.
     Ans:
-      A macro is a recorded sequence of commands. Play it back to repeat the work.
-      Marks lens: Steps to record and run a macro, plus one use-case (repeating a format or a formula block).
-      Method / memory trick: Plan the clicks before you press Record — extra clicks get recorded too.
-      Do not: Recording a macro that depends on a specific cell when you needed a relative range.
+      Advantage 1: a macro automates repeated work, so it saves time.
+      Advantage 2: it repeats the steps exactly, so results are consistent and fewer errors occur.
+      Risk 1: a macro in a file from an unknown source can contain harmful code and damage files or steal data.
+      Risk 2: a wrongly recorded macro can change data in the wrong cells.
+      Precautions: set the macro security level to Medium or High (Tools → Options → Security → Macro Security), run macros only from trusted people, and keep a backup before running one.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1051,11 +1042,11 @@ M3. Unknown file asks to enable macros. You should: (a) always click Enable (b) 
 M4. Best use of a macro: (a) one-time typing of a name (b) repeating a long format every week (c) drawing a circle once (d) writing an essay
     Ans: (b).
 
-M5. The most exam-ready way to revise “Macros in Spreadsheet” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Record, run, and use macros as functions; when not to use them.
+M5. A recorded macro can be kept so that it is available in all documents if it is saved in: (a) the current document only (b) the Recycle Bin (c) the clipboard (d) My Macros
+    Ans: (d) My Macros. Macros saved in My Macros belong to the user profile and can be run from any document.
 
-M6. A 3-mark answer on “Macros in Spreadsheet” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. The main danger in enabling macros from a file sent by an unknown person is that they: (a) will make the file larger (b) will change the font (c) may contain harmful code (d) will slow the printer
+    Ans: (c) may contain harmful code. A macro can run commands automatically, so a malicious macro can do real damage.
 
 M7. Recording a macro in LibreOffice starts from: (a) Tools → Macros → Record Macro  (b) Insert → Macro  (c) Format → Macro  (d) Data → Macro
     Ans: (a) Tools → Macros → Record Macro. Stop the recording with the same menu and then save the macro.
@@ -1088,11 +1079,11 @@ Q4. [Short · 2 marks] What is the difference between a hyperlink and a sheet-li
 Q5. [Application · 3 marks] Summary sheet must show Total from three term sheets named Term1, Term2, Term3, each total in G20. Write the formula.
     Ans: =Term1.G20+Term2.G20+Term3.G20 — one reference per term sheet, added together. Linking this way means each term file can be updated on its own and the Summary total follows automatically, with no retyping and no copy-paste errors.
 
-Q6. [Application · 3 marks] Riya is revising “Linking Spreadsheet Data” (Sheet links, hyperlinks, linking to external files and data from the web). A classmate lost marks by doing this: Renaming a sheet after writing formulas without checking — some links break. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student e-mails only summary.ods to her teacher. When the teacher opens it, the linked cells show errors or old values. Explain why this happens and how to avoid it.
     Ans:
-      Correct method: Sheet names with spaces need single quotes: 'Term 1'.A1.
-      Why the mistake costs marks: Renaming a sheet after writing formulas without checking — some links break.
-      Write the definition or formula first, then the working or example.
+      summary.ods does not contain the data itself: its cells link to values in another file, data.ods, stored on the lab computer.
+      On the teacher’s computer the source file is missing, so the link cannot be updated.
+      Send both files and keep them in one folder, or, before sending, convert the linked cells to plain values (or break the link from Edit → Links to External Files).
 
 Q7. [Short · 3 marks] How do you link a cell to another sheet and to a file outside the workbook?
     Ans:
@@ -1123,24 +1114,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Linking Spreadsheet Data”. Their note says: Same-file sheet link: =Sheet2.B3 or ='Term 1'.B3 if the sheet name has a space.
+    On an “Index” sheet, a student wants one cell that opens the file marks.ods when clicked, and another cell that opens the school website.
     
-    The chapter is described as: Sheet links, hyperlinks, linking to external files and data from the web.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which feature does she use, and how does she insert it?
+    (b) Name two other things a hyperlink in Calc can point to.
+    (c) How is a hyperlink different from a formula that links to another sheet?
     Ans:
-      (a) Sheet links, hyperlinks, linking to external files and data from the web.
-      (b) Syntax of a sheet reference and Insert → Hyperlink.
-      (c) Renaming a sheet after writing formulas without checking — some links break.
+      (a) A hyperlink: select the cell and choose Insert → Hyperlink, then enter the file name or the web address.
+      (b) An e-mail address and a target inside the same document, such as a named cell.
+      (c) A hyperlink only opens something when clicked; a sheet-link formula brings a value from another sheet into the cell, and it updates when the source changes.
 
-Q12. [Long · 5 marks] Discuss “Linking Spreadsheet Data” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Explain the steps to bring a table from a web page into a Calc sheet so that it can be refreshed, and give two precautions.
     Ans:
-      Same-file sheet link: =Sheet2.B3 or ='Term 1'.B3 if the sheet name has a space.
-      Marks lens: Syntax of a sheet reference and Insert → Hyperlink.
-      Method / memory trick: Sheet names with spaces need single quotes: 'Term 1'.A1.
-      Do not: Renaming a sheet after writing formulas without checking — some links break.
+      Step 1: place the cursor in the cell where the table should start.
+      Step 2: choose Insert → Link to External Data (in newer versions it is under the Sheet menu).
+      Step 3: type the web address in the URL box and press Enter; select the table or range that you want in the list.
+      Step 4: click OK; later, refresh the data from Edit → Links to External Files.
+      Precautions: an internet connection is needed to refresh, and the table may change its layout or disappear if the web page is changed.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1157,11 +1147,11 @@ M3. Live totals that update when a source sheet changes need: (a) a screenshot (
 M4. Paste Special → Link is used to: (a) break a file (b) keep a live connection to copied cells (c) record a macro (d) group shapes
     Ans: (b).
 
-M5. The most exam-ready way to revise “Linking Spreadsheet Data” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Sheet links, hyperlinks, linking to external files and data from the web.
+M5. A hyperlink in Calc can point to: (a) a web page, an e-mail address, a file or a place in the same document (b) only another cell in the same sheet (c) only a picture (d) only a macro
+    Ans: (a) a web page, an e-mail address, a file or a place in the same document. Insert → Hyperlink offers an internet link, a mail link, a document link and a link to a target in the current document.
 
-M6. A 3-mark answer on “Linking Spreadsheet Data” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. If the source file of a linked cell is moved to another folder, the linked cell will probably: (a) update itself automatically (b) turn into a hyperlink (c) show an error or an old value (d) delete the source file
+    Ans: (c) show an error or an old value. The link remembers the old location, so Calc cannot find the source unless the link is repaired.
 
 M7. Linked data in a spreadsheet: (a) updates when the source value changes  (b) is frozen at the time of linking  (c) must be typed again  (d) cannot be used in a formula
     Ans: (a) updates when the source value changes. That is the whole point of linking.
@@ -1192,11 +1182,11 @@ Q4. [Short · 2 marks] What is the difference between accepting and rejecting a 
 Q5. [Application · 3 marks] Three lab partners type in three copies of stock.ods and the totals disagree. What should they have used?
     Ans: One shared spreadsheet (or one file with Record Changes + merge), not three independent copies.
 
-Q6. [Application · 3 marks] Riya is revising “Share and Review a Spreadsheet” (Sharing, recording changes, adding comments, comparing and merging sheets). A classmate lost marks by doing this: Protecting the sheet with no password written in the practical file — you cannot demo it. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A teacher types her corrections into a shared spreadsheet and only afterwards switches on Record Changes. Why do her corrections not appear in the review list, and what should she do?
     Ans:
-      Correct method: Sharing is for one file, many users; emailing five copies is how totals diverge.
-      Why the mistake costs marks: Protecting the sheet with no password written in the practical file — you cannot demo it.
-      Write the definition or formula first, then the working or example.
+      Recording tracks only edits made after it is switched on; the changes already typed are not marked.
+      She should first turn on Edit → Track Changes → Record, and then make the corrections.
+      Each change is then shown with the author and date, so it can later be accepted or rejected.
 
 Q7. [Short · 3 marks] How do you compare two versions of a document in LibreOffice?
     Ans:
@@ -1228,24 +1218,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Share and Review a Spreadsheet”. Their note says: Share spreadsheet: Tools → Share Spreadsheet. Several people can open it (on a network). Conflicts are resolved when saving.
+    A class keeps stock.ods on the lab server. Two students open it at the same time and both change cell C5.
     
-    The chapter is described as: Sharing, recording changes, adding comments, comparing and merging sheets.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) How can the file be shared so that several people can edit it at once?
+    (b) What happens when the two students save?
+    (c) Why is it useful to record changes in such a file?
     Ans:
-      (a) Sharing, recording changes, adding comments, comparing and merging sheets.
-      (b) Share spreadsheet + record changes is the pair.
-      (c) Protecting the sheet with no password written in the practical file — you cannot demo it.
+      (a) Choose Tools → Share Spreadsheet and allow it to be edited by several users.
+      (b) When the second student saves, Calc finds the conflict and asks which version of C5 to keep.
+      (c) It records who changed which cell and when, so the changes can be reviewed and wrong ones rejected.
 
-Q12. [Long · 5 marks] Discuss “Share and Review a Spreadsheet” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Describe a five-step method for a class to review a spreadsheet together.
     Ans:
-      Share spreadsheet: Tools → Share Spreadsheet. Several people can open it (on a network). Conflicts are resolved when saving.
-      Marks lens: Share spreadsheet + record changes is the pair.
-      Method / memory trick: Sharing is for one file, many users; emailing five copies is how totals diverge.
-      Do not: Protecting the sheet with no password written in the practical file — you cannot demo it.
+      Step 1: protect the cells that must not change (such as formulas) with Protect Sheet, leaving the input cells unlocked.
+      Step 2: turn on Edit → Track Changes → Record so that every edit is recorded.
+      Step 3: share the file with Tools → Share Spreadsheet so that several people can work on it.
+      Step 4: reviewers add comments to cells that need attention instead of changing the values.
+      Step 5: the owner goes through the changes and accepts or rejects each one, and merges any separate copies back into the original.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1262,11 +1251,11 @@ M3. To allow editing only some cells: (a) Group (b) Protect Sheet after unlockin
 M4. Compare Document is useful when: (a) you have an older copy to diff (b) you need a chart (c) you insert an image (d) you write a ToC
     Ans: (a).
 
-M5. The most exam-ready way to revise “Share and Review a Spreadsheet” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Sharing, recording changes, adding comments, comparing and merging sheets.
+M5. The feature that locks cells so that formulas cannot be changed by mistake is: (a) Protect Sheet (b) Freeze Rows (c) Goal Seek (d) Fill Series
+    Ans: (a) Protect Sheet. Protect Sheet (with the input cells left unlocked) stops people from editing the locked cells.
 
-M6. A 3-mark answer on “Share and Review a Spreadsheet” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. Bringing another user’s copy of a spreadsheet back into the shared original is called: (a) consolidating (b) subtotalling (c) merging (d) formatting
+    Ans: (c) merging. Merging combines the changes made in another copy with the original document.
 
 M7. Sharing a sheet while protecting it from changes is done from: (a) Tools → Protect Sheet  (b) File → Print  (c) Insert → Comment  (d) Format → Cells
     Ans: (a) Tools → Protect Sheet. You can also allow selected users to edit certain ranges.
@@ -1297,11 +1286,11 @@ Q4. [Short · 2 marks] What is a foreign key? Explain with a Student–Library e
 Q5. [Application · 3 marks] A school stores students in one sheet with teacher phone numbers typed against every student. Two problems, and the DBMS idea that fixes them.
     Ans: Redundancy (phone typed 40 times) and inconsistency (one row has the old number). Split into Student and Teacher tables with a foreign key.
 
-Q6. [Application · 3 marks] Riya is revising “Introduction to DBMS” (Data vs information, database, DBMS advantages, keys and types of database). A classmate lost marks by doing this: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student writes: “Calc is the DBMS we use in this course.” Correct this and give one reason why a DBMS suits large, related data better than a spreadsheet.
     Ans:
-      Correct method: Primary key = unique + not empty. Roll number works; student name does not.
-      Why the mistake costs marks: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course.
-      Write the definition or formula first, then the working or example.
+      Calc is a spreadsheet. The DBMS used in this course is LibreOffice Base.
+      A spreadsheet keeps everything in one table, so data such as a teacher’s phone number is repeated against every student.
+      A DBMS keeps data in related tables linked by keys, which reduces repetition and errors and keeps the data consistent.
 
 Q7. [Short · 3 marks] List any four advantages of a DBMS over a simple file system.
     Ans:
@@ -1333,24 +1322,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Introduction to DBMS”. Their note says: Data are raw facts (Ravi, 78). Information is processed, useful data (“Ravi scored 78 in IT”).
+    A library keeps three tables: Book (BookID, Title), Member (MemberID, Name) and Issue (IssueID, BookID, MemberID, IssueDate).
     
-    The chapter is described as: Data vs information, database, DBMS advantages, keys and types of database.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which field is the primary key of each table?
+    (b) Which fields in Issue are foreign keys?
+    (c) Why is a separate Issue table used?
     Ans:
-      (a) Data vs information, database, DBMS advantages, keys and types of database.
-      (b) Data vs information, advantages of DBMS, primary key — the opening trio.
-      (c) Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course.
+      (a) BookID in Book, MemberID in Member and IssueID in Issue.
+      (b) BookID and MemberID, because they refer to the primary keys of Book and Member.
+      (c) Many members issue many books, so each issue is recorded as a row in Issue instead of repeating book or member details.
 
-Q12. [Long · 5 marks] Discuss “Introduction to DBMS” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Compare a flat-file database and a relational database on five points.
     Ans:
-      Data are raw facts (Ravi, 78). Information is processed, useful data (“Ravi scored 78 in IT”).
-      Marks lens: Data vs information, advantages of DBMS, primary key — the opening trio.
-      Method / memory trick: Primary key = unique + not empty. Roll number works; student name does not.
-      Do not: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course.
+      Structure: a flat file is a single table, as in a Calc sheet; a relational database has several related tables, as in Base.
+      Repetition: a flat file repeats data (for example teacher details against each student); a relational database stores each fact once.
+      Updating: a change in a flat file must be made in many rows; in a relational database it is made in one place.
+      Links: a flat file has no relationships; a relational database joins tables through primary and foreign keys.
+      Use: a flat file suits small, simple lists; a relational database suits large data with many connected items.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1367,11 +1355,11 @@ M3. A good primary key for books is: (a) Title (b) Author (c) ISBN (d) Colour
 M4. A foreign key: (a) deletes the database (b) refers to a primary key in another table (c) is always a picture (d) is a macro
     Ans: (b).
 
-M5. The most exam-ready way to revise “Introduction to DBMS” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Data vs information, database, DBMS advantages, keys and types of database.
+M5. Which of the following is a DBMS? (a) LibreOffice Calc (b) LibreOffice Writer (c) LibreOffice Base (d) LibreOffice Impress
+    Ans: (c) LibreOffice Base. Base is the database program; Calc is a spreadsheet, Writer a word processor and Impress a presentation program.
 
-M6. A 3-mark answer on “Introduction to DBMS” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. A field that uniquely identifies each record in a table is called the: (a) foreign key (b) alias (c) query (d) primary key
+    Ans: (d) primary key. A primary key has a different value in every record, so that no two records can be confused.
 
 M7. The field that uniquely identifies each record in a table is the: (a) primary key  (b) foreign key  (c) index  (d) alias
     Ans: (a) primary key. It must be unique and cannot be empty.
@@ -1402,11 +1390,11 @@ Q4. [Short · 2 marks] What is the difference between Datasheet View and Design 
 Q5. [Application · 3 marks] A student stores mobile numbers as Integer and 098… becomes 98. Why, and what type should be used?
     Ans: Integer drops leading zeros and is not a “number you calculate with”. Use Text/VARCHAR.
 
-Q6. [Application · 3 marks] Riya is revising “Tables in LibreOffice Base” (Create tables in Design View, data types, primary key, field properties). A classmate lost marks by doing this: Forgetting to set the primary key — Base warns, some students click No. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] While saving a new table, Base asks whether to create a primary key, and a student clicks No. What problems can follow?
     Ans:
-      Correct method: Phone numbers are Text, not Integer — or you lose leading 0.
-      Why the mistake costs marks: Forgetting to set the primary key — Base warns, some students click No.
-      Write the definition or formula first, then the working or example.
+      Without a primary key, rows cannot be identified uniquely, so duplicate records can be entered.
+      Base may not allow the data of the table to be edited in the normal way.
+      Relationships to other tables cannot be built, since a relationship needs a primary key on one side.
 
 Q7. [Short · 3 marks] Choose the data type for a name, a roll number, a date of birth and a fee amount, giving a reason for each.
     Ans:
@@ -1438,24 +1426,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Tables in LibreOffice Base”. Their note says: Ways to create a table: Design View (exam method), Wizard, View/SQL. Use Design View.
+    A clerk wants the field StudentID to number new records 1, 2, 3, … automatically.
     
-    The chapter is described as: Create tables in Design View, data types, primary key, field properties.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which field property does this?
+    (b) What type of field must it be?
+    (c) Give one advantage.
     Ans:
-      (a) Create tables in Design View, data types, primary key, field properties.
-      (b) Create a table with four fields, correct types, PK set.
-      (c) Forgetting to set the primary key — Base warns, some students click No.
+      (a) The AutoValue property, set to Yes.
+      (b) A numeric field, such as Integer.
+      (c) Every record gets a different number automatically, which saves typing and avoids duplicates, so the field is suitable as a primary key.
 
-Q12. [Long · 5 marks] Discuss “Tables in LibreOffice Base” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Describe the steps to create a table Employee with the fields EmpID (primary key), Name, JoinDate and Salary in LibreOffice Base.
     Ans:
-      Ways to create a table: Design View (exam method), Wizard, View/SQL. Use Design View.
-      Marks lens: Create a table with four fields, correct types, PK set.
-      Method / memory trick: Phone numbers are Text, not Integer — or you lose leading 0.
-      Do not: Forgetting to set the primary key — Base warns, some students click No.
+      Step 1: in the Database pane click Tables, then choose Create Table in Design View.
+      Step 2: in the Field Name column type EmpID, Name, JoinDate and Salary, one on each row.
+      Step 3: choose the data types: Integer for EmpID, Text [VARCHAR] for Name, Date for JoinDate and Decimal for Salary.
+      Step 4: right-click the row selector of EmpID and choose Primary Key.
+      Step 5: save the table with the name Employee and close the design window.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1472,11 +1459,11 @@ M3. A primary key field should be: (a) empty often (b) unique and not null (c) a
 M4. Datasheet view is for: (a) setting data types (b) entering records (c) recording macros (d) wrapping images
     Ans: (b) entering records.
 
-M5. The most exam-ready way to revise “Tables in LibreOffice Base” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Create tables in Design View, data types, primary key, field properties.
+M5. In Base, the view in which you define field names and data types is the: (a) Datasheet View (b) Design View (c) Print Preview (d) Report View
+    Ans: (b) Design View. Design View is where the structure of the table is defined; Datasheet View is for entering and viewing the data.
 
-M6. A 3-mark answer on “Tables in LibreOffice Base” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. The most suitable data type for a field that stores a date of birth is: (a) Date (b) Text (c) Yes/No (d) Image
+    Ans: (a) Date. A Date field stores dates properly, so they can be sorted and used in calculations.
 
 M7. In Design View, the property that limits how many characters a text field can hold is: (a) Field Length  (b) Format  (c) Default Value  (d) Caption
     Ans: (a) Field Length. Default Value fills in a value automatically when nothing is typed.
@@ -1507,11 +1494,11 @@ Q4. [Short · 2 marks] What is a many-to-many relationship? Explain why it needs
 Q5. [Application · 3 marks] A shop has Customer and Order tables. Where does CustomerID go, and what relationship is this?
     Ans: CustomerID is PK in Customer and FK in Order. One-to-many (one customer, many orders).
 
-Q6. [Application · 3 marks] Riya is revising “Relationships and Multiple Tables” (One-to-one, one-to-many, many-to-many; referential integrity). A classmate lost marks by doing this: Drawing the relationship backwards (PK on the many side). Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student relates the tables Customer and Order by making OrderID in Order the primary key and also making CustomerID in Customer the foreign key. What is wrong?
     Ans:
-      Correct method: FK type must match PK type (both Integer, or both VARCHAR).
-      Why the mistake costs marks: Drawing the relationship backwards (PK on the many side).
-      Write the definition or formula first, then the working or example.
+      The foreign key goes on the many side. One customer can place many orders, so Order must contain the CustomerID.
+      Correct design: CustomerID is the primary key of Customer, and CustomerID in Order is the foreign key that refers to it.
+      The primary key and the foreign key must also have the same data type, or Base will refuse the link.
 
 Q7. [Short · 3 marks] Explain the three types of relationship with an example of each.
     Ans:
@@ -1542,24 +1529,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Relationships and Multiple Tables”. Their note says: Why multiple tables: store each fact once. Student details in Student; issues in Issue; link by AdmNo.
+    In a school, each student has exactly one library card and each card belongs to exactly one student.
     
-    The chapter is described as: One-to-one, one-to-many, many-to-many; referential integrity.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) What type of relationship is this?
+    (b) How can it be set up in Base?
+    (c) Why are the data often kept in one table instead?
     Ans:
-      (a) One-to-one, one-to-many, many-to-many; referential integrity.
-      (b) Draw one-to-many (Student–Issue) with referential integrity.
-      (c) Drawing the relationship backwards (PK on the many side).
+      (a) A one-to-one relationship.
+      (b) The primary key of one table is also used (as a unique key) in the other, and the two are linked in Tools → Relationships.
+      (c) Because each row matches exactly one row of the other table, the fields can be placed in a single table; separate tables are used only when some data is rarely needed or must be kept apart.
 
-Q12. [Long · 5 marks] Discuss “Relationships and Multiple Tables” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] A shop has customers, products and orders. Design the tables with their primary and foreign keys, and name the relationships.
     Ans:
-      Why multiple tables: store each fact once. Student details in Student; issues in Issue; link by AdmNo.
-      Marks lens: Draw one-to-many (Student–Issue) with referential integrity.
-      Method / memory trick: FK type must match PK type (both Integer, or both VARCHAR).
-      Do not: Drawing the relationship backwards (PK on the many side).
+      Customer (CustomerID — primary key, Name, Phone).
+      Product (ProductID — primary key, ProductName, Price).
+      Order (OrderID — primary key, CustomerID — foreign key, ProductID — foreign key, Quantity, OrderDate).
+      Customer to Order is one-to-many, and Product to Order is also one-to-many.
+      Between Customer and Product the relationship is many-to-many, which is why the Order table acts as the linking (junction) table.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1576,11 +1562,11 @@ M3. Student–Issue is typically: (a) one-to-one (b) one-to-many (c) many-to-man
 M4. Relationships window is opened from: (a) Tools → Relationships (b) Insert → Image (c) Format → Page (d) Data → Sort
     Ans: (a).
 
-M5. The most exam-ready way to revise “Relationships and Multiple Tables” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is One-to-one, one-to-many, many-to-many; referential integrity.
+M5. In a one-to-many relationship, the foreign key is placed in the table on the: (a) “one” side (b) “many” side (c) side with fewer records (d) side with the longer name
+    Ans: (b) “many” side. Each record on the “many” side stores the key of the one record it belongs to.
 
-M6. A 3-mark answer on “Relationships and Multiple Tables” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. Referential integrity ensures that: (a) every field has a default value (b) a table has at least ten records (c) a query is always sorted (d) a foreign key value must match an existing primary key value in the related table
+    Ans: (d) a foreign key value must match an existing primary key value in the related table. It prevents records that point to something that does not exist, such as an order for a missing customer.
 
 M7. The relationship between one customer and the many orders placed by that customer is: (a) one-to-many  (b) one-to-one  (c) many-to-many  (d) not possible
     Ans: (a) one-to-many. The customer is the parent record and the orders are the child records.
@@ -1613,11 +1599,11 @@ Q4. [Short · 2 marks] What is the difference between AND and OR in a query grid
 Q5. [Application · 3 marks] The librarian wants unpaid fees greater than 500, sorted by fees high to low. Which grid settings?
     Ans: Field Fees, criterion >500, Sort Descending; include Name/AdmNo so the rows are identifiable.
 
-Q6. [Application · 3 marks] Riya is revising “Queries in Base” (Design View queries, criteria, sorting, aliases and related-table queries). A classmate lost marks by doing this: Editing query results and expecting the table design to change. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student opens “Create Query in Design View” in Base and finds that there are no fields to choose from. What did she forget, and what should she do?
     Ans:
-      Correct method: Text criteria need quotes in some modes; in the grid Delhi is often enough — follow what the lab build accepts.
-      Why the mistake costs marks: Editing query results and expecting the table design to change.
-      Write the definition or formula first, then the working or example.
+      She did not add the table: the query design window needs the table(s) to be added first.
+      In the Add Table or Query box, select the table (or tables) and click Add, then Close.
+      The table boxes with their fields now appear, and fields can be dragged down to the design grid.
 
 Q7. [Short · 3 marks] Describe how to create a query with a condition in LibreOffice Base.
     Ans:
@@ -1648,24 +1634,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Queries in Base”. Their note says: Query = a saved question: which fields, from which tables, matching which criteria, in which order.
+    A Marks table has the fields Name, Maths and Science. The teacher wants a query that shows each Name and the total of the two subjects under the heading Total, with the highest total first.
     
-    The chapter is described as: Design View queries, criteria, sorting, aliases and related-table queries.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) What is typed in the Field row for the total?
+    (b) How is the heading “Total” set?
+    (c) How is the order set?
     Ans:
-      (a) Design View queries, criteria, sorting, aliases and related-table queries.
-      (b) Practical: query with two criteria and a sort.
-      (c) Editing query results and expecting the table design to change.
+      (a) The expression "Maths"+"Science" (field names go in double quotes).
+      (b) Type Total in the Alias row of that column.
+      (c) Set the Sort row of that column to Descending.
 
-Q12. [Long · 5 marks] Discuss “Queries in Base” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Name the rows of the query design grid in Base and state the job of each.
     Ans:
-      Query = a saved question: which fields, from which tables, matching which criteria, in which order.
-      Marks lens: Practical: query with two criteria and a sort.
-      Method / memory trick: Text criteria need quotes in some modes; in the grid Delhi is often enough — follow what the lab build accepts.
-      Do not: Editing query results and expecting the table design to change.
+      Field: the field or expression that the column uses; Alias: the heading shown in the result; Table: the table the field comes from.
+      Sort: arranges the result ascending or descending on that field.
+      Visible: a tick shows the column in the result; unticking hides it but still lets it be used for a condition.
+      Function: applies a function such as Count, Sum or Average.
+      Criterion and Or: the conditions for the records to be shown; conditions in one row are joined by AND, and a condition in the Or row is joined by OR.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1682,11 +1667,11 @@ M3. Two criteria on the same row mean: (a) OR (b) AND (c) XOR (d) NOT a query
 M4. To sort marks highest first: (a) Sort Ascending (b) Sort Descending on Marks (c) Primary key (d) Wrap Optimal
     Ans: (b).
 
-M5. The most exam-ready way to revise “Queries in Base” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Design View queries, criteria, sorting, aliases and related-table queries.
+M5. In the query design grid, the row that is used to hide a field from the result is: (a) Alias (b) Visible (c) Sort (d) Function
+    Ans: (b) Visible. Unticking Visible keeps the field available for criteria but does not show it in the result.
 
-M6. A 3-mark answer on “Queries in Base” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. The criterion >500 placed under the Fees field will show only the records where: (a) Fees is greater than 500 (b) Fees is exactly 500 (c) Fees is less than 500 (d) Fees is blank
+    Ans: (a) Fees is greater than 500. The symbol > means “greater than”, so only the larger amounts are shown.
 
 M7. To show only the students of Class 10 in a query you would: (a) type a criterion in the Class field  (b) sort the Class field  (c) rename the field  (d) delete the other rows
     Ans: (a) type a criterion in the Class field. Criteria filter the records; sorting only reorders them.
@@ -1717,11 +1702,11 @@ Q4. [Short · 2 marks] What is grouping in a report? Give one example with a sui
 Q5. [Application · 3 marks] The office wants a printed list of Class 10 students owing more than ₹500, grouped by section. Form or report? What sits underneath?
     Ans: A report. Underneath: a query with Class=10, Fees>500, then group by section in the report wizard.
 
-Q6. [Application · 3 marks] Riya is revising “Forms and Reports” (Data-entry forms and printable reports from tables or queries). A classmate lost marks by doing this: Building a report on the whole table when the question said “students with marks > 80”. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student prints 200 rows of student marks from a form and finds it awkward and untidy. Why is a form not suited to this, and what should she have used?
     Ans:
-      Correct method: If the report is empty, the query returned zero rows — fix criteria first.
-      Why the mistake costs marks: Building a report on the whole table when the question said “students with marks > 80”.
-      Write the definition or formula first, then the working or example.
+      A form is meant for entering, viewing and editing one record (or a few) at a time on the screen.
+      A report is designed for printing: it can show many records with headings, grouping, totals and a neat page layout.
+      She should have created a report, based on the table or on a query.
 
 Q7. [Short · 3 marks] Describe how to create a report in LibreOffice Base.
     Ans:
@@ -1752,24 +1737,21 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Forms and Reports”. Their note says: Form: on-screen layout for entering and editing records, one at a time, with labels and controls. Safer than raw datasheet (validation, no extra columns).
+    The school office needs to (i) store student records, (ii) find the students who owe fees, (iii) type in new admissions comfortably and (iv) print a fee-defaulter list for the principal.
     
-    The chapter is described as: Data-entry forms and printable reports from tables or queries.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Name the Base object best suited to each task.
+    (b) Which of these objects are mainly used for output rather than entry?
     Ans:
-      (a) Data-entry forms and printable reports from tables or queries.
-      (b) Practical often: form on Student + report from a query.
-      (c) Building a report on the whole table when the question said “students with marks > 80”.
+      (a) (i) Table; (ii) Query; (iii) Form; (iv) Report.
+      (b) The report (for printing) and the query (for showing selected results); data are entered through tables or, more conveniently, forms.
 
-Q12. [Long · 5 marks] Discuss “Forms and Reports” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Describe the steps to produce a printed report of students with marks above 80, grouped by section.
     Ans:
-      Form: on-screen layout for entering and editing records, one at a time, with labels and controls. Safer than raw datasheet (validation, no extra columns).
-      Marks lens: Practical often: form on Student + report from a query.
-      Method / memory trick: If the report is empty, the query returned zero rows — fix criteria first.
-      Do not: Building a report on the whole table when the question said “students with marks > 80”.
+      Step 1: create a query that shows Name, Section and Marks with the criterion >80 under Marks, and save it.
+      Step 2: in the Database pane choose Reports, then Use Wizard to Create Report.
+      Step 3: select the query as the source, pick the fields to include and give the field labels.
+      Step 4: in the grouping step add Section, and in the sorting step sort by Marks.
+      Step 5: choose a layout and create the report; it can then be previewed and printed.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1786,11 +1768,11 @@ M3. The best source for a filtered report is: (a) a query (b) a random image (c)
 M4. A check box on a form suits a: (a) Yes/No field (b) photo of the school (c) Goal Seek cell (d) Heading 1 style
     Ans: (a) Yes/No field.
 
-M5. The most exam-ready way to revise “Forms and Reports” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Data-entry forms and printable reports from tables or queries.
+M5. The Base object designed mainly for printing information is the: (a) report (b) table (c) form (d) relationship
+    Ans: (a) report. A report lays out data with headings, groups and totals for printing.
 
-M6. A 3-mark answer on “Forms and Reports” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. A form is mainly used to: (a) enter, view and edit records conveniently (b) print large lists (c) store the data permanently (d) join two databases
+    Ans: (a) enter, view and edit records conveniently. A form presents the fields of a record in a convenient screen layout, and the data are stored in the tables.
 
 M7. A report is mainly used to: (a) print or present data in a formatted way  (b) enter new records  (c) store the data  (d) delete old records
     Ans: (a) print or present data in a formatted way. Data entry is done through a form.
@@ -1824,11 +1806,12 @@ Q4. [Short · 2 marks] What is the difference between a hazard and a risk? Give 
 Q5. [Application · 3 marks] A student pours water on a sparking socket. Two mistakes and the correct actions.
     Ans: Water on electrical fire; staying next to a live spark. Instead: don’t touch, switch off mains if safe, alert staff, use CO2/powder extinguisher, evacuate.
 
-Q6. [Application · 3 marks] Riya is revising “Health, Safety and Security at the Workplace” (Hazards, occupational health, electrical and fire safety, security of data). A classmate lost marks by doing this: Writing “be careful” with no concrete precaution. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student answers “Be careful with electricity” to the question “State three electrical safety precautions in a computer lab”. Why will this score no marks? Give three concrete precautions.
     Ans:
-      Correct method: Water on an electrical fire is the classic wrong answer.
-      Why the mistake costs marks: Writing “be careful” with no concrete precaution.
-      Write the definition or formula first, then the working or example.
+      The answer is vague. A precaution must name a specific action that prevents harm.
+      Precaution 1: never touch plugs or switches with wet hands, and keep liquids away from the computers.
+      Precaution 2: report damaged cables and loose sockets at once, and do not overload a socket with many plugs.
+      (Another: switch off and unplug the equipment before cleaning or repairing it.)
 
 Q7. [Short · 3 marks] List four fire safety rules for a workplace.
     Ans:
@@ -1861,24 +1844,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Health, Safety and Security at the Workplace”. Their note says: Hazard = anything that can cause harm. Risk = chance that the harm will occur.
+    In a computer lab, two exits are blocked by boxes, the fire extinguisher is past its expiry date and a printer cable lies across the walkway.
     
-    The chapter is described as: Hazards, occupational health, electrical and fire safety, security of data.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Identify the three hazards.
+    (b) Name the type of risk each creates.
+    (c) State one corrective action for each.
     Ans:
-      (a) Hazards, occupational health, electrical and fire safety, security of data.
-      (b) marks with the rest of Unit 4. Hazard types + two precautions each.
-      (c) Writing “be careful” with no concrete precaution.
+      (a) The blocked exits, the expired extinguisher and the loose cable.
+      (b) Blocked exits risk people being trapped in an emergency; the expired extinguisher risks a small fire spreading; the cable risks a fall (a tripping hazard).
+      (c) Clear the exits and keep them free; replace or recharge the extinguisher; tape the cable down or reroute it along the wall.
 
-Q12. [Long · 5 marks] Discuss “Health, Safety and Security at the Workplace” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Name four types of fire extinguisher and say which one should be used on an electrical fire in a computer lab. State the PASS steps for using an extinguisher.
     Ans:
-      Hazard = anything that can cause harm. Risk = chance that the harm will occur.
-      Marks lens: marks with the rest of Unit 4. Hazard types + two precautions each.
-      Method / memory trick: Water on an electrical fire is the classic wrong answer.
-      Do not: Writing “be careful” with no concrete precaution.
+      Types: water, foam, dry powder and carbon dioxide (CO₂).
+      Water and foam must not be used on an electrical fire, because they conduct electricity and can cause a shock or damage the equipment.
+      For computers, a CO₂ extinguisher is best because it leaves no residue; dry powder also works but can harm the electronics.
+      PASS: Pull the pin; Aim the nozzle at the base of the fire; Squeeze the handle; Sweep from side to side.
+      Also switch off the mains supply if it is safe, and raise the alarm.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -1895,11 +1877,11 @@ M3. RSI in a data-entry job is mostly: (a) a green job (b) an ergonomic/occupati
 M4. A sticky note under the keyboard with the password is a failure of: (a) ToC (b) data security (c) Goal Seek (d) grouping
     Ans: (b) data security.
 
-M5. The most exam-ready way to revise “Health, Safety and Security at the Workplace” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Hazards, occupational health, electrical and fire safety, security of data.
+M5. For an electrical fire in a computer lab, the most suitable extinguisher is: (a) water (b) carbon dioxide (CO₂) (c) foam (d) a bucket of sand and water
+    Ans: (b) carbon dioxide (CO₂). CO₂ does not conduct electricity and leaves no residue on the equipment.
 
-M6. A 3-mark answer on “Health, Safety and Security at the Workplace” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. On seeing a damaged electrical cable in the lab, the first thing to do is to: (a) touch it to check whether it is live (b) wrap it with a wet cloth (c) keep away, switch off the supply if safe, and report it (d) ignore it until the next practical
+    Ans: (c) keep away, switch off the supply if safe, and report it. A damaged cable can give a shock or start a fire, so the supply should be cut off and the fault reported.
 
 M7. The first thing to do when a fire is discovered is to: (a) raise the alarm and leave by the marked exit  (b) collect your belongings  (c) use the lift  (d) finish the work you are doing
     Ans: (a) raise the alarm and leave by the marked exit. Never use a lift in a fire.
@@ -1934,11 +1916,12 @@ Q4. [Short · 2 marks] What are the four features of quality work in IT? Illustr
 Q5. [Application · 3 marks] Amit’s laptop is on a high table, he looks up, and his wrists bend on the edge. Two injuries this invites and two fixes.
     Ans: Neck strain and wrist RSI. Fixes: raise the chair or lower the desk, laptop stand + external keyboard, wrist straight, breaks.
 
-Q6. [Application · 3 marks] Riya is revising “Workplace Quality and Ergonomics” (Quality of work, 5S, housekeeping, ergonomic posture and workstation setup). A classmate lost marks by doing this: Drawing the user hunched over a laptop as “correct posture”. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student draws a person hunched over a laptop on a low sofa and labels it “correct posture”. Correct this, and give four features of a correct sitting posture at a computer.
     Ans:
-      Correct method: Screen top at eye level, not looking down at a laptop on the lap.
-      Why the mistake costs marks: Drawing the user hunched over a laptop as “correct posture”.
-      Write the definition or formula first, then the working or example.
+      It is incorrect: a hunched back and a low screen strain the neck, back and wrists.
+      Feet flat on the floor and the back straight and supported by the chair.
+      Elbows bent at about 90° with the wrists straight, and the top of the screen at or just below eye level.
+      The screen about an arm’s length (50–70 cm) away, with short breaks every 20–30 minutes.
 
 Q7. [Short · 3 marks] Describe a correct workstation arrangement and the working habit that prevents strain.
     Ans:
@@ -1972,24 +1955,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Workplace Quality and Ergonomics”. Their note says: Quality of work in IT: accurate data, readable documents, meeting time, following the house style, checking before submit.
+    In a computer lab, cables lie tangled on the floor, unused CDs are piled on the desks and folders have no labels.
     
-    The chapter is described as: Quality of work, 5S, housekeeping, ergonomic posture and workstation setup.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which 5S step removes the unused CDs?
+    (b) Which step covers labelling the folders and arranging the cables?
+    (c) Name the remaining steps and say what each means.
     Ans:
-      (a) Quality of work, 5S, housekeeping, ergonomic posture and workstation setup.
-      (b) Ergonomics of a computer workstation is the set diagram/answer.
-      (c) Drawing the user hunched over a laptop as “correct posture”.
+      (a) Sort: remove what is not needed.
+      (b) Set in order: a place for everything, with labels, so that things can be found quickly.
+      (c) Shine (clean the area and equipment regularly), Standardise (make rules so that the same order is kept) and Sustain (make the habit continue).
 
-Q12. [Long · 5 marks] Discuss “Workplace Quality and Ergonomics” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] What is housekeeping? Describe five housekeeping rules for a computer lab and explain how they improve safety and quality of work.
     Ans:
-      Quality of work in IT: accurate data, readable documents, meeting time, following the house style, checking before submit.
-      Marks lens: Ergonomics of a computer workstation is the set diagram/answer.
-      Method / memory trick: Screen top at eye level, not looking down at a laptop on the lap.
-      Do not: Drawing the user hunched over a laptop as “correct posture”.
+      Housekeeping means keeping the workplace clean, tidy and organised.
+      Keep floors and walkways clear and store cables neatly, which prevents trips and falls.
+      Do not eat or drink near the computers, and dust the equipment regularly, which prevents damage and faults.
+      Label folders, media and equipment and put things back in their place, so that work is found easily and not lost.
+      Dispose of waste correctly and report faults at once; a clean, orderly lab lets people work accurately and safely.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -2006,11 +1988,11 @@ M3. 20-20-20 is for: (a) macros (b) eye strain (c) primary keys (d) mail merge
 M4. Quality in data entry mainly means: (a) speed only (b) accuracy and completeness as well as speed (c) colourful fonts (d) loud music
     Ans: (b).
 
-M5. The most exam-ready way to revise “Workplace Quality and Ergonomics” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Quality of work, 5S, housekeeping, ergonomic posture and workstation setup.
+M5. Ergonomics is the study of: (a) writing computer programs (b) repairing electronic circuits (c) storing data in a database (d) designing workplaces and equipment to suit the user, for comfort, safety and efficiency
+    Ans: (d) designing workplaces and equipment to suit the user, for comfort, safety and efficiency. Good ergonomics reduces strain and injury and helps people work better.
 
-M6. A 3-mark answer on “Workplace Quality and Ergonomics” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. For correct posture, the top of the computer screen should be: (a) well above the head (b) on the floor (c) at the level of the keyboard (d) at or slightly below eye level
+    Ans: (d) at or slightly below eye level. This lets the user look slightly down without bending the neck.
 
 M7. The 5S workplace method consists of: (a) Sort, Set in order, Shine, Standardise, Sustain  (b) Sit, See, Save, Stop, Start  (c) Safety, Speed, Size, Skill, System  (d) Scan, Send, Store, Sell, Sort
     Ans: (a) Sort, Set in order, Shine, Standardise, Sustain. It comes from Japanese workplace practice.
@@ -2041,11 +2023,11 @@ Q4. [Short · 2 marks] What is the difference between an accident and a near-mis
 Q5. [Application · 3 marks] The fire alarm rings. A student runs back for a USB and takes the lift. Two wrong actions and the correct ones.
     Ans: Going back for belongings and using the lift. Correct: leave immediately by stairs, USB can be replaced, assemble for headcount.
 
-Q6. [Application · 3 marks] Riya is revising “Prevent Accidents and Emergencies” (Causes of accidents, evacuation, first aid, emergency numbers and incident reporting). A classmate lost marks by doing this: Applying toothpaste or ice directly on a burn. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student says that toothpaste or ice should be put on a minor burn. Correct this and give the right first aid.
     Ans:
-      Correct method: Power off before touch is the electric-shock line examiners want.
-      Why the mistake costs marks: Applying toothpaste or ice directly on a burn.
-      Write the definition or formula first, then the working or example.
+      Toothpaste, butter and ice must not be put on a burn; they can damage the skin or cause infection.
+      Hold the burn under cool running water for about 10–20 minutes.
+      Then cover it loosely with a clean, non-sticky dressing, do not burst any blisters, and get medical help if the burn is large or deep.
 
 Q7. [Short · 3 marks] Describe the first aid for a minor burn and for a person who has fainted.
     Ans:
@@ -2078,24 +2060,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Prevent Accidents and Emergencies”. Their note says: Causes of accidents: unsafe conditions (wet floor, bad wiring) and unsafe acts (running, bypassing rules). Most lab accidents are preventable.
+    During a practical, smoke rises from a UPS in the lab.
     
-    The chapter is described as: Causes of accidents, evacuation, first aid, emergency numbers and incident reporting.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) What should the teacher and students do first?
+    (b) Which emergency numbers can be called?
+    (c) How should the room be left?
     Ans:
-      (a) Causes of accidents, evacuation, first aid, emergency numbers and incident reporting.
-      (b) Evacuation order and first aid don’ts are the 2–3 markers.
-      (c) Applying toothpaste or ice directly on a burn.
+      (a) Raise the alarm and, if it is safe, switch off the main power supply; do not use water on electrical equipment.
+      (b) 101 for the fire service, or 112, the national emergency number (100 for police and 102 for an ambulance).
+      (c) Everyone leaves calmly by the stairs, not the lift, and gathers at the assembly point, where the teacher takes a head count.
 
-Q12. [Long · 5 marks] Discuss “Prevent Accidents and Emergencies” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] List five items of a first-aid box and five rules that a first-aider should follow.
     Ans:
-      Causes of accidents: unsafe conditions (wet floor, bad wiring) and unsafe acts (running, bypassing rules). Most lab accidents are preventable.
-      Marks lens: Evacuation order and first aid don’ts are the 2–3 markers.
-      Method / memory trick: Power off before touch is the electric-shock line examiners want.
-      Do not: Applying toothpaste or ice directly on a burn.
+      Items: sterile gauze and bandages, adhesive plasters, antiseptic solution, scissors, and disposable gloves (also cotton wool and a burn dressing).
+      Rule 1: first make sure the area is safe, for example switch off the power in case of electric shock.
+      Rule 2: call for help and the emergency number quickly.
+      Rule 3: do not move a seriously injured person unless there is danger, and reassure them.
+      Rule 4: wear gloves and wash hands; do not give food or drink to an unconscious person.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -2112,11 +2093,11 @@ M3. A near-miss should be: (a) ignored (b) reported (c) punished always (d) post
 M4. A minor burn is cooled with: (a) ice cubes rubbed hard (b) running water (c) toothpaste (d) cotton oil
     Ans: (b) running water.
 
-M5. The most exam-ready way to revise “Prevent Accidents and Emergencies” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Causes of accidents, evacuation, first aid, emergency numbers and incident reporting.
+M5. In India, the single national emergency number is: (a) 108 only (b) 112 (c) 1800 (d) 911
+    Ans: (b) 112. 112 is the all-in-one emergency number; 101 is for fire, 100 for police and 102 for ambulance.
 
-M6. A 3-mark answer on “Prevent Accidents and Emergencies” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. During a fire drill, people should leave the building using the: (a) lift (b) windows (c) back of the lab (d) stairs
+    Ans: (d) stairs. Lifts may stop working or trap people in a fire, so the stairs are used.
 
 M7. The single all-India emergency number for police, fire and ambulance is: (a) 112  (b) 100  (c) 101  (d) 108
     Ans: (a) 112. 100 is police, 101 is fire and 108 is the ambulance service in most states.

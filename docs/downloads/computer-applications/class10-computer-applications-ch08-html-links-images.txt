@@ -36,16 +36,17 @@ Q5. [Short · 3 marks] Write HTML to create a link to the CBSE website that open
 Q6. [Short · 3 marks] Explain the <img> tag with any four of its attributes.
     Ans: The <img> tag inserts an image into a page and is an empty tag, so it has no closing partner. src gives the location of the image file and is compulsory — without it nothing displays. alt provides alternative text shown when the image fails to load and read by screen readers. width and height set the displayed size in pixels or as a percentage of the container. align controls how the image sits beside surrounding text, and border draws a frame around it. An example is <img src='logo.png' alt='School logo' width='200' height='100'>.
 
-Q7. [Application · 3 marks] Riya is revising “HTML III — Links & Images” (The <a> tag, href, anchors, and the <img> tag with its attributes). A classmate lost marks by doing this: Writing <img href=...> instead of <img src=...>. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student writes <img href='logo.png'></img> to show a picture. Find the two errors and write the correct tag.
     Ans:
-      Correct method: href for links, src for sources. <a href>, <img src>, <script src>.
-      Why the mistake costs marks: Writing <img href=...> instead of <img src=...>.
-      Write the definition or formula first, then the working or example.
+      The attribute for the file is src, not href (href belongs to links).
+      <img> is an empty tag, so it has no closing </img>.
+      Correct: <img src='logo.png' alt='School logo'>
 
-Q8. [Application · 3 marks] Amit is given this exam-style task from “HTML III — Links & Images”: “Write HTML to create a link to the CBSE website that opens in a new tab, and a link that emails the principal.” Treat it as an application question. Identify the idea, then write the working in points.
+Q8. [Application · 3 marks] A page stored in the folder pages needs a link back to index.html, which is in the parent folder, and a picture logo.png from a sibling folder images. Write both tags using relative paths.
     Ans:
-      Idea: The <a> tag, href, anchors, and the <img> tag with its attributes.
-      <a href='https://www.cbse.gov.in' target='_blank'>Visit CBSE</a> <br> <a href='mailto:principal@school.edu'>Email the Principal</a> The first uses an absolute URL and target='_blank' so it opens in a new tab. The second uses the mailto: prefix, which makes the browser open the user's email program with the address already filled in.
+      <a href='../index.html'>Home</a>
+      <img src='../images/logo.png' alt='Logo'>
+      ../ means “go up one folder”, so the first path reaches index.html in the parent folder and the second goes up and then into images.
 
 Q9. [Short · 3 marks] Write HTML to display the image logo.png at 200 by 100 pixels and make it a link to home.html.
     Ans:
@@ -56,36 +57,36 @@ Q9. [Short · 3 marks] Write HTML to display the image logo.png at 200 by 100 pi
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “HTML III — Links & Images”. Their note says: The anchor tag. <a href='destination'>text</a> creates a hyperlink. href (hypertext reference) holds the address of the destination. The destination can be another page on the same site, a page on another site, an email address using mailto:, or a place further down the same page.
+    A site has these files: site/index.html, site/about/team.html and site/img/photo.jpg. From team.html a student writes <img src='img/photo.jpg'>, and the picture does not appear.
     
-    The chapter is described as: The <a> tag, href, anchors, and the <img> tag with its attributes.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Why does it fail?
+    (b) Write the correct tag.
+    (c) What kind of path is this?
     Ans:
-      (a) The <a> tag, href, anchors, and the <img> tag with its attributes.
-      (b) Write a working link or image tag; explain the difference between absolute and relative paths.
-      (c) Writing <img href=...> instead of <img src=...>.
+      (a) A relative path starts from the folder of the current file, about, and there is no img folder inside it.
+      (b) <img src='../img/photo.jpg' alt='Team photo'>
+      (c) A relative path (measured from the current file); an absolute path would give the full web address.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Write HTML to create a link to the CBSE website that opens in a new tab, and a link that emails the principal.” Student A writes one line. Student B writes points, an example and a check.
+    A blind student uses a screen reader on a page that has <img src='map.png'> with no alt text.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) What can the screen reader not do?
+    (b) Add suitable alt text to the tag.
+    (c) Name another situation in which the alt text is shown.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) <a href='https://www.cbse.gov.in' target='_blank'>Visit CBSE</a> <br> <a href='mailto:principal@school.edu'>Email the Principal</a> The first uses an absolute URL and target='_blank' so it opens in a new tab. The second uses the mailto: prefix, which makes the browser open the user's email program with the address already filled in.
-      (c) href for links, src for sources. <a href>, <img src>, <script src>.
+      (a) It cannot tell the student what the picture shows.
+      (b) <img src='map.png' alt='Map showing the route to the school'>
+      (c) When the image cannot load, for example on a slow network or with a wrong file path, or when images are turned off.
 
-Q12. [Long · 5 marks] Discuss “HTML III — Links & Images” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Write the HTML for a page that has a heading, a picture photo.jpg 300 pixels wide, a link “Next” to next.html that opens in a new tab, and a link “Notes” that jumps to a heading with the id notes. Explain the attributes used.
     Ans:
-      The anchor tag. <a href='destination'>text</a> creates a hyperlink. href (hypertext reference) holds the address of the destination. The destination can be another page on the same site, a page on another site, an email address using mailto:, or a place further down the same page.
-      Marks lens: Write a working link or image tag; explain the difference between absolute and relative paths.
-      Method / memory trick: href for links, src for sources. <a href>, <img src>, <script src>.
-      Do not: Writing <img href=...> instead of <img src=...>.
+      <h1>My Trip</h1>
+      <img src='photo.jpg' width='300' alt='Trip photo'>
+      <a href='next.html' target='_blank'>Next</a>
+      <a href='#notes'>Notes</a>
+      <h2 id='notes'>Notes</h2>
+      src names the picture, width sets its size, href gives the destination, target='_blank' opens a new tab, and #notes jumps to the element with that id.
 
 B. MCQs (8)
 ------------------------------------------------------------------------

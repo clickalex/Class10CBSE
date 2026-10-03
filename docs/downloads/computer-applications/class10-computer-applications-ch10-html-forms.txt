@@ -35,16 +35,20 @@ Q4. [Short · 2 marks] What do the action and method attributes of the <form> ta
 Q5. [Short · 3 marks] What is the difference between the GET and POST methods?
     Ans: GET appends the form data to the URL as a query string, such as search.html?q=physics. The data is visible in the address bar, is limited in length, and can be bookmarked or shared — which makes GET suitable for searches. POST places the data in the body of the HTTP request, so it does not appear in the URL, has no practical size limit, and can carry files. POST is therefore used for logins, registrations and any form carrying sensitive or large data.
 
-Q6. [Application · 3 marks] Riya is revising “HTML Forms” (<form>, every <input> type, <textarea>, <select> and the buttons). A classmate lost marks by doing this: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student gives three radio buttons for “Class” the names c1, c2 and c3, and finds that two of them can be selected together. What is the error, and how is it fixed?
     Ans:
-      Correct method: Radios share a name; checkboxes do not. That one rule separates the two.
-      Why the mistake costs marks: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose.
-      Write the definition or formula first, then the working or example.
+      Radio buttons are meant to be mutually exclusive only when they belong to the same group, and a group is formed by a shared name.
+      With different names, each button is its own group, so several can be selected.
+      Fix: <input type='radio' name='class' value='X'> for every button, changing only the value.
 
-Q7. [Application · 3 marks] Amit is given this exam-style task from “HTML Forms”: “Write an HTML form with a name field, a password field, two radio buttons for gender, a hobbies checkbox group, and submit and reset buttons.” Treat it as an application question. Identify the idea, then write the working in points.
+Q7. [Application · 3 marks] Write the HTML for a login form with a user-name box, a password box and a Submit button that sends the data by POST to login.php.
     Ans:
-      Idea: <form>, every <input> type, <textarea>, <select> and the buttons.
-      <form action='/submit' method='post'> Name: <input type='text' name='uname'><br> Password: <input type='password' name='upass'><br> Gender: <input type='radio' name='gender' value='male'> Male <input type='radio' name='gender' value='female'> Female<br> Hobbies: <input type='checkbox' name='hobby' value='reading'> Reading <input type='checkbox' name='hobby' value='music'> Music<br> <input type='submit' value='Send'> <input type='reset' value='Clear'> </form> Both radio buttons share the name gender, so only one can be chosen; the two checkboxes are independent, so both can be ticked.
+      <form action='login.php' method='post'>
+        User name: <input type='text' name='user'>
+        Password: <input type='password' name='pass'>
+        <input type='submit' value='Submit'>
+      </form>
+      type='password' hides the characters typed, and method='post' sends the data in the request body, not in the address bar.
 
 Q8. [Short · 3 marks] Write the HTML for a form with a text box for a name, two radio buttons for gender, a checkbox for a hobby and a submit button.
     Ans:
@@ -71,36 +75,44 @@ Q9. [Long · 4 marks] Write an HTML form with a name field, a password field, tw
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “HTML Forms”. Their note says: The form tag. <form> wraps every control. Its two important attributes are action, the URL that receives the data, and method, which is either get or post. GET appends the data to the URL as a query string, so it is visible, short and can be bookmarked — suitable for searches. POST sends the data in
+    A student wrote this form, but the server receives nothing for the text box.
     
-    The chapter is described as: <form>, every <input> type, <textarea>, <select> and the buttons.
+    <form action='save.php' method='get'>
+      <input type='text'>
+      <input type='submit' value='Send'>
+    </form>
     
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Why is nothing received?
+    (b) Correct the text box.
+    (c) Why is GET unsuitable for passwords?
     Ans:
-      (a) <form>, every <input> type, <textarea>, <select> and the buttons.
-      (b) Write a complete form; name the input type for a given control; explain method and action.
-      (c) Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose.
+      (a) The text box has no name attribute, so its value is not sent.
+      (b) <input type='text' name='username'>
+      (c) GET appends the data to the address, where it is visible in the address bar and the history; POST sends it in the body of the request.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Write an HTML form with a name field, a password field, two radio buttons for gender, a hobbies checkbox group, and submit and reset buttons.” Student A writes one line. Student B writes points, an example and a check.
+    A feedback form needs a box for comments of several lines, a drop-down list of classes IX, X and XI (with X pre-selected) and a checkbox “Subscribe”.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Which tag gives the comments box?
+    (b) Write the drop-down list.
+    (c) Write the checkbox.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) <form action='/submit' method='post'> Name: <input type='text' name='uname'><br> Password: <input type='password' name='upass'><br> Gender: <input type='radio' name='gender' value='male'> Male <input type='radio' name='gender' value='female'> Female<br> Hobbies: <input type='checkbox' name='hobby' value='reading'> Reading <input type='checkbox' name='hobby' value='music'> Music<br> <input type='submit' value='Send'> <input type='reset' value='Clear'> </form> Both radio buttons share the name gen
-      (c) Radios share a name; checkboxes do not. That one rule separates the two.
+      (a) <textarea name='comments' rows='4' cols='30'></textarea>
+      (b) <select name='class'>
+        <option>IX</option>
+        <option selected>X</option>
+        <option>XI</option>
+      </select>
+      (c) <input type='checkbox' name='subscribe' value='yes'> Subscribe
 
-Q12. [Long · 5 marks] Discuss “HTML Forms” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Explain any five values of the type attribute of the <input> tag, with one use of each.
     Ans:
-      The form tag. <form> wraps every control. Its two important attributes are action, the URL that receives the data, and method, which is either get or post. GET appends the data to the URL as a query string, so it is visible, short and can be bookmarked — suitable for searches. POST sends the data in the body of the request, so it is not shown in the address bar and has no practical size limit — used for logins and fo.
-      Marks lens: Write a complete form; name the input type for a given control; explain method and action.
-      Method / memory trick: Radios share a name; checkboxes do not. That one rule separates the two.
-      Do not: Giving radio buttons in the same group different names — then several can be selected at once, which defeats the purpose.
+      text: a single-line box, for a name.
+      password: hides the characters typed, for a password.
+      radio: one choice from a group that shares a name, for gender.
+      checkbox: any number of choices can be ticked, for hobbies.
+      submit sends the form to the server and reset clears all the fields to their starting values.
 
 B. MCQs (8)
 ------------------------------------------------------------------------

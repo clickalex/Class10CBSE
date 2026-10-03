@@ -47,16 +47,18 @@ Q5. [Short · 3 marks] Write HTML to display a numbered list of four subjects be
 Q6. [Short · 3 marks] Explain the <font> tag with its attributes.
     Ans: The <font> tag changes how a piece of text looks. It takes three attributes. face sets the typeface, for example face='Arial'. size sets the size on a scale of 1 to 7, for example size='5'. color sets the colour, either by name such as color='red' or by hexadecimal code such as color='#FF0000'. An example is <font face='Arial' size='5' color='blue'>Hello</font>.
 
-Q7. [Application · 3 marks] Riya is revising “HTML II — Text Formatting & Lists” (Bold, italic, alignment, colour — plus ordered, unordered and definition lists). A classmate lost marks by doing this: Using <ul> when the output clearly shows numbers. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student writes <p align='middle'>Welcome</p> to centre a paragraph, but nothing happens. Find the error, correct it and list the valid values of align.
     Ans:
-      Correct method: <ul> = bullets, <ol> = numbers. Both use <li>.
-      Why the mistake costs marks: Using <ul> when the output clearly shows numbers.
-      Write the definition or formula first, then the working or example.
+      middle is not a valid value of align; the browser ignores it.
+      Correct code: <p align='center'>Welcome</p>
+      The valid values are left, center, right and justify.
 
-Q8. [Application · 3 marks] Amit is given this exam-style task from “HTML II — Text Formatting & Lists”: “Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.” Treat it as an application question. Identify the idea, then write the working in points.
+Q8. [Application · 3 marks] Write the HTML to display (a) H₂SO₄ with proper subscripts, (b) x² + y² with superscripts and (c) the word Important in bold and italics together.
     Ans:
-      Idea: Bold, italic, alignment, colour — plus ordered, unordered and definition lists.
-      <html> <body> <ol type='I' start='3'> <li>Mathematics</li> <li>Science</li> <li>Social Science</li> <li>English</li> </ol> </body> </html> The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III.
+      (a) H<sub>2</sub>SO<sub>4</sub>
+      (b) x<sup>2</sup> + y<sup>2</sup>
+      (c) <b><i>Important</i></b>
+      <sub> lowers the text, <sup> raises it, and the tags are closed in the reverse of the order they were opened.
 
 Q9. [Short · 3 marks] Write the HTML for an ordered list of three steps and an unordered list of two items.
     Ans:
@@ -67,36 +69,49 @@ Q9. [Short · 3 marks] Write the HTML for an ordered list of three steps and an 
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “HTML II — Text Formatting & Lists”. Their note says: Style tags. <b> makes text bold, <i> makes it italic, <u> underlines it, <tt> shows typewriter text, <strike> draws a line through it. <sub> lowers text for chemical formulas like H<sub>2</sub>O, and <sup> raises it for powers like x<sup>2</sup>. <center> centres a block of content.
+    A student wants a numbered list of recipe steps and writes:
     
-    The chapter is described as: Bold, italic, alignment, colour — plus ordered, unordered and definition lists.
+    <ul>
+    Boil water
+    Add tea
+    </ul>
     
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) State two errors.
+    (b) Write the corrected code.
+    (c) How would you make the numbering start from 5?
     Ans:
-      (a) Bold, italic, alignment, colour — plus ordered, unordered and definition lists.
-      (b) Produce a given visual output as HTML; name the attribute that does a given job.
-      (c) Using <ul> when the output clearly shows numbers.
+      (a) <ul> makes a bulleted list, but numbers were wanted (<ol>); and each item must be placed inside <li> tags.
+      (b) <ol>
+        <li>Boil water</li>
+        <li>Add tea</li>
+      </ol>
+      (c) Use the start attribute: <ol start='5'>.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Write HTML to display a numbered list of four subjects beginning at number 3, using capital Roman numerals.” Student A writes one line. Student B writes points, an example and a check.
+    A glossary page lists the term “HTML” with the meaning “the language used to write web pages”.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Which kind of list suits a glossary?
+    (b) Write the code for this one entry.
+    (c) How does it differ from <ul>?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) <html> <body> <ol type='I' start='3'> <li>Mathematics</li> <li>Science</li> <li>Social Science</li> <li>English</li> </ol> </body> </html> The type='I' attribute gives capital Roman numerals and start='3' makes the list begin at III.
-      (c) <ul> = bullets, <ol> = numbers. Both use <li>.
+      (a) A definition list, written with <dl>.
+      (b) <dl>
+        <dt>HTML</dt>
+        <dd>The language used to write web pages</dd>
+      </dl>
+      (c) <ul> lists items one after another with bullets, while <dl> pairs each term (<dt>) with its description (<dd>).
 
-Q12. [Long · 5 marks] Discuss “HTML II — Text Formatting & Lists” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Write the HTML to display a centred heading “Shopping”, an ordered list of three fruits numbered with lower-case Roman numerals, and an unordered list of two vegetables with square bullets. Explain the attributes you used.
     Ans:
-      Style tags. <b> makes text bold, <i> makes it italic, <u> underlines it, <tt> shows typewriter text, <strike> draws a line through it. <sub> lowers text for chemical formulas like H<sub>2</sub>O, and <sup> raises it for powers like x<sup>2</sup>. <center> centres a block of content.
-      Marks lens: Produce a given visual output as HTML; name the attribute that does a given job.
-      Method / memory trick: <ul> = bullets, <ol> = numbers. Both use <li>.
-      Do not: Using <ul> when the output clearly shows numbers.
+      <h2 align='center'>Shopping</h2>
+      <ol type='i'>
+        <li>Apple</li><li>Banana</li><li>Mango</li>
+      </ol>
+      <ul type='square'>
+        <li>Potato</li><li>Onion</li>
+      </ul>
+      align='center' centres the heading; type='i' numbers as i, ii, iii; type='square' gives square bullets.
 
 B. MCQs (8)
 ------------------------------------------------------------------------

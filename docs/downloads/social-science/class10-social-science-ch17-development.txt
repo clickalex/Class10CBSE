@@ -29,16 +29,17 @@ Q4. [Short · 3 marks] Explain the term sustainability of development with refer
 Q5. [Short · 3 marks] Why do different people have different notions of development?
     Ans: Because their life situations are different. A landless rural labourer wants more days of work and better wages, a prosperous farmer wants higher prices for his crops and cheap labour, an industrialist wants more electricity and better roads, and a tribal community wants its forest and land protected. What is development for one person may be destructive for another, so development goals are always contested.
 
-Q6. [Application · 3 marks] Riya is revising “Development” (Different goals, income and averages, BMI, infant mortality and HDI). A classmate lost marks by doing this: Saying a higher BMI is always better. Below 18.5 is undernourished, above 25 is overweight — the healthy range is between. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student writes: “A higher BMI always means a healthier person.” Correct the statement, using the BMI ranges.
     Ans:
-      Correct method: Averages are useful but hide disparities. Every 'limitation of per capita income' answer starts with this sentence.
-      Why the mistake costs marks: Saying a higher BMI is always better. Below 18.5 is undernourished, above 25 is overweight — the healthy range is between.
-      Write the definition or formula first, then the working or example.
+      BMI (Body Mass Index) = weight in kg ÷ (height in metres)². It compares weight with height.
+      A BMI below 18.5 means the person is undernourished; above 25 means overweight, with a higher risk of illness.
+      The healthy range lies between 18.5 and 25, so neither a very low nor a very high BMI is better.
 
-Q7. [Application · 3 marks] Amit is given this exam-style task from “Development”: “Why is per capita income used to compare countries instead of total income?” Treat it as an application question. Identify the idea, then write the working in points.
+Q7. [Application · 3 marks] Country A has a total income of Rs 4,00,000 crore and a population of 20 crore. Country B has a total income of Rs 6,00,000 crore and a population of 40 crore. Which country is better off on average? Show your working.
     Ans:
-      Idea: Different goals, income and averages, BMI, infant mortality and HDI.
-      Because countries have different population sizes, so total income does not tell us what an average person earns. Dividing national income by the population gives per capita income, which shows the average income of a person and allows a fair comparison of the standard of living between countries.
+      Compare per capita income (total income ÷ population), because the populations differ.
+      Country A: 4,00,000 ÷ 20 = Rs 20,000 crore per crore people, i.e. Rs 20,000 per person. Country B: 6,00,000 ÷ 40 = Rs 15,000 per person.
+      Country A is better off on average even though B has the larger total income. (An average, however, hides differences between people.)
 
 Q8. [Short · 3 marks] What does the Human Development Index measure?
     Ans:
@@ -49,29 +50,27 @@ Q8. [Short · 3 marks] What does the Human Development Index measure?
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Development”. Their note says: What people want from development. Different people have different developmental goals. A landless rural labourer wants more days of work and better wages; a prosperous farmer of Punjab wants cheap labour and higher prices for crops; a rural woman may want the same freedom and opportunity as her bro
+    The table gives illustrative figures for two states. State X: per capita income Rs 2,20,000, literacy rate 78%, infant mortality rate 35 per 1000. State Y: per capita income Rs 1,40,000, literacy rate 94%, infant mortality rate 10 per 1000.
     
-    The chapter is described as: Different goals, income and averages, BMI, infant mortality and HDI.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which state has the higher per capita income?
+    (b) Which state does better on health and education?
+    (c) Which state is more developed? Explain.
     Ans:
-      (a) Different goals, income and averages, BMI, infant mortality and HDI.
-      (b) –4 marks. Averages (per capita income, BMI, IMR, literacy) and the limitations of income comparisons are the set questions.
-      (c) Saying a higher BMI is always better. Below 18.5 is undernourished, above 25 is overweight — the healthy range is between.
+      (a) State X.
+      (b) State Y: its literacy rate is higher and its infant mortality rate is lower.
+      (c) State Y is likely to be more developed. Development is not income alone: better health and education give its people a longer, better life, and the Human Development Index counts all three.
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Why is per capita income used to compare countries instead of total income?” Student A writes one line. Student B writes points, an example and a check.
+    In a village, the government school gives free education and a midday meal, and the ration shop sells rice at a low price. A private clinic in the nearby town charges high fees, so poor families cannot use it.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) What are public facilities?
+    (b) Why are they important for the poor?
+    (c) Give two more examples of public facilities that help development.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Because countries have different population sizes, so total income does not tell us what an average person earns. Dividing national income by the population gives per capita income, which shows the average income of a person and allows a fair comparison of the standard of living between countries.
-      (c) Averages are useful but hide disparities. Every 'limitation of per capita income' answer starts with this sentence.
+      (a) Facilities such as schools, hospitals, water supply and roads that the government provides for everyone, often at low or no cost.
+      (b) Poor families cannot afford private services, so public facilities give them access to education, food and health care that they would otherwise lack.
+      (c) Public hospitals and primary health centres; safe drinking water and sanitation (or roads and public transport).
 
 Q11. [Long · 4 marks] Explain the importance of public facilities and the idea of sustainable development with examples.
     Ans:
@@ -86,12 +85,13 @@ Q12. [Long · 5 marks] What is the Human Development Report and on what basis do
       These three are combined into the Human Development Index (HDI), a figure between 0 and 1; the closer to 1, the higher the level of human development. Countries are grouped as having very high, high, medium or low human development.
       The report is important because it recognises that income alone does not measure development — a country may be rich but have poor health and education, in which case its people are not truly developed. India has been improving its rank and is placed in the medium human development group.
 
-Q13. [Long · 5 marks] Discuss “Development” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q13. [Long · 5 marks] The table shows illustrative figures for three countries. A: per capita income Rs 5,00,000, literacy 70%, life expectancy 65 years. B: Rs 2,00,000, literacy 98%, life expectancy 80 years. C: Rs 1,00,000, literacy 60%, life expectancy 62 years. Compare the countries and say which has the highest human development. Why does high income not guarantee it?
     Ans:
-      What people want from development. Different people have different developmental goals. A landless rural labourer wants more days of work and better wages; a prosperous farmer of Punjab wants cheap labour and higher prices for crops; a rural woman may want the same freedom and opportunity as her brother. What may be development for one may be destructive for another — for example, a dam that gives electricity to indu.
-      Marks lens: –4 marks. Averages (per capita income, BMI, IMR, literacy) and the limitations of income comparisons are the set questions.
-      Method / memory trick: Averages are useful but hide disparities. Every 'limitation of per capita income' answer starts with this sentence.
-      Do not: Saying a higher BMI is always better. Below 18.5 is undernourished, above 25 is overweight — the healthy range is between.
+      By income: A > B > C. By education (literacy): B (98%) > A (70%) > C (60%). By health (life expectancy): B (80) > A (65) > C (62).
+      The Human Development Index combines income, education and health, not income alone.
+      So country B has the highest human development: it is ahead of A on two of the three measures.
+      Income is only a means: A’s high average income does not by itself give its people better schooling or longer lives.
+      An average also hides inequality, so a rich country can still have many poorly educated or unhealthy people.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -105,11 +105,11 @@ M2. A person with a BMI of 17 is: (a) overweight (b) normal (c) undernourished (
 M3. Which criterion does the World Bank use to classify countries? (a) literacy rate (b) per capita income (c) HDI (d) infant mortality rate
     Ans: (b) per capita income, as reported in the World Development Report.
 
-M4. The most exam-ready way to revise “Development” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Different goals, income and averages, BMI, infant mortality and HDI.
+M4. Body Mass Index (BMI) is calculated as: (a) height in metres divided by weight in kilograms (b) weight in kilograms multiplied by height in metres (c) weight in kilograms divided by the square of height in metres (d) weight in kilograms divided by height in metres
+    Ans: (c) weight in kilograms divided by the square of height in metres. BMI = weight (kg) ÷ height² (m²); for example 60 kg and 1.5 m gives about 26.7.
 
-M5. A 3-mark answer on “Development” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. The infant mortality rate is the number of children who die before the age of one year per: (a) 100 live births (b) 10,000 people (c) 1 lakh live births (d) 1000 live births
+    Ans: (d) 1000 live births. Infant mortality is measured as deaths of babies under one year of age per thousand live births in a given year.
 
 M6. Which of these is included in the Human Development Index? (a) life expectancy at birth  (b) the number of cars  (c) military spending  (d) the area of the country
     Ans: (a) life expectancy at birth. Along with education levels and per capita income.

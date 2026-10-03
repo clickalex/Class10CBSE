@@ -29,11 +29,11 @@ Q4. [Short · 2 marks] What is the difference between Datasheet View and Design 
 Q5. [Application · 3 marks] A student stores mobile numbers as Integer and 098… becomes 98. Why, and what type should be used?
     Ans: Integer drops leading zeros and is not a “number you calculate with”. Use Text/VARCHAR.
 
-Q6. [Application · 3 marks] Riya is revising “Tables in LibreOffice Base” (Create tables in Design View, data types, primary key, field properties). A classmate lost marks by doing this: Forgetting to set the primary key — Base warns, some students click No. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] While saving a new table, Base asks whether to create a primary key, and a student clicks No. What problems can follow?
     Ans:
-      Correct method: Phone numbers are Text, not Integer — or you lose leading 0.
-      Why the mistake costs marks: Forgetting to set the primary key — Base warns, some students click No.
-      Write the definition or formula first, then the working or example.
+      Without a primary key, rows cannot be identified uniquely, so duplicate records can be entered.
+      Base may not allow the data of the table to be edited in the normal way.
+      Relationships to other tables cannot be built, since a relationship needs a primary key on one side.
 
 Q7. [Short · 3 marks] Choose the data type for a name, a roll number, a date of birth and a fee amount, giving a reason for each.
     Ans:
@@ -65,24 +65,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Tables in LibreOffice Base”. Their note says: Ways to create a table: Design View (exam method), Wizard, View/SQL. Use Design View.
+    A clerk wants the field StudentID to number new records 1, 2, 3, … automatically.
     
-    The chapter is described as: Create tables in Design View, data types, primary key, field properties.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which field property does this?
+    (b) What type of field must it be?
+    (c) Give one advantage.
     Ans:
-      (a) Create tables in Design View, data types, primary key, field properties.
-      (b) Create a table with four fields, correct types, PK set.
-      (c) Forgetting to set the primary key — Base warns, some students click No.
+      (a) The AutoValue property, set to Yes.
+      (b) A numeric field, such as Integer.
+      (c) Every record gets a different number automatically, which saves typing and avoids duplicates, so the field is suitable as a primary key.
 
-Q12. [Long · 5 marks] Discuss “Tables in LibreOffice Base” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Describe the steps to create a table Employee with the fields EmpID (primary key), Name, JoinDate and Salary in LibreOffice Base.
     Ans:
-      Ways to create a table: Design View (exam method), Wizard, View/SQL. Use Design View.
-      Marks lens: Create a table with four fields, correct types, PK set.
-      Method / memory trick: Phone numbers are Text, not Integer — or you lose leading 0.
-      Do not: Forgetting to set the primary key — Base warns, some students click No.
+      Step 1: in the Database pane click Tables, then choose Create Table in Design View.
+      Step 2: in the Field Name column type EmpID, Name, JoinDate and Salary, one on each row.
+      Step 3: choose the data types: Integer for EmpID, Text [VARCHAR] for Name, Date for JoinDate and Decimal for Salary.
+      Step 4: right-click the row selector of EmpID and choose Primary Key.
+      Step 5: save the table with the name Employee and close the design window.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -99,11 +98,11 @@ M3. A primary key field should be: (a) empty often (b) unique and not null (c) a
 M4. Datasheet view is for: (a) setting data types (b) entering records (c) recording macros (d) wrapping images
     Ans: (b) entering records.
 
-M5. The most exam-ready way to revise “Tables in LibreOffice Base” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Create tables in Design View, data types, primary key, field properties.
+M5. In Base, the view in which you define field names and data types is the: (a) Datasheet View (b) Design View (c) Print Preview (d) Report View
+    Ans: (b) Design View. Design View is where the structure of the table is defined; Datasheet View is for entering and viewing the data.
 
-M6. A 3-mark answer on “Tables in LibreOffice Base” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. The most suitable data type for a field that stores a date of birth is: (a) Date (b) Text (c) Yes/No (d) Image
+    Ans: (a) Date. A Date field stores dates properly, so they can be sorted and used in calculations.
 
 M7. In Design View, the property that limits how many characters a text field can hold is: (a) Field Length  (b) Format  (c) Default Value  (d) Caption
     Ans: (a) Field Length. Default Value fills in a value automatically when nothing is typed.

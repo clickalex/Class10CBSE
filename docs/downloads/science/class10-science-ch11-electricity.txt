@@ -39,16 +39,17 @@ Q6. [Short · 3 marks] Three resistors of 2 Ω, 3 Ω and 6 Ω are connected in p
       1/Rp = 1/2 + 1/3 + 1/6 = (3 + 2 + 1)/6 = 6/6 = 1.
       So Rp = 1 Ω — less than the smallest resistor (2 Ω), as expected for a parallel combination.
 
-Q7. [Application · 3 marks] Riya is revising “Electricity” (Ohm's law, series and parallel circuits, heating effect and power). A classmate lost marks by doing this: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student finds the equivalent resistance of 6 Ω and 3 Ω connected in parallel as 6 + 3 = 9 Ω. Identify the mistake and find the correct value.
     Ans:
-      Correct method: Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.
-      Why the mistake costs marks: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error.
-      Write the definition or formula first, then the working or example.
+      Mistake: resistances are added directly only in series. In parallel the reciprocals are added.
+      1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2.
+      R = 2 Ω, which is smaller than the smallest resistance (3 Ω), as it must be in a parallel combination.
 
-Q8. [Application · 3 marks] Amit is given this exam-style task from “Electricity”: “Define one ohm and name the device used to measure potential difference.” Treat it as an application question. Identify the idea, then write the working in points.
+Q8. [Application · 3 marks] A copper wire has a resistance of 10 Ω. What will be the resistance of a wire of the same material that is twice as long and has half the area of cross-section?
     Ans:
-      Idea: Ohm's law, series and parallel circuits, heating effect and power.
-      One ohm is the resistance of a conductor when a potential difference of 1 volt across its ends produces a current of 1 ampere through it. Potential difference is measured with a voltmeter, connected in parallel.
+      Resistance R = ρl/A, so for a given material R is proportional to l/A.
+      New length = 2l and new area = A/2, so the new resistance = ρ(2l)/(A/2) = 4 × ρl/A.
+      New resistance = 4 × 10 = 40 Ω.
 
 Q9. [Short · 3 marks] Resistors of 4 Ω and 12 Ω are connected in parallel and the combination is joined to a 6 V battery. Find the equivalent resistance and the current drawn from the battery.
     Ans:
@@ -58,29 +59,27 @@ Q9. [Short · 3 marks] Resistors of 4 Ω and 12 Ω are connected in parallel and
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Electricity”. Their note says: Electric current and potential difference. Current I = Q/t, measured in amperes with an ammeter connected in series. Potential difference V = W/Q, measured in volts with a voltmeter connected in parallel; 1 volt = 1 joule per coulomb. By convention current flows from the positive to the negative ter
+    A 12 V battery is connected in series to resistors of 4 Ω and 2 Ω, an ammeter, and a voltmeter across the 4 Ω resistor.
     
-    The chapter is described as: Ohm's law, series and parallel circuits, heating effect and power.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Find the current in the circuit.
+    (b) Find the voltmeter reading.
+    (c) Find the heat produced in the 2 Ω resistor in 10 s.
     Ans:
-      (a) Ohm's law, series and parallel circuits, heating effect and power.
-      (b) –4 marks. A series or parallel circuit numerical is almost certain, plus one question on the heating effect or on power rating.
-      (c) Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error.
+      (a) Total resistance = 4 + 2 = 6 Ω, so I = V/R = 12/6 = 2 A.
+      (b) V across 4 Ω = IR = 2 × 4 = 8 V.
+      (c) H = I²Rt = 2² × 2 × 10 = 80 J.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Define one ohm and name the device used to measure potential difference.” Student A writes one line. Student B writes points, an example and a check.
+    A household uses three 40 W bulbs for 5 hours daily, a 1 kW heater for 2 hours daily and a 100 W fan for 10 hours daily.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Find the electrical energy used per day in kWh.
+    (b) How many units are used in 30 days?
+    (c) What is the monthly cost at Rs 7 per unit?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) One ohm is the resistance of a conductor when a potential difference of 1 volt across its ends produces a current of 1 ampere through it. Potential difference is measured with a voltmeter, connected in parallel.
-      (c) Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.
+      (a) Bulbs: 0.12 kW × 5 h = 0.6 kWh; heater: 1 kW × 2 h = 2 kWh; fan: 0.1 kW × 10 h = 1 kWh. Total = 3.6 kWh per day.
+      (b) 3.6 × 30 = 108 units (1 unit = 1 kWh).
+      (c) 108 × Rs 7 = Rs 756.
 
 Q12. [Application · 4 marks] A 100 W bulb and a 60 W bulb are both rated at 220 V. Which has the higher resistance, and what current does each draw?
     Ans:
@@ -95,12 +94,12 @@ Q13. [Long · 5 marks] A 4 Ω resistor and a 6 Ω resistor are connected in seri
       Potential differences: across 4 Ω, V = 2 × 4 = 8 V; across 6 Ω, V = 2 × 6 = 12 V. (8 + 12 = 20 V ✓)
       Heat in the 4 Ω resistor H = I²Rt = (2)² × 4 × 60 = 960 J.
 
-Q14. [Long · 5 marks] Discuss “Electricity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q14. [Long · 5 marks] State Joule’s law of heating. Derive the expression H = I²Rt and give three applications of the heating effect of current.
     Ans:
-      Electric current and potential difference. Current I = Q/t, measured in amperes with an ammeter connected in series. Potential difference V = W/Q, measured in volts with a voltmeter connected in parallel; 1 volt = 1 joule per coulomb. By convention current flows from the positive to the negative terminal, opposite to the flow of electrons. A cell maintains the potential difference that drives the charge.
-      Marks lens: –4 marks. A series or parallel circuit numerical is almost certain, plus one question on the heating effect or on power rating.
-      Method / memory trick: Series = same current, voltage divides. Parallel = same voltage, current divides. Read that sentence before every circuit question.
-      Do not: Connecting the ammeter in parallel and the voltmeter in series in a circuit diagram — this is a marked error.
+      Joule’s law: the heat produced in a resistor is directly proportional to the square of the current, to its resistance and to the time for which the current flows.
+      Derivation: charge Q = It flows through potential difference V, so work done (energy converted) W = VQ = VIt.
+      By Ohm’s law V = IR, so H = (IR) × I × t = I²Rt.
+      Applications: electric heater, iron and toaster (coils of high-resistance alloy); the fuse (it melts when the current is too high); the filament of an electric bulb (tungsten glows white-hot).
 
 B. MCQs (11)
 ------------------------------------------------------------------------
@@ -114,11 +113,11 @@ M2. Two wires of the same material and length but different cross-sectional area
 M3. The commercial unit of electrical energy is: (a) joule (b) watt (c) kilowatt-hour (d) volt
     Ans: (c) kilowatt-hour (kWh), equal to 3.6 × 10⁶ J, and commonly called a 'unit'.
 
-M4. The most exam-ready way to revise “Electricity” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Ohm's law, series and parallel circuits, heating effect and power.
+M4. The electric power consumed by a resistor R connected to a potential difference V is given by: (a) P = V²/R  (b) P = VR²  (c) P = R/V²  (d) P = V/R²
+    Ans: (a) P = V²/R. P = VI and I = V/R, so P = V × (V/R) = V²/R.
 
-M5. A 3-mark answer on “Electricity” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. The SI unit of resistivity is: (a) ohm (Ω)  (b) ohm metre (Ω m)  (c) ohm per metre (Ω/m)  (d) siemens (S)
+    Ans: (b) ohm metre (Ω m). From R = ρl/A, ρ = RA/l, whose unit is Ω × m²/m = Ω m.
 
 M6. The resistance of a wire doubles when: (a) its length is doubled  (b) its area of cross-section is doubled  (c) its length is halved  (d) its diameter is doubled
     Ans: (a) its length is doubled. R ∝ l/A; doubling the area halves R, doubling the diameter reduces R to a quarter.

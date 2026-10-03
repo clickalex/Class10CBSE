@@ -37,11 +37,11 @@ Q6. [Short · 3 marks] What is ozone? How is it formed, and why is damage to the
       Formation: ultraviolet radiation splits an oxygen molecule into free oxygen atoms, O2 →(UV) 2O; each free atom combines with an oxygen molecule to form ozone, O + O2 → O3.
       Concern: the ozone layer absorbs harmful ultraviolet radiation from the sun. Its depletion, caused mainly by CFCs from refrigerators, air conditioners and aerosols, allows more UV to reach the earth, causing skin cancer, damage to the eyes, reduced crop yields and harm to marine organisms. The Montreal Protocol of 1987 froze CFC production to protect it.
 
-Q7. [Application · 3 marks] Riya is revising “Our Environment” (Food chains, the 10% law, ozone depletion and waste management). A classmate lost marks by doing this: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student draws the food chain as Hawk → Snake → Frog → Grasshopper → Grass. What is wrong? Redraw it correctly and name the trophic levels.
     Ans:
-      Correct method: 10% calculation: move the decimal one place to the left at each level going up, and one place to the right going down.
-      Why the mistake costs marks: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow.
-      Write the definition or formula first, then the working or example.
+      An arrow shows the direction of energy flow, from the food to the organism that eats it. The student’s arrows point from predator to prey.
+      Correct chain: Grass → Grasshopper → Frog → Snake → Hawk.
+      Trophic levels: grass is the producer (1st); grasshopper the primary consumer (2nd); frog the secondary consumer (3rd); snake the tertiary consumer (4th); hawk the top consumer (5th).
 
 Q8. [Short · 3 marks] Explain the role of decomposers in an ecosystem.
     Ans:
@@ -51,29 +51,27 @@ Q8. [Short · 3 marks] Explain the role of decomposers in an ecosystem.
 
 Q9. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Our Environment”. Their note says: Ecosystem. All the living organisms (biotic) in an area together with the non-living (abiotic) components — temperature, rainfall, wind, soil and minerals — form an ecosystem. Producers (green plants and blue-green algae) make their own food; consumers depend on them (herbivores, carnivores, omnivor
+    In a grassland food chain, the producers capture 20,000 J of energy.
     
-    The chapter is described as: Food chains, the 10% law, ozone depletion and waste management.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) How much energy reaches the herbivores?
+    (b) How much energy reaches the carnivores that eat the herbivores?
+    (c) Why do food chains rarely have more than four or five trophic levels?
     Ans:
-      (a) Food chains, the 10% law, ozone depletion and waste management.
-      (b) –5 marks. A food-chain question with the 10% energy calculation, one on ozone depletion, and one on biodegradable waste or the two environmental problems.
-      (c) Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow.
+      (a) By the 10% law, herbivores get 10% of 20,000 J = 2,000 J.
+      (b) The carnivores get 10% of 2,000 J = 200 J.
+      (c) About 90% of the energy at each level is lost as heat in life processes, so very little is left to support more levels.
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Name the organisms that always occupy the first trophic level of a food chain, and define an ecosystem.” Student A writes one line. Student B writes points, an example and a check.
+    A sealed glass jar contains water, a few water plants, small fish and snails, and some soil at the bottom. It is kept in sunlight.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Name the producers, consumers and decomposers in the jar.
+    (b) What is the role of sunlight?
+    (c) What would happen if the jar were kept in the dark for a long time?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Green plants and blue-green algae (producers). An ecosystem is a self-sustaining system in which all the living organisms of an area interact with each other and with the non-living (abiotic) components such as soil, water and air.
-      (c) 10% calculation: move the decimal one place to the left at each level going up, and one place to the right going down.
+      (a) Producers: the water plants (and algae); consumers: the fish and snails; decomposers: the bacteria and fungi in the water and soil.
+      (b) Sunlight is the source of energy: the plants use it for photosynthesis, which provides food and oxygen for the other organisms.
+      (c) Without light, the plants could not photosynthesise, so food and oxygen would run out and the organisms would die.
 
 Q11. [Competency · 4 marks] A village panchayat plans to burn its collected plastic waste in the open. Advise them, giving reasons from what you have studied about ecosystems.
     Ans:
@@ -88,12 +86,13 @@ Q12. [Long · 5 marks] What is biological magnification? Will the level of magni
       Yes, the level differs. Because these chemicals are not metabolised or excreted, they pass on to the next level, and the amount of food consumed at each level is large, so the concentration keeps increasing.
       Example: DDT sprayed on crops is absorbed by plants; grasshoppers eating many plants accumulate more; frogs eating many grasshoppers more still; and hawks at the top accumulate the highest concentration. Human beings, being at the top of many food chains, are among the most affected.
 
-Q13. [Long · 5 marks] Discuss “Our Environment” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q13. [Long · 5 marks] What is a trophic level? Explain the flow of energy in an ecosystem and why it is unidirectional.
     Ans:
-      Ecosystem. All the living organisms (biotic) in an area together with the non-living (abiotic) components — temperature, rainfall, wind, soil and minerals — form an ecosystem. Producers (green plants and blue-green algae) make their own food; consumers depend on them (herbivores, carnivores, omnivores, parasites); decomposers (bacteria and fungi) break down dead organic matter and return nutrients to the soil. A pond.
-      Marks lens: –5 marks. A food-chain question with the 10% energy calculation, one on ozone depletion, and one on biodegradable waste or the two environmental problems.
-      Method / memory trick: 10% calculation: move the decimal one place to the left at each level going up, and one place to the right going down.
-      Do not: Drawing arrows in a food chain from predator to prey. Arrows always point toward the organism that eats — i.e. in the direction of energy flow.
+      A trophic level is a step in a food chain, for example producers, herbivores and carnivores.
+      The ultimate source of energy is the Sun; producers capture it through photosynthesis and pass it on when eaten.
+      At each step only about 10% of the energy is passed on to the next level (the 10% law); the rest is lost as heat in respiration and other life processes.
+      The energy lost as heat cannot be used again by the producers, so energy flows in one direction only, from the Sun to producers to consumers.
+      Because so little energy remains, food chains are short, and plants always occupy the first level.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -107,11 +106,11 @@ M2. The depletion of the ozone layer is mainly caused by: (a) CO2 (b) CFCs (c) m
 M3. Which of the following groups contains only biodegradable substances? (a) paper, plastic, wood (b) vegetable peels, paper, lime juice (c) glass, wood, plastic (d) lime juice, grass, aluminium foil
     Ans: (b) — all three are broken down by the action of micro-organisms.
 
-M4. The most exam-ready way to revise “Our Environment” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Food chains, the 10% law, ozone depletion and waste management.
+M4. Which of the following is a non-biodegradable waste? (a) a plastic bag (b) vegetable peelings (c) a paper bag (d) a cotton cloth
+    Ans: (a) a plastic bag. Microorganisms cannot break down plastics, so they persist in the environment for a very long time.
 
-M5. A 3-mark answer on “Our Environment” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. In the food chain Plant → Grasshopper → Frog → Snake, the secondary consumer is the: (a) grasshopper (b) snake (c) plant (d) frog
+    Ans: (d) frog. The grasshopper is the primary consumer and the frog, which eats it, is the secondary consumer.
 
 M6. The ‘10% law’ in an ecosystem describes the transfer of: (a) energy  (b) water  (c) minerals  (d) oxygen
     Ans: (a) energy. Only about 10% of the energy at one trophic level is stored in the next; the rest is lost as heat and in life processes.

@@ -115,7 +115,7 @@ polytechnic) are listed on the same page with a note instead of a test.
 
 - **A live question generator** — every mock is generated in the browser when
   you click it: each section draws its questions at random from the exam's
-  pool (1,197 MCQs across the banks) and avoids the questions you were already
+  pool (1,359 MCQs across the banks) and avoids the questions you were already
   served on that device, so **every attempt is a different paper** until the
   pool cycles. Ten numbered mocks per exam, and a chapter-wise mock for every
   chapter that has MCQs (from that chapter's practice page or the exam page).

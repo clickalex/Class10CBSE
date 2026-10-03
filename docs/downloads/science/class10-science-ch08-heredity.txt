@@ -38,16 +38,17 @@ Q6. [Short · 3 marks] How is the sex of a child determined in human beings? Sho
       X egg + X sperm → XX = girl; X egg + Y sperm → XY = boy.
       The probability of either is 50%, so the sex of the child is decided by chance and not by either parent's wish or action.
 
-Q7. [Application · 3 marks] Riya is revising “Heredity” (Mendel's monohybrid and dihybrid crosses, and sex determination). A classmate lost marks by doing this: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] In a cross between two F₁ pea plants (Tt × Tt), a student writes: “The ratio of tall to dwarf plants is 1 : 2 : 1.” What is the mistake? Write the correct phenotypic and genotypic ratios.
     Ans:
-      Correct method: 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.
-      Why the mistake costs marks: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2.
-      Write the definition or formula first, then the working or example.
+      The ratio 1 : 2 : 1 is the genotypic ratio (TT : Tt : tt), not the ratio of tall to dwarf plants.
+      Both TT and Tt plants look tall, so the phenotypic ratio is tall : dwarf = 3 : 1.
+      Genotype is the gene combination (TT, Tt, tt); phenotype is the visible trait (tall or dwarf).
 
-Q8. [Application · 3 marks] Amit is given this exam-style task from “Heredity”: “What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?” Treat it as an application question. Identify the idea, then write the working in points.
+Q8. [Application · 3 marks] In humans, free earlobes (F) are dominant over attached earlobes (f). A man with free earlobes, whose mother had attached earlobes, marries a woman with attached earlobes. What kinds of earlobes can their children have, and in what proportion?
     Ans:
-      Idea: Mendel's monohybrid and dihybrid crosses, and sex determination.
-      XY; the gene (a segment of DNA on a chromosome).
+      The man’s mother was ff, so he received f from her; he has free earlobes, so he is Ff. The woman is ff.
+      Cross Ff × ff: gametes F, f from the man and only f from the woman.
+      Children: 1 Ff : 1 ff, i.e. 50% free earlobes and 50% attached earlobes.
 
 Q9. [Short · 3 marks] A tall pea plant (Tt) is crossed with a dwarf plant (tt). What proportion of the progeny will be tall?
     Ans:
@@ -57,29 +58,27 @@ Q9. [Short · 3 marks] A tall pea plant (Tt) is crossed with a dwarf plant (tt).
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Heredity”. Their note says: The basis of heredity. Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the gene, a segment of DNA on a chromosome. Each character has a pair of alleles, one from each parent. A dominant allele expresses itself in the F1 generation; the rece
+    A population of red beetles lives on green bushes, and crows easily spot and eat the red beetles. In one reproductive event, a variation appears and a green beetle is born.
     
-    The chapter is described as: Mendel's monohybrid and dihybrid crosses, and sex determination.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Why is the green beetle more likely to survive?
+    (b) What happens to the colour of the beetle population over several generations?
+    (c) Does this variation help the individual only, or the species? Explain.
     Ans:
-      (a) Mendel's monohybrid and dihybrid crosses, and sex determination.
-      (b) –3 marks. A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.
-      (c) Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2.
+      (a) Its green colour camouflages it against the green leaves, so crows find it harder to see.
+      (b) Green beetles survive and breed, passing the colour to their offspring, so their number grows each generation while the red beetles decline.
+      (c) It helps the species: because the variation is inherited, it spreads and increases the chance that the population survives the crows.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “What is the sex chromosome combination in a human male, and what is the functional unit of inheritance?” Student A writes one line. Student B writes points, an example and a check.
+    A student crosses pure tall pea plants with pure dwarf pea plants. All F₁ plants are tall. When the F₁ plants are self-pollinated, the F₂ generation has 600 tall and 200 dwarf plants.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) What is the ratio of tall to dwarf plants in F₂?
+    (b) Which trait is recessive, and why was it not seen in F₁?
+    (c) What does the result show about how traits are inherited?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) XY; the gene (a segment of DNA on a chromosome).
-      (c) 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.
+      (a) 600 : 200 = 3 : 1.
+      (b) Dwarfness is recessive. In F₁ every plant is Tt, and the dominant allele T masks t, so all look tall.
+      (c) Each parent passes one copy of the factor for a trait; the factors do not blend, and the recessive trait reappears in F₂ when two copies of it come together.
 
 Q12. [Application · 4 marks] A family blames the mother whenever a daughter is born. Using what you know about sex determination, write the reply you would give them.
     Ans:
@@ -95,12 +94,13 @@ Q13. [Long · 5 marks] Describe Mendel's dihybrid cross and state the conclusion
       On self-pollinating F1, F2 gave four phenotypes: 9 round-yellow : 3 round-green : 3 wrinkled-yellow : 1 wrinkled-green (16 combinations in the 4×4 Punnett square).
       Conclusion: the two pairs of characters are inherited independently of each other, which is why new combinations (round-green and wrinkled-green) appear in F2 that were absent in the parents. This is the law of independent assortment.
 
-Q14. [Long · 5 marks] Discuss “Heredity” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q14. [Long · 5 marks] How do variations arise in sexually reproducing organisms? Explain with examples why variation is important for the survival of a species.
     Ans:
-      The basis of heredity. Heredity is the transmission of characters from parents to offspring; the functional unit of inheritance is the gene, a segment of DNA on a chromosome. Each character has a pair of alleles, one from each parent. A dominant allele expresses itself in the F1 generation; the recessive allele is masked and reappears in F2. Genotype is the genetic make-up (TT, Tt, tt); phenotype is what appears (tal.
-      Marks lens: –3 marks. A monohybrid cross with a Punnett square, or a reasoning question on Mendel's experiments, is asked almost every year.
-      Method / memory trick: 3:1 is phenotypic, 1:2:1 is genotypic. If the question asks 'how many were tall', use 3:1; if it asks 'how many were heterozygous', use 1:2:1.
-      Do not: Writing F1 as 'TT × tt = all Tt, so the dwarf trait is destroyed'. It is masked, and reappears in F2.
+      Copying of DNA during reproduction is never perfectly accurate, so small differences (variations) arise between parent and offspring.
+      In sexual reproduction the DNA of two different parents is combined, which produces much more variation than copying one parent alone.
+      Some variations help an organism in a changed environment. For example, when a heat wave kills most bacteria in a pond, the few heat-tolerant ones survive and multiply.
+      Similarly, a green beetle on green bushes escapes crows and leaves more offspring than a red beetle.
+      A population with no variation could be wiped out by one change in its surroundings, so variation gives a species a chance to survive.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -114,11 +114,11 @@ M2. The sex of a human child is determined by: (a) the mother's egg (b) the fath
 M3. A cross between F1 hybrid tall plants (Tt × Tt) gives dwarf plants in F2. The expected ratio of tall to dwarf is: (a) 1:3 (b) 3:1 (c) 1:1 (d) 2:2
     Ans: (b) 3:1 — 25% of F2 are homozygous dwarf (tt).
 
-M4. The most exam-ready way to revise “Heredity” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Mendel's monohybrid and dihybrid crosses, and sex determination.
+M4. In a cross between two plants with genotype Tt × Tt, the proportion of the progeny with genotype Tt is: (a) 1/4 (b) 3/4 (c) 1/2 (d) 1
+    Ans: (c) 1/2. The Punnett square gives TT : Tt : tt = 1 : 2 : 1, so Tt makes up 2 of 4, i.e. 1/2.
 
-M5. A 3-mark answer on “Heredity” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. Mendel chose the garden pea for his experiments mainly because it: (a) has easily visible contrasting traits and a short life cycle (b) has no variation among its plants (c) cannot be self-pollinated (d) produces only one seed per plant
+    Ans: (a) has easily visible contrasting traits and a short life cycle. Pea plants have clear contrasting traits (tall/dwarf, round/wrinkled), grow quickly, and can be both self- and cross-pollinated.
 
 M6. The phenotypic ratio obtained in a dihybrid cross between two F₁ hybrids is: (a) 3 : 1  (b) 9 : 3 : 3 : 1  (c) 1 : 1  (d) 1 : 2 : 1
     Ans: (b) 9 : 3 : 3 : 1. Mendel obtained this for two independently assorting traits, such as seed shape and seed colour.

@@ -29,11 +29,11 @@ Q4. [Short · 2 marks] What is LibreOffice Basic, and how is it connected with m
 Q5. [Application · 3 marks] Every Monday you set print area A1:G40, landscape, header “Weekly Sales”. How does a macro help?
     Ans: Record those page-setup steps once. Each Monday, Run Macro — one click instead of eight menu steps, fewer missed settings.
 
-Q6. [Application · 3 marks] Riya is revising “Macros in Spreadsheet” (Record, run, and use macros as functions; when not to use them). A classmate lost marks by doing this: Recording a macro that depends on a specific cell when you needed a relative range. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student starts recording a macro, then clicks around to find the menu and clicks a few wrong cells before doing the task. When the macro is replayed, it does odd things. Why, and how can this be avoided?
     Ans:
-      Correct method: Plan the clicks before you press Record — extra clicks get recorded too.
-      Why the mistake costs marks: Recording a macro that depends on a specific cell when you needed a relative range.
-      Write the definition or formula first, then the working or example.
+      The recorder copies every action, including the wrong clicks, so replaying the macro repeats them.
+      Plan the exact steps before pressing Record; rehearse them once without recording.
+      Record only what is needed (Tools → Macros → Record Macro … Stop Recording); if a mistake is recorded, delete the macro and record it again.
 
 Q7. [Short · 3 marks] When should you not use a macro? Give three situations.
     Ans:
@@ -65,24 +65,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Macros in Spreadsheet”. Their note says: A macro is a recorded sequence of commands. Play it back to repeat the work.
+    Every Friday a clerk makes the header row of a report bold, sets the font to 12 pt and adds a heading “Weekly Report”.
     
-    The chapter is described as: Record, run, and use macros as functions; when not to use them.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which feature can automate this?
+    (b) How is it recorded?
+    (c) Name one situation in which a macro should not be used.
     Ans:
-      (a) Record, run, and use macros as functions; when not to use them.
-      (b) Steps to record and run a macro, plus one use-case (repeating a format or a formula block).
-      (c) Recording a macro that depends on a specific cell when you needed a relative range.
+      (a) A macro, a recorded sequence of commands that can be played back to repeat the work.
+      (b) Choose Tools → Macros → Record Macro, do the steps once, click Stop Recording, then give the macro a name and save it in the document or in My Macros.
+      (c) When the task is done only once, or when the steps change every time, since recording would waste time.
 
-Q12. [Long · 5 marks] Discuss “Macros in Spreadsheet” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Discuss the advantages and the risks of using macros in a spreadsheet.
     Ans:
-      A macro is a recorded sequence of commands. Play it back to repeat the work.
-      Marks lens: Steps to record and run a macro, plus one use-case (repeating a format or a formula block).
-      Method / memory trick: Plan the clicks before you press Record — extra clicks get recorded too.
-      Do not: Recording a macro that depends on a specific cell when you needed a relative range.
+      Advantage 1: a macro automates repeated work, so it saves time.
+      Advantage 2: it repeats the steps exactly, so results are consistent and fewer errors occur.
+      Risk 1: a macro in a file from an unknown source can contain harmful code and damage files or steal data.
+      Risk 2: a wrongly recorded macro can change data in the wrong cells.
+      Precautions: set the macro security level to Medium or High (Tools → Options → Security → Macro Security), run macros only from trusted people, and keep a backup before running one.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -99,11 +98,11 @@ M3. Unknown file asks to enable macros. You should: (a) always click Enable (b) 
 M4. Best use of a macro: (a) one-time typing of a name (b) repeating a long format every week (c) drawing a circle once (d) writing an essay
     Ans: (b).
 
-M5. The most exam-ready way to revise “Macros in Spreadsheet” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Record, run, and use macros as functions; when not to use them.
+M5. A recorded macro can be kept so that it is available in all documents if it is saved in: (a) the current document only (b) the Recycle Bin (c) the clipboard (d) My Macros
+    Ans: (d) My Macros. Macros saved in My Macros belong to the user profile and can be run from any document.
 
-M6. A 3-mark answer on “Macros in Spreadsheet” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. The main danger in enabling macros from a file sent by an unknown person is that they: (a) will make the file larger (b) will change the font (c) may contain harmful code (d) will slow the printer
+    Ans: (c) may contain harmful code. A macro can run commands automatically, so a malicious macro can do real damage.
 
 M7. Recording a macro in LibreOffice starts from: (a) Tools → Macros → Record Macro  (b) Insert → Macro  (c) Format → Macro  (d) Data → Macro
     Ans: (a) Tools → Macros → Record Macro. Stop the recording with the same menu and then save the macro.

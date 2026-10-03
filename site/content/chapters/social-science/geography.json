@@ -103,20 +103,22 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Resources and Development” (Types of resources, land use, soil types and conservation). A classmate lost marks by doing this: Giving forest cover as 33%. Actual forest area is about 22.8%; 33% is the target of the National Forest Policy of 1952. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes that land degradation in Punjab, Haryana and western Uttar Pradesh is caused by mining. Correct this, name the real cause and give one remedy.",
         "a": [
-          "Correct method: Four ways to classify: origin, exhaustibility, ownership, status of development — *'O-E-O-S'.*",
-          "Why the mistake costs marks: Giving forest cover as 33%. Actual forest area is about 22.8%; 33% is the target of the National Forest Policy of 1952.",
-          "Write the definition or formula first, then the working or example."
+          "In these states the main cause is **over-irrigation**, which leads to waterlogging and increases the salinity and alkalinity of the soil.",
+          "Mining causes land degradation elsewhere, in states such as Jharkhand, Chhattisgarh, Madhya Pradesh and Odisha.",
+          "Remedies include controlled irrigation, drainage of waterlogged fields and growing salt-tolerant crops."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Resources and Development”: “Distinguish between renewable and non-renewable resources with examples.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Classify solar energy, iron ore, fish and wind as renewable or non-renewable, and as biotic or abiotic.",
         "a": [
-          "Idea: Types of resources, land use, soil types and conservation.",
-          "Renewable resources can be renewed or reproduced by physical, chemical or mechanical processes and are inexhaustible in the long run — solar and wind energy, water, forests and wildlife. Non-renewable resources occur over very long geological periods and cannot be replenished once used up — coal, petroleum and natural gas, and metallic minerals such as iron ore."
+          "Solar energy: renewable and abiotic (non-living).",
+          "Iron ore: non-renewable and abiotic; it takes millions of years to form.",
+          "Fish: renewable and biotic (it comes from the living world, and stocks regenerate if not over-fished).",
+          "Wind: renewable and abiotic."
         ]
       },
       {
@@ -132,21 +134,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Resources and Development”. Their note says: What is a resource? Anything available in our environment that can be used to satisfy our needs, provided it is technologically accessible, economically feasible and culturally acceptable. Human beings are themselves resources — hence *human resource*. Development of resources happens through intera\n\nThe chapter is described as: Types of resources, land use, soil types and conservation.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nThe land use of a state is as follows (illustrative figures, % of reporting area): forests 22, net sown area 44, current fallow 8, other fallow 5, pastures 4, barren and waste land 7, land under non-agricultural uses 10.\n\n(a) Which is the largest category?\n(b) What percentage of the land is unavailable for cultivation (barren, waste and non-agricultural uses)?\n(c) Suggest one way to improve this land-use pattern.",
         "a": [
-          "(a) Types of resources, land use, soil types and conservation.",
-          "(b) –4 marks. Soil types with crops and states is the most repeated question; sustainable development and Agenda 21 recur as short answers.",
-          "(c) Giving forest cover as 33%. Actual forest area is about 22.8%; 33% is the target of the National Forest Policy of 1952."
+          "(a) Net sown area, at 44%.",
+          "(b) 7% + 10% = **17%**.",
+          "(c) Bring fallow land (13%) into use through irrigation and fertilisers, or raise forest cover towards the 33% target set by the National Forest Policy."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Distinguish between renewable and non-renewable resources with examples.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA farmer finds that the soil in his field is reddish, gets its colour from iron compounds, is poor in humus, nitrogen and phosphorus, and gives better yields with fertilisers and irrigation. It is common in the eastern and southern parts of the Deccan Plateau.\n\n(a) Name this soil.\n(b) Why is it red?\n(c) How can its fertility be improved?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Renewable resources can be renewed or reproduced by physical, chemical or mechanical processes and are inexhaustible in the long run — solar and wind energy, water, forests and wildlife. Non-renewable resources occur over very long geological periods and cannot be replenished once used up — coal, petroleum and natural gas, and metallic minerals such as iron ore.",
-          "(c) Four ways to classify: origin, exhaustibility, ownership, status of development — *'O-E-O-S'.*"
+          "(a) Red (and yellow) soil.",
+          "(b) It forms on crystalline igneous and metamorphic rocks, and the red colour is due to the diffusion of iron; it looks yellow when it is hydrated.",
+          "(c) By adding manure and fertilisers (to supply humus, nitrogen and phosphorus) and by irrigating."
         ]
       },
       {
@@ -173,12 +175,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Resources and Development” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "What is resource planning? Describe the three steps involved in resource planning in India and explain why it is essential.",
         "a": [
-          "What is a resource? Anything available in our environment that can be used to satisfy our needs, provided it is technologically accessible, economically feasible and culturally acceptable. Human beings are themselves resources — hence *human resource*. Development of resources happens through interaction between nature, technology and institutions.",
-          "Marks lens: –4 marks. Soil types with crops and states is the most repeated question; sustainable development and Agenda 21 recur as short answers.",
-          "Method / memory trick: Four ways to classify: origin, exhaustibility, ownership, status of development — *'O-E-O-S'.*",
-          "Do not: Giving forest cover as 33%. Actual forest area is about 22.8%; 33% is the target of the National Forest Policy of 1952."
+          "Resource planning is the widely accepted strategy for the judicious use of resources.",
+          "Step 1: identify and make an inventory of resources across the regions, by surveying, mapping and estimating their quality and quantity.",
+          "Step 2: evolve a planning structure with suitable technology, skill and institutions to carry out the plans.",
+          "Step 3: match the resource development plans with the national development plans.",
+          "It is essential because resources are unevenly distributed (for example, minerals in Jharkhand, solar and wind power in Rajasthan) and many are limited, so planning is needed for balanced regional development and to prevent over-use."
         ]
       }
     ],
@@ -196,12 +199,12 @@
         "a": "**(b) Rio de Janeiro in 1992** — the first Earth Summit on environment and development."
       },
       {
-        "q": "The most exam-ready way to revise “Resources and Development” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Types of resources, land use, soil types and conservation."
+        "q": "The most widespread soil in India, formed by deposits of the Indus, Ganga and Brahmaputra rivers, is: (a) black soil (b) alluvial soil (c) red soil (d) laterite soil",
+        "a": "**(b) alluvial soil.** Alluvial soil covers the northern plains and is the most widely spread and important soil group in India."
       },
       {
-        "q": "A 3-mark answer on “Resources and Development” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Ploughing along the contour lines of a slope to slow the flow of water is called: (a) strip cropping (b) shelter-belt farming (c) terrace farming (d) contour ploughing",
+        "a": "**(d) contour ploughing.** Ploughing across the slope, along contours, acts as a natural barrier to water flowing down and reduces soil erosion."
       },
       {
         "q": "Laterite soil develops mainly because of: (a) heavy leaching  (b) glacial deposition  (c) volcanic eruption  (d) wind deposition",
@@ -368,20 +371,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Forest and Wildlife Resources” (Biodiversity, why species disappear, and the laws and movements that protect them). A classmate lost marks by doing this: Mixing up rare and endangered. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes that the Indian Wildlife (Protection) Act was passed in 1973, the same year as Project Tiger. Correct the dates and state two things the Act did.",
         "a": [
-          "Correct method: Order of seriousness: normal → rare → vulnerable → endangered → extinct. *Rare is few and local, vulnerable is falling, endangered is nearly gone.*",
-          "Why the mistake costs marks: Mixing up rare and endangered. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues.",
-          "Write the definition or formula first, then the working or example."
+          "The Wildlife (Protection) Act was passed in **1972**; **Project Tiger** was launched in 1973.",
+          "The Act banned hunting and gave legal protection to wildlife habitats.",
+          "It also set up protected areas such as national parks and sanctuaries, and drew up lists of protected species."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Forest and Wildlife Resources”: “What are the categories of species recognised for conservation? Give one example of each.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "A forest officer finds that in a district more than half of the forest land is permanently reserved for conservation, about one-third is protected from further depletion, and the rest belongs to the government, individuals or communities. Name the three categories and say which is most valuable for conservation.",
         "a": [
-          "Idea: Biodiversity, why species disappear, and the laws and movements that protect them.",
-          "Normal species — population levels are normal, e.g. cattle and rodents. Endangered species — in danger of extinction, e.g. the black buck and the Indian rhino. Vulnerable species — declining and likely to become endangered, e.g. the Asiatic elephant. Rare species — a small population in a limited area, e.g. the Himalayan brown bear. Extinct species — no longer found, e.g. the Asiatic cheetah. Endemic species — found only in one area, e.g. the Andaman teal."
+          "The three categories are **reserved forests**, **protected forests** and **unclassed forests**.",
+          "Reserved forests are more than half of the forest land and are regarded as the most valuable for conservation.",
+          "Protected forests (almost one-third) are guarded from further depletion; unclassed forests are the rest, owned by the government, individuals and communities."
         ]
       },
       {
@@ -397,21 +401,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Forest and Wildlife Resources”. Their note says: Biodiversity. The variety of plants, animals and micro-organisms, and the ecosystems they live in. India is one of the world's mega-diverse countries: about 8 per cent of all recorded species are found here — roughly 47,000 species of plants and 81,000 species of animals, of which about 15,000 are f\n\nThe chapter is described as: Biodiversity, why species disappear, and the laws and movements that protect them.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nIn some villages, a patch of forest is left untouched as a sacred grove: no tree may be cut and no animal killed, because the grove is considered the home of a deity.\n\n(a) What does this show about traditional attitudes to nature?\n(b) How does a sacred grove help biodiversity?\n(c) How can the Forest Department work with such communities?",
         "a": [
-          "(a) Biodiversity, why species disappear, and the laws and movements that protect them.",
-          "(b) Part of the 20 geography marks. Usually one 3-mark or 5-mark question, plus map pointing from the national parks and sanctuaries named here.",
-          "(c) Mixing up rare and endangered. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues."
+          "(a) Many communities protect nature out of religious and cultural belief and see themselves as part of it.",
+          "(b) The undisturbed grove keeps the habitat intact, so plants and animals, including rare species, survive there.",
+          "(c) Through **Joint Forest Management**, in which villagers help protect the forest and in return receive a share of the benefits."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “What are the categories of species recognised for conservation? Give one example of each.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nIn the Tehri region, some farmers have stopped using synthetic chemicals and instead grow a variety of local crops, conserving traditional seeds.\n\n(a) Name the movement associated with this.\n(b) What are the benefits of such crop diversity?\n(c) How is it linked to forest and wildlife conservation?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Normal species — population levels are normal, e.g. cattle and rodents. Endangered species — in danger of extinction, e.g. the black buck and the Indian rhino. Vulnerable species — declining and likely to become endangered, e.g. the Asiatic elephant. Rare species — a small population in a limited area, e.g. the Himalayan brown bear. Extinct species — no longer found, e.g. the Asiatic cheetah. Endemic species — found only in one area, e.g. the Andaman teal.",
-          "(c) Order of seriousness: normal → rare → vulnerable → endangered → extinct. *Rare is few and local, vulnerable is falling, endangered is nearly gone.*"
+          "(a) The Beej Bachao Andolan (the Navdanya movement is similar).",
+          "(b) It preserves local varieties of seeds, keeps soil healthy, lowers costs and reduces the risk of losing a whole crop to one pest or drought.",
+          "(c) It shows that people can earn a living without depending on destroying forests, and it protects agricultural biodiversity."
         ]
       },
       {
@@ -441,12 +445,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Forest and Wildlife Resources” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Why should we conserve forests and wildlife? Give five reasons.",
         "a": [
-          "Biodiversity. The variety of plants, animals and micro-organisms, and the ecosystems they live in. India is one of the world's mega-diverse countries: about 8 per cent of all recorded species are found here — roughly 47,000 species of plants and 81,000 species of animals, of which about 15,000 are flowering plants (6 per cent of the world's total). Three levels are protected together: genetic diversity, species diver.",
-          "Marks lens: Part of the 20 geography marks. Usually one 3-mark or 5-mark question, plus map pointing from the national parks and sanctuaries named here.",
-          "Method / memory trick: Order of seriousness: normal → rare → vulnerable → endangered → extinct. *Rare is few and local, vulnerable is falling, endangered is nearly gone.*",
-          "Do not: Mixing up rare and endangered. Rare means a small population in a limited area; endangered means the species will be wiped out if the present trend continues."
+          "Ecological balance: forests and wildlife maintain the life-support systems of air, water and soil.",
+          "Biodiversity: the variety of plants and animals provides the genetic resources for crops and medicines.",
+          "Livelihood: forests give timber, fuel, fodder, fruits and medicinal plants, on which many communities depend.",
+          "Climate and water: forests regulate rainfall and temperature, and recharge groundwater.",
+          "Culture and heritage: forests and wildlife have spiritual and cultural value, and future generations deserve to inherit them."
         ]
       }
     ],
@@ -464,12 +469,12 @@
         "a": "**(c) Reserved forests**, which cover more than half the total forest land of the country."
       },
       {
-        "q": "The most exam-ready way to revise “Forest and Wildlife Resources” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Biodiversity, why species disappear, and the laws and movements that protect them."
+        "q": "A species that is not seen in the areas it is known or likely to inhabit, after repeated searches, is called: (a) endangered (b) rare (c) vulnerable (d) extinct",
+        "a": "**(d) extinct.** Extinct species are those no longer found anywhere in their known or possible habitats."
       },
       {
-        "q": "A 3-mark answer on “Forest and Wildlife Resources” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Which of the following is a biosphere reserve of India? (a) Kaziranga (b) Corbett (c) Ranthambore (d) Nilgiri",
+        "a": "**(d) Nilgiri.** The Nilgiri Biosphere Reserve was the first in India; the other three are well-known national parks or tiger reserves."
       },
       {
         "q": "The ‘Red Data Book' is a record of: (a) national parks  (b) endangered species  (c) forest area  (d) soil types",
@@ -564,20 +569,22 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Water Resources” (Scarcity, multi-purpose projects, and rainwater harvesting). A classmate lost marks by doing this: Writing only the benefits of dams. The question almost always asks for drawbacks too. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student answers “Multipurpose river projects help by providing irrigation, electricity and flood control.” Why would this answer lose marks if the question asks for an evaluation? Add three drawbacks.",
         "a": [
-          "Correct method: Dams: give three benefits and three drawbacks in every answer — irrigation, power, flood control against displacement, sedimentation and conflict. Full marks need both sides.",
-          "Why the mistake costs marks: Writing only the benefits of dams. The question almost always asks for drawbacks too.",
-          "Write the definition or formula first, then the working or example."
+          "It lists only the benefits. An evaluation question expects both advantages and disadvantages.",
+          "Drawback 1: large numbers of people are displaced, and their land and homes are submerged.",
+          "Drawback 2: dams change the natural flow of the river, cause sedimentation, and harm fish and aquatic life.",
+          "Drawback 3: they can cause floods or waterlogging and lead to disputes between states over sharing water."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Water Resources”: “Why is water scarcity increasing in India?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Name one traditional rainwater-harvesting or water-saving method each suited to (i) the hills and (ii) the arid plains of Rajasthan, and say how each works.",
         "a": [
-          "Idea: Scarcity, multi-purpose projects, and rainwater harvesting.",
-          "Because of a growing population, which raises the demand for water for drinking and for growing more food and cash crops; rapid urbanisation and changing lifestyles that consume more water; over-exploitation of groundwater by commercial farming; and unequal access between social groups. In many regions water is abundant but polluted by domestic and industrial waste and by pesticides and fertilisers, so it cannot be used without treatment."
+          "(i) Hills: **guls or kuls**, diversion channels in the Western Himalayas that carry water from streams to fields (in Meghalaya, bamboo pipes do a similar job).",
+          "(ii) Rajasthan: **tankas** (underground tanks) that store rainwater collected from roofs and courtyards, or **johads** and **khadins**, earthen structures that hold rain for crops and recharge groundwater.",
+          "Both capture water when it is plentiful so that it can be used in the dry months."
         ]
       },
       {
@@ -593,21 +600,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Water Resources”. Their note says: Water resources. About three-fourths of the earth's surface is covered with water, but only about 2.5% is fresh water, and nearly 70% of that is frozen in ice sheets; almost all the rest is groundwater. India ranks 133rd in the world in terms of water availability per person per annum (2010 data). R\n\nThe chapter is described as: Scarcity, multi-purpose projects, and rainwater harvesting.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nVillagers living along a river protest against a proposed dam that would submerge their fields and homes. Engineers say it will supply water and electricity to distant cities.\n\n(a) Whose interests conflict here?\n(b) Name two movements in India against large dams.\n(c) How can such conflicts be reduced?",
         "a": [
-          "(a) Scarcity, multi-purpose projects, and rainwater harvesting.",
-          "(b) marks. Multi-purpose river projects with their benefits and drawbacks is the set question; rainwater harvesting methods come second.",
-          "(c) Writing only the benefits of dams. The question almost always asks for drawbacks too."
+          "(a) The interests of the displaced local people and the interests of the cities and farmers who would benefit from the water and power.",
+          "(b) The Narmada Bachao Andolan (against the Sardar Sarovar project) and the movement against the Tehri Dam on the Bhagirathi.",
+          "(c) By proper rehabilitation and compensation, by involving the people affected in decisions, and by using small projects such as check dams and rainwater harvesting."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Why is water scarcity increasing in India?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nIn Meghalaya, farmers use a 200-year-old system in which bamboo pipes carry water from hill springs over long distances to plantations, delivering it to the plants as slow drops.\n\n(a) Which type of irrigation does this resemble?\n(b) Why is it efficient?\n(c) Why is it relevant today?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Because of a growing population, which raises the demand for water for drinking and for growing more food and cash crops; rapid urbanisation and changing lifestyles that consume more water; over-exploitation of groundwater by commercial farming; and unequal access between social groups. In many regions water is abundant but polluted by domestic and industrial waste and by pesticides and fertilisers, so it cannot be used without treatment.",
-          "(c) Dams: give three benefits and three drawbacks in every answer — irrigation, power, flood control against displacement, sedimentation and conflict. Full marks need both sides."
+          "(a) Drip irrigation.",
+          "(b) Water goes straight to the plants, drop by drop, so very little is lost to evaporation or seepage.",
+          "(c) It saves scarce water, is cheap and eco-friendly, and suits hilly terrain, so it is a model for conservation."
         ]
       },
       {
@@ -632,12 +639,12 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Water Resources” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Describe any four traditional rainwater-harvesting methods and the regions where they are used.",
         "a": [
-          "Water resources. About three-fourths of the earth's surface is covered with water, but only about 2.5% is fresh water, and nearly 70% of that is frozen in ice sheets; almost all the rest is groundwater. India ranks 133rd in the world in terms of water availability per person per annum (2010 data). Renewable water resources amount to about 1,869 cubic km. About 22% of the total water used is in the industrial sector.",
-          "Marks lens: marks. Multi-purpose river projects with their benefits and drawbacks is the set question; rainwater harvesting methods come second.",
-          "Method / memory trick: Dams: give three benefits and three drawbacks in every answer — irrigation, power, flood control against displacement, sedimentation and conflict. Full marks need both sides.",
-          "Do not: Writing only the benefits of dams. The question almost always asks for drawbacks too."
+          "Guls and kuls: diversion channels built in the hills of the Western Himalayas to carry stream water to fields.",
+          "Rooftop harvesting and tankas: in Rajasthan, rain from roofs flows into underground tanks that give drinking water through the dry season.",
+          "Khadins and johads: in Jaisalmer and other dry parts of Rajasthan, earthen embankments hold rain on farmland and recharge groundwater.",
+          "Inundation channels: in the flood plains of West Bengal, channels carry floodwater to fields. (Meghalaya’s bamboo drip irrigation is another example.)"
         ]
       }
     ],
@@ -655,12 +662,12 @@
         "a": "**(b) rainwater harvesting in agricultural fields**, mainly in arid Rajasthan, where rainwater is allowed to stand and moisten the soil."
       },
       {
-        "q": "The most exam-ready way to revise “Water Resources” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Scarcity, multi-purpose projects, and rainwater harvesting."
+        "q": "In Rajasthan, underground tanks built to store rainwater, often in the house courtyard, are called: (a) tankas (b) kuls (c) guls (d) bamboo drips",
+        "a": "**(a) tankas.** Tankas store rooftop rainwater and are especially common in Bikaner, Phalodi and Barmer."
       },
       {
-        "q": "A 3-mark answer on “Water Resources” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Water is called a renewable resource because it is continuously renewed by the: (a) water (hydrological) cycle (b) food chain (c) soil cycle (d) wind cycle",
+        "a": "**(a) water (hydrological) cycle.** Evaporation, condensation and precipitation keep replacing the fresh water in rivers, lakes and the ground."
       },
       {
         "q": "The Bhakra Nangal project is built on the river: (a) Mahanadi  (b) Sutlej  (c) Narmada  (d) Krishna",
@@ -812,20 +819,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Agriculture” (Cropping patterns, crop requirements and food security). A classmate lost marks by doing this: Mixing up kharif and rabi crops. Wheat, gram, mustard and barley are rabi; rice, cotton, jute and maize are kharif. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes that wheat, gram and mustard are kharif crops, while rice and maize are rabi crops. Correct this and state the seasons of sowing and harvest.",
         "a": [
-          "Correct method: Kharif = monsoon (June–July to Sept–Oct); Rabi = winter (Oct–Dec to April–June); Zaid = summer. *'Kharif rain, Rabi grain, Zaid melon.'*",
-          "Why the mistake costs marks: Mixing up kharif and rabi crops. Wheat, gram, mustard and barley are rabi; rice, cotton, jute and maize are kharif.",
-          "Write the definition or formula first, then the working or example."
+          "Rabi crops — wheat, barley, peas, gram and mustard — are sown in winter (October to December) and harvested in summer (April to June).",
+          "Kharif crops — rice, maize, jowar, bajra, cotton and jute — are sown with the onset of the monsoon (June–July) and harvested in September–October.",
+          "A short summer season between the two is called **zaid**, when crops such as watermelon and cucumber are grown."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Agriculture”: “Describe the geographical conditions required for the growth of rice.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Which crop would you advise for each case: (i) hot, humid climate, more than 100 cm of rain, alluvial soil; (ii) cool growing season, bright sunshine at ripening, 50–75 cm of rain, well-drained loamy soil; (iii) black soil, high temperature, light rain and frost-free days? Give reasons.",
         "a": [
-          "Idea: Cropping patterns, crop requirements and food security.",
-          "Rice is a kharif crop that requires a temperature above 25 °C and high humidity, with annual rainfall above 100 cm. It grows best in the plains of north and north-eastern India, the coastal areas and the deltaic regions. In areas of less rainfall, such as Punjab, Haryana and western Uttar Pradesh, it is grown with the help of irrigation and canal networks."
+          "(i) **Rice**: it needs high temperature, high humidity and heavy rainfall, with water standing in the fields.",
+          "(ii) **Wheat**: a rabi crop that needs a cool growing season, bright sunshine at ripening, moderate rain and well-drained loamy soil.",
+          "(iii) **Cotton**: it grows well in black soil, needs high temperature, light rain and a long frost-free period."
         ]
       },
       {
@@ -842,21 +850,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Agriculture”. Their note says: Agriculture in India. About two-thirds of India's population is engaged in agriculture, which provides most of the food consumed, produces raw material for industries, and earns foreign exchange through exports of tea, coffee and spices. It is the backbone of the economy.\n\nThe chapter is described as: Cropping patterns, crop requirements and food security.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nAfter high-yielding seeds, fertilisers and irrigation were introduced, wheat production in some states rose sharply, but groundwater levels fell and the soil lost fertility.\n\n(a) Name this change in Indian agriculture.\n(b) State two benefits.\n(c) State two problems it created.",
         "a": [
-          "(a) Cropping patterns, crop requirements and food security.",
-          "(b) –4 marks. The geographical conditions of rice/wheat/tea/coffee and the three cropping seasons are asked almost every year.",
-          "(c) Mixing up kharif and rabi crops. Wheat, gram, mustard and barley are rabi; rice, cotton, jute and maize are kharif."
+          "(a) The Green Revolution.",
+          "(b) Foodgrain production rose and India became nearly self-sufficient in cereals; farmers’ incomes increased.",
+          "(c) The water table fell and soil quality worsened from heavy use of chemicals; benefits stayed mostly in a few regions, increasing regional inequality."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Describe the geographical conditions required for the growth of rice.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA tribal family clears a patch of forest by cutting and burning the trees, grows crops there for a few years and then moves on to a new patch.\n\n(a) Name this type of farming.\n(b) Why does the family move on?\n(c) Why is this practice declining or discouraged?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Rice is a kharif crop that requires a temperature above 25 °C and high humidity, with annual rainfall above 100 cm. It grows best in the plains of north and north-eastern India, the coastal areas and the deltaic regions. In areas of less rainfall, such as Punjab, Haryana and western Uttar Pradesh, it is grown with the help of irrigation and canal networks.",
-          "(c) Kharif = monsoon (June–July to Sept–Oct); Rabi = winter (Oct–Dec to April–June); Zaid = summer. *'Kharif rain, Rabi grain, Zaid melon.'*"
+          "(a) Slash-and-burn (shifting) cultivation, called *jhumming* in north-eastern India.",
+          "(b) After a few years the soil loses fertility, so the family clears a new patch and lets the old one recover.",
+          "(c) With more people and less forest land, there is not enough time for the land to recover; it destroys forest and causes soil erosion, so governments discourage it."
         ]
       },
       {
@@ -885,12 +893,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Agriculture” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Describe the geographical conditions required for growing wheat and name the major wheat-producing regions of India.",
         "a": [
-          "Agriculture in India. About two-thirds of India's population is engaged in agriculture, which provides most of the food consumed, produces raw material for industries, and earns foreign exchange through exports of tea, coffee and spices. It is the backbone of the economy.",
-          "Marks lens: –4 marks. The geographical conditions of rice/wheat/tea/coffee and the three cropping seasons are asked almost every year.",
-          "Method / memory trick: Kharif = monsoon (June–July to Sept–Oct); Rabi = winter (Oct–Dec to April–June); Zaid = summer. *'Kharif rain, Rabi grain, Zaid melon.'*",
-          "Do not: Mixing up kharif and rabi crops. Wheat, gram, mustard and barley are rabi; rice, cotton, jute and maize are kharif."
+          "Wheat is a **rabi** crop, sown in winter and harvested in the next summer.",
+          "It needs a cool growing season and bright sunshine at the time of ripening.",
+          "It needs 50–75 cm of annual rainfall, evenly distributed over the growing season, and well-drained loamy soil.",
+          "Major producing states: Punjab, Haryana, Uttar Pradesh, Madhya Pradesh and Rajasthan.",
+          "Two main wheat zones are the Ganga–Satluj plains in the north-west and the black soil region of the Deccan."
         ]
       }
     ],
@@ -908,12 +917,12 @@
         "a": "**(b) milk production** — the White Revolution, which made India the largest milk producer in the world."
       },
       {
-        "q": "The most exam-ready way to revise “Agriculture” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Cropping patterns, crop requirements and food security."
+        "q": "Which of the following is a zaid crop? (a) rice (b) watermelon (c) wheat (d) jute",
+        "a": "**(b) watermelon.** Zaid is the short summer season between the rabi and kharif seasons, in which watermelon, muskmelon and cucumber are grown."
       },
       {
-        "q": "A 3-mark answer on “Agriculture” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The crop known as the “golden fibre” is: (a) cotton (b) hemp (c) flax (d) jute",
+        "a": "**(d) jute.** Jute is called the golden fibre because of its colour and its value as an export crop; it grows in the Ganga–Brahmaputra delta."
       },
       {
         "q": "Rabi crops are: (a) sown in June and harvested in September  (b) sown in October–December and harvested in April–June  (c) sown in March and harvested in June  (d) sown in August and harvested in January",
@@ -1007,20 +1016,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Minerals and Energy Resources” (Mineral belts, conventional and non-conventional energy). A classmate lost marks by doing this: Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student says lignite is the best quality coal because it is mined at Neyveli. Correct this and arrange the four types of coal from best to poorest quality.",
         "a": [
-          "Correct method: Coal ranks: Anthracite > Bituminous > Lignite > Peat. *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses.",
-          "Why the mistake costs marks: Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best.",
-          "Write the definition or formula first, then the working or example."
+          "Lignite is a **low-grade** brown coal with a lot of moisture, so it is not the best; the best quality is **anthracite**.",
+          "Order from best to poorest: anthracite → bituminous → lignite → peat.",
+          "Anthracite has the highest carbon content; bituminous is the most popular in commercial use; peat has the lowest carbon content and heat value."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Minerals and Energy Resources”: “Distinguish between conventional and non-conventional sources of energy with two examples each.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Which non-conventional source of energy would you recommend for (i) a sunny desert region, (ii) a windy coastal region and (iii) a village with plenty of cattle dung and farm waste? Give reasons.",
         "a": [
-          "Idea: Mineral belts, conventional and non-conventional energy.",
-          "Conventional sources have been in use for a long time, are largely exhaustible, cause pollution and are costly to obtain — for example coal and petroleum. Non-conventional sources are recently developed, are renewable and eco-friendly, and have lower running costs — for example solar and wind energy."
+          "(i) **Solar energy**: strong sunshine all year can be converted into electricity with photovoltaic cells.",
+          "(ii) **Wind energy**: steady winds can turn turbines; the Nagercoil–Madurai belt of Tamil Nadu is a large wind-farm cluster.",
+          "(iii) **Biogas**: cattle dung and farm waste produce a clean cooking fuel and good manure."
         ]
       },
       {
@@ -1037,21 +1047,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Minerals and Energy Resources”. Their note says: Minerals. A mineral is a homogeneous, naturally occurring substance with a definite internal structure, found in various forms from the hardest diamond to the softest talc. They are classified as metallic (iron, manganese, copper, bauxite) and non-metallic (limestone, mica, gypsum), and as ferrous a\n\nThe chapter is described as: Mineral belts, conventional and non-conventional energy.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA mining company discards low-grade ore as waste and uses only rich ore. A geologist warns that, at this rate, the rich deposits will run out within a few decades.\n\n(a) Why is the conservation of minerals necessary?\n(b) Suggest two ways to conserve minerals.\n(c) State one way in which mining harms miners or the environment.",
         "a": [
-          "(a) Mineral belts, conventional and non-conventional energy.",
-          "(b) marks. The difference between conventional and non-conventional sources, and one mineral with its belt, is the usual question.",
-          "(c) Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best."
+          "(a) Minerals are non-renewable: they take millions of years to form, while the rate of use is very high.",
+          "(b) Develop technology that can use low-grade ores cheaply; recycle metals and use scrap and substitutes.",
+          "(c) Dust and fumes cause lung diseases in miners, mine roofs can collapse, and waste and slurry pollute water and degrade land."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Distinguish between conventional and non-conventional sources of energy with two examples each.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nState X has fast-flowing rivers and heavy rainfall in hilly country. State Y has large coal fields and a flat terrain.\n\n(a) Which state suits hydel power and which suits thermal power?\n(b) Which of the two sources is renewable?\n(c) Why must hydel projects be planned carefully?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Conventional sources have been in use for a long time, are largely exhaustible, cause pollution and are costly to obtain — for example coal and petroleum. Non-conventional sources are recently developed, are renewable and eco-friendly, and have lower running costs — for example solar and wind energy.",
-          "(c) Coal ranks: Anthracite > Bituminous > Lignite > Peat. *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses."
+          "(a) State X suits hydroelectric power; State Y suits thermal power.",
+          "(b) Hydroelectric power is renewable (water is renewed by the water cycle); coal is non-renewable.",
+          "(c) Dams submerge land and forests, displace people and change the flow of rivers, so the social and environmental costs must be weighed."
         ]
       },
       {
@@ -1081,12 +1091,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Minerals and Energy Resources” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "In what ways do minerals occur in nature? Explain with an example for each.",
         "a": [
-          "Minerals. A mineral is a homogeneous, naturally occurring substance with a definite internal structure, found in various forms from the hardest diamond to the softest talc. They are classified as metallic (iron, manganese, copper, bauxite) and non-metallic (limestone, mica, gypsum), and as ferrous and non-ferrous. Minerals occur in veins and lodes in igneous and metamorphic rocks, as beds or layers in sedimentary roc.",
-          "Marks lens: marks. The difference between conventional and non-conventional sources, and one mineral with its belt, is the usual question.",
-          "Method / memory trick: Coal ranks: Anthracite > Bituminous > Lignite > Peat. *'A Better Life for Peasants'.* Anthracite is best but rare; bituminous is what India mostly uses.",
-          "Do not: Calling lignite the best quality coal. It is low-grade, brown and has high moisture — anthracite is the best."
+          "In veins and lodes: minerals fill cracks and joints of igneous and metamorphic rocks, for example tin, copper, zinc and lead.",
+          "In beds or layers: minerals formed in sedimentary rocks, for example coal, iron ore, gypsum and potash salt.",
+          "By decomposition of surface rocks: the soluble parts are removed and a residual mass is left, for example bauxite.",
+          "As alluvial deposits (placers): minerals washed down and deposited in valley sands, for example gold, silver and tin.",
+          "In ocean waters: common salt, magnesium and bromine are obtained from sea water."
         ]
       }
     ],
@@ -1104,12 +1115,12 @@
         "a": "**(c) Bombay High.** Gujarat contributes about 18% and Assam about 16%."
       },
       {
-        "q": "The most exam-ready way to revise “Minerals and Energy Resources” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Mineral belts, conventional and non-conventional energy."
+        "q": "The best quality coal, with the highest carbon content, is: (a) lignite (b) peat (c) bituminous (d) anthracite",
+        "a": "**(d) anthracite.** Anthracite is hard, black and contains over 80 per cent carbon, so it is the highest-grade coal."
       },
       {
-        "q": "A 3-mark answer on “Minerals and Energy Resources” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Photovoltaic cells convert: (a) sunlight directly into electricity (b) heat into sound (c) wind into heat (d) water into steam",
+        "a": "**(a) sunlight directly into electricity.** Solar photovoltaic cells use sunlight to produce electricity without any moving parts."
       },
       {
         "q": "Neyveli in Tamil Nadu is known for: (a) lignite coal  (b) anthracite  (c) petroleum  (d) mica",
@@ -1203,20 +1214,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Manufacturing Industries” (Classification, agro-based and mineral-based industries, pollution). A classmate lost marks by doing this: Calling iron and steel a consumer industry. It is a basic and key industry. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes that iron and steel is a consumer industry because steel utensils are used at home. Correct this by classifying the industry and giving two reasons.",
         "a": [
-          "Correct method: Iron and steel = basic + heavy + in the Chotanagpur region. Three keywords that open any 3-mark answer on steel.",
-          "Why the mistake costs marks: Calling iron and steel a consumer industry. It is a basic and key industry.",
-          "Write the definition or formula first, then the working or example."
+          "Iron and steel is a **basic (key) industry**, not a consumer industry.",
+          "Many other industries — machine tools, construction, transport, heavy engineering — depend on it for their raw material or machinery.",
+          "Consumer industries, such as sugar, paper or toothpaste, make goods that people buy for their own use."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Manufacturing Industries”: “Why is the iron and steel industry called a basic industry? Give three reasons.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Name the main raw materials of the cement industry and give two factors that influence where a cement plant is located.",
         "a": [
-          "Idea: Classification, agro-based and mineral-based industries, pollution.",
-          "It is called a basic industry because all other industries — heavy, medium and light — depend on it for their machinery, and because production and consumption of steel are regarded as the index of a country's level of development. It is also a heavy industry, since both its raw materials and its finished products are heavy and bulky, so transport costs are a major part of its total cost."
+          "Raw materials: limestone, silica, alumina and gypsum, plus coal and electricity for the kilns.",
+          "Limestone is bulky and the cement is heavy, so plants are set up near limestone deposits to keep transport costs low.",
+          "Cement is needed everywhere for construction, so good road and rail links and a nearby market also matter."
         ]
       },
       {
@@ -1232,21 +1244,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Manufacturing Industries”. Their note says: Manufacturing and its importance. Manufacturing is the production of goods in large quantities after processing raw materials into more valuable products — for example, paper from wood, sugar from sugarcane, aluminium from bauxite. It contributes about 17% of GDP (of which 10% comes from mining, ele\n\nThe chapter is described as: Classification, agro-based and mineral-based industries, pollution.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nFour factories are: a cotton mill, a sugar mill, an iron and steel plant and an aluminium smelter.\n\n(a) Which are agro-based and which are mineral-based?\n(b) Name the main raw material of each.\n(c) Which of them is called a basic industry, and why?",
         "a": [
-          "(a) Classification, agro-based and mineral-based industries, pollution.",
-          "(b) marks. The cotton textile industry and the iron and steel industry are the recurring long answers; industrial pollution with control measures is the other favourite.",
-          "(c) Calling iron and steel a consumer industry. It is a basic and key industry."
+          "(a) Agro-based: the cotton mill and the sugar mill. Mineral-based: the iron and steel plant and the aluminium smelter.",
+          "(b) Cotton; sugarcane; iron ore with coking coal and limestone; bauxite.",
+          "(c) Iron and steel, because other industries depend on its products."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Why is the iron and steel industry called a basic industry? Give three reasons.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nIndia’s cotton textile industry has two parts: spinning, which is mostly done in mills, and weaving, which is largely decentralised in handlooms, powerlooms and hosiery units.\n\n(a) Which part is organised and which is decentralised?\n(b) Why is weaving kept decentralised?\n(c) Name two problems faced by the spinning sector.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) It is called a basic industry because all other industries — heavy, medium and light — depend on it for their machinery, and because production and consumption of steel are regarded as the index of a country's level of development. It is also a heavy industry, since both its raw materials and its finished products are heavy and bulky, so transport costs are a major part of its total cost.",
-          "(c) Iron and steel = basic + heavy + in the Chotanagpur region. Three keywords that open any 3-mark answer on steel."
+          "(a) Spinning is in the organised mill sector; weaving is decentralised.",
+          "(b) Decentralised weaving gives scope for handloom and powerloom units, and keeps cloth production flexible and employment widespread.",
+          "(c) Erratic power supply, outdated machinery, low labour productivity and stiff competition from synthetic fibres."
         ]
       },
       {
@@ -1297,12 +1309,12 @@
         "a": "**(c) thermal pollution**, which affects aquatic life."
       },
       {
-        "q": "The most exam-ready way to revise “Manufacturing Industries” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Classification, agro-based and mineral-based industries, pollution."
+        "q": "Industries that use bulky raw materials which lose weight in processing are usually located: (a) near the market (b) near the sources of raw material (c) near ports only (d) in the capital city",
+        "a": "**(b) near the sources of raw material.** Moving the raw material would cost more than moving the lighter finished product, so such plants (steel, cement, sugar) are located near the raw material."
       },
       {
-        "q": "A 3-mark answer on “Manufacturing Industries” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Sugar mills in Maharashtra, run by growers, are an example of industries in the: (a) public sector (b) private sector (c) joint sector (d) cooperative sector",
+        "a": "**(d) cooperative sector.** In the cooperative sector, the producers or suppliers of raw material jointly own and run the industry."
       },
       {
         "q": "The first modern iron and steel works in India was set up at: (a) Jamshedpur  (b) Kulti in West Bengal  (c) Bhilai  (d) Rourkela",
@@ -1402,20 +1414,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Lifelines of National Economy” (Roadways, railways, pipelines, waterways, airways and trade). A classmate lost marks by doing this: Saying pipelines have low initial cost. They have a high initial cost but minimal running cost. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes that pipelines are cheap to set up but expensive to run. Correct this and give two advantages of pipeline transport.",
         "a": [
-          "Correct method: Roadways beat railways on four counts: lower cost, difficult terrain, higher gradients, and door-to-door service.",
-          "Why the mistake costs marks: Saying pipelines have low initial cost. They have a high initial cost but minimal running cost.",
-          "Write the definition or formula first, then the working or example."
+          "Pipelines have a **high initial cost but a very low running cost**, not the other way round.",
+          "Advantage 1: they carry crude oil, natural gas and refined products continuously over long distances, even through rugged terrain, with no loading or trans-shipment losses.",
+          "Advantage 2: they reduce the need for road and rail tankers, so traffic and delays are less (solids can also be moved as slurry)."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Lifelines of National Economy”: “Why are roadways considered more efficient than railways in India?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Suggest the most suitable mode of transport for (i) a large quantity of coal for a power plant 1,500 km away, (ii) fresh flowers for a city 1,500 km away and (iii) goods for a village that has no railway station. Give reasons.",
         "a": [
-          "Idea: Roadways, railways, pipelines, waterways, airways and trade.",
-          "Because the cost of constructing roads is much lower than that of railway lines; roads can traverse more dissected and undulating topography and negotiate higher gradients, such as in the Himalayas; they provide door-to-door service, which reduces the loading and unloading cost; and they act as feeders to other modes of transport, connecting railway stations, airports and sea ports."
+          "(i) Railways (or waterways/pipelines where available): cheapest for bulky goods over long distances.",
+          "(ii) Airways: fastest, so perishable and high-value goods arrive fresh, though costly.",
+          "(iii) Roadways: they give door-to-door service and can reach villages and remote areas that rail cannot."
         ]
       },
       {
@@ -1431,21 +1444,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Lifelines of National Economy”. Their note says: Why transport and communication are called lifelines. The movement of goods and services from their supply locations to demand locations is called trade. No country can prosper without efficient means of transport; trade between countries is called international trade, and trade within a country is \n\nThe chapter is described as: Roadways, railways, pipelines, waterways, airways and trade.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nIndia has built a network of superhighways to link its major cities and ports.\n\n(a) Which four metropolitan cities does the Golden Quadrilateral connect?\n(b) Name the end points of the North–South and East–West Corridors.\n(c) How do such superhighways help economic development?",
         "a": [
-          "(a) Roadways, railways, pipelines, waterways, airways and trade.",
-          "(b) Map work is the main return here — sea ports, airports, national highways and pipelines.",
-          "(c) Saying pipelines have low initial cost. They have a high initial cost but minimal running cost."
+          "(a) Delhi, Mumbai, Chennai and Kolkata.",
+          "(b) The North–South Corridor runs from Srinagar to Kanyakumari; the East–West Corridor from Silchar (Assam) to Porbandar (Gujarat).",
+          "(c) They cut travel time and transport costs, link markets, ports and industries, and encourage trade and investment."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Why are roadways considered more efficient than railways in India?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nAfter Independence, the ports of Mumbai and Kolkata became overcrowded.\n\n(a) Which ports were developed to ease the load on each?\n(b) Why was Kandla the first port developed after Independence?\n(c) Which is the deepest landlocked, well-protected port on the east coast?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Because the cost of constructing roads is much lower than that of railway lines; roads can traverse more dissected and undulating topography and negotiate higher gradients, such as in the Himalayas; they provide door-to-door service, which reduces the loading and unloading cost; and they act as feeders to other modes of transport, connecting railway stations, airports and sea ports.",
-          "(c) Roadways beat railways on four counts: lower cost, difficult terrain, higher gradients, and door-to-door service."
+          "(a) Jawaharlal Nehru Port (Nhava Sheva) eased the load on Mumbai; Haldia eased the load on Kolkata.",
+          "(b) Karachi port was lost to Pakistan at Partition, so Kandla in Kachchh was developed to handle trade and ease the pressure on Mumbai.",
+          "(c) Visakhapatnam."
         ]
       },
       {
@@ -1462,12 +1475,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Lifelines of National Economy” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Why is international trade called the economic barometer of a country? Name four major items each of India’s exports and imports.",
         "a": [
-          "Why transport and communication are called lifelines. The movement of goods and services from their supply locations to demand locations is called trade. No country can prosper without efficient means of transport; trade between countries is called international trade, and trade within a country is internal or domestic trade. A dense and efficient network of transport and communication is a prerequisite for local, na.",
-          "Marks lens: Map work is the main return here — sea ports, airports, national highways and pipelines.",
-          "Method / memory trick: Roadways beat railways on four counts: lower cost, difficult terrain, higher gradients, and door-to-door service.",
-          "Do not: Saying pipelines have low initial cost. They have a high initial cost but minimal running cost."
+          "A barometer shows the weather; similarly, the level and growth of a country’s international trade shows how prosperous its economy is.",
+          "Trade lets countries exchange the goods they produce best for those they lack, and brings in technology and raw materials.",
+          "India’s exports include gems and jewellery, chemicals and related products, engineering goods and agricultural products such as rice and spices.",
+          "India’s imports include petroleum crude and products, pearls and precious stones, machinery and fertilisers.",
+          "A healthy balance between exports and imports is needed so that foreign exchange is not drained."
         ]
       }
     ],
@@ -1485,12 +1499,12 @@
         "a": "**(b) 1953.**"
       },
       {
-        "q": "The most exam-ready way to revise “Lifelines of National Economy” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Roadways, railways, pipelines, waterways, airways and trade."
+        "q": "The Golden Quadrilateral Superhighways project is being implemented by the: (a) Border Roads Organisation (b) National Highways Authority of India (c) Public Works Department (d) Indian Railways Board",
+        "a": "**(b) National Highways Authority of India.** NHAI builds and maintains the national highways, including the Golden Quadrilateral and the corridors."
       },
       {
-        "q": "A 3-mark answer on “Lifelines of National Economy” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The Border Roads Organisation, set up in 1960, builds roads mainly in: (a) the coastal plains (b) the Deccan Plateau (c) the northern and north-eastern border areas (d) metropolitan cities",
+        "a": "**(c) the northern and north-eastern border areas.** BRO builds and maintains roads in difficult border regions for defence and for the development of remote areas."
       },
       {
         "q": "The longest national highway in India is: (a) NH 44  (b) NH 7  (c) NH 1  (d) NH 2",

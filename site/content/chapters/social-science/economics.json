@@ -117,20 +117,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Development” (Different goals, income and averages, BMI, infant mortality and HDI). A classmate lost marks by doing this: Saying a higher BMI is always better. Below 18.5 is undernourished, above 25 is overweight — the healthy range is between. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes: “A higher BMI always means a healthier person.” Correct the statement, using the BMI ranges.",
         "a": [
-          "Correct method: Averages are useful but hide disparities. Every 'limitation of per capita income' answer starts with this sentence.",
-          "Why the mistake costs marks: Saying a higher BMI is always better. Below 18.5 is undernourished, above 25 is overweight — the healthy range is between.",
-          "Write the definition or formula first, then the working or example."
+          "BMI (Body Mass Index) = weight in kg ÷ (height in metres)². It compares weight with height.",
+          "A BMI **below 18.5** means the person is undernourished; **above 25** means overweight, with a higher risk of illness.",
+          "The healthy range lies **between 18.5 and 25**, so neither a very low nor a very high BMI is better."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Development”: “Why is per capita income used to compare countries instead of total income?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Country A has a total income of Rs 4,00,000 crore and a population of 20 crore. Country B has a total income of Rs 6,00,000 crore and a population of 40 crore. Which country is better off on average? Show your working.",
         "a": [
-          "Idea: Different goals, income and averages, BMI, infant mortality and HDI.",
-          "Because countries have different population sizes, so total income does not tell us what an average person earns. Dividing national income by the population gives per capita income, which shows the average income of a person and allows a fair comparison of the standard of living between countries."
+          "Compare **per capita income** (total income ÷ population), because the populations differ.",
+          "Country A: 4,00,000 ÷ 20 = Rs 20,000 crore per crore people, i.e. Rs 20,000 per person. Country B: 6,00,000 ÷ 40 = Rs 15,000 per person.",
+          "Country A is better off on average even though B has the larger total income. (An average, however, hides differences between people.)"
         ]
       },
       {
@@ -147,21 +148,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Development”. Their note says: What people want from development. Different people have different developmental goals. A landless rural labourer wants more days of work and better wages; a prosperous farmer of Punjab wants cheap labour and higher prices for crops; a rural woman may want the same freedom and opportunity as her bro\n\nThe chapter is described as: Different goals, income and averages, BMI, infant mortality and HDI.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nThe table gives illustrative figures for two states. State X: per capita income Rs 2,20,000, literacy rate 78%, infant mortality rate 35 per 1000. State Y: per capita income Rs 1,40,000, literacy rate 94%, infant mortality rate 10 per 1000.\n\n(a) Which state has the higher per capita income?\n(b) Which state does better on health and education?\n(c) Which state is more developed? Explain.",
         "a": [
-          "(a) Different goals, income and averages, BMI, infant mortality and HDI.",
-          "(b) –4 marks. Averages (per capita income, BMI, IMR, literacy) and the limitations of income comparisons are the set questions.",
-          "(c) Saying a higher BMI is always better. Below 18.5 is undernourished, above 25 is overweight — the healthy range is between."
+          "(a) State X.",
+          "(b) State Y: its literacy rate is higher and its infant mortality rate is lower.",
+          "(c) State Y is likely to be more developed. Development is not income alone: better health and education give its people a longer, better life, and the Human Development Index counts all three."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Why is per capita income used to compare countries instead of total income?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nIn a village, the government school gives free education and a midday meal, and the ration shop sells rice at a low price. A private clinic in the nearby town charges high fees, so poor families cannot use it.\n\n(a) What are public facilities?\n(b) Why are they important for the poor?\n(c) Give two more examples of public facilities that help development.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Because countries have different population sizes, so total income does not tell us what an average person earns. Dividing national income by the population gives per capita income, which shows the average income of a person and allows a fair comparison of the standard of living between countries.",
-          "(c) Averages are useful but hide disparities. Every 'limitation of per capita income' answer starts with this sentence."
+          "(a) Facilities such as schools, hospitals, water supply and roads that the government provides for everyone, often at low or no cost.",
+          "(b) Poor families cannot afford private services, so public facilities give them access to education, food and health care that they would otherwise lack.",
+          "(c) Public hospitals and primary health centres; safe drinking water and sanitation (or roads and public transport)."
         ]
       },
       {
@@ -188,12 +189,13 @@
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Development” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "The table shows illustrative figures for three countries. A: per capita income Rs 5,00,000, literacy 70%, life expectancy 65 years. B: Rs 2,00,000, literacy 98%, life expectancy 80 years. C: Rs 1,00,000, literacy 60%, life expectancy 62 years. Compare the countries and say which has the highest human development. Why does high income not guarantee it?",
         "a": [
-          "What people want from development. Different people have different developmental goals. A landless rural labourer wants more days of work and better wages; a prosperous farmer of Punjab wants cheap labour and higher prices for crops; a rural woman may want the same freedom and opportunity as her brother. What may be development for one may be destructive for another — for example, a dam that gives electricity to indu.",
-          "Marks lens: –4 marks. Averages (per capita income, BMI, IMR, literacy) and the limitations of income comparisons are the set questions.",
-          "Method / memory trick: Averages are useful but hide disparities. Every 'limitation of per capita income' answer starts with this sentence.",
-          "Do not: Saying a higher BMI is always better. Below 18.5 is undernourished, above 25 is overweight — the healthy range is between."
+          "By income: A > B > C. By education (literacy): B (98%) > A (70%) > C (60%). By health (life expectancy): B (80) > A (65) > C (62).",
+          "The Human Development Index combines income, education and health, not income alone.",
+          "So **country B** has the highest human development: it is ahead of A on two of the three measures.",
+          "Income is only a means: A’s high average income does not by itself give its people better schooling or longer lives.",
+          "An average also hides inequality, so a rich country can still have many poorly educated or unhealthy people."
         ]
       }
     ],
@@ -211,12 +213,12 @@
         "a": "**(b) per capita income**, as reported in the World Development Report."
       },
       {
-        "q": "The most exam-ready way to revise “Development” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Different goals, income and averages, BMI, infant mortality and HDI."
+        "q": "Body Mass Index (BMI) is calculated as: (a) height in metres divided by weight in kilograms (b) weight in kilograms multiplied by height in metres (c) weight in kilograms divided by the square of height in metres (d) weight in kilograms divided by height in metres",
+        "a": "**(c) weight in kilograms divided by the square of height in metres.** BMI = weight (kg) ÷ height² (m²); for example 60 kg and 1.5 m gives about 26.7."
       },
       {
-        "q": "A 3-mark answer on “Development” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "The infant mortality rate is the number of children who die before the age of one year per: (a) 100 live births (b) 10,000 people (c) 1 lakh live births (d) 1000 live births",
+        "a": "**(d) 1000 live births.** Infant mortality is measured as deaths of babies under one year of age per thousand live births in a given year."
       },
       {
         "q": "Which of these is included in the Human Development Index? (a) life expectancy at birth  (b) the number of cars  (c) military spending  (d) the area of the country",
@@ -348,20 +350,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Sectors of the Indian Economy” (Primary, secondary, tertiary; organised and unorganised; GDP). A classmate lost marks by doing this: Counting intermediate goods in GDP. Only final goods are counted, to avoid double counting. Apply the correct method and rewrite the scoring answer.",
+        "q": "To find its GDP contribution, a student adds the value of wheat (Rs 100), flour (Rs 140) and bread (Rs 200). Find the mistake and give the correct contribution.",
         "a": [
-          "Correct method: Primary = extract, Secondary = make, Tertiary = support. One word each.",
-          "Why the mistake costs marks: Counting intermediate goods in GDP. Only final goods are counted, to avoid double counting.",
-          "Write the definition or formula first, then the working or example."
+          "Mistake: wheat and flour are **intermediate goods**; their value is already included in the price of the bread.",
+          "Adding them counts the same value several times (double counting).",
+          "Only the final good is counted, so the contribution to GDP is **Rs 200**, not Rs 440."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Sectors of the Indian Economy”: “Distinguish between the primary, secondary and tertiary sectors with one example of each.” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Under MGNREGA 2005, what is the maximum number of days of guaranteed wage employment per rural household in a year? If the daily wage were Rs 200, how much could one household earn at most?",
         "a": [
-          "Idea: Primary, secondary, tertiary; organised and unorganised; GDP.",
-          "The primary sector includes activities that use natural resources directly, such as agriculture, dairy, fishing and mining. The secondary sector includes activities in which natural products are changed into other forms through manufacturing, such as turning sugarcane into sugar or cotton into cloth. The tertiary sector includes activities that support the primary and secondary sectors without producing goods, such as transport, banking, trade, education and health."
+          "MGNREGA guarantees **100 days** of employment per household in a year to any rural household that asks for work.",
+          "Maximum earning = 100 × Rs 200 = **Rs 20,000** per year.",
+          "If the government cannot provide the work, it must pay an unemployment allowance. This makes work a legal right."
         ]
       },
       {
@@ -378,21 +381,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Sectors of the Indian Economy”. Their note says: Sectors of economic activity. Primary — activities that use natural resources directly: agriculture, dairy, fishing, forestry, mining. Secondary — activities in which natural products are changed into other forms through manufacturing: turning sugarcane into sugar, cotton into cloth, or iron ore int\n\nThe chapter is described as: Primary, secondary, tertiary; organised and unorganised; GDP.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nIn a country, the shares of the three sectors (illustrative figures) are: primary — 15% of GDP and 50% of workers; secondary — 25% of GDP and 20% of workers; tertiary — 60% of GDP and 30% of workers.\n\n(a) Which sector contributes the most to GDP?\n(b) Which sector employs the most people?\n(c) What does this tell us about the income of workers in the primary sector?",
         "a": [
-          "(a) Primary, secondary, tertiary; organised and unorganised; GDP.",
-          "(b) –5 marks. The difference between organised and unorganised sectors, and disguised unemployment with rural labourers, are the set questions.",
-          "(c) Counting intermediate goods in GDP. Only final goods are counted, to avoid double counting."
+          "(a) The tertiary sector (60%).",
+          "(b) The primary sector (50% of workers).",
+          "(c) Half the workers share only 15% of GDP, so income per worker in the primary sector is low; many may be underemployed or in disguised unemployment."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Distinguish between the primary, secondary and tertiary sectors with one example of each.” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nIn a city, the railways and the electricity board are run by the government, while the shopping mall and the private hospital are owned by individuals.\n\n(a) Which are public-sector and which are private-sector activities?\n(b) Why does the government run railways and electricity supply?\n(c) State one difference in the aims of the two sectors.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) The primary sector includes activities that use natural resources directly, such as agriculture, dairy, fishing and mining. The secondary sector includes activities in which natural products are changed into other forms through manufacturing, such as turning sugarcane into sugar or cotton into cloth. The tertiary sector includes activities that support the primary and secondary sectors without producing goods, such as transport, banking, trade, education and health.",
-          "(c) Primary = extract, Secondary = make, Tertiary = support. One word each."
+          "(a) Public sector: railways and the electricity board. Private sector: the mall and the private hospital.",
+          "(b) These services need very large investment and must be available to everyone at reasonable cost, which private firms may not provide.",
+          "(c) The private sector aims at **profit**; the public sector aims at the welfare of the public (as well as raising revenue)."
         ]
       },
       {
@@ -444,12 +447,12 @@
         "a": "**(d) about 90%** — they need protection on wages, safety and social security."
       },
       {
-        "q": "The most exam-ready way to revise “Sectors of the Indian Economy” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Primary, secondary, tertiary; organised and unorganised; GDP."
+        "q": "Which of the following is a tertiary-sector activity? (a) a farmer growing wheat (b) making cloth in a mill (c) a teacher teaching in a school (d) mining coal",
+        "a": "**(c) a teacher teaching in a school.** Teaching is a service; farming and mining are primary activities, and making cloth is a secondary activity."
       },
       {
-        "q": "A 3-mark answer on “Sectors of the Indian Economy” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Underemployment occurs when people are: (a) working but could do more work or produce more than they do (b) unwilling to work (c) looking for work but finding none (d) retired from work",
+        "a": "**(a) working but could do more work or produce more than they do.** Underemployed people appear to be employed but work below their capacity; people who want work and find none are unemployed."
       },
       {
         "q": "Disguised unemployment is most commonly found in: (a) the IT sector  (b) Indian agriculture  (c) banking  (d) the railways",
@@ -587,20 +590,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Money and Credit” (Modern money, banks, credit terms, SHGs and debt traps). A classmate lost marks by doing this: Saying currency is accepted because it has intrinsic value. It is accepted because it is authorised by the government, and issued by the RBI. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes: “Grameen Bank, founded by Muhammad Yunus in India, lends to poor women.” Find the error and state what Grameen Bank is known for.",
         "a": [
-          "Correct method: Credit helps Salim and traps Swapna. Name both in any credit question and you have the whole argument.",
-          "Why the mistake costs marks: Saying currency is accepted because it has intrinsic value. It is accepted because it is authorised by the government, and issued by the RBI.",
-          "Write the definition or formula first, then the working or example."
+          "Grameen Bank is in **Bangladesh**, not India. Muhammad Yunus founded it.",
+          "It is known for giving small loans to poor rural women, mostly through groups and without the collateral that ordinary banks demand.",
+          "It showed that poor borrowers, especially women, can be reliable: repayment rates are high."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Money and Credit”: “Why is money called a medium of exchange?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Kishore needs Rs 50,000 for a tailoring shop. A bank offers the loan at 8% a year, but asks for collateral. A moneylender offers it at 5% a month, with no papers. Compare the interest for one year and say which is better for him.",
         "a": [
-          "Idea: Modern money, banks, credit terms, SHGs and debt traps.",
-          "Because it acts as an intermediate step in the exchange of goods and services. In a barter system, exchange requires a double coincidence of wants — each person must want what the other has. Money removes this difficulty: a person can sell his goods for money and use that money to buy whatever he wants, so it mediates between the two parties."
+          "Bank: 8% of Rs 50,000 = **Rs 4,000** a year.",
+          "Moneylender: 5% a month = 60% a year, so 60% of Rs 50,000 = **Rs 30,000** a year.",
+          "The bank loan is far cheaper. The moneylender’s loan is easy to get but could trap Kishore in debt. The bank’s collateral demand is the price of cheap credit."
         ]
       },
       {
@@ -617,21 +621,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Money and Credit”. Their note says: Money as a medium of exchange. Before money, exchange took place through the barter system, which required a double coincidence of wants — each party had to want what the other offered. Money solves this problem because it acts as an intermediate step in exchange, and is therefore called a medium of\n\nThe chapter is described as: Modern money, banks, credit terms, SHGs and debt traps.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA self-help group of 15 women saves Rs 100 per member every month. After a year the group has a bank account, and the bank agrees to lend it money.\n\n(a) How much has the group saved in a year?\n(b) Why is the bank willing to lend to the group?\n(c) How does the group reduce dependence on moneylenders?",
         "a": [
-          "(a) Modern money, banks, credit terms, SHGs and debt traps.",
-          "(b) –4 marks. The role of banks as mediators, the difference between formal and informal credit, and self-help groups are the set questions.",
-          "(c) Saying currency is accepted because it has intrinsic value. It is accepted because it is authorised by the government, and issued by the RBI."
+          "(a) 15 × Rs 100 × 12 = **Rs 18,000**.",
+          "(b) The group has a record of regular savings, meets regularly, takes decisions together and repays under group pressure, so the bank sees little risk. The loan is given in the name of the group.",
+          "(c) Members can borrow small amounts quickly at reasonable interest from the group’s pooled savings, so they need not go to moneylenders."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “Why is money called a medium of exchange?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nMeena deposits Rs 10,000 in her bank account and pays her landlord Rs 4,000 by writing a cheque.\n\n(a) Why can the deposit be used as money?\n(b) Is the cheque itself money? Explain.\n(c) Give one advantage of paying by cheque instead of cash.",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) Because it acts as an intermediate step in the exchange of goods and services. In a barter system, exchange requires a double coincidence of wants — each person must want what the other has. Money removes this difficulty: a person can sell his goods for money and use that money to buy whatever he wants, so it mediates between the two parties.",
-          "(c) Credit helps Salim and traps Swapna. Name both in any credit question and you have the whole argument."
+          "(a) The deposit can be withdrawn on demand, so it is a **demand deposit**, accepted along with currency as a means of payment.",
+          "(b) No. The cheque is only an instruction to the bank to pay; the money is the deposit, which moves from Meena’s account to the landlord’s.",
+          "(c) It is safer than carrying cash and lets large payments be made without handling notes."
         ]
       },
       {
@@ -681,12 +685,12 @@
         "a": "**(b)** — an asset the borrower owns, such as land, a vehicle, livestock or deposits, pledged until the loan is repaid."
       },
       {
-        "q": "The most exam-ready way to revise “Money and Credit” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Modern money, banks, credit terms, SHGs and debt traps."
+        "q": "Which of the following is a formal source of credit? (a) a commercial bank (b) a moneylender (c) a landlord (d) a relative or friend",
+        "a": "**(a) a commercial bank.** Formal sources are the banks and cooperatives, supervised by the Reserve Bank of India; moneylenders, landlords and relatives are informal."
       },
       {
-        "q": "A 3-mark answer on “Money and Credit” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Rupee notes are accepted as money in India mainly because: (a) the government authorises them as a medium of payment (b) they contain valuable metal (c) they can be exchanged for gold at any bank (d) they are printed on special paper",
+        "a": "**(a) the government authorises them as a medium of payment.** Currency has no intrinsic value; the law authorises it, and no one can refuse to accept it in settlement of a debt."
       },
       {
         "q": "Which of these is a function of the Reserve Bank of India? (a) accepting deposits from the public  (b) issuing currency notes  (c) lending directly to farmers  (d) selling insurance policies",
@@ -791,20 +795,21 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Globalisation and the Indian Economy” (MNCs, foreign trade, liberalisation, WTO and fair globalisation). A classmate lost marks by doing this: Saying liberalisation removes all government control. It removes barriers on trade and foreign investment, not all regulation. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student writes: “Liberalisation means the government has removed all control over the economy.” Correct the statement and name two measures taken after 1991.",
         "a": [
-          "Correct method: MNC = production in two or more countries besides the home country. That exact wording is a marked step.",
-          "Why the mistake costs marks: Saying liberalisation removes all government control. It removes barriers on trade and foreign investment, not all regulation.",
-          "Write the definition or formula first, then the working or example."
+          "Liberalisation means removing the **barriers and restrictions** the government had placed on foreign trade, foreign investment and many industries. The government still regulates areas such as labour, the environment and competition.",
+          "Measures after 1991: import taxes and quotas were reduced, and licensing of industries was largely removed.",
+          "Foreign companies were also allowed to invest more freely in India."
         ]
       },
       {
         "t": "A",
         "m": "3",
-        "q": "Amit is given this exam-style task from “Globalisation and the Indian Economy”: “What is a multinational corporation? How do MNCs spread their production?” Treat it as an application question. Identify the idea, then write the working in points.",
+        "q": "Explain how foreign trade connects markets, with an example, and how it affects consumers and producers.",
         "a": [
-          "Idea: MNCs, foreign trade, liberalisation, WTO and fair globalisation.",
-          "A multinational corporation is a corporation that owns or controls production of goods or services in two or more countries other than its home country. MNCs set up factories in regions where they can get cheap labour, resources and other factors of production, and they keep the large profits with themselves. They spread production by setting up new factories, by buying or acquiring a local company and expanding it, or by placing orders with small producers which are then sold under the MNC's brand name."
+          "Foreign trade lets producers sell in markets outside their own country and lets consumers buy goods produced elsewhere, so markets in different countries become linked.",
+          "Consumers gain a wider choice and often lower prices; for example, they can choose between an Indian-made and an imported television.",
+          "Producers face competition, which can push them to improve quality, but small producers who cannot match cheap imports may lose business."
         ]
       },
       {
@@ -821,21 +826,21 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Globalisation and the Indian Economy”. Their note says: What is globalisation? The integration of the economies of various countries of the world through the free movement of goods, services, capital and technology, and the free movement of labour. It is the result of a long historical process, but it has accelerated in the last three decades. Its two ma\n\nThe chapter is described as: MNCs, foreign trade, liberalisation, WTO and fair globalisation.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nA multinational company designs a smartphone in one country, makes its parts in three other countries, assembles it in a fourth and sells it all over the world.\n\n(a) How does the company spread its production?\n(b) Why does it choose countries with cheap labour and a large market?\n(c) How can small local firms gain from such a company?",
         "a": [
-          "(a) MNCs, foreign trade, liberalisation, WTO and fair globalisation.",
-          "(b) –5 marks. MNCs and how they control production, and liberalisation with its effects on workers and small producers, are the set questions.",
-          "(c) Saying liberalisation removes all government control. It removes barriers on trade and foreign investment, not all regulation."
+          "(a) It owns or controls production in many countries and places each stage where it is cheapest or most convenient.",
+          "(b) Cheap labour lowers its costs, and a large market gives it many buyers, so profits rise.",
+          "(c) Local firms can become suppliers of parts, raw materials or services and earn from the company’s large orders."
         ]
       },
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nTwo students attempt: “What is a multinational corporation? How do MNCs spread their production?” Student A writes one line. Student B writes points, an example and a check.\n\n(a) Which answer frame should you use for full marks?\n(b) Write the model points.\n(c) Add one memory trick you would use on exam morning.",
+        "q": "Read and answer:\n\nA developing country has removed its barriers to farm imports, as trade rules require. Rich countries, however, continue to give large subsidies to their own farmers.\n\n(a) What is a trade barrier? Give one example.\n(b) Why do the developing country’s farmers lose out?\n(c) Which organisation sets the rules of trade among countries?",
         "a": [
-          "(a) Statement → working or reasons in points → example or check. One-line answers lose step marks.",
-          "(b) A multinational corporation is a corporation that owns or controls production of goods or services in two or more countries other than its home country. MNCs set up factories in regions where they can get cheap labour, resources and other factors of production, and they keep the large profits with themselves. They spread production by setting up new factories, by buying or acquiring a local company and expanding it, or by placing orders with small producers which are then sold under the MNC's br",
-          "(c) MNC = production in two or more countries besides the home country. That exact wording is a marked step."
+          "(a) A restriction on trade set by a government, for example a **tax on imports** or a limit (quota) on the quantity imported.",
+          "(b) Subsidised farm goods from rich countries are cheap, so they undercut local farmers who receive no such help.",
+          "(c) The **World Trade Organization (WTO)**, which began in 1995."
         ]
       },
       {
@@ -886,12 +891,12 @@
         "a": "**(b) Tata Motors** — Indian companies have themselves become multinationals by acquiring foreign companies."
       },
       {
-        "q": "The most exam-ready way to revise “Globalisation and the Indian Economy” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is MNCs, foreign trade, liberalisation, WTO and fair globalisation."
+        "q": "A tax on imports is an example of a: (a) subsidy (b) foreign investment (c) trade barrier (d) special economic zone",
+        "a": "**(c) trade barrier.** Governments tax imports to make foreign goods costlier and so restrict foreign trade; liberalisation reduced such barriers."
       },
       {
-        "q": "A 3-mark answer on “Globalisation and the Indian Economy” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "Special Economic Zones are set up by the government mainly to: (a) ban imports of all goods (b) provide free food to poor people (c) attract foreign investment by offering world-class facilities (d) protect small producers from competition",
+        "a": "**(c) attract foreign investment by offering world-class facilities.** SEZs offer good roads, power and water, and tax concessions, so that companies, including foreign ones, will produce there."
       },
       {
         "q": "The World Trade Organization was established in: (a) 1947  (b) 1995  (c) 2000  (d) 1991",

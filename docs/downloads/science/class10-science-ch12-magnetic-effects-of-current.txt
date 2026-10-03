@@ -39,16 +39,17 @@ Q6. [Short · 3 marks] What is electromagnetic induction? Describe an activity t
       Activity: connect a galvanometer to a coil. Push a bar magnet's north pole into the coil and the galvanometer needle deflects momentarily in one direction; pull it out and it deflects in the opposite direction; hold it still inside and there is no deflection.
       The deflection shows that a current is induced only when the magnetic flux through the coil is changing, i.e. only while the magnet is in relative motion.
 
-Q7. [Application · 3 marks] Riya is revising “Magnetic Effects of Electric Current” (Field patterns, the three hand rules, the motor and the generator). A classmate lost marks by doing this: Saying field lines run from south to north outside a magnet. Outside it is north to south. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student draws the field lines of a bar magnet as coming out of the south pole and entering the north pole outside the magnet. Correct the statement and state two properties of magnetic field lines.
     Ans:
-      Correct method: Left hand = Motor, Right hand = Generator. 'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.
-      Why the mistake costs marks: Saying field lines run from south to north outside a magnet. Outside it is north to south.
-      Write the definition or formula first, then the working or example.
+      Outside the magnet, field lines run from the north pole to the south pole; inside the magnet they run from south to north, so each line is a closed loop.
+      Property 1: the lines are closed curves that never cross one another.
+      Property 2: the field is strongest where the lines are closest together, i.e. near the poles.
 
-Q8. [Application · 3 marks] Amit is given this exam-style task from “Magnetic Effects of Electric Current”: “State Fleming's right-hand rule.” Treat it as an application question. Identify the idea, then write the working in points.
+Q8. [Application · 3 marks] A coil of wire is connected to a galvanometer. When a bar magnet is pushed into the coil, the needle deflects. What happens (i) when the magnet is held still inside the coil, (ii) when it is pulled out, and (iii) how can the deflection be increased?
     Ans:
-      Idea: Field patterns, the three hand rules, the motor and the generator.
-      Stretch the thumb, forefinger and middle finger of the right hand so that they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the thumb in the direction of motion of the conductor, the middle finger gives the direction of the induced current.
+      (i) No deflection: a current is induced only while the magnetic field linked with the coil is changing.
+      (ii) The needle deflects in the opposite direction, because the change in the field is reversed.
+      (iii) Move the magnet faster, use a stronger magnet or use a coil with more turns. This is electromagnetic induction.
 
 Q9. [Short · 3 marks] How does the strength of the magnetic field at the centre of a current-carrying circular coil depend on the current, the number of turns and the radius of the coil?
     Ans:
@@ -58,29 +59,27 @@ Q9. [Short · 3 marks] How does the strength of the magnetic field at the centre
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Magnetic Effects of Electric Current”. Their note says: Magnetic field and field lines. A magnetic field is the region around a magnet in which its force can be detected. Field lines are closed continuous curves — outside a bar magnet they run from the north to the south pole and inside from south to north. Two field lines never intersect (that would mea
+    A student winds insulated copper wire round an iron nail and connects the ends to a battery. The nail picks up small iron pins, but drops them when the battery is disconnected.
     
-    The chapter is described as: Field patterns, the three hand rules, the motor and the generator.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Name this device.
+    (b) Why does it hold the pins only while the current flows?
+    (c) State two ways to make it stronger.
     Ans:
-      (a) Field patterns, the three hand rules, the motor and the generator.
-      (b) –3 marks. Fleming's left-hand and right-hand rules and the difference between AC and DC are asked repeatedly.
-      (c) Saying field lines run from south to north outside a magnet. Outside it is north to south.
+      (a) An electromagnet (a solenoid with a soft iron core).
+      (b) The current-carrying coil magnetises the iron core; soft iron loses its magnetism as soon as the current stops, so the pins fall.
+      (c) Increase the number of turns of the coil, or increase the current (a soft iron core also strengthens it).
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “State Fleming's right-hand rule.” Student A writes one line. Student B writes points, an example and a check.
+    A socket in a house is protected by a 5 A fuse, and the supply is 220 V.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Find the current drawn by a 1 kW heater.
+    (b) Will the fuse blow if a 2 kW geyser is plugged in instead? Justify.
+    (c) State the purpose of the fuse and of the earth wire.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Stretch the thumb, forefinger and middle finger of the right hand so that they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the thumb in the direction of motion of the conductor, the middle finger gives the direction of the induced current.
-      (c) Left hand = Motor, Right hand = Generator. 'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.
+      (a) I = P/V = 1000/220 ≈ 4.5 A, which is below 5 A.
+      (b) For the geyser, I = 2000/220 ≈ 9.1 A, which is above 5 A, so the fuse wire heats up, melts and breaks the circuit.
+      (c) The fuse protects appliances and wiring from overloading and short circuits. The earth wire joins the metal body of an appliance to the ground, so any leakage current flows to earth and does not give a shock.
 
 Q12. [Application · 4 marks] Explain the working of an electric generator, including the role of slip rings and the commutator.
     Ans:
@@ -96,12 +95,13 @@ Q13. [Long · 5 marks] Describe a domestic electric circuit and explain the func
       Earth wire: the metallic body of an appliance is connected to a metal plate buried in the earth, so if the live wire touches the body the leakage current flows safely into the ground instead of through a person — preventing a fatal shock.
       Fuse: a short piece of wire of low melting point connected in series with the appliance. If the current exceeds the safe value, the fuse wire melts and breaks the circuit, protecting the appliance from damage due to overloading or short circuiting.
 
-Q14. [Long · 5 marks] Discuss “Magnetic Effects of Electric Current” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q14. [Long · 5 marks] Describe the magnetic field produced by a current-carrying solenoid and explain how an electromagnet is made from it.
     Ans:
-      Magnetic field and field lines. A magnetic field is the region around a magnet in which its force can be detected. Field lines are closed continuous curves — outside a bar magnet they run from the north to the south pole and inside from south to north. Two field lines never intersect (that would mean two directions of force at one point). The relative strength is shown by how close the lines are.
-      Marks lens: –3 marks. Fleming's left-hand and right-hand rules and the difference between AC and DC are asked repeatedly.
-      Method / memory trick: Left hand = Motor, Right hand = Generator. 'M' for motor and 'M' is in the word 'Motion' — but remember: the left hand has the thumb as Force, so Motor = Left.
-      Do not: Saying field lines run from south to north outside a magnet. Outside it is north to south.
+      A solenoid is a coil of many closely wound circular turns of insulated copper wire.
+      The field lines inside the solenoid are parallel straight lines, so the field there is uniform; outside, the pattern is like that of a bar magnet.
+      One end of the solenoid behaves as a north pole and the other as a south pole.
+      If a piece of soft iron is placed inside the coil, the strong field magnetises it, and the combination is an electromagnet.
+      It is a temporary magnet: it is magnetised only while the current flows. It is used in cranes for lifting iron, in electric bells and in MRI machines.
 
 B. MCQs (11)
 ------------------------------------------------------------------------
@@ -115,11 +115,11 @@ M2. The essential difference between an AC generator and a DC generator is: (a) 
 M3. The frequency of AC supply in India is 50 Hz. The direction of the current changes: (a) 50 times per second (b) 100 times per second (c) 25 times per second (d) 200 times per second
     Ans: (b) 100 times per second — the direction reverses twice in each cycle.
 
-M4. The most exam-ready way to revise “Magnetic Effects of Electric Current” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Field patterns, the three hand rules, the motor and the generator.
+M4. Outside a bar magnet, the magnetic field lines run: (a) from the south pole to the north pole  (b) in straight lines parallel to the axis only  (c) from the centre to both poles  (d) from the north pole to the south pole
+    Ans: (d) from the north pole to the south pole. By convention the field lines emerge from the north pole and enter the south pole outside the magnet, and continue from south to north inside it.
 
-M5. A 3-mark answer on “Magnetic Effects of Electric Current” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. A straight conductor carrying current is placed in a magnetic field. The force on it is greatest when the current is: (a) parallel to the field  (b) at 45° to the field  (c) zero  (d) perpendicular to the field
+    Ans: (d) perpendicular to the field. The force F = BIl sin θ is maximum at θ = 90°, and zero when the conductor is parallel to the field.
 
 M6. The magnetic field lines inside a long current-carrying solenoid are: (a) concentric circles  (b) parallel straight lines  (c) diverging curves  (d) absent
     Ans: (b) parallel straight lines. The field inside a solenoid is nearly uniform, like the field inside a bar magnet.

@@ -32,11 +32,11 @@ Q5. [Application · 3 marks] A shop wants profit of ₹8,000. Profit is =B2*B3-B
       Goal Seek works backwards: instead of asking what the profit is, it asks what input would produce the profit you want, and it tries values until the formula cell reaches 8000.
       Only one input cell can be changed, so the quantity and the cost must stay fixed while the price is adjusted.
 
-Q6. [Application · 3 marks] Riya is revising “Scenarios and Goal Seek (Calc)” (Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver). A classmate lost marks by doing this: Mixing up Goal Seek (one input) with Solver (many inputs + constraints). Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student tries to use Goal Seek to find the best mix of three products under limits on labour hours and material, and Calc cannot do it. What is wrong, and which tool should she use?
     Ans:
-      Correct method: Goal Seek needs a formula in the set cell. Typing a number there will fail.
-      Why the mistake costs marks: Mixing up Goal Seek (one input) with Solver (many inputs + constraints).
-      Write the definition or formula first, then the working or example.
+      Goal Seek changes one input cell until one formula cell reaches a target value.
+      Finding the best mix of several variables under limits (constraints) needs Solver.
+      So she should use Solver, setting the target cell, the variable cells and the constraints.
 
 Q7. [Short · 3 marks] Describe how to use Goal Seek in Calc, with an example.
     Ans:
@@ -68,24 +68,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Scenarios and Goal Seek (Calc)”. Their note says: Consolidate: Data → Consolidate. Combines the same layout from several sheets (e.g. four term marks) using Sum/Average. Tick “Link to source data” to auto-update.
+    A school fest committee plans ticket sales in three situations. Best case: price Rs 100, 500 tickets. Normal case: Rs 80, 400 tickets. Worst case: Rs 60, 250 tickets. Revenue = price × tickets.
     
-    The chapter is described as: Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Find the revenue in each case.
+    (b) Which Calc feature stores the three sets of inputs?
+    (c) Why should each be given a name?
     Ans:
-      (a) Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.
-      (b) Goal Seek and Scenarios are the theory + practical pair.
-      (c) Mixing up Goal Seek (one input) with Solver (many inputs + constraints).
+      (a) Best: 100 × 500 = Rs 50,000; Normal: 80 × 400 = Rs 32,000; Worst: 60 × 250 = Rs 15,000.
+      (b) Scenarios: each is a named set of input values that can be shown on the sheet.
+      (c) The names let the committee switch between the cases quickly and see how the output changes.
 
-Q12. [Long · 5 marks] Discuss “Scenarios and Goal Seek (Calc)” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] A teacher has the marks of 30 students with columns Name, Section and Marks. Describe how to use Subtotals to get the average marks of each section.
     Ans:
-      Consolidate: Data → Consolidate. Combines the same layout from several sheets (e.g. four term marks) using Sum/Average. Tick “Link to source data” to auto-update.
-      Marks lens: Goal Seek and Scenarios are the theory + practical pair.
-      Method / memory trick: Goal Seek needs a formula in the set cell. Typing a number there will fail.
-      Do not: Mixing up Goal Seek (one input) with Solver (many inputs + constraints).
+      Step 1: sort the data by the Section column (Data → Sort), so that students of one section are together.
+      Step 2: select the data range and choose Data → Subtotals.
+      Step 3: on the “1st Group” tab, group by Section, tick Marks under “Calculate subtotals for” and choose the function Average.
+      Step 4: click OK; a subtotal row appears after each section, and the outline buttons at the left show or hide the details.
+      Sorting first is essential: if the section values are not together, Subtotals gives wrong groups.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -102,11 +101,11 @@ M3. A named best-case / worst-case set of inputs is a: (a) style (b) scenario (c
 M4. Consolidate is best when data is: (a) on several similar sheets (b) a single cell (c) an image (d) a Writer ToC
     Ans: (a).
 
-M5. The most exam-ready way to revise “Scenarios and Goal Seek (Calc)” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Data consolidation, subtotals, what-if scenarios, Goal Seek and Solver.
+M5. Solver is used when a problem has: (a) many variables and constraints (b) only one input to change (c) only text data (d) no formulas
+    Ans: (a) many variables and constraints. Goal Seek handles one variable; Solver can handle several variables with limits.
 
-M6. A 3-mark answer on “Scenarios and Goal Seek (Calc)” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. Which of the following is a what-if analysis tool in Calc? (a) Spell check (b) Print preview (c) Goal Seek (d) Freeze rows
+    Ans: (c) Goal Seek. What-if tools change inputs to see the effect on a result; Scenarios, Goal Seek and Solver are the three studied.
 
 M7. Subtotals in Calc are created from: (a) Data → Subtotals  (b) Tools → Subtotals  (c) Insert → Subtotals  (d) Format → Subtotals
     Ans: (a) Data → Subtotals. Calc groups the rows and inserts the subtotal formula for you.

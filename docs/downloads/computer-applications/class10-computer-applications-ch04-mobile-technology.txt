@@ -29,16 +29,18 @@ Q4. [Short · 2 marks] What does 4G mean and how is it better than 3G?
 Q5. [Short · 3 marks] Compare 3G, 4G and 5G.
     Ans: 3G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures.
 
-Q6. [Application · 3 marks] Riya is revising “Mobile & Wireless Technology” (Generations from 1G to 5G, plus the short-range wireless around you). A classmate lost marks by doing this: Saying 4G is faster only — it is also all-IP, which is the point. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student writes: “4G is simply a faster version of 3G.” Correct the statement.
     Ans:
-      Correct method: 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations.
-      Why the mistake costs marks: Saying 4G is faster only — it is also all-IP, which is the point.
-      Write the definition or formula first, then the working or example.
+      4G is faster, but speed is not the main change.
+      The key difference is that 4G is all-IP: both voice and data travel as packets over an IP network, while earlier generations carried voice separately.
+      This is what makes HD video streaming, video calls and mobile gaming practical on a phone.
 
-Q7. [Application · 3 marks] Amit is given this exam-style task from “Mobile & Wireless Technology”: “Compare 3G, 4G and 5G.” Treat it as an application question. Identify the idea, then write the working in points.
+Q7. [Application · 3 marks] Choose the most suitable wireless technology and justify it: (i) paying at a shop by tapping a phone, (ii) sending photos to a friend sitting next to you, (iii) changing channels with a TV remote, (iv) joining a laptop to home broadband without a cable.
     Ans:
-      Idea: Generations from 1G to 5G, plus the short-range wireless around you.
-      G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures.
+      (i) NFC: it works only at a few centimetres, which is safe for payments.
+      (ii) Bluetooth: a short-range link of a few metres that needs no router.
+      (iii) Infrared: a cheap short-range signal that needs a clear line of sight to the TV.
+      (iv) Wi-Fi: a wireless local network that gives broadband-speed access through a router.
 
 Q8. [Short · 3 marks] Name four short-range wireless technologies and give one use of each.
     Ans:
@@ -55,36 +57,35 @@ Q9. [Short · 3 marks] Why is 5G described as ‘for machines’ rather than jus
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Mobile & Wireless Technology”. Their note says: Mobile generations. 1G was analog and voice-only. 2G went digital and added SMS and basic data through GPRS. 3G made mobile internet genuinely usable — video calls and browsing at a few Mbps. 4G/LTE is all-IP and built for data, giving tens of Mbps and making video streaming normal. 5G targets speed
+    A phone’s specification sheet lists: 5G, Wi-Fi 6, Bluetooth 5.3, NFC and an infrared blaster.
     
-    The chapter is described as: Generations from 1G to 5G, plus the short-range wireless around you.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which of these has the shortest range?
+    (b) Which one needs line of sight?
+    (c) Which one connects the phone to the mobile operator’s towers?
     Ans:
-      (a) Generations from 1G to 5G, plus the short-range wireless around you.
-      (b) Compare generations, name short-range technologies and their uses.
-      (c) Saying 4G is faster only — it is also all-IP, which is the point.
+      (a) NFC, which works over only a few centimetres.
+      (b) Infrared, because it cannot pass around obstacles, unlike Bluetooth and Wi-Fi.
+      (c) 5G, the cellular technology.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “Compare 3G, 4G and 5G.” Student A writes one line. Student B writes points, an example and a check.
+    A village gets a mobile tower and each family buys a SIM card.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) What is a SIM card for?
+    (b) What does the tower do?
+    (c) What is a “cell”?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) G made mobile internet practical, offering speeds up to about 2 Mbps, which allowed video calling and basic browsing. 4G (LTE) is an all-IP network designed around data rather than voice, reaching around 100 Mbps and making HD video streaming and VoIP everyday features. 5G targets up to 20 Gbps with latency below one millisecond; its real significance is not faster phones but support for massive numbers of connected devices — IoT sensors, autonomous vehicles and remote medical procedures.
-      (c) 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations.
+      (a) It identifies the subscriber to the network and stores the phone number and security details.
+      (b) The tower (base station) sends and receives radio signals to and from the phones around it and connects them to the rest of the network.
+      (c) The area covered by one tower; a mobile network is divided into many such cells, and when a user moves from one to the next, the call is handed over.
 
-Q12. [Long · 5 marks] Discuss “Mobile & Wireless Technology” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Trace the evolution of mobile technology from 1G to 5G, stating the main improvement at each step.
     Ans:
-      Mobile generations. 1G was analog and voice-only. 2G went digital and added SMS and basic data through GPRS. 3G made mobile internet genuinely usable — video calls and browsing at a few Mbps. 4G/LTE is all-IP and built for data, giving tens of Mbps and making video streaming normal. 5G targets speeds up to around 20 Gbps with latency under a millisecond, which is what makes remote surgery, autonomous vehicles and den.
-      Marks lens: Compare generations, name short-range technologies and their uses.
-      Method / memory trick: 1 voice → 2 text → 3 web → 4 video → 5 machines. Five words for five generations.
-      Do not: Saying 4G is faster only — it is also all-IP, which is the point.
+      1G: analogue voice calls only, with poor quality and no security.
+      2G: digital voice with SMS and better call quality.
+      3G: mobile internet and the first practical video calls.
+      4G: high speed on an all-IP network, which made HD streaming and mobile apps routine.
+      5G: very high speed, very low delay and the ability to connect huge numbers of devices, which suits the Internet of Things.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -101,11 +102,11 @@ M3. Which standard family defines Wi-Fi? (a) IEEE 802.3 (b) IEEE 802.11 (c) IEEE
 M4. 4G networks are described as — (a) analog (b) circuit-switched (c) all-IP (d) infrared-based
     Ans: (c) all-IP.
 
-M5. The most exam-ready way to revise “Mobile & Wireless Technology” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Generations from 1G to 5G, plus the short-range wireless around you.
+M5. Which generation of mobile technology first introduced digital voice and SMS? (a) 2G (b) 1G (c) 3G (d) 4G
+    Ans: (a) 2G. 1G was analogue; 2G made voice digital and added text messaging.
 
-M6. A 3-mark answer on “Mobile & Wireless Technology” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. The technology used when a phone is tapped on a terminal to make a contactless payment is: (a) infrared (b) GPS (c) NFC (d) satellite link
+    Ans: (c) NFC. Near Field Communication works over a few centimetres, which is why it is used for payments.
 
 M7. The generation of mobile technology that first made mobile internet practical was: (a) 3G  (b) 1G  (c) 2G  (d) 5G
     Ans: (a) 3G. 1G was analogue voice, 2G added digital voice and SMS, and 5G is the current high-speed standard.

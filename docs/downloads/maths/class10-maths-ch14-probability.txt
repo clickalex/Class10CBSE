@@ -40,16 +40,17 @@ Q6. [Short · 3 marks] A card is drawn at random from a well-shuffled deck. Find
       (ii) Red cards are 26, of which 2 are kings. Neither a king nor red means a black card that is not a king: 26 − 2 = 24.
       P = 24/52 = 6/13.
 
-Q7. [Application · 3 marks] Riya is revising “Probability” (Classical probability, complementary events, dice, cards and coins). A classmate lost marks by doing this: Forgetting that a die has 6 outcomes, not 6 faces times something — and that two dice have 36, not 12. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student says, “Two dice are thrown, so there are 6 + 6 = 12 outcomes and P(sum = 7) = 6/12 = 1/2.” Find the error and give the correct probability.
     Ans:
-      Correct method: Always write the total number of outcomes first. Half of all probability errors are wrong totals, not wrong favourable counts.
-      Why the mistake costs marks: Forgetting that a die has 6 outcomes, not 6 faces times something — and that two dice have 36, not 12.
-      Write the definition or formula first, then the working or example.
+      Error: each die has 6 outcomes, so two dice have 6 × 6 = 36 outcomes, not 12.
+      Favourable outcomes for a sum of 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — 6 outcomes.
+      P(sum = 7) = 6/36 = 1/6.
 
-Q8. [Application · 3 marks] Amit is given this exam-style task from “Probability”: “A card is drawn from a well-shuffled deck. What is the probability that it is a red king?” Treat it as an application question. Identify the idea, then write the working in points.
+Q8. [Application · 3 marks] A die has the letters A, B, C, D, E, A on its six faces. It is thrown once. Find the probability of getting (i) the letter A and (ii) the letter D.
     Ans:
-      Idea: Classical probability, complementary events, dice, cards and coins.
-      There are 2 red kings, so P = 2/52 = 1/26.
+      There are 6 equally likely outcomes.
+      (i) The letter A appears on 2 faces, so P(A) = 2/6 = 1/3.
+      (ii) The letter D appears on 1 face, so P(D) = 1/6.
 
 Q9. [Short · 3 marks] Two coins are tossed together. Find the probability of getting (i) two heads, (ii) at least one tail, (iii) at most one head.
     Ans:
@@ -60,29 +61,27 @@ Q9. [Short · 3 marks] Two coins are tossed together. Find the probability of ge
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Probability”. Their note says: Classical definition. P(E) = (number of outcomes favourable to E) / (total number of possible outcomes), assuming all outcomes are equally likely.
+    A bag contains 5 red, 8 white and 7 black balls. One ball is drawn at random.
     
-    The chapter is described as: Classical probability, complementary events, dice, cards and coins.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Find the probability that it is red.
+    (b) Find the probability that it is not white.
+    (c) Find the probability that it is black or white.
     Ans:
-      (a) Classical probability, complementary events, dice, cards and coins.
-      (b) The remaining 3–4 marks of the 11-mark unit.
-      (c) Forgetting that a die has 6 outcomes, not 6 faces times something — and that two dice have 36, not 12.
+      (a) Total balls = 20, so P(red) = 5/20 = 1/4.
+      (b) P(not white) = 1 − 8/20 = 12/20 = 3/5.
+      (c) P(black or white) = (7 + 8)/20 = 15/20 = 3/4.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “A card is drawn from a well-shuffled deck. What is the probability that it is a red king?” Student A writes one line. Student B writes points, an example and a check.
+    In a school raffle, 200 tickets numbered 1 to 200 are sold and one ticket is drawn at random.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) What is the probability that the number is a multiple of 10?
+    (b) What is the probability that it is a perfect square?
+    (c) What is the probability that it is not a multiple of 5?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) There are 2 red kings, so P = 2/52 = 1/26.
-      (c) Always write the total number of outcomes first. Half of all probability errors are wrong totals, not wrong favourable counts.
+      (a) Multiples of 10 up to 200: 20, so P = 20/200 = 1/10.
+      (b) Perfect squares up to 200: 1², 2², …, 14² (14² = 196), so 14 of them and P = 14/200 = 7/100.
+      (c) Multiples of 5: 40, so P(not a multiple of 5) = 1 − 40/200 = 4/5.
 
 Q12. [Application · 4 marks] A box contains 90 discs numbered 1 to 90. One disc is drawn at random. Find the probability that it bears (i) a two-digit number, (ii) a number divisible by 5, (iii) a perfect square number.
     Ans:
@@ -90,12 +89,13 @@ Q12. [Application · 4 marks] A box contains 90 discs numbered 1 to 90. One disc
       (ii) Multiples of 5 from 5 to 90: 18 numbers, so P = 18/90 = 1/5.
       (iii) Perfect squares: 1, 4, 9, 16, 25, 36, 49, 64, 81 — nine numbers, so P = 9/90 = 1/10.
 
-Q13. [Long · 5 marks] Discuss “Probability” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q13. [Long · 5 marks] Two dice are thrown together. Find the probability that (i) the sum is less than 5, (ii) the product of the numbers is 12, (iii) a doublet is obtained, (iv) the sum is a prime number.
     Ans:
-      Classical definition. P(E) = (number of outcomes favourable to E) / (total number of possible outcomes), assuming all outcomes are equally likely.
-      Marks lens: The remaining 3–4 marks of the 11-mark unit.
-      Method / memory trick: Always write the total number of outcomes first. Half of all probability errors are wrong totals, not wrong favourable counts.
-      Do not: Forgetting that a die has 6 outcomes, not 6 faces times something — and that two dice have 36, not 12.
+      The sample space has 6 × 6 = 36 equally likely outcomes.
+      (i) Sum 2, 3 or 4: 1 + 2 + 3 = 6 outcomes, so P = 6/36 = 1/6.
+      (ii) Product 12: (2,6), (3,4), (4,3), (6,2) — 4 outcomes, so P = 4/36 = 1/9.
+      (iii) Doublets (1,1) … (6,6): 6 outcomes, so P = 6/36 = 1/6.
+      (iv) Prime sums 2, 3, 5, 7, 11 occur 1 + 2 + 4 + 6 + 2 = 15 times, so P = 15/36 = 5/12.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -109,11 +109,11 @@ M2. Two dice are thrown together. The total number of outcomes is: (a) 6  (b) 12
 M3. The number of face cards in a deck of 52 cards is: (a) 8  (b) 12  (c) 16  (d) 4
     Ans: (b) 12. Jacks, queens and kings of four suits.
 
-M4. The most exam-ready way to revise “Probability” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Classical probability, complementary events, dice, cards and coins.
+M4. A bag has 4 red and 6 blue balls. The probability that a ball drawn at random is not red is: (a) 2/5  (b) 3/5  (c) 4/6  (d) 1/6
+    Ans: (b) 3/5. Blue balls = 6 out of 10, so P(not red) = 6/10 = 3/5.
 
-M5. A 3-mark answer on “Probability” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. The probability of getting an even prime number in one throw of a die is: (a) 1/2  (b) 1/3  (c) 0  (d) 1/6
+    Ans: (d) 1/6. The only even prime is 2, which is one of the six equally likely outcomes.
 
 M6. In one throw of a die, the probability of getting a number less than 7 is: (a) 0  (b) 1/6  (c) 5/6  (d) 1
     Ans: (d) 1. Every outcome 1–6 is less than 7, so it is a sure event.

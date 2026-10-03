@@ -29,11 +29,11 @@ Q4. [Short · 2 marks] What is a foreign key? Explain with a Student–Library e
 Q5. [Application · 3 marks] A school stores students in one sheet with teacher phone numbers typed against every student. Two problems, and the DBMS idea that fixes them.
     Ans: Redundancy (phone typed 40 times) and inconsistency (one row has the old number). Split into Student and Teacher tables with a foreign key.
 
-Q6. [Application · 3 marks] Riya is revising “Introduction to DBMS” (Data vs information, database, DBMS advantages, keys and types of database). A classmate lost marks by doing this: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student writes: “Calc is the DBMS we use in this course.” Correct this and give one reason why a DBMS suits large, related data better than a spreadsheet.
     Ans:
-      Correct method: Primary key = unique + not empty. Roll number works; student name does not.
-      Why the mistake costs marks: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course.
-      Write the definition or formula first, then the working or example.
+      Calc is a spreadsheet. The DBMS used in this course is LibreOffice Base.
+      A spreadsheet keeps everything in one table, so data such as a teacher’s phone number is repeated against every student.
+      A DBMS keeps data in related tables linked by keys, which reduces repetition and errors and keeps the data consistent.
 
 Q7. [Short · 3 marks] List any four advantages of a DBMS over a simple file system.
     Ans:
@@ -65,24 +65,23 @@ Q10. [Competency · 4 marks] Read and answer:
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Introduction to DBMS”. Their note says: Data are raw facts (Ravi, 78). Information is processed, useful data (“Ravi scored 78 in IT”).
+    A library keeps three tables: Book (BookID, Title), Member (MemberID, Name) and Issue (IssueID, BookID, MemberID, IssueDate).
     
-    The chapter is described as: Data vs information, database, DBMS advantages, keys and types of database.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which field is the primary key of each table?
+    (b) Which fields in Issue are foreign keys?
+    (c) Why is a separate Issue table used?
     Ans:
-      (a) Data vs information, database, DBMS advantages, keys and types of database.
-      (b) Data vs information, advantages of DBMS, primary key — the opening trio.
-      (c) Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course.
+      (a) BookID in Book, MemberID in Member and IssueID in Issue.
+      (b) BookID and MemberID, because they refer to the primary keys of Book and Member.
+      (c) Many members issue many books, so each issue is recorded as a row in Issue instead of repeating book or member details.
 
-Q12. [Long · 5 marks] Discuss “Introduction to DBMS” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] Compare a flat-file database and a relational database on five points.
     Ans:
-      Data are raw facts (Ravi, 78). Information is processed, useful data (“Ravi scored 78 in IT”).
-      Marks lens: Data vs information, advantages of DBMS, primary key — the opening trio.
-      Method / memory trick: Primary key = unique + not empty. Roll number works; student name does not.
-      Do not: Calling Calc a DBMS. Calc is a spreadsheet; Base is the DBMS in this course.
+      Structure: a flat file is a single table, as in a Calc sheet; a relational database has several related tables, as in Base.
+      Repetition: a flat file repeats data (for example teacher details against each student); a relational database stores each fact once.
+      Updating: a change in a flat file must be made in many rows; in a relational database it is made in one place.
+      Links: a flat file has no relationships; a relational database joins tables through primary and foreign keys.
+      Use: a flat file suits small, simple lists; a relational database suits large data with many connected items.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -99,11 +98,11 @@ M3. A good primary key for books is: (a) Title (b) Author (c) ISBN (d) Colour
 M4. A foreign key: (a) deletes the database (b) refers to a primary key in another table (c) is always a picture (d) is a macro
     Ans: (b).
 
-M5. The most exam-ready way to revise “Introduction to DBMS” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is Data vs information, database, DBMS advantages, keys and types of database.
+M5. Which of the following is a DBMS? (a) LibreOffice Calc (b) LibreOffice Writer (c) LibreOffice Base (d) LibreOffice Impress
+    Ans: (c) LibreOffice Base. Base is the database program; Calc is a spreadsheet, Writer a word processor and Impress a presentation program.
 
-M6. A 3-mark answer on “Introduction to DBMS” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M6. A field that uniquely identifies each record in a table is called the: (a) foreign key (b) alias (c) query (d) primary key
+    Ans: (d) primary key. A primary key has a different value in every record, so that no two records can be confused.
 
 M7. The field that uniquely identifies each record in a table is the: (a) primary key  (b) foreign key  (c) index  (d) alias
     Ans: (a) primary key. It must be unique and cannot be empty.

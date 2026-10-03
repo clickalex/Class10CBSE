@@ -67,11 +67,12 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Health, Safety and Security at the Workplace” (Hazards, occupational health, electrical and fire safety, security of data). A classmate lost marks by doing this: Writing “be careful” with no concrete precaution. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student answers “Be careful with electricity” to the question “State three electrical safety precautions in a computer lab”. Why will this score no marks? Give three concrete precautions.",
         "a": [
-          "Correct method: Water on an electrical fire is the classic wrong answer.",
-          "Why the mistake costs marks: Writing “be careful” with no concrete precaution.",
-          "Write the definition or formula first, then the working or example."
+          "The answer is vague. A precaution must name a **specific action** that prevents harm.",
+          "Precaution 1: never touch plugs or switches with wet hands, and keep liquids away from the computers.",
+          "Precaution 2: report damaged cables and loose sockets at once, and do not overload a socket with many plugs.",
+          "(Another: switch off and unplug the equipment before cleaning or repairing it.)"
         ]
       },
       {
@@ -115,22 +116,23 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Health, Safety and Security at the Workplace”. Their note says: Hazard = anything that can cause harm. Risk = chance that the harm will occur.\n\nThe chapter is described as: Hazards, occupational health, electrical and fire safety, security of data.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nIn a computer lab, two exits are blocked by boxes, the fire extinguisher is past its expiry date and a printer cable lies across the walkway.\n\n(a) Identify the three hazards.\n(b) Name the type of risk each creates.\n(c) State one corrective action for each.",
         "a": [
-          "(a) Hazards, occupational health, electrical and fire safety, security of data.",
-          "(b) marks with the rest of Unit 4. Hazard types + two precautions each.",
-          "(c) Writing “be careful” with no concrete precaution."
+          "(a) The blocked exits, the expired extinguisher and the loose cable.",
+          "(b) Blocked exits risk people being trapped in an emergency; the expired extinguisher risks a small fire spreading; the cable risks a fall (a tripping hazard).",
+          "(c) Clear the exits and keep them free; replace or recharge the extinguisher; tape the cable down or reroute it along the wall."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Health, Safety and Security at the Workplace” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "Name four types of fire extinguisher and say which one should be used on an electrical fire in a computer lab. State the PASS steps for using an extinguisher.",
         "a": [
-          "Hazard = anything that can cause harm. Risk = chance that the harm will occur.",
-          "Marks lens: marks with the rest of Unit 4. Hazard types + two precautions each.",
-          "Method / memory trick: Water on an electrical fire is the classic wrong answer.",
-          "Do not: Writing “be careful” with no concrete precaution."
+          "Types: water, foam, dry powder and carbon dioxide (CO₂).",
+          "Water and foam must **not** be used on an electrical fire, because they conduct electricity and can cause a shock or damage the equipment.",
+          "For computers, a **CO₂** extinguisher is best because it leaves no residue; dry powder also works but can harm the electronics.",
+          "PASS: **P**ull the pin; **A**im the nozzle at the base of the fire; **S**queeze the handle; **S**weep from side to side.",
+          "Also switch off the mains supply if it is safe, and raise the alarm."
         ]
       }
     ],
@@ -152,12 +154,12 @@
         "a": "**(b) data security.**"
       },
       {
-        "q": "The most exam-ready way to revise “Health, Safety and Security at the Workplace” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Hazards, occupational health, electrical and fire safety, security of data."
+        "q": "For an electrical fire in a computer lab, the most suitable extinguisher is: (a) water (b) carbon dioxide (CO₂) (c) foam (d) a bucket of sand and water",
+        "a": "**(b) carbon dioxide (CO₂).** CO₂ does not conduct electricity and leaves no residue on the equipment."
       },
       {
-        "q": "A 3-mark answer on “Health, Safety and Security at the Workplace” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "On seeing a damaged electrical cable in the lab, the first thing to do is to: (a) touch it to check whether it is live (b) wrap it with a wet cloth (c) keep away, switch off the supply if safe, and report it (d) ignore it until the next practical",
+        "a": "**(c) keep away, switch off the supply if safe, and report it.** A damaged cable can give a shock or start a fire, so the supply should be cut off and the fault reported."
       },
       {
         "q": "The first thing to do when a fire is discovered is to: (a) raise the alarm and leave by the marked exit  (b) collect your belongings  (c) use the lift  (d) finish the work you are doing",
@@ -261,11 +263,12 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Workplace Quality and Ergonomics” (Quality of work, 5S, housekeeping, ergonomic posture and workstation setup). A classmate lost marks by doing this: Drawing the user hunched over a laptop as “correct posture”. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student draws a person hunched over a laptop on a low sofa and labels it “correct posture”. Correct this, and give four features of a correct sitting posture at a computer.",
         "a": [
-          "Correct method: Screen top at eye level, not looking down at a laptop on the lap.",
-          "Why the mistake costs marks: Drawing the user hunched over a laptop as “correct posture”.",
-          "Write the definition or formula first, then the working or example."
+          "It is incorrect: a hunched back and a low screen strain the neck, back and wrists.",
+          "Feet flat on the floor and the back straight and supported by the chair.",
+          "Elbows bent at about 90° with the wrists straight, and the top of the screen at or just below eye level.",
+          "The screen about an arm’s length (50–70 cm) away, with short breaks every 20–30 minutes."
         ]
       },
       {
@@ -310,22 +313,23 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Workplace Quality and Ergonomics”. Their note says: Quality of work in IT: accurate data, readable documents, meeting time, following the house style, checking before submit.\n\nThe chapter is described as: Quality of work, 5S, housekeeping, ergonomic posture and workstation setup.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nIn a computer lab, cables lie tangled on the floor, unused CDs are piled on the desks and folders have no labels.\n\n(a) Which 5S step removes the unused CDs?\n(b) Which step covers labelling the folders and arranging the cables?\n(c) Name the remaining steps and say what each means.",
         "a": [
-          "(a) Quality of work, 5S, housekeeping, ergonomic posture and workstation setup.",
-          "(b) Ergonomics of a computer workstation is the set diagram/answer.",
-          "(c) Drawing the user hunched over a laptop as “correct posture”."
+          "(a) **Sort**: remove what is not needed.",
+          "(b) **Set in order**: a place for everything, with labels, so that things can be found quickly.",
+          "(c) **Shine** (clean the area and equipment regularly), **Standardise** (make rules so that the same order is kept) and **Sustain** (make the habit continue)."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Workplace Quality and Ergonomics” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "What is housekeeping? Describe five housekeeping rules for a computer lab and explain how they improve safety and quality of work.",
         "a": [
-          "Quality of work in IT: accurate data, readable documents, meeting time, following the house style, checking before submit.",
-          "Marks lens: Ergonomics of a computer workstation is the set diagram/answer.",
-          "Method / memory trick: Screen top at eye level, not looking down at a laptop on the lap.",
-          "Do not: Drawing the user hunched over a laptop as “correct posture”."
+          "Housekeeping means keeping the workplace clean, tidy and organised.",
+          "Keep floors and walkways clear and store cables neatly, which prevents trips and falls.",
+          "Do not eat or drink near the computers, and dust the equipment regularly, which prevents damage and faults.",
+          "Label folders, media and equipment and put things back in their place, so that work is found easily and not lost.",
+          "Dispose of waste correctly and report faults at once; a clean, orderly lab lets people work accurately and safely."
         ]
       }
     ],
@@ -347,12 +351,12 @@
         "a": "**(b).**"
       },
       {
-        "q": "The most exam-ready way to revise “Workplace Quality and Ergonomics” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Quality of work, 5S, housekeeping, ergonomic posture and workstation setup."
+        "q": "Ergonomics is the study of: (a) writing computer programs (b) repairing electronic circuits (c) storing data in a database (d) designing workplaces and equipment to suit the user, for comfort, safety and efficiency",
+        "a": "**(d) designing workplaces and equipment to suit the user, for comfort, safety and efficiency.** Good ergonomics reduces strain and injury and helps people work better."
       },
       {
-        "q": "A 3-mark answer on “Workplace Quality and Ergonomics” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "For correct posture, the top of the computer screen should be: (a) well above the head (b) on the floor (c) at the level of the keyboard (d) at or slightly below eye level",
+        "a": "**(d) at or slightly below eye level.** This lets the user look slightly down without bending the neck."
       },
       {
         "q": "The 5S workplace method consists of: (a) Sort, Set in order, Shine, Standardise, Sustain  (b) Sit, See, Save, Stop, Start  (c) Safety, Speed, Size, Skill, System  (d) Scan, Send, Store, Sell, Sort",
@@ -452,11 +456,11 @@
       {
         "t": "A",
         "m": "3",
-        "q": "Riya is revising “Prevent Accidents and Emergencies” (Causes of accidents, evacuation, first aid, emergency numbers and incident reporting). A classmate lost marks by doing this: Applying toothpaste or ice directly on a burn. Apply the correct method and rewrite the scoring answer.",
+        "q": "A student says that toothpaste or ice should be put on a minor burn. Correct this and give the right first aid.",
         "a": [
-          "Correct method: Power off before touch is the electric-shock line examiners want.",
-          "Why the mistake costs marks: Applying toothpaste or ice directly on a burn.",
-          "Write the definition or formula first, then the working or example."
+          "Toothpaste, butter and ice must **not** be put on a burn; they can damage the skin or cause infection.",
+          "Hold the burn under cool running water for about 10–20 minutes.",
+          "Then cover it loosely with a clean, non-sticky dressing, do not burst any blisters, and get medical help if the burn is large or deep."
         ]
       },
       {
@@ -500,22 +504,23 @@
       {
         "t": "C",
         "m": "4",
-        "q": "Read and answer:\n\nA Class 10 student is preparing “Prevent Accidents and Emergencies”. Their note says: Causes of accidents: unsafe conditions (wet floor, bad wiring) and unsafe acts (running, bypassing rules). Most lab accidents are preventable.\n\nThe chapter is described as: Causes of accidents, evacuation, first aid, emergency numbers and incident reporting.\n\n(a) Name the key idea.\n(b) How is this usually asked in the paper?\n(c) State one mistake that would cost a mark.",
+        "q": "Read and answer:\n\nDuring a practical, smoke rises from a UPS in the lab.\n\n(a) What should the teacher and students do first?\n(b) Which emergency numbers can be called?\n(c) How should the room be left?",
         "a": [
-          "(a) Causes of accidents, evacuation, first aid, emergency numbers and incident reporting.",
-          "(b) Evacuation order and first aid don’ts are the 2–3 markers.",
-          "(c) Applying toothpaste or ice directly on a burn."
+          "(a) Raise the alarm and, if it is safe, switch off the main power supply; do not use water on electrical equipment.",
+          "(b) 101 for the fire service, or 112, the national emergency number (100 for police and 102 for an ambulance).",
+          "(c) Everyone leaves calmly by the stairs, not the lift, and gathers at the assembly point, where the teacher takes a head count."
         ]
       },
       {
         "t": "L",
         "m": "5",
-        "q": "Discuss “Prevent Accidents and Emergencies” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.",
+        "q": "List five items of a first-aid box and five rules that a first-aider should follow.",
         "a": [
-          "Causes of accidents: unsafe conditions (wet floor, bad wiring) and unsafe acts (running, bypassing rules). Most lab accidents are preventable.",
-          "Marks lens: Evacuation order and first aid don’ts are the 2–3 markers.",
-          "Method / memory trick: Power off before touch is the electric-shock line examiners want.",
-          "Do not: Applying toothpaste or ice directly on a burn."
+          "Items: sterile gauze and bandages, adhesive plasters, antiseptic solution, scissors, and disposable gloves (also cotton wool and a burn dressing).",
+          "Rule 1: first make sure the area is safe, for example switch off the power in case of electric shock.",
+          "Rule 2: call for help and the emergency number quickly.",
+          "Rule 3: do not move a seriously injured person unless there is danger, and reassure them.",
+          "Rule 4: wear gloves and wash hands; do not give food or drink to an unconscious person."
         ]
       }
     ],
@@ -537,12 +542,12 @@
         "a": "**(b) running water.**"
       },
       {
-        "q": "The most exam-ready way to revise “Prevent Accidents and Emergencies” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic",
-        "a": "**(b) learn the key idea plus one example.** The chapter is Causes of accidents, evacuation, first aid, emergency numbers and incident reporting."
+        "q": "In India, the single national emergency number is: (a) 108 only (b) 112 (c) 1800 (d) 911",
+        "a": "**(b) 112.** 112 is the all-in-one emergency number; 101 is for fire, 100 for police and 102 for ambulance."
       },
       {
-        "q": "A 3-mark answer on “Prevent Accidents and Emergencies” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out",
-        "a": "**(b) start with the idea, then a reason or method.** Step marks follow that frame."
+        "q": "During a fire drill, people should leave the building using the: (a) lift (b) windows (c) back of the lab (d) stairs",
+        "a": "**(d) stairs.** Lifts may stop working or trap people in a fire, so the stairs are used."
       },
       {
         "q": "The single all-India emergency number for police, fire and ambulance is: (a) 112  (b) 100  (c) 101  (d) 108",

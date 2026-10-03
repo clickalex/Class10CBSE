@@ -32,16 +32,17 @@ Q5. [Short · 3 marks] What is IPR? Name and explain its four main types.
 Q6. [Short · 3 marks] Differentiate between free and open source software and proprietary software, with examples.
     Ans: FOSS makes the source code available, so anyone may use, study, modify and redistribute the program; examples are Linux, Firefox and LibreOffice. Here 'free' refers to freedom rather than price. Proprietary software keeps its source code secret and grants only a licence to use it, forbidding copying, modification or redistribution; examples are Microsoft Windows and Adobe Photoshop. The practical difference is that with FOSS you can fix or extend the software yourself, while with proprietary software you depend entirely on the vendor.
 
-Q7. [Application · 3 marks] Riya is revising “Cybercrime, IPR & Open Source” (Cybercrime, intellectual property rights, plagiarism, and free versus open source software). A classmate lost marks by doing this: Confusing copyright and patent — copyright covers creative works, patent covers inventions. Apply the correct method and rewrite the scoring answer.
+Q7. [Application · 3 marks] A student says, “I wrote a poem, so I must apply for a patent to protect it.” Correct this and say which kind of IPR protects (i) a poem, (ii) a new invention and (iii) a brand logo.
     Ans:
-      Correct method: Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.
-      Why the mistake costs marks: Confusing copyright and patent — copyright covers creative works, patent covers inventions.
-      Write the definition or formula first, then the working or example.
+      (i) A poem is a creative work, protected by copyright, which arises automatically when it is created.
+      (ii) A new invention is protected by a patent, which has to be applied for.
+      (iii) A brand name or logo is protected by a trademark.
 
-Q8. [Application · 3 marks] Amit is given this exam-style task from “Cybercrime, IPR & Open Source”: “What is IPR? Name and explain its four main types.” Treat it as an application question. Identify the idea, then write the working in points.
+Q8. [Application · 3 marks] Ravi copies a paragraph from a website into his project without saying where it came from, and his friend buys a pirated copy of a game. Name each offence and say how they differ.
     Ans:
-      Idea: Cybercrime, intellectual property rights, plagiarism, and free versus open source software.
-      IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business information such as a formula or a method.
+      Ravi’s act is plagiarism: presenting someone else’s work as his own.
+      His friend’s act is software piracy: making or using an unlicensed copy of software.
+      Plagiarism is about taking credit; piracy is about using copies without the owner’s permission or payment. Ravi can avoid plagiarism by quoting and acknowledging the source.
 
 Q9. [Short · 3 marks] Explain the four main kinds of intellectual property.
     Ans:
@@ -52,36 +53,35 @@ Q9. [Short · 3 marks] Explain the four main kinds of intellectual property.
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Cybercrime, IPR & Open Source”. Their note says: Cybercrime. A cybercrime is any illegal act in which a computer or network is used as a tool, a target, or a place to store evidence. Examples are hacking, spreading malware, online fraud, identity theft, publishing obscene material, and attacking a website so that it stops working.
+    A school installs three programs: LibreOffice, whose source code anyone may study and change; a PDF viewer that is free to use but whose code is secret; and a paid word processor.
     
-    The chapter is described as: Cybercrime, intellectual property rights, plagiarism, and free versus open source software.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which is free and open-source software (FOSS)?
+    (b) Which is freeware?
+    (c) Which is proprietary software?
     Ans:
-      (a) Cybercrime, intellectual property rights, plagiarism, and free versus open source software.
-      (b) Define IPR and its types, explain plagiarism and software piracy, distinguish FOSS from proprietary software.
-      (c) Confusing copyright and patent — copyright covers creative works, patent covers inventions.
+      (a) LibreOffice.
+      (b) The PDF viewer: it costs nothing but its source code is closed.
+      (c) The paid word processor.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “What is IPR? Name and explain its four main types.” Student A writes one line. Student B writes points, an example and a check.
+    Anita gets an e-mail that looks like it is from her bank. It asks her to click a link and enter her card number and OTP “to avoid blocking”.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) Name this cybercrime.
+    (b) Why is it dangerous?
+    (c) State two precautions.
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) IPR (Intellectual Property Rights) are the legal rights granted to the creator of an original work, allowing them to control and benefit from its use and stopping others from copying it without permission. The four main types are copyright, which protects original literary, artistic, musical and software works; patent, which protects an invention or process for a fixed period; trademark, which protects a brand name, logo or slogan; and trade secret, which protects confidential business informati
-      (c) Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.
+      (a) Phishing.
+      (b) The link leads to a fake site that steals her card details and OTP, which can be used to empty her account.
+      (c) Never click links in unexpected messages or share an OTP; check the sender and web address, and go to the bank’s official site or app. Report the message.
 
-Q12. [Long · 5 marks] Discuss “Cybercrime, IPR & Open Source” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q12. [Long · 5 marks] What is cybercrime? Explain any four types with an example each, and give two ways of protecting yourself.
     Ans:
-      Cybercrime. A cybercrime is any illegal act in which a computer or network is used as a tool, a target, or a place to store evidence. Examples are hacking, spreading malware, online fraud, identity theft, publishing obscene material, and attacking a website so that it stops working.
-      Marks lens: Define IPR and its types, explain plagiarism and software piracy, distinguish FOSS from proprietary software.
-      Method / memory trick: Copyright = works, patent = inventions, trademark = brands, trade secret = secrets.
-      Do not: Confusing copyright and patent — copyright covers creative works, patent covers inventions.
+      Cybercrime is an illegal act carried out using a computer, a network or the internet.
+      Hacking: unauthorised access to a computer or account, for example guessing a password to read someone’s mail.
+      Phishing: fake messages or sites that trick people into giving passwords or card details.
+      Identity theft: using someone’s personal data to pose as them, for example to open a bank account; and cyber-bullying: harassing a person online.
+      Protection: use strong, different passwords with updated security software, and do not share OTPs, personal details or click unknown links.
 
 B. MCQs (8)
 ------------------------------------------------------------------------

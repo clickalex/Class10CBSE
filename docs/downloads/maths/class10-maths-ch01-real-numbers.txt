@@ -34,16 +34,17 @@ Q4. [Short · 3 marks] Prove that √3 is irrational.
 Q5. [Short · 3 marks] The HCF of 96 and 404 is 4. Find their LCM.
     Ans: For any two positive integers, HCF × LCM = product of the numbers. So LCM = (96 × 404) ÷ 4 = 38784 ÷ 4 = 9696. It is worth checking the result: 9696 ÷ 96 = 101 and 9696 ÷ 404 = 24, and 101 and 24 share no factor, so 9696 really is the least common multiple.
 
-Q6. [Application · 3 marks] Riya is revising “Real Numbers” (HCF/LCM, irrationality proofs, terminating decimals). A classmate lost marks by doing this: Using HCF × LCM = product for three numbers. It fails. Factorise instead. Apply the correct method and rewrite the scoring answer.
+Q6. [Application · 3 marks] A student finds the LCM of 12, 18 and 30 by writing LCM = (12 × 18 × 30) ÷ HCF = 6480 ÷ 6 = 1080, using “HCF × LCM = product of the numbers”. Find the error and give the correct LCM.
     Ans:
-      Correct method: Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.
-      Why the mistake costs marks: Using HCF × LCM = product for three numbers. It fails. Factorise instead.
-      Write the definition or formula first, then the working or example.
+      The relation HCF × LCM = product holds only for two numbers. For three numbers it fails, so 1080 is wrong.
+      Use prime factorisation: 12 = 2² × 3, 18 = 2 × 3², 30 = 2 × 3 × 5.
+      LCM = product of the highest powers of every prime = 2² × 3² × 5 = 180.
 
-Q7. [Application · 3 marks] Amit is given this exam-style task from “Real Numbers”: “State Euclid’s division lemma.” Treat it as an application question. Identify the idea, then write the working in points.
+Q7. [Application · 3 marks] Find the largest number that divides 1251, 9377 and 15628 leaving remainders 1, 2 and 3 respectively.
     Ans:
-      Idea: HCF/LCM, irrationality proofs, terminating decimals.
-      Given positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.
+      If the number leaves remainders 1, 2, 3, it divides 1251 − 1 = 1250, 9377 − 2 = 9375 and 15628 − 3 = 15625 exactly.
+      1250 = 2 × 5⁴, 9375 = 3 × 5⁵, 15625 = 5⁶.
+      The largest such number is the HCF = 5⁴ = 625.
 
 Q8. [Short · 3 marks] Use Euclid’s division algorithm to find the HCF of 867 and 255.
     Ans:
@@ -60,39 +61,38 @@ Q9. [Long · 4 marks] An army contingent of 616 members marches behind an army b
 
 Q10. [Competency · 4 marks] Read and answer:
     
-    A Class 10 student is preparing “Real Numbers”. Their note says: Euclid’s Division Lemma. Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 ≤ r < b. It is the basis of the HCF algorithm: divide, then repeat with (b, r) until the remainder is 0. The last non-zero divisor is the HCF.
+    A calculator displays these decimal forms: 7/80 = 0.0875, 11/30 = 0.3666…, 13/125 = 0.104 and 17/60 = 0.28333…
     
-    The chapter is described as: HCF/LCM, irrationality proofs, terminating decimals.
-    
-    (a) Name the key idea.
-    (b) How is this usually asked in the paper?
-    (c) State one mistake that would cost a mark.
+    (a) Which fractions have terminating decimals and which do not?
+    (b) Using the prime factors of the denominator, explain why 7/80 terminates but 11/30 does not.
+    (c) After how many decimal places does 13/125 terminate, and why?
     Ans:
-      (a) HCF/LCM, irrationality proofs, terminating decimals.
-      (b) marks, always procedural. Expect one HCF/LCM word problem (2–3 marks), one irrationality proof (3 marks), and one terminating-decimal question (1 mark).
-      (c) Using HCF × LCM = product for three numbers. It fails. Factorise instead.
+      (a) 7/80 and 13/125 terminate; 11/30 and 17/60 do not.
+      (b) 80 = 2⁴ × 5 has only the prime factors 2 and 5, so 7/80 terminates. 30 = 2 × 3 × 5 contains the prime 3 (and 11/30 is already in lowest terms), so 11/30 never terminates.
+      (c) 125 = 5³, so 13/125 = 13 × 2³/(2³ × 5³) = 104/1000 = 0.104. It terminates after 3 places, the larger of the powers of 2 and 5 in the denominator.
 
 Q11. [Competency · 4 marks] Read and answer:
     
-    Two students attempt: “State Euclid’s division lemma.” Student A writes one line. Student B writes points, an example and a check.
+    Three traffic lights change after every 48 s, 72 s and 108 s. They all change together at 8:00:00 a.m.
     
-    (a) Which answer frame should you use for full marks?
-    (b) Write the model points.
-    (c) Add one memory trick you would use on exam morning.
+    (a) After how many seconds will they change together again?
+    (b) At what time will that be?
+    (c) Which concept from this chapter did you use?
     Ans:
-      (a) Statement → working or reasons in points → example or check. One-line answers lose step marks.
-      (b) Given positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.
-      (c) Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.
+      (a) The interval is the LCM of 48, 72 and 108: 48 = 2⁴ × 3, 72 = 2³ × 3², 108 = 2² × 3³, so LCM = 2⁴ × 3³ = 432 s.
+      (b) 432 s = 7 min 12 s, so they change together at 8:07:12 a.m.
+      (c) Prime factorisation and the LCM (the smallest common multiple of all three times).
 
 Q12. [Long · 4 marks] Can 6ⁿ end with the digit 0 for any natural number n? Give a reason.
     Ans: No. If 6ⁿ ended in 0 it would be divisible by 10 = 2 × 5, so 5 would have to be a prime factor of 6ⁿ. But 6ⁿ = (2 × 3)ⁿ = 2ⁿ × 3ⁿ and, by the Fundamental Theorem of Arithmetic, its only prime factors are 2 and 3. Since 5 never appears, 6ⁿ cannot end in 0 for any n.
 
-Q13. [Long · 5 marks] Discuss “Real Numbers” in detail. Include the idea that carries marks, one worked example or answer frame, and why students lose marks.
+Q13. [Long · 5 marks] Prove that √5 is irrational. Hence show that 3 + 2√5 is irrational.
     Ans:
-      Euclid’s Division Lemma. Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 ≤ r < b. It is the basis of the HCF algorithm: divide, then repeat with (b, r) until the remainder is 0. The last non-zero divisor is the HCF.
-      Marks lens: marks, always procedural. Expect one HCF/LCM word problem (2–3 marks), one irrationality proof (3 marks), and one terminating-decimal question (1 mark).
-      Method / memory trick: Terminating test: look only at the denominator. If, after reducing, the denominator has any prime other than 2 or 5, it repeats. Ignore the numerator entirely.
-      Do not: Using HCF × LCM = product for three numbers. It fails. Factorise instead.
+      Assume √5 is rational, so √5 = p/q with p and q coprime integers and q ≠ 0.
+      Squaring: 5q² = p², so 5 divides p². Since 5 is prime, 5 divides p. Write p = 5m.
+      Then 5q² = 25m², so q² = 5m², hence 5 divides q² and so 5 divides q.
+      Now 5 is a common factor of p and q, which contradicts that they are coprime. So √5 is irrational.
+      Next, suppose 3 + 2√5 = r is rational. Then √5 = (r − 3)/2 would be rational, contradicting the result above. Hence 3 + 2√5 is irrational.
 
 B. MCQs (8)
 ------------------------------------------------------------------------
@@ -106,11 +106,11 @@ M2. Which has a terminating decimal expansion? (a) 7/24  (b) 5/13  (c) 9/40  (d)
 M3. If the HCF of two numbers is 6 and their LCM is 60, one number being 12, the other is: (a) 20  (b) 30  (c) 40  (d) 60
     Ans: (b) 30. Other number = (6 × 60)/12 = 30.
 
-M4. The most exam-ready way to revise “Real Numbers” is: (a) read the heading only  (b) learn the key idea plus one example  (c) skip written practice  (d) memorise a random extra topic
-    Ans: (b) learn the key idea plus one example. The chapter is HCF/LCM, irrationality proofs, terminating decimals.
+M4. The product of a non-zero rational number and an irrational number is: (a) always rational  (b) always irrational  (c) sometimes an integer  (d) always zero
+    Ans: (b) always irrational. If r × x were rational with r ≠ 0, then x = (r × x)/r would be rational — a contradiction.
 
-M5. A 3-mark answer on “Real Numbers” should: (a) be one sentence  (b) start with the idea, then a reason or method  (c) copy the whole chapter  (d) leave the example out
-    Ans: (b) start with the idea, then a reason or method. Step marks follow that frame.
+M5. The LCM of two co-prime numbers a and b is: (a) ab  (b) a + b  (c) a ÷ b  (d) 1
+    Ans: (a) ab. Co-prime numbers have HCF 1, and HCF × LCM = a × b, so the LCM is ab.
 
 M6. The decimal expansion of 23/(2³ × 5²) terminates after: (a) 2 places  (b) 3 places  (c) 4 places  (d) 5 places
     Ans: (b) 3 places. 23/200 = 115/1000 = 0.115. The number of decimal places is the larger exponent, max(3, 2) = 3.
