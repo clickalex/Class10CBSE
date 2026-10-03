@@ -284,10 +284,11 @@ attempt: each section shuffles its pool preferring questions the device has
 never been served (tracked in localStorage per exam), then questions from
 older batches, and only then the immediately previous batch — so two attempts
 never show the same paper while the pool allows it, and cycle back evenly when
-it does not. The templated study-habit MCQs in the chapter banks are excluded
-from pools; a question is never used twice in one paper (also enforced across
-sections). If a section pool cannot cover its count the build fails with the
-exam and section named.
+it does not. No templated study-habit questions remain in the chapter banks (a
+test keeps the count at zero); `mocktest.is_filler` also excludes any such item
+from a pool if one regresses. A question is never used twice in one paper (also
+enforced across sections). If a section pool cannot cover its count the build
+fails with the exam and section named.
 
 The same script runs the test entirely in the browser — timer, palette,
 resume of the *same generated paper* after reload (sessionStorage),
