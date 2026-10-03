@@ -88,12 +88,18 @@ assets/images/  (repo root)   favicon.svg, logo.svg + generated icon-*.png → d
 - **`content/downloads.json`** is the single list of official files. `sittings`
   (board exams, newest first) and `sessions` (sample-paper sessions) name the rows;
   each subject has `courses` (Maths Standard/Basic, Hindi A/B, one for the rest) with
-  a `pyq` map `{sitting: {url, size}}` and an `sqp` map `{session: {sqp, ms}}`, plus
-  optional `qb` (CBSE question-bank PDFs) and `apq` (additional practice questions).
-  `lists` holds CBSE's own listing pages the URLs were copied from, shown as
-  "full list" links and probed by the link checker. A file CBSE does not list is
-  simply absent and rendered as "Not listed by CBSE". Two courses that share one
-  file (Maths 2026) render as one merged cell.
+  a `pyq` map `{sitting: {url, size}}` and an `sqp` map `{session: {sqp, ms}}` (the
+  2021–22 term-wise papers are the sessions `2021-22-term-1` and `-term-2`), plus
+  optional `qb` (CBSE question-bank PDFs, including the CBE competency-based items)
+  and `apq` (additional practice questions; `ms` is optional because CBSE published
+  the 2021–22 sets without a marking scheme).
+  `lists` holds CBSE's own listing pages the URLs were copied from (`pyq`, `sqp`,
+  `qb`, `apq`, `cbe`, the skill-subject pages and the older sample-paper pages),
+  shown as "full list" links and probed by the link checker. `checked_on` is when
+  the addresses were last copied from those pages; `first_checked_on` (optional) is
+  the earliest such day, so the page can say "copied on 2–3 Oct 2026" truthfully.
+  A file CBSE does not list is simply absent and rendered as "Not listed by CBSE".
+  Two courses that share one file (Maths 2026) render as one merged cell.
 - **Validation** runs on every build (`downloads.validate`): https only, host must be
   `www.cbse.gov.in` or `cbseacademic.nic.in`, `.pdf`/`.zip` only, every subject
   covered, every sitting/session known. A bad manifest fails the build before any

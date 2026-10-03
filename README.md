@@ -65,15 +65,21 @@ The [Downloads page](https://clickalex.github.io/Class10CBSE/downloads/) (also t
 subject) puts the files one tap away. Two kinds, kept honest about who owns them:
 
 - **Official CBSE files are linked, never copied.** Per subject and course
-  (Maths Standard/Basic, Hindi A/B): the Class X board papers for 2026, the 2026
-  second board exam, 2025, the 2025 compartment and 2024 (CBSE publishes these as
-  ZIPs of every set); the 2026–27 and 2025–26 sample papers with marking schemes;
-  and CBSE's question bank and additional practice questions where it published
-  them (Maths, Science, English; practice questions for six subjects). Every URL
-  lives in `site/content/downloads.json`, copied from CBSE's own listing pages on
-  the date the file records, and the build refuses any URL that is not https on
-  `www.cbse.gov.in` or `cbseacademic.nic.in`. Files CBSE does not list are shown as
-  "Not listed by CBSE" rather than skipped.
+  (Maths Standard/Basic, Hindi A/B): the Class X board papers for ten sittings —
+  2026, the 2026 second board exam, and 2025, 2024, 2023 and 2022, each with its
+  compartment sitting (CBSE publishes these as ZIPs of every set; its own listing
+  goes back to 2022); sample papers with marking schemes for 2026–27 back to
+  2021–22 (both terms); and CBSE's question banks where it published them: the
+  Class X question bank, the competency-based test items and the CBE item bank
+  (Maths, Science, English) plus additional practice questions for six subjects
+  (2023–24, 2022–23, 2021–22). Every URL lives in `site/content/downloads.json`,
+  copied from CBSE's own listing pages on the dates the file records — none is
+  built from a naming pattern — and the build refuses any URL that is not https on
+  `www.cbse.gov.in` or `cbseacademic.nic.in`. Files CBSE does not list (for
+  example no Computer Application or IT paper for the 2024 compartment) are shown
+  as "Not listed by CBSE" rather than skipped. Information Technology is a
+  skill subject, so CBSE lists its sample papers on a separate page; the hub links
+  that page and its archive.
 - **This hub's own question bank is downloadable too.** One UTF-8 text file per
   subject and per chapter (written Q&A and MCQs, answers included) under
   `docs/downloads/<subject>/`, generated at build time by `site/downloads.py`; and
@@ -91,7 +97,8 @@ python3 scripts/check_downloads.py --subject maths
 ```
 
 To add next year's papers, add the sitting to `sittings` and each file under the
-course's `pyq` in `downloads.json`, then rebuild. Files you download for your own
+course's `pyq` in `downloads.json` (copying the file name from CBSE's page), update
+`checked_on`, then rebuild. Files you download for your own
 use belong in `study/<subject>/07-Previous-Year-Questions/` (git-ignored by design).
 
 ## Mock tests — check your own score online

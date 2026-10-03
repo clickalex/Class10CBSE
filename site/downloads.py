@@ -82,16 +82,19 @@ def file_urls(data):
         for q in entry.get("qb", []):
             found.append((f"{slug} question bank: {q['label']}", q["url"]))
         for a in entry.get("apq", []):
-            found.append((f"{slug} practice questions: {a['label']}", a["pq"]))
-            found.append((f"{slug} practice questions MS: {a['label']}", a["ms"]))
+            found.append((f"{slug} practice questions {a['session']}: {a['label']}", a["pq"]))
+            if a.get("ms"):   # the 2021-22 sets were published without a marking scheme
+                found.append((f"{slug} practice questions MS {a['session']}: {a['label']}", a["ms"]))
     return sorted(found)
+
+
+LIST_KEYS = ("pyq", "sqp", "skill_sqp", "skill_sqp_archive", "qb", "apq", "cbe")
 
 
 def list_urls(data):
     """CBSE's own listing pages the file URLs were copied from."""
     lists = data["lists"]
-    found = [(f"list {key}", lists[key]["url"])
-             for key in ("pyq", "sqp", "skill_sqp", "skill_sqp_archive", "qb", "apq")]
+    found = [(f"list {key}", lists[key]["url"]) for key in LIST_KEYS]
     found += [(f"list sqp {x['label']}", x["url"]) for x in lists["sqp_older"]]
     return sorted(found)
 
@@ -116,11 +119,19 @@ def validate(data, subject_slugs):
     if data.get("version") != 1:
         bad.append("version must be 1")
     try:
-        date.fromisoformat(data.get("checked_on", ""))
+        checked = date.fromisoformat(data.get("checked_on", ""))
     except ValueError:
+        checked = None
         bad.append("checked_on must be an ISO date (YYYY-MM-DD)")
+    if "first_checked_on" in data:
+        try:
+            first = date.fromisoformat(data["first_checked_on"])
+            if checked and first > checked:
+                bad.append("first_checked_on cannot be later than checked_on")
+        except (TypeError, ValueError):
+            bad.append("first_checked_on must be an ISO date (YYYY-MM-DD)")
 
-    for key in ("pyq", "sqp", "skill_sqp", "skill_sqp_archive", "qb", "apq"):
+    for key in LIST_KEYS:
         entry = data.get("lists", {}).get(key)
         if not entry or not entry.get("label"):
             bad.append(f"lists.{key} needs a label and a url")
@@ -176,7 +187,12 @@ def validate(data, subject_slugs):
             if _url_problem(q.get("url")) or not q.get("label"):
                 bad.append(f"{slug} qb {q.get('label')}: {_url_problem(q.get('url')) or 'no label'}")
         for a in entry.get("apq", []):
+            if not a.get("session") or not a.get("label"):
+                bad.append(f"{slug} apq {a.get('label')}: needs a session and a label")
+            # the question file is required; the marking scheme only when CBSE published one
             for part in ("pq", "ms"):
+                if part == "ms" and not a.get("ms"):
+                    continue
                 if _url_problem(a.get(part)):
                     bad.append(f"{slug} apq {a.get('label')} {part}: {_url_problem(a.get(part))}")
     return bad
@@ -192,6 +208,17 @@ def _e(text):
 def _nice_date(iso):
     d = date.fromisoformat(iso)
     return f"{d.day} {d.strftime('%b')} {d.year}"
+
+
+def _checked(data):
+    """When the addresses were copied: '3 Oct 2026', or '2\u20133 Oct 2026' when it took two days."""
+    last = date.fromisoformat(data["checked_on"])
+    first = date.fromisoformat(data.get("first_checked_on") or data["checked_on"])
+    if first == last:
+        return _nice_date(data["checked_on"])
+    if (first.year, first.month) == (last.year, last.month):
+        return f"{first.day}\u2013{last.day} {last.strftime('%b')} {last.year}"
+    return f"{_nice_date(first.isoformat())} \u2013 {_nice_date(last.isoformat())}"
 
 
 def _years(data):
@@ -316,8 +343,8 @@ def pyq_panel(slug, title):
     return f"""<section class="dl" id="downloads">
 <h2>Direct downloads \u2014 official CBSE papers</h2>
 <p class="hint">Every button opens the file on CBSE\u2019s own website ({" or ".join(ALLOWED_HOSTS)}). Nothing is
-copied to this site, so you always get the official version. Links last checked
-{_nice_date(data["checked_on"])}; if one ever fails, use the official list named beside it.</p>
+copied to this site, so you always get the official version. Every address was copied from
+CBSE\u2019s own listing pages on {_checked(data)}; if a link ever fails, use the official list named beside it.</p>
 {pyq_blocks(data, slug, title, 3)}</section>
 """
 
@@ -330,8 +357,10 @@ def official_bank_card(data, slug, title, h=3):
              for q in entry.get("qb", [])]
     for a in entry.get("apq", []):
         session = a["session"].replace("-", "\u2013")
-        items.append(f'<li>Practice questions {_e(session)} \u00b7 {_e(a["label"])}: '
-                     f'{_text_link(a["pq"], "questions")} \u00b7 {_text_link(a["ms"], "marking scheme")} '
+        links = _text_link(a["pq"], "questions")
+        if a.get("ms"):
+            links += " \u00b7 " + _text_link(a["ms"], "marking scheme")
+        items.append(f'<li>Practice questions {_e(session)} \u00b7 {_e(a["label"])}: {links} '
                      f'<span class="dl-meta">PDF</span></li>')
     if items:
         body = f'<ul class="dl-list">{"".join(items)}</ul>'
@@ -340,7 +369,8 @@ def official_bank_card(data, slug, title, h=3):
                 f"{_e(title)}. The sample papers above are its official practice material.</p>")
     return (f'<div class="dl-card"><h{h}>Official CBSE question bank</h{h}>{body}'
             f'<p class="hint">Official lists: {_text_link(lists["qb"]["url"], "question bank")} \u00b7 '
-            f'{_text_link(lists["apq"]["url"], "additional practice questions")}.</p></div>')
+            f'{_text_link(lists["apq"]["url"], "additional practice questions")} \u00b7 '
+            f'{_text_link(lists["cbe"]["url"], "competency-based items")}.</p></div>')
 
 
 # --------------------------------------------------------------------------
@@ -557,8 +587,8 @@ def hub_body(subjects, chapters_by_slug):
 </section>""")
     note = layout.callout(
         "Official files stay on CBSE\u2019s servers: every button opens the file on cbse.gov.in or "
-        "cbseacademic.nic.in, so you always get the current official copy. Links last checked "
-        + _nice_date(data["checked_on"]) + ". This hub\u2019s own questions are original practice "
+        "cbseacademic.nic.in, so you always get the current official copy. Addresses were copied from "
+        "CBSE\u2019s own listing pages on " + _checked(data) + ". This hub\u2019s own questions are original practice "
         "material, <strong>not</strong> official CBSE papers.")
     body = f"""
 <p class="kicker">DIRECT DOWNLOADS \u00b7 CLASS 10 CBSE \u00b7 SESSION {SESSION}</p>

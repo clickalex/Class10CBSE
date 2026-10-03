@@ -93,26 +93,71 @@ class ManifestTests(unittest.TestCase):
 
     def test_urls_follow_cbses_directory_scheme(self):
         """A paper filed under the wrong sitting or session is a wrong download."""
-        base = {"2026": "https://www.cbse.gov.in/cbsenew/question-paper/2026/X/",
-                "2026-second": "https://www.cbse.gov.in/cbsenew/question-paper/2026-COMPTT/Second_Board_X/",
-                "2025": "https://www.cbse.gov.in/cbsenew/question-paper/2025/X/",
-                "2025-compartment": "https://www.cbse.gov.in/cbsenew/question-paper/2025-COMPTT/X/",
-                "2024": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/"}
+        root = "https://www.cbse.gov.in/cbsenew/question-paper/"
+        base = {"2026": root + "2026/X/",
+                "2026-second": root + "2026-COMPTT/Second_Board_X/",
+                "2025": root + "2025/X/",
+                "2025-compartment": root + "2025-COMPTT/X/",
+                "2024": root + "2024/X/",
+                "2024-compartment": root + "2024-COMPTT/X/",
+                "2023": root + "2023/X/",
+                "2023-compartment": root + "2023-COMPTT/X/",
+                "2022": root + "2022/X/",
+                "2022-compartment": root + "2022-COMPTT/X/"}
         self.assertEqual({s["id"] for s in self.data["sittings"]}, set(base))
         for slug, entry in self.data["subjects"].items():
             for course in entry["courses"]:
                 for sitting, f in course["pyq"].items():
                     self.assertTrue(f["url"].startswith(base[sitting]), f"{slug} {sitting}: {f['url']}")
                 for session, f in course["sqp"].items():
-                    folder = f"ClassX_{session.replace('-', '_')}/"
+                    # '2021-22-term-2' lives in the 2021-22 folder and its files end _Term2
+                    folder = f"ClassX_{session[:7].replace('-', '_')}/"
+                    tail = "_Term2" if session.endswith("-term-2") else ""
                     if slug == "information-technology":
                         self.assertIn("/Curriculum26/SQP_MS_X/402_", f["sqp"])
                         self.assertIn("/Curriculum26/SQP_MS_X/402_", f["ms"])
                         continue
-                    self.assertRegex(f["sqp"], rf"/web_material/SQP/{folder}[A-Za-z]+-SQP\.pdf$")
-                    self.assertRegex(f["ms"], rf"/web_material/SQP/{folder}[A-Za-z]+-MS\.pdf$")
+                    self.assertRegex(f["sqp"], rf"/web_material/SQP/{folder}[A-Za-z]+-SQP{tail}\.pdf$")
+                    self.assertRegex(f["ms"], rf"/web_material/SQP/{folder}[A-Za-z]+-MS{tail}\.pdf$")
                     # the paper and its marking scheme share a stem
-                    self.assertEqual(f["sqp"][:-len("-SQP.pdf")], f["ms"][:-len("-MS.pdf")])
+                    self.assertEqual(f["sqp"][:-len(f"-SQP{tail}.pdf")], f["ms"][:-len(f"-MS{tail}.pdf")])
+
+    def test_every_sitting_and_session_is_used(self):
+        """A row nobody fills would render a table of 'Not listed by CBSE'."""
+        courses = [c for e in self.data["subjects"].values() for c in e["courses"]]
+        for sitting in self.data["sittings"]:
+            n = sum(1 for c in courses if sitting["id"] in c["pyq"])
+            self.assertGreaterEqual(n, 8, sitting["id"])
+        for session in self.data["sessions"]:
+            n = sum(1 for c in courses if session["id"] in c["sqp"])
+            self.assertGreaterEqual(n, 1, session["id"])
+        # newest first, so the table reads top-down in time
+        years = [s["id"][:4] for s in self.data["sittings"]]
+        self.assertEqual(years, sorted(years, reverse=True))
+
+    def test_older_practice_sets_may_lack_a_marking_scheme(self):
+        """CBSE published its 2021-22 practice questions without marking schemes."""
+        bare = [(slug, a) for slug, e in self.data["subjects"].items() for a in e.get("apq", [])
+                if not a.get("ms")]
+        self.assertTrue(bare, "expected the 2021-22 practice sets, which have no marking scheme")
+        for slug, a in bare:
+            self.assertEqual(a["session"], "2021-22", f"{slug}: only 2021-22 sets are published bare")
+        described = [what for what, _ in downloads.file_urls(self.data)]
+        self.assertEqual(len(described), len(set(described)), "two files share one description")
+
+    def test_competency_banks_are_official_cbe_files(self):
+        for slug, label in (("maths", "Maths"), ("science", "Science"), ("english", "English")):
+            urls = [q["url"] for q in self.data["subjects"][slug]["qb"]]
+            self.assertIn(f"https://cbseacademic.nic.in/cbe/documents/SAS_{label}-Class-10.pdf", urls, slug)
+            self.assertTrue(any("/cbe/documents/Item-Bank" in u for u in urls), slug)
+        self.assertEqual(self.data["lists"]["cbe"]["url"], "https://cbseacademic.nic.in/cbe/assessment.html")
+
+    def test_checked_dates_read_honestly(self):
+        d = {"checked_on": "2026-10-03"}
+        self.assertEqual(downloads._checked(d), "3 Oct 2026")
+        self.assertEqual(downloads._checked({**d, "first_checked_on": "2026-10-03"}), "3 Oct 2026")
+        self.assertEqual(downloads._checked({**d, "first_checked_on": "2026-10-02"}), "2\u20133 Oct 2026")
+        self.assertEqual(downloads._checked({**d, "first_checked_on": "2026-09-30"}), "30 Sep 2026 \u2013 3 Oct 2026")
 
     def test_a_course_never_lists_the_same_file_twice(self):
         for slug, entry in self.data["subjects"].items():
@@ -138,6 +183,12 @@ class ManifestTests(unittest.TestCase):
         self.assertTrue(broken(lambda d: d["subjects"].pop("sanskrit")))
         self.assertTrue(broken(lambda d: d["subjects"].update(klingon={"courses": []})))
         self.assertTrue(broken(lambda d: d.update(checked_on="yesterday")))
+        self.assertTrue(broken(lambda d: d.update(first_checked_on="2099-01-01")))
+        self.assertTrue(broken(lambda d: d["lists"].pop("cbe")))
+        self.assertTrue(broken(lambda d: d["subjects"]["maths"]["apq"][0].update(pq="https://evil.example/x.pdf")))
+        self.assertTrue(broken(lambda d: d["subjects"]["maths"]["apq"][0].update(ms="http://cbseacademic.nic.in/x.pdf")))
+        # a marking scheme may be absent, but not present and wrong
+        self.assertEqual(broken(lambda d: d["subjects"]["maths"]["apq"][0].pop("ms")), [])
         self.assertTrue(broken(lambda d: d.update(version=2)))
         self.assertTrue(broken(lambda d: d["lists"]["qb"].update(url="https://example.com/qb.html")))
 

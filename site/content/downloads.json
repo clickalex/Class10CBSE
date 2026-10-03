@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "checked_on": "2026-10-02",
-  "provenance": "Every file URL below was copied from CBSE's own listing pages (the 'lists' block) on the date above. The site links to these files and never re-hosts them. Run scripts/check_downloads.py to re-check them against the live servers.",
+  "checked_on": "2026-10-03",
+  "first_checked_on": "2026-10-02",
+  "provenance": "Every file URL below was copied from CBSE's own listing pages (the 'lists' block), read on the dates first_checked_on to checked_on. No URL is built from a naming pattern: each one was seen on a CBSE page. The site links to these files and never re-hosts them. Run scripts/check_downloads.py to re-check them against the live servers.",
   "lists": {
     "pyq": {
       "label": "CBSE previous years' question papers",
@@ -13,16 +14,12 @@
     },
     "sqp_older": [
       {
-        "label": "2025–26",
-        "url": "https://cbseacademic.nic.in/SQP_CLASSX_2025-26.html"
+        "label": "2020–21",
+        "url": "https://cbseacademic.nic.in/SQP_CLASSX_2020-21.html"
       },
       {
-        "label": "2024–25",
-        "url": "https://cbseacademic.nic.in/SQP_CLASSX_2024-25.html"
-      },
-      {
-        "label": "2023–24",
-        "url": "https://cbseacademic.nic.in/SQP_CLASSX_2023-24.html"
+        "label": "2019–20",
+        "url": "https://cbseacademic.nic.in/SQP_CLASSX_2019_20.html"
       },
       {
         "label": "Archive",
@@ -44,6 +41,10 @@
     "apq": {
       "label": "CBSE additional practice questions",
       "url": "https://cbseacademic.nic.in/additionalPQ.html"
+    },
+    "cbe": {
+      "label": "CBSE CBE assessment resources",
+      "url": "https://cbseacademic.nic.in/cbe/assessment.html"
     }
   },
   "sittings": [
@@ -71,6 +72,31 @@
       "id": "2024",
       "label": "2024",
       "title": "Class X Examination 2024"
+    },
+    {
+      "id": "2024-compartment",
+      "label": "2024 · compartment",
+      "title": "Compartment Examination 2024"
+    },
+    {
+      "id": "2023",
+      "label": "2023",
+      "title": "Class X Examination 2023"
+    },
+    {
+      "id": "2023-compartment",
+      "label": "2023 · compartment",
+      "title": "Compartment Examination 2023"
+    },
+    {
+      "id": "2022",
+      "label": "2022",
+      "title": "Class X Examination 2022"
+    },
+    {
+      "id": "2022-compartment",
+      "label": "2022 · compartment",
+      "title": "Compartment Examination 2022"
     }
   ],
   "sessions": [
@@ -81,6 +107,26 @@
     {
       "id": "2025-26",
       "label": "2025–26"
+    },
+    {
+      "id": "2024-25",
+      "label": "2024–25"
+    },
+    {
+      "id": "2023-24",
+      "label": "2023–24"
+    },
+    {
+      "id": "2022-23",
+      "label": "2022–23"
+    },
+    {
+      "id": "2021-22-term-1",
+      "label": "2021–22 · Term 1"
+    },
+    {
+      "id": "2021-22-term-2",
+      "label": "2021–22 · Term 2"
     }
   ],
   "subjects": {
@@ -109,6 +155,26 @@
             "2024": {
               "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/MATHEMATICS_STANDARD.zip",
               "size": "33.6 MB"
+            },
+            "2024-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024-COMPTT/X/MATHEMATICS_STANDARD.zip",
+              "size": "3.08 MB"
+            },
+            "2023": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/MATHEMATICS_STANDARD.zip",
+              "size": "41.9 MB"
+            },
+            "2023-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023-COMPTT/X/Maths_Standard.zip",
+              "size": "7.25 MB"
+            },
+            "2022": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022/X/Math_S.zip",
+              "size": "16.8 MB"
+            },
+            "2022-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022-COMPTT/X/MATHEMATICS_STD.zip",
+              "size": "13.7 MB"
             }
           },
           "sqp": {
@@ -119,6 +185,26 @@
             "2025-26": {
               "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/MathsStandard-SQP.pdf",
               "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/MathsStandard-MS.pdf"
+            },
+            "2024-25": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/MathsStandard-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/MathsStandard-MS.pdf"
+            },
+            "2023-24": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/MathsStandard-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/MathsStandard-MS.pdf"
+            },
+            "2022-23": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/MathsStandard-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/MathsStandard-MS.pdf"
+            },
+            "2021-22-term-1": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/MathsStandard-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/MathsStandard-MS.pdf"
+            },
+            "2021-22-term-2": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/MathsStandard-SQP_Term2.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/MathsStandard-MS_Term2.pdf"
             }
           }
         },
@@ -145,6 +231,26 @@
             "2024": {
               "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/MATHEMATICS_BASIC.zip",
               "size": "41.3 MB"
+            },
+            "2024-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024-COMPTT/X/MATHEMATICS_BASIC.zip",
+              "size": "2.06 MB"
+            },
+            "2023": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/MATHEMATICS_BASIC.zip",
+              "size": "47.1 MB"
+            },
+            "2023-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023-COMPTT/X/Maths_Basic.zip",
+              "size": "6.83 MB"
+            },
+            "2022": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022/X/Math_B.zip",
+              "size": "15.1 MB"
+            },
+            "2022-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022-COMPTT/X/MATHEMATICS_BASIC.zip",
+              "size": "15.0 MB"
             }
           },
           "sqp": {
@@ -155,6 +261,26 @@
             "2025-26": {
               "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/MathsBasic-SQP.pdf",
               "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/MathsBasic-MS.pdf"
+            },
+            "2024-25": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/MathsBasic-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/MathsBasic-MS.pdf"
+            },
+            "2023-24": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/MathsBasic-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/MathsBasic-MS.pdf"
+            },
+            "2022-23": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/MathsBasic-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/MathsBasic-MS.pdf"
+            },
+            "2021-22-term-1": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/MathsBasic-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/MathsBasic-MS.pdf"
+            },
+            "2021-22-term-2": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/MathsBasic-SQP_Term2.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/MathsBasic-MS_Term2.pdf"
             }
           }
         }
@@ -163,6 +289,14 @@
         {
           "label": "CBSE Question Bank — Mathematics, Class X",
           "url": "https://cbseacademic.nic.in/web_material/QuestionBank/ClassX/MathsX.pdf"
+        },
+        {
+          "label": "CBSE competency-based test items — Mathematics, Class 10",
+          "url": "https://cbseacademic.nic.in/cbe/documents/SAS_Maths-Class-10.pdf"
+        },
+        {
+          "label": "CBSE CBE item bank — Mathematics, Class 10",
+          "url": "https://cbseacademic.nic.in/cbe/documents/Item-Bank--Maths---Class-10.pdf"
         }
       ],
       "apq": [
@@ -177,6 +311,17 @@
           "label": "Mathematics · Set 2",
           "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/Mathematics-PQ2.pdf",
           "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/Mathematics-PQMS2.pdf"
+        },
+        {
+          "session": "2022-23",
+          "label": "Mathematics",
+          "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/Mathematics-PQ.pdf",
+          "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/Mathematics-PQMS.pdf"
+        },
+        {
+          "session": "2021-22",
+          "label": "Mathematics (Standard)",
+          "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/MathsStandard-PQ.pdf"
         }
       ]
     },
@@ -205,6 +350,26 @@
             "2024": {
               "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/SCIENCE.zip",
               "size": "41.1 MB"
+            },
+            "2024-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024-COMPTT/X/SCIENCE.zip",
+              "size": "1.99 MB"
+            },
+            "2023": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/SCIENCE.zip",
+              "size": "48.0 MB"
+            },
+            "2023-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023-COMPTT/X/Science.zip",
+              "size": "16.5 MB"
+            },
+            "2022": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022/X/Scince.zip",
+              "size": "24.0 MB"
+            },
+            "2022-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022-COMPTT/X/SCIENCE.zip",
+              "size": "11.1 MB"
             }
           },
           "sqp": {
@@ -215,6 +380,26 @@
             "2025-26": {
               "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/Science-SQP.pdf",
               "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/Science-MS.pdf"
+            },
+            "2024-25": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/Science-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/Science-MS.pdf"
+            },
+            "2023-24": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/Science-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/Science-MS.pdf"
+            },
+            "2022-23": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/Science-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/Science-MS.pdf"
+            },
+            "2021-22-term-1": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/Science-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/Science-MS.pdf"
+            },
+            "2021-22-term-2": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/Science-SQP_Term2.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/Science-MS_Term2.pdf"
             }
           }
         }
@@ -223,6 +408,14 @@
         {
           "label": "CBSE Question Bank — Science, Class X",
           "url": "https://cbseacademic.nic.in/web_material/QuestionBank/ClassX/ScienceX.pdf"
+        },
+        {
+          "label": "CBSE competency-based test items — Science, Class 10",
+          "url": "https://cbseacademic.nic.in/cbe/documents/SAS_Science-Class-10.pdf"
+        },
+        {
+          "label": "CBSE CBE item bank — Science, Class 10",
+          "url": "https://cbseacademic.nic.in/cbe/documents/Item-Bank---Science-Class-10.pdf"
         }
       ],
       "apq": [
@@ -237,6 +430,17 @@
           "label": "Science · Set 2",
           "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/Science-PQ2.pdf",
           "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/Science-PQMS2.pdf"
+        },
+        {
+          "session": "2022-23",
+          "label": "Science",
+          "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/Science-PQ.pdf",
+          "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/Science-PQMS.pdf"
+        },
+        {
+          "session": "2021-22",
+          "label": "Science",
+          "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/Science-PQ.pdf"
         }
       ]
     },
@@ -265,6 +469,26 @@
             "2024": {
               "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/SOCIAL_SCIENCE.zip",
               "size": "38.6 MB"
+            },
+            "2024-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024-COMPTT/X/SOCIAL_SCIENCE.zip",
+              "size": "6.49 MB"
+            },
+            "2023": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/SOCIAL_SCIENCE.zip",
+              "size": "38.8 MB"
+            },
+            "2023-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023-COMPTT/X/Social_Science.zip",
+              "size": "13.9 MB"
+            },
+            "2022": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022/X/SST.zip",
+              "size": "21.5 MB"
+            },
+            "2022-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022-COMPTT/X/SOCIAL_SCIENCE.zip",
+              "size": "9.85 MB"
             }
           },
           "sqp": {
@@ -275,6 +499,26 @@
             "2025-26": {
               "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/SocialScience-SQP.pdf",
               "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/SocialScience-MS.pdf"
+            },
+            "2024-25": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/SocialScience-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/SocialScience-MS.pdf"
+            },
+            "2023-24": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/SocialScience-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/SocialScience-MS.pdf"
+            },
+            "2022-23": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/SocialScience-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/SocialScience-MS.pdf"
+            },
+            "2021-22-term-1": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/SocialScience-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/SocialScience-MS.pdf"
+            },
+            "2021-22-term-2": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/SocialScience-SQP_Term2.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/SocialScience-MS_Term2.pdf"
             }
           }
         }
@@ -291,6 +535,17 @@
           "label": "Social Science · Set 2",
           "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/SS-PQ2.pdf",
           "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/SS-PQMS2.pdf"
+        },
+        {
+          "session": "2022-23",
+          "label": "Social Science",
+          "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/SS-PQ.pdf",
+          "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/SS-PQMS.pdf"
+        },
+        {
+          "session": "2021-22",
+          "label": "Social Science",
+          "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/SocialScience-PQ.pdf"
         }
       ]
     },
@@ -319,6 +574,26 @@
             "2024": {
               "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/ENGLISH_L&L.zip",
               "size": "31.4 MB"
+            },
+            "2024-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024-COMPTT/X/ENGLISH_L&L.zip",
+              "size": "977 KB"
+            },
+            "2023": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/English_Language_Literature.zip",
+              "size": "16.8 MB"
+            },
+            "2023-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023-COMPTT/X/English_Lan_Lit.zip",
+              "size": "2.39 MB"
+            },
+            "2022": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022/X/English_&_Lit.zip",
+              "size": "13.7 MB"
+            },
+            "2022-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022-COMPTT/X/English_language_and_Literature.zip",
+              "size": "2.21 MB"
             }
           },
           "sqp": {
@@ -329,6 +604,26 @@
             "2025-26": {
               "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/EnglishL-SQP.pdf",
               "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/EnglishL-MS.pdf"
+            },
+            "2024-25": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/EnglishL-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/EnglishL-MS.pdf"
+            },
+            "2023-24": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/EnglishL-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/EnglishL-MS.pdf"
+            },
+            "2022-23": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/EnglishL-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/EnglishL-MS.pdf"
+            },
+            "2021-22-term-1": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/EnglishL-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/EnglishL-MS.pdf"
+            },
+            "2021-22-term-2": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/EnglishL-SQP_Term2.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/EnglishL-MS_Term2.pdf"
             }
           }
         }
@@ -337,6 +632,14 @@
         {
           "label": "CBSE Question Bank — English, Class X",
           "url": "https://cbseacademic.nic.in/web_material/QuestionBank/ClassX/EnglishX.pdf"
+        },
+        {
+          "label": "CBSE competency-based test items — English, Class 10",
+          "url": "https://cbseacademic.nic.in/cbe/documents/SAS_English-Class-10.pdf"
+        },
+        {
+          "label": "CBSE CBE item bank — English, Class 10",
+          "url": "https://cbseacademic.nic.in/cbe/documents/Item-Bank---English---Class-10.pdf"
         }
       ],
       "apq": [
@@ -345,6 +648,17 @@
           "label": "English Language & Literature",
           "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/EnglishLL_PQ.pdf",
           "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/EnglishLL_PQMS.pdf"
+        },
+        {
+          "session": "2022-23",
+          "label": "English (CBSE lists it simply as “English”)",
+          "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/English-PQ.pdf",
+          "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/English-PQMS.pdf"
+        },
+        {
+          "session": "2021-22",
+          "label": "English Language & Literature",
+          "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/EnglishL-PQ.pdf"
         }
       ]
     },
@@ -373,6 +687,26 @@
             "2024": {
               "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/HINDI_A.zip",
               "size": "18.4 MB"
+            },
+            "2024-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024-COMPTT/X/HINDI_A.zip",
+              "size": "0.97 MB"
+            },
+            "2023": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/HINDI_A.zip",
+              "size": "20.5 MB"
+            },
+            "2023-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023-COMPTT/X/Hindi_A.zip",
+              "size": "6.01 MB"
+            },
+            "2022": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022/X/Hindi_A.zip",
+              "size": "4.25 MB"
+            },
+            "2022-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022-COMPTT/X/HINDI_A.zip",
+              "size": "1.43 MB"
             }
           },
           "sqp": {
@@ -383,6 +717,26 @@
             "2025-26": {
               "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/HindiCourseA-SQP.pdf",
               "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/HindiCourseA-MS.pdf"
+            },
+            "2024-25": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/HindiCourseA-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/HindiCourseA-MS.pdf"
+            },
+            "2023-24": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/HindiCourseA-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/HindiCourseA-MS.pdf"
+            },
+            "2022-23": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/HindiCourseA-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/HindiCourseA-MS.pdf"
+            },
+            "2021-22-term-1": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/HindiCourseA-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/HindiCourseA-MS.pdf"
+            },
+            "2021-22-term-2": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/HindiCourseA-SQP_Term2.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/HindiCourseA-MS_Term2.pdf"
             }
           }
         },
@@ -409,6 +763,26 @@
             "2024": {
               "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/HINDI_B.zip",
               "size": "20.8 MB"
+            },
+            "2024-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024-COMPTT/X/HINDI_B.zip",
+              "size": "877 KB"
+            },
+            "2023": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/HINDI_B.zip",
+              "size": "17.7 MB"
+            },
+            "2023-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023-COMPTT/X/Hindi_B.zip",
+              "size": "2.55 MB"
+            },
+            "2022": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022/X/Hindi_B.zip",
+              "size": "4.12 MB"
+            },
+            "2022-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022-COMPTT/X/HINDI-B.zip",
+              "size": "1.56 MB"
             }
           },
           "sqp": {
@@ -419,6 +793,26 @@
             "2025-26": {
               "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/HindiCourseB-SQP.pdf",
               "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/HindiCourseB-MS.pdf"
+            },
+            "2024-25": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/HindiCourseB-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/HindiCourseB-MS.pdf"
+            },
+            "2023-24": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/HindiCourseB-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/HindiCourseB-MS.pdf"
+            },
+            "2022-23": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/HindiCourseB-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/HindiCourseB-MS.pdf"
+            },
+            "2021-22-term-1": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/HindiCourseB-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/HindiCourseB-MS.pdf"
+            },
+            "2021-22-term-2": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/HindiCourseB-SQP_Term2.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/HindiCourseB-MS_Term2.pdf"
             }
           }
         }
@@ -447,6 +841,11 @@
           "label": "Hindi B · Set 2",
           "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/HindiB-PQ2.pdf",
           "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/HindiB-PQMS2.pdf"
+        },
+        {
+          "session": "2021-22",
+          "label": "Hindi A",
+          "pq": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/HindiCourseA-PQ.pdf"
         }
       ]
     },
@@ -471,6 +870,22 @@
             "2024": {
               "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/Computer_Applications.zip",
               "size": "521 KB"
+            },
+            "2023": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/53_Computer_Applications.zip",
+              "size": "1.37 MB"
+            },
+            "2023-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023-COMPTT/X/Computer_applications.zip",
+              "size": "965 KB"
+            },
+            "2022": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022/X/Computer_Applications.zip",
+              "size": "403 KB"
+            },
+            "2022-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022-COMPTT/X/Computer_Applications.zip",
+              "size": "379 KB"
             }
           },
           "sqp": {
@@ -481,6 +896,26 @@
             "2025-26": {
               "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/ComputerApplication-SQP.pdf",
               "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/ComputerApplication-MS.pdf"
+            },
+            "2024-25": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/ComputerApplication-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/ComputerApplication-MS.pdf"
+            },
+            "2023-24": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/ComputerApplication-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/ComputerApplication-MS.pdf"
+            },
+            "2022-23": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/ComputerApplication-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/ComputerApplication-MS.pdf"
+            },
+            "2021-22-term-1": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/ComputerApplication-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/ComputerApplication-MS.pdf"
+            },
+            "2021-22-term-2": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/ComputerApplication-SQP_Term2.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/ComputerApplication-MS_Term2.pdf"
             }
           }
         }
@@ -519,6 +954,26 @@
             "2024": {
               "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/Sanskrit.zip",
               "size": "1.07 MB"
+            },
+            "2024-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024-COMPTT/X/Sanskrit.zip",
+              "size": "168 KB"
+            },
+            "2023": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/52_SANSKRIT.zip",
+              "size": "1.00 MB"
+            },
+            "2023-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023-COMPTT/X/Sanskrit.zip",
+              "size": "2.15 MB"
+            },
+            "2022": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022/X/Sanskrit.zip",
+              "size": "595 KB"
+            },
+            "2022-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022-COMPTT/X/Sanskrit.zip",
+              "size": "1.17 MB"
             }
           },
           "sqp": {
@@ -529,6 +984,26 @@
             "2025-26": {
               "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/Sanskrit-SQP.pdf",
               "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2025_26/Sanskrit-MS.pdf"
+            },
+            "2024-25": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/Sanskrit-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/Sanskrit-MS.pdf"
+            },
+            "2023-24": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/Sanskrit-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/Sanskrit-MS.pdf"
+            },
+            "2022-23": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/Sanskrit-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/Sanskrit-MS.pdf"
+            },
+            "2021-22-term-1": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/Sanskrit-SQP.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/Sanskrit-MS.pdf"
+            },
+            "2021-22-term-2": {
+              "sqp": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/Sanskrit-SQP_Term2.pdf",
+              "ms": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2021_22/Sanskrit-MS_Term2.pdf"
             }
           }
         }
@@ -559,6 +1034,22 @@
             "2024": {
               "url": "https://www.cbse.gov.in/cbsenew/question-paper/2024/X/Information_Technology.zip",
               "size": "399 KB"
+            },
+            "2023": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023/X/89_Information_Technology.zip",
+              "size": "2.71 MB"
+            },
+            "2023-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2023-COMPTT/X/Information_Technology.zip",
+              "size": "1.12 MB"
+            },
+            "2022": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022/X/Information%20Technology.zip",
+              "size": "1.33 MB"
+            },
+            "2022-compartment": {
+              "url": "https://www.cbse.gov.in/cbsenew/question-paper/2022-COMPTT/X/INFORMATION_TECHNOLOGY.zip",
+              "size": "604 KB"
             }
           },
           "sqp": {
